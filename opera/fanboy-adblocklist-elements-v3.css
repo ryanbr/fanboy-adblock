@@ -1,0 +1,569 @@
+/*
+! Fanboy Optimised Element Blocking
+! Version: V3 
+! License: http://creativecommons.org/licenses/by-sa/3.0/
+! Contact: mp3geek@gmail.com  http://fanboy.co.nz/adblock
+!
+! For Opera, save this file into 
+! (XP) C:\Documents and Settings\<username>\Application Data\Opera\Opera\profile\
+! (Vista/7) C:\Users\<username>\AppData\Roaming\Opera\Opera\profile\ 
+! (Linux) ~/.opera/
+! (OSX) /Users/<username>/Library/Preferences/Opera Preferences/
+!
+! To load in opera, Tools -> Preferences -> Advanced Tab -> Content -> Style Options Button
+! Browse to your Opera profile directory and select "fanboy-adblocklist-elements-v3.css" (this file)
+!
+! OSX: Opera Menu -> Preferences -> Advanced Tab -> Content -> Style Options Button
+! Browse to your Opera Prefs directory and select "fanboy-adblocklist-elements-v3.css" (this file)
+!
+! http://fanboy.co.nz/adblock/opera
+!
+*/
+/* Generic ID's */
+#A9AdsMiddleBoxTop,#A9AdsServicesWidgetTop,#AD_Top,#Ad160x600,#Ad300x250,#Ad728x90,#AdBlock,#AdMiddle,#AdSense,#AdsContent,#AdSenseDiv,#BannerAd,
+#FooterAd,#HouseAd,#MainAd,#NormalAdModule,#PanelAd,#ad-1,#ad-3,#ad-300x250,#ad-300x250Div,#ad-banner,#ad-bottom,#ad-footer,
+#ad-frame,#ad-holder,#ad-medium-rectangle,#ad-splash,#ad-top,#ad-wrap,#ad-yahoo-simple,#ad1,#ad2,#adBannerTable,#adBlock,
+#adFrame,#adHolder,#adMarketplace,#adStrip,#adTag-genre,#adTop,#ad_160x160,#ad_Rectangle,#ad_bar,#ad_block,#ad_container,
+#ad_content,#ad_feature,#ad_halfpage,#ad_island,#ad_infoboard_box,#ad_leaderBoard,#ad_leaderboard,#ad_placeholder,#ad_rect,
+#ad_rect_body,#ad_rectangle,#ad_sidebar2,#ad_sidebar3,#ad_top,#ad_top_holder,#ad_wide,#ad300x250Module,#ad728x90,#adbar,
+#adbard,#adblock,#addDiv,#adheader,#adleaderboard,#admpu,#adnews,#adposition-C,#adrectangle,#adright,#ads-top,#ads336x280,
+#ads7,#adsBar,#ads300,#ads300Top,#ads300Bottom,#ads_belownav,#ads_title,#adsense,#adsense-text,#adspace,#adSpace2,#adSpotSponsoredLinks,
+#adspot-c,#adspot-d,#adtag,#advert-column,#advertiserLinks,#advertorial,#advframe,#article-box-ad,#banner-ad,#banner-ads,
+#banner_ad_footer,#banner_slot,#banner_wrapper_top,#bannerhead,#belowheaderad,#big_ad,#bigad,#bigad300outer,#bnrAd,
+#bottom_sponsor_ads,#bottomMPU,#bottom_sponsored_links,#boxad,#boxad1,#boxad2,#boxad3,#boxad4,#boxad5,#cellAd,#columnAd,
+#common_top_adspace,#companion_Ad,#companionad,#contextualad,#first_ad_unit,#footerAds,#footerAdverts,#footer_ads,#globalLeftNavAd,
+#google-ad-art,#google-ads,#google_ad,#google_ads,#googlebanner,#global_header_ad,#headeradbox,#headAd,#headerTopAdWide,
+#header_ad,#header_ads,#header_ad_leaderboard,#headeradspace,#headingAd,#homead,#houseAd,#iframe_container300x250,#imu,
+#inlinead,#interruptor,#island_ad_top,#leader-board-ad,#leaderboard-ad,#leaderboardAd,#leaderboardn,#leftAdvert,#leftads,
+#lrec,#mastad,#masthead_ad,#menuAds,#microsoft_ad,#midpost_ad,#midrect_ad,#midstrip_ad,#mpu_banner,#page-header-ad,#partner-ad,
+#quigo,#quinAdLeaderboard,#region-top-ad,#right-ad,#rightAd,#rightAd160x600,#rightAd160x600two,#rightAd300x250,#right_ad_wrapper,
+#sidebar-ads,#sidebarAd,#SidebarAdContainer,#skyscraperAd,#sponLinkDiv_1,#spons_links,#sponseredlinks,#sponsor-links,
+#sponsor_div,#sponsored-links,#sponsoredLinksBox,#sponsored_ads,#sponsored_links,#sponsoredlinks,#sponsoredresults_top,
+#square-ads,#squareAdSpace,#square_ad,#tbl_googlead,#top-advertisement,#topAD,#topAd,#topAd728x90,#topAdBanner,#topAdSenseDiv,
+#topAds,#topBannerAd,#topMPU,#top_ad,#top_adspace,#topads,#topadvert,#topleader,#toppannonse,#toprightad,#topright-ad,
+#tut_ads,#upperad,#upperad,#videoAd,#wrapper_banner,#yahoo-ads-content,#yahoo_ads,.Ad.Panel,.AdUnit,.Ad_Right,.AdContainerBox308,.Ads,.Box2.Ad,.HeaderLeaderAd,.LeftTowerAd,.RightTowerAd,.SponsorIsland,.TextAd,.ad-768,
+.ad-container,.ad-holder,.ad-home-right,.ad-island,.ad-leaderboard,.ad-mpu,.ad-other,.ad-rect,.ad-rectangle-text,.ad-space,
+.ad-unit,.ad-wrap,.ad.top,.ad1,.ad2,.ad160,.ad_300_250,.ad300,.ad310,.ad300x250,.ad300x250Top,.ad300x40,.ad336x280,.adArticleBody,
+.adBanner,.adBlock,.adBlockBottom,.adColumn,.adFrame,.adHeadline,.adMarker,.adModule,.adRight,.adText,.adWithTab,.ad_1,
+.ad_2,.ad_3,.ad_336x280,.ad_728_90b,.ad_banner,.ad_block_338,.ad_bg,.ad_cont,.ad_footer,.ad_lrec,.ad_medrect,.ad_mrec,
+.ad_notice,.ad_skyscrapper,.ad_slug,.ad_slug_font,.ad_top,.adarea,.adbckgrnd,.adblock,.adcolumn,.adcontainer,.adcopy,
+.adfoot,.adheader,.adHeader,.admpu,.admodule,.adops.textlinks,.adpad300,.adrule,.ads468x60,.adsense,.adsense-title,
+.adsplat,.adspot,.adspot.mrec,.adssquare,.adtop,.adv,.advert,.advertRight,.advert_block,.advertise-horz,.advertisement,
+.advertisement-block,.advertisement-header,.advertisement-top,.advertisement468,.advertisement_horizontal,.advertisingTable,
+.advhere,.advtable,.articleAd,.articlead,.articleflex-container,.banner-adverts,.banner.ad,.bannerAd,.banner_ad_footer,
+.banner_ad_leaderboard,.belt_ad,.bigAd,.bigad,.blocked-ads,.blog-ads,.bottomAds,.blogBigAd,.bottomleader,.box.ad,.box-ad-a,
+.boxAd,.box_ad,.box_content_ads,.center_ad,.cubeAd,.dynamic-ads,.fixedAds,.flash_advert,.footerAd,.google-ad,.google_ad,
+.group.ads,.hd_advert,.header_advertisment,.horizontalAd,.horizontaltextadbox,.iframe-ad,.inlineSideAd,.inpostad,.island_ad,
+.leader_aol,.leaderboard,.leaderboard_ad,.left_col_ad,.leftad,.lowerAds,.main_ad,.marginadsthin,.medrect,.micro_ad,
+.mid-ad-wrapper,.midad,.modulegad,.moduleAd,.moduletable-advert,.mpu-title,.mpuAd,.mpuBox,.panel_ad,.pnp_ad,.prebodyads,
+.promo-ad,.quigo,.quigoads,.rectangleAd,.rectangle_ad,.rectanglead,.rev_square_side_door,.rightcol_boxad,.rightAd,.right-ad,
+.right_ad_text,.right_col_ad,.rnav_ad.searchAd,.showcaseAd,.sidead,.sidebarAd,.sidebarBanner,.sidebar_ad,.singleads,.skyAd,
+.sponsor-ad,.sponsorArea,.sponsorad,.sponsored_links,.sponsored-links,.sponsored-rule,.sponsoredLinks,.squaread,.textAds,.textad,.textadbox,
+.thisIsAnAd,.topAds,.topBannerAd,.topleader,.towerAds,.wideAd,.y7s-lrec,a[class="ad_policy"],fieldset[class="ads"],img[class="ad-image"],
+
+/* updated */
+.ad_300x250,.ad_728x90,.ad_160x600,.ad_block_300x250,.rght300x250,#top_ad_area,#bottomads,
+.right-ad2,.spons-link,.rail_ad,#articleSideAd,#ysm_ad_iframe,#contentAd,#adblock2,#adblock1,
+.banner-300,.rightads,.googleads_title,#top_sponsor_ads,#topadblock,#adbottom,.ad_box2,
+#admiddle3left,#adright2,#adv-masthead,#adsonar,#ad-halfpage,#AdContainerTop,.adsense-heading,
+#content_ads_content,#HeroUnitMedRec,#SponsoredLinks,#side_ad_wrapper,.main-tabs-ad-block,
+.googleAd,.adspacer,.topAdvertisement,#ad_160x600,#ad_300x250,#ad_728x90,#google-ad-tower,
+.sideadvert,#footerAdDiv,.blog-ads-container,#adwords-4-container,.ad300x600,.googleAdBox,
+#hdrAdBanner,#ad-wrapper-728x90,#towerad,#bps-header-ad-container,.bps-ad-wrapper,.bps-advertisement,.live-search-list-ad-container,
+#ad-right2,#ad-right3,.ad_728,#ad_728_foot,.ad_top_leaderboard,.ad_bottom_leaderboard,#ad-skyscraper,.containerSqAd,
+#skyAd,#bannerAd,#sponsorship-box,#ad_Top,#adsDiv0,#footer_ad,.adborder,.leaderboardAd,.mpuContainer,.ad_unit,
+#advRectangle,#advWrapper,#galleryad1,#bottom_ad_area,.adv2,.admedrec,.Ads_forum,#ad_medium_rectangle,#rhsads,.ads.topads,
+#rhs_ads,#page_content_top_ad,#adv-box,#adv-container,.google-right-ad,#ads-block,#ad300,.ad-bottom,#mpuad,.bannerad,
+
+
+/* 123greetings.com */
+.rt_advert_name,
+/* 123people.co.uk */
+.cb_navigation_ad,
+/* 3news.co.nz */
+#dnn_adSky,
+/* about.com */
+#adB,#adP,#adF,
+/* addictinggames.com */
+#game-info-ad,
+/* afl.com.au */
+#dnn_adLeaderBoard2008,
+/* alarabiya.net */
+.tbl_ad,
+/* alexa.com */
+.gradientAd.site-listing,.gradientAd.site-listing.borderTop,
+/* alternet.org */
+.supercommentad_left,.supercommentad_right,
+/* amazon.com */
+#A9AdsOutOfStockWidgetTop,
+/* answers.com */
+.ads_div,
+/* answers.yahoo.com */
+#yan-question-advert,
+/* aol.co.uk */
+#adFps,#flexiad,#lateAd,.SLL,.ukAds,
+/* aol.com */
+#ai300x250,#dmn_results,#outerTwrAd,#spAd,#towerad,.lft120x60,
+/* arstechnica.com */
+#da-elit,#da-elit.with-divider,#da-draobredael,
+/* ask.com */
+.rr_ads,.spl_ad,.spl_ad2,.spl_shd_plus,
+/* askmen.com */
+.ad_info,.adUnit,
+/* au.yahoo.com */
+#y708-windowshade,
+/* autos.aol.com */
+.squareAdd,.squareAddtwo,
+/* bestweekever.tv */
+.sb_ad_holder,
+/* betanews.com */
+.ad-homeleaderboard,
+/* biblegateway.com */
+#a9g-leader-spacer,
+/* bigpond.com */
+#sensis_island_ad_1_column,
+/* bing.com */
+.sb_adsW,
+/* bitmob.com */
+#advert,
+/* bit-tech.net */
+#broadband-finder-co-uk-120,#mobile-phones-co-uk-120,
+/* bjorn3d.com */
+.ads_inside2,
+/* blackbookmag.com */
+.module.bb-adv-300x250,
+/* boatsales.com.au */
+.homepage-sponsoredlinks-container,
+/* bostonherald.com */
+#headerAd,.adLocal,
+/* bostonreview.net */
+#google_ads,#right_column_ad,.graphic_ad,
+/* break.com */
+.adlabel,
+/* businessinsider.com */
+.sponsored-post,
+/* businesspundit.com */
+.side-ad-blocks,
+/* careerone.com.au */
+.adkit-advert,.adkit-lb-footer,
+/* cfo.com */
+#top-ad,
+/* chip.de */
+#adzoneBANNER,
+/* christianpost.com */
+.bannerTop,.bannerBottom,#bigBanner,
+/* chron.com */
+.advertiseBlack,
+/* cio.co.nz */
+.sponsor_div_title,
+/* citytv.com */
+#CityTv-HeaderBannerBorder,.Video-Ad,
+/* cnbc.com */
+#USNewsBlogs300x250,
+/* cnet.co.uk */
+#header-ads,
+/* cnet.com */
+#cnetToolbarWrap,#adMiniPremiere,
+/* cnn.com */
+#rbAdWrapperRt,#rbAdWrapperTop,.cnnStoryElementBox,.cnn_adspc336cntr,.cnn_strycntntrgt,.cnn_adcntr728x90t,
+/* cnngo.com */
+#block-ad_cube-0,#block-ad_cube-1,
+/* commentarymagazine.com */
+.textadsds,
+/* computerworld.co.nz */
+.sponsor_div_title,
+/* concierge.com */
+.adHeader,
+/* cracked.com */
+.Box1.AdBox,.affiliateAdvertText.left,
+/* crainsnewyork.com */
+#ad-big,#header-advert,
+/* crikey.com.au */
+#doubleclick-island,
+/* crunchgear.com */
+.sponsor_units,
+/* dailyhaha.com */
+#sponheader,
+/* dailymotion.com */
+#player_middle_ad,.dmco_box.mc_leftcol,
+/* darkreading.com */
+#leaderboardAdArea,
+/*demonoid.com */
+#bnr3,.pad9px_right,
+/* detnews.com */
+.bannerSpace.clearfix,
+/* deviantart.com */
+#adso-magnifico,.ad-blocking-makes-fella-confused,.hidoframe,.sleekadbubble,
+/* digitalspy.co.uk */
+#adcode3,
+/* dinside.no */
+#adNshareWrap,
+/* discovery.com */
+#top-advertising,.adSlug.adSlugPosition,
+/* ditii.com */
+.ads.ads_h,
+/* divinecaroline.com */
+#c_6ad_250h,
+/* download.cnet.com */
+.dh_vend,.dh_vend_pad,.dh_vend_last,.dh_vend_top,
+/* downloadsquad.com */
+.em-ad,
+/* driverheaven.net */
+#content_mpu,
+/* ebaumsworld.com */
+#mediumrect,
+/* ecollegetimes.com */
+#flan_leader,.cp_ad,
+/*economist.com */
+#top_banner,#classified_wrapper,#bannerspace-bottom,.ec-ads,div[id="leaderboard"],
+/* ediets.com */
+#ad-col,
+/* ekstrabladet.dk */
+.eb_ad280.clearfix,
+/* electronista.com */
+#sb-ad-sq,.ad-skyscr,
+/* empireonline.com.au */
+#banner468,
+/* esquire.com */
+#channel_ads,#sponsoredlinks_cntr,
+/* fastcompany.com */
+#mod_imu,
+/* facebook.com */
+#home_sponsor_nile,.advertise_ads,
+/* fakingnews.com */
+.adLabel,
+/* fora.tv */
+#common_right_lower_player_adspace,#common_right_right_adspace,#common_right_lower_adspace,
+/* forbes.com */
+#colAd,
+/* foreignpolicy.com */
+.ad-bigbox,
+/* forums.somethingawful.com */
+.adbot,
+/* fosswire.com */
+.medrec,
+/* foxnews.com */
+#cb_medrect1_div,#console300x100,.console_el,
+/* fresnobee.com */
+.ad-national-1,
+/* ft.com */
+#top-ad,
+/* gameplanet.co.nz */
+.bAdv,.sAdv,
+/* geekstir.com */
+#adbox,
+/* goerie.com */
+.artAdInner,.inArticleAdInner,
+/* google */
+#ads-bot,#mbEnd,#rhsa,#tads,#ps-top-ads-sponsored,
+/* greenbiz.com */
+#navigation-ad,
+/* greenercomputing.com */
+#header-banner-spc,.inner-ad,#bottom-banner-spc,
+/* h-online.com */
+#bannerzone,
+/* heise.de */
+.naviad,.teaser_adliste,
+/* hgtvpro.com */
+.adTitle,
+/* hgtvpro.com */
+.headerAd,#vert_ad,
+/* howstuffworks.com */
+#MedRect,#MedRectHome,.adBoxSingle,
+/* howtoforge.com */
+#adrectanglea,#adrectangleb,
+/* huffingtonpost.com */
+#most_popular_ad,.section.videoAd-wrapper,
+/* idg.com.au */
+#advisor_rhs_promobox,
+/* imageshack.us */
+#yieldaddiv,
+/* inc.com */
+.ad_partners,
+/* independent.co.uk */
+.indy_googleads,
+/* indianapublicmedia.org */
+.med-rect,
+/* investopedia.com */
+.sponsoredibbox,
+/* investorwords.com */
+#leaderboard_wrap,
+/* jame-world.com */
+#adv_google_300,#adv_google_728,#adv_top,.adv_right,
+/* joeuser.com */
+.monsterad,
+/* jpost.com */
+.artAdBlock.clearboth,.bg_EFE.padall5.margbot16,.brdtopbanner,
+/* jsonline.com */
+.full_width_ad,
+/* katu.com */
+#leader-sponsor,
+/* kayak.co.uk */
+#nrAds,
+/* khq.com */
+#WNAd20,#WNAd52,
+/* king-mag.com */
+#mediumrec,
+/* komonews.com */
+#leader-sponsor,
+/* laweekly.com */
+.PencilAd,
+/* linux-mag.com */
+.txt-ads,
+/* lionsdenu.com */
+.banner468,
+/* macdailynews.com */
+#sm-banner-ad,#lg-banner-ad,.podSponsoredLink,
+/* macrumors.com */
+#googleblock300,#mr_banner_topad,
+/* mail.google.com */
+.rh > #ra,.u5 > DIV.oM,
+/* menshealth.com */
+#boxads,#skyscraper,.ad_caption,
+/* metronews.ca */
+.adHolder,#pullquote_adu,
+/* metro.co.uk */
+#advert234_container,#advert_yell,.google_modtr,
+/* metromix.com */
+.advertising-local-links,
+/* microsoft.com */
+#msad,#divAD1,.cdAdTitle,
+/* mmorpg.com */
+#contentinlineAd,
+/* mnn.com */
+#block-google_admanager-53,
+/* momslikeme.com */
+.adModule300,.headerAd,
+/* money.cnn.com */
+#moneySponsorBox,
+/* morningstar.com */
+#embedAD,.aadsection_b1,.aadsection_b2,.adsection_a2,.adsection_c2,.asection_a1,.f_Ads,.h_Ads,
+/* move.com */
+.mvAd,.mvAdHdr,
+/* msn.com */
+#mlad,#sideBarAd,
+/* msn.co.nz */
+#ADEXPERT_PUSHDOWN,#ADEXPERT_RECTANGLE,
+/* msnbc.msn.com */
+#AdBanner_S,#AdSponsor_SF,#AdShowcase_F1,#AdBanner_F1,#ad-front-resourceguide,#ad-front-footer,#dcol-resourceguide,#dcol-sponsored,.w460.clr,#ad-front-sponsoredlinks,#marketplace.nav-menu,
+/* music.yahoo.com */
+#YMusicRegion_T2_R2C2,#YMusicRegion_T3_R2C2_R1,#YMusicRegion_TN1_R2C2_R1,
+/* myfoxatlanta.com */
+#expandedVert,
+/* myway.com */
+#sponLinkDiv_1,
+/* myspace.com */
+#music_googlelinks,#music_medrec,
+/* nbr.co.nz */
+#header-ad,
+/* neopets.com */
+.ad_wrapper,.ad_wrapper_fixed,
+/* netmag.co.uk */
+.adsystem_ad,
+/* newgrounds.com */
+.box.adhead, #pd-ads, 
+/* news-press.com */
+.adlabel-horz,#search-sponsor,.search-sponsor,
+/* news.com.au */
+.adspace-300x600.clearfloat,.module.module-ad-small,
+/* news24.com */
+#sponsor_box,
+/* newscientist.com */
+#hldhdAds,.adline,
+/* newsweek.com */
+.homepageFlexAdOuter,
+/* ninemsn.com.au */
+#footer_AdArea,#spotlight_ad,#top_promo_ie8,
+/* nydailynews.com */
+#nydn_bar_top,
+/* nytimes.com */
+#adxBigAd,#adxBigAd2,#adxLeaderboard,#adxMiddle,#adxMiddle5,#adxSponLink2,#adxSponLinkA,.adHeader,.columnGroup.advertisementColumnGroup,
+/* nyteknik.se */
+.text-ads.text-ads-affiliated.first,
+/* nzcity.co.nz */
+.page_skyscraper,
+/* omg.yahoo.com */
+#omg-lrec,
+/* online.barrons.com */
+#barronsUber,
+/* orange.co.uk */
+.GoogleAd,
+/* osnews.com */
+.ad,
+/* ovguide.com */
+.banner-leaderboard,.banner-rectangleMedium,
+/* palmbeachpost.com */
+#cxnAdrail,
+/* pcmag.com */
+#special_offers_trio,
+/* pcpro.co.uk */
+#skyScrapper,
+/* pcworld.com */
+.adMkt2Colw,.storyList.resourceCenter,.storyList.whitePapers,
+/* penny-arcade.com */
+.funding-horizontal,.promos-horizontal,
+/* people.com */
+.footerad,
+/* peoplepets.com */
+.adCMRight,
+/* philly.com */
+#article_adholder,
+/* phonescoop.com */
+#admid,#botad,#towerad,
+/* phoronix.com */
+.phxcms_contentphx_right_bar,#phxcms_toplogo_top,
+/* photobucket.com */
+#cellAd,
+/* polishlinux.org */
+.oio-zone-position,
+/* popcap.com */
+#zrJungle1033_overlay,#zrJungle1033_window,
+/* poughkeepsiejournal.com */
+.ad_launchpad,
+/* pricegrabber.com */
+.adModule_square2,
+/* pricespy.co.nz */
+#banner250,.annonstext,.banner_div,
+/* propeller.com */
+.boxad,
+/* ptinews.com */
+.advBottomHome,
+/* realclearworld.com */
+.right-wide-skyscraper,
+/* reuters.com */
+.ad125,
+/* reference.com */
+#abvFold,#bnrTop,.sep_top.bottomAd,.spl_unshd,#atlasAdDivGame,#centerbanner_game,
+/* rottentomatoes.com */
+#billboard_ad,#header_leaderboard_ad_container,
+/* rpgcodex.net */
+#textAd,
+/* salon.com */
+.clearfix.OSOasAdModule,
+/* seattlepi.com */
+.wingadblock,
+/* sfgate.com */
+#adjacency,
+/* sfgate.com */
+.textads,
+/* slashdot.org */
+#fad1,.ad2,.ad6,
+/* slate.com */
+#bizbox_flyout,#bizbox_links_bottom,#bizbox_links_right_rail,#featured_ad_links,#insider_ad_wrapper,
+/* sltrib.com */
+.adElement,
+/* smh.com.au */
+.asus-panel.rhs-ad,#adSpotholder-EGN,
+/* softonic.com */
+#ad_related_links_div_program,.pagehead_op2,
+/* sourceforge.net */
+.ads.downloadAds,
+/* startribune.com */
+#bottomLeaderboard,#topLeaderboard,
+/* stretcher.com */
+#inlineAdtop,
+/* take40.com */
+#mpIslandHolder,#mpLeaderboard,
+/* talkingpointsmemo.com */
+.ad_post,
+/* techcrunch.com */
+#post_unit_medrec,.sponsor_units,
+/* technewsworld.com */
+.content-block-slinks,.content-tab-slinks,
+/* technologyreview.com */
+#tr35advert,
+/* techrepublic.com.com */
+.sponsBox.clear,
+/* testseek.com */
+.banner_300x250,.banner_728x90,
+/* theboot.com */
+.medrect_aol,
+/* thebostonchannel.com */
+#adBelt,
+/* theedge.co.nz */
+#dartIslandAd_2009,
+/* theinquirer.net */
+.advertisment,.advertisment_two,
+/* theonion.com */
+.sponsorship.side,
+/* newyorker.com */
+.yrail_ads,
+/* thepressnews.co.uk */
+#header-adsense,#want-to-advertise,
+/* thestar.com */
+.ts-ad_unit_bigbox,.ts-banner_ad,
+/* thestranger.com */
+.googleLgRect,
+/* thestreet.com */
+#textLinksContainer,
+/* thesun.co.uk */
+.grey-ad-line.width-336,
+/* thetimesherald.com */
+.adlabel-horz,#p360_ad_unit,
+/* thomastontimes.com */
+#ad_bucket_med_rectangle_1,#ad_bucket_med_rectangle_2,
+/* timesunion.com */
+#yahooad-tbl,.adsbyyahoo,.leaderboard-tbl,
+/* topbargains.com.au */
+.subad,
+/* totalfilm.com */
+#mpu2_container,#mpu_container,#supersky_container,.googley_ads,
+/* treehugger.com */
+.floater-indiv,
+/* tribe.net */
+.OAS.Middle1,
+/* tvnz.co.nz */
+.advertisementPanel,.advertisment,.row.advertising,
+/* tv3.co.nz */
+#dnn_sponsoredLinks,#dnn_dnn_dartBanner,
+/* twitpic.com */
+#view-photo-ad,
+/* ugo.com */
+#ad526x250,
+/* ugoplayer.com */
+#content_right_side_advertisement_on_top_wrapper,
+/* usmagazine.com */
+#sub_form_popup,
+/* usmagazine.com */
+.body_width_ad,
+/* usmagazine.com */
+.top_ad,
+/* usnews.com */
+#loomia_display,.promo.premierpartners,
+/* v3.co.uk */
+#skyAdNewsletter,
+/* vanityfair.com */
+#yrail_ads,
+/* washingtonpost.com */
+#adTiff,.flex-ad,DIV[id="textlinkWrapper"],
+/* wbbm780.com */
+.cube_ads,
+/* webpronews.com */
+.topadbox,.wpn-business-resources,
+/* whathifi.com */
+.googleSkyWrapper,.leaderBoardWrapper,
+/* wpxi.com */
+#leaderboard-sticky,
+/* xconomy.com */
+.large_ad,
+/* xe.com */
+.XEad,
+/* xxlmag.com */
+#medium-rec,
+/* yahoo.com */
+#adposition-FPMM,#northbanner,#adposition-REM2,#adposition-inner-REM1,#adposition-inner-REM3,#darla-ad__LREC,#darla-ad__LREC2,#east.ads,#mw-ysm-cm,#yh-ysm,#y708-ad-expedia,#y708-ad-partners,#y708-ad-ysm,#y708-advertorial-competitions,#y708-advertorial-marketplace,#yan-sponsored,#yahooPN_CM,#yahoovideo_ysmlinks,#yfi_pf_ad_mort,#yfi_pf_ysm,#yfi_ysm,#yl_pf_ysm,#yn-darla2,#yschsec,.ad-links.mod,.ads.horiz,.y7-advertisement,.y7-breakout-bracket,.y708-commpartners,.yl-lrec-wrap,.yschspns,div[class="lrec"],
+/* yahoo.com.au */
+.boxMidRt.pB0,
+/* yourtv.com.au */
+#preheader-ninemsn-container,#msnmd_div,
+/* youtube.com */
+#search-pva,#watch-channel-brand-div,.ad-div.homepage-side-block,.ad-div.main-tabs-ad-block,.searchView.list-view,
+/* zam.com */
+#cubeAd,
+/* zap2it.com */
+#cubead2,.adGoogle,#aff_rightbar,.zc-grid-ad,
+/* zdnet.com */
+.ads_vtlList,.macad,
+/* zdnet.com.au */
+#mpu,#promo-power-centre
+{ display: none !important }
