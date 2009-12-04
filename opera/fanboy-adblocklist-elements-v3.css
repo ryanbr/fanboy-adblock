@@ -74,6 +74,11 @@
 #skyAd,#bannerAd,#sponsorship-box,#ad_Top,#adsDiv0,#footer_ad,.adborder,.leaderboardAd,.mpuContainer,.ad_unit,
 #advRectangle,#advWrapper,#galleryad1,#bottom_ad_area,.adv2,.admedrec,.Ads_forum,#ad_medium_rectangle,#rhsads,.ads.topads,
 #rhs_ads,#page_content_top_ad,#adv-box,#adv-container,.google-right-ad,#ads-block,#ad300,.ad-bottom,#mpuad,.bannerad,
+.adwrap,#adsenseWrap,#leftAd,#mastAdvert,.AdHere,.Banner468X60,.bot_banner,.BoxAd,.body_sponsoredresults_middle,#SponseredLinks,
+#topAdcontainer,.adLeader,#promo-ad,.islandAdvert,.islandAd,#skyline_ad,#adrighthome,#widget_ad,.ad-note,
+.advertCont,.small_ads,#sidebar-ad,.banner_ad,.bizCardAd,.halfPageAd,#ad_space,#ad_space_728,#bigBoxAd,
+#navigation-ad,.double-ad,#ad_holder,#ad-block-bottom,.ad-300x200,.ad-300x250,.adAgate,.ad-poster,#ads-right,.ad-text,
+#adBanner160x610,#adBanner336x280,#synch-ad,#adcode4,#adposition3,.adwrapper,#ad300,#advert-wrapper,.adspace,#articleLeftAdColumn,
 
 
 /* 123greetings.com */
@@ -82,16 +87,24 @@
 .cb_navigation_ad,
 /* 3news.co.nz */
 #dnn_adSky,
+/* abcnews.go.com*/
+#feature_adlinks,.index-quigo,.story-embed-left.box,
+/* accuweather.com */
+#content_box_adright300_google,#accuAdDiv,
 /* about.com */
 #adB,#adP,#adF,
 /* addictinggames.com */
 #game-info-ad,
 /* afl.com.au */
 #dnn_adLeaderBoard2008,
+/* al.com */
+#Module-From_Advertisers,#Toprail_Leaderboard,
 /* alarabiya.net */
 .tbl_ad,
 /* alexa.com */
 .gradientAd.site-listing,.gradientAd.site-listing.borderTop,
+/* almico.com */
+.sfsp_adadvert,
 /* alternet.org */
 .supercommentad_left,.supercommentad_right,
 /* amazon.com */
@@ -131,7 +144,7 @@
 /* bjorn3d.com */
 .ads_inside2,
 /* blackbookmag.com */
-.module.bb-adv-300x250,
+.module.bb-adv-300x250,.module.bb-adv-160x600,
 /* boatsales.com.au */
 .homepage-sponsoredlinks-container,
 /* bostonherald.com */
@@ -144,8 +157,12 @@
 .sponsored-post,
 /* businesspundit.com */
 .side-ad-blocks,
+/* caranddriver.com */
+.section-ad.shop,.shopping-tools.shop-on,
 /* careerone.com.au */
 .adkit-advert,.adkit-lb-footer,
+/* cnbc.com */
+#compAdvertisement,.cnbc_banner_ad_area,#fastmoney300x250,#USNewsBlogs300x250,#Homepage300x250,
 /* cfo.com */
 #top-ad,
 /* chip.de */
@@ -214,7 +231,7 @@
 #mediumrect,
 /* ecollegetimes.com */
 #flan_leader,.cp_ad,
-/*economist.com */
+/* economist.com */
 #top_banner,#classified_wrapper,#bannerspace-bottom,.ec-ads,div[id="leaderboard"],
 /* ediets.com */
 #ad-col,
@@ -226,6 +243,8 @@
 #banner468,
 /* esquire.com */
 #channel_ads,#sponsoredlinks_cntr,
+/* failblog.com */
+#leftcolumnad,#rightskyad,
 /* fastcompany.com */
 #mod_imu,
 /* facebook.com */
@@ -328,10 +347,12 @@
 .advertising-local-links,
 /* microsoft.com */
 #msad,#divAD1,.cdAdTitle,
+/* mirrorfootball.co.uk */
+.leaderboard2,.mpu.ad3,.skyscraper.ad8,
 /* mmorpg.com */
 #contentinlineAd,
 /* mnn.com */
-#block-google_admanager-53,
+.block.block-google_admanager,
 /* momslikeme.com */
 .adModule300,.headerAd,
 /* money.cnn.com */
@@ -399,7 +420,7 @@
 /* pcpro.co.uk */
 #skyScrapper,
 /* pcworld.com */
-.adMkt2Colw,.storyList.resourceCenter,.storyList.whitePapers,
+.adMkt2Colw,.storyList.resourceCenter,.storyList.whitePapers,.sponsoredProduct,
 /* penny-arcade.com */
 .funding-horizontal,.promos-horizontal,
 /* people.com */
@@ -434,6 +455,8 @@
 .ad125,
 /* reference.com */
 #abvFold,#bnrTop,.sep_top.bottomAd,.spl_unshd,#atlasAdDivGame,#centerbanner_game,
+/* refinery29.com */
+.r29_box_ad,
 /* rottentomatoes.com */
 #billboard_ad,#header_leaderboard_ad_container,
 /* rpgcodex.net */
@@ -442,6 +465,8 @@
 .clearfix.OSOasAdModule,
 /* seattlepi.com */
 .wingadblock,
+/* seek.com.au */
+.SeekerPromosLeft,
 /* sfgate.com */
 #adjacency,
 /* sfgate.com */
@@ -504,6 +529,8 @@
 #ad_bucket_med_rectangle_1,#ad_bucket_med_rectangle_2,
 /* timesunion.com */
 #yahooad-tbl,.adsbyyahoo,.leaderboard-tbl,
+/* tomshardware.com */
+#adInBetweenPosts,.header.headerPub,
 /* topbargains.com.au */
 .subad,
 /* totalfilm.com */
@@ -553,7 +580,7 @@
 /* yahoo.com */
 #adposition-FPMM,#northbanner,#adposition-REM2,#adposition-inner-REM1,#adposition-inner-REM3,#darla-ad__LREC,#darla-ad__LREC2,#east.ads,#mw-ysm-cm,#yh-ysm,#y708-ad-expedia,#y708-ad-partners,#y708-ad-ysm,#y708-advertorial-competitions,#y708-advertorial-marketplace,#yan-sponsored,#yahooPN_CM,#yahoovideo_ysmlinks,#yfi_pf_ad_mort,#yfi_pf_ysm,#yfi_ysm,#yl_pf_ysm,#yn-darla2,#yschsec,.ad-links.mod,.ads.horiz,.y7-advertisement,.y7-breakout-bracket,.y708-commpartners,.yl-lrec-wrap,.yschspns,div[class="lrec"],
 /* yahoo.com.au */
-.boxMidRt.pB0,
+.boxMidRt.pB0,.TL_genericads_columns.TL_genericads_columns_searchresults,.TL_medRec_container,
 /* yourtv.com.au */
 #preheader-ninemsn-container,#msnmd_div,
 /* youtube.com */
