@@ -56,7 +56,7 @@
 .group.ads,.hd_advert,.header_advertisment,.horizontalAd,.horizontaltextadbox,.iframe-ad,.inlineSideAd,.inpostad,.island_ad,
 .leader_aol,.leaderboard,.leaderboard_ad,.left_col_ad,.leftad,.lowerAds,.main_ad,.marginadsthin,.medrect,.micro_ad,
 .mid-ad-wrapper,.midad,.modulegad,.moduleAd,.moduletable-advert,.mpu-title,.mpuAd,.mpuBox,.panel_ad,.pnp_ad,.prebodyads,
-.promo-ad,.quigo,.quigoads,.rectangleAd,.rectangle_ad,.rectanglead,.rev_square_side_door,.rightcol_boxad,.rightAd,.right-ad,
+.promo-ad,.quigo,.quigoads,.rectangleAd,.rectangle_afd,.rectanglead,.rev_square_side_door,.rightcol_boxad,.rightAd,.right-ad,
 .right_ad_text,.right_col_ad,.rnav_ad.searchAd,.showcaseAd,.sidead,.sidebarAd,.sidebarBanner,.sidebar_ad,.singleads,.skyAd,
 .sponsor-ad,.sponsorArea,.sponsorad,.sponsored_links,.sponsored-links,.sponsored-rule,.sponsoredLinks,.squaread,.textAds,.textad,.textadbox,
 .thisIsAnAd,.topAds,.topBannerAd,.topleader,.towerAds,.wideAd,.y7s-lrec,a[class="ad_policy"],fieldset[class="ads"],img[class="ad-image"],
@@ -83,7 +83,15 @@
 .googleaddiv2,.googleaddiv,#ad300x250box,#ad728x90box,.header_ad_center,.yahoo_ads,#google-adsense-mpusize,#site_top_ad,.leader_ad,
 .player_ad_box,.box.ads,#adPosition0,#ad-leaderboard,.mid_ad,#ad-wrap-right,#spons_left,#msnhd_div3,#ad_leader,#ad-ads,#Ad_Block,#horizontal_ad,
 #today_ad_bottom,#ad_468_60,#bottomad,.headerAdvert,#bottom_ad,#banner_ad,#bottomAd,#ads-slot,.ads_sidebar,#headline_ad,#tertiary_advertising,
-.flashad,.topad,.adBgTop,.adBgBottom,
+.flashad,.topad,.adBgTop,.adBgBottom,#sponsoredLinks,.adstrip,#sticky-ad,.footer_ad,.sky_ad,.squared_ad,#squared_ad,#vertical_ad,.horizontal_ad,
+.adspost,.ads-sidebar,.cp_ad,#headerAdContainer,#rightAdContainer,.adbanner,.adbanner1,#FooterAdContainer,#googlesponsor,.ad-right,.ad-right-txt,
+#ad_report_rectangle,#ad_report_leaderboard,.player_page_ad_box,#googleAdsenseBanner,#googleAdsense,#googleAdsenseBannerBlog,
+#leaderad,#mainAdvert,#adframe,#advertisement160x600,#advertisement728x90,.inline_ad,#cube_ads,#cube_ads_inner,#ad_strip,
+#ad_leaderboard_top,.ad-SuperBanner,.ad-MediumRectangle,.top_ad,#adcontainer125px,.sponsor_units,.ad-300-blog,.ad-728,#adsider,.ad_header,
+.advertisement-banner,#LogMeInAd,#google-ad,#adSpot-Leader,.ad-spot,.ad_spot_b,.ad_spot_c,#HeaderAdsBlock,#RightSponsoredAd,#SponsoredAd,
+.SponsoredAdTitle,.sky-ad,#premSpons,#upperMpu,.adSense,.leaderAd,.ad-background,#adSpace_right,.barkerAd,.googleAds,#content_ad_top,.SponsoredLinks,
+.adv_top,#rightadd300,#n_sponsor_ads,.advert_leaderboard,.ad-banner,#ad125x125,#ad300x150,.mosaicAd,#adSuperPremiere,.bgnavad,.adBgTop,.adBgBottom,
+#story-ad-a,#topbanner_sponsor,
 
 /* adult-list */
 #im_popupDiv,#AFF_popup,#floatyContent,.adbckgrnd,
@@ -132,6 +140,8 @@
 .rr_ads,.spl_ad,.spl_ad2,.spl_shd_plus,
 /* askmen.com */
 .ad_info,.adUnit,
+/* astrology.com */
+.b-astro-sponsored-links_vertical,.b-astro-sponsored-links_horizontal,
 /* au.yahoo.com */
 #y708-windowshade,
 /* autos.aol.com */
@@ -259,7 +269,7 @@
 /* fastcompany.com */
 #mod_imu,
 /* facebook.com */
-#home_sponsor_nile,.advertise_ads,
+#home_sponsor_nile,.advertise_ads,.UIWashFrame_SidebarAds,.UIStandardFrame_SidebarAds,
 /* fakingnews.com */
 .adLabel,
 /* fora.tv */
@@ -324,6 +334,8 @@
 #leaderboard_wrap,
 /* jame-world.com */
 #adv_google_300,#adv_google_728,#adv_top,.adv_right,
+/* japantoday.com */
+.article_ad,
 /* joeuser.com */
 .monsterad,
 /* jpost.com */
@@ -356,6 +368,8 @@
 #sb-ad-sq,
 /* mail.google.com */
 .rh > #ra,.u5 > DIV.oM,
+/* mediafire.com */
+#remove_ads_button1, #remove_ads_button2,
 /* menshealth.com */
 #boxads,#skyscraper,.ad_caption,
 /* metronews.ca */
@@ -414,12 +428,14 @@
 #hldhdAds,.adline,
 /* newsweek.com */
 .homepageFlexAdOuter,
+/* newsonjapan.com */
+#squarebanner300x250,
 /* ninemsn.com.au */
 #footer_AdArea,#spotlight_ad,#top_promo_ie8,
 /* nydailynews.com */
 #nydn_bar_top,
 /* nytimes.com */
-#adxBigAd,#adxBigAd2,#adxLeaderboard,#adxMiddle,#adxMiddle5,#adxSponLink2,#adxSponLinkA,.adHeader,.columnGroup.advertisementColumnGroup,
+.adCreative.story,.twoColumnAd,.cColumn-TextAdsBox,#adxBigAd,#adxBigAd2,#adxLeaderboard,#adxMiddle,#adxMiddle5,#adxSponLink2,#adxSponLinkA,.adHeader,.columnGroup.advertisementColumnGroup,
 /* nyteknik.se */
 .text-ads.text-ads-affiliated.first,
 /* nzcity.co.nz */
@@ -530,6 +546,8 @@
 .medrect_aol,
 /* thebostonchannel.com */
 #adBelt,
+/* theeagle.com */
+.SectionRightRail300x600Box,.RightRailTop300x250Ad,.TheEagleGoogleAdSense300x250,
 /* theedge.co.nz */
 #dartIslandAd_2009,
 /* theinquirer.net */
@@ -554,6 +572,8 @@
 #ad_bucket_med_rectangle_1,#ad_bucket_med_rectangle_2,
 /* timesunion.com */
 #yahooad-tbl,.adsbyyahoo,.leaderboard-tbl,
+/* timeout.com */
+.MD_adZone,.MD_textLinks01,
 /* tomshardware.com */
 #adInBetweenPosts,.header.headerPub,
 /* topbargains.com.au */
@@ -570,6 +590,8 @@
 #dnn_sponsoredLinks,#dnn_dnn_dartBanner,
 /* twitpic.com */
 #view-photo-ad,
+/* thetechherald.com */
+.twoadcoll,.twoadcolr,
 /* ugo.com */
 #ad526x250,
 /* ugoplayer.com */
@@ -603,7 +625,7 @@
 /* xxlmag.com */
 #medium-rec,
 /* yahoo.com */
-#ymh-invitational-recs,#adposition-FPMM,#northbanner,#adposition-REM2,#adposition-inner-REM1,#adposition-inner-REM3,#darla-ad__LREC,#darla-ad__LREC2,#east.ads,#mw-ysm-cm,#yh-ysm,#y708-ad-expedia,#y708-ad-partners,#y708-ad-ysm,#y708-advertorial-competitions,#y708-advertorial-marketplace,#yan-sponsored,#yahooPN_CM,#yahoovideo_ysmlinks,#yfi_pf_ad_mort,#yfi_pf_ysm,#yfi_ysm,#yl_pf_ysm,#yn-darla2,#yschsec,.ad-links.mod,.ads.horiz,.y7-advertisement,.y7-breakout-bracket,.y708-commpartners,.yl-lrec-wrap,.yschspns,div[class="lrec"],
+.ysmsponsor,#ymh-invitational-recs,#adposition-FPMM,#northbanner,#adposition-REM2,#adposition-inner-REM1,#adposition-inner-REM3,#darla-ad__LREC,#darla-ad__LREC2,#east.ads,#mw-ysm-cm,#yh-ysm,#y708-ad-expedia,#y708-ad-partners,#y708-ad-ysm,#y708-advertorial-competitions,#y708-advertorial-marketplace,#yan-sponsored,#yahooPN_CM,#yahoovideo_ysmlinks,#yfi_pf_ad_mort,#yfi_pf_ysm,#yfi_ysm,#yl_pf_ysm,#yn-darla2,#yschsec,.ad-links.mod,.ads.horiz,.y7-advertisement,.y7-breakout-bracket,.y708-commpartners,.yl-lrec-wrap,.yschspns,div[class="lrec"],
 /* yahoo.com.au */
 .boxMidRt.pB0,.TL_genericads_columns.TL_genericads_columns_searchresults,.TL_medRec_container,
 /* yourtv.com.au */
