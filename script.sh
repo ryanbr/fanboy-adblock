@@ -20,3 +20,4 @@ perl addChecksum-opera.pl iron/adblock-beta.ini
 hg add .
 hg commit -m "$1"
 hg push
+
