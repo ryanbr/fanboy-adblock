@@ -1,5 +1,5 @@
 /*
-! Checksum: IV5P6MC7wfJFZssAviBqGQ
+! Checksum: vvQHIlGW5/q+l9t/Dx0tcw
 ! Fanboy Optimised Element Blocking
 ! Version: V3 
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -626,6 +626,8 @@
 .sponsorship.side,
 /* newyorker.com */
 .yrail_ads,
+/* thepiratebay.org */
+img[src="http://static.thepiratebay.org/img/agb.gif"],
 /* thepressnews.co.uk */
 #header-adsense,#want-to-advertise,
 /* therock.net.nz */
