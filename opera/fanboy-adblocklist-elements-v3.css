@@ -1,5 +1,5 @@
 /*
-! Checksum: aDUi9+4RwxwtryTmCpRN1Q
+! Checksum: nFshKT7IAwOu6m8DtVQsnQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -110,7 +110,8 @@
 .spn_links_box,#ads_banner_right1,#ads_banner_header,#sidebar-125x125-ads,.adright,#containerSqAd,#adcode1,#adposition1,.smallAd,.right_ad,#post_ad,.ad728x90,
 .ad-interruptor,#header-ad-rectangle-container,.sidebar-ad,#islandAd,#horizontal-banner-ad,.RelatedAds,.ad_framed,#ad160x600right,#left_ad,#right_ad,
 #tippytop-ad,#bigadspot,#OAS_Top,#main-ad160x600,#main-ad160x600-img,#main-ad728x90,.story_right_adv,.ad_box,#newTopAds,#ad_center_monster,.story_AD,
-#ad-box,#masthead_topad,.ad_rightside,.insert_ad,#mediumRectangleAd,.sideBoxAd,#footer_adspace,.banner1-728x90,#articleview_ad,
+#ad-box,#masthead_topad,.ad_rightside,.insert_ad,#mediumRectangleAd,.sideBoxAd,#footer_adspace,.banner1-728x90,#articleview_ad,.ad-sky,.banneritem_ad,#adMiniPremiere,
+#adSuperPremiere,#A9AdsOutOfStockWidgetTop,.adtext,#rubicsTextAd,.articleAds,.AdBox7,.articleAdsL,#adSpot-mrec1,.advert_box,
 
 
 /* adult-list */
@@ -193,7 +194,7 @@
 /* bjorn3d.com */
 .ads_inside2,
 /* blackbookmag.com */
-.module.bb-adv-300x250,.module.bb-adv-160x600,
+.bb-adv-300x250,.bb-adv-160x600,
 /* boatsales.com.au */
 .homepage-sponsoredlinks-container,
 /* bostonherald.com */
@@ -249,7 +250,7 @@
 /* concierge.com */
 .adHeader,
 /* cracked.com */
-.Box1.AdBox,.affiliateAdvertText.left,
+.AdBox,.affiliateAdvertText.left,
 /* crainsnewyork.com */
 #ad-big,#header-advert,
 /* crikey.com.au */
@@ -269,7 +270,7 @@
 /* deviantart.com */
 #adso-magnifico,.ad-blocking-makes-fella-confused,.hidoframe,.sleekadbubble,#ad-footprint-160x600,
 /* digitalspy.co.uk */
-#adcode3,
+#adcode3,#adposition1,#adposition3,#adposition4,
 /* dilbert.com */
 .HPG_Ad_B,
 /* dinside.no */
@@ -277,7 +278,7 @@
 /* digg.com */
 .img-summary.sponsored,
 /* discovery.com */
-#top-advertising,.adSlug.adSlugPosition,
+#top-advertising,.adSlug,
 /* ditii.com */
 .ads.ads_h,
 /* divinecaroline.com */
@@ -481,7 +482,7 @@
 /* news-press.com */
 .adlabel-horz,#search-sponsor,.search-sponsor,
 /* news.com.au */
-.adspace-300x600.clearfloat,.module.module-ad-small,
+.adspace-300x600,.module-ad-small,
 /* news24.com */
 #sponsor_box,
 /* newscientist.com */
@@ -499,7 +500,7 @@
 /* nytimes.com */
 .adCreative,.twoColumnAd,.cColumn-TextAdsBox,#adxBigAd,#adxBigAd2,#adxLeaderboard,#adxMiddle,#adxMiddle5,#adxSponLink2,#adxSponLinkA,.adHeader,.advertisementColumnGroup,.singleAd,
 /* nyteknik.se */
-.text-ads.text-ads-affiliated.first,
+.text-ads,
 /* nzcity.co.nz */
 .page_skyscraper,
 /* nzherald.co.nz */
@@ -587,7 +588,7 @@
 /* sltrib.com */
 .adElement,
 /* smh.com.au */
-.asus-panel.rhs-ad,#adSpotholder-EGN,
+.rhs-ad,#adSpotholder-EGN,
 /* softonic.com */
 #ad_related_links_div_program,.pagehead_op2,
 /* sourceforge.net */
