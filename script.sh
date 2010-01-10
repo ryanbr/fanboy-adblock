@@ -19,5 +19,5 @@ perl addChecksum-opera.pl iron/adblock-beta.ini
 # Now sync
 hg add .
 hg commit -m "$1"
-hg push
+hg -f push
 
