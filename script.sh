@@ -18,7 +18,6 @@ perl addChecksum.pl firefox-regional/fanboy-adblocklist-tky.txt
 perl addChecksum-opera.pl opera/urlfilter.ini
 perl addChecksum.pl opera/fanboy-adblocklist-elements-v3.css
 # Iron
-# test
 perl addChecksum-opera.pl iron/adblock-beta.ini
 # Now sync
 hg add .
