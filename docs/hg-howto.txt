@@ -14,10 +14,10 @@ PSPad        (the prefered text editor, http://www.pspad.com)
 4c) cd fanboy-adblock-list
 4d) cd .hg
 
-5) edit fanboy-adblock-list/.hg/hgrc in pspad with the following details
+5) edit "hgrc",
 [paths]
 default = https://fanboy-adblock-list.googlecode.com/hg/
-username = your name <username@gmail.com>
+username = your name <gmail-username@gmail.com>
 default-push = https://username:password@fanboy-adblock-list.googlecode.com/hg/
 
 (Note, use the googlecode password not the gmail password)
