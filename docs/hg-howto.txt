@@ -24,7 +24,7 @@ Login to google/gmail first, then visit http://code.google.com/p/fanboy-adblock-
 
 Get your password through the google profile menu, top right, profile then settings.
 
-Use this passowrd in the "default-push" in 4e.
+Use this password in the "default-push" in 4e.
 
 5) to use, make change to a file through pspad and save
 5a) through the command prompt,
@@ -44,11 +44,8 @@ removing recent filters --> winscript adzilla: #number reverted
 examples of additions comments:
 http://code.google.com/p/fanboy-adblock-list/source/list
 
-
-
-
-
-
+Errors:
+"Authorization failed" only occurs if your user/password is incorrect, check your google profile password in 4e, as the password is case sensitive
 
 
 
