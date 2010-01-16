@@ -13,8 +13,7 @@ PSPad        (the prefered text editor, http://www.pspad.com)
 4b) hg clone https://fanboy-adblock-list.googlecode.com/hg/ fanboy-adblock-list
 4c) cd fanboy-adblock-list
 4d) cd .hg
-
-5) edit "hgrc"
+4e) edit the file "hgrc" using pspad
 [paths]
 default = https://fanboy-adblock-list.googlecode.com/hg/
 username = your name <gmail-username@gmail.com>
@@ -22,11 +21,11 @@ default-push = https://username:password@fanboy-adblock-list.googlecode.com/hg/
 
 (Note, use the googlecode password not the gmail password)
 
-6) to use, make change to a file through pspad and save
-6a) through the command prompt,
-4b) cd %USERPROFILE%
-4c) cd fanboy-adblock-list
-4d) winscript <reason>
+5) to use, make change to a file through pspad and save
+5a) through the command prompt,
+5b) cd %USERPROFILE%
+5c) cd fanboy-adblock-list
+5d) winscript <reason>
 
 format used when making changes,
 adding new filters --> winscript adzilla: #number
