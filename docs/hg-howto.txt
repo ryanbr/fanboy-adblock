@@ -18,6 +18,9 @@ PSPad        (the prefered text editor, http://www.pspad.com)
 default = https://fanboy-adblock-list.googlecode.com/hg/
 username = your name <gmail-username@gmail.com>
 default-push = https://username:password@fanboy-adblock-list.googlecode.com/hg/
+[ui]
+username = gmail-username@gmail.com
+verbose = true
 
 (Note, use the googlecode password not the gmail password)
 Login to google/gmail first, then visit http://code.google.com/p/fanboy-adblock-list/source/list
