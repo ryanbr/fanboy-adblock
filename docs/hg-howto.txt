@@ -20,12 +20,14 @@ username = your name <gmail-username@gmail.com>
 default-push = https://username:password@fanboy-adblock-list.googlecode.com/hg/
 
 (Note, use the googlecode password not the gmail password)
+Get your password through the google profile menu, top right in http://code.google.com/p/fanboy-adblock-list/source/list
 
 5) to use, make change to a file through pspad and save
 5a) through the command prompt,
 5b) cd %USERPROFILE%
 5c) cd fanboy-adblock-list
 5d) winscript <reason>
+
 
 format used when making changes,
 adding new filters --> winscript adzilla: #number
