@@ -1,0 +1,50 @@
+3 tools required,
+
+Activeperl   (http://www.activestate.com/activeperl/)
+Mercurial    (http://mercurial.selenic.com)
+PSPad        (the prefered text editor, http://www.pspad.com)
+
+1) Install Activeperl
+2) Install Mercurial, all defaults during install active
+3) Install pspad
+
+4) Open the command prompt,
+4a) cd %USERPROFILE%
+4b) hg clone https://fanboy-adblock-list.googlecode.com/hg/ fanboy-adblock-list
+4c) cd fanboy-adblock-list
+4d) cd .hg
+
+5) edit fanboy-adblock-list/.hg/hgrc in pspad with the following details
+[paths]
+default = https://fanboy-adblock-list.googlecode.com/hg/
+username = your name <username@gmail.com>
+default-push = https://username:password@fanboy-adblock-list.googlecode.com/hg/
+
+(Note, use the googlecode password not the gmail password)
+
+6) to use, make change to a file through pspad and save
+6a) through the command prompt,
+4b) cd %USERPROFILE%
+4c) cd fanboy-adblock-list
+4d) winscript <reason>
+
+format used when making changes,
+adding new filters --> winscript adzilla: #number
+adding additional filters --> winscript adzilla: #number r2
+adding new elements --> winscript site: http://www.somesite.com/blah.html
+*Any false positives, need to be adzilla first.
+*Any new false positives created by a recent additions 
+removing recent filters --> winscript adzilla: #number reverted
+
+examples of additions comments:
+http://code.google.com/p/fanboy-adblock-list/source/list
+
+
+
+
+
+
+
+
+
+
