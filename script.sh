@@ -1,5 +1,6 @@
 #!/bin/bash
 # Firefox
+# test
 hg pull
 hg merge
 hg update
