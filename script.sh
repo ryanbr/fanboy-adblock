@@ -2,6 +2,7 @@
 # Firefox
 hg pull
 hg update
+hg merge
 perl addChecksum.pl fanboy-adblocklist-adult.txt
 perl addChecksum.pl fanboy-adblocklist-current-expanded.txt
 perl addChecksum.pl fanboy-adblocklist-stats.txt  
