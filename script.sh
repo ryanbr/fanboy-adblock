@@ -1,7 +1,6 @@
 #!/bin/bash
 # Firefox
-hg pull
-hg merge
+hg pull --rebase
 hg update
 perl addChecksum.pl fanboy-adblocklist-adult.txt
 perl addChecksum.pl fanboy-adblocklist-current-expanded.txt
@@ -22,4 +21,4 @@ perl addChecksum-opera.pl iron/adblock-beta.ini
 # Now sync
 hg add .
 hg commit -m "$1"
-hg push -f
+hg push
