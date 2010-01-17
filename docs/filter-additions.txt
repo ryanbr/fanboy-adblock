@@ -1,0 +1,37 @@
+Adding Filters 
+
+Iron
+----
+x Iron doesn't support wildcards
+
+so www.website.com/*adbanner* wont work.
+
+x Iron only supports full url (complete, unbroken urls)
+
+http://www.website.com/img/adbanner.jpg
+
+this wont work in iron, /adbrite.com/  , 
+better to use the full url, if you're intending to block that url
+=> http://adbrite.com/
+
+x The "/" only means directory seperator in iron, not http://
+
+x Iron filters are case sensitive
+
+Opera
+-----
+x Opera supports wildcards
+
+x Will block access to the site directly, so you have to be careful what to block.
+
+example of workable filters:
+
+*.domain.com/*banner*
+*.domain.com/*.swf
+http://*.domain.com/test/*
+*.domain.com/test/me/*
+*/domain.com/*
+
+x Limit the amount of wildcards used 3 at the most, more wildcards the slower the content filter in Opera.
+
+x Opera filters are case sensitive
