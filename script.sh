@@ -1,7 +1,7 @@
 #!/bin/bash
 # Firefox
 hg update
-hg pull --rebase
+hg pull --rebase remote
 hg pull
 perl addChecksum.pl fanboy-adblocklist-adult.txt
 perl addChecksum.pl fanboy-adblocklist-current-expanded.txt
