@@ -22,5 +22,6 @@ perl addChecksum.pl opera/fanboy-adblocklist-elements-v3.css
 # Iron
 perl addChecksum-opera.pl iron/adblock-beta.ini
 # Now sync
-hg commit -A -m "$1"
+hg add .
+hg commit -m "$1"
 hg push
