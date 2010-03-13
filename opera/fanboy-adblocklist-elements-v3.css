@@ -1,7 +1,7 @@
 /*
-! Checksum: TbKquurTWmgkQu7Ac9cVHA
+! Checksum: o9Yp+dnmb0av3ZHZVkU9zQ
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 12 Mar 2010
+! Version: V3 Updated: 13 Mar 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: mp3geek@gmail.com  http://fanboy.co.nz/adblock
 !
@@ -524,7 +524,7 @@
 /* netmag.co.uk */
 .adsystem_ad,
 /* newgrounds.com */
-.box.adhead,#pd-ads,
+.box.adhead,#pd-ads,.onethirdadholder,
 /* news-press.com */
 .adlabel-horz,#search-sponsor,.search-sponsor,
 /* news.com.au */
