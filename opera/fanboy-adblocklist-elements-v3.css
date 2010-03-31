@@ -1,5 +1,5 @@
 /*
-! Checksum: q/EahJGMYpiFkkf1UiWFcQ
+! Checksum: dh8iKJr/St+eydcQKRnM5Q
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 31 Mar 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -21,7 +21,7 @@
 !
 */
 /* Generic ID's */
-#A9AdsMiddleBoxTop,#A9AdsServicesWidgetTop,#AD_Top,#thefooterad,#Ad160x600,#Ad300x250,#Ad728x90,#AdBlock,#AdMiddle,#AdSense,#ADsmallWrapper,#AdsContent,#AdSenseDiv,#BannerAd,
+#A9AdsMiddleBoxTop,#A9AdsServicesWidgetTop,#AD_Top,#thefooterad,#Ad160x600,#Ad300x250,#Ad728x90,#AdBlock,#AdMiddle,#AdSense,#ADsmallWrapper,#AdsContent,#AdSenseDiv,#BannerAd,#leaderAdContainer,
 #FooterAd,#spotlightad,#HouseAd,#MainAd,#NormalAdModule,#PanelAd,#ad-1,#ad-3,#ad-300x250,#media_ad,#ad-300x250Div,#ad-banner,#ad-bottom,#ad-footer,#yahoo_sponsor_links,#yahoo_sponsor_links_title,
 #ad-frame,#ad-holder,#promo_ads,#bottom-sky,#sky-right,#adbox,#ad-medium-rectangle,#ad-splash,#ad-top,#ad-wrap,#ad-yahoo-simple,#ad1,#ad2,#adBannerTable,#adBlock,#ad-bottom-wrapper,
 #adBadges,#adFrame,#adHolder,#vdiAd,#adMarketplace,#adlayer,#adStrip,#adTag-genre,#adTop,#ad_160x160,#ad_creative_2,#ad_Rectangle,#ad_bar,#ad_block,#ad_container,
@@ -47,7 +47,7 @@
 .ad-unit,.ad-wrap,.ad_front_promo,.ad.top,.ad1,.ad2,.ad7,.ad8,.ad10,.ad18,.ad19.ad160,.ad_1day9,.ad_300_250,.ad300,.ad310,.ad300x250,.ad300x250Top,.ad300x40,.ad336x280,.adArticleBody,.textAd3,.sponsored-ads,.adv_block,
 .adBanner,.adBlock,.adBlockBottom,.ad-wrapper,.header-advert,.adColumn,.adFrame,.adHeadline,.adMarker,.adModule,.adRight,.adText,.adWithTab,.ad_1,
 .ad_2,.ad_3,.ad_336x280,.ad_728_90b,.ArticleInlineAd,.ad_banner,.ad_block_338,.ad_bg,.ad_cont,.ad_footer,.ad_lrec,.ad_medrect,.ad_mrec,.ad_power,.ads_side,
-.ad_notice,.ad_skyscrapper,.ad_slug,.ad_slug_font,.ad_top,.adarea,.adbckgrnd,.adblock,.adcolumn,.adcontainer,.adcopy,
+.ad_notice,.ad_skyscrapper,.ad_slug,.ad_slug_font,.ad_top,.adarea,.adbckgrnd,.adblock,.adcolumn,.adcontainer,.adcopy,.advertisementLabel,
 .adfoot,.adheader,.adHeader,.advert-160x600,.adBlockNext,.admpu,.admodule,.adops.textlinks,.adpad300,.adrule,.ads468x60,.adsense,.adsense-title,
 .adsplat,.adspot,.adspot.mrec,.adssquare,.inlist-ad,.ad-heading,.top_sponsor,.ad-content,.adtop,.adv,.advert,.advertRight,.advertisment,.advert_block,.advertise-horz,.advertisement,.ad250c,.top_ads,
 .advertisement-block,.advertisement-header,.advertisement-top,.advertisement468,.advertisement_horizontal,.advertisingTable,
