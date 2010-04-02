@@ -1,5 +1,5 @@
 /*
-! Checksum: LEFM92Y3+kCVUkVwCL0OKQ
+! Checksum: 6FVYdJg6CwwMdWGP9krlaQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 2 Apr 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -23,7 +23,7 @@
 /* Generic ID's */
 #A9AdsMiddleBoxTop,#A9AdsServicesWidgetTop,#AD_Top,#thefooterad,#Ad160x600,#Ad300x250,#Ad728x90,#AdBlock,#AdMiddle,#AdSense,#ADsmallWrapper,#AdsContent,#AdSenseDiv,#BannerAd,#leaderAdContainer,
 #FooterAd,#spotlightad,#HouseAd,#MainAd,#NormalAdModule,#PanelAd,#ad-1,#ad-3,#ad-300x250,#media_ad,#ad-300x250Div,#ad-banner,#ad-bottom,#ad-footer,#yahoo_sponsor_links,#yahoo_sponsor_links_title,
-#ad-frame,#ad-holder,#promo_ads,#bottom-sky,#sky-right,#adbox,#ad-medium-rectangle,#ad-splash,#ad-top,#ad-wrap,#ad-yahoo-simple,#ad1,#ad2,#adBannerTable,#adBlock,#ad-bottom-wrapper,#jmp-ad-buttons,
+#ad-frame,#ad-holder,#promo_ads,#bottom-sky,#sky-right,#adbox,#ad-medium-rectangle,#ad-splash,#ad-top,#ad-wrap,#ad-yahoo-simple,#ad1,#ad2,#adBannerTable,#adBlock,#ad-bottom-wrapper,
 #adBadges,#adFrame,#adHolder,#vdiAd,#adMarketplace,#adlayer,#adStrip,#adTag-genre,#adTop,#ad_160x160,#ad_creative_2,#ad_Rectangle,#ad_bar,#ad_block,#ad_container,
 #ad_content,#ad_feature,#adZoneTop,#ad_halfpage,#ad_island,#ad_infoboard_box,#ad_leaderBoard,#ad_leaderboard,#ad_placeholder,#ad_rect,#ad_new,#sponsored_ads_v4,
 #ad_rect_body,#first-300-ad,#ad_rectangle,#lb-sponsor-left,#adimg,#lb-sponsor-right,#product-adsense,#ad_sidebar2,#ad_sidebar3,#ad_top,#ad_top_holder,#ad_wide,#ad300x250Module,#ad728x90,#adbar,#HomeAd1,#post_adspace,#divupperrightad,
@@ -59,7 +59,7 @@
 .mid-ad-wrapper,.midad,.modulegad,.ads_takeover,.main_intro_ad,.moduleAd,.moduletable-advert,.mpu-title,.mpuAd,.mpuBox,.panel_ad,.promo_border,.pnp_ad,.prebodyads,
 .promo-ad,.quigo,.quigoads,.rectangleAd,.rectangle_afd,.rectanglead,.rev_square_side_door,.sponserLink,.skyAdd,.right_image_ad,.rightcol_boxad,.rightAD,.rightAd,.right-ad,
 .right_ad_text,.right_ads,.right_col_ad,.ad-footer,.rnav_ad.searchAd,.showcaseAd,.sidead,.sidebarAd,.sidebarBanner,.sidebar_ad,.singleads,.skyAd,.skyCraper_banner
-.sponsor-ad,.sponsorArea,.big-ads,.sponsorad,.sponsored_links,.sponsored-links,.sponsored_box,.sponsored-rule,.sponsoredLinks,.squaread,.tabAds,.tabAd,.textAds,.textad,.textadbox,.sponsor-links,.promoAd,
+.sponsor-ad,.sponsorArea,.big-ads,.sponsorad,.sponsored_links,.sponsored-links,.sponsored_box,.sponsored-rule,.sponsoredLinks,.squaread,.tabAds,.tabAd,.textAds,.textad,.textadbox,.sponsor-links,
 .thisIsAnAd,.ad_square_r_top,.topAds,.topBannerAd,.topleader,.towerAds,.txtAd,.wideAd,.y7s-lrec,a[class="ad_policy"],fieldset[class="ads"],img[class="ad-image"],
 
 /* updated */
@@ -139,7 +139,8 @@
 .Ad120x600,#AdTargetControl1_iframe,.ad-placeholder,#ads-indextext,.r_ad_box,#ad_300b,.ad_center,#hd_ad,#ugly-ad,#long-ad-space,#advertBanner,#advert-display,#advert-banner,
 #advert-footer,.normalAds,#advert_leaderboard,#skyscraper_advert,.boxadv,#adv_top_banner_wrapper,#footerad,.adpad300spacer,#mainAdUnit,#ad_block_1,#ad_block_2,.ads160,.ads300,
 .ad-160x600-gallery,.block-adsense,#block-adsense-2,#block-adsense-0,#sidebargooglead,#ad468,.footer_advertisement,#bottomAds,.specialAd175x90,.cxAdvertisement,#floatingAd,
-#story-leaderboard-ad,#adPosition5,.txtadvertise,#LB_Row_Ad,#adBannerTop,.adbannertop,.adbannerright,.top-menu-ads,#in_post_ad_middle_1,#side-ad,
+#story-leaderboard-ad,#adPosition5,.txtadvertise,#LB_Row_Ad,#adBannerTop,.adbannertop,.adbannerright,.top-menu-ads,#in_post_ad_middle_1,#side-ad,.AdsBoxSection,
+.textad_headline,
 
 
 /* adult-list */
