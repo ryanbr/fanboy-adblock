@@ -1,5 +1,5 @@
 /*
-! Checksum: pQOq9qJr3ZyNClDqwWNG6Q
+! Checksum: ujzhuHq18zopvQmGzAvtEA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 4 Apr 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -140,8 +140,9 @@
 #advert-footer,.normalAds,#advert_leaderboard,#skyscraper_advert,.boxadv,#adv_top_banner_wrapper,#footerad,.adpad300spacer,#mainAdUnit,#ad_block_1,#ad_block_2,.ads160,.ads300,
 .ad-160x600-gallery,.block-adsense,#block-adsense-2,#block-adsense-0,#sidebargooglead,#ad468,.footer_advertisement,#bottomAds,.specialAd175x90,.cxAdvertisement,#floatingAd,
 #story-leaderboard-ad,#adPosition5,.txtadvertise,#LB_Row_Ad,#adBannerTop,.adbannertop,.adbannerright,.top-menu-ads,#in_post_ad_middle_1,#side-ad,.AdsBoxSection,
-.textad_headline,#adBox,
-
+.textad_headline,#adBox,#ad_messageboard_x10,#ad_x10,#block-openx-0,#block-openx-1,.ad-national-1,.afs_ads,.gt_ad,.gt_adlabel,
+#game_header_ad,#GOOGLE_ADS_197,#GOOGLE_ADS_294,#itemGroupAd2,.a160x600,.a728x90,.ads-160-head,.aux-ad-widget-2,.dcAdvertHeader,.gt_ad_300x250,.gt_ad_728x90,.hor_ad,.hp2-adtag,.m4-adsbygoogle,
+.rngtAd,#row2AdContainer,
 
 /* adult-list */
 #im_popupDiv,#AFF_popup,#floatyContent,.adbckgrnd,
@@ -219,7 +220,7 @@
 /* biblegateway.com */
 #a9g-leader-spacer,
 /* bigpond.com */
-#sensis_island_ad_1_column,
+#sensis_island_ad_1_column,#sensis_island_ad_2_column,#sensis_island_ad_3_column,
 /* bing.com */
 .sb_adsW,
 /* bitmob.com */
@@ -251,7 +252,7 @@
 /* businesspundit.com */
 .side-ad-blocks,
 /* caranddriver.com */
-.section-ad.shop,.shopping-tools.shop-on,
+.section-ad,.shopping-tools.shop-on,
 /* careerone.com.au */
 .adkit-advert,.adkit-lb-footer,
 /* carsguide.com.au */
@@ -293,7 +294,7 @@
 /* concierge.com */
 .adHeader,
 /* cracked.com */
-.AdBox,.affiliateAdvertText.left,
+.AdBox,.affiliateAdvertText,
 /* crainsnewyork.com */
 #ad-big,#header-advert,
 /* crikey.com.au */
@@ -323,7 +324,7 @@
 /* discovery.com */
 #top-advertising,.adSlug,
 /* ditii.com */
-.ads.ads_h,
+.ads_h,
 /* divinecaroline.com */
 #c_6ad_250h,
 /* download.cnet.com */
@@ -343,7 +344,7 @@
 /* ediets.com */
 #ad-col,
 /* ekstrabladet.dk */
-.eb_ad280.clearfix,
+.eb_ad280,
 /* electronista.com */
 #sb-ad-sq,.ad-skyscr,
 /* eleconomista.es */
@@ -497,7 +498,7 @@
 /* mmorpg.com */
 #contentinlineAd,
 /* mnn.com */
-.block.block-google_admanager,
+.block-google_admanager,
 /* mobiletopsoft.com */
 .trueads,
 /* momslikeme.com */
@@ -515,7 +516,7 @@
 /* msnbc.msn.com */
 #AdBanner_S,#AdSponsor_SF,#AdShowcase_F1,#AdBanner_F1,#ad-front-resourceguide,#ad-front-footer,#dcol-resourceguide,#dcol-sponsored,.w460.clr,#ad-front-sponsoredlinks,#marketplace.nav-menu,
 /* mtv.com */
-.mdl.mdl-ad,.mdl-ad,
+.mdl-ad,
 /* music.yahoo.com */
 #YMusicRegion_T2_R2C2,#YMusicRegion_T3_R2C2_R1,#YMusicRegion_TN1_R2C2_R1,
 /* myfoxatlanta.com */
@@ -629,7 +630,7 @@
 /* reuters.com */
 .ad125,.homepageMPU,
 /* reference.com */
-#abvFold,#bnrTop,.sep_top.bottomAd,.spl_unshd,#atlasAdDivGame,#centerbanner_game,
+#abvFold,#bnrTop,.bottomAd,.spl_unshd,#atlasAdDivGame,#centerbanner_game,
 /* refinery29.com */
 .r29_box_ad,
 /* righthealth.com */
@@ -639,7 +640,7 @@
 /* rpgcodex.net */
 #textAd,
 /* salon.com */
-.clearfix.OSOasAdModule,
+.OSOasAdModule,
 /* seattlepi.com */
 .wingadblock,
 /* seek.com.au */
@@ -659,7 +660,7 @@
 /* softonic.com */
 #ad_related_links_div_program,.pagehead_op2,
 /* sourceforge.net */
-.ads.downloadAds,
+.downloadAds,
 /* startribune.com */
 #bottomLeaderboard,#topLeaderboard,
 /* statesman.com */
