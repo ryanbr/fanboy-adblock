@@ -11,14 +11,14 @@ perl addChecksum.pl fanboy-adblocklist-current-p2p.txt
 # RUS
 perl addChecksum.pl fanboy-morpeh-rus.txt
 # Firefox Regional lists
-perl addChecksum.pl firefox-regional\fanboy-adblocklist-chn.txt
-perl addChecksum.pl firefox-regional\fanboy-adblocklist-cz.txt
-perl addChecksum.pl firefox-regional\fanboy-adblocklist-esp.txt
-perl addChecksum.pl firefox-regional\fanboy-adblocklist-jpn.txt
-perl addChecksum.pl firefox-regional\fanboy-adblocklist-krn.txt
-perl addChecksum.pl firefox-regional\fanboy-adblocklist-rus.txt
-perl addChecksum.pl firefox-regional\fanboy-adblocklist-swe.txt
-perl addChecksum.pl firefox-regional\fanboy-adblocklist-tky.txt
+perl addChecksum.pl firefox-regional/fanboy-adblocklist-chn.txt
+perl addChecksum.pl firefox-regional/fanboy-adblocklist-cz.txt
+perl addChecksum.pl firefox-regional/fanboy-adblocklist-esp.txt
+perl addChecksum.pl firefox-regional/fanboy-adblocklist-jpn.txt
+perl addChecksum.pl firefox-regional/fanboy-adblocklist-krn.txt
+perl addChecksum.pl firefox-regional/fanboy-adblocklist-rus.txt
+perl addChecksum.pl firefox-regional/fanboy-adblocklist-swe.txt
+perl addChecksum.pl firefox-regional/fanboy-adblocklist-tky.txt
 # Opera
 perl addChecksum-opera.pl opera/urlfilter.ini
 perl addChecksum.pl opera/fanboy-adblocklist-elements-v3.css
