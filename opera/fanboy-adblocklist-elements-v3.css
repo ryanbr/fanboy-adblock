@@ -1,5 +1,5 @@
 /*
-! Checksum: y/5PzNsd6VUATAtfZmF2Wg
+! Checksum: jq6PQfURnspYoL2t2UxTLQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 11 Apr 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -287,7 +287,7 @@
 /* cnet.com */
 #cnetToolbarWrap,#adMiniPremiere,
 /* cnn.com */
-#rbAdWrapperRt,#rbAdWrapperTop,.cnnStoryElementBox,.cnn_adspc336cntr,.cnn_strycntntrgt,.cnn_adcntr728x90t,.cnn_adcntr300x100,
+#cnnVPAd,.cnn_728adbin,#rbAdWrapperRt,#rbAdWrapperTop,.cnnStoryElementBox,.cnn_adspc336cntr,.cnn_strycntntrgt,.cnn_adcntr728x90t,.cnn_adcntr300x100,
 /* cnngo.com */
 #block-ad_cube-0,#block-ad_cube-1,
 /* commentarymagazine.com */
