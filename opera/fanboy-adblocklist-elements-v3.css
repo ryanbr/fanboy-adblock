@@ -1,5 +1,5 @@
 /*
-! Checksum: VZzMfPNMc+Lj0ONSVUCQzg
+! Checksum: XkH7MBAu4zIDLsPXwf2sww
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 29 Apr 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -22,7 +22,9 @@
 */
 /* Generic ID's */
 #A9AdsMiddleBoxTop,#A9AdsServicesWidgetTop,#AD_Top,#thefooterad,#Ad160x600,#Ad300x250,#Ad728x90,#AdBlock,#AdMiddle,#AdSense,#ADsmallWrapper,#AdsContent,#AdSenseDiv,#BannerAd,#leaderAdContainer,#top_advert,#ad_square,
-#FooterAd,#spotlightad,#HouseAd,#MainAd,#NormalAdModule,#PanelAd,#ad-1,#ad-3,#ad-300x250,#media_ad,#ad-300x250Div,#ad-banner,#ad-bottom,#ad-footer,#yahoo_sponsor_links,#yahoo_sponsor_links_title,#onpageads,#onpageadstext,#dni-header-ad,
+#FooterAd,#spotlightad,#HouseAd,#MainAd,#NormalAdModule,#PanelAd,#ad-1,#ad-3,#ad-300x250,#media_ad,#ad-300x250Div,#ad-banner,#ad-bottom,#ad-footer,#yahoo_sponsor_links,#yahoo_sponsor_links_title,#onpageads,#onpageadstext,#dni-header-ad,#ads_by_google,#national_microlink_ads,
+
+
 #ad-frame,#ad-holder,#promo_ads,#bottom-sky,#sky-right,#adbox,#ad-medium-rectangle,#ad-splash,#ad-top,#ad-wrap,#ad-yahoo-simple,#ad1,#ad2,#adBannerTable,#adBlock,#ad-bottom-wrapper,#bannerad,#box1ad,#box2ad,#global_header_ad_area,
 #adBadges,#adFrame,#adHolder,#vdiAd,#adMarketplace,#adlayer,#adStrip,#adTag-genre,#adTop,#ad_160x160,#ad_creative_2,#ad_Rectangle,#ad_bar,#ad_block,#ad_container,#publicidad,#ms_ad,#skyscraper-ad,#ad-column,
 #ad_content,#ad_feature,#adZoneTop,#ad_halfpage,#ad_island,#ad_infoboard_box,#ad_leaderBoard,#ad_leaderboard,#ad_placeholder,#ad_rect,#ad_new,#sponsored_ads_v4,
@@ -55,7 +57,7 @@
 .banner_ad_leaderboard,.belt_ad,.media-advert,.bottom_sponsor,.advert-lower-right,.top-ad,.bigAd,.bigad,.blocked-ads,.blog-ads,.bodyads,.bottomAds,.blogBigAd,.bottomleader,.box.ad,.smallsponsorad,.sponsoradtitle,.tablebordersponsor,.box-ad-a,.divGoogleAdsTop,
 .boxAd,.box_ad,.box_content_ads,.c_spons_links2,.ad_130x90,.center_ad,.consoleAd,.cubeAd,.dynamic-ads,.flash-advertisement,.fixedAds,.flash_advert,.footerAd,.google-ad,.google_ad,.googlead,.MPUHolder,.advertHeadline,.gutter-ad-left,.gutter-ad-right,
 .group.ads,.hd_advert,.header_advertisment,.ad_rectangle,.horizontalAd,.horizontaltextadbox,.iframe-ad,.image-advertisement,.inlinead,.inlineSideAd,.inpostad,.island_ad,.deckads,.ad-details,.ads-mpu,.ads-sky,
-.leader_aol,.leaderboard,.leaderboard_ad,.bannerAdWrapper730x86,.bannerAdWrapper300x250,.left_col_ad,.leftad,.left-ad,.lowerAds,.main_ad,.marginadsthin,.medrect,.micro_ad,.flashadd,
+.leader_aol,.leaderboard,.leaderboard_ad,.bannerAdWrapper730x86,.bannerAdWrapper300x250,.left_col_ad,.leftad,.left-ad,.lowerAds,.main_ad,.marginadsthin,.medrect,.micro_ad,.flashadd,.adBottom,
 .mid-ad-wrapper,.midad,.modulegad,.ads_takeover,.main_intro_ad,.moduleAd,.moduletable-advert,.mpu-title,.mpuAd,.mpuBox,.panel_ad,.promo_border,.pnp_ad,.prebodyads,.publicidad,.adNoOutline,.staticAd,
 .promo-ad,.quigo,.quigoads,.rectangleAd,.rectangle_afd,.rectanglead,.rev_square_side_door,.sponserLink,.skyAdd,.right_image_ad,.rightcol_boxad,.rightAD,.rightAd,.right-ad,.spl_ad_plus,
 .right_ad_text,.right_ads,.right_col_ad,.ad-footer,.rnav_ad.searchAd,.showcaseAd,.sidead,.sidebarAd,.sidebarBanner,.sidebar_ad,.singleads,.skyAd,.skyCraper_banner,.top_container_ad,
