@@ -1,7 +1,7 @@
 /*
-! Checksum: 9J5D6DMV7jIHX/gJqm+fwA
+! Checksum: qkfy/qOK02Z9JHN5JZBjzg
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 14 May 2010
+! Version: V3 Updated: 15 May 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: mp3geek@gmail.com  http://fanboy.co.nz/adblock
 !
@@ -728,7 +728,6 @@
 #RightSponsoredAd,
 #row2AdContainer,
 #rubicsTextAd,
-.scoopads,
 #search_ads,
 #secondBoxAdContainer,
 #sensis_island_ad_1,
@@ -1016,6 +1015,7 @@
 .ad_story_island,
 .adText,
 .AdTitle,
+.adbox1,
 .ad_top,
 .ad.top,
 .adtop,
@@ -1161,6 +1161,7 @@
 .normalAds,
 .otj_adspot,
 .panel_ad,
+.ad_pagebody,
 .pnp_ad,
 .prebodyads,
 .promo-ad,
@@ -1187,6 +1188,7 @@
 .right_image_ad,
 .RightTowerAd,
 .rnav_ad.searchAd,
+.scoopads,
 .section_ad_left,
 .showAd_No,
 .showcaseAd,
