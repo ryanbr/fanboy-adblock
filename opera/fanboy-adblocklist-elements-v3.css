@@ -1,5 +1,5 @@
 /*
-! Checksum: /V6+5tHh/0h+m3XBkQOh8g
+! Checksum: c3+ZS2wd6Vz/dMjgsDQX1A
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 18 May 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -798,6 +798,7 @@
 #story-ad-a,
 #storyAdWrap,
 #story-leaderboard-ad,
+#adDiv,
 #synch-ad,
 #tbl_googlead,
 #tertiary_advertising,
@@ -1136,7 +1137,7 @@
 .IslandAd,
 .jobs-ad-box,
 .layer_text_ad,
-.base-ad-mpu
+.base-ad-mpu,
 .leader_aol,
 .leaderboard,
 .leaderboard_ad,
@@ -1254,6 +1255,7 @@
 .widget-entry-ads-160,
 .wp125ad,
 .y7s-lrec,
+.spLinks,
 
 /* adult-list */
 #im_popupDiv,#AFF_popup,#floatyContent,.adbckgrnd,
