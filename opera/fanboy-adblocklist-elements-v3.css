@@ -1,5 +1,5 @@
 /*
-! Checksum: fCxgeqf20x9JbpHs4i0upA
+! Checksum: iloM80cihtkZ19kdje1T1w
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 20 May 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -866,6 +866,7 @@
 #vertical_ad,
 #videoAd,
 #viewAd1,
+#viewportAds,
 #vxFlashPlayerStaticIMUFrame,
 #whoisRightAdContainer,
 #wide_ad_unit_2,
@@ -1025,6 +1026,8 @@
 .ad.top,
 .adtop,
 .ad_top_banner,
+.adTopLeft,
+.adTopRight,
 .adtops,
 .adtravel,
 .ad-unit,
