@@ -1,5 +1,5 @@
 /*
-! Checksum: 3iKgwymDuFb/8Y1DxcLCTQ
+! Checksum: 6DRvT9ADFMSMoNYKPbxMfQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 22 May 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2088,6 +2088,11 @@ div[id="leaderboard"],
 .sponsorship.side,
 /* thinkprogress.org */
 .box_title_ad,
+/* tripadvisor.com */
+#COMMERCE_BOT,
+#COMMERCE_REPEAT,
+#COMMERCE_RHS,
+#COMMERCE_TOP,
 /* tweetphoto.com */
 .ad_wide,
 /* newyorker.com */
