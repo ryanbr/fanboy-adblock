@@ -1,5 +1,5 @@
 /*
-! Checksum: i5qJQsBohac+SICWQZcskQ
+! Checksum: 3iKgwymDuFb/8Y1DxcLCTQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 22 May 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1095,7 +1095,9 @@
 .Box2.Ad,
 .box.ad,
 .box-ad-a,
-.boxAd,.box_ad,
+.boxAd,
+.box_ad,
+.box_ad_wrap,
 .box_content_ads,
 .cbstv_ad_label,
 .center_ad,
@@ -1267,7 +1269,10 @@
 .spLinks,
 
 /* adult-list */
-#im_popupDiv,#AFF_popup,#floatyContent,.adbckgrnd,
+#im_popupDiv,
+#AFF_popup,
+#floatyContent,
+.adbckgrnd,
 
 /* 123greetings.com */
 .rt_advert_name,
@@ -1344,7 +1349,8 @@
 .spl_ad2,
 .spl_shd_plus,
 /* askmen.com */
-.ad_info,.adUnit,
+.ad_info,
+.adUnit,
 /* astrology.com */
 .b-astro-sponsored-links_vertical,
 .b-astro-sponsored-links_horizontal,
@@ -1505,7 +1511,8 @@
 /* darkreading.com */
 #leaderboardAdArea,
 /*demonoid.com */
-#bnr3,.pad9px_right,
+#bnr3,
+.pad9px_right,
 /* detnews.com */
 .bannerSpace.clearfix,
 /* deviantart.com */
@@ -1631,7 +1638,8 @@ div[id="leaderboard"],
 #adwin,
 #adwin_rec,
 /* goerie.com */
-.artAdInner,.inArticleAdInner,
+.artAdInner,
+.inArticleAdInner,
 /* google */
 #ads-bot,
 #mbEnd,
@@ -1765,7 +1773,9 @@ div[id="leaderboard"],
 /* metromix.com */
 .advertising-local-links,
 /* microsoft.com */
-#msad,#divAD1,.cdAdTitle,
+#msad,
+#divAD1,
+.cdAdTitle,
 /* mirrorfootball.co.uk */
 .leaderboard2,
 .mpu.ad3,
@@ -1861,7 +1871,8 @@ div[id="leaderboard"],
 /* news24.com */
 #sponsor_box,
 /* newscientist.com */
-#hldhdAds,.adline,
+#hldhdAds,
+.adline,
 /* newsweek.com */
 .homepageFlexAdOuter,
 /* newsonjapan.com */
@@ -1975,7 +1986,8 @@ div[id="leaderboard"],
 .right-wide-skyscraper,
 #right-wide-skyscraper,
 /* reuters.com */
-.ad125,.homepageMPU,
+.ad125,
+.homepageMPU,
 /* reference.com */
 #abvFold,
 #bnrTop,
