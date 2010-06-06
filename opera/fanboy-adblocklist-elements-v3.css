@@ -1,5 +1,5 @@
 /*
-! Checksum: e1oxKWJB9GP0+Ey/f6as2g
+! Checksum: Hn0enBJgFnMcV8cK9kD+JA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 6 Jun 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -27,7 +27,7 @@
 #ad125BR,
 #ad125TL,
 #ad125TR,
-#advertTower
+#advertTower,
 #ad125TR,
 #ad125x125,
 #ad_160x160,
@@ -229,7 +229,7 @@
 #ad_right3,
 #ad-right3,
 #adrighthome,
-#adRightm
+#adRightm,
 #ad_right_main,
 #ads_160,
 #ads2,
@@ -333,6 +333,7 @@
 #ads_title,
 #ads_top,
 #ads-top,
+###adPosition9,
 #adstop,
 #adsTop,
 #ads_top2,
@@ -975,7 +976,7 @@
 .adBlockBottom,
 .adBlockNext,
 .ADBnrArea,
-.box-ads
+.box-ads,
 .adBottom,
 .ad_header
 .adCell,
@@ -1110,8 +1111,8 @@
 .b_ads,
 .banner1-728x90,
 .ad-slot-234-60
-.ad-slot-300-250
-.ad-slot-728-90
+.ad-slot-300-250,
+.ad-slot-728-90,
 .banner300x100,
 .banner.ad,
 .bannerAd,
