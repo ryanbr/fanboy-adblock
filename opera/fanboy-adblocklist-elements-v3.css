@@ -1,5 +1,5 @@
 /*
-! Checksum: CgfLv4oFXAqUwHU9LeIQuQ
+! Checksum: 0FmxCM1JfKIgkhmvl5huvA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 11 Jun 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1349,6 +1349,7 @@
 .y7s-lrec,
 .spLinks,
 
+
 /* adult-list */
 #im_popupDiv,
 #AFF_popup,
@@ -1724,7 +1725,8 @@ div[id="leaderboard"],
 .artAdInner,
 .inArticleAdInner,
 /* google */
-#rhs > div#rhs_block,
+div[id="rhs_block"],
+#rhs_block,
 #ads-bot,
 #mbEnd,
 #rhsa,
