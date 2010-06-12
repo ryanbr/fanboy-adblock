@@ -1,5 +1,5 @@
 /*
-! Checksum: rnOy+OvHs2M60y8TK9J1kg
+! Checksum: YE9b7u0SmEsmri6BVvgM7w
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 12 Jun 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -108,6 +108,9 @@
 #adbottom,
 #ad_Bottom,
 #ad-bottom-300x250,
+#mpu_text_ad,
+#narrow_ad_unit,
+#wide_ad_unit_top,
 #ad-bottom-wrapper,
 #ad-box,
 #adbox,
@@ -1284,6 +1287,9 @@
 .rght300x250,
 .right-ad,
 .rightAd,
+.mpu_text_ad,
+.narrow_ad_unit,
+.wide_ad_unit_top,
 .rightAD,
 .rightcolad,
 .right_ads,
