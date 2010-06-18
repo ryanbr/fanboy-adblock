@@ -1,37 +1,111 @@
-Adding Filters 
+                              Adding Filters 
+                              **************
+
+CSS Filering:
+-------------
+
+    If no blocking filters are required. A simple,
+    
+            "winscript site: http://..." is only needed (no adzilla needed)
+
+Filters:
+--------
+
+    If blocking/Whitelist filters are required (in either Firefox, Opera or Iron)
+    Using your adzilla login, add the site, and paste the ad url's involved (in the comments).
+    Once its been added,
+    
+            "winscript adzilla: #xxxx"  (xxxx being the record ID)
+    
+    Adzilla is used for tracking of additions. So we can work out why blocking rules/whitelists 
+    were added, helps with improving filters if problems occur down the track.
+       
+    * Note: If a filter needs to be modified/modified, create a new Adzilla record, follow same directions as above.
+    In the comments, put down why the change was required. etc.
+
+    * Note: Once the filter has been uploaded to googlecode set the Adzilla record to be "Completed".
+
+      
+                          Browser specific Additions
+                          **************************
 
 Iron
-----
-x Iron doesn't support wildcards
+****
 
-so www.website.com/*adbanner* wont work.
+Issues/Notes: 
 
-x Iron only supports full url (complete, unbroken urls)
+      (1) Iron doesn't support wildcards
+      ------------------------------
+      So www.website.com/*adbanner* wont work.
 
-http://www.website.com/img/adbanner.jpg
+      (2) Iron only supports full url (complete, unbroken urls)
+      -----------------------------------------------------
+      Typing in complete urls, http://www.website.com/img/adbanner.jpg
+      
+      (3) a "/" wont cover http://
+      ------------------------
+      This wont work in iron, /adbrite.com/
+      Better to use http://adbrite.com or .adbrite.com (if it has a "." in front)
 
-this wont work in iron, /adbrite.com/  , 
-better to use the full url, if you're intending to block that url
-=> http://adbrite.com/
+      (4) Blocking a url, will stop the page from load it
+      -----------------------------------------------
+      Even if you visit the site manually, it won't load, be careful.
+           
+      (5) Iron filters are case sensitive
+      -----------------------------------
+      So *adbanner* isn't the same as *adBanner* or *Adbanner* etc, a filter will
+      need to be created for each instantance. Best to *only* add the case involved.
+      Adding for each case just adds bloat, we only add filters that we'll come across.
 
-x The "/" only means directory seperator in iron, not http://
+      (6) Filtering
+      --------------
+      * If the filter has http://www.adserver.com, just filter create the filter .adserver.com/
+      * If the filter is like http://site.com/banners.phps?, a filter using the http://.. is needed.
+      
+      (7) Removal of filters
+      ----------------------
+      Occasionally some filters can be problematic, if we do come across any issues. Browsing through Adzilla would
+      be a start, finding out why it was added, either improving the filter, removing it (depends on popularity). 
+      Remember removing filters, the maintainer has to weigh up the importance of the site, the filter (and other sites affected).
+      Generally, be careful with any major changes or removals. 
 
-x Iron filters are case sensitive
 
 Opera
------
-x Opera supports wildcards
+*****
 
-x Will block access to the site directly, so you have to be careful what to block.
+Issues/Notes: 
 
-example of workable filters:
+      (1) Avoid the use of the "=" in the urlfilter
+      ---------------------------------------------
+      Just slows things down in Opera
+    
+      (2) CSS filtering
+      -----------------
+      Basic CSS filtering is supported, but lacking in features like excemptions. Unless the filter is really popular
+      and causes plenty of false positives, we recommend disabling the CSS filter on sites that it may break.
+      
+      (3) Blocking a url, will stop the page from load it
+      -----------------------------------------------
+      Even if you visit the site manually, it won't load, be careful.
 
-*.domain.com/*banner*
-*.domain.com/*.swf
-http://*.domain.com/test/*
-*.domain.com/test/me/*
-*/domain.com/*
+      (4) Opera filters support Wilcards.. however
+      --------------------------------------------
+      Limit the amount of wildcards used 3 at the most, more wildcards the slower the content filter in Opera.
 
-x Limit the amount of wildcards used 3 at the most, more wildcards the slower the content filter in Opera.
-
-x Opera filters are case sensitive
+      (5) Opera filters are case sensitive
+      -----------------------------------
+      So *adbanner* isn't the same as *adBanner* or *Adbanner* etc, a filter will
+      need to be created for each instantance. Best to *only* add the case involved.
+      Adding for each case just adds bloat, we only add filters that we'll come across.
+      
+      (6) Filter preference
+      ----------------------
+      Its better to create a filter like http://ad.filter.com/* rather than */ad.filter.com/*  (its quicker)
+      
+      (7) Removal of filters
+      ----------------------
+      Occasionally some filters can be problematic, if we do come across any issues. Browsing through Adzilla would
+      be a start, finding out why it was added, either improving the filter, removing it (depends on popularity). 
+      Remember removing filters, the maintainer has to weigh up the importance of the site, the filter (and other sites affected).
+      Generally, be careful with any major changes or removals. 
+      
