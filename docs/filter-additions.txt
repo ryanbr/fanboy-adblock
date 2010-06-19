@@ -86,3 +86,7 @@ Opera
       So *adbanner* isn't the same as *adBanner* or *Adbanner* etc, a filter will
       need to be created for each instantance. Best to *only* add the case involved.
       Adding for each case just adds bloat, we only add filters that we'll come across.
+      
+      (6) Filter preference
+      ----------------------
+      Its better to create a filter like http://ad.filter.com/* rather than */ad.filter.com/*  (its quicker)
