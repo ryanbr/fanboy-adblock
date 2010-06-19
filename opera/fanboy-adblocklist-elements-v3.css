@@ -1,5 +1,5 @@
 /*
-! Checksum: RFh5oGEmq8mW2QofjBMF7Q
+! Checksum: MUor8061EKVnGUzC9Tg6/g
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 19 Jun 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1431,7 +1431,7 @@
 .y7s-lrec,
 .spLinks,
 
-#[id^="MarketGid"],
+*[id^="MarketGid"],
 /* adult-list */
 #im_popupDiv,
 #AFF_popup,
