@@ -1,0 +1,58 @@
+                                    HG Searching
+                                    ************
+
+This is helpful to find out if a current filter is valid or find out why it was added. Good for searching for current DIV
+elements are still active.
+
+
+Lets pick a http://fanboy.co.nz/adblock/forums/viewtopic.php?f=6&t=2542 for example,
+
+hg grep --all -f activewin.com fanboy-adblocklist-current-expanded.txt
+
+Which give us the following results
+
+fanboy-adblocklist-current-expanded.txt:7009:-:activewin.com###table3
+fanboy-adblocklist-current-expanded.txt:7009:+:activewin.com##[width="720"][height="90"]
+...
+
+Now from the "7009", we can pin point the changeset,
+
+hg log | grep 7009:
+changeset:   7009:d4d7b4694891
+
+So what does this give us?
+
+hg log -pr 7009:d4d7b4694891
+
+mdew@mdew-desktop:~/ff/adblock/fanboy-adblock-list$ hg log -pr 7009:d4d7b4694891
+changeset:   7009:d4d7b4694891
+user:        mp3geek@gmail.com
+date:        Mon May 17 20:52:25 2010 +1200
+files:       fanboy-adblocklist-current-expanded.txt
+description:
+site: http://www.activewin.com/mac/content/articles.shtml
+
+
+diff -r 5833dbefd8fb -r d4d7b4694891 fanboy-adblocklist-current-expanded.txt
+--- a/fanboy-adblocklist-current-expanded.txt	Mon May 17 20:50:14 2010 +1200
++++ b/fanboy-adblocklist-current-expanded.txt	Mon May 17 20:52:25 2010 +1200
+@@ -1,5 +1,5 @@
+ [Adblock Plus 1.1]
+-! Checksum: eat/hpqfpLt4XjScUdyPiA
++! Checksum: Vb1weLsNvAJ362oGLB5JvQ
+ ! Fanboy's Adblock list
+ ! Version: 023B Updated: 17 May 2010
+ ! This list expires after 4 days
+@@ -4324,7 +4324,7 @@
+ achieve360points.com###a1
+ achieve360points.com###a3
+ achieve360points.com###foot
+-activewin.com###table3
++activewin.com##[width="720"][height="90"]
+ addictinggames.com###game-info-ad
+ addictinggames.com###potw
+ addictivetips.com###top-area
+
+Or basically this changeset: http://code.google.com/p/fanboy-adblock-list/source/detail?r=d4d7b46948 so you find out, 
+the reason why it was added/removed. Yes its a bit of a mission, but also very powerful as its parses all changes, 
+really old historic changes.

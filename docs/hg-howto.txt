@@ -1,8 +1,9 @@
-3 tools required,
+Tools required,
 
 Activeperl   (http://www.activestate.com/activeperl/)
 Mercurial    (http://mercurial.selenic.com)
 PSPad        (the prefered text editor, http://www.pspad.com)
+grep         (http://gnuwin32.sourceforge.net/packages/grep.htm)
 
 1) Install Activeperl
 2) Install Mercurial, all defaults during install active
@@ -23,6 +24,8 @@ username = gmail-username@gmail.com
 verbose = true
 [extensions]
 rebase =
+fetch =
+
 
 (Note, use the googlecode password not the gmail password)
 Login to google/gmail first, then visit http://code.google.com/p/fanboy-adblock-list/source/list
@@ -45,13 +48,10 @@ adding new elements --> winscript site: http://www.somesite.com/blah.html
 *Any false positives, need to be adzilla first.
 *Any new false positives created by a recent additions 
 removing recent filters --> winscript adzilla: #number reverted
+see: filter-additions.txt
 
 examples of additions comments:
 http://code.google.com/p/fanboy-adblock-list/source/list
 
 Errors:
 "Authorization failed" only occurs if your user/password is incorrect, check your google profile password in 4e, as the password is case sensitive
-
-
-
-
