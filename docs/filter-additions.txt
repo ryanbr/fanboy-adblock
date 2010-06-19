@@ -29,7 +29,7 @@ Filters:
                           **************************
 
 Iron
-----
+****
 
 Issues/Notes: 
 
@@ -61,8 +61,18 @@ Issues/Notes:
       * If the filter has http://www.adserver.com, just filter create the filter .adserver.com/
       * If the filter is like http://site.com/banners.phps?, a filter using the http://.. is needed.
       
+      (7) Removal of filters
+      ----------------------
+      Occasionally some filters can be problematic, if we do come across any issues. Browsing through Adzilla would
+      be a start, finding out why it was added, either improving the filter, removing it (depends on popularity). 
+      Remember removing filters, the maintainer has to weigh up the importance of the site, the filter (and other sites affected).
+      Generally, be careful with any major changes or removals. 
+
+
 Opera
------
+*****
+
+Issues/Notes: 
 
       (1) Avoid the use of the "=" in the urlfilter
       ---------------------------------------------
@@ -90,3 +100,11 @@ Opera
       (6) Filter preference
       ----------------------
       Its better to create a filter like http://ad.filter.com/* rather than */ad.filter.com/*  (its quicker)
+      
+      (7) Removal of filters
+      ----------------------
+      Occasionally some filters can be problematic, if we do come across any issues. Browsing through Adzilla would
+      be a start, finding out why it was added, either improving the filter, removing it (depends on popularity). 
+      Remember removing filters, the maintainer has to weigh up the importance of the site, the filter (and other sites affected).
+      Generally, be careful with any major changes or removals. 
+      
