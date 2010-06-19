@@ -1,7 +1,6 @@
                               Adding Filters 
                               **************
 
-
 CSS Filering:
 -------------
 
@@ -20,11 +19,13 @@ Filters:
     
     Adzilla is used for tracking of additions. So we can work out why blocking rules/whitelists 
     were added, helps with improving filters if problems occur down the track.
-     
-    Note: Once the filter has been uploaded to googlecode set the Adzilla record to be "Completed".
+       
+    * Note: If a filter needs to be modified/modified, create a new Adzilla record, follow same directions as above.
+    In the comments, put down why it the change was required. etc.
 
+    * Note: Once the filter has been uploaded to googlecode set the Adzilla record to be "Completed".
 
-
+      
                           Browser specific Additions
                           **************************
 
