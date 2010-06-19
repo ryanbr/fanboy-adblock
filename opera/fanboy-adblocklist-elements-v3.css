@@ -1,5 +1,5 @@
 /*
-! Checksum: d5hzb14qJGG+81hVLDZszA
+! Checksum: RFh5oGEmq8mW2QofjBMF7Q
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 19 Jun 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -697,7 +697,6 @@
 #mainAdUnit,
 #mainAdvert,
 #maker-rect-ad,
-#MarketGid4488,
 #mastad,
 #mastAdvert,
 #masthead_ad,
@@ -1432,7 +1431,7 @@
 .y7s-lrec,
 .spLinks,
 
-
+#[id^="MarketGid"],
 /* adult-list */
 #im_popupDiv,
 #AFF_popup,
