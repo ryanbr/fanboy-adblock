@@ -2,36 +2,59 @@ Adding Filters
 
 Iron
 ----
-x Iron doesn't support wildcards
 
-so www.website.com/*adbanner* wont work.
+Issues/Notes: 
 
-x Iron only supports full url (complete, unbroken urls)
+      (1) Iron doesn't support wildcards
+      ------------------------------
+      So www.website.com/*adbanner* wont work.
 
-http://www.website.com/img/adbanner.jpg
+      (2) Iron only supports full url (complete, unbroken urls)
+      -----------------------------------------------------
+      Typing in complete urls, http://www.website.com/img/adbanner.jpg
+      
+      (3) a "/" wont cover http://
+      ------------------------
+      This wont work in iron, /adbrite.com/
+      Better to use http://adbrite.com or .adbrite.com (if it has a "." in front)
 
-this wont work in iron, /adbrite.com/  , 
-better to use the full url, if you're intending to block that url
-=> http://adbrite.com/
+      (4) Blocking a url, will stop the page from load it
+      -----------------------------------------------
+      Even if you visit the site manually, it won't load, be careful.
+           
+      (5) Iron filters are case sensitive
+      -----------------------------------
+      So *adbanner* isn't the same as *adBanner* or *Adbanner* etc, a filter will
+      need to be created for each instantance. Best to *only* add the case involved.
+      Adding for each case just adds bloat, we only add filters that we'll come across.
 
-x The "/" only means directory seperator in iron, not http://
-
-x Iron filters are case sensitive
-
+      (6) Filtering
+      --------------
+      * If the filter has http://www.adserver.com, just filter create the filter .adserver.com/
+      * If the filter is like http://site.com/banners.phps?, a filter using the http://.. is needed.
+      
 Opera
 -----
-x Opera supports wildcards
 
-x Will block access to the site directly, so you have to be careful what to block.
+      (1) Avoid the use of the "=" in the urlfilter
+      ---------------------------------------------
+      Just slows things down in Opera
+    
+      (2) CSS filtering
+      -----------------
+      Basic CSS filtering is supported, but lacking in features like excemptions. Unless the filter is really popular
+      and causes plenty of false positives, we recommend disabling the CSS filter on sites that it may break.
+      
+      (3) Blocking a url, will stop the page from load it
+      -----------------------------------------------
+      Even if you visit the site manually, it won't load, be careful.
 
-example of workable filters:
+      (4) Opera filters support Wilcards.. however
+      --------------------------------------------
+      Limit the amount of wildcards used 3 at the most, more wildcards the slower the content filter in Opera.
 
-*.domain.com/*banner*
-*.domain.com/*.swf
-http://*.domain.com/test/*
-*.domain.com/test/me/*
-*/domain.com/*
-
-x Limit the amount of wildcards used 3 at the most, more wildcards the slower the content filter in Opera.
-
-x Opera filters are case sensitive
+      (5) Opera filters are case sensitive
+      -----------------------------------
+      So *adbanner* isn't the same as *adBanner* or *Adbanner* etc, a filter will
+      need to be created for each instantance. Best to *only* add the case involved.
+      Adding for each case just adds bloat, we only add filters that we'll come across.
