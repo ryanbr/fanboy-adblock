@@ -1,4 +1,32 @@
-Adding Filters 
+                              Adding Filters 
+                              **************
+
+
+CSS Filering:
+-------------
+
+    If no blocking filters are required. A simple,
+    
+            "winscript site: http://..." is only needed (no adzilla needed)
+
+Filters:
+--------
+
+    If blocking/Whitelist filters are required (in either Firefox, Opera or Iron)
+    Using your adzilla login, add the site, and paste the ad url's involved (in the comments).
+    Once its been added,
+    
+            "winscript adzilla: #xxxx"  (xxxx being the record ID)
+    
+    Adzilla is used for tracking of additions. So we can work out why blocking rules/whitelists 
+    were added, helps with improving filters if problems occur down the track.
+     
+    Note: Once the filter has been uploaded to googlecode set the Adzilla record to be "Completed".
+
+
+
+                          Browser specific Additions
+                          **************************
 
 Iron
 ----
