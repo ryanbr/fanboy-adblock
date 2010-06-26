@@ -1,5 +1,5 @@
 /*
-! Checksum: r/fZ9skt08WE5IL89LdygQ
+! Checksum: TWoWhpOeKNCBeD4y7MWyBw
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 27 Jun 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -399,6 +399,7 @@
 #advertisement160x600,
 #advertisement728x90,
 #advertisement_notice,
+#advertisingModule160x600,
 #advertiserLinks,
 #advertise_top,
 #advert-island,
@@ -1036,6 +1037,7 @@
 .ADBAR,
 .adbckgrnd,
 .ad_bg,
+.ad_120x90,
 .adblock,
 .adsrecnode,
 .adBlock,
