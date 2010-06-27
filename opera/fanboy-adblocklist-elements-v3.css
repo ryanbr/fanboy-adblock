@@ -1,5 +1,5 @@
 /*
-! Checksum: vUV21Q4e5Khxs8VDb1Rq7A
+! Checksum: iIZxnUg+0GMHfs38IYuKjQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 28 Jun 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1001,6 +1001,8 @@
 .ad_3,
 .ad300,
 .ad_300_250,
+.ad-300x250,
+.ad-300x250-home,
 .ad300_250,
 .ad300250,
 .ad300x250a,
@@ -1008,13 +1010,18 @@
 .ad_300x250,
 .ad300x250,
 .ad300x250box,
+.ad-300-blog,
+.ad-300x100,
+.ad-300x200,
 .ad300x250Top,
 .ad300x40,
 .ad310,
 .ad_336,
 .ad_336x280,
 .ad336x280,
+.ad-728,
 .ad_468,
+.ad-600,
 .ad468_60,
 .ad7,
 .ad728_90,
@@ -1158,7 +1165,7 @@
 .AdTitle,
 .adbox1,
 .ad_top,
-.ad.top,
+.ad-728x90-1,
 .adtop,
 .ad_top_banner,
 .adTopLeft,
@@ -1493,7 +1500,7 @@
 .adbckgrnd,
 /* IE Fixes */
 div[id="Ad Panel"],
-
+div[class="ad top"],
 /* 123greetings.com */
 .rt_advert_name,
 /* 123people.co.uk */
