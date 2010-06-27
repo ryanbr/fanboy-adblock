@@ -1,7 +1,7 @@
 /*
-! Checksum: UN9D5ck7C3DKlcbKBVkvGw
+! Checksum: vUV21Q4e5Khxs8VDb1Rq7A
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 27 Jun 2010
+! Version: V3 Updated: 28 Jun 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: mp3geek@gmail.com  http://fanboy.co.nz/adblock
 !
@@ -1103,7 +1103,6 @@
 .adops.textlinks,
 .ad-other,
 .adpad300,
-.Ad.Panel,
 .ad-placeholder,
 .ad_mrect,
 .ad_power,
@@ -1492,6 +1491,8 @@
 #AFF_popup,
 #floatyContent,
 .adbckgrnd,
+/* IE Fixes */
+div[id="Ad Panel"],
 
 /* 123greetings.com */
 .rt_advert_name,
