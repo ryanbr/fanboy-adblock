@@ -1,5 +1,5 @@
 /*
-! Checksum: iIZxnUg+0GMHfs38IYuKjQ
+! Checksum: MZosgyz/fuB1oHAID0yV8Q
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 28 Jun 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1510,7 +1510,7 @@ div[class="ad top"],
 /* abcnews.go.com*/
 #feature_adlinks,
 .index-quigo,
-.story-embed-left.box,
+div[class="story-embed-left box"],
 /* accuweather.com */
 #content_box_adright300_google,
 #accuAdDiv,
