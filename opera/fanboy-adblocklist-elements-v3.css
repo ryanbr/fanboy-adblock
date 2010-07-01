@@ -1,5 +1,5 @@
 /*
-! Checksum: S17BWklp8TZfRcFVxsh2VQ
+! Checksum: Vh6Y/LXig8XIxDlM0BMEpg
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 30 Jun 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -601,6 +601,7 @@
 #g-adblock2,
 #g_adsense,
 #galleryad1,
+#gallery-ad,
 #gallery-ad-m0,
 #gallery_ads,
 #gallery-advert,
@@ -1018,6 +1019,7 @@
 .ad300,
 .ad_300_250,
 .ad-300x250,
+.ad336x362,
 .ad-300x250-home,
 .ad300_250,
 .ad300250,
@@ -2455,6 +2457,7 @@ img[src="http://static.thepiratebay.org/img/agb.gif"],
 /* virginmedia.com */
 #VM-header-adwrap,
 #VM-MPU-adspace,
+#VM-header-adspace,
 .google-ad-container,
 /* walmart.com */
 .TopAd,
