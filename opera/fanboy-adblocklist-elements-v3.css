@@ -1,5 +1,5 @@
 /*
-! Checksum: sl7sGQthwigRGOLvnnbW+Q
+! Checksum: xT6l5pNncX1nmjiZH31B5A
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 4 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -686,6 +686,7 @@
 #iframe_container300x250,
 #imu,
 #inlinead,
+#inlineAd,
 #inner-top-ads,
 #in_post_ad_middle_1,
 #interruptor,
@@ -968,6 +969,7 @@
 #top_sponsor_ads,
 #toptextad,
 #towerad,
+#towerAdContainer,
 #tut_ads,
 #txt_link_ads,
 #ugly-ad,
@@ -1537,6 +1539,7 @@
 .y7s-lrec,
 .y-ads,
 .y-ads-wide,
+.yahooContentMatch,
 .spLinks,
 
 *[id^="MarketGid"],
