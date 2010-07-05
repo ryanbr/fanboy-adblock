@@ -1,7 +1,7 @@
 /*
-! Checksum: U7ddQNbo5e1sqGK20I0DqQ
+! Checksum: zQ7sRjq6wcJzPXdFw4bnAg
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 4 Jul 2010
+! Version: V3 Updated: 5 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: mp3geek@gmail.com  http://fanboy.co.nz/adblock
 !
@@ -228,6 +228,8 @@
 #adnews,
 #ad_overture,
 #ad_300_250,
+#AdPanelBigBox,
+#AdPanelLogo,
 #ad-placard,
 #ad_placeholder,
 #ad_play_300,
@@ -254,6 +256,7 @@
 #adright2,
 #ad-righttop,
 #ad-position-a,
+#adspace-one,
 #ad_right3,
 #ad-right3,
 #adrighthome,
@@ -516,6 +519,7 @@
 #bottomAdSenseDiv,
 #bottomMPU,
 #bottom-sky,
+#bottom-boxad,
 #bottom_sponsor_ads,
 #bottom_sponsored_links,
 #box_ad,
@@ -633,7 +637,7 @@
 #google-adsense-mpusize,
 #google_ads_frame,
 #google_ads_frame1,
-#google_ads_frame2,
+#google_ads_frame2,                
 #google_ads_frame3,
 #google_ad_test,
 #google-ad-tower,
@@ -725,6 +729,7 @@
 #long-ad-space,
 #lowerthirdad,
 #lrec,
+#lrec_ad,
 #main_AD,
 #MainAd,
 #main_ad,
@@ -844,6 +849,7 @@
 #side_ads,
 #side-ads,
 #side-ads-box,
+#side-boxad,
 #side_ad_wrapper,
 #sidebar-125x125-ads,
 #sidebar-125x125-ads-below-index,
@@ -1306,6 +1312,7 @@
 .breakthrough-ad,
 .btn-ad,
 .canoeAdvertorial,
+.care2_adspace,
 .cbstv_ad_label,
 .center_ad,
 .contentleftad,
@@ -1315,6 +1322,7 @@
 .content_ad,
 .content_ad_728,
 .contentad,
+.cornerBoxInnerWhiteAd,
 .c_spons_links2,
 .cubeAd,
 .currency_ad,
@@ -1444,6 +1452,7 @@
 .scoopads,
 .section_ad_left,
 .showAd_No,
+.ShowAdDisplay,
 .showcaseAd,
 .sidead,
 .side_ad,
@@ -1483,6 +1492,7 @@
 .spn_links_box,
 .sponlinkbox,
 .sponserLink,
+.sponsorship_ad,
 .sponsor-ad,
 .sponsorad,
 .sponsorads,
