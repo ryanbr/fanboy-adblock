@@ -1,5 +1,5 @@
 /*
-! Checksum: Os9F+X3bGiC+c2neTV5ZQw
+! Checksum: GxKF9lw0ep79osB5lGyxxA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 8 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1058,6 +1058,9 @@
 .ad300x40,
 .ad310,
 .ad_336,
+.ad300x100,
+.adscontainer,
+.ad120x60,
 .ad_336x280,
 .ad336x280,
 .ad-728,
@@ -1560,6 +1563,7 @@
 .ts-featured_ad,
 .vAd_160x600,
 .txtAd,
+.undertimyads,
 .videoBoxAd,
 .webad-cnt,
 .wide-ad,
