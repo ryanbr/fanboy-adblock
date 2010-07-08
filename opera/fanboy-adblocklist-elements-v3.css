@@ -1,5 +1,5 @@
 /*
-! Checksum: GxKF9lw0ep79osB5lGyxxA
+! Checksum: Vbr+G7BzgGMwC0Yk8imk7A
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 8 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -498,6 +498,7 @@
 #b5_ad_top,
 #b5_ad_sidebar1,
 #b5_ad_footer,
+#b5-skyscraper-ad-3,
 #bg_YieldManager-300x250,
 #big_ad,
 #bigad,
@@ -1311,6 +1312,7 @@
 .blogArtAd,
 .blogBigAd,
 .cdAdContainer,
+.b5_widget_skyscraper_ad,
 .bnr_ad,
 .bodyads,
 .bookseller-header-advt,
