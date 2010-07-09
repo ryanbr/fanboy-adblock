@@ -1,5 +1,5 @@
 /*
-! Checksum: 4SGPP8Bo1+WHx9J7mAZEZg
+! Checksum: QcthgqSjVvi/JINQIKWvkg
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 9 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -567,6 +567,7 @@
 #contextual-ads-block,
 #cnnTowerAd,
 #ctl00_adFooter,
+#ctl00_AdWords,
 #ctl00_cphMain_hlAd1,
 #ctl00_cphMain_hlAd2,
 #ctl00_cphMain_hlAd3,
@@ -1349,6 +1350,7 @@
 .content_ad,
 .content_ad_728,
 .contentad,
+.container-adwords,
 .cornerBoxInnerWhiteAd,
 .c_spons_links2,
 .cubeAd,
