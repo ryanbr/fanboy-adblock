@@ -1,5 +1,5 @@
 /*
-! Checksum: v/W+JHSpglpW2aI+ZqRkdA
+! Checksum: h6BPzM9LDztQ0Uved0ygMA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 14 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -308,6 +308,7 @@
 #ads_header,
 #AdsContent,
 #adsDisplay,
+#AdDetails_SeeMoreLink,
 #adsDiv0,
 #adsDiv2,
 #adsense,
@@ -333,6 +334,7 @@
 #ad-side-text,
 #adsIframe,
 #ads-indextext,
+#AdDetails_GoogleLinksBottom,
 #adSkyPosition,
 #ad_skyscraper,
 #ad-skyscraper,
@@ -850,6 +852,7 @@
 #RightRailSponsor,
 #rectangle_ad,
 #refine-300-ad,
+#right_column_ads,
 #refine-ad,
 #region-top-ad,
 #rh-ad-container,
@@ -900,6 +903,7 @@
 #sidebar-ads,
 #sidebargooglead,
 #singlead,
+#singleAdsContainer,
 #single-mpu,
 #site-leaderboard-ads,
 #site_top_ad,
@@ -972,6 +976,7 @@
 #topAd728x90,
 #top_ad_area,
 #topAdBanner,
+#top_right_ad,
 #topadblock,
 #top_adblock_fix,
 #top-leaderboard,
@@ -1157,6 +1162,7 @@
 .adcolumn,
 .adColumn,
 .adContour,
+.ad_0,
 .ad_callout,
 .ad_cont,
 .ad-container,
@@ -1180,6 +1186,7 @@
 .ad-heading,
 .adHeadline,
 .adHome300x250,
+.aisoad,
 .ad-holder,
 .ad-home-right,
 .ad-homepage,
@@ -1221,6 +1228,7 @@
 .ads_300,
 .adsforums
 .adsbottom,
+.adsenseGreenBox,
 .ad728x90_container,
 .ads468x60,
 .adsDiv,
@@ -1313,6 +1321,7 @@
 .ad-wrap,
 .ad-wrapper,
 .ad-zone-s-q-l,
+.AdScriptBox,
 .adspace-widget,
 .adWrapper,
 .articlead,
@@ -1344,6 +1353,7 @@
 .bannergoogle,
 .bannerTopAdLeft,
 .bannerTopAdRight,
+.BottomAdContainer,
 .belt_ad,
 .bigad,
 .bigad2,
@@ -1508,6 +1518,7 @@
 .regularad,
 .relatedAds,
 .rev_square_side_door,
+.RightGoogleAFC,
 .rght300x250,
 .right-ad,
 .rightAd,
@@ -1612,6 +1623,7 @@
 .topads,
 .topAds,
 .topBannerAd,
+.TopAdContainer,
 .top_container_ad,
 .topleader,
 .top_sponsor,
@@ -1758,6 +1770,7 @@ div[class="story-embed-left box"],
 #sensis_island_ad_3_column,
 /* bing.com */
 .sb_adsW,
+.sb_adsWv2,
 /* bitmob.com */
 #advert,
 /* bicycling.com */
