@@ -1,5 +1,5 @@
 /*
-! Checksum: FeEcF0XUUd4zvNFD+kwBTg
+! Checksum: 7xmz3o8g9a8HYkD7GRPSsQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 14 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -306,6 +306,7 @@
 #ads_header,
 #AdsContent,
 #adsDisplay,
+#AdDetails_SeeMoreLink,
 #adsDiv0,
 #adsDiv2,
 #adsense,
@@ -331,6 +332,7 @@
 #ad-side-text,
 #adsIframe,
 #ads-indextext,
+#AdDetails_GoogleLinksBottom,
 #adSkyPosition,
 #ad_skyscraper,
 #ad-skyscraper,
@@ -1224,6 +1226,7 @@
 .ads_300,
 .adsforums
 .adsbottom,
+.adsenseGreenBox,
 .ad728x90_container,
 .ads468x60,
 .adsDiv,
@@ -1513,6 +1516,7 @@
 .regularad,
 .relatedAds,
 .rev_square_side_door,
+.RightGoogleAFC,
 .rght300x250,
 .right-ad,
 .rightAd,
