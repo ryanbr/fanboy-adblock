@@ -1,5 +1,5 @@
 /*
-! Checksum: vs4tuDqPYAgHuHVEK+xhKg
+! Checksum: iC4h4xIeOy0zIr43n8SbYQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 14 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -899,6 +899,7 @@
 #sidebar-ads,
 #sidebargooglead,
 #singlead,
+#singleAdsContainer,
 #single-mpu,
 #site-leaderboard-ads,
 #site_top_ad,
@@ -1181,6 +1182,7 @@
 .ad-heading,
 .adHeadline,
 .adHome300x250,
+.aisoad,
 .ad-holder,
 .ad-home-right,
 .ad-homepage,
