@@ -1,5 +1,5 @@
 /*
-! Checksum: cQ1y/UkN2eU5Jz4Ct3WrUg
+! Checksum: 7wKtFrdA7x2Wa9vo6LgSnA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 17 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1335,6 +1335,7 @@
 .ad-wrap,
 .ad-wrapper,
 .ad-zone-s-q-l,
+.ad-120x600,
 .AdScriptBox,
 .adspace-widget,
 .adWrapper,
@@ -1349,6 +1350,8 @@
 .ad-slot-300-250,
 .ad-slot-728-90,
 .Ad_300x250,
+.AdsBoxBottom,
+.AdsBoxTop,
 .adsc,
 .affiliate_header_ads,
 .affiliate_header_ads_container,
@@ -1395,6 +1398,7 @@
 .box.ad,
 .box-ad-a,
 .boxAd,
+.BoxAd,
 .boxadvertisement,
 .box_ad,
 .box_ad_wrap,
@@ -1534,6 +1538,7 @@
 .rectangleAd,
 .blogads,
 .rectangle_afd,
+.RectangleAd,
 .regularad,
 .relatedAds,
 .rev_square_side_door,
@@ -1563,6 +1568,7 @@
 .showAd_No,
 .ShowAdDisplay,
 .showcaseAd,
+.SkyAdContainer,
 .sidead,
 .side_ad,
 .side_ad2,
