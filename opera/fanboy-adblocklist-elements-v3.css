@@ -1,5 +1,5 @@
 /*
-! Checksum: Bkp9Ht5WGSCdgx8Lvc8iWw
+! Checksum: ywKT7l8SlCRxreoNM1BqCA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 16 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -782,6 +782,7 @@
 #main-ad160x600,
 #main-ad160x600-img,
 #main-ad728x90,
+#main-bottom-ad,
 #mainAdUnit,
 #mainAdvert,
 #maker-rect-ad,
@@ -1550,6 +1551,7 @@
 .RBboxAd,
 .rnav_ad.searchAd,
 .rt_el_advert,
+.right-col-ad,
 .scoopads,
 .section_ad_left,
 .showAd_No,
@@ -1587,6 +1589,7 @@
 .skyAdd,
 .skyCraper_banner,
 .cb-ad-container,
+.skyscraper_ad,
 .smallsponsorad,
 .speedyads,
 .spl_ad_plus,
@@ -2023,6 +2026,8 @@ div[id="leaderboard"],
 .console_el,
 /* foxbusiness.com */
 #cb_medrect1_frame,
+/* foodnetwork.co.uk */
+#pre-header-banner,
 /* fresnobee.com */
 .ad-national-1,
 /* ft.com */
