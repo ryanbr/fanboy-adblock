@@ -1,5 +1,5 @@
 /*
-! Checksum: bGO4HPq7NxCh6p8zJFjfrA
+! Checksum: nPm8HZcMz3xWAfPY06DZsg
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 16 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -248,6 +248,7 @@
 #adnews,
 #ad_overture,
 #ad_300_250,
+#Ad300x250_0,
 #ad-728x90-top,
 #AdPanelBigBox,
 #AdPanelLogo,
@@ -1127,6 +1128,7 @@
 .ad_728x90,
 .ad_728_top,
 .ad300x250_box,
+.Ad300x250,
 .ad_180x150,
 .ad728x90box,
 .ad-768,
