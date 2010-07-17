@@ -1,5 +1,5 @@
 /*
-! Checksum: 2uUO2cu/b8Vi2spAcSpISg
+! Checksum: cFSewAIaoPWwmVWAltVCLA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 17 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1687,6 +1687,7 @@
 #AFF_popup,
 #floatyContent,
 .adbckgrnd,
+#im_popupFixed,
 a[href^="http://c.actiondesk.com/"],
 a[href^="http://www.fleshlight.com/"],
 /* IE Fixes */
