@@ -1,5 +1,5 @@
 /*
-! Checksum: bGXLIHIK3M/Ot+sVpzFPdA
+! Checksum: S/FYGEg5zz0XfKAVZjhlkg
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 22 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -889,6 +889,7 @@
 #rhs_ads,
 #rhsads,
 #right_ad,
+#right-ads,
 #rightAds,
 #right-ad-skin,
 #rightbar_ad,
@@ -1467,6 +1468,7 @@
 .flashadd,
 .flash_advert,
 .flash-advertisement,
+.flash_ad,
 .footerAd,
 .gAd,
 .google300x250BoxFooter,
