@@ -1,5 +1,5 @@
 /*
-! Checksum: 0B3fpcNWiUs1r7RK/77UIA
+! Checksum: tzC9FuCYfHIeB41qF16sLg
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 24 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1395,6 +1395,7 @@
 .articleAd,
 .articleflex-container,
 .ArticleInlineAd,
+.ad_main,
 .article_page_ads_bottom,
 .b_ads,
 .banner1-728x90,
@@ -1730,6 +1731,7 @@
 .wide-ad,
 .wideAd,
 .widget-ad,
+.floatad,
 .widget-entry-ads-160,
 .wp125ad,
 .wp125ad_2,
