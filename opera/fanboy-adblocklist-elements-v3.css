@@ -1,5 +1,5 @@
 /*
-! Checksum: D5hdfI/0M49izNAweCnQIA
+! Checksum: 4REOuKpUIKEWUUqX2hxwzQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 24 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -333,6 +333,7 @@
 #AdSense2,
 #adsense2pos,
 #adsense_300x250,
+#adsense_inline,
 #adsense-area,
 #medium-ad,
 #adsense_box,
@@ -452,6 +453,7 @@
 #advert-footer,
 #advert_header,
 #ad_vertical,
+#ad_right_rail_flex,
 #advert1,
 #advertisement160x600,
 #advertisement728x90,
@@ -1336,6 +1338,7 @@
 .ad-728x90-1,
 .adtop,
 .ad_top_banner,
+.ad_topright,
 .adTopLeft,
 .admessage,
 .adTopRight,
@@ -1384,6 +1387,7 @@
 .ad-zone-s-q-l,
 .ad-120x600,
 .AdScriptBox,
+.adSeven,
 .adspace-widget,
 .adWrapper,
 .adwrapper-lrec,
@@ -1482,6 +1486,7 @@
 .flash-advertisement,
 .flash_ad,
 .footerAd,
+.game_right_ad,
 .gAd,
 .google300x250BoxFooter,
 .google300x250TextFooter,
