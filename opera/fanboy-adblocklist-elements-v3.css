@@ -1,7 +1,7 @@
 /*
-! Checksum: ACk0XIhUCZ6uCr1KO+FnmQ
+! Checksum: TQveR/tvs6mTfrg8GGhz2g
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 25 Jul 2010
+! Version: V3 Updated: 26 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: mp3geek@gmail.com  http://fanboy.co.nz/adblock
 !
@@ -288,6 +288,7 @@
 #ad_right_top,
 #ad_left_top,
 #adright,
+#ad-right,
 #ad-right2,
 #adright2,
 #ad-righttop,
@@ -1903,6 +1904,8 @@ div[class="story-embed-left box"],
 /* buddytv.com */
 #btv_aja_rightAd,
 .ad-300-block,
+/* btjunkie.org */
+#topad,
 /* businessinsider.com */
 .sponsored-post,
 /* businesspundit.com */
