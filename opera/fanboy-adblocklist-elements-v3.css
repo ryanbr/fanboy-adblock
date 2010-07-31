@@ -1,5 +1,5 @@
 /*
-! Checksum: 6ypIqvQg6Ngqb70uq836Vw
+! Checksum: KObdukT8fv6HLTLVm2eYBQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 31 Jul 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -964,6 +964,7 @@
 #sky-ad,
 #skyAd,
 #skyline_ad,
+#skcolAdSky,
 #sky-right,
 #skyScraper,
 #skyscraper_ad,
@@ -2428,6 +2429,7 @@ div[class="w460 clr"],
 /* newscientist.com */
 #hldhdAds,
 .adline,
+.mpMPU,
 /* newsweek.com */
 .homepageFlexAdOuter,
 /* newsonjapan.com */
