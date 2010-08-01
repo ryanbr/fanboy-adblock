@@ -22,7 +22,7 @@ perl addChecksum.pl firefox-regional/fanboy-adblocklist-swe.txt
 perl addChecksum.pl firefox-regional/fanboy-adblocklist-tky.txt
 perl addChecksum.pl firefox-regional/fanboy-adblocklist-ita.txt
 perl addChecksum.pl firefox-regional/fanboy-adblocklist-vtn.txt
-perl addChecksum.pl firefox-regional/fanboy-adblocklist-tam.txt
+perl addChecksum.pl firefox-regional/fanboy-adblocklist-ind.txt
 perl addChecksum.pl firefox-regional/fanboy-adblocklist-pol.txt
 # Opera
 perl addChecksum-opera.pl opera/urlfilter.ini
