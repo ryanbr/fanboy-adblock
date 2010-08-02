@@ -1,5 +1,5 @@
 /*
-! Checksum: BgRPHWQh9M+xAuYuNXnniA
+! Checksum: RwgKOFMHGKJrFr4YtDoreA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 2 Aug 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -521,6 +521,7 @@
 #articleLeftAdColumn,
 #articleSideAd,
 #articleview_ad,
+#article-sponspred-content,
 #awesome-ad,
 #autos_banner_ad,
 #adText_container,
@@ -649,6 +650,8 @@
 #DealsPageSideAd,
 #div_googlead,
 #divAd,
+#DivAdA,
+#DivAdB,
 #divAdBox,
 #divupperrightad,
 #divWNAdHeader,
@@ -1744,6 +1747,7 @@
 .tablebordersponsor,
 .textad,
 .TextAd,
+.textAdBG,
 .textAd3,
 .textadbox,
 .textAds,
