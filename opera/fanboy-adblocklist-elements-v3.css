@@ -1,5 +1,5 @@
 /*
-! Checksum: ASTam3VoJ4mTXyahvj2zsw
+! Checksum: egyVmtmD4/cQ21gdRT7qIw
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 5 Aug 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -980,6 +980,7 @@
 #single-mpu,
 #site-leaderboard-ads,
 #site_top_ad,
+#sidebar_ads_180,
 #sky-ad,
 #skyAd,
 #skyline_ad,
@@ -1416,6 +1417,8 @@
 .advertismentBox,
 .advertisment,
 .advert-lower-right,
+.advertise_link,
+.advertise_link_sidebar,
 .advertRight,
 .adWidget,
 .advert-wide,
@@ -1704,6 +1707,7 @@
 .side-ad-120-bottom,
 .side-ad-160-top,
 .slide_ad,
+.sidebar_ads_336,
 .add-wrapper,
 .side-ad-160-middle,
 .side-ad-160-bottom,
@@ -1783,6 +1787,7 @@
 .topleader,
 .top_sponsor,
 .towerAd,
+.tower_ad,
 .towerAds,
 .ts-featured_ad,
 .vAd_160x600,
