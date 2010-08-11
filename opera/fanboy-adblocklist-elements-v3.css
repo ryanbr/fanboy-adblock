@@ -1,7 +1,7 @@
 /*
-! Checksum: 5SfVN6pswXjsAxsw22ypQg
+! Checksum: 5aAw7MQCioqx/g3V+8dSSA
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 10 Aug 2010
+! Version: V3 Updated: 11 Aug 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: mp3geek@gmail.com  http://fanboy.co.nz/adblock
 !
@@ -17,6 +17,8 @@
 ! OSX: Opera Menu -> Preferences -> Advanced Tab -> Content -> Style Options Button
 ! Browse to your Opera Prefs directory and select "fanboy-adblocklist-elements-v3.css" (this file)
 !
+
+
 */
 #A9AdsMiddleBoxTop,
 #A9AdsOutOfStockWidgetTop,
@@ -1045,6 +1047,8 @@
 #tertiary_advertising,
 #text-ad,
 #pof_ads_Wrapper,
+#TopAdTable,
+#SkyAd,
 #textad,
 #textad_block,
 #textAds,
