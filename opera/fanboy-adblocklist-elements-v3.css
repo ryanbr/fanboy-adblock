@@ -1,5 +1,5 @@
 /*
-! Checksum: Vc9px7JA9IgIL/aA0RhOpw
+! Checksum: EBdoePSXckpNSOhF6uTGtg
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 15 Aug 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -522,6 +522,7 @@
 #anchorAd,
 #asinglead,
 #affiliate_ad,
+#affinityBannerAd,
 #article_ad_bottom,
 #article_ad_container,
 #article_ad_top,
@@ -1482,6 +1483,7 @@
 .adsc,
 .affiliate_header_ads,
 .affiliate_header_ads_container,
+.affinityAdHeader,
 .banner300x100,
 .banner.ad,
 .google_ad336,
@@ -1637,6 +1639,7 @@
 .leaderboard-ad,
 .leftbar_ad_160_600,
 .left-ad,
+.leftAdColumn,
 .leftad,
 .left_col_ad,
 .LeftTowerAd,
@@ -1756,6 +1759,7 @@
 .skyAd,
 .skyAdd,
 .skyCraper_banner,
+.skyscraper_bannerAdHome,
 .cb-ad-container,
 .skyscraper_ad,
 .smallsponsorad,
