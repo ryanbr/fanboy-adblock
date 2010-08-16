@@ -1,4 +1,4 @@
-sortFilters.exe is a command line program that will sort a txt file adhering to the standard ascii sort order, It also removed any un-needed empty lines.
+sortFilters.exe is a command line program that will sort a txt file (adhering to the standard ascii sort order), It also removes any un-needed empty lines.
 
 
 
