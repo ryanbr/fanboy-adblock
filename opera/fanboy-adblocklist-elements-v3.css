@@ -1,5 +1,5 @@
 /*
-! Checksum: fGxntKBII7zZzlW7t1J3IQ
+! Checksum: CYyIEmj0n9HCP7r6dA+APA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 21 Aug 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1529,6 +1529,7 @@
 .bigad2,
 .big-ads,
 .bigbox_ad,
+.block-ad,
 .blocked-ads,
 .block-openx,
 .blog-ad,
@@ -1593,6 +1594,7 @@
 .flash-advertisement,
 .floatad,
 .footerAd,
+.footerTextAd,
 .gAd,
 .gallery_ad,
 .game_right_ad,
