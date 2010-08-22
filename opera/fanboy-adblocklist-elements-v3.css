@@ -1,5 +1,5 @@
 /*
-! Checksum: paIZ+o4KkXmuowhCGNWpmA
+! Checksum: NVzsMipM3eMEdtswV4ybVw
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 22 Aug 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -480,6 +480,7 @@
 #advertsingle,
 #advert-stickysky,
 #advert-text,
+#advert-footer-hidden,
 #advertTower,
 #advert-wrapper,
 #advframe,
@@ -1713,6 +1714,7 @@
 .performancingads_region,
 .pnp_ad,
 .post-ad,
+.post-load-ad,
 .prebodyads,
 .promo_border,
 .promo-ad,
