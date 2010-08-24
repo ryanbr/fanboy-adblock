@@ -1,5 +1,5 @@
 /*
-! Checksum: aqgohvE0D/4x1HZqc8FxeA
+! Checksum: dL0BAaA5OAGolsvjbK1Xig
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 24 Aug 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -755,6 +755,7 @@
 #googlebanner,
 #googleShoppingAdsRight,
 #googleShoppingAdsTop,
+#googleAdwordsModule,
 #googlesponsor,
 #grid_ad,
 #hd_ad,
@@ -1401,6 +1402,7 @@
 .ads_180,
 .ads_300,
 .ads_rectangle,
+.ad-disclaimer,
 .ads_side,
 .ads_takeover,
 .ads_title,
