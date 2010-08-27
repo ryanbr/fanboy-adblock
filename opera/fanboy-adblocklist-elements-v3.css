@@ -1,7 +1,7 @@
 /*
-! Checksum: UytwgS7+AbfxIAc9Re88rg
+! Checksum: 5rNA19Bk7qqd9PSIisw3CA
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 26 Aug 2010
+! Version: V3 Updated: 27 Aug 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: mp3geek@gmail.com  http://fanboy.co.nz/adblock
 !
@@ -132,6 +132,8 @@
 #ad_x10,
 #ad_YieldManager-300x250,
 #ad_YieldManager-728x90,
+#ad_YieldManager-160x600,
+#ad_googlebanner_160x600LH,
 #ad1,
 #ad-1,
 #ad-120x60Div,
@@ -2284,6 +2286,11 @@ div[id="leaderboard"],
 #pre-header-banner,
 /* fresnobee.com */
 .ad-national-1,
+/* frostwire */
+#bg_YieldManager-160x600,
+#bg_banner_728x90,
+#bg_banner_468x60,
+#bg_googlebanner_160x600LH,
 /* ft.com */
 #top-ad,
 /* fsdaily.com */
