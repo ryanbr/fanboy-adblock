@@ -1,5 +1,5 @@
 /*
-! Checksum: +YEykJ12KNGvwiIgarSS8Q
+! Checksum: cCQFZYbuzBv3mImFA6Gb0w
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 2 Sep 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1275,9 +1275,11 @@
 .ad-zone-s-q-l,
 .ad1,
 .ad10,
+.ad120x240GrayBorder,
 .ad120x60,
 .Ad120x600,
 .ad160x600box,
+.ad160x600GrayBorder,
 .Ad160x600left,
 .Ad160x600right,
 .ad18,
@@ -1293,8 +1295,6 @@
 .ad300x250-stacked,
 .ad300x250_box,
 .ad300x250a,
-.ad120x240GrayBorder,
-.ad160x600GrayBorder,
 .ad300x250b,
 .ad300x250box,
 .ad300x250Top,
@@ -1932,6 +1932,7 @@
 .webad-cnt,
 .wide-ad,
 .wide_ad_unit_top,
+.wide_grey_ad_box,
 .wideAd,
 .widget-ad,
 .widget-entry-ads-160,
