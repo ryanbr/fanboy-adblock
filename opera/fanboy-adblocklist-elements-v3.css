@@ -1,5 +1,5 @@
 /*
-! Checksum: p+X3kHkw9oCS6IqkPDsioQ
+! Checksum: EgVy3Scy58wrQkrZFsezAQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 4 Sep 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1172,6 +1172,7 @@
 #toptextad,
 #towerad,
 #towerAdContainer,
+#tmcomp_ad,
 #tut_ads,
 #txt_link_ads,
 #ugly-ad,
@@ -1541,6 +1542,8 @@
 .advertisment,
 .advertismentBox,
 .advertRight,
+.advert_google_title,
+.advert_google_content,
 .advfrm,
 .advhere,
 .Advman_Widget,
