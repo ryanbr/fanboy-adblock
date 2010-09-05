@@ -1,5 +1,5 @@
 /*
-! Checksum: BgcDQ8UyDEnqCUkkO9V4FQ
+! Checksum: vBqcT7iHNwkja763PujKdA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 6 Sep 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -21,6 +21,7 @@
 #A9AdsMiddleBoxTop,
 #A9AdsOutOfStockWidgetTop,
 #A9AdsServicesWidgetTop,
+#about_adsbottom,
 #ad-1,
 #ad-120x60Div,
 #ad-160x600-sidebar,
@@ -1773,6 +1774,7 @@
 .micro_ad,
 .mid-ad-wrapper,
 .midad,
+.middleAdMid,
 .mod-horizontal-ad,
 .mod-vertical-ad,
 .module-ad,
