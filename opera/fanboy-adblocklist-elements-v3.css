@@ -1,7 +1,7 @@
 /*
-! Checksum: /ZmIgEy2fCP3Bu4M6RL+QA
+! Checksum: Vb5JNSy2pR7TMigvJuBEhA
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 7 Sep 2010
+! Version: V3 Updated: 8 Sep 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: mp3geek@gmail.com  http://fanboy.co.nz/adblock
 !
@@ -946,6 +946,7 @@
 #navi_banner_ad_780,
 #navigation-ad,
 #nbaHouseAnd600Ad,
+#nba300Ad,
 #nbaVid300Ad,
 #news_left_ad,
 #news_right_ad,
@@ -2619,6 +2620,9 @@ div[class="w460 clr"],
 #topadwrap,
 /* nachrichten.at */
 #google_textlinks,
+/* nba.com */
+.nbaTVPodAd,
+.nbaAroundAd2,
 /* naver.com */
 #aside_ad,
 .ad_sponsor,
