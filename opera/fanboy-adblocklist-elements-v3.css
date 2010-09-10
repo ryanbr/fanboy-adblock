@@ -1,7 +1,7 @@
 /*
-! Checksum: Buy6JJSsNgYMh2EYwL2n+w
+! Checksum: pp8zbU5W+SL0m0K4HT1NMA
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 9 Sep 2010
+! Version: V3 Updated: 10 Sep 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: mp3geek@gmail.com  http://fanboy.co.nz/adblock
 !
@@ -785,6 +785,7 @@
 #grid_ad,
 #hd_ad,
 #hdrAdBanner,
+#hdr-banner-ad,
 #head-banner468,
 #headAd,
 #header-ad-block,
@@ -994,6 +995,7 @@
 #refine-300-ad,
 #refine-ad,
 #region-top-ad,
+#rh-ad,
 #rh-ad-container,
 #rhs_ads,
 #rhsads,
@@ -1391,6 +1393,7 @@
 .ad_notice,
 .ad_pagebody,
 .ad_power,
+.ad-poster,
 .ad_rectangle,
 .Ad_Right,
 .ad_rightside,
@@ -1481,6 +1484,7 @@
 .ads_300,
 .ads_rectangle,
 .ads_side,
+.ads_folat_left,
 .ads_takeover,
 .ads_title,
 .adsbottom,
@@ -1647,6 +1651,8 @@
 .breakthrough-ad,
 .btn-ad,
 .btn_ad,
+.cA-adStack,
+.cA-adStrap,
 .c_spons_links2,
 .cat_context_ad,
 .canoeAdvertorial,
@@ -1679,6 +1685,7 @@
 .dynamic-ads,
 .editor_ad,
 .entry_sidebar_ads,
+.exec-advert-flash,
 .fc_splash_ad,
 .fixedAds,
 .flash-advertisement,
