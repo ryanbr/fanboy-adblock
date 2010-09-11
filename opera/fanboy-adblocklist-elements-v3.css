@@ -1,5 +1,5 @@
 /*
-! Checksum: RNZNzfIa6WTXuuzcOFRS5Q
+! Checksum: cvQAGkZkZLyK/sj4ZlWGmw
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 11 Sep 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2016,7 +2016,8 @@
 .y7s-lrec,
 .yahooAds,
 .yahooContentMatch,
-
+/* general filters */
+#[id^="google_ads_"],
 /* adult-list */
 #IM_AD,
 #im_popupDiv,
