@@ -1,5 +1,5 @@
 /*
-! Checksum: +L0KkkBZLS1azAoUIB46Pw
+! Checksum: J8X0fggRxU5JDRzYH8nvGA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 14 Sep 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1633,6 +1633,7 @@
 .blocked-ads,
 .blog-ad,
 .blog-ad-leader-inner,
+.block-thirdage-ads,
 .blog-ads,
 .blogads,
 .blogArtAd,
@@ -1692,6 +1693,7 @@
 .divGoogleAdsTop,
 .divSponsoredBox,
 .dynamic-ads,
+.embed-ad,
 .editor_ad,
 .entry_sidebar_ads,
 .exec-advert-flash,
