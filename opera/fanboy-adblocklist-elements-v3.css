@@ -1,5 +1,5 @@
 /*
-! Checksum: OyntJS4mf2RMHd4PXzHTPA
+! Checksum: yZUY2fESEqZ9MnNhGwrUfQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 18 Sep 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1549,6 +1549,8 @@
 .adtravel,
 .adTxt,
 .AdUnit,
+.adunit_728x90,
+.adunit_210x509,
 .adv,
 .adv-search-ad,
 .adv_1,
@@ -2274,6 +2276,8 @@ div[class="story-embed-left box"],
 .cnn_adcntr728x90t,
 .cnn_adcntr300x100,
 .cnnWCAdBox,
+.cnn_adcntr728x90,
+.cnn_fabcatad,
 /* cnngo.com */
 #block-ad_cube-0,
 #block-ad_cube-1,
