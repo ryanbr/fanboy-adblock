@@ -1,5 +1,5 @@
 /*
-! Checksum: 5flS64THWFILSp06iXJtoA
+! Checksum: WFH1uhXhoSNgp3bDz+9d9w
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 19 Sep 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -220,6 +220,7 @@
 #ad_rectangular,
 #ad_report_leaderboard,
 #ad_report_rectangle,
+#Ad_Right1,
 #ad_right,
 #ad_right3,
 #ad_right_main,
@@ -1749,6 +1750,7 @@
 .gbl_adstruct,
 .generic_300x250_ad,
 .gl_ad,
+.gridAd,
 .gm-ad-lrec,
 .go-ads-widget-ads-wrap,
 .googad,
