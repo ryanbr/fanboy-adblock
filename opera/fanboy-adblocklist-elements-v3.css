@@ -1,5 +1,5 @@
 /*
-! Checksum: +TUYUWInBm76Ljbkw5if6w
+! Checksum: WcbEPoiOJ+IkicnszZrD6A
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 19 Sep 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -450,6 +450,8 @@
 #adSpotIsland,
 #adSpotSponsoredLinks,
 #adsProdHighlight_wrap,
+#adsenseheader,
+#sidebar-ad3,
 #adsquare,
 #adsTop,
 #adstop,
@@ -1531,6 +1533,11 @@
 .adsense,
 .adsense-float,
 .adsRight,
+.ad120x600,
+.ad_Right,
+.adtips,
+.adtips1,
+.ad_Left,
 .adsense-reviews-float,
 .adsense-title,
 .adsense_full_width,
