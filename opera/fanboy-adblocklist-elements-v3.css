@@ -1,7 +1,7 @@
 /*
-! Checksum: xnsaHvmAjFNWVRsRCqWGnA
+! Checksum: 5flS64THWFILSp06iXJtoA
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 18 Sep 2010
+! Version: V3 Updated: 19 Sep 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: mp3geek@gmail.com  http://fanboy.co.nz/adblock
 !
@@ -453,6 +453,7 @@
 #adsTop,
 #adstop,
 #adStrip,
+#adzerk,
 #adSuperPremiere,
 #adSuperPremiere,
 #adswidget2-quick-adsense,
@@ -501,6 +502,12 @@
 #advert_home02,
 #advert_home03,
 #advert_home04,
+#advert_561_01,
+#advert_561_02,
+#advert_561_03,
+#advert_561_04_container,
+#advert_561_05,
+#advert_561_07,
 #advert_leaderboard,
 #advertBanner,
 #advertblock,
@@ -749,6 +756,7 @@
 #genad,
 #glamads,
 #ad_global_header,
+#globalTopNavAd,
 #global_header_ad,
 #global_header_ad_area,
 #globalLeftNavAd,
@@ -1089,6 +1097,7 @@
 #skyscraperAdContainer,
 #sliderAdHolder,
 #slideshow_ad_300x250,
+#smallerAd,
 #speed_ads,
 #sphereAd-wrap,
 #sponBox,
@@ -1209,6 +1218,7 @@
 #towerad,
 #towerAdContainer,
 #tmcomp_ad,
+#tnt_ad_column,
 #tut_ads,
 #txt_link_ads,
 #ugly-ad,
@@ -1612,6 +1622,7 @@
 .affiliate_header_ads,
 .affiliate_header_ads_container,
 .affinityAdHeader,
+.agi-adtop,
 .aisoad,
 .article_page_ads_bottom,
 .articleAd,
@@ -1638,6 +1649,7 @@
 .bannergoogle,
 .bannerTopAdLeft,
 .bannerTopAdRight,
+.barkerAd
 .base-ad-mpu,
 .belt_ad,
 .big-ads,
@@ -1709,6 +1721,7 @@
 .cubead-widget,
 .currency_ad,
 .deckads,
+.double-ad,
 .div_advertisement,
 .divAd,
 .divGoogleAdsTop,
