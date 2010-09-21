@@ -3,6 +3,7 @@ Tools required,
 Activeperl   (http://www.activestate.com/activeperl/)
 Mercurial    (http://mercurial.selenic.com)
 PSPad        (the prefered text editor, http://www.pspad.com)
+Tortise      (http://tortoisehg.bitbucket.org/)
 grep         (http://gnuwin32.sourceforge.net/packages/grep.htm)
 
 1) Install Activeperl
