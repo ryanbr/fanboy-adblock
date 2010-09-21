@@ -1,5 +1,5 @@
 /*
-! Checksum: 4N37LhIJM3kG1KUmEAUzkw
+! Checksum: XOI26vfDiTczeCu7n4ipdA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 21 Sep 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -794,6 +794,8 @@
 #google_ads_frame1_anchor,
 #google_ads_frame2,                
 #google_ads_frame3,
+#google_ads_frame3_anchor,
+#google_ads_frame4,
 #google_ads_frame7,
 #googleAd,
 #googleAds,
@@ -1629,6 +1631,7 @@
 .advfrm,
 .advhere,
 .Advman_Widget,
+.adPanel,
 .advtable,
 .adWidget,
 .adWithTab,
