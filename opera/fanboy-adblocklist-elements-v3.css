@@ -1,5 +1,5 @@
 /*
-! Checksum: nYvTJRcEwgK/wWTv0rRSuQ
+! Checksum: YTYvOMaTQ0wgsK63HJK/kA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 25 Sep 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1467,6 +1467,7 @@
 .ad_warning,
 .ad_wrapper_top,
 .adarea,
+.adarea-long,
 .adAreaLC,
 .adArticleBody,
 .adBanner,
@@ -1482,6 +1483,7 @@
 .adBottom,
 .adbox1,
 .adbox_300x600,
+.adBottomBoard,
 .adBoxBody,
 .adboxVert,
 .adCall,
@@ -1503,6 +1505,7 @@
 .adHeadline,
 .adHome300x250,
 .adhoriz,
+.adHorisontalNoBorder,
 .adiframe,
 .adlabel,
 .adLeaderForum,
@@ -1643,6 +1646,7 @@
 .advertisment,
 .advertismentBox,
 .advertRight,
+.advertheader-red,
 .advert_google_title,
 .advert_google_content,
 .advfrm,
