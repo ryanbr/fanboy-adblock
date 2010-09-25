@@ -1,5 +1,5 @@
 /*
-! Checksum: /mnAdFZR7KHAzPGFvEWezg
+! Checksum: esZ/uIqpwtWGW3ZOtrI+4A
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 25 Sep 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -672,6 +672,7 @@
 #chatAdv2,
 #closeAdsDiv,
 #cnnTowerAd,
+#column-ads-bg,
 #column2-145x145-ad,
 #column4-google-ads,
 #columnAd,
@@ -683,6 +684,7 @@
 #companionAdDiv,
 #containerSqAd,
 #content-header-ad,
+#contentad,
 #content_ad_top,
 #content_ads_content,
 #content_match_wrapper,
@@ -1472,6 +1474,8 @@
 .ad_top_banner,
 .ad_topright,
 .ad_warning,
+.ad_300s,
+.ad_300Home,
 .ad_wrapper_top,
 .adarea,
 .adarea-long,
@@ -2019,6 +2023,7 @@
 .singlepostad,
 .singlepostadsense,
 .skyAd,
+.skyAdvert,
 .SkyAdContainer,
 .skyAdd,
 .skyCraper_banner,
@@ -2093,6 +2098,7 @@
 .topAds,
 .topads,
 .topBannerAd,
+.topbannerad,
 .topleader,
 .tower_ad,
 .towerAd,
