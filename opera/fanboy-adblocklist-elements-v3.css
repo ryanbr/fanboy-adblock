@@ -1,7 +1,7 @@
 /*
-! Checksum: kuqRvnCfceIvw03zWw/vLQ
+! Checksum: 5eWRXPqsgn1U+gQvPz1e1Q
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 1 Oct 2010
+! Version: V3 Updated: 2 Oct 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: fanboyadblock@fanboy.co.nz  http://fanboy.co.nz/adblock
 !
@@ -2730,6 +2730,9 @@ div[id="rhs_block"],
 #mhheader_sublarge,
 #mhheader_ad,
 .sponsor_block,
+/* mediaite.com */
+#magnify_widget_playlist_item_companion,
+#magnify_widget_rect_content,
 /* metronews.ca */
 .adHolder,
 #pullquote_adu,
