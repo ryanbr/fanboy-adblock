@@ -1,5 +1,5 @@
 /*
-! Checksum: fuBtwpqI6C3xUE0A5fJbeQ
+! Checksum: 1C1D/Y30BWnPZVXKV5kF8Q
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 5 Oct 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1729,6 +1729,7 @@
 .apiButtonAd,
 .article_page_ads_bottom,
 .articleAd,
+.article_bottom_ad,
 .articlead,
 .articleads,
 .articleflex-container,
@@ -1834,6 +1835,7 @@
 .divAd,
 .divGoogleAdsTop,
 .divSponsoredBox,
+.dod_ad,
 .double-ad,
 .dynamic-ads,
 .editor_ad,
