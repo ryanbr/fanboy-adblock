@@ -1,5 +1,5 @@
 /*
-! Checksum: uZ0Ru8XbNP74GH90b1CAVQ
+! Checksum: PeZcxncfu4aaH9aQ2t+zlA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 6 Oct 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -709,6 +709,7 @@
 #content_match_wrapper,
 #contentAd,
 #contentad,
+#contentAds300x200,
 #ContentAdPlaceHolder1,
 #contextual-ads-block,
 #contextualad,
@@ -1826,6 +1827,7 @@
 .consoleAd,
 .container-adwords,
 .content_ad,
+.contentAdsCommon,
 .content_ad_728,
 .contentad,
 .contentleftad,
