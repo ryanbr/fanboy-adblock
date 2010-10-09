@@ -1,5 +1,5 @@
 /*
-! Checksum: t1PTjphn0FEzyQYldo63HA
+! Checksum: BBfVust+Du5uONPsrOy/aw
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 10 Oct 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -216,6 +216,7 @@
 #ad_leader,
 #ad_leaderBoard,
 #ad_leaderboard,
+#ad_cell,
 #ad_leaderboard_1,
 #ad_leaderboard_top,
 #ad_left,
@@ -1467,6 +1468,7 @@
 .ad980x50box,
 .ad_0,
 .ad_1,
+.ad_w_us_a300,
 .Ad_120x600,
 .Ad_120x600_holder,
 .ad_120x90,
@@ -1984,6 +1986,7 @@
 .leftbarads,
 .leftbottomads,
 .LeftTowerAd,
+.logoad,
 .LoungeAdsBottomLinks,
 .lowerAds,
 .madison_ad,
