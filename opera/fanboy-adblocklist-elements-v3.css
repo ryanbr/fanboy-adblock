@@ -1,5 +1,5 @@
 /*
-! Checksum: VrTUtJ0YAFDh8zMzJiOpBA
+! Checksum: UEag48O03WsB4vphScx/kQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 9 Oct 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1167,6 +1167,7 @@
 #skyscraperAdContainer,
 #sliderAdHolder,
 #slideshow_ad_300x250,
+#some-ads,
 #smallerAd,
 #speed_ads,
 #sphereAd-wrap,
@@ -2050,6 +2051,7 @@
 .right-ads,
 .right-col-ad,
 .right_ad_text,
+.right_box_ad,
 .right_ads,
 .right_col_ad,
 .right_image_ad,
@@ -2185,6 +2187,7 @@
 .top_sponsor,
 .topAd,
 .TopAdContainer,
+.top_ad_holder,
 .top-banner-add,
 .topAdd,
 .TopAdL,
