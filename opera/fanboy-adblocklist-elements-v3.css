@@ -1,5 +1,5 @@
 /*
-! Checksum: Zsa5WJaqbVbAqX6fjU9xCw
+! Checksum: 0/ZDYrxAW3BH4DirCWPZow
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 10 Oct 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -25,6 +25,8 @@
 #ad-1,
 #ad-120x60Div,
 #ad-160x600-sidebar,
+#boxAd,
+#secondBoxAd,
 #ad-250x300,
 #ad-3,
 #ad-300a,
@@ -1443,6 +1445,7 @@
 .ad19.ad160,
 .ad1left,
 .ad2,
+.ad233x224,
 .ad250c,
 .ad300,
 .ad300250,
@@ -2041,6 +2044,7 @@
 .osan-ads,
 .ody-sponsor,
 .otj_adspot,
+.outbrain_ul_ad_top,
 .page_content_right_ad,
 .page_ad,
 .panel_ad,
