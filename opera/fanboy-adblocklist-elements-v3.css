@@ -1,5 +1,5 @@
 /*
-! Checksum: nmy9JFpWrQeFBzsIvW7f2w
+! Checksum: Fmt9DN0t0/sp6fpCNnjvCg
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 11 Oct 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1801,6 +1801,7 @@
 .barkerAd
 .base-ad-mpu,
 .belt_ad,
+.bex_ad,
 .big-ads,
 .bigAd,
 .bigad,
@@ -2045,6 +2046,7 @@
 .oad-ad,
 .on_single_ad_box,
 .osan-ads,
+.oasInAds,
 .ody-sponsor,
 .otj_adspot,
 .outbrain_ul_ad_top,
@@ -2055,6 +2057,7 @@
 .photo-ad,
 .pnp_ad,
 .post-ad,
+.post_ad,
 .post-load-ad,
 .prebodyads,
 .promo-ad,
@@ -2065,6 +2068,7 @@
 .quigoAdCenter,
 .quigoads,
 .r_ad_box,
+.r_adbx_top,
 .RBboxAd,
 .recentAds,
 .rect_ad_module,
