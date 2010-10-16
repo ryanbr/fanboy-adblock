@@ -1,5 +1,5 @@
 /*
-! Checksum: viMU/bEVr8r/52vGGTI0mg
+! Checksum: pNZgNitWwstg6JiPU1L6xw
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 16 Oct 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -187,6 +187,7 @@
 #ad_bottom,
 #ad_box160a,
 #Ad_Center1,
+#ad_cont,
 #ad_center_monster,
 #ad_channel,
 #ad_container,
@@ -1859,6 +1860,7 @@
 .box.ad,
 .Box2.Ad,
 .box_ad,
+.bot_ads,
 .box_ad_wrap,
 .box_advertising,
 .box_content_ads,
