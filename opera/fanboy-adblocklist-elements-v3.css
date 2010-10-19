@@ -1,7 +1,7 @@
 /*
-! Checksum: 0JcFp9DWGSVgmwE5n+D33g
+! Checksum: /bQ2GKz+3z+jM1F5ksLqow
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 19 Oct 2010
+! Version: V3 Updated: 20 Oct 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: fanboyadblock@fanboy.co.nz  http://fanboy.co.nz/adblock
 !
@@ -1775,6 +1775,7 @@
 .advertisement_flag_sky,
 .advertisement300x250,
 .advertisement468,
+.advertisespace_div,
 .advertisement_horizontal,
 .advertisementGif,
 .advertisementLabel,
@@ -1982,6 +1983,7 @@
 .hd_advert,
 .header-advert,
 .header_ad_2,
+.header_ad_div,
 .header_advertisment,
 .headerAds,
 .HeaderLeaderAd,
@@ -2084,6 +2086,7 @@
 .oad-ad,
 .on_single_ad_box,
 .osan-ads,
+.oas-ad,
 .oasInAds,
 .ody-sponsor,
 .otj_adspot,
@@ -2258,6 +2261,7 @@
 .top-ad,
 .top-ad-right,
 .top_ad_728_90,
+.top_ad_post,
 .top_ads,
 .top_container_ad,
 .top_sponsor,
