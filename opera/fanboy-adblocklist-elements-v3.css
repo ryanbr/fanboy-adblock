@@ -1,7 +1,7 @@
 /*
-! Checksum: AAPzehfLxecmMD8GTmqQkw
+! Checksum: ogPUWG/YR9BrfMcQ0aQHfw
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 23 Oct 2010
+! Version: V3 Updated: 24 Oct 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: fanboyadblock@fanboy.co.nz  http://fanboy.co.nz/adblock
 !
@@ -2201,6 +2201,7 @@
 .singlepageleftad,
 .singlepostad,
 .singlepostadsense,
+.SitesGoogleAdsModule,
 .skyAd,
 .SkyAdContainer,
 .skyAdd,
@@ -2282,6 +2283,10 @@
 .topAd,
 .topad-bar,
 .TopAdContainer,
+.tz_ad_widget,
+.ads-125,
+.side-bar-ad-position1,
+.side-bar-ad-position2,
 .topAdd,
 .TopAdL,
 .TopAdR,
