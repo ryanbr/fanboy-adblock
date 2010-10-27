@@ -1,5 +1,5 @@
 /*
-! Checksum: lfMDOHdn8WD5FcE63/b9Pw
+! Checksum: /K0XaYsDLOjc11t3XjBVYA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 27 Oct 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -909,6 +909,7 @@
 #HeaderAdsBlock,
 #headeradspace,
 #headeradwrap,
+#headlinesAdBlock,
 #HeaderBannerAdSpacer,
 #HeaderTextAd,
 #headerTopAdWide,
@@ -1310,6 +1311,7 @@
 #topAds,
 #topads,
 #topAdsContainer,
+#topAdBlock,
 #topadsense,
 #topAdSenseDiv,
 #topAdShow,
