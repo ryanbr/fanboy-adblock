@@ -1,5 +1,5 @@
 /*
-! Checksum: /K0XaYsDLOjc11t3XjBVYA
+! Checksum: cw5G8iX6kKpuhwB4qnSaeQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 27 Oct 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1022,6 +1022,7 @@
 #maker-rect-ad,
 #mastAd,
 #mastad,
+#MastheadAd,
 #mastAdvert,
 #masthead_ad,
 #masthead_topad,
@@ -2084,6 +2085,7 @@
 .mid-ad-wrapper,
 .midad,
 .middle-ad,
+.MiddleAd,
 .MiddleAdContainer,
 .middleAdLeft,
 .middleAdMid,
@@ -2160,6 +2162,8 @@
 .rightAD,
 .rightAd,
 .rightcol_boxad,
+.RightAd1,
+.RightAd2,
 .rightcolad,
 .rightcoltowerad,
 .RightGoogleAFC,
