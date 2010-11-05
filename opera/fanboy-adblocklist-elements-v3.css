@@ -1,7 +1,7 @@
 /*
-! Checksum: WBIoK4LuUC0SZKG8VlF0HA
+! Checksum: vUXXZYEQnjYG0QDW3o2Ckw
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 3 Nov 2010
+! Version: V3 Updated: 5 Nov 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: fanboyadblock@fanboy.co.nz  http://fanboy.co.nz/adblock
 !
@@ -873,6 +873,10 @@
 #google_ads_frame3_anchor,
 #google_ads_frame4,
 #google_ads_frame4_anchor,
+#google_ads_frame5,
+#google_ads_frame5_anchor,
+#google_ads_frame6,
+#google_ads_frame6_anchor,
 #google_ads_frame7,
 #Google_Adsense_Main,
 #googleAd,
@@ -2359,6 +2363,7 @@
 .video_ad,
 .video_advertisement_box,
 .videoBoxAd,
+.vert-ad,
 .view_rig_ad,
 .weatherad,
 .webad-cnt,
