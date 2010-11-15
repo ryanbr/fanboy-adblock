@@ -1,5 +1,5 @@
 /*
-! Checksum: A9+eWdTiRwU7AzR3zP1UGg
+! Checksum: zV5M3DhekBkXbTYx6WLt0g
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 15 Nov 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -660,6 +660,7 @@
 #bannerhead,
 #belowad,
 #belowheaderad,
+#bannerAd_ctr,
 #bg-footer-ads,
 #bg-footer-ads2,
 #bg_YieldManager-300x250,
@@ -1763,6 +1764,8 @@
 .adscontainer,
 .AdScriptBox,
 .adsDiv,
+.leftAd_bottom_fmt,
+.leftAd_top_fmt,
 .adsense,
 .adsense-afterpost,
 .adsense-float,
