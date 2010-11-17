@@ -1,5 +1,5 @@
 /*
-! Checksum: QSkqxO56v0aA/FllVsTw2w
+! Checksum: FOq1t2H1PJcx61NgFk6wGg
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 17 Nov 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -868,6 +868,7 @@
 #gmi-ResourcePageAd,
 #google-ad,
 #google-ad-art,
+#headeradsbox,
 #google-ad-tower,
 #google-ads,
 #google-ads-container,
@@ -1837,6 +1838,8 @@
 .adunit_210x509,
 .adunit_728x90,
 .adUnitHorz,
+.adsbox,
+.adsboxitem,
 .adUnitVert,
 .adUnitVert_noImage,
 .adv,
@@ -2192,6 +2195,7 @@
 .mid-ad-wrapper,
 .midad,
 .middle-ad,
+.MREC_ads,
 .MiddleAd,
 .MiddleAdContainer,
 .middleAdLeft,
