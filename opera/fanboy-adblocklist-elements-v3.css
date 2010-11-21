@@ -1,7 +1,7 @@
 /*
-! Checksum: RhJpbcVkyI2q8EZn8O7ubA
+! Checksum: 6yeacaqCFEdzEbTg4VJVQA
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 21 Nov 2010
+! Version: V3 Updated: 22 Nov 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: fanboyadblock@fanboy.co.nz  http://fanboy.co.nz/adblock
 !
@@ -1649,10 +1649,14 @@
 .ad_position,
 .ad_power,
 .ad_rectangle,
+.gameAd,
+.homeAd1,
+.homeAd2,
 .Ad_Right,
 .ad_Right,
 .ad_rightside,
 .ad_skyscraper,
+.adReportsLink,
 .ad_skyscrapper,
 .ad_slug,
 .ad_slug_font,
