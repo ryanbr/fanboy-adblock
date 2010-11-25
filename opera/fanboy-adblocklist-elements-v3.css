@@ -1,5 +1,5 @@
 /*
-! Checksum: /qNET1HEKRzGhMClRwqslA
+! Checksum: Kl5yf1YYQNkGvFwZDOKrSA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 25 Nov 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -615,6 +615,7 @@
 #advert_header,
 #advert_home01,
 #advert_home02,
+#leftAdMessage,
 #advert_home03,
 #advert_home04,
 #advert_leaderboard,
@@ -1824,6 +1825,7 @@
 .adHeader,
 .adheader,
 .adHeadline,
+.mini-ad,
 .adhere,
 .adhi,
 .adHolder,
