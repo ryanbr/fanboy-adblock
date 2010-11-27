@@ -1,5 +1,5 @@
 /*
-! Checksum: nlt7kvYC8IZJGnW9SfE10w
+! Checksum: +v0cvnnODp3LUJlGAsK5Ig
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 27 Nov 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -783,6 +783,7 @@
 #boxad4,
 #boxad5,
 #boxAdContainer,
+#d_AdLink,
 #bps-header-ad-container,
 #burn_header_ad,
 #ButtonAd,
@@ -2574,6 +2575,7 @@
 .sponsoredLinks2,
 .sponsoredLinksHeader,
 .sponsoredSideInner,
+.sbTopadWrapper,
 .sponsoredtextlink_container,
 .SponsorIsland,
 .sponsorsbig,
