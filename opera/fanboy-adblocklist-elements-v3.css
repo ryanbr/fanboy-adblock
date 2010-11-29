@@ -1,5 +1,5 @@
 /*
-! Checksum: Cpcr7lAj3i7FLT4BZUM7LA
+! Checksum: GhBXPzS7TtyjtQcwHD6YIw
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 30 Nov 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2952,6 +2952,7 @@ div[class="story-embed-left box"],
 #ad-footprint-160x600,
 #overhead-you-know-what,
 #gmi-ResourcePageLowerAd,
+iframe[id^="difipage"],
 /* digitalspy.co.uk */
 #adcode3,
 #adposition1,
