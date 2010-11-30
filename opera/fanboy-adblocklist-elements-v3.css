@@ -1,7 +1,7 @@
 /*
-! Checksum: 1cTVU9jSZkPiAAVSn7vEBA
+! Checksum: tnE33utJBLSlTDI6nw+mzA
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 30 Nov 2010
+! Version: V3 Updated: 1 Dec 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: fanboyadblock@fanboy.co.nz  http://fanboy.co.nz/adblock
 !
@@ -43,6 +43,11 @@
 #ad-728x90-top,
 #ad-728x90-top0,
 #ad-ads,
+.adColBgBottom,
+#HeaderAD,
+#Top468x60AD,
+.Right300x250AD,
+#RightBottom300x250AD,
 #ad-banner,
 #ad-banner-1,
 #ad-banner-top,
