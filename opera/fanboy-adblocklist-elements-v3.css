@@ -1,7 +1,7 @@
 /*
-! Checksum: 4f+w5mi2ClbXLGlYFmKs+g
+! Checksum: VQqKeik+VpfZphAi8hkhwg
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 2 Dec 2010
+! Version: V3 Updated: 3 Dec 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Contact: fanboyadblock@fanboy.co.nz  http://fanboy.co.nz/adblock
 !
@@ -2168,6 +2168,8 @@
 .cb-ad-container,
 .cb_navigation_ad,
 .cbstv_ad_label,
+.search_results_ad,
+.head_ad,
 .cdAdContainer,
 .center_ad,
 .cms-Advert,
