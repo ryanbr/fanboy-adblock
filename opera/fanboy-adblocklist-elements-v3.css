@@ -1,5 +1,5 @@
 /*
-! Checksum: iYalGL3TYc5A2ybFIuClOQ
+! Checksum: UkhexO5qr4lVvfR4ZTGzCg
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 10 Dec 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -958,6 +958,7 @@
 #contentarea-ad-widget-area,
 #contextual-ads-block,
 #contextualad,
+.center_ads,
 #ctl00_adFooter,
 #ctl00_AdWords,
 #ctl00_atop_bt,
@@ -2021,7 +2022,6 @@
 .adlabel,
 .adLabelLine,
 .adLeaderForum,
-.adleft,
 .adleft1,
 .AdLeftbarBorderStyle,
 .adLine,
