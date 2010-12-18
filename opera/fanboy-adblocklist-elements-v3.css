@@ -1,7 +1,7 @@
 /*
-! Checksum: 9hc+qoDk1PjYDcYRSIDyuQ
+! Checksum: p57ednIl6BWuelis64OkZg
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 17 Dec 2010
+! Version: V3 Updated: 19 Dec 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Email: mp3geek @ gmail . com  Project homepage: http://fanboy.co.nz/adblock
 !
@@ -2379,6 +2379,8 @@
 .box.ad,
 .Box2.Ad,
 .box_ad,
+.bodyrectanglead,
+.bodybannerad,
 .box_ad_wrap,
 .box_advertising,
 .box_content_ads,
