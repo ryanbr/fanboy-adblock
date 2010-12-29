@@ -1,5 +1,5 @@
 /*
-! Checksum: nbCX4ZWlh9LzbB6lkSQU/g
+! Checksum: Qw4MBpCIpgiSb0X+ztoowQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 28 Dec 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -25,6 +25,9 @@
 #aboveAd,
 #acAdContainer,
 #Ad,
+#AdLeaderboardTop,
+#AdSkyscraper,
+#AdLeaderboardBottom,
 #ad-1,
 #ad-120x600-sidebar,
 #ad-120x60Div,
@@ -2365,6 +2368,7 @@
 .biz-adtext,
 .bizDetailAds,
 .block-ad,
+.blocsponsor,
 .block-openadstream,
 .block-openx,
 .block-sponsored-links,
