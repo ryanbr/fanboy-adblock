@@ -1,5 +1,5 @@
 /*
-! Checksum: xVbA+HTBbo50xgeXcfyMnw
+! Checksum: R9Q7iQjHBdAdgv20aYPTPQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 31 Dec 2010
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -17,17 +17,17 @@
 ! OSX: Opera Menu -> Preferences -> Advanced Tab -> Content -> Style Options Button
 ! Browse to your Opera Prefs directory and select "fanboy-adblocklist-elements-v3.css" (this file)
 !
+*/
 #A9AdsMiddleBoxTop,
 #A9AdsOutOfStockWidgetTop,
-#A9AdsOutOfStockWidgetTop,
 #A9AdsServicesWidgetTop,
-#a9g-leader-spacer,
 #about_adsbottom,
 #aboveAd,
-#abvFold,
 #acAdContainer,
-#accuAdDiv,
 #Ad,
+#AdLeaderboardTop,
+#AdSkyscraper,
+#AdLeaderboardBottom,
 #ad-1,
 #ad-120x600-sidebar,
 #ad-120x60Div,
@@ -44,6 +44,7 @@
 #ad-300x250-sidebar,
 #ad-300x250Div,
 #ad-728,
+#ad728Header,
 #ad-728-90,
 #ad-728x90,
 #ad-728x90-leaderboard-top,
@@ -56,7 +57,6 @@
 #ad-banner-top,
 #ad-banner-wrap,
 #ad-bar,
-#ad-big,
 #ad-bigbox,
 #ad-billboard-bottom,
 #ad-block-125,
@@ -70,7 +70,6 @@
 #ad-btm,
 #ad-buttons,
 #ad-circfooter,
-#ad-col,
 #ad-colB-1,
 #ad-column,
 #ad-container,
@@ -79,11 +78,7 @@
 #ad-ear,
 #ad-flex-first,
 #ad-footer,
-#ad-footprint-160x600,
 #ad-frame,
-#ad-front-footer,
-#ad-front-resourceguide,
-#ad-front-sponsoredlinks,
 #ad-front-sponsoredlinks,
 #ad-googleAdSense,
 #ad-halfpage,
@@ -214,14 +209,12 @@
 #ad468x60_top,
 #ad470,
 #ad520x85,
-#ad526x250,
 #ad6,
 #ad600,
 #ad7,
 #ad728Bottom,
 #ad728Box,
 #ad728BoxBtm,
-#ad728Header,
 #ad728Mid,
 #ad728Top,
 #ad728Wrapper,
@@ -287,8 +280,6 @@
 #ad_box_colspan,
 #ad_branding,
 #ad_bs_area,
-#ad_bucket_med_rectangle_1,
-#ad_bucket_med_rectangle_2,
 #ad_cell,
 #Ad_Center1,
 #ad_center_monster,
@@ -383,12 +374,7 @@
 #ad_rectangle,
 #ad_rectangle_medium,
 #ad_rectangular,
-#ad_region1,
-#ad_region2,
-#ad_region3,
-#ad_region5,
 #ad_related_links_div,
-#ad_related_links_div_program,
 #ad_report_leaderboard,
 #ad_report_rectangle,
 #ad_right,
@@ -396,7 +382,6 @@
 #ad_right3,
 #ad_right_main,
 #ad_right_rail_flex,
-#ad_right_skyscraper,
 #ad_right_top,
 #ad_ros_tower,
 #ad_rotator-3,
@@ -433,18 +418,14 @@
 #ad_YieldManager-300x250,
 #ad_YieldManager-728x90,
 #adArea,
-#adB,
 #adBadges,
 #AdBanner,
-#adbanner,
 #adbanner1,
 #adBanner120x600,
 #adBanner160x600,
 #adBanner160x610,
 #adBanner336x280,
 #adBanner728,
-#AdBanner_F1,
-#AdBanner_S,
 #adbannerleft,
 #adbannerright,
 #adBannerTable,
@@ -455,7 +436,6 @@
 #AdBar1,
 #adbarbox,
 #adbard,
-#adBelt,
 #adBelt,
 #AdBlock,
 #adBlock,
@@ -471,12 +451,10 @@
 #adBlocks,
 #adblocktop,
 #adblocktop,
-#adbnr,
 #adboard,
 #AdBottom,
 #adbottom,
 #adBox,
-#adbox,
 #adbox,
 #adbox1,
 #AdBox160,
@@ -491,7 +469,6 @@
 #adcode1,
 #adcode10,
 #adcode2,
-#adcode3,
 #adcode4,
 #adcolumnwrapper,
 #adCompanionBanner,
@@ -509,8 +486,6 @@
 #adcontextlinks,
 #adControl1,
 #adcontrolisland,
-#add_space_google,
-#add_space_sidebar,
 #addDiv,
 #AdDetails_GoogleLinksBottom,
 #AdDetails_SeeMoreLink,
@@ -518,13 +493,9 @@
 #adDiv,
 #addiv-bottom,
 #addiv-top,
-#ADEXPERT_PUSHDOWN,
-#ADEXPERT_RECTANGLE,
-#adF,
 #adfooter,
 #adfooter_728x90,
 #adfooter_hidden,
-#adFps,
 #adFrame,
 #adframe,
 #AdFrame2,
@@ -546,8 +517,6 @@
 #adiframe3_iframe,
 #AdImage,
 #adimg,
-#adInBetweenPosts,
-#adjacency,
 #adLabel,
 #adlabelFooter,
 #adlanding,
@@ -557,22 +526,20 @@
 #adLeaderboard,
 #adleaderboard,
 #adleaderboardb,
-#AdLeaderboardBottom,
-#AdLeaderboardTop,
 #adLeaderTop,
 #adleft,
 #adlink,
-#adlinks,
 #adlinkws,
 #adlrec,
 #adMarketplace,
 #adMediaWidget,
 #adMediumRectangle,
 #admid,
-#admid,
 #adMid1,
 #adMid2,
 #AdMiddle,
+.gen_side_ad,
+#home_feature_ad,
 #admiddle3,
 #admiddle3left,
 #adMiniPremiere,
@@ -581,8 +548,6 @@
 #adMPU,
 #admpu,
 #adnews,
-#adNshareWrap,
-#adP,
 #adP,
 #adPanelAjaxUpdate,
 #AdPanelBigBox,
@@ -590,28 +555,19 @@
 #adPlaceHolderRight,
 #adPlacer,
 #adposition-C,
-#adposition-FPMM,
-#adposition-inner-REM1,
-#adposition-inner-REM3,
-#adposition-REM2,
 #adposition-SHADE,
 #adPosition0,
-#adposition1,
 #adposition1,
 #adposition10,
 #adPosition14,
 #adposition2,
 #adposition3,
-#adposition3,
-#adposition4,
 #adPosition5,
 #adPosition9,
 #adpostloader,
 #AdRectangle,
 #Adrectangle,
 #adrectangle,
-#adrectanglea,
-#adrectangleb,
 #adright,
 #adright2,
 #adrighthome,
@@ -620,7 +576,6 @@
 #ads-468,
 #ads-area,
 #ads-block,
-#ads-bot,
 #ads-by-google,
 #ads-category,
 #ads-indextext,
@@ -662,8 +617,6 @@
 #ads_insert_container,
 #ads_lb_frame,
 #ads_leaderbottom,
-#ads_mads_r1,
-#ads_mads_r2,
 #ads_right,
 #ads_section_textlinks,
 #ads_sidebar_bgnd,
@@ -705,19 +658,14 @@
 #adsensetopplay,
 #adsenseWrap,
 #adshowbtm,
-#AdShowcase_F1,
 #adSidebarSq,
 #adsider,
 #adsIframe,
 #adSkyPosition,
-#AdSkyscraper,
 #adskyscraper,
-#adSlot,
-#adslot,
 #adSlug,
 #ADsmallWrapper,
 #adsNarrow,
-#adso-magnifico,
 #adsonar,
 #adSpace,
 #adspace,
@@ -735,7 +683,6 @@
 #adspaceBox300,
 #adSpacer,
 #adspecial_offer_box,
-#AdSponsor_SF,
 #adsponsored_links_box,
 #adspot-620x45-pos-1,
 #adspot-620x45-pos-2,
@@ -750,7 +697,6 @@
 #adSpot-twin,
 #adSpot-widestrip,
 #adSpot300x250,
-#adSpotholder-EGN,
 #adSpotIsland,
 #adSpotSponsoredLinks,
 #adsProdHighlight_wrap,
@@ -769,7 +715,6 @@
 #adText,
 #adText_container,
 #adTextCustom,
-#adTiff,
 #adTile,
 #AdTop,
 #adTop,
@@ -784,15 +729,7 @@
 #Adv8,
 #Adv9,
 #adv_bg,
-#adv_google_300,
-#adv_google_728,
-#adv_top,
 #adv_top_banner_wrapper,
-#adver1,
-#adver2,
-#adver3,
-#adver4,
-#advert,
 #advert,
 #advert-1,
 #advert-120,
@@ -810,7 +747,6 @@
 #advert-text,
 #advert-wrapper,
 #advert1,
-#advert234_container,
 #advert_01,
 #advert_04,
 #advert_05,
@@ -832,7 +768,6 @@
 #advert_home04,
 #advert_leaderboard,
 #advert_mid,
-#advert_yell,
 #advertBanner,
 #advertblock,
 #advertise_top,
@@ -850,56 +785,42 @@
 #advertisment-block-1,
 #advertorial,
 #adverts,
-#advertSection,
 #advertsingle,
 #advertTower,
 #advframe,
-#advisor_rhs_promobox,
 #advRectangle,
 #advt-right-skyscraper,
 #advWrapper,
 #adwidget,
 #adwidget1,
 #adwidget2,
+#feature_gad,
+#adSlot,
+#ad_right_skyscraper,
 #adwidget2_hidden,
 #adwidget3_hidden,
 #adwidget_hidden,
-#adwin,
-#adwin_rec,
 #adwords-4-container,
 #adWrapper,
 #adWrapper,
 #adwrapper,
 #adx_ad,
-#adxBigAd,
-#adxBigAd2,
-#adxLeaderboard,
-#adxMiddle,
-#adxMiddle5,
-#adxMiddleRight,
-#adxSponLink2,
-#adxSponLinkA,
 #adzbanner,
 #adzerk,
 #adzerk1,
 #adzone,
-#adzoneBANNER,
 #adzonebanner,
 #adZoneTop,
 #af_adblock,
-#AFF_popup,
-#aff_rightbar,
 #affiliate_ad,
 #affinityBannerAd,
 #after-content-ads,
 #after-header-ads,
 #agi-ad300x250,
 #agi-ad300x250overlay,
-#ai300x250,
 #analytics_banner,
 #anchorAd,
 #apiTopAdWrap,
-#araHealthSponsorAd,
 #area13ads,
 #article-box-ad,
 #article-island-ad,
@@ -907,17 +828,12 @@
 #article_ad_bottom,
 #article_ad_container,
 #article_ad_top,
-#article_adholder,
 #article_box_ad,
-#articleAd,
 #articleBottomAd,
 #articleLeftAdColumn,
 #articleSideAd,
 #articleview_ad,
-#aside_ad,
 #asinglead,
-#atlasAdDivGame,
-#aubg,
 #autos_banner_ad,
 #awds-nt1-ad,
 #awesome-ad,
@@ -925,7 +841,6 @@
 #b5_ad_footer,
 #b5_ad_sidebar1,
 #b5_ad_top,
-#b61a2a39f917b27cfdde56ac7b10c41b,
 #banner-125x125,
 #banner-125x125-2,
 #banner-468x60-1-area,
@@ -934,11 +849,8 @@
 #banner-ad,
 #banner-ad-container,
 #banner-ads,
-#banner250,
 #banner300-top-right,
-#banner468,
 #banner600,
-#banner975_container,
 #banner_280_240,
 #banner_ad,
 #banner_ad_footer,
@@ -955,22 +867,14 @@
 #bannerAd_rdr,
 #banneradspace,
 #bannerAdTop,
-#bannerContainer,
 #bannerGoogle,
 #bannerhead,
-#bannerspace-bottom,
-#bannerzone,
-#barronsUber,
 #baseboard-ad,
-#bbccom_leaderboard_container,
 #belowad,
 #belowheaderad,
+#bbccom_leaderboard_container,
 #bg-footer-ads,
 #bg-footer-ads2,
-#bg_banner_468x60,
-#bg_banner_728x90,
-#bg_googlebanner_160x600LH,
-#bg_YieldManager-160x600,
 #bg_YieldManager-300x250,
 #big_ad,
 #big_ad_label,
@@ -979,15 +883,8 @@
 #bigad300outer,
 #bigadbox,
 #bigadspot,
-#bigBanner,
 #BigBoxAd,
 #bigBoxAd,
-#billboard_ad,
-#bizbox_flyout,
-#bizbox_links_bottom,
-#bizbox_links_right_rail,
-#block-ad_cube-0,
-#block-ad_cube-1,
 #block-adsense-0,
 #block-adsense-2,
 #block-localcom-localcom-ads,
@@ -1003,19 +900,14 @@
 #blox-big-ad-top,
 #blox-tile-ad,
 #bn_ad,
-#bnr3,
 #bnrAd,
-#bnrTop,
 #body_ad,
-#botad,
 #bottom-ad-wrapper,
 #bottom-ads,
-#bottom-banner-spc,
 #bottom-boxad,
 #bottom-sky,
 #bottom_ad,
 #bottom_ad_area,
-#bottom_overture,
 #bottom_sponsor_ads,
 #bottom_sponsored_links,
 #bottomAd,
@@ -1027,10 +919,8 @@
 #bottomadsense,
 #bottomAdSenseDiv,
 #BottomAdWrapper,
-#bottomLeaderboard,
 #bottomleaderboardad,
 #bottomMPU,
-#bottomsponad,
 #box-ad,
 #box-content-ad,
 #box1ad,
@@ -1049,81 +939,50 @@
 #boxad4,
 #boxad5,
 #boxAdContainer,
-#boxads,
-#bp-superbanner-cont,
 #bps-header-ad-container,
-#broadband-finder-co-uk-120,
-#btmad,
-#btv_aja_rightAd,
 #burn_header_ad,
 #ButtonAd,
 #c4_ad,
 #c4ad-Middle1,
 #c4ad-Top-parent,
-#c_6ad_250h,
 #caAdLarger,
 #catad,
 #cb-ad,
-#cb_medrect1_div,
-#cb_medrect1_frame,
-#cbsSMPB,
 #cellAd,
-#cellAd,
-#centerbanner_game,
 #central-ads,
 #channel_ads,
-#channel_ads,
 #chatAdv2,
+#cnnSponsoredPods,
 #city_House_Ad_300x137,
-#CityTv-HeaderBannerBorder,
-#classified_wrapper,
 #clickforad,
 #closeAdsDiv,
-#cnetToolbarWrap,#adMiniPremiere,
-#cnnSponsoredPods,
 #cnnTowerAd,
-#cnnVPAd,
-#colAd,
 #column-ads-bg,
 #column2-145x145-ad,
 #column4-google-ads,
 #columnAd,
-#COMMERCE_BOT,
-#COMMERCE_REPEAT,
-#COMMERCE_RHS,
-#COMMERCE_TOP,
 #commercial_ads,
-#common_right_lower_adspace,
-#common_right_lower_player_adspace,
-#common_right_right_adspace,
 #common_top_adspace,
-#compAdvertisement,
 #companion-ad,
 #companion_Ad,
 #companionAd,
 #companionAd,
 #companionad,
 #companionAdDiv,
-#console300x100,
-#container-ad-topright,
 #containerSqAd,
 #content-header-ad,
 #content_ad_top,
 #content_ads_content,
-#content_box_adright300_google,
+#container-ad-topright,
 #content_match_wrapper,
-#content_mpu,
-#content_right_side_advertisement_on_top_wrapper,
 #contentAd,
 #contentad,
 #ContentAdPlaceHolder1,
 #contentAds300x200,
 #contentarea-ad,
 #contentarea-ad-widget-area,
-#contentinlineAd,
 #contextual-ads-block,
 #contextualad,
-#corp-sponsor-sec,
 #ctl00_adFooter,
 #ctl00_AdWords,
 #ctl00_atop_bt,
@@ -1148,88 +1007,50 @@
 #ctrlsponsored,
 #cube_ads,
 #cube_ads_inner,
-#cubeAd,
 #cubead,
 #cubead,
 #cubead-2,
-#cubead2,
-#cxnAdrail,
-#da-draobredael,
-#daehtsam-da,
 #dap300x250,
-#dapIfM1,
-#darla-ad__LREC,
-#darla-ad__LREC2,
-#dart-con,
 #dart-container-728x90,
 #dart_160x600,
 #dartad19,
 #dartad8,
-#dartIslandAd_2009,
-#dcol-resourceguide,
-#dcol-sponsored,
 #DealsPageSideAd,
 #devil-ad,
-#dfp_define_rectangle,
-#dfp_skyscraper,
-#DirectoryMedRectv2_holder,
 #div_ad_holder,
 #div_googlead,
 #divAd,
-#divAD1,
 #DivAdA,
 #DivAdB,
 #divAdBox,
 #divupperrightad,
 #divWNAdHeader,
-#dmn_results,
 #dni-advertising-skyscraper-wrapper,
 #dni-header-ad,
-#dnn_ad_banner,
 #dnn_ad_skyscraper,
-#dnn_ad_sponsored_links,
-#dnn_adLeaderBoard2008,
-#dnn_adSky,
 #dnn_adTop,
-#dnn_dnn_dartBanner,
 #dnn_googleAdsense_a,
 #dnn_playerAd,
-#dnn_sponsoredLinks,
-#dogear_promo,
-#doubleclick-island,
 #download_ads,
-#east.ads,
-#embedAD,
 #eshopad-728x90,
-#expandedVert,
-#fad1,
-#fastmoney300x250,
-#feature_adlinks,
-#feature_gad,
 #featuread,
 #featured-advertisements,
-#featured_ad_links,
 #featured_sponsor_cnt,
 #featuredAdWidget,
 #first-300-ad,
 #first_ad_unit,
 #firstad,
-#flan_leader,
 #FLASH_AD,
 #flex_sponsored_links,
-#flexiad,
 #floatingAd,
-#floatyContent,
 #footAds,
 #footer-ad,
 #footer-ads,
 #footer-adverts,
 #footer-affl,
 #footer-banner-ad,
-#footer-classifieds,
 #footer-sponsored,
 #footer_ad,
-#footer_AdArea,
 #footer_ads,
 #footer_adspace,
 #FooterAd,
@@ -1247,7 +1068,6 @@
 #front_mpu,
 #frontlowerad,
 #g-adblock2,
-#g_ad,
 #g_adsense,
 #gad2,
 #gad3,
@@ -1259,7 +1079,6 @@
 #gallery_ads,
 #gallery_header_ad,
 #galleryad1,
-#game-info-ad,
 #game_header_ad,
 #gasense,
 #genad,
@@ -1267,13 +1086,11 @@
 #gglads213B,
 #gl_ad_300,
 #glamads,
-#glinkswrapper,
 #global_header_ad,
 #global_header_ad_area,
 #globalLeftNavAd,
 #globalTopNavAd,
 #gmi-ResourcePageAd,
-#gmi-ResourcePageLowerAd,
 #google-ad,
 #google-ad-art,
 #google-ad-tower,
@@ -1284,7 +1101,6 @@
 #google-afc,
 #google_ad,
 #google_ad_test,
-#google_ads,
 #google_ads,
 #GOOGLE_ADS_197,
 #GOOGLE_ADS_21,
@@ -1300,7 +1116,6 @@
 #google_ads_frame2,
 #google_ads_frame2_anchor,                
 #google_ads_frame3,
-#google_ads_frame3,
 #google_ads_frame3_anchor,
 #google_ads_frame4,
 #google_ads_frame4_anchor,
@@ -1310,14 +1125,11 @@
 #google_ads_frame6_anchor,
 #google_ads_frame7,
 #Google_Adsense_Main,
-#google_creative_1,
-#google_textlinks,
 #googleAd,
 #GoogleAd1,
 #GoogleAd2,
 #googleAd_words,
 #googleAds,
-#googleads,
 #googleads1,
 #GoogleAdsense,
 #googleAdsense,
@@ -1327,7 +1139,6 @@
 #googleAdView,
 #googleAdwordsModule,
 #googlebanner,
-#googleblock300,
 #googleSearchAds,
 #googleShoppingAdsRight,
 #googleShoppingAdsTop,
@@ -1344,14 +1155,9 @@
 #head-ad,
 #head-banner468,
 #headAd,
-#header-ad,
 #header-ad-block,
 #header-ad-rectangle-container,
-#header-ads,
-#header-adsense,#want-to-advertise,
-#header-advert,
 #header-advertisement,
-#header-banner-spc,
 #header-google,
 #header_ad,
 #header_ad_728_90,
@@ -1362,12 +1168,10 @@
 #header_advertisement_top,
 #header_advertising,
 #header_bottom_ad,
-#header_leaderboard_ad_container,
 #header_publicidad,
 #header_right_ad,
 #HEADERAD,
 #HeaderAD,
-#headerAd,
 #headerAd,
 #headerAd,
 #headerad,
@@ -1387,24 +1191,18 @@
 #headlinesAdBlock,
 #HeroUnitMedRec,
 #hi5-ad-1,
-#hl-sponsored-links,
 #hl-top-ad,
-#hldhdAds,
 #hly_ad_side_bar_tower_left,
 #hly_inner_page_google_ad,
 #home-ad-block,
 #home-side-ad,
-#home_feature_ad,
-#home_sponsor_nile,
 #homead,
 #HomeAd1,
-#Homepage300x250,
 #homepage_ad,
 #homepage_right_ad,
 #homepage_right_ad_container,
 #homepage_top_ads,
 #homepagead_300x250,
-#HomepageAdSpace,
 #homepageAdsTop,
 #homepageFooterAd,
 #hometop_234x60ad,
@@ -1430,11 +1228,6 @@
 #iframe_ad_300,
 #iframe_ad_728,
 #iframe_container300x250,
-#IM_AD,
-#im_box,
-#im_popupDiv,
-#im_popupFixed,
-#ImageAdSideColumn,
 #imu,
 #in-story-ad-wrapper,
 #in_post_ad_middle_1,
@@ -1443,13 +1236,10 @@
 #inlineAd,
 #inlinead,
 #inlineads,
-#inlineAdtop,
 #inner-top-ads,
 #innerpage-ad,
 #inside-page-ad,
-#insider_ad_wrapper,
 #instoryad,
-#internalAdvert,
 #interruptor,
 #interstitial_ad,
 #ip-ad-leaderboard,
@@ -1461,10 +1251,10 @@
 #islandAdPane,
 #islandAdPane2,
 #islandAdPaneGoogle,
+#internalAdvert,
 #islandAdSponsored,
 #item-detail-feature-ad,
 #itemGroupAd2,
-#jobs-ars,
 #JobsearchResultsAds,
 #ka_adFullBanner,
 #ka_adMediumRectangle,
@@ -1472,7 +1262,6 @@
 #landing-adserver,
 #lapho-top-ad-1,
 #largead,
-#lateAd,
 #launchpad-ads-2,
 #layerad,
 #layeradsense,
@@ -1482,8 +1271,6 @@
 #lbAdBar,
 #lbAdBarBtm,
 #leader-board-ad,
-#leader-sponsor,
-#leader-sponsor,
 #leader_board_ad,
 #leaderAd,
 #leaderad,
@@ -1492,14 +1279,11 @@
 #leaderboard-ad,
 #leaderboard-bottom-ad,
 #leaderboard-sticky,
-#leaderboard-sticky,
 #leaderboard_728x90,
 #leaderboard_ad,
-#leaderboard_wrap,
 #LeaderBoardAd,
 #leaderboardAd,
 #leaderboardad,
-#leaderboardAdArea,
 #leaderboardAdSibling,
 #leaderboardAdTop,
 #leaderboardn,
@@ -1516,26 +1300,18 @@
 #leftads,
 #leftAdvert,
 #leftcolAd,
-#leftcolumnad,
 #leftframeAD,
-#lg-banner-ad,
-#linux-header-sponsored,
 #listing-ad,
 #LittleAdvert,
-#live-ad,
 #load-adslargerect,
 #LogMeInAd,
 #long-ad-space,
-#loomia_display,
 #LoungeAdsDiv,
 #lowerthirdad,
 #lpAdPanel,
-#LREC,
 #lrec,
 #lrec_ad,
 #m_top_adblock,
-#magnify_widget_playlist_item_companion,
-#magnify_widget_rect_content,
 #main-ad160x600,
 #main-ad160x600-img,
 #main-ad728x90,
@@ -1548,31 +1324,19 @@
 #mainad,
 #mainAdUnit,
 #mainAdvert,
-#Mainline1-sponsored,
 #maker-rect-ad,
-#marketplace.nav-menu,
 #mastAd,
 #mastad,
 #mastAdvert,
-#masthead-ad,
 #masthead_ad,
 #masthead_topad,
 #MastheadAd,
-#mbEnd,
 #media_ad,
 #mediaAdLeaderboard,
 #medium-ad,
-#medium-rec,
-#mediumrec,
-#mediumrect,
 #mediumRectangleAd,
-#MedRect,
 #medrectangle_banner,
-#MedRectHome,
-#medrectrb,
 #menuAds,
-#mhheader_ad,
-#mhheader_sublarge,
 #microsoft_ad,
 #mid_mpu,
 #midbarad,
@@ -1582,45 +1346,26 @@
 #midpost_ad,
 #midrect_ad,
 #midstrip_ad,
-#mlad,
-#mobile-phones-co-uk-120,
-#mod_imu,
-#Module-From_Advertisers,
 #Module-From_Advertisers,
 #module-google_ads,
 #module_ad,
 #module_box_ad,
 #module_sky_scraper,
-#moneySponsorBox,
-#moneySponsorBox,
 #monsterAd,
 #moogleAd,
-#most_popular_ad,
 #motionAd,
-#mpIslandHolder,
-#mpLeaderboard,
-#mpu,
 #mpu-advert,
-#mpu2_container,
 #mpu_banner,
-#mpu_container,
 #mpu_text_ad,
+#mpuSlot,
 #mpuad,
 #mpuholder,
-#mpuSlot,
-#mr_banner_topad,
-#MREC,
 #mrecAdContainer,
 #ms_ad,
-#msad,
 #msAds,
 #msnhd_div3,
-#msnmd_div,
 #multibar-ads,
 #multiLinkAdContainer,
-#music_googlelinks,
-#music_medrec,
-#mw-ysm-cm,
 #n_sponsor_ads,
 #narrow_ad_unit,
 #narrow_ad_unit,
@@ -1628,7 +1373,6 @@
 #national_microlink_ads,
 #nationalAd_secondary_top,
 #navi_banner_ad_780,
-#navigation-ad,
 #navigation-ad,
 #nba300Ad,
 #nbaHouseAnd600Ad,
@@ -1641,22 +1385,14 @@
 #noresults_ad_container,
 #NormalAdModule,
 #northad,
-#northbanner,
 #northbanner-advert,
-#np_content_ads_module,
-#nrAds,
 #ns_ad3,
-#nydn_bar_top,
 #OAS_Top,
-#omg-lrec,
 #onespot-ads,
 #onpageads,
 #onpageadstext,
 #outerAd300,
-#outerTwrAd,
-#overhead-you-know-what,
 #OverrideAdArea,
-#p360_ad_unit,
 #page-header-ad,
 #page_content_top_ad,
 #page_top_ad,
@@ -1668,13 +1404,10 @@
 #pageOwnershipAd_side,
 #PanelAd,
 #partner-ad,
-#pd-ads,
 #PhotoAd1,
 #photoAndAdBox,
-#phxcms_toplogo_top,#phxcms_top_leaderboard,
 #player_ad,
 #player_ads,
-#player_middle_ad,
 #pof_ads_Wrapper,
 #pop_ad,
 #populate_ad_left,
@@ -1683,44 +1416,28 @@
 #post_ad,
 #post_adspace,
 #post_id_ad_bot,
-#post_unit_medrec,
-#pre-header-banner,
-#preheader-ninemsn-container,
 #premium_ad_inside,
 #premSpons,
 #preroll_compainion_ad,
 #product-adsense,
 #proj-bottom-ad,
 #promo-ad,
-#promo-power-centre
 #promo_ads,
 #promoAds,
-#ps-top-ads-sponsored,
 #publicidad,
-#pullquote_adu,
 #pushdown_ad,
 #qaSideAd,
 #quigo,
 #quinAdLeaderboard,
 #r_ad3_ad,
-#r_adver,
-#RadAd_Skyscraper,
-#rail_ad1,
-#rail_ad2,
-#rbAdWrapperRt,
-#rbAdWrapperTop,
 #rectangle_ad,
 #refine-300-ad,
 #refine-ad,
 #region-node-advert,
 #region-top-ad,
-#remove_ads_button1,
-#remove_ads_button2,
 #rh-ad,
 #rh-ad-container,
 #rhs_ads,
-#rhs_block,
-#rhsa,
 #rhsads,
 #rhsadvert,
 #RhsIsland_DeferredAdSpacediv,
@@ -1732,11 +1449,9 @@
 #right-box-ad,
 #right-featured-ad,
 #Right-Skyscraper,
-#right-wide-skyscraper,
 #right160x600ads_part,
 #right_ad,
 #right_ad_wrapper,
-#right_column_ad,
 #right_column_ad_container,
 #right_column_ads,
 #right_column_internal_ad_container,
@@ -1758,24 +1473,16 @@
 #rightColumnAds,
 #rightrail-ad,
 #RightRailSponsor,
-#rightskyad,
 #RightSponsoredAd,
 #row2AdContainer,
 #rr_gallery_ad,
 #rt-ad,
 #rt-ad-top,
-#rtm_div_562,
-#rtm_html_920,
 #rtmod_ad,
 #rubicsTextAd,
-#sb-ad-sq,
-#sb-ad-sq,
-#scrubbuad_style,
 #sdac_bottom_ad_widget-3,
 #sdac_footer_ads_widget-3,
 #sdac_skyscraper_ad_widget-3,
-#search-pva,
-#search-sponsor,
 #search-sponsor,
 #search_ads,
 #secondBoxAd,
@@ -1783,11 +1490,8 @@
 #sect-ad-300x250,
 #sect-ad-300x250-2,
 #sensis_island_ad_1,
-#sensis_island_ad_1_column,
 #sensis_island_ad_2,
-#sensis_island_ad_2_column,
 #sensis_island_ad_3,
-#sensis_island_ad_3_column,
 #servfail-ads,
 #sew-ad1,
 #show-player-right-ad,
@@ -1814,10 +1518,8 @@
 #sidebar-ad3,
 #sidebar-ads,
 #sidebar2-ads,
-#Sidebar2-sponsored,
 #sidebar_ads_180,
 #sidebar_box_add,
-#sideBarAd,
 #sidebarAd,
 #sidebarad,
 #SidebarAdContainer,
@@ -1834,7 +1536,6 @@
 #sky-right,
 #SkyAd,
 #skyAd,
-#skyAdNewsletter,
 #skyline_ad,
 #skyScraper,
 #skyscraper-ad,
@@ -1842,26 +1543,16 @@
 #skyscraper_advert,
 #skyscraperAd,
 #skyscraperAdContainer,
-#skyScrapper,
 #sliderAdHolder,
 #slideshow_ad_300x250,
-#slot_LREC,
-#slug_bigbox,
-#sm-banner-ad,
-#smallad,
 #smallerAd,
 #some-ads,
 #source_ad,
-#spAd,
 #spec_offer_ad2,
-#special_offers_trio,
 #speed_ads,
-#speeds_ads,
 #sphereAd-wrap,
 #sponBox,
-#sponheader,
 #SponLink,
-#sponLinkDiv_1,
 #sponLinkDiv_1,
 #sponlinks,
 #spons_left,
@@ -1872,8 +1563,6 @@
 #sponsLinks,
 #sponsor-links,
 #sponsor_300x250,
-#sponsor_bar,
-#sponsor_box,
 #sponsor_div,
 #sponsor_header,
 #sponsor_partner_single,
@@ -1888,16 +1577,15 @@
 #SponsoredLinks,
 #sponsoredLinks,
 #sponsoredlinks,
-#sponsoredlinks_cntr,
 #sponsoredLinksBox,
 #sponsoredresults_top,
 #sponsorLinkDiv,
 #sponsorLinks,
 #sponsorResults,
+#sponsor_bar,
 #sponsorship-box,
 #sponsorTab,
 #sponsorText,
-#spotlight_ad,
 #spotlightAd,
 #spotlightad,
 #sq_ads,
@@ -1909,53 +1597,43 @@
 #squaread,
 #squareAds,
 #squareAdSpace,
-#squarebanner300x250,
 #squared_ad,
 #sticky-ad,
 #story-ad-a,
 #story-leaderboard-ad,
-#story-sponsoredlinks,
 #storyAd,
 #storyad2,
 #storyAdWrap,
 #style_ad_bottom,
-#sub_form_popup,
-#supersky_container,
 #svp-ad,
 #synch-ad,
-#tads,
 #takeoverad,
-#talentsBlock,
 #tbl_googlead,
 #tertiary_advertising,
 #text-ad,
 #text-ads,
-#textAd,
 #textad,
 #textad_block,
 #textAds,
 #textads,
-#textLinksContainer,
-#textsponsor,
 #thefooterad,
 #tippytop-ad,
 #TipTopAdSpace,
 #title-wide-sponsored-by,
-#tkn_medrec,
 #tmcomp_ad,
 #tnt_ad_column,
 #tobsideAd,
 #today_ad_bottom,
 #todays_media_ad_companion,
-#top-ad,
-#top-ad,
+#tour300Ad,
+#tour728Ad,
+#tourSponsoredLinksContainer,
 #top-ad-container,
 #top-ad-menu,
 #top-ads,
 #top-advert,
 #top-advertisement,
 #top-advertisements,
-#top-advertising,
 #top-banner-ad,
 #top-leaderboard,
 #top-search-ad-wrapper,
@@ -1970,16 +1648,13 @@
 #top_ads,
 #top_adspace,
 #top_advert,
-#top_banner,
 #top_google_ads,
-#top_promo_ie8,
 #top_right_ad,
 #top_sponsor_ads,
 #top_wide_ad,
 #TopAd,
 #topAD,
 #topAd,
-#topad,
 #topad1,
 #topAd728x90,
 #topad_left,
@@ -1992,7 +1667,6 @@
 #topAdContainer,
 #topAdcontainer,
 #TopAdDiv,
-#topaddwide,
 #topAds,
 #topads,
 #topAdsContainer,
@@ -2005,7 +1679,6 @@
 #topAdvert,
 #topadvert,
 #topAdvert-09,
-#topadwrap,
 #topadzone,
 #topbanner_ad,
 #topbanner_sponsor,
@@ -2016,27 +1689,18 @@
 #topbarAd,
 #topheader_ads,
 #topleader,
-#topLeaderboard,
 #topleaderboardad,
 #topMPU,
 #topNavLeaderboardAdHolder,
 #toppannonse,
-#Toprail_Leaderboard,
 #topright-ad,
 #toprightad,
 #toprightAdvert,
 #topRightBlockAdSense,
-#topsponad,
 #topsponsored,
 #toptextad,
-#tour300Ad,
-#tour728Ad,
-#tourSponsoredLinksContainer,
-#towerad,
-#towerad,
 #towerad,
 #towerAdContainer,
-#tr35advert,
 #tut_ads,
 #txt_link_ads,
 #ugly-ad,
@@ -2047,42 +1711,28 @@
 #upperad,
 #upperMpu,
 #upperRightAds,
-#USNewsBlogs300x250,
-#USNewsBlogs300x250,
 #vdiAd,
 #vert-ads,
-#vert_ad,
 #vert_ad_placeholder,
 #vertad1,
 #vertical_ad,
 #videoAd,
 #videoHatAd,
-#view-photo-ad,
 #viewAd1,
 #viewportAds,
-#VM-header-adspace,
-#VM-header-adwrap,
-#VM-MPU-adspace,
 #vxFlashPlayerStaticIMUFrame,
-#watch-channel-brand-div,
 #wh_ad_4,
-#whatsnews_footer_ad,
-#whatsnews_top_ad,
 #whoisRightAdContainer,
-#wibiyaToolbar,
 #wide_ad_unit_2,
 #wide_ad_unit_top,
 #widget-box-ad-1,
 #widget-box-ad-2,
 #widget_ad,
-#widget_advertisement,
 #WindowAdHolder,
 #WNAd1,
 #WNAd20,
-#WNAd20,
 #WNAd41,
 #WNAd43,
-#WNAd52,
 #WNAd52,
 #wp-insert-ad-widget-1,
 #wrapAdRight,
@@ -2092,49 +1742,19 @@
 #wrapperAdsTopRight,
 #wrapperRightAds,
 #y-ad-units,
-#y708-ad-expedia,
-#y708-ad-partners,
-#y708-ad-ysm,
-#y708-advertorial-competitions,
-#y708-advertorial-marketplace,
-#y708-windowshade,
 #yahoo-ads-content,
-#yahoo-contentmatch,
 #yahoo_ads,
 #yahoo_ads_2010,
 #yahoo_sponsor_links,
 #yahoo_sponsor_links_title,
-#yahooad-tbl,
 #YahooAdsContainerPowerSearch,
-#yahooPN_CM,
 #yahooSponsored,
-#yahoovideo_ysmlinks,
-#yan-advert-north,
 #yan-advert-nt1,
-#yan-question-advert,
 #yan-sponsored,
-#yan-sponsored,
-#ybf-ads,
-#yfi_pf_ad_mort,
-#yfi_pf_ysm,
-#yfi_ysm,
-#ygrp-sponsored-links,
-#yh-ysm,
-#yieldaddiv,
-#yl_pf_ysm,
 #ylf-lrec,
 #ylf-lrec1,
 #ylf-lrec2,
-#ylf-ysm,
-#ymh-invitational-recs,
-#YMusicRegion_T2_R2C2,
-#YMusicRegion_T3_R2C2_R1,
-#YMusicRegion_TN1_R2C2_R1,
-#yn-darla2,
 #yrail_ads,
-#yrail_ads,
-#yschsec,
-#YSLUG,
 #ysm_ad_iframe,
 #zMSplacement1,
 #zMSplacement2,
@@ -2142,25 +1762,17 @@
 #zMSplacement4,
 #zMSplacement5,
 #zMSplacement6,
-#zrJungle1033_overlay,
-#zrJungle1033_window,
 #zztextad,
-*/
-*[id^="google_ads_"],
 .aa_ad-160x600,
-.aadsection_b1,
-.aadsection_b2,
 .abovead,
 .aboveCommentAds,
 .aboveCommentAdsWrapper,
 .Ad,
-.ad,
 .ad-120x600,
 .ad-160x600,
 .ad-160x600-wrap,
 .ad-250,
 .ad-300,
-.ad-300-block,
 .ad-300-blog,
 .ad-300x,
 .ad-300x100,
@@ -2169,21 +1781,16 @@
 .ad-300x250-home,
 .ad-600,
 .ad-728,
-.ad-728x90,
 .ad-728x90-1,
 .ad-768,
 .ad-belowarticle,
-.ad-bigbox,
 .ad-bigboxSub,
 .ad-bline,
-.ad-block,
-.ad-blocking-makes-fella-confused,
 .ad-body,
 .ad-boombox,
 .ad-border,
 .ad-box1,
 .ad-box2,
-.ad-break,
 .ad-btn,
 .ad-btn-heading,
 .ad-bug-300w,
@@ -2196,7 +1803,6 @@
 .ad-details,
 .ad-disclaimer,
 .ad-display,
-.ad-div,
 .ad-feedback,
 .ad-flex,
 .ad-footer,
@@ -2206,20 +1812,17 @@
 .ad-heading,
 .ad-holder,
 .ad-home-right,
-.ad-homeleaderboard,
 .ad-homepage,
 .ad-iframe,
 .ad-index,
 .ad-island,
 .ad-label,
 .ad-leaderboard,
-.ad-links,
 .ad-lrec,
 .ad-medrect,
 .Ad-MPU,
 .ad-mpu,
 .ad-msn,
-.ad-national-1,
 .ad-noline,
 .ad-notice,
 .ad-other,
@@ -2234,15 +1837,12 @@
 .ad-rectangle,
 .ad-rectangle-text,
 .ad-side,
-.ad-skyscr,
 .ad-skyscraper,
-.ad-slot,
 .ad-slot-234-60,
 .ad-slot-300-250,
 .ad-slot-728-90,
 .ad-sp,
 .ad-space,
-.ad-square2-container,
 .ad-squares,
 .ad-stack,
 .ad-tabs,
@@ -2254,11 +1854,9 @@
 .ad-unit-anchor,
 .ad-unit-top,
 .ad-vertical,
-.ad-vtu,
 .ad-wrap,
 .ad-wrapper,
 .ad-zone-s-q-l,
-.ad01,
 .ad1,
 .ad10,
 .ad120_600,
@@ -2266,7 +1864,6 @@
 .ad120x60,
 .Ad120x600,
 .ad120x600,
-.ad125,
 .ad160x600box,
 .ad160x600GrayBorder,
 .Ad160x600left,
@@ -2275,7 +1872,6 @@
 .ad18,
 .ad19.ad160,
 .ad1left,
-.ad2,
 .ad2,
 .ad233x224,
 .ad250c,
@@ -2299,11 +1895,9 @@
 .ad310,
 .ad336x280,
 .ad336x362,
-.ad343x290,
 .ad400right,
 .ad468_60,
 .ad468x60Wrap,
-.ad6,
 .ad620x70,
 .ad7,
 .ad728_90,
@@ -2353,16 +1947,13 @@
 .ad_banner_border,
 .ad_bar,
 .ad_bg,
-.ad_biz,
 .ad_block_300x250,
 .ad_block_338,
 .ad_box1,
 .ad_box_ad,
 .ad_box_right,
 .ad_callout,
-.ad_caption,
 .ad_cont,
-.Ad_D,
 .ad_disclaimer,
 .ad_disclaimer,
 .ad_footer,
@@ -2370,14 +1961,11 @@
 .ad_global_header,
 .ad_header,
 .ad_header,
-.ad_info,
 .ad_island_feedback,
-.ad_item,
 .Ad_Label,
 .ad_label,
 .ad_label,
 .Ad_Label_foursquare,
-.ad_launchpad,
 .ad_leaderboard,
 .ad_Left,
 .ad_link_label_vert,
@@ -2391,12 +1979,8 @@
 .ad_mrect,
 .ad_notice,
 .ad_pagebody,
-.ad_partner,
-.ad_partners,
 .ad_placeholder,
-.ad_plus,
 .ad_position,
-.ad_post,
 .ad_post,
 .ad_power,
 .ad_rectangle,
@@ -2410,13 +1994,11 @@
 .ad_slug,
 .ad_slug_font,
 .ad_slug_table,
-.ad_slug_table,
 .ad_space_300_250,
 .ad_spacer,
-.ad_sponsor,
-.ad_sponsoredsection,
 .ad_square_r_top,
 .ad_story_island,
+.ad_sponsoredsection,
 .ad_text,
 .ad_text_links,
 .ad_title,
@@ -2426,10 +2008,7 @@
 .ad_trailer_header,
 .ad_w_us_a300,
 .ad_warning,
-.ad_wide,
 .ad_wrap,
-.ad_wrapper,
-.ad_wrapper_fixed,
 .ad_wrapper_top,
 .adArea,
 .adarea,
@@ -2442,8 +2021,6 @@
 .adBanner300x250,
 .adBanner728x90,
 .ADBAR,
-.adbar,
-.adbckgrnd,
 .adbckgrnd,
 .adBlock,
 .adblock,
@@ -2453,19 +2030,15 @@
 .ADBnrArea,
 .adboard,
 .AdBorder,
-.adbot,
 .adBottom,
 .adBottomBoard,
 .adBottomboxright,
 .ADbox,
-.AdBox,
-.adbox,
 .adbox,
 .adBox-mr,
 .adbox1,
 .adbox_300x600,
 .adBoxBody,
-.adBoxSingle,
 .adboxVert,
 .adbrite2,
 .adbrite_post,
@@ -2473,13 +2046,11 @@
 .adBwrap,
 .adCall,
 .adCell,
-.adCMRight,
 .adColBgBottom,
 .adColumn,
 .adcolumn,
 .adcolumn_wrapper,
 .AdContainer,
-.adContainer,
 .adcontainer,
 .AdContainer160x600,
 .AdContainerBottom,
@@ -2487,65 +2058,45 @@
 .adContent,
 .adContour,
 .adcopy,
-.adCreative,
-.add-result,
 .add-wrapper,
 .adDiv,
 .addtitle,
-.adElement,
 .adFender3,
 .adfoot,
 .adFrame,
 .adFrameContainer,
-.adGoogle,
-.adHeader,
-.adHeader,
 .adHeader,
 .adheader,
 .adHeadline,
-.adHeadlineSummary,
 .adhere,
 .adhi,
-.adHolder,
 .adHolder,
 .adHome300x250,
 .adHorisontalNoBorder,
 .adhoriz,
 .adiframe,
-.adkit-advert,
-.adkit-lb-footer,
-.adLabel,
 .adlabel,
-.adlabel,#adSkinBackdrop,
-.adlabel-horz,
-.adlabel-horz,
 .adLabelLine,
 .adLeaderForum,
 .adleft1,
 .AdLeftbarBorderStyle,
 .adLine,
-.adline,
-.adLocal,
 .admain,
 .adman,
 .adMarker,
 .admessage,
 .admiddle,
-.adMkt2Colw,
 .adModule,
 .adModule,
 .admodule,
-.adModule300,
 .AdModule_ContentLarge,
 .AdModule_Hdr,
-.adModule_square2,
 .admoduleB,
 .adMpu,
 .admpu,
 .adNoOutline,
 .adnotice,
 .adNotice90,
-.adNoticeOut,
 .adops.textlinks,
 .adp-AdPrefix,
 .adpad300,
@@ -2555,7 +2106,6 @@
 .ADPod,
 .adpost,
 .adRectangleUnit,
-.adRegionSelector,
 .adReportsLink,
 .adRight,
 .adright,
@@ -2576,7 +2126,8 @@
 .ads-box-header-wsl,
 .ads-btm,
 .ads-col,
-.ads-item,
+.adsHeader,
+.adsHeaderFlog,
 .ads-left,
 .ads-margin,
 .ads-mpu,
@@ -2587,7 +2138,6 @@
 .ads-sponsors-125-right,
 .ads-stripe,
 .ads-top,
-.ads.horiz,
 .ads1,
 .ads125,
 .Ads160,
@@ -2596,10 +2146,7 @@
 .ads_180,
 .ads_300,
 .ads_disc_skyscraper,
-.ads_div,
 .ads_folat_left,
-.ads_h,
-.ads_inside2,
 .ads_leaderboard,
 .ads_rectangle,
 .ads_show_if,
@@ -2610,7 +2157,6 @@
 .ads_top_both,
 .ads_topleft,
 .ads_topright,
-.ads_vtlList,
 .adsBelowHeadingNormal,
 .adsbg300,
 .adsbottom,
@@ -2618,14 +2164,10 @@
 .AdsBoxBottom,
 .adsboxitem,
 .AdsBoxTop,
-.adsbyyahoo,
 .adsc,
 .adscontainer,
 .AdScriptBox,
 .adsDiv,
-.adsection_a2,
-.adsection_c2,
-.AdSense,
 .adsense,
 .adsense-afterpost,
 .adsense-float,
@@ -2642,12 +2184,13 @@
 .AdSenseLeft,
 .adsenseSky,
 .adsenvelope,
+.adRegionSelector,
+.advertisedBy,
+.ad-square2-container,
 .adSepDiv,
 .adset,
 .adSeven,
 .adsforums
-.adsHeader,
-.adsHeaderFlog,
 .adSize_MedRec,
 .adSkyscraper,
 .adSkyscraperHolder,
@@ -2655,13 +2198,11 @@
 .adsleaderboardbox,
 .adSlice,
 .AdsLinks2,
-.adSlug,
 .adsmedrect,
 .adsmedrectright,
 .adsmiddle,
 .adsMPU,
 .adSpace,
-.adspace-300x600,
 .adspace-widget,
 .adspace180,
 .adspace_buysell,
@@ -2678,13 +2219,10 @@
 .adsTop,
 .adstop,
 .adsTowerWrap,
-.adSummary,
 .adswidget,
 .adsYN,
-.adsystem_ad,
 .adTab,
 .AdTag,
-.adTag,
 .adtag,
 .adtech,
 .adtech-boxad,
@@ -2694,7 +2232,6 @@
 .adtips,
 .adtips1,
 .AdTitle,
-.adTitle,
 .AdTop,
 .adtop,
 .adTopboxright,
@@ -2705,25 +2242,21 @@
 .adtravel,
 .adTxt,
 .adtxtlinks,
-.adTXTnew,
 .AdUnit,
-.adUnit,
 .adunit_210x509,
 .adunit_728x90,
 .adUnitHorz,
 .adUnitVert,
 .adUnitVert_noImage,
 .adv,
+.adv_flash,
 .adv-search-ad,
 .adv_1,
 .adv_2,
 .adv_block,
 .adv_box_narrow,
-.adv_flash,
-.adv_right,
 .adv_side1,
 .adv_side2,
-.advBottomHome,
 .adver_cont_below,
 .adverstisement_right,
 .advert,
@@ -2747,13 +2280,9 @@
 .advertheader-red,
 .advertHeadline,
 .advertise-horz,
-.advertise-info,
-.advertise_ads,
 .advertise_link,
 .advertise_link_sidebar,
 .advertise_txt,
-.advertiseBlack,
-.advertisedBy,
 .advertisement,
 .advertisement-block,
 .advertisement-header,
@@ -2767,22 +2296,14 @@
 .advertisement_horizontal,
 .advertisementBannerVertical,
 .advertisementCenterer,
-.advertisementColumnGroup,
-.advertisementContainer,
 .advertisementGif,
 .advertisementLabel,
-.advertisementPanel,
 .advertisespace_div,
-.advertiseText,
 .AdvertiseWithUs,
-.advertising-local-links,
 .advertising_block,
 .advertisingTable,
 .Advertisment,
 .advertisment,
-.advertisment,
-.advertisment,
-.advertisment_two,
 .advertismentBox,
 .advertorial,
 .advertRight,
@@ -2800,69 +2321,47 @@
 .adzone,
 .affiliate_header_ads,
 .affiliate_header_ads_container,
-.affiliateAdvertText,
 .affinityAdHeader,
 .after_ad,
 .agi-adtop,
 .aisoad,
 .annonce_textads,
-.annonstext,
 .apiAdMarkerAbove,
 .apiAds,
 .apiButtonAd,
 .aroundAdUnit,
-.artAdInner,
 .article-ads,
 .article_ad,
 .article_bottom_ad,
-.article_mpu_box,
 .article_page_ads_bottom,
 .articleAd,
 .articlead,
 .articleads,
 .articleflex-container,
 .ArticleInlineAd,
-.asection_a1,
 .b-ads728,
-.b-astro-sponsored-links_horizontal,
-.b-astro-sponsored-links_vertical,
 .b5_widget_skyscraper_ad,
 .b_ads,
-.bAdv,
-.bAdvTO,
 .banner-468x60,
 .banner-ads,
 .banner-adverts,
-.banner-leaderboard,
-.banner-rectangleMedium,
 .banner.ad,
 .banner1-728x90,
-.banner300,
-.banner300,
 .banner300x100,
-.banner468,
 .banner468x60,
-.banner_300x250,
-.banner_728x90,
 .banner_ad_footer,
 .banner_ad_leaderboard,
-.banner_div,
 .BannerAd,
 .bannerAd,
 .bannerAd_rdr,
 .bannerAdWrapper300x250,
 .bannerAdWrapper730x86,
-.bannerBottom,
 .bannerBox,
 .bannergoogle,
-.bannerSpace.clearfix,
-.bannerTop,
 .bannerTopAdLeft,
 .bannerTopAdRight,
 .barkerAd
 .base-ad-mpu,
-.bb-adv-160x600,
-.bb-adv-300x250,
 .belt_ad,
 .bex_ad,
 .big-ads,
@@ -2876,14 +2375,13 @@
 .biz-adtext,
 .bizDetailAds,
 .block-ad,
-.block-google_admanager,
+.blocsponsor,
 .block-openadstream,
 .block-openx,
 .block-sponsored-links,
 .block-thirdage-ads,
 .block_ad,
 .blocked-ads,
-.blocsponsor,
 .blog-ad,
 .blog-ad-leader-inner,
 .blog-ads,
@@ -2895,7 +2393,6 @@
 .blox-leaderboard-container,
 .blxAdopsPlacement,
 .bnr_ad,
-.body_width_ad,
 .bodyads,
 .bodybannerad,
 .bodyrectanglead,
@@ -2904,7 +2401,6 @@
 .bottom-ad2,
 .bottom_ad,
 .bottom_sponsor,
-.bottomAd,
 .bottomad,
 .BottomAdContainer,
 .bottomAds,
@@ -2913,22 +2409,17 @@
 .box-ad-a,
 .box-ads,
 .box.ad,
-.box.adhead,
 .Box2.Ad,
 .box_ad,
 .box_ad_wrap,
 .box_advertising,
 .box_content_ads,
-.box_title_ad,
 .BoxAd,
 .boxAd,
-.boxad,
 .boxad120,
 .boxadvertisement,
-.boxMidRt.pB0,
 .BoxSponsorBottom,
 .bps-advertisement-placeholder,
-.br-ad,
 .breakingNewsModuleSponsor,
 .breakthrough-ad,
 .btn-ad,
@@ -2940,40 +2431,22 @@
 .canoeAdvertorial,
 .care2_adspace,
 .cat_context_ad,
-.category-ad,
 .cb-ad-container,
 .cb_navigation_ad,
-.cb_navigation_ad,
 .cbstv_ad_label,
-.cColumn-TextAdsBox,
 .cdAdContainer,
-.cdAdTitle,
 .center_ad,
 .center_ads,
-.CG_adkit_leaderboard,
 .cms-Advert,
-.cnbc_banner_ad_area,
-.cnn_728adbin,
-.cnn_adcntr300x100,
-.cnn_adcntr728x90,
-.cnn_adcntr728x90t,
-.cnn_adspc336cntr,
-.cnn_fabcatad,
 .cnn_pt_ad,
-.cnn_strycntntrgt,
-.cnnStoryElementBox,
-.cnnWCAdBox,
 .cnt_ad,
 .column_3_ad,
 .comment-ad,
 .comment-ad-wrap,
 .comment-advertisement,
 .conductor_ad,
-.console_el,
 .consoleAd,
 .container-adwords,
-.content-block-slinks,
-.content-tab-slinks,
 .content_ad,
 .content_ad_728,
 .content_adsense,
@@ -2985,11 +2458,8 @@
 .contest_ad,
 .contextual_ad_unit,
 .cornerBoxInnerWhiteAd,
-.cp_ad,
-.cs_banner728_top,
 .cse_ads,
 .cube-ad,
-.cube_ads,
 .cubeAd,
 .cubead-widget,
 .currency_ad,
@@ -2999,33 +2469,20 @@
 .deckads,
 .detail_ad,
 .dfrads,
-.dh_vend,
-.dh_vend_last,
-.dh_vend_pad,
-.dh_vend_top,
 .diggable-ad-sponsored,
-.dirListSuperSpons,
 .displayAd,
 .div_advertisement,
 .divAd,
 .divGoogleAdsTop,
 .divSponsoredBox,
-.dmco_box.mc_leftcol,
 .dod_ad,
 .double-ad,
-.downloadAds,
 .dynamic-ads,
-.eb_ad280,
-.ec-ads,
 .editor_ad,
-.ego_unit.ego_spo,
-.em-ad,
 .embed-ad,
 .entry-body-ad,
 .entry_sidebar_ads,
 .exec-advert-flash,
-.f_Ads,
-.fbEmu,
 .fc_splash_ad,
 .featureAd,
 .fiveMinCompanionBanner,
@@ -3034,22 +2491,16 @@
 .flash_ad,
 .flash_advert,
 .flashadd,
-.flex-ad,
 .floatad,
-.floater-indiv,
 .footer-advert,
 .footerAd,
-.footerad,
 .footerTextAd,
 .four_button_threeone_ad,
 .fp_ad_text,
 .frontads,
-.full_width_ad,
-.funding-horizontal,
 .g3rtn-ad-site,
 .ga-ads,
 .gAd,
-.gAdvertising,
 .gallery_ad,
 .gam_ad_slot,
 .game-ads,
@@ -3058,15 +2509,15 @@
 .gamesPage_ad_container,
 .gamesPage_ad_content,
 .gbl_adstruct,
-.gen_side_ad,
 .generic_300x250_ad,
 .gl_ad,
 .global_banner_ad,
 .gm-ad-lrec,
 .go-ads-widget-ads-wrap,
 .googad,
+.gAdvertising,
 .google-ad,
-.google-ad-container,
+.google_adsense,
 .google-ads-boxout,
 .google-ads-slim,
 .google-adsense,
@@ -3080,30 +2531,20 @@
 .google_ad336,
 .google_ad_wide,
 .google_ads_bom_title,
-.google_adsense,
-.google_modtr,
-.GoogleAd,
 .googlead,
 .googlead-sidebar,
 .googlead-sidebar,
 .googleAd300x250_wrapper,
 .googlead_iframe,
 .GoogleAdInfo,
-.googleads_300x250,
 .googleAds_article_page_above_comments,
 .googleAdSenseModule,
 .googleAdTopTipDetails,
 .googleBannerWrapper,
 .googlebanwide,
-.googleLgRect,
 .googleSideAd,
 .googleSkyWrapper,
-.googleSkyWrapper,
-.googley_ads,
-.gradientAd,
-.graphic_ad,
 .grev-ad,
-.grey-ad-line,
 .grey-ad-line,
 .gridAd,
 .group.ads,
@@ -3113,11 +2554,9 @@
 .gutter-ad-right,
 .h-ad-728x90-bottom,
 .h_ad,
-.h_Ads,
 .hd_advert,
 .head_ad,
 .header-advert,
-.header.headerPub,
 .header_ad_2,
 .header_ad_div,
 .header_adsense_banner,
@@ -3127,8 +2566,6 @@
 .header_advertisment,
 .headerAds,
 .HeaderLeaderAd,
-.HeadingAdSpace,
-.hidoframe,
 .highlights-ad,
 .hm_advertisment,
 .home-sticky-ad,
@@ -3138,38 +2575,27 @@
 .homeAd1,
 .homeAd2,
 .homepage-footer-ads,
-.homepage-sponsoredlinks-container,
 .homepage_middle_right_ad,
 .homepageAd,
-.homepageFlexAdOuter,
-.homepageMPU,
 .horizontalAd,
 .horizontaltextadbox,
 .horizsponsoredlinks,
 .housead,
 .hover_300ad,
 .hpa-ad1,
-.HPG_Ad_B,
 .IABAdSpace,
-.ibm_ad_bottom,
-.ibm_ad_text,
 .iframe-ad,
 .im-topAds,
 .image-advertisement,
-.img-summary.sponsored,
 .in-between-ad,
 .in-page-ad,
 .in-story-ads,
-.inArticleAdInner,
-.index-quigo,
 .indie-sidead,
-.indy_googleads,
 .inlinead,
 .inlineAd_content,
 .inlineAdNotice,
 .inlineSideAd,
 .inlist-ad,
-.inner-ad,
 .inner-advt-banner-3,
 .inPageAd,
 .inpostad,
@@ -3186,15 +2612,11 @@
 .item-container-ad,
 .job_ad,
 .jobs-ad-box,
-.jp-advertisment-promotional,
-.jp-sponserd-talkbacks,
 .kd_ads_block,
-.kw_advert,
 .l-bottom-ads,
 .l_ad_sub,
 .labeled_ad,
 .large-btn-ad,
-.large_ad,
 .LargeRightAd,
 .largeUnitAd,
 .layer_text_ad,
@@ -3204,11 +2626,8 @@
 .leaderboard-ad-main,
 .leaderboard-container,
 .leaderboard-container-top,
-.leaderboard-tbl,
-.leaderboard2,
 .leaderboard_ad,
 .leaderboardbottom_wrapper,
-.leaderBoardWrapper,
 .left-ad,
 .left-advert,
 .left_adlink,
@@ -3223,14 +2642,11 @@
 .leftbarads,
 .leftbottomads,
 .LeftTowerAd,
-.lft120x60,
 .localad,
 .logoad,
 .LoungeAdsBottomLinks,
 .lowerAds,
 .lt_ad_call,
-.m_banner_show,
-.macad,
 .madison_ad,
 .main-ad,
 .main_ad,
@@ -3239,30 +2655,22 @@
 .marginadsthin,
 .marketplaceAd,
 .marketplaceAdShell,
-.maskWhite.solidGrey.mpu,
 .matador_sidebar_ad_600,
-.MD_adZone,
-.MD_textLinks01,
-.mdl-ad,
 .mdl-quigo,
-.med-rect,
 .media-ad-rect,
 .media-advert,
 .mediaAd,
 .mediaAdContainer,
 .mediaResult_sponsoredSearch,
-.medrec,
 .medRecContainer,
 .medrect,
 .medrect_ad,
-.medrect_aol,
 .medrectadv4,
 .messageBoardAd,
 .mf-ad300-container,
 .micro_ad,
 .mid-ad-wrapper,
 .midad,
-.midadd,
 .middle-ad,
 .MiddleAd,
 .MiddleAdContainer,
@@ -3270,12 +2678,9 @@
 .middleAdMid,
 .middleAdRight,
 .mini-ad,
-.mnn-homepage-adv1-block,
-.mod-adcpc,
 .mod-horizontal-ad,
 .mod-vertical-ad,
 .module-ad,
-.module-ad-small,
 .module_box_ad,
 .moduleAd,
 .moduleAdSpot,
@@ -3283,64 +2688,43 @@
 .modulegad,
 .moduletable-advert,
 .moduletable_ad-right,
-.monsterad,
 .MOS-ad-hack,
-.mpMPU,
 .mpu-title,
-.mpu.ad3,
 .mpu_text_ad,
 .mpuAd,
 .mpuad,
 .mpuBox,
 .MPUHolder,
 .MREC_ads,
-.mvAd,
-.mvAdHdr,
 .my-ad250x300,
 .myplate_ad,
 .narrow_ad_unit,
-.naviad,
-.nbaAroundAd2,
 .nbaTextAds,
-.nbaTVPodAd,
 .ndmadkit,
 .newHeaderAd,
 .newsletter_ad,
 .newTopAdContainer,
-.nk_popup_body,
-.nk_popup_overlay,
 .normalAds,
 .northad,
 .note-advertisement,
 .nsAdRow,
-.nzh-bigbanner,
 .oad-ad,
 .oas-ad,
-.OAS.Middle1,
 .oasInAds,
 .ody-sponsor,
 .oi_horz_ad_container,
-.oio-zone-position,
 .on_single_ad_box,
-.onethirdadholder,
 .openx_frame,
 .osan-ads,
-.OSOasAdModule,
 .otj_adspot,
 .outbrain_ul_ad_top,
-.pad9px_right,
 .page_ad,
 .page_content_right_ad,
-.page_skyscraper,
-.pagehead_op2,
 .panel_ad,
-.PencilAd,
 .performancingads_region,
 .photo-ad,
-.phxcms_contentphx_right_bar,
 .plainAd,
 .pnp_ad,
-.podSponsoredLink,
 .popupAd,
 .popupAdWrapper,
 .post-ad,
@@ -3348,17 +2732,13 @@
 .post_ad,
 .prebodyads,
 .promo-ad,
-.promo.premierpartners,
 .promo_border,
 .promoad,
-.promogrp,
-.promos-horizontal,
 .publicidad,
 .pulse360ad,
 .quigo,
 .quigoAdCenter,
 .quigoads,
-.r29_box_ad,
 .r_ad_box,
 .r_adbx_top,
 .RBboxAd,
@@ -3379,12 +2759,9 @@
 .reviewMidAdvertAlign,
 .reviewpage_ad2,
 .rght300x250,
-.rh > #ra,
-.rhs-ad,
 .right-ad,
 .right-ads,
 .right-col-ad,
-.right-wide-skyscraper,
 .Right300x250AD,
 .right_ad_text,
 .right_ads,
@@ -3401,43 +2778,24 @@
 .rightcolad,
 .rightcoltowerad,
 .RightGoogleAFC,
-.rightrail_ads,
-.RightRailTop300x250Ad,
 .RightTowerAd,
 .rnav_ad.searchAd,
 .roundedCornersAd,
-.row.advertising,
-.rr_ads,
-.rt_ad_300x250,
-.rt_advert_name,
 .rt_el_advert,
 .rtAdFtr,
 .runner-ad,
-.sAdv,
 .sb_ad,
-.sb_ad_holder,
 .sb_adsN,
 .sb_adsNv2,
-.sb_adsW,
-.sb_adsWv2,
 .sc_iframe_ad,
 .scad,
 .scoopads,
-.search-ad,
-.search-sponsor,
 .search_ad_box,
 .search_results_ad,
 .searchAds,
-.searchView.list-view,
-.section-ad,
-.section.videoAd-wrapper,
 .section_ad_left,
-.SectionRightRail300x600Box,
-.SeekerPromosLeft,
 .sepContentAd,
 .serp_sponsored,
-.sfsp_adadvert,
-.shopping-tools.shop-on,
 .showAd_No,
 .showAd_Yes,
 .ShowAdDisplay,
@@ -3454,7 +2812,6 @@
 .side-ad-300-middle,
 .side-ad-300-top,
 .side-ad-big,
-.side-ad-blocks,
 .side-ads-wide,
 .side-bar-ad-position1,
 .side-bar-ad-position2,
@@ -3464,7 +2821,6 @@
 .side_ad_2,
 .side_ad_3,
 .sidead,
-.SideAds,
 .sideads,
 .sideAdTall,
 .sideAdWide,
@@ -3479,7 +2835,6 @@
 .sideBlockAd,
 .sideBoxAd,
 .singad,
-.singleAd,
 .singlead,
 .singleads,
 .singleAdsContainer,
@@ -3492,43 +2847,27 @@
 .skyAdd,
 .skyAdvert,
 .skyCraper_banner,
-.skyscraper.ad8,
 .skyscraper_ad,
 .skyscraper_bannerAdHome,
 .skyscraperAd,
-.sleekadbubble,
 .slide-ad,
 .slide_ad,
-.SLL,
 .smallAdContainer,
 .smallads,
 .smallsponsorad,
-.southad,
-.specialAdvertising,
 .specials_ads,
 .speedyads,
-.spl_ad,
-.spl_ad2,
 .spl_ad_plus,
-.spl_shd_plus,
-.spl_unshd,
 .spLinks,
 .spn_links_box,
 .spon_link,
 .sponlinkbox,
-.sponsBox.clear,
 .sponserLink,
 .sponslink,
 .sponsor-ad,
 .sponsor-box,
 .sponsor-links,
-.sponsor-title-image,
-.sponsor_block,
 .sponsor_div,
-.sponsor_div_title,
-.sponsor_div_title,
-.sponsor_units,
-.sponsor_units,
 .sponsorad,
 .sponsorads,
 .sponsoradtitle,
@@ -3538,58 +2877,40 @@
 .sponsored-links,
 .sponsored-links-holder,
 .sponsored-links-tbl,
-.sponsored-post,
 .sponsored-results,
 .sponsored-rule,
 .sponsored_ad,
 .sponsored_box,
 .sponsored_links,
 .sponsored_results,
-.sponsoredibbox,
 .sponsoredInner,
 .sponsoredLink,
 .sponsoredLinks,
 .sponsoredLinks2,
 .sponsoredLinksHeader,
-.sponsoredProduct,
 .sponsoredSideInner,
 .sponsoredtextlink_container,
 .SponsorIsland,
 .sponsormsg,
 .sponsorsbig,
-.sponsorship.side,
 .sponsorship_ad,
 .SponsorshipText,
 .SquareAd,
 .squareAd,
 .squaread,
-.squareAdd,
-.squareAddtwo,
 .staticAd,
 .stock-ticker-ad-tag,
 .story_AD,
 .storyad300,
-.storyList.resourceCenter,
-.storyList.whitePapers,
 .stpro_ads,
-.STR_AdBlock,
-.subad,
 .subheadAdPanel,
 .subtitle-ad-container,
-.supercommentad_left,
-.supercommentad_right,
 .supp-ads,
 .tabAd,
 .tabAds,
 .tablebordersponsor,
-.tbl_ad,
 .td-Adholder,
-.teaser.ibm,
-.teaser_adliste,
-.text-ads,
 .text-advertisement,
-.text_ads,
-.text_ads_2,
 .TextAd,
 .textad,
 .textAd3,
@@ -3597,30 +2918,22 @@
 .textAdBlwPgnGrey,
 .textadbox,
 .textAds,
-.textads,
-.textadsds,
 .textSponsor,
-.TheEagleGoogleAdSense300x250,
 .theleftad,
 .thisIsAnAd,
 .tileAdWrap,
-.TL_genericads_columns,
-.TL_medRec_container,
 .top-ad,
 .top-ad-right,
 .top-ad-sidebar,
 .top-banner-add,
-.top_ad,
 .top_ad_728_90,
 .top_ad_holder,
 .top_ad_post,
 .top_ads,
 .top_container_ad,
 .top_sponsor,
-.TopAd,
 .topAd,
 .topad-bar,
-.topadbox,
 .TopAdContainer,
 .topAdd,
 .TopAdL,
@@ -3628,7 +2941,6 @@
 .topADs,
 .topAds,
 .topads,
-.topAdvBox,
 .topBannerAd,
 .topbannerad,
 .topleader,
@@ -3638,24 +2950,12 @@
 .towerAd,
 .TowerAds,
 .towerAds,
-.trueads,
-.ts-ad_unit_bigbox,
-.ts-banner_ad,
 .ts-featured_ad,
 .tucadtext,
-.twoadcoll,
-.twoadcolr,
-.twoColumnAd,
-.txt-ads,
 .txt_ad,
 .txtAd,
 .type_ads,
 .tz_ad_widget,
-.u5 > DIV.oM,
-.u9 + DIV.vb,
-.UIStandardFrame_SidebarAds,
-.UIWashFrame_SidebarAds,
-.ukAds,
 .undertimyads,
 .uniAds,
 .unSponsored,
@@ -3663,7 +2963,6 @@
 .ve2_post_adsense,
 .vert-ad,
 .vertical-adsense,
-.Video-Ad,
 .video_ad,
 .video_advertisement_box,
 .videoBoxAd,
@@ -3678,429 +2977,1130 @@
 .wideAd,
 .wideAdTable,
 .widget-ad,
-.widget-ad-zone,
+.widget_ads,
 .widget-ad300x250,
 .widget-adsense,
 .widget-advertisement,
 .widget-entry-ads-160,
-.widget-text-ad,
 .widget_ad,
 .widget_ad_rotator,
-.widget_ads,
+.widget-ad-zone,
+.widget-text-ad,
 .widget_sdac_bottom_ad_widget,
 .widget_sdac_skyscraper_ad_widget,
-.widget_sponsored_content,
 .width-ad-slug,
 .wikia-ad,
 .wikia_ad_placeholder,
-.wingadblock,
 .wnIframeAd,
 .wnMultiAd,
 .wp125ad,
 .wp125ad_2,
-.wpn-business-resources,
 .wrap-ads,
 .wsSearchResultsRightSponsoredLinks,
 .wsTopSposoredLinks,
-.x03-adunit,
 .xads-blk2,
 .xads-ojedn,
-.XEad,
 .y-ads,
 .y-ads-wide,
-.y7-advertisement,
-.y7-breakout-bracket,
-.y708-commpartners,
 .y7s-lrec,
 .yahooAd,
 .yahooAds,
 .yahooContentMatch,
-.yan-sponsored,
 .yellow_ad,
-.yl-lrec-wrap,
 .youradhere,
-.yrail_ads,
-.yschspns,
-.ysmsponsor,
-.z0DeRc,
-.zc-grid-ad,
-/* 123greetings.com */
-/* 123people.co.uk */
-/* 3news.co.nz */
-/* abcnews.go.com*/
-/* about.com */
-/* accuweather.com */
-/* addictinggames.com */
-/* adult-list */
-/* aerzteblatt.de */
-/* afl.com.au */
-/* al.com */
-/* alarabiya.net */
-/* alexa.com */
-/* almico.com */
-/* alternet.org */
-/* amazon.com */
-/* animekuro.com*/
-/* answers.com */
-/* answers.yahoo.com */
-/* aol.co.uk */
-/* aol.com */
-/* arstechnica.com */
-/* articles.sfgate.com*/
-/* asia.wsj.com */
-/* ask.com */
-/* askmen.com */
-/* astrology.com */
-/* au.yahoo.com */
-/* auto-motor-und-sport.de */
-/* autos.aol.com */
-/* azcentral.com */
-/* babeexplorer.com */
-/* beliefnet.com */
-/* bestbuy.com */
-/* bestweekever.tv */
-/* betanews.com */
-/* biblegateway.com */
-/* bicycling.com */
-/* bigpond.com */
-/* bing.com */
-/* bit-tech.net */
-/* bitmob.com */
-/* bitreactor.to */
-/* bjorn3d.com */
-/* blackbookmag.com */
-/* bleacherreport.com */
-/* boatsales.com.au */
-/* bostonherald.com */
-/* bostonreview.net */
-/* brasilportais.com.br */
-/* break.com */
-/* btjunkie.org */
-/* buddytv.com */
-/* businessinsider.com */
-/* businesspundit.com */
-/* caranddriver.com */
-/* careerone.com.au */
-/* carsguide.com.au */
-/* cbc.ca */
-/* cbsnews.com */
-/* celebuzz.com */
-/* cfo.com */
-/* chip.de */
-/* chipchick.com */
-/* christianpost.com */
-/* chron.com */
-/* cio.co.nz */
-/* cioupdate.com */
-/* citytv.com */
-/* cnbc.com */
-/* cnbc.com */
-/* cnet.co.uk */
-/* cnet.com */
-/* cnn.com */
-/* cnngo.com */
-/* commentarymagazine.com */
-/* computerworld.co.nz */
-/* concierge.com */
-/* connecttristates.com */
-/* cracked.com */
-/* crainsnewyork.com */
-/* crikey.com.au */
-/* crunchgear.com */
-/* csmonitor.com */
-/* dailyhaha.com */
-/* dailymotion.com */
-/* daniweb.com */
-/* darkreading.com */
-/* demonoid.com */
-/* detnews.com */
-/* deviantart.com */
-/* digg.com */
-/* digitalspy.co.uk */
-/* dilbert.com */
-/* dinside.no */
-/* discovery.com */
-/* ditii.com */
-/* divinecaroline.com */
-/* download.cnet.com */
-/* downloadsquad.com */
-/* driverheaven.net */
-/* ebaumsworld.com */
-/* ebay.com */
-/* ecollegetimes.com */
-/* economist.com */
-/* ediets.com */
-/* ekstrabladet.dk */
-/* eleconomista.es */
-/* electronista.com */
-/* empireonline.com.au */
-/* esquire.com */
-/* facebook.com */
-/* failblog.com */
-/* fakingnews.com */
-/* fastcompany.com */
-/* film.com */
-/* finanztreff.de */
-/* foodnetwork.co.uk */
-/* fora.tv */
-/* forbes.com */
-/* foreignpolicy.com */
-/* forums.somethingawful.com */
-/* fosswire.com */
-/* foxbusiness.com */
-/* foxnews.com */
-/* fresnobee.com */
-/* frostwire */
-/* fsdaily.com */
-/* ft.com */
-/* g.doubleclick.net */
-/* gall.dcinside.com */
-/* gameplanet.co.nz */
-/* geekstir.com */
 /* general filters */
-/* germany.real.com*/
-/* gfdata.de */
-/* goerie.com */
-/* good.is */
-/* google */
-/* greenbiz.com */
-/* greenercomputing.com */
-/* groups.yahoo.com */
-/* h-online.com */
-/* health.yahoo.net */
-/* heise.de */
-/* hgtvpro.com */
-/* hgtvpro.com */
-/* history.com */
-/* hotcopper.com.au */
-/* howstuffworks.com */
-/* howtoforge.com */
-/* huffingtonpost.com */
-/* idg.com.au */
-/* IE Fixes */
-/* imageshack.us */
-/* imgur.com */
-/* inc.com */
-/* independent.co.uk */
-/* indianapublicmedia.org */
-/* indianexpress.com */
-/* indiatimes.com */
-/* investopedia.com */
-/* investorwords.com */
-/* itproportal.com */
-/* jame-world.com */
-/* joeuser.com */
-/* joystiq.com */
-/* jpost.com */
-/* jsonline.com */
-/* justin.tv */
-/* katu.com */
-/* kayak.co.uk */
-/* khq.com */
-/* kidzworld.com*/
-/* king-mag.com */
-/* komonews.com */
-/* laweekly.com */
-/* lemonde.fr */
-/* linux-mag.com */
-/* linux.com */
-/* lionsdenu.com */
-/* macdailynews.com */
-/* macnn.com */
-/* macrumors.com */
-/* mail.google.com */
-/* mail.live.com */
-/* mail.yahoo.com */
-/* maxrev.de */
-/* mediafire.com */
-/* mediaite.com */
-/* megafileupload.com */
-/* menshealth.com */
-/* merriam-webster.com */
-/* metro.co.uk */
-/* metromix.com */
-/* metronews.ca */
-/* microsoft.com */
-/* mirrorcreator.com */
-/* mirrorfootball.co.uk */
-/* missoulian.com journaltimes.com */
-/* mmorpg.com */
-/* mnn.com */
-/* mobiletopsoft.com */
-/* momslikeme.com */
-/* money.cnn.com */
-/* morningstar.com */
-/* move.com */
-/* msn.co.nz */
-/* msn.com */
-/* msnbc.msn.com */
-/* mspaintart.com orble.com */
-/* mtv.com */
-/* music.yahoo.com */
-/* mydrunkpix.com */
-/* myfoxatlanta.com */
-/* myprops.org */
-/* myspace.com */
-/* myway.com */
-/* nachrichten.at */
-/* naver.com */
-/* nba.com */
-/* nbr.co.nz */
-/* neopets.com */
-/* netmag.co.uk */
-/* newgrounds.com */
-/* news-press.com */
-/* news.com.au */
-/* news24.com */
-/* newscientist.com */
-/* newsonjapan.com */
-/* newsweek.com */
-/* newsweek.com */
-/* newyorker.com */
-/* ninemsn.com.au */
-/* nk.pl */
-/* nme.com */
-/* nydailynews.com */
-/* nyteknik.se */
-/* nytimes.com */
-/* nzcity.co.nz */
-/* nzherald.co.nz */
-/* omg.yahoo.com */
-/* online.barrons.com */
-/* onlychat.com */
-/* opensubtitles.org */
-/* orange.co.uk */
-/* osnews.com */
-/* ovguide.com */
-/* palmbeachpost.com */
-/* pbs.org */
-/* pcmag.com */
-/* pcpro.co.uk */
-/* pcworld.com */
-/* penny-arcade.com */
-/* people.com */
-/* peoplepets.com */
-/* phenomenica.com */
-/* philly.com */
-/* phonescoop.com */
-/* phoronix.com */
-/* photobucket.com */
-/* polishlinux.org */
-/* popcap.com */
-/* popsugar.com */
-/* poughkeepsiejournal.com */
-/* pricegrabber.com */
-/* pricespy.co.nz */
-/* propeller.com */
-/* ptinews.com */
-/* qconline.com */
-/* qt.com.au */
-/* rapid4me.com */
-/* realclearworld.com */
-/* reference.com */
-/* refinery29.com */
-/* reuters.com */
-/* righthealth.com */
-/* rottentomatoes.com */
-/* rpgcodex.net */
-/* salon.com */
-/* seattlepi.com */
-/* seek.com.au */
-/* sfgate.com */
-/* sfgate.com */
-/* sify.com */
-/* slashdot.org */
-/* slate.com */
-/* sltrib.com */
-/* smh.com.au */
-/* softonic.com */
-/* sourceforge.net */
-/* spike.com */
-/* startribune.com */
-/* statesman.com */
-/* stretcher.com */
-/* take40.com */
-/* talkingpointsmemo.com */
-/* techcrunch.com */
-/* technewsworld.com */
-/* technologyreview.com */
-/* techradar.com */
-/* techrepublic.com.com */
-/* testseek.com */
-/* theboot.com */
-/* thebostonchannel.com */
-/* theeagle.com */
-/* theedge.co.nz */
-/* theinquirer.net */
-/* theonion.com */
-/* thepiratebay.org */
-/* thepressnews.co.uk */
-/* therock.net.nz */
-/* thestar.com */
-/* thestranger.com */
-/* thestreet.com */
-/* thesun.co.uk */
-/* thetechherald.com */
-/* thetimesherald.com */
-/* thinkprogress.org */
-/* thisislondon.co.uk */
-/* thomastontimes.com */
-/* timeout.com */
-/* timesunion.com */
-/* tomshardware.com */
-/* topbargains.com.au */
-/* totalfilm.com */
-/* trademe */
-/* treehugger.com */
-/* tribe.net */
-/* tripadvisor.com */
-/* tv3.co.nz */
-/* tvnz.co.nz */
-/* tweetphoto.com */
-/* twitpic.com */
-/* ugo.com */
-/* ugoplayer.com */
-/* urbandictionary.com */
-/* usmagazine.com */
-/* usmagazine.com */
-/* usmagazine.com */
-/* usnews.com */
-/* v3.co.uk */
-/* vanityfair.com */
-/* virginmedia.com */
-/* walmart.com */
-/* washingtonpost.com */
-/* washingtontimes.com */
-/* wbbm780.com */
-/* webpronews.com */
-/* whathifi.com */
-/* wibiyatoolbar */
-/* wpxi.com */
-/* wwtdd.com */
-/* www.ord.se */
-/* xconomy.com */
-/* xe.com */
-/* xxlmag.com */
-/* yahoo.com */
-/* yahoo.com.au */
-/* yelp.com */
-/* yourtv.com.au */
-/* youtube.com */
-/* zam.com */
-/* zap2it.com */
-/* zdnet.com */
-/* zdnet.com.au */
+*[id^="google_ads_"],
+/* adult-list */
+#IM_AD,
+#im_popupDiv,
+#im_box,
+#AFF_popup,
+#floatyContent,
+.adbckgrnd,
+#im_popupFixed,
 a[href^="http://c.actiondesk.com/"],
 a[href^="http://www.fleshlight.com/"],
-div.ads,
-div.lrec,
-div[class="ad top"],
-div[class="story-embed-left box"],
-div[class="w460 clr"],
+/* IE Fixes */
 div[id="Ad Panel"],
-div[id="leaderboard"],
-div[id="rhs_block"],
-DIV[id="textlinkWrapper"],
+div[class="ad top"],
+/* 123greetings.com */
+.rt_advert_name,
+/* 123people.co.uk */
+.cb_navigation_ad,
+/* 3news.co.nz */
+#dnn_adSky,
+/* abcnews.go.com*/
+#feature_adlinks,
+.index-quigo,
+div[class="story-embed-left box"],
+/* accuweather.com */
+#content_box_adright300_google,
+#accuAdDiv,
+/* about.com */
+#adB,
+#adP,
+#adF,
+/* addictinggames.com */
+#game-info-ad,
+/* aerzteblatt.de */
+#bannerContainer,
+/* afl.com.au */
+#dnn_adLeaderBoard2008,
+/* al.com */
+#Module-From_Advertisers,
+#Toprail_Leaderboard,
+/* alarabiya.net */
+.tbl_ad,
+/* alexa.com */
+.gradientAd,
+/* almico.com */
+.sfsp_adadvert,
+/* alternet.org */
+.supercommentad_left,
+.supercommentad_right,
+/* amazon.com */
+#A9AdsOutOfStockWidgetTop,
+/* answers.com */
+.ads_div,
+/* animekuro.com*/
+#smallad,
+/* answers.yahoo.com */
+#yan-question-advert,
+/* aol.co.uk */
+#adFps,
+#flexiad,
+#lateAd,
+.SLL,
+.ukAds,
+/* aol.com */
+#ai300x250,
+#dmn_results,
+#outerTwrAd,
+#spAd,
+#towerad,
+.lft120x60,
+/* arstechnica.com */
+#b61a2a39f917b27cfdde56ac7b10c41b,
+#da-draobredael,
+#daehtsam-da,
+#jobs-ars,
+/* articles.sfgate.com*/
+.mod-adcpc,
+.ad-block,
+/* asia.wsj.com */
+#whatsnews_top_ad,
+#whatsnews_footer_ad,
+.adSummary,
+.specialAdvertising,
+.adHeadlineSummary,
+/* ask.com */
+.rr_ads,
+.spl_ad,
+.spl_ad2,
+.spl_shd_plus,
+/* askmen.com */
+.ad_info,
+.adUnit,
+/* astrology.com */
+.b-astro-sponsored-links_vertical,
+.b-astro-sponsored-links_horizontal,
+/* au.yahoo.com */
+#y708-windowshade,
+/* autos.aol.com */
+.squareAdd,
+.squareAddtwo,
+/* auto-motor-und-sport.de */
+.ad_partner,
+/* azcentral.com */
+#story-sponsoredlinks,
+/* babeexplorer.com */
+#btmad,
+#topaddwide,
+/* beliefnet.com */
+#widget_advertisement,
+/* bestweekever.tv */
+.sb_ad_holder,
+/* bestbuy.com */
+#dart-con,
+/* betanews.com */
+.ad-homeleaderboard,
+/* biblegateway.com */
+#a9g-leader-spacer,
+/* bigpond.com */
+#sensis_island_ad_1_column,
+#sensis_island_ad_2_column,
+#sensis_island_ad_3_column,
+/* bing.com */
+.sb_adsW,
+.sb_adsWv2,
+/* bitmob.com */
+#advert,
+/* bicycling.com */
+#articleAd,
+.ad343x290,
+/* bit-tech.net */
+#broadband-finder-co-uk-120,
+#mobile-phones-co-uk-120,
+/* bitreactor.to */
+.adbar,
+/* bjorn3d.com */
+.ads_inside2,
+/* blackbookmag.com */
+.bb-adv-300x250,
+.bb-adv-160x600,
+/* bleacherreport.com */
+.br-ad,
+/* boatsales.com.au */
+.homepage-sponsoredlinks-container,
+/* bostonherald.com */
+#headerAd,
+.adLocal,
+/* bostonreview.net */
+#google_ads,
+#right_column_ad,
+.graphic_ad,
+/* brasilportais.com.br */
+#bp-superbanner-cont,
+/* break.com */
+.adlabel,#adSkinBackdrop,
+/* buddytv.com */
+#btv_aja_rightAd,
+.ad-300-block,
+/* btjunkie.org */
+#topad,
+/* businessinsider.com */
+.sponsored-post,
+/* businesspundit.com */
+.side-ad-blocks,
+/* caranddriver.com */
+.section-ad,
+.shopping-tools.shop-on,
+/* careerone.com.au */
+.adkit-advert,
+.adkit-lb-footer,
+/* carsguide.com.au */
+.CG_adkit_leaderboard,
+/* cbc.ca */
+#masthead-ad,
+.ad-728x90,
+.promogrp,
+#googleads,
+/* chipchick.com */
+#add_space_sidebar,
+#add_space_google,
+/* cioupdate.com */
+.text_ads,
+.text_ads_2,
+/* cbsnews.com */
+#cbsSMPB,
+/* cnbc.com */
+#compAdvertisement,
+.cnbc_banner_ad_area,
+#fastmoney300x250,
+#USNewsBlogs300x250,
+#Homepage300x250,
+/* cfo.com */
+#top-ad,
+/* chip.de */
+#adzoneBANNER,
+/* christianpost.com */
+.bannerTop,
+.bannerBottom,
+#bigBanner,
+/* chron.com */
+.advertiseBlack,
+/* cio.co.nz */
+.sponsor_div_title,
+/* citytv.com */
+#CityTv-HeaderBannerBorder,
+.Video-Ad,
+/* cnbc.com */
+#USNewsBlogs300x250,
+/* cnet.co.uk */
+#header-ads,
+/* cnet.com */
+#cnetToolbarWrap,#adMiniPremiere,
+/* cnn.com */
+#cnnVPAd,
+.cnn_728adbin,
+#moneySponsorBox,
+#rbAdWrapperRt,
+#rbAdWrapperTop,
+.cnnStoryElementBox,
+.cnn_adspc336cntr,
+.cnn_strycntntrgt,
+.cnn_adcntr728x90t,
+.cnn_adcntr300x100,
+.cnnWCAdBox,
+.cnn_adcntr728x90,
+.cnn_fabcatad,
+/* cnngo.com */
+#block-ad_cube-0,
+#block-ad_cube-1,
+/* commentarymagazine.com */
+.textadsds,
+/* computerworld.co.nz */
+.sponsor_div_title,
+/* connecttristates.com */
+#araHealthSponsorAd,
+.x03-adunit,
+/* concierge.com */
+.adHeader,
+/* cracked.com */
+.AdBox,
+.affiliateAdvertText,
+/* celebuzz.com */
+.cs_banner728_top,
+/* crainsnewyork.com */
+#ad-big,
+#header-advert,
+/* crikey.com.au */
+#doubleclick-island,
+/* crunchgear.com */
+.sponsor_units,
+/* csmonitor.com */
+.adNoticeOut,
+/* dailyhaha.com */
+#sponheader,
+/* dailymotion.com */
+#player_middle_ad,
+.dmco_box.mc_leftcol,
+/* daniweb.com */
+#textsponsor,
+/* darkreading.com */
+#leaderboardAdArea,
+/* demonoid.com */
+#bnr3,
+.pad9px_right,
+/* detnews.com */
+.bannerSpace.clearfix,
+/* deviantart.com */
+#adso-magnifico,
+.ad-blocking-makes-fella-confused,
+.hidoframe,
+.sleekadbubble,
+#ad-footprint-160x600,
+#overhead-you-know-what,
+#gmi-ResourcePageLowerAd,
 iframe[id^="difipage"],
+/* digitalspy.co.uk */
+#adcode3,
+#adposition1,
+#adposition3,
+#adposition4,
+/* dilbert.com */
+.HPG_Ad_B,
+.Ad_D,
+.STR_AdBlock,
+/* dinside.no */
+#adNshareWrap,
+/* digg.com */
+.img-summary.sponsored,
+/* discovery.com */
+#top-advertising,
+.adSlug,
+/* ditii.com */
+.ads_h,
+/* divinecaroline.com */
+#c_6ad_250h,
+/* download.cnet.com */
+.dh_vend,
+.dh_vend_pad,
+.dh_vend_last,
+.dh_vend_top,
+/* downloadsquad.com */
+.em-ad,
+#dogear_promo,
+/* driverheaven.net */
+#content_mpu,
+/* ebay.com */
+#rtm_div_562,
+#rtm_html_920,
+/* ebaumsworld.com */
+#mediumrect,
+/* ecollegetimes.com */
+#flan_leader,
+.cp_ad,
+/* economist.com */
+#top_banner,
+#classified_wrapper,
+#bannerspace-bottom,
+.ec-ads,
+div[id="leaderboard"],
+#footer-classifieds,
+/* ediets.com */
+#ad-col,
+/* ekstrabladet.dk */
+.eb_ad280,
+/* electronista.com */
+#sb-ad-sq,
+.ad-skyscr,
+/* eleconomista.es */
+.banner300,
+/* empireonline.com.au */
+#banner468,
+/* esquire.com */
+#channel_ads,
+#sponsoredlinks_cntr,
+/* finanztreff.de */
+.ad01,
+/* failblog.com */
+#leftcolumnad,
+#rightskyad,
+/* fastcompany.com */
+#mod_imu,
+/* facebook.com */
+#home_sponsor_nile,
+.advertise_ads,
+.UIWashFrame_SidebarAds,
+.UIStandardFrame_SidebarAds,
+.ego_unit.ego_spo,
+.fbEmu,
+/* fakingnews.com */
+.adLabel,
+/* film.com */
+#ad_region1,
+#ad_region2,
+#ad_region3,
+#ad_region5,
+/* fora.tv */
+#common_right_lower_player_adspace,
+#common_right_right_adspace,
+#common_right_lower_adspace,
+/* forbes.com */
+#colAd,
+/* foreignpolicy.com */
+.ad-bigbox,
+/* forums.somethingawful.com */
+.adbot,
+/* fosswire.com */
+.medrec,
+/* foxnews.com */
+#cb_medrect1_div,
+#console300x100,
+.console_el,
+/* foxbusiness.com */
+#cb_medrect1_frame,
+/* foodnetwork.co.uk */
+#pre-header-banner,
+/* fresnobee.com */
+.ad-national-1,
+/* frostwire */
+#bg_YieldManager-160x600,
+#bg_banner_728x90,
+#bg_banner_468x60,
+#bg_googlebanner_160x600LH,
+/* ft.com */
+#top-ad,
+/* fsdaily.com */
+.googleads_300x250,
+/* g.doubleclick.net */
+#aubg,
+/* gfdata.de */
+.m_banner_show,
+/* gall.dcinside.com */
+#r_adver,
+/* gameplanet.co.nz */
+.bAdv,
+.sAdv,
+.bAdvTO,
+/* geekstir.com */
+#adbox,
+/* germany.real.com*/
+#adwin,
+#adwin_rec,
+/* goerie.com */
+.artAdInner,
+.inArticleAdInner,
+/* google */
+div[id="rhs_block"],
+#rhs_block,
+#ads-bot,
+#mbEnd,
+#rhsa,
+#tads,
+#ps-top-ads-sponsored,
+#np_content_ads_module,
+.z0DeRc,
+/* good.is */
+.adbox,
+/* greenbiz.com */
+#navigation-ad,
+/* groups.yahoo.com */
+#ygrp-sponsored-links,
+/* greenercomputing.com */
+#header-banner-spc,
+.inner-ad,
+#bottom-banner-spc,
+/* h-online.com */
+#bannerzone,
+/* health.yahoo.net */
+#hl-sponsored-links,
+/* heise.de */
+.naviad,
+.teaser_adliste,
+/* history.com */
+#adbanner,
+/* hgtvpro.com */
+.adTitle,
+/* hgtvpro.com */
+#vert_ad,
+/* howstuffworks.com */
+#MedRect,
+#MedRectHome,
+.adBoxSingle,
+/* hotcopper.com.au */
+.adTXTnew,
+/* howtoforge.com */
+#adrectanglea,
+#adrectangleb,
+/* huffingtonpost.com */
+#most_popular_ad,
+.section.videoAd-wrapper,
+/* idg.com.au */
+#advisor_rhs_promobox,
+/* imageshack.us */
+#yieldaddiv,
+/* imgur.com */
+.advertisementContainer,
+/* inc.com */
+.ad_partners,
+/* independent.co.uk */
+.indy_googleads,
+/* indianexpress.com */
+.rt_ad_300x250,
+/* indiatimes.com */
+.midadd,
+/* indianapublicmedia.org */
+.med-rect,
+/* investopedia.com */
+.sponsoredibbox,
+/* investorwords.com */
+#leaderboard_wrap,
+/* itproportal.com */
+.ibm_ad_bottom,
+.ibm_ad_text,
+.teaser.ibm,
+.article_mpu_box,
+/* jame-world.com */
+#adv_google_300,
+#adv_google_728,
+#adv_top,
+.adv_right,
+/* joeuser.com */
+.monsterad,
+/* jpost.com */
+.jp-advertisment-promotional,
+.jp-sponserd-talkbacks,
+/* jsonline.com */
+.full_width_ad,
+/* joystiq.com */
+#medrectrb,
+/* justin.tv */
+#DirectoryMedRectv2_holder,
+/* katu.com */
+#leader-sponsor,
+/* kayak.co.uk */
+#nrAds,
+/* khq.com */
+#WNAd20,
+#WNAd52,
+/* kidzworld.com*/
+.kw_advert,
+/* king-mag.com */
+#mediumrec,
+/* komonews.com */
+#leader-sponsor,
+/* laweekly.com */
+.PencilAd,
+/* lemonde.fr */
+#talentsBlock,
+/* linux.com */
+#linux-header-sponsored,
+/* linux-mag.com */
+.txt-ads,
+/* lionsdenu.com */
+.banner468,
+/* macdailynews.com */
+#sm-banner-ad,
+#lg-banner-ad,
+.podSponsoredLink,
+/* macrumors.com */
+#googleblock300,
+#mr_banner_topad,
+/* macnn.com */
+#sb-ad-sq,
+/* mail.google.com */
+.rh > #ra,
+.u5 > DIV.oM,
+.u9 + DIV.vb,
+/* mail.live.com */
+.SideAds,
+#RadAd_Skyscraper,
+#dapIfM1,
+/* mail.yahoo.com */
+#slot_LREC,
+/* maxrev.de */
+#adbnr,
+/* mediafire.com */
+#remove_ads_button1,
+#remove_ads_button2,
+/* megafileupload.com */
+.banner300,
+/* menshealth.com */
+#boxads,
+.ad_caption,
+#mhheader_sublarge,
+#mhheader_ad,
+.sponsor_block,
+/* mediaite.com */
+#magnify_widget_playlist_item_companion,
+#magnify_widget_rect_content,
+/* metronews.ca */
+.adHolder,
+#pullquote_adu,
+/* merriam-webster.com */
+#google_creative_1,
+/* metro.co.uk */
+#advert234_container,
+#advert_yell,
+.google_modtr,
+/* metromix.com */
+.advertising-local-links,
+/* microsoft.com */
+#msad,
+#divAD1,
+.cdAdTitle,
+/* mirrorcreator.com */
+#adver1,
+#adver2,
+#adver3,
+#adver4,
+/* mirrorfootball.co.uk */
+.leaderboard2,
+.mpu.ad3,
+.skyscraper.ad8,
+/* missoulian.com journaltimes.com */
+#yahoo-contentmatch,
+/* mmorpg.com */
+#contentinlineAd,
+/* mnn.com */
+.block-google_admanager,
+.mnn-homepage-adv1-block,
+.sponsor-title-image,
+/* mobiletopsoft.com */
+.trueads,
+/* momslikeme.com */
+.adModule300,
+/* money.cnn.com */
+#moneySponsorBox,
+/* morningstar.com */
+#embedAD,
+.aadsection_b1,
+.aadsection_b2,
+.adsection_a2,
+.adsection_c2,
+.asection_a1,
+.f_Ads,
+.h_Ads,
+/* move.com */
+.mvAd,
+.mvAdHdr,
+/* mspaintart.com orble.com */
+#glinkswrapper,
+#google_ads_frame3,
+/* msn.com */
+#mlad,
+#sideBarAd,
+/* msn.co.nz */
+#ADEXPERT_PUSHDOWN,
+#ADEXPERT_RECTANGLE,
+/* msnbc.msn.com */
+#AdBanner_S,
+#AdSponsor_SF,
+#AdShowcase_F1,
+#AdBanner_F1,
+.ad-break,
+#ad-front-resourceguide,
+#ad-front-footer,
+#dcol-resourceguide,
+#dcol-sponsored,
+div[class="w460 clr"],
+#ad-front-sponsoredlinks,
+#marketplace.nav-menu,
+#Mainline1-sponsored,
+#Sidebar2-sponsored,
+/* mtv.com */
+.mdl-ad,
+/* music.yahoo.com */
+#YMusicRegion_T2_R2C2,
+#YMusicRegion_T3_R2C2_R1,
+#YMusicRegion_TN1_R2C2_R1,
+/* myfoxatlanta.com */
+#expandedVert,
+/* myway.com */
+#sponLinkDiv_1,
+/* myspace.com */
+#music_googlelinks,
+#music_medrec,
+#tkn_medrec,
+/* myprops.org */
+#ImageAdSideColumn,
+/* mydrunkpix.com */
+#topadwrap,
+/* nachrichten.at */
+#google_textlinks,
+/* nba.com */
+.nbaTVPodAd,
+.nbaAroundAd2,
+/* naver.com */
+#aside_ad,
+.ad_sponsor,
+.ad_plus,
+.ad_biz,
+/* nbr.co.nz */
+#header-ad,
+/* neopets.com */
+.ad_wrapper,
+.ad_wrapper_fixed,
+/* netmag.co.uk */
+.adsystem_ad,
+/* newgrounds.com */
+.box.adhead,
+#pd-ads,
+.onethirdadholder,
+/* news-press.com */
+.adlabel-horz,
+#search-sponsor,
+.search-sponsor,
+/* news.com.au */
+.adspace-300x600,
+.module-ad-small,
+/* news24.com */
+#sponsor_box,
+/* newscientist.com */
+#hldhdAds,
+.adline,
+.mpMPU,
+/* newsweek.com */
+.homepageFlexAdOuter,
+/* newsonjapan.com */
+#squarebanner300x250,
+/* ninemsn.com.au */
+#footer_AdArea,
+#spotlight_ad,
+#top_promo_ie8,
+/* newsweek.com */
+#slug_bigbox,
+/* nme.com */
+#live-ad,
+/* nk.pl */
+.nk_popup_body,
+.nk_popup_overlay,
+/* nydailynews.com */
+#nydn_bar_top,
+/* nytimes.com */
+.adCreative,
+.twoColumnAd,
+.cColumn-TextAdsBox,
+#adxBigAd,
+#adxBigAd2,
+#adxLeaderboard,
+#adxMiddle,
+#adxMiddleRight,
+#adxMiddle5,
+#adxSponLink2,
+#adxSponLinkA,
+.adHeader,
+.advertisementColumnGroup,
+.singleAd,
+/* nyteknik.se */
+.text-ads,
+/* nzcity.co.nz */
+.page_skyscraper,
+/* nzherald.co.nz */
+.adContainer,
+.nzh-bigbanner,
+/* omg.yahoo.com */
+#omg-lrec,
+/* online.barrons.com */
+#barronsUber,
+/* onlychat.com */
+#g_ad,
+/* opensubtitles.org */
+#scrubbuad_style,
+/* orange.co.uk */
+.GoogleAd,
+/* osnews.com */
+.ad,
+/* www.ord.se */
+.ads-item,
+.advertise-info,
+/* ovguide.com */
+.banner-leaderboard,
+.banner-rectangleMedium,
+/* pbs.org */
+#corp-sponsor-sec,
+/* palmbeachpost.com */
+#cxnAdrail,
+/* pcmag.com */
+#special_offers_trio,
+/* pcpro.co.uk */
+#skyScrapper,
+/* pcworld.com */
+.adMkt2Colw,
+.storyList.resourceCenter,
+.storyList.whitePapers,
+.sponsoredProduct,
+/* penny-arcade.com */
+.funding-horizontal,
+.promos-horizontal,
+/* people.com */
+.footerad,
+/* peoplepets.com */
+.adCMRight,
+/* philly.com */
+#article_adholder,
+/* phonescoop.com */
+#admid,
+#botad,
+#towerad,
+/* phenomenica.com */
+.AdSense,
+/* phoronix.com */
+.phxcms_contentphx_right_bar,
+#phxcms_toplogo_top,#phxcms_top_leaderboard,
+/* photobucket.com */
+#cellAd,
+/* polishlinux.org */
+.oio-zone-position,
+/* popcap.com */
+#zrJungle1033_overlay,
+#zrJungle1033_window,
+/* popsugar.com */
+.widget_sponsored_content,
+/* poughkeepsiejournal.com */
+.ad_launchpad,
+/* pricegrabber.com */
+.adModule_square2,
+/* pricespy.co.nz */
+#banner250,
+.annonstext,
+.banner_div,
+#banner975_container,
+/* propeller.com */
+.boxad,
+/* ptinews.com */
+.advBottomHome,
+/* qconline.com */
+.rightrail_ads,
+/* qt.com.au */
+.advertiseText,
+/* rapid4me.com */
+#speeds_ads,
+/* realclearworld.com */
+.right-wide-skyscraper,
+#right-wide-skyscraper,
+/* reuters.com */
+.ad125,
+.homepageMPU,
+/* reference.com */
+#abvFold,
+#bnrTop,
+.bottomAd,
+.spl_unshd,
+#atlasAdDivGame,
+#centerbanner_game,
+/* refinery29.com */
+.r29_box_ad,
+/* righthealth.com */
+#ads_mads_r2,
+#ads_mads_r1,
+.ad_item,
+/* rottentomatoes.com */
+#billboard_ad,
+#header_leaderboard_ad_container,
+/* rpgcodex.net */
+#textAd,
+/* salon.com */
+.OSOasAdModule,
+/* seattlepi.com */
+.wingadblock,
+/* seek.com.au */
+.SeekerPromosLeft,
+/* sfgate.com */
+#adjacency,
+/* sify.com */
+#adslot,
+#topsponad,
+#bottomsponad,
+.topAdvBox,
+/* sfgate.com */
+.textads,
+/* slashdot.org */
+#fad1,
+.ad2,
+.ad6,
+/* slate.com */
+#bizbox_flyout,
+#bizbox_links_bottom,
+#bizbox_links_right_rail,
+#featured_ad_links,
+#insider_ad_wrapper,
+/* sltrib.com */
+.adElement,
+/* smh.com.au */
+.rhs-ad,
+#adSpotholder-EGN,
+/* softonic.com */
+#ad_related_links_div_program,
+.pagehead_op2,
+/* sourceforge.net */
+.downloadAds,
+/* spike.com */
+#bottom_overture,
+/* startribune.com */
+#bottomLeaderboard,
+#topLeaderboard,
+/* statesman.com */
+#rail_ad1,
+#rail_ad2,
+/* stretcher.com */
+#inlineAdtop,
+/* take40.com */
+#mpIslandHolder,
+#mpLeaderboard,
+/* talkingpointsmemo.com */
+.ad_post,
+/* techcrunch.com */
+#post_unit_medrec,
+.sponsor_units,
+/* technewsworld.com */
+.content-block-slinks,
+.content-tab-slinks,
+/* technologyreview.com */
+#tr35advert,
+/* techrepublic.com.com */
+.sponsBox.clear,
+/* techradar.com */
+.maskWhite.solidGrey.mpu,
+/* testseek.com */
+.banner_300x250,
+.banner_728x90,
+/* theboot.com */
+.medrect_aol,
+/* thebostonchannel.com */
+#adBelt,
+/* theeagle.com */
+.SectionRightRail300x600Box,
+.RightRailTop300x250Ad,
+.TheEagleGoogleAdSense300x250,
+/* theedge.co.nz */
+#dartIslandAd_2009,
+/* theinquirer.net */
+.advertisment,
+.advertisment_two,
+/* theonion.com */
+.sponsorship.side,
+/* thinkprogress.org */
+.box_title_ad,
+/* tripadvisor.com */
+#COMMERCE_BOT,
+#COMMERCE_REPEAT,
+#COMMERCE_RHS,
+#COMMERCE_TOP,
+/* tweetphoto.com */
+.ad_wide,
+/* newyorker.com */
+.yrail_ads,
+/* thepiratebay.org */
 img[src="http://static.thepiratebay.org/img/agb.gif"],
+/* thepressnews.co.uk */
+#header-adsense,#want-to-advertise,
+/* therock.net.nz */
+#dnn_ad_banner,
+#dnn_ad_sponsored_links,
+/* thestar.com */
+.ts-ad_unit_bigbox,
+.ts-banner_ad,
+/* thestranger.com */
+.googleLgRect,
+/* thestreet.com */
+#textLinksContainer,
+/* thesun.co.uk */
+.grey-ad-line,
+/* thetimesherald.com */
+.adlabel-horz,
+#p360_ad_unit,
+/* thisislondon.co.uk */
+.adTag,
+/* thomastontimes.com */
+#ad_bucket_med_rectangle_1,
+#ad_bucket_med_rectangle_2,
+/* timesunion.com */
+#yahooad-tbl,
+.adsbyyahoo,
+.leaderboard-tbl,
+/* timeout.com */
+.MD_adZone,
+.MD_textLinks01,
+/* tomshardware.com */
+#adInBetweenPosts,
+.header.headerPub,
+/* topbargains.com.au */
+.subad,
+/* totalfilm.com */
+#mpu2_container,
+#mpu_container,
+#supersky_container,
+.googley_ads,
+/* trademe */
+#HomepageAdSpace,
+.HeadingAdSpace,
+#advertSection,
+/* treehugger.com */
+.floater-indiv,
+/* tribe.net */
+.OAS.Middle1,
+/* tvnz.co.nz */
+.advertisementPanel,
+.advertisment,
+.row.advertising,
+/* tv3.co.nz */
+#dnn_sponsoredLinks,
+#dnn_dnn_dartBanner,
+/* twitpic.com */
+#view-photo-ad,
+/* thetechherald.com */
+.twoadcoll,
+.twoadcolr,
+/* ugo.com */
+#ad526x250,
+/* urbandictionary.com */
+#dfp_define_rectangle,
+#dfp_skyscraper,
+/* ugoplayer.com */
+#content_right_side_advertisement_on_top_wrapper,
+/* usmagazine.com */
+#sub_form_popup,
+/* usmagazine.com */
+.body_width_ad,
+/* usmagazine.com */
+.top_ad,
+/* usnews.com */
+#loomia_display,
+.promo.premierpartners,
+/* v3.co.uk */
+#skyAdNewsletter,
+/* vanityfair.com */
+#yrail_ads,
+/* virginmedia.com */
+#VM-header-adwrap,
+#VM-MPU-adspace,
+#VM-header-adspace,
+.google-ad-container,
+/* walmart.com */
+.TopAd,
+/* washingtonpost.com */
+#adTiff,
+.flex-ad,
+DIV[id="textlinkWrapper"],
+/* washingtontimes.com */
+#adlinks,
+/* wbbm780.com */
+.cube_ads,
+/* webpronews.com */
+.topadbox,
+.wpn-business-resources,
+/* whathifi.com */
+.googleSkyWrapper,
+.leaderBoardWrapper,
+/* wibiyatoolbar */
+#wibiyaToolbar,
+/* wpxi.com */
+#leaderboard-sticky,
+/* wwtdd.com */
+.ad-slot,
+/* xconomy.com */
+.large_ad,
+/* xe.com */
+.XEad,
+/* xxlmag.com */
+#medium-rec,
+/* yahoo.com */
+#LREC,
+#MREC,
+.yan-sponsored,
+div.ads,
+.ad_slug_table,
+#ybf-ads,
+#YSLUG,
+.ysmsponsor,
+#ymh-invitational-recs,
+#adposition-FPMM,
+#northbanner,
+#adposition-REM2,
+#adposition-inner-REM1,
+#adposition-inner-REM3,
+#darla-ad__LREC,
+#darla-ad__LREC2,
+#east.ads,
+#mw-ysm-cm,
+#yh-ysm,
+#yan-advert-north,
+#y708-ad-expedia,
+#y708-ad-partners,
+#y708-ad-ysm,
+#y708-advertorial-competitions,
+#y708-advertorial-marketplace,
+#yan-sponsored,
+#yahooPN_CM,
+#yahoovideo_ysmlinks,
+#yfi_pf_ad_mort,
+#yfi_pf_ysm,
+#yfi_ysm,
+#yl_pf_ysm,
+#yn-darla2,
+#yschsec,
+#ylf-ysm,
+.ad-links,
+.ads.horiz,
+.y7-advertisement,
+.y7-breakout-bracket,
+.y708-commpartners,
+.yl-lrec-wrap,
+.yschspns,
+.southad,
+div.lrec,
+/* yahoo.com.au */
+.boxMidRt.pB0,
+.TL_genericads_columns,
+.TL_medRec_container,
+/* yelp.com */
+.search-ad,
+.category-ad,
+.add-result,
+/* yourtv.com.au */
+#preheader-ninemsn-container,
+#msnmd_div,
+/* youtube.com */
+#search-pva,
+#watch-channel-brand-div,
+.ad-div,
+.searchView.list-view,
+/* zam.com */
+#cubeAd,
+/* zap2it.com */
+#cubead2,
+.adGoogle,
+#aff_rightbar,
+.zc-grid-ad,
+/* zdnet.com */
+.ads_vtlList,
+.macad,
+.ad-vtu,
+.dirListSuperSpons,
+/* zdnet.com.au */
+#mpu,
+#promo-power-centre
 { display: none !important }
