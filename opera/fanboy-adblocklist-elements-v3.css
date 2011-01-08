@@ -1,5 +1,5 @@
 /*
-! Checksum: omIZLAYIbE9yYSfs4Hv/ZQ
+! Checksum: THGVjfH9+qrxmD3t0P/azA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 9 Jan 2011
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2914,6 +2914,7 @@
 .sponsoradlabel,
 .sponsorads,
 .sponsoradtitle,
+.sponsorText,
 .sponsorArea,
 .sponsored-ads,
 .sponsored-header,
@@ -3775,8 +3776,6 @@ div[class="w460 clr"],
 #scrubbuad_style,
 /* orange.co.uk */
 .GoogleAd,
-/* osnews.com */
-.ad,
 /* www.ord.se */
 .ads-item,
 .advertise-info,
