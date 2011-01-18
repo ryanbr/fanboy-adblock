@@ -1,7 +1,5 @@
 #!/bin/bash
-hg update
-hg pull --rebase remote
-hg pull
+hg pull -u
 # Firefox
 perl addChecksum.pl fanboy-adblocklist-adult.txt
 perl addChecksum.pl fanboy-adblocklist-current-expanded.txt
@@ -28,6 +26,5 @@ perl addChecksum.pl firefox-regional/fanboy-adblocklist-pol.txt
 perl addChecksum-opera.pl opera/urlfilter.ini
 perl addChecksum.pl opera/fanboy-adblocklist-elements-v3.css
 # Now sync
-hg add .
 hg commit -m "$1"
 hg push
