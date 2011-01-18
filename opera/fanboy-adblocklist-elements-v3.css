@@ -1,7 +1,7 @@
 /*
-! Checksum: 27jF7EwixFnmazs3k/jR7Q
+! Checksum: 4c/FjuA/BK8Kw+OaEiWdFw
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 17 Jan 2011
+! Version: V3 Updated: 18 Jan 2011
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Email: fanboyadblock@googlegroups.com - Project homepage: http://fanboy.co.nz/
 !
@@ -26,6 +26,7 @@
 #acAdContainer,
 #Ad,
 #ad-medrec_premium,
+#ad-container-outer,
 .amAdvert,
 #ad_chitikabanner_120x600LH,
 #banner_ad_div_fw,
@@ -2628,6 +2629,7 @@
 .hm_advertisment,
 .home-sticky-ad,
 .home_ad,
+.home-ad,
 .home_ad_bottom,
 .homead,
 .homeAd1,
