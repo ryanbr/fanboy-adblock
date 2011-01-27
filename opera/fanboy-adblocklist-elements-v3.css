@@ -1,5 +1,5 @@
 /*
-! Checksum: cNmqbKilTbI1XYEWQa5Jtg
+! Checksum: o5NU698cwaP17ow5btNu/w
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 27 Jan 2011
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -37,11 +37,7 @@
 #ad-3-300x250,
 #ad-300,
 #ad-300a,
-#ad_120x600,
 #ad-300b,
-.withAds,
-.rightcol-adbox,
-#lowerAdvertisement,
 #ad-300x250,
 #ad-300x250-right0,
 #ad-300x250-sidebar,
@@ -241,6 +237,7 @@
 #ad76890topContainer,
 #ad8,
 #ad_1,
+#ad_120x600,
 #ad_130x250_inhouse,
 #ad_160_600,
 #ad_160_600_2,
@@ -1352,6 +1349,7 @@
 #logoAd,
 #long-ad-space,
 #LoungeAdsDiv,
+#lowerAdvertisement,
 #lowerthirdad,
 #lpAdPanel,
 #lrec,
@@ -1423,9 +1421,9 @@
 #navi_banner_ad_780,
 #navigation-ad,
 #nba300Ad,
-#nbcAd300x250,
 #nbaHouseAnd600Ad,
 #nbaVid300Ad,
+#nbcAd300x250,
 #network_header_ad_1,
 #new_topad,
 #news_left_ad,
@@ -2862,6 +2860,7 @@
 .rightAd,
 .RightAd1,
 .RightAd2,
+.rightcol-adbox,
 .rightcol_boxad,
 .rightcolad,
 .rightcoltowerad,
@@ -3084,6 +3083,7 @@
 .width-ad-slug,
 .wikia-ad,
 .wikia_ad_placeholder,
+.withAds,
 .wnIframeAd,
 .wnMultiAd,
 .wp125ad,
