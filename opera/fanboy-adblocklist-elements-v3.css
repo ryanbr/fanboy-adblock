@@ -1,7 +1,7 @@
 /*
-! Checksum: aTbpjDwn0gdhweoZ+dOwyw
+! Checksum: CsjnGV/QnBFiA56t/Z1bxw
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 28 Jan 2011
+! Version: V3 Updated: 29 Jan 2011
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Email: fanboyadblock@googlegroups.com - Project homepage: http://fanboy.co.nz/
 !
@@ -909,6 +909,7 @@
 #bigad300outer,
 #bigadbox,
 #bigadspot,
+#bottom-ad,
 #BigBoxAd,
 #bigBoxAd,
 #block-adsense-0,
@@ -3094,6 +3095,7 @@
 .wp125ad,
 .wp125ad_2,
 .wrap-ads,
+.x01-ad,
 .wsSearchResultsRightSponsoredLinks,
 .wsTopSposoredLinks,
 .xads-blk2,
