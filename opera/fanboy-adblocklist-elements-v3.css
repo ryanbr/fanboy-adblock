@@ -1,7 +1,7 @@
 /*
-! Checksum: UPLKY57GDWAlA7tnJ9VOww
+! Checksum: oLJo8WyYZVInfwPyxRlzxQ
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 2 Feb 2011
+! Version: V3 Updated: 3 Feb 2011
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Email: fanboyadblock@googlegroups.com - Project homepage: http://fanboy.co.nz/
 !
@@ -2944,6 +2944,7 @@
 .sidebarAd,
 .sidebarad,
 .sidebaradbox,
+.NewsAds,
 .sidebarAdNotice,
 .sidebarBanner,
 .sideBlockAd,
@@ -3051,6 +3052,7 @@
 .top_container_ad,
 .top_sponsor,
 .topAd,
+.tblTopAds,
 .topad-bar,
 .TopAdContainer,
 .topAdd,
