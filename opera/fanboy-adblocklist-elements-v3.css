@@ -1,5 +1,5 @@
 /*
-! Checksum: jzMOb4nYq79ki+SBWiZEVw
+! Checksum: le1eJpjQMu3NdH4cxleAvA
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 4 Feb 2011
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -945,7 +945,6 @@
 #bottom_ad,
 #bottom_ad_area,
 #bottom_banner_ad,
-#footer_add,
 #bottom_sponsor_ads,
 #bottom_sponsored_links,
 #bottomAd,
@@ -953,7 +952,6 @@
 #bottomAd300,
 #BottomAdContainer,
 #bottomAds,
-#featuredAds,
 #bottomads,
 #bottomadsense,
 #bottomAdSenseDiv,
@@ -1081,6 +1079,7 @@
 #featuread,
 #featured-advertisements,
 #featured_sponsor_cnt,
+#featuredAds,
 #featuredAdWidget,
 #first-300-ad,
 #first_ad_unit,
@@ -1098,6 +1097,7 @@
 #footer-banner-ad,
 #footer-sponsored,
 #footer_ad,
+#footer_add,
 #footer_ads,
 #footer_adspace,
 #FooterAd,
@@ -2093,7 +2093,6 @@
 .ad_warning,
 .ad_wrap,
 .ad_wrapper_top,
-.r_col_add,
 .adArea,
 .adarea,
 .adarea-long,
@@ -2230,11 +2229,11 @@
 .ads468x60,
 .ads_180,
 .ads_300,
-.ads_right,
 .ads_disc_skyscraper,
 .ads_folat_left,
 .ads_leaderboard,
 .ads_rectangle,
+.ads_right,
 .ads_show_if,
 .ads_side,
 .ads_sidebar,
@@ -2860,6 +2859,7 @@
 .quigoads,
 .r_ad_box,
 .r_adbx_top,
+.r_col_add,
 .RBboxAd,
 .recentAds,
 .rect_ad_module,
@@ -3037,8 +3037,8 @@
 .tablebordersponsor,
 .tblTopAds,
 .td-Adholder,
-.text-advertisement,
 .td_topads,
+.text-advertisement,
 .TextAd,
 .textad,
 .textAd3,
