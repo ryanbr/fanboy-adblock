@@ -1,7 +1,7 @@
 /*
-! Checksum: 7ZDfKndkHwgGj5FvgoFlRA
+! Checksum: aSiGpU7Y+LaHmGBsFyiz1g
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 15 Feb 2011
+! Version: V3 Updated: 14 Feb 2011
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Email: fanboyadblock@googlegroups.com - Project homepage: http://fanboy.co.nz/
 !
@@ -22,7 +22,6 @@
 #A9AdsOutOfStockWidgetTop,
 #A9AdsServicesWidgetTop,
 #about_adsbottom,
-#viewvid_ad300x250,
 #aboveAd,
 #acAdContainer,
 #AD,
@@ -1604,6 +1603,7 @@
 #sidebarad,
 #SidebarAdContainer,
 #SidebarAds,
+#sidebaradver_advertistxt,
 #sidebargooglead,
 #single-mpu,
 #single_ad_above_content,
@@ -1804,6 +1804,7 @@
 #videoHatAd,
 #viewAd1,
 #viewportAds,
+#viewvid_ad300x250,
 #VM-footer-adwrap,
 #vxFlashPlayerStaticIMUFrame,
 #wh_ad_4,
@@ -1907,13 +1908,7 @@
 .ad-leaderboard,
 .ad-lrec,
 .ad-medrect,
-.ad_entrylists_end,
-.kw_advert,
 .Ad-MPU,
-.top-ads,
-.anchorAd,
-#sidebaradver_advertistxt,
-.advertisement_top,
 .ad-mpu,
 .ad-msn,
 .ad-noline,
@@ -2053,6 +2048,7 @@
 .ad_cont,
 .ad_disclaimer,
 .ad_disclaimer,
+.ad_entrylists_end,
 .ad_float,
 .ad_footer,
 .ad_front_promo,
@@ -2410,6 +2406,7 @@
 .advertisement_flag,
 .advertisement_flag_sky,
 .advertisement_horizontal,
+.advertisement_top,
 .advertisementBannerVertical,
 .advertisementCenterer,
 .advertisementGif,
@@ -2442,6 +2439,7 @@
 .agi-adtop,
 .aisoad,
 .amAdvert,
+.anchorAd,
 .annonce_textads,
 .ap_str_ad,
 .apiAdMarkerAbove,
@@ -2748,6 +2746,7 @@
 .job_ad,
 .jobs-ad-box,
 .kd_ads_block,
+.kw_advert,
 .l-bottom-ads,
 .l_ad_sub,
 .labeled_ad,
@@ -3080,6 +3079,7 @@
 .top-ad,
 .top-ad-right,
 .top-ad-sidebar,
+.top-ads,
 .top-banner-ad,
 .top-banner-ad-wrapper,
 .top-banner-add,
