@@ -1,5 +1,5 @@
 ! Fanboy's Adblock IE-tracking-addon list
-! Checksum: /RM43mVnjoPQzTdpg5CLOQ
+! Checksum: FWNhlVBIrrvRO2S/o+yrtw
 ! Updated: 18 Feb 2011
 ! This list expires after 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8,40 +8,44 @@
 !     
 ! ---------- Generic Blocking Rules ----------
 !     
-||o.aolcdn.com/js/mg2.js
-||o.aolcdn.com/omniunih.js
-||b.scorecardresearch.com^
-||secure-us.imrworldwide.com^
-||static.chartbeat.com^
-||static.newstogram.com^
-||s.stats.wordpress.com^
-||edge.quantserve.com^
-||odb.outbrain.com^
-||js.revsci.net^
-||stats.bbc.co.uk^
-||a.analytics.yahoo.com^
-||static.getclicky.com^
-||api.demandbase.com^
-||cdn.krxd.net^
-||ad.yieldmanager.com^
-||e.yieldmanager.net^
-||ad.doubleclick.net/activity;
-||a.visualrevenue.com^
-||tcr.tynt.com^
-||pixel.quantserve.com/api/
-||atd.agencytradingdesk.net^
-||beacon.jump-time.net^
-||statse.webtrendslive.com^
-||4qinvite.4q.iperceptions.com^
-||load.exelator.com^
-||cdn.krxd.net^
-||entry-stats.huffpost.com^
-||analytics.newsinc.com^
-||analytics.apnewsregistry.com^
-||track.netshelter.net^
-||tags.bluekai.com^
-||log.enquisite.com^
-||publishers.halogennetwork.com^
-||content.dl-rms.com^
 .com/b/ss/
 .net/b/ss/
+||4qinvite.4q.iperceptions.com^
+||a.analytics.yahoo.com^
+||a.visualrevenue.com^
+||ad.doubleclick.net/activity;
+||ad.yieldmanager.com^
+||analytics.apnewsregistry.com^
+||analytics.newsinc.com^
+||api.demandbase.com^
+||atd.agencytradingdesk.net^
+||b.scorecardresearch.com^
+||beacon.jump-time.net^
+||cdn.krxd.net^
+||cdn.krxd.net^
+||content.dl-rms.com^
+||e.yieldmanager.net^
+||edge.quantserve.com^
+||entry-stats.huffpost.com^
+||i.kissmetrics.com^
+||js.revsci.net^
+||load.exelator.com^
+||log.enquisite.com^
+||mbox.offermatica.intuit.com^
+||o.aolcdn.com/js/mg2.js
+||o.aolcdn.com/omniunih.js
+||odb.outbrain.com^
+||pixel.quantserve.com/api/
+||publishers.halogennetwork.com^
+||s.clicktale.net^
+||s.stats.wordpress.com^
+||secure-us.imrworldwide.com^
+||static.chartbeat.com^
+||static.getclicky.com^
+||static.newstogram.com^
+||static.woopra.com^
+||stats.bbc.co.uk^
+||statse.webtrendslive.com^
+||tags.bluekai.com^
+||tcr.tynt.com^
+||track.netshelter.net^
