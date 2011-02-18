@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: Dc0RqXquvxj0YslE9tNxew
+! Checksum: fJVKf3yoCw7B3dwgVXWSeQ
 ! Fanboy's Adblock IE-addon list
 ! Updated: 18 Feb 2011
 ! This list expires after 5 days
@@ -17,8 +17,6 @@
 ||ad.doubleclick.net/adi/
 ||ad.doubleclick.net/adj/
 ||ad.uk.doubleclick.net/adj/
-||imagec12.247realmedia.com^
-||s0.2mdn.net^
 ||ad.yieldmanager.com^
 ||ad2.netshelter.net^
 ||ad5.netshelter.net^
@@ -47,6 +45,7 @@
 ||extras.mnginteractive.com^
 ||homepage.belointeractive.com^
 ||i.total-media.net^
+||imagec12.247realmedia.com^
 ||inl.adbureau.net^
 ||jlinks.industrybrains.com^
 ||js.adsonar.com^
@@ -59,6 +58,7 @@
 ||reporting.eu-survey.com^
 ||resources.infolinks.com^
 ||rts.sparkstudios.com^
+||s0.2mdn.net^
 ||s3.buysellads.com^
 ||segment-pixel.invitemedia.com^
 ||stags.peer39.net^
