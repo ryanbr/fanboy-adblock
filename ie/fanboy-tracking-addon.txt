@@ -1,5 +1,5 @@
 ! Fanboy's Adblock IE-tracking-addon list
-! Checksum: FWNhlVBIrrvRO2S/o+yrtw
+! Checksum: pqZOCzdE2aPt5TL4YsnSow
 ! Updated: 18 Feb 2011
 ! This list expires after 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -21,12 +21,15 @@
 ||atd.agencytradingdesk.net^
 ||b.scorecardresearch.com^
 ||beacon.jump-time.net^
+||botd2.wordpress.com^
+||cdn.demdex.net^
 ||cdn.krxd.net^
-||cdn.krxd.net^
+||cdn.sailthru.com^
 ||content.dl-rms.com^
 ||e.yieldmanager.net^
 ||edge.quantserve.com^
 ||entry-stats.huffpost.com^
+||g.3gl.net^
 ||i.kissmetrics.com^
 ||js.revsci.net^
 ||load.exelator.com^
@@ -35,11 +38,13 @@
 ||o.aolcdn.com/js/mg2.js
 ||o.aolcdn.com/omniunih.js
 ||odb.outbrain.com^
+||pbid.pro-market.net^
 ||pixel.quantserve.com/api/
 ||publishers.halogennetwork.com^
 ||s.clicktale.net^
 ||s.stats.wordpress.com^
 ||secure-us.imrworldwide.com^
+||statcounter.com/counter/
 ||static.chartbeat.com^
 ||static.getclicky.com^
 ||static.newstogram.com^
@@ -49,3 +54,5 @@
 ||tags.bluekai.com^
 ||tcr.tynt.com^
 ||track.netshelter.net^
+||video.dmtracker.com^
+||vs.dmtracker.com^

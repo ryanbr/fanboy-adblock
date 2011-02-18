@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: XNozQ83uG6dJhiVrX0Hu9w
+! Checksum: RsoirlWh8PGsgvTJ6sADcA
 ! Fanboy's Adblock IE-addon list
 ! Updated: 18 Feb 2011
 ! This list expires after 5 days
@@ -11,6 +11,7 @@
 !     
 /intellitxt/*
 ||a.collective-media.net^
+||ad.amgdgt.com^
 ||ad.bizo.com^
 ||ad.doubleclick.net/ad/
 ||ad.doubleclick.net/adi/
@@ -25,6 +26,7 @@
 ||ads.pubmatic.com^
 ||ads.telegraph.co.uk^
 ||ads1.msn.com^
+||adv.netshelter.net^
 ||aka-cdn-ns.adtechus.com^
 ||an.tacoda.net^
 ||as.casalemedia.com^
@@ -48,6 +50,7 @@
 ||js.adsonar.com^
 ||js.bizographics.com^
 ||kona.kontera.com^
+||media.fastclick.net^
 ||pagead2.googlesyndication.com^
 ||partner.googleadservices.com^
 ||pixel.rubiconproject.com^
