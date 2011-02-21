@@ -1,5 +1,5 @@
 /*
-! Checksum: G0vZNFQ4T2vw+snBjLXX4A
+! Checksum: tJ4WbtgPHZrRBbqnWpmUyw
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 21 Feb 2011
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -417,6 +417,7 @@
 .sa_AdAnnouncement,
 .ads_box,
 #cnnTopAd,
+.pushdownAd,
 #ctl00_ContentPlaceHolder1_TextAd_Pulse360AdPanel,
 #ad_sec,
 #ignad_medrec,
