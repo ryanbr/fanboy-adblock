@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: S9umuXcrqSVtNzZjMbQuWw
+! Checksum: n0Iff70yAZa2adtZW3FYdw
 ! Fanboy's Adblock IE-addon list
 ! Updated: 27 Feb 2011
 ! This list expires after 5 days
@@ -10,6 +10,7 @@
 ! ---------- Generic Blocking Rules ----------
 !     
 /intellitxt/*
+.com/ads/*
 ||a.collective-media.net^
 ||ad.amgdgt.com^
 ||ad.bizo.com^
