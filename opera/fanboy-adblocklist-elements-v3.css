@@ -1,7 +1,7 @@
 /*
-! Checksum: RqP4YsiIQ9CcJ4VQ/yqA9A
+! Checksum: NZ9B2RSVpUJTSWczix9Gwg
 ! Fanboy Optimised Element Blocking
-! Version: V3 Updated: 27 Feb 2011
+! Version: V3 Updated: 28 Feb 2011
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Email: fanboyadblock@googlegroups.com - Project homepage: http://fanboy.co.nz/
 !
@@ -26,6 +26,8 @@
 #acAdContainer,
 .adBgMId,
 .content_ads,
+#sidebar_topad,
+.header_right_ad,
 #div-gpt-ad-4,
 #div-gpt-ad-1,
 .dartAd491,
