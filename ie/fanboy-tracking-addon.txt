@@ -1,5 +1,5 @@
 ! Fanboy's Adblock IE-tracking-addon list
-! Checksum: a8y4atuY0wejYnjQ/FZnjA
+! Checksum: HYtqqzI4szTYj75ZH1bysQ
 ! Updated: 28 Feb 2011
 ! This list expires after 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -21,6 +21,7 @@
 ||atd.agencytradingdesk.net^
 ||b.scorecardresearch.com^
 ||beacon.jump-time.net^
+||beacon.examiner.com^
 ||botd2.wordpress.com^
 ||cdn.demdex.net^
 ||cdn.krxd.net^
@@ -54,6 +55,7 @@
 ||static.woopra.com^
 ||stats.bbc.co.uk^
 ||statse.webtrendslive.com^
+||stats.examiner.com^
 ||tags.bluekai.com^
 ||tcr.tynt.com^
 ||track.netshelter.net^
