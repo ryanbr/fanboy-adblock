@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: gCNC77a/CUT+PDra1ic0Ow
+! Checksum: RDZ4ZER1RjqhXDoB0XKttw
 ! Fanboy's Adblock IE-addon list
 ! Updated: 28 Feb 2011
 ! This list expires after 5 days
@@ -24,6 +24,7 @@
 ||ad5.netshelter.net^
 ||ads.bluelithium.com^
 ||adserving.cpxadroit.com^
+||adserver.yahoo.com^
 ||ads.cnn.com^
 ||ads.cnngo.com^
 ||ads.pubmatic.com^
