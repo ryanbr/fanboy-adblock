@@ -1,5 +1,5 @@
 /*
-! Checksum: 8h1AOyJiEBfJtvg827ZLkA
+! Checksum: f/pRRm+u6jgF+6iDPHCA3Q
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 28 Feb 2011
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3274,6 +3274,7 @@ div[class="story-embed-left box"],
 .supercommentad_right,
 /* amazon.com */
 #A9AdsOutOfStockWidgetTop,
+div[id$="_adcontent"],
 /* answers.com */
 .ads_div,
 /* animekuro.com*/
