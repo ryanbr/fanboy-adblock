@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: 8Q6zdzv0lTGynqt4BPODbQ
+! Checksum: u0M13YDNX4S5wtagbMcp/Q
 ! Fanboy's Adblock IE-addon list
-! Updated: 1 Mar 2011
+! Updated: 3 Mar 2011
 ! This list expires after 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked ads or problems by email or in our forums
@@ -9,8 +9,8 @@
 !     
 ! ---------- Generic Blocking Rules ----------
 !     
-/intellitxt/*
 .com/ads/*
+/intellitxt/*
 ||a.collective-media.net^
 ||ad.amgdgt.com^
 ||ad.bizo.com^
@@ -19,27 +19,26 @@
 ||ad.doubleclick.net/adj/
 ||ad.uk.doubleclick.net/adj/
 ||ad.yieldmanager.com^
-||adkeyer.sitescout.com^
 ||ad2.netshelter.net^
 ||ad5.netshelter.net^
-||ads.bluelithium.com^
-||adserving.cpxadroit.com^
-||adserver.yahoo.com^
 ||ad7.literotica.com^
+||adkeyer.sitescout.com^
+||ads.bluelithium.com^
 ||ads.cnn.com^
 ||ads.cnngo.com^
 ||ads.pubmatic.com^
 ||ads.telegraph.co.uk^
 ||ads1.msn.com^
+||adserver.yahoo.com^
+||adserving.cpxadroit.com^
 ||adv.netshelter.net^
 ||aka-cdn-ns.adtechus.com^
 ||an.tacoda.net^
 ||as.casalemedia.com^
 ||b.scorecardresearch.com^
-||launetadvertising.com^
 ||bh.contextweb.com^
-||c1.zedo.com^
 ||bs.serving-sys.com^
+||c1.zedo.com^
 ||cache.blogads.com^
 ||cdn.complexmedianetwork.com^
 ||cdn.doubleverify.com^
@@ -59,6 +58,7 @@
 ||js.adsonar.com^
 ||js.bizographics.com^
 ||kona.kontera.com^
+||launetadvertising.com^
 ||media.fastclick.net^
 ||pagead2.googlesyndication.com^
 ||partner.googleadservices.com^
