@@ -1,5 +1,5 @@
 /*
-! Checksum: +RdXTNEmS/nQ/8IBT3jq1A
+! Checksum: HErR7dopLbdI0qonO4ZAXQ
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 12 Mar 2011
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -719,6 +719,7 @@
 #adspaceBox300,
 #adSpacer,
 #adspecial_offer_box,
+#adSponsor,
 #adsponsored_links_box,
 #adspot-620x45-pos-1,
 #adspot-620x45-pos-2,
@@ -2370,6 +2371,7 @@
 .adspace_rotate,
 .adSplash,
 .adsplat,
+.adSponsor,
 .adspot,
 .adspot.mrec,
 .adsrecnode,
