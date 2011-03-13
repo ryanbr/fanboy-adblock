@@ -1,5 +1,5 @@
 /*
-! Checksum: p8ZOkjIx8yBLAMwZYmJctQ
+! Checksum: nmDzXdwjIsS8+wIONQnUHg
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 13 Mar 2011
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -17,10 +17,13 @@
 ! OSX: Opera Menu -> Preferences -> Advanced Tab -> Content -> Style Options Button
 ! Browse to your Opera Prefs directory and select "fanboy-adblocklist-elements-v3.css" (this file)
 !
+*/
 #A9AdsMiddleBoxTop,
+#admon-728x90,
 #A9AdsOutOfStockWidgetTop,
 #A9AdsServicesWidgetTop,
 #about_adsbottom,
+#dart-container-728x90,
 #aboveAd,
 #abovepostads,
 #acAdContainer,
