@@ -1,5 +1,5 @@
 ! Fanboy's Adblock IE-tracking-addon list
-! Checksum: 43sbjHq6McQjmz1uKPUXwA
+! Checksum: JsHj1uVnGfKPHfiZDxCb5A
 ! Updated: 15 Mar 2011
 ! This list expires after 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -63,4 +63,5 @@
 ||track.netshelter.net^
 ||video.dmtracker.com^
 ||tracking.craktraffic.com^
+||tracking.yourfilehost.com^
 ||vs.dmtracker.com^
