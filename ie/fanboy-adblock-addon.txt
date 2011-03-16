@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: u7oZnrNm8kwU6KLKwfC9SQ
+! Checksum: rQY5kV6mhI3PSEgzdSYmvA
 ! Fanboy's Adblock IE-addon list
 ! Updated: 17 Mar 2011
 ! This list expires after 5 days
@@ -11,6 +11,7 @@
 !     
 .com/ads/*
 /intellitxt/*
+/googleads.
 ||a.collective-media.net^
 ||ad.amgdgt.com^
 ||ad.bizo.com^
@@ -76,3 +77,4 @@
 ||spe.atdmt.com^
 ||atdmt.com^
 ||t.atdmt.com^
+||googleads.g.doubleclick.net^
