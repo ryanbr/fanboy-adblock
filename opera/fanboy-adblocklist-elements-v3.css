@@ -1,5 +1,5 @@
 /*
-! Checksum: 3h7E6qNZPXFxTntmzxIGhw
+! Checksum: T70PxTLQewqUw0rtUBsXgw
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 17 Mar 2011
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -22,11 +22,8 @@
 #A9AdsOutOfStockWidgetTop,
 #A9AdsServicesWidgetTop,
 #about_adsbottom,
-.ad-space-topbanner,
 #aboveAd,
 #abovepostads,
-.table_ad_bg,
-.advert-760,
 #acAdContainer,
 #AD,
 #Ad,
@@ -44,7 +41,6 @@
 #ad-300a,
 #ad-300b,
 #ad-300x250,
-.InArticleAd,
 #ad-300x250-right0,
 #ad-300x250-sidebar,
 #ad-300x250Div,
@@ -1995,6 +1991,7 @@
 .ad-slot-728-90,
 .ad-sp,
 .ad-space,
+.ad-space-topbanner,
 .ad-square2-container,
 .ad-squares,
 .ad-stack,
@@ -2467,6 +2464,7 @@
 .advert-300-side,
 .advert-300x100-side,
 .advert-728x90,
+.advert-760,
 .advert-banner-holder,
 .advert-lower-right,
 .advert-txt,
@@ -2497,6 +2495,7 @@
 .advertisement,
 .advertisement-block,
 .advertisement-header,
+.advertisement-label,
 .advertisement-sidebar,
 .advertisement-space,
 .advertisement-top,
@@ -2515,7 +2514,6 @@
 .advertising_block,
 .advertisingTable,
 .Advertisment,
-.advertisement-label,
 .advertisment,
 .advertismentBox,
 .advertorial,
@@ -2843,6 +2841,7 @@
 .in-between-ad,
 .in-page-ad,
 .in-story-ads,
+.InArticleAd,
 .indie-sidead,
 .inlinead,
 .inlinead-tagtop,
@@ -3212,6 +3211,7 @@
 .supp-ads,
 .tabAd,
 .tabAds,
+.table_ad_bg,
 .tablebordersponsor,
 .tallAd,
 .tblTopAds,

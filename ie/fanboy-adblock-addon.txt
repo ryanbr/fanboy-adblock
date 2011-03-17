@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: rQY5kV6mhI3PSEgzdSYmvA
+! Checksum: XIsIUUQTMEDR49wHl3hi/g
 ! Fanboy's Adblock IE-addon list
 ! Updated: 17 Mar 2011
 ! This list expires after 5 days
@@ -10,8 +10,8 @@
 ! ---------- Generic Blocking Rules ----------
 !     
 .com/ads/*
-/intellitxt/*
 /googleads.
+/intellitxt/*
 ||a.collective-media.net^
 ||ad.amgdgt.com^
 ||ad.bizo.com^
@@ -36,6 +36,7 @@
 ||aka-cdn-ns.adtechus.com^
 ||an.tacoda.net^
 ||as.casalemedia.com^
+||atdmt.com^
 ||b.scorecardresearch.com^
 ||bh.contextweb.com^
 ||bs.serving-sys.com^
@@ -51,6 +52,7 @@
 ||dmgt.grapeshot.co.uk^
 ||e.yieldmanager.net^
 ||extras.mnginteractive.com^
+||googleads.g.doubleclick.net^
 ||homepage.belointeractive.com^
 ||i.total-media.net^
 ||imagec12.247realmedia.com^
@@ -70,11 +72,9 @@
 ||s0.2mdn.net^
 ||s3.buysellads.com^
 ||segment-pixel.invitemedia.com^
+||spe.atdmt.com^
 ||stags.peer39.net^
 ||static.fmpub.net^
 ||static1.headup.com^
-||view.atdmt.com^
-||spe.atdmt.com^
-||atdmt.com^
 ||t.atdmt.com^
-||googleads.g.doubleclick.net^
+||view.atdmt.com^
