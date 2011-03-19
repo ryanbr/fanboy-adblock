@@ -1,5 +1,5 @@
 /*
-! Checksum: 2XRzmREXHe6Gd4SWdTenLg
+! Checksum: 0cJ4fyT5/y8hKjOlBBP33Q
 ! Fanboy Optimised Element Blocking
 ! Version: V3 Updated: 19 Mar 2011
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -30,15 +30,12 @@
 #ad-1,
 #ad-120x600-sidebar,
 #ad-120x60Div,
-.lr-ad,
 #ad-160x600-sidebar,
-.ad_mpu,
 #ad-2,
 #ad-2-160x600,
 #ad-250,
 #ad-250x300,
 #ad-3,
-.mpuAdvert,
 #ad-3-300x250,
 #ad-300,
 #ad-300a,
@@ -2138,6 +2135,7 @@
 .ad_medrec,
 .ad_medrect,
 .ad_module,
+.ad_mpu,
 .ad_mrec,
 .ad_mrect,
 .ad_notice,
@@ -2908,6 +2906,7 @@
 .logoad,
 .LoungeAdsBottomLinks,
 .lowerAds,
+.lr-ad,
 .lt_ad_call,
 .m-sponsored,
 .madison_ad,
@@ -2966,6 +2965,7 @@
 .mpu_text_ad,
 .mpuAd,
 .mpuad,
+.mpuAdvert,
 .mpuBox,
 .MPUHolder,
 .MREC_ads,
