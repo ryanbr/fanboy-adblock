@@ -15,3 +15,5 @@ Does not seem to like XP.
 This utility forces a unix/linux style line endings
 
 Utility Author: rickythedragonsteamboat2000
+
+This utility is freely distributable as long as all files are distributed together and the files are not modified
