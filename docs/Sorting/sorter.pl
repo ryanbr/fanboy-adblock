@@ -1,5 +1,5 @@
 #
-# Fanboy Adblock Sorter v1.4 (21/03/2011)  
+# Fanboy Adblock Sorter v1.5 (22/03/2011)  
 # License: http://creativecommons.org/licenses/by/3.0/
 # Usage: perl sort.pl <filename.txt>
 #
@@ -35,7 +35,7 @@ my $current = [];
 # Check "!", "[]" and "#" (Firefox and Opera)
 #
 while ( <$fh> ) {
-    if ( m/^[!#\[]/ ) {
+    if ( m/^(?:[!\[]|#\s)/ ) {
         output $current, $fhout;
         $current = [ $_ ];
     }
