@@ -36,4 +36,5 @@ perl sorter.pl ..\..\ie\fanboy-adblock-addon.txt
 perl sorter.pl ..\..\ie\fanboy-tracking-addon.txt
 :: Call winscript
 cd ..\..
+echo Executing winscript...
 call winscript.bat sort
