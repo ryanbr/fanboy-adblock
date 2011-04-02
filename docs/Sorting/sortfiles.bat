@@ -4,6 +4,7 @@ perl sorter.pl ..\..\fanboy-adblocklist-current-expanded.txt
 perl sorter.pl ..\..\fanboy-adblocklist-stats.txt
 perl sorter.pl ..\..\fanboy-adblocklist-addon.txt
 perl sorter.pl ..\..\adblock-gannett.txt
+perl sorter.pl ..\..\other\enhancedstats-addon.txt
 :: Firefox Regional lists
 perl sorter.pl ..\..\firefox-regional\fanboy-adblocklist-chn.txt
 perl sorter.pl ..\..\firefox-regional\fanboy-adblocklist-cz.txt
