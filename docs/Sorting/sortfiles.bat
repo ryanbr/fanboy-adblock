@@ -35,6 +35,7 @@ perl sorter.pl ..\..\opera\urlfilter-swe.ini
 :: IE Addon List
 perl sorter.pl ..\..\ie\fanboy-adblock-addon.txt
 perl sorter.pl ..\..\ie\fanboy-tracking-addon.txt
+perl sorter.pl ..\..\ie\fanboy-russian-addon.txt
 :: Call winscript
 cd ..\..
 echo Executing winscript...
