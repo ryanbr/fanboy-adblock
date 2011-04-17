@@ -67,7 +67,7 @@ sed -i '/# lepsiebyvanie.centrum.sk/d' $SUBS/fanboy-czech.tpl
 # Remove last line of file
 #
 sed '$d' $SUBS/fanboy-czech.tpl > $SUBS/fanboy-czech-trim.tpl
-mv -f $SUBS/fanboy-czech-trim.tp $SUBS/fanboy-czech.tpl
+mv -f $SUBS/fanboy-czech-trim.tpl $SUBS/fanboy-czech.tpl
 
 # Regerate Checksum
 #
