@@ -62,9 +62,8 @@ sed -i '/# \//d' $SUBS/fanboy-italian.tpl
 sed -i '/# ||/d' $SUBS/fanboy-italian.tpl
 sed -i '/# @@/d' $SUBS/fanboy-italian.tpl
 sed -i '/# #/d' $SUBS/fanboy-italian.tpl
-sed -i '/# #/d' $SUBS/fanboy-italian.tpl
 sed -i '/###/d' $SUBS/fanboy-italian.tpl
-sed -i '/##./d' $SUBS/fanboy-italian.tpl
+sed -i '/##\./d' $SUBS/fanboy-italian.tpl
 
 # Remove last line of file
 #
