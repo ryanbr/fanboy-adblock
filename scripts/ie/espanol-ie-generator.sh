@@ -64,6 +64,11 @@ sed -i '/# ||/d' $SUBS/fanboy-espanol.tpl
 sed -i '/# @@/d' $SUBS/fanboy-espanol.tpl
 sed -i '/# .imageshack.us/d' $SUBS/fanboy-espanol.tpl
 
+# Remove last line of file
+#
+sed '$d' $SUBS/fanboy-espanol.tpl > $SUBS/fanboy-espanol-trim.tpl
+mv -f $SUBS/fanboy-espanol-trim.tpl $SUBS/fanboy-espanol.tpl
+
 # Regerate Checksum
 #
 perl $MAINDIR/addChecksum.pl $SUBS/fanboy-espanol.tpl &> /dev/null
