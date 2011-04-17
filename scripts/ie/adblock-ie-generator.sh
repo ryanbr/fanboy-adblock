@@ -33,8 +33,9 @@ cp -f /root/maketpl.pl $IEDIR
 
 # Cleanup fanboy-adblock-addon.txt (remove the top 8 lines)
 #
+echo "1"
 sed '1,8d' $GOOGLEDIR/ie/fanboy-adblock-addon.txt > $IEDIR/fanboy-adblock-addon.txt
-
+echo "2"
 # Merge with Google-code (IE adblock addon)
 #
 cat $MAINDIR/fanboy-adblock-noele.txt $IEDIR/fanboy-adblock-addon.txt > $IEDIR/fanboy-noele.txt
