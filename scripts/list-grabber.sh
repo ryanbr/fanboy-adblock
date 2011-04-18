@@ -6,10 +6,10 @@
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 
-# Creating a 10Mb ramdisk Temp storage...
+# Creating a 20Mb ramdisk Temp storage...
 #
 if [ ! -d "/tmp/ramdisk/" ]; then
-		rm -rf /tmp/ramdisk/
+    rm -rf /tmp/ramdisk/
     mkdir /tmp/ramdisk; chmod 777 /tmp/ramdisk
     mount -t tmpfs -o size=20M tmpfs /tmp/ramdisk/
     mkdir /tmp/ramdisk/opera/
