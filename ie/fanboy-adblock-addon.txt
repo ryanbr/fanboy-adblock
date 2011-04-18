@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: O7YRMpq9JxuD4OeCuuijmQ
+! Checksum: 2sLeWrkWVeoHgalOz3FsfA
 ! Fanboy's Adblock IE-addon list
 ! Updated: 18 Apr 2011
 ! This list expires after 5 days
@@ -52,7 +52,6 @@
 ||dmgt.grapeshot.co.uk^
 ||e.yieldmanager.net^
 ||extras.mnginteractive.com^
-||feedads.g.doubleclick.net^
 ||googleads.g.doubleclick.net^
 ||homepage.belointeractive.com^
 ||i.total-media.net^
