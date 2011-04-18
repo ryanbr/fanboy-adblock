@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 2sLeWrkWVeoHgalOz3FsfA
+! Checksum: hlPBmnO8vrrSIvrAq4F5zA
 ! Fanboy's Adblock IE-addon list
 ! Updated: 18 Apr 2011
 ! This list expires after 5 days
@@ -72,9 +72,6 @@
 ||s0.2mdn.net^
 ||s3.buysellads.com^
 ||segment-pixel.invitemedia.com^
-||spe.atdmt.com^
 ||stags.peer39.net^
 ||static.fmpub.net^
 ||static1.headup.com^
-||t.atdmt.com^
-||view.atdmt.com^
