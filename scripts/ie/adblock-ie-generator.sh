@@ -55,6 +55,8 @@ sed -i '/+d 247realmedia.com/d' $SUBS/fanboy-noele.tpl
 sed -i '/+d googlesyndication.com/d' $SUBS/fanboy-noele.tpl
 sed -i '/+d scorecardresearch.com/d' $SUBS/fanboy-noele.tpl
 sed -i '/# \//d' $SUBS/fanboy-noele.tpl
+sed -i '/# |/d' $SUBS/fanboy-noele.tpl
+sed -i '/# \./d' $SUBS/fanboy-noele.tpl
 sed -i '/+d oascentral.thechronicleherald.ca/d' $SUBS/fanboy-noele.tpl
 sed -i '/+d au.adserver.yahoo.com/d' $SUBS/fanboy-noele.tpl
 sed -i '/+d adserver.yahoo.com/d' $SUBS/fanboy-noele.tpl
