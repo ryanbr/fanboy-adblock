@@ -120,6 +120,8 @@ if diff $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblo
     cat $MAINDIR/header-opera.txt $TESTDIR/fanboy-cs2.txt $GOOGLEDIR/other/opera-addon.css > $TESTDIR/fanboy-css.txt
     # remove any blank lines in Opera css
     sed '/^$/d' $TESTDIR/fanboy-css.txt > $TESTDIR/fanboy-css0.txt
+    # remove ^M from the lists..
+    tr -d '\r' <$TESTDIR/fanboy-css0.txt >$TESTDIR/fanboy-css.txt
     mv -f $TESTDIR/fanboy-css0.txt $TESTDIR/fanboy-css.txt
     # Fix speedtest.net 27/03/2011 (reported)
     sed -i '/.ad-vertical-container/d' $TESTDIR/fanboy-css.txt
