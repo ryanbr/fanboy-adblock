@@ -20,14 +20,14 @@ fi
 
 # Grab Mercurial Updates
 #
-cd /root/google/fanboy-adblock-list/
+cd /home/fanboy/google/fanboy-adblock-list/
 /usr/local/bin/hg pull
 /usr/local/bin/hg update
 
 # Variables for directorys
 #
 MAINDIR="/var/www/adblock"
-GOOGLEDIR="/root/google/fanboy-adblock-list"
+GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 TESTDIR="/tmp/ramdisk"
 ZIP="/usr/local/bin/7za"
 
