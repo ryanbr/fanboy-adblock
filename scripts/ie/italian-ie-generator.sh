@@ -18,7 +18,7 @@ fi
 # Variables
 #
 MAINDIR="/var/www/adblock"
-GOOGLEDIR="/root/google/fanboy-adblock-list"
+GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 ZIP="/usr/local/bin/7za"
 IEDIR="/tmp/ieramdisk"
 SUBS="/tmp/ieramdisk/subscriptions"
