@@ -34,7 +34,7 @@ tr '[:upper:]' '[:lower:]' < $BLACKLISTDIR/list1.temp > $BLACKLISTDIR/blacklist-
 #
 perl $GOOGLEDIR/blacklist-check.pl $BLACKLISTDIR/output.txt $BLACKLISTDIR/blacklist-adblock.txt > $BLACKLISTDIR/fanboy-adblock-bad.txt
 
-if [[ -s $BLACKLISTDIR/fanboy-adblock-bad.txt ]] ; then
+if [ -s $BLACKLISTDIR/fanboy-adblock-bad.txt ] ; then
    mail -s "Blacklist Scan (Adblock List)" mp3geek@gmail.com < $BLACKLISTDIR/fanboy-adblock-bad.txt
 else
    echo "Blacklist scan completed, nothing detected.." > /dev/null
@@ -51,7 +51,7 @@ tr '[:upper:]' '[:lower:]' < $BLACKLISTDIR/list2.temp > $BLACKLISTDIR/blacklist-
 #
 perl $GOOGLEDIR/blacklist-check.pl $BLACKLISTDIR/output.txt $BLACKLISTDIR/blacklist-tracking.txt > $BLACKLISTDIR/fanboy-tracking-bad.txt
 
-if [[ -s $BLACKLISTDIR/fanboy-tracking-bad.txt ]] ; then
+if [ -s $BLACKLISTDIR/fanboy-tracking-bad.txt ] ; then
    mail -s "Blacklist Scan (Tracking List)" mp3geek@gmail.com < $BLACKLISTDIR/fanboy-tracking-bad.txt
 else
    echo "Blacklist scan completed, nothing detected.." > /dev/null
