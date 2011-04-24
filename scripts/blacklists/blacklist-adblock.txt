@@ -12,9 +12,9 @@
 /pagead/*
 /wp-srv/ad/*
 /DynamicVideoAd
-giantrealm.com
-ltassrv.com
-scanscount.com
+||giantrealm.com^
+||ltassrv.com^
+||scanscount.com^
 _600x400.
 _125x125.
 -125x125.

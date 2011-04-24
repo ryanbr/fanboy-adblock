@@ -1,6 +1,6 @@
 #Fanboy-Blocklist-File
-conviva.com
-ooyala.com/modules/analytics-
+||conviva.com^
+||ooyala.com/modules/analytics-
 /analytics-
 /modules/analytics-
 /bam.tracking.
