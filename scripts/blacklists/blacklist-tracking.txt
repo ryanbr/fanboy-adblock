@@ -3,3 +3,5 @@ conviva.com
 ooyala.com/modules/analytics-
 /analytics-
 /modules/analytics-
+/bam.tracking.
+/bam.tracking.js
