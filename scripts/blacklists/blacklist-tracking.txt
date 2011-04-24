@@ -1,0 +1,5 @@
+#Fanboy-Blocklist-File
+conviva.com
+ooyala.com/modules/analytics-
+/analytics-
+/modules/analytics-
