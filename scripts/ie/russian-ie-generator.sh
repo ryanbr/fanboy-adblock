@@ -50,7 +50,7 @@ rm -rf $IEDIR/fanboy-russian-addon.txt
 
 # Generate .tpl IE list
 #
-perl $IEDIR/addChecksum-opera.pl &> /dev/null
+perl $IEDIR/maketpl.pl &> /dev/null
 
 # Now remove filters that cause issues in IE (and false positives)
 #
