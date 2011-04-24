@@ -59,11 +59,12 @@ sed -i '/+d dhl./d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d server-au.imrworldwide.com/d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d secure-us.imrworldwide.com/d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d revsci.net/d' $SUBS/fanboy-tracking.tpl
+sed -i '/+d quantserve.com\ \/quant\.js/d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d js.revsci.net/d' $SUBS/fanboy-tracking.tpl
 sed -i '/# :/d' $SUBS/fanboy-tracking.tpl
 sed -i '/# \./d' $SUBS/fanboy-tracking.tpl
 sed -i '/# \//d' $SUBS/fanboy-tracking.tpl
-sed -i '/# @@/d' $SUBS/fanboy-tracking.tpl
+sed -i '/# \@/d' $SUBS/fanboy-tracking.tpl
 sed -i '/# ||/d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d easy.box/d' $SUBS/fanboy-tracking.tpl
 
