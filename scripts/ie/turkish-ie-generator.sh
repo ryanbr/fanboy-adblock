@@ -69,7 +69,7 @@ mv -f $SUBS/fanboy-turkish-trim.tpl $SUBS/fanboy-turkish.tpl
 
 # Regerate Checksum
 #
-perl $MAINDIR/addChecksum.pl $SUBS/fanboy-turkish.tpl &> /dev/null
+perl $MAINDIR/addChecksum-opera.pl $SUBS/fanboy-turkish.tpl &> /dev/null
 
 # Remove old gz file
 #

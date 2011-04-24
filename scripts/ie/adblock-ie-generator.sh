@@ -77,7 +77,7 @@ sed -i '/+d zedo.com/d' $SUBS/fanboy-noele.tpl
 
 # Regerate Checksum
 #
-perl $MAINDIR/addChecksum.pl $SUBS/fanboy-noele.tpl &> /dev/null
+perl $MAINDIR/addChecksum-opera.pl $SUBS/fanboy-noele.tpl &> /dev/null
 
 # Remove old gz file
 #

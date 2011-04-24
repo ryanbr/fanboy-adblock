@@ -69,7 +69,7 @@ mv -f $SUBS/fanboy-japanese-trim.tpl $SUBS/fanboy-japanese.tpl
 
 # Regerate Checksum
 #
-perl $MAINDIR/addChecksum.pl $SUBS/fanboy-japanese.tpl &> /dev/null
+perl $MAINDIR/addChecksum-opera.pl $SUBS/fanboy-japanese.tpl &> /dev/null
 
 # Remove old gz file
 #

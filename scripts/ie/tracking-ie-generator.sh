@@ -69,7 +69,7 @@ sed -i '/+d easy.box/d' $SUBS/fanboy-tracking.tpl
 
 # Regerate Checksum
 #
-perl $MAINDIR/addChecksum.pl $SUBS/fanboy-tracking.tpl &> /dev/null
+perl $MAINDIR/addChecksum-opera.pl $SUBS/fanboy-tracking.tpl &> /dev/null
 
 # Remove old gz file
 #
