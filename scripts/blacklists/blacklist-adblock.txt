@@ -12,6 +12,7 @@
 ||giantrealm.com^
 ||ltassrv.com^
 ||scanscount.com^
+adf.ly/market.php
 _600x400.
 _125x125.
 -125x125.
