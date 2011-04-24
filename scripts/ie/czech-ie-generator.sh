@@ -69,10 +69,6 @@ sed -i '/# lepsiebyvanie.centrum.sk/d' $SUBS/fanboy-czech.tpl
 sed '$d' $SUBS/fanboy-czech.tpl > $SUBS/fanboy-czech-trim.tpl
 mv -f $SUBS/fanboy-czech-trim.tpl $SUBS/fanboy-czech.tpl
 
-# Regerate Checksum
-#
-perl $MAINDIR/addChecksum-opera.pl $SUBS/fanboy-czech.tpl &> /dev/null
-
 # Remove old gz file
 #
 rm -f $SUBS/fanboy-czech.tpl*.gz

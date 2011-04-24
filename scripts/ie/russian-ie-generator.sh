@@ -64,10 +64,6 @@ sed -i '/# @@/d' $SUBS/fanboy-russian.tpl
 sed -i '/Firefox 3.x/d' $SUBS/fanboy-russian.tpl
 sed -i '/# :\/\//d' $SUBS/fanboy-russian.tpl
 
-# Regerate Checksum
-#
-perl $MAINDIR/addChecksum.pl $SUBS/fanboy-russian.tpl &> /dev/null
-
 # Remove old gz file
 #
 rm -f $SUBS/fanboy-russian.tpl*.gz

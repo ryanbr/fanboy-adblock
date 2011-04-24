@@ -75,10 +75,6 @@ sed -i '/+d ad.ca.doubleclick.net/d' $SUBS/fanboy-noele.tpl
 sed -i '/+d ad.doubleclick.net/d' $SUBS/fanboy-noele.tpl
 sed -i '/+d zedo.com/d' $SUBS/fanboy-noele.tpl
 
-# Regerate Checksum
-#
-perl $MAINDIR/addChecksum-opera.pl $SUBS/fanboy-noele.tpl &> /dev/null
-
 # Remove old gz file
 #
 rm -f $SUBS/fanboy-noele.tpl*.gz

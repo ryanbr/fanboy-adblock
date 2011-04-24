@@ -69,10 +69,6 @@ sed -i '/# .imageshack.us/d' $SUBS/fanboy-espanol.tpl
 sed '$d' $SUBS/fanboy-espanol.tpl > $SUBS/fanboy-espanol-trim.tpl
 mv -f $SUBS/fanboy-espanol-trim.tpl $SUBS/fanboy-espanol.tpl
 
-# Regerate Checksum
-#
-perl $MAINDIR/addChecksum-opera.pl $SUBS/fanboy-espanol.tpl &> /dev/null
-
 # Remove old gz file
 #
 rm -f $SUBS/fanboy-espanol.tpl*.gz

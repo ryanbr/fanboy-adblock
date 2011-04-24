@@ -68,10 +68,6 @@ sed -i '/# \@/d' $SUBS/fanboy-tracking.tpl
 sed -i '/# ||/d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d easy.box/d' $SUBS/fanboy-tracking.tpl
 
-# Regerate Checksum
-#
-perl $MAINDIR/addChecksum-opera.pl $SUBS/fanboy-tracking.tpl &> /dev/null
-
 # Remove old gz file
 #
 rm -f $SUBS/fanboy-tracking.tpl*.gz

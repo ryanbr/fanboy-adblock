@@ -67,10 +67,6 @@ sed -i '/# @@/d' $SUBS/fanboy-japanese.tpl
 sed '$d' $SUBS/fanboy-japanese.tpl > $SUBS/fanboy-japanese-trim.tpl
 mv -f $SUBS/fanboy-japanese-trim.tpl $SUBS/fanboy-japanese.tpl
 
-# Regerate Checksum
-#
-perl $MAINDIR/addChecksum-opera.pl $SUBS/fanboy-japanese.tpl &> /dev/null
-
 # Remove old gz file
 #
 rm -f $SUBS/fanboy-japanese.tpl*.gz
