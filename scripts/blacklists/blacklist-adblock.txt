@@ -18,6 +18,7 @@
 _600x400.
 _125x125.
 -125x125.
+/125x125/*
 /tii_ads.js
 /tii_ads.
 /img/banners/
