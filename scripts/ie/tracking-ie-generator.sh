@@ -66,7 +66,7 @@ sed -i '/# \//d' $SUBS/fanboy-tracking.tpl
 sed -i '/# \@/d' $SUBS/fanboy-tracking.tpl
 sed -i '/# ||/d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d easy.box/d' $SUBS/fanboy-tracking.tpl
-sed -i '/- /quant.js/d' $SUBS/fanboy-tracking.tpl
+sed -i '/- \/quant.js/d' $SUBS/fanboy-tracking.tpl
 
 # Remove old gz file
 #
