@@ -54,7 +54,8 @@ sed -n '/Adblock Plus/,/Generic Spanish/{/Generic Spanish/!p}' $GOOGLEDIR/firefo
 # Generate .tpl IE list
 #
 # perl $IEDIR/maketpl.pl &> /dev/null
-python $GOOGLEDIR/scripts/ie/combineSubscriptions.py
+cp -f $GOOGLEDIR/scripts/ie/combineSubscriptions.py $IEDIR
+python $IEDIR/combineSubscriptions.py
 
 # Now remove filters that cause issues in IE (and false positives)
 #
