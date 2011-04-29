@@ -29,7 +29,7 @@ rm -rf $IEDIR/* $SUBS/*
 
 # Copy TPL (Microsoft IE9) Script
 #
-cp -f /root/maketpl.pl $IEDIR
+# cp -f /root/maketpl.pl $IEDIR
 
 ####### Placeholder ########
 # Cleanup fanboy-espanol-addon.txt (remove the top 8 lines) 
@@ -53,7 +53,8 @@ sed -n '/Adblock Plus/,/Generic Spanish/{/Generic Spanish/!p}' $GOOGLEDIR/firefo
 
 # Generate .tpl IE list
 #
-perl $IEDIR/maketpl.pl &> /dev/null
+# perl $IEDIR/maketpl.pl &> /dev/null
+python $GOOGLEDIR/scripts/ie/combineSubscriptions.py
 
 # Now remove filters that cause issues in IE (and false positives)
 #
