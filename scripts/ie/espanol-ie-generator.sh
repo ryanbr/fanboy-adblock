@@ -12,6 +12,7 @@ if [ ! -d "/tmp/ieramdisk/" ]; then
     rm -rf /tmp/ieramdisk/
     mkdir /tmp/ieramdisk; chmod 777 /tmp/ieramdisk
     mount -t tmpfs -o size=10M tmpfs /tmp/ieramdisk/
+    cp -f $GOOGLEDIR/scripts/ie/combineSubscriptions.py /tmp/ieramdisk/
     mkdir /tmp/ieramdisk/subscriptions
 fi
 
@@ -25,7 +26,8 @@ SUBS="/tmp/ieramdisk/subscriptions"
 
 # Clear out any old files lurking
 #
-rm -rf $IEDIR/* $SUBS/*
+rm -rf $IEDIR/*.txt $SUBS/*
+cd $IEDIR
 
 # Copy TPL (Microsoft IE9) Script
 #

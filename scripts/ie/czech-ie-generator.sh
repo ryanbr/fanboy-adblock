@@ -13,6 +13,7 @@ if [ ! -d "/tmp/ieramdisk/" ]; then
     mkdir /tmp/ieramdisk; chmod 777 /tmp/ieramdisk
     mount -t tmpfs -o size=10M tmpfs /tmp/ieramdisk/
     mkdir /tmp/ieramdisk/subscriptions
+    cp -f $GOOGLEDIR/scripts/ie/combineSubscriptions.py /tmp/ieramdisk/
 fi
 
 # Variables
@@ -25,7 +26,8 @@ SUBS="/tmp/ieramdisk/subscriptions"
 
 # Clear out any old files lurking
 #
-rm -rf $IEDIR/* $SUBS/*
+rm -rf $IEDIR/*.txt $SUBS/*
+cd $IEDIR
 
 # Copy TPL (Microsoft IE9) Script
 #
@@ -54,7 +56,6 @@ sed -n '/Adblock Plus/,/Firefox 3.x/{/Firefox 3.x/!p}' $GOOGLEDIR/firefox-region
 # Generate .tpl IE list
 #
 # perl $IEDIR/maketpl.pl &> /dev/null
-cp -f $GOOGLEDIR/scripts/ie/combineSubscriptions.py $IEDIR
 python $IEDIR/combineSubscriptions.py
 
 # Now remove filters that cause issues in IE (and false positives)
