@@ -38,8 +38,11 @@ cp -f $MAINDIR/addChecksum.pl $MAINDIR/opera/addChecksum-opera.pl $TESTDIR
 cp -f $GOOGLEDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-stats.ini $TESTDIR/opera/
 
 # Main List
+# Check for 0-sized file first
 #
-if diff $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt >/dev/null ; then
+if [ -n $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt ]
+then
+  if diff $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt >/dev/null ; then
     echo "No changes detected: fanboy-adblock.txt" > /dev/null
   else
     # temp re-direct
@@ -145,12 +148,20 @@ if diff $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblo
         exec /etc/crons/ie/adblock-ie-generator.sh
     fi
     echo "Updated: fanboy-adblock.txt" > /dev/null
+  fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-current-expanded.txt size is zero, please fix. " mp3geek@gmail.com < /dev/null
 fi
 
 # Tracking
-if diff $GOOGLEDIR/fanboy-adblocklist-stats.txt $MAINDIR/fanboy-tracking.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-tracking.txt"
-  else
+# Check for 0-sized file first
+#
+if [ -n $GOOGLEDIR/fanboy-adblocklist-stats.txt ]
+then
+  if diff $GOOGLEDIR/fanboy-adblocklist-stats.txt $MAINDIR/fanboy-tracking.txt >/dev/null ; then
+     echo "No Changes detected: fanboy-tracking.txt"
+   else
     echo "Updated: fanboy-tracking.txt"
     cp -f $GOOGLEDIR/fanboy-adblocklist-stats.txt $MAINDIR/fanboy-tracking.txt
     rm -f $MAINDIR/fanboy-tracking.txt.gz
@@ -159,22 +170,36 @@ if diff $GOOGLEDIR/fanboy-adblocklist-stats.txt $MAINDIR/fanboy-tracking.txt >/d
     sh /etc/crons/hg-grab-intl.sh
     # Generate IE script
     exec /etc/crons/ie/tracking-ie-generator.sh
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-stats.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
 # Addon/Annoyances
+# Check for 0-sized file first
 #
-if diff $GOOGLEDIR/fanboy-adblocklist-addon.txt $MAINDIR/fanboy-addon.txt >/dev/null ; then
+if [ -n $GOOGLEDIR/fanboy-adblocklist-addon.txt ]
+then
+  if diff $GOOGLEDIR/fanboy-adblocklist-addon.txt $MAINDIR/fanboy-addon.txt >/dev/null ; then
     echo "No Changes detected: fanboy-addon.txt"
   else
     echo "Updated: fanboy-addon.txt"
     cp -f $GOOGLEDIR/fanboy-adblocklist-addon.txt $MAINDIR/fanboy-addon.txt
     rm -f $MAINDIR/fanboy-addon.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-addon.txt.gz $MAINDIR/fanboy-addon.txt > /dev/null
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-addon.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
 # CZECH
+# Check for 0-sized file first
 #
-if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $MAINDIR/fanboy-czech.txt >/dev/null ; then
+if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt ]
+then
+ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $MAINDIR/fanboy-czech.txt >/dev/null ; then
     echo "No Changes detected: fanboy-czech.txt"
   else
    echo "Updated: fanboy-czech.txt"
@@ -183,11 +208,18 @@ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $MAINDIR/fanboy-cz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-czech.txt.gz $MAINDIR/fanboy-czech.txt > /dev/null
    # Generate IE script
    exec /etc/crons/ie/czech-ie-generator.sh
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-cz.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
 # RUSSIAN
+# Check for 0-sized file first
 #
-if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $MAINDIR/fanboy-russian.txt >/dev/null ; then
+if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt ]
+then
+ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $MAINDIR/fanboy-russian.txt >/dev/null ; then
     echo "No Changes detected: fanboy-russian.txt"
   else
    echo "Updated: fanboy-russian.txt"
@@ -196,11 +228,18 @@ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $MAINDIR/fanbo
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-russian.txt.gz $MAINDIR/fanboy-russian.txt > /dev/null
    # Generate IE script
    exec /etc/crons/ie/russian-ie-generator.sh
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-rus-v2.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
 # TURK
+# Check for 0-sized file first
 #
-if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $MAINDIR/fanboy-turkish.txt >/dev/null ; then
+if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt ]
+then
+ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $MAINDIR/fanboy-turkish.txt >/dev/null ; then
     echo "No Changes detected: fanboy-turkish.txt"
   else
    echo "Updated: fanboy-turkish.txt"
@@ -209,11 +248,18 @@ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $MAINDIR/fanboy-t
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-turkish.txt.gz $MAINDIR/fanboy-turkish.txt > /dev/null
    # Generate IE script
    exec /etc/crons/ie/turkish-ie-generator.sh 
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-tky.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
 # JAPANESE
+# Check for 0-sized file first
 #
-if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $MAINDIR/fanboy-japanese.txt >/dev/null ; then
+if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt ]
+then
+ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $MAINDIR/fanboy-japanese.txt >/dev/null ; then
     echo "No Changes detected: fanboy-japanese.txt"
   else
    echo "Updated: fanboy-japanese.txt"
@@ -222,22 +268,37 @@ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $MAINDIR/fanboy-j
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-japanese.txt.gz $MAINDIR/fanboy-japanese.txt > /dev/null
    # Generate IE script
    exec /etc/crons/ie/italian-ie-generator.sh
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-jpn.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
 # KOREAN
-#
-if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt > /dev/null ; then
+# Check for 0-sized file first
+# 
+if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt ]
+then
+ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt > /dev/null ; then
     echo "No Changes detected: fanboy-korean.txt"
    else
     echo "Updated: fanboy-korean.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt
     rm -f $MAINDIR/fanboy-korean.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-korean.txt.gz $MAINDIR/fanboy-korean.txt > /dev/null
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-krn.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
+
 # ITALIAN
-#
-if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $MAINDIR/fanboy-italian.txt > /dev/null ; then
+# Check for 0-sized file first
+# 
+if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt ]
+then
+ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $MAINDIR/fanboy-italian.txt > /dev/null ; then
     echo "No Changes detected: fanboy-italian.txt"
    else
     echo "Updated: fanboy-italian.txt"
@@ -246,55 +307,90 @@ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $MAINDIR/fanboy-i
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-italian.txt.gz $MAINDIR/fanboy-italian.txt > /dev/null
     # Generate IE script
     exec /etc/crons/ie/italian-ie-generator.sh
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-ita.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
 # POLISH
-#
-if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt > /dev/null ; then
+# Check for 0-sized file first
+# 
+if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt ]
+then
+ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt > /dev/null ; then
     echo "No Changes detected: fanboy-polish.txt"
    else
     echo "Updated: fanboy-polish.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt
     rm -f $MAINDIR/fanboy-polish.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-polish.txt.gz $MAINDIR/fanboy-polish.txt /dev/null
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-pol.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
 # INDIAN
-#
-if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt > /dev/null ; then
+# Check for 0-sized file first
+# 
+if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt ]
+then
+ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt > /dev/null ; then
     echo "No Changes detected: fanboy-indian.txt"
    else
     echo "Updated: fanboy-indian.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt
     rm -f $MAINDIR/fanboy-indian.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-indian.txt.gz $MAINDIR/fanboy-indian.txt > /dev/null
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-ind.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
 # VIETNAM
-#
-if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt > /dev/null ; then
+# Check for 0-sized file first
+# 
+if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt ]
+then
+ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt > /dev/null ; then
     echo "No Changes detected: fanboy-vietnam.txt"
    else
     echo "Updated: fanboy-vietnam.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt
     rm -f $MAINDIR/fanboy-vietnam.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-vietnam.txt.gz $MAINDIR/fanboy-vietnam.txt > /dev/null
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-vtn.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
 # CHINESE
-#
-if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt > /dev/null ; then
+# Check for 0-sized file first
+# 
+if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt ]
+then
+ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt > /dev/null ; then
     echo "No Changes detected: fanboy-chinese.txt"
    else
     echo "Updated: fanboy-chinese.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt
     rm -f $MAINDIR/fanboy-chinese.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-chinese.txt.gz $MAINDIR/fanboy-chinese.txt > /dev/null
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-chn.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
 # ESPANOL
-#
-if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $MAINDIR/fanboy-espanol.txt > /dev/null ; then
+# Check for 0-sized file first
+# 
+if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt ]
+then
+ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $MAINDIR/fanboy-espanol.txt > /dev/null ; then
     echo "No Changes detected: fanboy-espanol.txt"
    else
     echo "Updated: fanboy-espanol.txt"
@@ -303,32 +399,57 @@ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $MAINDIR/fanboy-e
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-espanol.txt.gz $MAINDIR/fanboy-espanol.txt > /dev/null
 		# Generate IE script
 		exec /etc/crons/ie/espanol-ie-generator.sh
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-esp.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
 # SWEDISH
-#
-if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt > /dev/null ; then
+# Check for 0-sized file first
+# 
+if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt ]
+then
+ if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt > /dev/null ; then
     echo "No Changes detected: fanboy-swedish.txt"
    else
     echo "Updated: fanboy-swedish.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt
     rm -f $MAINDIR/fanboy-swedish.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-swedish.txt.gz $MAINDIR/fanboy-swedish.txt > /dev/null
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror fanboy-adblocklist-swe.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
 # Gannett
-#
-if diff $GOOGLEDIR/adblock-gannett.txt $MAINDIR/adblock-gannett.txt > /dev/null ; then
+# Check for 0-sized file first
+# 
+if [ -n $GOOGLEDIR/adblock-gannett.txt ]
+then
+ if diff $GOOGLEDIR/adblock-gannett.txt $MAINDIR/adblock-gannett.txt > /dev/null ; then
     echo "No Changes detected: fanboy-gannett.txt"
    else
     echo "Updated: fanboy-gannett.txt"
     cp -f $GOOGLEDIR/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
     rm -f $MAINDIR/adblock-gannett.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/adblock-gannett.txt.gz $MAINDIR/adblock-gannett.txt > /dev/null
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror adblock-gannett.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
 # Create a combined script, to be used else where
-cat $TESTDIR/opera/urlfilter.ini $TESTDIR/opera/urlfilter-stats.ini > $TESTDIR/urlfilter-stats.ini
+if [ -n $TESTDIR/opera/urlfilter.ini ] && [ -n $TESTDIR/opera/urlfilter-stats.ini ]
+then
+  cat $TESTDIR/opera/urlfilter.ini $TESTDIR/opera/urlfilter-stats.ini > $TESTDIR/urlfilter-stats.ini
+else
+# echo "Something went bad, file size is 0"
+  mail -s "Google mirror urlfilter.ini/urlfilter-stats size is zero, please fix." mp3geek@gmail.com < /dev/null
+fi
+  
 
 # Opera and Tracking filter.
 if diff $TESTDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter.ini > /dev/null ; then
