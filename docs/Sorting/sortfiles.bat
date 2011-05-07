@@ -1,5 +1,6 @@
 @echo off
 :: Firefox
+echo Sort Firefox Subscriptions...
 perl sorter.pl ..\..\fanboy-adblocklist-current-expanded.txt
 perl sorter.pl ..\..\fanboy-adblocklist-stats.txt
 perl sorter.pl ..\..\fanboy-adblocklist-addon.txt
@@ -19,6 +20,7 @@ perl sorter.pl ..\..\firefox-regional\fanboy-adblocklist-swe.txt
 perl sorter.pl ..\..\firefox-regional\fanboy-adblocklist-tky.txt
 perl sorter.pl ..\..\firefox-regional\fanboy-adblocklist-vtn.txt
 :: Opera
+echo Sort Opera Subscriptions...
 perl sorter.pl ..\..\opera\urlfilter.ini
 perl sorter.pl ..\..\opera\urlfilter-chn.ini
 perl sorter.pl ..\..\opera\urlfilter-cz.ini
@@ -37,11 +39,13 @@ perl sorter.pl ..\..\ie\fanboy-adblock-addon.txt
 perl sorter.pl ..\..\ie\fanboy-tracking-addon.txt
 perl sorter.pl ..\..\ie\fanboy-russian-addon.txt
 :: Lower case elements
+echo Convert Main list to lowercase...
 perl -pi.bak -we "s/DIV\[/div\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
 perl -pi.bak -we "s/LI\[/li\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
 perl -pi.bak -we "s/TD\[/td\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
 perl -pi.bak -we "s/TR\[/tr\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
 perl -pi.bak -we "s/TABLE\[/table\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+perl -pi.bak -we "s/INPUT\[/input\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
 perl -pi.bak -we "s/P\[/p\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
 perl -pi.bak -we "s/A\[/a\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
 perl -pi.bak -we "s/FONT\[/font\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
