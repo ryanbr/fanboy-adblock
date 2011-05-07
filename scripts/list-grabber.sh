@@ -442,7 +442,7 @@ else
 fi
 
 # Create a combined script, to be used else where
-if [ -n $TESTDIR/opera/urlfilter.ini ] && [ -n $TESTDIR/opera/urlfilter-stats.ini ]
+if [ -n $TESTDIR/opera/urlfilter.ini ] || [ -n $TESTDIR/opera/urlfilter-stats.ini ]
 then
   cat $TESTDIR/opera/urlfilter.ini $TESTDIR/opera/urlfilter-stats.ini > $TESTDIR/urlfilter-stats.ini
 else
@@ -452,7 +452,9 @@ fi
   
 
 # Opera and Tracking filter.
-if diff $TESTDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter.ini > /dev/null ; then
+if [ -n $TESTDIR/opera/urlfilter.ini ] || [ -n $TESTDIR/opera/urlfilter-stats.ini ]
+then
+  if diff $TESTDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter.ini > /dev/null ; then
     echo "No Changes detected: urlfilter.ini"
    else
     echo "Updated: urlfilter.ini"
@@ -470,30 +472,48 @@ if diff $TESTDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter.ini > /dev/null ; 
       rm -f $MAINDIR/opera/complete/urlfilter.ini.gz
       $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/complete/urlfilter.ini.gz $TESTDIR/urfilter-stats2.ini > /dev/null
     fi
+  fi
+else
+# echo "Something went bad, file size is 0"
+  mail -s "Google mirror urlfilter.ini/urlfilter-stats size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
+
 # Opera Czech
-cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-cz.ini > $TESTDIR/urlfilter-cz.ini
-sed '/^$/d' $TESTDIR/urlfilter-cz.ini > $TESTDIR/urlfilter-cz2.ini
-perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-cz2.ini
-if diff $TESTDIR/urlfilter-cz2.ini $MAINDIR/opera/cz/urlfilter.ini > /dev/null ; then
-   echo "No Changes detected: czech/urlfilter.ini"
+# Check for 0-sized file first
+# 
+if [ -n $GOOGLEDIR/opera/urlfilter-cz.ini ]
+then
+  cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-cz.ini > $TESTDIR/urlfilter-cz.ini
+  sed '/^$/d' $TESTDIR/urlfilter-cz.ini > $TESTDIR/urlfilter-cz2.ini
+  perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-cz2.ini
+  if diff $TESTDIR/urlfilter-cz2.ini $MAINDIR/opera/cz/urlfilter.ini > /dev/null ; then
+     echo "No Changes detected: czech/urlfilter.ini"
+  else
+     echo "Updated: czech/urlfilter.ini & czech/complete/urlfilter.ini"
+     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-cz.ini > $TESTDIR/urlfilter-cz-stats.ini
+     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-cz-stats.ini
+     cp -f $TESTDIR/urlfilter-cz2.ini $MAINDIR/opera/cz/urlfilter.ini
+     cp -f $TESTDIR/urlfilter-cz-stats.ini $MAINDIR/opera/cz/complete/urlfilter.ini
+     rm -f $MAINDIR/opera/cz/complete/urlfilter.ini.gz $MAINDIR/opera/cz/urlfilter.ini.gz
+     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/cz/complete/urlfilter.ini.gz $TESTDIR/urlfilter-cz-stats.ini > /dev/null
+     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/cz/urlfilter.ini.gz $TESTDIR/urlfilter-cz2.ini > /dev/null
+  fi
 else
-   echo "Updated: czech/urlfilter.ini & czech/complete/urlfilter.ini"
-   cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-cz.ini > $TESTDIR/urlfilter-cz-stats.ini
-   perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-cz-stats.ini
-   cp -f $TESTDIR/urlfilter-cz2.ini $MAINDIR/opera/cz/urlfilter.ini
-   cp -f $TESTDIR/urlfilter-cz-stats.ini $MAINDIR/opera/cz/complete/urlfilter.ini
-   rm -f $MAINDIR/opera/cz/complete/urlfilter.ini.gz $MAINDIR/opera/cz/urlfilter.ini.gz
-   $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/cz/complete/urlfilter.ini.gz $TESTDIR/urlfilter-cz-stats.ini > /dev/null
-   $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/cz/urlfilter.ini.gz $TESTDIR/urlfilter-cz2.ini > /dev/null
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror urlfilter-cz.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
+
 # Opera Polish
-cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-pol.ini > $TESTDIR/urlfilter-pol.ini
-sed '/^$/d' $TESTDIR/urlfilter-pol.ini > $TESTDIR/urlfilter-pol2.ini
-perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-pol2.ini
-if diff $TESTDIR/urlfilter-pol2.ini $MAINDIR/opera/pol/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: polish/urlfilter.ini"
-else
+# Check for 0-sized file first
+# 
+if [ -n $GOOGLEDIR/opera/urlfilter-pol.ini ]
+then
+  cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-pol.ini > $TESTDIR/urlfilter-pol.ini
+  sed '/^$/d' $TESTDIR/urlfilter-pol.ini > $TESTDIR/urlfilter-pol2.ini
+  perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-pol2.ini
+  if diff $TESTDIR/urlfilter-pol2.ini $MAINDIR/opera/pol/urlfilter.ini > /dev/null ; then
+      echo "No Changes detected: polish/urlfilter.ini"
+  else
     echo "Updated: polish/urlfilter.ini & pol/complete/urlfilter.ini"
     cat $TESTDIR/urlfilter-stats.ini  $GOOGLEDIR/opera/urlfilter-pol.ini > $TESTDIR/urlfilter-pol-stats.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-pol-stats.ini
@@ -502,12 +522,21 @@ else
     rm -f $MAINDIR/opera/pol/urlfilter.ini.gz $MAINDIR/opera/pol/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/pol/complete/urfilter.ini.gz $TESTDIR/urlfilter-pol-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/pol/urlfilter.ini.gz $TESTDIR/urlfilter-pol2.ini > /dev/null
+  fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror urlfilter-pol.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
+
 # Opera Espanol
-cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-esp.ini > $TESTDIR/urlfilter-esp.ini
-sed '/^$/d' $TESTDIR/urlfilter-esp.ini  > $TESTDIR/urlfilter-esp2.ini
-perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-esp2.ini
-if diff $TESTDIR/urlfilter-esp2.ini $MAINDIR/opera/esp/urlfilter.ini > /dev/null ; then
+# Check for 0-sized file first
+#
+if [ -n $GOOGLEDIR/opera/urlfilter-esp.ini ]
+then
+  cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-esp.ini > $TESTDIR/urlfilter-esp.ini
+  sed '/^$/d' $TESTDIR/urlfilter-esp.ini  > $TESTDIR/urlfilter-esp2.ini
+  perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-esp2.ini
+  if diff $TESTDIR/urlfilter-esp2.ini $MAINDIR/opera/esp/urlfilter.ini > /dev/null ; then
     echo "No Changes detected: esp/urlfilter.ini"
 else
     echo "Updated: esp/urlfilter.ini & esp/complete/urlfilter.ini"
@@ -518,14 +547,23 @@ else
     rm -f $MAINDIR/opera/esp/urlfilter.ini.gz $MAINDIR/opera/esp/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/esp/urlfilter.ini.gz $TESTDIR/urlfilter-esp2.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/esp/complete/urlfilter.ini.gz $TESTDIR/urlfilter-esp-stats.ini >/dev/null
-fi
-# Opera Russian
-cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-rus.ini > $TESTDIR/urlfilter-rus.ini
-sed '/^$/d' $TESTDIR/urlfilter-rus.ini > $TESTDIR/urlfilter-rus2.ini
-perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-rus2.ini
-if diff $TESTDIR/urlfilter-rus2.ini $MAINDIR/opera/rus/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: rus/urlfilter.ini"
+  fi
 else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror urlfilter-esp.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
+fi
+
+# Opera Russian
+# Check for 0-sized file first
+#
+if [ -n $GOOGLEDIR/opera/urlfilter-rus.ini ]
+then
+  cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-rus.ini > $TESTDIR/urlfilter-rus.ini
+  sed '/^$/d' $TESTDIR/urlfilter-rus.ini > $TESTDIR/urlfilter-rus2.ini
+  perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-rus2.ini
+  if diff $TESTDIR/urlfilter-rus2.ini $MAINDIR/opera/rus/urlfilter.ini > /dev/null ; then
+    echo "No Changes detected: rus/urlfilter.ini"
+  else
     echo "Updated: rus/urlfilter.ini & rus/complete/urlfilter.ini"
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-rus.ini > $TESTDIR/urlfilter-rus-stats.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-rus-stats.ini
@@ -534,14 +572,23 @@ else
     rm -f $MAINDIR/opera/rus/complete/urlfilter.ini.gz $MAINDIR/opera/rus/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/rus/complete/urlfilter.ini.gz $TESTDIR/urlfilter-rus-stats.ini >/dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/rus/urlfilter.ini.gz $TESTDIR/urlfilter-rus2.ini >/dev/null
-fi
-# Opera Swedish
-cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-swe.ini > $TESTDIR/urlfilter-swe.ini
-sed '/^$/d' $TESTDIR/urlfilter-swe.ini > $TESTDIR/urlfilter-swe2.ini
-perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-swe2.ini
-if diff $TESTDIR/urlfilter-swe2.ini $MAINDIR/opera/swe/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: swe/urlfilter.ini"
+  fi
 else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror urlfilter-rus.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
+fi
+
+# Opera Swedish
+# Check for 0-sized file first
+#
+if [ -n $GOOGLEDIR/opera/urlfilter-swe.ini ]
+then
+  cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-swe.ini > $TESTDIR/urlfilter-swe.ini
+  sed '/^$/d' $TESTDIR/urlfilter-swe.ini > $TESTDIR/urlfilter-swe2.ini
+  perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-swe2.ini
+  if diff $TESTDIR/urlfilter-swe2.ini $MAINDIR/opera/swe/urlfilter.ini > /dev/null ; then
+    echo "No Changes detected: swe/urlfilter.ini"
+  else
     echo "Updated: swe/urlfilter.ini & swe/complete/urlfilter.ini"
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-swe.ini > $TESTDIR/urlfilter-swe-stats.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-swe-stats.ini
@@ -550,14 +597,23 @@ else
     rm -f $MAINDIR/opera/swe/urlfilter.ini.gz $MAINDIR/opera/swe/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/swe/complete/urlfilter.ini.gz $TESTDIR/urlfilter-swe-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/swe/urlfilter.ini.gz $TESTDIR/urlfilter-swe2.ini > /dev/null
-    fi
-# Opera JPN
-cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-jpn.ini > $TESTDIR/urlfilter-jpn.ini
-sed '/^$/d' $TESTDIR/urlfilter-jpn.ini > $TESTDIR/urlfilter-jpn2.ini
-perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-jpn2.ini
-if diff $TESTDIR/urlfilter-jpn2.ini $MAINDIR/opera/jpn/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: jpn/urlfilter.ini"
+  fi
 else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror urlfilter-swe.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
+fi
+    
+# Opera JPN
+# Check for 0-sized file first
+#
+if [ -n $GOOGLEDIR/opera/urlfilter-jpn.ini ]
+then
+  cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-jpn.ini > $TESTDIR/urlfilter-jpn.ini
+  sed '/^$/d' $TESTDIR/urlfilter-jpn.ini > $TESTDIR/urlfilter-jpn2.ini
+  perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-jpn2.ini
+  if diff $TESTDIR/urlfilter-jpn2.ini $MAINDIR/opera/jpn/urlfilter.ini > /dev/null ; then
+    echo "No Changes detected: jpn/urlfilter.ini"
+  else
     echo "Updated: jpn/urlfilter.ini & jpn/complete/urlfilter.ini"
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-jpn.ini > $TESTDIR/urlfilter-jpn-stats.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-jpn-stats.ini
@@ -566,14 +622,23 @@ else
     rm -f $MAINDIR/opera/jpn/urlfilter.ini.gz $MAINDIR/opera/jpn/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/jpn/complete/urlfilter.ini.gz $TESTDIR/urlfilter-jpn-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/jpn/urlfilter.ini.gz $TESTDIR/urlfilter-jpn2.ini > /dev/null
-fi
-# Opera VTN
-cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-vtn.ini > $TESTDIR/urlfilter-vtn.ini
-sed '/^$/d' $TESTDIR/urlfilter-vtn.ini > $TESTDIR/urlfilter-vtn2.ini
-perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-vtn2.ini
-if diff $TESTDIR/urlfilter-vtn2.ini $MAINDIR/opera/vtn/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: vtn/urlfilter.ini"
+  fi
 else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror urlfilter-jpn.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
+fi
+    
+# Opera VTN
+# Check for 0-sized file first
+#
+if [ -n $GOOGLEDIR/opera/urlfilter-vtn.ini ]
+then
+  cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-vtn.ini > $TESTDIR/urlfilter-vtn.ini
+  sed '/^$/d' $TESTDIR/urlfilter-vtn.ini > $TESTDIR/urlfilter-vtn2.ini
+  perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-vtn2.ini
+  if diff $TESTDIR/urlfilter-vtn2.ini $MAINDIR/opera/vtn/urlfilter.ini > /dev/null ; then
+    echo "No Changes detected: vtn/urlfilter.ini"
+  else
     echo "Updated: vtn/urlfilter.ini & vtn/complete/urlfilter.ini"
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-vtn.ini > $TESTDIR/urlfilter-vtn-stats.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-vtn-stats.ini
@@ -582,14 +647,23 @@ else
     rm -f $MAINDIR/opera/vtn/urlfilter.ini.gz $MAINDIR/opera/vtn/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/vtn/complete/urlfilter.ini.gz $TESTDIR/urlfilter-vtn-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/vtn/urlfilter.ini.gz $TESTDIR/urlfilter-vtn2.ini > /dev/null
-fi
-# Opera Turk
-cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-tky.ini > $TESTDIR/urlfilter-tky.ini
-sed '/^$/d' $TESTDIR/urlfilter-tky.ini >  $TESTDIR/urlfilter-tky2.ini
-perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-tky2.ini
-if diff $TESTDIR/urlfilter-tky2.ini $MAINDIR/opera/trky/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: trky/urlfilter.ini"
+  fi
 else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror urlfilter-vtn.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
+fi
+
+# Opera Turk
+# Check for 0-sized file first
+#
+if [ -n $GOOGLEDIR/opera/urlfilter-tky.ini ]
+then
+  cat $TESTDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-tky.ini > $TESTDIR/urlfilter-tky.ini
+  sed '/^$/d' $TESTDIR/urlfilter-tky.ini >  $TESTDIR/urlfilter-tky2.ini
+  perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-tky2.ini
+  if diff $TESTDIR/urlfilter-tky2.ini $MAINDIR/opera/trky/urlfilter.ini > /dev/null ; then
+    echo "No Changes detected: trky/urlfilter.ini"
+  else
     echo "Updated: trky/urlfilter.ini & trky/complete/urlfilter.ini"
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-tky.ini > $TESTDIR/urlfilter-tky-stats.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-tky-stats.ini
@@ -598,4 +672,8 @@ else
     rm -f $MAINDIR/opera/trky/complete/urlfilter.ini.gz $MAINDIR/opera/trky/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/trky/complete/urlfilter.ini.gz $TESTDIR/urlfilter-tky-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/trky/urlfilter.ini.gz $TESTDIR/urlfilter-tky2.ini > /dev/null
+  fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror urlfilter-tky.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
