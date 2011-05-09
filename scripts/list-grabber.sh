@@ -46,11 +46,12 @@ then
     echo "No changes detected: fanboy-adblock.txt" > /dev/null
   else
     # temp re-direct
-    # sed '5a\! Redirect: http://fanboy-adblock-list.googlecode.com/hg/fanboy-adblocklist-current-expanded.txt' $TESTDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/firefox-expanded.txt-org2
-    sed '5a\! Redirect: https://bitbucket.org/fanboy/fanboyadblock/raw/tip/fanboy-adblocklist-current-expanded.txt' $TESTDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/firefox-expanded.txt-org2
+    # sed '5a\! Redirect: http://fanboy-adblock-list.googlecode.com/hg/fanboy-adblocklist-current-expanded.txt' $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/firefox-expanded.txt-org2
+    sed '5a\! Redirect: https://bitbucket.org/fanboy/fanboyadblock/raw/tip/fanboy-adblocklist-current-expanded.txt' $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/firefox-expanded.txt-org2
     perl $TESTDIR/addChecksum.pl $TESTDIR/firefox-expanded.txt-org2
     mv $TESTDIR/firefox-expanded.txt-org2 $TESTDIR/fanboy-adblocklist-current-expanded.txt
-    cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt
+    # cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt
+    cp -f $TESTDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt
     rm -f $MAINDIR/fanboy-adblock.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-adblock.txt.gz $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt > /dev/null
     # The Dimensions List
