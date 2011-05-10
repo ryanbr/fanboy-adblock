@@ -39,22 +39,22 @@ perl sorter.pl ..\..\ie\fanboy-adblock-addon.txt
 perl sorter.pl ..\..\ie\fanboy-tracking-addon.txt
 perl sorter.pl ..\..\ie\fanboy-russian-addon.txt
 :: Lower case elements
-echo Convert Main list to lowercase...
-perl -pi.bak -we "s/DIV\[/div\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
-perl -pi.bak -we "s/LI\[/li\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
-perl -pi.bak -we "s/TD\[/td\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
-perl -pi.bak -we "s/TR\[/tr\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
-perl -pi.bak -we "s/TABLE\[/table\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
-perl -pi.bak -we "s/INPUT\[/input\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
-perl -pi.bak -we "s/P\[/p\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
-perl -pi.bak -we "s/A\[/a\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
-perl -pi.bak -we "s/FONT\[/font\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
-perl -pi.bak -we "s/FIELDSET\[/fieldset\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
-perl -pi.bak -we "s/IMG\[/img\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
-perl -pi.bak -we "s/SPAN\[/span\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
-perl -pi.bak -we "s/IFRAME\[/iframe\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
-perl -pi.bak -we "s/EM\[/em\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
-del /Q /F ..\..\fanboy-adblocklist-current-expanded.txt.bak
+:: echo Convert Main list to lowercase...
+:: perl -pi.bak -we "s/DIV\[/div\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+:: perl -pi.bak -we "s/LI\[/li\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+:: perl -pi.bak -we "s/TD\[/td\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+:: perl -pi.bak -we "s/TR\[/tr\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+:: perl -pi.bak -we "s/TABLE\[/table\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+:: perl -pi.bak -we "s/INPUT\[/input\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+:: perl -pi.bak -we "s/P\[/p\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+:: perl -pi.bak -we "s/A\[/a\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+:: perl -pi.bak -we "s/FONT\[/font\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+:: perl -pi.bak -we "s/FIELDSET\[/fieldset\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+:: perl -pi.bak -we "s/IMG\[/img\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+: :perl -pi.bak -we "s/SPAN\[/span\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+:: perl -pi.bak -we "s/IFRAME\[/iframe\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+:: perl -pi.bak -we "s/EM\[/em\[/g" ..\..\fanboy-adblocklist-current-expanded.txt
+:: del /Q /F ..\..\fanboy-adblocklist-current-expanded.txt.bak
 :: Call winscript
 cd ..\..
 echo Executing winscript...
