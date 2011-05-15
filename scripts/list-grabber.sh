@@ -463,6 +463,8 @@ then
     cp -f $TESTDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter.ini
     rm -f $MAINDIR/opera/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/urlfilter.ini.gz $TESTDIR/opera/urlfilter.ini > /dev/null
+    # Generate Iron script
+    exec $GOOGLEDIR/scripts/iron/russian-iron-generator.sh  
     # Combine tracking filter
     sed '/^$/d' $TESTDIR/urlfilter-stats.ini > $TESTDIR/urfilter-stats2.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urfilter-stats2.ini
@@ -473,6 +475,8 @@ then
       cp -f $TESTDIR/urfilter-stats2.ini $MAINDIR/opera/complete/urlfilter.ini
       rm -f $MAINDIR/opera/complete/urlfilter.ini.gz
       $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/complete/urlfilter.ini.gz $TESTDIR/urfilter-stats2.ini > /dev/null
+      # Generate Iron script
+      exec $GOOGLEDIR/scripts/iron/adblock-iron-generator.sh  
     fi
   fi
 else
@@ -499,6 +503,8 @@ then
      rm -f $MAINDIR/opera/cz/complete/urlfilter.ini.gz $MAINDIR/opera/cz/urlfilter.ini.gz
      $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/cz/complete/urlfilter.ini.gz $TESTDIR/urlfilter-cz-stats.ini > /dev/null
      $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/cz/urlfilter.ini.gz $TESTDIR/urlfilter-cz2.ini > /dev/null
+     # Generate Iron script
+     exec $GOOGLEDIR/scripts/iron/czech-iron-generator.sh  
   fi
 else
   # echo "Something went bad, file size is 0"
@@ -549,6 +555,8 @@ else
     rm -f $MAINDIR/opera/esp/urlfilter.ini.gz $MAINDIR/opera/esp/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/esp/urlfilter.ini.gz $TESTDIR/urlfilter-esp2.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/esp/complete/urlfilter.ini.gz $TESTDIR/urlfilter-esp-stats.ini >/dev/null
+    # Generate Iron script
+    exec $GOOGLEDIR/scripts/iron/espanol-iron-generator.sh  
   fi
 else
   # echo "Something went bad, file size is 0"
@@ -574,6 +582,8 @@ then
     rm -f $MAINDIR/opera/rus/complete/urlfilter.ini.gz $MAINDIR/opera/rus/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/rus/complete/urlfilter.ini.gz $TESTDIR/urlfilter-rus-stats.ini >/dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/rus/urlfilter.ini.gz $TESTDIR/urlfilter-rus2.ini >/dev/null
+    # Generate Iron script
+    exec $GOOGLEDIR/scripts/iron/russian-iron-generator.sh  
   fi
 else
   # echo "Something went bad, file size is 0"
@@ -624,6 +634,8 @@ then
     rm -f $MAINDIR/opera/jpn/urlfilter.ini.gz $MAINDIR/opera/jpn/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/jpn/complete/urlfilter.ini.gz $TESTDIR/urlfilter-jpn-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/jpn/urlfilter.ini.gz $TESTDIR/urlfilter-jpn2.ini > /dev/null
+    # Generate Iron script
+    exec $GOOGLEDIR/scripts/iron/japanese-iron-generator.sh  
   fi
 else
   # echo "Something went bad, file size is 0"
