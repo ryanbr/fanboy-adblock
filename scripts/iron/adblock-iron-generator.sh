@@ -27,13 +27,11 @@ TESTDIR="/tmp/iron"
 #
 sed -n '/exclude]/,/Wildcards/{/Wildcards/!p}' $MAINDIR/urlfilter.ini > $TESTDIR/urlfilter2.ini
 sed -n '/Stats list (Opera)/,/Wildcards/{/Wildcards/!p}' $MAINDIR/complete/urlfilter.ini > $TESTDIR/urlfilter3.ini
-sed -n '/Russian-addon/,/Wildcards/{/Wildcards/!p}'  $MAINDIR/rus/urlfilter.ini > $TESTDIR/urlfilter4.ini
 
 # remove the top line
 #
 sed '1d' $TESTDIR/urlfilter2.ini > $TESTDIR/urlfilter.ini
 sed '1d' $TESTDIR/urlfilter3.ini > $TESTDIR/urlfilter-stats.ini
-sed '1d' $TESTDIR/urlfilter4.ini > $TESTDIR/urlfilter-rus.ini
 
 # remove # from the file
 #
@@ -43,13 +41,11 @@ cat $IRONDIR/header.txt $TESTDIR/urlfilter2.ini > $TESTDIR/adblock.ini
 # Merge with tracking
 cat $TESTDIR/adblock.ini $TESTDIR/urlfilter-stats2.ini > $TESTDIR/adblock-stats.ini
 
-
 # remove any blank lines
 #
 sed '/^$/d' $TESTDIR/adblock.ini > $TESTDIR/adblock2.ini
 sed '/^$/d' $TESTDIR/adblock-stats.ini > $TESTDIR/adblock2-stats.ini
 
-#
 # remove any wildcards
 #
 tr -d '*' <$TESTDIR/adblock2.ini >$IRONDIR/adblock.ini
