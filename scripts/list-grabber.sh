@@ -37,6 +37,10 @@ rm -f $TESTDIR/opera/urlfilter.ini $TESTDIR/opera/urlfilter-stats.ini
 cp -f $MAINDIR/addChecksum.pl $MAINDIR/opera/addChecksum-opera.pl $TESTDIR
 cp -f $GOOGLEDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-stats.ini $TESTDIR/opera/
 
+# Make sure the shell scripts are exexcutable, all the time..
+#
+chmod a+x $GOOGLEDIR/scripts/ie/*.sh $GOOGLEDIR/scripts/iron/*.sh $GOOGLEDIR/scripts/*.sh
+
 # Main List
 # Check for 0-sized file first
 #
