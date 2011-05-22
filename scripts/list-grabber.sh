@@ -147,7 +147,7 @@ then
         cp -f $TESTDIR/fanboy-noele2.txt $MAINDIR/fanboy-adblock-noele.txt
         $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-adblock-noele.txt.gz $TESTDIR/fanboy-noele2.txt > /dev/null
         # Generate IE script
-        exec /etc/crons/ie/adblock-ie-generator.sh
+        $GOOGLEDIR/scripts/ie/adblock-ie-generator.sh
     fi
     echo "Updated: fanboy-adblock.txt" > /dev/null
   fi
@@ -171,7 +171,7 @@ then
     # Now combine with international list
     sh /etc/crons/hg-grab-intl.sh
     # Generate IE script
-    exec /etc/crons/ie/tracking-ie-generator.sh
+    $GOOGLEDIR/scripts/ie/tracking-ie-generator.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -209,7 +209,7 @@ then
    rm -f $MAINDIR/fanboy-czech.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-czech.txt.gz $MAINDIR/fanboy-czech.txt > /dev/null
    # Generate IE script
-   exec /etc/crons/ie/czech-ie-generator.sh
+   $GOOGLEDIR/scripts/ie/czech-ie-generator.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -229,7 +229,7 @@ then
    rm -f $MAINDIR/fanboy-russian.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-russian.txt.gz $MAINDIR/fanboy-russian.txt > /dev/null
    # Generate IE script
-   exec /etc/crons/ie/russian-ie-generator.sh
+   $GOOGLEDIR/scripts/ie/russian-ie-generator.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -249,7 +249,7 @@ then
    rm -f $MAINDIR/fanboy-turkish.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-turkish.txt.gz $MAINDIR/fanboy-turkish.txt > /dev/null
    # Generate IE script
-   exec /etc/crons/ie/turkish-ie-generator.sh 
+   $GOOGLEDIR/scripts/ie/turkish-ie-generator.sh 
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -269,7 +269,7 @@ then
    rm -f $MAINDIR/fanboy-japanese.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-japanese.txt.gz $MAINDIR/fanboy-japanese.txt > /dev/null
    # Generate IE script
-   exec /etc/crons/ie/italian-ie-generator.sh
+   $GOOGLEDIR/scripts/ie/italian-ie-generator.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -308,7 +308,7 @@ then
     rm -f $MAINDIR/fanboy-italian.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-italian.txt.gz $MAINDIR/fanboy-italian.txt > /dev/null
     # Generate IE script
-    exec /etc/crons/ie/italian-ie-generator.sh
+     $GOOGLEDIR/scripts/ie/italian-ie-generator.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -400,7 +400,7 @@ then
     rm -f $MAINDIR/fanboy-espanol.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-espanol.txt.gz $MAINDIR/fanboy-espanol.txt > /dev/null
 		# Generate IE script
-		exec /etc/crons/ie/espanol-ie-generator.sh
+		$GOOGLEDIR/scripts/ie/espanol-ie-generator.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -464,7 +464,7 @@ then
     rm -f $MAINDIR/opera/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/urlfilter.ini.gz $TESTDIR/opera/urlfilter.ini > /dev/null
     # Generate Iron script
-    exec $GOOGLEDIR/scripts/iron/russian-iron-generator.sh  
+    $GOOGLEDIR/scripts/iron/adblock-iron-generator.sh
     # Combine tracking filter
     sed '/^$/d' $TESTDIR/urlfilter-stats.ini > $TESTDIR/urfilter-stats2.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urfilter-stats2.ini
@@ -476,7 +476,7 @@ then
       rm -f $MAINDIR/opera/complete/urlfilter.ini.gz
       $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/complete/urlfilter.ini.gz $TESTDIR/urfilter-stats2.ini > /dev/null
       # Generate Iron script
-      exec $GOOGLEDIR/scripts/iron/adblock-iron-generator.sh  
+      $GOOGLEDIR/scripts/iron/adblock-iron-generator.sh  
     fi
   fi
 else
@@ -504,7 +504,7 @@ then
      $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/cz/complete/urlfilter.ini.gz $TESTDIR/urlfilter-cz-stats.ini > /dev/null
      $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/cz/urlfilter.ini.gz $TESTDIR/urlfilter-cz2.ini > /dev/null
      # Generate Iron script
-     exec $GOOGLEDIR/scripts/iron/czech-iron-generator.sh  
+     $GOOGLEDIR/scripts/iron/czech-iron-generator.sh  
   fi
 else
   # echo "Something went bad, file size is 0"
@@ -556,7 +556,7 @@ else
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/esp/urlfilter.ini.gz $TESTDIR/urlfilter-esp2.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/esp/complete/urlfilter.ini.gz $TESTDIR/urlfilter-esp-stats.ini >/dev/null
     # Generate Iron script
-    exec $GOOGLEDIR/scripts/iron/espanol-iron-generator.sh  
+    $GOOGLEDIR/scripts/iron/espanol-iron-generator.sh  
   fi
 else
   # echo "Something went bad, file size is 0"
@@ -583,7 +583,7 @@ then
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/rus/complete/urlfilter.ini.gz $TESTDIR/urlfilter-rus-stats.ini >/dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/rus/urlfilter.ini.gz $TESTDIR/urlfilter-rus2.ini >/dev/null
     # Generate Iron script
-    exec $GOOGLEDIR/scripts/iron/russian-iron-generator.sh  
+    $GOOGLEDIR/scripts/iron/russian-iron-generator.sh  
   fi
 else
   # echo "Something went bad, file size is 0"
@@ -635,7 +635,7 @@ then
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/jpn/complete/urlfilter.ini.gz $TESTDIR/urlfilter-jpn-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/jpn/urlfilter.ini.gz $TESTDIR/urlfilter-jpn2.ini > /dev/null
     # Generate Iron script
-    exec $GOOGLEDIR/scripts/iron/japanese-iron-generator.sh  
+    $GOOGLEDIR/scripts/iron/japanese-iron-generator.sh  
   fi
 else
   # echo "Something went bad, file size is 0"
