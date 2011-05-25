@@ -39,7 +39,7 @@ cp -f $GOOGLEDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-stats.ini $TESTD
 
 # Make sure the shell scripts are exexcutable, all the time..
 #
-chmod a+x $GOOGLEDIR/scripts/ie/*.sh $GOOGLEDIR/scripts/iron/*.sh $GOOGLEDIR/scripts/*.sh
+chmod a+x $GOOGLEDIR/scripts/ie/*.sh $GOOGLEDIR/scripts/iron/*.sh $GOOGLEDIR/scripts/*.sh $GOOGLEDIR/scripts/firefox/*.sh
 
 # Main List
 # Check for 0-sized file first
@@ -79,23 +79,8 @@ then
     
     # The Adult List
     #
-    rm -f $TESTDIR/fanboy-adult*.txt
-    sed  -n '/Adult Blocking Rules/,/Generic Hiding Rules/{/Generic Hiding Rules/!p}' $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-adult.txt
-    sed '1,2d' $TESTDIR/fanboy-adult.txt > $TESTDIR/fanboy-adult0.txt
-    sed -e '$d' $TESTDIR/fanboy-adult0.txt > $TESTDIR/fanboy-adult2.txt
-    cat $MAINDIR/header-adult.txt $TESTDIR/fanboy-adult2.txt > $TESTDIR/fanboy-adult.txt
-    perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-adult.txt
-    # Compare the Adult List on the website vs mercurial copy
-    #
-    if diff $TESTDIR/fanboy-adult.txt $MAINDIR/fanboy-adult.txt >/dev/null ; then
-        echo "No Changes detected: fanboy-adult.txt"
-      else
-        echo "Updated: fanboy-adult.txt"
-        cp -f $TESTDIR/fanboy-adult.txt $MAINDIR/fanboy-adult.txt
-        rm -f $MAINDIR/fanboy-adult.txt.gz
-        $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-adult.txt.gz $TESTDIR/fanboy-adult.txt > /dev/null
-    fi
-    
+    $GOOGLEDIR/scripts/firefox/fanboy-adult.sh
+
     # The P2P List
     #
     sed  -n '/P2P Rules/,/Adult Hiding FF 3.x Rules/{/Adult Hiding FF 3.x Rules/!p}' $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-p2p.txt
