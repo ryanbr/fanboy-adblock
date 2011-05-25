@@ -83,18 +83,8 @@ then
 
     # The P2P List
     #
-    sed  -n '/P2P Rules/,/Adult Hiding FF 3.x Rules/{/Adult Hiding FF 3.x Rules/!p}' $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-p2p.txt
-    sed '1,2d' $TESTDIR/fanboy-p2p.txt > $TESTDIR/fanboy-p3p.txt
-    sed -e '$d' $TESTDIR/fanboy-p3p.txt > $TESTDIR/fanboy-p2p.txt
-    cat $MAINDIR/header-p2p.txt $TESTDIR/fanboy-p2p.txt > $TESTDIR/fanboy-p2p.txt2
-    perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-p2p.txt2
-    if diff $TESTDIR/fanboy-p2p.txt2 $MAINDIR/fanboy-p2p.txt >/dev/null ; then
-        echo "No Changes detected: fanboy-p2p.txt"
-    else
-        echo "Updated: fanboy-p2p.txt"
-        rm -f $MAINDIR/fanboy-p2p.txt.gz
-        $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-p2p.txt.gz $TESTDIR/fanboy-p2p.txt2 > /dev/null
-    fi
+    $GOOGLEDIR/scripts/firefox/fanboy-p2p.sh
+
     # Seperage off CSS elements for Opera CSS
     sed -n '/Generic Hiding Rules/,/Common Element Rules/{/Common Element Rules/!p}' $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-css.txt
     # remove the top 3 lines
