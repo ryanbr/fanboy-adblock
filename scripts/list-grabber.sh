@@ -82,12 +82,8 @@ then
     rm -f $TESTDIR/fanboy-adult*.txt
     sed  -n '/Adult Blocking Rules/,/Generic Hiding Rules/{/Generic Hiding Rules/!p}' $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-adult.txt
     sed '1,2d' $TESTDIR/fanboy-adult.txt > $TESTDIR/fanboy-adult0.txt
-    sed -e '$d' $TESTDIR/fanboy-adult0.txt > $TESTDIR/fanboy-adult.txt
-    # Merge any Easylist-Adult Specfic stuff
-    #
-    sed '1,8d' $GOOGLEDIR/other/adult-addon.txt > $TESTDIR/adult-addon.txt2
-    cat $TESTDIR/fanboy-adult.txt $TESTDIR/adult-addon.txt2 > $TESTDIR/fanboy-adult-merged.txt
-    cat $MAINDIR/header-adult.txt $TESTDIR/fanboy-adult-merged.txt > $TESTDIR/fanboy-adult.txt
+    sed -e '$d' $TESTDIR/fanboy-adult0.txt > $TESTDIR/fanboy-adult2.txt
+    cat $MAINDIR/header-adult.txt $TESTDIR/fanboy-adult2.txt > $TESTDIR/fanboy-adult.txt
     perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-adult.txt
     # Compare the Adult List on the website vs mercurial copy
     #
