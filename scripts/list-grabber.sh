@@ -75,19 +75,7 @@ then
     
     # Seperate off Elements
     #
-    sed  -n '/Adblock Plus/,/p2p Element Firefox/{/p2p Element Firefox/!p}' $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-noele.txt
-    sed -e '$d' $TESTDIR/fanboy-noele.txt > $TESTDIR/fanboy-noele2.txt
-    perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-noele2.txt
-    if diff $TESTDIR/fanboy-noele2.txt $MAINDIR/fanboy-adblock-noele.txt > /dev/null ; then
-        echo "No Changes detected: fanboy-adblock-noele.txt"
-    else
-        echo "Updated: fanboy-adblock-noele.txt"
-        rm -f $MAINDIR/fanboy-adblock-noele.txt.gz
-        cp -f $TESTDIR/fanboy-noele2.txt $MAINDIR/fanboy-adblock-noele.txt
-        $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-adblock-noele.txt.gz $TESTDIR/fanboy-noele2.txt > /dev/null
-        # Generate IE script
-        $GOOGLEDIR/scripts/ie/adblock-ie-generator.sh
-    fi
+    $GOOGLEDIR/scripts/firefox/fanboy-noele.sh
     echo "Updated: fanboy-adblock.txt" > /dev/null
   fi
 else

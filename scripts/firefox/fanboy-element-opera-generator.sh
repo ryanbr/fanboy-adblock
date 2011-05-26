@@ -26,8 +26,9 @@ ZIP="/usr/local/bin/7za"
 #
 rm -f $TESTDIR/dim*.txt
 rm -f $TESTDIR/fanboy-adblocklist-current-expanded.txt
-  
-    
+
+cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $TESTDIR/fanboy-adblocklist-current-expanded.txt
+      
 # Seperage off CSS elements for Opera CSS
 sed -n '/Generic Hiding Rules/,/Common Element Rules/{/Common Element Rules/!p}' $TESTDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-css.txt
 
