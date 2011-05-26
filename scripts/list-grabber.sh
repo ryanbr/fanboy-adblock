@@ -403,7 +403,7 @@ then
       rm -f $MAINDIR/opera/complete/urlfilter.ini.gz
       $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/complete/urlfilter.ini.gz $TESTDIR/urfilter-stats2.ini > /dev/null
       # Generate Iron script
-      $GOOGLEDIR/scripts/iron/adblock-iron-generator.sh  
+      $GOOGLEDIR/scripts/iron/adblock-iron-generator-tracker.sh  
     fi
   fi
 else
