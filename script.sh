@@ -23,7 +23,11 @@ perl scripts/addChecksum.pl firefox-regional/fanboy-adblocklist-ind.txt
 perl scripts/addChecksum.pl firefox-regional/fanboy-adblocklist-pol.txt
 # Opera
 perl scripts/addChecksum-opera.pl opera/urlfilter.ini
-perl scripts/addChecksum.pl opera/fanboy-adblocklist-elements-v3.css
+# perl scripts/addChecksum.pl opera/fanboy-adblocklist-elements-v3.css
+# Internet Explorer
+perl scripts/addChecksum.pl ie/fanboy-adblock-addon.txt
+perl scripts/addChecksum.pl ie/fanboy-tracking-addon.txt
+perl scripts/addChecksum.pl ie/fanboy-russian-addon.txt
 # Now sync
 hg commit -m "$1"
 hg push
