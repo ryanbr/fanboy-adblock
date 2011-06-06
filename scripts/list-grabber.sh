@@ -105,6 +105,24 @@ else
   mail -s "Google mirror fanboy-adblocklist-stats.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
+# Enhanced Trackers
+# Check for 0-sized file first
+#
+if [ -n $GOOGLEDIR/enhancedstats-addon.txt ]
+then
+  if diff $GOOGLEDIR/enhancedstats-addon.txt $MAINDIR/enhancedstats.txt >/dev/null ; then
+    echo "No Changes detected: enhancedstats-addon.txt"
+  else
+    echo "Updated: enhancedstats-addon.txt"
+    cp -f $GOOGLEDIR/enhancedstats-addon.txt $MAINDIR/enhancedstats.txt
+    rm -f $MAINDIR/enhancedstats.txt.gz
+    $ZIP a -mx=9 -y -tgzip $MAINDIR/enhancedstats.txt.gz $MAINDIR/enhancedstats.txt > /dev/null
+ fi
+else
+  # echo "Something went bad, file size is 0"
+  mail -s "Google mirror enhancedstats.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+fi
+
 # Addon/Annoyances
 # Check for 0-sized file first
 #
