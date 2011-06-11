@@ -39,7 +39,9 @@ sed '1,2d' $TESTDIR/fanboy-css.txt > $TESTDIR/fanboy-css0.txt
 sed -e '$d' $TESTDIR/fanboy-css0.txt  > $TESTDIR/fanboy-css.txt
 
 # Remove selected lines (be very specific, include comma)
-# sed -i '/#testfilter,/d' fanboy-css.txt
+# sed -i '/#testfilter,/d' $TESTDIR/fanboy-css.txt
+sed -i '/.ad-vertical-container/d' $TESTDIR/fanboy-css.txt
+
 #
 # the magic, remove ## and #. and add , to each line
 
