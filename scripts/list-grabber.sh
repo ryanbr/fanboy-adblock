@@ -39,7 +39,7 @@ cp -f $GOOGLEDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-stats.ini $TESTD
 
 # Make sure the shell scripts are exexcutable, all the time..
 #
-chmod a+x $GOOGLEDIR/scripts/ie/*.sh $GOOGLEDIR/scripts/iron/*.sh $GOOGLEDIR/scripts/*.sh $GOOGLEDIR/scripts/firefox/*.sh
+chmod a+x $GOOGLEDIR/scripts/ie/*.sh $GOOGLEDIR/scripts/iron/*.sh $GOOGLEDIR/scripts/*.sh $GOOGLEDIR/scripts/firefox/*.sh $GOOGLEDIR/scripts/combine/*.sh
 
 # Main List
 # Check for 0-sized file first
@@ -76,6 +76,10 @@ then
     # Seperate off Elements
     #
     $GOOGLEDIR/scripts/firefox/fanboy-noele.sh
+    
+    # Combine (czech)
+    $GOOGLEDIR/scripts/combine/firefox-adblock-czech.sh
+    
     echo "Updated: fanboy-adblock.txt" > /dev/null
   fi
 else
@@ -155,6 +159,8 @@ then
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-czech.txt.gz $MAINDIR/fanboy-czech.txt > /dev/null
    # Generate IE script
    $GOOGLEDIR/scripts/ie/czech-ie-generator.sh
+   # Combine
+   $GOOGLEDIR/scripts/combine/firefox-adblock-czech.sh
  fi
 else
   # echo "Something went bad, file size is 0"
