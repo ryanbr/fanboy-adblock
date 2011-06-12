@@ -77,8 +77,30 @@ then
     #
     $GOOGLEDIR/scripts/firefox/fanboy-noele.sh
     
-    # Combine (czech)
+    # Combine (Czech)
     $GOOGLEDIR/scripts/combine/firefox-adblock-czech.sh
+    # Combine (Espanol)
+		$GOOGLEDIR/scripts/combine/firefox-adblock-esp.sh
+    # Combine (Russian)
+    $GOOGLEDIR/scripts/combine/firefox-adblock-rus.sh
+    # Combine (Japanese)
+    $GOOGLEDIR/scripts/combine/firefox-adblock-jpn.sh
+    # Combine (Swedish)
+    $GOOGLEDIR/scripts/combine/firefox-adblock-swe.sh
+    # Combine (Chinese)
+    $GOOGLEDIR/scripts/combine/firefox-adblock-chn.sh
+    # Combine (Vietnam)
+    $GOOGLEDIR/scripts/combine/firefox-adblock-vtn.sh
+    # Combine (Vietnam)
+    $GOOGLEDIR/scripts/combine/firefox-adblock-krn.sh
+    # Combine (Turkish)
+    $GOOGLEDIR/scripts/combine/firefox-adblock-turk.sh
+    # Combine (Italian)
+    $GOOGLEDIR/scripts/combine/firefox-adblock-ita.sh
+    # Combine (Polish)
+    $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh    
+    # Combine
+    $GOOGLEDIR/scripts/combine/firefox-adblock-tracking.sh
     
     echo "Updated: fanboy-adblock.txt" > /dev/null
   fi
@@ -103,6 +125,8 @@ then
     sh /etc/crons/hg-grab-intl.sh
     # Generate IE script
     $GOOGLEDIR/scripts/ie/tracking-ie-generator.sh
+    # Combine
+    $GOOGLEDIR/scripts/combine/firefox-adblock-tracking.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -181,6 +205,8 @@ then
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-russian.txt.gz $MAINDIR/fanboy-russian.txt > /dev/null
    # Generate IE script
    $GOOGLEDIR/scripts/ie/russian-ie-generator.sh
+   # Combine
+   $GOOGLEDIR/scripts/combine/firefox-adblock-rus.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -200,7 +226,9 @@ then
    rm -f $MAINDIR/fanboy-turkish.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-turkish.txt.gz $MAINDIR/fanboy-turkish.txt > /dev/null
    # Generate IE script
-   $GOOGLEDIR/scripts/ie/turkish-ie-generator.sh 
+   $GOOGLEDIR/scripts/ie/turkish-ie-generator.sh
+   # Combine
+   $GOOGLEDIR/scripts/combine/firefox-adblock-turk.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -221,6 +249,8 @@ then
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-japanese.txt.gz $MAINDIR/fanboy-japanese.txt > /dev/null
    # Generate IE script
    $GOOGLEDIR/scripts/ie/italian-ie-generator.sh
+   # Combine
+   $GOOGLEDIR/scripts/combine/firefox-adblock-jpn.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -239,6 +269,8 @@ then
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt
     rm -f $MAINDIR/fanboy-korean.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-korean.txt.gz $MAINDIR/fanboy-korean.txt > /dev/null
+    # Combine
+    $GOOGLEDIR/scripts/combine/firefox-adblock-krn.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -259,7 +291,9 @@ then
     rm -f $MAINDIR/fanboy-italian.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-italian.txt.gz $MAINDIR/fanboy-italian.txt > /dev/null
     # Generate IE script
-     $GOOGLEDIR/scripts/ie/italian-ie-generator.sh
+    $GOOGLEDIR/scripts/ie/italian-ie-generator.sh
+    # Combine
+    $GOOGLEDIR/scripts/combine/firefox-adblock-ita.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -278,6 +312,8 @@ then
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt
     rm -f $MAINDIR/fanboy-polish.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-polish.txt.gz $MAINDIR/fanboy-polish.txt /dev/null
+    # Combine
+    $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -296,6 +332,8 @@ then
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt
     rm -f $MAINDIR/fanboy-indian.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-indian.txt.gz $MAINDIR/fanboy-indian.txt > /dev/null
+    # Combine
+    $GOOGLEDIR/scripts/combine/firefox-adblock-ind.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -314,6 +352,8 @@ then
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt
     rm -f $MAINDIR/fanboy-vietnam.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-vietnam.txt.gz $MAINDIR/fanboy-vietnam.txt > /dev/null
+    # Combine
+    $GOOGLEDIR/scripts/combine/firefox-adblock-vtn.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -332,6 +372,8 @@ then
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt
     rm -f $MAINDIR/fanboy-chinese.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-chinese.txt.gz $MAINDIR/fanboy-chinese.txt > /dev/null
+    # Combine
+    $GOOGLEDIR/scripts/combine/firefox-adblock-chn.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -352,6 +394,8 @@ then
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-espanol.txt.gz $MAINDIR/fanboy-espanol.txt > /dev/null
 		# Generate IE script
 		$GOOGLEDIR/scripts/ie/espanol-ie-generator.sh
+		# Combine
+		$GOOGLEDIR/scripts/combine/firefox-adblock-esp.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -370,6 +414,8 @@ then
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt
     rm -f $MAINDIR/fanboy-swedish.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-swedish.txt.gz $MAINDIR/fanboy-swedish.txt > /dev/null
+    # Combine
+    $GOOGLEDIR/scripts/combine/firefox-adblock-swe.sh
  fi
 else
   # echo "Something went bad, file size is 0"
