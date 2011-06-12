@@ -1,5 +1,5 @@
 ! Fanboy's Adblock IE-russian-addon list
-! Checksum: SbfwcQqFgwv3U6IcPEHKAA
+! Checksum: jsijeHbD5KizH2+yfnrfJQ
 ! Updated: 13 Jun 2011
 ! This list expires after 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -27,3 +27,4 @@
 ||reklama.mb.vesti.ru^
 ||top100-images.rambler.ru^
 ||katrinfil.ru^
+||turbobit.ru^
