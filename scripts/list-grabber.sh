@@ -46,7 +46,7 @@ chmod a+x $GOOGLEDIR/scripts/ie/*.sh $GOOGLEDIR/scripts/iron/*.sh $GOOGLEDIR/scr
 #
 if [ -n $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt ]
 then
-  if diff $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt-org >/dev/null ; then
+  if diff $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt >/dev/null ; then
     echo "No changes detected: fanboy-adblock.txt" > /dev/null
   else
     cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt
