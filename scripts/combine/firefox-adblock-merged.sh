@@ -22,17 +22,15 @@ GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 TESTDIR="/tmp/ramdisk"
 ZIP="/usr/local/bin/7za"
 
-
 # Trim off header file (first 2 lines)
 #
-sed '1,2d' $GOOGLEDIR/fanboy-adblocklist-stats.txt > $TESTDIR/fanboy-stats-temp2.txt
 sed '1,2d' $GOOGLEDIR/enhancedstats-addon.txt > $TESTDIR/fanboy-enhanced.txt
 sed '1,2d' $GOOGLEDIR/fanboy-adblocklist-addon.txt > $TESTDIR/fanboy-addon.txt
 sed '1,2d' $MAINDIR/fanboy-tracking-complete.txt > $TESTDIR/fanboy-complete.txt
 
 # Merge to the files together
 #
-cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-stats-temp2.txt $TESTDIR/fanboy-complete.txt $TESTDIR/fanboy-enhanced.txt $TESTDIR/fanboy-addon.txt > $TESTDIR/fanboy-merged2.txt
+cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-complete.txt $TESTDIR/fanboy-enhanced.txt $TESTDIR/fanboy-addon.txt > $TESTDIR/fanboy-merged2.txt
 
 # Remove Empty Lines
 #
