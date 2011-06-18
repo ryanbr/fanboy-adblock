@@ -101,6 +101,7 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh    
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-tracking.sh
+    $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     
     echo "Updated: fanboy-adblock.txt" > /dev/null
   fi
@@ -127,6 +128,7 @@ then
     $GOOGLEDIR/scripts/ie/tracking-ie-generator.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-tracking.sh
+    $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -145,6 +147,8 @@ then
     cp -f $GOOGLEDIR/enhancedstats-addon.txt $MAINDIR/enhancedstats.txt
     rm -f $MAINDIR/enhancedstats.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/enhancedstats.txt.gz $MAINDIR/enhancedstats.txt > /dev/null
+    # Combine
+    $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
  fi
 else
   # echo "Something went bad, file size is 0"
@@ -163,6 +167,8 @@ then
     cp -f $GOOGLEDIR/fanboy-adblocklist-addon.txt $MAINDIR/fanboy-addon.txt
     rm -f $MAINDIR/fanboy-addon.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-addon.txt.gz $MAINDIR/fanboy-addon.txt > /dev/null
+    # Combine
+    $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
  fi
 else
   # echo "Something went bad, file size is 0"
