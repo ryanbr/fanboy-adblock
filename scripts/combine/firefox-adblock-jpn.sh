@@ -27,6 +27,15 @@ ZIP="/usr/local/bin/7za"
 #
 sed '1,2d' $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt > $TESTDIR/fanboy-jpn-temp2.txt
 
+# The Generic filters are already in the main list, dont need to doubleup on filters... remove "Japanese Generic (Standalone)"
+#
+sed -n '/Japanese-addon/,/Japanese Generic/{/Japanese Generic/!p}' $TESTDIR/fanboy-jpn-temp2.txt > $TESTDIR/fanboy-jpn-temp1.txt
+sed -n '/Japanese Site Specific/,$p' < $TESTDIR/fanboy-jpn-temp2.txt > $TESTDIR/fanboy-jpn-temp3.txt
+
+# Merge without Standalone Elements.
+#
+cat $TESTDIR/fanboy-jpn-temp1.txt $TESTDIR/fanboy-jpn-temp3.txt > $TESTDIR/fanboy-jpn-temp2.txt
+
 # Remove Empty Lines
 #
 sed '/^$/d' $TESTDIR/fanboy-jpn-temp2.txt > $TESTDIR/fanboy-jpn-temp.txt
