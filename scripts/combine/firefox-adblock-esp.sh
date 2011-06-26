@@ -27,6 +27,15 @@ ZIP="/usr/local/bin/7za"
 #
 sed '1,2d' $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt > $TESTDIR/fanboy-esp-temp.txt
 
+# The Generic filters are already in the main list, dont need to doubleup on filters... remove "Espanol Generic (Standalone)"
+#
+sed -n '/Spanish\/Portuguese Adblock/,/Spanish\/Portuguese Generic/{/Spanish\/Portuguese Generic/!p}' $TESTDIR/fanboy-esp-temp.txt > $TESTDIR/fanboy-esp-temp1.txt
+sed -n '/Japanese Site Specific/,$p' < $TESTDIR/fanboy-esp-temp.txt > $TESTDIR/fanboy-esp-temp3.txt
+
+# Merge without Standalone Elements.
+#
+cat $TESTDIR/fanboy-esp-temp1.txt $TESTDIR/fanboy-esp-temp3.txt > $TESTDIR/fanboy-esp-temp.txt
+
 # Seperage off Easylist filters
 #
 sed -n '/Portuguese Adblock/,/Easylist-specific/{/Easylist-specific/!p}' $TESTDIR/fanboy-esp-temp.txt > $TESTDIR/fanboy-esp-temp2.txt
