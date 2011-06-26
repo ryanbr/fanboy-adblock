@@ -30,7 +30,7 @@ sed '1,2d' $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt > $TESTDIR/fan
 # The Generic filters are already in the main list, dont need to doubleup on filters... remove "Espanol Generic (Standalone)"
 #
 sed -n '/Spanish\/Portuguese Adblock/,/Spanish\/Portuguese Generic/{/Spanish\/Portuguese Generic/!p}' $TESTDIR/fanboy-esp-temp.txt > $TESTDIR/fanboy-esp-temp1.txt
-sed -n '/Japanese Site Specific/,$p' < $TESTDIR/fanboy-esp-temp.txt > $TESTDIR/fanboy-esp-temp3.txt
+sed -n '/Generic Spanish\/Portuguese/,$p' < $TESTDIR/fanboy-esp-temp.txt > $TESTDIR/fanboy-esp-temp3.txt
 
 # Merge without Standalone Elements.
 #
