@@ -27,6 +27,15 @@ ZIP="/usr/local/bin/7za"
 #
 sed '1,2d' $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt > $TESTDIR/fanboy-rus-temp.txt
 
+# The Generic filters are already in the main list, dont need to doubleup on filters... remove "Russian Generic (Standalone)"
+#
+sed -n '/Russian-V2-addon/,/Russian Generic (Standalone)/{/Russian Generic (Standalone)/!p}' $TESTDIR/fanboy-rus-temp.txt > $TESTDIR/fanboy-rus-temp1.txt
+sed -n '/Russian Specific Element/,$p' < $TESTDIR/fanboy-rus-temp.txt > $TESTDIR/fanboy-rus-temp3.txt
+
+# Merge without Standalone Elements.
+#
+cat $TESTDIR/fanboy-rus-temp1.txt $TESTDIR/fanboy-rus-temp3.txt > $TESTDIR/fanboy-rus-temp.txt
+
 # Seperage off Easylist filters
 #
 sed -n '/Russian-V2-addon/,/Easylist-specific/{/Easylist-specific/!p}' $TESTDIR/fanboy-rus-temp.txt > $TESTDIR/fanboy-rus-temp2.txt
