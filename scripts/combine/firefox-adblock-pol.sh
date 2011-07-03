@@ -24,7 +24,7 @@ ZIP="/usr/local/bin/7za"
 
 # Remove Standalone Filters
 #
-sed -n '/Adblock Plus/,/Adblock Plus/{/Standalone/!p}' $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt > $TESTDIR/fanboy-pol-temp1.txt
+sed -n '/Adblock Plus/,/Standalone/{/Standalone/!p}' $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt > $TESTDIR/fanboy-pol-temp1.txt
 
 # Trim off header file (first 2 lines)
 #
