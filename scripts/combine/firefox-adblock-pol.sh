@@ -36,6 +36,7 @@ sed -i '/||adocean.pl^$third-party/d' $TESTDIR/fanboy-pol-temp2.txt
 sed -i '/||ads.adone.pl^$third-party/d' $TESTDIR/fanboy-pol-temp2.txt
 sed -i '/||metaffiliation.com^$third-party/d' $TESTDIR/fanboy-pol-temp2.txt
 sed -i '/||netsales.pl/d' $TESTDIR/fanboy-pol-temp2.txt
+sed -i '/\.swf?click/d' $TESTDIR/fanboy-pol-temp2.txt
 
 # Remove Empty Lines
 #
