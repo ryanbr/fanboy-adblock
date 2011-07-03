@@ -30,6 +30,13 @@ sed -n '/Adblock Plus/,/Standalone/{/Standalone/!p}' $GOOGLEDIR/firefox-regional
 #
 sed '1,2d' $TESTDIR/fanboy-pol-temp1.txt > $TESTDIR/fanboy-pol-temp2.txt
 
+# Remove Dubes
+#
+sed -i '/||adocean.pl^$third-party/d' $TESTDIR/fanboy-pol-temp2.txt
+sed -i '/||ads.adone.pl^$third-party/d' $TESTDIR/fanboy-pol-temp2.txt
+sed -i '/||metaffiliation.com^$third-party/d' $TESTDIR/fanboy-pol-temp2.txt
+sed -i '/||netsales.pl/d' $TESTDIR/fanboy-pol-temp2.txt
+
 # Remove Empty Lines
 #
 sed '/^$/d' $TESTDIR/fanboy-pol-temp2.txt > $TESTDIR/fanboy-pol-temp.txt
