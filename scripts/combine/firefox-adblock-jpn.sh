@@ -44,6 +44,15 @@ sed '/^$/d' $TESTDIR/fanboy-jpn-temp2.txt > $TESTDIR/fanboy-jpn-temp.txt
 #
 sed '$d' < $TESTDIR/fanboy-jpn-temp.txt > $TESTDIR/fanboy-jpn-temp2.txt
 
+# Remove Dubes
+#
+#cp -f $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-adblock.txt
+sed -i '/\.jp\/html.ng\//d' $TESTDIR/fanboy-jpn-temp2.txt
+sed -i '/||rcm-jp.amazon.co.jp/e/cm/d' $TESTDIR/fanboy-jpn-temp2.txt
+sed -i '/||impact-ad.jp^' $TESTDIR/fanboy-jpn-temp2.txt
+sed -i '/||advg.jp' $TESTDIR/fanboy-jpn-temp2.txt
+
+
 # Merge to the files together
 #
 cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-jpn-temp2.txt > $TESTDIR/fanboy-jpn-merged.txt
