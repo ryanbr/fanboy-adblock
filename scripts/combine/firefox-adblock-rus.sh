@@ -48,9 +48,17 @@ sed '/^$/d' $TESTDIR/fanboy-rus-temp2.txt > $TESTDIR/fanboy-rus-temp.txt
 #
 sed '$d' < $TESTDIR/fanboy-rus-temp.txt > $TESTDIR/fanboy-rus-temp2.txt
 
+# Remove Dubes
+#
+cp -f $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-adblock.txt
+sed -i '/||ad.adriver.ru^/d' $TESTDIR/fanboy-adblock.txt
+sed -i '/||ads.sup.com^/d' $TESTDIR/fanboy-adblock.txt
+sed -i '/\.swf?link1=http/d' $TESTDIR/fanboy-adblock.txt
+sed -i '/\.swf?link=http/d' $TESTDIR/fanboy-adblock.txt
+
 # Merge to the files together
 #
-cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-rus-temp2.txt > $TESTDIR/fanboy-rus-merged.txt
+cat $TESTDIR/fanboy-adblock.txt $TESTDIR/fanboy-rus-temp2.txt > $TESTDIR/fanboy-rus-merged.txt
 perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-rus-merged.txt
 
 # Copy Merged file to main dir
