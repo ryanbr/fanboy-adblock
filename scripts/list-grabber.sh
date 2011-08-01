@@ -50,6 +50,8 @@ then
     echo "No changes detected: fanboy-adblock.txt" > /dev/null
   else
     cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt
+    # Re-generate checksum
+    perl $TESTDIR/addChecksum.pl $MAINDIR/fanboy-adblock.txt
     rm -f $MAINDIR/fanboy-adblock.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-adblock.txt.gz $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt > /dev/null
     # perl $TESTDIR/addChecksum.pl $TESTDIR/firefox-expanded.txt-org2
@@ -120,8 +122,10 @@ then
    else
     echo "Updated: fanboy-tracking.txt"
     cp -f $GOOGLEDIR/fanboy-adblocklist-stats.txt $MAINDIR/fanboy-tracking.txt
+    # Re-generate checksum
+    perl $TESTDIR/addChecksum.pl $MAINDIR/fanboy-tracking.txt
     rm -f $MAINDIR/fanboy-tracking.txt.gz
-    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-tracking.txt.gz $GOOGLEDIR/fanboy-adblocklist-stats.txt > /dev/null
+    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-tracking.txt.gz $MAINDIR/fanboy-tracking.txt > /dev/null
     # Now combine with international list
     sh /etc/crons/hg-grab-intl.sh
     # Generate IE script
