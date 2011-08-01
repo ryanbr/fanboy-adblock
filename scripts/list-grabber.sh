@@ -53,7 +53,7 @@ then
     # Re-generate checksum
     perl $TESTDIR/addChecksum.pl $MAINDIR/fanboy-adblock.txt
     rm -f $MAINDIR/fanboy-adblock.txt.gz
-    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-adblock.txt.gz $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt > /dev/null
+    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-adblock.txt.gz $MAINDIR/fanboy-adblock.txt > /dev/null
     # perl $TESTDIR/addChecksum.pl $TESTDIR/firefox-expanded.txt-org2
     # cp -f $TESTDIR/firefox-expanded.txt-org2 $MAINDIR/fanboy-adblock.txt
     # cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt
