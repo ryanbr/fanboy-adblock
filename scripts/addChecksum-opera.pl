@@ -38,11 +38,11 @@ my $file = $ARGV[0];
 my $data = readFile($file);
 
 # Get existing checksum.
-$data =~ /^.*#\s*checksum[\s\-:]+([\w\+\/=]+).*\n/gmi;
+$data =~ /^.*;\s*checksum[\s\-:]+([\w\+\/=]+).*\n/gmi;
 my $oldchecksum = $1;
 
 # Remove already existing checksum
-$data =~ s/^.*#\s*checksum[\s\-:]+([\w\+\/=]+).*\n//gmi;
+$data =~ s/^.*;\s*checksum[\s\-:]+([\w\+\/=]+).*\n//gmi;
 
 # Calculate new checksum: remove all CR symbols and empty
 # lines and get an MD5 checksum of the result (base64-encoded,
@@ -74,7 +74,7 @@ $checksumData =~ s/\n+/\n/g;
 $checksum = md5_base64($checksumData);
 
 # Insert checksum into the file
-$data =~ s/(\r?\n)/$1# Checksum: $checksum$1/;
+$data =~ s/(\r?\n)/$1; Checksum: $checksum$1/;
 
 writeFile($file, $data);
 
