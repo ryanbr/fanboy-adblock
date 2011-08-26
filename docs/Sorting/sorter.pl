@@ -39,7 +39,7 @@ my $current = [];
 # Check "!", "[]" and "#" (Firefox and Opera)
 #
 while ( <$fh> ) {
-    if ( m/^(?:[!\[]|#\s)/ ) {
+    if ( m/^(?:[!\[]|#;\s)/ ) {
         output $current, $fhout;
         $current = [ $_ ];
     }

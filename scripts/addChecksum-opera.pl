@@ -65,7 +65,7 @@ my @months = qw(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec);
 my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime();
 $year += 1900; # Year is years since 1900.
 my $todaysdate = "$mday $months[$mon] $year";
-$data =~ s/(^.*#.*Updated:\s*)(.*)\s*$/$1$todaysdate/gmi;
+$data =~ s/(^.*;.*Updated:\s*)(.*)\s*$/$1$todaysdate/gmi;
 
 # Recalculate the checksum as we've altered the date.
 $checksumData = $data;
