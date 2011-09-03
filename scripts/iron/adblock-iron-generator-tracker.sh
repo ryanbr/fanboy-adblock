@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock Iron Convert script v1.0 (15/05/2011)
+# Fanboy Adblock Iron Convert script v1.1 (03/09/2011)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -23,19 +23,21 @@ ZIP="/usr/local/bin/7za"
 TESTDIR="/tmp/iron"
 
 
+# remove ; from the file
+#
+sed '/^\;/d' $MAINDIR/complete/urlfilter.ini > $TESTDIR/urlfilter-stats.ini
+
 # Split the Opera-specific stuff off... into its own list
 #
-sed -n '/Stats list (Opera)/,/Wildcards/{/Wildcards/!p}' $MAINDIR/complete/urlfilter.ini > $TESTDIR/urlfilter3.ini
+sed -n '/Stats list (Opera)/,/Wildcards/{/Wildcards/!p}' $TESTDIR/urlfilter-stats.ini > $TESTDIR/urlfilter3.ini
 
 # remove the top line
 #
 sed '1d' $TESTDIR/urlfilter3.ini > $TESTDIR/urlfilter-stats.ini
 
-# remove ; from the file
-#
-sed '/^\;/d' $TESTDIR/urlfilter-stats.ini > $TESTDIR/urlfilter-stats2.ini
 # Merge with tracking
-cat $IRONDIR/adblock.ini $TESTDIR/urlfilter-stats2.ini > $TESTDIR/adblock-stats.ini
+#
+cat $IRONDIR/adblock.ini $TESTDIR/urlfilter-stats.ini > $TESTDIR/adblock-stats.ini
 
 # remove any blank lines
 #

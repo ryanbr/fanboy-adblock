@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock Iron Convert script (espanol) v1.0 (15/05/2011)
+# Fanboy Adblock Iron Convert script (espanol) v1.1 (03/09/2011)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,21 +22,21 @@ GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 ZIP="/usr/local/bin/7za"
 TESTDIR="/tmp/iron"
 
+# remove ; from the file
+#
+sed '/^\;/d' $MAINDIR/esp/urlfilter.ini > $TESTDIR/urlfilter-esp.ini
+
 # Split the Opera-specific stuff off... into its own list
 #
-sed -n '/Portuguese-addon/,/Wildcards/{/Wildcards/!p}'  $MAINDIR/esp/urlfilter.ini > $TESTDIR/urlfilter4.ini
+sed -n '/Portuguese-addon/,/Wildcards/{/Wildcards/!p}'  $TESTDIR/urlfilter-esp.ini > $TESTDIR/urlfilter4.ini
 
 # remove the top line
 #
 sed '1d' $TESTDIR/urlfilter4.ini > $TESTDIR/urlfilter-esp.ini
 
-# remove ; from the file
-#
-sed '/^\;/d' $TESTDIR/urlfilter-esp.ini > $TESTDIR/urlfilter-esp2.ini
-
 # Merge with main
 #
-cat $IRONDIR/adblock.ini $TESTDIR/urlfilter-esp2.ini > $TESTDIR/adblock-esp.ini
+cat $IRONDIR/adblock.ini $TESTDIR/urlfilter-esp.ini > $TESTDIR/adblock-esp.ini
 
 # Merge with tracking
 #

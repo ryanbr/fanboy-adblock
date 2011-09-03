@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock Iron Convert script (russian) v1.0 (15/05/2011)
+# Fanboy Adblock Iron Convert script (russian) v1.1 (15/05/2011)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,21 +22,21 @@ GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 ZIP="/usr/local/bin/7za"
 TESTDIR="/tmp/iron"
 
+# remove ; from the file
+#
+sed '/^\;/d' $MAINDIR/rus/urlfilter.ini > $TESTDIR/urlfilter-rus.ini
+
 # Split the Opera-specific stuff off... into its own list
 #
-sed -n '/Russian-addon/,/Wildcards/{/Wildcards/!p}'  $MAINDIR/rus/urlfilter.ini > $TESTDIR/urlfilter4.ini
+sed -n '/Russian-addon/,/Wildcards/{/Wildcards/!p}'  $TESTDIR/urlfilter-rus.ini > $TESTDIR/urlfilter4.ini
 
 # remove the top line
 #
 sed '1d' $TESTDIR/urlfilter4.ini > $TESTDIR/urlfilter-rus.ini
 
-# remove ; from the file
-#
-sed '/^\;/d' $TESTDIR/urlfilter-rus.ini > $TESTDIR/urlfilter-rus2.ini
-
 # Merge with main
 #
-cat $IRONDIR/adblock.ini $TESTDIR/urlfilter-rus2.ini > $TESTDIR/adblock-rus.ini
+cat $IRONDIR/adblock.ini $TESTDIR/urlfilter-rus.ini > $TESTDIR/adblock-rus.ini
 
 # Merge with tracking
 #

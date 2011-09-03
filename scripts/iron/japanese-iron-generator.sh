@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock Iron Convert script (japanese) v1.0 (15/05/2011)
+# Fanboy Adblock Iron Convert script (japanese) v1.1 (03/09/2011)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,21 +22,22 @@ GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 ZIP="/usr/local/bin/7za"
 TESTDIR="/tmp/iron"
 
+
+# remove ; from the file
+#
+sed '/^\;/d' $MAINDIR/jpn/urlfilter.ini > $TESTDIR/urlfilter-jpn.ini
+
 # Split the Opera-specific stuff off... into its own list
 #
-sed -n '/Japanese-addon/,/Wildcards/{/Wildcards/!p}'  $MAINDIR/jpn/urlfilter.ini > $TESTDIR/urlfilter4.ini
+sed -n '/Japanese-addon/,/Wildcards/{/Wildcards/!p}'  $TESTDIR/urlfilter-jpn.ini > $TESTDIR/urlfilter4.ini
 
 # remove the top line
 #
 sed '1d' $TESTDIR/urlfilter4.ini > $TESTDIR/urlfilter-jpn.ini
 
-# remove ; from the file
-#
-sed '/^\;/d' $TESTDIR/urlfilter-jpn.ini > $TESTDIR/urlfilter-jpn2.ini
-
 # Merge with main
 #
-cat $IRONDIR/adblock.ini $TESTDIR/urlfilter-jpn2.ini > $TESTDIR/adblock-jpn.ini
+cat $IRONDIR/adblock.ini $TESTDIR/urlfilter-jpn.ini > $TESTDIR/adblock-jpn.ini
 
 # Merge with tracking
 #
