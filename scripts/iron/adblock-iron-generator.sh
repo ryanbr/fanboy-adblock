@@ -28,7 +28,7 @@ sed '/^\;/d' $MAINDIR/urlfilter.ini > $TESTDIR/urlfilter.ini
 
 # Split the Opera-specific stuff off... into its own list
 #
-sed -n '/exclude]/,/Wildcards/{/Wildcards/!p}' $MAINDIR/urlfilter.ini > $TESTDIR/urlfilter2.ini
+sed -n '/exclude]/,/Wildcards/{/Wildcards/!p}' $TESTDIR/urlfilter.ini > $TESTDIR/urlfilter2.ini
 
 # remove the top line
 #
