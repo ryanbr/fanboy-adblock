@@ -30,9 +30,9 @@ sed -n '/cz-addon/,/Wildcards/{/Wildcards/!p}'  $MAINDIR/cz/urlfilter.ini > $TES
 #
 sed '1d' $TESTDIR/urlfilter4.ini > $TESTDIR/urlfilter-cz.ini
 
-# remove # from the file
+# remove ; from the file
 #
-sed '/^\#/d' $TESTDIR/urlfilter-cz.ini > $TESTDIR/urlfilter-cz2.ini
+sed '/^\;/d' $TESTDIR/urlfilter-cz.ini > $TESTDIR/urlfilter-cz2.ini
 
 # Merge with main
 #

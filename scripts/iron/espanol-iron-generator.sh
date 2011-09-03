@@ -30,9 +30,9 @@ sed -n '/Portuguese-addon/,/Wildcards/{/Wildcards/!p}'  $MAINDIR/esp/urlfilter.i
 #
 sed '1d' $TESTDIR/urlfilter4.ini > $TESTDIR/urlfilter-esp.ini
 
-# remove # from the file
+# remove ; from the file
 #
-sed '/^\#/d' $TESTDIR/urlfilter-esp.ini > $TESTDIR/urlfilter-esp2.ini
+sed '/^\;/d' $TESTDIR/urlfilter-esp.ini > $TESTDIR/urlfilter-esp2.ini
 
 # Merge with main
 #

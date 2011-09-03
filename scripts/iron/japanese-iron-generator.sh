@@ -30,9 +30,9 @@ sed -n '/Japanese-addon/,/Wildcards/{/Wildcards/!p}'  $MAINDIR/jpn/urlfilter.ini
 #
 sed '1d' $TESTDIR/urlfilter4.ini > $TESTDIR/urlfilter-jpn.ini
 
-# remove # from the file
+# remove ; from the file
 #
-sed '/^\#/d' $TESTDIR/urlfilter-jpn.ini > $TESTDIR/urlfilter-jpn2.ini
+sed '/^\;/d' $TESTDIR/urlfilter-jpn.ini > $TESTDIR/urlfilter-jpn2.ini
 
 # Merge with main
 #

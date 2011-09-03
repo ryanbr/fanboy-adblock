@@ -31,9 +31,9 @@ sed -n '/Stats list (Opera)/,/Wildcards/{/Wildcards/!p}' $MAINDIR/complete/urlfi
 #
 sed '1d' $TESTDIR/urlfilter3.ini > $TESTDIR/urlfilter-stats.ini
 
-# remove # from the file
+# remove ; from the file
 #
-sed '/^\#/d' $TESTDIR/urlfilter-stats.ini > $TESTDIR/urlfilter-stats2.ini
+sed '/^\;/d' $TESTDIR/urlfilter-stats.ini > $TESTDIR/urlfilter-stats2.ini
 # Merge with tracking
 cat $IRONDIR/adblock.ini $TESTDIR/urlfilter-stats2.ini > $TESTDIR/adblock-stats.ini
 

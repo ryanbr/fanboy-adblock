@@ -30,9 +30,9 @@ sed -n '/Russian-addon/,/Wildcards/{/Wildcards/!p}'  $MAINDIR/rus/urlfilter.ini 
 #
 sed '1d' $TESTDIR/urlfilter4.ini > $TESTDIR/urlfilter-rus.ini
 
-# remove # from the file
+# remove ; from the file
 #
-sed '/^\#/d' $TESTDIR/urlfilter-rus.ini > $TESTDIR/urlfilter-rus2.ini
+sed '/^\;/d' $TESTDIR/urlfilter-rus.ini > $TESTDIR/urlfilter-rus2.ini
 
 # Merge with main
 #

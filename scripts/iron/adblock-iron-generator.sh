@@ -32,9 +32,9 @@ sed -n '/exclude]/,/Wildcards/{/Wildcards/!p}' $MAINDIR/urlfilter.ini > $TESTDIR
 #
 sed '1d' $TESTDIR/urlfilter2.ini > $TESTDIR/urlfilter.ini
 
-# remove # from the file
+# remove ; from the file
 #
-sed '/^\#/d' $TESTDIR/urlfilter.ini > $TESTDIR/urlfilter2.ini
+sed '/^\;/d' $TESTDIR/urlfilter.ini > $TESTDIR/urlfilter2.ini
 cat $IRONDIR/header.txt $TESTDIR/urlfilter2.ini > $TESTDIR/adblock.ini
 
 # remove any blank lines
