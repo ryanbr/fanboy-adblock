@@ -489,7 +489,8 @@ then
     shred -n 5 -z -u  $MAINDIR/opera/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/urlfilter.ini.gz $TESTDIR/opera/urlfilter.ini > /dev/null
     # Generate Iron script
-    $GOOGLEDIR/scripts/iron/adblock-iron-generator.sh
+    # Turn off for the time being.
+    # $GOOGLEDIR/scripts/iron/adblock-iron-generator.sh
     # Combine tracking filter
     sed '/^$/d' $TESTDIR/urlfilter-stats.ini > $TESTDIR/urfilter-stats2.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urfilter-stats2.ini
@@ -502,7 +503,8 @@ then
       shred -n 5 -z -u  $MAINDIR/opera/complete/urlfilter.ini.gz
       $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/complete/urlfilter.ini.gz $TESTDIR/urfilter-stats2.ini > /dev/null
       # Generate Iron script
-      $GOOGLEDIR/scripts/iron/adblock-iron-generator-tracker.sh  
+      # Turn off for the time being.
+      # $GOOGLEDIR/scripts/iron/adblock-iron-generator-tracker.sh  
     fi
   fi
 else
