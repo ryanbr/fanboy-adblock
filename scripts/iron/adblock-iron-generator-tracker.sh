@@ -23,17 +23,17 @@ ZIP="/usr/local/bin/7za"
 TESTDIR="/tmp/iron"
 
 
-# remove ; from the file
-#
-sed '/^\;/d' $MAINDIR/complete/urlfilter.ini > $TESTDIR/urlfilter-stats.ini
-
 # Split the Opera-specific stuff off... into its own list
 #
-sed -n '/Stats list (Opera)/,/Wildcards/{/Wildcards/!p}' $TESTDIR/urlfilter-stats.ini > $TESTDIR/urlfilter3.ini
+sed -n '/Stats list (Opera)/,/Wildcards/{/Wildcards/!p}' $MAINDIR/complete/urlfilter.ini > $TESTDIR/urlfilter3.ini
+
+# remove ; from the file
+#
+sed '/^\;/d' $TESTDIR/urlfilter3.ini > $TESTDIR/urlfilter4.ini
 
 # remove the top line
 #
-sed '1d' $TESTDIR/urlfilter3.ini > $TESTDIR/urlfilter-stats.ini
+sed '1d' $TESTDIR/urlfilter4.ini > $TESTDIR/urlfilter-stats.ini
 
 # Merge with tracking
 #
