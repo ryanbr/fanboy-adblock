@@ -23,21 +23,21 @@ ZIP="/usr/local/bin/7za"
 TESTDIR="/tmp/iron"
 
 
-# remove ; from the file
-#
-sed '/^\;/d' $MAINDIR/jpn/urlfilter.ini > $TESTDIR/urlfilter-jpn.ini
-
 # Split the Opera-specific stuff off... into its own list
 #
-sed -n '/Japanese-addon/,/Wildcards/{/Wildcards/!p}'  $TESTDIR/urlfilter-jpn.ini > $TESTDIR/urlfilter4.ini
+sed -n '/Japanese-addon/,/Wildcards/{/Wildcards/!p}'  $GOOGLEDIR/opera/urlfilter-jpn.ini > $TESTDIR/urlfilter4.ini
+
+# remove ; from the file
+#
+sed '/^\;/d' $TESTDIR/urlfilter4.ini > $TESTDIR/urlfilter-jpn.ini
 
 # remove the top line
 #
-sed '1d' $TESTDIR/urlfilter4.ini > $TESTDIR/urlfilter-jpn.ini
+sed '1d'  $TESTDIR/urlfilter-jpn.ini > $TESTDIR/urlfilter4.ini
 
 # Merge with main
 #
-cat $IRONDIR/adblock.ini $TESTDIR/urlfilter-jpn.ini > $TESTDIR/adblock-jpn.ini
+cat $IRONDIR/adblock.ini $TESTDIR/urlfilter4.ini > $TESTDIR/adblock-jpn.ini
 
 # Merge with tracking
 #

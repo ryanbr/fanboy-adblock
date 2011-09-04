@@ -22,17 +22,17 @@ GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 ZIP="/usr/local/bin/7za"
 TESTDIR="/tmp/iron"
 
-# remove ; from the file
-#
-sed '/^\;/d' $MAINDIR/urlfilter.ini > $TESTDIR/urlfilter.ini
-
 # Split the Opera-specific stuff off... into its own list
 #
-sed -n '/exclude]/,/Wildcards/{/Wildcards/!p}' $TESTDIR/urlfilter.ini > $TESTDIR/urlfilter2.ini
+sed -n '/exclude]/,/Wildcards/{/Wildcards/!p}' $MAINDIR/urlfilter.ini > $TESTDIR/urlfilter2.ini
+
+# remove ; from the file
+#
+sed '/^\;/d' $MAINDIR/urlfilter2.ini > $TESTDIR/urlfilter3.ini
 
 # remove the top line
 #
-sed '1d' $TESTDIR/urlfilter2.ini > $TESTDIR/urlfilter.ini
+sed '1d' $TESTDIR/urlfilter3.ini > $TESTDIR/urlfilter.ini
 
 # Merge with main
 #

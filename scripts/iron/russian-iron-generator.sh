@@ -22,21 +22,21 @@ GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 ZIP="/usr/local/bin/7za"
 TESTDIR="/tmp/iron"
 
-# remove ; from the file
-#
-sed '/^\;/d' $MAINDIR/rus/urlfilter.ini > $TESTDIR/urlfilter-rus.ini
-
 # Split the Opera-specific stuff off... into its own list
 #
-sed -n '/Russian-addon/,/Wildcards/{/Wildcards/!p}'  $TESTDIR/urlfilter-rus.ini > $TESTDIR/urlfilter4.ini
+sed -n '/Russian-addon/,/Wildcards/{/Wildcards/!p}'  $GOOGLEDIR/opera/urlfilter-rus.ini > $TESTDIR/urlfilter4.ini
+
+# remove ; from the file
+#
+sed '/^\;/d' $TESTDIR/urlfilter4.ini > $TESTDIR/urlfilter-rus.ini
 
 # remove the top line
 #
-sed '1d' $TESTDIR/urlfilter4.ini > $TESTDIR/urlfilter-rus.ini
+sed '1d' $TESTDIR/urlfilter-rus.ini > $TESTDIR/urlfilter4.ini
 
 # Merge with main
 #
-cat $IRONDIR/adblock.ini $TESTDIR/urlfilter-rus.ini > $TESTDIR/adblock-rus.ini
+cat $IRONDIR/adblock.ini $TESTDIR/urlfilter4.ini > $TESTDIR/adblock-rus.ini
 
 # Merge with tracking
 #
