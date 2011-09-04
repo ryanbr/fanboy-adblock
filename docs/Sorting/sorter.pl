@@ -36,10 +36,10 @@ my $newfile = $filename;
 binmode($fhout);
 my $current = [];
 # Process data
-# Check "!", "[]" and "#" (Firefox and Opera)
+# Check "!", "[]" and "#" and ";" (Firefox and Opera)
 #
 while ( <$fh> ) {
-    if ( m/^(?:[!\[]|#;\s)/ ) {
+    if ( m/^[!#;]|^\[]/ ) {
         output $current, $fhout;
         $current = [ $_ ];
     }
