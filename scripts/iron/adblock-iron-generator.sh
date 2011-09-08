@@ -28,7 +28,7 @@ sed -n '/exclude]/,/Wildcards/{/Wildcards/!p}' $MAINDIR/urlfilter.ini > $TESTDIR
 
 # remove ; from the file
 #
-sed '/^\;/d' $MAINDIR/urlfilter2.ini > $TESTDIR/urlfilter3.ini
+sed '/^\;/d' $TESTDIR/urlfilter2.ini > $TESTDIR/urlfilter3.ini
 
 # remove the top line
 #
