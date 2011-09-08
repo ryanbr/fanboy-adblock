@@ -28,7 +28,7 @@ sed -n '/Portuguese-addon/,/Wildcards/{/Wildcards/!p}'  $GOOGLEDIR/opera/urlfilt
 
 # remove ; from the file
 #
-sed '/^\;/d' $MAINDIR/esp/urlfilter4.ini > $TESTDIR/urlfilter-esp.ini
+sed '/^\;/d' $TESTDIR/urlfilter4.ini > $TESTDIR/urlfilter-esp.ini
 
 # remove the top line
 #
