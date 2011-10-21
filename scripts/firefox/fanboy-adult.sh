@@ -28,7 +28,7 @@ rm -f $TESTDIR/fanboy-adult*.txt
 rm -f $TESTDIR/fanboy-adblocklist-current-expanded.txt
 
 cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $TESTDIR/fanboy-adblocklist-current-expanded.txt
-sed  -n '/Adult Blocking Rules/,/P2P Rules/{/P2P Rules/!p}' $TESTDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-adult.txt
+sed  -n '/Adult Blocking Rules/,/1st Party P2P Rules/{/1st Party P2P Rules/!p}' $TESTDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-adult.txt
 sed  -n '/Adult Hiding FF 3.x Rules/,/Generic Hiding Rules/{/Generic Hiding Rules/!p}' $TESTDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-adult-ele.txt
 cat $TESTDIR/fanboy-adult.txt $TESTDIR/fanboy-adult-ele.txt > $TESTDIR/fanboy-adult2.txt
 sed -e '$d' $TESTDIR/fanboy-adult2.txt > $TESTDIR/fanboy-adult1.txt
