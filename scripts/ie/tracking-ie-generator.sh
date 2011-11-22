@@ -39,7 +39,7 @@ sed '1,8d' $GOOGLEDIR/ie/fanboy-tracking-addon.txt > $IEDIR/fanboy-tracking-addo
 
 # Merge with Google-code (IE adblock addon)
 #
-cat $MAINDIR/fanboy-tracking-complete.txt $IEDIR/fanboy-tracking-addon.txt > $IEDIR/fanboy-tracking-merged.txt
+cat $MAINDIR/fanboy-adblocklist-stats.txt $IEDIR/fanboy-tracking-addon.txt > $IEDIR/fanboy-tracking-merged.txt
 mv -f $IEDIR/fanboy-tracking-merged.txt $IEDIR/fanboy-tracking.txt
 
 # Remove Old files
