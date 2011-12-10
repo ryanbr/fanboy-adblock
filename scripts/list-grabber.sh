@@ -223,6 +223,8 @@ then
    $GOOGLEDIR/scripts/ie/russian-ie-generator.sh
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-rus.sh
+   # Generate Opera RUS script also
+   $GOOGLEDIR/scripts/firefox/opera-russian.sh
  fi
 else
   # echo "Something went bad, file size is 0"
