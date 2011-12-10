@@ -1,4 +1,4 @@
-  #!/bin/bash
+#!/bin/bash
 #
 # Fanboy Dimensions Adblock list grabber script v1.0 (26/05/2011)
 # Dual License CCby3.0/GPLv2
@@ -64,7 +64,9 @@ perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-css.txt
 if diff $TESTDIR/fanboy-css.txt $MAINDIR/opera/fanboy-adblocklist-elements-v4.css >/dev/null ; then
    echo "No Changes detected: fanboy-adblocklist-elements-v4.css"
  else
+
    cp -f $TESTDIR/fanboy-css.txt $MAINDIR/opera/fanboy-adblocklist-elements-v4.css
    rm -f $MAINDIR/opera/fanboy-adblocklist-elements-v4.css.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/fanboy-adblocklist-elements-v4.css.gz $MAINDIR/opera/fanboy-adblocklist-elements-v4.css > /dev/null
+   $GOOGLEDIR/scripts/firefox/opera-russian.sh
 fi
