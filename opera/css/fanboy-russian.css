@@ -1,0 +1,494 @@
+/*
+! Checksum: UrsFPnTfJwn1eHq6mvxqRw
+! Fanboy Optimised Element Russian Blocking
+! Version: V3 Updated: 14 Apr 2011
+! License: http://creativecommons.org/licenses/by-sa/3.0/
+! Email: fanboyadblock@googlegroups.com
+! Homepage: http://www.fanboy.co.nz/
+! Forums: http://forums.fanboy.co.nz/
+!
+*/
+#adriver_banner,
+#adriver_middle,
+#adriver_top,
+#b240x400,
+#b728x90,
+#b_adv,
+#banner-zone-righ,
+#banner-zone-top,
+#bottom_tiser,
+#top_tiser,
+#topAdv,
+.adv_partners,
+.afc_block,
+.b-adv-home-tgb,
+.b-adv-main-top-text,
+.b-adv-sidebar,
+.bc_adv_container,
+.post-tizer,
+.reklama-vert,
+.surbis_banner,
+.textAdv,
+.tibu_block,
+a[href^="http://clickcashmoney.com/"],
+a[href^="http://isms.pp.ru/jar.php?id"],
+a[href^="http://sugar-traff.com/voob_traff/"],
+a[href^="http://thetraffic.ru/in.cgi?"],
+div[id^="LC_Teaser_Block_"],
+div[id^="meta_news_block"],
+div[id^="PC_Teaser_Block_"],
+div[id^="Teaser_Block_"],
+div[id^="tizerbox"],
+/* 9111.ru */
+.advzone,
+/* ag.ru */
+#rotating_banners,
+#upadbg2,
+#.a_blk,
+/* ameno.ru */
+#BannerBlock300500,
+#RefContentBox,
+/* auto.dmir.ru */
+#bantop14,
+#bantop2,
+/* auto.ru */
+.advt_auto,
+/* avito.ru */
+.ad_1000x90,
+#a_300x250,
+/* biglu.ru */
+.b_biglion,
+/* bigmir.net */
+#widget_l_bottom_630,
+.b-banner_sm,
+.foot_sdvig,
+.premium_banner,
+/* cn.ru */
+#uf-banners,
+.ads-banner-js,
+.madv,
+/* cnews.ru */
+#banner300x250,
+#banner300x250_publication,
+#banner600x90,
+#banner90x90,
+#banner950x60,
+#banner960x60,
+#cnews_box,
+#cnews_center,
+#flash_115495,
+#mag_banner,
+#magna_block,
+.virt_bottom_banner,
+/* cosmo.ru */
+.adv-112x30,
+.afc_block2,
+.ban300x500,
+.Banner660,
+.banner_LEFT1,
+.block-300,
+/* darievna.ru */
+.ushki_widget_adsense,
+/* dni.ru */
+#tb_133_outer,
+#tb_135_outer,
+#tb_137_outer,
+#tb_491_outer,
+#tieserBlock1,
+#tieserBlock3,
+.partners-links,
+/* dreamlair.net */
+#hbanka,
+.reklam,
+/* eplus.com.ua */
+#adbn,
+/* etag.com.ua */
+#top468,
+/* eurosport.ru */
+#Container_OAS_Top,
+/* exler.ru */
+#BannerGBottom,
+#BannerGBottomMediaT,
+#BannerGCenter,
+#BannerGCenterMediaT,
+#BannerGIMG,
+#BannerGIMGMediaT,
+#BannerGTop,
+#BannerGTopMediaT,
+#BannerH2Left,
+#BannerHLeft,
+/* expert.ru */
+#ad-teaser,
+.partners-banners,
+.rt-banner,
+/* f1news.ru */
+#left_pan_title,
+#right_pan_logo,
+#rightBanner240,
+/* fanacmilan.com */
+#adTextausgPjIE,
+/* fashiontime.ru */
+#adriver_240x400_1,
+/* finance.ua */
+#banner-zone-bottom,
+#banner-zone-right,
+.adbutton-block,
+/* focus.ua */
+.Baner300,
+/* gdeetotdom.ru */
+.contentAdd,
+/* gigamir.net */
+#onona,
+/* gigamir.net */
+.banner-box,
+/* gorod.cn.ua */
+.bann_210,
+.bann_705,
+.cont_adv,
+/* hdtracker.ru */
+.mybantext,
+.plads,
+/* headhunter.com.kz */
+.b-topbanner,
+/* i.ua */
+#banner730,
+.Baner,
+/* ifolder.ru */
+.b-header-anc,
+.b-orject,
+/* ifreeapps.ru */
+#jv-banner,
+.bannerh_ifreeapps,
+/* in.md */
+#PopupskWin,
+/* infox.ru */
+.partner-bottom,
+/* irk.ru */
+.adv_news,
+.banner_place,
+/* isra.com */
+.adbg4,
+.adv240,
+/* israelinfo.ru */
+#ban300,
+/* itop.net */
+.adv_label,
+.advlabel,
+.sb_boot_adv,
+/* izvestia.ru */
+.anons1,
+.right_banner_block,
+.zag-banner,
+/* job.ru */
+.banner_728,
+.showcaseNew,
+/* kanobu.ru */
+.wide-banner-place,
+/* khl.ru */
+.banners240x250,
+/* kingoflink.ru */
+.promoblock_in,
+/* kiwi.kz */
+#banner300_250,
+/* kinopoisk.ru */
+a[href^="http://ad.adriver.ru/"],
+/* klumba.ua */
+.b-adblock_inline,
+.b-adblock_right,
+.b-adblock_top,
+/* kommersant.ru */
+.online240x100,
+.online240x50,
+/* korrespondent.net */
+.topbaner,
+/* kp.by */
+#banner-after-menu,
+#top-banners,
+.banner-middle,
+#banner-after-menu,
+#banner_27_content,
+#rBan,
+.banner-middle,
+.banner-slot-4,
+.uslot_banner,
+/* lifehacker.ru */
+.rblock1,
+.rblock4,
+#banner_120,
+/* lrnews.ru */
+.top_banner1,
+.top_banner2,
+/* mail.ru */
+#banner_2,
+#banner_container_1,
+#banner_left_container,
+#preload_banner_1,
+#right_banner,
+#third_banner,
+.ad-innr,
+.blockPartners2Iframe,
+.rb_banner,
+.top760,
+/* marketgid.com */
+#goods-hits-informer,
+/* mfd.ru */
+.mfd-banner,
+.textadv,
+/* mhealth.ru */
+.b240x150,
+.b240x400,
+.b550x240,
+.b660x120,
+.b960x90,
+.padadv,
+/* mignews.com.ua */
+#bbInformer235,
+#bbInformer235_2,
+#bigbordInformer,
+.tri-kolonki-left,
+.tri-kolonki-right,
+/* mk.ru */
+.mk_insert,
+/* motodrive.com.ua */
+.table_banners,
+/* motor.ru */
+.b-car-ad--4-cols-wrap,
+/* moyaradost.ru */
+#pasya_81,
+/* msk.ru */
+.advtBlock,
+.knopki,
+/* narod.ru */
+.b-banner,
+/* nashkiev.ua */
+.block-adv,
+.block-adv-975xauto,
+/* ners.ru */
+#yad_bottom,
+.adv_banner,
+/* newsru.com */
+#b125x217,
+/* ngs.ru */
+.block_adv,
+.iznhrhs,
+.vgisex,
+.zwfnlbz,
+/* nn.ru */
+.bbanners,
+/* novayagazeta.ru */
+.b-advert,
+/* novoteka.ru */
+#DIV_RIGHT_VERT_5,
+.outBlockVertAddLinks__,
+/* nowa.cc */
+#mc_100x_90,
+.mc_cars_row,
+/* nsoft-s.com */
+#ja-banner2,
+/* odnoklassniki.ru */
+#hook_Block_LeftColumnMobileAdLink,
+.leftCustomAdv,
+.sideadv,
+.topadv,
+/* oldi.ru */
+.leftadv,
+/* opennet.ru */
+#adv3,
+#ibm_adv,
+/* passion.ru */
+.adf_teasers,
+.banner-240x400,
+.ya-direct,
+/* planetaua.net */
+.hban,
+.BanBlock,
+.b-middle-banner,
+.b-premium-banner,
+.b-top-banners,
+/* polit.ru */
+.adv-block,
+/* pr-cy.ru */
+#footer-adv,
+#footer-adv-arrow,
+/* promodj.ru */
+.adv240x400,
+/* qip.ru */
+.q_teaser,
+/* qiq.ws */
+div[id^="MarketGid"],
+#icqwin_advmaker,
+/* rabota.ru */
+#tdTopBanner,
+.lider_vaca,
+.link_menu.pt_0,
+.dudwofp,
+/* radikal.ru */
+#left_ban,
+#left_ban2,
+#left_ban_micro,
+#right_ban,
+#right_ban2,
+/* rambler.ru */
+.b-adv,
+.bnplace_240x400,
+.inbann,
+.pgBanner,
+.pgBanT,
+.pgTeaser,
+.r--footer-news,
+.r--hat-search-promo,
+.rb--TopTeaser,
+a[href^="http://autocontext.begun.ru/search/?"],
+a[href^="http://www.begun.ru/advertiser/"],
+/* rbcdaily.ru */
+.bannerRight,
+.under_header_adv,
+/* readmanga.ru */
+.baner,
+.manga_ba,
+/* realmusic.ru */
+.advbg1,
+/* regnum.ru */
+.prbanner,
+/* relinka.net */
+#PopWin,
+a[href^="http://www.wupload.com/referral/"],
+/* rian.ru */
+#partners_block,
+#rightbanners,
+.banner3,
+.b-banner__extra,
+/* rusactors.ru */
+.rekl-foot,
+/* russia.ru */
+.reklam-block,
+/* russianews.ru */
+.darkbotleft,
+/* rutracker.org */
+#adriver-240x120,
+#bn-bot-wrap,
+/* rutube.ru */
+.promobanner,
+/* s3.ua */
+.unda_banner,
+/* say7.info */
+#adb1,
+#adb22,
+/* sibnet.ru */
+#sibAd_topline,
+.b-banner-topline,
+.l-main__block_banner-240x400,
+/* sinoptik.ua */
+.b-partners,
+/* smotri.com */
+#banner-header-bottom,
+/* spletnik.ru */
+.adv_left,
+/* sport.ua */
+#bann-240,
+#banner-1000,
+#banner-150,
+#banner-585,
+#flash_sport_poker,
+/* sportbox.ru */
+.sb_c_bud_bottom,
+.sb_c_shop_block,
+.sb_cp_bs_stl,
+/* sr-week.ru */
+.advt,
+#.sponsorslist,
+/* startrazvitiu.org */
+#optincrusher,
+/* stopgame.ru */
+.ban250,
+/* stopgame.ru */
+.ban468w,
+/* subscribe.ru */
+#yadb32,
+.banner640,
+/* tfile.ru */
+#foot_ban,
+/* timeout.ru */
+.b-branding,
+/* tks.ru */
+#banner_topline,
+/* topnews.ru */
+.bn_ir,
+.newsOfPartners,
+/* torrentino.com */
+.real-teasers,
+/* translate.ru */
+#bottomAdv,
+/* trend.az */
+.banner240,
+.banner728,
+/* tursvodka.ru */
+.h_yadircontext,
+/* u-mama.ru */
+#urwb1638,
+#urwb1722,
+#urwb1747,
+#urwb1752,
+#urwb1754,
+#urwb1759,
+/* uaua.info */
+.bnr_300_250,
+/* upload.com.ua */
+.info_banner_block,
+/* usde.biz */
+#er_PopWin,
+/* utro.ru */
+#flash_120479_ytro_fp_right,
+#flashrst_121213_ytpo_middle_big,
+.banner-middle,
+.banner-right,
+.banner_bottom_art,
+/* vakant.ru */
+#banner69,
+.bnbmiddle,
+.bnbside,
+.bnbtop,
+/* vedomosti.ru */
+#banner_rast,
+/* vedomosti.ru */
+.right_ban240,
+.right_ban400,
+/* vesti.kz */
+#banner3,
+#banner5,
+.ban_bg,
+.ban_border,
+.banner_order_reclama,
+.banner_vesti_reclama,
+/* virpl.ru */
+#om_partners,
+/* vkontakte.ru */
+#left_ads,
+/* vlasti.net */
+#mg-popup,
+/* vz.ru */
+#journalAnnosTop,
+/* webfile.ru */
+#rich_wiw_banner,
+/* x-console.com */
+#header-banner468,
+/* yandex.ru */
+#bannerJS,
+.b-place-adv,
+.b-spec-adv,
+.somebanner,
+/* yandex.ua */
+#teaser,
+/* zakon.kz */
+#banner-top-expandable,
+#nz10-place,
+#nz11-place,
+.adv-200-100,
+.adv-200-250,
+/* zaxid.net */
+#fakeCommercialBox,
+#internalbanner1,
+#internalbanner2,
+/* zhmak.info */
+#fp_adv2
+{ display: none !important }
