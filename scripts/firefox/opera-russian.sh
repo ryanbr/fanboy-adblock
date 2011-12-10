@@ -31,6 +31,10 @@ cp -f $MAINDIR/opera/fanboy-adblocklist-elements-v4.css $TESTDIR/opera-test.css
 #
 sed -e '$d' $TESTDIR/opera-test.css  > $TESTDIR/opera-test2.css
 
+# Remove selected lines (be very specific, include comma)
+# sed -i '/#testfilter,/d' $TESTDIR/fanboy-css.txt
+sed -i '/promo-power-centre/d' $TESTDIR/opera-test2.css
+
 # remove the top 10 lines (the comments of the Russian file)
 #
 sed '1,10d' $TESTDIR/opera-russian-test.css > $TESTDIR/opera-russian-test2.css
