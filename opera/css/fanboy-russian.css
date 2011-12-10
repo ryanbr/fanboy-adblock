@@ -464,6 +464,9 @@ a[href^="http://www.wupload.com/referral/"],
 #om_partners,
 /* vkontakte.ru */
 #left_ads,
+/* vgorode.ua */
+div[id^="join_informer_"],
+.right-ban,
 /* vlasti.net */
 #mg-popup,
 /* vz.ru */
