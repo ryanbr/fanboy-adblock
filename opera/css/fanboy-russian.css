@@ -253,6 +253,8 @@ a[href^="http://ad.adriver.ru/"],
 .mk_insert,
 /* pupsik.ru */
 a[href="http://24smile.org"],
+/* persik.ru */
+a[href^="http://www.grand-casino.com/?"],
 /* motodrive.com.ua */
 .table_banners,
 /* motor.ru */
