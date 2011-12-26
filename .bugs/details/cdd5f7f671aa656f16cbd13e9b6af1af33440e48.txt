@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ru-foto.com/prew.htm?gal=799;Relax;40;10
+
+
+[filters]
+http://mytizer.com/tizersx.php?sid=370&bn=Zc1ocVbSZ154iTrn1u26&noviewid=false&mythref=ru-foto.com
+http://tiz.mytizer.com/mytblocks/370/Zc1ocVbSZ154iTrn1u26.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
