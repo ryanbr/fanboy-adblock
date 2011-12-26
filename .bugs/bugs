@@ -3,6 +3,7 @@ http://testme.com                                            | owner:, open:True
 add other scripts                                            | owner:, open:True, id:18f633073cc21785dc2263c5925704e9c0d2f141, time:1324927178.61
                                                              | owner:, open:True, id:215fc92dcc7099032c0a28087981f7c7f4266515, time:1324925052.33
 http://testme.com                                            | owner:, open:True, id:4e13b500aa227786f7d517fd68f0720fe9dca617, time:1323598846.05
+testbat.bat http://www.speedtest.net/                        | owner:, open:True, id:5c974cc0a7c92eb680a4248ba70a135f0fbf66bb, time:1324928309.82
 test changes                                                 | owner:, open:True, id:63d4f487a4cef44efc20e45e316f0931379c910a, time:1324926668.17
 http://testme.com                                            | owner:, open:True, id:7abc332f33c824b5a397fe4b445131e66f77e3ab, time:1323599774.4
 http://testme.com                                            | owner:, open:True, id:7af384891a988345e9b702346d5aa0f48234be18, time:1323600567.12
