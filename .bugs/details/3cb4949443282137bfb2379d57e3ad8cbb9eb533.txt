@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hulu.com/
+
+
+[filters]
+~djmick.co.uk,~rbw.org.uk,~wisebread.com,~venturebeat.com##.sponsor
+
+
+
+
+[other]
+FP: http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&p=25579&sid=c4f88e3d5dc24b3144a71927e6bf9b03
+
+[comments]
+fanboy
