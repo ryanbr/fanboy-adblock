@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://tamilmini.net/downloads3/
+
+[filters]
+# Copy your Adblock filters here
+http://rtb.strikead.com/bid_imp?ic=CiRhNWMzZDcxYy1hYzY3LTQ3NTktOTQwZS04OTU5YzgzMzM3MzMQABoGMzIweDUwIIkCKKwKMP0OOJo-QAFSAFoAYgBqAHIAegJHQoIBAk43iAECkgEHRmlyZWZveJoBIGM0MDdhOWY5ODgzNzM3MmQ5YjA1YWM4MjhjMTI5MTU5oAEEqgEAsQFHBN5.Jyh9P7kBxDWFGX5-UT.BAcQ1hRl-flE.ygEA2gEgYzQwN2E5Zjk4ODM3MzcyZDliMDVhYzgyOGMxMjkxNTniAQdzXzIzNzcx6gEHcF8yOTY0MfEBAAAAAAAAAAD4AQCAAgCIAgCQAgaYAgI=&p=0.0010677558367037
+http://rtb.strikead.com/bid_imp?ic=CiRjMzhiYTE0OC1lNGM4LTQ4NmUtYTJlMS0yMDkxY2QzNjJhMGYQABoGMzIweDUwIIkCKKwKMP0OOJo-QAFSAFoAYgBqAHIAegJHQoIBAk43iAECkgEHRmlyZWZveJoBIGM0MDdhOWY5ODgzNzM3MmQ5YjA1YWM4MjhjMTI5MTU5oAEEqgEAsQFHBN5.Jyh9P7kBxDWFGX5-UT.BAcQ1hRl-flE.ygEA2gEgYzQwN2E5Zjk4ODM3MzcyZDliMDVhYzgyOGMxMjkxNTniAQdzXzIzNzcx6gEHcF8yOTY0MfEBAAAAAAAAAAD4AQCAAgCIAgCQAgaYAgI=&p=0.0010677558367037
+https://strikeadcdn.s3.amazonaws.com/asos/320x50.jpg
+https://strikeadcdn.s3.amazonaws.com/autotrader/QuickSearch_320x50.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+nitrox
