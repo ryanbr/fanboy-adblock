@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://eogli.org/
+
+
+[filters]
+http://js.novatizer.com/visual.php?id=120&design=322&cat=1&did=24978706
+http://js.novatizer.com/visual.php?id=120&design=346&cat=1&did=54892077
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
