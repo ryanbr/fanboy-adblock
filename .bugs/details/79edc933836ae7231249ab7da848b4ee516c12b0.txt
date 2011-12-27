@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://erotic.fmka.com.ua/
+
+
+[filters]
+http://vhub.ru/teaser/block.php?uid=1&bid=6&sid=1&w=125&t_w=120&type=v&count=9&fc=blue&fh=red&fs=10&ref=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
