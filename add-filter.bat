@@ -5,6 +5,8 @@
 :: "b = c:\Users\Username\Directory\..\b.py" (where ever the hg repo is)
 :: see: http://www.digitalgemstones.com/projects/b/
 hg pull -u
+:: b
+hg b add -e "%*"
 :: pre-sort
 perl docs\sorting\sorter.pl fanboy-adblocklist-current-expanded.txt
 perl docs\sorting\sorter.pl fanboy-adblocklist-stats.txt
@@ -66,8 +68,6 @@ perl scripts\addChecksum-opera.pl opera\urlfilter.ini
 perl scripts\addChecksum.pl ie\fanboy-adblock-addon.txt
 perl scripts\addChecksum.pl ie\fanboy-tracking-addon.txt
 perl scripts\addChecksum.pl ie\fanboy-russian-addon.txt
-:: b
-hg b add -e "%*"
 :: Commit
 hg commit -m "%*"
 hg push
