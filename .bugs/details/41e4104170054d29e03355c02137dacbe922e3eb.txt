@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://newslab.ru/
+
+
+[filters]
+newslab.ru###place_114
+newslab.ru###place_38
+http://s.newslab.ru/js/pl/ga.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
