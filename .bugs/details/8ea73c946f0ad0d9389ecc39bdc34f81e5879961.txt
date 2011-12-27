@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.blik.ua/content/view/50255/39/
+
+
+[filters]
+http://stat.blik.ua/cnt1.php?cid=1014&cook&ref=www.blik.ua/&d=24&w=1440&h=900&title=3%20%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%BE%D0%B3%D0%B8%D0%B1%D0%BB%D0%B8%20%D0%B8%203%20%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%B4%D0%B0%D0%BB%D0%B8%20%D0%BE%D1%82%20%D0%BE%D1%82%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B3%D0%B0%D0%B7%D0%BE%D0%BC%20%D0%BD%D0%B0%20%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BD%D0%B5%20-%20%D0%91%D0%9B%D0%98%D0%9A&author=%D0%92%D0%B0%D0%B4%D0%B8%D0%BA
+
+blik.ua##DIV[style="width: 800px; height: 100px; border: 1px solid #AAAAAA;"]
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
