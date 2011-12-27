@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://funday.com.ua/
+
+
+[filters]
+http://dimprive.com/39c/3e/bd6d14b859236100
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
