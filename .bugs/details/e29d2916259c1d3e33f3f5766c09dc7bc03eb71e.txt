@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://kino-films.info/
+
+
+[filters]
+http://tizer12.net/banner2.php?sid=12360&bn=8pj4OeJwWTS3dVUeJ1Xp&ad=0&ref=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
