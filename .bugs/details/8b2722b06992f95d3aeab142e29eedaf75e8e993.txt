@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://www.ibud.ua/
+
+[filters]
+# Copy your Adblock filters here
+http://www.banners.ibud.ua/ru/scr/banner/get-for-place/10/3451484476//
+http://www.banners.ibud.ua/ru/scr/banner/get-for-place/20/3451484476/-2/0
+http://www.banners.ibud.ua/ru/scr/banner/get-for-place/40/3451484476//
+http://www.banners.ibud.ua/ru/scr/banner/get-for-place/50/3451484476/-2/0
+http://www.banners.ibud.ua/ru/scr/banner/get-for-place/60/3451484476//
+http://www.banners.ibud.ua/ru/scr/brand/get-brand/-2/0
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+nitrox
