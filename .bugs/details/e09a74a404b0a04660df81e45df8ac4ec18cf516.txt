@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.uaportal.com/
+
+
+[filters]
+http://obozrevatel.com/js/maingemius.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
