@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vsekino.tv/
+
+[filters]
+http://lexament.com/javascript/y
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
