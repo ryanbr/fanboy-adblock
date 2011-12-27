@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://medportal.ru/enc/rheumatology/artro/
+
+
+[filters]
+medportal.ru##.billboard
+medportal.ru##.banner-exchange
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
