@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sex.clubnik.net/
+
+[filters]
+http://porn-ad.org/layer-59-1-subid:sex.js
+http://porn-ad.org/layer-59-1-subid:sex.js?fdc82d00
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
