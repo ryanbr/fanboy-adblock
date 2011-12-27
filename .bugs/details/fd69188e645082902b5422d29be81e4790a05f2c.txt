@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.drosel.ru/devushki/private/4265-pyanye-vypusknicy-bez-trusov-pod-yubkoj-38-foto.html
+
+
+[filters]
+http://deguiste.com/javascript/RcEP0Rlu0w9wQE
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
