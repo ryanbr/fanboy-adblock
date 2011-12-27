@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yobt.tv/content/150448/hailey-young-feels-the-pleasure-toy-making-her-snatch-actually-soaked-allover.html
+
+
+[filters]
+http://diz.yobt.tv/rec/f4_2.html
+http://diz.yobt.tv/rec/f4_3.html
+http://diz.yobt.tv/rec/footer_2.html
+http://diz.yobt.tv/rec/footer_3.html
+http://diz.yobt.tv/rec/right_1.html
+http://diz.yobt.tv/rec/right_4.html
+http://diz.yobt.tv/js/timerotation.3.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
