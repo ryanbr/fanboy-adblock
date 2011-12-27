@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bambey.ru/2008/09/17/pod-jubkojj.html
+
+[filters]
+http://barraien.com/73k965a2773fe/3/7e71
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
