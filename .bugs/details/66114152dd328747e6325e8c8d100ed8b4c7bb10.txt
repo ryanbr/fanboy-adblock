@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thisoldhouse.com/toh/tv/video/0,,20554656,00.html
+
+[filters]
+http://www-tc.pbs.org/s3/pbs.videoportal-prod.cdn/media/swf/DoubleClickInStreamAd.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
