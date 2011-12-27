@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sexytales.ru/
+
+
+[filters]
+http://vzhik-vzhik.com/frame.php?compaign_id=48&site_id=12&user_id=159&sub_id=1&path=%2F&bg=&text-color=000000&link=000000&hover=000000&col=1&row=2&width=120&height=400&font-family=-&box-border=&box-border-width=1&box-border-color=000000&cell-border=0&cell-border-width=1&cell-border-color=000000&cell-border-hover-color=000000&font-size=8&text-decoration=-&image-align=center%C2%AC-bold-title=0&geo-label=0&geo-label-text=%D0%97%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%B0+%D0%B2+%7Bcity%7D&geo-show=before&geo-align=-&div-id=div_e071d667ad51706d6440c66c3&rand=718231
+
+http://vietalle.com/89bf5f/7c8f5aff4dde/e
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
