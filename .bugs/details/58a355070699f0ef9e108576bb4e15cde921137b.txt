@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fraza.ua/
+
+
+[filters]
+fraza.ua##.left_banner
+fraza.ua##.cent_banner
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
