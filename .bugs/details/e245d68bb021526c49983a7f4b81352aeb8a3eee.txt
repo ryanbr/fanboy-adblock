@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://roefamilytree.com/
+
+
+[filters]
+http://roefamilytree.com/googlead336x280.php
+http://b.thebestlinks.com/button.cgi?btn=14&r=&s=1920-1080-24&u=http%3A//roefamilytree.com/&b=Netscape&bv=5.0%20(Windows)&rid=Y7YmlNwCt0&rn=0.23912704589092781
+http://wd.thebestlinks.com/images/widget_stats.png
+http://wd.thebestlinks.com/widget/tbl_widget.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
