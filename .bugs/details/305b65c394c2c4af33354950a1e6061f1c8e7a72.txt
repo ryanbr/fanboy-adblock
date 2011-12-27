@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fraza.ua/
+
+
+[filters]http://fraza.ua/analitics/26.12.11/131796/zajavlenie_mida_otkrovenie_litvina_i_prozrenie_timoshenko_kartina_dnja_26_dekabrja_2011.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
