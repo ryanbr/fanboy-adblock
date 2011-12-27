@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://eroman.ru/upskirt
+
+
+[filters]
+http://www.yadro.ru/cgi-bin/show?45,10,16658
+http://www.yadro.ru/cgi-bin/show?45,401,6147
+http://www.yadro.ru/cgi-bin/show?45,401,8608
+
+
+
+[other]
+Consolidate ||ad.yadro.ru^
+||counter.yadro.ru^$third-party
+||yadro.ru/ad/
+||ads.yadro.ru^$third-party
+||aif.yadro.ru^$third-party
+||ad.yadro.ru^
+
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=9071
+
+[comments]
+fanboy
