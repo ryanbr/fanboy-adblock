@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lifenews.ru/news/77980
+
+
+[filters]
+http://my.ya.ru/ajax/share-counter.xml?url=http://www.lifenews.ru/news/77980
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
