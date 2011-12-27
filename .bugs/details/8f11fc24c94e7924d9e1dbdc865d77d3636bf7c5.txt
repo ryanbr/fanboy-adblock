@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mayhem.3dn.ru/
+
+
+[filters]
+http://www.all-top.ru/cgi-bin/topcount.cgi?i=22562&j=1&n=Netscape&v=5.0%20%28Windows%29&r=&l=http%3A//mayhem.3dn.ru/&t=0.3238339433528573&c=-1&a=Mozilla/5.0%20%28Windows%20NT%206.1%3B%20WOW64%3B%20rv%3A9.0.1%29%20Gecko/20100101%20Firefox/9.0.1&s=1440x900x24
+http://top.myfilms.su/counter/?uid=90
+http://www.webgari.com/top/top.php?count=1946&style=0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
