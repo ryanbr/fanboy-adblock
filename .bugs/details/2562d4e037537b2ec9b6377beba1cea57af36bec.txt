@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.funnylinks.ru/
+
+
+[filters]
+http://82.179.196.146/addlog.ru/addlog_newage.js
+
+
+
+
+[other]
+
+
+
+[comments]
+fanboy
