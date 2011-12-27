@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.4shared.com/audio/CLGUx-HD/Naruto_Shippuuden_Opening_9__-.html
+
+
+[filters]
+http://sp.ltassrv.com/goads.swf
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9129
+
+
+[comments]
+fanboy
