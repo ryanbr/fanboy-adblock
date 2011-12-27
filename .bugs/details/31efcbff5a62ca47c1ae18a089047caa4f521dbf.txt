@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://zoomsex.ru/
+
+
+[filters]
+http://www.botsvisit.com/services/gblv/gblv.php?s=d349115bbcea6cda1094
+http://www.botsvisit.com/services/yblv/dyblv.php?s=d349115bbcea6cda1094
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
