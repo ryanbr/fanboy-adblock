@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://upskirters.ru/cameltoe/801-verblyuzhya-lapka-maloletki-v-zheltyh-obtyagivayuschih-shortah.html
+
+
+[filters]
+http://uno.wt-rotator.net/?t=impr&itck=25mTXSti96_8Nk6XiBSqROh1mAWw9grqdL7VEMoHxALr8cByjkYd5tWxoVroxxlbZUxf95eDTJXqgamn8jXXPwfa8nXwnLONQaZMgB5QuLR__h59iZJjJ5vjbFy6ejtEsFlQdHsVzNbXyVOtl_Mg1hT7F3RYIt8vCOCZAAETUKyVfDg2m0pvBlMhDacD1xan-rHmpFkyAdt_7F8MrAeiXH7saQSoKI3twKN_mJvBBmhJXp1SinUzEdpwxBpE_EVyHe3RX2s6VR0
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
