@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://x-zona.org/
+
+[filters]
+http://conternet.com/c4adf10333b480/c/03/
+http://academand.com/36t0/06fa4617db/a4/c
+http://outwitch.com/32x34ad7f8a3/e3/4
+http://javas.entercash.ru/sites/x-zona.org.js?ec_referrer=x-zona.org
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
