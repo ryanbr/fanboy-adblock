@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://porng.ru/videos/7523.html
+
+
+[filters]
+http://tonopole.com/52w6/c99b5015b
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
