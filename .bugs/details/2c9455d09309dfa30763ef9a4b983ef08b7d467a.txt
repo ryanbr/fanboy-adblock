@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lady.ru/mama/
+
+
+[filters]
+http://media.ads.lady.ru/54add723fd40db9d2b33feec3012579e.swf
+http://media.ads.lady.ru/b50ac7b6c5c496d60853e1a1de82bdb6.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
