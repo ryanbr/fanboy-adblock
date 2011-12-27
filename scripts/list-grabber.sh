@@ -453,9 +453,9 @@ fi
 # Gannett
 # Check for 0-sized file first
 # 
-if [ -n $GOOGLEDIR/adblock-gannett.txt ]
+if [ -n $GOOGLEDIR/other/adblock-gannett.txt ]
 then
- if diff $GOOGLEDIR/adblock-gannett.txt $MAINDIR/adblock-gannett.txt > /dev/null ; then
+ if diff $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt > /dev/null ; then
     echo "No Changes detected: fanboy-gannett.txt"
    else
     echo "Updated: fanboy-gannett.txt"
