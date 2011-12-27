@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gq.com/style/style-guy/accessories/200104/winter-hat
+
+
+[filters]
+http://www.gq.com/css/i/colorbox/loading_background.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
