@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://molodart.com.ua/phototricks/
+
+
+[filters]
+http://uno.wt-rotator12.ru/?t=br&noadult=1&pid=219
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
