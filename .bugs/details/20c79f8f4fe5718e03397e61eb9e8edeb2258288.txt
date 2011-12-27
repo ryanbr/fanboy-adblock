@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://2porn.ru/download_film/24065-Sochnaya_devka_na_pornokastinge_.html
+
+
+[filters]
+http://illiap.com/5o2a/0dd2/b4fed1e
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
