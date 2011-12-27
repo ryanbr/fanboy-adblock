@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sympaty.net/
+
+
+[filters]
+http://tizer.in/iframe.php?r=63073&id=55
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
