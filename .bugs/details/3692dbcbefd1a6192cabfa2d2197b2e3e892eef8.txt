@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://www.southparkstudios.com/clips/151728/merry-fing-christmas
+
+[filters]
+# Copy your Adblock filters here
+http://www.southparkstudios.com/layout/skin_v3jq/img/cmn/adtag_300x250_side.gif
+http://www.southparkstudios.com/layout/skin_v3jq/img/cmn/adtag_728x90.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+nitrox
