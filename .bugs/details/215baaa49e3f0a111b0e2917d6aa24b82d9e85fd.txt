@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bbs.clutchfans.net/showthread.php?t=171043
+
+
+[filters]
+http://www.clutchfans.net/rockets_mix/ad_300.html?r=4
+http://www.clutchfans.net/rockets_mix/ad_728.html?nba-basketball
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
