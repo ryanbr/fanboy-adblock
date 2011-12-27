@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://adaltmovies.ru/russkaya-suchka-traxaetsya-s-lyubovnikom-poka-muzh-spit/
+
+
+[filters]
+http://embed.redtube.com/stats/?action=impressions
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
