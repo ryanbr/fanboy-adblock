@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bankforeclosuressale.com/list/ne/cherry.html
+
+
+[filters]
+http://www.bankforeclosuressale.com/js/socialButtonTracker.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
