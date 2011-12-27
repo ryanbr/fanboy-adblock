@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pornman.ru/onload2.php?p2=9
+
+
+[filters]
+http://anniere.com/javascript/J6600P4w0p
+http://anniere.com/wp-includes/js/jquery/jquery.js
+http://cs.interieu.com/static/524/262001.js
+http://i.interieu.com/static/593/296829.js
+http://imparfum.com/main.js?imparfum.com
+http://imparfum.com/public/js/SKT0w0u60wMe
+http://teasertraffic.com/show/?block_id=23&r=&19065
+http://teasertraffic.com/show/?block_id=31&r=&20232
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
