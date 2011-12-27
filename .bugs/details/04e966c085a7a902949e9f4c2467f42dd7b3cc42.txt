@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bugaga.kz/
+
+
+[filters]
+http://internets.kz/js/counter.js
+http://internets.kz/js/counter5.php?s=bugaga.kz&rf=&sw=1440&sh=900&c=24&os=Win32&lang=en-US&u=http%3A%2F%2Fbugaga.kz%2F&rnd=365311
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
