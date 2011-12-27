@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://mnekino.ru/
+
+[filters]
+# Copy your Adblock filters here
+http://uno.wt-rotator11.ru/?t=tl&noadult=1&pid=19638
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+nitrox
