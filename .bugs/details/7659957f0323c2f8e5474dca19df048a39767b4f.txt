@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://porno-fotograf.ru/upskirt/
+
+
+[filters]
+http://sovietit.com/javascript/4UGrDna5V
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
