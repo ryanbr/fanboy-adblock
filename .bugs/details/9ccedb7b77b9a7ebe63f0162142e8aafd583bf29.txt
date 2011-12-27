@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nokich.ru/
+
+
+[filters]
+http://www.erotizz.info/iframe.php?id=2588
+http://www.erotizzer.info/iframe.php?id=2588
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
