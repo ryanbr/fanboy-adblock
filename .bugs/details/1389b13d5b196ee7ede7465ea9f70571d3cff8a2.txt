@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://films-online.ru/
+
+
+[filters]
+http://loadmovie.ru/slider/br.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
