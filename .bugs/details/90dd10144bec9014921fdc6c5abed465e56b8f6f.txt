@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kariera.idr.ru/
+
+
+[filters]
+http://banner.idr.ru/jbanner?use=frm&place=57&fw=213&fh=331
+http://banner.idr.ru/jbanner?place=9&use=frm
+http://banner.idr.ru/jbanner?action=26&use=frm
+
+
+
+
+[other]
+Changed from 3rd party
+
+
+[comments]
+fanboy
