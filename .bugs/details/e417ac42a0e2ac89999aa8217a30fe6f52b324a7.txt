@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://funnypicture.zoda.ru/
+
+
+[filters]
+http://gameadnet.ru/js/peeldown.php?id=87
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
