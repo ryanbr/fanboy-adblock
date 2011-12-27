@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://duckduckgo.com/?q=python+cookbook
+
+[filters]
+# Copy your Adblock filters here
+http://duckduckgo.com/y.js?t=c
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+nitrox
