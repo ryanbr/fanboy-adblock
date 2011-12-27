@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://votetozhopa.ru/video/029271-Hentaj_telka_ebet_sama_sebya
+
+
+[filters]
+http://save.awmengine.net/?hub=pornhub.com&id_hub=002000468&videokey=d17892563a
+http://save.awmengine.net/?hub=pornhub.com&id_hub=002000468&videokey=d17892563a&start=9185140
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
