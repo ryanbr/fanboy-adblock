@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bravotube.net/videos/fucking-a-czech-babe-in-a-public-restroom/
+
+
+[filters]http://www.bravotube.net/dp.html
+http://www.bravotube.net/if/f1.html
+http://www.bravotube.net/if/f2.html
+http://www.bravotube.net/if/f3.html
+http://www.bravotube.net/if/f4.html
+http://www.bravotube.net/if/ntva.html
+http://www.bravotube.net/if/ntvb.html
+http://www.bravotube.net/if/ntvc.html
+http://www.bravotube.net/if/post-roll.html
+
+[other]
+
+
+[comments]
+nitrox
