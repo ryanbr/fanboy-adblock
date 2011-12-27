@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sestrenka.ru/
+
+
+[filters]
+http://zaers.ru/tizer1/js.php?type=1&cells=2&style=mytizor&divid=mytizor&enc=0&r=7
+http://zaers.ru/tizer1/js2.php?cols=1&rows=1&style=mytizor8&divid=mytizor8&enc=0&r=1,7
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
