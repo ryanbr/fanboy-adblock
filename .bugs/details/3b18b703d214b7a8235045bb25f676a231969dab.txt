@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://afoni.net/
+
+
+[filters]
+http://govereign.com/c5rea5b86167/8/
+http://divertura.com/41t5c/4/319f56
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
