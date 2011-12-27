@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://kinotvonline.ru/
+
+[filters]
+# Copy your Adblock filters here
+http://w81x63c.ws.md/c.png?i=1527&p=22&c=1&fr=0&w=1443x792&j=1&s=1600x1200&d=24&js=1.3&i=1527&l=http%3A//kinotvonline.ru/&r=
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+nitrox
