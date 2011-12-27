@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://showbiz.mail.ru/video/news/96156
+
+
+[filters]
+http://my.mail.ru/dstat?Id=1EC8C77E-10FB-C537-A771-7BF036109DA8&IsAutoPlayTurnedOn=y&Version=11.1&MovieSrc=corp/showbiz-video/3/1577&PlayerVersion=17&VideoProviderType=UGC&t=grs_vmr_player_session&Os=Windows%207&ActiveEmail=null&Sid=9A4261B8-C0CA-CA56-736F-7BF0362097D4&UserAgent=Mozilla/5.0%20(Windows%20NT%206.1;%20WOW64;%20rv:9.0.1)%20Gecko/20100101%20Firefox/9.0.1&VcontentHost=okcontent.video.mail.ru&Accid=3654248&IsPlayerExternal=n&Resolution=1440x900&LocationHref=http%3A//showbiz.mail.ru/video/news/96156&Referrer=http%3A//showbiz.mail.ru/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
