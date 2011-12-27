@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pihach.com/black/489-white-cock-pounding-indian-pussy.html
+
+
+[filters]
+# Copy your Adblock filters here
+
+
+
+
+[other]
+http://cliennes.com/a8b26516f7f60dc
+http://cliennes.com/wp-includes/js/jquery/jquery.js
+
+
+[comments]
+fanboy
