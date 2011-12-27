@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vodkov.net/
+
+
+[filters]
+http://uno.wt-rotator.net/?t=impr&itck=25mTXSti96_8Nk6XiBSqujf3fcNFHqbiBRuzPyyHevW72FcNXuufmy6teW7QlleRH1mmSgUi1kgexbMzZ5wkLWAdZOJz1xVABu_ypnPJZrA5k-i0MhclEr7cMnmbku3ltB_hhStSam_dD3YJ1z3KykxxMu2eCxhou0OosXcSSYVvsjKlQTiA_GBFf8dY80Us42EVUmGLpaaIif2it_A1aris5nwpWpAawxxx6J8pm_tFFkqWwrWuKfqgYdLzVLS4M51A3bYsdb1nKSvc
+
+http://uno.wt-rotator.net/?t=rot&pid=34243
+
+vodkov.net##.ammblock
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
