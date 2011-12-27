@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sweetass.ru/
+
+
+[filters]
+http://www.erotizzer.info/iframe.php?id=2985
+http://www.erotizzer.info/js.php?id=2985&did=et2985_1278589674
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
