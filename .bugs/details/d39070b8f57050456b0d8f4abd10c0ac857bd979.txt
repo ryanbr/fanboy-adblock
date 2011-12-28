@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://traxsuper.ru/russian-porno/
+
+
+[filters]
+http://almosto.com/d6f3/170a8fba000f81a6/
+http://dafferes.com/28/f21/4/7683d36cf479de9
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
