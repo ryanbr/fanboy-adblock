@@ -3,7 +3,6 @@ Tools required
 Activeperl   (http://www.activestate.com/activeperl/)
 Mercurial    (http://mercurial.selenic.com)
 Text Editor  (http://www.pspad.com , http://notepad-plus-plus.org/)
-TortoiseHG   (http://tortoisehg.bitbucket.org/)
 grep         (http://gnuwin32.sourceforge.net/packages/grep.htm)
 
 
