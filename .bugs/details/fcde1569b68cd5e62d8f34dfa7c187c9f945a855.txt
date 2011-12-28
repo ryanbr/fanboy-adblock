@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.unwiredview.com/2011/12/28/samsung-galaxy-s-i9000-to-get-a-value-pack-update-instead-of-android-ice-cream-sandwich/
+
+
+[filters]
+http://c2499022.cdn.cloudfiles.rackspacecloud.com/wp-content/themes/UnwiredView/images/rss.jpg
+http://c2499022.cdn.cloudfiles.rackspacecloud.com/wp-content/themes/UnwiredView/images/twitter.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
