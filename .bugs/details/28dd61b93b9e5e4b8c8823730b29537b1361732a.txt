@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.timeout.ru/restaurant/list/
+
+
+[filters]
+http://ro.timeout.ru/?area=getTeaser&adv=21&div=DIV_BSN_21
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
