@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://life.comments.ua/2010/06/15/20454/Kak-vernut-seksualnost-20.html
+
+
+[filters]
+http://life.comments.ua/_abc/b240x350bottom.htm
+http://life.comments.ua/_abc/b240x350top.htm
+http://life.comments.ua/_abc/b245x60top.htm
+http://life.comments.ua/_abc/b468x60top.htm
+http://life.comments.ua/_abc/b728x90top.htm
+
+
+
+[other]
+
+
+
+[comments]
+nitrox
