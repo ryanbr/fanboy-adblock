@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://smeshnoe.com/
+
+
+[filters]
+http://tizerfly.net/tizers3.php?sid=7986&bn=4wA65I64VzsivZuDpzyI&ad=0&ref=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
