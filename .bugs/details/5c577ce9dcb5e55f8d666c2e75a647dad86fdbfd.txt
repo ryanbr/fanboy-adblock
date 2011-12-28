@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://leagueoflegends.wikia.com/wiki/Ahri_the_9_Tails_Fox/SkinsTrivia
+
+
+[filters]
+http://platform.twitter.com/widgets.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=9133
+
+
+[comments]
+fanboy
