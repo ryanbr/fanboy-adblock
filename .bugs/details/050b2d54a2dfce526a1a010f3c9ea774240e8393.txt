@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forum.md/
+
+
+[filters]
+http://numbers.md/Output/place/?id=70cdd7a0-8e52-4d9c-9bfd-04eb0c0c28a7
+http://numbers.md/Output/place/?id=86648219-e7a5-4bc9-a11f-23cb8e61e570
+http://numbers.md/Output/place/?id=f6e00db5-8c80-4c7b-a723-491553be6b3d
+http://headwood.com/Stat/2.js
+http://headwood.com/Stat/3.js
+
+
+[other]
+
+
+[comments]
+nitrox
