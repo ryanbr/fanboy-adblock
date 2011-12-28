@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sobesednik.ru/scandals/zemfira-za-kokain-otvetite
+
+
+[filters]
+http://clickburner.com/cb_postclick.js
+
+
+[other]
+
+
+[comments]
+nitrox
