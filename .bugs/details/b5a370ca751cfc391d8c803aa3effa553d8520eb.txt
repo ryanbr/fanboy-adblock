@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://misstube.ru/porno-so-zrelymi/7455-mamasha-blondinka-otsasala-i-otdalas.html
+http://www.skidki.com.ru/
+
+
+[filters]
+http://www.skidki.com.ru/top100_counter.php?top_id=144200
+http://www.skidki.com.ru/XXX100_counter.php?top_id=6205
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
