@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.porus.ru/
+
+
+[filters]
+http://emierete.com/74xa55c6776/4f4be9481/6
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
