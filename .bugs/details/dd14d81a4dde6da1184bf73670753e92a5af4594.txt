@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pornognom.com/movie/paren-kak-sleduet-poimel-telku.html
+
+
+[filters]
+http://clierets.com/javascript/lUR9M0YytI
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
