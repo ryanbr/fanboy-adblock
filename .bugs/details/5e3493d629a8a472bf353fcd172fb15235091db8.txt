@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://999.md/
+
+
+[filters]
+http://snippet-rotator.animation.md/snippetrotator.ashx?placeId=1
+
+
+
+
+[other]
+
+
+
+[comments]
+nitrox
