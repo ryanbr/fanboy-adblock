@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://unasvse.ru/
+
+
+[filters]
+http://masudel.com/54zd23/5792b4e5/
+http://adversni.com/c8u/5/1/83d55a/999/9
+http://showede.com/33je12ca23bd8/bfc9ecab
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
