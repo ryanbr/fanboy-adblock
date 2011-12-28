@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.glomu.ru/
+
+
+[filters]
+http://clever-balancer.rian.ru/adv?srv=101&adzone=slot_shesternik_na_glomu&vid=754608668&r=3605757796&xdm_e=http%3A%2F%2Fwww.glomu.ru&xdm_c=slotshesterniknaglomu&xdm_p=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
