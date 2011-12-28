@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://beauty-women.ru/
+
+
+[filters]
+http://beauty-women.ru/slstats/tcook.php?i=4665155&e=1440.900&d=24&r=&p=http%3A//beauty-women.ru/&t=Beauty%20Women%20-%20%u0421%u0435%u043A%u0440%u0435%u0442%u044B%20%u0437%u0434%u043E%u0440%u043E%u0432%u044C%u044F%20%u0438%20%u043A%u0440%u0430%u0441%u043E%u0442%u044B%20%u0441%u043E%u0432%u0440%u0435%u043C%u0435%u043D%u043D%u043E%u0439%20%u0436%u0435%u043D%u0449%u0438%u043D%u044B%20-%20%u0416%u0435%u043D%u0441%u043A%u0438%u0439%20%u0436%u0443%u0440%u043D%u0430%u043B
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
