@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.xoxma.com.ua/
+
+
+[filters]
+http://timonom.com/javascript/uSI2r0n4
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
