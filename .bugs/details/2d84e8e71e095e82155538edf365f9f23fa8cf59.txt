@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sarafan.ru/
+http://cooking.ru/
+
+
+[filters]
+http://www.topcto.ru/cgi-bin/top.cgi?uid=4998&com=image&dl=&n=Netscape&swh=1600x1200&ver=500&rnd=0.8887399376225371
+
+
+[other]
+
+
+[comments]
+nitrox
