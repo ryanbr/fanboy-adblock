@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.x-top.org/prikol/label/2356/
+
+
+[filters]
+http://www.x-top.org/b/right.htm
+http://www.x-top.org/b/top.htm
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
