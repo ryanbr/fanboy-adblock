@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zaycev.net/pages/5077/507712.shtml
+
+
+[filters]
+http://adversni.com/f8b4/65ae98d7f1/8e0/4bc4
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
