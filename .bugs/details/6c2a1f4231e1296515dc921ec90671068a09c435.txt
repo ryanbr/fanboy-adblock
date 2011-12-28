@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.optimistka.ru/
+
+
+[filters]
+http://wwwomen.ru/php/wi.php?agent=11-74268
+
+[other]
+
+
+[comments]
+nitrox
