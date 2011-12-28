@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rusextube.ru/
+
+
+[filters]
+http://annienne.com/22ff7/83/550f
+http://mobicont.com/js.php?sid=4483&seed=63592876&ft=37&fk=97&fd=17
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
