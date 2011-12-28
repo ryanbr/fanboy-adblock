@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://drdobbs.com/blogs/parallel/232301070
+
+
+[filters]
+https://i.cmpnet.com/ddj/js/popwindow.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
