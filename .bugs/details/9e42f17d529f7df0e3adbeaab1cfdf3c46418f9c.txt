@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gs.statcounter.com/
+
+
+[filters]
+*/counter/count* bad filter
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
