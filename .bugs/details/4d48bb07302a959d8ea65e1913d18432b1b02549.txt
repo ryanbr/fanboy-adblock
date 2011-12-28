@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vuku.ru/pornovideo/russkoe_porno/index.html
+
+
+[filters]
+http://abusieux.com/22b/9b/0/5013c/623
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
