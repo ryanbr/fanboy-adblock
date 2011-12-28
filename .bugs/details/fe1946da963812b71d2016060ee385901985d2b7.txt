@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.womanparadise.ru/
+
+
+[filters]
+http://partners.klubkrasoti.ru/scripts/imp.php?qxaid=4ebcd1535b8d9&qxbid=ae4902d8
+http://partners.klubkrasoti.ru/scripts/imp.php?qxaid=4ebcd1535b8d9&qxbid=b0a974c8
+
+[other]
+
+[comments]
+nitrox
