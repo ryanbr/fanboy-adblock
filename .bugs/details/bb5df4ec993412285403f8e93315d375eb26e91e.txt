@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hse.ru/
+
+
+[filters]
+http://www.hse.ru/elogo.gif?s=1260525&q=1325070599120
+
+
+
+
+[other]
+
+
+
+[comments]
+nitrox
