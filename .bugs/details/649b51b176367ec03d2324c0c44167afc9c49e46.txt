@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://statcounter.com/
+
+
+[filters]
+http://www.statcounter.com/counter/counter.js
+
+
+
+
+[other]
+Unsure if this was the filter, but removed dube
+
+
+[comments]
+fanboy
