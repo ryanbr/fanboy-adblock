@@ -1,58 +1,80 @@
-Tools required,
-
+Tools required
+--------------
 Activeperl   (http://www.activestate.com/activeperl/)
 Mercurial    (http://mercurial.selenic.com)
-PSPad        (the prefered text editor, http://www.pspad.com)
-TortoiseHG      (http://tortoisehg.bitbucket.org/)
+Text Editor  (http://www.pspad.com , http://notepad-plus-plus.org/)
+TortoiseHG   (http://tortoisehg.bitbucket.org/)
 grep         (http://gnuwin32.sourceforge.net/packages/grep.htm)
 
+
+Installation of Tools
+---------------------
 1) Install Activeperl
 2) Install Mercurial, all defaults during install active
-3) Install pspad
+3) Install pspad (or your favourite Text editor)
 
-4) Open the command prompt,
-4a) cd %USERPROFILE%
-4b) hg clone https://fanboy-adblock-list.googlecode.com/hg/ fanboy-adblock-list
-4c) cd fanboy-adblock-list
-4d) cd .hg
-4e) edit the file "hgrc" using pspad
-[paths]
-default = https://fanboy-adblock-list.googlecode.com/hg/
-username = your name <gmail-username@gmail.com>
-default-push = https://username:password@fanboy-adblock-list.googlecode.com/hg/
-[ui]
-username = gmail-username@gmail.com
-verbose = true
-[extensions]
-rebase =
-fetch =
 
+Setting up Googlecode Login
+---------------------------
+4)   Open the command prompt,
+4a)  cd %USERPROFILE%
+4b)  hg clone https://fanboy-adblock-list.googlecode.com/hg/ fanboy-adblock-list
+4c)  cd fanboy-adblock-list
+4d)  cd .hg
+4e)  edit the file "hgrc" using your chosen text editor, include the following infomation in the hgrc file.
+
+  [paths]
+  default = https://fanboy-adblock-list.googlecode.com/hg/
+  username = your name <gmail-username@gmail.com>
+  default-push = https://username:password@fanboy-adblock-list.googlecode.com/hg/
+  [ui]
+  username = gmail-username@gmail.com
+  verbose = true
+  [extensions]
+  rebase =
+  fetch =
+  b = C:\Users\Username\fanboy-adblock-list\scripts\b.py
 
 (Note, use the googlecode password not the gmail password)
 Login to google/gmail first, then visit http://code.google.com/p/fanboy-adblock-list/source/list
 
-Get your password through the google profile menu, top right, profile then settings.
+Get your password through the google profile menu, top right, profile then settings. *Password is case sensitive.*
+Use this password in the "default-push" in 4e example above.
 
-Use this password in the "default-push" in 4e.
-
-5) to use, make change to a file through pspad and save
-5a) through the command prompt,
-5b) cd %USERPROFILE%
-5c) cd fanboy-adblock-list
-5d) winscript <reason>
+4f) Save changes, and now we're ready to make changes. Be sure you're in the main dir of "fanboy-adblock-list", when you want to start making changes.
 
 
-format used when making changes,
-adding new filters --> winscript adzilla: #number
-adding additional filters --> winscript adzilla: #number r2
-adding new elements --> winscript site: http://www.somesite.com/blah.html
-*Any false positives, need to be adzilla first.
-*Any new false positives created by a recent additions 
-removing recent filters --> winscript adzilla: #number reverted
-see: filter-additions.txt
+Making Additions
+----------------
+adding new filters --> add-filter.bat <URL>
+  1) Make the change to the list(s), Save.
+  2) Copy Website, Copy Adblock infomation, and username. Save.
+  3) Done, its committed.
+adding new elements --> 
+  1) Make the change to the list(s), Save files.
+  2) add-element.bat <URL>
+  3) Done, its committed.
+
+False Positives
+---------------
+adding new filters --> add-filter.bat fp: <URL>
+  1) Make the change to the list(s), Save.
+  2) Copy Website, Copy Adblock infomation, and username. Save.
+  3) Done, its committed.
+
+Syncing new changes
+-------------------
+To sync any newer changes, you can just issue the following command,
+  hgsync.bat
+
+
+Merging
+-------
+Occasionally if 2 people (or more) are working the same file at the same time.. you'll get a merge error/request.
+Follow the docs\Windows_merge_notes.pdf  this will help.
+
 
 examples of additions comments:
 http://code.google.com/p/fanboy-adblock-list/source/list
 
-Errors:
-"Authorization failed" only occurs if your user/password is incorrect, check your google profile password in 4e, as the password is case sensitive
+
