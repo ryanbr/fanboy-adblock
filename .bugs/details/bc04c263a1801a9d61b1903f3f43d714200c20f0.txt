@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.spa.su/rus/content/view/132/2016/0/
+
+
+[filters]
+http://www.salon.su/images/banners/Anekdot_800x80_1.swf
+http://www.salon.su/images/banners/bontabelle240x150.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
