@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.inmoment.ru/
+
+
+[filters]
+http://stat.webtrack.biz/api/block/?id=12
+http://stat.webtrack.biz/api/impression.php?sid=8&stid=22&aid=479&plf=www.inmoment.ru&r=0.7024034275113734&gourl=http%3A%2F%2Fpromo.magic-glance.ru%2F%3Fpromo%3D4%26stid%3D22%26aid%3D479
+http://stat.webtrack.biz/api/impression/?sid=8&stid=22&aid=479&plf=www.inmoment.ru&r=0.7024034275113734&gourl=http%3A%2F%2Fpromo.magic-glance.ru%2F%3Fpromo%3D4%26stid%3D22%26aid%3D479
+
+[other]
+
+
+[comments]
+nitrox
