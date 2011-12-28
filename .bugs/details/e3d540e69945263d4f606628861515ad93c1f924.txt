@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://super-lady.ru/
+
+[filters]
+http://ladyclicks2.ru/image/4cc2023e0eed5.jpg
+http://ladyclicks2.ru/image/4e6de74e47b1f.jpg
+http://ladyclicks2.ru/image/4eda43084f4b5.jpg
+http://ladyclicks2.ru/image/4ee256591d7b9.jpg
+http://ladyclicks2.ru/showf.php?u=142&c1=16&c2=1&c3=D10B12&c4=3&c5=0&c6=0&c7=D10B12&c8=0&c9=13&c10=D10B12&c11=0&c12=0&c13=1&c14=FFE4E1&c15=80&c16=1&c17=2
+
+[other]
+
+
+[comments]
+nitrox
