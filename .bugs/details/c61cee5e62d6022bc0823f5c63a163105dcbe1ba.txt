@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.allhotnews.ru/presscenter/press-01/www-cosmo-ru.php
+
+
+[filters]
+http://partner.sendflowers.ru/inc/codepp.phtml?P=2273&KEY=11776&CR=RUR&ENC=win&TP=2&VL=18&OP=3&PS=1&DS=1&VB=0&PMAX=0&CO=153&CI=0&CT=0
+http://www.cityads.ru/zrxMzMw
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=9135
+
+
+[comments]
+fanboy
