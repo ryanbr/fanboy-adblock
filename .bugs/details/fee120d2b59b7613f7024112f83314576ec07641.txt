@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.yam.md/ru/
+
+[filters]
+http://md.ournet-analytics.com/trackPageView?name=%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%D0%B7%20%D0%9C%D0%BE%D0%BB%D0%B4%D0%BE%D0%B2%D1%8B%20-%20News.yam.md&id=MD-newsyammd-1&tcall=1&rand=0.14010408484550463&h=20&m=5&s=39&host=news.yam.md&path=%2Fru%2F&ref=http%3A%2F%2Fnews.yam.md%2F&_vid=eQ03T1klz8&_fvts=1325034303&_vc=1&_lvts=1325034303&_ta=3&v=0.3&c_pdf=1&c_qt=1&c_realp=0&c_wma=1&c_dir=1&c_fla=1&c_java=0&c_gears=0&c_ag=1&c_rs=1440x900&c_cookie=1
+
+
+[other]
+
+
+[comments]
+nitrox
