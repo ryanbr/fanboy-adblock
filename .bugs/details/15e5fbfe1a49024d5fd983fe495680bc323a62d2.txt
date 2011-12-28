@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.u-mama.ru/
+
+
+[filters]
+http://urwb.ru/188.html
+http://urwb.ru/189.html
+http://urwb.ru/227.html
+http://urwb.ru/238.html
+http://urwb.ru/245.html
+http://urwb.ru/266.html
+http://urwb.ru/33.html
+http://urwb.ru/66.html
+http://urwb.ru/74.html
+
+[other]
+
+
+
+[comments]
+nitrox
