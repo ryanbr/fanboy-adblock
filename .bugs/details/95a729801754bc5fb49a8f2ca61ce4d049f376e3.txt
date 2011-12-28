@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://makler.md/
+
+
+[filters]
+http://makler.md/loadBanner.action?type=left&OPENX_PAGE_TYPE=HOME
+http://makler.md/loadBanner.action?type=top&OPENX_PAGE_TYPE=HOME
+
+[other]
+
+
+[comments]
+nitrox
