@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tv.vnutri.info/tv-russia/pervuy-ort
+
+
+[filters]
+http://tv.vnutri.info/rek.html
+
+[other]
+
+
+[comments]
+nitrox
