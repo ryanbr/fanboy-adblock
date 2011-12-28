@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cultureclub.ru/profile/27358.html
+
+
+[filters]
+http://www.cultureclub.ru/stat/cntg.php?fr=27358&c=1&r=http%3A//teatr.cultureclub.ru/firms/198.html&p=http%3A//www.cultureclub.ru/profile/27358.html
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=9140
+
+
+[comments]
+fanboy
