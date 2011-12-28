@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kleo.ru/items/planetarium/dzhastin_biber_rozhdestvo__sem.shtml
+
+
+[filters]
+http://www.kleo.ru/i/4/inf_gnezdo_kleo_130.htm
+http://www.kleo.ru/i/4/inf_gnezdo_kleo_130_commerce.htm
+http://www.kleo.ru/i/4/inf_gnezdo_shop_2.htm
+http://www.kleo.ru/i/4/inf_kleo_direct.htm
+
+[other]
+
+
+[comments]
+nitrox
