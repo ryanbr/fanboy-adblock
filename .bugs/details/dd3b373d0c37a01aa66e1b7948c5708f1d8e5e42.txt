@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.plastic-club.ru/
+
+
+[filters]
+http://img.yandex.net/css/js/hl-counter.js
+
+
+
+[other]
+
+
+
+[comments]
+nitrox
