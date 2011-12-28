@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://people.passion.ru/l.php/ewan-macgregor-interviu.htm
+
+
+[filters]
+http://ads.passion.ru/n/p/people.passion.ru/passion21.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
