@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://p0rno-tv.com/incest/
+
+
+[filters]
+http://uno.wt-rotator15.ru/?t=br&pid=14368
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
