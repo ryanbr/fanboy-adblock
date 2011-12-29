@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sexyfotogirls.ru/
+
+
+[filters]
+http://lachest.com/e4d48/224440f9/818a54/9
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
