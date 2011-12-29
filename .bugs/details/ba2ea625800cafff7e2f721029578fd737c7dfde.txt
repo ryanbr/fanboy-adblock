@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fitness-online.by/
+
+
+[filters]
+http://st1.promofor.me/b/24/2c/1284.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
