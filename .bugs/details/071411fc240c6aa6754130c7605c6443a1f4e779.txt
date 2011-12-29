@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pornovozka.ru/
+
+
+[filters]
+http://arded.com/00/c8cd50176
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
