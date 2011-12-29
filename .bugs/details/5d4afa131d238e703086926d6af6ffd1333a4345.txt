@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.prostobank.ua/kreditnye_karty/sovety/chto_nuzhno_znat_chtoby_izbezhat_neozhidannyh_trat_po_overdraftu_pod_zarplatnyy_proekt
+
+
+[filters]
+http://www.prostobank.ua/design/generic/javascript/gasocialtracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
