@@ -1,0 +1,30 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://shopping.yahoo.com.au/
+
+
+[filters]
+http://www.getprice.com.au/images/uploadimg/192/94_sustainedrelease_big_10.jpg
+http://www.getprice.com.au/images/uploadimg/2/250_xeh60an010_1_med.jpg
+http://www.getprice.com.au/images/uploadimg/2094/94_21909063.jpg
+http://www.getprice.com.au/images/uploadimg/250_BimgAcer%20ICONIA%20TAB%20A500.jpg
+http://www.getprice.com.au/images/uploadimg/250_BimgBlackBerry%20PlayBook.jpg
+http://www.getprice.com.au/images/uploadimg/250_BimgEee%20Pad%20Transformer%2016GB.jpg
+http://www.getprice.com.au/images/uploadimg/518/94_mattress-09.jpg
+http://www.getprice.com.au/images/uploadimg/631/94_5028.jpg
+http://www.getprice.com.au/images/uploadimg/94_BimgApple%20iPad%202%20WiFi%20%203G%2064GB.jpg
+http://www.getprice.com.au/images/uploadimg/94_BimgApple%20iPhone%204S.jpg
+http://www.getprice.com.au/images/uploadimg/94_BimgSamsung%20600B5B-S01AU.jpg
+http://www.getprice.com.au/images/uploadimg/94_BimgSamsung%20UA46D7000.jpg
+http://www.getprice.com.au/images/uploadimg/94_Bimgcanon_eos-550d-digital-camera.jpg
+
+
+
+[other]
+Needs white, page doesnt display correctly.
+
+
+[comments]
+fanboy
