@@ -2,15 +2,14 @@ Tools required
 --------------
 Activeperl   (http://www.activestate.com/activeperl/)
 Mercurial    (http://mercurial.selenic.com)
-Text Editor  (http://www.pspad.com , http://notepad-plus-plus.org/)
-grep         (http://gnuwin32.sourceforge.net/packages/grep.htm)
+Text Editor  (http://www.pspad.com or http://notepad-plus-plus.org/)
 
 
 Installation of Tools
 ---------------------
 1) Install Activeperl
 2) Install Mercurial, all defaults during install active
-3) Install pspad (or your favourite Text editor)
+3) Install your chosen Text editor
 
 
 Setting up Googlecode Login
@@ -70,7 +69,7 @@ To sync any newer changes, you can just issue the following command,
 Merging
 -------
 Occasionally if 2 people (or more) are working the same file at the same time.. you'll get a merge error/request.
-Follow the docs\Windows_merge_notes.pdf  this will help.
+Follow the docs\Windows_merge_notes.pdf  this will help. You will need grep for Windows (http://gnuwin32.sourceforge.net/packages/grep.htm).
 
 
 examples of additions comments:
