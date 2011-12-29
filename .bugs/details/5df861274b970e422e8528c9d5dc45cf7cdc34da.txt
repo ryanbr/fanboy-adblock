@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mp3ify.com/results-transcoder-mysql.php
+
+
+[filters]
+http://cpa.directrdr.com/cpatrack?cid=24437&rev=0
+
+
+[other]
+
+
+[comments]
+nitrox
