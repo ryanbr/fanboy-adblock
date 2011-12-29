@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://3xin.ru/
+
+
+[filters]
+http://sonnents.com/a0/32/d/f59512
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
