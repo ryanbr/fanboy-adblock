@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jattji.com/category/11693/Nelly---O-E-M-O--Mixtape--.html
+
+
+[filters]
+http://www.gainmoneyfast.com/services/banner_rotator.php?a_aid=78660&a_bid=3793
+http://ads.mobday.com/reqAd.php?pubid=63917
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
