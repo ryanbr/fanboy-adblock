@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://proseries.intuit.com/
+
+
+[filters]
+http://proseries.intuit.com/commerce/common/images/one_pixel.gif?shopperId=0000000001153871420&currentpage=/_intuit/proseries/index.jsp&jsessionid=WOcL2B6Ou6qe3LxUZ6B1vQ**.g101-3&referer=
+
+
+[other]
+
+
+[comments]
+nitrox
