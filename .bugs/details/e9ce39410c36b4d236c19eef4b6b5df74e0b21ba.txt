@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://aviso.ua/
+
+
+[filters]
+http://www.aviso.ua/gem.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
