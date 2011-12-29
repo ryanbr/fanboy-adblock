@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nigma.ru/?s=test&t=web&rg=t%3D%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0_c%3D%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F_&rg_view=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5&yn=1&gl=1&rm=1&ms=1&yh=1&av=1&ap=1&nm=1&lang=all&srt=0&sf=1
+
+
+[filters]
+http://nigma.ru/user_time_log.php?timing=0.06&uuid=325101375719189827&rnd=1325101372561
+http://nigma.ru/click_log.php?l=like/closed&user_id=0&pt=sr&cl=link&fs=&rnd=1325101433920
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
