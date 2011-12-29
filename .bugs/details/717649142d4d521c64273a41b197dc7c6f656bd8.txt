@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://banan.in/
+
+
+[filters]
+http://ableday.com/3e25888d/4/8c1e
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
