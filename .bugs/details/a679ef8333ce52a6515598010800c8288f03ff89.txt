@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sparknotes.com/sparknotes/video/huckfinn
+
+[filters]
+http://lp.longtailvideo.com/5/yume/yume.js
+
+
+
+[other]
+Breaks video on site
+
+
+[comments]
+fanboy
