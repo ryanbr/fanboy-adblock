@@ -49,6 +49,8 @@ then
   if diff $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt >/dev/null ; then
     echo "No changes detected: fanboy-adblock.txt" > /dev/null
   else
+    # Make sure the old copy is cleared before we start
+    rm -f $TESTDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-adblock.txt
     # Copy to ram disk first. (quicker)
     cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $TESTDIR/fanboy-adblock.txt
     # Re-generate checksum
