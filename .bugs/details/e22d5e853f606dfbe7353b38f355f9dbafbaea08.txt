@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://zrelieincest.ru/
+
+
+[filters]
+http://uno.wb-rotator.biz/?t=icq&pid=19464
+
+http://incielle.com/javascript/w0uzd0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
