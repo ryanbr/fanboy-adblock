@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://a.fsdn.com/sd/facebook_icon_large.png
+
+[filters]
+http://a.fsdn.com/sd/facebook_icon_large.png
+
+
+[other]
+
+
+[comments]
+nitrox
