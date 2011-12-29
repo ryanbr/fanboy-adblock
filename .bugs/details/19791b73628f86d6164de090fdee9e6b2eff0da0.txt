@@ -1,0 +1,14 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pubarticles.com/article-bad-teacher-download-top-comedy-movie-with-finest-quality-1308832026.html
+
+[filters]
+http://www.pubarticles.com/_hits.php?type=article&id=1308832026
+
+[other]
+
+
+[comments]
+nitrox
