@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mykiski.ru/
+
+
+[filters]
+http://ivantat.com/js/euE6VeL00D9NN0.js?259050&2856&a=nic.ivantat.com&ivantat.com
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
