@@ -49,12 +49,14 @@ then
   if diff $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt >/dev/null ; then
     echo "No changes detected: fanboy-adblock.txt" > /dev/null
   else
-    cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt
+    # Copy to ram disk first. (quicker)
+    cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $TESTDIR/fanboy-adblock.txt
     # Re-generate checksum
-    perl $TESTDIR/addChecksum.pl $MAINDIR/fanboy-adblock.txt
-    # Properly wipe old file.
-    shred -n 5 -z -u $MAINDIR/fanboy-adblock.txt.gz
-    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-adblock.txt.gz $MAINDIR/fanboy-adblock.txt > /dev/null
+    perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-adblock.txt
+    cp $TESTDIR/fanboy-adblock.txt $MAINDIR/fanboy-adblock.txt
+    # Wipe old file.
+    rm -rf $MAINDIR/fanboy-adblock.txt.gz
+    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-adblock.txt > /dev/null
     # perl $TESTDIR/addChecksum.pl $TESTDIR/firefox-expanded.txt-org2
     # cp -f $TESTDIR/firefox-expanded.txt-org2 $MAINDIR/fanboy-adblock.txt
     # cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt
