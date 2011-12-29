@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://computerbase.mobi/
+
+
+[filters]
+http://computerbase.mobi/stats.php?x=2219438u6t934hg9384hg75271a2&y=&content-ids=&s=4098uerjgoeirjg043aa6&screen_width=1600&screen_height=1200&colordepth=24&javascript=1&adblock=1&referrer=
+
+
+[other]
+
+
+[comments]
+nitrox
