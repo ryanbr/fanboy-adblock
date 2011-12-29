@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.affiliatevote.com/ampedmedia-com-scam-fraud-or-legit-honest-reviews-and-feedback/
+
+
+[filters]
+http://ads.networkplay.in/42/53/619/
+http://www.cpaway.com/ads
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
