@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aze.az/news_putin_rf_doqovorilas_71012.html
+
+
+[filters]
+http://top.bakililar.az/cgi-bin/b?id=16&refer=http%3A//www.aze.az/&page=http%3A//www.aze.az/news_putin_rf_doqovorilas_71012.html&c=yes&java=now&razresh=1440x900&cvet=24&jscript=1.3&rand=0.8495364355366122&
+http://top.bakililar.az/img.php?id=16&refer=http%3A//www.aze.az/&page=http%3A//www.aze.az/news_putin_rf_doqovorilas_71012.html&c=yes&java=now&razresh=1440x900&cvet=24&jscript=1.3&rand=0.8495364355366122&
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
