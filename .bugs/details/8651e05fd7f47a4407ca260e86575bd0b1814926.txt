@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://topnotchgifts.net/
+
+
+[filters]
+http://clients.bluecava.com/data?p=fbbe1cd4-642a-4bf8-b086-7615e0665535
+
+[other]
+
+
+[comments]
+nitrox
