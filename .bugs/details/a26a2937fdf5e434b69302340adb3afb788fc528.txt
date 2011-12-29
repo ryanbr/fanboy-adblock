@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mama.pp.ru/
+
+[filters]
+http://www.mama.pp.ru/templates/main/images2/adsense250.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
