@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newsarmenia.ru/sc/20111228/42588197.html
+
+
+[filters]
+http://www.circle.am/service/?bid=6&sid=8719&seek=0.5085337036167129&ref=http%3A//www.newsarmenia.ru/&page=http%3A//www.newsarmenia.ru/sc/20111228/42588197.html&cookie=y&java=n&res=1440x900&colors=24&jver=1.9&
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
