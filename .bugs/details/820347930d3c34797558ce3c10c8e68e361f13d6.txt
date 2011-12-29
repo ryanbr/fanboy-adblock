@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bollywoodhungama.com/celebrities/video/type/view/id/1398011
+
+
+[filters]
+http://storm.monsoonads.com:8080/crossdomain.xml
+http://storm.monsoonads.com:8080/monsoon1/PrepareAd?uuid=a7eee97f-6ae1-440c-a383-31a01283c4ec&adId=1&cmpId=177&pubId=468
+http://storm.monsoonads.com:8080/monsoon1/monsoonservice?contentId=1&siteId=468&age=12&gender=m&IP=205.185.121.60&numAds=1&refURL=http://www.bollywoodhungama.com&streamName=videotitle&streamCat=EN&bh=4153
+
+
+[other]
+
+
+[comments]
+nitrox
