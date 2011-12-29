@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://filmy-online.ru/
+
+
+[filters]
+http://treprime.com/a6b/9fe0/22bb5e92808/30d
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
