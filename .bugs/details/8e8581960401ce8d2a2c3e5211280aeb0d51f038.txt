@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pcweek.ru/
+
+
+[filters]
+http://www.pcweek.ru/ad/banners/bottom.php?banner_random=30853
+http://www.pcweek.ru/ad/banners/center.php?banner_random=51299
+http://www.pcweek.ru/ad/banners/default.php?w=468&h=60&banner_random=2642
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
