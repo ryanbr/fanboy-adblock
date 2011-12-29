@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mycokerewards.com/home.do
+
+
+[filters]
+http://dc.webtrends.com/v1/dcso58g52100008ukenmpuiyd_3k6o/events.svc
+http://www.mycokerewards.com/en_US/js/tracking/webtrends/mcr3-webtrends_POST_en_US.js?ver=11092011
+
+[other]
+
+
+[comments]
+nitrox
