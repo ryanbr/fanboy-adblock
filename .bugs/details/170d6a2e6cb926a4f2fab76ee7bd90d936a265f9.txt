@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://snesorama.us/board/showthread.php?t=70674
+
+[filters]
+http://freakshare.com/banner/freakshare728x90_3.jpg
+
+
+[other]
+
+
+
+[comments]
+nitrox
