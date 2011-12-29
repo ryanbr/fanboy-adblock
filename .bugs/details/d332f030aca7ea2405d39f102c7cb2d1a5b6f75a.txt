@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://imageshack.us/photo/my-images/856/unledxgg.png/
+
+
+[filters]
+http://p.po.st/p?t=view&pub=yFrog&pu=http%3A%2F%2Fimageshack.us%2Fphoto%2Fmy-images%2F856%2Funledxgg.png%2F&random=1325133230019&pt=ImageShack%C2%AE%20-%20Online%20Photo%20and%20Video%20Hosting&pq=&vGUID=c878af63-ce68-ba64-9048-75ffa644ff86
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
