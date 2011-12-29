@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bits.blogs.nytimes.com/2011/12/25/disruptions-tests-cast-doubt-on-fcc-rules-on-kindle-and-ipad-html/
+
+
+[filters]
+http://graphics8.nytimes.com/js/app/analytics/multitrackQueueV2.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
