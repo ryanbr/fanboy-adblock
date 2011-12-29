@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://porno-rus.net/mix-765.htm
+
+
+[filters]
+http://cientrer.com/f4mee5/344e4d
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
