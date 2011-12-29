@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://shopbody.ru/
+
+
+[filters]
+http://kamnet.ru/wl/nph-mgwcgi?MGWAPP=NEW&Pr=add&id=5719&tip=40&page=1&ref=&s=1440x900&c=24
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
