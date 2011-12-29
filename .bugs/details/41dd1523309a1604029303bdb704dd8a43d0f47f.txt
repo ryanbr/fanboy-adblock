@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sefon.ru/
+
+
+[filters]
+http://www.sefon.ru/fastloads/adv_src.php?s=&t=&r=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
