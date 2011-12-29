@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.raaga.com/channels/hindi/
+
+
+[filters]
+http://www.raaga.com/bAds/footerIFrame.asp?l=H&rand=10758661
+http://www.raaga.com/bAds/headerIFrame.asp?l=H&z=&rand=90918218
+http://www.raaga.com/bAds/headerIFrame.asp?l=T&rand=80457515
+
+[other]
+
+
+[comments]
+nitrox
