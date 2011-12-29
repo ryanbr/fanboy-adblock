@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.iis.net/
+
+[filters]
+http://www.iis.net/resources/pages/ad-home-strip.aspx
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
