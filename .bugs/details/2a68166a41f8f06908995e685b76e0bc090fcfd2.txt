@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://imageshack.us/photo/my-images/856/unledxgg.png/
+
+
+[filters]
+http://imageshack.us/newuploader_ad.php?ad_tag=Imageshack_Landing_pops2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
