@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.altavista.com/yhs/search?fr=altavista&q=Cars
+
+[filters]
+http://ts1.mm.bing.net/videos/thumbnail.aspx?q=1326305969036&id=919e2c46eeeeeba3b8c28ea9ce6b1969&bid=CmNYU%2f2Q7NXNKA&bn=Thumb&url=http%3a%2f%2fwww.mtv.com%2fvideos%2fmovie-trailers%2f653280%2fcars-2.jhtml
+http://ts1.mm.bing.net/videos/thumbnail.aspx?q=1341733602314&id=ef4fa4e3073dcd6e2db0d8e530488f05&bid=PSmOawz3OyEnYA&bn=Thumb&url=http%3a%2f%2fwww.youtube.com%2fwatch%3fv%3djURRsAMGuZk
+http://ts2.mm.bing.net/videos/thumbnail.aspx?q=1502646961097&id=bf3bfbaf825be2e72a13b30e82db44aa&bid=Z%2fZRaBPz%2bHqPAQ&bn=Thumb&url=http%3a%2f%2fwww.youtube.com%2fwatch%3fv%3deRQ6YWk4IjQ
+
+[other]
+blocks video thumbnails
+
+[comments]
+nitrox
