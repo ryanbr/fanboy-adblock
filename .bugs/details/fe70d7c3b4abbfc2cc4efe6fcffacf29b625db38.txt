@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://my-gay.tv/
+
+
+[filters]
+http://top.gayru.org/img.php?id=73&&refer=&page=http%3A//my-gay.tv/&c=yes&java=now&razresh=1440x900&cvet=24&jscript=1.3&
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
