@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.geo.tv/
+
+
+[filters]
+http://dhundora.com/dad-cpv.js?limit=1&close=y
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
