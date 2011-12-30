@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nakedebony.com/
+
+
+[filters]
+http://promo.blackcrush.com/custom/?wm_login=cmgi99&s=blackcrush&ps=s&tg=new&r=1&c=5&nm=y&ag=y&ct=y&tp=30&linksize=5&linkcolor=0000FF&textsize=3&textcolor=000000&fontface=arial&bgcolor=FFFFFF&sz=medium
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
