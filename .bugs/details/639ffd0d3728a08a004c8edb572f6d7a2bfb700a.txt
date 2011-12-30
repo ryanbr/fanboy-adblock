@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.smotretjporno.com/
+
+
+[filters]
+http://refhunter.ru/script/js.php?id=197540
+http://richadplace.info/codes/13621/12515_smotretjporno.com.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
