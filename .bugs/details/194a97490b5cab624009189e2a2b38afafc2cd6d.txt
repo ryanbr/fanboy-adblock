@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dreamteammoney.com/
+
+
+[filters]
+http://my.paradocs.ru/?mod=getIframeCode&c=846926400
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
