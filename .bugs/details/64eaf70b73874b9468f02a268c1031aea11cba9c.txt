@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://porevo-online.info/
+
+
+[filters]
+http://heelwork.com/f9f07/8a/7c/1319/063ef
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
