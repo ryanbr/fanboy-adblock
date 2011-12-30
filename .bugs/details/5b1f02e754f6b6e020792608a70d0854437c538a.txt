@@ -1,0 +1,35 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://love.pipec.ru/
+
+
+[filters]
+http://css.loveplanet.ru/3/img/07_unstglam/bg_exit.gif
+http://css.loveplanet.ru/3/img/07_unstglam/bg_star_mini.gif
+http://css.loveplanet.ru/3/img/07_unstglam/bg_star_mini.png
+http://css.loveplanet.ru/3/img/07_unstglam/center.css
+http://css.loveplanet.ru/3/img/07_unstglam/default_i_w.gif
+http://css.loveplanet.ru/3/img/07_unstglam/findm.gif
+http://css.loveplanet.ru/3/img/07_unstglam/findw.gif
+http://css.loveplanet.ru/3/img/07_unstglam/main.css
+http://css.loveplanet.ru/3/img/07_unstglam/main.js
+http://css.loveplanet.ru/3/img/07_unstglam/v1/v1.css
+http://css.loveplanet.ru/3/img/07_unstglam/v1/v1.js
+http://css.loveplanet.ru/3/imgstc/bemore/sea/top/btn.png
+http://css.loveplanet.ru/3/imgstc/bemore/sea/top/style.css
+http://css.loveplanet.ru/3/imgstc/fw_slideshow2.js
+http://css.loveplanet.ru/3/imgstc/popup2d.js
+http://css.loveplanet.ru/3/imgstc/swfobject.js
+http://css.loveplanet.ru/3/imgstc/xgemius/xgemius.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
