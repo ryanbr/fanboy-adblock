@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.seximir.com/tv/2922-free-adult-tv.html
+
+
+[filters]
+http://freshnews.su/get_tizers.php?site=1445&block_id=199
+http://freshnews.su/get_tizers.php?site=1445&block_id=200
+http://freshnews.su/get_tizers.php?site=1445&block_id=201
+http://freshnews.su/get_tizers.php?site=1445&block_id=203
+
+
+[other]
+
+
+[comments]
+nitrox
