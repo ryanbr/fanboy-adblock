@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://1kino.com/russia/14661-moj-lyubimyj-razdolbaj.html
+
+
+[filters]
+http://1kino.com/counter.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
