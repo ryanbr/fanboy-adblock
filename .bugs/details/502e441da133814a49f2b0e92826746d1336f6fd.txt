@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pupok.in/
+
+
+[filters]
+http://ivancept.com/2/912/1/cab89/014e323
+http://ivancept.com/main.js?ivancept.com
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
