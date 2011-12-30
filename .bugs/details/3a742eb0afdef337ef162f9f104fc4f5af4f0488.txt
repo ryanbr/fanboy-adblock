@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://djinphoto.ru/?id=ananistinfo
+
+
+[filters]
+http://banner.titanpoker.com/cgi-bin/redir.cgi?id=N&member=Successful&profile=aapoker
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
