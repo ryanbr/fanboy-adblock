@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.datinglocalsingles.com/
+
+
+[filters]
+http://www.adcitrus.com/show.php?pl=684
+
+
+[other]
+
+
+[comments]
+nitrox
