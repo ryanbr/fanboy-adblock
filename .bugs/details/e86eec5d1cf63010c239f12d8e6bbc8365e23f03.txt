@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ananist.info/
+
+
+[filters]
+http://inmobapp.ru/redjs.php?url=http%3A//vkmob.ru/%3Fs%3D649
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
