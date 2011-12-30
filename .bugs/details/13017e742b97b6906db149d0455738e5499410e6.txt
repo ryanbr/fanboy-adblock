@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hosted.ap.org/dynamic/stories/U/US_WARRANTLESS_WIRETAPPING?SITE=AP&SECTION=HOME&TEMPLATE=DEFAULT&CTIME=2011-12-29-19-48-34
+
+
+[filters]
+http://hosted.ap.org/specials/adscripts/hosted_ad.js
+http://assets.newsinc.com/CollisionAdMarker.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
