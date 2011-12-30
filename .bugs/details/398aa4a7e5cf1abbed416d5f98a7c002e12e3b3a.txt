@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.trafficzap.com/searchsubmit.php
+
+
+[filters]
+http://www.linkelevator.com/elevator.php?size=1&ref=imedia
+
+[other]
+
+
+[comments]
+nitrox
