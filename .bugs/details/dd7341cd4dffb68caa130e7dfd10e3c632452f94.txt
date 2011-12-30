@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vspotel.com/
+
+
+[filters]
+http://meinlist.com/cout.php?sid=146642
+http://meinlist.com/js.php?sid=146642&clickunder=1&ref=http%3A//seksshara.net/%3Fid%3Dsuchki.tv&seed=32325491&ft=0&fk=0&fd=0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
