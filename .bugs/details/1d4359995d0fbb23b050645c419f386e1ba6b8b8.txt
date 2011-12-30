@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.target.com/
+
+
+[filters]
+http://img3.targetimg3.com/wcsstore/TargetSAS/11_16_2011_11_24/javascript/omniture/omniture_minified.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=8367
+
+
+[comments]
+fanboy
