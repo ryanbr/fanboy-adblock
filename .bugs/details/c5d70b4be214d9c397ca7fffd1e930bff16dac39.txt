@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://extasytube.com/
+
+
+[filters]
+http://www.myfreakygf.com/www/click//image.php?size_id=14
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
