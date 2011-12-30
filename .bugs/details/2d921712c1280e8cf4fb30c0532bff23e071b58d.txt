@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.porno1.su/Banana/Sologirl_Banana_Brandy_In_Stockings_Undressing
+
+
+[filters]
+http://promo.adult1.com/block.php?si=300x300-1&p=1&wmaf=3058
+http://www.porno1.su/adrotat.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
