@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://xxvideos.ru/
+
+
+[filters]
+http://clickcashmoney.com/getThumbs?uid=449921&fmt=htm&cols=4&rows=1&desc=name&cs=10&cp=10&tpl=t3&sty=int&margin=10&bg=%23FFDDDD&box_color=%23CC9999&box_border=1&box_border_color=%23996666&fg=%23000000&fghover=%23444444&a=&ah=&img_border=1&img_border_color=%23000000&fnt=12
+http://tds.clickcashmoney.com/bi?id=16
+http://pop-bazar.com/engine/show_block.php?user=538
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
