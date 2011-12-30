@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.webs.com/Signup/
+
+
+[filters]
+http://members.webs.com/s/visitor/logEvent?callback=jsonp1325195334713&eventType=signup1&eventData=pageview&referer=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
