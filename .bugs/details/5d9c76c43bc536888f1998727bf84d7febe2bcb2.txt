@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pipec.ru/
+
+
+[filters]
+http://uno.wt-rotator4.ru/?t=br&pid=11796
+http://uno.wt-rotator4.ru/?t=br&pid=11796&rnd=0.3630920375311364&ref=
+http://uno.wt-rotator4.ru/?t=br&pid=11796&rnd=0.3630920375311364&ref=&rd=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
