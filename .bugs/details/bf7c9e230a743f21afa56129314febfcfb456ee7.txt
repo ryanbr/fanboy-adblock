@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://humorswitch.com/
+
+
+[filters]
+http://data.taggify.net/tags?format=jsonp&country=&q=Ape%20Rage%20Faces&q2=Humor%20Switch%20Turn&limit=10&max-descr=400&cref=&url=http%3A%2F%2Fhumorswitch.com%2F&callback=$$.JSONP.cb0&_ts=1325235788505
+http://data.taggify.net/tags?format=jsonp&country=&q=Kids%20Will%20Never&q2=Humor%20Switch%20Turn&limit=10&max-descr=400&cref=&url=http%3A%2F%2Fhumorswitch.com%2F&callback=$$.JSONP.cb4&_ts=1325235788539
+http://data.taggify.net/tags?format=jsonp&country=&q=Want%20Pillow%20Pet&q2=Humor%20Switch%20Turn&limit=10&max-descr=400&cref=&url=http%3A%2F%2Fhumorswitch.com%2F&callback=$$.JSONP.cb6&_ts=1325235788555
+http://data.taggify.net/tags?format=jsonp&country=&q=waking&q2=waking&limit=10&max-descr=400&cref=&url=http%3A%2F%2Fhumorswitch.com%2F&callback=$$.JSONP.cb5&_ts=1325235788547
+http://data.taggify.net/views/page_0_1105_64_.js
+http://www.taggify.net/images/va/bt-cls.png
+http://www.taggify.net/va/view.ashx?key=f32b7b0ef2034df78807a55e3f8fe73c&country=us&tzo=0&chn=64&no_tags=1&auto_tlt=EFEFEF&auto_txt=A2A2A2&auto_price=3399CC&auto_img_brd=D8D8D8&auto_bg=000000&auto_transp=85&auto_minw=150&auto_minh=150&no_share=1&auto_ro=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
