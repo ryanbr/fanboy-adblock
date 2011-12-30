@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.huffingtonpost.com/news/tv-spoilers/
+
+
+[filters]
+http://s.huffpost.com/images/ads/buddytv.jpg
+http://s.huffpost.com/images/ads/zap2it_logo.jpg
+http://s.huffpost.com/images/ads/partners.png?v3
+http://s.huffpost.com/images/ads/partners.png?v4
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
