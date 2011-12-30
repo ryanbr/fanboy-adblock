@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ebaumsworld.com/video/watch/82147595/
+
+
+[filters]
+http://w.po.st/share/script/post-widget.js#publisherKey=ebaumsworld
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
