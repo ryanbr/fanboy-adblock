@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://shamikswallpapers.blogspot.com/
+
+
+[filters]
+http://www.flipkart.com/affiliateWidget/simpleBanner?bc=000000&tc=FFFFFF&lc=858B94&buy=&affid=shamikmitr&id=EW23F7B3DF&type=3&price=yes&border=yes&height=265&width=130
+http://www.flipkart.com/affiliateWidget/simpleBanner?bc=000000&tc=FFFFFF&lc=858B94&buy=&affid=shamikmitr&id=IT33F97LEO&type=3&price=yes&border=yes&height=265&width=130
+http://www.flipkart.com/affiliateWidget/simpleBanner?bc=000000&tc=FFFFFF&lc=858B94&buy=&affid=shamikmitr&id=MOBCV6QCF9AQU7A4&type=3&price=yes&border=yes&height=260&width=150
+http://www.flipkart.com/affiliateWidget/simpleBanner?bc=000000&tc=FFFFFF&lc=858B94&buy=&affid=shamikmitr&id=MOBCVZT6SBGQHGRM&type=3&price=yes&border=yes&height=260&width=120
+http://www.flipkart.com/affiliateWidget/simpleBanner?bc=000000&tc=FFFFFF&lc=858B94&buy=&affid=shamikmitr&id=MOBCZQ5BZGDKPYF6&type=3&price=yes&border=yes&height=260&width=120
+http://www.flipkart.com/affiliateWidget/simpleBanner?bc=000000&tc=FFFFFF&lc=858B94&buy=&affid=shamikmitr&id=MOBCZSGBGEUTBSHU&type=3&price=yes&border=yes&height=260&width=120
+http://www.flipkart.com/affiliateWidget/simpleBanner?bc=000000&tc=FFFFFF&lc=858B94&buy=&affid=shamikmitr&id=RU23FGEQPF&type=3&price=yes&border=yes&height=265&width=130
+http://www.flipkart.com/affiliateWidget/simpleBanner?bc=000000&tc=ffffff&lc=858B94&buy=&affid=shamikmitr&id=IT33F97SRH&type=3&price=yes&border=yes&height=260&width=130
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
