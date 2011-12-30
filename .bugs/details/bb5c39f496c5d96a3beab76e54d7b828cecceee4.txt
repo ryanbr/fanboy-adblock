@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://goxvideo.net/18560-hd-porno.html
+
+
+[filters]
+http://slimtrade.com/in.php?s=837&t=1&b=1&c=1&r=http%3A//goxvideo.net/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
