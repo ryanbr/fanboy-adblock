@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://otsos.tv/gallery/school-girl-sex-video/bc0bae507da93874a1a22e5b29e3677e/index.html?5x1x1358958
+
+[filters]
+http://wz-rotator4.ru/?t=tsr&prid=19906&bid=91
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
