@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pupok.in/4/%D0%92%D0%BE%D1%82-%D1%8D%D1%82%D0%BE-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5-%D1%81%D0%B8%D1%81%D1%8C%D0%BA%D0%B8/
+
+
+[filters]
+http://everyporn.net/?id=262
+http://xdtraffic.com/in.cgi?2
+
+
+
+
+[other]
+Play the video, popups generated
+
+
+[comments]
+fanboy
