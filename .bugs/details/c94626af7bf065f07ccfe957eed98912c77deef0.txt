@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.devshed.com/
+
+
+[filters]
+http://www.devshed.com/images/backgrounds/pixel.gif
+http://www.devshed.com/images/backgrounds/safari_bg_sept.png
+http://www.devshed.com/images/backgrounds/top_banner_sept.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
