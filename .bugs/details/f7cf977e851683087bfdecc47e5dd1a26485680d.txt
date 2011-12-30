@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tribune.com.pk/story/313626/worlds-youngest-mcp-aarifa-karim-hospitalised/
+
+
+[filters]
+http://www.getresponse.com/javascripts/common/jquery/jquery.tools.min.js
+https://app.getresponse.com/javascripts/core/webforms/webform-out.js?1325236883168
+https://app.getresponse.com/view_webform.js?wid=120725&mg_param1=1&ver=3.2.1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
