@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blogs.denverpost.com/captured/2011/12/21/in-focus-mexico-drug-war-five-years-later/5151/
+
+
+[filters]
+http://extras.mnginteractive.com/live/js/tacoda/DartInclude.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
