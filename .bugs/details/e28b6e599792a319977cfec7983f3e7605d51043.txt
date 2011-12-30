@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dailymotion.com/playlist/x1pucd_DMilias_live-feeds/1#videoId=xg7hrs
+
+[filters]
+http://www.dailymotion.com/logger/video/access/xg7hrs?session_id=&referer=&country=NZ&lon=175.6167000000000&lat=-40.3500000000000&key=d593zgerl00xnqxhllx0rrc&v=4efdc188&i=794fc709&h=68b7c13cc713d9eeda7ace6963eff879&_n=10394335
+http://static1.dmcdn.net/js/gen/lib/audience-meter.js.v8f766a09337cd780
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
