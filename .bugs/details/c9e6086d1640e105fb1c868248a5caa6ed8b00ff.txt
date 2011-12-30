@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.opezdalov.net/posts.php?id=314
+
+
+[filters]
+http://vidustal.com/_search.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
