@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sex-photo.ru/dtr/galls/a55c82/02.html
+
+[filters]
+http://loneday.com/js/bdRd7w.js?33576&15026&a=reg.loneday.com&loneday.com
+http://adv.bannercity.ru/cgi-bin/iframe?58,1528,75200
+http://sex-photo.ru/banners/468x60-2/35.gif
+http://sex-photo.ru/bonus/yandexads7k9.js
+http://sex-photo.ru/prostitutki/prostitutki2.js
+http://sex-photo.ru/prostitutki/prostitutki3.js
+http://sex-photo.ru/prostitutki/prostitutki6.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
