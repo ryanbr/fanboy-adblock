@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sextivi.ru/
+
+[filters]
+http://www.epartner.ru/ppdiz/dosug01.gif
+http://www.epartner.ru/ppdiz/dosug120.gif
+
+[other]
+
+
+[comments]
+nitrox
