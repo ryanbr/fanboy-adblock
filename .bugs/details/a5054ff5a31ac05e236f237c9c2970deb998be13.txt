@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+#http://drocherof.net/
+
+
+[filters]
+http://mediaip.ru/restat.php?id=9211
+http://mediaip.ru/click.php?id=5621&site=176313&c=LR8HETs9KTskHVN/MCQwISMMbCk6CCYdP2AtIH88Fj0fIhJpFg4uORUWN2E/My/p9lfcrzc=&to=0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
