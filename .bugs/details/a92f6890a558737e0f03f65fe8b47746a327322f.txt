@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.plombir.ru/video.php?id=291416
+
+[filters]
+http://douteure.com/javascript/SuJmx66dJA
+http://douteure.com/wp-includes/js/jquery/jquery.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
