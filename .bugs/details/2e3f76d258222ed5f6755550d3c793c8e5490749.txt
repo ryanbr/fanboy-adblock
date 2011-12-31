@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://animalvideos.yahoo.com/video-detail?vid=25711848&cid=24037714
+
+
+[filters]
+http://l.yimg.com/a/lib/e1/emmm/ads_min_9.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9356
+
+
+[comments]
+fanboy
