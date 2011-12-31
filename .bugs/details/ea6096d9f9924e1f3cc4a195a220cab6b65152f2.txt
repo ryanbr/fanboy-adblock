@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cgi5.ebay.com/ws/eBayISAPI.dll?SellHub3&sellhub=&sellitem=&hm=um.rundkoi341&hc=1
+
+
+[filters]
+needs to be blocked:
+http://srx.main.ebayrtm.com/rtm?RtmCmd&a=json&p=433:876:912:1650:1651&ph=0:0:0:0:0:0&ev=0:0:0:0:0:0&uf=0&c=1H4sIAAAAAAAAAFMOTixRcElNVjA2VDAwsTIwtzKwVPANDlEwMjA05OUqMLYwt60KMfcIz3HVAnKNjA1ty8vL9VKTEiv1kvNzgUKGFsa2psZmBmBZE1sjXq7kzBRbQ6OYUgMDA6ARABXlRXhiAAAA&ord=1325329629043&e=USC:2&z=11&bw=1920&bh=949&cg=5b08830b1340a0aa1503a043fe5af273&enc=UTF-8&v=4&rnc=1&cb=vjo.dsf.assembly.VjClientAssembler._callback0&_vrdm=1325329622380
+http://srx.main.ebayrtm.com/rtm?RtmCmd&a=json&p=433:876:912:1650:1651&ph=0:0:0:0:0:0&ev=0:0:0:0:0:0&uf=0&c=1H4sIAAAAAAAAAFMOTixRcElNVjA2VDAwsTI0tjI0V%2FANDlEwMjA05OUqMLYwtzUoMU8JK%2FHVAnKNjA1ty8vL9VKTEiv1kvNzgUKGFsa2psZmBmBZE1sjXq7kzBRbQ6OYUgMDA6ARABvhA25iAAAA&ord=1325329997658&e=USC:2&z=11&bw=1920&bh=949&cg=5b08830b1340a0aa1503a043fe5af273&enc=UTF-8&v=4&rnc=1&cb=vjo.dsf.assembly.VjClientAssembler._callback0&_vrdm=1325329990046
+
+legit:
+http://srx.main.ebayrtm.com/rtm?RtmCmd&a=inline&p=11123:433:876:912:1650:1651&l=mdew01&uf=1&z=11&ord=1325329525984&bw=1920&bh=949&cg=5b08830b1340a0aa1503a043fe5af273&v=3&enc=UTF-8
+http://srx.main.ebayrtm.com/rtm?RtmCmd&a=inline&p=674:675:676:677:679:415:11429:681:433:876:912:1650:1651&i=3Fw8hYgZTLWEAVChs&c=1H4sIAAAAAAAAAFMOTixRcElNVjA2VDAwsTIwtTI1UfANDlEwMjA05OUqMLYwt61yKgsuz7bQAnKNjA1t0%2FKLSnOL9dIS85LyK%2FWS8%2FXyqoAyhhbGtkbmBsZgRSa2upaWvFzJmSm2RkYxpQYGBkCzAMA8sCNrAAAA&g=5b08830b1340a0aa1503a043fe5af274&uf=1&z=11&ord=1325329546957&bw=1920&bh=949&cg=5b08830b1340a0aa1503a043fe5af273&v=3&enc=UTF-8
+
+filter: ||main.ebayrtm.com/rtm?RtmCmd&a=json&*&enc=UTF-8&
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
