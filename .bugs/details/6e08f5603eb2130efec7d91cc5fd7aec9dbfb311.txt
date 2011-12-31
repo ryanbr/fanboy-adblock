@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nova.rambler.ru/search?btnG=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8!&query=test
+
+
+[filters]
+http://www.rambler.ru/cl?nv&u=5E2E874EB62BEAB4&n=js_enabled&l=id:y;&n=search.switch&l=id:default
+http://www.rambler.ru/cl?nv&u=5E2E874EB62BEAB4&n=search.suggest&l=id%3Asuggest_submit%2Ccl%3A0.0%2Cu%3Ano_domain%7Cid%3Asuggest_redirect%2Ccl%3A0.0%2Cu%3Ano_domain%7Cid%3Asuggest_open%2Ccl%3A0.0%2Cu%3Ano_domain%7Cid%3Asuggest_navi%2Ccl%3A0.0%2Cu%3Ano_domain%7Cid%3Asuggest_choice%2Ccl%3A0.0%2Cu%3Ano_domain
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=9345
+
+
+[comments]
+fanboy
