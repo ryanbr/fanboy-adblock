@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ask.com/answers/59135281/my-grandmother-is-sick-and-i-want-to-make-her-feel-better-what-are-some-things-i-can-do?qsrc=4034
+
+
+[filters]
+http://wzus1.ask.com/i/b.html?t=a&d=us&s=a&c=qna&app=a16&ti=1&ai=53687&l=dir&o=2564&sv=0a5c404d&ip=18e40f36&u=&rnd=0.0441356067895563
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9371
+
+
+[comments]
+fanboy
