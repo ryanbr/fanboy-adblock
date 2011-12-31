@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.inetporno.net/
+
+
+[filters]
+http://tidentes.com/rss3/?WDJ=0607&h=tidentes&b=73451&p=30061&np=1&hp=-1&ph=1&Zs=066&A=055&53048
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
