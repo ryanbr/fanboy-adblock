@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://elitistjerks.com/
+
+
+[filters]
+http://images.cdn.elitistjerks.com/images/bannerloaded.gif
+http://images.cdn.elitistjerks.com/images/bannerloading.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
