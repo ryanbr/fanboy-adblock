@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ukrainianfiancee.com/
+
+
+[filters]
+http://www.datetraders.com/publisher/bbanner.php?id=batishta&target=1&r=&ex=&gender=both&country=all&agefrom=18&ageto=80
+http://www.klikadvertising.com/cnt/kf_counter.php?c_id=626&c_code=cde07ce238b4815ccc7a03f038e67779
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
