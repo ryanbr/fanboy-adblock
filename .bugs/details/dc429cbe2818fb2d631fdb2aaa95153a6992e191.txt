@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rbrides.com/
+
+
+[filters]
+http://www.luvcash.com/aff/scripts/click.php?refe=H_forums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D9405&lid=&ls=1&cjs=y&pd1=&pd2=
+http://www.luvcash.com/aff/scripts/clickjs.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
