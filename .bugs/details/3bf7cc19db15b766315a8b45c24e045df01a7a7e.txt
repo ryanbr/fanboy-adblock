@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://foto-razvrat.ru/524-porno-foto-maloletki-krestiny.html
+
+
+[filters]
+http://foto-razvrat.ru/emulator_3rs/effect.php?informer=103
+http://foto-razvrat.ru/emulator_3rs/effect.php?informer=26
+http://foto-razvrat.ru/emulator_3rs/effect.php?informer=9
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
