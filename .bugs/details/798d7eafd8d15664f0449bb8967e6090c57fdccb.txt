@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fastcompany.com/pics/biomimicry-transportation
+
+
+[filters]
+http://www.fastcompany.com/pics/sites/all/modules/fc_ads/fc_ads.js?c
+
+Just blocking the script, not the image.. or scode stuff
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
