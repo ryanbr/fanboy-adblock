@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://emailrussiangirls.com/
+http://www.russia-wife.com/
+http://rugirl.net/
+
+[filters]
+http://www.russia-wife.com/track.js?screen=1440x900&win=1423x2375&cdi=24&java=false&shk=undefined&svg=undefined&fla=y&rp=undefined&mov=undefined&wma=undefined&pdf=undefined&uid=awsuser_id1325368395590r5460&sid=awssession_id1325368395590r5460
+http://rugirl.net/track.js?screen=1440x900&win=1423x3085&cdi=24&java=false&shk=undefined&svg=undefined&fla=y&rp=undefined&mov=undefined&wma=undefined&pdf=undefined&uid=awsuser_id1325369104109r5979&sid=awssession_id1325369104109r5979
+
+
+
+[other]
+Lets see how this goess..
+
+
+[comments]
+fanboy
