@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://webest.info/
+
+
+[filters]
+http://webest.info/catalogue/in/7.info?r=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D7%26t%3D9327&u=undefined&rand=0.639368064710269
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
