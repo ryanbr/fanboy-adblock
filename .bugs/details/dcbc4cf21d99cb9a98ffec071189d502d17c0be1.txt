@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://conversations.nokia.com/2010/01/08/nokia-ceo-unveils-1m-growth-economy-venture-challenge-video/
+
+
+[filters]
+http://conversations.nokia.com/wp-content/themes/convo-rev2/js/ga_event_tracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
