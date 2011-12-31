@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ehow.com/how_4449837_use-adblock-plus-firefox.html
+
+
+[filters]
+http://rc.hotkeys.com/interface/6/?mode=rc3&outputType=json&url=http%3A%2F%2Fwww.ehow.com%2Fhow_4449837_use-adblock-plus-firefox.html&category=Computers&subCategory=Computer%20Software&subSubCategory=Freeware%2C%20Shareware%20%26%20Abandonware&pageLocations=PLATFORM_CENTER%7C15%2CPLATFORM_TL%7C14&jsonWrapper=_dmwm.appCallback
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
