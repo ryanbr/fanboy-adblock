@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ipsnews.net/news.asp?idnews=106339
+
+
+[filters]
+http://www.ipsnews.net/_adv/adv-cop17.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
