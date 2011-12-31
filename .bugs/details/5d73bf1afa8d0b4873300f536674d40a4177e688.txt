@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.evo.co.uk/carreviews/cargrouptests/276595/ford_mustang_boss_v_bmw_m3_v_audi_rs5_v_mercedes_c63_amg.html
+
+
+[filters]
+http://a.evo.co.uk/HG?hc=&hb=DM570308OHDB&cd=1&hv=6&n=/Ford+Mustang+Boss+v+BMW+M3+v+Audi+RS5+v+Mercedes+C63+AMG+%28article+%23276595%29&con=&vcon=/Car+Reviews/Car+Group+Tests&tt=auto&ja=y&dt=15&zo=-780&lm=1325298988000&bn=Netscape&ce=y&ss=1920*1080&sc=24&sv=16&cy=u&hp=u&ln=en-US&vpc=HBX0200u&vjs=HBX0201.03u&hec=0&pec=&cmp=&gp=&dcmp=&dcmpe=&dcmpre=&cp=null&fnl=&seg=&epg=&cv=&gn=&ld=&la=&c1=&c2=&c3=&c4=&customerid=&ttt=lid,lpos&ra=&pu=&cv.c5=&cv.c6=&cv.c7=&cv.c8=&rf=http%3A//www.evo.co.uk/&pl=Java%20Deployment%20Toolkit%206.0.290.11%3AJava%28TM%29%20Platform%20SE%206%20U29%3AShockwave%20Flash%3A&lv.id=&lv.pos=&hid=0.5289315468409098
+http://a.evo.co.uk/HG?hc=&hb=DM570308OHDB&hec=1&vjs=HBX0201.03u&vpc=ERR&ec=1&err=Unknown
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
