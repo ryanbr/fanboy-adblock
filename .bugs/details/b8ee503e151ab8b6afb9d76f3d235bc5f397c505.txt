@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.everythinggirl.com/home/home.aspx
+
+
+[filters]
+http://dcs.mattel.com/DCS0hd6DfXwn91SNYkRByCQH5_7K9J/dcs.gif?dcsredirect=1&dcsdat=1325298346256&dcsuri=/home/home.aspx&dcsqry=&dcssip=www.everythinggirl.com&WT.tz=-780&WT.ul=en-US&WT.cd=24&WT.sr=1920x1080&WT.jo=Yes&WT.ti=Welcome%20To%20EverythingGirl.Com
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
