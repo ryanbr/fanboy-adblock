@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yandex.ru/
+http://www.yandex.kz/
+http://www.yandex.ua/
+http://www.yandex.by/
+
+[filters]
+http://www.yandex.ru/hello.html?ncrnd=1132550273
+http://www.yandex.kz/hello.html?ncrnd=4196905740
+http://www.yandex.ua/hello.html?ncrnd=4003169302
+http://www.yandex.by/hello.html?ncrnd=5965541882
+http://yaca.yandex.ru/blocks/b-site-counter/b-site-counter.gif
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=9344
+
+
+[comments]
+fanboy
