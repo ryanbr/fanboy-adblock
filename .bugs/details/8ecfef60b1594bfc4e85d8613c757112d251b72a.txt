@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.volgagirl.com/
+
+
+[filters]
+http://stats.engineseeker.com/clients/_tools/record_stats.php?id=54287&res=1440x900&http_user_agent=mozilla/5.0%20(windows%20nt%206.1;%20wow64;%20rv:9.0.1)%20gecko/20100101%20firefox/9.0.1&aN=Netscape&aV=5.0%20%28Windows%29&java=false&os=Win32&http_referer=&url=http%3A//www.volgagirl.com/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
