@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://meta.ua/
+
+
+[filters]
+http://meta.ua/f_new.asp?g=teaser_video_728
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
