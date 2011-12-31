@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.elleuk.com/beauty
+
+
+[filters]
+http://abc.hearst.co.uk/hfuk/setid/external=ELLE/value=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
