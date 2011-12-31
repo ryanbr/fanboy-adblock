@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://xn--h1aazb.su/
+
+
+[filters]
+http://dosugcz.in/getThumbs?uid=1071867&p=2&fmt=htm&l=2&lng=ru&fbc=%23FFFFFF&tbc=%23000000&hbc=%23FF0000&hfc=%23FFFFFF&hlu=0&hlhu=0&cols=6&rows=1&tid=2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
