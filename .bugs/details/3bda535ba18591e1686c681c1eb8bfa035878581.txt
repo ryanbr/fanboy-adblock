@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.magic-sinema.ru/porno-online/
+
+
+[filters]
+http://www.crpoy.com/j35.php
+http://www.rokno.com/j45.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
