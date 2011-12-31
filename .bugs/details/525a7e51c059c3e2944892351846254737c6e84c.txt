@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://msxml.excite.com/search/web?q=test
+
+[filters]
+http://msxml.excite.com/__kl.gif?type=pageview&aid=1251495061.2359657850662.1325300187.1&ac=1&s=excite&c=info.xcite&pid=2&lh=msxml.excite.com&dr=http%3A%2F%2Fbfc.excite.com%2Fsearch%2Fexcite_search_redirect.html%3Fredir%3Dhttp%253A%252F%252Fmsxml.excite.com%252Fexcite%252Fws%252Fredir%253Ffoo%253Dbar%26ran%3D1589%26cid%3D372409%26site%3Dsrch%26area%3Dis.clicktracking%26shape%3Dlink%26cp%3Dinfo.xcite%26qcat%3Dweb%26qkw%3Dtest&qid=3fc24949cd2f43b7a1ca5db19f744b95&pn=1&pri=33511beb0683466db682ad1357e9c925&rnd=0.23769096762935915&qsh=1714967549
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
