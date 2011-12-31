@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://all-radio.ru/
+
+
+[filters]
+http://moborobot.com/cout.php?sid=139643
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=9340
+
+
+[comments]
+fanboy
