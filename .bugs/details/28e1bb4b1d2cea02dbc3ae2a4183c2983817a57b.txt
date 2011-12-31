@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://supertop1.narod.ru/supertop/go.html
+
+
+[filters]
+http://yabs.yandex.ru/show/163
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
