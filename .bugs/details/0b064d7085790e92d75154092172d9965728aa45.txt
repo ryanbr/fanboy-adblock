@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cgi5.ebay.com/ws/eBayISAPI.dll?SellHub3
+
+
+[filters]
+http://srx.main.ebayrtm.com/rtm?RtmCmd&a=inline&p=674:675:676:677:679:415:11429:681:433:876:912:1650:1651&i=3Fw8hYgZTLWEAVChs&c=1H4sIAAAAAAAAAFMOTixRcElNVjA2VDAwsTIwtTI1UfANDlEwMjA05OUqMLYwt61yKgsuz7bQAnKNjA1t0%2FKLSnOL9dIS85LyK%2FWS8%2FXyqoAyhhbGtkbmBsZgRSa2upaWvFzJmSm2RkYxpQYGBkCzAMA8sCNrAAAA&g=5b08830b1340a0aa1503a043fe5af274&uf=1&z=11&ord=1325329546957&bw=1920&bh=949&cg=5b08830b1340a0aa1503a043fe5af273&v=3&enc=UTF-8
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
