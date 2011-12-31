@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.entrepreneur.com/
+
+
+[filters]
+http://data.coremetrics.com/at/rules_90351628.js
+
+
+
+[other]
+Blocking this script specifically for the tracker list, even though its blocked outright in the enhanced.
+
+
+[comments]
+fanboy
