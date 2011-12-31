@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.google.ru/?as_qdr=all#hl=ru&newwindow=1&as_qdr=all&site=&q=test&pbx=1&oq=test&aq=f&aqi=&aql=&gs_sm=e&gs_upl=12681l13573l0l14336l4l4l0l0l0l0l178l442l0.3l3l0&bav=on.2,or.r_gc.r_pw.,cf.osb&fp=c997a1c4d0ef9ec0&biw=1440&bih=461
+
+
+[filters]
+google.ru###vdls-advs
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9333
+
+
+[comments]
+fanboy
