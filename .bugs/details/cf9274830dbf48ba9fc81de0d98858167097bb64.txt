@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.xbitlabs.com/articles/coolers/display/enermax-etd-t60-tb.html
+
+
+[filters]
+http://www.xbitlabs.com/cms/module_banners/ibanner.php?g=article&r=2970555176
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
