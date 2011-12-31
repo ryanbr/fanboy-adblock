@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://everyjoe.com/entertainment/video-girl-with-dancing-eyebrows-724/
+
+
+[filters]
+http://bb.b5media.com/bbpixel.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
