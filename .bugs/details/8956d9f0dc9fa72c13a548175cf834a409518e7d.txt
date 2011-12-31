@@ -1,0 +1,31 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://msxml.excite.com/search/images?q=music
+
+
+[filters]
+http://ts2.mm.bing.net/images/thumbnail.aspx?q=1533145057145&amp;id=7981090565e31e1bcc50394919cc79f2
+http://ts2.mm.bing.net/images/thumbnail.aspx?q=1543929998265&amp;id=338d373903bae287b16444ad58db9b8e
+http://ts3.mm.bing.net/images/thumbnail.aspx?q=1515589548062&amp;id=08079a20797363e6b17fbdf270c78528
+http://ts3.mm.bing.net/images/thumbnail.aspx?q=1516984205994&amp;id=5f0cba745801e4c3cd5dfa3b9dc74166
+http://ts3.mm.bing.net/images/thumbnail.aspx?q=1519755995042&amp;id=bde508898aca46cf0c79e5430be34166
+http://ts3.mm.bing.net/images/thumbnail.aspx?q=1520078434450&amp;id=6982ab71410ec71345e72e30678a5f6c
+http://ts3.mm.bing.net/images/thumbnail.aspx?q=1531757530598&amp;id=d216eb60faddc4e1093b08a29715db2e
+http://ts3.mm.bing.net/images/thumbnail.aspx?q=1532495668482&amp;id=4a86f659ba553af88104996554596c9b
+http://ts3.mm.bing.net/images/thumbnail.aspx?q=1535376366762&amp;id=58b78f0389dfe968934edd811d037a5c
+http://ts4.mm.bing.net/images/thumbnail.aspx?q=1515658938479&amp;id=19cd56e514a50a9000162bdfc56258b4
+http://ts4.mm.bing.net/images/thumbnail.aspx?q=1518457266171&amp;id=c4cad9df446336fd55358b1678d1360f
+http://ts4.mm.bing.net/images/thumbnail.aspx?q=1518755713283&amp;id=01781889bfa0aea325e1165350671c85
+http://ts4.mm.bing.net/images/thumbnail.aspx?q=1518764758287&amp;id=3cf730ae226a0c2860b3b45121448937
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
