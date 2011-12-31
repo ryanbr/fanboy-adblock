@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.spermik.com/cat/bigtits.html
+
+
+[filters]
+http://nn.tmska.com/rss3/?h=nn.tmska&hp=-1&b=7581&p=2979&np=1&ugJg=04795&ph=1&ij=04&1412
+http://nn.tmska.com/d2d931a3/9dc73/1ad/
+
+http://tt.morkovka.net/cgi-bin/rtm?view=1&rrnd=79669
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
