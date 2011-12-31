@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://zakon.meta.ua/
+
+
+[filters]
+http://meta.ua/f_new.asp?g=zakon_240&userID=0UA18e40f36T4efe89d6&sitename=zakon.meta.ua&q=&grid=434&prid=21530&bnid=47676&phid=0&siteid=27&cid=957
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
