@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://boobzi.com/
+
+
+[filters]
+http://sugar-traff2.com/#hm_relocation=http%3A%2F%2Fchru.ru%2F
+http://advxp.com/js/yandex-advisor.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
