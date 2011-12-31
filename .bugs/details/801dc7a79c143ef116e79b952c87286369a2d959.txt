@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.meteoprog.ua/ua/weather/Zaleschiki/
+
+
+[filters]
+http://www.meteoprog.ua/js/TeaserBlock.site.js
+http://www.meteoprog.ua/js/admixer_script.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
