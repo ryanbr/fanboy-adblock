@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.el33tonline.com/past_article/2011/12/21/trine_2_review/
+
+[filters]
+http://myscoop-tracking.googlecode.com/svn/trunk/tracker.js
+http://assets.el33tonline.com/images/PSVitaSkin.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
