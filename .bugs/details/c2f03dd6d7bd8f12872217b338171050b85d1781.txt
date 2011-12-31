@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://intim-obzor.ru/index.php?sos=2028389928
+
+
+[filters]
+http://123stat.ru/count/kod.php?s=intim-obzor.ru
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
