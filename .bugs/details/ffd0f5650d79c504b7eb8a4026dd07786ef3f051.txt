@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.google.com/search?hl=en&safe=off&q=related:my-gay.tv
+
+
+[filters]
+google.com###vdls-advs
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9333
+
+
+[comments]
+fanboy
