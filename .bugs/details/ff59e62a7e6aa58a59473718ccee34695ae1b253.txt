@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://xxxclip.ru/2011/05/24/parochka-zanimaetsya-seksom-u-sebya-doma.html
+
+
+[filters]
+http://www.funnews.biz/news.php?id=xxxclip2
+http://daffecte.com/rss3/?b=4200&np=1&p=1675&ph=1&h=daffecte&hp=-1&ixU=08793&EEu=09007&YQ=0668&G=081551&Yj=09&40060
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
