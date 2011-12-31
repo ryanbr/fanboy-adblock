@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.laptopmag.com/top-10-tablets-now?slide=2
+
+
+[filters]
+http://blog.laptopmag.com/wpress/wp-content/themes/default/LogicBuy.htm
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9347
+
+[comments]
+fanboy
