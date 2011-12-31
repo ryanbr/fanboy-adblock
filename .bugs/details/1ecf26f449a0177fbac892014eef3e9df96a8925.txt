@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pornofotok.net/
+
+
+[filters]
+http://striere.com/rss3/?VS=00762&np=1&p=31159&h=striere&b=283103&hp=-1&ph=1&Oq=050&LEu=0283&44300
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
