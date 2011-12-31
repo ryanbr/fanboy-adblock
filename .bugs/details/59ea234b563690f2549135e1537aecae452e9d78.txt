@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nixaxa.ru/other/big-boobs.php
+
+
+[filters]
+http://dificaux.com/rss3/?b=74580&h=dificaux&p=10599&np=1&Ti=0335&hp=-1&ph=1&id=0823828&qno=0658&vk=0625&ul=00236&gU=019&30448
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
