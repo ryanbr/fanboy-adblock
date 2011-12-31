@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://desadov.com/Pornoclips.shtml
+
+
+[filters]
+http://striete.com/rss3/?h=striete&p=99045&np=1&b=250915&hp=-1&XTE=0877&ph=1&NNJ=06738&74908
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
