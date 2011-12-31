@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.russian-brides-club.com/
+
+
+[filters]
+http://www.datexchanges.net/ban/work.php?n=6&size=1&j=1&code=1325307625156
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
