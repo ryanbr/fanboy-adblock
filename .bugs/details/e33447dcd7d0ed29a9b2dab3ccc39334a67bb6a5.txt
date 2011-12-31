@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lexisnexis.com/community/portal/content/lexisonelandingpage.aspx
+
+
+[filters]
+http://scout.lexisnexis.com/echht/PageHit.ashx?id=fef0db06-ed57-426d-baa8-e1f63495afe6&sn=9382c4c6-ab74-4405-b322-ae29005efcaa&msg=&type=4&url=http%3A%2F%2Fwww.lexisnexis.com%2Fcommunity%2Fportal%2Fcontent%2Flexisonelandingpage.aspx&rf=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D9388&if=false&cb=1325370691737
+http://scout.lexisnexis.com/echht/Sat.ashx
+http://scout.lexisnexis.com/echht/Sat.ashx?id=fef0db06-ed57-426d-baa8-e1f63495afe6&sn=9382c4c6-ab74-4405-b322-ae29005efcaa&msg=&type=4&url=http%3A%2F%2Fwww.lexisnexis.com%2Fcommunity%2Fportal%2Fcontent%2Flexisonelandingpage.aspx&rf=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D9388&if=false&cb=1325370691722&used=false
+http://scout.lexisnexis.com/echht/empty.html
+http://scout.lexisnexis.com/echht/js/combined/satcombined_min1.15.21.0.js
+http://scout.lexisnexis.com/echht/sat.ashx
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
