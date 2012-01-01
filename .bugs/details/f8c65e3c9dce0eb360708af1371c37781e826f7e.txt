@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cliosport.net/forum/showthread.php?616948-I-want-a-Liquid-Yellow-to-do!
+
+
+[filters]
+http://www.cliosport.net/forum/misc.php?do=analytics
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
