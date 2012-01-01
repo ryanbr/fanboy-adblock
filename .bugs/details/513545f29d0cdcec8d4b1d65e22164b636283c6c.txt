@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://thepiratebay.org/top/all
+
+
+[filters]
+http://512.107.71.194.in-addr.arpa/bottom728.html
+
+[other]
+
+
+[comments]
+nitrox
