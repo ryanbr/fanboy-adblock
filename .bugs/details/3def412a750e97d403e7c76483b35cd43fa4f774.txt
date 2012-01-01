@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://kukolka.org/
+
+
+[filters]
+http://arkpressphoto.org/rss3/?np=1&p=28482&b=75460&h=arkpressphoto.org&hp=-1&K=069&JCl=005627&ph=1&ZU=010607&oWZU=062423&59557
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
