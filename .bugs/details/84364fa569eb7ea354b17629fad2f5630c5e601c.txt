@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.la7.tv/richplayer/?assetid=50246478
+
+
+[filters]
+http://livestats.la7.tv/crossdomain.xml
+http://livestats.la7.tv/livestats-la7/ViewRecorderService?MESSAGE=RECORD_VIEW&CONTENT_ID=dv-50246478&OUTPUT=xml
+http://iads.iltrovatore.it/crossdomain.xml
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
