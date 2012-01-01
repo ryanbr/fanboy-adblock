@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://global.nytimes.com/?iht
+
+
+[filters]
+http://js.nyt.com/js/mtr.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
