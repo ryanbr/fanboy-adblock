@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vsego.ru/catalog.phtml?kat=122
+
+[filters]
+http://ad.bannerpoint.ru/bb.cgi?cmd=ad&hreftarget=_blank&pubid=63996&pg=7&vbn=142&w=100&h=100&num=1&r=ssi&ssi=nofillers&r=ssi&nocache=751605&ref=&loc=http%3A//www.vsego.ru/
+http://ad.bannerpoint.ru/bb.cgi?cmd=ad&hreftarget=_blank&pubid=63996&pg=7&vbn=142&w=100&h=100&num=2&r=ssi&ssi=nofillers&r=ssi&nocache=490851&ref=&loc=http%3A//www.vsego.ru/
+http://ad.bannerpoint.ru/bb.cgi?cmd=cs&ad_check=o-BHZLB4WEd4
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
