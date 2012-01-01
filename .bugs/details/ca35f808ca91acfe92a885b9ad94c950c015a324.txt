@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.i4mob.com/
+
+
+[filters]
+http://targetedtopic.com/sk-pxbrdg.php?rdiu=*
+http://domdex.com/f?c=*&k=*
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
