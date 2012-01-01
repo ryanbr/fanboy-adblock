@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hotlineblog.nationaljournal.com/
+
+[filters]
+http://service.nationaljournal.com/js/omniture
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
