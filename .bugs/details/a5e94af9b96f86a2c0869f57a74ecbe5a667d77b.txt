@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gezginler.net/modules/mydownloads/singlefile.php?download=lanphone-android&lid=15177
+
+
+[filters]
+http://ad.adrttt.com/aff_i?offer_id=33&aff_id=1012&file_id=710&source=desert-160x600
+http://network.dgmaxinteractive.com/42/3024/5401/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
