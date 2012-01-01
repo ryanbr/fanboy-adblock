@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kron.com/
+
+
+[filters]
+http://www.kron.com/Uploads/Sales/300x250web-ad-2012.jpg
+http://www.kron.com/images/brandingheaders/30-Rock-WEEKDAYS-728.90.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
