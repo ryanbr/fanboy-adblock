@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://randki.sex-zone.pl/komunikaty.php
+
+
+[filters]
+http://poniedzialek.clangames.pl/dialogi.js
+http://poniedzialek.clangames.pl/frame_v4.4.1.min.js
+http://poniedzialek.clangames.pl/get_city.php
+http://poniedzialek.clangames.pl/img/20111212/bx2_20111212_1_tlo.gif
+http://poniedzialek.clangames.pl/img/box-cross.gif
+http://poniedzialek.clangames.pl/oferty.js
+http://poniedzialek.clangames.pl/scr/4/4ae8b233847521113d18df0f2e72fc55.html?next=0
+http://poniedzialek.clangames.pl/scr/4/4ae8b233847521113d18df0f2e72fc55.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
