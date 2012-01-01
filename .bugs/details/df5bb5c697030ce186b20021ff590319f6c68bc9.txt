@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://piratbit.net/
+
+
+[filters]
+http://recreativ.com.ua/rcode.aa06c9dfb6.js
+http://recreativ.com.ua/rcode.0dfd221d1e.js
+http://rat.piratbit.net/click/body.php?id=383&hash=78054eb01d439979c23732e311085b0f
+http://rat.piratbit.net/click/body.php?id=383&hash=78054eb01d439979c23732e311085b0f&cook=1&value=
+http://rat.piratbit.net/js/mdhash.php
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
