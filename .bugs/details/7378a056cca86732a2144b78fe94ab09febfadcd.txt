@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.metacafe.com/watch/7926369/tiger_woods_biography_of_the_greatest_golfer_in_the_world/
+
+
+[filters]
+Preroll ads caused by: 
+http://serve.vdopia.com/adserver/trk/vi/6603/19826/7845/vdopianf/preroll~556522990~~?
+http://serve.vdopia.com/adserver/trk/ae/6603/19826/7845/vdopia/preroll~556522990~~?
+http://serve.vdopia.com/adserver/trk/vi_0/6603/19826/7845/vdopianf/preroll~556522990~~?
+http://serve.vdopia.com/adserver/vastxml/b3d92b9a5f376d828992de596960c97d/preroll|/category:EN|;api_test:false;format:vast
+
+[other]
+Make it only apply to:
+http://videos.sify.com/Exclusive-interview-Karthi-SIFY-watch-ke0kJcedbcj.html
+
+
+[comments]
+fanboy
