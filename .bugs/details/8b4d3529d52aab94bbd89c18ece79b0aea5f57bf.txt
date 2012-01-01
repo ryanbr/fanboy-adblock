@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.trustedreviews.com/logik-l323cd11_TV_review
+
+
+[filters]
+http://www.trustedreviews.com/ipcFrontendPlugin/js/yui3/dynamic/adtech.js?uid=1323947042
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
