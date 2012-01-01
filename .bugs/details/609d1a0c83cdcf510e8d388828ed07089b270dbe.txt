@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.malibubright.com/
+
+
+[filters]
+http://www.malibubright.com/krtrk/click_v5.php?E=MNM&cp=&wu=http%3A//www.malibubright.com/&rf=&debug=&showpx=&opath=krtrk&blockcache=&pppx=&pid=&xa=&dcp=&abver=&opabver=&b=&af=&ref=&
+http://www.malibubright.com/krtrk/click_v5.php?opath=krtrk&E=MNM&cp=&wu=http%3A//www.malibubright.com/&rf=&debug=&showpx=&opath=krtrk&blockcache=&pppx=&pid=&xa=&dcp=&abver=&opabver=&b=&af=&ref=&step=1&fpv=0&fps=mozilla/5.0%20%28windows%20nt%206.1%3B%20rv%3A12.0a1%29%20gecko/20111230%20firefox/12.0a1%7C24%7C1600%7C1200%7C1170%7CnpdeployJava1.dll%7Cnpjp2.dll%7CnpPdfViewer.dll%7CNPSWF32.dll%7Cnpctrl.dll%7CNPWebSLLauncher.dll%7CNPSPWRAP.DLL%7CNPAUTHZ.DLL%7CWin32
+http://www.malibubright.com/krtrk/click_v5_js.php?ENGINE=MNM&cp=&ucp=&mcp=&rf=&wu=http%3A//www.malibubright.com/&b=&af=
+
+[other]
+
+
+[comments]
+nitrox
