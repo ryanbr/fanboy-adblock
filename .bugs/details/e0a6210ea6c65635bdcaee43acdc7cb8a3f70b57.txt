@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ttnetmuzik.com.tr/
+
+
+[filters]
+http://www.ttnetmuzik.com.tr/TTNETMuzik/swf/flowplayer.audio-3.1.2.swf?v1
+http://www.ttnetmuzik.com.tr/TTNETMuzik/swf/flowplayer.commercial-3.1.5.swf?v1
+http://www.ttnetmuzik.com.tr/TTNETMuzik/swf/flowplayer.content-3.1.0.swf
+http://www.ttnetmuzik.com.tr/TTNETMuzik/swf/flowplayer.rtmp-3.1.3.swf?v1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
