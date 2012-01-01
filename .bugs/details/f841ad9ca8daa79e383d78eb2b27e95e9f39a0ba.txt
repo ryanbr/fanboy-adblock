@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://brupt.ru/
+
+
+[filters]
+http://protip.ru/restat_.php?id=1037&siteid=74422
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
