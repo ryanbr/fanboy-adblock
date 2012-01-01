@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.freetv-watch.com/finland/tv4-nelonen.html
+
+
+[filters]
+http://install.freedownloadsoft.net/installer/session/popover/199540/1315691 (script)
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
