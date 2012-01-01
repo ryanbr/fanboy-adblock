@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tamilkurinji.com/news_details.php?/2012/%E0%AE%AA%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BE%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81/%E0%AE%B0%E0%AE%BE%E0%AE%9A%E0%AE%BF/%E0%AE%AA%E0%AE%B2%E0%AE%A9%E0%AF%81%E0%AE%AE%E0%AF%8D/%E0%AE%AA%E0%AE%B0%E0%AE%BF%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AE%AE%E0%AF%81%E0%AE%AE%E0%AF%8D/&id=20888
+
+
+[filters]
+http://cdn.atomex.net/static/js/ads-min.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
