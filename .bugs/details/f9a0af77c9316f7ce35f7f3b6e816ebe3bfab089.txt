@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rg.ru/2005/10/11/kolobkov.html
+
+
+[filters]
+http://special.rg.ru/counter/?t=article&oid=82067&callback=jsonp1325442906778
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
