@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.fark.ru/video/zaman2/994.html
+
+
+[filters]
+http://www.pravda.ru/cache/popular_article_block.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
