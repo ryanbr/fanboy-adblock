@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://lauxanh.org/online/
+
+
+[filters]
+http://porn99.net/asian/top2.html
+http://www.porn88.net/bar.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
