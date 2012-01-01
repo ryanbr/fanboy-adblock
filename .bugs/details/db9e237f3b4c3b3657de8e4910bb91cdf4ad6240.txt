@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bitreactor.to/
+
+
+[filters]
+http://banner.indicate.to/code/1.js
+http://banner.indicate.to/code/3.js
+http://www.indicate.to/mobileswitch/mobileswitch.php
+http://images.bitreactor.to/style_adbar.css
+http://images.bitreactor.to/style_adbar.css
+http://bitreactor.to/static/subpage.html
+http://bitreactor.to/static/subpage2.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
