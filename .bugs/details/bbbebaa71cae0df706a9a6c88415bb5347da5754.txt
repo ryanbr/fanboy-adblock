@@ -1,0 +1,28 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sharingcentre.net/forum/257750-memento-10th-anniversary-special-edition-remastered-2000-bluray-720p-x264-dts-wiki/
+
+
+[filters]
+http://leetmedia.com/spot.php?s=4e62be2a0eb5f31c1d000000&r=91819285219
+http://mariosonicgame.net/ads/gao/gao.html
+http://ad4game.sharingcentre.net/300-150.html
+http://ad4game.sharingcentre.net/300-150cpm.html
+http://ad4game.sharingcentre.net/836-5.html
+http://ad4game.sharingcentre.net/836-5cpm.html
+http://ad4game.sharingcentre.net/ad4game.html
+http://mariosonicgame.net/300-250cpmbiz.html
+http://mariosonicgame.net/300-250gao.html
+http://mariosonicgame.net/iqu.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
