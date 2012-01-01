@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tech24.vn/software/download/4083-BitTorrent-80-Build-25431-Beta--76-Build-26618.html
+
+
+[filters]
+http://ads.tech24.vn/index.php/mod,ads/task,cpx/size,tech24_top_960x120_vinagame
+http://www.tech24.vn/upload/banner/thietkewebsite68_288x168.swf
+http://www.tech24.vn/upload/banner/vccorpbg/620x164.jpg
+http://www.tech24.vn/upload/banner/vccorpbg/980x184.jpg
+http://tech24.vn/upload/banner/thietkewebsite68_288x168.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
