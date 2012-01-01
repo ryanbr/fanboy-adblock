@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fark.ru/
+
+
+[filters]
+http://sp0.lovesupport.ru/0/0/0/391534000/715115982_medium.jpg?updated=20111211113649
+http://sp0.lovesupport.ru/0/3/9/417468039/655729801_medium.jpg?updated=20111209163104
+http://sp2.lovesupport.ru/2/4/3/135207243/711254133_medium.jpg?updated=20111205175756
+http://sp7.lovesupport.ru/7/1/9/717323719/717333942_medium.jpg?updated=20111219201921
+http://sp8.lovesupport.ru/8/8/4/689754884/697350801_medium.jpg?updated=20111209223551
+http://sp9.lovesupport.ru/9/9/7/282034997/712435765_medium.jpg?updated=20111204163508
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
