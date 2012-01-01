@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.techi.com/2011/12/the-face-of-mobile-one-little-girl-appears-in-apple-and-samsung-commercials/
+
+
+[filters]
+http://scribol.com/txwidget1.2.js
+http://www.mightydeals.com/large_widget?width=300&ref=techi
+
+[other]
+
+
+[comments]
+nitrox
