@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pravda.ru/society/how/26-08-2011/1089437-agafoniv-0/#comments
+
+
+[filters]
+http://www.fark.ru/js/bannerLink.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
