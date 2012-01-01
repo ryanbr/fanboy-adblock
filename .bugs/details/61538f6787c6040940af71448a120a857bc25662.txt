@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nextmovie.com/
+
+
+[filters]
+http://www.nextmovie.com/plugins/MTVNImageResizer/actions/scale_image?width=140&height=105&image=http%3A%2F%2Fwww.nextmovie.com%2Fwp-content%2Fuploads%2F2011%2F12%2Felizabeth-taylor300x250.jpg
+http://www.nextmovie.com/plugins/MTVNImageResizer/actions/scale_image?width=140&height=105&image=http%3A%2F%2Fwww.nextmovie.com%2Fwp-content%2Fuploads%2F2011%2F12%2Fhanna300x250.jpg
+http://www.nextmovie.com/plugins/MTVNImageResizer/actions/scale_image?width=300&height=250&image=http%3A%2F%2Fwww.nextmovie.com%2Fwp-content%2Fuploads%2F2011%2F12%2Felizabeth-taylor300x250.jpg
+http://www.nextmovie.com/plugins/MTVNImageResizer/actions/scale_image?width=140&height=105&image=http%3A%2F%2Fwww.nextmovie.com%2Fwp-content%2Fuploads%2F2011%2F12%2Fbreaking_dawn_water-300x250.jpg
+http://www.nextmovie.com/plugins/MTVNImageResizer/actions/scale_image?width=140&height=105&image=http%3A%2F%2Fwww.nextmovie.com%2Fwp-content%2Fuploads%2F2011%2F12%2Firon-man-iron-lady-300x250.jpg
+http://www.nextmovie.com/plugins/MTVNImageResizer/actions/scale_image?width=300&height=250&image=http%3A%2F%2Fwww.nextmovie.com%2Fwp-content%2Fuploads%2F2011%2F12%2Fbest-movies-2011-300x250.jpg
+http://www.nextmovie.com/plugins/MTVNImageResizer/actions/scale_image?width=300&height=250&image=http%3A%2F%2Fwww.nextmovie.com%2Fwp-content%2Fuploads%2F2011%2F12%2Fbreaking_dawn_water-300x250.jpg
+http://www.nextmovie.com/plugins/MTVNImageResizer/actions/scale_image?width=300&height=250&image=http%3A%2F%2Fwww.nextmovie.com%2Fwp-content%2Fuploads%2F2011%2F12%2Fworst-movies-2011-300x250.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
