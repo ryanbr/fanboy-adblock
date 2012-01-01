@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ebay.com/itm/360418469509?ssPageName=STRK:MEWAX:IT&_trksid=p3984.m1423.l2649
+
+
+[filters]
+http://ir.ebaystatic.com/v4js/z/id/ngvgb3wfmmzyvkftzlyyj4xxt.js#SYS-ZAM_Omniture_e753_5_Ear_en_US
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
