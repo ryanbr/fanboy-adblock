@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.escapistmagazine.com/videos/view/the-big-picture/5166-The-Simpsons-Is-Still-Funny-Part-2
+
+
+[filters]
+http://log.liverail.com/flash/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
