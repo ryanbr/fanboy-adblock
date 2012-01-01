@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.juancole.com/
+
+
+[filters]
+http://www.juancole.com/lijit-ad-1.html
+http://www.juancole.com/lijit-ad-2.html
+http://www.juancole.com/lijit-ad-3.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
