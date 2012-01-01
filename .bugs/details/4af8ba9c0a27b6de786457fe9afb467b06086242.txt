@@ -1,0 +1,14 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vanns.com/shop/servlet/item/features/462306748/samsung-un46d7000?srccode=cii_10043468&cpncode=18-107116690-2&v_c=BizRate
+
+[filters]
+http://rel.webcollage.net/apps/el?e=product-button-view&module=samsungus&channel-product-id=462306748&wcpc=un46d7000lfxza&partnerid=vanns&contextpath=product-content&origin=product&allow-tc=true&allow-pc=true&rand=815427
+
+[other]
+
+
+[comments]
+nitrox
