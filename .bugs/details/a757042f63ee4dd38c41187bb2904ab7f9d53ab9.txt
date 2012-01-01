@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.slate.com/
+
+
+[filters]
+http://ads.trove.com/RevenuePlatform/ad/pong?&callback=jQuery16405341695582021194_1325389922719&format=json&url=http%3A%2F%2Fwww.slate.com%2F&ads%5BWPL-CS-Widget%5D%5Bwidth%5D=auto&ads%5BWPL-CS-Widget%5D%5Bheight%5D=auto&ads%5BWPL-CS-Widget%5D%5Bcontainer%5D=WPL-CS-Widget&ads%5BWPL-CS-Widget%5D%5BdivClass%5D=wl_widget+wl_teaser_ad+wp&ads%5BWPL-CS-Widget%5D%5BfinderOptions%5D%5BwpCSW%5D=true&ads%5BWPL-CS-Widget%5D%5Bfinder%5D=wpCSW&wapo_vis_id=8a528b70-2549-4781-917e-d3bbaf8ad33d&wapo_login_id=&s_vi=&_=1325389924696
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
