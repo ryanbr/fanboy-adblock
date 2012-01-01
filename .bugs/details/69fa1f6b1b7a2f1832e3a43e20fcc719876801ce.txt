@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://video.foxsmallbusinesscenter.com/v/1344340112001/marketing-startup-making-moves/
+
+
+[filters]
+http://js.revsci.net/gateway/gw.js?csid=E05510
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
