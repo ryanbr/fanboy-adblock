@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.google.com/products/catalog?cid=9669074831802358015&ei=je__TqjIKZGYxAWBiQE&pshpl=2&pshplp=5#p
+
+
+[filters]
+http://www.google.com/products/log?ptab=pp_tab_impressions&cid=9669074831802358015&imp=ps-sellers
+
+[other]
+
+
+[comments]
+nitrox
