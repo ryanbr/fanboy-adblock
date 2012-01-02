@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://online.prons.org/
+
+
+[filters]
+http://wwwmobiroll.com/cout.php?sid=129044
+http://wwwmobiroll.com/out.php?sid=129044
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
