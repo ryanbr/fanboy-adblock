@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mytravelguide.com/restaurants/near-17346801-United_States_New_Jersey_Newark_Sheraton_Newark_Airport_Hotel_restaurants.html
+
+
+[filters]
+http://www.hotelsbycity.com/hotels/bannerMTG.php?headerText=More%20Restaurants%20Near%20Sheraton%20Newark%20Airport%20Hotel&key=%20restaurants&vcid=43684&maxDescriptionLength=110&showURL=yes
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
