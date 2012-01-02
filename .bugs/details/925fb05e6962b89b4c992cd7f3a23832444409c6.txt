@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://evotube.ru/
+
+
+[filters]
+http://richthof.com/77/d01e/c2/e086e036be6
+http://conteresse.com/43b3/6/7/402d9a495a2f
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
