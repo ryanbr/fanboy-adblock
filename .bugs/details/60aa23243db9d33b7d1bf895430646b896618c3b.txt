@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://walt.foreignpolicy.com/posts/2011/12/30/personal_favorites_from_2011
+
+
+[filters]
+http://bunsen.wapolabs.com/revplat/prod/1.4.5-2/js/revplat.full.js
+
+
+
+
+[other]
+Looks suspect..
+
+
+[comments]
+fanboy
