@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.crazysexerotic.ru/
+
+
+[filters]
+http://aerontre.com/javascript/5e8540
+http://spechee.com/javascript/EYLM04SMrJbt
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
