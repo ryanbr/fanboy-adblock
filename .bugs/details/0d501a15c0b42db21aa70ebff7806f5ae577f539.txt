@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.10best.com/destinations/new-jersey/newark/
+
+
+[filters]
+http://www.10best.com/common/ad-refresh.html
+http://ws.sojern.com/script/8bbZa9898QGeB3uR/search_pixel.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
