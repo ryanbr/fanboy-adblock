@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://adaltfoto.ru/
+
+
+[filters]
+http://eroadvert.net/get.js?user_id=000371
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
