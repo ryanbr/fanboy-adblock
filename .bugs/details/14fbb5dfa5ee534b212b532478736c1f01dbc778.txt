@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.amazon.com/
+http://www.amazon.co.uk/
+
+
+[filters]
+http://www.amazon.co.uk/uedata/277-3805107-0713101/NoPageType?ld&v=18&id=1MAF74933BGJ5PTTAWEX&sw=1440&sh=900&vw=1423&vh=461&m=1&sc=1MAF74933BGJ5PTTAWEX&ue=1&ns=193&ne=409&af=411&cf=465&be=561&pc=1063&ld=1063&t=1325483705904
+http://www.amazon.com/uedata/184-7783991-7054058/Gateway?ld&v=18&id=1HG7AGFNKAAPS33DM12E&m=1&sc=1HG7AGFNKAAPS33DM12E&ue=39&ns=254&ne=301&af=429&cf=557&be=1064&pc=1836&ld=1836&t=1325484907130
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9473
+
+
+[comments]
+fanboy
