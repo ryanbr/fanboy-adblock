@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.india-defence.com/
+
+[filters]
+http://static01.linkedin.com/scds/common/u/img/webpromo/btn_cofollow_badge.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
