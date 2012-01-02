@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pornuxa.tv/rus/
+
+
+[filters]
+http://campeut.com/a8/08/c081/63
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
