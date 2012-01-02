@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aclu.org/national-security/president-obama-signs-indefinite-detention-bill-law
+
+
+[filters]
+http://www.aclu.org/aclu_statistics_image.php?nid=29809
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
