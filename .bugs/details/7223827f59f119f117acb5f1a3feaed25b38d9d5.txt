@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.google.co.uk/search?hl=en&safe=off&q=related:www.collegesurfing.com
+
+[filters]
+###vdls-advs to be generic
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&p=26557#p26557
+
+
+[comments]
+fanboy
