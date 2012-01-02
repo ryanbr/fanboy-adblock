@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://frostytech.com/articleview.cfm?articleID=2629
+
+
+[filters]
+http://ads.suite6ixty6ix.com/ttj?id=505314&cb=[CACHEBUSTER]&pubclick=[INSERT_CLICK_TAG]
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
