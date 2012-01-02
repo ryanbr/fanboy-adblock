@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.collegebound.net/content/article/california-colleges-and-universities/146/
+
+
+[filters]
+http://www.collegebound.net/js/traffic_tracker.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
