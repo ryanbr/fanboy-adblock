@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hardru.net/photo/gal/?gal=30805
+
+
+[filters]
+http://search-intim.ru/affil/14.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
