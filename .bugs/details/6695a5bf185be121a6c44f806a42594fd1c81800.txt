@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://movieorganizer.com/
+
+
+[filters]
+http://stats.oxidy.com/ip.asp
+http://stats.oxidy.com/oxdstats.gif
+http://stats.oxidy.com/stats.asp?w=1920&h=1080&c=24&r=&u=http%3A//movieorganizer.com/&fs=undefined&b=NS&x=1188&ip=121.79.199.9
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
