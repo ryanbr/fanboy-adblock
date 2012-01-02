@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.splut.com/009/012.htm
+
+
+[filters]
+http://www.syndicatedsearchresults.com/yahoo/cm.php?p=SPLUT&q=Directories&w=120&m=5&sb=N&sl=N&st=N
+http://www.syndicatedsearchresults.com/yahoo/cm.php?p=Splut&q=Jobs%20by%20Sector&w=120&m=5&sb=N&sl=N&st=N
+
+
+
+
+[other]
+http://www.vendora.com/careers/jobs_by_sector.html
+
+
+[comments]
+fanboy
