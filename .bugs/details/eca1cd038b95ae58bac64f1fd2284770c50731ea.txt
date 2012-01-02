@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+Bad filter
+
+[filters]
+# Copy your Adblock filters here
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=8940
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=7742
+
+[comments]
+fanboy
