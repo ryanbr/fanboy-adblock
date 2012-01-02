@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fieldandstream.com/interstitial
+
+
+[filters]
+http://www.fieldandstream.com/sites/all/modules/ad247realmedia/dart.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
