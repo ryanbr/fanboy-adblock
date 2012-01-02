@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pyalim.com/
+
+
+[filters]
+http://illiage.com/main.js?illiage.com
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
