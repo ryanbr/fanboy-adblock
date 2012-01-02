@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.forbes.com/2009/12/26/iran-protests-government-washington-opinions-contributors-ramin-ahmadi.html
+
+
+[filters]
+http://fast.forbes.com/fps/cookie_backup.php?fps=&op=user_msg&sh=1080&sw=1920&ch=opinions&se=&ti=&pt=story&i=&su=http://www.forbes.com/2009/12/26/iran-protests-government-washington-opinions-contributors-ramin-ahmadi.html&re=hg.fanboy.co.nz&au=Ramin%20Ahmadi&at=&pa=
+http://fast.forbes.com/fps/cookie_callback.php?fps=&op=user_msg&sh=1080&sw=1920&ch=opinions&se=&ti=&pt=story&i=&su=http://www.forbes.com/2009/12/26/iran-protests-government-washington-opinions-contributors-ramin-ahmadi.html&re=hg.fanboy.co.nz&au=Ramin%20Ahmadi&at=&pa=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
