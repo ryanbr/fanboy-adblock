@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ebay.com/itm/Samsung-Galaxy-S-II-T989-16GB-Titanium-T-Mobile-Brand-New-Retail-Box-/160708777499?pt=Cell_Phones&hash=item256afd561b
+
+
+[filters]
+http://ir.ebaystatic.com/v4js/z/id/ngvgb3wfmmzyvkftzlyyj4xxt.js#SYS-ZAM_Omniture_e753_5_Ear_en_US
+
+
+
+[other]
+Stops the image from zooming properly, just whitelist it
+
+[comments]
+fanboy
