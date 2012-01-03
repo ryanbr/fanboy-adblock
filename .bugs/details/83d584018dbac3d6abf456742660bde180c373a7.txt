@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pcworld.com/article/246916/play_hard_stay_safe.html
+
+
+[filters]
+http://www.pcworld.com/adDataSandbox?t=Play+Hard%2C+Stay+Safe&bc=topics+security&s=pcw.main.howto&ss=topics%2Fsecurity&ct=howto&c=pcworld%3Asecurity&ch=howto
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
