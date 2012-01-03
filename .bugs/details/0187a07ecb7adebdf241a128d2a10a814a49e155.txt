@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://zooescape.com/
+
+[filters]
+http://zooescape.com/valueclick-ad.htm
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
