@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.transportdirect.info/Web2/Home.aspx?&repeatingloop=Y
+
+
+[filters]
+http://tags.transportdirect.info/e/t3.dll?1282&1422663061&%20&SK%3duqs10255ldywwy55m14fymek%20&iREGQry%20&iSale%20&1&1920&1080&24&0&11&en-US%20&-780&http%3A%2F%2Fwww%2Etransportdirect%2Einfo%2FWeb2%2FHome%2Easpx%3F%26repeatingloop%3DY%20&0
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9516
+
+
+[comments]
+fanboy
