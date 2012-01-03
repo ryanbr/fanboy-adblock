@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gamesfree.ca/1-6657-Feed_Us_2.html
+
+
+[filters]
+http://js.gamesfree.ca/ad_scroller.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
