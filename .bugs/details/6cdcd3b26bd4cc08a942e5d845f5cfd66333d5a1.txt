@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.geekzone.co.nz/
+
+
+[filters]
+http://cdn.geekz1.com/scripts/advertisement.js
+
+
+
+
+[other]
+Causes big  yellow bar to appear at the top
+
+
+[comments]
+fanboy
