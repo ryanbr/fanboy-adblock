@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.daughtryofficial.com/us/news/daughtry-twins-have-arrived
+
+
+[filters]
+http://t.crowdtwist.com/v1/t.gif?c=2-19&r=http%3A%2F%2Fwww.daughtryofficial.com%2Fus%2Fnews%2Fdaughtry-twins-have-arrived&s=1&t=20002&api_z=0.3872879766564219
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
