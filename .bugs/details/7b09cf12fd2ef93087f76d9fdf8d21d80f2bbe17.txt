@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gamerant.com/
+
+
+[filters]
+http://cdn.gamerant.com/adsindie/300x250h.htm
+http://cdn.gamerant.com/adsindie/728x90h.htm
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
