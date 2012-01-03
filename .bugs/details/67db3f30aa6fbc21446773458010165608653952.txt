@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gamesgames.com/game/Resort-World.html
+
+
+[filters]
+http://s3.amazonaws.com/imgs3.plinga.de/general/ga/trackevent.html?category=gamesgames.com/ResortWorld&action=http%3A//www.gamesgames.com/plinga/games/resortworld/spil/gadget.php%3Fgamesgames.com%26channelid%3D1%26siteid%3D88%26UID%3D3e122c97f9998b443e81289b2c9945004f038e18b97c9%26username%3D%26hash%3D%3A36&label=OA_show%20is%20not%20defined&value=null&samplerate=100&UA=UA-27345270-1
+
+http://s3.amazonaws.com/imgs3.plinga.de/general/ga/plingatracker.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
