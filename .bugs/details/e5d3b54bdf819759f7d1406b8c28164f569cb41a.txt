@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tvn.cl/servicios/senal/2010/index.html
+
+
+[filters]
+http://www.tvn.cl/Ads_Frame.aspx?n=459249319&ad=Pub_Derecha_1JS
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
