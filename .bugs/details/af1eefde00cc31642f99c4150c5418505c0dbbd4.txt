@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gigasize.com/get/bv9jll1yd0d
+
+
+[filters]
+http://www.gigasize.com/affiliate
+
+
+
+
+[other]
+popup
+
+
+[comments]
+fanboy
