@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nowgamez.com/action/914/play-angry-birds-online
+
+
+[filters]
+http://tracking.copacet.com/aff_i?offer_id=153&aff_id=1112&offer_file_id=939
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
