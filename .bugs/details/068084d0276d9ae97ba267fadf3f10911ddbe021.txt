@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mylifetime.com/shows/24-hour-catwalk/video
+
+
+[filters]
+http://www.mylifetime.com/shows/sites/all/modules/custom/doubleclick/templates/hybrid-iframe.html?path=ltv.myltv.shows/24hourcatwalk%3Bs1%3D24hourcatwalk%3Bs2%3D%3Bpid%3Dshows_24-hour-catwalk_video%3Bkw%3D%3Bgame%3D%3Bsweeps%3D%3Bshow%3D24hourcatwalk%3Bmovie%3D%3Bptype%3Dvideo%3Bcat%3D%3Btest%3D%3Baetn%3Dad%3Bpos%3Dtop%3Btile%3D1%3Bdcopt%3Dist%3Bsz%3D728x90%3B
+http://www.mylifetime.com/shows/sites/all/modules/custom/doubleclick/templates/hybrid-iframe.html?path=ltv.myltv.shows/24hourcatwalk%3Bs1%3D24hourcatwalk%3Bs2%3D%3Bpid%3Dshows_24-hour-catwalk_video%3Bkw%3D%3Bgame%3D%3Bsweeps%3D%3Bshow%3D24hourcatwalk%3Bmovie%3D%3Bptype%3Dvideo%3Bcat%3D%3Btest%3D%3Baetn%3Dad%3Bpos%3Dtop%3Btile%3D2%3Bsz%3D300x100%3B
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
