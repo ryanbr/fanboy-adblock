@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gamecopyworld.com/
+
+
+[filters]
+http://ex1.gamecopyworld.com/@_cpe.php?sz=fb&tp=&sn=gcw&bg=AAAAAA&cn=NZ&df=&ns=&id=&nf=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
