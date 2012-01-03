@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://seeos.com/
+
+
+[filters]
+http://seeos.com/tg.php?uid=seeos4f0227b79e4ed2.37789093&src=&cat=travel&kw=See+OS&sc=travel
+http://myltiply.com/tg.php?uid=myltiply4f0137795caf85.87612190&src=&cat=education&kw=Multiply&sc=mathematics
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9467
+
+
+[comments]
+fanboy
