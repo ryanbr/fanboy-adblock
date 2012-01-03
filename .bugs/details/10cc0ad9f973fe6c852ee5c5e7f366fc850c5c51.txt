@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cnnphotos.blogs.cnn.com/2011/12/24/christmas-in-bethlehem/?hpt=hp_c1
+
+
+[filters]
+http://z.cdn.turner.com/cnn/.element/js/3.0/blogsectiontracking.js?ver=1.1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
