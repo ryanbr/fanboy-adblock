@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://away.com/features/florida-panhandle-romance-1.html?utm_source=outbrain&utm_medium=cpc&utm_campaign=outbrain
+
+
+[filters]
+http://away.com/jsp/modules/ad_refresh.jsp?domainName=revresda&adSegvars=site=away%26subdomain=away%26channel=romance%26activity=%26focus=%26Section=articles%26area=NA%26country=US%26state=FL%26dest=SEASIDE%26adsize=160x600%26keyword=%26CookieName=awyprd%26tile=120102151748%26language=en_US%26csource=AWAY
+http://away.com/jsp/modules/ad_refresh.jsp?domainName=revresda&adSegvars=site=away%26subdomain=away%26channel=romance%26activity=%26focus=%26Section=articles%26area=NA%26country=US%26state=FL%26dest=SEASIDE%26adsize=728x90%26keyword=%26CookieName=awyprd%26tile=120102151831%26language=en_US%26csource=AWAY
+http://away.com/jsp/modules/ad_refresh.jsp?domainName=revresda&adSegvars=site=away%26subdomain=away%26channel=romance%26activity=%26focus=%26Section=articles%26area=NA%26country=US%26state=FL%26dest=SEASIDE%26adsize=richmedia%26keyword=%26CookieName=awyprd%26language=en_US%26csource=AWAY
+
+http://media.away.com/js/iframe-ad.
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
