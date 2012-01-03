@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://grooveshark.com/
+
+
+[filters]
+http://t.fuziontech.net/tp/landing.gif?p=&r=13256339315304
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
