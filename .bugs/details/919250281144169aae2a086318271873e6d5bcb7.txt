@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bbccanada.com/Schedule/
+
+
+[filters]
+http://www.bbccanada.com/js/smdg_ads.js
+bbccanada.com##.BigBoxAdLabel
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9494
+
+[comments]
+fanboy
