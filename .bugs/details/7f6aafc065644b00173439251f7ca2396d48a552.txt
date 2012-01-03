@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hayibo.com/desperate-capetonians-scan-mayan-calendar-for-destruction-of-minstrels/
+
+
+[filters]
+http://www.giantaffiliates.com/aff/accounts/default1/banners/playboy-300-x-250-dare.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
