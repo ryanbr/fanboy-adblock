@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.theaa.com/insurance/car-insurance.jsp#tabview%3Dtab2
+
+
+[filters]
+http://collection.theaa.com/3710/handler8/session.js?se=x4191090_1325585199826_3710&di=2_null&sj=AACSA&aP=_13255852581580.8023714571897229_&bd=true&si=true&aM=_13255852581580.8023714571897229_&aO=-1&cf=Car%20Insurance%20%7C%20AA&az=usy46gabsosd%3DAACSA__4191090_1325585199826_3710%3B%20AACSAuvt%3D5202069daff140a7b4d6facd62c27853_1325585183156_4191090_1325585183156_1%3B%20AACSADBID%3D2_null%3B%20TLTSID%3D94E107EA35F21035000B933BAD04075E%3B%20TLTUID%3D94E107EA35F21035000B933BAD04075E%3B%20com.theaa.utils.SplitTest%3D8%3B%20&ar=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D9512&au=http%3A%2F%2Fwww.theaa.com%2Finsurance%2Fcar-insurance.jsp
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9512
+
+
+[comments]
+fanboy
