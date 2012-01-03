@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.corensic.com/2012/01/03/virtual-machines-thin-hypervisor/
+
+
+[filters]
+http://cdn.viglink.com/api/vglnk.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
