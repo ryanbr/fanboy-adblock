@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.techno360.in/mx-one-free-antivirus-for-usb-drives/
+
+
+[filters]
+http://widgets.tcimg.com/v1/standard.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
