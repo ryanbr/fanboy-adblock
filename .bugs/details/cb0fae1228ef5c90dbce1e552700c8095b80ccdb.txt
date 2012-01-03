@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.usell.com/#similar_results=iphone
+
+
+[filters]
+http://goals.go.usell.com/bug.gif?hash=71b6c6c3e2b1a735dfa38713f1ecc92c
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
