@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.greenflag.com/
+http://www.directline.com/
+
+
+[filters]
+http://www.directline.com/generic/js/banner-tracker.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9514
+
+
+[comments]
+fanboy
