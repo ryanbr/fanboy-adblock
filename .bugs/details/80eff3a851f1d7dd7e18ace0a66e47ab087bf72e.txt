@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forums.hardwarezone.com.sg/hardware-clinic-2/need-help-hdmi-power-saving-mode-3490848-2.html
+
+
+[filters]
+http://ad.sg.doubleclick.net/pfadx/hwz.sg/forums_ros;dcmt=text/html;tile=10;sz=100x60;tile=1;ord=8164342181142353?
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
