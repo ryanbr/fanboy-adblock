@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.geekzone.co.nz/content.asp?contentid=9502
+
+
+[filters]
+http://www.geekzone.co.nz/wax.axd?c=1x1
+
+
+
+[other]
+tracker
+
+
+[comments]
+fanboy
