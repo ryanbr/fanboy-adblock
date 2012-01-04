@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.courier.co.il/
+
+[filters]
+http://rb2.design.ru/cgi-bin/banner/kurier?1000
+http://www.courier.co.il/images/banners/newman_120x600.gif
+http://courier.co.il/images/banners/newman_770x80.gif
+http://rb2.design.ru/cgi-bin/banner/kurier?2000
+
+
+[other]
+
+
+[comments]
+nitrox
