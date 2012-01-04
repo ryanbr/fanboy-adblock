@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.porn-w.org/
+
+
+[filters]
+http://www.porn-w.org/ad.php
+
+
+[other]
+
+
+[comments]
+nitrox
