@@ -1,0 +1,14 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sentinel94.newgrounds.com/
+
+
+[filters]
+http://www.newgrounds.com/includes/ad_commonside.php?gid=179151701
+
+[other]
+
+[comments]
+nitrox
