@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cooperativa.cl/
+
+[filters]
+http://sa1.adserver.cl/crossdomain.xml
+http://sa1.adserver.cl/videos.xml?s=1
+
+[other]
+
+
+[comments]
+nitrox
