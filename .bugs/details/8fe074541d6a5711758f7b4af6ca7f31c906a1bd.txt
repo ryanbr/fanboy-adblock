@@ -1,0 +1,14 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aq.com/default.asp?referer=AQW_Shizmoo_CPA_t1
+
+[filters]
+http://tracking.battleon.com/click.asp?game=AW&campaign=AQW_Shizmoo_CPA_t1&siteid=&end=yes
+
+[other]
+
+
+[comments]
+nitrox
