@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pastehtml.com/view/bjl28032o.html
+
+
+[filters]
+
+
+[other]
+sample page to test the filters
+
+
+[comments]
+nitrox
