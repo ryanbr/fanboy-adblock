@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://base.ijc.ru/new/site.aspx
+
+
+[filters]
+http://ad.israland.com/bb.cgi?cmd=ad&pubid=5374446&pg=1&vbn=523&num=1&w=468&h=60&nocache=9181
+
+[other]
+
+
+[comments]
+nitrox
