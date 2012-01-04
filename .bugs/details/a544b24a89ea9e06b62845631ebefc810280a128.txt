@@ -1,0 +1,14 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dwarfgames.com/tag/524/bus-games.html
+
+[filters]
+http://www.dwarfgames.com/pub/728_top.htm
+
+[other]
+
+
+[comments]
+nitrox
