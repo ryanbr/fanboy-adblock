@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://guanabee.com/2011/02/top-gear-mexican-video/
+
+[filters]
+http://www.batanga.com/player3/ads/banner-300x250w.aspx?idioma=EN
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
