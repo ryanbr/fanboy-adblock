@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pcmag.com/article2/0,2817,1329778,00.asp
+
+
+[filters]
+http://www.ziffdavis.com/js/betrad.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=6208
+
+
+[comments]
+fanboy
