@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://stocktwits.com/
+
+
+[filters]
+http://sa.stocktwits.com/spaceape-web.gif?url=http%3A%2F%2Fstocktwits.com%2F&u=guest&source=web&verb=view&time=1325715997&u_id=69e6843a7bfa33150dc528abb72d77bc&ref=%2F&key=1325715997%3A69e6843a7bfa33150dc528abb72d77bc&actions=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
