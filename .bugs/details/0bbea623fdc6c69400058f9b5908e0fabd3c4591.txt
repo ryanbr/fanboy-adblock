@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.racing-games.com/
+
+
+[filters]
+http://www.racing-games.com/myads/epicgameads728x90-1.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
