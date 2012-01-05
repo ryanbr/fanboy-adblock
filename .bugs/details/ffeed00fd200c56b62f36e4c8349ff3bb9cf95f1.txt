@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mycricket.com/
+
+
+[filters]
+http://www.mycricket.com/js/hbx.js
+http://libs.coremetrics.com/eluminate.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=9583
+
+
+[comments]
+fanboy
