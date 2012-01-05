@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://noctam-games2.yolasite.com/view_all_games.php
+
+
+[filters]
+http://tracking.synthasite.net/tracking.js
+http://pixel.yola.com/LoggingAgent/LoggingAgent?url=//noctam-games2.yolasite.com/view_all_games.php&pagename=view_all_games.php&siteid=8a4986ca24c7abf40124dab750ec09af&resolution=1440x900&colorDepth=24&flash=1&java=0&sitereferer=http%3A//noctam-games2.yolasite.com/flashgames.php&visitorId=C5110BDE-1230-0001-7472-A4EA11DC1D1C&visitId=C5110BDE-1250-0001-7C21-1D40130017CC&LoggingAgentReturnType=script
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
