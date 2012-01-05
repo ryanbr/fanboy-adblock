@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.uprinting.com/business-cards.html
+
+
+[filters]
+http://tracker.uprinting.com/UPTracker-1.0.1.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9585
+
+
+[comments]
+fanboy
