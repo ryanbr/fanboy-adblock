@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bloomberg.com/video/83688294/
+
+
+[filters]
+http://opf.ooyala.com/3rdparty/conviva_other_module_006.swf
+http://opf.ooyala.com/3rdparty/comscore_other_module_009.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
