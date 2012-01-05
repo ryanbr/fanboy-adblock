@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ouramazingplanet.com/2184-species-discovered-2011.html
+
+
+[filters]
+http://b.scorecardresearch.com/beacon.js
+
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=9577
+
+Clicking on next or page numbers do not change the current web page.
+
+
+[comments]
+fanboy
