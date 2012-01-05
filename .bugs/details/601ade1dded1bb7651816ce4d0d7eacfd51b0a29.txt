@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.amazon.com/dp/B0017HSZWK/ref=asc_df_B0017HSZWK1847985?smid=A33Y0YQUZ2NYD5&tag=dealtmp3706-20&linkCode=asn&creative=395105&creativeASIN=B0017HSZWK
+
+
+[filters]
+http://www.amazon.com/dp/B0017HSZWK/ref=asc_df_B0017HSZWK1847985/uedata/184-7783991-7054058/Detail?at&v=18&id=1NQC9EYYAAMG3Y62YQFK&bf=1&m=1&sc=1NQC9EYYAAMG3Y62YQFK&pc=13082&at=13082&t=1325730217143&ec=2
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
