@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.h48.com/action/play-ben-10-power-splash
+
+
+[filters]
+http://www.h48.com/templates/h48/images/footer-ad.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
