@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sunporno.com/tube/videos/459434/teens-play-strippers-and-fuck.html
+
+
+[filters]
+http://thumbs.vstreamcdn.com/sunstatic/ads/player-ad1.html
+http://thumbs.vstreamcdn.com/sunstatic/ads/player-ad2.html
+
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9591
+
+
+[comments]
+fanboy
