@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kansascity.com/2012/01/04/3353337/hollywood-casino-at-kansas-speeway.html
+
+
+[filters]
+http://www.kansascity.com/2012/01/04/v-ad_leaderboard/3353337/hollywood-casino-at-kansas-speeway.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
