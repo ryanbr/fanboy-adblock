@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://happynews.com/news/12202011/marlo-thomas-continues-legacy-sick-kids.htm
+
+
+[filters]
+http://scripts.demandmedia.com/wm.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
