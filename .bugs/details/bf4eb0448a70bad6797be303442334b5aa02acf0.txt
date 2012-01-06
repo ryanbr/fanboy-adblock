@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://shoptinhoc.com/diendan/yeu-cau-ho-tro-ky-thuat/52981-cach-dung-phan-increase-performance-trong-tune-up-2010-a.html
+
+[filters]
+http://shoptinhoc.com/diendan/lienheQC/gioithieu/TLBB_TaoNgoKyDuyen_200x500.jpg
+http://shoptinhoc.com/diendan/lienheQC/gioithieu/bkaptech_shoptinhoc.swf
+http://shoptinhoc.com/diendan/lienheQC/gioithieu/qplay_200x200.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
