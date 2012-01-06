@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.prepaidgsm.net/
+
+[filters]
+http://data.audiencerate.com/cgi-bin/ar.cgi?PAR=PV%40W8Uw%60udlaBVH%23MRO8%23W%40C8
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
