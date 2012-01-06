@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://videos.mid-day.com/Filipino-stewardesses-dance-again.htm
+
+
+[filters]
+http://drizzle.monsoonads.com/crossdomain.xml
+http://storm.monsoonads.com:8080/crossdomain.xml
+http://storm.monsoonads.com:8080/monsoon1/monsoonservice?contentId=1&siteId=595&IP=undefined&numAds=1&refURL=http://test.com&streamName=test&streamCat=EN&noCache=Fri%20Jan%206%2012:14:25%20GMT+0000%202012
+
+[other]
+
+
+[comments]
+nitrox
