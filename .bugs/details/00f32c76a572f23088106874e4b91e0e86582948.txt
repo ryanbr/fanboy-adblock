@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://home.congdongvip.com/
+
+
+[filters]
+http://muxungba.com/muxungba2.gif
+http://congdongvip.com/banner/linh/linh300x250.swf
+http://congdongvip.com/banner/mr.hung/mr.hung.gif
+http://congdongvip.com/banner/vuong205/mumoi.swf
+http://congdongvip.com/banner/wingame/wingamehome.swf
+http://pantherads.com/ads/Njk2N18wLDE2MCw2MDA=
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
