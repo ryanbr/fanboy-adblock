@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fshare.vn/file/TD1DGA5APT
+
+
+[filters]
+http://www.fshare.vn/templates/green/vi/images/HKH_HiepKhachPhatLoc_202x172.gif
+http://www.fshare.vn/templates/green/vi/images/KFBD_DangCapBongDaPro_202x172.gif
+http://www.fshare.vn/templates/green/vi/images/banner_left_2.png
+http://www.fshare.vn/templates/green/vi/images/banner_right.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
