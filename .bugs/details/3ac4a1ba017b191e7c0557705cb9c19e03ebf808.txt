@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.3g.co.uk/
+
+
+[filters]
+http://www.3g.co.uk/fad/viewit.php?group=3GOffer1
+http://www.3g.co.uk/fad/viewit.php?group=3GOffer2
+http://www.3g.co.uk/fad/viewit.php?group=Home
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
