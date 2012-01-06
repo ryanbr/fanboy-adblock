@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://status.aws.amazon.com/
+
+
+[filters]
+http://d36cz9buwru1tt.cloudfront.net/amznUrchin.js
+
+[other]
+
+
+[comments]
+nitrox
