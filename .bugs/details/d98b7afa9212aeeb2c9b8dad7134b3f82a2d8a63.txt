@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+congdongvip.com/forum/index.php
+
+
+[filters]
+http://vnpopads.com/2011/congdongvip.html
+http://mubachlong.com/banner/400x100.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
