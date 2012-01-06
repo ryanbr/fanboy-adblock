@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.softexia.com/
+
+
+[filters]
+http://softexia.com/reklama/getitnow.gif
+http://softexia.com/reklama/slysoft-banner-101-en-120x60.gif
+http://www.softexia.com/reklama/Avira_IS_250x250_en.jpg
+http://www.iobit.com/partner/aff/ASC_250X250.jpg
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9601
+
+
+[comments]
+fanboy
