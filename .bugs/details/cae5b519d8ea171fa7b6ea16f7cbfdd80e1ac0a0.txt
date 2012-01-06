@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.homemademoviez.com/
+http://www.homemademoviez.com/special.shtml
+
+
+[filters]
+http://www.homemademoviez.com/bla1.html
+http://www.homemademoviez.com/bla2.html
+http://www.homemademoviez.com/bla3.html
+http://www.homemademoviez.com/bla4.html
+http://www.homemademoviez.com/eroads.html
+http://www.homemademoviez.com/eroads2.html
+http://www.homemademoviez.com/exo1.html
+http://www.homemademoviez.com/exo2.html
+
+
+[other]
+
+
+[comments]
+nitrox
