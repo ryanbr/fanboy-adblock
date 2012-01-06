@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.alexmovies.com/
+http://www.jambotube.com/
+
+
+[filters]
+http://banners.sexfinder.com/piclist?display=js_scroll&grid=15x1&thumb=gallery&no_html=1&iframe=1&no_click=1&popunder_off=1&show_title=1&show_join_link=0&background_color=%23FFFFcc&border_color=%23ffffcc&link_color=%23ff0000&rollover_header_color=%23yellow&text_color=%23000000&title_color=%23333333&pid=g247789-pct.subsexfindernew&page=search&dcb=sexfinder.com
+http://banners.sexfinder.com/go/page/js_im_box_v2?plain_text=1&skip_lpo=1&lang=english&delay=3&theme=facebook&size=square250&find_sex=2&photo=1&models=1&page=search&pid=g247789-pct.subsexfinderfloat6.6.11
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
