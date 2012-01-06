@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sex-movies.cc/
+
+[filters]
+http://www.sex-movies.cc/adx.php
+
+
+[other]
+
+
+
+[comments]
+nitrox
