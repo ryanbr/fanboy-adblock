@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://freevps.us/
+
+
+[filters]
+http://www.dreamhost.com/redir.cgi?ad=rewards|124780
+http://secure.hostgator.com/~affiliat/cgi-bin/affiliates/clickthru.cgi?id=hostserv-hvd
+http://www.dreamhost.com/affiliate-account-disabled
+http://www.dreamhost.com/badrewards.html
+http://www.dreamhost.com/r.cgi?124780
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
