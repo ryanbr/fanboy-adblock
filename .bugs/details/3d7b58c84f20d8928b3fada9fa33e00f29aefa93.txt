@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.blocked-website.com/main?url=688080776866858570666873708315677780728481808515688078&ablock=&ref=http%3A%2F%2Fwww.google.com%2Furl%3Fsa%3Dt%26rct%3Dj%26q%3Dblogspot%26source%3Dweb%26cd%3D11%26ved%3D0CHsQFjAK%26url%3Dhttp%253A%252F%252Fcoolcatteacher.blogspot.com%252F%26ei%3Dlz8GT5OAO4zkggfO1fCTAg%26usg%3DAFQjCNHdBUkE4cTEFBN-BXLDvtZXapeNSQ&w=1280&h=883
+
+
+[filters]
+# Copy your Adblock filters here
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
