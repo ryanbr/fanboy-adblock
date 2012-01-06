@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.retrofm.ru/
+
+
+[filters]
+http://all.mediaplus.fm/cntr.php?s=1&id=4107&rnd=1325843690042
+http://all.mediaplus.fm/cntr.php?s=1&id=
+http://all.mediaplus.fm/cntr.php?s=1&id=4212&rnd=1325843678928
+
+
+[other]
+
+
+[comments]
+nitrox
