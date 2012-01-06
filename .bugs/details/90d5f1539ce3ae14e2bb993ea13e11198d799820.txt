@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.smog.pl/wideo/50036/rosja_powodz_to_nie_powod_zeby_nie_budowac/
+
+
+[filters]
+http://www.smog.pl/files/js/cupopup.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
