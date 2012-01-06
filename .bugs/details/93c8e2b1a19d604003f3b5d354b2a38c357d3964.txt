@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://topxxxclips.com/
+
+
+[filters]
+http://topxxxclips.com/ero-advertising.html
+
+[other]
+
+
+[comments]
+nitrox
