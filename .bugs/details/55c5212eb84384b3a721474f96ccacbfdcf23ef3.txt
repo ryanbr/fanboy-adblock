@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cjtube.com/watch.php?tag=Vx8gqzlF2E
+
+
+[filters]
+http://www.cjtube.com/tp/filter.php?pro=4295
+http://www.cjtube.com/tp/img.php
+
+[other]
+
+
+[comments]
+nitrox
