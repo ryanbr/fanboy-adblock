@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://icydk.com/2010/04/29/kate-hudson-is-still-hiding-her-new-boobies/
+
+
+[filters]
+http://www.etsy.com/assets/js/etsy_mini_shop.js
+http://www.etsy.com/mini.php?shop_id=6553312&image_type=gallery&rows=5&columns=1&featured=0
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
