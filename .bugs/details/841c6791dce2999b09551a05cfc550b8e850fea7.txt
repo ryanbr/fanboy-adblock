@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.inthemix.com.au/news/intl/51932/Avicii_is_giving_away_1_million_dollars
+
+
+[filters]
+http://i.i.tsatic-cdn.net/takeovers/itmiphoneapp/background.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
