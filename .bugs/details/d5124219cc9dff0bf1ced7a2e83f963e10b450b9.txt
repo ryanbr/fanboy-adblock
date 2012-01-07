@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.azcentral.com/offbeat/
+
+
+[filters]
+http://www.azcentral.com/js/checkm8footer_v20090722142159.js
+http://www.azcentral.com/js/checkm8header_v20090722142159.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
