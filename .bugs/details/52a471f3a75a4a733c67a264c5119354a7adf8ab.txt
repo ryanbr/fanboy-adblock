@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.huffingtonpost.com/2011/11/04/biblical-blunder-white-house-jay-carney_n_1074676.html
+
+
+[filters]
+http://cfiles.5min.com/flashcookie/StorageCookieSWF_01.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
