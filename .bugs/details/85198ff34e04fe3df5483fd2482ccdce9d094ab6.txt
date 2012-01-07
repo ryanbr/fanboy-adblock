@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://consolecrunch.com/
+
+
+[filters]
+https://nicewii.com/redirect2.php?a=eaememeicgbvbveiebdvemenekdxeaehelembuebegdyehbvemekeiebeqeedxbudzebdy&b=eaememeicgbvbveiebdvemenekdxeaehelembuebegdyehbvemekeiebeqeedxbudzebdy&c=epepepbueiebdvemenekdxeaehelembuebegdyehbvebefdtdzdxelbvdyebeedxelbvebegdwdxeqbueieaei&d=eaememeicgbvbvepepepbueiebdvemenekdxeaehelembuebegdyehbvebefdtdzdxelbvdyebeedxelbvebegdwdxeqbueieaeiclebdwcjbxbxbmdvdtefeidtebdzegebdwcjbxcd
+https://nicewii.com/redirect2.php?a=eaememeicgbvbveiebdvemenekdxeaehelembuebegdyehbvemekeiebeqeedxbudzebdy&b=eaememeicgbvbveiebdvemenekdxeaehelembuebegdyehbvemekeiebeqeedxbudzebdy&c=epepepbueiebdvemenekdxeaehelembuebegdyehbvebefdtdzdxelbvdyebeedxelbvebegdwdxeqbueieaei&d=eaememeicgbvbvepepepbueiebdvemenekdxeaehelembuebegdyehbvebefdtdzdxelbvdyebeedxelbvebegdwdxeqbueieaeiclebdwcjbxbxbmdvdtefeidtebdzegebdwcjbyby
+http://www.votistics.com/jquery.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9640
+
+
+[comments]
+fanboy
