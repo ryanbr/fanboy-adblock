@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hemmings.com/
+
+
+[filters]
+http://images.hemmings.com/redesign/dig_ad.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
