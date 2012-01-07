@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hogclips.com/
+
+
+[filters]
+http://hogclips.com/adw2.shtml
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
