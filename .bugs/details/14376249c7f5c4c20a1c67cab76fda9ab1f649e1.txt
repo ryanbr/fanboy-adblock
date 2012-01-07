@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.heraldsun.com.au/sport/cricket/now-everyone-loves-clarkey/story-e6frfg8o-1226238675585
+
+
+[filters]
+http://media.heraldsun.com.au/fe/sport/cricket-2011/images/sideskins-Vodafone.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
