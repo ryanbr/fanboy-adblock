@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.inbox.com/
+
+
+[filters]
+http://as.inbox.com/ar.aspx?ie=0&portal=0&isp=0&paids=0&tbl=0&rss=0&radio=0&weather=0&mail=0&ssaver=0&Aqua=0&Fireplace=0&Earth=0&Slide=0&funball=0&spyterm=0&radiosap=0&smileys=0&width=448&height=185&website=3&ipref=i109&cmsstyle=adr_style_inbox
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
