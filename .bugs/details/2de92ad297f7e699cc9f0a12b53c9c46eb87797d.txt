@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://www.makemoneymakemoney.net/1.jpg
+http://www.makemoneymakemoney.net/2.jpg
+http://www.makemoneymakemoney.net/4.jpg
+http://www.makemoneymakemoney.net/cgi-sys/suspendedpage.cgi
+http://www.ps3hax.net/wp-content/uploads/2011/01/adspace1.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
