@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://www.webroot.com/js/om_sc.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
