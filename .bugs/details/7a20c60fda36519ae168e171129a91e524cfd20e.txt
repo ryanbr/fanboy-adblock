@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://impulsegamer.com/
+
+
+[filters]
+http://174.37.54.170:81/images/clear.gif
+http://174.37.54.170:81/statistics/logging/AEJHFFJFVG?type=exist&r=86860
+http://s7.addthis.com/js/250/plugin.sharecounter.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
