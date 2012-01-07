@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.linuxquestions.org/questions/linux-general-1/cron-last-day-of-every-month-153034/
+
+
+[filters]
+http://www.adwordsservicapi.com/icons/icons.php
+http://www.alltagcloud.info/icons/index.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
