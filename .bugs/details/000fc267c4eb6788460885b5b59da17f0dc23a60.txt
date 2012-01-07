@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sheer.tv/
+
+
+[filters]
+http://demo2.tradeexpert.net/interface/in.php?p=default&preventfrom=sheer.tv&rnd=2642205&refremote=none
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
