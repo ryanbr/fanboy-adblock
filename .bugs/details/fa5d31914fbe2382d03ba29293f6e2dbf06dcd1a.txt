@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newfreeware.com/
+
+
+[filters]
+http://referrer.org/s.php?login=newfreew&jv=n&j=y&srw=1440&srh=900&srb=24&l=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
