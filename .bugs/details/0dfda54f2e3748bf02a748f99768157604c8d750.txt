@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.chiefsplanet.com/BB/showthread.php?t=195503
+
+
+[filters]
+http://www.azcentral.com/js/zagcookie.js
+http://www.azcentral.com/incs/return_zag_cookie.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
