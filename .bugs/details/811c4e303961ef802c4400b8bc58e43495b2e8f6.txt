@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.needlive.com/biopage/SassyAmber.html?wmcode=thetraffic-pps
+
+[filters]
+http://ct.needlive.com/?wmid=thetraffic&prg=pps&site=1&campaign=&referrer=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D9647&pt=0&ptid=0&ip=33.33.33.33&js=1&rand=13387248
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
