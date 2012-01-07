@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://products.howstuffworks.com/food-processors-types.htm
+
+
+[filters]
+http://products.howstuffworks.com/javascript/googleAds1.js
+http://static.howstuffworks.com/gif/products/layout/std_paidadvert_01.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
