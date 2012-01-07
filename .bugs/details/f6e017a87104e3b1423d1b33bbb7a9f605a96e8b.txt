@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://electronics.howstuffworks.com/gadgets/high-tech-gadgets/5-tips-for-picking-the-right-smartphone.htm
+
+
+[filters]
+http://www.howstuffworks.com/js/index/m/ads.js/s/hsw/v/en-us/r/8077
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
