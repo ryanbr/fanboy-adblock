@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.mercurynews.com
+
+
+[filters]
+http://extras.mnginteractive.com/live/js/omniture/OmniUserObjAndHelper.js
+http://extras.mnginteractive.com/live/js/omniture/functions.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
