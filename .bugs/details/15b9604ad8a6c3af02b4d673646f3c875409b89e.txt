@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dronporn.com/porn-tube.shtml
+
+
+[filters]
+http://dronporn.com/adv-1.html
+http://dronporn.com/adv-2.html
+http://dronporn.com/ero-1.html
+http://dronporn.com/ero.html
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9644
+
+[comments]
+fanboy
