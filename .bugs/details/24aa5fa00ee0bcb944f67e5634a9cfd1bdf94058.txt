@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.harpersbazaar.com/bazaar-blog/best-dressed-list-010612?click=pp
+
+
+[filters]
+http://www.harpersbazaar.com/cm/shared/social/social_tools.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
