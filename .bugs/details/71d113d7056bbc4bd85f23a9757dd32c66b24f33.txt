@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gameshark.com/
+
+
+[filters]
+http://gameshark.com/ads/interstitial.js
+http://www.gameshark.com//img/gs-ad_damageinc.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
