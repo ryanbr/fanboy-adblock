@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tradecarview.com/
+
+[filters]
+fp:
+http://cwps.tradecarview.com/material/housead/trade/information/300_95/01/banner_img02.jpg
+http://cwps.tradecarview.com/material/housead/trade/localize/top/610x200_newzealand.gif
+http://cwps.tradecarview.com/material/housead/trade/localize/top/index.jpg
+http://cwps.tradecarview.com/material/housead/trade/localize/top/newzealand.jpg
+ma:
+http://www.tradecarview.com/include/include_SiteCatalyst.aspx
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
