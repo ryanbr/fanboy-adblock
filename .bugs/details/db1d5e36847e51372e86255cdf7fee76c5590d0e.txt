@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.itreviews.com/
+
+[filters]
+http://images.itreviews.com/www.itreviews.com/photos/Canon-MG8250.jpg.300x250_q85_crop_upscale.jpg
+http://images.itreviews.com/www.itreviews.com/photos/KODAK-EasyShare-M5350.jpg.300x250_q85_crop_upscale.jpg
+http://images.itreviews.com/www.itreviews.com/photos/belkin-F9K1103.jpg.300x250_q85_crop_upscale.jpg
+http://images.itreviews.com/www.itreviews.com/photos/trine-1.jpg.300x250_q85_crop_upscale.jpg
+http://ad.netcommunities.com/ttj?id=637568&cb=1326014607&_=1326014815529
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
