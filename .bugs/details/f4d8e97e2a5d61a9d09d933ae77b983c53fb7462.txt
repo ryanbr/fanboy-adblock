@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.investopedia.com/articles/03/050803.asp
+
+[filters]
+http://i.investopedia.com/inv/ads/secondparty/coupon-mountain-white.jpg
+http://i.investopedia.com/inv/icons/house-ad.jpg
+http://i.investopedia.com/javascript/welcomead.js
+http://i.investopedia.com/javascript/welcomeadredirect.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
