@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vidipedia.org/
+
+
+[filters]
+http://greenads.org/AS/greenAS_banner.css
+http://greenads.org/AS/greenASlb_banner.css
+http://greenads.org/index.php?page=links&choice=AS_banner&ce=0&size=AS_banner&color=greenAS_banner&publisher=35&site=53&idc=&tpl=AS&type=popular&amazon=introspecti06-20
+http://greenads.org/index.php?page=links&choice=ASlb_banner&ce=0&size=ASlb_banner&color=greenASlb_banner&publisher=40&site=58&idc=&tpl=AS&type=popular&amazon=introspecti06-20
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
