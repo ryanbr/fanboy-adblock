@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.artistdaily.com/
+
+[filters]
+http://tracking.interweave.com/default.aspx
+http://tracking2.interweave.com/artistdaily.com/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
