@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://games.latimes.com/games/sunday-crossword/sunday-crossword.aspx
+
+
+[filters]
+http://activity.appssavvy.net/ads/ad/view/appssavvy.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
