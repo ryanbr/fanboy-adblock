@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mlbtraderumors.com/2012/01/nl-west-notes-dodgers-hamels-lidge.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+MlbTradeRumors+%28MLB+Trade+Rumors%29
+
+
+[filters]
+http://cdn.undertone.com/js/vp.js  <-- shouldnt be blocked
+http://ads.undertone.com/vp?&zoneid=24661&layout=bottom&bgcolor=333333&cb=79988759717&t=1326113043.639&x=0&y=0&sw=1280&sh=984&cw=1264&ch=825&loc=http%3A//www.mlbtraderumors.com/2012/01/nl-west-notes-dodgers-hamels-lidge.html%3Futm_source%3Dfeedburner%26utm_medium%3Dfeed%26utm_campaign%3DFeed%253A+MlbTradeRumors+%2528MLB+Trade+Rumors%2529
+http://ads.undertone.com/ax?play=a&zoneid=24661&layout=bottom&bgcolor=333333&cb=79988759717&t=1326113043.639&x=0&y=0&sw=1280&sh=984&cw=1264&ch=825&loc=http%3A//www.mlbtraderumors.com/2012/01/nl-west-notes-dodgers-hamels-lidge.html%3Futm_source%3Dfeedburner%26utm_medium%3Dfeed%26utm_campaign%3DFeed%253A+MlbTradeRumors+%2528MLB+Trade+Rumors%2529
+
+
+
+
+[other]
+http://adzilla.fanboy.co.nz/php3/details.php?id=15171
+https://adblockplus.org/forum/viewtopic.php?f=2&t=9257
+
+[comments]
+fanboy
