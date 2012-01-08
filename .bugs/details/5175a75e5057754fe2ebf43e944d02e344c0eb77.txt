@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.cinemasight.com
+
+
+[filters]
+http://ws.amazon.co.uk/widgets/q?rt=tf_sw&ServiceVersion=20070822&MarketPlace=GB&ID=V20070822/GB/cinem085-21/8002/d37917f3-4f66-4518-928e-2719927f0bd3
+http://ws.amazon.ca/widgets/q?rt=tf_sw&ServiceVersion=20070822&MarketPlace=CA&ID=V20070822/CA/cinem0e-20/8002/6b498fd8-d1d0-4df5-91a0-86737be8421a
+http://ws.amazon.de/widgets/q?rt=tf_sw&ServiceVersion=20070822&MarketPlace=DE&ID=V20070822/DE/cinem01-21/8002/0b4114f8-7572-4006-953d-3a329e3abb93
+http://ws.amazon.fr/widgets/q?rt=tf_sw&ServiceVersion=20070822&MarketPlace=FR&ID=V20070822/FR/cinem0f-21/8002/c68080ce-709a-4478-8998-2c164dbefab8
+http://ws.amazon.com/widgets/q?rt=tf_sw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822/US/theoscarguy-20/8002/9ba0b720-136d-4b2a-9f30-816667b31426
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
