@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mobiledia.com/reviews/sprint.html
+
+
+[filters]
+http://www.mobiledia.com/netshelter/ads-reviews-120x90-2.html
+http://www.mobiledia.com/netshelter/ads-reviews-120x90.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
