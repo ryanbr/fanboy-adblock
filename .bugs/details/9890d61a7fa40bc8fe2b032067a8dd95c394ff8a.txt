@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gameanyone.com/
+
+
+[filters]
+http://www.gameanyone.com/gameanyone.php?ad=1&time=1326019404
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
