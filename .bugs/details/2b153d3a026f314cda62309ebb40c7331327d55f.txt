@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cooliris.com/
+
+
+[filters]
+http://www.cooliris.com/shared/resources/js/statlogger.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
