@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bannedcelebs.com/home.html?nats=MjIzNTM1NS4xLjU5My41OTMuNjkuMC4wLjAuMA
+
+[filters]
+http://track.bannedcelebs.com/ifm_image.php?text=SGlnaGxhbmRlciBNYW5hZ2VtZW50IFN5c3RlbXMgTFRELg==-U3VpdGUgQiAyOSBIYXJsZXkgU3RyZWV0-VzFHIDlRUg==-TG9uZG9u-RW5nbGFuZA==
+http://track.bannedcelebs.com/ifm_image.php?text=SGlnaGxhbmRlciBNYW5hZ2VtZW50IFN5c3RlbXMsIEluYy4=-NjAxIEhlcml0YWdlIERyaXZl-MzM0NTg=-SnVwaXRlcg==-Rkw=-VVNB
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
