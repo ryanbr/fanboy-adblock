@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.truthdig.com/report/item/two_jerks_20120105/
+
+
+[filters]
+http://www.truthdig.com/?ACT=45&vars=YTozOntzOjg6ImVudHJ5X2lkIjtzOjU6IjIzODQ4IjtzOjk6IndlYmxvZ19pZCI7czoyOiIxMCI7czoxNjoiZW50cnlfaWRlbnRpZmllciI7czo1OiIyMzg0OCI7fQ==
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
