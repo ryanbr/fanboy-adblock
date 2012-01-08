@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.itv.com/takemeout/the-gossip/
+
+
+[filters]
+http://www.itv.com/Html/AdvertStub.htm?d=d&t=0&adserver=http%3A//sam.itv.com&itvsite=ITV&adrestriction=None&itvarea=entertainment.takemeout.previously&seg=entertainment.takemeout.previously&position=1&dimensions=150x113&holder=bloomHolder_19869226_150x113_1&pagenum=56974430060&rs=&adlbros=0&admpuros=0&adlbls=0&admpuls=0&adlben=0&admpuen=0&adlbso=0&admpuso=0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
