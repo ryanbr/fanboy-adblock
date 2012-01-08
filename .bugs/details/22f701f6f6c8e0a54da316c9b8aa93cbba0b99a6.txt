@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.motorcycle.com/2012/01/06/motorcycle-category/scooter/hero-moto-unveils-leap-hybrid-scooter-concept-claims-235-mpg/
+
+
+[filters]
+http://sciencerevenue.com/scirev/scirev.php?aid=5336121791&bid=3274359
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
