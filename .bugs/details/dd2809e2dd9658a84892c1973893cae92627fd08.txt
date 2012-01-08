@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.heaven666.org/
+
+
+[filters]
+http://1.forgetstore.com/a1/chatsectionnew2.php?nick=Sweetypie69&city=Old%20Bridge&age=32&sub=heaven&thumb=http://1.forgetstore.com/a2/thumbs/8/a768f7x357478.jpg&g=&country=us
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
