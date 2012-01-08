@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pornhost.com/5220031551/
+
+
+[filters]
+http://www.pornhost.com/count_hit_player.php?sec=d332b251f4519dde6657
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
