@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://phoenixmarieblogs.com/free/phoenix-marie/
+
+
+[filters]
+http://www.pussyeatingclub.com/tgps/themgp/wp-content/uploads/the-Banner.png
+http://www.pussyeatingclubcams.com/exports/livemodel/?AFNO=1-1&cid=2
+http://www.pussyeatingclubcams.com/exports/livemodel/?AFNO=1-1&cid=2
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
