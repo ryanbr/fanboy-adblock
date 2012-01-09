@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kannuu.com/
+
+
+[filters]
+http://t2.trackalyzer.com/trackalyze.asp?r=None&p=http%3A//www.kannuu.com/&i=19833
+http://t2.trackalyzer.com/trackalyze.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
