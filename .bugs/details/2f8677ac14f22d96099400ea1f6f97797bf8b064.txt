@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://just.eroprofile.com/play/HDzWCz8RSG7P7oh
+
+
+[filters]
+http://www.steamtraffic.com/show/txtblock.php?s=7
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
