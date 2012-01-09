@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.porn.com/videos/foursome-fun-with-gina-she-loves-deep-throat-and-a-hard-fuck-43962.html
+
+
+[filters]
+http://assets.porn.com/js/pu.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
