@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.honestjohn.co.uk/
+
+
+[filters]
+http://pixel.honestjohn.co.uk/hj.gif?source=%2cmenu1_Home%2c&loc=http%3A//www.honestjohn.co.uk/&t=0.3695336834322108
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
