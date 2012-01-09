@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nicovideo.jp/my/top
+
+
+[filters]
+http://ads.nicovideo.jp/assets/images/2a/2ad0370211a907bb13db18713fbc499a.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
