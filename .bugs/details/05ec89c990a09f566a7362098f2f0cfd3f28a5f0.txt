@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.extremewildsex.com/
+
+
+[filters]
+http://graphics.pop6.com/javascript/ffc-anchor_banner_toolbar-1325702359.js
+http://graphics.pop6.com/javascript/ffc-floater_ads_masterset-1309894487.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
