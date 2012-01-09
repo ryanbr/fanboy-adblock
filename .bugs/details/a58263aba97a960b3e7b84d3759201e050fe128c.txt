@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jackpotslotmachines.com/free-slots-games.html
+
+
+[filters]
+http://banners.clubworldgroup.com/?src=/AE/HN_125x125_mainoffer_0.gif
+http://banners.clubworldgroup.com/?src=/AE/ms-468x60-mainoffer-0.gif
+http://tracking.affiliateedge.com/_Common/_Scripts/tracking.js
+
+
+[other]
+
+
+[comments]
+nitrox
