@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.shoes.com/
+
+
+[filters]
+http://www.shoes.com/WebServices/ClientLogging.asmx/WriteJavascriptErrorToLog?errorMessage=GetEmail%20is%20not%20defined&errorUrl=http%3A%2F%2Fwww.shoes.com%2F&lineNumber=1638&browserCodeName=Mozilla&browserAppName=Netscape&browserName=Gecko&browserVersion=5.0%20(Windows)&browserLanguage=en-US&userPlatform=Win32&userAgent=Mozilla%2F5.0%20(Windows%20NT%206.1%3B%20rv%3A12.0a1)%20Gecko%2F20120108%20Firefox%2F12.0a1&windowLocationUrl=http%3A%2F%2Fwww.shoes.com%2F
+http://www.shoes.com/WebServices/ClientLogging.asmx/WriteJavascriptErrorToLog?errorMessage=s%20is%20not%20defined&errorUrl=http%3A%2F%2Fwww.shoes.com%2F&lineNumber=127&browserCodeName=Mozilla&browserAppName=Netscape&browserName=Gecko&browserVersion=5.0%20(Windows)&browserLanguage=en-US&userPlatform=Win32&userAgent=Mozilla%2F5.0%20(Windows%20NT%206.1%3B%20rv%3A12.0a1)%20Gecko%2F20120108%20Firefox%2F12.0a1&windowLocationUrl=http%3A%2F%2Fwww.shoes.com%2F
+http://www.shoes.com/WebServices/ClientLogging.asmx/WriteJavascriptErrorToLog?errorMessage=s%20is%20not%20defined&errorUrl=http%3A%2F%2Fwww.shoes.com%2F&lineNumber=70&browserCodeName=Mozilla&browserAppName=Netscape&browserName=Gecko&browserVersion=5.0%20(Windows)&browserLanguage=en-US&userPlatform=Win32&userAgent=Mozilla%2F5.0%20(Windows%20NT%206.1%3B%20rv%3A12.0a1)%20Gecko%2F20120108%20Firefox%2F12.0a1&windowLocationUrl=http%3A%2F%2Fwww.shoes.com%2F
+
+[other]
+
+
+[comments]
+nitrox
