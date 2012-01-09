@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.haileyyoungclub.com/
+
+
+[filters]
+http://cdn.pornstarterritory.com//images/bannernew.jpg
+http://cdn.pornstarterritory.com/haileyyoungclub.com/wp-content/images/alsbannerhorizontal007.jpg
+http://cdn.pornstarterritory.com/haileyyoungclub.com/wp-content/images/alsbannerhorizontal165.jpg
+
+
+[other]
+
+
+[comments]
+nitrox
