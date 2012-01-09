@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nudecelebritytube.com/
+
+
+[filters]
+http://www.mrskin.com/data/mrskincash/assets/flash/250x250_hardcore.swf?target=_blank&url=mrskin.html
+http://www.mrskin.com/data/mrskincash/assets/flash/250x250_hardcore_video.swf?target=_blank&url=mrskin.html
+http://fuckbookhookups.com/go/g923381-pct.subfuckbookpopceleb
+
+[other]
+
+[comments]
+nitrox
