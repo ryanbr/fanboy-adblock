@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ariseindiaforum.org/nurse-reveals-the-top-5-regrets-people-make-on-their-deathbed/
+
+
+[filters]
+http://www.ariseindiaforum.org/wp-content/plugins/slick-social-share-buttons/js/ga.social_tracking.js?ver=3.2.1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
