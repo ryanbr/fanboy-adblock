@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.drizzydrake.org/
+
+
+[filters]
+http://lp.longtailvideo.com/5/gapro/gapro-1h.swf
+||longtailvideo.com^*/gapro-1.swf
+||ongtailvideo.com^*/gapro.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9774
+
+
+[comments]
+fanboy
