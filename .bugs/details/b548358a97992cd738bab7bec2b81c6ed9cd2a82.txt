@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gfrevenge.com/enter.htm?t=gf_pic_022
+
+
+[filters]
+http://gxb.nastydollars.com/trk/index.php?s=gf&i=nd5000&t=1&p=join
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
