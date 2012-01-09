@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pokerplayer.co.uk/
+
+[filters]
+http://photos.pokerplayer.co.uk/front_website/gafc.js
+http://sprites.expertreviews.co.uk/js/gafc.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
