@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://planetgreen.discovery.com/
+
+
+[filters]
+http://planetgreen.discovery.com/shared/swf/components/DCL-DIT/OmnitureTrackerAS3.swf
+
+
+[other]
+
+
+[comments]
+nitrox
