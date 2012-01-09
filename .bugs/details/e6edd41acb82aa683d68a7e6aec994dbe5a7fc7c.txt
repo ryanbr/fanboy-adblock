@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://1youngporn.com/gallery/
+
+
+[filters]
+http://1youngporn.com/gallery/gallery/count3.php?gr=2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
