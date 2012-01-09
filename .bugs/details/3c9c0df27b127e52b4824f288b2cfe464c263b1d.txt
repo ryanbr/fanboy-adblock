@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://spongebob.nick.com/?navid=characterNav
+
+
+[filters]
+http://images1.nick.com/nick-assets/footer/icon_advertising_option_icon_13x14.jpg?height=13&width=14&format=jpg&quality=0.91
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
