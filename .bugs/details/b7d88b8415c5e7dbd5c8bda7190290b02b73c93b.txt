@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.blackgallery.com/
+
+
+[filters]
+http://geobanner.blacksexmatch.com/go/page/iframe_geobanner_768x250?pid=g650494&numpins=20&find_sex=2&looking_for_person=1&models=1&race=3&thumb=portrait&varname=complex&page=cover&banner_title_preset=5&dcb=blacksexmatch.com
+
+
+[other]
+
+
+[comments]
+nitrox
