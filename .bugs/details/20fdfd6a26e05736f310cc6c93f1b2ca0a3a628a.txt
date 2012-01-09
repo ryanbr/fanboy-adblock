@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.google.es/search?q=*&ie=*&oe=*&aq=*&rls=*&client=*#sclient=*&hl=*&client=*&hs=*&rls=*&source=*&q=*&pbx=*&oq=*&aq=*&aqi=&aql=&gs_sm=*&gs_upl=*&bav=*&fp=*&biw=*&bih=*
+
+
+[filters]
+http://www.ver-pelis.net/player/best.js
+http://www.ver-pelis.net/player/servers/otros.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
