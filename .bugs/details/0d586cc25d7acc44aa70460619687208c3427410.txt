@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sexmummy.com/gallery/view.php?id=293
+
+
+[filters]
+http://www.sexmummy.com/avnadsbanner.htm
+
+
+[other]
+
+
+[comments]
+nitrox
