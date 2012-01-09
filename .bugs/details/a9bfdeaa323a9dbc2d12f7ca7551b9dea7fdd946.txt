@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sammy3.tumblr.com/
+
+
+[filters]
+http://assets.tumblr.com/javascript/tumblelog.js?711
+
+
+[other]
+
+
+[comments]
+nitrox

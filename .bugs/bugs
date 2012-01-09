@@ -381,6 +381,7 @@ remove uneeded whitelist                                     | owner:, open:True
 http://js.nyt.com/js/mtr.js                                  | owner:, open:True, id:a906c153b31e04748f169ea5ea2694bc1443deb8, time:1325391748.6
 http://www.plombir.ru/video.php?id=291416                    | owner:, open:True, id:a92f6890a558737e0f03f65fe8b47746a327322f, time:1325233067.5
 http://xwapx.net/search.php?search=                          | owner:, open:True, id:a958fd33b3a5d54038a1e117758f59b1e8bd3cad, time:1325321565.71
+http://sammy3.tumblr.com/                                    | owner:, open:True, id:a9bfdeaa323a9dbc2d12f7ca7551b9dea7fdd946, time:1326106909.12
 http://frum.nationalreview.com/                              | owner:, open:True, id:a9dd57e57964c934756ebfd173e974f360f3cedc, time:1325391838.13
 http://www.firstcoastnews.com/                               | owner:, open:True, id:aaa4ed42f684cbbadcabbb2a1a29e4fdd3162822, time:1325492956.1
 http://gamecopyworld.com/                                    | owner:, open:True, id:aae2e7f2479489bc115494dc9c9cfeb17ec5929e, time:1325552778.47
