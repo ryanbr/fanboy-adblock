@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fomos.kr/
+
+
+[filters]
+http://adsvc2.wisenut.co.kr/amc/amc_svc_28.pj?scode=1255&ptype=1
+http://adsvc2.wisenut.co.kr/amc/js/wiseAmcBanner.js
+http://image.wisenut.co.kr/DisplayAd/upload/1326090142626.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
