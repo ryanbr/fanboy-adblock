@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dailypainters.com/
+
+[filters]
+http://www.dailypainters.com/logstat.php?stats_type=V&artist_id=0&painting_id=0&stats_date=2012-01-09&uri=%2Fblock%2Fpainting_details%2Fb_painting_details%2Fpainting_id%2F219045
+http://www.dailypainters.com/logstat.php?stats_type=D&artist_id=572&painting_id=219045
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
