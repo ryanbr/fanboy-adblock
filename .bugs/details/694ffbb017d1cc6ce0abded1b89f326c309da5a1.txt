@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dubidoo.it/
+
+
+[filters]
+http://www.dubidoo.it/images/banners/ufo.gif
+http://www.dubidoo.it/images/banners/dubiweek180x310.gif
+http://www.dubidoo.it/images/banners/Dubinatale200x190.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
