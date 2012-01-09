@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.freepornsubmits.com/videos/player.php?id=121822&from=c
+
+
+[filters]
+http://www.freepornsubmits.com/ads/jquery.cookie.js
+http://www.freepornsubmits.com/ads/jquery.js
+http://www.freepornsubmits.com/ads/thickbox.css
+http://www.freepornsubmits.com/ads/thickbox.js
+
+[other]
+
+
+[comments]
+nitrox
