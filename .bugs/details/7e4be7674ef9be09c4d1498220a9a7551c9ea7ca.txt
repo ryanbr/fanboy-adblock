@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sportpost.com/arsenal
+
+
+[filters]
+http://beacon-1.newrelic.com/1/8f605f0573?a=454398&qt=0&ap=1625&dc=379&fe=1284&to=dQ1bRUBXX1lcEBZFWkYLVkIdS1taTg%3D%3D&v=23&jsonp=NREUM.setToken
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
