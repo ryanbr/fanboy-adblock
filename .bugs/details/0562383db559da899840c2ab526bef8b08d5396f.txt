@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://quizhappy.com/p/banners/go.cgi?site=ffadult&page=index&lang=english&cobrand_site_dcb=fuckbookhookups.com&this_page=banners_index&key=g551525-pct
+
+[filters]
+http://banners.fuckbookhookups.com/go/page/cloudbannerb?pid=g551525-pct&width=728&height=90&brd=1&rating=3&del=1&page=register&border_color=&background_color=&link_color=&rollover_header_color=&popunder_off=1&no_click=1&no_perf=1
+
+http://geobanner.fuckbookhookups.com/go/page/iframe_geobanner_300x250?lang=english&ad=01&no_click=1&banner=1&pid=g551525-pct
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
