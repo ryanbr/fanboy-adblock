@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sammyboy.com/showthread.php?85785-Andy-Gray-sacked-after-second-sexist-video
+
+
+[filters]
+http://media.kyte.tv/flash/MarbachAdvertsDartInstream.swf?buildnum=110819_1140
+http://media.kyte.tv/flash/MarbachAdvertsDartInstream.swf?localcachebust=1&buildnum=110819_1140
+http://media.kyte.tv/flash/MarbachMetricsProvider.swf?buildnum=110819_1140
+http://media.kyte.tv/flash/MarbachMetricsProvider.swf?localcachebust=1&buildnum=110819_1140
+
+
+[other]
+
+
+[comments]
+nitrox
