@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://claudiarossiblog.com/
+
+
+[filters]
+http://promo.twistyscash.com/hosted/1487.gif
+http://promo.twistyscash.com/hosted/524.gif
+http://pinkhoneypots.com/a/banners/1976.gif
+http://pinkhoneypots.com/a/banners/1byday/1bd-468x80-003.gif
+http://pinkhoneypots.com/a/banners/408.gif
+http://pinkhoneypots.com/a/banners/Fresh_Outta_High_School-1394.gif
+http://pinkhoneypots.com/a/banners/SG-banner44.gif
+http://pinkhoneypots.com/a/banners/Stunners-1340.gif
+http://pinkhoneypots.com/a/banners/alsbannermisc012.jpg
+
+[other]
+
+
+[comments]
+nitrox
