@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://yourcuteteens.com/
+
+
+[filters]
+http://ads.hookupbucks.com/tools/ads/geo_flash_ads/geo_flash.php?LINK=http://www.wecanhookup.com/indexb.php?webm_id=yctads%26subid=&flash_file=http://ads.hookupbucks.com/tools/ads/geo_flash_ads/300x250/wch_geo_flash06_300x250.swf&width=300&height=250&TARGET=_blank
+http://img.royal-cash.com/promo/30/banners/574_680_148_2.jpg
+http://img.royal-cash.com/promo/34/banners/665_htv_728x90_01.gif
+http://www.teensexcraze.com/awesome/leader.html
+
+
+[other]
+
+
+[comments]
+nitrox
