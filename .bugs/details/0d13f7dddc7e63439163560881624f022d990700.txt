@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nytimes.com/2011/12/29/opinion/feel-free-to-ignore-iowa.html?_r=1#commentsContainer
+
+
+[filters]
+Blocking ||nytimes.com^*/multitrackQueueV2.js  stops comments from loading
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
