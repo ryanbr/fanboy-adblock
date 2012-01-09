@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bonusweb.idnes.cz/prohlednete-si-prahu-v-nejpopularnejsi-strilecce-casto-je-k-nepoznani-1ze-/Magazin.aspx?c=A111229_170940_bw-magazin_anb
+
+
+[filters]
+FP: video doesnt play
+http://go.idnes.bbelements.com/crossdomain.xml
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
