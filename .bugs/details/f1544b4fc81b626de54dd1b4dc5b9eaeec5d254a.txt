@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pokingblondes.com/gallery/72655/Sexy-girl-near-the-sea-shows-her-body.html
+
+
+[filters]
+http://ads.cremzinc.com/banners.php?domain=pokingblondes.com&zone=1
+http://ads.cremzinc.com/banners.php?domain=pokingblondes.com&zone=10
+http://ads.cremzinc.com/banners.php?domain=pokingblondes.com&zone=2
+http://ads.cremzinc.com/banners.php?domain=pokingblondes.com&zone=3
+http://ads.cremzinc.com/im.php?domain=pokingblondes.com
+http://ads.cremzinc.com/widget.php?domain=pokingblondes.com&cols=3&rows=2&pad=5&width=190
+http://ads.cremzinc.com/widget1.php?domain=pokingblondes.com&cols=3&rows=5&pad=5&width=190
+
+[other]
+
+
+[comments]
+nitrox
