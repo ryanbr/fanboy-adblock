@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fomos.kr/
+
+
+[filters]
+http://img1.fomos.kr/img/web/banner/main_left_160_600.gif
+http://img1.fomos.kr/img/web/banner/lol_main_right_100_220.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
