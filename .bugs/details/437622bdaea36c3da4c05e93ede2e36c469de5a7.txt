@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://niceyoungteens.com/
+
+
+[filters]
+http://philstraffic.com/tds/in.cgi?default
+http://newsexbook.com/
+http://niceyoungteens.com/ero-advertising-header.html
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9750
+
+
+[comments]
+fanboy
