@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vertor.com/torrents/2184542/The-Final-Cut-2004-XviD-AC3-2CD-WAF
+
+
+[filters]
+http://ad-emea.doubleclick.net/ad/N1684.167889.VERTOR.COM/B6234589;sz=1x1;anid=%5Banid%5D;ord=%5Btimestamp%5D?
+
+[other]
+
+
+[comments]
+nitrox
