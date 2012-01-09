@@ -1,0 +1,14 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.modernsalon.com/hair-video-tv/editorial/salon-company-videos/Sombre-the-Softer-Side-of-Ombre-135468153.html
+
+[filters]
+http://www.modernsalon.com/includes/sc_video_tracking.js
+
+[other]
+
+
+[comments]
+nitrox
