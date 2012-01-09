@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cycletrader.com/
+
+
+[filters]
+http://www.cycletrader.com/lwmvcjs/tol.js,yahoo_code.js,s_code.js,analytics_omniture.js,myt.js,json.js,chosen.jquery.js,index.js,mainsearch.js,jquery.tools.min.js,location.js,featuredads.js,infoBubble.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
