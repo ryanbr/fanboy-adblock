@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.xvideohost.com/
+
+
+[filters]
+http://www.xvideohost.com/adfrm.php?c=
+http://www.xvideohost.com/hor_banner.php?subID=XvidHoFP18
+http://www.xvideohost.com/hor_banner.php?subID=XvidHoFP9
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
