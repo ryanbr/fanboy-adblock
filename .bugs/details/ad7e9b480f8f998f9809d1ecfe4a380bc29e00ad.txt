@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.extremewildsex.com/
+
+
+[filters]
+http://banners.nostringsattached.com/go/page/js_anchor_banner_toolbar?plain_text=1&skip_lpo=1&win_popups=10&chat_tab1=15&chat_tab2=90&skin=0&find_sex=2&looking_for_person=1&page=search&pid=p3673c.subews
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
