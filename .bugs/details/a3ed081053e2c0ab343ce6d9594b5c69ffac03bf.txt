@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pussycelebs.com/
+
+
+[filters]
+http://adtools.matrix-cash.com/movieads/celebmatrix/script.js
+http://adtools.matrix-cash.com/movieads/celebmatrix/style.css
+http://cs.celebbusters.com/banner/MTQ2LjEuMS4xLjcuNTIuMC4wLjA
+http://cs.celebbusters.com/banner/MTQ2LjEuMS4xLjguNDguMC4wLjA
+http://cs.exposedontape.com/banner/MTQ2LjEuNS42LjYuNjk2LjAuMC4w
+
+[other]
+
+
+[comments]
+nitrox
