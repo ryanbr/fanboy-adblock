@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pussycelebs.com/
+
+
+[filters]
+http://cs.exposedteencelebs.com/banner/MTQ2LjEuNi43LjkuMzUuMC4wLjA
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
