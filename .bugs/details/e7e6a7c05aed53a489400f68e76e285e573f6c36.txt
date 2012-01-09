@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.alladultchannel.com/For-Ladies/6155,0,5,,0,0,0/
+
+
+[filters]
+http://www.alladultchannel.com/For-Ladies/6155,0,5,,0,0,0/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
