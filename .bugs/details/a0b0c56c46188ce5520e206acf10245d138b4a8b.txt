@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bartgibby.com/2006/10/14/omniture-sitecatalyst-vs-google-analytics/
+
+
+[filters]
+http://t7.auriq.com/asp/aq_tag.js
+
+
+[other]
+
+
+[comments]
+nitrox
