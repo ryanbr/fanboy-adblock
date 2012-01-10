@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://personalsavings.americanexpress.com/
+
+
+[filters]
+http://fls.doubleclick.net/json?spot=1297440&src=1507354&host=integrate.112.2o7.net%2Fdfa_echo?var%3Ds_1_Integrate_DFA_get_0%26AQE%3D1%26A2S%3D1&ord=9730319728409
+http://ad.doubleclick.net/getcamphist;spot=1297440;src=1507354;host=integrate.112.2o7.net%2Fdfa_echo?var%3Ds_1_Integrate_DFA_get_0%26AQE%3D1%26A2S%3D1;ord=9730319728409
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
