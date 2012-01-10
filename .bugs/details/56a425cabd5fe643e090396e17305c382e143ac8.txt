@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newgrounds.com/portal/view/520123
+
+
+[filters]
+http://www.eadultgames.com/free_games/rps/jl_rps_newgrounds.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
