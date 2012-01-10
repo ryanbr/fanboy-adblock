@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rentalhomesplus.com/RHP/links.aspx
+
+
+[filters]
+http://media.rhpcdn.com/jscript/common/RHP_s_code-ver10020.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
