@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nudebunnys.com/tag/poking-blondes/
+
+
+[filters]
+http://nudebunnys.com/banner/virtuagirlhd1975.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
