@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.likemilf.com/
+
+
+[filters]
+http://ads.lovercash.com/cgi-bin/ad_generator?only_url=1&u=alxz75&customheader=Gorgeous%20Singles%20in%20${city}!&c=&csize=100&hclr=000000&clclr=FFFFFF&bgclr=FFFFFF&tclr=000000&lclr=0000FF&onfclr=FF0000&dhh=16&dfh=32&dnh=16&dch=16&dth=1&js=0&s=COU&niche=12&tpl=1&gender=F&r=1&size=m&rows=1&cols=8&hsize=18&tsize=12&lsize=12&fsize=12&tfont=Verdana&trg=_blank&showheader=1&showname=1&showage=1&showcity=1&showstate=0&pg=3
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
