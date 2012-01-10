@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sexhungrymoms.com/
+
+
+[filters]
+http://1.ordermc.com/a1/chatsectionnew2.php?nick=kutie9688&city=Old%20Bridge&age=26&sub=panda&thumb=http://1.ordermc.com/a2/thumbs/6/11faaax358256.jpg&g=&country=us
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
