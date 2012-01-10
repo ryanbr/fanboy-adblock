@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dump.fm/BL666DOUT/log
+
+
+[filters]
+http://dspads.sitescout.netdna-cdn.com/100/25/dislike300x250_7-E1F1805.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
