@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.prettyhotandsexy.com/
+
+
+[filters]
+http://www.mrskin.com/affiliateframe/bannerswitcher?aff_code=NTM0Mzc6Mzox&opts=rrated:300x250:%2F::
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
