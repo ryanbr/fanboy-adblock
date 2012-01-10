@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yobt.com/content/165940/montanna-fingers-herself.html?wmid=602&sid=0
+
+
+[filters]
+http://design.yobt.com/rec/foot4_1.html
+http://design.yobt.com/rec/foot4_2.html
+http://design.yobt.com/rec/footer_1.html
+http://design.yobt.com/rec/footer_2.html
+http://design.yobt.com/rec/wm_2.html
+http://design.yobt.com/rec/wm_3.html
+http://syndication.exoclick.com/splash.php?cat=2&idsite=74593&idzone=202060&login=toby217&type=8&p=http://www.yobt.com
+http://www.upforit.com/ext.php?dynamicpage=fbpage&ext_cp=0000007151&pid=yobt.com
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
