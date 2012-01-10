@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://alexmeraz.us/
+
+
+[filters]
+http://www.fanfusion.org/ads1/ad728x90.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
