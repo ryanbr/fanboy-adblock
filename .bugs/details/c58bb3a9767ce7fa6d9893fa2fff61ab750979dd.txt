@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.scafy.com/c/7/Celebrity_Video/
+
+
+[filters]
+http://banners.rude.com/main/js/ab/c/7I3X9/t/67/s/27/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
