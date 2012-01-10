@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.webmonkey.com/
+
+[filters]
+http://www.wired.com/wired/webmonkey/js/tracking.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9832
+
+
+[comments]
+fanboy
