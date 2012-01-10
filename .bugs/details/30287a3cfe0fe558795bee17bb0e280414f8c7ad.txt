@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://donchavez.com/
+
+
+[filters]
+http://wahoha.com/w/2|js|368|1|5|square|110|140|0|0|a1a1a1|bottom|auto|0.04|0000ff|1|000000|Georgia|11|1|center|middle|0|5,6,7,11,12
+http://www.bloggerex.com/widget/2/0/2/3/114/bottom/transparent/621219/Tahoma|1.2em|0.04em|13px|300px|1px|1px|c0c0c0|center|top|square
+http://www.donchavez.com/bloggerex.html
+http://www.donchavez.com/wahoha.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
