@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.popsci.com/science/article/2012-01/new-material-can-pull-carbon-dioxide-right-out-air-unprecedented-rates
+
+[filters]
+http://www.popsci.com/statistics-page-view/node%2F59789/New+Material+Can+Scrub+Carbon+Dioxide+Right+Out+of+the+Air+at+Unprecedented+Rates+%7C+Popular+Science
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
