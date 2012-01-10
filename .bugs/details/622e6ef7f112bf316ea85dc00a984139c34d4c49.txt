@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://online.wsj.com/public/page/0_0_WP_3001.html?currentPlayingLocation=6&currentlyPlayingCollection=Lifestyle&currentlyPlayingVideoId={37EF6464-C903-4801-96A5-BBDFD4265898}
+
+
+[filters]
+http://static.plymedia.com.s3.amazonaws.com/initialize/ahr0cdovl20ud3nqlm5ldc92awrlby8ymdeymdewos8wmta5mtjsdw5jahdvcmtmyw0vmdewoteybhvuy2h3b3jrzmftxzmymgsubxa0?nocache=967131
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
