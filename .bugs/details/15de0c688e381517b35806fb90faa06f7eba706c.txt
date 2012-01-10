@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.def-shop.com/
+
+[filters]
+http://www.def-shop.com/templates/xtc4/module/tracking/Webtrekk/Global.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
