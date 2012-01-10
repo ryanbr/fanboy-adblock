@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://smallbusinessonlinecommunity.bankofamerica.com/index.jspa
+
+
+[filters]
+http://www.bankofamerica.com/www/global/js/tc_logging.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
