@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.caughtonset.com/mendes-makeup-18/
+
+
+[filters]
+http://cdn.alphabird.com/players/v3.0/inbanner/AC_OETags_minify.js
+http://cdn.alphabird.com/players/v3.0/inbanner/adservice.js
+http://cdn.alphabird.com/players/v3.0/inbanner/jwplayer.js
+http://cdn.alphabird.com/players/v3.0/inbanner/player.swf
+http://cdn.alphabird.com/players/v3.0/inbanner/ptrk_fe.swf
+http://cfg.alphabirdnetwork.com/d/uOKooXofM8HUq/5/
+http://cfg.alphabirdnetwork.com/player/?uid=ufoOzxn7FVn5i&item=0&bp=n&playerId=player0&width=300&height=250&c=inbannercaughtonset&p=inbannercaughtonset&pp=inbannercaughtonset
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9812
+
+[comments]
+fanboy
