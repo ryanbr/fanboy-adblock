@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.reviewcentre.com/reviews202338.html
+
+
+[filters]
+http://www.reviewcentre.com/cinergy-adv.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
