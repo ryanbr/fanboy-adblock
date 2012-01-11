@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pcmag.com/article2/0,2817,2398748,00.asp
+
+
+[filters]
+http://cdn.static.zdbb.net/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
+
+
+
+
+[other]
+Just simplify
+
+
+[comments]
+fanboy
