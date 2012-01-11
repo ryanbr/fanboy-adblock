@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.autocheck.co.uk/
+
+
+[filters]
+https://trk.lypn.net/exp/?sid=77713772752a6001&loc=https%3A//www.autocheck.co.uk/&ref=http%3A//www.autocheck.co.uk/&sta=&cg1=&cg2=&cg3=&cp1=&cp2=&cp3=&cvl=&ccr=&cre=&fnm=&fst=&cu1=&cu2=&cu3=&rnd=0.907926245227127
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9869
+
+
+[comments]
+fanboy
