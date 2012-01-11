@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://shop.orange.co.uk/
+
+
+[filters]
+http://shop.orange.co.uk/library/js/external/ecos_survey.js.h-669009537.pack
+http://shop.orange.co.uk/librarypack/js/external/ecos_survey.js.h-669009537.pack
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
