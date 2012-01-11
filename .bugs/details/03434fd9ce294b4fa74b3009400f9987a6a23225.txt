@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blakelively-fan.com/
+
+
+[filters]
+http://ads.webedia.fr/imppix/i8602/c10240/p104/po13/cam1/cm1/cid1/r6511887
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
