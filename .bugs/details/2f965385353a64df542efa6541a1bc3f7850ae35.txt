@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.web-source.net/
+
+[filters]
+http://www.web-source.net/ad/index.php?section=serve&action=12
+http://www.web-source.net/ad/index.php?section=serve&action=19
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
