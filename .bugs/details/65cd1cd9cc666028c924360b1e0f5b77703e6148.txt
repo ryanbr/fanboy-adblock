@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.groupon.com/unsubscribe
+
+
+[filters]
+http://www.groupon.com/analytic/experiment.gif?e=%5B%7B%22layer%22%3A%22places-121511%22%2C%22experiment%22%3A%22Places8%22%2C%22variant%22%3A%22group2%22%7D%5D&src=ajax&_=1326281727422
+http://www.groupon.com/analytic/experiment.gif?e=%5B%7B%22layer%22%3A%22places-121511%22%2C%22experiment%22%3A%22Places8%22%2C%22variant%22%3A%22group2%22%7D%5D&src=img
+http://www.groupon.com/analytic/experiment.gif?e=%5B%7B%22layer%22%3A%22relevance-tracking%22%2C%22experiment%22%3A%22TrackingTestDeferred%22%2C%22variant%22%3A%22variant1%22%7D%5D&src=ajax&_=1326281727419
+http://www.groupon.com/analytic/experiment.gif?e=%5B%7B%22layer%22%3A%22relevance-tracking%22%2C%22experiment%22%3A%22TrackingTestDeferred%22%2C%22variant%22%3A%22variant1%22%7D%5D&src=img
+http://www.groupon.com/analytic/experiment.gif?e=%5B%7B%22layer%22%3A%22sem-skip-subscription-flow%22%2C%22experiment%22%3A%22SkipFlow%22%2C%22variant%22%3A%221%22%7D%5D&src=img
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
