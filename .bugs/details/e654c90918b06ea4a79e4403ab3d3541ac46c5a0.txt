@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bikepoint.com.au/
+
+
+[filters]
+http://tracking.carsales.com.au/fav.ico?SessionId=98432726-604e-425e-a478-67ccca7e13ca&ServerName=WEBCS14&EventType=P
+http://tcactivity.net/a.ebi?at=0&pid=521967&ao=50&pg=1&ipp=15&vehicle_list=SSE-AD-488535,SSE-AD-462055,ag-260232
+http://tcactivity.net/a.ebi?at=9&pid=521967&ao=100&edi=16&RecordsReturned=3&SortKey=p_IsPoa_Int32|0;p_HasPhotos_Int32|1;p_Make_String|0;p_Model_String|0;p_YearMade_Int32|1;p_PriceSort_Decimal|1;p_PhotoCount_Int32|1&Platform=win&RecordOffset=0&SDIMS=Make:AJS;Record%20Type:Stock;Service:BikeSales;SiloType:Brand+new+bikes+in+stock|Dealer+used+bikes|Demo+%26+near+new+bikes|Private+used+bikes&sid=134D0E89949E&Browser=firefox&Time=0&Type=N&trecs=3&SearchDateTime=2012-01-11+20%3a56%3a28.8242951&IPAddress=24.228.8.171
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
