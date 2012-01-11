@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tvplaneten.tv4.se/1.316979?date=2012-01-12
+
+
+[filters]
+http://tvplaneten.tv4.se/news/scripts/v52.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
