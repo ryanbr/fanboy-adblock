@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.watchwweonline.org/watch-wwe-friday-night-smackdown-060112-full-show-hd
+
+
+[filters]
+http://gpacalculatorhighschoolfree.com/clp/locker.js?guid=94ec9670f95fa871
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
