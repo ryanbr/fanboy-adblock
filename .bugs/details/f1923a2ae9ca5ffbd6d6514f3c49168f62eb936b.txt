@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hilaryfan.org/
+
+
+[filters]
+http://www.fanfusion.org/ads3/ad160x600.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
