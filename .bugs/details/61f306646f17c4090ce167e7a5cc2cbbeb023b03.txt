@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.icelebz.com/celebs/blake_lively/
+
+
+[filters]
+http://www.icelebz.com/adBot300.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
