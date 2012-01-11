@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://javplus.com/watch/18491/8433/i-was-tempted-secretly-while-my-classmate-was-sleeping.html
+
+
+[filters]
+http://javplus.com/js/popup.js
+http://www.21sme.com/services/backlink/backlink.php?aut=EF60387089C968920487F89D5739455201155A64B924A54A750E6D8DD2AD0BC1854A7AD421A02FC8C133741F6A82D677383B5F411BE0301D2039CF
+http://www.auto-ping.com/iping.php?aut=EF60387089C968920487F89D5739455201155A64B924A54A750E6D8DD2AD0BC1854A7AD421A02FC8C1
+http://www.getfreebl.com/services/backlink/backlink.php?aut=EF60387089C968920487F89D5739455201155A64B924A54A750E6D8DD2AD0BC1854A7AD421A02FC8C133214B6D89C17132344F7139C830162C23D81597BA7B4BBFE8
+http://www.morevisits.info/services/backlink/backlink.php?aut=EF60387089C968920487F89D5739455201155A64B924A54A750E6D8DD2AD0BC1854A7AD421A02FC8C1332B416B8AC57D243F57613FCB2A3E351ACB2180A35240BDA3
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
