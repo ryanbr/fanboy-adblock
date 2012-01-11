@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gmx.com/
+
+
+[filters]
+http://www.gmx.com/resources/com.unitedinternet.gmx.portalint.wicket.pagebase.PageBase/$up$/elements/pixel/PixelNedstat.js?w:lm=1323254386
+http://www.gmx.com/resources/com.unitedinternet.gmx.portalint.wicket.elements.pixel.PixelEconda/Econda2.js?w:lm=1323254386
+http://www.gmx.com/resources/com.unitedinternet.gmx.portalint.wicket.elements.pixel.PixelNedstatStatistic/AbstractPixel/empty.gif?w:lm=1323254386
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
