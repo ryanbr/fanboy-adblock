@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thechive.com/2012/01/09/in-honor-of-tonights-national-championship-our-lsu-and-bama-chivettes-25-photos/
+
+
+[filters]
+http://cdn.theechosystem.com/Consumer/MerchantSetting?merchantAppId=110823705685323&callBack=Echo_SetMerchantSetting&AntiCache=0.1405076024812537
+http://cdn.theechosystem.com/Content/Css/SocialCore.css
+http://cdn.theechosystem.com/Content/Javascript/jquery-ui-1.8.13.custom.min.js
+http://cdn.theechosystem.com/Content/Uploads/TheChive_Share.png
+http://cdn.theechosystem.com/Script/Load
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
