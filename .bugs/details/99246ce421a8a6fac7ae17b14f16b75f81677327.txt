@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.webring.org/hub/fineartphotogra2
+
+
+[filters]
+http://cfg.alphabirdnetwork.com/player/?uid=9OI134OUbSrwE&item=0&bp=n&playerId=player0&width=300&height=250&c=inbannerwebring&p=inbannerwebring&pp=inbannerwebring
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9858
+
+
+[comments]
+fanboy
