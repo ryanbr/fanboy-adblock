@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.leightonmeesterweb.com/
+
+
+[filters]
+http://fansites.hollywood.com/bb/leightonmeesterweb/ads_300.js
+http://fansites.hollywood.com/toolbar_reporting.js
+http://fansites.hollywood.com/toolbar_nielsen.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
