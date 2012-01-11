@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cfnews13.com/video?clip=http://static.cfnews13.com/newsvideo/cfn/CaseyYouTube01052011.flv&vtitle=Is%20this%20Casey%20Anthony
+
+
+[filters]
+http://www.cfnews13.com/static/common/javascript/s_code.js
+http://adverts.brighthouse.com/advertpro/servlet/view/banner/url/zone?zid=138&pid=0&custom4=preroll/2Black
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
