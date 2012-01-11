@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pkr.com/en/
+
+
+[filters]
+http://s3.amazonaws.com/embed.j.im/pzyche.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
