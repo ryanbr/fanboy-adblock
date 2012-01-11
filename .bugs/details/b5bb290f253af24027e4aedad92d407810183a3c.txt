@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bhgalleries.com/
+http://amazingteenbabes.com/
+http://www.teensinbra.com/
+http://www.8teenporn.com/
+
+[filters]
+http://www.bhgalleries.com/tp/filter.php?pro=8948
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9871
+
+[comments]
+fanboy
