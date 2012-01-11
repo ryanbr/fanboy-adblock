@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thechive.com/2012/01/09/in-honor-of-tonights-national-championship-our-lsu-and-bama-chivettes-25-photos/
+
+
+[filters]
+http://dating.thechive.com/promo_modules/medium_rectangle_ads.html?age_range_lower=18&age_range_upper=35&element=chive_medium_rectangle&gender=male&miles=5&partner_name=chive&zipcode=10001
+http://dating.thechive.com/promo_modules/medium_rectangle_ads.js?partner_name=chive&element=chive_medium_rectangle&gender=male&age_range_lower=18&age_range_upper=35
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
