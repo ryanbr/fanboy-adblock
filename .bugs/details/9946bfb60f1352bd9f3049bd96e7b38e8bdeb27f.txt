@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hotpornspace.com/hosted/media/horny-blonde-milf-sucks-and-fucks-hard-cock,666.php
+
+
+[filters]
+http://www.hotpornspace.com/popunder4.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
