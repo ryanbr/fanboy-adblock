@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fanfusion.org/as.js
+
+
+[filters]
+http://freehostedscripts.net/ocounter.php?site=ID221129&e1=Online%20User&e2=Online%20Users
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
