@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.complex.com/
+
+[filters]
+http://platform.twitter.com/widgets.js
+
+
+
+
+[other]
+Stops the front page scroll animation
+
+
+[comments]
+fanboy
