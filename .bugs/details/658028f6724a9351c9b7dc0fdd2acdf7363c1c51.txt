@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ukhairdressers.com/
+
+
+[filters]
+http://www.ukhairdressers.com/side_adverts.asp?ggdddgg=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
