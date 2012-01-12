@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.seekitlocal.com/searchresults.aspx?type=business&name=test&address=Salt+Lake+City%2c+UT&market=770
+
+
+[filters]
+http://w11.localadbuy.com/banners/ajtg.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
