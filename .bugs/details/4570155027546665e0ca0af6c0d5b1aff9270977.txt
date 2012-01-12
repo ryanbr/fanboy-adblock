@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dailybasis.com/niches/indian1.shtml
+
+[filters]
+http://2.wood-pen.com/a1/chatlist.php?g=&country=United_States&page=403&sub=blackrose
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
