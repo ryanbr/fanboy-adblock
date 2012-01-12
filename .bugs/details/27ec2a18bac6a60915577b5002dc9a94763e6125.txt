@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mrpaparazzi.com/
+
+
+[filters]
+http://lp.longtailvideo.com/5/gapro/gapro-2.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=9925
+
+
+[comments]
+fanboy
