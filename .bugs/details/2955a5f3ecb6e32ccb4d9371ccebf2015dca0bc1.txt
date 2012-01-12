@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.greentechmedia.com/
+
+[filters]
+http://www.msgapp.com/web.gif?&v=js2.1&cid=95679&u=http%3A//www.greentechmedia.com/&t=Green%20Technology%20%7C%20Cleantech%20and%20Renewable%20Energy%20News%20and%20Analysis&l=en-US&je=false&re=1440x900&cd=24&pd=24&os=Win32&ua=Netscape%205.0%20%28Windows%29&ref=&h=N&tz=UTC-0500&jsv=1.3
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9912
+
+
+[comments]
+fanboy
