@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nextbabes.com/
+
+
+[filters]
+http://www.nextbabes.com/common/ad/virtuagirlhd-120-600.js
+http://www.nextbabes.com/common/ad/ero-120-600.js
+http://www.nextbabes.com/common/ad/awe-120-600.js
+http://www.nextbabes.com/common/ad/adworld-120-600.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
