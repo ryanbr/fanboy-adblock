@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eforu.com/
+
+[filters]
+http://www.eforu.com/cgi-bin/tracker.pl?page=Homepage&ip=24.228.8.171&referer=(none)&time=082131
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9904
+
+A bit of trial..
+
+[comments]
+fanboy
