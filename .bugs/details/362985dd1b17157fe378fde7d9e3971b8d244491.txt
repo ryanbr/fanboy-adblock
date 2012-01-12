@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mobileshop.com/
+
+[filters]
+http://www.mobileshop.com/pstats/pstats.php?rnd=1326321725470&ai=1&ci=1&cg=0&sr=1440x900&cd=24&lg=en-US&je=n&ck=y&tz=-5&ct=&hp=&tl=Mobile%20Phones%20%7C%20Compare%20FREE%20Mobile%20Phones%20%26%20Cheap%20Mobile%20Phone%20Deals&si=http%3A//www.mobileshop.com/&rp=
+http://www.mobileshop.com/pstats/pstats.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
