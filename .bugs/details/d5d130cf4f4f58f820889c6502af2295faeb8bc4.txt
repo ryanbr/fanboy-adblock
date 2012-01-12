@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ebaumnation.com/2011/12/27/kof-2012
+
+
+[filters]
+http://www.ebaumnation.com/static/js/traffic/traffic.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
