@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.atlanticbt.com/blog/business-intelligent-dashboards-the-best-thing-since-sliced-bread-2/
+
+[filters]
+http://www.atlanticbt.com/js/utils/extendedAnalytics.js
+http://www.atlanticbt.com/js/utils/springmetrics.js
+http://www.atlanticbt.com/trackVisit/www.atlanticbt.com?trk=%2Fblog%2Fbusiness-intelligent-dashboards-the-best-thing-since-sliced-bread-2%2F&qtrk=&mngs_ref=http%3A%2F%2Fwww.atlanticbt.com%2F
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
