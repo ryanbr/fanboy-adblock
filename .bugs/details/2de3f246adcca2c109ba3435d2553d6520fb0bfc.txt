@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.almasryalyoum.com/en/node/579946
+
+
+
+[filters]
+http://ads.yellowpages.com.eg/ads/draw_iframe.php?group_id=40&ad_id=315,%20298,%20297,%20304,%20277,%20262%20&box_id=74&partner_id=8&module_id=31&i=ffffff&p_url=http://www.almasryalyoum.com/sites/default/files/yellowpagesads/english_article_narrow.html&lang=En
+
+http://www.almasryalyoum.com/sites/default/files/yellowpagesads/english_article_wide.html
+http://ads.yellowpages.com.eg//ads/create_ads_almasry.php?module_id=31&partner_id=8&Lang=En
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
