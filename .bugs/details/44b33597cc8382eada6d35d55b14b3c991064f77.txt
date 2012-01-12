@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.academy.com/webapp/wcs/stores/servlet/TopCategories_10151_10051
+
+
+[filters]
+http://d.monetate.net/trk/3/s/a-e56182e6/p/academy.com/1075752402?mr=%2714604%27&mi=%272.2093194993.1326357697883%27&mt=!n&cs=!t&e=!(viewPage)&pt=main&r=%27%27&sw=1920&sh=1080&sc=24&j=!t&u=%27http://www.academy.com/webapp/wcs/stores/servlet/TopCategories_10151_10051%27&eoq=!t
+
+
+
+
+[other]
+Don't block monetate.net, see: http://www.modcloth.com/
+
+
+[comments]
+fanboy
