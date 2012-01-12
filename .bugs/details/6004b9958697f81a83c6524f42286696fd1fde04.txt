@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.allmenus.com/or/portland/26550-cha-cha-cha!/menu/
+
+[filters]
+http://d1ac738km0rx4o.cloudfront.net/common/static/advertisements2.html?server=www.allmenus.com&slot=am_50_header_leaderboard&ignore=true
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
