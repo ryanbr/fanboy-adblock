@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.forwebdesigners.com/
+
+
+[filters]
+http://stats.adimpact.com/in.php?site_id=69687&res=1440x900&lang=en&type=pageview&href=%2F&title=For%20Web%20Designers%20-%20Website%20Design%20Resources&ref=&jsuid=2656897291&mime=js&x=0.9176367457075153
+http://stats.adimpact.com/69687.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
