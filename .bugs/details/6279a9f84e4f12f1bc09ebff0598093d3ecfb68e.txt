@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pornpornmovies.com/
+
+
+[filters]
+http://www.pornpornmovies.com/adtop160.php
+http://www.pornpornmovies.com/adbot160.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
