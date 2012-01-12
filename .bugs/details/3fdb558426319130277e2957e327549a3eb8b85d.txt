@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://love.mail.ru/anketa.phtml?oid=*
+
+
+[filters]
+http://pline.lovesupport.ru/pline/3/7/7/718693377/724715745_small_face.jpg?updated=* 	
+http://pline.lovesupport.ru/pline/1/6/9/531601169/726768887_small_face.jpg?updated=*
+
+http://sp0.lovesupport.ru/0/1/7/681026017/681376080_small.jpg?updated=* 
+http://sp4.lovesupport.ru/4/7/0/341939470/341977246_small.jpg?updated=* 	
+http://sp1.lovesupport.ru/1/1/4/718330114/718343245_small.jpg?updated=* 	
+http://sp4.lovesupport.ru/4/9/8/673062498/695168740_small.jpg?updated=* 
+http://sp0.lovesupport.ru/0/3/5/673422035/691152916_small.jpg?updated=*
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
