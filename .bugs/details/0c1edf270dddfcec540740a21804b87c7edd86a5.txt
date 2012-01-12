@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.insiderpages.com/b/15237894811/bank-of-america-raleigh-2
+
+
+[filters]
+http://api.citygridmedia.com/ads/tracker/assets/api/scripts/tracker.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9875
+
+
+[comments]
+fanboy
