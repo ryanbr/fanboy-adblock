@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nudebabes.ws/blog/tag/aryka_lynne
+
+
+[filters]
+http://www.nudebabes.ws/adlargefooter2.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
