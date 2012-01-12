@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://plugins.longtailvideo.com/adtvideo.swf
+http://bs.sportbox.ru/www/delivery/asbvideo-afr.php?loc=http://news.sportbox.ru/Vidy_sporta/Hokkej/Evro_Hokkej_Tur/spbvideo_V-2000-10-fevralya-Evrotur-SHvedskie-hokkeynie-igri-Ross&aspect=169
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
