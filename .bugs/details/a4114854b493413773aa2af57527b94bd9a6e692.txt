@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://media1.bangkokpost.com/common/js/ads_event.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
