@@ -1,0 +1,32 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=9849
+
+
+[filters]
+
+||pgpartner.com^$third-party,~subdocument
+||linksynergy.com^$third-party,~subdocument
+||tkqlhce.com^$third-party,~subdocument
+||jdoqocy.com^$third-party,~subdocument
+||dpbolvw.net^$third-party,~subdocument
+||anrdoezrs.net^$third-party,~subdocument
+||kqzyfj.com^$third-party,~subdocument
+||shareasale.com^$third-party,~subdocument
+||pntrac.com^$third-party,~subdocument
+||pntra.com^$third-party,~subdocument
+||pntrs.com^$third-party,~subdocument
+||cc-dt.com^$third-party,~subdocument
+||avantlink.com^$third-party,~subdocument
+
+
+
+
+[other]
+Changed exisiting filters with subdocs..
+
+
+[comments]
+fanboy
