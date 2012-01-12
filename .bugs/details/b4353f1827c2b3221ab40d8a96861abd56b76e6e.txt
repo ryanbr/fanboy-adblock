@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.creditcardassist.com/
+
+
+[filters]
+http://tracking.reedge.com/REED.php?acc=REED_100046_100034&url=http%3A//www.creditcardassist.com/&referer=&s_height=900&s_width=1440&s_color=24&js=1&java=0&flash=1&cookies=1&gmt=-5&callback=1&rand=1326324531790
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
