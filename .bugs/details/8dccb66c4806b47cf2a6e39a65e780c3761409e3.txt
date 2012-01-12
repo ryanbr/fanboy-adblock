@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://motherless.com/
+
+
+[filters]
+@@http://plugins.longtailvideo.com/5/gapro/gapro-1.js
+
+
+[other]
+Without this, it wont detect flash
+
+
+[comments]
+fanboy
