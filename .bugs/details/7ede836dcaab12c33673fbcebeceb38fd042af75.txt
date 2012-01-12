@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gimpsy.com/
+
+
+[filters]
+https://www.statcounters.info/redirect2.php?a=eaememeicgbvbvepepepbudwehendueedxdveeebdvedelbuefdxbvdwehendueedxdveeebdvedelbveieaeidudubvdyebeedxelbvdwehembudzebdy&b=eaememeicgbvbvepepepbudwehendueedxdveeebdvedelbuefdxbvdwehendueedxdveeebdvedelbveieaeidudubvdyebeedxelbvdwehembudzebdy&c=epepepbudwehendueedxdveeebdvedelbuefdxbvdwehendueedxdveeebdvedelbveieaeidudubvebefdtdzdxelbvebegdwdxeqbueieaei&d=eaememeicgbvbvepepepbudwehendueedxdveeebdvedelbuefdxbvdwehendueedxdveeebdvedelbveieaeidudubvebefdtdzdxelbvebegdwdxeqbueieaeiclebdwcjbxbxbmdvdtefeidtebdzegebdwcjbxbz
+http://www.doubleclicks.me/doubleclicks/phpbb/images/index.php?id=11&campaignid=13&imagex=eaememeicgbvbvepepepbudwehendueedxdveeebdvedelbuefdxbvdwehendueedxdveeebdvedelbveieaeidudubvdyebeedxelbvdwehembudzebdy
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9911
+
+[comments]
+fanboy
