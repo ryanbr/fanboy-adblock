@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.dailystoke.com/video/this-is-how-you-score-a-perfect-10-insurfing/
+
+
+[filters]
+http://www.avantlink.com/link.php?ml=1270&p=28387&pw=36211
+http://www.avantlink.com/link.php?ml=29589&p=28387&pw=36211
+http://www.avantlink.com/link.php?ml=34997&p=28387&pw=36211
+http://www.avantlink.com/link.php?ml=74089&p=28387&pw=36211&vpw=300&vph=250
+http://www.avantlink.com/link.php?ml=84381&p=28387&pw=36211
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
