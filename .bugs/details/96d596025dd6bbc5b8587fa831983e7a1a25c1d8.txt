@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.seekitlocal.com/businessProfile/Renaissance-Fine-Cabinetry/49608351.aspx?l=Salt+Lake+City%2c+UT&market=770
+
+
+[filters]
+http://www.seekitlocal.com/media/sil/770/e/f/2/ef2cbfa2-889b-4fbb-9193-8c4dc330020a/Renaissance_300x250.JPG
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9924
+
+
+[comments]
+fanboy
