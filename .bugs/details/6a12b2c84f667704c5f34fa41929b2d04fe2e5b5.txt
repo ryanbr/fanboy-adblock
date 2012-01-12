@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mpeghunter.com/
+
+[filters]
+http://www.hot-socials.com/a1/chatsection.php?nick=wickedhottie42&city=Old%20Bridge&age=22&sub=facebar
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
