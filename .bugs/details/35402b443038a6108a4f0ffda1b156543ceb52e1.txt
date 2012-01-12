@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kontraband.com/
+
+
+[filters]
+http://www.kontraband.com/media/images/Advertising-Option-Icon.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
