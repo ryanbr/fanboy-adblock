@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cocomment.com/conversation/2880294
+
+
+[filters]
+http://www.cocomment.com/banner?imagesrc=cl_banner-01.gif&width=300&height=250&context=conversation&id=2880294
+http://www.cocomment.com/banner?imagesrc=cl_banner-01.gif&width=300&height=250&context=conversation&id=2880294&rnd=
+http://www.cocomment.com/banner?imagesrc=top_banner-01.gif&width=728&height=90
+http://www.cocomment.com/banner?imagesrc=top_banner-01.gif&width=728&height=90&rnd=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
