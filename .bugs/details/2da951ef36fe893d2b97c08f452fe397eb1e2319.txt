@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.globaltv.com/video/#video
+
+
+[filters]
+http://www.globaltv.com/js/smdg_ads.js
+
+
+
+[other]
+Blocking this stops the video thumb nails /smdg_ads.
+
+[comments]
+fanboy
