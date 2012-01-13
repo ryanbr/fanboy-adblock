@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pilotcatholicnews.com/article.asp?ID=14206
+
+
+[filters]
+http://www.pilotcatholicnews.com/i_Ad_Banner_729x90.asp
+http://www.pilotcatholicnews.com/i_Ad_Box.asp
+http://www.pilotcatholicnews.com/i_Ad_sky.asp
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
