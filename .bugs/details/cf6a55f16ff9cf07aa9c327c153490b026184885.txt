@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://img136.hotlinkimage.com/img_rand.php?id=119249019
+
+[filters]
+http://pop6.adultfriendfinder.com/images/banners/30972/cm_lindsay728x90_01A.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
