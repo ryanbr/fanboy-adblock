@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://apps.facebook.com/yoville/?src=toolbar&skip=1
+
+
+[filters]
+https://pixel.facebook.com/ajax/feed/ticker/flyout.php?src=hover&asyncSignal=7638&post_form_id=c167a59e6af1a3fdc81156540aa10048&__user=666829694
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
