@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.washingtonpost.com/blogs/the-fix/post/rick-santorums-beat-obama-problem/2012/01/05/gIQAoXMQdP_blog.html#comments
+
+
+[filters]
+http://bunsen.wapolabs.com/revplat/prod/1.4.5/js/revplat.jq.full.js
+http://bunsen.wapolabs.com/revplat/prod/1.4.5/js/revplat.wp-config.js
+
+
+
+[other]
+blocking wapolabs.com stop the comments from loading, avoid blocking.
+
+
+[comments]
+fanboy
