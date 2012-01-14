@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://killerdirectory.com/computers/computer-consumables/stinky-ink-shop/details.html
+
+
+[filters]
+http://www.killerdirectory.com/images/stories/125x125ad.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
