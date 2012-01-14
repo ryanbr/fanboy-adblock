@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://en.kioskea.net/news/20586-lens-makers-focus-on-smartphone-cameras
+
+
+[filters]
+http://ba.ccm2.net/0/default/empty.gif
+http://ba.ccm2.net/4/en_kioskea_hightech/news/1600934311@Top,Right,Position1,Position2,Position3,Position4,x01,x02,TopLeft?keyword=internet
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
