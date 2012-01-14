@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.starboxoffice.com/timepass/index.html
+
+
+[filters]
+http://www.starboxoffice.com/include/zedo_pop.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
