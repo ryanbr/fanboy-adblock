@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.economist.com/blogs/americasview/2011/12/return-general-noriega
+
+
+[filters]
+http://www.economist.com/sites/all/modules/ec_opinionlab/js/oo_conf.js
+http://www.economist.com/sites/all/modules/ec_opinionlab/js/oo_engine.min.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
