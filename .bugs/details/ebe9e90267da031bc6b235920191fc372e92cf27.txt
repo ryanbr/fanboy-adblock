@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://menmedia.co.uk/manchestereveningnews/tv_and_showbiz/s/1470462_celebrity-big-brother-natasha-giggs-up-for-eviction
+
+
+[filters]
+https://services.respondhq.com/FormDelivery/LogImpression?companyID=844&domain=menmedia.co.uk&url=http%3A%2F%2Fmenmedia.co.uk%2Ftv_and_showbiz%2Fs%2F1470462_celebrity-big-brother-natasha-giggs-up-for-eviction&campaignID=410&jsoncallback=jsonp1326469582290
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
