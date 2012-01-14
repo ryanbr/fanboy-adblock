@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kansascity.com/2012/01/13/3369858/royals-caravan-visits-servicemen.html
+
+
+[filters]
+http://media.kansascity.com/images/permanent/ads/house/300x100_Royals_2010.jpg
+http://media.kansascity.com/images/permanent/ads/house/logo-jobStart-widget.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
