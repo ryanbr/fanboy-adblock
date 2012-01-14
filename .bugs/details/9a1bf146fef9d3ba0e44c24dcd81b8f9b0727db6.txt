@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rismedia.com/
+
+
+[filters]
+http://rismedia.com/tracking.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
