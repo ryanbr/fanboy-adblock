@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.roadrecord.co.uk/buying-used/Volkswagen/Passat/id-1dc33CB0
+http://teesside.easyads123.co.uk/
+http://blogs.coventrytelegraph.net/thegeekfiles/
+
+
+[filters]
+http://www.icscotland.co.uk/webstats.js?channel=roadrecord&sector=Motors&ContentCategory=Motors&siteName=scotwheels&rsid=tmr-scotwheels®ion=MGN5
+http://icteesside.icnetwork.co.uk/webstats.js?rsid=tmr-buysell&siteName=easyads_tees&publishingGroup=NE-GMC&jsrc=1&statsSiteName=Adzooks&Region=&contentCategory=Classifieds%20non%20jobs%20homes%20cars
+http://www.coventrytelegraph.net/webstats.js?channel=thegeekfiles&rsid=tmr-blogs&blogtype=TraditionalBlog&ContentCategory=Blogs
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9940
+
+[comments]
+fanboy
