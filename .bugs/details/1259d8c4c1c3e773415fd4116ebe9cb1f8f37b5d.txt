@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.keprtv.com/home/video/Thursday-11-PM-137234668.html?tab=video
+
+
+[filters]
+block:
+http://lp.longtailvideo.com/5/googima/googima.swf
+dont block: (stops the video from playing)
+http://lp.longtailvideo.com/5/googima/googima.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
