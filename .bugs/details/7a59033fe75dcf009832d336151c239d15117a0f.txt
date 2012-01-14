@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://kstp.com/news/stories/S2452767.shtml?cat=1
+
+
+[filters]
+services.datasphere.com/trackingImage.trk?TYPE=IMPRESSION&sk=URI:kstp.com/news/stories/S2452767.shtml%3Fcat%3D1;&d=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
