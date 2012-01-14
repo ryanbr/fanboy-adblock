@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://linkove.com/
+
+
+[filters]
+http://www.luvcom.com/dating/Banners/luvcom-2-2.jpg
+http://www.luvcom.com/exit_exchange_popup/members/jf11.js
+http://cams.com/cgi-bin/public/imc/lang.cgi?type=rm%5Fsr%5Fcam%5Fviewer&site=cams&lang=english
+http://cams.com/crossdomain.xml
+http://cams.com/go/page/cams_iframe_random_vid?pid=g543174
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
