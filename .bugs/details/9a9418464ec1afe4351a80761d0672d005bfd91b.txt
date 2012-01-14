@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.keprtv.com/news/Photos-Top-10-Washington-state-stories-of-2011-137305193.html?tab=gallery&c=y&img=1
+
+
+[filters]
+http://cf.komonews.com/fingallery/ad-label.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
