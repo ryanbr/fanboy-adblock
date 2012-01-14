@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.outlookindia.com/article.aspx?279466
+
+
+[filters]
+http://www.outlookindia.com/addlogdetails.aspx?siteid=1&ldtype=100&ldtypevalue=279466&ldcounttype=1
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9950
+
+
+[comments]
+fanboy
