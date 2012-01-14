@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://experian.experiandirect.com/credit/Order1.aspx?areaid=22&pkgid=F2MHZ&SiteVersionID=1003&SiteID=100345&sc=675834&bcd=CRTR07t-HM-hmp-mq-xxxx-xx-xx-xxxxxxxx-xx-xxxx
+
+
+[filters]
+https://experian.experiandirect.com/javascripts/tracking.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9961
+
+
+[comments]
+fanboy
