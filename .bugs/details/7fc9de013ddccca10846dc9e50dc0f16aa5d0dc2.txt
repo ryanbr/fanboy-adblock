@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ktar.com/6/1487729/Paramedics-looking-into-sick-students-at-a-Tempe-elementary
+
+
+[filters]
+http://ktar.com/templates/ad.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
