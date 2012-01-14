@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.keprtv.com/home/video/Thursday-11-PM-137234668.html?tab=video
+
+
+[filters]
+http://lp.longtailvideo.com/5/gapro/gapro.js
+
+
+
+
+[other]
+removing:
+||longtailvideo.com^*/gapro-
+||longtailvideo.com^*/gapro.js
+@@||longtailvideo.com^*/gapro-1.js$domain=complex.com|kqed.org|complexmedianetwork.com|motherless.com
+@@||longtailvideo.com^*/gapro-2.js$domain=movieline.com|mrpaparazzi.com
+
+[comments]
+fanboy
