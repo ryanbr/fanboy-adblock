@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.absoluteradio.co.uk/onair/mixtape/index.html
+
+
+[filters]
+http://www.absoluteradio.co.uk/_js2/oas.php?site=www&page=onair%2Fmixtape&positions=Top%2CRight%2CFrame1&_=ff7ab70892fb599bc467403b0f6dd4a2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
