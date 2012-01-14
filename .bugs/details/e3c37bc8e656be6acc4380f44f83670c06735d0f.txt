@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://connect.in.com/common/ttr.php?track_prid=395456&track_catid=22
+
+
+[filters]
+http://connect.in.com/common/ttr.php?track_prid=395456&track_catid=22
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
