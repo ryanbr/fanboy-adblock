@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.oxfordjournals.org/for_librarians/
+
+
+[filters]
+http://www.oxfordjournals.org/resource/js/oup_ad_size.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
