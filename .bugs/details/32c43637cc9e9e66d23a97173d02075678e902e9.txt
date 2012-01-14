@@ -2,11 +2,12 @@
 # are not displayed by a call to 'details'
 #
 [Website]
-# If this applys to other websites, or other previous commits
+http://laineygossip.com/Articles/Details/22351/Madonna-to-present-at-the-Golden-Globes-like-Angelina-Jolie
 
 
 [filters]
-# Copy your Adblock filters here
+http://cdn.mediative.ca/a/mediative/muniversal_async.js
+http://cdn.mediative.ca/a/mediative/sites/laineygossip.js
 
 
 
@@ -16,4 +17,4 @@
 
 
 [comments]
-# Leave your username
+fanboy
