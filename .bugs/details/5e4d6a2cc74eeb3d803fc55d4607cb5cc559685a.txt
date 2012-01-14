@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://movie.webindia123.com/movie/asp/upcoming.asp?cat_id=2
+
+
+[filters]
+http://ads.webindia123.com/fr_vertical.asp?id=11%3A23%3A01+PM
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
