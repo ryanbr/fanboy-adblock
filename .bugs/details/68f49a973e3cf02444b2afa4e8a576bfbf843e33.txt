@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://starplus.startv.in/survivor-india/uncut-video.aspx?Page=1&videoid=78691&cnt=4&epno=0
+
+
+[filters]
+http://www.indya.com/hp_include/starplus_home_zedo.js
+http://d8.zedo.com/swf/d8/fa.swf?n=899&c=160/141&s=20&d=27&w=704&h=400
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
