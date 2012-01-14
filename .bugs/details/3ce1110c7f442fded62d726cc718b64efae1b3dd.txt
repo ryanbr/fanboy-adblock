@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.laterooms.com/en/hotel-reservations/170101_regal-kowloon-kowloon.aspx
+
+
+[filters]
+http://www.laterooms.com/Script/PageTrack.js?ver=1401201200-1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
