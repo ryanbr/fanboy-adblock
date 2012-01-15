@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fastbooking.com/
+
+
+[filters]
+http://213.198.65.231/00000001/032/TRACKING/tracking.phtml?Hotelnames=ZZTRACK_HUDSON&origin=Dist-FBCom
+http://217.72.251.203/00000001/032/TRACKING/tracking.phtml?Hotelnames=ZZTRACK_THAMES&origin=Dist-FBCom
+http://81.25.194.32/00000001/032/TRACKING/tracking.phtml?Hotelnames=ZZTRACK_SEINE&origin=Dist-FBCom
+http://www.fastbooking.com/js/tracknat.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
