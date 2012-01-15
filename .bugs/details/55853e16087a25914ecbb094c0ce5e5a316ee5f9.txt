@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.quickbeds.com/
+
+
+[filters]
+http://advancedtracker.appspot.com/msTracker.js?id=MyzFXGtyyDwWGvIgdwaGaGQJRDtKkPoB
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
