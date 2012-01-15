@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ricksblog.com/
+
+
+[filters]
+http://thecloudcity.com/clients/rs/adunits/ileaderboard.php
+http://thecloudcity.com/clients/rs/adunits/inon-vert-bnr.php
+http://thecloudcity.com/clients/rs/adunits/ivertical-banner.php
+http://thecloudcity.com/clients/rs/adunits/iwide-skyscraper.php
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
