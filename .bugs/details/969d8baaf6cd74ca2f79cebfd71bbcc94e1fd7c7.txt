@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.xomreviews.com/jetsetters.com
+
+
+[filters]
+http://www.xomreviews.com/Sponsors/images/Wii_Banner.jpg
+http://www.xomreviews.com/Sponsors/images/ing/ING-17383801S1.jpg
+http://www.xomreviews.com/Sponsors/images/tfm/the_franchise_mall.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
