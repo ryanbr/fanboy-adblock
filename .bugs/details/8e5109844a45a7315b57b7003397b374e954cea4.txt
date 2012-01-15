@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.greatwebsiteguide.com/reference/dealmix.asp
+
+
+[filters]
+http://cdn.track.webgains.com/link.html?wglinkid=40666&wgcampaignid=38525&js=0
+http://track.webgains.com/link.html?wglinkid=40666&wgcampaignid=38525&js=0
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
