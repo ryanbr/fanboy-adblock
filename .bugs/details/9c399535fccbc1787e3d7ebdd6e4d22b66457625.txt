@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.codecguide.com/download_k-lite_codec_pack_mega.htm
+
+
+[filters]
+##a[href^="http://www.uniblue.com/pc/?id="]
+codecguide.com##A[href="http://www.uniblue.com/pc/?id=RBgen&aff=3388&xat=mega"]
+http://www.codecguide.com/stats.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
