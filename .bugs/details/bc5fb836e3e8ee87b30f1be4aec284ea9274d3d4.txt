@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ashlynnbrooke.biz/
+
+
+[filters]
+http://www.cwgads.com/geo/virtua.gif
+http://popit.mediumpimpin.com/try.php?wm=st0ned
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
