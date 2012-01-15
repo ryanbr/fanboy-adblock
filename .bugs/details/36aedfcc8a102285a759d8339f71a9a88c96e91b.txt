@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.indiaglitz.com/channels/hindi/articles.asp
+
+
+[filters]
+http://www.indiaglitz.com/bAds/footerIFrame.asp?rand=87016338
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
