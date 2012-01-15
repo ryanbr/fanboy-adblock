@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sulekha.com/
+
+
+[filters]
+http://hpc2cadv.sulekha.com/sulekha_home/sulekhabanner.aspx?city=bangalore
+http://hpc2cadv.sulekha.com/sulekha_home/sulekhabanner.aspx?city=~location
+http://hpc2cadv.sulekha.com/sulekha_home/sulekhabanner.aspx?iframehelperurl=http://www.sulekha.com/india/html/bannerhelper.html&city=bangalore&refresh=1
+http://hpc2cadv.sulekha.com/sulekha_home/sulekhabanner.aspx?iframehelperurl=http://www.sulekha.com/india/html/bannerhelper.html&city=bangalore&refresh=2
+http://www.sulekha.com/india/html/bannerhelper.html?height=524&rnd=0.8265457270246853
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
