@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.typetester.org/
+
+
+[filters]
+http://track.conversionly.com/track_accept.php?params=%7B%22identification%22%3A%22CLY-5-9%22%2C%22url%22%3A%22%22%2C%22protocol%22%3A%22http%22%2C%22host%22%3A%22www.typetester.org%22%2C%22script%22%3A%22%2F%22%2C%22title%22%3A%22Typetester%20%E2%80%93%20Compare%20fonts%20for%20the%20screen%22%2C%22user_agent%22%3A%22Mozilla%2F5.0%20(Windows%20NT%206.1%3B%20WOW64%3B%20rv%3A9.0.1)%20Gecko%2F20100101%20Firefox%2F9.0.1%22%2C%22referrer%22%3A%22%22%2C%22resolution%22%3A%221440x900%22%2C%22os_raw%22%3A%22Windows%20NT%206.1%3B%20WOW64%3B%20rv%3A9.0.1%22%2C%22timing%22%3A%5B1326655484966%2C0%2C0%2C0%2C0%2C1326655484969%2C1326655484966%2C1326655485072%2C1326655485072%2C1326655485159%2Cnull%2C1326655485160%2C1326655485535%2C1326655485713%2C1326655485536%2C1326655486183%2C1326655486253%2C1326655486414%2C0%2C0%2C0%5D%2C%22flash_version%22%3A%2211%22%2C%22window_size%22%3A%221440x457%22%2C%22cly%22%3A%5B%5B%22account%22%2C%22CLY-5-9%22%5D%5D%2C%22jsid%22%3A%22zjDunYThAMXD0kGMupBlNOC2UFzNUYl1%22%7D
+
+http://track.conversionly.com/track.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
