@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.which.co.uk/consumer-rights/sale-of-goods/your-rights-when-paying-by-credit-card/chargeback-on-credit-and-debit-cards/
+
+
+[filters]
+http://www.staticwhich.co.uk/assets/13/scripts/summit/track.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
