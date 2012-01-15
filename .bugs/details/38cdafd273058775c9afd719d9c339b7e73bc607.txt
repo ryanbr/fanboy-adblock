@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.localdatabase.com/kansas/Wichita/
+
+
+[filters]
+http://pl.yext.com/plpixel?pid=njwkeh234rjkhzx&ids=176267,250579,254208,261551&source=serp&action=impression
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
