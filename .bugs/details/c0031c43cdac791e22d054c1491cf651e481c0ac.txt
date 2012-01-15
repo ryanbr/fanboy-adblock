@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vrbo.com/168916
+
+
+[filters]
+http://www.vrbo.com/ListingPage.mvc/HitCounter/168916
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
