@@ -1,0 +1,29 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.splendia.com/
+
+
+[filters]
+http://dc1w79.wysistat.com/images/splendia/compteur.php?nom=splendia&tps=353&ecran=1920&origine=&origine_force=&frame=PV&ParaWysistat=0&CompteurExtranet=0&ParaPage=0&ParaProfiling=0&ParaCompte=0&ParaRoi=HomePage&ojd_version=2&cookie=1&deja_cookie=0&version=3&id=0.3040213777586369_1326621815460&id_int=0.3040213777586369_1326621815460&compteur_mois=1&compteur_jour=1&deja_id=0&vu_diff_jour=0&vu_time_prec=1326621815&page_js=http%3A//www.splendia.com/
+http://e.emailretargeting.com/adhoc/emailretargeting/emretguid/-/978214887
+http://emailretargeting.com/etws/readcookie.php
+http://eulerian.splendia.com/collector/-/102368871?ss=1920x1080&sd=24&fra=0&fl=11.1%20r102&url=http%3A//www.splendia.com/&
+http://eulerian.splendia.com/ea.js
+http://eulerian.splendia.com/event/-/764058148?type=ev&name=hit/home/openings/42337&url=http%3A//www.splendia.com/&
+http://eulerian.splendia.com/event/splendia/1155760601?type=ev&name=hit/home/header/theme-luxury-41846&url=http%3A//www.splendia.com/&
+http://eulerian.splendia.com/event/splendia/1389124224?type=ev&name=hit/home/header/theme-privatesales-slide&url=http%3A//www.splendia.com/&
+http://eulerian.splendia.com/event/splendia/29140753?type=ev&name=hit/home/header/theme-theclub-slide&url=http%3A//www.splendia.com/&
+http://eulerian.splendia.com/event/splendia/4448694?type=ev&name=hit/home/openings/weekend&url=http%3A//www.splendia.com/&
+http://eulerian.splendia.com/tp_tedemis.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
