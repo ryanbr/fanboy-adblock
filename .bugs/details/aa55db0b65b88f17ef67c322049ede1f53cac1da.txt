@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dailyglow.com/the-beauty-benefits-of-exercise.html
+
+
+[filters]
+https://images.agoramedia.com/common/icon_adchoice.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
