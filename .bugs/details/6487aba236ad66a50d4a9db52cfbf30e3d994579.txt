@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.inforum.in/
+
+
+[filters]
+http://www.rating.in/service/?bid=57&sid=6259&seek=0.3040554057757857&ref=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D6%26t%3D10009&page=http%3A//www.inforum.in/&cookie=y&java=y&res=1920x1080&e=a&colors=24
+http://www.rating.in/service/bannersA/banner57.png
+http://www.rating.in/service/circlecode.php?sid=6259&bid=57
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
