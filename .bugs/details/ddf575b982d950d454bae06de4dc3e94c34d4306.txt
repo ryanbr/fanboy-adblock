@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hotwire.com/
+
+
+[filters]
+http://vitamine.networldmedia.net/bts/generic14.php?cname=nwmhotwire&cvalue=home
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
