@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.shopwiki.com/Panasonic-TC-PVT30-1080p-plasma-tv
+
+[filters]
+http://www.shopwiki.com/visit_pixel?analytics_page_key=457210678&analytics_vid=1326517953zvbsx0lsskh7hssvjrctgk
+http://www.shopwiki.co.uk/visit_pixel?analytics_page_key=99453276&analytics_vid=1326523242zn1fhittggfd9q8mo9pwtg
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9972
+
+
+[comments]
+fanboy
