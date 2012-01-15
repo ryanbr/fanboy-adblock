@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rense.com/
+
+
+[filters]
+http://www.rense.com/bookads.js
+http://www.rense.com/bookads2.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
