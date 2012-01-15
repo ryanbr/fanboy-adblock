@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nationmultimedia.com/politics/Academic-group-pushes-for-tougher-lese-majeste-law-30173697.html
+
+[filters]
+http://www.nationmobi.com/2010/analyse.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
