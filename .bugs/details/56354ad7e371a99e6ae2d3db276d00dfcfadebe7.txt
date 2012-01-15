@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.waynemadsenreport.com/
+
+
+[filters]
+http://www.web-stat.net/map_cumul_public.pl?user=wmrdc&code=a2vCnWjplToGs&width=400&base_color=144600&show_key=yes
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
