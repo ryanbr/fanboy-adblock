@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://deals.trip.travelscream.com/a3228157722.htm
+
+
+[filters]
+http://d.yimg.com/mi/ywa.js
+
+
+
+
+[other]
+whitelist.
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=9990
+
+
+[comments]
+fanboy
