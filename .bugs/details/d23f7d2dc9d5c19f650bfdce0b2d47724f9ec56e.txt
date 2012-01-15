@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://explore.live.com/code-of-conduct
+
+
+[filters]
+http://explore.live.com/handlers/Watson.mvc?xid=b096fd76-420f-4b10-80e9-ba1bd0822b0e&rid=0012b04b853&di=15501&pn=/code-of-conduct&mmn=CO1xxxxxxxxBP10&ec=54&msg=$f&sr=100
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=9969
+
+
+[comments]
+fanboy
