@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.travelzoo.com/hotels/los-angeles/
+
+
+[filters]
+http://data.travelzoo.com/PageHit.ashx?id=214&rnd=0.6398408969586743
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
