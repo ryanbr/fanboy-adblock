@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://windowsteamblog.com/windows_live/b/windowslive/archive/2010/09/23/connecting-like-professionals-windows-live-and-linkedin.aspx
+
+
+[filters]
+http://windowsteamblog.com/analytics.ashx?a=1&g=22&ip=24.228.8.171&postid=550301&requrl=%2fwindows_live%2fb%2fwindowslive%2farchive%2f2010%2f09%2f23%2fconnecting-like-professionals-windows-live-and-linkedin.aspx&secid=5382&session=93385f47-466e-49ff-ae97-909e4c3176bd&tid=432805&ts=634620774550847983&ua=Mozilla%2f5.0+(Windows+NT+6.1%3b+WOW64%3b+rv%3a9.0.1)+Gecko%2f20100101+Firefox%2f9.0.1+slurp&uid=57c1fc5c-7179-4455-b79d-7ae54213dbd8&
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
