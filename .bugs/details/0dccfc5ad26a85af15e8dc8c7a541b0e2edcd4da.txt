@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.squarespace.com/
+
+
+[filters]
+http://www.squarespace.com/process/trackerGif?landing=&refer=&lang=en-us&screen=1440x900&rk=23783388&event=landing
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
