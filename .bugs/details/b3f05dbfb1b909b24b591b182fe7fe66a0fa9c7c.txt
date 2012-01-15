@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.livingthecountrylife.com/
+
+
+[filters]
+http://livingthecountrylife.verticalsearchworks.com/ERA/era_rl.aspx
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
