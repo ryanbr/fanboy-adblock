@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.midwestliving.com/travel/interest/weekend-getaways/winter-escapes/
+
+
+[filters]
+http://www.midwestliving.com/mwl/templates/slideshow/core/googleAdDisplayFrame.jsp?i=
+
+
+fp:
+http://cdn.gigya.com/JS/socialize.js?apikey=2_YRP1_aBGB_S1CeBaXPTcDwrAAtysOj8hu8ZlPx7KN00KcXiB4SJ9M2UgTBNP77lw
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
