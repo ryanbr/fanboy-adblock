@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://adulttube.adult-collections.com/
+
+
+[filters]
+http://www.wildhookups.com/newgeo/?wm_login=indexu&s=adultloveline&app=y&geo=y&view=profile&tg=new&r=5&c=1&sz=medium&sy=PG&nm=y@@000000&ag=y@@000000&ct=y@@000000&ib=1@@FFCC66&bbg=FFFFFF&clf=verdana@@small&clbr=1@@FFCC66&bgtp=F3F3F3&bgbt=F3F3F3&bgcl=F3F3F3
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
