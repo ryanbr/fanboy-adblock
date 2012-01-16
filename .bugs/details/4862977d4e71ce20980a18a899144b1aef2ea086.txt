@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.intel.com/content/www/us/en/homepage.html
+
+
+[filters]
+http://www.intel.com/sites/wap/global/wap.js
+
+
+[other]
+
+
+[comments]
+nitrox
