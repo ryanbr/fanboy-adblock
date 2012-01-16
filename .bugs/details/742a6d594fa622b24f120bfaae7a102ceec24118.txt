@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ixbtlabs.com/
+
+
+[filters]
+http://widget.aseadnet.com/js/aseadnetwidget.js
+
+[other]
+
+
+[comments]
+nitrox
