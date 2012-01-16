@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://answers.encyclopedia.com/
+
+
+[filters]
+http://answers.encyclopedia.com/qanda.axd/quantcastjs/1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
