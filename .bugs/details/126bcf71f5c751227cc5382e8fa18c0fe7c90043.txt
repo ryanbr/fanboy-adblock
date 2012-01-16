@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.genealogy-search-help.com/
+
+
+[filters]
+http://www.tqlkg.net/image-2376305-10469563
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
