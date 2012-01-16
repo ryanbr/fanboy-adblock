@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.askpedia.com/q/3C3C7/why_dont_my_tool_bar_have_the_edit_key_on_it_
+
+
+[filters]
+http://www.askpedia.com/js/supercookie.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
