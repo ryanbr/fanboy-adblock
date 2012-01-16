@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.naturalnews.com/034647_TSA_theft_luggage.html
+
+
+[filters]
+http://premium.naturalnews.tv/wsindex.asp
+http://www.naturalnews.com/NNAnalytics/JS/NNAnalytics.js
+http://www.naturalnews.com/NNAnalytics/Pages/NNAjax.asp?title=TSA%20agents%20steal%20%2440%2C000%20from%20passenger%20luggage%3B%20sentenced%20to%20only%20five%20months%20in%20prison&author=%20Jonathan%20Benson&articleid=034647&url=http%3A%2F%2Fwww.naturalnews.com%2F034647_TSA_theft_luggage.html
+http://www.naturalnews.com/NNAnalytics/Pages/RTDAjax.asp?id=034647&url=http%3A%2F%2Fwww.reddit.com%2F
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
