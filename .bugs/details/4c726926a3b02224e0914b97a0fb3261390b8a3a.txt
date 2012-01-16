@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.linuxliveusb.com/
+
+
+[filters]
+http://www.linuxliveusb.com/images/stories/social/icon32/social_delicious_box_32.png
+http://www.linuxliveusb.com/images/stories/social/icon32/social_digg_box_blue_32.png
+http://www.linuxliveusb.com/images/stories/social/icon32/social_facebook_box_blue_32.png
+http://www.linuxliveusb.com/images/stories/social/icon32/social_reddit_box_32.png
+http://www.linuxliveusb.com/images/stories/social/icon32/social_stumbleupon_box_white_32.png
+http://www.linuxliveusb.com/images/stories/social/icon32/social_technorati_box_white_32.png
+http://www.linuxliveusb.com/images/stories/social/icon32/social_twitter_box_white_32.png
+http://www.linuxliveusb.com/images/stories/social/icon32/social_windows_box_32.png
+http://www.linuxliveusb.com/images/yootheme/social_facebook_box_blue_24.png
+http://www.linuxliveusb.com/images/yootheme/social_rss_box_orange_24.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
