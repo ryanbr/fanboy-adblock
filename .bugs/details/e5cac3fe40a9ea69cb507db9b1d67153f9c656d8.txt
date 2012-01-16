@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kompas.com/
+
+
+[filters]
+http://assets.kompas.com/js_kompasads.php?1101111701
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
