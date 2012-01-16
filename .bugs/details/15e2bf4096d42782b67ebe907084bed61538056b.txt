@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.genealogy.org/
+
+
+[filters]
+http://tracking.ancestry.com/infotrack.asp?sourceid=8913&tracktype=REFURL&trackval=&trackrefurl=NO-REFERRER
+http://tracking.ancestry.com/infotrack.asp?sourceid=8913&tracktype=page&trackval=INDEX
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
