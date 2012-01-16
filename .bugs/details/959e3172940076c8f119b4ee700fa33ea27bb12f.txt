@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tmz.com/2012/01/15/ricky-gervais-jodie-foster-video/
+
+
+[filters]
+http://tmz.vo.llnwd.net/o28/assets/images/0106-sponsored-by-dr-pepper.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
