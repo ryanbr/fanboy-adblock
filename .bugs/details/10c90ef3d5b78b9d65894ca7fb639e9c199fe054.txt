@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.boats.com/
+
+
+[filters]
+http://www.boats.com/images/tracking/consumerHomePageFeaturedImpressions.gif?bcid=120262611&bcid=126054031&bcid=118156201&bcid=111501231&bcid=124391831&bcid=120182831&
+
+
+[other]
+
+
+[comments]
+nitrox
