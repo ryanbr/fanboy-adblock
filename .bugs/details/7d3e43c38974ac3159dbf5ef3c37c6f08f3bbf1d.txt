@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.anime-source.com/banzai/modules.php?name=Content&pa=showpage&pid=964
+
+
+[filters]
+http://www.anime-source.com/banzai/skyscraper_tribalfusion.htm
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
