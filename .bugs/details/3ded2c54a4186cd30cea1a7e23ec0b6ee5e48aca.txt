@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thefreelanceforum.com/
+
+
+[filters]
+http://www.sponsoredby.me/ads/js.php?type=banner&align=center&zone=2
+http://www.sponsoredby.me/ads/js.php?type=banner&rows=4&align=center&zone=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
