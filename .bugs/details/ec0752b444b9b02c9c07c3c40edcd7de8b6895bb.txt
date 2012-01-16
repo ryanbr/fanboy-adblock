@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.boatpoint.com.au/
+
+
+[filters]
+http://www.boatpoint.com.au/1x1.gif?v=634623226944367841
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
