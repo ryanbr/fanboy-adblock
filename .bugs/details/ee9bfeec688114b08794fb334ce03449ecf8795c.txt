@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://datube.org/
+
+[filters]
+http://datube.org/ero-advertising_bottom.html
+http://datube.org/ero-advertising_bottom_big.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
