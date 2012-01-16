@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.amd.com/us/Pages/AMDHomePage.aspx
+
+
+[filters]
+http://www.amd.com/us/as/vwo/vwo_1.js
+http://www.amd.com/us/as/vwo/vwo_2.js
+http://www.amd.com/us/as/vwo/vwo_3.js
+
+
+[other]
+
+
+[comments]
+nitrox
