@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cisco.com/
+
+
+[filters]
+http://www.cisco.com/web/fw/j/home.metrics_ut.js?v=ut2.1.20100916.0000
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10071
+
+
+[comments]
+nitrox
