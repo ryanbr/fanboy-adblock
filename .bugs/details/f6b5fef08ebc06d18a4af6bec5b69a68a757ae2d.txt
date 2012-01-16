@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.collegewhores.org/
+
+
+[filters]
+http://scripts.brazzers.com/ads/bz_collegewhores468x250_0424/js/javascript.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
