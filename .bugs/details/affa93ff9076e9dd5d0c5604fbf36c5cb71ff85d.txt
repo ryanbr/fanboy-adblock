@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mmatko.com/
+
+[filters]
+http://www.mmatko.com/images/ad/aa867e3665499b.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
