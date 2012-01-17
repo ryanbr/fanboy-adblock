@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kmart.com/?i_cntr=1326835603094
+
+
+[filters]
+http://nk.shld.net/01132234/js/br-trk-4043.js
+
+[other]
+
+
+[comments]
+nitrox
