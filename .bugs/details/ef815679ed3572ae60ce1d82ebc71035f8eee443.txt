@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.malaysiakini.com/
+
+
+[filters]
+http://www.malaysiakini.com/misc/banners/en/rect-195x150-1.html
+http://www.malaysiakini.com/misc/banners/en_bs1.html
+http://www.malaysiakini.com/misc/banners/en_bs2.html
+http://www.malaysiakini.com/misc/banners/en_bs3.html
+http://www.malaysiakini.com/misc/banners/en_index_ads12.html
+http://www.malaysiakini.com/misc/banners/en_index_inhouse_special1.html
+http://www.malaysiakini.com/misc/banners/en_masthead.html
+
+[other]
+
+
+[comments]
+nitrox
