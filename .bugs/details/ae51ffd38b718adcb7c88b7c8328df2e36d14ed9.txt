@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.staples.com/Dragon-NaturallySpeaking-11-Premium/product_898160#revs_content
+
+
+[filters]
+http://www.staples.com/sbd/img/ad/091220a/footer_catalog_v1_220x90.gif
+http://www.staples.com/sbd/img/ad/110313a/merch11439_250_70_1.gif
+http://www.staples.com/sbd/img/ad/110731a/merch13783_ad700_90_v3.gif
+http://www.staples.com/sbd/img/ad/110814a/merch14264_470_70_free.gif
+http://www.staples.com/sbd/js/omniture/s_code.js
+
+[other]
+
+
+[comments]
+nitrox
