@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ancestry.co.uk/
+
+
+[filters]
+http://c.mfcreative.com/lib/tgn/combo.ashx?10/Lib/TGN/Ancestry/LO/css/en-GB/en-GB.css&10/Lib/TGN/Ancestry/LO/css/autoComplete.css&10/Lib/TGN/Ancestry/LO/css/watermark.css&10/Lib/TGN/Ancestry/LO/css/adContent.css&10/Lib/TGN/Ancestry/LO/css/simpleSearch.css&10/Lib/TGN/Ancestry/LO/css/secondSection.css&10/Lib/TGN/Ancestry/LO/css/linkTbl.css&10/Lib/TGN/Ancestry/LO/css/tollFree.css
+http://c.mfcreative.com/lib/tgn/combo.ashx?10/Lib/TGN/Ancestry/LO/css/en-GB/tabsContent.css&10/Lib/TGN/Ancestry/LO/css/tabs.css&10/Lib/TGN/Ancestry/LO/css/en-GB/recordsMembersSections.css
+http://c.mfcreative.com/lib/tgn/combo.ashx?10/Lib/TGN/Ancestry/LO/scripts/en-GB/en-GB.js&10/Lib/TGN/Ancestry/LO/scripts/jquery.autocomplete.js&10/Lib/TGN/Ancestry/LO/scripts/jquery.updnWatermark.js
+http://c.mfcreative.com/lib/tgn/combo.ashx?10/Lib/TGN/Ancestry/LO/scripts/tabs.js&10/js/V1/MboxExtensions.js
+http://c.mfcreative.com/lib/tgn/combo.ashx?10/Lib/TGN/Util/AjaxManager.js&10/Lib/TGN/Util/ResourceManager.js&10/Lib/TGN/Ancestry/LO/scripts/global.js&10/js/mbox.js
+http://c.mfcreative.com/lib/tgn/combo.ashx?10/css/v1/main.css&10/css/v1/form.css&10/css/v1/buttons.css&10/Lib/TGN/Ancestry/LO/css/grid.css&10/Lib/TGN/Ancestry/LO/css/global.css&10/Lib/TGN/Ancestry/LO/css/showFreeTrial.css
+
+
+[other]
+
+
+[comments]
+nitrox
