@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://imgchili.com/show/4147/4147026_6e3c1eec5c9e5ad84bc5.jpg
+
+
+[filters]
+http://imgchili.com/media/tube/728x90g.jpg
+
+[other]
+
+
+[comments]
+nitrox
