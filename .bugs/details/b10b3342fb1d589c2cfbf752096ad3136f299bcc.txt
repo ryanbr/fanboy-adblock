@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jobstreet.com.my/
+
+
+[filters]
+http://www.jobstreet.com.my/analyticstracking_my.js
+
+[other]
+
+
+[comments]
+nitrox
