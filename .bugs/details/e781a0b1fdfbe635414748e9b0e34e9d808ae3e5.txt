@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.samsclub.com/sams/homepage.jsp
+
+
+[filters]
+http://s7d2.scene7.com/is/image/samsclub/24-7_ADlabel_300x250?wid=345
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10090
+
+
+[comments]
+nitrox
