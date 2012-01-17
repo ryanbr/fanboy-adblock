@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.quill.com/flat-box-facial-tissue/cbs/051263.html?cm_sp=DA.51.1.051263&web_track_id=134824084&position_id=2&promo_code=98998&lcb=3
+
+
+[filters]
+http://www.quill.com/js/Omniture/quill_s_code.js?dts=111208212456
+
+
+[other]
+
+
+[comments]
+nitrox
