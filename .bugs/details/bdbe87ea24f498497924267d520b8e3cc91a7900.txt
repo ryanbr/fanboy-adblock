@@ -1,0 +1,14 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.youtube.com/index
+
+[filters]
+https://ad-g.doubleclick.net/N6762/adi/mkt.ythome_1x1/;sz=1x1;tile=3;klg=en;kt=K;kga=-1;kgg=-1;kcr=us;dc_dedup=1;kmyd=ad_creative_3;ord=5345007857860186
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10102
+
+[comments]
+nitrox
