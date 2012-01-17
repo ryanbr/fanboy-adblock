@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.getheavenly.com/
+
+
+[filters]
+http://z-ecx.images-amazon.com/images/G/01/webstore2/analytics/s_am_code.js
+
+
+[other]
+
+
+[comments]
+nitrox
