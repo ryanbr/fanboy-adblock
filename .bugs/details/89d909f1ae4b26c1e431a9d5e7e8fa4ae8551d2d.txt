@@ -14,6 +14,7 @@ http://stat.sittiad.com/assets/iklan_sitti.png
 http://stat.sittiad.com/delivery/sittiad.b1.js
 http://c.waplog.net/380660.cnt
 http://www.ppcindo.com/show.php?z=44&pl=59133&shape=1&j=1&code=1326840671881&hop=
+http://www.adcron.com/show.js
 
 [other]
 
