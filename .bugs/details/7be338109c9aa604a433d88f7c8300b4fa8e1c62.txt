@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.trainup.com/Human-Resources-Training/Human-Resources-Training.htm
+
+
+[filters]
+http://www.trainup.com/absolutels/vtrack.aspx
+http://www.trainup.com/inc/TUPTracking.js
+
+[other]
+
+[comments]
+nitrox
