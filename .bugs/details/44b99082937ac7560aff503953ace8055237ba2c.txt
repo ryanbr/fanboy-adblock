@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.business-supply.com/
+
+
+[filters]
+http://www.business-supply.com/images/adrotator/Library/1/InkJoy-Rotating-Banner.jpg
+http://www.business-supply.com/images/adrotator/Library/1/Storage-Files-Banner.jpg
+http://www.business-supply.com/images/adrotator/Library/1/carousel_welcome.jpg
+
+
+[other]
+
+
+[comments]
+nitrox
