@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mudah.my/Pahang/for-sale
+
+
+[filters]
+http://www.mudah.my/bannerads.htm?tpl=li&sz=leaderboard&cg=0&region=7&ps=&pe=
+http://www.mudah.my/bannerads.htm?tpl=li&sz=textlink
+
+[other]
+
+
+[comments]
+nitrox
