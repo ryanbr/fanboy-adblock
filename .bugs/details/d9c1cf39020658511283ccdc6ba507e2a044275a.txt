@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ussearch.com/consumer/people-search/names/new+mexico/john/adams.html
+
+
+[filters]
+http://static.ussearch.com/css/commerce/teaser/usDid1302Print-1.2.css
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
