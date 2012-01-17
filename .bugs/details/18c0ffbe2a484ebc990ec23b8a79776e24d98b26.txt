@@ -1,0 +1,33 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nationalbusinessfurniture.com/
+
+
+[filters]
+http://images.nationalbusinessfurniture.com/product/advertising/141x99_GSA.gif
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HH_122111_newproducts.jpg
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HH_122111_spectrum.jpg
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HH_122111_swatch.jpg
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HPC_122211_virtualcatalog.jpg
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HPL_122211_arris.jpg
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HPL_122211_fireking.jpg
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HomeSubBook2.gif
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HomeSubCon.jpg
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HomeSubCon2.gif
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HomeSubDesks2.gif
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HomeSubEco2.gif
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HomeSubFile2.gif
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HomeSubOfStor2.gif
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HomeSubOfTab2.gif
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HomeSubRec2.gif
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HomeSubSALE.gif
+http://images.nationalbusinessfurniture.com/product/advertising/NBF_HomeSubSHIPS.gif
+http://images.nationalbusinessfurniture.com/product/advertising/NCFC53_115X149.jpg
+
+[other]
+
+
+[comments]
+nitrox
