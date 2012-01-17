@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://suryadewa.com/go/superantispyware-pro-v5-0-1118-final-full-key-patch/
+
+
+[filters]
+http://pub.dynamicoxygen.com/script/script.jsp?pid=1&amp;pv=2&amp;val=8182&amp;type=Pop-Under&amp;tid=1
+http://pub.dynamicoxygen.com/script/script.jsp?val=8182&type=ValuePopUp
+
+
+[other]
+
+
+[comments]
+nitrox
