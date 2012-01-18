@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wholeliving.com/136361/our-favorite-salads/@center/144884/healthy-dinners#/132933
+
+
+[filters]
+http://images.wholeliving.com/images/assets/script/wholeliving/s_code.js
+http://cdn.gigya.com/js/socialize.js?apiKey=2_Hltas0bFFw684toncUmrII_Lx2gW2lJapJdBAF_NV9TQKkq8vHB9SLl8lWH1ophu
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
