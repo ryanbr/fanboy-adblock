@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://en.over-blog.com/Comparing_the_prices_of_Breville_bread_makers-1228321774-art341551.html
+
+
+[filters]
+http://pub.wikiodeliv.com/3/en.over-blog.com//homecooking/home/portal/1340858583@x17?a=0&p=1
+http://pub.wikiodeliv.com/4/en.over-blog.com//homecooking/home/portal/1987331553@Left?a=0&p=1
+http://stats.wikio-experts.com:8080/log/index/341551/38631/839/38//http%3A%2F%2Fwww.google.co.nz%2Fsearch%3Fq%3DBreville%2520%25E2%2580%259CCustom%2520Loaf%25E2%2580%259D%2520Bread%2520Maker%26ie%3Dutf-8%26oe%3Dutf-8%26aq%3Dt%26rls%3Dorg.mozilla%3Aen-US%3Aunofficial%26client%3Dfirefox-a
+http://www.les-experts.com/js/public/sw3.logstats.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
