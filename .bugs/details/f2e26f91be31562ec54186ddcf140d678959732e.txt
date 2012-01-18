@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://alatest.co.nz/p/panasonic-sd-257/reviews/104636586/#partner:90008
+
+
+[filters]
+http://ii.alatest.com/alatest.adsense.js?v=9f707f0e31281a9d255a230e871cdea6
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
