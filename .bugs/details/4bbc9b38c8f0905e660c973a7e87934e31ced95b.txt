@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mycity.sulekha.com/beauty-salons_in_new-jersey-area
+
+
+[filters]
+http://partner.googleadservices.com/gampad/google_service.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=10110
+
+
+[comments]
+fanboy
