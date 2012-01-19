@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.linuxliveusb.com/en/news/item/the-new-king
+
+
+[filters]
+http://www.linuxliveusb.com/media/zoo/applications/blog/templates/noble/assets/images/socialbookmarks.png
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10012
+
+
+[comments]
+nitrox
