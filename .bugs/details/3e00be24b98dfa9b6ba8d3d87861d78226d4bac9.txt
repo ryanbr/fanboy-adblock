@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.komputronik.pl/product/138969/Komputery/Laptopy_i_netbooki/Dell_Inspiron_Duo_10_1_HD_niebieski.html
+
+[filters]
+http://ad.yieldlab.net/m?dm_id=200&ext_id=3116316442
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
