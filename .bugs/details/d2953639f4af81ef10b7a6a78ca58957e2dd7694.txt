@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nlm.nih.gov/medlineplus/ency/article/002700.htm
+http://www.nlm.nih.gov/biomedical.html
+
+[filters]
+http://www.nlm.nih.gov/share/scripts/survey.js
+http://www.nlm.nih.gov/medlineplus/images/mplus_en_survey.js
+
+[other]
+
+
+[comments]
+nitrox
