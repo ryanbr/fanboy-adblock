@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kno.com/home
+
+
+[filters]
+https://socialcodedev.com/tracking/pixel_fires.php?app_id=9C37BE84153C11E1A7341231380E4975&app_action_type_id=9C4B6B5A153C11E1A7341231380E4975
+
+
+[other]
+
+
+[comments]
+nitrox
