@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eurweb.com/2012/01/woman-with-two-vaginas/
+
+
+[filters]
+http://cdn.eurweb.com/wp-content/plugins/gosquared-livestats/tracker.js?ver=3.3.1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
