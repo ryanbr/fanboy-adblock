@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.salon.com/2000/06/14/love_7/singleton/
+
+
+[filters]
+http://www.salon.com/content/plugins/salon-ad-controller/ad-utilities.js?ver=3.2.1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
