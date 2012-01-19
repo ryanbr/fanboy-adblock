@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dj.so1vn.vn/s31580/Nonstop-Hay-Nhat-2011-2012-Dj-Phuong-A2-Djso1
+
+
+[filters]
+http://dj.so1vn.vn/js/div-ads.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
