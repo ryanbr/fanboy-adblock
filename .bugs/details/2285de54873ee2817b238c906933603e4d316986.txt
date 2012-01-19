@@ -1,0 +1,35 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.todaykorea.co.kr/news/contents.php?idxno=165123
+
+
+[filters]
+http://ad.openmatch.co.kr/AppCm/contents_match.js.asp?part=todaykorea
+http://ad.pickple.net/assets/js/jquery-1.5.2.min.js
+http://ad.pickple.net/assets/js/jquery.shuffle.js
+http://ad.pickple.net/widget/show/?cid=todaykorea&sid=type15&wid=183
+http://ad.pickple.net/widget/view_crm
+http://ad.pickple.net/widget_skin/todaykorea/type15/css/style.css
+http://ad.pickple.net/widget_skin/todaykorea/type15/img/bgLeft.gif
+http://ad.pickple.net/widget_skin/todaykorea/type15/img/bgRight.gif
+http://op.mmnneo.com/banner.handler.js?cddtc=todayKorea&vtype=L
+http://op.mmnneo.com/banner.handler.js?cddtc=todaykorea_article&vtype=L
+http://op.mmnneo.com/banner.widget.asp?sitehost=www.todaykorea.co.kr&siteurl=%2Fnews%2Fcontents.php%3Fidxno%3D165123&cddtc=todaykorea&svr=MMP&mtc=&dW=240&dH=240&Cnt_in=
+http://op.mmnneo.com/banner.widget.asp?sitehost=www.todaykorea.co.kr&siteurl=%2Fnews%2Fcontents.php%3Fidxno%3D165123&cddtc=todaykorea_article&svr=MMP&mtc=&dW=160&dH=600&Cnt_in=
+http://img.todaykorea.co.kr/img/banner/8_n.gif
+http://img.todaykorea.co.kr/img/banner/her_anigif4_mod.gif
+http://img.todaykorea.co.kr/img/banner/her_anigif5.gif
+http://img.todaykorea.co.kr/img/banner/herb_anigif.gif
+http://img.todaykorea.co.kr/img/banner/osloan.gif
+http://img.todaykorea.co.kr/img/banner/save_power_250x200.jpg
+http://www.todaykorea.co.kr/img/banner/Main_logo2.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
