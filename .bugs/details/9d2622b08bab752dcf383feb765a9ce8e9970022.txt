@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://trap.it/#!traps/id/6c2b971f-3618-49d3-81c5-4bb52be8c20e/articles/64ntwk1zv002q6ID9i4X
+
+
+[filters]
+https://apis.google.com/js/plusone.js?bust=7504
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
