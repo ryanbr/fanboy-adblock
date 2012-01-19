@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.flatworldknowledge.com/
+
+
+[filters]
+http://lcs.apextwo.com/lcs-fwk/stats/lcs_log.gif?i=FWK&c=53ba3360-6382-4527-989b-3ac09934f86f&u=http%3A%2F%2Fwww.flatworldknowledge.com%2F&r=&t=Where%20Students%20Read%20Textbooks%20FREE%20%7C%20Flat%20World%20Knowledge%20%7C%20Flat%20World%20Knowledge&n=1&0.33212264893370835
+http://lcs.apextwo.com/lcs-fwk/stats/lcs_log.js
+
+
+[other]
+
+
+[comments]
+nitrox
