@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.beyonceworld.net/
+
+
+[filters]
+http://www.freeusersonline.com/?action=track&siteurl=http://www.beyonceworld.net
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
