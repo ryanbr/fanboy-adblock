@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mycity.sulekha.com/marquee-cinemas-orchard-10_movie-theatre-showtimes-tkts_in_toms-river-nj_7927
+
+
+[filters]
+@@||partner.googleadservices.com/gampad/google_service.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=10110
+
+
+[comments]
+fanboy
