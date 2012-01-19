@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://moneymorning.com/
+
+
+[filters]
+http://www.wikinvest.com/plugin/api.php?page_url=http%3A%2F%2Fmoneymorning.com%2F&action=metricpv&partner_name=&uid=1dcd205ab309300a47db700c7afd8aee&format=beacon&timestamp=132697770167619684485790104878
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
