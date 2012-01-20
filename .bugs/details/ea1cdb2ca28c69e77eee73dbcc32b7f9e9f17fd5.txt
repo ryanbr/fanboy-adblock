@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://spongebob.nick.com/cartoon-creator
+
+
+[filters]
+http://spongebob.nick.com/js/coda/nick/adRefresh.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
