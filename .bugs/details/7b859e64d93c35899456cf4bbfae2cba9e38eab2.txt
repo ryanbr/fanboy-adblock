@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.comodo.com/
+
+
+[filters]
+https://www.comodo.com/images/pixel.track?key5sk1=049860jerogj0549gj0ejrg045j9g045=&key5sk3=934876934769384634&key6sk1=&key6sk2=dsg34g34g34g=7&key6sk4=en-us&key6sk5=CA&key6sk6=0&key6sk7=https%253A%252F%252Fwww.comodo.com%252F&key6sk8=111102&key6sk9=16001200&key6sk10=true&key6sk11=525a02d6db2d9cff8bc6c6b6bfcd34cfe7f323e6&key7sk1=72&key1sk1=dt&key1sk2=https%253A%252F%252Fwww.comodo.com%252F
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10167
+
+[comments]
+nitrox
