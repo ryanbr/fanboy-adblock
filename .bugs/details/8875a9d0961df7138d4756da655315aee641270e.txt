@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ecs.com.tw/ECSWebSite/Index.aspx?MenuID=0&LanID=9
+
+
+[filters]
+http://s1.twcount.com/s.aspx?id=13404013&refe=&location=http%3A//www.ecs.com.tw/ECSWebSite/Index.aspx%3FMenuID%3D0%26LanID%3D9&color=24x&resolution=1440x900&returning=0&language=undefined&ua=Mozilla/5.0%20%28Windows%20NT%206.1%3B%20WOW64%3B%20rv%3A9.0.1%29%20Gecko/20100101%20Firefox/9.0.1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
