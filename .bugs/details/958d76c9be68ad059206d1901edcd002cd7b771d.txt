@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.jet2.com/
+
+
+[filters]
+https://www.jet2.com/Assets/Js/mv_new_visitor.js
+https://www.jet2.com/assets/js/google_stats.js
+
+
+[other]
+
+
+[comments]
+nitrox
