@@ -10,6 +10,7 @@ http://www.moneysupermarket.com/travel-insurance/scripts/thirdparty/optimostBody
 http://www.moneysupermarket.com/travel-insurance/scripts/thirdparty/optimostBody2.js
 http://www.moneysupermarket.com/travel-insurance/scripts/thirdparty/optimostHeader1.js
 http://www.moneysupermarket.com/travel-insurance/scripts/thirdparty/optimostHeader2.js
+http://www.moneysupermarket.com/travel-insurance/scripts/thirdparty/ProphetInsert.js
 
 [other]
 
