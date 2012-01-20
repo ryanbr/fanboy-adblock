@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://awkwardfamilyphotos.com/
+
+
+[filters]
+http://awkwardfamilyphotos.com/?ad=http://static.fmpub.net/zone/2415
+http://awkwardfamilyphotos.com/?ad=http://static.fmpub.net/zone/2416
+http://awkwardfamilyphotos.com/?ad=http://static.fmpub.net/zone/2417
+http://awkwardfamilyphotos.com/?ad=http://static.fmpub.net/zone/2972
+http://awkwardfamilyphotos.com/?ad=http://static.fmpub.net/zone/2973
+http://awkwardfamilyphotos.com/?ad=http://static.fmpub.net/zone/3990
+
+
+[other]
+
+
+[comments]
+nitrox
