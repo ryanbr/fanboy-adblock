@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://seattletimes.nwsource.com/flatpages/services/coupons.html?prmid=4752
+
+
+[filters]
+http://bc.coupons.com/
+http://bc.coupons.com/CouponClick.aspx?fmt=718x940&btyp=3&btheme=3&did=1327038057730&sid=11697&bid=1235780001&chn=&stp=0&mac=0&gtc=1&dmn=seattletimes.nwsource.com/flatpages/services&curl=http://seattletimes.nwsource.com/flatpages/services/coupons.html&frame=false
+http://bc1.coupons.com/ZipCodeHandler.ashx
+http://bcstsupport.coupons.com/UpdateStatus.ashx?typ=1&bannerTyp=3&sid=11697&bid=1235780001&chnl=0&mac=0&msk=H&fmt=718x940&dmn=seattletimes.nwsource.com/flatpages/services&cId=16820076,16626371,16626017,16815059,16775141,16626199,16819037,16626378,16618191,16446079&rand=1327038059116
+http://couponbar.coupons.com/adblob.asp?pzn=15507hu71101235780001&AdSize=160x600
+http://couponbar.coupons.com/adblob.asp?pzn=15507hu71101235780001&AdSize=728x90
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
