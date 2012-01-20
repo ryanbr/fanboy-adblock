@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.blogsdna.com/923/top-20-best-peer-2-peer-p2p-file-sharing-programs-applications-software.htm
+
+[filters]
+http://cdn.blogsdna.com/wp-content/themes/blogsdna2011/images/advertisments.png
+
+
+[other]
+
+
+[comments]
+nitrox
