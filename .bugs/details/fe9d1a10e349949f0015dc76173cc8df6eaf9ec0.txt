@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.airberlin.com/prepage.php
+
+
+[filters]
+http://t13.intelliad.de/ia2.js
+http://t13.intelliad.de/ia2.js?_=1327049946503
+http://t23.intelliad.de/click.php?rand=8409414289626&cl=5353136313236323131303&bmcl=8353835313236323131303&bm=13&sbm=1&bk=Type%20In&cp=100&ag=100&crid=100
+
+
+[other]
+
+
+[comments]
+nitrox
