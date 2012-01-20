@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://shop.nick.com/
+
+
+[filters]
+https://images-na.ssl-images-amazon.com/images/G/01/webstore/cbop/s_am_code._V00000004_.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10183
+
+
+[comments]
+fanboy
