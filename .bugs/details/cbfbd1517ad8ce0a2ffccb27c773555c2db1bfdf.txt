@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.epictoon.com/
+http://www.pureandhealthy.com/resveratrol
+
+[filters]
+http://tracker.seoboost.net/track.js
+
+
+[other]
+
+
+[comments]
+nitrox
