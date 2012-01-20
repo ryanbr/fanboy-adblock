@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.f-secure.com/virus-info/hoax/
+
+
+[filters]
+https://www.f-secure.com/system/modules/com.fsecure.frontend/resources/wtsdc.js
+
+
+[other]
+
+
+[comments]
+nitrox
