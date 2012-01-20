@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.entrust.net/
+
+
+[filters]
+http://dev.bionicclick.com/bionic/p3/returnjs8.php?test=test&id=7959&querystring=3333b2ad63f808ddb7c7c8fcfe9b9970&apikey=0a547cb5d244bcfb50fbb015d0b49a40&query2=c281415a6c121dcf7f5cdf07d54a78ad&id2=988478&callback=jQuery1620709150747309917_1327052969637&_=1327052995242
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10168
+
+[comments]
+nitrox
