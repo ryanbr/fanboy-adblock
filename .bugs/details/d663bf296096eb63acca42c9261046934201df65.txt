@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://foodsupplements.homestead.com/
+
+
+[filters]
+http://uptpro.homestead.com/~site/Scripts_Track/track.dll?H_H=10666894&H_P=100&H_A=0&H_V=2&H_I=1&H_U=103465&E=33&E=8&E=455&E=566&E=51
+http://www.homestead.com/~site/javascript/site_statistics.ffhtml?RTK=http%3a%2f%2flayout1%2erealtracker%2ecom%2fincludes%2frt%5fs90022%2ejs
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
