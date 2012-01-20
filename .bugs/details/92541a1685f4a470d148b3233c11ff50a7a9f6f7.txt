@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.webspawner.com/
+
+
+[filters]
+http://www.webspawner.com/scripts/pcount.asp?e=webspawner&k=start.now
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
