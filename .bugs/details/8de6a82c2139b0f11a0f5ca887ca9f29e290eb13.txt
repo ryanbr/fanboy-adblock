@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tfl.gov.uk/
+
+[filters]
+http://www.tfl.gov.uk/tfl-global/scripts/stats-config.js
+http://www.tfl.gov.uk/tfl-global/scripts/stats.js
+
+[other]
+
+
+[comments]
+nitrox
