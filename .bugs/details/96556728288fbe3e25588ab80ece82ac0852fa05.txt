@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rhapsody.com/
+
+
+[filters]
+http://r1.lucidcommerce.com/Zepto/?rec=1&url=http%3A%2F%2Fwww.rhapsody.com%2F&resw=1600&resh=1200&h=9&m=24&s=31&cookie=1&urlref=&sid=709818FA948C406C&rand=0.8250030238918407&action_name=Rhapsody%20%3A%3A%20Subscription%20Music%20Service%3A%20Listen%20All%20You%20Want%3A%20Millions%20of%20Songs
+http://r1.lucidcommerce.com/Zepto/?t=j
+
+
+[other]
+
+
+[comments]
+nitrox
