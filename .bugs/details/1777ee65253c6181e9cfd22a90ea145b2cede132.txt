@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bravofly.com/vg1/flights.do
+
+
+[filters]
+http://tracking.sembox.it/index.php?load=conversioni&act=hit&c=1841&pcob=&cobranded=&sezione=S02&bfid=sdgsd547yt-88741-4sdgs-8ea6-3sdgsd4567457457&resolution=1600x1280&h=www.bravofly.com&sembox_source=&sembox_content=&ref=
+http://tracking.sembox.it/js/bravofly.com.js
+
+
+[other]
+
+
+[comments]
+nitrox
