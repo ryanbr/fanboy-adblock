@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nickjr.kids.us/
+
+
+[filters]
+http://www.nick.com/common/images/spacer.gif?tax24_TimeZoneOffset=-300area=homepage&if_nt_Flash=&pageName=index.html&tax25_CookieAccept=N&tax0_SiteID=34&if_nt_URL=http://www.nickjr-kids-us.com/&Site=nickjr-kids-us&if_nt_Browser_Combination=Mozilla/5.0%20%28Windows%20NT%206.1%3B%20WOW64%3B%20rv%3A9.0.1%29%20Gecko/20100101%20Firefox/9.0.1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
