@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.moneysupermarket.com/travel-insurance/
+
+
+[filters]
+http://www.moneysupermarket.com/travel-insurance/scripts/thirdparty/optimostBody1.js
+http://www.moneysupermarket.com/travel-insurance/scripts/thirdparty/optimostBody2.js
+http://www.moneysupermarket.com/travel-insurance/scripts/thirdparty/optimostHeader1.js
+http://www.moneysupermarket.com/travel-insurance/scripts/thirdparty/optimostHeader2.js
+
+[other]
+
+
+[comments]
+nitrox
