@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thenextweb.com/insider/2012/01/20/myth-busted-swizz-beatz-isnt-ceo-of-megaupload-and-isnt-being-investigated/
+
+
+[filters]
+http://thenextweb.com/wp-content/themes/tnw_6/ads/leaderboard.html
+http://thenextweb.com/wp-content/themes/tnw_6/ads/square.html
+
+
+[other]
+
+
+[comments]
+nitrox
