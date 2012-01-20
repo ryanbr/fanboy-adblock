@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://park.popcpv.com/banner.php?username=fulldls
+http://tcm.popcpv.com/tcm2.php?id=fulldls
+
+[other]
+
+
+[comments]
+nitrox
