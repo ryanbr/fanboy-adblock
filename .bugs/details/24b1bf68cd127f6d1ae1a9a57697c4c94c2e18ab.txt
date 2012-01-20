@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zonealarm.com/security/en-us/zonealarm-pc-security-free-firewall.htm
+
+
+[filters]
+https://sc1.checkpoint.com/za/scripts/AutoTracker.js
+
+[other]
+
+
+[comments]
+nitrox
