@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fortinet.com/products/fortigate/5000series.html
+
+
+[filters]
+http://www.pages03.net/WTS/event.jpeg?accesskey=6cc84a44-13225794eb8-2d17c223308675814a3c362bb71726bf&v=1.09&isNewSession=1&type=pageview&isNewVisitor=1&sessionGUID=a35162a2-9a9b-242d-5311-4c03a495bc41&webSyncID=7c832c45-e556-9645-8c57-54593b91c276&url=http%3A%2F%2Fwww.fortinet.com%2Fproducts%2Ffortigate%2F5000series.html&newSiteVisit=1&hostname=www.fortinet.com&pathname=%2Fproducts%2Ffortigate%2F5000series.html&pagename=FortiGate-5000%20Series%20Chassis&newPageVisit=1&eventKey=58500b64-aa75-7416-3a71-7c3c8cd212eb
+http://content.mkt931.com/lp/static/js/iMAWebCookie.js?6cc84a44-13225794eb8-2d17c223308675814a3c362bb71726bf&h=www.pages03.net
+
+
+[other]
+
+
+[comments]
+nitrox
