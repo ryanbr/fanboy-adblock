@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.travelsupermarket.com/c/cheap-flights/spain/malaga/
+
+
+[filters]
+http://www.travelsupermarket.com/framework/js/eCustomerSurvey.js
+
+
+[other]
+
+
+[comments]
+nitrox
