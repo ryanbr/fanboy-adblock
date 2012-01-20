@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://home.disney.com.au/
+
+
+[filters]
+http://home.disney.com.au/global/swf/banner728x90.swf
+
+
+
+
+[other]
+Needs to load first
+
+
+[comments]
+fanboy
