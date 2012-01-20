@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.baocalitoday.com/index.php?option=com_content&view=article&id=4292:nhng-chi-tit-mi-v-tinh-trng-bnh-ung-th-ca-c-dan-gc-vit-ti-qun-ht-santa-clara&catid=17:cali-ngay-nay&Itemid=58
+
+
+[filters]
+http://www.baocalitoday.com/images/banners/bich-thuy-agla-banner_300_75.gif
+http://www.baocalitoday.com/images/banners/co-hoi-tuyet-voi_300x75.gif
+http://www.baocalitoday.com/images/banners/md-herb_8_banner-300x75.gif
+http://www.baocalitoday.com/images/banners/milpitas-massge_300x75.gif
+http://www.baocalitoday.com/images/banners/niengiam%20copy.jpg
+http://www.baocalitoday.com/images/banners/ny-life_nghia_300x75.gif
+http://www.baocalitoday.com/images/banners/protandim-300-75_tieu-duong.gif
+http://www.baocalitoday.com/images/banners/tt-spa_banner-300x75.gif
+http://www.baocalitoday.com/images/banners/vtphotography.gif
+
+
+
+
+[other]
+fanboy
+
+
+[comments]
+# Leave your username
