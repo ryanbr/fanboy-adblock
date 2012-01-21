@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hsn.com/
+
+
+[filters]
+http://cnt.hsn.com/Feeds/TSInventory/DisplayJSON?callback=TSBug_v2.Callback&v=203117943
+http://cnt.hsn.com/Feeds/TSInventory/DisplayJSON?callback=TSBug_v2.Callback&v=941975058
+http://cnt.hsn.com/Feeds/TSInventory/DisplayJSON?callback=TSBug_v2.Init&v=797180013
+http://cnt.hsn.com/alerts/Js?abtestid=&abtestval=B&v221
+http://cnt.hsn.com/feeds/Last15Aired/Control/?rnd=0.978467026100299
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
