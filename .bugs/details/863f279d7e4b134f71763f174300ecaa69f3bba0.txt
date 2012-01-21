@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.seabourn.com/main/Main.action
+
+
+[filters]
+https://secure.ifbyphone.com/js/ibp_clickto_referral.js?ver=20120105040630
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10200
+
+
+[comments]
+fanboy
