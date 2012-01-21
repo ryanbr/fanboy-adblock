@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tripadvisor.com/Hotel_Review-g46671-d92485-Reviews-Hilton_Newark_Penn_Station-Newark_New_Jersey.html
+
+
+[filters]
+http://www.tripadvisor.com/uvpages/page_moniker.html?geo=46671&locCount=1&loc1=92485&refer=http%3A%2F%2Fwww.tripadvisor.com%2FHotel_Review-g46671-d92485-Reviews-Hilton_Newark_Penn_Station-Newark_New_Jersey.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
