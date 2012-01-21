@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.americablog.com/2012/01/megaupload-didnt-ruin-economy-wall.html
+
+
+[filters]
+http://www.flickr.com/badge_code_v2.gne?count=1&display=random&size=m&layout=x&source=user_set&user=47965265%40N00&set=%2072157627871468012&context=in%2Fset-72157627871468012%2F
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
