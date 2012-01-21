@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.travelocity.com/Hotels
+
+
+[filters]
+http://dm.travelocity.com/js.ng/site=travelocity&cobrand=TRAVELOCITY&area=hotel&Section=frontdoor&adsize=featdeal&pagepos=1&random=14898904?
+http://dm.travelocity.com/js.ng/site=travelocity&cobrand=TRAVELOCITY&area=hotel&Section=frontdoor&adsize=featdeal&pagepos=2&random=14898904?
+http://dm.travelocity.com/html.ng/site=travelocity&adsize=558x262&cobrand=TRAVELOCITY&area=hotel&Section=frontdoor&tile=14898904&random=649176095?
+http://dm.travelocity.com/html.ng/site=travelocity&adsize=558x262&cobrand=TRAVELOCITY&area=hotel&Section=frontdoor&tile=14898904&random=649176095?
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
