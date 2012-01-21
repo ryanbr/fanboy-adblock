@@ -1,0 +1,37 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.catania46.net/ct46/blgwp/?p=9565
+
+
+[filters]
+http://www.catania46.net/ct46/immagini/CT46.ico
+http://www.catania46.net/ct46/immagini/asteclick.gif
+http://www.catania46.net/ct46/immagini/betterpoker.gif
+http://www.catania46.net/ct46/immagini/cartucce.gif
+http://www.catania46.net/ct46/immagini/cataniaunafede.jpg
+http://www.catania46.net/ct46/immagini/dietaclub.gif
+http://www.catania46.net/ct46/immagini/factotus.gif
+http://www.catania46.net/ct46/immagini/findomestic.gif
+http://www.catania46.net/ct46/immagini/gazza.gif
+http://www.catania46.net/ct46/immagini/giocodigitale.gif
+http://www.catania46.net/ct46/immagini/kingolotto.gif
+http://www.catania46.net/ct46/immagini/lastminute.GIF
+http://www.catania46.net/ct46/immagini/liotroblogspot.jpg
+http://www.catania46.net/ct46/immagini/lovepedia.GIF
+http://www.catania46.net/ct46/immagini/nencini.gif
+http://www.catania46.net/ct46/immagini/pixmania.gif
+http://www.catania46.net/ct46/immagini/sisal.GIF
+http://www.catania46.net/ct46/immagini/snapfish.JPG
+http://www.catania46.net/ct46/immagini/tuttoct.JPG
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
