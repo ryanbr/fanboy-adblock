@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.animefushigi.com/full-anime-list
+
+
+[filters]
+http://www.animefushigi.com/box/cstar300.html
+http://www.animefushigi.com/box/lij300.html
+http://www.animefushigi.com/box/lij700.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
