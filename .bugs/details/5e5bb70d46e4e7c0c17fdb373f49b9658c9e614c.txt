@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mobileinquirer.com/2011/why-i-now-hate-my-samsung-galaxy-s2/
+
+
+[filters]
+http://api.nrelate.com/fow_wp/0.50.5/nr_load.php?tag=nrelate_flyout&keywords=Why+I+Now+Hate+My+Samsung+Galaxy+S2&domain=www.mobileinquirer.com&url=http%3A%2F%2Fwww.mobileinquirer.com%2F2011%2Fwhy-i-now-hate-my-samsung-galaxy-s2%2F&nr_ad_number=1&nr_div_number=1
+http://www.mobileinquirer.com/wp-content/plugins/nrelate-flyout/admin/common_frontend.min.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
