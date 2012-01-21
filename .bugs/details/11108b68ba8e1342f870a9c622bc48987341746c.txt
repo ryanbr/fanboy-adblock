@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://apps.facebook.com/theguardian/uk/2008/may/25/ukcrime?fb_source=other_multiline&fb_action_types=news.reads&code=AQBulJyd4A298ijBOSjH3o6W5hnRdDtelvoPE1HjFfQElaD3l9ZoXrK4JbtAzjpljxR33msAhXsgKvQ2APRUeg_5iaFqTE9Gq-OsM-89jxbY94KJ3boPrEiN002Xxs-ewvRHVpuoutqUDRvUlBAnKY5jCvA4-ljoL9dkLRjhDXz1qNvXQIyxjyuxzm1fZhqEjJ0#_=_
+
+
+[filters]
+https://gu-pix.appspot.com/px/fb/p/xc9nh?tag=20080524
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
