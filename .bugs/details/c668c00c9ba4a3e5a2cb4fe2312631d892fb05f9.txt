@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://crazywall.net/2012/01/21/your-dream-home-by-the-sea/
+
+
+[filters]
+http://crazywall.net/wp-content/themes/photoland/images/icons/ic_delicious.png
+http://crazywall.net/wp-content/themes/photoland/images/icons/ic_digg.png
+http://crazywall.net/wp-content/themes/photoland/images/icons/ic_facebook.png
+http://crazywall.net/wp-content/themes/photoland/images/icons/ic_reddit.png
+http://crazywall.net/wp-content/themes/photoland/images/icons/ic_rss.png
+http://crazywall.net/wp-content/themes/photoland/images/icons/ic_stumbleupon.png
+http://crazywall.net/wp-content/themes/photoland/images/icons/ic_technorati.png
+http://crazywall.net/wp-content/themes/photoland/images/icons/ic_twitter.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
