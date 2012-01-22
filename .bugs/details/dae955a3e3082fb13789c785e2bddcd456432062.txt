@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cheapflights.ca/airlines/Cubana-Airlines/
+
+
+[filters]
+http://cst-cf.cleananalytics.com/browser.js?eid=CF-e0ef0b17-ddc1-4dec-b38f-bca95a902290&client=cheapflights
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
