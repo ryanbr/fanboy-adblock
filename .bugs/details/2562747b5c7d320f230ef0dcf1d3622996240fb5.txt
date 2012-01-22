@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://livingscoop.com/watch.php?v=MjAzOQ==
+
+
+[filters]
+http://livingscoop.com/vastload.php?v=2039?script=bannerTypeHtml:vastInlineBannerTypeHtml:vastInlineHtml&zones=pre-roll0-0%3D5%7Cauto:bottom1-0%3D15%7Cpost-roll2-0%3D5%7Cauto:bottom3-0%3D15&nz=1&source=&r=R0.0344600104726851&block=1&format=vast&charset=UTF-8
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
