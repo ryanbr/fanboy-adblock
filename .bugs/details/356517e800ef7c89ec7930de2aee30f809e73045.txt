@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.exstasia.com/porno/browse/latest/
+
+
+[filters]
+http://content.datingfactory.com/42/33/928.popup_im.1/content/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
