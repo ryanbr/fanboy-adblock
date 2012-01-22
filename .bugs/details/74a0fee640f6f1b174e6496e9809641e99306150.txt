@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://article.wn.com/view/2012/01/20/US_postpones_antipiracy_bills/
+
+
+[filters]
+http://top.wn.com/count/?id=129468626
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
