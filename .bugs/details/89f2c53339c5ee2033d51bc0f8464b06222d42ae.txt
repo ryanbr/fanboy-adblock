@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.androidpolice.com/2012/01/16/top-android-apps-every-rooted-user-should-know-about-part-5-apps-34-41/
+
+[filters]
+http://cdn.androidpolice.com/wp-content/themes/ap1/images/das/androidstackexchange_125x125.png
+http://cdn.androidpolice.com/wp-content/themes/ap1/images/das/herocraft_maj.swf
+http://cdn.androidpolice.com/wp-content/themes/ap1/images/das/maxthon_125x125.jpg
+http://cdn.androidpolice.com/wp-content/themes/ap1/images/das/megawords_300x100.png
+http://cdn.androidpolice.com/wp-content/themes/ap1/images/das/wirefly-125x125.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
