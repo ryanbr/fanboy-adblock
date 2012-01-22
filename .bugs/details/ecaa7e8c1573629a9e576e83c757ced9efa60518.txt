@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.businessmirror.com.ph/home/global-eye/22231-lawmakers-try-to-keep-anti-piracy-bills-on-track
+
+
+[filters]
+http://www.businessmirror.com.ph/images/karambola-ad.jpg
+http://www.businessmirror.com.ph/images/stories/ads/1-DWIZ%20Karambola%20Ad.jpg
+http://www.businessmirror.com.ph/images/stories/ads/Sandari%20weather%20button.jpg
+http://www.businessmirror.com.ph/images/stories/ads/Valentines%20for%20BM%20online.jpg
+http://www.businessmirror.com.ph/images/stories/ads/canon%20add%20.gif
+http://www.businessmirror.com.ph/images/stories/ads/s%20batulao.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
