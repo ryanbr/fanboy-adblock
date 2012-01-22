@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.flightcentre.co.za/
+
+
+[filters]
+http://s01-delivery.addynamo.net/AdConversion/AdConversion.cfm?strReferURL=http%3A%2F%2Fwww.flightcentre.co.za%2F
+http://static.addynamo.net/ad/js/conversion.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
