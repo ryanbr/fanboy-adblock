@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cinetube.es/peliculas/
+
+
+[filters]
+http://ad.yieldmanager.com/imp?z=0&Z=0x0&s=2087191&y=23&w=800&h=600&t=3
+
+popup
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
