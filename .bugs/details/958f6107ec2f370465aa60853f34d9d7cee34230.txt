@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mobily.hyperinzerce.cz/ip-telefony-skype/
+
+
+[filters]
+fp:
+http://hyperinzerce.cz/x-cz/rek/5903/AWACKX.jpg
+http://hyperinzerce.cz/x-cz/rek/5904/rGS4wN.jpg
+http://hyperinzerce.cz/x-cz/rek/5905/nOulr1.jpg
+ad:
+http://hyperinzerce.cz/images/banner-text-top.png
+http://hyperinzerce.cz/images/banner-text-right.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
