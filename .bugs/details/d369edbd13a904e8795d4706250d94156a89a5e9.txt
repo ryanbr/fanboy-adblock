@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nudeparadisehotel.com/amazing-sexy-emo-exgirlfriends-642549/amazing-sexy-emo-exgirlfriends-642549-00.html
+
+
+[filters]
+http://195.228.74.26/banners/freecamsexposed.com/02.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
