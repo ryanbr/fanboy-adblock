@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://about.me/
+
+
+[filters]
+https://p.typekit.net/p.gif?a=55159&f=173,175,176&ht=tk&k=vfg7kbz&_=1327212237962
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
