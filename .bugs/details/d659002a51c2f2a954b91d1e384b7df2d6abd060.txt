@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://free-sexy-clips.net/hosted/3977/philippines-teens-secretly-recorded.html
+
+
+[filters]
+http://free-sexy-clips.net/pops.js
+http://fucktapes.org/fucktube.htm
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
