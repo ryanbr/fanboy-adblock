@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hawaiianair.com/
+
+
+[filters]
+http://az16944.vo.msecnd.net/jscripts/HA-16.6.0.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
