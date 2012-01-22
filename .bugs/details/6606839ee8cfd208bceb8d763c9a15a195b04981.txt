@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.drsnysvet.cz/sileny-akrobat/
+
+
+[filters]
+http://www.drsnysvet.cz/bannery/fleshlight1.gif
+http://www.drsnysvet.cz/bannery/pink300.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
