@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://topdocumentaryfilms.com/louis-therouxs-african-hunting-holiday/
+
+
+[filters]
+http://cdn.tdfimg.com/go/a1.html
+http://cdn.tdfimg.com/go/a2.html
+http://cdn.tdfimg.com/go/a3.html
+http://cdn.tdfimg.com/go/a4.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
