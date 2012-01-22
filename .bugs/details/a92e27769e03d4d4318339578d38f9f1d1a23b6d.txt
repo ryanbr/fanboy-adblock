@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sporx.com/futbol/superlig/galatasaray/o-artik-sarisin-kazimSXHBQ263370SXQ
+
+
+[filters]
+http://www.sporx.com/_img/banner/nike/sporx_798x99_v2.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
