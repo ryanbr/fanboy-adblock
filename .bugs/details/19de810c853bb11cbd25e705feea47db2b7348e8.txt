@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hotelscombined.com/BrowseByCountry.aspx?languageCode=EN
+
+
+[filters]
+http://www.hotelscombined.com/AffiliateClick.ashx?requestUrl=http%3a%2f%2fwww.hotelscombined.com%2fBrowseByCountry.aspx%3flanguageCode%3dEN&friendlyUrl=&isFramed=false&random=0.2439376085053997
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
