@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aeromexico.com/us/welcome.html
+
+
+[filters]
+https://tracking.worldmedia.net/track/66/3295c
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
