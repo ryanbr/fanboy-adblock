@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://phonerpt.com/sony-ericsson-xperia-phones-now-support-glonass-navigation/
+
+
+[filters]
+
+http://api.nrelate.com/rcw_wp/0.50.3/?tag=nrelate_related&keywords=Sony+Ericsson+Xperia+phones+Now+Support+GLONASS+Navigation&domain=phonerpt.com&url=http%3A%2F%2Fphonerpt.com%2Fsony-ericsson-xperia-phones-now-support-glonass-navigation%2F&nr_div_number=1
+
+
+
+
+[other]
+removed ||nrelate.com^$third-party
+
+
+[comments]
+fanboy
