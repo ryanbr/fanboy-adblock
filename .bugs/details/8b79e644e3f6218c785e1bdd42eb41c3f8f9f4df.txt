@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.411mania.com/wrestling/news/219833/Ken-Shamrock,-Sid-Vicous-and-More-Added-to-WrestleReunion.htm
+
+
+[filters]
+http://connexity.net/c/cse?a=M&F=11&S=6e&N=0-164791e64&K=4b71b869f3ffd
+http://connexity.net/c/cse?a=N&F=11&S=6e&N=0-164791e64&U=e97b3657abf361b2-064a2961b3398f8c-2175fb3ce876855a&T=17&J=http%3A%2F%2Fwww.411mania.com%2Fwrestling%2Fnews%2F219833%2FKen-Shamrock%2C-Sid-Vicous-and-More-Added-to-WrestleReunion.htm&L=undefined
+http://connexity.net/c/cse?a=N&F=11&S=6e&V=a&T=17&J=http%3A%2F%2Fwww.411mania.com%2Fwrestling%2Fnews%2F219833%2FKen-Shamrock%2C-Sid-Vicous-and-More-Added-to-WrestleReunion.htm&L=undefined
+http://connexity.net/c/cse?a=U
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
