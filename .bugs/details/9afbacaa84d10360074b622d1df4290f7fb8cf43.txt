@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.travelnow.com/templates/336616
+
+
+[filters]
+http://www.travelnow.com/templates/336616/static/9/default/js/tracking.js
+
+
+
+
+[other]
+/js/tracking.js test
+
+
+[comments]
+fanboy
