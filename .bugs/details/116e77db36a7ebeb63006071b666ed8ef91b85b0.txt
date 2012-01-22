@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://en.mappy.com/
+
+
+[filters]
+http://ads.horyzon-media.com/call/pubif/14534/107980/6325/S/8781164812/?
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
