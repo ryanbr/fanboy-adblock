@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.linksole.com/jm57az#
+
+
+[filters]
+http://www.linksole.com/RecordClick.aspx?id=f0393ec0&key=d5da5054&ref=http://www.megaupload.com/?d=T253YRH9&cacheBust=58182972
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
