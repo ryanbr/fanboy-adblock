@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.csa.cz/en/portal/homepage/cz_homepage.htm
+
+
+[filters]
+http://www.csa.cz/portal/yahooTracker/_ywa.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
