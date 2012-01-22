@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ph.jobsdb.com/ph
+
+
+[filters]
+http://content.jobsdb.com.ph/Content/v89/Javascript/ga.js?v=1/22/2012
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
