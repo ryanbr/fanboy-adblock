@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.saflights.co.za/airlines/1time.html
+
+
+[filters]
+https://www.dhmtracking.co.za/tracker//track/default.html?st=16&rn=0.7385889698671215&wr=1440x900&fl=11.1%20r102&px=24&title=1Time%20Flights%20%7C%20Onetime%20Flights&vname=&vtag=&overwriteTags=0&charset=ISO-8859-1&cur=http%3A//www.saflights.co.za/airlines/1time.html&ref=&&CheckCookieId=66c0cba68e3e60d9164e293f570812a7
+https://www.dhmtracking.co.za/tracker//track.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
