@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gamestar.de/
+
+
+[filters]
+http://www.gamestar.de/js/gamestar/my_ad_integration.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
