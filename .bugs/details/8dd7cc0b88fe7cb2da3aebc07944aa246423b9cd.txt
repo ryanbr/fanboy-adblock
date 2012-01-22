@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jal.co.jp/en/
+
+[filters]
+http://www.jal.co.jp/common_rn/img/rtam.gif?rtprotocol=http:&rthost=www.jal.co.jp&rtpath=en/&rtrhost=www.jal.com&rtrpath=/&rtflash_version=11.1.102&rttime=Sat%2C%2021%20Jan%202012%2006%3A48%3A51%20GMT&rtrand=0.9222277636266509&jlsession=43.253.37.18.1327128534561441
+http://www.jal.co.jp/common_rn/js/rtam.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
