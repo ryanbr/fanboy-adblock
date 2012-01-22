@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.theomegaproject.org/galleries/2009/6/booty_bumpin_in_the_vip/
+
+
+[filters]
+http://www.theomegaproject.org/adgallery1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
