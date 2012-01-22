@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://amateursexy.net/index2.htm
+
+
+[filters]
+http://amateursexy.net/ads.htm popup
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
