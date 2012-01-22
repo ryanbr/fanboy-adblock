@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.oxe7.com/filmes/dvdrip/10998-abduction-identidade-secreta.html
+
+
+[filters]
+http://www.oxe7.com/templates/newoxe7/js/pub.js
+http://www.oxe7.com/trackimps?iBID=4665
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
