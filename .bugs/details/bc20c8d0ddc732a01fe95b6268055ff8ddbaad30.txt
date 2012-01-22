@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.geeky-gadgets.com/qualcomm-adds-support-for-gps-and-glonass-to-some-chips-2011-12-16/
+
+
+[filters]
+http://odb.outbrain.com/utils/get?url=http%3A%2F%2Fwww.geeky-gadgets.com%2Fqualcomm-adds-support-for-gps-and-glonass-to-some-chips-2011-12-16%2F&srcUrl=http%3A%2F%2Fwww.geeky-gadgets.com%2Ffeed%2F&settings=true&recs=true&widgetJSId=NA&key=AYQHSUWJ8576&idx=0&version=50193&ref=http%3A%2F%2Fwww.google.co.nz%2Fsearch%3Fq%3DGLONASS%26ie%3Dutf-8%26oe%3Dutf-8%26aq%3Dt%26rls%3Dorg.mozilla%3Aen-US%3Aunofficial%26client%3Dfirefox-a&apv=false&refsearch=goo:GLONASS&rand=0.3819078017821277&sig=GL1MBUQx
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
