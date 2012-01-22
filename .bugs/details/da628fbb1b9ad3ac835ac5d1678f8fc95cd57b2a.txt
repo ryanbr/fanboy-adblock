@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thedailystar.net/newDesign/news-details.php?nid=219363
+
+
+[filters]
+http://www.thedailystar.net/newDesign/images/sample-header-add.gif
+
+
+
+
+[other]
+##.addarea
+
+[comments]
+fanboy
