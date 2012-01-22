@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tara-astrologia.com/su-deseo-mas-querido-1.html
+
+
+[filters]
+http://eulerian.astro-way.com/collector/-/500846317?ss=1920x1080&sd=24&fra=0&fl=11.1%20r102&url=http%3A//www.tara-astrologia.com/su-deseo-mas-querido-1.html&
+http://eulerian.astro-way.com/ea.js
+http://nm.eulerian.net/eureca.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
