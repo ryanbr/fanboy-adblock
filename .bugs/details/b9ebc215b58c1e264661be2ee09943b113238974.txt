@@ -1,0 +1,40 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cazzonigay.com/home/warning/?r=/
+
+
+[filters]
+http://assets.sites.spacash.com/css/all_new.css
+http://assets.sites.spacash.com/css/lightbox/lightbox.css
+http://assets.sites.spacash.com/pics/rss_feeds.png
+http://assets.sites.spacash.com/pics/search_menu_ico.gif
+http://assets.sites.spacash.com/sites/dvdstore.com/pics/open_arrow.png
+http://assets.sites.spacash.com/sites/insanecockgays.com/css/color_new.css
+http://assets.sites.spacash.com/sites/insanecockgays.com/favicon.ico
+http://assets.sites.spacash.com/sites/insanecockgays.com/pics/us/443x105_logo.png
+http://assets.sites.spacash.com/sites/js/payment_functions.js
+http://assets.sites.spacash.com/warning18/us/warning-enterhere.gif
+http://assets.sites.spacash.com/warning18/us/warning-not18.gif
+http://assets.sites.spacash.com/warning18/us/warning18.gif
+http://paymentbox.spacash.com/css/payments/paybox_base.css
+http://paymentbox.spacash.com/swf/adsl.swf
+http://paymentbox.spacash.com/swf/bank.swf
+http://paymentbox.spacash.com/swf/creditCard.swf
+http://paymentbox.spacash.com/swf/sms.swf
+
+
+
+
+[other]
+changed too:
+
+||spacash.com/popup/$third-party
+||layers.spacash.com^$third-party
+||banners*.spacash.com^$third-party
+
+Since blocking spacash outright seems bad
+
+[comments]
+fanboy
