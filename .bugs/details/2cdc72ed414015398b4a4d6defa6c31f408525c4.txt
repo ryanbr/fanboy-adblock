@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.southafrica.to/transport/Airlines/1Time-flights/1time-flight-specials.php5
+
+[filters]
+http://www.southafrica.to/HOMEPAGEAdvertRight.html
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
