@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zoomin.tv/site/video.cfm/lang/nl-nl/video/448244/Nederlandse-export-in-de-lift
+
+
+[filters]
+# Copy your Adblock filters here
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
