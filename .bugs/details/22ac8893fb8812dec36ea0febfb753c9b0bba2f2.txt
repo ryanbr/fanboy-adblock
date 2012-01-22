@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.westjet.com/guest/en/home.shtml
+
+[filters]
+http://www.westjet.com/js/webstats.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
