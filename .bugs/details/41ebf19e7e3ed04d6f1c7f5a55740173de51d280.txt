@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zoomin.tv/site/index.cfm/lang/nl-nl
+http://es-es.twitch.tv/doom49
+
+[filters]
+http://cdn.zoomin.tv/video/590x332_HP_IPGPhotosmart_Dic2011_OmnicomMediagroup_zoomin_HP_catchoftheday_241111.flv
+http://blackbird.zoomin.tv/impressions/test.imp?cntry=*&lng=*&pid=*&unk=*&idevt=*&idcom=*
+http://blackbird.zoomin.tv/impressions/test.imp?cntry=*&lng=*&pid=*&unk=*&idevt=*&idcom=*&idcre=*
+http://blackbirdnode1.zoomin.tv/impressions/gallery.imp?cntry=nl&lng=nld&pid=weerenverkeer&idevt=300&videoAmount=2	
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
