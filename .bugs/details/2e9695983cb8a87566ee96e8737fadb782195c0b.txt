@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ver-pelis.net
+
+
+[filters]
+http://www.ver-pelis.net/si/adnet2.htm
+http://www.ver-pelis.net/si/cpx.htm
+http://www.ver-pelis.net/si/harren.htm
+http://www.ver-pelis.net/si/meta.htm
+http://www.ver-pelis.net/si/xtend.htm
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
