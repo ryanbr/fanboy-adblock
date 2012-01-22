@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.flyjazz.ca/en/home/default.aspx
+
+
+[filters]
+http://www.flyjazz.ca/ow_analytics.js
+http://www.flyjazz.ca/ow_ga.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
