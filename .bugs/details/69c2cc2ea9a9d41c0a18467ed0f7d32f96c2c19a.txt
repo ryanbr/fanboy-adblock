@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cruise.co.uk/
+
+
+[filters]
+http://www.cruise.co.uk/includes/js/netizen_track.js
+http://t1.h4k5.com/dcv4/jslib/sid1507_4.003.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
