@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://m.cnbc.com/us_news/46094976/1
+
+[filters]
+http://ads.rnmd.net/js/rnmd_cs.js
+http://oimg.m.cnbc.com/b/ss/nbcucnbcwapbu,nbcuwapsitebu/5/H.8--WAP/832258280?c6=http%3A%2F%2Fm.cnbc.com%2Fus_news%2F46094976%2F1&c7=USA&c8=Cable&c9=CNBC%2520Mobile&sv=m.cnbc.com&c10=US+News&gn=US+News+%7C+News+Headlines&c25=offdeck&c44=D%3DUser-Agent&r=http%3A%2F%2Fwww.reddit.com%2F
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
