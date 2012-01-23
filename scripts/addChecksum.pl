@@ -60,7 +60,7 @@ foreach my $file (@ARGV) {
   if ($checksum eq $oldchecksum)
   {
     $data = ();
-	  exit 0;
+	  next;
   }
 
   # Update the date.
