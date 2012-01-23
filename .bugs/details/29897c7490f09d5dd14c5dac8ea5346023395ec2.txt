@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://spectator.sme.sk/
+
+
+[filters]
+http://services.sme.sk/meranie/genius/xgenius.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
