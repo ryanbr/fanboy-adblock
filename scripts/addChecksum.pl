@@ -59,6 +59,7 @@ foreach my $file (@ARGV) {
   # If the old checksum matches the new one bail.
   if ($checksum eq $oldchecksum)
   {
+    $data = ();
 	  exit 0;
   }
 
@@ -79,6 +80,7 @@ foreach my $file (@ARGV) {
   $data =~ s/(\r?\n)/$1! Checksum: $checksum$1/;
 
   writeFile($file, $data);
+  $data = ();
 }
 
 sub readFile
