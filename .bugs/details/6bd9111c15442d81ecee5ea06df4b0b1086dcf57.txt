@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.heatworld.com/
+
+[filters]
+http://www.heatworld.com/QuantcastAnalyticsModule.swf?qacct=p-f0xn_GS1vdiYU
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
