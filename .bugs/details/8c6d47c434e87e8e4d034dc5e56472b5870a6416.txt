@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.myfuncards.com/dl/index.jhtml?theme=compose&cardID=20077359&printable=false&copyCode=&poweredby=&successurl=http://ecards.myfuncards.com/myfuncards/ComposeCard.jhtml?cardID=20077359&printable=false&mfc_t=swf&mfc_url=http://ak.imgfarm.com/images/fwp/myfuncards/Everyday/lg/cuzAwesome2.swf&partner=
+
+
+[filters]
+http://ak.imgfarm.com/images/anx/anemone-1.2.7.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10296
+
+[comments]
+fanboy
