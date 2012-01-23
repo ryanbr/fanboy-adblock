@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://m.news24.com/wheels24/News/Environmental/Electric-car-sales-losing-spark-20120123
+
+
+[filters]
+http://m.news24.com/wheels24/ga.aspx?utmac=MO-16585951-1&utmn=1954062626&utmr=-&utmp=%2fwheels24%2fNews%2fEnvironmental%2fElectric-car-sales-losing-spark-20120123&guid=ON
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
