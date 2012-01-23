@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wired.com/threatlevel/2012/01/scotus-gps-ruling/
+
+
+[filters]
+http://www.wired.com/images/global_header/ad_text.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
