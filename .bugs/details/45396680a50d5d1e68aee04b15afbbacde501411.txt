@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mycareer.com.au/search/?s=777&sq=pilot
+
+[filters]
+http://mycareer.com.au/ffxd/intermediatoryv2.html?ad=http://ad-apac.doubleclick.net/adj/onl.mycareer/search;pagetype=searchresults;sect=search;tile=7;sz=1x1;ord=71518942?
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10262
