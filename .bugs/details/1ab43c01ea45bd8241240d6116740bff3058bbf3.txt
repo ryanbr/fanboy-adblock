@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tv.vnutri.info/tv-ukrainian/inter
+
+
+[filters]
+http://tv.vnutri.info/468b.html
+http://tv.vnutri.info/rek.html
+
+[other]
+
+
+[comments]
+nitrox
