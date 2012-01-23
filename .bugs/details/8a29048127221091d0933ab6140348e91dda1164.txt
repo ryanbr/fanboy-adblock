@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.realgazeta.com.ua/
+
+[filters]
+http://hit.ukrinternet.com/button.php?u=realgazeta
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
