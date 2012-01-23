@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.slovo.odessa.ua/
+
+
+[filters]
+http://www.whispa.com/tracking/exposure.dll?202596
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
