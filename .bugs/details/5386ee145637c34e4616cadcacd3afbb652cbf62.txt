@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://premier.in.ua/
+
+
+[filters]
+http://relay-ua.ads.httpool.com/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
