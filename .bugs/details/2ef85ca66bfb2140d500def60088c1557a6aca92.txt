@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://arabtimesonline.com/
+
+
+[filters]
+http://arabtimesonline.com/Portals/0/Images/37469-PC-Kuwait-Panamera-Eng-Online-Banner-Arab-Times-780x90-3.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
