@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.naukrigulf.com/ni/nijobsearch/job_search.php?searchtype=fcompany_page&searchloc=hp_fe&compid=5684
+
+
+[filters]
+http://www.naukrigulf.com/ni/nibms/bms_display.php?zonestr=2&regionstr=2&phrase=&location=&farea=&industry=&exp=
+http://www.naukrigulf.com/ni/nibms/bms_logimpressions.php?banlist=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
