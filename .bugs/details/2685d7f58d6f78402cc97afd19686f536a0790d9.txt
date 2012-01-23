@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sumo.goo.ne.jp/eng/
+
+[filters]
+http://ad.goo.ne.jp/js.ng/cat=sumo&contents=sumoen&kind=cleargif&site=sumo&ord=1327291577786
+http://log000.goo.ne.jp/VL/Trace?g=/1&c=1&l=http%3A//www.sumo.or.jp/eng/&t=Nihon%20Sumo%20Kyokai%20Official%20Grand%20Sumo%20Home%20Page&k=true&sf=true&j=false&w=1440&h=900&d=24&o=http%3A&tp=1&lng=en&jt=1327291579538&jd=1327291579540_1
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
