@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://inter.ua/ru/cinema/series/detectives
+
+
+[filters]
+http://source.tns.bemobile.ua/cm/cmeter.js
+http://istat.tns.bemobile.ua/bug/pic.gif?siteid=inter.ua&j=1&0.7351348469446205
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
