@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 7KXyOt6mumDUpBbQb5EKsQ
+! Checksum: S/nBC45syHxj65cXFGhk0Q
 ! Fanboy's Adblock list
 ! Updated: 23 Jan 2012
 ! This list expires after 5 days
@@ -8772,6 +8772,7 @@ ziporn.com##DIV[style="height:250px"]
 ###adSlot01
 ###adSlot02
 ###adSlot2
+###adslot2
 ###adSlot3
 ###adSlug
 ###ADsmallWrapper
@@ -8900,6 +8901,7 @@ ziporn.com##DIV[style="height:250px"]
 ###advert-banner-wrap
 ###advert-block
 ###advert-column
+###advert-container-top
 ###advert-display
 ###advert-footer
 ###advert-footer-hidden
@@ -11115,6 +11117,7 @@ ziporn.com##DIV[style="height:250px"]
 ##.ad_line2
 ##.ad_link
 ##.ad_link_468
+##.ad_link_area
 ##.ad_link_label_vert
 ##.ad_linkunit
 ##.ad_loc
@@ -11193,6 +11196,8 @@ ziporn.com##DIV[style="height:250px"]
 ##.ad_ttl
 ##.ad_unit
 ##.ad_unit_rail
+##.ad_v2
+##.ad_v3
 ##.ad_w_us_a300
 ##.ad_warning
 ##.ad_wide
@@ -13135,6 +13140,7 @@ ziporn.com##DIV[style="height:250px"]
 ##.rightAD
 ##.rightAd
 ##.RightAd1
+##.rightad2
 ##.RightAd2
 ##.rightad250
 ##.rightAd_bottom_fmt
@@ -14889,6 +14895,7 @@ duluthnewstribune.com##.smalltxt
 duoh.com###thedeck
 dvdfile.com###roadblock
 dzineblog.com##td[width="300"]
+eadt.co.uk##div[style="width:134px; margin-bottom:10px;"]
 earthweb.com###gemhover
 earthweb.com###jomfooter
 earthweb.com###partners
@@ -15002,6 +15009,7 @@ euronews.net##.col-pub-skyscraper
 euronews.net##.google-banner
 euronews.net##.top-banner
 europolitics.info##.publicite1
+eveningstar.co.uk##div[style="width:134px; margin-bottom:10px;"]
 everyclick.com##.spon
 everydaydish.tv###advertisement
 everyjoe.com###mgid-widget
@@ -15169,6 +15177,7 @@ free-games.net##.leaderboardholder
 free-wallpaper-download.com##a[href="http://www.thoosje.com/toolbar.html"]
 freecode.com##.banner-imu
 freecode.com##.banner-sky
+freecode.com##.banner1
 freedownloadscenter.com##.button_free_scan
 freegames.1up.com###content_right_side_advertisement_on_top_wrapper
 freegirlgames.org###bannerplay
@@ -15422,6 +15431,7 @@ heart.co.uk###sky1
 helenair.com##DD
 hellokids.com##.pub_topright
 hellokids.com##.white_box.r5
+hellomagazine.com##.backBanner
 help.com###bwp
 helpwithsmoking.com##.hws[width="208"]
 heraldsun.com.au##.module-promo-image-01
@@ -16868,6 +16878,7 @@ publishersweekly.com##.navigation_leaderboard
 publishersweekly.com##div[style="position:absolute;top:39px;left:915px;background-color:#eee;width:88px;height:31px;"]
 publishersweekly.com##div[style="width:160px;height:600px;background-color:#fff;margin-bottom:20px;"]
 publishersweekly.com##div[style="width:336px;height:280px;background-color:#ccc;"]
+punjabnewsline.com##.lefttopad1
 pureoverclock.com###mainbanner
 puretna.com##td[class="colhead"][width="241"]
 pxleyes.com##.blogpostbanner
