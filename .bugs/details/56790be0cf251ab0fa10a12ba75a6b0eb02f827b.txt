@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://premier.in.ua/subcategory-301.aspx
+
+
+[filters]
+http://banner.premier.ua/banners/0B97D10D2A623704BA178BFD435118B4.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
