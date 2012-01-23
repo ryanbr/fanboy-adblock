@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jobstoday.co.uk/cgi-bin/advsearch?front_page_keyword_search=1&location_within=20&fp_skill_include=pizza&location_include=&jobtype=E&location_within=20&search_currency_code=GBP&search_salary_type=A&search_salary_low=ANY
+
+
+[filters]
+http://www.jobstoday.co.uk/trk.gif?display_ref=&rs=ANY%7C&db=7&cca=&scc=JP&loe=&jte=&tt=sr&jta=&cc=JP&low=20&loi=&sa=&cce=&search_type=other&si=pizza&jt=E&cci=&show_desc=Y&jobs_found=13&se=&jti=&sectors=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
