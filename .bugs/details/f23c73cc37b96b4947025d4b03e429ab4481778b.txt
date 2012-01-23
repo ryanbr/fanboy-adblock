@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://imgfarm.com/images/nocache/tr/iwon_bw.gif?t=755&p=http%3A//www.iwon.com/games/puzzles-and-arcade/drip-drop-sudoku.jhtml
+
+
+[filters]
+http://image.imgfarm.com/images/nocache/tr/fw/mfc/error.gif?a=jserror&u=&msg=urchinTracker%20is%20not%20defined&line=320&url=http%3A//www.cardboiled.com/ecards/friendship/thanks-friend/happy-pig-20003973/send.jhtml&t=&p=&i=-1
+
+http://imgfarm.com/images/nocache/tr/gca/m.gif?rand=1848970469&a=ca-iwon-myway-null&c=MW&st=site&k=Life+Insurance&w=10&r=-1&u=http%3A//search.myway.com/search/GGmain.jhtml%3Fpg%3DGGmain%26action%3Dclick%26searchfor%3DLife+Insurance%26tpr%3Dnull30%26st%3Dsite&v=&g=&s=&h=
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
