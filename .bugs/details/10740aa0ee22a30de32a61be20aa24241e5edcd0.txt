@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newscom.com/nc/showMainNCPage.action
+
+
+[filters]
+http://www.newscom.com/js/v2/googletrack.js
+http://www.newscom.com/js/v2/ga.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
