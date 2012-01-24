@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gametrailers.com/
+
+
+[filters]
+http://gametrailers.mtvnimages.com/images/sitewide/AdChoicesIcon.jpg
+http://gametrailers.mtvnimages.com/images/skins/1327097941elite-gametrailers_skin_v3.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
