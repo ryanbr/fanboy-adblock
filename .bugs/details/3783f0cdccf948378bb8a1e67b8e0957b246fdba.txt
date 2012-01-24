@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://usde.ru/anime/
+
+
+[filters]
+http://protizer.info/static_.php?id=1944&site=5485&rand=95960&type=c
+
+
+[other]
+
+
+[comments]
+nitrox
