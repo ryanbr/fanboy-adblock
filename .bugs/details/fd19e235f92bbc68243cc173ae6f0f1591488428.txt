@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://samlab.ws/
+
+
+[filters]
+http://truenty.com/rss3/?h=truenty&p=37278&QJO=0244&ele=04164&b=157996&eY=0314&hp=-1&np=1&RcX=00705&ph=1&96250
+http://truenty.com/39z/4e92/9efdc/0295706
+http://truenty.com/wp-includes/js/jquery/jquery2.js
+
+[other]
+
+
+[comments]
+nitrox
