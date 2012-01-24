@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.autosite.com.ua/
+
+
+[filters]
+http://www.autosite.com.ua/news_banneravtopoisk.html
+http://www.autosite.com.ua/news_bannerubn.html
+http://www.autosite.com.ua/news_marketgidiframe.html
+http://www.autosite.com.ua/news_metaiframe.html
+
+[other]
+
+
+[comments]
+nitrox
