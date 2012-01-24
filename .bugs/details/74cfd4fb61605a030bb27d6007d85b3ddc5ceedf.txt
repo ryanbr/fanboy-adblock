@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wireless.amazon.com/Samsung-Galaxy-4G-Android-T-Mobile/dp/B005SY5AF8/ref=sh_br_ph_1?ie=UTF8&transaction=INDIVIDUAL_NEW&sr=2-1-entd&qid=1327360764716
+
+
+[filters]
+http://g-ecx.images-amazon.com/images/G/01/Aloha/en_US/adsimages/stripe2._V199403633_.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
