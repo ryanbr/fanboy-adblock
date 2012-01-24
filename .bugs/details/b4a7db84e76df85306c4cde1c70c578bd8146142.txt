@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.patheos.com/blogs/friendlyatheist/2012/01/24/christian-fascism-is-coming-to-a-public-school-near-you/
+
+
+[filters]
+http://www.twittericon.com/image/twitter314.png
+http://widget.chipin.com/widget/id/8d0a74d899b36f56
+http://widget.chipin.com/widgetfeed/id/8d0a74d899b36f56
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
