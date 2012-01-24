@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://webteleradio.com/regiontv/ukraine.htm
+
+
+[filters]
+http://my.pixfuture.net/www/delivery/afr.php?zoneid=183&cb=INSE%20RT_RANDOM_NUMBER_HERE
+http://my.pixfuture.net/www/delivery/afr.php?zoneid=185&cb=INSE%20RT_RANDOM_NUMBER_HERE
+http://my.pixfuture.net/www/delivery/afr.php?zoneid=187&cb=645667
+http://my.pixfuture.net/code/webteleradio/fly.js
+http://my.pixfuture.net/code/webteleradio/flyad300x250w.html
+
+[other]
+
+
+[comments]
+nitrox
