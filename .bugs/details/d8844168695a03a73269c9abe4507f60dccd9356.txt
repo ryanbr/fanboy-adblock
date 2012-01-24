@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://micro-win.com/
+
+
+[filters]
+http://teasertop.ru/js/teaserfeed.js?jen=undefined&fen=undefined&cs=windows-1251
+http://teasertop.ru/js/teasertop.js
+
+[other]
+
+
+[comments]
+nitrox
