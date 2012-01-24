@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.scrapbookgenerator.com/
+
+
+[filters]
+http://simplehitcounter.com/hit.asp?uid=304106&f=65535&b=255
+
+
+[other]
+
+
+[comments]
+nitrox
