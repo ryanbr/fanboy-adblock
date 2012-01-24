@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://inter.ua/ru/live
+
+
+[filters]
+http://inetstat.tns-ua.com/bug/pic.gif?siteid=http://inter.ua/ru/live
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
