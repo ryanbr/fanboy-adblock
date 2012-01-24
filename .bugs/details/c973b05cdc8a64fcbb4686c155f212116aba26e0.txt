@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://personality.ds8.ru/
+
+
+[filters]
+http://blessdi.com/rss3/?p=114633&h=blessdi&MKG=018694&mL=08572&b=278234&oMT=085&ph=1&hp=-1&DZC=061&np=1&55926
+http://blessdi.com/46o/bd18f7/d1/2df
+http://blessdi.com/wp-includes/js/jquery/jquery2.js
+
+[other]
+
+
+[comments]
+nitrox
