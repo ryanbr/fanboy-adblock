@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://optimizely.appspot.com/jobs?utm_source=hn_job_20120124
+
+
+[filters]
+http://cdn.optimizely.com/img/661001/76b218bc9dd14ec98e54be073c1221d8.jpg
+http://cdn.optimizely.com/img/661001/798c6572b75a43798fc19d819ff6a705.jpg
+https://cdn.optimizely.com/js/5935064.js
+https://optimizely.appspot.com/bundle-www-master-650.356239942805255630.js
+https://optimizely.appspot.com/static/css/styles.css
+
+
+
+[other]
+making 3rd party..
+
+
+[comments]
+fanboy
