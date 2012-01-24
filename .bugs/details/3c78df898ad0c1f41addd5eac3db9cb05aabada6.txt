@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+http://www.smartphone.ua/
+[filters]
+# Copy your Adblock filters here
+http://adbee.com.ua/*
+||adbee.com.ua^$third-party
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+vinny
