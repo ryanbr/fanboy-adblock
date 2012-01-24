@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.itv.com/itvplayer/video/?Filter=302784
+
+
+[filters]
+http://tom.itv.com/itv/hserver/size=video/area=itvplayer.video/generic=6ed4b7e5-3d5b-6139-1efd-3b5cf867c09e/rs=itvplayer.11.22.3/site=itv/progid=itv.com.302784/proggenre=/genre=ent.aa.h5.ha.hw.wa.wo/progname=cornwall.with.caroline.quentin/series=cornwall.with.caroline.quentin/seriesid=302784/eptitle=episode.4/brandid=302784/source=catchup/tdur=1339/rstrct=none/chanbrand=itv1/pm=free/us=ano/viewid=0.6ed4b7e5-3d5b-6139-1efd-3b5cf867c09e/breaknum=0/adpos=1/random=0280954041/
+http://tom.itv.com/itv/hserver/size=video/area=itvplayer.video/generic=6ed4b7e5-3d5b-6139-1efd-3b5cf867c09e/rs=itvplayer.11.22.3/site=itv/progid=itv.com.302784/proggenre=/genre=ent.aa.h5.ha.hw.wa.wo/progname=cornwall.with.caroline.quentin/series=cornwall.with.caroline.quentin/seriesid=302784/eptitle=episode.4/brandid=302784/source=catchup/tdur=1339/rstrct=none/chanbrand=itv1/pm=free/us=ano/viewid=0.6ed4b7e5-3d5b-6139-1efd-3b5cf867c09e/breaknum=0/adpos=last/random=1540478234/
+http://tom.itv.com/itv/hserver/size=video/area=itvplayer.video/generic=6ed4b7e5-3d5b-6139-1efd-3b5cf867c09e/rs=itvplayer.11.22.3/site=itv/progid=itv.com.302784/proggenre=/genre=ent.aa.h5.ha.hw.wa.wo/progname=cornwall.with.caroline.quentin/series=cornwall.with.caroline.quentin/seriesid=302784/eptitle=episode.4/brandid=302784/source=catchup/tdur=1339/rstrct=none/chanbrand=itv1/pm=free/us=ano/viewid=1.6ed4b7e5-3d5b-6139-1efd-3b5cf867c09e/breaknum=1/adpos=1/random=0770535104/
+http://tom.itv.com/itv/hserver/size=video/area=itvplayer.video/generic=6ed4b7e5-3d5b-6139-1efd-3b5cf867c09e/rs=itvplayer.11.22.3/site=itv/progid=itv.com.302784/proggenre=/genre=ent.aa.h5.ha.hw.wa.wo/progname=cornwall.with.caroline.quentin/series=cornwall.with.caroline.quentin/seriesid=302784/eptitle=episode.4/brandid=302784/source=catchup/tdur=1339/rstrct=none/chanbrand=itv1/pm=free/us=ano/viewid=1.6ed4b7e5-3d5b-6139-1efd-3b5cf867c09e/breaknum=1/adpos=2/random=0444350158/
+http://tom.itv.com/itv/hserver/size=video/area=itvplayer.video/generic=6ed4b7e5-3d5b-6139-1efd-3b5cf867c09e/rs=itvplayer.11.22.3/site=itv/progid=itv.com.302784/proggenre=/genre=ent.aa.h5.ha.hw.wa.wo/progname=cornwall.with.caroline.quentin/series=cornwall.with.caroline.quentin/seriesid=302784/eptitle=episode.4/brandid=302784/source=catchup/tdur=1339/rstrct=none/chanbrand=itv1/pm=free/us=ano/viewid=1.6ed4b7e5-3d5b-6139-1efd-3b5cf867c09e/breaknum=1/adpos=last/random=1550080349/
+
+[other]
+For Opera/Iron Only 
+
+[comments]
+nitrox
