@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.123greetings.com/thank_you/birthday/birthday36.html
+
+
+[filters]
+http://www.123greetings.com/usr-bin/view_sent.pl?type=VW&cardid=113778
+
+
+[other]
+
+
+[comments]
+nitrox
