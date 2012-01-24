@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bestgamer.net/
+
+[filters]
+http://bestgamer.net/rtr/1-1
+
+
+[other]
+
+
+[comments]
+nitrox
