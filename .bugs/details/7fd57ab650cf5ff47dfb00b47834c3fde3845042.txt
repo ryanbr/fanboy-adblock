@@ -1,0 +1,14 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nolamers.net/our_films/61660-yolki-2-2011-dvdrip-licenziya.html
+
+[filters]
+http://promobuster.net/cns/main/get.php?t=1&b=38
+
+[other]
+
+
+[comments]
+nitrox
