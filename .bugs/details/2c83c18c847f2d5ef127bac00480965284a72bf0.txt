@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wireimage.com/search/#events?q=[137529141]&s=3
+
+
+[filters]
+http://www.wireimage.com/scripts/tracking/s_code.js
+http://www.wireimage.com/scripts/tracking/omniture-page-communicator.js?v=1201241032
+http://www.wireimage.com/scripts/tracking/omniture-communicator-basic.js?v=1201241032
+
+
+
+
+[other]
+Need to whitelist all 3 scripts to allow the pictures to view
+
+[comments]
+fanboy
