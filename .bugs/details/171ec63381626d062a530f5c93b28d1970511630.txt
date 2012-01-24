@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://phoronix.com/forums/showthread.php?68379-Error-Fixing-Btrfs-FSCK-Tool-Is-Imminent#post247852
+
+
+[filters]
+http://www.phoronix.com/phxforums-thread-show.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
