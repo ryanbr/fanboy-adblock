@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.autosvit.com.ua/
+
+[filters]
+http://top.rstcars.com/hit?c=132;;1600*1200*24;http%3A//www.autosvit.com.ua/;0.8423138556444386
+
+
+[other]
+
+
+[comments]
+nitrox
