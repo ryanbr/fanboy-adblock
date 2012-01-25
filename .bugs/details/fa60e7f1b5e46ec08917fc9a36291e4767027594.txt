@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kde.org/announcements/4.8/
+
+
+[filters]
+http://www.kde.org/announcements/4.8/buttons/flickr.gif
+http://www.kde.org/announcements/4.8/buttons/identica.gif
+http://www.kde.org/announcements/4.8/buttons/youtube.gif
+
+
+[other]
+
+
+[comments]
+nitrox
