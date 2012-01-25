@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.filmmagic.com/search/#events?q=test&s=1
+
+
+[filters]
+http://www.filmmagic.com/scripts/tracking/omniture-communicator-basic.js?v=1201241032
+http://www.filmmagic.com/scripts/tracking/omniture-page-communicator.js?v=1201241032
+http://www.filmmagic.com/scripts/tracking/s_code.js
+
+[other]
+
+
+[comments]
+nitrox
