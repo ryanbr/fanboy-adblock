@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cometdocs.com/
+
+
+[filters]
+http://owa.stats2513.com/modules/base/js/owa.tracker-combined-min.js
+
+
+[other]
+
+
+[comments]
+nitrox
