@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tv3play.se/play/262661/?autostart=*
+
+
+[filters]
+http://flvplayer.viastream.viasat.tv/flvplayer/play/share/images/myspace.png
+http://flvplayer.viastream.viasat.tv/flvplayer/play/share/images/twitter.png
+http://flvplayer.viastream.viasat.tv/flvplayer/play/share/images/delicious.png
+
+
+[other]
+regional check, didnt see it here..
+
+[comments]
+fanboy
