@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ps-deals.com/
+http://gamerdeals.net/
+
+[filters]
+http://gamerdeals.net/aggbug.aspx?PostID=13615
+http://gamerdeals.net/aggbug.aspx?PostID=13634
+http://gamerdeals.net/aggbug.aspx?PostID=13635
+http://gamerdeals.net/aggbug.aspx?PostID=13637
+http://ps-deals.com/aggbug.aspx?PostID=7458
+
+[other]
+
+
+[comments]
+nitrox
