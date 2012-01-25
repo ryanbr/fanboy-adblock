@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.smosh.com/
+
+
+[filters]
+http://partner.alloy.com/sites/smosh/jpd.js
+
+[other]
+
+
+[comments]
+nitrox
