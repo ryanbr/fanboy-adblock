@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://kijiji.searchtempest.com/results.php?statesel=0&citysel=0,-1&statecodes=1&citycodes=-1&catname=All+Jobs&search_string=new&Region=na&area=custom&majorsPrc=20&category=Jobs&sub+For+sale=all&sub+Community=all&sub+Cars+and+vehicles=all&sub+Jobs=all&sub+Housing=all&sub+Pets=all&sub+Services=all&sub+Personals=all&sortBy=newest&adType=all&search=Search+Kijiji
+http://kijiji.searchtempest.com/
+
+
+[filters]
+http://kijiji.searchtempest.com/clhimages/aocbanner.jpg
+
+
+[other]
+
+
+[comments]
+nitrox
