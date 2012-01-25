@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dreamprogs.net/
+
+
+[filters]
+http://my.mail.ru/grstat?name=shows&connect=1
+http://my.mail.ru/grstat?name=shows_wo_cookies&connect=1
+http://stat.truestat.ru/statistics/truestat.ru/?1327478460168
+http://stat.truestat.ru/validate/?1327478460172
+http://truestat.ru/tt.swf?r=dreamprogs.net
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
