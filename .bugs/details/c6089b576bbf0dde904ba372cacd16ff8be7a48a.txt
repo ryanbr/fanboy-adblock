@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rapid8.com/
+
+
+[filters]
+http://rapid8.com/images2/adverfisement.gif
+http://rapid8.com/images2/adverfisement2.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
