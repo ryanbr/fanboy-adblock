@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://zamunda.net/browse.php
+
+[filters]
+http://ads.garga.biz/ad/13
+http://ads.garga.biz/banners/static/2.jpg
+http://213.137.61.43/banners/swf/spy.swf
+http://ads.garga.biz/banners/static/2.jpg
+http://flower.bg/banners/ads.php
+http://ads.zamunda.net/foot-banner.php
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
