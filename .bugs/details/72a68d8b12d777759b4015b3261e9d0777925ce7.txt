@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://minkch.com/archives/51895385.html
+
+[filters]
+http://img.awasete.com/image.phtml?u=http%3A%2F%2Fminkch.com%2F&s=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
