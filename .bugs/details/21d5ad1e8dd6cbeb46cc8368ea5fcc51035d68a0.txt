@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.livedoor.jp/samplems-bakufu/archives/51261547.html
+
+[filters]
+http://www.e-nls.com/disp_cnt.php?agency_id=af939455
+http://parts.blog.livedoor.jp/js/blog_ads/no_ad.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
