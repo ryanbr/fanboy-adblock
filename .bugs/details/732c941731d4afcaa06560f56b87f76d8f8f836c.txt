@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.e-pornolar.com/yerli-amator.html
+
+
+[filters]
+http://www.e-pornolar.com/popup.php
+http://www.e-pornolar.com/splash.php
+
+http://www.penisbuyuten.net/?ref=* (popup)
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
