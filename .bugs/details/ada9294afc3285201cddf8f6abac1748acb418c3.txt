@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.4gamer.net/games/103/G010386/20120125038/
+
+
+[filters]
+http://www.4gamer.net/image/tag_affiliate_ad.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
