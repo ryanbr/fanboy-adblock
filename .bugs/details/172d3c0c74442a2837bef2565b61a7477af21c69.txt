@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gigaom.com/2012/01/25/googles-new-privacy-policy-should-you-be-concerned/
+
+
+[filters]
+https://gigaom2.files.wordpress.com/2012/01/amazon2-center-top.jpg
+
+[other]
+
+
+[comments]
+nitrox
