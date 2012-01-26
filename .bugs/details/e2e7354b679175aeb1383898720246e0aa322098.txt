@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.scoop.co.nz/stories/HL1201/S00136/teapot-tapes-uploaded.htm
+
+
+[filters]
+http://img.scoop.co.nz/images/pixel.gif?bad-robot
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
