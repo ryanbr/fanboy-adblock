@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+mediabox.blog38.fc2.com/blog-entry-6931.html
+
+
+[filters]
+block:
+http://pranking10.ziyu.net/rranking.gif
+http://pranking7.ziyu.net/img.php?mediabox
+http://pranking10.ziyu.net/img.php?mediabox2
+dont block:
+
+http://pranking7.ziyu.net/js/mediabox.js
+http://pranking10.ziyu.net/js/mediabox2.js
+
+
+
+
+
+[other]
+fp, middle bit doesnt show
+
+
+[comments]
+fanboy
