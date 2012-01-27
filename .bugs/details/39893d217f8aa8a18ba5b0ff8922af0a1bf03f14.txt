@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.news4jax.com/news/Deputies-Teen-broke-into-officer-s-home/-/475880/8493550/-/u8uj1gz/-/index.html
+
+
+[filters]
+http://www.news4jax.com/analytics/tracker.jsp
+http://www.clickorlando.com/analytics/tracker.jsp
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10397
+
+
+[comments]
+fanboy
