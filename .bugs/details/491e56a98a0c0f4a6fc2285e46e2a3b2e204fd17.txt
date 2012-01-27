@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://koreanfriendfinder.com/
+
+
+[filters]
+socialflirt.com/go/g1076512.subpopunder&mustgounder=11?mustgounder=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
