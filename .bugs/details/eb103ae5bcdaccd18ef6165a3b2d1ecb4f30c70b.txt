@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fanatics.com/
+
+
+[filters]
+http://st.fanatics.com/vc.aspx?v1=10005&v2=&v3=&v4=&v5=www.fanatics.com&v6=8&v7=0&v8=0&v9=0&v10=stnypouozsavmcivluv2omvc&v11=0&v12=192.168.128.5
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
