@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://scienceray.com/technology/five-amazing-gadgets-to-be-released-in-2010/
+
+[filters]
+http://scienceray.com/wp-content/mu-plugins/w4l/tiwik.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
