@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ehow.com/how_4454397_use-blackhead-suction-remover.html
+
+
+[filters]
+http://scripts.demandmedia.com/wm.js
+
+
+
+
+[other]
+allows left side to display correctly
+
+
+[comments]
+fanboy
