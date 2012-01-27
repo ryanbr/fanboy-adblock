@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gizmag.com/virtual-projection-screen-sharing/21229/
+
+
+[filters]
+http://www.gizmag.com/inc/ga_social_tracking_min.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
