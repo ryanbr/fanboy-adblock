@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.swappernet.com/
+
+
+[filters]
+http://affiliates.swappernet.com/MAPProc.aspx?&curUrl=http%3A//www.swappernet.com/&refUrl=&c=24&sw=1440&sh=900&winid=&ow=1&cookies=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
