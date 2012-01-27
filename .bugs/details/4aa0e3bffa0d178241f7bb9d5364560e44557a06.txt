@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.myspace.com/video/katy-perry/making-of-last-friday-night/108160289
+
+
+[filters]
+http://vp.tscapeplay.com/msvp.php?dsid=500&dsv=1&b=ZXZ0PTEwMSZjdD0xMzI3NjQ5NTMyMDAyJm1wZ3VpZD0wNTlhYjQ2My0yZGVjLTQ0YTMtODE4ZS1hYTA1N2ExMzVkNWImcGlkPTIxNDg0MjU1MTk0NTkxNTMwOTEmdWlkPS0xJnBjPWVuLU5aJnJlZnBnPWh0dHAlM0EvL3d3dy5teXNwYWNlLmNvbS9tb2R1bGVzL3ZpZGVvcy9wYWdlcy92aWRlb2RldGFpbC5hc3B4JTNGdmFuaXR5TmFtZSUzRGthdHktcGVycnklMjZtYWluVGl0bGUlM0RtYWtpbmctb2YtbGFzdC1mcmlkYXktbmlnaHQlMjZ2aWRlb0lkJTNEMTA4MTYwMjg5JnBscmlkPTEwMCZwdmVyPTEuMC4zLjIzJnBza2luPTUwMDAmc3JjaGlkPTAmY2lwPTEyMS43OS4xOTkuOSZzaXA9MTcyLjE2LjAuMiZwcmlkPTE0MTU3MjE4JnBydHlwZT03JmlsaT0wJnBmPVZpZGVvc0luZGl2aWR1YWwmc2VxPTE%3D
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
