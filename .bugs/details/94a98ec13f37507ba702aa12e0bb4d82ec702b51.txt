@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.clickorlando.com/
+
+
+[filters]
+http://www.clickorlando.com/pns/static/core/js/unpacked/adStrategies/dfp.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10397
+
+
+[comments]
+fanboy
