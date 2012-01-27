@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://doctor.webmd.com/physician_finder/results.aspx?sponsor=core&st=&city=Newark&state=NJ&sn=New Jersey&zip=07106&sws=1&sdd=Cardiologist&ras=0&loc=07106&ln=&sr=12&sd=&rad=25
+
+[filters]
+http://img.webmd.com/bi_common/bi_consumer.js?d=1/26/2012
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
