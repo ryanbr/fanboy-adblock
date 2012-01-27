@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.medicalnewstoday.com/articles/239928.php
+
+
+[filters]
+http://www.medicalnewstoday.com/counter_2.php?81479&eh=0&v=e90f92a6a575aac4c5a94163781eb99f
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
