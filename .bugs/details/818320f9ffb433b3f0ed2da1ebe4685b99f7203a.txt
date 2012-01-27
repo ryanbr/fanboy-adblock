@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.worldgolf.com/courses/usa/georgia/augusta/eighteen-at-augusta-national-golf-club-private.html
+
+
+[filters]
+http://www.worldgolf.com/includes/common_includes/js/track.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
