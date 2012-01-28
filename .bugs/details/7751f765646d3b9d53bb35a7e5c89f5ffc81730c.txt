@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.exeter.ac.uk/bdc/
+
+
+[filters]
+http://www.evisit.exeter.ac.uk/eva/harvester/id-image.php?id=18125&timecode=1327753524856&ref=http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10407&req=http://www.exeter.ac.uk/bdc/&size=1920X1080&col=24&java=true&cookie=true&section=The%20University%20of%20Exeter%20-%20The%20Bill%20Douglas%20Centre%20for%20the%20History%20of%20Cinema%20and%20Popular%20Centre
+http://www.evisit.exeter.ac.uk/eva/harvester/id-image.php?id=21404&timecode=1327753524856&ref=http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10407&req=http://www.exeter.ac.uk/bdc/&size=1920X1080&col=24&java=true&cookie=true&section=The%20University%20of%20Exeter%20-%20The%20Bill%20Douglas%20Centre%20for%20the%20History%20of%20Cinema%20and%20Popular%20Centre
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
