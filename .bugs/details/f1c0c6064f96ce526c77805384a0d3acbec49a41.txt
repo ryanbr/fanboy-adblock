@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.di.fm/calendar/event/15479
+
+
+[filters]
+http://www.di.fm/assets/tracking-53b68e7320e8f6697f3646cebe660a5e.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
