@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://spb.kp.ru/
+
+
+[filters]
+http://s1.stat.clickozavr.com/d994e10647f02906a405ec13e55dede8/1x1.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
