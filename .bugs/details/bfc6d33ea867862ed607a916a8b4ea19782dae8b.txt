@@ -1,0 +1,31 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.infonegocios.tv/
+
+
+[filters]
+http://www.enviosinfonegocios.com.ar/AR/infonegocios/Banners/Dinosaurio_20120127_Programa.gif
+http://www.enviosinfonegocios.com.ar/AR/infonegocios/Banners/Disco_20120109_DiscoVirtual.gif
+http://www.enviosinfonegocios.com.ar/AR/infonegocios/Banners/Fibertel_20110822_6Megas.gif
+http://www.enviosinfonegocios.com.ar/AR/infonegocios/Banners/GestorB_20110323_Institucional.jpg
+http://www.enviosinfonegocios.com.ar/AR/infonegocios/Banners/HoytsCinema_20110228_Gana.gif
+http://www.enviosinfonegocios.com.ar/AR/infonegocios/Banners/Infonegocios_20111109_VisitaInfohombres330x20.gif
+http://www.enviosinfonegocios.com.ar/AR/infonegocios/Banners/Intel_20110301_Institucional.gif
+http://www.enviosinfonegocios.com.ar/AR/infonegocios/Banners/Medife_20110912_Institucional.jpg
+http://www.enviosinfonegocios.com.ar/AR/infonegocios/Banners/Movistar_20100517_InternetMovil.gif
+http://www.enviosinfonegocios.com.ar/AR/infonegocios/Banners/Pettiti_20120120_Amarok.gif
+http://www.enviosinfonegocios.com.ar/AR/infonegocios/Banners/RondaSur_20111103_Destino.gif
+http://www.enviosinfonegocios.com.ar/AR/infonegocios/Banners/RossettiDeportes_20110523_Institucional.gif
+http://www.enviosinfonegocios.com.ar/AR/infonegocios/Banners/Telecom_20111108_CadaPersona.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
