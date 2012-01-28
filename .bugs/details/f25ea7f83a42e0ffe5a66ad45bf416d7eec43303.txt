@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.toxico-pc.com/asrock-990fx-extreme-3
+
+
+[filters]
+http://www.toxico-pc.com/images/banners/banner_A.swf
+http://www.toxico-pc.com/images/banners/banner_C.gif
+http://www.toxico-pc.com/images/banners/banner_E.swf
+http://www.toxico-pc.com/images/banners/banner_F.swf
+http://www.toxico-pc.com/images/banners/banner_G.swf
+http://www.toxico-pc.com/images/banners/banner_H.swf
+http://www.toxico-pc.com/images/banners/banner_I.swf
+http://www.toxico-pc.com/images/banners/banner_J.gif
+http://www.toxico-pc.com/images/banners/banner_O.swf
+http://www.toxico-pc.com/images/banners/banner_X.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
