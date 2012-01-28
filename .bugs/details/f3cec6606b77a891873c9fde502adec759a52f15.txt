@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sky.fm/play/ska
+
+
+[filters]
+http://www.sky.fm/assets/webplayer/ad-adswizz-d96984a4efa287939c4d7bf8e0dab460.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
