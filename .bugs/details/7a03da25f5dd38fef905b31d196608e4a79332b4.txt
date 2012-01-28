@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://my.rsscache.com/kernel.org/kdist/rss.xml
+
+
+[filters]
+http://service.nimbb.com/Images/logo.png
+
+
+[other]
+
+
+[comments]
+nitrox
