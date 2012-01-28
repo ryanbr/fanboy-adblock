@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nbc.com/saturday-night-live/video/colon-blow/229046
+
+
+[filters]
+http://adm.fwmrm.net/p/nbcu_live/VideoAdRenderer.swf
+
+
+
+
+[other]
+Need to white list for video to play
+
+
+[comments]
+fanboy
