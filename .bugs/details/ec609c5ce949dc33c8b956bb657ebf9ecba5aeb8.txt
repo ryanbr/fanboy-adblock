@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hard-planet.net/
+
+
+[filters]
+http://www.hard-planet.net/wp-content/uploads/banner2.swf
+http://www.hard-planet.net/wp-content/uploads/sentey.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
