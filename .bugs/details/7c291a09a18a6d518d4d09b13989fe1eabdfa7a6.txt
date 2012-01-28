@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bloomberg.com/news/2012-01-25/putin-says-u-s-seeks-vassals-not-allies-as-campaign-heats-up.html
+
+[filters]
+http://www.bloomberg.com/apps/data?referrer=http://www.reddit.com/&section_name=&slot_id=&pid=trackstoryhits&sgid=LYCQ616KLVR401
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
