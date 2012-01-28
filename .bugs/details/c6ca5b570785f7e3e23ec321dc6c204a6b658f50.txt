@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.allocine.fr/video/player_gen_cmedia=19303278&cfilm=183070.html
+
+
+[filters]
+@@||ads.msvp.net/campagnes*?ad_id=preroll$domain=allocine.fr
+
+
+
+
+
+[other]
+Only saw once..
+
+[comments]
+fanboy
