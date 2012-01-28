@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://searchenginewatch.com/article/2141451/New-Google-Privacy-Policy-Combines-User-Data-From-All-Google-Services
+
+
+[filters]
+http://searchenginewatch.com/utils/article_track/register/21968/at.js?ord=4881506
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
