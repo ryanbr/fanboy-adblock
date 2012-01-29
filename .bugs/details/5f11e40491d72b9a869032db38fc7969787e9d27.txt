@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fillinn.com/exotic-dancers-of-the-late-xix-century/
+
+
+[filters]
+http://www.avalanchers.com/wcode/2160/
+http://www.avalanchers.com/wcode/2161/
+http://www.avalanchers.com/wcode/2271/
+http://www.avalanchers.com/wcode/2272/
+http://www.avalanchers.com/wcode/2373/
+http://www.avalanchers.com/wcode/2929/
+http://www.avalanchers.com/wcode/2930/
+http://www.avalanchers.com/wcode/2931/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
