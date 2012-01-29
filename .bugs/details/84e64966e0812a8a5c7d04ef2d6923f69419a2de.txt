@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hollywoodreporter.com/news/seinfeld-stars-are-they-179478
+
+
+[filters]
+http://www.hollywoodreporter.com/sites/all/themes/thr/images/linked_in.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
