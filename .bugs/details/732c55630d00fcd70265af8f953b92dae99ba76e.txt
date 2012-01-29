@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zdnet.com/blog/security/ready-made-microsoft-windows-zero-day/10137
+
+
+[filters]
+http://i.zdnet.com/blogs/twitter3gif.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
