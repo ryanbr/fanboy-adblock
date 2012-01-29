@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tupian.hudong.com/99586/1.html?prd=tg_top_rebang
+
+
+[filters]
+http://hdad.hudong.com/hdad/zutu/zutu_l1.html
+http://hdad.hudong.com/hdad/zutu/zutu_r1.html
+http://stat.hudong.com/hdWebStat.do?random=0.4202011308780166&hd_accessrefer=http%3A%2F%2Fwww.hudong.com%2Fnewtop%2Fpicap.html%3Fhf%3Dlmap%26pf%3Dlmap1260&hd_accessurl=http%3A%2F%2Ftupian.hudong.com%2F99586%2F1.html%3Fprd%3Dtg_top_rebang&hd_res=1920x1080
+http://stat.hudong.com/js/webstat_manage.js
+http://stat.hudong.com/js/webstat_manage.js
+http://stat.hudong.com/js/webstat_manage.js
+http://stat.hudong.com/js/webstat_manage_hdga.js
+http://stat.hudong.com/js/webstat_manage_hdga.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
