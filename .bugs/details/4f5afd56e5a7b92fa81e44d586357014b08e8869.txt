@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.kfor.com/news/livestreaming/
+
+
+[filters]
+http://gcdn.2mdn.net/MotifFiles/html/2246129/PID_1630454_1306510152000_MCD_livestream_2.flv
+http://ad.doubleclick.net/pfadx/DARTSHELLCONFIGXML;dcmt=text/xml;
+http://ad.doubleclick.net/pfadx/trb.kfor/news/livestreaming;pos=live;vc=;at=;!category=;sz=3x3;tile=13;ord=507933965
+http://ad.doubleclick.net/adj/trb.kfor/news/livestreaming;;ptype=sfltv;rg=ur;pos=1ltv;dcopt=ist;sz=300x250,336x280;tile=1;ord=13645704?
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
