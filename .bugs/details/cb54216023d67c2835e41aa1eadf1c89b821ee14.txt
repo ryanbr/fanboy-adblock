@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gizmodo.com/static/items/gizmodo.com/trackers.html
+
+
+[filters]
+.com/trackers.html
+
+
+
+
+[other]
+test
+
+[comments]
+fanboy
