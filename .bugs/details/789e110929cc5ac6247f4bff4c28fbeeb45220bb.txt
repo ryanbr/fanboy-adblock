@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://115.com/file/dpxbqy13
+
+
+[filters]
+http://static.115img.com/static/delivery/d_17.html
+http://static.115img.com/static/delivery/d_18.html
+http://static.115img.com/static/delivery/d_26.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
