@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.chat4support.com/
+
+
+[filters]
+http://web.chat4support.com/weboperator/stat/stat.aspx?siteid=15&cancel=0&style=0&online=1&vid=WTXJZ3S1857UM306RF34&time=15:04:14&first=0&pagetitle=Chat4Support%20--%20Free%20Live%20Chat%20Software%2C%20Website%20traffic%20Monitoring%20and%20Visitor%20Tracking%2C%20Keyword%20Analysis%20Solutions&page=http%3A//www.chat4support.com/&referrer=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
