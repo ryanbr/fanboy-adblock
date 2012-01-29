@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.xssep.com/view-34178.html
+
+
+[filters]
+http://js.a3p4.com/page/i.php?s=59251&w=250&h=250
+http://js.a3p4.com/page/i.php?s=59253&w=650&h=90
+http://js.a3p4.com/page/i.php?s=59254&w=980&h=90
+http://js.a3p4.com/page/i.php?s=85033&w=200&h=200
+http://js.a3p4.com/page/i.php?s=85034&w=200&h=200
+http://hm.baidu.com/h.js?89f12fd838da4a3cb3e854d847659fac
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
