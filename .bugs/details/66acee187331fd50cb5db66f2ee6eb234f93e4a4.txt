@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://articles.boston.com/2012-01-28/ae/30674105_1_gay-rights-gay-community-wayne-besen
+
+
+[filters]
+http://articles.boston.com/tracker.js.php?99a5fe68c95c177ee932afdada333a3b7e1e6602
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
