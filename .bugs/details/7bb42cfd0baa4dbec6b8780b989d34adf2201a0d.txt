@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nedvang.nl/#!/#
+
+
+[filters]
+/pageview.js
+http://www.nedvang.nl/sites/all/themes/nedvang/src/nl/dpdk/nedvang/view/components/PageView.js?lxqwo0
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
