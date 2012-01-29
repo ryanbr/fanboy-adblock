@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thelocal.se/38778/20120128/
+
+
+[filters]
+http://d.thelocal.com/w/1.0/jstag
+http://tyda.se/js/siteclick.js
+http://tyda.se/interface/siteclick?charset=iso-8859-1&tip=0&target=&w_lang=&ui_lang=en&rid=800001&wrapper=http%3A%2F%2Fwww.thelocal.se%2Fword%2F&translatable=tyda&action=rid
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
