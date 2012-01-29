@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://star.feedsmixer.org/100/2064/search.php?k=business%20degree
+
+
+[filters]
+http://trackingdev.nixxie.com/insert_v2.php?site_id=53&api_key=eo3956ldcu&affiliate_id=2064&traffic_source=%2A&ad_feed=100&ip=10.172.159.91&ads_requested=10&ads_returned=0&keyword=business+degree&user_agent=MOZILLA%2F5.0+%28WINDOWS+NT+6.1%3B+WIN64%3B+X64%3B+RV%3A12.0A1%29+GECKO%2F20120107+FIREFOX%2F12.0A1&page=http%3A%2F%2Fstar.feedsmixer.org%2F100%2F2064%2Fsearch.php%3Fk%3Dbusiness%2520degree&referrer=http%3A%2F%2Fstar.feedsmixer.org%2F&unique_group=8aad758b3af609f13099cec31bf91cb5&source_referrer=&subid=%2A
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
