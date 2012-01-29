@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thecreatorsproject.com/blog/call-twitter-from-a-hacked-rotary-phone-instructables-how-to
+
+
+[filters]
+http://www.thecreatorsproject.com/tracker.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
