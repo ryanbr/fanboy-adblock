@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.businessweek.com/news/2012-01-28/ford-s-quarterly-profit-misses-estimates-on-overseas-woes.html
+
+
+[filters]
+https://plus.google.com/_/apps-static/_/js/widget/gcm_ppb,googleapis_client,plusone/rt=j/ver=OWqHKTdEImQ.en_GB./sv=1/am=!mERVC2k_3r6Im8QV0w/d=1/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
