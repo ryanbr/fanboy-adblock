@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gawker.com/
+
+
+[filters]
+http://gawker.com/static/items/gawker.com/trackers.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
