@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hollywoodreporter.com/news/ian-abercrombie-elaine-s-boss-285386
+
+
+[filters]
+http://v4.nonxt1.c.youtube.com/videoplayback?sparams=id%2Cexpire%2Cip%2Cipbits%2Citag%2Csource%2Calgorithm%2Cburst%2Cfactor%2Ccp&fexp=907605%2C903940%2C913100%2C915002&algorithm=throttle-factor&itag=35&ip=121.0.0.0&burst=40&sver=3&signature=9F9FF6D034AA159FC54A4D602E8AA4E7B24324E8.518F3BEA7F4A2907AA4B53CFFF8EF53319574C86&source=youtube&expire=1327859933&key=yt1&ipbits=8&factor=1.25&cp=U0hRTFhQV19ITUNOMV9QSkFKOjY5eDd2NUcxVHJY&id=64c9cdbe350e7776&redirect_counter=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
