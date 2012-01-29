@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://kotaku.com/5880179/pranksters-racial-slur-found-in-minecraft-wont-be-removed-til-next-update
+
+
+[filters]
+http://kotaku.com/static/items/kotaku.com/trackers.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
