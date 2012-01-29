@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thesaurus.com/browse/good
+
+
+[filters]
+http://sp.dictionary.com/sh/i/dict/adshop/mobile/map/map_bg2.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
