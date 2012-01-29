@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://theintelhub.com/
+
+
+[filters]
+http://www.go2cdn.org/brand/files/fdg/8/FDG.010.150x835.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
