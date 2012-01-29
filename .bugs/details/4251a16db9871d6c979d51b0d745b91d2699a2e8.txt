@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.keen.io/post/16663334473/the-early-early-stage
+
+
+[filters]
+https://twitter.com/statuses/user_timeline/keen_io.json?callback=recent_tweets&count=5
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
