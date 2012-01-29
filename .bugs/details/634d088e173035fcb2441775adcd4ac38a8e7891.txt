@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://clutch.mtv.com/2012/01/27/nfl-pro-bowl-meaningless/
+
+
+[filters]
+http://www.mtv.com/content/icons/facebook/32x32.jpg
+http://www.mtv.com/content/icons/newsletter/32x32.jpg
+http://www.mtv.com/content/icons/rss/32x32.jpg
+http://www.mtv.com/content/icons/twitter/32x32.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
