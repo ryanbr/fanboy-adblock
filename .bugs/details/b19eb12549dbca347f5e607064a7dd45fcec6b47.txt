@@ -1,0 +1,18 @@
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://www.espncricinfo.com/
+
+[filters]
+# Copy your Adblock filters here
+
+http://www.espncricinfo.com/
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+vinny
