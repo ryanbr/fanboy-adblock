@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vr-zone.com/articles/intel-outs-seven-new-core-i5-desktop-and-celeron-mobile-cpus/14671.html
+
+
+[filters]
+http://images.demandmedia.s3.amazonaws.com/verify.png?id=B8bvKghD3POazrVKqu4I47F
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
