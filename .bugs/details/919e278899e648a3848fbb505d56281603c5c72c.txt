@@ -1,0 +1,14 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://aca.ninemsn.com.au/
+
+
+[filters]
+http://aca.ninemsn.com.au/share/com/highlights/templates/inc/ninemsn.tracking.udc.js
+
+[other]
+
+[comments]
+nitrox
