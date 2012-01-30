@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://xogogo.com/videos/19168/angela-getting-double-teamed.html
+
+
+[filters]
+http://www.ptclassic.com/xohor.php
+http://xogogo.com/images/latestpt.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
