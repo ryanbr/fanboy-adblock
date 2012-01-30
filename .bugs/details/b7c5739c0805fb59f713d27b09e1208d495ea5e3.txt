@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.henwood.pl/kontakt.html
+
+
+[filters]
+http://m30.targeo.pl/i/skins/blue/zoom/zoom-2-min.png
+http://m30.targeo.pl/rel_js_css.html?t=jc&h=jc_lite_KreatorwMGI2MTA1ZjA1OGY0OGM5YWI5YmNlYzI4NTJlMjQ0ZDE0ZQ==_13220178e42fd933759fc19012beb1fb_0&chr=utf-8&lm=1327962853
+http://mapa.targeo.pl/Targeo.html?vn=1_9&v=lite&k=KreatorwMGI2MTA1ZjA1OGY0OGM5YWI5YmNlYzI4NTJlMjQ0ZDE0ZQ==
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
