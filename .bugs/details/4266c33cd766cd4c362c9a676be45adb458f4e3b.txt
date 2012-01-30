@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vankoi.com/video/7WNYG4W544NX/Adorable-brunette-fucked-on-balkony
+
+
+[filters]
+http://vkontakte.ru/js/api/share.js?11
+http://www.go2web20.net/twitterfollowbadge/1.0/badge.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
