@@ -1,0 +1,13 @@
+
+[Website]
+# If this applys to other websites, or other previous commits
+https://foxtrialfinder.michaeljfox.org/
+
+[filters]
+# Copy your Adblock filters here
+*.getsmartcontent.com/*
+||getsmartcontent.com^
+
+[comments]
+# Leave your username
+vinny
