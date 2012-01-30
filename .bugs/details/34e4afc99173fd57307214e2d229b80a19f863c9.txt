@@ -1,0 +1,11 @@
+
+[Website]
+# If this applys to other websites, or other previous commits
+http://www.thefashionspot.com/
+
+[filters]
+# Copy your Adblock filters here
+
+http://www.thefashionspot.com/
+
+[comments]vinny
