@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://petiteteenager.com/
+
+
+[filters]
+http://banners.crakcash.com/9322_name.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
