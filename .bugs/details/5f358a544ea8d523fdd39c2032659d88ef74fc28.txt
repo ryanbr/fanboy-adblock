@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pornsharia.com/cute-teen-gets-her-anal-hole-drilled-doggy-style_v1781
+
+
+[filters]
+http://cdn.pornsharia.com/App_Themes/pornsharia/ExoClick.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
