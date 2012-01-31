@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sprint.com/index_p.html?context=CP
+
+
+[filters]
+http://www.sprint.com/assets/scripts/analytics/analyticsFramework.js
+http://www.sprint.com/assets/scripts/analytics/web/eCare/ecareatg.js
+http://www.sprint.com/assets/scripts/analytics/web/_numeric_.js
+
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10463
+
+
+[comments]
+fanboy
