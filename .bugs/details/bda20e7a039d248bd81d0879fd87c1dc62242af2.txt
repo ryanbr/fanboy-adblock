@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cellreception.com/
+
+
+[filters]
+http://www.cellreception.com/netshelter/ads-carriers-120x90-2.html
+http://www.cellreception.com/netshelter/ads-carriers-120x90.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
