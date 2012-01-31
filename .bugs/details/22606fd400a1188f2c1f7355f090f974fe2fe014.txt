@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.furk.net/
+
+
+[filters]
+https://www.furk.net/counter.yadro.ru/hit?q;t52.6;s1600*1200*24;uhttps%3A//www.furk.net/;0.06800290231591921
+https://www.furk.net/counter.yadro.ru/hit?t52.6;s1600*1200*24;uhttps%3A//www.furk.net/;0.06800290231591921
+
+[other]
+
+
+[comments]
+nitrox
