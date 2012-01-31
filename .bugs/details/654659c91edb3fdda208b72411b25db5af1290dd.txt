@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mamma.intelius.com/results.php?ReportType=34&qf=John&qi=0&qk=10&qn=Adams&MoreInfoResult=1&RecID=0
+
+
+[filters]
+http://dev.virtualearth.net/webservices/v1/LoggingService/LoggingService.svc/Log?entry=0&fmt=1&type=3&group=MapControl&name=AJAX&version=7.0.20111221102729.54&mkt=en-us&auth=AnSPOlLSJa4CglLIE2z076mKZ4ZK4SaCHDRJcTiWSZzAySdYzIKmVdVMH27nvdrm&jsonp=microsoftMapsNetworkCallback1002
+
+
+
+[other]
+no false pos?
+
+
+[comments]
+fanboy
