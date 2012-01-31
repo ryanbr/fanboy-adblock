@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mamma.intelius.com/results.php?ReportType=34&qf=John&qi=0&qk=10&qn=Adams
+
+
+[filters]
+http://mamma.intelius.com/track_event.php?tet=1&cs=%2F&mi=&is=129&rf=2496&st=&rt=34&cr=2496&dk=www1064f2874e644593
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
