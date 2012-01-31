@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ldoceonline.com/
+
+
+[filters]
+http://www.ldoceonline.com/dfp_frame.html?ad_id=Home_300x250
+http://www.ldoceonline.com/dfp_frame.html?ad_id=Home_728x90
+
+
+[other]
+
+
+[comments]
+nitrox
