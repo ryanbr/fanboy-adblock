@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hulkshare.com/wswvcfxtpre4
+
+
+[filters]
+http://static1.hulkshare.com/js/adsmanager.js
+http://hulkshare.com/stats.php?x=YTozOntzOjM6ImZpZCI7czo3OiI1MjUwMDM4IjtzOjM6InVpZCI7czo1OiIxODA5MyI7czozOiJyZWYiO047fQ==
+
+
+[other]
+
+
+[comments]
+nitrox
