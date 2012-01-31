@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zuzandra.com/tube2/gallery/03596c74/813114/index.html
+
+
+[filters]
+http://vktr073.net/toolbar/frame.html#zuzandra.com
+http://www.openjavascript.com/jtools/jads.js?v=1
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10462
+
+
+[comments]
+nitrox
