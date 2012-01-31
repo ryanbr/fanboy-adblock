@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://proxy.org/
+
+
+[filters]
+https://proxy.org/af.html
+https://proxy.org/ah.html
+
+[other]
+
+
+[comments]
+nitrox
