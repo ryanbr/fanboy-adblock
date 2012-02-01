@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.techgainer.com/wikitaxi-download-wikipedia-and-read-it-offline-without-internet-on-windows/
+
+
+[filters]
+http://www.techgainer.com/wp-content/plugins/let-it-snow/script/snowstorm-min.js
+
+
+[other]
+
+
+[comments]
+nitrox
