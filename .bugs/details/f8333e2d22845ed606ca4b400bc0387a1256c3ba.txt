@@ -1,0 +1,19 @@
+
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://www.vosizneias.com/
+
+[filters]
+# Copy your Adblock filters here
+http://www.vosizneias.com/100035/2012/01/31/new-york-world-trade-center-design-flaw-could-cost-millions
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+vinny
