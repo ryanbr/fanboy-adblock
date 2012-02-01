@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.forward.com/
+
+
+[filters]
+http://www.forward.com/workspace/assets/scripts/ads/1x1tracker.js
+
+[other]
+
+
+[comments]
+nitrox
