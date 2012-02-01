@@ -1,0 +1,18 @@
+
+[Website]
+# If this applys to other websites, or other previous commits
+http://whatculture.com/
+
+[filters]
+# Copy your Adblock filters here
+http://whatculture.com/comps/win-timer-on-dvd-we-have-2-copies-to-give-away.php
+http://whatculture.com/
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+vinny
