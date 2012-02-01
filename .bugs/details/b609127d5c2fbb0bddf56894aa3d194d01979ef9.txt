@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thepiratebay.se/search/Steal%20this%20film/0/99/0
+
+
+[filters]
+http://quark.piratebay.tw/left.html
+http://quark.piratebay.tw/top468.html
+
+
+[other]
+
+
+[comments]
+nitrox
