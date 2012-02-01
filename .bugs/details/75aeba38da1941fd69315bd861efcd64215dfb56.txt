@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gq.com.au/life/people/xavier+samuel,7737
+
+
+[filters]
+http://traktr.news.com.au/esi/traktr.js?cfg=basic:on,site:gq,section:gq.life.people,plugins:,release:latest.js
+
+
+
+[other]
+bad filter
+
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=10476
+
+[comments]
+fanboy
