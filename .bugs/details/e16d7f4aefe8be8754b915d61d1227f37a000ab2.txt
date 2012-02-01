@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.whatismyip.com/
+
+
+[filters]
+http://link.pcspeedup.com/aff_i?offer_id=5&aff_id=1079&source=wimi_recent_posts&file_id=69
+http://media.go2speed.org/brand/files/pcspeedup/5/200x200_new_en.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
