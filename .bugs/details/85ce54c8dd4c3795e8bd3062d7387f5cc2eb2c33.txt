@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://uinterview.com/videos/gary-oldman
+http://www.limelife.com/blog-entry/LimeFile-Renee-Zellweger/18358.html
+
+[filters]
+http://odb.outbrain.com/utils/get?url=http%3A%2F%2Fuinterview.com%2Fvideos%2Fgary-oldman&srcUrl=http%3A%2F%2Ffeeds.feedburner.com%2Fuinterview%2Fpkww&settings=true&recs=true&widgetJSId=AR_1&key=AYQHSUWJ8576&idx=0&version=50902&ref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D8%26t%3D10474&apv=false&rand=0.5111276622855966&sig=pkblu6eR
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
