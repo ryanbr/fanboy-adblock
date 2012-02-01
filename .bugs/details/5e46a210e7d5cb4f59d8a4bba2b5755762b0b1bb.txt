@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gajitz.com/3d-chocolate-printer-promises-sweetest-custom-gifts-ever/
+
+
+[filters]
+http://64.38.23.86/geo
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
