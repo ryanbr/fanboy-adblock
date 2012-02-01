@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.3dnews.ru/news/623731
+
+[filters]
+http://ad.3dnews.ru/www/delivery/ajs.php?zoneid=216&block=1&cb=19683163536&charset=windows-1251&loc=http%3A//www.3dnews.ru/news/623731
+
+
+
+
+[other]
+stops ?????????, whitelist
+
+
+
+[comments]
+fanboy
