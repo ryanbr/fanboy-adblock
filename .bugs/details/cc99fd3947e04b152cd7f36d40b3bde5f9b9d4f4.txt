@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://outpersonals.com/
+
+
+[filters]
+http://graphics.pop6.com/javascript/live/out-rm_lib-1284506304.js
+http://graphics.pop6.com/javascript/live/out-rm_swfobject-1287617221.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
