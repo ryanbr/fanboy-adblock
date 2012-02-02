@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cosmetic.nm.ru/complex.html
+
+
+[filters]
+http://r.qip.ru/iframe?name=Hosting_subfooter&jscookie=0
+http://r.qip.ru/rb?name=Hosting_240x400&jscookie=0
+
+
+[other]
+
+
+[comments]
+nitrox
