@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gall.dcinside.com/list.php?id=tea&no=36976
+
+
+[filters]
+http://a6.ationnet.com/a01/46583.js
+http://l1.ationnet.com/?b=46583&a=
+
+
+
+[other]
+http://gall.dcinside.com/list.php?id=yusik&no=205&page=1&bbs=
+
+[comments]
+fanboy
