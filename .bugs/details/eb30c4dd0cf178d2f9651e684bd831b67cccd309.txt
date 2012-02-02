@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cic.gc.ca/english/index.asp
+
+
+[filters]
+http://api.ipinfodb.com/v3/ip-city/?key=54b07a9ba203e88b00c81fbf33013374ec86769b8ee166729224f03ce7cd14ad&format=json&output=json&callback=geotarget.parseIp&timezone=true&time=1328175971529
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
