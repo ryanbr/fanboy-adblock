@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.novinite.com/view_news.php?id=136282
+
+
+[filters]
+http://www.novinite.com/tz.php?tz=-13&resolution=1920x1080
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
