@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.girlfriendvideos.com/
+
+
+[filters]
+http://www.girlfriendvideos.com/ad4i.html
+http://www.girlfriendvideos.com/ad3i.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
