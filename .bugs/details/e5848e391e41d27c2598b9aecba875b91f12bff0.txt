@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kloth.net/services/dnsbl.php
+
+
+[filters]
+http://www.kloth.net/images/pixel.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
