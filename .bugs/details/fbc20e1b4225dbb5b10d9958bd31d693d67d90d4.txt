@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.plumvoice.com/
+
+
+[filters]
+http://leadtracking.plumvoice.com/leadtracking.php?account=1&HTTP_REFERER=
+
+
+[other]
+
+
+[comments]
+nitrox
