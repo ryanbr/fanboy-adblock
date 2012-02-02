@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://videarn.com/video.php?id=127164
+
+
+[filters]
+http://static.videarn.com/300x250_4.gif
+http://www.empireamateurs.com/images/300x250banner.jpg
+http://webmasters.videarn.com/javascript.php?site=3
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
