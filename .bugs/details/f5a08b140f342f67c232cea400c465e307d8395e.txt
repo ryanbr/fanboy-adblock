@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.general-files.com/download/gs1db4c9f6h22i0/Perfect.Couples.S01E13.Perfect.Daughter.Webrip.XviD-DEiMOS.avi.html
+
+[filters]
+http://www.general-files.com/stat
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
