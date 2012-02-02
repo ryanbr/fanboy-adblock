@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.salon.com/2012/02/01/why_the_right_hates_planned_parenthood/singleton/#comments
+
+
+[filters]
+http://www.salon.com/content/plugins/salon-ad-controller/ad-utilities.js?ver=*
+
+
+
+
+[other]
+causes issues with comments, reported by user
+
+
+[comments]
+fanboy
