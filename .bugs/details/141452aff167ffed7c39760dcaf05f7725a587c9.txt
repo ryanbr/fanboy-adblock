@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gall.dcinside.com/list.php?id=princess_k&no=139473
+
+
+[filters]
+http://minholding.com/image/bt_close.gif
+http://minholding.com/image/bt_media.gif
+http://minholding.com/js/FvAd_utf8.ad?MediaAdCode=dcinside
+http://minholding.com/xml/MediaAdLog.php?viewAd=75||&MediaCode=dcinside
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
