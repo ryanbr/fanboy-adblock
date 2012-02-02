@@ -1,0 +1,12 @@
+
+[Website]
+# If this applys to other websites, or other previous commits
+http://rapidshare-downloads.com/
+
+[filters]
+# Copy your Adblock filters here
+http://rapidshare-downloads.com/b/bleach+225+c+p+avi
+
+[comments]
+# Leave your username
+vinny
