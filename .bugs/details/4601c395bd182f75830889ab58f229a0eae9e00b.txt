@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://realhomesex.net/hosted/video1683.php
+
+
+[filters]
+http://partners.yobt.tv/tools/rotator.php?sid=20&uid=56&tracker=0&fcats=94&o=none&elnum_x=1&elnum_y=5&thsize=160x120&header_color=&text_color=&link_color=&border_color=&start=2011-04-01&stop=2012-01-14&back_color=&header_text=&sctt=0&st=0&sht=0
+http://partners.yobt.tv/tools/rotator.php?sid=20&uid=56&tracker=0&fcats=94&o=none&elnum_x=4&elnum_y=3&thsize=160x120&header_color=&text_color=&link_color=&border_color=&start=2011-04-01&stop=2012-01-14&back_color=&header_text=&sctt=0&st=0&sht=0
+http://realhomesex.net/90866.html
+http://realhomesex.net/adx160.html
+http://realhomesex.net/ae/ae1.html
+http://realhomesex.net/ae/ae2.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
