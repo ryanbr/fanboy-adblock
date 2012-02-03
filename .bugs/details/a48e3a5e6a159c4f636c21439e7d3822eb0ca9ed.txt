@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.firstrowsports.eu/watch/105499/1/watch-adelaide-united-vs-wellington-phoenix.html
+
+
+[filters]
+http://cssfiles.firstrowsports.eu/images/livebet.png
+http://www.buzzbuttons.com/BUTTON0/twitbutton.swf
+
+[other]
+
+
+[comments]
+nitrox
