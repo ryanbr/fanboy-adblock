@@ -1,0 +1,18 @@
+
+[Website]
+# If this applys to other websites, or other previous commits
+http://orangoo.com/
+
+[filters]
+# Copy your Adblock filters here
+http://orangoo.com/spellcheck/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+vinny
