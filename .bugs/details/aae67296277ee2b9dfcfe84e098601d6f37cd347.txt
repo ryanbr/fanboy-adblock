@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lemonfree.com/map.php?make=HONDA&model=ACCORD
+
+
+[filters]
+http://ads.adacado.com/adacadoWeb/rt?advertiserId=1000048&query=HONDA%20OR%20ACCORD
+
+
+[other]
+
+
+[comments]
+nitrox
