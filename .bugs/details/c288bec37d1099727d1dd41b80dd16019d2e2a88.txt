@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thescoopblog.dallasnews.com/archives/2012/02/komen-apologizes-for-recent-de.html
+
+
+[filters]
+http://res.dallasnews.com/resources/js/pluck-tracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
