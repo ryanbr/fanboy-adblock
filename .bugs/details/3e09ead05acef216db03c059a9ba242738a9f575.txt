@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.bancomer.com/
+
+
+[filters]
+https://www.bancomer.com/ts/ts.js
+
+
+[other]
+
+
+[comments]
+nitrox
