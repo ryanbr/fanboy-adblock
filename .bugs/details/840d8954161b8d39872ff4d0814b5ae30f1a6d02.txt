@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.traderonline.com/
+
+
+[filters]
+http://www.traderonline.com/javascript/master_s_code.js
+
+
+
+
+[other]
+fp
+
+
+[comments]
+fanboy
