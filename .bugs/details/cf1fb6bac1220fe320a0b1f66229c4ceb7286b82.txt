@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://realhomesex.net/hosted/video919.php
+
+[filters]
+http://realhomesex.net/90866.html
+http://realhomesex.net/adx160.html
+http://www.realhomesex.net/floater.js
+http://www.realhomesex.net/pop/15.jpg
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
