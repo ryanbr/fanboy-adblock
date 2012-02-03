@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.carprices.com/
+
+
+[filters]
+http://tracking.carprices.com/cgi-bin/cobrand.cgi?COBRAND=www.carprices.com
+http://tracking.carprices.com/cgi-bin/hmpg.cgi?PARTNER=carprices&HOMEPAGE=T
+
+
+[other]
+
+
+[comments]
+nitrox
