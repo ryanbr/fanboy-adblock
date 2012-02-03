@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.carsdirect.com/
+
+
+[filters]
+http://s.cxt.ms/action.js
+
+
+[other]
+
+
+[comments]
+nitrox
