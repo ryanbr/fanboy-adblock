@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://editorial.autos.msn.com/the-600-horsepower-club
+
+[filters]
+http://social.msn.com/boards/c.gif?rid=7fc87136-4dd0-4e64-804a-1c113b7db121&daid=00000065-0699-0000-0000-000000000000
+
+
+[other]
+
+
+[comments]
+nitrox
