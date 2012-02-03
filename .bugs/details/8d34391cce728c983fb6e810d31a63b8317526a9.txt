@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ole.com.ar/fuera-de-juego/triste-muertos_0_638336480.html
+
+
+[filters]
+http://clarin.img.e-planning.net/esb/4/11/4fec/0f9c71305679c90b.swf?clickTag=*//ads.e-planning.net/ei/3/81f0/7655d7131befee52%3fct%3d1%26pb%3d98aaf67c28763024%26fi%3d3c98fe5328f38090%26rnd%3d0.478475761599839&trackURL=*//ads.e-planning.net/ermt/3/81f0/7655d7131befee52%3fil%3d0%26pb%3d98aaf67c28763024%26fi%3d3c98fe5328f38090%26i%3dc447671d417e3635
+
+
+
+
+[other]
+regional, not seen here, but confirmed
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=10492
+
+[comments]
+fanboy
