@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.russellgrant.com/
+
+
+[filters]
+http://search.russellgrant.com/hostedsearch/panelcounter.aspx?panelinstanceid=83368&THSWts=1328340050393
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
