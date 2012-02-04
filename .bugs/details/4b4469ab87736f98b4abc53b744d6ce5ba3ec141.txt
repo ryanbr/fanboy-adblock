@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yerliporno.org/
+
+
+[filters]
+http://109.73.75.3/sagsol/sag.gif
+http://109.73.75.3/sagsol/sol.gif
+http://109.73.75.29/Toker/popup.js
+http://109.73.75.29/Toker/splash.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
