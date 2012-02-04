@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.greenbaypressgazette.com/videonetwork/1432168156001/De-Pere-shooting
+
+
+[filters]
+http://www.greenbaypressgazette.com/odygel/lib/video/yume.js
+
+
+
+
+[other]
+video doesnt play
+
+
+[comments]
+fanboy
