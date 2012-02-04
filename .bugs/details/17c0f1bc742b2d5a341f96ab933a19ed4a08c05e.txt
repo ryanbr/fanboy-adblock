@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.macobserver.com/tmo/article/apple_clarifies_ibooks_author_eula_excludes_claim_on_content/
+
+
+[filters]
+http://adserver1-images.backbeatmedia.com/logo/BBM_Mac_network.gif
+http://img.servint.net/88x30-hostedby.jpg
+http://img.servint.net/88x30a.gif
+http://www.macobserver.com/includes/newsite/ads/aadcall.php?241398
+http://www.macobserver.com/js/adlink.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
