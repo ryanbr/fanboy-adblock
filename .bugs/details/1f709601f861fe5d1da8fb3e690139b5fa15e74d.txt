@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.redmondpie.com/study-reveals-that-ios-apps-crash-more-frequently-than-android/
+
+
+[filters]
+http://www.redmondpie.com/images/ic/fb2.gif
+http://www.redmondpie.com/images/ic/feed2.gif
+http://www.redmondpie.com/images/ic/gplus2.gif
+http://www.redmondpie.com/images/ic/twitt2.gif
+http://www.redmondpie.com/images/ic/youtube2.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
