@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dizi.mynet.com/muhtesem-yuzyil-izle-45-bolum-2-parca-vid-1349681/
+
+[filters]
+http://reklam5.mynet.com/reklam/anket/vanket2.swf?v=3
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
