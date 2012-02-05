@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.compugen.com/
+
+
+[filters]
+http://www.domodomain.com/DomoDomain/Sensor/DDSense.aspx?id=d6bfeb03-1ed6-4714-9b1a-2f0dc1753dc7
+
+
+[other]
+
+
+[comments]
+nitrox
