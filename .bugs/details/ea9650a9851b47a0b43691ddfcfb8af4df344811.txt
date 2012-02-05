@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sitefinder.co.nz/
+
+
+[filters]
+http://www.clearviewstats.com/tracker.js
+
+
+[other]
+
+
+[comments]
+nitrox
