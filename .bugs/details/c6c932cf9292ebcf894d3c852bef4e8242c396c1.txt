@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dl4all.com/e_books/1236197-chinese-ink-painting-techniques-in-shades-of-black.html
+
+
+[filters]
+http://www.dl4all.com/img/download.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
