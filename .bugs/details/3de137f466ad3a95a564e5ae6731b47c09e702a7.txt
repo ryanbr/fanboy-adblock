@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://yellow.co.nz/
+
+
+[filters]
+http://ad-apac.doubleclick.net/N6936/adj/yellow.co.nz_2011/home;sz=120x120;ord=1860346775954907?
+http://ad-apac.doubleclick.net/N6936/adj/yellow.co.nz_2011/home;sz=300x250;ord=1860346775954907?
+http://ad-apac.doubleclick.net/N6936/adj/yellow.co.nz_2011/home;sz=760x120;ord=1860346775954907?
+
+
+[other]
+
+
+[comments]
+nitrox
