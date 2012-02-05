@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://search.nzs.com/nz/Telecom%20White%20Pages%20New%20Zealand
+
+
+[filters]
+http://search.nzs.com/sliscripts_v3.js
+
+
+[other]
+
+
+[comments]
+nitrox
