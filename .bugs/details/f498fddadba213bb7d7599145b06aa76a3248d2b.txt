@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://win7dl.com/
+
+[filters]
+# Copy your Adblock filters here
+http://win7dl.com/dl-shades-of-ray-movie/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+vinny
