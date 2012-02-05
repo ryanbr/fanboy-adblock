@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yellowpages.com/#
+
+
+[filters]
+http://i1.ypcdn.com/webyp/javascripts/tracking_packaged.js?13666
+
+
+[other]
+
+
+[comments]
+nitrox
