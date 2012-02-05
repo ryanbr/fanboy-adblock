@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fuzing.com/
+
+
+[filters]
+http://tracking.bidmizer.com/click/bmclick.js?bmzcampaignid=00000008-6f9e&bmztag=homepage
+http://tracking.bidmizer.com/track/bmtrack.gif?bmzcampaignid=00000008-6f9e&bmzclickid=000060312386-f39d&bmztrackingid=&bmztag=homepage&bmzurl=http%3A//www.fuzing.com/&bmzreferrer=none%3A&bmzuseragent=Firefox/13.0a1
+
+
+[other]
+
+
+[comments]
+nitrox
