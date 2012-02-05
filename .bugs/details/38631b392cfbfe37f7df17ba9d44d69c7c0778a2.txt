@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yellowpagecity.com/US/IN/Indianapolis/Yellow-Pages/
+
+
+[filters]
+http://pm.web.com/42/943/1070/
+
+
+[other]
+
+
+[comments]
+nitrox
