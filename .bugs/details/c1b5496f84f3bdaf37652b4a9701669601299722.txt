@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.compucom.com/
+
+
+[filters]
+http://trk.etrigue.com/etriguelive.js
+
+
+[other]
+
+
+[comments]
+nitrox
