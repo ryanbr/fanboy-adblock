@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ziplocal.com/list.jsp?lang=0&nt=C&na=pizza
+
+
+[filters]
+http://www.ziplocal.com/tracker.jsp
+
+[other]
+
+
+[comments]
+nitrox
