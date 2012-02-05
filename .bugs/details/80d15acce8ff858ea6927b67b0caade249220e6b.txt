@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.auto123.com/en/used-cars/classified/results/?make=Subaru&model=Impreza
+
+
+[filters]
+http://www.auto123.com/sasserve.spy?slot=BOX2&pageid=28&target=make=Subaru;model=Impreza;ctype=asian&language=en&_w=576&_h=250
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
