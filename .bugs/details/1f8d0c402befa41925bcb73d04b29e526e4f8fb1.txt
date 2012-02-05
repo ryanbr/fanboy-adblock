@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://secrethallway.com/
+
+
+[filters]
+http://www.adversaldisplay.com/si.js?i=c6jjb2
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
