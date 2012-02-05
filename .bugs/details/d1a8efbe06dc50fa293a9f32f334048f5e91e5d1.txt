@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yellowshoes.com/index_en.php
+
+
+[filters]
+http://ads.bttbgroup.com/px?id=5510&seg=68834&t=1
+
+
+[other]
+
+
+[comments]
+nitrox
