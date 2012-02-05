@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.auto123.com/en/
+
+
+[filters]
+http://v2.visualwebsiteoptimizer.com/tools/tracking_code.php?account_id=6181&token=3dd98879da69fdf44b7b906a12662de6d55cb993
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
