@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.walmart.com/ip/17324123
+
+
+[filters]
+http://www.walmart.com/__ssobj/track?event=delayed_deptMovies_fromshelf_hasAddToCartButton_itempage_nonBundle_nonQuicklook&value=&x=1328552796535-1
+http://www.walmart.com/__ssobj/track?event=pageview_deptMovies_fromshelf_hasAddToCartButton_itempage_nonBundle_nonQuicklook&value=&x=1328552793839-1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
