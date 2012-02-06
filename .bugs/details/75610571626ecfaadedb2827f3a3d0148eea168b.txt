@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.epharmacy.com.au/
+
+[filters]
+https://smarticon.geotrust.com/si.js
+https://smarticon.geotrust.com/smarticon?ref=www.epharmacy.com.au
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
