@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nfl.com/fantasy?home
+
+
+[filters]
+http://s.nflcdn.com/static/site/3.11/scripts/global/ads.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
