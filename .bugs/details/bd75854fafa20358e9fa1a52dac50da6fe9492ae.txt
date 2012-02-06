@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.outofaces.com/mayra-suarez/
+
+
+[filters]
+http://d.1sadx.net/crossdomain.xml
+http://d.1sadx.net/impressions/uint/asc=90/f=29/chip=031759402b7b012f8d640024e87a30c2.xml?pd1=outofaces%26pd2=ollinger&referrer=http%3A%2F%2Fwww%2Egoogle%2Eco%2Enz%2Fimgres%3Fimgurl%3Dhttp%3A%2F%2Fwww%2Eoutofaces%2Ecom%2Fwp%2Dcontent%2Fuploads%2F2009%2F11%2FMayra%2DSuarez%2D7%2Ejpg%26imgrefurl%3Dhttp%3A%2F%2Fwww%2Eoutofaces%2Ecom%2Fmayra%2Dsuarez%2F%26h%3D746%26w%3D610%26sz%3D56%26tbnid%3D7RcGStduAUg8eM%3A%26tbnh%3D98%26tbnw%3D80%26prev%3D%2Fsearch%253Fq%253DMayra%252BSuarez%2526tbm%253Disch%2526tbo%253Du%26zoom%3D1%26q%3DMayra%2BSuarez%26docid%3D6ZICOHCp5h98HM%26sa%3DX%26ei%3DHDsvT%5FybKsiYiAeQnKjqDg%26ved%3D0CDoQ9QEwAw%26dur%3D261&playlistWidth=320&mediaType=playlist&autoPlay=true&width=320&playlistY=270&skin=http%3A%2F%2Fplayer%2Eonescreen%2Enet%2Fskins%2Fblack%5Fdefault%5Fplaylist%2Exml&bitRate=200000000&height=270&playlistX=0&volume=0%2E3&playlistHeight=130&media=http%3A%2F%2Fdata%2E1sfx%2Enet%2Fplaylists%2F1000080%2F2303013%2Exml%3Fplf%3Dos
+http://reqmt=1&pid=406&xf=12&pd1=outofaces&pd2=ollinger&pd2=&rand=439106923&refURL=http%3A%2F%2Fwww.google.co.nz%2Fimgres%3Fimgurl%3Dhttp%3A%2F%2Fwww.outofaces.com%2Fwp-content%2Fuploads%2F2009%2F11%2FMayra-Suarez-7.jpg%26imgrefurl%3Dhttp%3A%2F%2Fwww.outofaces.com%2Fmayra-suarez%2F%26h%3D746%26w%3D610%26sz%3D56%26tbnid%3D7RcGStduAUg8eM%3A%26tbnh%3D98%26tbnw%3D80%26prev%3D%2Fsearch%253Fq%253DMayra%252BSuarez%2526tbm%253Disch%2526tbo%253Du%26zoom%3D1%26q%3DMayra%2BSuarez%26docid%3D6ZICOHCp5h98HM%26sa%3DX%26ei%3DHDsvT_ybKsiYiAeQnKjqDg%26ved%3D0CDoQ9QEwAw%26dur%3D261
+http://www.outofaces.com/leaderboard-home.html
+http://www.outofaces.com/rectangle-ol.html
+http://www.outofaces.com/rectangle.html
+http://www.outofaces.com/rectangle2.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
