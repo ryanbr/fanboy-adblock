@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bezpeka.com/
+
+
+[filters]
+http://top100.sec.ru/fscounter.cfm?sid=63836&rf=&rn=0.4261021928042127
+
+
+[other]
+
+
+[comments]
+nitrox
