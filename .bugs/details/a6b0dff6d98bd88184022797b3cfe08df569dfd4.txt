@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.seattlepi.com/news/article/Egypt-sends-43-NGO-workers-to-trial-over-funds-3045568.php
+
+
+[filters]
+http://extras.seattlepi.com/art/socialbutton_email.png
+http://extras.seattlepi.com/art/socialbutton_facebook.png
+http://extras.seattlepi.com/art/socialbutton_rss.png
+http://extras.seattlepi.com/art/socialbutton_twitter.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
