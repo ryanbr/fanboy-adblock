@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.homemoviestube.com/videos/64508/changing-room-hidden-cam-compilation.html
+
+
+[filters]
+http://www.homemoviestube.com/pre_pause_post_ads.xml?noCache=40&
+http://www.homemoviestube.com/pre_pause_post_ads.xml?noCache=941&
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
