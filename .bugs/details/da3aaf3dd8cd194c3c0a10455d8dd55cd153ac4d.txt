@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.huffingtonpost.com/
+
+
+[filters]
+http://www.huffingtonpost.com/ajax/frontpage/splash/twitter.php?keyword=Super%20Bowl%2C%20%23SuperBowl
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
