@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eporner.com/
+
+[filters]
+http://www.epornerlive.com/index.php?page=punder2&mcat_id=6&rev=1&type=2&misc1=punder2&misc2=epornerlive.com&reseller=eporner
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
