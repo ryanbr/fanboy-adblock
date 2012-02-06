@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.clips-and-pics.org/content-page241.html
+
+
+[filters]
+http://1.todayssn.com/a1/cb.php?sub=AC
+http://3.your-big.com/a1/cb.php?sub=capone&t=lite2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
