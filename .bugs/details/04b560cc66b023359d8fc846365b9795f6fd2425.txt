@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thefashionspot.com/celebrity-fashion/news/171685-get-the-celeb-look-jamie-chung
+
+
+[filters]
+http://www.thefashionspot.com/gnads/?triggertags=0&sitename=thefashionspot.com&google_home=&google_ros=thefashionspot_ros_300x100&ga=ca-pub-1304704158939332&sz=300x100&id=1253&zone=celebrity_fashion&ct=article&ci=171685&kw=celebrity-style,get-the-look,jamie-chung;&&type=
+http://www.thefashionspot.com/gnads/?triggertags=1&sitename=thefashionspot.com&google_home=&google_ros=&ga=ca-pub-1304704158939332&sz=1000x1000&id=1253&zone=celebrity_fashion&ct=article&ci=171685&kw=celebrity-style,get-the-look,jamie-chung;&&type=
+http://www.thefashionspot.com/gnads/?triggertags=1&sitename=thefashionspot.com&google_home=&google_ros=&ga=ca-pub-1304704158939332&sz=1002x1002&id=1253&zone=celebrity_fashion&ct=article&ci=171685&kw=celebrity-style,get-the-look,jamie-chung;&&type=
+http://www.thefashionspot.com/gnads/?triggertags=1&sitename=thefashionspot.com&google_home=&google_ros=&ga=ca-pub-1304704158939332&sz=47x47&id=1253&zone=celebrity_fashion&ct=article&ci=171685&kw=celebrity-style,get-the-look,jamie-chung;&&type=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
