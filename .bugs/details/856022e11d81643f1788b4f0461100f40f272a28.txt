@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nudevista.com/?q=japan+anal&s=t
+
+[filters]
+http://i99.nudevista.com/_/exo_line.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
