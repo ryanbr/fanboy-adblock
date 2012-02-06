@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.rootshell.be/2010/03/08/openssh-new-feature-netcat-mode/
+
+
+[filters]
+http://eff.org/bloggers/badges/blog_98x24.gif
+http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.gif
+https://w2.eff.org/bloggers/badges/blog_98x24.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
