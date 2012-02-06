@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jsonline.com/multimedia/video/?bcpid=13960334001&bcplid=14192768001&bctid=1433913347001
+
+
+[filters]
+http://www.jsonline.com/templates/Proxy.api?url=http://www2.jsonline.com/content/omniture/webpages/TMJ4_videos.xml
+http://www.jsonline.com/templates/Proxy.api?url=http://www2.jsonline.com/content/omniture/webpages/jsonline_videos.xml
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
