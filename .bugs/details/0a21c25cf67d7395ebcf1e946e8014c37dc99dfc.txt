@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bbc.co.uk/news/world-asia-china-16895812
+
+
+[filters]
+http://d3c3cq33003psk.cloudfront.net/bbc-filter.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
