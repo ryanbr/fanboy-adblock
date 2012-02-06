@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.itshop.ru/Test-besplatnyh-antivirusov/l9i23499
+
+[filters]
+http://ad.smartclick.ru/kernel.asp?pid=54
+http://ad.smartclick.ru/kernel.asp?pid=59
+http://ad.smartclick.ru/kernel.asp?pid=60
+
+
+[other]
+
+
+[comments]
+nitrox
