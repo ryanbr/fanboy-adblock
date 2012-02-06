@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.startribune.com/local/138753739.html
+
+
+[filters]
+http://adlinks.startribune.com/ad_links/ads/942.JPG
+http://adlinks.startribune.com/ad_links/ads/970.jpg
+http://adlinks.startribune.com/ad_links/ads/979.jpg
+
+
+
+[other]
+false postitives
+
+[comments]
+fanboy
