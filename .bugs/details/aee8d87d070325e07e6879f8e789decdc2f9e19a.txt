@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://10.asiae.co.kr/Articles/new_view.htm?tsc=06.01.13&a_id=2009092609163907296&pg=
+
+
+[filters]
+http://118.107.164.6/count/get_count.php?idxno=2009092609163907296&type=6&code=06.01.01&outdate=20090926100924&ref_name=A10&user_id=
+http://118.107.164.7/count/get_count.php?idxno=2009092609163907296&type=6&code=06.01.01&outdate=20090926100924&ref_name=A10&user_id=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
