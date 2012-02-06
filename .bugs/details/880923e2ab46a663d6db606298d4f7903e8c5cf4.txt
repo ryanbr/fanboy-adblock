@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.anti-malware.ru/reviews/AVG_Internet_Security_2012
+
+
+[filters]
+http://show.onenetworkdirect.com/digitalriver/337142.gif?e=arosawrpoonrst
+
+
+[other]
+
+
+[comments]
+nitrox
