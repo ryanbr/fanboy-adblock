@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vanityfair.com/
+
+
+[filters]
+http://www.vanityfair.com/custom/ebook-ad-bookbiz
+
+
+[other]
+
+
+[comments]
+nitrox
