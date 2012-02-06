@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.azcentral.com/members/Blog/FanBoy/87555
+
+
+[filters]
+http://www.azcentral.com/js/zagcookie_v20090520152516.js
+
+
+[other]
+
+
+[comments]
+nitrox
