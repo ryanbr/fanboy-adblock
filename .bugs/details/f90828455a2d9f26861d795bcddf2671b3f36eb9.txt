@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.theaustralian.com.au/travel/news/accept-airport-scan-or-drive/story-e6frg8ro-1226262838340
+
+
+[filters]
+http://www.wego.com/media/sites/wegobox/css/style-300x250.css
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
