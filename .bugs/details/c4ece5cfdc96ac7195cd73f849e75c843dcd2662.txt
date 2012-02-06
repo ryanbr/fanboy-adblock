@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vidigy.com/2011/12/28/mayra-suarez-mexican-fashion-model/
+
+
+[filters]
+http://vstat.vidigy.com/?js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
