@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.babesandkidsreview.com/2012/01/workout-with-the-biggest-loser-giveaway/
+
+
+[filters]
+https://d5pfnesb3enry.cloudfront.net/js/verify.js?element=div-gpt-ad-47762-0&height=250&width=300
+http://promoshq.wildfireapp.com/website/302/companies/231088/widget_loader
+http://widgets.savvysource.com/widgets/250by300t1/jquery.countdown.js
+http://widgets.savvysource.com/widgets/250by300t2/swfobject_modified.js
+http://widgets.savvysource.com/widgets/savvywidget/bg-timer.png
+http://widgets.savvysource.com/widgets/savvywidget/bg-widget_1.png
+https://d5pfnesb3enry.cloudfront.net/js/verify.js?element=div-gpt-ad-47762-0&height=250&width=300
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
