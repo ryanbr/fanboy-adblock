@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sysadmins.ru/
+
+
+[filters]
+http://cnx.id5.ru/source/915?rnd=212604845&smd
+
+
+[other]
+
+
+[comments]
+nitrox
