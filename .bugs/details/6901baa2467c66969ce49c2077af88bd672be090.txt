@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.startribune.com/sports/vikings/nfl/138750114.html
+
+
+[filters]
+http://www.startribune.com/includes/Omniture.H.24.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
