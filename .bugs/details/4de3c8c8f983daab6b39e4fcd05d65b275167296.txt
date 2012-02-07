@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pcmag.com/slideshow/story/293768/our-favorite-fictional-characters-on-twitter
+
+
+[filters]
+http://static.adziff.com/cse/js/1.1.8/zdcse.min.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
