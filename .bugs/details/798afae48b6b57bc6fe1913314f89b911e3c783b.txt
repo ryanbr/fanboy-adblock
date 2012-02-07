@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ideastorm.com/
+
+
+[filters]
+http://ejmtwebclt.us.dell.com/TAG/tag.aspx?host_name=www.ideastorm.com&date=2012-02-07&time=22:00:18&cs_uri_stem=/&cs_uri_query=&cs_cookie=&cs_Referer=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
