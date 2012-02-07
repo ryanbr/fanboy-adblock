@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://catalog.aport.ru/rus/themes.aspx?id=9736
+
+[filters]
+http://catalog.aport.ru/rus/b2bcontext.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
