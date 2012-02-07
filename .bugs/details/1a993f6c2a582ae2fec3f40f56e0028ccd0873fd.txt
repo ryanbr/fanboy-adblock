@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.teledeporteshd.com/2011/03/canal-de-las-estrellas-en-vivo.html
+
+
+[filters]
+http://www.mipagerank.com/images/mp11.gif
+http://www.mipagerank.com/mipagerank.php/www.teledeporteshd.com?d=
+http://www.teledeporteshd.com/b/stats?style=BLACK_TRANSPARENT&timeRange=ALL_TIME&token=rbzLWDUBAAA.mZczUANRDsMmpbkZBww0IuwW_LGYFFYxOf7abcCsmtc.E2LLacLCieGShr5g5OnN-A
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
