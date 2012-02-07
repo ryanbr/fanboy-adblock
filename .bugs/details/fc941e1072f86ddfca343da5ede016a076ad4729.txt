@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.businessinsider.com/take-a-look-inside-the-soviet-unions-gigantic-nuclear-equipped-ekanoplane-2012-1
+
+
+[filters]
+http://d.businessinsider.com/fl.js?1328154555
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
