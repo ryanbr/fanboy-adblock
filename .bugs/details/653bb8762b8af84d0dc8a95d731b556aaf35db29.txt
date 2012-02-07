@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.egelx.net/forum/musicos-109/114000-escuelas-y-conservatorios-guitarra.html
+
+
+[filters]
+http://egelito.info/block/locker.js?guid=54f20be5a5c58094
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
