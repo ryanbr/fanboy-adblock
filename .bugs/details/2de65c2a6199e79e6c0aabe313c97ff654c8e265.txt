@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://api.skype.com/detection/detection_as3.swf
+http://download.skype.com/share/skypebuttons/js/skypeCheck.js
+http://buttons.contactme.com/widgets/tab/v1/en/contact_right_dark.png?locale=en&r=http%3A%2F%2Fnews.ycombinator.com%2F&u=http%3A%2F%2Fwww.dailydisruption.com%2F2012%2F02%2Fwas-best-buy-i-created-super-bowl-commercial-inspired-by-silicon-valley-startup%2F&f=4e71f7070b68fb00010009e0&ha=right&va=middle&tx=Contact&lb=Contact&c=B50909&vid=135552d52b5e0e9
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
