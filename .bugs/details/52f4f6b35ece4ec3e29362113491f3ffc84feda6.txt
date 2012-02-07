@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gigaom.com/2012/02/06/is-volunia-italys-answer-to-google-or-just-hot-air/
+
+[filters]
+http://s1.wp.com/wp-content/themes/vip/gigaom/img/social-icon-packed_sprite.png?v=7
+http://s1.wp.com/wp-content/themes/vip/gigaom/plugins/go-social/images/small-social-icons.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
