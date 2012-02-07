@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hdreactor.org/
+
+
+[filters]
+http://real5traf.ru/js/hashbodyclick.php?id=2174
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
