@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.magya.ru/taro/index.asp
+
+
+[filters]
+http://468.gnezdo.ru/cgi-bin/banner/magyaru?13563
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=10585
+
+
+[comments]
+fanboy
