@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ru.redtram.com/go/347264797/n4p/297/8e8a89c8c4eae58531682201f5487907/?utm_source=297&utm_medium=347264797&utm_campaign=rtp&utm_content=grani.ru
+
+
+[filters]
+http://css.redtram.com/redtram.css
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
