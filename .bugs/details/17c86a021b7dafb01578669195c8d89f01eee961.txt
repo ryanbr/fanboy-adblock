@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fastcompany.com/1813684/inside-super-bowl-social-media-command
+
+
+[filters]
+http://www.fastcompany.com/sites/all/themes/fc_v1/images/social-icons/google+.gif
+http://www.fastcompany.com/sites/all/themes/fc_v1/images/social-icons/social-linkedin.png
+http://www.fastcompany.com/sites/all/themes/fc_v1/images/social-icons/social-tumblr.gif
+http://www.fastcompany.com/sites/all/themes/fc_v1/images/social-icons/social-youtube.gif
+http://www.fastcompany.com/sites/all/themes/fc_v1/scripts/interstitial.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
