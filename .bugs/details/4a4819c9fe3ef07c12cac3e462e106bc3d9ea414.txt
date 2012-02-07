@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://taro.orakul.com/
+
+
+[filters]
+http://orakul.com/_informers/rozetka_taro.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
