@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hotbot.com
+
+
+[filters]
+http://ly.lygo.com/ly/hotbot2/js/jquery.lycostrack.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
