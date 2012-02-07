@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sfgate.com/cgi-bin/article.cgi?f=/g/a/2012/02/05/prweb9166855.DTL
+
+
+[filters]
+http://dailydeals.sfgate.com/widget/tall_plus_0002/iframe
+http://sfgate.kaango.com/ads/custom-widget?dimention=vertical&rowscols=1&numAds=4&borderColor=FFFFFF&bgColor=FFFFFF&linkColor=&fontSize=10&fontFamily=arial&photosOnly=1&title=1&thumbnail=1&originPower=1&categoryID=0&createTime=168
+http://sfgate.kaango.com/feCustomWidgetDisplay/dimention=vertical&rowscols=1&numAds=4&borderColor=FFFFFF&bgColor=FFFFFF&linkColor=&fontSize=10&fontFamily=arial&photosOnly=1&title=1&thumbnail=1&originPower=1&categoryID=0&createTime=168
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
