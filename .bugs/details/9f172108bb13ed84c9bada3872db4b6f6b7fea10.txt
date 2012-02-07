@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cdn.mediatakeout.com/54047/kelly-rowland-is-photo-d-on-the-red-carpet-and-she-may-is-one-of-very-few-chicks-in-the-game-who-is-on-rihanna-s-level.html
+
+
+[filters]
+http://mto.mediatakeout.com/viewer?post=54047
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
