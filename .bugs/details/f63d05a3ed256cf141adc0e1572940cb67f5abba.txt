@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dailydisruption.com/2012/02/was-best-buy-i-created-super-bowl-commercial-inspired-by-silicon-valley-startup/
+
+
+[filters]
+http://www.dailydisruption.com/wp-content/plugins/jetpack/modules/sharedaddy/images/email.png
+http://www.dailydisruption.com/wp-content/plugins/jetpack/modules/sharedaddy/images/loading.gif
+http://www.dailydisruption.com/wp-content/plugins/jetpack/modules/sharedaddy/images/print.png
+http://www.dailydisruption.com/wp-content/plugins/jetpack/modules/sharedaddy/images/share-bg.png
+http://www.dailydisruption.com/wp-content/plugins/jetpack/modules/sharedaddy/images/sharing-hidden.png
+http://www.dailydisruption.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js?ver=0.1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
