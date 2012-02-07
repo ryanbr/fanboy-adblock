@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.knigka.info/
+
+
+[filters]
+http://pv.bookarchive.ru/pv/badda58ccb/
+http://pv.bookarchive.ru/pv/imagetag/cc234e0bc5/badda58ccb/?r=149064
+http://pv.bookarchive.ru/pv/x/badda58ccb/?r=0.7259461842019393
+http://pv.bookarchive.ru/pv/x/badda58ccb/?r=0.8165835819648275
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
