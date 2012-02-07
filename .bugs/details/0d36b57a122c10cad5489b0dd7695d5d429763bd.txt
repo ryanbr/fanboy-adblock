@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mtv.com/news/articles/1678575/super-bowl-commercials-21-jump-street.jhtml
+
+
+[filters]
+http://activity.flux.com/geo.html?_=1328578865381
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
