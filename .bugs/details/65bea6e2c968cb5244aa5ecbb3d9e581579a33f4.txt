@@ -1,0 +1,28 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mnn.com/health/fitness-well-being/blogs/std-rates-skyrocketing-among-seniors
+
+
+[filters]
+http://www.mnn.com/sites/default/files/imagecache/298x250/foam-cup-300x250.jpg
+http://www.mnn.com/sites/default/files/imagecache/298x250/green-committee2-300x250.jpg
+http://www.mnn.com/sites/default/files/imagecache/298x250/healthy-duck-300x250.jpg
+http://www.mnn.com/sites/default/files/imagecache/298x250/rain-barrel-300x250.jpg
+http://www.mnn.com/sites/default/files/imagecache/298x250/sqft-garden-300x250.jpg
+http://www.mnn.com/sites/default/files/imagecache/55x50/foam-cup-300x250.jpg
+http://www.mnn.com/sites/default/files/imagecache/55x50/green-committee2-300x250.jpg
+http://www.mnn.com/sites/default/files/imagecache/55x50/healthy-duck-300x250.jpg
+http://www.mnn.com/sites/default/files/imagecache/55x50/rain-barrel-300x250.jpg
+http://www.mnn.com/sites/default/files/imagecache/55x50/sqft-garden-300x250.jpg
+
+
+
+
+[other]
+fp
+
+
+[comments]
+fanboy
