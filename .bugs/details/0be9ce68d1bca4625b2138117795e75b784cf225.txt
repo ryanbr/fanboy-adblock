@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://adage.com/datacenter/videoposter2011/
+
+
+[filters]
+http://gaia.adage.com/scripts/s_crainsc.js?1325165100
+
+
+[other]
+
+
+[comments]
+nitrox
