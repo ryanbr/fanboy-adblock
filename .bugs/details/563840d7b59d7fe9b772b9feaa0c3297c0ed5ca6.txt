@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rus.delfi.ee/
+
+
+[filters]
+http://t.delfi.ee/_d?s=rus&u=http%3A//rus.delfi.ee/&h=&r=&t=1328691609430
+http://t.delfi.ee/_p?d=12.507&l=15.707&h=1.306&p=1.306&s=rudelfi&a=firefox/12
+
+
+[other]
+
+
+[comments]
+nitrox
