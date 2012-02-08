@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mizozo.com/
+
+
+[filters]
+http://cdnbakmi.kaltura.com/content/uiconf/ps/abc/kdp3/v3.5.9.2/plugins/omniturePlugin_8_29.swf
+
+
+[other]
+
+
+[comments]
+nitrox
