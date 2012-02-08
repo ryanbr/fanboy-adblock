@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.expedia.co.uk/
+
+
+[filters]
+http://www.expedia.co.uk/static/default/default/scripts/external/npssurvey/npssurvey.js
+
+
+[other]
+
+
+[comments]
+nitrox
