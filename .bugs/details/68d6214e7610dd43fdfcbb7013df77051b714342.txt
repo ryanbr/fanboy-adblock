@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://whipup.net/
+
+
+[filters]
+http://www.igloohq.com/client/agdpZ2xvb2hxch4LEhZhZHNfYWR2ZXJ0aXNpbmdzZWN0aW9uGPGrAQw.js
+http://www.igloohq.com/client/agdpZ2xvb2hxch4LEhZhZHNfYWR2ZXJ0aXNpbmdzZWN0aW9uGPf7Aww.js
+http://www.igloohq.com/client/agdpZ2xvb2hxchwLEhZhZHNfYWR2ZXJ0aXNpbmdzZWN0aW9uGAMM.js
+http://www.igloohq.com/image/agdpZ2xvb2hxchILEglhZHNfaW1hZ2UY09PWAgw
+http://www.igloohq.com/image/agdpZ2xvb2hxchILEglhZHNfaW1hZ2UY8o3oAgw
+http://www.igloohq.com/image/agdpZ2xvb2hxchILEglhZHNfaW1hZ2UYhPrhAgw
+http://www.igloohq.com/image/agdpZ2xvb2hxchILEglhZHNfaW1hZ2UYk-7qAgw
+http://www.igloohq.com/media/17.0/combined/client.css
+http://www.igloohq.com/media/iglooClient.js
+
+
+[other]
+
+
+[comments]
+nitrox
