@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dice.com/
+
+
+[filters]
+http://partner.techpapers.com/interstitial/impressioncount.aspx?promo=111186&pub_id=10391,10395
+
+
+[other]
+
+
+[comments]
+nitrox
