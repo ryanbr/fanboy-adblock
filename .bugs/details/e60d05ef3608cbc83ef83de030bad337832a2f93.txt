@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://creativity-online.com/work/sports-illustrated-super-bowl-gigapan/26209
+
+
+[filters]
+http://creativity-online.com/js/s_crainsc.js?1325276140
+
+
+[other]
+
+
+[comments]
+nitrox
