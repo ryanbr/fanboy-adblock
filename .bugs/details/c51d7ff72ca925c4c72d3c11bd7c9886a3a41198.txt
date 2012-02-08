@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yelp.ca/biz/kirin-seafood-restaurant-vancouver-2
+http://www.yelp.com.au/biz/the-queen-victoria-building-sydney
+http://www.yelp.ie/biz/chapters-bookstore-dublin
+
+
+[filters]
+http://www.yelp.ca/spice?r=ccca2ce975aa4604
+http://www.yelp.com.au/spice?r=9a6a7364fc8e4f8d
+http://www.yelp.ie/spice?r=a290a8d36d28ee04
+
+
+[other]
+
+
+[comments]
+nitrox
