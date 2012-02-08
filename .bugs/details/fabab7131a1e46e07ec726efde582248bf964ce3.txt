@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.collegehumor.com/picture/6189969
+
+
+[filters]
+http://voss.collegehumor.com/js/voss.js
+
+
+[other]
+
+
+[comments]
+nitrox
