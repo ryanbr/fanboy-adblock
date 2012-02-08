@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://erbank.com/cz/articles/term-form
+
+
+[filters]
+http://erbank.com/banners/stahnout_zadost.gif
+
+
+
+
+[other]
+fp
+
+[comments]
+fanboy
