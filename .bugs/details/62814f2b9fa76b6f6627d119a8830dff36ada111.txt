@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thepleasurechest.com/
+http://www.goodvibes.com/display_product.jhtml?id=12AH37&src=gv&ref=gvref&mall=straight&oldmref=RSS&mref=RSS
+
+
+[filters]
+http://affiliates.goodvibes.com/MAPProc.aspx?&curUrl=http%3A//www.goodvibes.com/display_product.jhtml%3Fid%3D12AH37%26src%3Dgv%26ref%3Dgvref%26mall%3Dstraight%26oldmref%3DRSS%26mref%3DRSS&refUrl=&c=24&sw=1600&sh=1200&winid=&ow=1&cookies=1
+http://affiliates.thepleasurechest.com/MAPProc.aspx?&curUrl=http%3A//www.thepleasurechest.com/&refUrl=&c=24&sw=1600&sh=1200&winid=&ow=1&cookies=1
+
+
+[other]
+
+
+[comments]
+nitrox
