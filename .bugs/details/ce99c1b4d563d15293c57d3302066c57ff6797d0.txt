@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+https://9gag.com/
+
+[filters]
+# Copy your Adblock filters here
+http://d24w6bsrhbeh9d.cloudfront.net/js/FB.Share.1.0.2.js
+
+
+
+[other]
+# Any other details
+manual loading at the end of the page was not working
+
+[comments]
+# Leave your username
+vinny
