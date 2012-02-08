@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.3news.co.nz/Campbell-Live-enters-Kim-Dotcoms-Coatesville-mansion/tabid/367/articleID/242116/Default.aspx
+
+
+[filters]
+http://ad.au.doubleclick.net/pfadx/www.3news.co.nz;sz=512x288;sect=video-player;genre=campbelllive;show=undefined;tile=1;kw=videotest;ord=933177894?
+http://ad.au.doubleclick.net/pfadx/www.3news.co.nz;sz=512x288;sect=video-player;genre=campbelllive;show=undefined;tile=1;sponsor=true;ord=829841787?
+
+
+[other]
+
+
+[comments]
+nitrox
