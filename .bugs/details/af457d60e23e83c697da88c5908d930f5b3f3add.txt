@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.oscars.org/
+
+
+[filters]
+http://www.oscars.org/scripts/wt_include1.js
+http://www.oscars.org/scripts/wt_include2.js
+
+
+[other]
+
+
+[comments]
+nitrox
