@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.atdhe.al/
+
+
+[filters]
+http://www.albsports.altervista.org/live/ads300.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
