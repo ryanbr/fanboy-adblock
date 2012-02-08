@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.advertising.com/publisher/overview
+
+
+[filters]
+http://leadback.advertising.com/adcedge/lb?site=695501&betr=adcompub_cs=[+]1[720]
+
+
+[other]
+
+
+[comments]
+nitrox
