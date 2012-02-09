@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.torrentino.com/torrents/589286
+
+
+[filters]
+http://levrico.com/teasers/html/183/4866.ifr.js
+http://levrico.com/api/topl/183/4866.js
+http://levrico.com/js/loader.js
+
+
+[other]
+
+
+[comments]
+nitrox
