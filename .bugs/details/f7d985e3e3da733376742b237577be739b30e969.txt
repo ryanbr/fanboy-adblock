@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ashleyrnadison.com/A17132+THAdultSource9
+
+
+[filters]
+http://www.ashleymadison.com/app/public/track.p?ac=7132&keywords=THAdultSource9
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
