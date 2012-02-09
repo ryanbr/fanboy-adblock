@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mylivepage.ru/
+
+
+[filters]
+http://stat001.mylivepage.com/counters/3.gif?ui=3&ci=2&dn=www.mylivepage.ru&un=ru.mylivepage.ru&lg=ru&visitorid=88&stid=0&stdb=0&color1=9EDFFF&color2=656565&color3=000000&color4=50999F&color5=FFFFFF&turn_on=on&img=0&0.4968488779753383&r=&pg=http%3A//www.mylivepage.ru/&c=Y&uniq=T&j=N&wh=1600x1200&px=24&js=1.3&
+
+
+[other]
+
+
+[comments]
+nitrox
