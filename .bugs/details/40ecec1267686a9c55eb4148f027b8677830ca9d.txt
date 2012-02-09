@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hecklerspray.com/the-goonies-2-will-it-be-funny-to-see-a-fully-grown-man-truffle-shuffling/200815545.php
+
+[filters]
+http://twitter.com/account/rate_limit_status.json?callback=jsonp1328790026434&_=1328790026518
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
