@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.novayagazeta.ru/economy/50925.html
+
+
+[filters]
+http://www.novayagazeta.ru/views_counter/?id=50925&class=NovayaGazeta::Content::Article&0.456855341197394
+
+
+[other]
+
+
+[comments]
+nitrox
