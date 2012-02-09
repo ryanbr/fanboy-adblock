@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://9gag.com/
+
+
+[filters]
+http://d24w6bsrhbeh9d.cloudfront.net/js/FB.Share.1.0.2.js
+
+
+
+
+[other]
+improve filter
+
+
+[comments]
+fanboy
