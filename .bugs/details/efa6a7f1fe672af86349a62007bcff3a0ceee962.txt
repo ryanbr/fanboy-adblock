@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://porn-and-sex.com/
+
+
+[filters]
+http://carolporn.com/VHDpoppingModels/poppingModels.js
+http://carolporn.com/VHDpoppingModels/swfobject.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
