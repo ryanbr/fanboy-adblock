@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://au.ign.com/
+
+
+[filters]
+http://atax.ign.com/site=ign&dechannel=ign&aggregate=country_au_IGN+IGN.com&country2=au&random=1328789166753&property=ign&ct=js&network=au&channel_id=58&size=1x1&rsi_segs=&hosted_id=0&PageId=1328789166753&name=ATAtracker&subdomain=au.ign.com&pagetype=channel&pagetype=channel&server=media-cms-prd-textinj-03.las1.colo.ignops.com&src=wrapper&reginsider=a&
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
