@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://soft.mydiv.net/win/download-uTorrent.html
+
+
+[filters]
+http://ruad.net/show/?block_id=2&r=&84822
+
+
+[other]
+
+
+[comments]
+nitrox
