@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://welovegfs.com/
+
+
+[filters]
+http://ad.adperiun.com/842
+http://ad.adperiun.com/px.asp
+http://ad.favod.net/
+http://syndication.exoclickz.com/splash.php?cat=97&idsite=75685&idzone=126010&login=lexyx82&type=411
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
