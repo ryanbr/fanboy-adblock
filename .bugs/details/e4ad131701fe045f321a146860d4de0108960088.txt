@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ng.ru/politics/2012-02-09/3_putin.html
+
+
+[filters]
+http://www.ng.ru/scripts/tizer?11:5
+http://www.ng.ru/scripts/tizer?1:0
+
+
+[other]
+
+
+[comments]
+nitrox
