@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://potomy.ru/
+
+
+[filters]
+http://click-baby.ru/jsearch.php?w=30849&t1=1&t2=3&t3=205&t4=330&t5=ffffff&t6=0&t7=000000&t8=5&t9=0&t10=666666&t11=1&t12=90&t13=5&t14=1&t15=000000&t16=2&t17=13&t18=333333&t19=ff0000&t20=1&rnd=6712
+
+
+[other]
+
+
+[comments]
+nitrox
