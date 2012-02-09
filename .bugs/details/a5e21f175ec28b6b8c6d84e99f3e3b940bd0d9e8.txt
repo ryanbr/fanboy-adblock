@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.abouttubes.com/
+
+
+[filters]
+http://www.etrafficstats.com/99e2653f-1e6a-452e-bdc2-e4a5f06705e8.ippi?g=99e2653f-1e6a-452e-bdc2-e4a5f06705e8
+http://www.etrafficstats.com/?VFJDSz0xMjM1
+http://www.etrafficstats.com/css/style.css?rte=1&tm=2&dn=etrafficstats.com&tid=516&def=Akamai%3aHostingURL%3dhttp%3a%2f%2fi.nuseek.com%7cParking%3aSkinPath%3divyleague%7cBdyStyl%3aPageBackgroundColor%3d%23fff%7cBdyStyl%3aFont%3darial%7cBdyStyl%3aFontSize%3d12%7cBdyStyl%3aFontColor%3d%230e5fd8%7cBdyStyl%3aPrimaryColor%3d%231b5709%7cBdyStyl%3aPrimaryColorComplement%3d%23fff%7cBdyStyl%3aSecondaryColor%3d%23c44242%7cBdyStyl%3aSecondaryColorComplement%3d%23edc6c6%7cBdyStyl%3aTertiaryColor%3d%23f3f3f3%7cBdyStyl%3aTertiaryColorComplement%3d%23476ec7%7cPgHdr%3aFontSize%3d18%7cPgHdr%3aFont%3dVerdana%7cRelLink%3aFont%3darial%7cRelLink%3aFontSize%3d14%7cRelLink%3aFontColor%3d%23476ec7%7cRelLink%3aHoverFontColor%3d%23c03625%7cRelLink%3aBackgroundColor%3d%23fafad9%7cRelLink%3aDividerColor%3d%23e2dfb8%7cRelLink%3aHoverBackgroundColor%3d%23fbfbf5%7cRelLink%3aImagePath%3d%2fimages%2fThemes%2fT101%2fbullets%2f0006.gif%7cRelLink%3aImageWidth%3d10%7cRelLink%3aImageHeight%3d10%7cBottomNav%3aImagePath%3d%2fimages%2fThemes%2fT101%2fbullets_9x9%2f0006.gif%7cResult%3aImagePath%3d%2fimages%2fThemes%2fT101%2fbullets%2f0006.gif%7cResult%3aHeaderFont%3darial%7cResult%3aHeaderFontSize%3d12%7cResult%3aHeaderFontColor%3d%23000%7cResult%3aTitleFont%3darial%7cResult%3aTitleFontSize%3d16%7cResult%3aTitleFontColor%3d%2300c%7cResult%3aAbstractFont%3darial%7cResult%3aAbstractFontSize%3d12%7cResult%3aAbstractFontColor%3d%23000%7cResult%3aURLFont%3darial%7cResult%3aURLFontSize%3d12%7cResult%3aURLFontColor%3d%23008000%7cResult%3aSidebarBorderColor%3d%23ccc%7cSrchBox%3aImagePath%3d%2fimages%2fThemes%2fT101%2fbuttons%2f0006.gif%7cSrchBox%3aImageWidth%3d60%7cSrchBox%3aImageHeight%3d22%7cSrchBox%3aAlign%3dright%7cSearchLinkGroup%3aHoverLinkColor%3d%23ff9%7cUsrCust%3aFontType%3dverdana%7cUsrCust%3aFontSize%3d11%7cUsrCust%3aFontColor%3d%23666%7cUsrCust%3aLinkColor%3d%230e5fd8
+http://www.etrafficstats.com/etrafficstats.com.js
+http://www.etrafficstats.com/js/json.js?rte=1&tm=2&dn=etrafficstats.com&tid=516
+http://www.fpctraffic2.com/raw/click.cgi?account=bt8888&track=A
+http://www.fpctraffic2.com/raw/click_next.cgi?account=bt8888
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
