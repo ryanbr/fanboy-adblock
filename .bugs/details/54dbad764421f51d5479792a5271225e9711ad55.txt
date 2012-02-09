@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.debilizator.tv/tv.cgi?kanal=7
+
+
+[filters]
+http://www.debilizator.tv/jscripts/livecounter.js
+
+
+[other]
+
+
+[comments]
+nitrox
