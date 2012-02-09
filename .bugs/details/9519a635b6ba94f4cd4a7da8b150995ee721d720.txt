@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.247amateurvideos.com/
+
+
+[filters]
+http://adprotraffic.com/as.js?id=10236&layout=horizontal
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
