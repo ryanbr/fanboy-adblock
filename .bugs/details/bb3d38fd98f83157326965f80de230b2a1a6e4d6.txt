@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.sportbox.ru/Vidy_sporta/Hokkej/Team_Russia/spbnews_NI291047_Barulin-propustit-SHvedskie-igri?ref=_32_
+
+
+[filters]
+http://s.s-ports.ru/i/PartnerNews-right-code-1.html
+
+
+[other]
+
+
+[comments]
+nitrox
