@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://au.pc.ign.com/articles/121/1218176p1.html
+
+
+[filters]
+http://scripts.snowball.com/scripts/images/pixy.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
