@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ml.com/index.asp?id=7695_15125
+
+
+[filters]
+http://etui.fs.ml.com/enterprisetagging/et.ashx?tagkey=0&requrl=http%3A%2F%2Fwww.ml.com%2Findex.asp%3Fid%3D7695_15125&refurl=http%3A%2F%2Fadzilla.fanboy.co.nz%2Fphp3%2Fdetails.php%3Fid%3D11347&AppSesKey=&Res=1920x1080&BrowSize=1920x976&site_id=MLCOM&ct=1328790754397
+http://etui.fs.ml.com/enterprisetagging/getcookie.ashx?a=1328790753596
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
