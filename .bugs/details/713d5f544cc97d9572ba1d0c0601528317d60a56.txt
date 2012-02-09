@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pagesjaunes.fr/
+
+
+[filters]
+http://col001.ip-label.net/Data/coll.aspx?jfhYhRc7PziWR0ZO%2BNRhlStMv6B83dl7nild7mUytiL0DvPVuM6H0PIl5HdyqkROlefc0oYbDdgbWGzAZj42inXOHO3DsVKS6XlANUO7XoGf4qr2tIMOEbI9rvtI9DGEFm2lIVba61JP9fE1qhDoalU3SVRQf3yyRmOPvY8NHjiu6aLmcxnfyS0mWMCboLQcPJ3osjADIZ36kZYtbxyuDjzFleX%2BKc%2F8fqG8eJ0FbdtFcTW4DUaFalL7uMbAGeQmKyTJ8kyyll0IhvBHI10z3wEzK2EVnCrtxGBY0r9ELrOO1WQ89IHSmg%3D%3D
+http://logc257.at.pagesjaunes.fr/hit.xiti?s=496310&s2=&p=dom_hp_yes&rn=1328788779605&Rdt=On
+http://p.pagesjaunes.fr/js/212012198557.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
