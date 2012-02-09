@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://torrents-2010.ucoz.ru/
+
+
+[filters]
+http://torrents-2010.ucoz.ru/rtr/2-1
+
+[other]
+
+
+[comments]
+nitrox
