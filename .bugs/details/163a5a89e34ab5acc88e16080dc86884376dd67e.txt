@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.somethingawful.com/d/photoshop-phriday/magazine-advertisements-2.php?page=2
+
+
+[filters]
+http://i.somethingawful.com/inserts/articlepics/photoshop/04-04-02-ads/FakeOut_corn.jpg
+http://i.somethingawful.com/inserts/articlepics/photoshop/04-04-02-ads/Inky_brainslug.jpg
+http://i.somethingawful.com/inserts/articlepics/photoshop/04-04-02-ads/Inky_brainslug2.jpg
+http://i.somethingawful.com/inserts/articlepics/photoshop/04-04-02-ads/fraggingfreak_banana.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
