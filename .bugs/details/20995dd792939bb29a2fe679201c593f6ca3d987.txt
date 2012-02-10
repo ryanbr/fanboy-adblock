@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://hg.fanboy.co.nz/rev/56d996cfa1a9
+http://hg.fanboy.co.nz/rev/502757dec68d
+
+[filters]
+# Copy your Adblock filters here
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+vinny
