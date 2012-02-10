@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.helpvids.com/video/586/How-to-email-a-youtube-link-to-a-friend
+
+[filters]
+http://www.helpvids.com/js/anyad.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
