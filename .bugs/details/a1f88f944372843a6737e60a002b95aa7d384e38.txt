@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://reporter.delfi.lv/news/witness/brodyachie-sobaki-kotoryh-net-napali-na-domashnego-psa-video.d?id=42091590&video=1%23video
+
+
+[filters]
+@@||delfilv.adocean.pl/files/js/ado.js
+@@||delfilv.adocean.pl^*/ad.js?*fv=Shockwave%20Flash
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=10668
+
+[comments]
+fanboy
