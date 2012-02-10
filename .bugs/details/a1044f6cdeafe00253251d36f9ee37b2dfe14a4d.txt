@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.starobserver.com.au/
+
+
+[filters]
+http://www.starobserver.com.au/wp-content/themes/gazette/ads/125L.php
+http://www.starobserver.com.au/wp-content/themes/gazette/ads/125R.php
+http://www.starobserver.com.au/wp-content/themes/gazette/ads/468.php
+http://www.starobserver.com.au/wp-content/themes/gazette/ads/468m.php
+http://www.starobserver.com.au/wp-content/themes/gazette/ads/728.php
+http://www.starobserver.com.au/wp-content/themes/gazette/ads/728b.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
