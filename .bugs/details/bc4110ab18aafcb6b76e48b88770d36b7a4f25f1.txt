@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.stylebistro.com/lookbook/Nia+Long/9uNFVcUnjHm/Hair
+
+
+[filters]
+http://www1.static.zimbio.com/images/stylebistro_flame_semi-dark_184x78.gif
+http://www1.static.zimbio.com/loader/19544.69.base__core_black__pictures__share_bar__color_black_style__YmFzZWNvcmV__.css
+http://www1.static.zimbio.com/loader/19544.69.library__loader__analytics__prototype_170__bGlicmFyeWx__.js
+http://www1.static.zimbio.com/loader/19544.69.lookbook__zine_base__photo_header__bG9va2Jvb2t__.css
+http://www1.static.zimbio.com/stylebistro_favicon.ico
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
