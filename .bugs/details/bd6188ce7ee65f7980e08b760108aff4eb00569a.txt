@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+https://chrome.google.com/webstore/detail/iheobladblmphoggmehhahdfikpbilnj?gl=001&hl=en
+
+[filters]
+# Copy your Adblock filters here
+||google.com/js/plusone.js$third-party
+most likely a ABP bug ?
+
+[other]
+# Any other details
+breaks the webpage
+
+[comments]
+# Leave your username
+vinny
