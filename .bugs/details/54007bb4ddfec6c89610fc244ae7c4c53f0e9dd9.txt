@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://weheartit.com/entry/12933353#random
+
+
+[filters]
+http://stats.whicdn.com/script.js
+http://weheartit.com/javascripts/mf_weheartit.js
+http://weheartit.com/javascripts/pageviews-counter-v2.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
