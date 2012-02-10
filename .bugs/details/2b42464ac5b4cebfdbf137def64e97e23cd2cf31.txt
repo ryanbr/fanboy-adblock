@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nevatravel.ru/
+
+
+[filters]
+http://image.realweb.ru/cgi-bin-test/?id=3&sz=1&rnd=982560707&tail256=unknown
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
