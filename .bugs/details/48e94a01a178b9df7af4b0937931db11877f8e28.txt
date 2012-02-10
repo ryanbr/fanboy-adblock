@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+https://chrome.google.com/webstore/detail/pcflmbddgcmomcfngehfhlajjapabojh?gl=001&hl=en
+
+[filters]
+# Copy your Adblock filters here
+
+
+
+
+[other]
+# Any other details
+breaks website in chrome ?
+
+[comments]
+# Leave your username
+vinny
