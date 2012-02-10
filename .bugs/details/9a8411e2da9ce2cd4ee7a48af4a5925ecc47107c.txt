@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tvcatchup.com/watch.html?c=4
+
+
+[filters]
+http://dc.tremormedia.com/crossdomain.xml
+http://inskinad.com/ISAPAdServer/AdS.aspx?callback=jsonp1328916082970&_=1328916086389&vstrCampaignData=srv_Keywords%3Dchannel4london%2Crudetube%3Alovebytes%2Cgeneralshow%2Cgameshow%2Cmale%26srv_UseSAS%3Dfalse%26srv_TVCInSkinID%3D124039%26srv_TVCIRollID%3D124100%26srv_TVCInSkinIDMap%3D%5Bobject+Object%5D%26srv_TVCIRollIDMap%3D%5Bobject+Object%5D%26srv_UserID%3D4621%26srv_SessionID%3D370801%26srv_Resolution%3D1600%26srv_SectionID%3D124100&method=GetCampaignInformationFromUserData
+http://inskinad.com/ISAPAdServer/AdS.aspx?callback=jsonp1328916082972&_=1328916087562&vstrCampaignData=srv_Keywords%3Dchannel4london%2Crudetube%3Alovebytes%2Cgeneralshow%2Cgameshow%2Cmale%26srv_UseSAS%3Dfalse%26srv_TVCInSkinID%3D124039%26srv_TVCIRollID%3D124100%26srv_TVCInSkinIDMap%3D%5Bobject+Object%5D%26srv_TVCIRollIDMap%3D%5Bobject+Object%5D%26srv_UserID%3D4621%26srv_SessionID%3D370801%26srv_Resolution%3D1600%26srv_SectionID%3D124039&method=GetCampaignInformationFromUserData
+
+[other]
+Remove redundant whitelist filter @@||adserver.tvcatchup.com^$object-subrequest
+
+[comments]
+nitrox
