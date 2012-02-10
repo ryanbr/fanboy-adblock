@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.travel.ru/
+
+
+[filters]
+http://swa.turbiznes.info/GetResource/139
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=10676
+
+
+[comments]
+fanboy
