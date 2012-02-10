@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cn.ru/
+
+
+[filters]
+http://s2.cn.ru/js/ga.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
