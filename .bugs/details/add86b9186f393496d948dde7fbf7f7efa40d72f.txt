@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.taringa.net/posts/videos/13953063/Comercial-para-_Resident-Evil-Revelations_.html
+
+
+[filters]
+http://o1.t26.net/images/anunciantes/ARG_taringa_640x35_oro_dorado.jpg
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10672
+
+
+[comments]
+fanboy
