@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.excite.com/
+
+
+[filters]
+http://docs1.excite.com/gca_iframe.html?mexBdyTxt=000000&mexBdyBgImg=&mexBdyFntSz=10&mexContBg=FFFFCC&mexBdyLnk=000066&mexBdyLnkForce=FF0000&isExHP&usc=1&c=excite_excite_home_js&w=competitive%20intelligence,credit%20report,home%20mortgage,investment%20strategy,mutual%20fund,online%20broker,options%20trading,portfolio%20management,refinance,stock%20trading,trading%20software,high%20speed%20internet,drug%20prescriptions,SUV,phone%20service,computer%20training
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
