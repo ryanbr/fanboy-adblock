@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://www.entrepreneurshipsecret.com/
+
+[filters]
+# Copy your Adblock filters here
+http://www.flymyads.com/templates/frameads_h.php?adid=1111181159243
+http://www.flymyads.com/templates/frameads_v.php?adid=1111181109061
+http://www.flymyads.com/javascripts/adsserver.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+vinny
