@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.helpix.ru/
+
+
+[filters]
+http://img.helpix.ru/pic/point/white.gif?stat-all28563
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
