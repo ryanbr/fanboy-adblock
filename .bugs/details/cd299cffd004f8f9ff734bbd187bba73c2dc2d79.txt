@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.twitch.tv/gunnaroptiks?utm_campaign=frontpage_player_click&utm_source=http://www.twitch.tv/&utm_content=gunnaroptiks
+
+[filters]
+http://stats.jtvnw.net:1935/483800?partner_program_preroll&skin_type=site&flash_lang=en-us&host=www.twitch.tv&geo=us&category=gaming&page_type=channel&language=en&channel=gunnaroptiks
+http://stats.jtvnw.net:443/346206?preroll_skipped&language=en&publisher_geo=US&is_private=false&is_pro_user=false&is_subscriber=false&page_type=channel&host=www.twitch.tv&program=producer&category=gaming&player_type=site&subcategory=null&pageUrl=http%3A%2F%2Fwww.twitch.tv%2Fgunnaroptiks%3Futm_campaign%3Dfrontpage_player_click%26utm_source%3Dhttp%3A%2F%2Fwww.twitch.tv%2F%26utm_content%3Dgunnaroptiks&viewer_geo=us&reason=preroll_delay&flash_lang=en-us&ip=69.163.45.13&consumer_key=null&geo=us&subscription_program=false&meta_game=Call%20of%20Duty%3A%20Modern%20Warfare%203&channel=gunnaroptiks
+http://stats.jtvnw.net/211157?delayed_preroll_skipped&language=en&publisher_geo=US&is_private=false&is_pro_user=false&is_subscriber=false&page_type=channel&host=www.twitch.tv&program=producer&category=gaming&player_type=site&subcategory=null&pageUrl=http%3A%2F%2Fwww.twitch.tv%2Fgunnaroptiks%3Futm_campaign%3Dfrontpage_player_click%26utm_source%3Dhttp%3A%2F%2Fwww.twitch.tv%2F%26utm_content%3Dgunnaroptiks&viewer_geo=us&reason=ad_requested&flash_lang=en-us&ip=69.163.45.13&consumer_key=null&geo=us&subscription_program=false&meta_game=Call%20of%20Duty%3A%20Modern%20Warfare%203&channel=gunnaroptiks
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
