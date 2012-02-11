@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://eu.wiley.com/WileyCDA/
+
+
+[filters]
+http://www.josseybass.com/include/smart_source_8/dcs_8.6.2.js
+http://eu.wiley.com/include/smart_source_8/dcs_8.6.2.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10712
+
+
+[comments]
+fanboy
