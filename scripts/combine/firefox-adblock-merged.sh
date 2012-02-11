@@ -24,7 +24,7 @@ ZIP="/usr/local/bin/7za"
 
 # Trim off header file (first 2 lines)
 #
-sed '1,2d' $GOOGLEDIR/enhancedstats-addon.txt > $TESTDIR/fanboy-enhanced.txt
+sed '1,2d' $MAINDIR/enhancedstats.txt > $TESTDIR/fanboy-enhanced.txt
 sed '1,2d' $GOOGLEDIR/fanboy-adblocklist-addon.txt > $TESTDIR/fanboy-addon.txt
 sed '1,2d' $MAINDIR/fanboy-tracking-complete.txt > $TESTDIR/fanboy-complete.txt
 
