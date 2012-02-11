@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.etsy.com/shop/Beeswic?ref=*
+
+
+[filters]
+http://img2.etsystatic.com/000/0/0/iusb_760x100.9311366.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
