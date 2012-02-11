@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://787433e9.allanalpass.com/
+
+
+[filters]
+http://staging.engine.adsupply.com/siteTag.html?rnd=0.7760559637342207
+
+
+[other]
+
+
+[comments]
+nitrox
