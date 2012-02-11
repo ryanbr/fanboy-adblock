@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://carnegieendowment.org/
+
+
+[filters]
+http://carnegieendowment.org/js/jquery.gatracker.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
