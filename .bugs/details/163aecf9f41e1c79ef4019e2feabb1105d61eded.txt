@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://financialedge.investopedia.com/financial-edge/0410/The-Economics-Of-Summer-Blockbuster-Movies.aspx
+
+
+[filters]
+http://i.investopedia.com/inv/js/pixelTargetingCacheBuster.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10717
+
+
+[comments]
+fanboy
