@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://zewspro.ru/
+
+
+[filters]
+http://poptrag.ru/monetizer/js/relink2.js
+http://tizer-bazar.com/tizer/web/start.cgi?w=engine_show&user=100&site=106
+http://tizer-bazar.com/tizer/web/start.cgi?w=engine_show&user=100&site=218
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=10694
+
+
+[comments]
+fanboy
