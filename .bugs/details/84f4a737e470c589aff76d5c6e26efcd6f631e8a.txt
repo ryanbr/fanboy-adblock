@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cfr.org/
+
+
+[filters]
+http://www.cfr.org/js/h_code.1.php
+http://www.cfr.org/js/ga.1327977200.js
+
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10702
+
+
+[comments]
+fanboy
