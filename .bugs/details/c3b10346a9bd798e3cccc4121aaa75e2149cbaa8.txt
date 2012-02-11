@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tv.liberoquotidiano.it/video/105216/Schettino-I-passeggeri-scendono-Vabbu%C3%B2.html
+
+
+[filters]
+http://cdn1.eyewonder.com/200125/video/79969/fl8_IT_ImpresaTerritori_InStream_660x420-300.flv
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
