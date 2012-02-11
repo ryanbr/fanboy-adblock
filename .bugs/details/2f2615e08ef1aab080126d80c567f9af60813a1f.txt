@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cadenasuper.com/player/
+
+[filters]
+block:
+http://184.154.142.242/download.aspx?GF=5505|f38e8fc778b1431599fd7dbcf2213138&folder=tiny
+white list:
+http://partner.googleadservices.com/gampad/google_ads.js
+http://partner.googleadservices.com/gampad/google_service.js
+
+
+
+
+[other]
+
+
+[comments]
+fanboy
