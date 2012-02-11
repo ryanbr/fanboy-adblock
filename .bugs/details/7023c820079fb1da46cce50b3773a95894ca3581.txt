@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://timesofindia.indiatimes.com/videos/celebs/Serial-Kisser-Emraan-Hashmi-says-no-to-condoms/videoshow/11130680.cms
+
+
+[filters]
+http://timesofindia.indiatimes.com/configspace/ads/timesconfigwrapper.xml
+http://timesofindia.indiatimes.com/configspace/ads/timesChannelWrapper.swf
+
+
+
+
+[other]
+Need to whitelist to allow video
+
+
+[comments]
+fanboy
