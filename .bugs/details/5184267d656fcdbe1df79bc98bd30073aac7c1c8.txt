@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+https://www.usaa.com/inet/ent_logon/Logon
+
+[filters]
+# Copy your Adblock filters here
+content.usaa.com/mcontent/static_assets/Media/blank.gif?
+
+
+
+[other]
+# Any other details
+
+Blocks main slideshow.
+
+[comments]
+# Leave your username
+vinny
