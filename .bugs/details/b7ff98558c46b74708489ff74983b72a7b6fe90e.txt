@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://softoroom.net/topic32234.html
+
+
+[filters]
+http://softoroom.net/2pclick/rand_js.php?r=1
+http://n.actionpay.ru/click/b19aed8fd3eb25599701b435abdcfb71/38754/6760/subaccount
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=10692
+
+
+[comments]
+fanboy
