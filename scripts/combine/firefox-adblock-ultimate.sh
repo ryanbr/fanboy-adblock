@@ -36,7 +36,7 @@ sed '1,10d' $GOOGLEDIR/fanboy-adblocklist-addon.txt > $TESTDIR/fanboy-addon-temp
 sed '/^$/d' $TESTDIR/fanboy-addon-temp2.txt > $TESTDIR/fanboy-addon-temp3.txt
 
 # Enhanced-tracking filter: Trim off header file, remove empty lines, and bottom line
-sed '1,9d' $GOOGLEDIR/enhancedstats-addon.txt > $TESTDIR/enhancedstats-addon-temp2.txt
+sed '1,9d' $MAINDIR/enhancedstats.txt > $TESTDIR/enhancedstats-addon-temp2.txt
 sed '/^$/d' $TESTDIR/enhancedstats-addon-temp2.txt > $TESTDIR/enhancedstats-addon-temp3.txt
 sed '$d' < $TESTDIR/enhancedstats-addon-temp3.txt > $TESTDIR/enhancedstats-addon-temp.txt
 

@@ -106,7 +106,9 @@ then
     # Combine (Italian)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ita.sh
     # Combine (Polish)
-    $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh    
+    $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh
+    # Combine Regional trackers
+    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-tracking.sh
     $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
@@ -163,6 +165,8 @@ then
     # Properly wipe old file.
     shred -n 5 -z -u $MAINDIR/enhancedstats.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/enhancedstats.txt.gz $MAINDIR/enhancedstats.txt > /dev/null
+    # Combine Regional trackers
+    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
@@ -209,6 +213,8 @@ then
    # Properly wipe old file.
    shred -n 3 -z -u $MAINDIR/fanboy-czech.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-czech.txt.gz $MAINDIR/fanboy-czech.txt > /dev/null
+   # Combine Regional trackers
+   $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
    $GOOGLEDIR/scripts/ie/czech-ie-generator.sh
    # Combine
@@ -232,6 +238,8 @@ then
    # Properly wipe old file.
    shred -n 3 -z -u $MAINDIR/fanboy-russian.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-russian.txt.gz $MAINDIR/fanboy-russian.txt > /dev/null
+   # Combine Regional trackers
+   $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
    $GOOGLEDIR/scripts/ie/russian-ie-generator.sh
    # Combine
@@ -257,6 +265,8 @@ then
    # Properly wipe old file.
    shred -n 3 -z -u  $MAINDIR/fanboy-turkish.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-turkish.txt.gz $MAINDIR/fanboy-turkish.txt > /dev/null
+   # Combine Regional trackers
+   $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
    $GOOGLEDIR/scripts/ie/turkish-ie-generator.sh
    # Combine
@@ -280,6 +290,8 @@ then
    # Properly wipe old file.
    shred -n 3 -z -u  $MAINDIR/fanboy-japanese.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-japanese.txt.gz $MAINDIR/fanboy-japanese.txt > /dev/null
+   # Combine Regional trackers
+   $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
    $GOOGLEDIR/scripts/ie/italian-ie-generator.sh
    # Combine
@@ -303,6 +315,8 @@ then
     # Properly wipe old file.
     shred -n 3 -z -u  $MAINDIR/fanboy-korean.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-korean.txt.gz $MAINDIR/fanboy-korean.txt > /dev/null
+    # Combine Regional trackers
+    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-krn.sh
  fi
@@ -325,6 +339,8 @@ then
     # Properly wipe old file.
     shred -n 3 -z -u  $MAINDIR/fanboy-italian.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-italian.txt.gz $MAINDIR/fanboy-italian.txt > /dev/null
+    # Combine Regional trackers
+    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Generate IE script
     $GOOGLEDIR/scripts/ie/italian-ie-generator.sh
     # Combine
@@ -348,6 +364,8 @@ then
     # Properly wipe old file.
     shred -n 3 -z -u  $MAINDIR/fanboy-polish.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-polish.txt.gz $MAINDIR/fanboy-polish.txt /dev/null
+    # Combine Regional trackers
+    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh
  fi
@@ -369,6 +387,8 @@ then
     # Properly wipe old file.
     shred -n 3 -z -u  $MAINDIR/fanboy-indian.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-indian.txt.gz $MAINDIR/fanboy-indian.txt > /dev/null
+    # Combine Regional trackers
+    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-ind.sh
  fi
@@ -390,6 +410,8 @@ then
     # Properly wipe old file.
     shred -n 3 -z -u  $MAINDIR/fanboy-vietnam.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-vietnam.txt.gz $MAINDIR/fanboy-vietnam.txt > /dev/null
+    # Combine Regional trackers
+    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-vtn.sh
  fi
@@ -411,6 +433,8 @@ then
     # Properly wipe old file.
     shred -n 3 -z -u  $MAINDIR/fanboy-chinese.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-chinese.txt.gz $MAINDIR/fanboy-chinese.txt > /dev/null
+    # Combine Regional trackers
+    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-chn.sh
  fi
@@ -432,6 +456,8 @@ then
     # Properly wipe old file.
     shred -n 3 -z -u  $MAINDIR/fanboy-espanol.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-espanol.txt.gz $MAINDIR/fanboy-espanol.txt > /dev/null
+    # Combine Regional trackers
+    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
 		# Generate IE script
 		$GOOGLEDIR/scripts/ie/espanol-ie-generator.sh
 		# Combine
@@ -455,6 +481,8 @@ then
     # Properly wipe old file.
     shred -n 3 -z -u  $MAINDIR/fanboy-swedish.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-swedish.txt.gz $MAINDIR/fanboy-swedish.txt > /dev/null
+    # Combine Regional trackers
+    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-swe.sh
  fi
