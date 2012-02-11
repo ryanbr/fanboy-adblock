@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.giavang.net/2012/02/10/tam-ly-trong-de-nang-thi-truong-gia-vang-truot-ve-vung-1720oz/
+
+
+[filters]
+http://www.giavang.net/wp-content/uploads/2011/12/hkhiem2.png
+http://www.giavang.net/wp-content/uploads/2011/12/muabanvang1.jpg
+http://www.giavang.net/wp-content/uploads/2012/01/130x600-trai.gif
+http://www.giavang.net/wp-content/uploads/2012/01/tiemvang1.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
