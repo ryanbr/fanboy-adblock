@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mforum.ru/
+
+[filters]
+http://www.mforum.ru/CMS2/count?pid=1
+http://www.cforum.ru/CMS2/count?pid=33986
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=10687
+
+
+[comments]
+fanboy
