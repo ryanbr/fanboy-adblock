@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hardwareheaven.com/news.php?newsid=3619
+
+
+[filters]
+http://www.hardwareheaven.com/styles/me3-feb2012/misc/frontpage/backdrop.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
