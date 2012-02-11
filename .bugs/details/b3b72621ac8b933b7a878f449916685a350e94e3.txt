@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.km.ru/v-mire/2012/02/10/dolgovoi-krizis-v-gretsii/stoimost-nefti-na-mirovykh-rynkakh-vyrosla-v-predelakh-1
+
+
+[filters]
+http://www.km.ru/sites/default/files/cef/files.goodadvert.ru/ga_3.js
+http://www.km.ru/sites/default/files/cef/files.goodadvert.ru/ga_1.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
