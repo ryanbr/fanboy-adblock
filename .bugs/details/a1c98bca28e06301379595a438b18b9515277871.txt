@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bitturk.net/
+
+[filters]
+http://www.bitturk.net/Vpills.swf
+http://www.fotocu.org/?di=DGZY
+http://www.fotocu.org/?di=VHT3
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
