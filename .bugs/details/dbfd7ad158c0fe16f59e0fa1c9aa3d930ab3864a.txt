@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.doradcy24.pl/
+
+
+[filters]
+http://www.doradcy24.pl/gfx/creditfield/pl/bannery/8/1/baner.swf?alink1=addclick/(pdZ29arzlrCj8Iji0Nvrpm9jpN_e3ZbXycXa1trsZqai1dKX1qSklqek0sjRldfUvNre2OCtoQ)/MnwjfDh8I3wxfCN8aHR0cDovL3d3dy5kb3JhZGN5MjQucGwvby1uYXMvamFrLWR6aWFsYW15Lw&amp;atar1=_self
+http://www.doradcy24.pl/gfx/creditfield/pl/bannery/18/1/banner_ubezpieczenie_blank.swf?alink1=addclick/(pdZ29aOv71fupeGJ5M_rqqVupJfL1drUvrbypKuhpN6j0daX2dydnqfpzdmTzKWOyvDppNud4uOTx9zf)/MnwjfDE4fCN8MXwjfGh0dHA6Ly9kb3JhZGN5MjQucGwvbHAvcmVnaXN0ZXItZDI0d3d3LWhpcG8uYXR4&amp;atar1=_self
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
