@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kabum.com.br
+
+
+[filters]
+http://www.kabum.com.br/cgi-local/kabum3/email/leitura.cgi?email=my@email.com&v=252024
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=10699
+
+
+[comments]
+fanboy
