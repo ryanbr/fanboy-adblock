@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dailymaza.blogspot.co.nz/
+
+[filters]
+http://www.codezap.com/exchange/block22.swf
+http://www.codezap.com/exchange/exit2.php?id=87252&rh=&refurl=aHR0cDovL2RhaWx5bWF6YS5ibG9nc3BvdC5jby5uei8=
+http://www.codezap.com/exchange/traffic.php?id=87252&rh=&refurl=aHR0cDovL2RhaWx5bWF6YS5ibG9nc3BvdC5jby5uei8=
+http://www.trafficzap.com/exchange/exit.php?id=87252&q=821&btn=on
+http://www.trafficzap.com/exchange/images/trafficzapexchange88x31.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
