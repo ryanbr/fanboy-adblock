@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.itau.com.br
+
+
+[filters]
+http://ww49.itau.com.br/framemail/ITMContab.aspx?id=124635409761396
+http://ww49.itau.com.br/framemail/ITMContab.aspx?id=396273411012656
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=10701
+
+
+[comments]
+fanboy
