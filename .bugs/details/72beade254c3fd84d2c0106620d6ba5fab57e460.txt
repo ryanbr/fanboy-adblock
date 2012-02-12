@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.militarybenefits.com/
+
+
+[filters]
+http://images.military.com/Scripts/mnfooter.js
+http://www.military.com/Scripts/mnfooter.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
