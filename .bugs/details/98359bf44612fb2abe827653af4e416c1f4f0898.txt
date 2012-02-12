@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.totallylayouts.com/
+
+
+[filters]
+http://www.totallylayouts.com/geoad/leader_hi.php
+http://www.totallylayouts.com/geoad/leader_sp.php
+http://www.totallylayouts.com/geoad/med_hi.php
+http://www.totallylayouts.com/geoad/med_sp.php
+http://www.totallylayouts.com/geoad/med_un.php
+http://www.totallylayouts.com/geoad/sky_hi.php
+http://www.totallylayouts.com/geoad/sky_sp.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
