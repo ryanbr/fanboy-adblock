@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bos.sagepub.com/content/68/1/50.full
+
+
+[filters]
+http://bos.sagepub.com/shared/img/pages/login/login_hit_hidden.gif?timestamp=2012-02-11T16:59:50.435-08:00
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
