@@ -1,0 +1,33 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.koreaherald.com/national/Detail.jsp?newsMLId=20120211000127
+
+[filters]
+http://sba.about.co.kr/SbaExpose.aspx?eType=sba006&channelId=M011075001
+http://ade.realclick.co.kr/ad_headcopy/koreah2_p1.js
+http://175.115.51.186:8989/logcollect.gif?&dcstype=KH&dcsnid=20120211000127&dcsscode=020102000000&dcsref=http://www.reddit.com/&dcsdat=1329011322054&dcssip=www.koreaherald.com&dcsuri=/national/Detail.jsp&dcsqry=%3FnewsMLId=20120211000127&WT.tz=13&WT.bh=14&WT.navi=Netscape&WT.naviver=5.0%20(Windows)&WT.ul=en-US&WT.cd=24&WT.sr=1920x1080&WT.jo=Yes&WT.js=Yes&WT.bs=1920x976&WT.fi=Yes&WT.fv=11.1&WT.co_f=2d21ad23e498caee9901328996645641&WT.vt_f=0&WT.vt_f_a=0&WT.vt_sid=2d21ad23e498caee9901328996645641.1328996645641
+http://afs.opap.co.kr/ADNet/2011-09-02/f0b6c983f5dd559f4131c69048fc838a.JPG
+http://afs.opap.co.kr/ADNet/2011-11-25/f9012a02547ff74a3d41a51eeee0ba6e.gif
+http://afs.opap.co.kr/ADNet/2011-12-08/35806d8a17a4aba113db4a9a98d76cb4.jpg
+http://afs.opap.co.kr/ADNet/2011-12-30/1cfa63402bf3fbf78ff7002aa56e2a61.gif
+http://afs.opap.co.kr/ADNet/2012-01-17/6d902cb1aa1328659762d43fac5c7af9.gif
+http://afs.opap.co.kr/ADNet/2012-02-10/c29cc3944ca38563b537bb0f6da67f25.jpg
+http://www.lightad.co.kr/Mediacss/heraldm04.css
+http://www.lightad.co.kr/Mediaimg/herald_300x140_001_over.jpg
+http://www.lightad.co.kr/Mediaimg/herald_300x140_002.jpg
+http://www.lightad.co.kr/Mediaimg/herald_300x140_003_adixs.jpg
+http://www.lightad.co.kr/js/Log2Report.js
+http://www.lightad.co.kr/lightcoms/xml_koreaherald_adv02.asp
+http://www.lightad.co.kr/rotation/Mediafiles/adv_35/352012021210_1.asp?MS_Code=35&pageCode=352012021210_1
+http://www.lightad.co.kr/rotation/ReportLog_Proc.asp?MS_Code=35&PageCode=352012021210_1&nYear=2012&nMonth=02&nDay=12&nTime=10
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
