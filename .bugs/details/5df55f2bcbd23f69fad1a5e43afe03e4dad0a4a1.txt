@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mitpress.mit.edu/main/home/default.asp
+
+
+[filters]
+http://mitpress.mit.edu/wusage_screen_properties.gif?width=1920&height=1080&depth=24
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
