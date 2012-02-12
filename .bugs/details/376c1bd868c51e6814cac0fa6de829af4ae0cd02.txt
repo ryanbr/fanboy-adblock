@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.entertainment.becomegorgeous.com/celebrity_gossip/victorias_secret_models_talk_about_their_first_kiss-6739.html
+
+
+[filters]
+http://urc.taboolasyndication.com/a2v-videojug-4122/log/2/available?tim=01%3A22%3A43.049&ri=1900eb9cf40472f20ddd9018630c3adb&sd=v1_665a284dd29cd2a32e6da2505ad8bdf1_51b2324a-c9cb-4bd2-963e-047e6aee5a19_1329049364_1329049364&ui=51b2324a-c9cb-4bd2-963e-047e6aee5a19&pi=/celebrity_gossip/victorias_secret_models_talk_about_their_first_kiss-6739.html&wi=5409059081054658822&pt=text&li=rbox-syndication&llvl=1&id=1459&url=http%3A//cdn.taboolasyndication.com/pixel.gif
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10737
+
+
+[comments]
+fanboy
