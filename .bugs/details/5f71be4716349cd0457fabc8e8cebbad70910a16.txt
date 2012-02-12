@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bleacherreport.com/
+
+
+[filters]
+http://recon.bleacherreport.com/impression?callback=jsonp1329032106236&json%5B0%5D%5Bpack%5D=1062901%2B1057476%2B1062701%2B1062530%2B1062715&json%5B0%5D%5Bcontext%5D=front-page&json%5B0%5D%5Bposition%5D=lead_horizontal&json%5B1%5D%5Bpack%5D=1062731%2B1062446%2B1062938%2B1062938%2B1062759%2B1062759%2B1062910%2B1062910%2B1062699%2B1062699&json%5B1%5D%5Bcontext%5D=front-page&json%5B1%5D%5Bposition%5D=nba_module&json%5B2%5D%5Bpack%5D=1059975%2B1062244%2B1062244%2B1062500%2B1062500%2B1062720%2B1062720%2B1062272%2B1062272%2B1060445%2B1060445%2B1062657%2B1062657&json%5B2%5D%5Bcontext%5D=front-page&json%5B2%5D%5Bposition%5D=nfl_module&json%5B3%5D%5Bpack%5D=1062835%2B1062928%2B1062661%2B1062661%2B1062517%2B1062517%2B1062764%2B1062764%2B1062663%2B1062663&json%5B3%5D%5Bcontext%5D=front-page&json%5B3%5D%5Bposition%5D=college-basketball_module&json%5B4%5D%5Bpack%5D=1062655%2B1062809%2B1062809%2B1059047%2B1059047&json%5B4%5D%5Bcontext%5D=front-page&json%5B4%5D%5Bposition%5D=mlb_module&json%5B5%5D%5Bpack%5D=1056276%2B1055201&json%5B5%5D%5Bcontext%5D=front-page&json%5B5%5D%5Bposition%5D=nhl_module&json%5B6%5D%5Bpack%5D=1062449%2B1059507%2B1059507%2B1060795%2B1060795&json%5B6%5D%5Bcontext%5D=front-page&json%5B6%5D%5Bposition%5D=college-football_module&json%5B7%5D%5Bpack%5D=1062914%2B1062914%2B1062433%2B1062433%2B1062387%2B1062387%2B1062298%2B1062298&json%5B7%5D%5Bcontext%5D=front-page&json%5B7%5D%5Bposition%5D=must_reads&json%5B8%5D%5Bpack%5D=1060108%2B1061292%2B1061292%2B1058724%2B1058724&json%5B8%5D%5Bcontext%5D=front-page&json%5B8%5D%5Bposition%5D=rankingslist_or_cool-lists_module&json%5B9%5D%5Bpack%5D=1051483%2B1051483%2B1060487%2B1060487%2B1061024%2B1061024%2B1059815%2B1059815%2B1062147%2B1062147&json%5B9%5D%5Bcontext%5D=front-page&json%5B9%5D%5Bposition%5D=most-popular-module&json%5B10%5D%5Bpack%5D=1059047%2B1059047%2B1062715%2B1062715%2B1060320%2B1060320%2B1061120%2B1061120%2B1062197%2B1062197&json%5B10%5D%5Bcontext%5D=front-page&json%5B10%5D%5Bposition%5D=most-commented-module&json%5B11%5D%5Bpack%5D=&json%5B11%5D%5Bcontext%5D=front-page&json%5B11%5D%5Bposition%5D=poll-170968&json%5B12%5D%5Bpack%5D=1062453&json%5B12%5D%5Bcontext%5D=front-page&json%5B12%5D%5Bposition%5D=world_football&json%5B13%5D%5Bpack%5D=1061024%2B1061024%2B1061024%2B1061218%2B1061218%2B1061218%2B1056995%2B1056995%2B1056995%2B1058398%2B1058398%2B1058398%2B1058869%2B1058869%2B1058869%2B1056586%2B1056586%2B1056586%2B1058200%2B1058200%2B1058200&json%5B13%5D%5Bcontext%5D=front-page&json%5B13%5D%5Bposition%5D=voices&json%5B14%5D%5Bpack%5D=1062750&json%5B14%5D%5Bcontext%5D=front-page&json%5B14%5D%5Bposition%5D=pro-wrestling_module&json%5B15%5D%5Bpack%5D=1062418%2B1062418%2B1062442%2B1062442%2B1061249%2B1061249&json%5B15%5D%5Bcontext%5D=front-page&json%5B15%5D%5Bposition%5D=mma_module&json%5B16%5D%5Bpack%5D=%2Fusers%2F653899%2B1062999%2B%2Fusers%2F527152%2B1062989%2B%2Fusers%2F750601%2B1062376%2B%2Fusers%2F636047%2B1062933%2B%2Fusers%2F2175%2B1062932%2B%2Fusers%2F426734%2B1062857%2B%2Fusers%2F151045%2B1062967%2B%2Fusers%2F287821%2B1062934%2B%2Fusers%2F125615%2B1062907%2B%2Fusers%2F492233%2B1062938&json%5B16%5D%5Bcontext%5D=front-page&json%5B16%5D%5Bposition%5D=featured-columnists
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10739
+
+
+[comments]
+fanboy
