@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://avstop.com/news_january_2012/gop_to_introduce_legislation_to_kill_aviation_consumer_protections_rules.htm
+
+[filters]
+http://avstop.com/avbanner//bimg/1292174136aopa.JPG
+http://avstop.com/avbanner//bimg/1292214754quiz1.jpg
+http://avstop.com/avbanner//bimg/1302455184ness_23.jpg
+http://avstop.com/avbanner/js/jquery.min.js
+http://avstop.com/avbanner/v.php?zid=6
+http://avstop.com/avbanner/v.php?zid=7
+http://avstop.com/avbanner/v.php?zid=9
+http://avstop.com:8080/poll.gif?d=www.avstop.com&stamp=1329006416733&u=821-1329005673921
+http://avstop.com:8080/poll.gif?d=www.avstop.com&stamp=1329006422761&u=821-1329005673921
+http://avstop.com:8080/poll.gif?d=www.avstop.com&stamp=1329006428795&u=821-1329005673921
+
+
+
+[other]
+fanboy
+
+
+[comments]
+# Leave your username
