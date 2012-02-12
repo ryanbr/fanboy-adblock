@@ -60,7 +60,10 @@ sed -i '/gemius_/d' $TESTDIR/fanboy-rus-track.txt
 
 # Merge Everything together
 #
-cat $GOOGLEDIR/enhancedstats-addon.txt $TESTDIR/fanboy-esp-track.txt $TESTDIR/fanboy-cz-track.txt $TESTDIR/fanboy-rus-track.txt $TESTDIR/fanboy-tky-track.txt $TESTDIR/fanboy-jpn-track.txt $TESTDIR/fanboy-krn-track.txt $TESTDIR/fanboy-ita-track.txt $TESTDIR/fanboy-pol-track.txt $TESTDIR/fanboy-swe-track.txt $TESTDIR/fanboy-ind-track.txt > $TESTDIR/fanboy-track-test.txt
+# Merge for IE trackers
+cat $TESTDIR/fanboy-esp-track.txt $TESTDIR/fanboy-cz-track.txt $TESTDIR/fanboy-rus-track.txt $TESTDIR/fanboy-tky-track.txt $TESTDIR/fanboy-jpn-track.txt $TESTDIR/fanboy-krn-track.txt $TESTDIR/fanboy-ita-track.txt $TESTDIR/fanboy-pol-track.txt $TESTDIR/fanboy-swe-track.txt $TESTDIR/fanboy-ind-track.txt > $TESTDIR/fanboy-track-test-ie.txt
+# Merge enhanced for Firefox
+cat $GOOGLEDIR/enhancedstats-addon.txt $TESTDIR/fanboy-track-test-ie.txt > $TESTDIR/fanboy-track-test.txt
 perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-track-test.txt
 cp -f $TESTDIR/fanboy-track-test.txt $MAINDIR/enhancedstats.txt
 # mv -f $TESTDIR/fanboy-track-test.txt $MAINDIR/fanboy-tracking-complete.txt

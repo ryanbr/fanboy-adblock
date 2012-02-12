@@ -39,7 +39,7 @@ sed '1,8d' $GOOGLEDIR/ie/fanboy-tracking-addon.txt > $IEDIR/fanboy-tracking-addo
 
 # Merge with Google-code (IE adblock addon)
 #
-cat $MAINDIR/fanboy-adblocklist-stats.txt $IEDIR/fanboy-tracking-addon.txt > $IEDIR/fanboy-tracking-merged.txt
+cat $MAINDIR/fanboy-adblocklist-stats.txt $TESTDIR/fanboy-track-test-ie.txt $IEDIR/fanboy-tracking-addon.txt > $IEDIR/fanboy-tracking-merged.txt
 mv -f $IEDIR/fanboy-tracking-merged.txt $IEDIR/fanboy-tracking.txt
 
 # Remove Old files
@@ -81,4 +81,4 @@ $ZIP a -mx=9 -y -tgzip $SUBS/fanboy-tracking.tpl.gz $SUBS/fanboy-tracking.tpl > 
 
 # Now copy finished tpl list to the website.
 #
-cp -f $SUBS/fanboy-tracking*.tpl* $MAINDIR/ie/
+cp -f $SUBS/fanboy-tracking.tpl $SUBS/fanboy-tracking.tpl.gz $MAINDIR/ie/
