@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://us.penguingroup.com/nf/Book/BookDisplay/0,,9780399256196,00.html
+
+[filters]
+http://us.penguingroup.com/static/images/all/wtblanks/book.gif?id=The+Outcasts&misc1=SYN&misc2=&time=44300257
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
