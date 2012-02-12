@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.steelnationmagazine.com/
+
+
+[filters]
+http://stats.webstarts.com/174136.js
+http://stats.webstarts.com/in.php?site_id=174136&res=1920x1080&lang=en&type=pageview&href=%2F&title=Steel%20Nation%20Magazine&ref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D10725&jsuid=2140565011&mime=js&x=0.47521716023262917
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
