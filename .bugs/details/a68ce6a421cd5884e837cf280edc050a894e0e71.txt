@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hockeybuzz.com/
+
+[filters]
+http://video.thehockeynews.com/videoAnalytics.swf?gid=UA-2629553-1&playerType={playername}
+http://mb.hockeybuzz.com/mb/b?s=1566&size=1&tr=http%3A//www.hockeybuzz.com/blog/Cam-Gore/Sharks-get-back-on-track-with-exciting-win-over-the-Blackhawks/154/42069&pc=blog&ri=90&wrap=iframe
+http://mb.hockeybuzz.com/mb/b?s=1566&size=3&tr=http%3A//www.hockeybuzz.com/blog/Cam-Gore/Sharks-get-back-on-track-with-exciting-win-over-the-Blackhawks/154/42069&pc=blog&ri=90&wrap=iframe
+http://mb.hockeybuzz.com/mb/b?s=1566&size=5&tr=http%3A//www.hockeybuzz.com/blog/Cam-Gore/Sharks-get-back-on-track-with-exciting-win-over-the-Blackhawks/154/42069&pc=blog&ri=90&wrap=iframe
+
+
+
+[other]
+http://www.hockeybuzz.com/blog/Cam-Gore/Sharks-get-back-on-track-with-exciting-win-over-the-Blackhawks/154/42069
+
+[comments]
+fanboy
