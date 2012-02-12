@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://www.shinyshiny.tv/
+http://www.techdigest.tv/
+
+[filters]
+# Copy your Adblock filters here
+
+http://anuncia.adbars.net/impression/?id=39
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+vinny
