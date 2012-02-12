@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://us.macmillan.com/
+
+
+[filters]
+http://stats.macmillanusa.com/getImage.aspx?pub=17&cookie=17_1204185834_587910001&sesscookie=17_1204185834_1533691303&sitetype=tracked&url=http%3A//us.macmillan.com/&pageid=0&actionId=0&data=%3Bdomain%3Dus.macmillan.com%3B&rnd=1277190294
+http://stats.macmillanusa.com/scripts/tracker.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
