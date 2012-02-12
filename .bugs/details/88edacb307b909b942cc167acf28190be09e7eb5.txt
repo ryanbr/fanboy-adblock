@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.globalsecurity.org/wmd/library/news/syria/2012/syria-120210-rferl04.htm
+
+
+[filters]
+http://www.globalsecurity.org/_inc/frames/wmd_160.htm
+http://www.globalsecurity.org/_inc/frames/wmd_300.htm
+http://www.globalsecurity.org/_inc/frames/wmd_728.htm
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
