@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://us.penguingroup.com/
+
+
+[filters]
+http://logs.vmixcore.com/vmixcore/playlog?ver=2.0&action=load&output=xml&token=eyJtZWRpYUlkIjoxMzAyNTc5NTEsImxvZ0lkIjoiNzgzNDcwZGU5YTI4ZTc4YTQ2YzE1MWI1Y2Jm%0AOTYxZDciLCJ0b2tlbiI6IlYwQ245NWN2VV9pZkdEcllTMU5ydF9EVDFSeUZFLVQwV0oiLCJjbGFz%0Ac0lkIjoxLCJhcHBsaWNhdGlvbklkIjoiM2UyZmI1MGFkZmVkODc2YjVlODI4YjRlYmYzNDhmMmEi%0ALCJyZWZlcnJlciI6Imh0dHA6Ly91cy5wZW5ndWluZ3JvdXAuY29tLyIsInNlc3Npb25JZCI6ImVl%0AZTBmMjQ3MTMzYmQ5NWNlNmYyNDZjMDI3NTkxMTFkIiwiZm9ybWF0SWQiOjUsImNvbGxlY3Rpb25J%0AZCI6MCwiZ2VucmVJZCI6MH0%3D
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
