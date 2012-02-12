@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tvlistings.optimum.net/grid.jsp
+
+
+[filters]
+Main Adblock:
+http://tvlistings.optimum.net/scripts/app/templates/ad.handlebars.html
+Enhanced:
+http://tvlistings.optimum.net/foresee/foresee-trigger.js
+http://img.optimum.net/js/omniture/s_code_h.js?9
+http://img.optimum.net/js/omniture/external.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
