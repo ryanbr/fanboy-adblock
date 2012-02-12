@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.koreaherald.com/national/Detail.jsp?newsMLId=2012021100012
+
+
+[filters]
+http://sba.about.co.kr/SbaExpose.aspx?eType=sba006&channelId=M011075001
+http://agate.opap.co.kr/html/koreaherald/koreaherald1
+http://agate.opap.co.kr/html/koreaherald/pt_koreaherald1
+http://res.heraldm.com/js/logcollect_script.js
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
