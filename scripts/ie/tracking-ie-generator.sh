@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Tracking IE Convert script v1.2 (17/04/2011)
+# Fanboy Tracking IE Convert script v1.3 (12/02/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -23,6 +23,7 @@ GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 ZIP="/usr/local/bin/7za"
 IEDIR="/tmp/ieramdisk"
 SUBS="/tmp/ieramdisk/subscriptions"
+TESTDIR="/tmp/ramdisk"
 
 # Clear out any old files lurking
 #
