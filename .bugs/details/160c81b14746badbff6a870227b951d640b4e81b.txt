@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.impresspages.org/
+
+
+[filters]
+http://www.impresspages.org/ip_themes/impresspages/img/icon_search.png
+http://www.impresspages.org/ip_themes/impresspages/img/icon_social_facebook.gif
+http://www.impresspages.org/ip_themes/impresspages/img/icon_social_rss.gif
+http://www.impresspages.org/ip_themes/impresspages/img/icon_social_twitter.gif
+http://www.impresspages.org/ip_themes/impresspages/img/icon_social_vimeo.gif
+http://www.impresspages.org/ip_themes/impresspages/img/icon_social_youtube.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
