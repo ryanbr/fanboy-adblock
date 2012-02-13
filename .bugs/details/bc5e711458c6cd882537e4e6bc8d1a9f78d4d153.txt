@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.twitch.tv/ohriginal?utm_campaign=*&utm_source=*?utm_campaign=*&utm_source=*
+
+
+[filters]
+http://ad.turn.com/server/bid/liverail.bid?pub=*&cch=*&id=*&lrPubId=*&exCats=*&lFormat=*&mimeTypes=*&url=*&r=*
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
