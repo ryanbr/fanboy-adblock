@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.local.thesun.co.uk/
+
+
+[filters]
+http://img.oodle.com/js/suntracking.js
+
+
+[other]
+
+
+[comments]
+nitrox
