@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://elpais.com/elpais/inenglish.html
+
+
+[filters]
+http://elpais.com/pxlctl.gif?m=1&r=2&w=224484
+http://pxlctl.elpais.com/pxlctl2.gif?1309487381329157436
+http://pxctl.prisacom.com/pxlctl2.gif?r=2&m=1&s=a56f13c59f581913
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
