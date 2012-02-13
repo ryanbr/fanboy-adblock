@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://techpakistani.com/
+
+
+[filters]
+http://techpakistani.com/wp-content/uploads/2012/01/care-300x100.jpg
+http://techpakistani.com/wp-content/uploads/2012/01/facebook-timeline-300x100.jpg
+http://techpakistani.com/wp-content/uploads/2012/01/sale-300x100.jpg
+http://techpakistani.com/wp-content/uploads/2012/01/xbl7-300x100.jpg
+http://techpakistani.com/wp-content/uploads/2012/02/331490-PTILogo-1328287685-548-640x480-300x100.jpg
+http://techpakistani.com/wp-content/uploads/2012/02/332534-googleshahbazmou_-1328558704-932-640x480-300x100.jpg
+http://techpakistani.com/wp-content/uploads/2012/02/ufone-s-11th-anniversary-1328042071-5138-300x100.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
