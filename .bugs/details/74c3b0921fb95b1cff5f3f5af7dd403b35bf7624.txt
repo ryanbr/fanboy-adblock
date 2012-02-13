@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.autotrader.co.uk/classified/advert/201205446590930/sort/priceasc/usedcars/maximum-age/up_to_3_years_old/fuel-type/petrol/quantity-of-doors/5/engine-size-cars/2l_to_2-5l/model/golf/make/volkswagen/radius/1501/keywords/gti/postcode/eh125bd/page/1?logcode=*
+
+[filters]
+http://www.autotrader.co.uk/gallery-showroom/postcode/eh125bd/advert/201205446590930.json
+
+
+
+
+[other]
+fp
+
+[comments]
+fanboy
