@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.watchseries-online.eu/2012/02/the-ellen-degeneres-show-channing-tatum-20120209.html
+
+
+[filters]
+http://www.goneviral.com/Webservices/jsParseLinks.aspx?id=838aff31
+http://www.linkbucks.com/Webservices/jsParseLinks.aspx?id=838aff31
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
