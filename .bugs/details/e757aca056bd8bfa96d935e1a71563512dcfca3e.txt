@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://motherless.com/live
+
+[filters]
+http://motherless.com/xxxmatch_im.html
+http://motherless.com/xxxmatch_video_profiles.json
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
