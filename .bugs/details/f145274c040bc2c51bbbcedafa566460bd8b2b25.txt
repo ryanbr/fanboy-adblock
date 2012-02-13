@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://webupon.com/blogging/top-31-free-blogging-websites-the-ultimate-list/
+
+
+[filters]
+http://wprest.triond.com/cntimp?home_channel_id=1070&website_channel_article_id=785061&rnd=1345300110
+
+
+[other]
+
+
+[comments]
+nitrox
