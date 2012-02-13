@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cv-library.co.uk/cgi-bin/create.cgi?id=100305
+
+[filters]
+http://rs0.co.uk/gif.php?bbcid=898&bbact=a1&bbval=%270%27&bbref=%27%27
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
