@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mp3.com/
+
+
+[filters]
+http://ads.audienceamplify.com/seg?add=187681&t=2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
