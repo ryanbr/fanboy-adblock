@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mdpub.com/Wind_Turbine/
+
+
+[filters]
+http://www.anastasia-international.com/Pages/4Affiliate/4affiliateBannerShow.aspx?page=banner&type=32&afid=420&uin=2633&referer=
+http://www.blossoms.com/images/banners/120x240-2.gif
+http://www.loveme.com/go/104/
+http://www.loveme.com/mp/p10-1.jpg
+http://www.loveme.com/mp/p11-1.jpg
+http://www.loveme.com/mp/p12-1.jpg
+http://www.loveme.com/mp/p13-1.jpg
+http://www.loveme.com/mp/p9-1.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
