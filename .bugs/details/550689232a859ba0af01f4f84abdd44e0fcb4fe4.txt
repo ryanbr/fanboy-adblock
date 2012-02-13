@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.freeadscity.com/home_&_garden/building_materials/
+
+
+[filters]
+http://www.adsring.com/cgi-bin/ads.cgi?1-5-10-%A6NF%3F%D9%2C%2Da%F3%E2%D7M%DE%02S%AF
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10752
+
+
+[comments]
+fanboy
