@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.koratv.net/2012/02/africa-cup-of-nations-2012-live-streams/
+
+
+[filters]
+http://www.koratv.net/wp-content/uploads/2012/02/sd_300x250_3.gif
+http://www.koratv.net/wp-content/uploads/2012/02/make-money-online11.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
