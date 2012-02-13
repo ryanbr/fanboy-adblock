@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://free-7.blogspot.co.nz/2010/09/why-pc-computer-crash-or-error.html
+
+[filters]
+http://www.feedcat.net/js2/button.js?pub=288001&bmode=b88x25&ilng=en&section=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
