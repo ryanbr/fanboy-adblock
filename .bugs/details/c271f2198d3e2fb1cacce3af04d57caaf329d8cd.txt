@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bits.blogs.nytimes.com/2012/02/12/disruptions-so-many-apologies-so-much-data-mining/
+
+
+[filters]
+http://graphics8.nytimes.com/js/app/analytics/revenuescience_all.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
