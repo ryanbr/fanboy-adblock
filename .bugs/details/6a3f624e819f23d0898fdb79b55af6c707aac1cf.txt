@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://atdhe.eu/
+
+
+[filters]
+http://promotions.sportsbet.com.au/matchbet150/
+http://record.sportsbetaffiliates.com.au/_nQ7SG9h-zKPlE-K0mpYMyWNd7ZgqdRLk/1
+http://www.5dimes.com/default.asp
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
