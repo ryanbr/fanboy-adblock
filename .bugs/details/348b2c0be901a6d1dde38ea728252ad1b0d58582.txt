@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.spiegel.de/international/germany/0,1518,813852,00.html
+
+
+[filters]
+http://www.spiegel.de/static/sys/pixel.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
