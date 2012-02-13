@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.freeadscity.com/home_&_garden/building_materials/
+
+
+[filters]
+http://www.adsring.com/cgi-bin/ads.cgi?1-5-10-%CD%00%29%0C%F0%0E%AC%9A%DF%82Q%19%B8%BEE%BF
+http://www.adsring.com/images/u/1-1-ccug.jpg
+http://www.adsring.com/images/u/11337-1-oche.jpg
+http://www.adsring.com/images/u/11750-1-awvm.jpg
+http://www.adsring.com/images/u/11750-2-aeak.jpg
+http://www.adsring.com/images/u/6-1-hepq.jpg
+http://www.adsring.com/ra1-5-10.js
+
+
+[other]
+
+
+[comments]
+nitrox
