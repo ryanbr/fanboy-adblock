@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://technology.thedigitalfix.com/content/id/30/samsung-galaxy-s3-rumours.html
+
+
+[filters]
+http://delivery.w00tads.com/adserver/tag.php?_t=1086&_i=518&_r=INSERT_RANDOM_NUMBER
+http://delivery.w00tads.com/adserver/tag.php?_t=1097&_i=519&_r=INSERT_RANDOM_NUMBER
+http://delivery.w00tads.com/adserver/tag.php?_t=10e0&_i=524&_r=INSERT_RANDOM_NUMBER
+http://delivery.w00tads.com/adserver/tag.php?_t=10f1&_i=525&_r=INSERT_RANDOM_NUMBER
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
