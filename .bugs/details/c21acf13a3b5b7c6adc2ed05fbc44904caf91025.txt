@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bakingbites.com/
+
+
+[filters]
+http://login.dotomi.com/ucm/UCMController?dtm_com=2&dtm_cid=2219&dtm_cmagic=13111c&dtm_fid=198&dtm_format=6&partner_id=halogen&campaign_id=cooks_network&creative_id=default_recipe-slideshow_300x250_V1&placement_id=Baking%20Bites
+http://publishers.gourmetads.com/badges/GADS_featured_blog_120x60.gif
+
+
+[other]
+
+
+[comments]
+nitrox
