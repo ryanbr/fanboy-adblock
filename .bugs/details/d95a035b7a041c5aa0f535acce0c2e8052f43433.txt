@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thenextweb.com/apps/2010/02/15/qrobe-metasearch-engine-adds-bing-google-offer/
+
+
+[filters]
+http://cdn.speeb.com/css/widget_20120113221526.css
+http://cdn.speeb.com/js/widget.js
+http://cdn.speeb.com/thumbnails/posts/278_46x46.jpg
+http://speeb.com/widgets/24?w=230&h=320
+
+[other]
+
+
+[comments]
+nitrox
