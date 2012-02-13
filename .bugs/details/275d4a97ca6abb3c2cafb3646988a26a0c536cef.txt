@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.switchboard.com/business?key=test&where=Newark,+NJ
+
+
+[filters]
+# Copy your Adblock filters here
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
