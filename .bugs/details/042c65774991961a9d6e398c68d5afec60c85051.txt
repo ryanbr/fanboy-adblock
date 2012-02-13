@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.standaard.be/artikel/detail.aspx?artikelid=*
+
+[filters]
+http://ads.adhese.be/ad3/sl_dso_unknown_-BAN/lanl/rn80/pv3/brFirefox;Firefox13;Windows7/msdso/in;prx/?t=1329133202267
+http://ads.adhese.be/ad3/sl_dso_unknown_-FOOTER/lanl/rn80/pv3/brFirefox;Firefox13;Windows7/msdso/in;prx/?t=1329133202396
+http://ads.adhese.be/ad3/sl_dso_unknown_-LAYER/lanl/rn80/pv3/brFirefox;Firefox13;Windows7/msdso/in;prx/?t=1329133202189
+http://ads.adhese.be/ad3/sl_dso_unknown_-SPLASH/lanl/rn80/pv3/brFirefox;Firefox13;Windows7/msdso/in;prx/?t=1329133202175
+http://ads.adhese.be/ad3/sl_dso_unknown_-TEXTLINK/lanl/rn80/pv3/brFirefox;Firefox13;Windows7/msdso/in;prx/?t=1329133202201
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
