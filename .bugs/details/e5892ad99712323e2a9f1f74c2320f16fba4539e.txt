@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.reapit.com/
+
+
+[filters]
+http://webforensics.co.uk/js/748.js
+
+
+[other]
+
+
+[comments]
+nitrox
