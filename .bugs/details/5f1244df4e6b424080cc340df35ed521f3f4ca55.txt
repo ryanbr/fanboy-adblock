@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bleacherreport.com/articles/715066-wwe-macho-man-randy-savage-should-not-be-inducted-into-the-wwe-hall-of-fame
+
+
+[filters]
+http://www.textsrv.com/kwd.php?c=*&cb=*
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
