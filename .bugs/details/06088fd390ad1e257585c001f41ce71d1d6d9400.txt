@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fybersearch.com/search.php?q=test
+
+
+[filters]
+http://www.fybersearch.com/web-feed-ads.php?q=test
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
