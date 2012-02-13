@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pennysaverusa.com/classifieds/usa/florida/index.html
+
+
+[filters]
+http://static.s-penny.com/css/pennysaver.client/camaoAdsense.css
+http://static.s-penny.com/js/pennysaver.client/camaoAdsense.js
+
+
+[other]
+
+
+[comments]
+nitrox
