@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.50statesclassifieds.com/
+
+
+[filters]
+http://www.50statesclassifieds.com/image.php?size_id=13
+http://www.50statesclassifieds.com/image.php?size_id=18
+http://www.50statesclassifieds.com/image.php?size_id=23
+http://www.50statesclassifieds.com/image.php?size_id=4
+http://www.50statesclassifieds.com/image.php?size_id=9
+
+
+[other]
+
+
+[comments]
+nitrox
