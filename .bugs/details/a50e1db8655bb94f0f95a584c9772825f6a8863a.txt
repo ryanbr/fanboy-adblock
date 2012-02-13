@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://icelandreview.com/
+
+
+[filters]
+http://icelandreview.com/upload/files/js/floatingad.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
