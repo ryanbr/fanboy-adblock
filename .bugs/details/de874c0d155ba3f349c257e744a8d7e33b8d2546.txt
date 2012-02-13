@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thebigbangtheoryfullepisodes.com/season-1/season-1-episode-1-pilot/
+
+
+[filters]
+http://ad.tredirect.com/locker.js?guid=74f24ca3975d0435
+
+
+
+
+[other]
+not: http://vids.tredirect.com/tv/bigbangtheory/s1/S01E01.flv
+
+[comments]
+fanboy
