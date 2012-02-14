@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://film4ik.ru/3380-ya-robot.html
+
+[filters]
+http://vk.com/widget_community.php?app=2665980&width=190px&gid=-25089747&mode=1&height=290&url=http%3A%2F%2Ffilm4ik.ru%2F3380-ya-robot.html
+http://vk.com/widget_community.php?app=2665980&width=190px&gid=-25089747&mode=1&height=290&url=http%3A%2F%2Ffilm4ik.ru%2F3380-ya-robot.html&_hash=0
+http://vkontakte.ru/widget_community.php?app=2665980&width=190px&gid=-25089747&mode=1&height=290&url=http%3A%2F%2Ffilm4ik.ru%2F3380-ya-robot.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
