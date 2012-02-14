@@ -25,6 +25,7 @@ GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 TESTDIR="/tmp/ramdisk"
 ZIP="nice -n 19 /usr/local/bin/7za"
 NICE="nice -n 19"
+SHRED="nice -n 19 /usr/bin/shred"
 
 # Grab Mercurial Updates
 #
@@ -34,7 +35,7 @@ $NICE /usr/local/bin/hg update
 
 # Copy Popular Files into Ram Disk
 #
-$NICE shred -n 5 -z -u  $TESTDIR/opera/urlfilter.ini $TESTDIR/opera/urlfilter-stats.ini
+$SHRED -n 5 -z -u  $TESTDIR/opera/urlfilter.ini $TESTDIR/opera/urlfilter-stats.ini
 cp -f $GOOGLEDIR/scripts/addChecksum.pl $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR
 cp -f $GOOGLEDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-stats.ini $TESTDIR/opera/
 
@@ -68,53 +69,53 @@ then
 
     # The Dimensions List
     #
-    $GOOGLEDIR/scripts/firefox/fanboy-dimensions.sh
+    $NICE $GOOGLEDIR/scripts/firefox/fanboy-dimensions.sh
     
     # The Adult List
     #
-    $GOOGLEDIR/scripts/firefox/fanboy-adult.sh
+    $NICE $GOOGLEDIR/scripts/firefox/fanboy-adult.sh
 
     # The P2P List
     #
-    $GOOGLEDIR/scripts/firefox/fanboy-p2p.sh
+    $NICE $GOOGLEDIR/scripts/firefox/fanboy-p2p.sh
 
     # Seperate off CSS elements for Opera CSS
     #
-    $GOOGLEDIR/scripts/firefox/fanboy-element-opera-generator.sh
+    $NICE $GOOGLEDIR/scripts/firefox/fanboy-element-opera-generator.sh
     
     # Seperate off Elements
     #
-    $GOOGLEDIR/scripts/firefox/fanboy-noele.sh
+    $NICE $GOOGLEDIR/scripts/firefox/fanboy-noele.sh
     
     # Combine (Czech)
-    $GOOGLEDIR/scripts/combine/firefox-adblock-czech.sh
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-czech.sh
     # Combine (Espanol)
-		$GOOGLEDIR/scripts/combine/firefox-adblock-esp.sh
+		$NICE $GOOGLEDIR/scripts/combine/firefox-adblock-esp.sh
     # Combine (Russian)
-    $GOOGLEDIR/scripts/combine/firefox-adblock-rus.sh
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-rus.sh
     # Combine (Japanese)
-    $GOOGLEDIR/scripts/combine/firefox-adblock-jpn.sh
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-jpn.sh
     # Combine (Swedish)
-    $GOOGLEDIR/scripts/combine/firefox-adblock-swe.sh
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-swe.sh
     # Combine (Chinese)
-    $GOOGLEDIR/scripts/combine/firefox-adblock-chn.sh
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-chn.sh
     # Combine (Vietnam)
-    $GOOGLEDIR/scripts/combine/firefox-adblock-vtn.sh
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-vtn.sh
     # Combine (Vietnam)
-    $GOOGLEDIR/scripts/combine/firefox-adblock-krn.sh
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-krn.sh
     # Combine (Turkish)
-    $GOOGLEDIR/scripts/combine/firefox-adblock-turk.sh
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-turk.sh
     # Combine (Italian)
-    $GOOGLEDIR/scripts/combine/firefox-adblock-ita.sh
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-ita.sh
     # Combine (Polish)
-    $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh
     # Combine Regional trackers
-    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
-    $GOOGLEDIR/scripts/combine/firefox-adblock-tracking.sh
-    $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-tracking.sh
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
-    $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
     
     echo "Updated: fanboy-adblock.txt" > /dev/null
   fi
@@ -136,7 +137,7 @@ then
     # Re-generate checksum
     perl $TESTDIR/addChecksum.pl $MAINDIR/fanboy-tracking.txt
     # Properly wipe old file.
-    shred -n 5 -z -u $TESTDIR/fanboy-tracking.txt.gz
+    $SHRED -n 5 -z -u $TESTDIR/fanboy-tracking.txt.gz
     $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-tracking.txt.gz $MAINDIR/fanboy-tracking.txt > /dev/null
     cp -f $TESTDIR/fanboy-tracking.txt.gz $MAINDIR/fanboy-tracking.txt.gz
     # Now combine with international list
@@ -165,7 +166,7 @@ then
     echo "Updated: enhancedstats-addon.txt"
     cp -f $GOOGLEDIR/enhancedstats-addon.txt $MAINDIR/enhancedstats.txt
     # Properly wipe old file.
-    shred -n 5 -z -u $TESTDIR/enhancedstats.txt.gz
+    $SHRED -n 5 -z -u $TESTDIR/enhancedstats.txt.gz
     $ZIP a -mx=9 -y -tgzip $TESTDIR/enhancedstats.txt.gz $MAINDIR/enhancedstats.txt > /dev/null
     cp -f $TESTDIR/enhancedstats.txt.gz $MAINDIR/enhancedstats.txt.gz
     # Combine Regional trackers
@@ -191,7 +192,7 @@ then
     echo "Updated: fanboy-addon.txt"
     cp -f $GOOGLEDIR/fanboy-adblocklist-addon.txt $MAINDIR/fanboy-addon.txt $TESTDIR/fanboy-addon.txt
     # Properly wipe old file.
-    shred -n 5 -z -u $TESTDIR/fanboy-addon.txt.gz
+    $SHRED -n 5 -z -u $TESTDIR/fanboy-addon.txt.gz
     $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-addon.txt.gz $TESTDIR/fanboy-addon.txt > /dev/null
     cp -f $TESTDIR/fanboy-addon.txt.gz $MAINDIR/fanboy-addon.txt.gz
     # Combine
@@ -215,7 +216,7 @@ then
    echo "Updated: fanboy-czech.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $MAINDIR/fanboy-czech.txt
    # Properly wipe old file.
-   shred -n 3 -z -u $MAINDIR/fanboy-czech.txt.gz
+   $SHRED -n 3 -z -u $MAINDIR/fanboy-czech.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-czech.txt.gz $MAINDIR/fanboy-czech.txt > /dev/null
    # Combine Regional trackers
    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -240,7 +241,7 @@ then
    echo "Updated: fanboy-russian.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $MAINDIR/fanboy-russian.txt
    # Properly wipe old file.
-   shred -n 3 -z -u $MAINDIR/fanboy-russian.txt.gz
+   $SHRED -n 3 -z -u $MAINDIR/fanboy-russian.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-russian.txt.gz $MAINDIR/fanboy-russian.txt > /dev/null
    # Combine Regional trackers
    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -267,7 +268,7 @@ then
    echo "Updated: fanboy-turkish.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $MAINDIR/fanboy-turkish.txt
    # Properly wipe old file.
-   shred -n 3 -z -u  $MAINDIR/fanboy-turkish.txt.gz
+   $SHRED -n 3 -z -u  $MAINDIR/fanboy-turkish.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-turkish.txt.gz $MAINDIR/fanboy-turkish.txt > /dev/null
    # Combine Regional trackers
    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -292,7 +293,7 @@ then
    echo "Updated: fanboy-japanese.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $MAINDIR/fanboy-japanese.txt
    # Properly wipe old file.
-   shred -n 3 -z -u  $MAINDIR/fanboy-japanese.txt.gz
+   $SHRED -n 3 -z -u  $MAINDIR/fanboy-japanese.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-japanese.txt.gz $MAINDIR/fanboy-japanese.txt > /dev/null
    # Combine Regional trackers
    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -317,7 +318,7 @@ then
     echo "Updated: fanboy-korean.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/fanboy-korean.txt.gz
+    $SHRED -n 3 -z -u  $MAINDIR/fanboy-korean.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-korean.txt.gz $MAINDIR/fanboy-korean.txt > /dev/null
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -341,7 +342,7 @@ then
     echo "Updated: fanboy-italian.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $MAINDIR/fanboy-italian.txt
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/fanboy-italian.txt.gz
+    $SHRED -n 3 -z -u  $MAINDIR/fanboy-italian.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-italian.txt.gz $MAINDIR/fanboy-italian.txt > /dev/null
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -366,7 +367,7 @@ then
     echo "Updated: fanboy-polish.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/fanboy-polish.txt.gz
+    $SHRED -n 3 -z -u  $MAINDIR/fanboy-polish.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-polish.txt.gz $MAINDIR/fanboy-polish.txt /dev/null
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -389,7 +390,7 @@ then
     echo "Updated: fanboy-indian.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/fanboy-indian.txt.gz
+    $SHRED -n 3 -z -u  $MAINDIR/fanboy-indian.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-indian.txt.gz $MAINDIR/fanboy-indian.txt > /dev/null
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -412,7 +413,7 @@ then
     echo "Updated: fanboy-vietnam.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/fanboy-vietnam.txt.gz
+    $SHRED -n 3 -z -u  $MAINDIR/fanboy-vietnam.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-vietnam.txt.gz $MAINDIR/fanboy-vietnam.txt > /dev/null
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -435,7 +436,7 @@ then
     echo "Updated: fanboy-chinese.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/fanboy-chinese.txt.gz
+    $SHRED -n 3 -z -u  $MAINDIR/fanboy-chinese.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-chinese.txt.gz $MAINDIR/fanboy-chinese.txt > /dev/null
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -458,7 +459,7 @@ then
     echo "Updated: fanboy-espanol.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $MAINDIR/fanboy-espanol.txt
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/fanboy-espanol.txt.gz
+    $SHRED -n 3 -z -u  $MAINDIR/fanboy-espanol.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-espanol.txt.gz $MAINDIR/fanboy-espanol.txt > /dev/null
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -483,7 +484,7 @@ then
     echo "Updated: fanboy-swedish.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/fanboy-swedish.txt.gz
+    $SHRED -n 3 -z -u  $MAINDIR/fanboy-swedish.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-swedish.txt.gz $MAINDIR/fanboy-swedish.txt > /dev/null
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -506,7 +507,7 @@ then
     echo "Updated: fanboy-gannett.txt"
     cp -f $GOOGLEDIR/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/adblock-gannett.txt.gz
+    $SHRED -n 3 -z -u  $MAINDIR/adblock-gannett.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/adblock-gannett.txt.gz $MAINDIR/adblock-gannett.txt > /dev/null
  fi
 else
@@ -533,7 +534,7 @@ then
     echo "Updated: urlfilter.ini"
     cp -f $TESTDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter.ini
     # Properly wipe old file.
-    shred -n 5 -z -u  $MAINDIR/opera/urlfilter.ini.gz
+    $SHRED -n 5 -z -u  $MAINDIR/opera/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/urlfilter.ini.gz $TESTDIR/opera/urlfilter.ini > /dev/null
     # Generate Iron script
     # Turn off for the time being.
@@ -547,7 +548,7 @@ then
       echo "Updated: complete/urlfilter.ini"
       cp -f $TESTDIR/urfilter-stats2.ini $MAINDIR/opera/complete/urlfilter.ini
       # Properly wipe old file.
-      shred -n 5 -z -u  $MAINDIR/opera/complete/urlfilter.ini.gz
+      $SHRED -n 5 -z -u  $MAINDIR/opera/complete/urlfilter.ini.gz
       $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/complete/urlfilter.ini.gz $TESTDIR/urfilter-stats2.ini > /dev/null
       # Generate Iron script
       # Turn off for the time being.
@@ -576,7 +577,7 @@ then
      cp -f $TESTDIR/urlfilter-cz2.ini $MAINDIR/opera/cz/urlfilter.ini
      cp -f $TESTDIR/urlfilter-cz-stats.ini $MAINDIR/opera/cz/complete/urlfilter.ini
      # Properly wipe old file.
-     shred -n 3 -z -u  $MAINDIR/opera/cz/complete/urlfilter.ini.gz $MAINDIR/opera/cz/urlfilter.ini.gz
+     $SHRED -n 3 -z -u  $MAINDIR/opera/cz/complete/urlfilter.ini.gz $MAINDIR/opera/cz/urlfilter.ini.gz
      $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/cz/complete/urlfilter.ini.gz $TESTDIR/urlfilter-cz-stats.ini > /dev/null
      $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/cz/urlfilter.ini.gz $TESTDIR/urlfilter-cz2.ini > /dev/null
      # Generate Iron script
@@ -604,7 +605,7 @@ then
     cp -f $TESTDIR/urlfilter-pol2.ini $MAINDIR/opera/pol/urlfilter.ini
     cp -f $TESTDIR/urlfilter-pol-stats.ini $MAINDIR/opera/pol/complete/urlfilter.ini
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/opera/pol/urlfilter.ini.gz $MAINDIR/opera/pol/complete/urlfilter.ini.gz
+    $SHRED -n 3 -z -u  $MAINDIR/opera/pol/urlfilter.ini.gz $MAINDIR/opera/pol/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/pol/complete/urfilter.ini.gz $TESTDIR/urlfilter-pol-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/pol/urlfilter.ini.gz $TESTDIR/urlfilter-pol2.ini > /dev/null
   fi
@@ -630,7 +631,7 @@ else
     cp -f $TESTDIR/urlfilter-esp-stats.ini $MAINDIR/opera/esp/complete/urlfilter.ini
     cp -f $TESTDIR/urlfilter-esp2.ini $MAINDIR/opera/esp/urlfilter.ini
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/opera/esp/urlfilter.ini.gz $MAINDIR/opera/esp/complete/urlfilter.ini.gz
+    $SHRED -n 3 -z -u  $MAINDIR/opera/esp/urlfilter.ini.gz $MAINDIR/opera/esp/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/esp/urlfilter.ini.gz $TESTDIR/urlfilter-esp2.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/esp/complete/urlfilter.ini.gz $TESTDIR/urlfilter-esp-stats.ini >/dev/null
     # Generate Iron script
@@ -658,7 +659,7 @@ then
     cp -f $TESTDIR/urlfilter-rus-stats.ini $MAINDIR/opera/rus/complete/urlfilter.ini
     cp -f $TESTDIR/urlfilter-rus2.ini $MAINDIR/opera/rus/urlfilter.ini
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/opera/rus/complete/urlfilter.ini.gz $MAINDIR/opera/rus/urlfilter.ini.gz
+    $SHRED -n 3 -z -u  $MAINDIR/opera/rus/complete/urlfilter.ini.gz $MAINDIR/opera/rus/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/rus/complete/urlfilter.ini.gz $TESTDIR/urlfilter-rus-stats.ini >/dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/rus/urlfilter.ini.gz $TESTDIR/urlfilter-rus2.ini >/dev/null
     # Generate Iron script
@@ -686,7 +687,7 @@ then
     cp -f $TESTDIR/urlfilter-swe-stats.ini $MAINDIR/opera/swe/complete/urlfilter.ini
     cp -f $TESTDIR/urlfilter-swe2.ini $MAINDIR/opera/swe/urlfilter.ini
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/opera/swe/urlfilter.ini.gz $MAINDIR/opera/swe/complete/urlfilter.ini.gz
+    $SHRED -n 3 -z -u  $MAINDIR/opera/swe/urlfilter.ini.gz $MAINDIR/opera/swe/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/swe/complete/urlfilter.ini.gz $TESTDIR/urlfilter-swe-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/swe/urlfilter.ini.gz $TESTDIR/urlfilter-swe2.ini > /dev/null
   fi
@@ -712,7 +713,7 @@ then
     cp -f $TESTDIR/urlfilter-jpn-stats.ini $MAINDIR/opera/jpn/complete/urlfilter.ini
     cp -f $TESTDIR/urlfilter-jpn2.ini $MAINDIR/opera/jpn/urlfilter.ini
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/opera/jpn/urlfilter.ini.gz $MAINDIR/opera/jpn/complete/urlfilter.ini.gz
+    $SHRED -n 3 -z -u  $MAINDIR/opera/jpn/urlfilter.ini.gz $MAINDIR/opera/jpn/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/jpn/complete/urlfilter.ini.gz $TESTDIR/urlfilter-jpn-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/jpn/urlfilter.ini.gz $TESTDIR/urlfilter-jpn2.ini > /dev/null
     # Generate Iron script
@@ -740,7 +741,7 @@ then
     cp -f $TESTDIR/urlfilter-vtn-stats.ini $MAINDIR/opera/vtn/complete/urlfilter.ini
     cp -f $TESTDIR/urlfilter-vtn2.ini $MAINDIR/opera/vtn/urlfilter.ini
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/opera/vtn/urlfilter.ini.gz $MAINDIR/opera/vtn/complete/urlfilter.ini.gz
+    $SHRED -n 3 -z -u  $MAINDIR/opera/vtn/urlfilter.ini.gz $MAINDIR/opera/vtn/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/vtn/complete/urlfilter.ini.gz $TESTDIR/urlfilter-vtn-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/vtn/urlfilter.ini.gz $TESTDIR/urlfilter-vtn2.ini > /dev/null
   fi
@@ -766,7 +767,7 @@ then
     cp -f $TESTDIR/urlfilter-tky-stats.ini $MAINDIR/opera/trky/complete/urlfilter.ini
     cp -f $TESTDIR/urlfilter-tky2.ini $MAINDIR/opera/trky/urlfilter.ini
     # Properly wipe old file.
-    shred -n 3 -z -u  $MAINDIR/opera/trky/complete/urlfilter.ini.gz $MAINDIR/opera/trky/urlfilter.ini.gz
+    $SHRED -n 3 -z -u  $MAINDIR/opera/trky/complete/urlfilter.ini.gz $MAINDIR/opera/trky/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/trky/complete/urlfilter.ini.gz $TESTDIR/urlfilter-tky-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/trky/urlfilter.ini.gz $TESTDIR/urlfilter-tky2.ini > /dev/null
   fi
