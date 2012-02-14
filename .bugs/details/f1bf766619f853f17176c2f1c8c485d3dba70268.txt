@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://today.kz/
+
+
+[filters]
+http://www.adex.kz/show.php?z=13&rl=0
+http://www.adex.kz/show.php?z=16&rl=0
+http://www.adex.kz/show.php?z=17&rl=0
+http://www.adex.kz/show.php?z=43&rl=0
+
+
+[other]
+
+
+[comments]
+nitrox
