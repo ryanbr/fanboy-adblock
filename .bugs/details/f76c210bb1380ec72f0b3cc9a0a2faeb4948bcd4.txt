@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.linux.org.ru/
+
+
+[filters]
+http://www.linux.org.ru/dw.jsp?height=400&width=219&main=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
