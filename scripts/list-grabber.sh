@@ -18,22 +18,23 @@ if [ ! -d "/tmp/ramdisk/opera/" ]; then
     mkdir /tmp/ramdisk/opera/
 fi
 
-# Grab Mercurial Updates
-#
-cd /home/fanboy/google/fanboy-adblock-list/
-/usr/local/bin/hg pull
-/usr/local/bin/hg update
-
 # Variables for directorys
 #
 MAINDIR="/var/www/adblock"
 GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 TESTDIR="/tmp/ramdisk"
 ZIP="nice -n 19 /usr/local/bin/7za"
+NICE="nice -n 19"
+
+# Grab Mercurial Updates
+#
+cd /home/fanboy/google/fanboy-adblock-list/
+$NICE /usr/local/bin/hg pull
+$NICE /usr/local/bin/hg update
 
 # Copy Popular Files into Ram Disk
 #
-shred -n 5 -z -u  $TESTDIR/opera/urlfilter.ini $TESTDIR/opera/urlfilter-stats.ini
+$NICE shred -n 5 -z -u  $TESTDIR/opera/urlfilter.ini $TESTDIR/opera/urlfilter-stats.ini
 cp -f $GOOGLEDIR/scripts/addChecksum.pl $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR
 cp -f $GOOGLEDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-stats.ini $TESTDIR/opera/
 
