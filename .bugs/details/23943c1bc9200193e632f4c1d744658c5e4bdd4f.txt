@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pussystate.com/?category=amateur
+
+
+[filters]
+http://www.pussystate.com/admain
+http://www.pussystate.com/admainleft
+
+
+[other]
+
+
+[comments]
+nitrox
