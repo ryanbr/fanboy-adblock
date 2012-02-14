@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://film4ik.ru/3380-ya-robot.html
+
+
+[filters]
+http://film4ik.ru/partnerearning/banner.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
