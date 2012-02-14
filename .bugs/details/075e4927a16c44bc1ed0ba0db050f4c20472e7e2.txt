@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.someecards.com/popular-cards/most-sent-today
+
+
+[filters]
+http://static.someecards.com/someecards/sec/images/skin/vow.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
