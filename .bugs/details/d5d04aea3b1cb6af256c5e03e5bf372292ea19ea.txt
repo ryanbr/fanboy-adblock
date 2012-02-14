@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.godlikeproductions.com/forum1/message1782678/pg1
+
+
+[filters]
+http://www.vemba.com/i/?z=*
+http://vemba.com/data/57041d48911f4d70200e49560b4a47e2.gif
+http://vemba.com/data/53ad25104a3da72b10b9d2e622f100e6.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
