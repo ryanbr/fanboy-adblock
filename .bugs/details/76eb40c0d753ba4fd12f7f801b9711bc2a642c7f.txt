@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jobs.co.uk/
+
+
+[filters]
+http://tracker01.analytics.adeevo.com/at.js
+http://tracker01.analytics.adeevo.com/log?c=1016&u=http%3A//www.jobs.co.uk/
+
+
+[other]
+
+
+[comments]
+nitrox
