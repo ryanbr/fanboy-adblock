@@ -29,7 +29,7 @@ cd /home/fanboy/google/fanboy-adblock-list/
 MAINDIR="/var/www/adblock"
 GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 TESTDIR="/tmp/ramdisk"
-ZIP="/usr/local/bin/7za"
+ZIP="nice -n 19 /usr/local/bin/7za"
 
 # Copy Popular Files into Ram Disk
 #
