@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pastebin.com/Lt4iXte5
+
+[filters]
+http://pastebin.com/share.php?i=Lt4iXte5
+
+
+[other]
+
+
+[comments]
+nitrox
