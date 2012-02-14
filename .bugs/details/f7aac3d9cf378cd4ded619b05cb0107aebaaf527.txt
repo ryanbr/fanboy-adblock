@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lshunter.tv/index.php?option=com_lsh&view=lsh&event_id=82151&tv_id=342&tid=27492&channel=0&tmpl=component&layout=popup&Itemid=327
+
+
+[filters]
+http://88.80.16.183/streams/counters/s5s7xkzyn7rf.html
+
+
+
+
+[other]
+An advert, not a counter
+
+
+[comments]
+fanboy
