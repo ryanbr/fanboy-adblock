@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tamilwire.com/
+
+[filters]
+http://tamilwire.com/ads/300x250.js
+
+
+[other]
+
+
+[comments]
+nitrox
