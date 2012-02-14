@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pornup.me/video/30034252/horny-mature-fucked?utm_source=*&utm_medium=*&utm_campaign=*
+
+
+[filters]
+http://st2.pornup.me/html/ads/video.html
+http://st2.pornup.me/html/ads/video_bottom.html
+http://st2.pornup.me/html/ads/video_right.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
