@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://candidate.manpower.com/wps/portal/GBCampus/jobs/Search-Manpower-Jobs/!ut/p/c5/04_SB8K8xLLM9MSSzPy8xBz9CP0os3g3pxAP35BgYwN_vwAzA08DA5NQRw8jAyCtHw7SgaTC3SzYxcAozM_U0NjfzMDA3wwib4ADOBro-3nk56bqF2Rnpzk6KioCANQBSBo!/dl3/d3/L0lDUmlTUSEhL3dHa0FKRnNBL1lCUmZ3QSEhL2VuX0dC
+
+
+[filters]
+https://candidate.manpower.com/DT201/themes/html/js/s_prod_code.js
+
+
+[other]
+
+
+[comments]
+nitrox
