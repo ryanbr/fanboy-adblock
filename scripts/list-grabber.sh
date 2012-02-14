@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v1.4 (18/04/2011)
+# Fanboy Adblock list grabber script v1.5 (14/02/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -135,8 +135,9 @@ then
     # Re-generate checksum
     perl $TESTDIR/addChecksum.pl $MAINDIR/fanboy-tracking.txt
     # Properly wipe old file.
-    shred -n 5 -z -u $MAINDIR/fanboy-tracking.txt.gz
-    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-tracking.txt.gz $MAINDIR/fanboy-tracking.txt > /dev/null
+    shred -n 5 -z -u $TESTDIR/fanboy-tracking.txt.gz
+    $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-tracking.txt.gz $MAINDIR/fanboy-tracking.txt > /dev/null
+    cp -f $TESTDIR/fanboy-tracking.txt.gz $MAINDIR/fanboy-tracking.txt.gz
     # Now combine with international list
     sh /etc/crons/hg-grab-intl.sh
     # Generate IE script
@@ -163,8 +164,9 @@ then
     echo "Updated: enhancedstats-addon.txt"
     cp -f $GOOGLEDIR/enhancedstats-addon.txt $MAINDIR/enhancedstats.txt
     # Properly wipe old file.
-    shred -n 5 -z -u $MAINDIR/enhancedstats.txt.gz
-    $ZIP a -mx=9 -y -tgzip $MAINDIR/enhancedstats.txt.gz $MAINDIR/enhancedstats.txt > /dev/null
+    shred -n 5 -z -u $TESTDIR/enhancedstats.txt.gz
+    $ZIP a -mx=9 -y -tgzip $TESTDIR/enhancedstats.txt.gz $MAINDIR/enhancedstats.txt > /dev/null
+    cp -f $TESTDIR/enhancedstats.txt.gz $MAINDIR/enhancedstats.txt.gz
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
@@ -186,10 +188,11 @@ then
     echo "No Changes detected: fanboy-addon.txt"
   else
     echo "Updated: fanboy-addon.txt"
-    cp -f $GOOGLEDIR/fanboy-adblocklist-addon.txt $MAINDIR/fanboy-addon.txt
+    cp -f $GOOGLEDIR/fanboy-adblocklist-addon.txt $MAINDIR/fanboy-addon.txt $TESTDIR/fanboy-addon.txt
     # Properly wipe old file.
-    shred -n 5 -z -u $MAINDIR/fanboy-addon.txt.gz
-    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-addon.txt.gz $MAINDIR/fanboy-addon.txt > /dev/null
+    shred -n 5 -z -u $TESTDIR/fanboy-addon.txt.gz
+    $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-addon.txt.gz $TESTDIR/fanboy-addon.txt > /dev/null
+    cp -f $TESTDIR/fanboy-addon.txt.gz $MAINDIR/fanboy-addon.txt.gz
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
