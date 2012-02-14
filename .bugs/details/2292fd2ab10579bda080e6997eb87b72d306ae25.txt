@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sticking.com/videos/jizz-party-3919.html?utm_source=pbw&utm_medium=cpc&utm_campaign=st
+
+
+[filters]
+http://www.tubetrafficcash.com/javascript.php?site=8
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
