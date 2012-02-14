@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.okcupid.com/home
+
+
+[filters]
+http://pixel.33across.com/ps/?tt=*&pid=*&act=*&r=*&g2=*&a2=*&s=*&g=*&a=*
+http://pixel.33across.com/ps/?tt=*&pid=*&act=*&r=*&g2=*&a2=*&s=*&g=*&a=*
+http://ads.okcimg.com/daisy?base=*&pageurl=*&page=*&format=*&cachebust=*&authid=*&force=*
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
