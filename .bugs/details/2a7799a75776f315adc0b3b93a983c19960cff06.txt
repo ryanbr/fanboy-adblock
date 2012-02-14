@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ebay.co.uk/
+
+
+[filters]
+http://rover.ebay.co.uk/idmap/0?footer&cb=vjo.dsf.assembly.VjClientAssembler._callback0&_vrdm=1329210876498
+http://rover.ebay.co.uk/roverimp/0/0/9?imp=2025679
+http://rover.ebay.co.uk/roverimp/0/0/9?imp=2046301&trknvp=ghi%3D19%26cp%3D5197&1329210876493
+
+
+[other]
+
+
+[comments]
+nitrox
