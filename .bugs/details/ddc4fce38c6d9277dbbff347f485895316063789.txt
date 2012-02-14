@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gigaom.com/cloud/zynga-lessens-its-amazon-dependency/
+
+
+[filters]
+http://gigaom2.files.wordpress.com/2012/02/datastax2-center-top-repeat-x.jpg
+http://gigaom2.files.wordpress.com/2012/02/datastax2-center-top.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
