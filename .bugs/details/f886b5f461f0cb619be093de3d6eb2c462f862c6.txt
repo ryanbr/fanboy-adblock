@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yellowpages.ca/?stype=si&showDD=true&what=testing+apparatus&where=Canada&x=44&y=11
+
+
+[filters]
+http://cdn.cb.yp.ca/js/utag.loader.js?ypgv=120128.1
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=10829
+
+
+[comments]
+nitrox
