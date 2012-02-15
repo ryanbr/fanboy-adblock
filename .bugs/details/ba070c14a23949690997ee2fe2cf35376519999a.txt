@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.mail.com/int/
+
+
+[filters]
+https://us.wa.ui-portal.com/1and1/mailcom/s?homepage.default.pi.homepage.index&amp;category=homepage&amp;wa_c_ti=International&amp;wa_c_id=1258&amp;wa_c_var=default&amp;wa_p_pn=AP&amp;wa_sc_2=default&amp;wa_sc_5=index&amp;country=int&amp;kid_0=kid&amp;kid_1=autoref&amp;kid_2=mail.com&amp;wa_output=desktop&amp;wa_p_bv=DefaultNoSloganPromoTool1&amp;wa_p_bf=DefaultNoSlogan1&amp;wa_ht_2=1054852&amp;wa_hp_2=AP&amp;wa_ht_3=1054716&amp;wa_hp_3=AP&amp;wa_ht_4=1054394&amp;wa_hp_4=AP&amp;wa_ht_5=1057192&amp;wa_hp_5=BoyGeniusReport&amp;wa_ht_6=1054288&amp;wa_hp_6=AP&amp;wa_ht_7=1056986&amp;wa_hp_7=BoyGeniusReport&amp;wa_ht_8=1054846&amp;wa_hp_8=AP&amp;wa_p_sr=1600x1200&amp;wa_p_vp=954x528&amp;wa_t=201202150748&amp;ns__t=1329292139313&amp;ns_c=UTF-8&amp;ns_ti=Free%20Email%20Addresses%3A%20Web%20based%20and%20secure%20Email%20-%20mail.com&amp;ns_jspageurl=https%3A//www.mail.com/int/&amp;ns_referrer=
+https://us.wa.ui-portal.com/1and1/mailcom/s?homepage.default.pi.homepage.index&ns_m2=yes&ns_setsiteck=4F3B636E18540087&amp;category=homepage&amp;wa_c_ti=International&amp;wa_c_id=1258&amp;wa_c_var=default&amp;wa_p_pn=AP&amp;wa_sc_2=default&amp;wa_sc_5=index&amp;country=int&amp;kid_0=kid&amp;kid_1=autoref&amp;kid_2=mail.com&amp;wa_output=desktop&amp;wa_p_bv=DefaultNoSloganPromoTool1&amp;wa_p_bf=DefaultNoSlogan1&amp;wa_ht_2=1054852&amp;wa_hp_2=AP&amp;wa_ht_3=1054716&amp;wa_hp_3=AP&amp;wa_ht_4=1054394&amp;wa_hp_4=AP&amp;wa_ht_5=1057192&amp;wa_hp_5=BoyGeniusReport&amp;wa_ht_6=1054288&amp;wa_hp_6=AP&amp;wa_ht_7=1056986&amp;wa_hp_7=BoyGeniusReport&amp;wa_ht_8=1054846&amp;wa_hp_8=AP&amp;wa_p_sr=1600x1200&amp;wa_p_vp=954x528&amp;wa_t=201202150748&amp;ns__t=1329292139313&amp;ns_c=UTF-8&amp;ns_ti=Free%20Email%20Addresses%3A%20Web%20based%20and%20secure%20Email%20-%20mail.com&amp;ns_jspageurl=https%3A//www.mail.com/int/&amp;ns_referrer=
+
+
+[other]
+
+
+[comments]
+nitrox
