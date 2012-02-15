@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://telecharger.tomsguide.fr/Empires-Age-3,0301-2352.html
+
+
+[filters]
+http://tracking.tomsguide.fr/beacon/store-uniq-client-id?insertbunchofthingshere
+http://tracking.presence-pc.com/beacon/store-uniq-client-id?insertbunchofthingshere
+http://tracking.infos-du-net.com/beacon/store-uniq-client-id?insertbunchofthingshere
+http://tracking.bestofmicro.com/beacon/store-uniq-client-id?insertbunchofthingshere
+http://performances.bestofmedia.com/boomerang?urlClient=http%3A%2F%2Ftelecharger.tomsguide.fr%2FEmpires-Age-3%2C0301-2352.html&roundTrip=3133&responseTimeClient=2598&timestamp=1329336414&signature=5ca5432325c2c135f5ae7de827ad9606eec17fe7&tags=action_cache_success&nbImages=45&nbStylesheets=1&nbScripts=19&nbDnsLookups=12&markupSize=108301&nbScriptsInsideMarkup=44&sizeScriptsInsideMarkup=20232&nbStylesheetsInsideMarkup=0&sizeStylesheetInsideMarkup=0&browser=Firefox-13&platform=Windows&beaconCost=567&nbNodesInMarkup=934
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
