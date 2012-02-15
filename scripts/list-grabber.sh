@@ -60,7 +60,9 @@ then
     cp -f $TESTDIR/fanboy-adblock.txt $MAINDIR/fanboy-adblock.txt
     # Compress file in Ram disk
     $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-adblock.txt > /dev/null
+    # Clear Webhost-copy before copying
     rm -f $MAINDIR/fanboy-adblock.txt.gz
+    # Now Copy over GZip'd list
     cp -f $TESTDIR/fanboy-adblock.txt.gz $MAINDIR/fanboy-adblock.txt.gz
     # perl $TESTDIR/addChecksum.pl $TESTDIR/firefox-expanded.txt-org2
     # cp -f $TESTDIR/firefox-expanded.txt-org2 $MAINDIR/fanboy-adblock.txt
@@ -116,7 +118,6 @@ then
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
-    
     echo "Updated: fanboy-adblock.txt" > /dev/null
   fi
 else
@@ -132,13 +133,18 @@ then
   if diff $GOOGLEDIR/fanboy-adblocklist-stats.txt $MAINDIR/fanboy-tracking.txt >/dev/null ; then
      echo "No Changes detected: fanboy-tracking.txt"
    else
-    echo "Updated: fanboy-tracking.txt"
-    cp -f $GOOGLEDIR/fanboy-adblocklist-stats.txt $MAINDIR/fanboy-tracking.txt
+    # echo "Updated: fanboy-tracking.txt"
+    # Clear old list
+    rm -f $TESTDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-tracking.txt
+    # Copy list from repo to RAMDISK
+    cp -f $GOOGLEDIR/fanboy-adblocklist-stats.txt $TESTDIR/fanboy-tracking.txt
     # Re-generate checksum
-    perl $TESTDIR/addChecksum.pl $MAINDIR/fanboy-tracking.txt
-    # Properly wipe old file.
-    $SHRED -n 5 -z -u $TESTDIR/fanboy-tracking.txt.gz
-    $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-tracking.txt.gz $MAINDIR/fanboy-tracking.txt > /dev/null
+    perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-tracking.txt
+    # GZip
+    $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-tracking.txt > /dev/null
+    # Clear Webhost-copy before copying and Copy over GZip'd list
+    cp -f $TESTDIR/fanboy-tracking.txt $MAINDIR/fanboy-tracking.txt
+    rm -f $MAINDIR/fanboy-tracking.txt.gz
     cp -f $TESTDIR/fanboy-tracking.txt.gz $MAINDIR/fanboy-tracking.txt.gz
     # Now combine with international list
     sh /etc/crons/hg-grab-intl.sh
@@ -163,11 +169,16 @@ then
   if diff $GOOGLEDIR/enhancedstats-addon.txt $MAINDIR/enhancedstats.txt >/dev/null ; then
     echo "No Changes detected: enhancedstats-addon.txt"
   else
-    echo "Updated: enhancedstats-addon.txt"
-    cp -f $GOOGLEDIR/enhancedstats-addon.txt $MAINDIR/enhancedstats.txt
-    # Properly wipe old file.
-    $SHRED -n 5 -z -u $TESTDIR/enhancedstats.txt.gz
-    $ZIP a -mx=9 -y -tgzip $TESTDIR/enhancedstats.txt.gz $MAINDIR/enhancedstats.txt > /dev/null
+    # echo "Updated: enhancedstats-addon.txt"
+    # Clear old list
+    rm -f $TESTDIR/enhancedstats.txt $TESTDIR/enhancedstats.txt.gz
+    # Copy list from repo to RAMDISK
+    cp -f $GOOGLEDIR/enhancedstats-addon.txt $TESTDIR/enhancedstats.txt
+    # GZip
+    $ZIP a -mx=9 -y -tgzip $TESTDIR/enhancedstats.txt.gz $TESTDIR/enhancedstats.txt > /dev/null
+    # Clear Webhost-copy before copying and now Copy over GZip'd list
+    cp -f $TESTDIR/enhancedstats.txt $MAINDIR/enhancedstats.txt
+    rm -f $MAINDIR/enhancedstats.txt.gz
     cp -f $TESTDIR/enhancedstats.txt.gz $MAINDIR/enhancedstats.txt.gz
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -189,11 +200,16 @@ then
   if diff $GOOGLEDIR/fanboy-adblocklist-addon.txt $MAINDIR/fanboy-addon.txt >/dev/null ; then
     echo "No Changes detected: fanboy-addon.txt"
   else
-    echo "Updated: fanboy-addon.txt"
-    cp -f $GOOGLEDIR/fanboy-adblocklist-addon.txt $MAINDIR/fanboy-addon.txt $TESTDIR/fanboy-addon.txt
-    # Properly wipe old file.
-    $SHRED -n 5 -z -u $TESTDIR/fanboy-addon.txt.gz
+    # echo "Updated: fanboy-addon.txt"
+    # Clear old list
+    rm -f $TESTDIR/fanboy-addon.txt $TESTDIR/fanboy-addon.txt.gz
+    # Copy list from repo to RAMDISK
+    cp -f $GOOGLEDIR/fanboy-adblocklist-addon.txt $TESTDIR/fanboy-addon.txt
+    # GZip
     $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-addon.txt.gz $TESTDIR/fanboy-addon.txt > /dev/null
+    # Clear Webhost-copy before copying and now Copy over GZip'd list
+    cp -f $TESTDIR/fanboy-addon.txt $MAINDIR/fanboy-addon.txt
+    rm -f $MAINDIR/fanboy-addon.txt.gz
     cp -f $TESTDIR/fanboy-addon.txt.gz $MAINDIR/fanboy-addon.txt.gz
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
