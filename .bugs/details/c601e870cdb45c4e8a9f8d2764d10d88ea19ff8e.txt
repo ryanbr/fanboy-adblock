@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rwgusa.com/biz/th.htm
+
+
+[filters]
+http://www.101shopsite.com/phpbanner/banners/101domain_468x60_1.gif
+http://www.101shopsite.com/phpbanner/banner_display.php?style=js&t=6&p=h&n=1
+
+
+[other]
+
+
+[comments]
+nitrox
