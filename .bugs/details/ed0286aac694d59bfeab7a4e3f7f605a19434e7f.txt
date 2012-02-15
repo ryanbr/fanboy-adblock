@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.knowx.com/
+
+
+[filters]
+https://www.knowx.com/servlet/com.kx.knowx.servlets.PageHitServlet?status=active&pagename=index
+
+
+[other]
+
+
+[comments]
+nitrox
