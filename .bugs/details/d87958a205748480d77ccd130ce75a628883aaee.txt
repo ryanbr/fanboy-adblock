@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tsn.ca/nba/story/?id=387847
+
+
+[filters]
+http://ad.ca.doubleclick.net/adj/ctv.tsn.ca/nba;abr=!webtv;mode=;loc=story;adpg=nba;adpg2=story;arena=sports;ops=;pos=;kw=;nc=;sz=300x250;tile=2;ord=2012215530530?
+http://ad.doubleclick.net/pfadx/ctv.tsnwatch.ca/nba/default;permalink=;clip=619405;sz=1x1;ord=0;tile=1;format=flv
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=10824
+
+[comments]
+nitrox
