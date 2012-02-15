@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rapids.canoe.ca/clive/clive
+
+
+[filters]
+http://www.canoe.ca/generix/ga.js
+
+
+[other]
+
+
+[comments]
+nitrox
