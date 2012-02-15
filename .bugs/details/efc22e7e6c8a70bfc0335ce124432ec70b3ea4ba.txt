@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tvcatchup.com/watch.html?c=78
+
+
+[filters]
+http://demo.inskinmedia.com/
+http://demo.inskinmedia.com/cds/index.php
+http://demo.inskinmedia.com/cds/login.php
+http://demo.inskinmedia.com/crossdomain.xml
+
+[other]
+
+
+[comments]
+nitrox
