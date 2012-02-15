@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://store.netzero.net/account/registration.do?asessionid=113444887|86400|1329358550&_flowId=signup-flow
+
+
+[filters]
+https://store.netzero.net/account/event.do?jsessionidVal=86A45447FACE1E480BBECEDAA396DCA3.DCA-SO01&refcd=&pagename=/view/netzero/signup/billing&event=PayType%20select:10003&brand=NZ&memberId=&requestParams=https%3A//store.netzero.net/account/registration.do%3Fasessionid%3D113444887%7C86400%7C1329358550%26_flowId%3Dsignup-flow&referrer=&paymentType=10003&promocd=&notes=&random=630.5496365292452
+https://store.netzero.net/account/event.do?jsessionidVal=86A45447FACE1E480BBECEDAA396DCA3.DCA-SO01&refcd=&pagename=/view/netzero/signup/billing&event=pageview_end&brand=NZ&memberId=&requestParams=https%3A//store.netzero.net/account/registration.do%3Fasessionid%3D113444887%7C86400%7C1329358550%26_flowId%3Dsignup-flow&referrer=&paymentType=10003&promocd=&notes=nz-iso-acc-monthly&random=586.2972500532896
+
+
+[other]
+
+
+[comments]
+nitrox
