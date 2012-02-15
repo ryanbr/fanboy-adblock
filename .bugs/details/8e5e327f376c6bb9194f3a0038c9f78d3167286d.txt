@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://en.canoe.ca/Canoe/Money/
+
+
+[filters]
+http://en.canoe.ca/Money/img/53570_advertorial_ING_en_620.jpg
+
+
+[other]
+
+
+[comments]
+nitrox
