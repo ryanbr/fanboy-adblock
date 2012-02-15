@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.juno.com/
+
+
+[filters]
+http://my.juno.com/start/javascript.do?message=GA_Error::ReferenceError::_gat%20is%20not%20defined%20on%20Page::www:/index
+http://my.juno.com/start/javascript.do?message=at%20%201489%20logPageView%20is%20not%20defined%20url%3A%20http%3A//www.juno.com/
+
+
+[other]
+
+
+[comments]
+nitrox
