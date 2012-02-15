@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tomsguide.com//
+
+
+[filters]
+http://tracking.tomsguide.com/beacon/store-uniq-client-id?bomuuid=1:9d57d35a9675c89675735ffe409f65a2&ts=1329295062&sig=708b02fac960e34a26d59f03fb00a861
+http://tracking.tomshardware.co.uk/beacon/store-uniq-client-id?bomuuid=1:9d57d35a9675c89675735ffe409f65a2&ts=1329295065&sig=51cabcaf2728e8e496627e1d4028eaab
+http://tracking.tomshardware.com/beacon/store-uniq-client-id?bomuuid=1:9d57d35a9675c89675735ffe409f65a2&ts=1329295064&sig=18763c4a41ee326390b857d4e42b3789
+
+
+[other]
+
+
+[comments]
+nitrox
