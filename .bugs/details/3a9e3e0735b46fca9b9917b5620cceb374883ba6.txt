@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.mint.com/blog/how-to/10-things-that-affect-your-auto-insurance-premiums/
+
+[filters]
+http://www.mint.com/blog/wp-content/themes/mintlife/ga.js
+
+
+[other]
+
+
+[comments]
+nitrox
