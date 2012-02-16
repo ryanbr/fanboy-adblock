@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thinkexist.com/quotation/when_you_are_a_bear_of_very_little_brain-and_you/222062.html
+
+
+[filters]
+http://thinkexist.com/images/afm.js
+
+
+[other]
+
+[comments]
+nitrox
