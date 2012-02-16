@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gorillavid.com/3eevpt6h86we
+
+
+[filters]
+http://gorillavid.com/cgi-bin/index_dlf.cgi?op=track_view&file_code=3eevpt6h86we&rnd=0.9164134631491307
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
