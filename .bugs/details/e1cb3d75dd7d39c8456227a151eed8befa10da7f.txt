@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bandstores.co.uk/shop/ndubz/
+
+
+[filters]
+http://www.bandstores.co.uk/tracking/scripts/clickjs.php
+
+
+[other]
+
+
+[comments]
+nitrox
