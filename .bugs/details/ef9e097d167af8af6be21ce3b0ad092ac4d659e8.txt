@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fapdu.com/jenna-jameson-flashpoint-complete
+
+
+[filters]
+http://rev.fapdu.com/?a
+http://rev.fapdu.com/b300.php?b
+http://rev.fapdu.com/f300.php?1
+
+
+[other]
+
+
+[comments]
+nitrox
