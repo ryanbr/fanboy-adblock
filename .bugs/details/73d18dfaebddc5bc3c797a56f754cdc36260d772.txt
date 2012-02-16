@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://findwallpaper.info/b2st+2011/page/7/
+
+
+[filters]
+http://findwallpaper.info/js/ads-findwallpaper.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
