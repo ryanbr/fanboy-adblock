@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://tradein.autotrader.com/ATPages/TradeInMarketPlace.aspx?LNX=TIMATCHPNAV
+
+
+[filters]
+https://www.kbb.com/js/omniturebodyhcode.js
+https://www.kbb.com/js/s_code_h22p1.js
+https://s.kbb.com/combine/sitePartner/512924661
+https://www.kbb.com/partner/bbtomntrk/?opn=timbuybkhome&source=ATC
+
+
+[other]
+
+
+[comments]
+nitrox
