@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://axgates.ru/soft/multimedia/7632-varez-ssylki-adobe-flash-player-11110262-final-2012.html
+
+
+[filters]
+http://txtrk.com/tiz/c1tiz.php?ics=256&icp=171&adul=2&bcol=_E0E7F8&zcol=%27
+
+
+[other]
+
+
+[comments]
+nitrox
