@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.telegraph.co.uk/news/celebritynews/9089373/Adele-takes-legal-action-over-false-sex-tape.html#.Tz6ZmGSXa9U.reddit
+
+
+[filters]
+http://www.telegraph.co.uk/template/ver1-0/js/webtrends/Webtrends.js?t=23
+http://www.telegraph.co.uk/template/ver1-0/js/webtrends/LIVE/WTID.js
+
+
+
+
+[other]
+right hand side is a bit screwed up because of webtrends
+
+
+[comments]
+fanboy
