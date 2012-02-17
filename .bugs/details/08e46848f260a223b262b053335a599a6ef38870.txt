@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://xmatch.com/
+
+
+[filters]
+http://content.pop6.com/banners/aff/piclist/video_piclist/35057/200x200/PG_Kylie_200x200.swf
+http://content.pop6.com/banners/aff/piclist/video_piclist/35057/PG_bluestar27_200x200.swf
+http://content.pop6.com/banners/aff/piclist/video_piclist/36365/200x200_pg/200x200_Allochka4U_pg.swf
+http://content.pop6.com/banners/aff/piclist/video_piclist/36365/200x200_r/200x200_cydella_oil3_r.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
