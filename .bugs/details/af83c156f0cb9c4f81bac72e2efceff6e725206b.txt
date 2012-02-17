@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dslreports.com/forum/r26879149-BT-uTorrent-Releases
+
+[filters]
+http://www.dslreports.com/tp?r=26879149&m=r
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
