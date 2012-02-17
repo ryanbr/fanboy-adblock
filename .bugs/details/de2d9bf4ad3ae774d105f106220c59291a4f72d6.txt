@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.techdirt.com/articles/20120216/17154217785/congrats-us-government-youre-scaring-web-businesses-into-moving-out-us.shtml
+
+
+[filters]
+http://cdn.techdirt.com/images/email.png
+http://cdn.techdirt.com/images/flattr2.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
