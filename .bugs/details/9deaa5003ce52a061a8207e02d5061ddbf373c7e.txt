@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.terezowens.com/
+
+[filters]
+http://cdn.komoona.com/scripts/kmn_sn.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10857
+
+
+[comments]
+fanboy
