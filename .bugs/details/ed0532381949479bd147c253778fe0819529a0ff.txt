@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bank.ru/publication/show/id/13068/
+
+
+[filters]
+http://informer.bank.ru/js/utm_checker.js
+http://informer.bank.ru/show/banner/id/293,293,228,316,322/place/4,999,28,27,19,19/?r=0.47227047927649124
+http://informer.bank.ru/show/utm/?r=0.7402693097146514&site_id=100&utm_host=forums.fanboy.co.nz&utm_source=&utm_campaign=
+http://informer.bank.ru/upload/banner/56ad06bdc4ea389bbc69be8d1b743879d735bf24.gif
+http://informer.bank.ru/upload/banner/60e59915136ac56639d07c49e8c46cff497864da.jpg
+http://informer.bank.ru/upload/banner/8351747302d202f7c58a379b3f88399671f089a0.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
