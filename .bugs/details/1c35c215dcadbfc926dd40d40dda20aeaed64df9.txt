@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.925thebeat.ca/webradio/
+
+
+[filters]
+http://player.streamtheworld.com/liveplayer.php?template=js&callsign=CFQRFM&wmode=transparent&equalizerbackgroundcolor=000000&equalizerforegroundcolor=9b6aac&equalizerpeak=bf368e&adstype=ADTECH&adtech_zoneid=1269986
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
