@@ -77,6 +77,8 @@ sed -i '/+d ads.yimg.com/d' $SUBS/fanboy-noele.tpl
 sed -i '/+d ad.ca.doubleclick.net/d' $SUBS/fanboy-noele.tpl
 sed -i '/+d ad.doubleclick.net/d' $SUBS/fanboy-noele.tpl
 sed -i '/+d zedo.com/d' $SUBS/fanboy-noele.tpl
+# http://hg.fanboy.co.nz/rev/5760d7c3afb3
+sed -i '/&adsType=/d' $SUBS/fanboy-noele.tpl
 
 # Remove old gz file
 #
