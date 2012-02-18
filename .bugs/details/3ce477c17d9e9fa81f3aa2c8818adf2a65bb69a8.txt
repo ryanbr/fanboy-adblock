@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aintitcool.com/node/53672
+
+
+[filters]
+http://comcast.cdn.auditude.com/flash/modules/comcast-1.1/AuditudeAdUnit.swf
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=10882
+
+
+[comments]
+fanboy
