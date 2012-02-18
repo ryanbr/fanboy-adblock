@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://clockpuzzle.pl/
+
+
+[filters]
+http://www.advertisegame.com/show.php?pl=6265
+http://www.advertisegame.com/show.php?pl=6267
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
