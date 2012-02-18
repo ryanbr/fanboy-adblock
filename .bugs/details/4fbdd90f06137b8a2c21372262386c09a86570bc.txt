@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zumiez.com/snow/snow-packages-1.html/
+
+
+[filters]
+http://z.pulselog.com/buzzer.0.53.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10877
+
+
+[comments]
+fanboy
