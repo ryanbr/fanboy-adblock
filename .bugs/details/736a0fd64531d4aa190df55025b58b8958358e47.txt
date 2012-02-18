@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fanpop.com/spots/paris-hiltons-my-new-bff/picks/show/212509/who-favourite
+
+
+[filters]
+http://www.fanpop.com/analytics_tag.html?type=poll_show
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
