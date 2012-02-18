@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mcdonalds.com/us/en/food/full_menu/breakfast.html
+
+
+[filters]
+http://www1.mcdonalds.com/metrics/leftnav/multitracker.js
+http://www1.mcdonalds.com/metrics/leftnav/mcdonaldscom.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10870
+
+
+[comments]
+fanboy
