@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://www.formstack.com/
+
+[filters]
+# Copy your Adblock filters here
+http://www.clicksen.se/clicker.js
+
+http://www.clicksen.se/action.php?a=ns& ... ack.com%2F
+
+http://www.clicksen.se/action.php?a=na& ... &t=load&e=[load]&ts=&u=http%3A%2F%2Fwww.formstack.com%2F&ur=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
+vinny
