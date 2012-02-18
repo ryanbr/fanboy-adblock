@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.torre1.webs.com/availability.html
+
+
+[filters]
+http://www.rentalsystems.com/advert_price_imbed.asp?ref=4221&rag=11704F&rcam=ownerweb
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
