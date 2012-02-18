@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://incrediblehacks.com/browser/ddtank-hack-cheat-coins-generator/
+
+
+[filters]
+http://www.widgeo.net/hitparade.php?pagexiti=effets
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
