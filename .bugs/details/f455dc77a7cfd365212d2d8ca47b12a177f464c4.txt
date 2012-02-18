@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bargainist.com/deals/stores/american-eagle/
+
+
+[filters]
+http://service.ibpxl.net/roi/log?params=%7B%22refer%22%3A%22http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D6%26t%3D10876%26p%3D29782%22%2C%22page%22%3A%22http%3A//www.bargainist.com/deals/stores/american-eagle/%22%2C%22imp%22%3A%5B%7B%22rmid%22%3A%22116279%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22115832%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22115146%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22114249%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22113867%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22113835%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22113327%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22112771%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22112624%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22112547%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22111594%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22110708%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22110575%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22110352%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22110101%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22109497%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22109344%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22108886%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22108692%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22107983%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22107209%22%2C%22pcid%22%3A%22%22%7D%2C%7B%22rmid%22%3A%22116380%22%2C%22pcid%22%3A%22%22%7D%5D%7D
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
