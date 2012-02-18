@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.agoravox.fr/
+
+
+[filters]
+http://www.beead.fr/api/choixPubJS.htm?pid=862&home=http%3A%2F%2Fwww.agoravox.fr%2F&mode=NONE&sec=0&screenLayer=1
+http://www.beead.fr/scripts/api/beead_apiV3.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
