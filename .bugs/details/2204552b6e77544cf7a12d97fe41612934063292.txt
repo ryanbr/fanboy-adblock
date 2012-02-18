@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.twitch.tv/fgtvlive
+
+
+[filters]
+http://de-glibhippo.cdn.videoplaza.tv/creatives/assets/7687fea9-5689-4f25-bc2a-92dc44b85585/e24b7f01-9dba-44ac-a709-4f08db216635.flv
+
+
+
+
+[other]
+reported
+
+
+[comments]
+fanboy
