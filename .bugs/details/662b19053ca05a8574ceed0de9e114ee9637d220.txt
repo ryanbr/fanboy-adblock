@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.biz.rr.com/do/mail/message/htmlEditor?l=*&v=*
+
+
+[filters]
+https://mail.biz.rr.com/images/portal/blank.gif?l=*&v=*
+
+
+
+
+[other]
+reported
+
+
+[comments]
+fanboy
