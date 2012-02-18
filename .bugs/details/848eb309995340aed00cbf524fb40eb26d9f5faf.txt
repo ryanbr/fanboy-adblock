@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.twitch.tv/lolsooner
+
+
+[filters]
+http://vastproxy.tubemogul.com/vast/placement/g6hKpCb6XSfAyDMYJ6JW?rand=*
+
+
+
+
+[other]
+hopefully causes no fps..
+
+
+[comments]
+fanboy
