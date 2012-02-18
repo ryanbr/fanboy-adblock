@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.allyngibson.net/?p=6218
+
+
+[filters]
+http://ws.audioscrobbler.com/1.0/user/allyngibson/recenttracks.xml?images=true&widget=1&limit=10&lang=en&widget_id=chart_eb21dae2c65d80a33c806518e7ff5bc0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
