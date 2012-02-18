@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.roxy.com/family/index.jsp?categoryId=2818113&camp=RX_slot1_cruisers_021512
+
+
+[filters]
+http://www.roxy.com/js/avmws_1011301.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
