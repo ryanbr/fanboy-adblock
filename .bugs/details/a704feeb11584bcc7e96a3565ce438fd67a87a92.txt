@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.woot.com/
+
+
+[filters]
+http://aan.amazon.com/2009-09-09/ad/amazonexternal.us/GetAanAd?pt=Woot&pt2=Homepage&slot=woot-sitestripe&n=1329538565007&_=1329538565007
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
