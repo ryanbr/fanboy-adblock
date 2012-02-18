@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.elmundo.es/elmundo/2012/02/17/cultura/1329466994.html
+
+[filters]
+http://cache.elmundo.es/banners-hashed/8f/8d/universalelinvitado-feb12/ult_cultura_skydcha/invitadodcha15feb120x1000.jpg
+
+
+
+[other]
+reported
+
+
+[comments]
+fanboy
