@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://toucharcade.com/2012/02/14/tiny-tower-ripoff-dream-heights-hits-us-app-store-zynga-employees-love-it/
+
+
+[filters]
+http://toucharcade.com/xmint/?js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
