@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.racingpost.com/
+
+
+[filters]
+http://www.racingpost.com/ads/livereporter_ad.sd?pid=3&par=165985&rid=0&resultDay=0&thecourseid=0&panelid=13
+http://www.racingpost.com/ads/panel.sd?pid=1&par=198762&rid=0&resultDay=0&thecourseid=0
+http://www.racingpost.com/ads/panel.sd?pid=1&par=43972&rid=0&resultDay=0&thecourseid=0
+http://www.racingpost.com/ads/panel.sd?pid=1&par=692432&rid=0&resultDay=0&thecourseid=0
+http://www.racingpost.com/ads/panel.sd?pid=1&par=773175&rid=0&resultDay=0&thecourseid=0
+http://www.racingpost.com/ads/panel.sd?pid=1&par=775312&rid=0&resultDay=0&thecourseid=0
+http://www.racingpost.com/ads/panel.sd?pid=1&par=801841&rid=0&resultDay=0&thecourseid=0
+http://www.racingpost.com/horses/cards_and_results_panel_ads.sd?pid=2&par=44693,778889,44695,44700&rid=0&resultDay=&thecourseid=0&panelid=60
+http://www.racingpost.com/media/media_centre_ad.sd?adPos=banner&adRef=rac-rac-racingpost&section=_default&ord=9117447
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
