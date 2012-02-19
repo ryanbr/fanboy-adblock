@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bangordailynews.com/2012/02/18/politics/ron-paul-carries-hancock-as-state-nears-end-of-gop-caucuses/
+
+
+[filters]
+http://wp-stats.com/count.js.php?user=bdn&wp_ID=1.1065249
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
