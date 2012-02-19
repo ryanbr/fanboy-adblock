@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.amazon.co.uk/
+
+
+[filters]
+http://z-ecx.images-amazon.com/images/G/02/wma/clog/clog-platform._V214773395_.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
