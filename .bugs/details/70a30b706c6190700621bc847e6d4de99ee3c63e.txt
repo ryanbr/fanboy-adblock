@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.filmz.ru/
+
+
+[filters]
+http://www.filmz.ru/images/images_tmwar/top_bg.jpg
+http://www.filmz.ru/js/banner_zone1.js
+http://www.filmz.ru/js/banner_zone2.js
+http://www.filmz.ru/js/banner_zone3.js
+http://www.filmz.ru/js/banner_zone4.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
