@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.staples.co.uk/technology/tablets-and-accessories/tablet-accessories/targus-stylus
+
+
+[filters]
+https://images.staples-eu.com/Static/ck-CK/static/js/myTracking.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10890
+
+
+[comments]
+fanboy
