@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://arbico.co.uk/Gaming-PCs-p-1-c-.html
+
+
+[filters]
+http://arbico.co.uk/include/visit_tracking.php?cpage=http://arbico.co.uk/Gaming-PCs-p-1-c-.html&refer=http://www.arbico.co.uk/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
