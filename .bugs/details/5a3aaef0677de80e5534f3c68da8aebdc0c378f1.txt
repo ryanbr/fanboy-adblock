@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://es.celldorado.com/ES/ADS/1534164825?trackid=*&programid=*&publisherid=*&ce_cid=*
+
+
+[filters]
+http://orts.wixawin.com/orts/view?adid=1534164825&trackid=&publisherid=*
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
