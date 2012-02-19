@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.radikal.ru/multiupl.aspx
+
+
+[filters]
+http://blendac.com/15/7948/d07665/
+http://cs.locoday.com/s/664/332474.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
