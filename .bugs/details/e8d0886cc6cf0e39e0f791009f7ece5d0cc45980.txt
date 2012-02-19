@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.co-operativetravel.co.uk/
+
+
+[filters]
+http://www.co-operativetravel.co.uk/EPiTrace/Handlers/TrackerHandler.ashx?pageId=3&r=0.4487047750283172&referrer=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
