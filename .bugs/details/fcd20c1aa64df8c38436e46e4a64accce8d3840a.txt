@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.smallparts.com/desco-polyester-statshield-labcoat-3x-large/dp/B004K1F28U/ref=sr_1_20?sr=1-20&qid=1329619269
+
+[filters]
+http://www.smallparts.com/uedata?ld&v=18&id=13ZWHD34WSTWMAB18TW9&bf=1&m=1&sc=13ZWHD34WSTWMAB18TW9&ue=1&af=207&be=427&pc=974&ld=974&t=1329619286487
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10886
+
+
+[comments]
+fanboy
