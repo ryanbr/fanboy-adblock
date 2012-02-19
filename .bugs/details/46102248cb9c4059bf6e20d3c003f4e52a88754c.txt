@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.chemistdirect.co.uk/
+
+
+[filters]
+http://www.nutracheck.co.uk/tracker?r=030404&l=6153F5DB0299A4D53E7C859394402884&u=120x600&t=1260279789568
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
