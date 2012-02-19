@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tubeplus.me/player/1026346/Invasion/season_1/episode_8/The_Cradle/
+
+
+[filters]
+http://v2.tudou.com/tdap/adcommon?s=27%7E%5F%7E5068363%7E%5F%7E1230%2E132%7E%5F%7E30%7E%5F%7E11000%7E%5F%7E910000%7E%5F%7E5%7E%5F%7E24444%2C24410%2C24346%2C23659%2C23623%2C23316%7E%5F%7E0%7E%5F%7E0
+http://at-img1.tdimg.com/sales/material/2012/0217/1329470807369.jpg
+http://at-img4.tdimg.com/sales/material/2011/0916/1316168513891.swf
+http://stats.tudou.com/cv3/?s=6%7C11000%7C30%7C910000%7C0%7C0%7C5068363%7C0%7C0%7C0%7C3lhpf1b31epg%7Cbpsngmm3n8g%7CWIN%2011%2C1%2C102%2C55%7Chttp%253A%252F%252Fwww%2Etubeplus%2Eme%252Fplayers%252Ftudou%252Fifr%5FEI5750sfKbA%2Ehtml%7Chttp%253A%252F%252Fwww%2Etubeplus%2Eme%252Fplayer%252F1026346%252FInvasion%252Fseason%5F1%252Fepisode%5F8%252FThe%5FCradle%252F&noCache=76807
+http://stat.tudou.com/stat/playevent?s=0%0D%0A6%235068363%231329610285999%2311000%23200%23http%3A%2F%2Fwww%2Etubeplus%2Eme%2Fplayer%2F1026346%2FInvasion%2Fseason%5F1%2Fepisode%5F8%2FThe%5FCradle%2F%23http%3A%2F%2Fwww%2Etubeplus%2Eme%2Fplayers%2Ftudou%2Fifr%5FEI5750sfKbA%2Ehtml%230%2330%230%23bpsngmm3n8g%23218%2E26%2E235%2E34%23end&noCache=46456
+http://acs86.com/a.htm?pv=1&sp=69213,0,0,0,0,1,1,11&chn=undefined&curl=http%3A%2F%2Fwww.tubeplus.me%2Fplayer%2F1026346%2FInvasion%2Fseason_1%2Fepisode_8%2FThe_Cradle%2F&cb=1467587916
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
