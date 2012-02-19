@@ -40,6 +40,11 @@ sed '1,9d' $MAINDIR/enhancedstats.txt > $TESTDIR/enhancedstats-addon-temp2.txt
 sed '/^$/d' $TESTDIR/enhancedstats-addon-temp2.txt > $TESTDIR/enhancedstats-addon-temp3.txt
 sed '$d' < $TESTDIR/enhancedstats-addon-temp3.txt > $TESTDIR/enhancedstats-addon-temp.txt
 
+# Remove dubes
+sed -i '/analytics.js/d' $TESTDIR/fanboy-stats-temp.txt
+sed -i '/com\/ga.js/d' $TESTDIR/fanboy-stats-temp.txt
+sed -i '/\/js\/tracking.js/d' $TESTDIR/fanboy-stats-temp.txt
+
 # Insert a new line to avoid chars running into each other
 #
 cat $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt | sed '$a!' > $TESTDIR/fanboy-adblocklist-current.txt
