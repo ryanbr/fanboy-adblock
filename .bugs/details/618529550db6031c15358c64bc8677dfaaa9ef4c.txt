@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://epidemz.net/lastnews/
+
+
+[filters]
+http://intimcity.org/getThumbs?uid=1907280331&p=1&fmt=htm&cityid=1961&lng=ru&fbc=%23FFFFFF&tbc=%23000000&hbc=%23FF0000&hfc=%23FFFFFF&hlu=0&hlhu=0&cols=1&rows=3&tid=2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
