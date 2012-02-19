@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lloydspharmacy.com/en/fragrance-clearance/?utm_source=Homepage&utm_medium=Homepagespots&utm_term=espotthree&utm_content=espotthree&utm_campaign=Homepagespots
+
+
+[filters]
+http://www.lloydspharmacy.com/wcsstore7.00.00.368/SafeStorefrontAssetStore/javascript/affiliateTracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
