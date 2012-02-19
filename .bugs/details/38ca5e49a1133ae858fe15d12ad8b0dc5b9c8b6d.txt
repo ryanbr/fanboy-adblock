@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dabs.com/products/seagate-500gb-momentus-2-5--sata-300-5400rpm-8mb-5G7P.html?src=2
+
+
+[filters]
+http://seal.globalsign.com/SiteSeal/gs_image_100-50_en.js
+http://seal.globalsign.com/SiteSeal/images/gs_noscript_110-55_en.gif
+http://ssif1.globalsign.com/SiteSeal/siteSeal/siteSeal/siteSeal.do?p1=www.dabs.com&p2=SZ100-50&p3=image&p4=en&p5=V0001&p6=S001&p7=http
+http://ssif1.globalsign.com/SiteSeal/siteSeal/siteSeal/siteSealImage.do?p1=www.dabs.com&p2=SZ100-50&p3=image&p4=en&p5=V0001&p6=S001&p7=http
+http://www.dabs.com/AbacusTest/clientinfo_bk.gif?2.01&1329616897863&Galahad_Dabs.com&300&p4hft7034686674-1&0&16777216&1440x900&1456x876&-&N&en-US&www.dabs.com&http%3A//www.dabs.com/forms/product-content-feedback/%3Fquicklinx%3D5G7P&http%3A//www.dabs.com/products/seagate-500gb-momentus-2-5--sata-300-5400rpm-8mb-5G7P.html%3Fsrc%3D2&Laptops%2C%20Computers%2C%20PC%20Components%2C%20MP3%20players%2C%20Software%2C%20Digital%20Cameras%20and%20more%20-%20dabs.com&NaN&0&gmjy5alc99&-&0&0&0&-&0&s.Name~MERCURY1-2&-
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
