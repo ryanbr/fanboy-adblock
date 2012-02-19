@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bp7.net/#
+
+[filters]
+http://say.ac/v2.php?sid=310
+http://say.ac/s2.php?syc_hs=4208a89c9c0de26d12141cace604f88b&syc_r=&sid=310&syc_w=1920&syc_h=1080
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
