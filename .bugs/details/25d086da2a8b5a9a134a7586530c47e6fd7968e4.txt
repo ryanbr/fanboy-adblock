@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.teletextholidays.co.uk/
+
+[filters]
+http://content.mkt941.com/lp/static/js/iMAWebCookie.js?63cf2179-1335abae56d-beb2abcbc80381a2c00685eab367e4a7&h=www.pages04.net
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
