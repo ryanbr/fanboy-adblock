@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://24heuresactu.com/2012/02/19/audrey-pulvar-agression-sectaire-contre-marine-le-pen/
+
+[filters]
+http://7tx6qnfid5.b.ad6media.fr/?d=1329647920607&s1=1&r=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D6%26t%3D10891
+http://7tx6qnfid5.b.ad6media.fr/?d=1329647921208&if=0&r=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D6%26t%3D10891&wl=http%3A%2F%2F24heuresactu.com%2F2012%2F02%2F19%2Faudrey-pulvar-agression-sectaire-contre-marine-le-pen%2F
+http://c.ad6media.fr/l.js
+http://c.ad6media.fr/load.gif
+http://fdtzm7j3ql.b.ad6media.fr/?d=1329647923506&if=0&r=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D6%26t%3D10891&wl=http%3A%2F%2F24heuresactu.com%2F2012%2F02%2F19%2Faudrey-pulvar-agression-sectaire-contre-marine-le-pen%2F
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
