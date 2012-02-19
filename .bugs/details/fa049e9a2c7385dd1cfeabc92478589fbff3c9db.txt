@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.currys.co.uk/gbuk/samsung-bd-d5100-xu-blu-ray-player-11242096-pdt.html
+
+
+[filters]
+http://c.mark.reevoo.com/track_url/CYS/11242096
+http://mark.reevoo.com/reevoomark/track/impression?locale=en-GB&product_id=3760218&retailer_id=6&badge_name=currys-rvm2-10mar2011&badge_type=product_reviews&badge_variant=default&session=87f8d3e009b91d4899e9170362c63f42&sku=11242096
+http://www.ist-track.com/ContainerJavaScript.ashx?id=bec25c7e-cbcd-460d-81d5-a25372d2e3d7
+https://www.ist-track.com/ContainerItemJavaScript.ashx?id=bec25c7e-cbcd-460d-81d5-a25372d2e3d7
+http://t.mark.reevoo.com/track/session_handle.jsonp?callback=ReevooMark.Tracking.update_bh_cookie&noCaching=1329629492473
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
