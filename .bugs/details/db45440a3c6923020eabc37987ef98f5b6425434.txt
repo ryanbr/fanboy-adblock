@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://russia.tv/video.html?tvpreg_id=*&vid=*&mid=*&d=*&p=*
+
+
+[filters]
+http://asg.vidigital.ru/1/94/c/v/2?i=744168890
+
+
+
+[other]
+test
+
+
+[comments]
+fanboy
