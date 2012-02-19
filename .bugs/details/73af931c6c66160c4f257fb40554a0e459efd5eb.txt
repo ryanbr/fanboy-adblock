@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://viewer.zmags.com/publication/0cff2867#/0cff2867/1
+
+
+[filters]
+http://stats.zmags.com/StatsCollector/gateway
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
