@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.endless.com/f/GUCCIsunglasses/175-5087274-9385061?ie=UTF8&pf_rd_m=AF16NM0QF9TKW&pf_rd_s=left-2&pf_rd_r=1D5N5E1CGB6MPVACSKSE&pf_rd_p=1346553662&pf_rd_t=101&pf_rd_i=homepage
+
+
+[filters]
+http://www.endless.com/mn/uedata/175-5087274-9385061?ld&v=18&id=1PTSSGGZPRT4XFS6YSVT&m=1&sc=1PTSSGGZPRT4XFS6YSVT&ue=1&be=176&pc=1905&ld=1906&t=1329619596961
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
