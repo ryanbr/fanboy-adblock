@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://afisha.yandex.ru/msk/events/460243/#schedule_map
+
+
+[filters]
+http://awaps.yandex.ru/0/s08985a82814p1v3/0.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
