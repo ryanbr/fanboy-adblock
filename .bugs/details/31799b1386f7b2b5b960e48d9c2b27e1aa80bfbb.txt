@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.olympicholidays.com/default.asp
+
+[filters]
+http://v3int.click4assistance.co.uk/INT/C4ATracker.aspx?C4AAccountNo=Olymp93383&amp;Ref=&amp;SS=1920:1080&amp;SC=24&amp;URL=http%3A//www.olympicholidays.com/default.asp&amp;Page=Olympic%20Holidays%20-%20Package%20Holidays%2C%20Deals%20on%20Flights%20and%20Hotels
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
