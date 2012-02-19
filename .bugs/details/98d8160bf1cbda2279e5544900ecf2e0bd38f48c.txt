@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.spaziogames.it/recensioni_videogiochi/console_pc/12318/battlefield-3.aspx
+
+
+[filters]
+http://adv2.spaziogames.it/index.ashx?f=300&i=0&r=68963
+http://adv2.spaziogames.it/index.ashx?f=stripe&i=426&r=34540
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
