@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+pinterest.com
+
+[filters]
+# Copy your Adblock filters here
+
+https://code.google.com/p/adblockforchrome/issues/detail?id=6422
+
+
+[other]
+# Any other details
+https://code.google.com/p/adblockforchrome/issues/detail?id=6422
+
+[comments]
+# Leave your username
