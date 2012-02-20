@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ringcentral.com/office/index.html?bmid=PPC_VR_COMPARE
+
+
+[filters]
+http://tracking.ringcentral.com/tracking/index.php?q=http%3A//www.ringcentral.com/office/index.html%3Fbmid%3DPPC_VR_COMPARE
+http://track.ringcentral.com/code?tail=1329728418558
+http://track.ringcentral.com/trck?url=http%3A//www.ringcentral.com/office/index.html%3Fbmid%3DPPC_VR_COMPARE&cookie=GWSRVID%3Drcprod03%3B%20rcakamai%3Drcprod103%3B%20_msuuid_wbtegk7gm0%3D5F6271AA-4E96-4A3B-863C-D7CFC3A08E4A%3B%20gw_bmid%3DPPC_VR_COMPARE%3B%20product_tags%3Doffice%3B%20gw_new_visitor%3DMon%20Feb%2020%202012%2009%3A00%3A14%20GMT+0000%20%28GMT%20Standard%20Time%29%3B%20omniture_channel%3DMobile%3B%20office_visitor%3D1329728415150%3B%20mbox%3Dcheck%23true%231329728476%7Csession%231329728415162-317825%231329730276%3B%20gw_active_user%3Dfalse%3B%20offermatica_campaign%3Doffice_lp%3B%20PHPSESSID%3Door9v1bt8fopgupstsgh6sm3k5&tail=1329728418558
+
+
+[other]
+
+
+[comments]
+nitrox
