@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wowanalytics.co.uk/
+
+
+[filters]
+http://news.wowanalytics.co.uk/wowanalyticslz//CommuniGator_WebTracking.js
+http://t.wowanalytics.co.uk/Scripts/tracking.js
+http://test.t.wowanalytics.co.uk/Scripts/trackingTest.js
+http://test.t.wowanalytics.co.uk/Tracking/TrackUrlGet/?clientid=69146dbf-8afc-404a-94d0-ef62c3a8ea2e&cust1=&cust2=&cust3=&pageUrl=http%3A%2F%2Fwowanalytics.co.uk%2F&pageTitle=Home&referrerUrl=&trackingdata=&sessionId=&lastVisit=&callback=wowTrackerTest.Callback&noCacheIE=1329778088025
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
