@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.troyhunt.com/2012/02/scamming-scammers-catching-virus-call.html
+
+[filters]
+http://dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http://www.troyhunt.com/2012/02/scamming-scammers-catching-virus-call.html
+http://dotnetshoutout.com/image.axd?url=http://www.troyhunt.com/2012/02/scamming-scammers-catching-virus-call.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
