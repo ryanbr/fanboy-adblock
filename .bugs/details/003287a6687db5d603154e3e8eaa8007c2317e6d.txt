@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.skype.com/intl/en-us/get-skype/on-your-computer/click-to-call/
+
+
+[filters]
+http://www.skypeassets.com/content/dam/skype/images/site/advertise/click-to-call-2-540.jpg
+http://www.skypeassets.com/content/dam/skype/images/site/advertise/click-to-call-header.jpg
+http://www.skypeassets.com/content/dam/skype/images/site/advertise/skype-credit-flourish-220.png
+
+
+[other]
+
+
+[comments]
+nitrox
