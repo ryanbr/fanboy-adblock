@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://secure.tesco.com/groceries/checkout/confirmation/default.aspx
+
+
+[filters]
+https://csmailings.tesco.com/cgi-bin3/buyrate?type=0&id=3125665489&category=grocery&subcategory=grocery&Amount=61.88&quantity=1
+https://mailing.tesco.com/cgi-bin3/buyrate?type=0&;id=3125665489&;category=grocery&;subcategory=grocery&;Amount=61.88&;quantity=1
+
+
+[other]
+
+
+[comments]
+nitrox
