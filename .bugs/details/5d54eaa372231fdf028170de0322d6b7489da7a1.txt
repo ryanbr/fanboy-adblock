@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://thepiratebay.se/torrent/7043210/ubuntu-11.04-home_up20120218.iso
+
+
+[filters]
+https://static.thepiratebay.org/img/bar.gif
+https://static.thepiratebay.se/img/bar.gif
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10926
+
+Atm, the image is loaded from .org domain but the ad image is also available on .se. They are using a combo of org and se domains to load ads. So blocking both.
+
+
+[comments]
+nitrox
