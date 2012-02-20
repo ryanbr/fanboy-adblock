@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.williams-sonoma.com/
+
+
+[filters]
+http://www.williams-sonoma.com/wsimgs/rk/images/s/201207/0001/js/external/mbox-pb.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10887
+
+
+[comments]
+nitrox
