@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.voip-info.org/
+
+
+[filters]
+http://voip.voip-info.org/www/delivery/ai.php?filename=8x8_23.jpg&contenttype=gif
+http://voip.voip-info.org/www/delivery/ai.php?filename=aptela.gif&contenttype=jpeg
+http://voip.voip-info.org/www/delivery/ai.php?filename=bicom-logo.gif&contenttype=gif
+http://voip.voip-info.org/www/delivery/ai.php?filename=bicom-voip.gif&contenttype=gif
+http://voip.voip-info.org/www/delivery/ai.php?filename=dls_2.jpg&contenttype=gif
+http://voip.voip-info.org/www/delivery/ai.php?filename=itp.jpg&contenttype=gif
+http://voip.voip-info.org/www/delivery/ai.php?filename=itp_2.jpg&contenttype=gif
+http://voip.voip-info.org/www/delivery/ai.php?filename=jive_23.jpg&contenttype=jpeg
+http://voip.voip-info.org/www/delivery/ai.php?filename=jive_5.gif&contenttype=gif
+http://voip.voip-info.org/www/delivery/ai.php?filename=m5logo.jpg&contenttype=png
+http://voip.voip-info.org/www/delivery/ai.php?filename=m5logo_2.jpg&contenttype=png
+http://voip.voip-info.org/www/delivery/ai.php?filename=nextiva_2.jpg&contenttype=gif
+http://voip.voip-info.org/www/delivery/ai.php?filename=nextiva_logo_11.gif&contenttype=gif
+
+[other]
+
+
+[comments]
+nitrox
