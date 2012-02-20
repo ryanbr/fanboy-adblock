@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.libertymutual.com/
+
+
+[filters]
+http://www.libertymutual.com/jawrJsPath/gzip_1231132953/bundles/lmcomleg_a.js
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=10911
+
+[comments]
+nitrox
