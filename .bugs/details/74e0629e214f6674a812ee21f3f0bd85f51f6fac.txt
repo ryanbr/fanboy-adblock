@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://storify.com/timhaines/hashbang-conversation
+
+
+[filters]
+http://stats.storify.com/record/view.gif?sid=4f42b8cd7c9c80be56a7d716&referer=http%3A%2F%2Fstorify.com%2Ftimhaines%2Fhashbang-conversation
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
