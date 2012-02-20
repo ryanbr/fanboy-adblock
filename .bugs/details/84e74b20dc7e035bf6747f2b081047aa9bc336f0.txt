@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://chaturbate.com/carlitoclk/
+
+
+[filters]
+http://chaturbate.com/contest/log_presence/carlitoclk/?_=1329778773004
+http://chaturbate.com/contest/log_presence/carlitoclk/?_=1329778803222
+http://chaturbate.com/contest/log_presence/carlitoclk/?_=1329778833413
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
