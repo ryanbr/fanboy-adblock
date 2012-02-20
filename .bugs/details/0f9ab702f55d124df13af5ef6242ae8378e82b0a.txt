@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nzbsrus.com/
+
+
+[filters]
+http://www.nzbsrus.com/tracker/pages/1.htm?http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D10905
+http://www.nzbsrus.com/tracker/pages/3.htm?http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D10905
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
