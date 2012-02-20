@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.macrumors.com/
+
+
+[filters]
+http://cdn.macrumors.com/images-new/like_button.png
+
+
+[other]
+
+
+[comments]
+nitrox
