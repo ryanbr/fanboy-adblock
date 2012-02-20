@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.guitarplayer.com/
+
+
+[filters]
+http://targetadverts.com/delivery/show_search.php?id_site=60&width=160&height=130&id_palette=1&szt=13&szd=11&szu=11&sr=http%3A//www.guitarplayer.com/&limit=4&q=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
