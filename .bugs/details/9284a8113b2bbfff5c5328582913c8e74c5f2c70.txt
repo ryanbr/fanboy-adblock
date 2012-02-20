@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.asteral.com/
+
+
+[filters]
+http://t.wowanalytics.co.uk/Scripts/tracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
