@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.getrichslowly.org/blog/
+
+
+[filters]
+http://j.jursp.com/jsc/dr/fl.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
