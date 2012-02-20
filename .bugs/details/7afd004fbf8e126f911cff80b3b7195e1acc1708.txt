@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.healthcareitnews.com/
+
+
+[filters]
+http://s025.visualsteel.net/medtech_ex/hitn_cdw_1202/code.js
+http://s025.visualsteel.net/medtech_rd/sharedhealth_120201/code.js
+http://s025.visualsteel.net/medtech_ex/hitn_cdw_1202/full.html?bLock=5995421991&bAdd=5995421991&bSite=healthcareitnews.com&bTP=http%3A//s025.visualsteel.net/cgi-bin/t3.cgi%3Fd%3Dmedtech_ex%26c%3Dhitn_cdw_1202%26w%3Dhealthcareitnews.com%26n%3D5995421991&bName=hitn_cdw_1202&bTTS=1329735580075&exHref=http%3A//ad.doubleclick.net/jump/N1260.SD126786N1260SN0/B6072816.2%3Bsz%3D1x1%3Bpc%3D%5BTPAS_ID%5D%3Bord%3D1329735580070%3F
+http://s025.visualsteel.net/medtech_ex/hitn_cdw_1202/half.html?bLock=5995421991&bAdd=5995421991&bSite=healthcareitnews.com&bTP=http%3A//s025.visualsteel.net/cgi-bin/t3.cgi%3Fd%3Dmedtech_ex%26c%3Dhitn_cdw_1202%26w%3Dhealthcareitnews.com%26n%3D5995421991&bName=hitn_cdw_1202&bTTS=1329735580075&exHref=http%3A//ad.doubleclick.net/jump/N1260.SD126786N1260SN0/B6072816.2%3Bsz%3D1x1%3Bpc%3D%5BTPAS_ID%5D%3Bord%3D1329735580070%3F
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10936
+
+[comments]
+nitrox
