@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://skicentral.com/michigan-skireport.html
+
+
+[filters]
+http://skicentral.com/gifs/ads/indianhead728x90-2012pass2012.jpg
+http://skicentral.com/gifs/ads/pladtrack.gif?indianheadresort;pl;michigan-skireport;9898656183858733000
+
+[other]
+
+
+[comments]
+nitrox
