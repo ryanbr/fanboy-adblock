@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.voip.com/index.aspx
+
+
+[filters]
+http://www.phonepower.com/entry/pixel.gif?target=vr-voipcom
+
+
+[other]
+
+
+[comments]
+nitrox
