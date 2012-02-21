@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fontanka.ru/2012/02/17/055/
+
+
+[filters]
+http://www.fontanka.ru/tpl/bann/auto/elect/500x300_under_article_comments.inner.shtml
+
+
+[other]
+
+
+[comments]
+nitrox
