@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sedo.com/login.php3?tracked=&partnerid=&language=us&task=login&linkurl=/search/searchresult.php4?login_action=watchlist
+
+
+[filters]
+http://sedo.com/images/img_ad_us.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
