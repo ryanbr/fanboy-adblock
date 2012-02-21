@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.selectornews.com/
+
+
+[filters]
+http://img.sn00.net/16/49/164903_120x120.jpg
+http://img.sn00.net/16/57/165723_120x120.jpg
+http://img.sn00.net/16/64/166411_120x120.jpg
+http://img.sn00.net/16/64/166484_120x120.jpg
+http://img.sn00.net/16/68/166827_120x120.jpg
+http://img.sn00.net/16/74/167432_120x120.jpg
+http://img.sn00.net/16/80/168098_120x120.jpg
+http://img.sn00.net/16/81/168117_120x120.jpg
+
+
+[other]
+
+
+
+[comments]
+nitrox
