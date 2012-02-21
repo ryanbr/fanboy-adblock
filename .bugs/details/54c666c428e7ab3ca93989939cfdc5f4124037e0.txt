@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://openhosting.ru/vps/
+
+
+[filters]
+http://ru.robotreplay.net/?401ba146a6f818f57102f32246b3eda5
+
+
+[other]
+
+
+[comments]
+nitrox
