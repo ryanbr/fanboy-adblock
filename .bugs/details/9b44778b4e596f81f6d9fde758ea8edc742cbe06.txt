@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.copyblogger.com/create-content-infographic/
+
+[filters]
+http://d3io1k5o0zdpqr.cloudfront.net/pinit.html?url=http://www.copyblogger.com/create-content-infographic/&media=http://netdna.copyblogger.com/images/copyblogger_infographic_1.png&layout=vertical
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
