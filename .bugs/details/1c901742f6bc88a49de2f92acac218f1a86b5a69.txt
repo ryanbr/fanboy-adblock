@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yobt.tv/
+
+
+[filters]
+http://market2.the-adult-company.com/livecams/geo_targeting/script.php?linkText=Live+Sex&defaultUrl=http%3A%2F%2Fwww.livejasmin.com%2Ffreechat.php?random%26tags=girl%26psid=dumping%26campaign_id=41529%26pstour=t2%26psprogram=REVS%26template=freechat3%266cam%26pstool=15_2%26welcome&europeanUrl=http%3A%2F%2Fxcams.yobt.tv%2F
+
+
+[other]
+
+
+[comments]
+nitrox
