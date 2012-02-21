@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://2ip.ru/services/
+
+
+[filters]
+http://jvs.price.ru/jvs.js
+http://jvs.price.ru/vertelka.html?url=http%3A%2F%2F2ip.ru%2Fservices%2F&ref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D7%26t%3D10949&skin=2ip&width=1000&height=90&pad_id=21039&catgrp=2ip&catdiv=1&hasimgn=1&section=top
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
