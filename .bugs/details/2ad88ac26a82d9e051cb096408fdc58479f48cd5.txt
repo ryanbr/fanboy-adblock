@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://firstdedic.ru/
+
+[filters]
+http://my.firstdedic.ru/mancgi/cnt?rnd=0.169673602295081&project=7&r=&p=http%3A//firstdedic.ru/
+
+
+[other]
+
+
+[comments]
+nitrox
