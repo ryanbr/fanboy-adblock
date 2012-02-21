@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.onlineshoes.com/shoes-boots-winter-boots-sale-list_ct27,bb,tt4/1/180/relevance
+
+
+[filters]
+http://s.onlineshoes.com/Scripts/sitecatalyst.ols.29515.js
+
+
+[other]
+
+
+[comments]
+nitrox
