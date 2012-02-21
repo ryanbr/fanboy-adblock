@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.prudential.com/view/page/public/11989?Flow=tab&SessionID=&CTRN=&OFFICE=&LeadSource=pru.com&LeadType=Appt&MainProductType=Life
+
+
+[filters]
+https://www.prudential.com/media/managed/metrics_1px.gif?ad=https://edgrfa.prudential.com&an=EDGRFA&ap=TAB_FORM&rnd=229628&ts=893728&Flow=tab&SessionID=&CTRN=&OFFICE=&LeadSource=pru.com&LeadType=Appt&MainProductType=Life
+
+
+[other]
+
+
+[comments]
+nitrox
