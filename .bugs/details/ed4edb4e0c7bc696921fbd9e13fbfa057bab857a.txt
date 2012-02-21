@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bustnow.com/
+
+
+[filters]
+http://www.33traffic.com/jp/bn/bnf/bnf_rot.php
+http://www.33traffic.com/jp/bn/bnf/magnet.gif
+http://www.33traffic.com/jp/bn/bnf/magnet.php
+
+
+[other]
+
+
+[comments]
+nitrox
