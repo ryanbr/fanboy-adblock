@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://autoutro.ru/catalog/honda/87697.shtml
+
+
+[filters]
+http://www.infocar.ru/media/common3.js
+http://www.infocar.ru/media/gc3.ashx?prtid=169531c9-1e02-4daa-839c-fff5c5bb6f73&marka=&model=&sc=4&params=&title=Honda%20Civic%20%7C%20%u043A%u0430%u0442%u0430%u043B%u043E%u0433%20%u0438%u043D%u043E%u043C%u0430%u0440%u043E%u043A%20%u043D%u0430%20Autoutro.ru
+
+
+[other]
+
+
+[comments]
+nitrox
