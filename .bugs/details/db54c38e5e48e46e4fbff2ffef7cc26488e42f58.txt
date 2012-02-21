@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dhgate.com/10pcs-lot-express-satellite-finder-signal/p-ff808081303f26a20130411348e32362.html
+
+
+[filters]
+http://image.dhgate.com/s_code.js
+
+
+[other]
+
+
+[comments]
+nitrox
