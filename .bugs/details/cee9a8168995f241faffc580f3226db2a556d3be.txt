@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rozzlobenimuzi.com/
+
+
+[filters]
+http://a.proklik.cz/www/images/2f6e00375c157b1710b74f2c31269e22.swf
+
+
+
+
+[other]
+
+
+
+[comments]
+Moskoe
