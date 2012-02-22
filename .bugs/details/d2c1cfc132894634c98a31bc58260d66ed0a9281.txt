@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.staples.com/Dragon-NaturallySpeaking-11-Premium/product_898160#promo_content
+
+
+[filters]
+https://prochat.staples.com/netagent/proactive/Visitor.aspx?Cmd=1&TITLE=Dragon%20NaturallySpeaking%2011%20Premium%20%7C%20Staples%AE&REFERRER=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D8%26t%3D10097%26hilit%3Dstaples.com&LASTVISIT=22%20Feb%202012%2011%3A19%3A46&LASTINVITE=&RSND=0&CUSTOMVARIABLES=ErrorFlag%3DN%23%3AProp%21AppserverId%3D16%23%3AProp%21PageName%3Dskuskuset%23%3AProp%21OrderTotal%3D%23%3AProp%21SkusInCart%3D%23%3AProp%21ClassesInCart%3D%23%3AProp%21CategoryName%3DTechnology%23%3AProp%21DepartmentName%3Dnull%23%3AProp%21ClassName%3DDragon%20Naturally%20Speaking%23%3AProp%21Sku%3D898160%23%3AProp%21JSessionId%3D0000v70WSKZ34SX-8_yCA4V56Ov%3A16bq6ce8i%23%3AProp%21CustomerNumber%3D%23%3AProp%21CustomerTier%3D%23%3AProp%21CartCount%3D0%23%3AProp%21SalesValue%3D0.00%23%3AProp%21SkuPrice%3D199.99&LT=1329910808984&cpId=478876689914
+https://prochat.staples.com/netagent/proactive/Visitor.aspx?cmd=2&CUSTOMVARIABLES=ErrorFlag%3DN%23%3AProp%21AppserverId%3D16%23%3AProp%21PageName%3Dskuskuset%23%3AProp%21OrderTotal%3D%23%3AProp%21SkusInCart%3D%23%3AProp%21ClassesInCart%3D%23%3AProp%21CategoryName%3DTechnology%23%3AProp%21DepartmentName%3Dnull%23%3AProp%21ClassName%3DDragon%20Naturally%20Speaking%23%3AProp%21Sku%3D898160%23%3AProp%21JSessionId%3D0000v70WSKZ34SX-8_yCA4V56Ov%3A16bq6ce8i%23%3AProp%21CustomerNumber%3D%23%3AProp%21CustomerTier%3D%23%3AProp%21CartCount%3D0%23%3AProp%21SalesValue%3D0.00%23%3AProp%21SkuPrice%3D199.99&LASTINVITE=&rand=1329910812641&cpId=478876689914
+https://prochat.staples.com/netagent/proactive/Visitor.aspx?cmd=2&CUSTOMVARIABLES=ErrorFlag%3DN%23%3AProp%21AppserverId%3D16%23%3AProp%21PageName%3Dskuskuset%23%3AProp%21OrderTotal%3D%23%3AProp%21SkusInCart%3D%23%3AProp%21ClassesInCart%3D%23%3AProp%21CategoryName%3DTechnology%23%3AProp%21DepartmentName%3Dnull%23%3AProp%21ClassName%3DDragon%20Naturally%20Speaking%23%3AProp%21Sku%3D898160%23%3AProp%21JSessionId%3D0000v70WSKZ34SX-8_yCA4V56Ov%3A16bq6ce8i%23%3AProp%21CustomerNumber%3D%23%3AProp%21CustomerTier%3D%23%3AProp%21CartCount%3D0%23%3AProp%21SalesValue%3D0.00%23%3AProp%21SkuPrice%3D199.99&LASTINVITE=&rand=1329910816179&cpId=478876689914
+https://prochat.staples.com/netagent/proactive/Visitor.aspx?cmd=2&CUSTOMVARIABLES=ErrorFlag%3DN%23%3AProp%21AppserverId%3D16%23%3AProp%21PageName%3Dskuskuset%23%3AProp%21OrderTotal%3D%23%3AProp%21SkusInCart%3D%23%3AProp%21ClassesInCart%3D%23%3AProp%21CategoryName%3DTechnology%23%3AProp%21DepartmentName%3Dnull%23%3AProp%21ClassName%3DDragon%20Naturally%20Speaking%23%3AProp%21Sku%3D898160%23%3AProp%21JSessionId%3D0000v70WSKZ34SX-8_yCA4V56Ov%3A16bq6ce8i%23%3AProp%21CustomerNumber%3D%23%3AProp%21CustomerTier%3D%23%3AProp%21CartCount%3D0%23%3AProp%21SalesValue%3D0.00%23%3AProp%21SkuPrice%3D199.99&LASTINVITE=&rand=1329910820400&cpId=478876689914
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
