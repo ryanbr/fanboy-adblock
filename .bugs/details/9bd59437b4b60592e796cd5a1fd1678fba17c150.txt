@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.facebook.com/tribesascend?sk=app_126443417467788
+
+
+[filters]
+https://tabs.wildfireapp.com/css/14879/1325616920
+https://tabs.wildfireapp.com/favicon.ico
+https://tabs.wildfireapp.com/fb/5903/tabs/
+https://tabs.wildfireapp.com/javascripts/vendor/facebox-proto/closelabel.gif
+https://warehouse.wildfireapp.com/track_visit?network=facebook&contest_id=176920&referral_source=&referrer=https%3A%2F%2Fs-static.ak.facebook.com%2Fplatform%2Fpage_proxy.php%3Fv%3D4&session_token=MBigfgIYn%2Fq2nbLnTIPqY%2BMMY1NnU8QIfLEKTqaKTUM%3D&locale=en-US
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
