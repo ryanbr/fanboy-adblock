@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tvcatchup.com/watch.html?c=83_hq
+
+
+[filters]
+http://adserver.tvcatchup.com/crossdomain.xml
+http://cdn.inskinmedia.com///InSkinFiles/Flvs/Blackberry/15sec_Blackberry_Harmony_Bellagio_RevUK_VOD%20(1)_1.f4v
+http://cdn.inskinmedia.com/isfe/4.1/swf/unitcontainer2.swf
+http://dc.tremormedia.com/crossdomain.xml
+
+
+[other]
+
+
+[comments]
+nitrox
