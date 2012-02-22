@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://buyonline.nationwide.com/autoquote/initiateNewQuote.do
+
+
+[filters]
+https://analyticssl.clickpathmedia.com/JS/DNI_Q.js?aid=200529&ip=24.228.2.23&ao=888&ca=888&ag=888&kw=undefined&pr=888&pv=0.00&clk=1&new=1&ses=1&bd=buyonline.nationwide.com&cp=/autoquote/initiateNewQuote.do&ep=/autoquote/initiateNewQuote.do&ref=undefined&co=Y&la=en-US&ja=N&sr=1440x900&cd=24&tz=300&ua=Mozilla/5.0%20%28Windows%20NT%206.1%3B%20WOW64%3B%20rv%3A10.0.2%29%20Gecko/20100101%20Firefox/10.0.2&pl=Win32&an=Netscape
+https://buyonline.nationwide.com/aq-static/scripts/js/clickpathmedia_PCIO.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
