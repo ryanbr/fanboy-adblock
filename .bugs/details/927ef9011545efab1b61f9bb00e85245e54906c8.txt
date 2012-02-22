@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://buyonline.nationwide.com/autoquote/initiateNewQuote.do
+
+
+[filters]
+https://proac.nationwide.com/netagent/proactive/proactive.aspx
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&p=30012#p30012
+
+
+[comments]
+fanboy
