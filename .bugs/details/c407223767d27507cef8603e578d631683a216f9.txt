@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cracked.com/photoplasty_322_if-tattoos-could-talk_p2/
+
+
+[filters]
+http://i.crackedcdn.com/ui/mashed/persistent-share-MmZkYjliYjY.css
+http://i.crackedcdn.com/ui/mashed/persistent-share-MzQ1MjE2MTQ.js
+
+
+
+
+[other]
+removed
+
+
+[comments]
+fanboy
