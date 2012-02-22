@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mycelebritiesgossips.com/2012/02/pregnant-models-walks-runway.html
+
+
+[filters]
+http://www.fast2earn.com/javascript/banner.js
+http://www.fast2earn.com/services/banner_rotator.php?a_aid=75943&a_bid=3786
+http://www.fast2earn.com/websites/1_fast2earn.com/tmp/banner_data.js
+http://www.mycelebritiesgossips.com/b/stats?style=BLACK_TRANSPARENT&timeRange=ALL_TIME&token=oLFapjUBAAA.gw-vEp5YnlMfx6bs08ELT1kAZKXvB95AZiSxt5uCm9M.Xk_8DFG7u0IgFSmV117Rlg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
