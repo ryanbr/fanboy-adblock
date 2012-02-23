@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://secure.ingdirect.com/myaccount/INGDirect/login.vm
+
+
+[filters]
+https://home.ingdirect.com/js/adwizard/adwizard.js?v=1112
+https://secure.ingdirect.com/myaccount/jscript/adwizard/adwizard_default.js?v=1112#pv6e5ae2b07a838e81
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
