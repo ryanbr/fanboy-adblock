@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cracksguru.com/search/ashisoft+Duplicate+Finder/
+
+
+[filters]
+http://www.firstclass-download.com/en/search/ashisoft%20Duplicate%20Finder.html?aff.id=1374&aff.subid=202&iframe=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
