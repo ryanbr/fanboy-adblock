@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://torrentz.eu/8ac3731ad4b039c05393b5404afa6e7397810b41
+
+
+[filters]
+http://www.cbaazars.com/run.php?user=inventoris&js=1&pnum=2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
