@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bbvacompass.com/
+
+
+[filters]
+http://www.bbvacompass.com/js/BBVA/utils/BBVA_Analytics.js?s=u020712
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
