@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.bankofinternet.com/bofi
+
+
+[filters]
+https://www.bankofinternet.com/inc/webtrack.aspx?x=1440&y=900
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=10980
+
+
+[comments]
+fanboy
