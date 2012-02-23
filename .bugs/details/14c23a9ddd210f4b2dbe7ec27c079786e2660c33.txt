@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.53.com/site/index.html?
+
+
+[filters]
+https://www.53.com/resources/images/ad-rotator/english/adrotator-529-boy-doctor-english.jpg
+https://www.53.com/resources/images/ad-rotator/english/adrotator-duocard2-english.jpg
+https://www.53.com/resources/images/ad-rotator/english/adrotator-ef-rates-199.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
