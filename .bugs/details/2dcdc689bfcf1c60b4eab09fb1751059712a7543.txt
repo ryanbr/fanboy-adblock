@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.berkshirebank.com/
+
+
+[filters]
+http://www.berkshirebank.com//Tracking/WebPageEventLogger.axd?EventCode=100104&Isflash=11.2%20r202&Resolution=1440x900&SiteId=8039CE09-E7DA-47E1-BCEC-DF96B5E411F4
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
