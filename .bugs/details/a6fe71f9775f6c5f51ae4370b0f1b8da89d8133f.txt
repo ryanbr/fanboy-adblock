@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.youporn.com/youporn-data-not-exposed/
+
+
+[filters]
+http://blog.youporn.com/wp-content/plugins/slick-social-share-buttons/css/images/tab_bottom_floating.png
+http://blog.youporn.com/wp-content/plugins/slick-social-share-buttons/js/ga.social_tracking.js?ver=3.3.1
+http://blog.youporn.com/wp-content/plugins/slick-social-share-buttons/css/dcssb.css
+http://blog.youporn.com/wp-content/plugins/slick-social-share-buttons/js/jquery.easing.js?ver=3.3.1
+http://blog.youporn.com/wp-content/plugins/slick-social-share-buttons/js/jquery.social.float.1.3.js?ver=3.3.1
+
+[other]
+
+
+[comments]
+nitrox
