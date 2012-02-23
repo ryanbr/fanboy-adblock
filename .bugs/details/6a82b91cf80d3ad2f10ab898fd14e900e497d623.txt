@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.capitalone.com/
+
+[filters]
+https://www.capitalone.com/js/questus/intercept.js#v1st=NOTFOUND&region=national
+https://www.capitalone.com/js/questus/config.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
