@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://just-download.com/utilities/file-managers/simple-duplicate-finder-1.2.0.3.exe/screenshot/54544
+
+
+[filters]
+http://cdn.just-download.com/banner/banner.header.html
+
+
+[other]
+
+
+[comments]
+nitrox
