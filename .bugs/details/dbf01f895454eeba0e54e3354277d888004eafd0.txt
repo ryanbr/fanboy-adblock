@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://oilprice.com/The-Environment/Global-Warming/The-Climate-Change-Controversy-Continues.html
+
+
+[filters]
+http://oilprice.com/oiopub/js.php?type=banner&align=center&zone=1
+http://oilprice.com/images/banners/ab455f94423c0225d8c04e25da5eef8f.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
