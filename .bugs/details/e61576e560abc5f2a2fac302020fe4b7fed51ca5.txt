@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ddlspot.com/easeus-partition-master-v9.1.0-pe-retail-download-354520.html
+
+
+[filters]
+http://serialbay.com/images/u_2.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
