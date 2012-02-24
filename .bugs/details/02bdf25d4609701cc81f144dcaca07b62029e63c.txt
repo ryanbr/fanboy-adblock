@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://otona-movie.com/okz-pickup/
+
+[filters]
+http://bbns.ziyu.net/clicktrack/88x31x3.html
+http://clicktrack2.ziyu.net/js/768.js
+http://clicktrack2.ziyu.net/js2.php?id=768
+http://rranking5.ziyu.net/js.php?okazu_adult&147&1&http://otona-movie.com/okz-pickup/
+http://rranking5.ziyu.net/rank.php?okazu_adult
+http://rranking5.ziyu.net/rranking.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
