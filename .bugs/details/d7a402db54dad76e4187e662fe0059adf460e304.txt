@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bigdaddy.com/
+
+
+[filters]
+http://images1.hazecash.com/bigdaddy/t1/warning/bigdaddy-lft.jpg
+http://images3.hazecash.com/bigdaddy/t1/warning/bigdaddy-logo.jpg
+http://images4.hazecash.com/bigdaddy/t1/warning/logo-corner.png
+http://static.hazecash.com/min/b=shared/styles/sites/tour/bigdaddy/tour1&f=warning.css,gc_safari.css
+
+
+
+
+[other]
+fp
+
+
+[comments]
+fanboy
