@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.apple.com/mac/
+
+
+[filters]
+https://ssl.apple.com/metrics/scripts/s_code_h.js
+
+
+
+
+[other]
+fp
+
+[comments]
+fanboy
