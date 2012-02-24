@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://oscar.go.com/video/PL55161146
+
+
+[filters]
+http://adimages.go.com/crossdomain.xml
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
