@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.canada411.ca/search/address.html
+
+
+[filters]
+http://www.canada411.ca/search/?stype=*&st=*&ci=*&pv=*&pc=&Search.x=*&Search.y=*
+
+
+
+[other]
+"i think the map here should be visible" reported embedded maps, missing.
+https://reports.adblockplus.org/854de343-8fc0-4002-9e12-2482b91c218c#tab=requests
+
+[comments]
+fanboy
