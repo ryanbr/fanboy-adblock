@@ -1,0 +1,29 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://freedomju.blog84.fc2.com/blog-entry-2154.html
+
+
+[filters]
+http://sexy-ch.com/css/default.css
+http://sexy-ch.com/girl_img_madam/120x90/5/imgCD9A0w.jpg
+http://sexy-ch.com/girl_img_madam/120x90/5/imgIBcPx3.jpg
+http://sexy-ch.com/girl_img_madam/120x90/5/imgXTybSD.jpg
+http://sexy-ch.com/girl_img_madam/120x90/5/imgZFsX80.jpg
+http://sexy-ch.com/girl_img_madam/120x90/5/imgehBoZs.jpg
+http://sexy-ch.com/girl_img_madam/120x90/5/imgywwla1.jpg
+http://sexy-ch.com/img/bt01.gif
+http://sexy-ch.com/img/bt02.gif
+http://sexy-ch.com/img/madam_standby.gif
+http://sexy-ch.com/on.php?s=m&x=3&y=2&c=mkz03&h=1&t=default&o=o&d=1
+http://sexy-ch.com/on.php?s=m&x=3&y=2&h=1&t=default&o=o&c=mkz03
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
