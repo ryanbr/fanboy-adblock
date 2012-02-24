@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.papajohns.com/index.html
+
+
+[filters]
+http://www.papajohns.com/index_files/activityi.html
+http://www.papajohns.com/index_files/activityi_data/ct-bbbc18841b3b456290a75a20b93e5f27.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
