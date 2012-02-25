@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.xbox360iso.com/xbox360-dvd-game-f24.html?f=24
+
+
+[filters]
+http://www.softpopads.com/code/publisher.php?user_id=7
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
