@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nytimes.com/1999/05/23/weekinreview/word-for-word-columbine-high-school-carnage-our-hallways-scarred-us-made-us.html?pagewanted=*&src=*
+
+
+[filters]
+http://nytimes.perfectmarket.com/pm/css/ap-NYT4-G02.css?77b6c6451420ae0d6c1135c1f918d46cf9b67a9d
+
+
+
+
+[other]
+broken css
+
+[comments]
+fanboy
