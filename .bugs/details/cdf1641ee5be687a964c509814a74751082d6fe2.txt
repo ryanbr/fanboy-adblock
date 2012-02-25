@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.popsugar.com/Michelle-Williams-Pictures-Irish-Film-Event-21901001?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+popsugar+%28PopSugar%29&utm_content=Google+Reader
+
+
+[filters]
+http://piggy.onsugar.com/event.gif?u=http%3A%2F%2Fwww.popsugar.com%2FMichelle-Williams-Pictures-Irish-Film-Event-21901001%3Futm_source%3Dfeedburner%26utm_medium%3Dfeed%26utm_campaign%3DFeed%253A%2Bpopsugar%2B%2528PopSugar%2529%26utm_content%3DGoogle%2BReader&r=http%3A%2F%2Fwww.thesuperficial.com%2F&a=Allie+Merriam&s=2ondqjtuna31udaj693fnab5b4
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
