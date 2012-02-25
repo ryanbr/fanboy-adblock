@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wellness.com/dir/3820137/psychologist/nc/asheville/family-life--learning-center
+
+
+[filters]
+http://www.wellness.com/proxy.asp?url=http%3A//pubapi.atti.com/search-api/search/v1/listings%3FappId%3Dok81vbcvp4%26term%3Dpsychologists%26searchloc%3DAsheville%2C%20NC%26listingcount%3D3%26referrer%3Dhttp%3A//www.wellness.com%26userAgent%3DMozilla/5.0%20%28Windows%20NT%206.1%3B%20Win64%3B%20x64%3B%20rv%3A13.0a1%29%20Gecko/13.0a1%20Firefox/13.0a1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
