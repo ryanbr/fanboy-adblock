@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hark.com/clips/mxklljlvjv-i-got-to-take-a-squirt
+
+
+[filters]
+http://www.hark.com/at/1/ad_height/250/ad_sourced/0/ad_width/300/atid/1202252258-322a/explicit/1/pid/mxklljlvjv/render/iframe/type/clip/unit/300x250_middle
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
