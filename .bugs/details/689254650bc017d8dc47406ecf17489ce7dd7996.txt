@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.mmosite.com/content/a/2012-02-24/planetside_2_gets_separated_na_and_eu_server.shtml
+
+
+[filters]
+http://click.mmosite.com/showHits/getTotalHits.php?channel=10013&web_id=1819301&kind=1
+http://click.mmosite.com/static.php?channel=10013&web_id=1819301&kind=1
+http://r.igameunion.com/2662883340/c4b00436ebde4453820a7511e81e91de.swf
+http://r.igameunion.com/cm/v1.js
+http://r.igameunion.com/show/swf_ad.html?fix=com&w=728&h=90&bi=2662883340&ni=c4b00436ebde4453820a7511e81e91de.swf&c=se7VI6w5JZxKwch0%2FxL0%2Bu0ikDweO5BEY8Q9ji7xC73Azs1nfh4CmeIhOrrNDHL0rLfTDInbv2h%2Bae1GvuYyGaaNacw8mnLNlFD0obJycjvISNbXUtRDl5CjnRLpaMiPB%2B2WgHu%2FGgBx6Gqb61hGLh0unoHo3edIECFofqWvxmk4xEOGVJA16O0L1tR%2Bl%2FXhbv56s2%2BQmisk%2BK9wOjE9Y5zR%2F%2BY2Wm4igS%2FFCjO6dH%2Fw3Ue11UzJBd4QMt90ffc2hpeiBa9O2zILIJMLzhbG2xj8TJWNlKKdp7J1V%2BSmG5AmZOVjrjt18MDfVEAIUCRTmKTCqPqbssVfwELWnCADsjwpE%2BbLBzmqC1Fn11crDG8%3D&r=http%3A%2F%2Fcpm.worldoftanks.com%3Fcode%3DHPjZYmsc9tqzvgAIPLKG_W-7W9qlrNqUEooUPgwQWXASaMzI-ak8UTCCbgJwmjxfw8tomRt8SeNDRhCbhdK4_RfbQRTAUIFs-pMipMDK-Xo%26pub%3B_id%3D1486065121
+http://s.co.igameunion.com/a.php?id=m97&tg=%23commentad&n=1&v=1
+http://www.mmosite.com/sponsor/igameunion.shtml?c1=644253549&w=728&h=90&c2=FFHLBMsuvHFCAAyBzBAF
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
