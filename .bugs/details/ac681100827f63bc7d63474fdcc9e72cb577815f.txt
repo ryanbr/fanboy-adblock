@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.people.com/people/
+
+
+[filters]
+http://img2.timeinc.net/people/static/i/footer/icon_adchoices.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
