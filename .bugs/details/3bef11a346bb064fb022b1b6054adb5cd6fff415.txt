@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.independent.org/2012/02/23/insinuation-as-war-propaganda/
+
+[filters]
+http://www.independent.org/popup/code.js
+http://www.independent.org/popup/colorbox/colorbox.css
+http://www.independent.org/popup/jquery-1.4.1.min.js
+http://www.independent.org/popup/jquery.colorbox-min-back.js
+http://www.independent.org/popup/jquery.cookie-min.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
