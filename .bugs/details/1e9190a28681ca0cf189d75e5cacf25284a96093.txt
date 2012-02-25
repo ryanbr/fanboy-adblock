@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.gsmarena.com/this-is-what-windows-8-on-desktop-should-have-looked-like/
+
+
+[filters]
+http://blog.gsmarena.com/wp-content/themes/gsmarena-v2-production/images/social-icons-sprite2.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
