@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nfl.com/combine/top-performers#year=2012&workout=FORTY_YARD_DASH&position=QB-RB-WR-TE-S-DL-LB-CB-OL-SPEC
+
+
+[filters]
+http://s.nflcdn.com/static/site/3.12/scripts/global/ads.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
