@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ennialingerie.com/ladies-underwear/irall/irall-sophie-satin-pyamas.aspx
+
+
+[filters]
+http://gateway10.whoson.com/invite.js?domain=www.ennialingerie.com
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
