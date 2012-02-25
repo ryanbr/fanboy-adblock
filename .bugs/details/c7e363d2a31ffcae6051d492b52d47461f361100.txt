@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hiltmon.com/blog/2012/02/20/the-markdown-mindset/
+
+
+[filters]
+http://api.twitter.com/1/statuses/user_timeline/hiltmon.json?trim_user=true&count=24&include_entities=1&exclude_replies=1&callback=reqwest_0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
