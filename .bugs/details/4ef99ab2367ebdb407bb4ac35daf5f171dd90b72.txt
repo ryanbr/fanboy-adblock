@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rainbowdressup.com/pug-care.php
+
+
+[filters]
+http://statsimg.com/in.cgi?2
+http://www.rainbowdressup.com/Ads/adsNewVars.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
