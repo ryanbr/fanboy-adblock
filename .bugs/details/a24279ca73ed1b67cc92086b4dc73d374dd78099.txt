@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://smotri.com/video/view/?id=v6735318ec1
+
+
+[filters]
+http://stg.odnoklassniki.ru/share/odkl_klass_stat.gif
+http://stg.odnoklassniki.ru/share/odkl_share.css
+http://stg.odnoklassniki.ru/share/odkl_share.js
+http://surfingbird.ru/button?layout=common&url=http%3A%2F%2Fsmotri.com%2Fvideo%2Fview%2F%3Fid%3Dv6735318ec1&caption=%D0%A1%D0%B5%D1%80%D1%84
+http://surfingbird.ru/img/share-icon.png?v=2
+http://surfingbird.ru/share/share.js
+http://surfingbird.ru/share/surf-widget.css?v=5
+http://vkontakte.ru/js/api/openapi.js?10
+http://yandex.st/share/static/b-share-icon.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
