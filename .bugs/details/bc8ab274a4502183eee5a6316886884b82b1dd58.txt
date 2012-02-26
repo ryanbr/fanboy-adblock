@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.powerbot.org/community/topic/657286-submitted-rsbot-gui-designs/page__st__140
+
+
+[filters]
+http://powerbot-gold4rs.netdna-ssl.com/scripters/files/1/ads/gold4fun.gif
+http://powerbot-gold4rs.netdna-ssl.com/scripters/files/1/ads/royale.gif
+http://powerbot-gold4rs.netdna-ssl.com/scripters/files/1/ads/rs2shop.gif
+http://powerbot-gold4rs.netdna-ssl.com/scripters/files/1/ads/rsgoldus.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
