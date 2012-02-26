@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://weblog.rubyonrails.org/2012/2/26/edge-rails-patch-is-the-new-primary-http-method-for-updates
+
+
+[filters]
+http://37signals.com/svn/job.fcgi
+http://www.37signals.com/svn/job.fcgi
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
