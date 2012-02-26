@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nbc.com/the-office/video/New-Parents/1386995
+
+
+[filters]
+http://widgets.getglue.com/checkin.js
+http://widgets.getglue.com/html/checkinTall.html?partnerId=beafa4d326&type=vertical&callback=getglue_callback&source=http%3A%2F%2Fwww.nbc.com%2Fthe-office%2Fvideo%2FNew-Parents%2F1386995&width=65&height=61&url=http%3A%2F%2Fwidgets.getglue.com%2Fhtml%2FcheckinTall.html%3F&objectId=http%3A%2F%2Fwww.nbc.com%2Fthe-office%2Fvideo%2FNew-Parents%2F1386995#http%3A%2F%2Fwww.nbc.com%2Fthe-office%2Fvideo%2FNew-Parents%2F1386995
+
+http://29773.v.fwmrm.net/ad/p/1? = stops ads
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
