@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.businessweek.com/news/2012-02-24/clearwire-drops-as-google-plans-stake-sale-seattle-mover.html
+
+
+[filters]
+http://urc.taboolasyndication.com/businessweek/trc/3/json?tim=00%3A25%3A52.633&data={%22ii%22%3A%22%2Fnews%2F2012-02-24%2Fclearwire-drops-as-google-plans-stake-sale-seattle-mover.html%22%2C%22it%22%3A%22text%22%2C%22u%22%3A%22http%3A%2F%2Fwww.businessweek.com%2Fnews%2F2012-02-24%2Fclearwire-drops-as-google-plans-stake-sale-seattle-mover.html%22%2C%22sd%22%3A%22v1_f84c200e63982174b3fb38d3f0128081_51b2324a-c9cb-4bd2-963e-047e6aee5a19_1330255484_1330255484%22%2C%22ui%22%3A%2251b2324a-c9cb-4bd2-963e-047e6aee5a19%22%2C%22cv%22%3A%225-19-1-53571-4395641%22%2C%22uiv%22%3A%22default%22%2C%22id%22%3A330%2C%22r%22%3A[{%22li%22%3A%22rbox-t2v%22%2C%22s%22%3A3%2C%22uim%22%3A%22article-two-columns%22%2C%22uip%22%3A%22article-two-columns%22}]%2C%22e%22%3A%22http%3A%2F%2Fwww.reddit.com%2F%22%2C%22cb%22%3A%22TRC.callbacks.recommendations_1%22}
+http://static.btrd.net/js/02210113/interstitial.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
