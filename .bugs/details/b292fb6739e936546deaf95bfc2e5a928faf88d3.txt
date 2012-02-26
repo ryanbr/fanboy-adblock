@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.joara.com/view/book/bookPartList.html?book_code=613152&sl_category=fantasy&sl_chkcost=&pageLocation=best&sl_othercategory=today
+
+[filters]
+http://files.joara.com//banner_file/20120220_191618.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
