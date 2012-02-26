@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cliphunter.com/w/879804/April_O_Neil_Fucked_in_Pantyhose_HD
+
+[filters]
+http://geo.gexo.com/geo.js
+http://h.cliphunter.com:8050/?879804&t=1330258029.129
+http://h.cliphunter.com:8050/?879804&t=1330258034.115
+http://h.cliphunter.com:8050/?879804&t=1330258039.115
+http://h.cliphunter.com:8050/?879804&t=1330258044.114
+http://h.cliphunter.com:8050/?879804&t=1330258049.115
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
