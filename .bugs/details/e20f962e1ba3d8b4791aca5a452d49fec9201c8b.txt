@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://movreel.com/e519skthateg
+
+[filters]
+http://stattracker-realtimequery-advertiser1345-contract-jan172010.adppv.com/300x250advertise.png
+http://stattracker-realtimequery-advertiser1345-contract-jan172010.adppv.com/Play.PNG
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
