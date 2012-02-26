@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tennessean.com/article/20120225/NEWS01/302250022/DUI-deaths-spur-questions-about-bars-liability?odyssey=tab|topnews|text|FRONTPAGE
+
+
+[filters]
+http://www.tennessean.com/odygel/lib/legacy/GDN/UREvents/ZagUser.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
