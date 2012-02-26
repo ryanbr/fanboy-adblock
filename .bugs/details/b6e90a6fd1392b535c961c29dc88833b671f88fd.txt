@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://member.20dollars2surf.com/login.php?tc=1
+
+
+[filters]
+http://script.banstex.com/script/affichagejs.aspx?zid=32414&rnd=283276198
+http://script.banstex.com/script/affichagejs.aspx?zid=43554&rnd=027502636
+http://script1.banstex.com/affichagejs.aspx?zid=32414&ran=804610
+http://script1.banstex.com/affichagejs.aspx?zid=43554&ran=142459
+http://script1.banstex.com/autopromo.aspx?sid=54726&zid=32414
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
