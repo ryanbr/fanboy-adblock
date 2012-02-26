@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.typemoon.net/
+
+[filters]
+http://www.typemoon.net/bn/novelengine_160_600_02.jpg
+http://www.typemoon.net/bn/bookculture_530_200_01.jpg
+http://www.typemoon.net/bn/indiket_530_200.jpg
+http://www.typemoon.net/bn/lnovel_530_200_08.jpg
+http://www.typemoon.net/bn/mtypemoonnet.jpg
+http://www.typemoon.net/bn/novelengine_160_600_02.jpg
+http://www.typemoon.net/bn/novelengine_530_200_03.jpg
+http://www.typemoon.net/bn/noxnlux_530_200_01.jpg
+http://www.typemoon.net/bn/tictactoe.swf
+http://www.typemoon.net/bn/watcher_530_200_01.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
