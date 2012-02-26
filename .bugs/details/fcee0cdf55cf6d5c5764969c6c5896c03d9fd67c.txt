@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://9to5mac.com/2012/02/25/adobe-launches-photoshop-touch-on-ipad-2-for-just-9-99/
+
+
+[filters]
+http://ads.shareth.ru/tt?id=751150
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
