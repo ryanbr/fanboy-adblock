@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://yypbd.tistory.com/1228
+
+
+[filters]
+http://guide.allblet.net/allblet.php?id=97241&type=9
+http://guide.allblet.net/allblet.php?id=98473&type=4
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
