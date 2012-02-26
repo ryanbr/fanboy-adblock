@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.xvideos.com/video1826542/april_oneil_and_asian_guy
+
+
+[filters]
+http://www.xvideos.com/in.php?referer=http%3A//www.reddit.com/r/pics/comments/q63yd/april_oneil_cosplay/
+
+
+
+[other]
+?referer test filter
+
+
+[comments]
+fanboy
