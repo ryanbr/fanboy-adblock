@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.joara.com/main.html
+
+
+[filters]
+http://ad.joara.com/sign/css/sign.css
+http://ad.joara.com/sign/js/sign.js
+http://banner.joara.com/banner/bannerView.inc.php?idx=1411
+http://banner.joara.com/banner/bannerView.inc.php?idx=1416
+http://banner.joara.com/banner/bannerView.inc.php?idx=1419
+http://banner.joara.com/banner/bannerView.inc.php?idx=1420
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
