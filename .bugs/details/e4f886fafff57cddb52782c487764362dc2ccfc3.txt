@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mp3.zing.vn/bai-hat/Lien-Khuc-Anh-Bang-Thanh-Thuy-Thanh-Tuyen/IW6II609.html
+
+
+[filters]
+http://log.mp3.zing.vn/log/mp3log?data=eyJhY3RpWeB24iOiJsaXN0ZW4iLCJkYXRhIjp7ImFjY0lkIjowLCJhY2NvInagaMEdW50IjpdUngdWxsLCJoWeB3N0IjoiMTAdUngMzAdUngMTIdUngMTUwIiwimUsICmVdUngZGVyX3RpWeBWUiOjAdUngMDE3OTY0MTI0NjmUsIC5NTY1LCJwYXJhWeBSI6eyJsaXN0ZW5fdHlwZSI6InNvInagaMEWeBmmUsICiLCJpZCI6NTA5MzIxLCJ0aXRsZSI6IkxpXHUwMGVhWeBiBLaFx1MDBmYWMgQW5oIEJmUsICdTFlYjFdUngZyIsImFydGlzdF9pZCI6IiIsImdlWeBnJlX2lkIjoiMTEiLCJrZXkiOiI0YTM4MGRjMmJhNWFkMDE0NDRlODkyYThmMDYyNGM3MiJ9fX0&fromId=&type=0&fromBox=0&callBack=zmCore.js806914
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
