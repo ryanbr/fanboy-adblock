@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://xuongphim.com/movie/server-vn/tower-heist--2011-sieu-trom-nha-choc-troi/hanh-dong/m7153.html
+
+
+[filters]
+http://210.211.117.117/partner/chuchu/xuongphim_160x550.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
