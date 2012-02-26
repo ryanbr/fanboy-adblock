@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forums.tauonline.org/630857-post1.html
+
+[filters]
+http://funnyonlinequiz.com/d/p/p1r9e88954?ref2=lb&ref3=lb_global&ref4=10147&ref5=13148&link_type=offer&sa=opoluwlowwlw&od=11h5qhe
+
+http://findonlinesurveysforcash.com/d/p/p1r9e88954?ref2=lb&ref3=lb_global&ref4=10147&ref5=13148&link_type=offer&sa=opoluwlowwlw&od=11h5q06
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
