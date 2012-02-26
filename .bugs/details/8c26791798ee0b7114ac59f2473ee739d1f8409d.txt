@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://video.mail.ru/mail/lenok59.08/275/407.html
+
+
+[filters]
+http://stat.rs.mail.ru/?app=adman&error=securityError&command=%5BDataEngine%20-%20securityErrorHandler%5D&details=Unable%20to%20load%20data%20from%20http%3A//ad.mail.ru/vp/477/.%20Details%3A%20%5BSecurityErrorEvent%20type%3D%22securityError%22%20bubbles%3Dfalse%20cancelable%3Dfalse%20eventPhase%3D2%20text%3D%22Error%20%232048%22%5D&rand=0.1958564673550427
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
