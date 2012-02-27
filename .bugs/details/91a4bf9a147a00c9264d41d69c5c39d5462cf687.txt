@@ -1,0 +1,13 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.myfax.com/
+
+
+[filters]
+||myfax.com/free/images/sendfax/cp_coffee_660x80.swf
+
+
+[comments]
+vinny
