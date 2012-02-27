@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.evtv1.com/player.aspx?itemnum=12876
+
+[filters]
+http://ads.evtv1.com/p/10/js?s=702510968;t=1330384420035;z=-780;u=http%3A//www.evtv1.com/player.aspx%3Fitemnum%3D12876;r=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D6%26t%3D11060;w=1920x1080x24
+http://ads.vidsense.com/a/55c7ee68?s=0.013112055462877081;z=-780
+http://ads.vidsense.com/a/55c7ee68?s=0.5299353813525299;z=-780
+http://ads.vidsense.com/a/o83g51gs/p/8c1l63sr/f?_=977787
+http://ads.vidsense.com/a/o83g51gs/p/8c1l63sr?s=0.08373336943153575;z=-780
+http://ads.vidsense.com/v/gWxUvq1BAAGHdmMzMDgAQgAAXQpaAAAnRQ-A/d/192/f/uDKgBfoZ.gif/i?_rr_=http%3A%2F%2Fwww.evtv1.com%2Fplayer.aspx%3Fitemnum%3D12876;_=544709
+http://scripts.pulsetv.com/banner/affiliate.asp?format=1&aid=100231
+http://scripts.pulsetv.com/banner/affiliate.asp?format=2&aid=100231
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
