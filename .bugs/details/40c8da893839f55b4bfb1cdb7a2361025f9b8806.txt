@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://puzzle-games.pogo.com/games/poppitsprint?intcmp=u_pg_gr1_gme_poppitsprint&pageSection=pg_cw_top-pl#game
+
+
+[filters]
+http://puzzle-games.pogo.com/game/loadingpageomniture.do?game=poppitblitz
+http://puzzle-games.pogo.com/game/gamepageomniture.do?game=poppitblitz
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
