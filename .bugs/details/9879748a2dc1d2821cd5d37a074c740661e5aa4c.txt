@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://depic.me/7qmu967vt9hf
+
+
+[filters]
+http://depic.me/bann/5.jpg
+
+
+[other]
+
+
+[comments]
+nitrox
