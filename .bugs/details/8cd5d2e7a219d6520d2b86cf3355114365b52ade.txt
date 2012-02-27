@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bing.com/search?q=where+to+watch+razzies&first=11&FORM=PORE
+
+
+[filters]
+http://www.bing.com/fd/ls/GLinkPing.aspx?IG=c9727a7a1dd34b3a97317f031886107a&CID=2CFD1637714C4ECC901DB555C30D9AEC&PM=Y&&ID=SERP,5068.1
+
+
+[other]
+
+
+[comments]
+nitrox
