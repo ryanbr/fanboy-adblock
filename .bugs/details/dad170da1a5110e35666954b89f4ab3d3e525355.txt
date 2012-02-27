@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+uni.me
+
+[filters]
+http://uni.me/banner728x90_1.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
