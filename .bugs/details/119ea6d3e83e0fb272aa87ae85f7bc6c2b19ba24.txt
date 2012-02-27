@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sexnarod.ru/
+
+[filters]
+http://sexnarod.ru/html/dating/index.html
+
+
+[other]
+
+
+[comments]
+nitrox
