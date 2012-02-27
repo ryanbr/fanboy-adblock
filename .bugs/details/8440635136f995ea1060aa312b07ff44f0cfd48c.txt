@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.popcap.com/
+
+
+[filters]
+http://www.ox.popcap.com/delivery/afr.php?&zoneid=163
+http://www.ox.popcap.com/delivery/afr.php?&zoneid=165
+http://www.ox.popcap.com/delivery/afr.php?&zoneid=168
+http://www.ox.popcap.com/delivery/afr.php?&zoneid=169
+
+
+
+
+[other]
+front page is bung
+
+[comments]
+fanboy
