@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://photos.toofab.com/galleries/84th_annual_academy_awards_worst_dressed#tab=oscars&id=740303
+
+
+[filters]
+@@||stippleit.com/stipple.js$domain=photos.toofab.com
+
+
+[other]
+
+
+[comments]
+nitrox
