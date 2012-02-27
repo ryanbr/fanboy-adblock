@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://anti-virus-software-review.toptenreviews.com/
+
+
+[filters]
+http://www.toptenreviews.com/i/misc/skins/ads/300x250_antivirus.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
