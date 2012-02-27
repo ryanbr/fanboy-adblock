@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ptf.com/download/download+aplikasi+system+explorer+buat+hp+nokia+6300/
+
+
+[filters]
+http://ptf.com/fdm_frame_search1.html
+http://ptf.com/fdm_frame_search2.html
+http://hits.informer.com/js.php?id=3&v=35903
+http://hits.informer.com/log.php?id=76,155&r=51491
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
