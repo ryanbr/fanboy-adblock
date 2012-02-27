@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.weather.com/weather/videos/news-41/top-stories-169/winter-weather-update-22595#loc=41/169/365
+
+
+[filters]
+http://s.imwx.com/img/video/OmnitureSWF-XML3.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
