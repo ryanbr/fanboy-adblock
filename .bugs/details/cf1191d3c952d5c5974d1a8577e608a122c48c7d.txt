@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.chud.com/community/t/142295/nicks-running-commentary-of-the-oscars-thread/100#post_3282409
+
+
+[filters]
+http://www.chud.com/community/p/UXoNclNwVWkBOQc0ACEFaFZjUTQAMQk-AzUEbFZvWGQObFk4BX5dJVo6DnECbwQKUSZTc1E7U2FaKVdCUj9QIl4yVXhUfQooCHAFJwU6DCRRZA0xU2BVVgE9BzQAdAVwVn5RJQAzCToDMwRvVmRYYw52WSMFY11aWnc,.gif
+
+
+[other]
+
+
+[comments]
+nitrox
