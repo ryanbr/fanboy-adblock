@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gamespot.com/newthisweek.html
+
+
+[filters]
+http://dw.com.com/levt/ria/e.gif?event=log&siteid=6&prodtyp=8&mapp=gs_marketplace&comptyp=app&comp=main&riaevent=view&objtyp=page&componentid=SdftJgoPCR4AACae7qUAAAAR&onid=13424&xref=http%253A%252F%252Fforums.fanboy.co.nz%252Fforums%252Fviewtopic.php&objnm=home_list_new
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
