@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://verybestphotos.com/the-reason-we-hang-on-to-life/
+
+[filters]
+http://www.google.com/buzz/api/button.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
