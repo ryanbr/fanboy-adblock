@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.stuff.co.nz/
+
+
+[filters]
+http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
