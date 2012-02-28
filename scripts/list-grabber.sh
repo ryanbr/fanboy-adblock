@@ -26,7 +26,9 @@ TESTDIR="/tmp/ramdisk"
 ZIP="nice -n 19 /usr/local/bin/7za"
 NICE="nice -n 19"
 SHRED="nice -n 19 /usr/bin/shred"
-
+LOGFILE="/etc/crons/log-listgrabber.txt"
+DATE="`date`"
+ECHORESPONSE="list: $FILE changed on $DATE"
 # Grab Mercurial Updates
 #
 cd /home/fanboy/google/fanboy-adblock-list/
@@ -55,6 +57,8 @@ then
     rm -f $TESTDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-adblock.txt
     # Copy to ram disk first. (quicker)
     cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $TESTDIR/fanboy-adblock.txt
+    FILE="$TESTDIR/fanboy-adblock.txt"
+    echo $ECHORESPONSE >> $LOGFILE
     # Re-generate checksum
     perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-adblock.txt
     cp -f $TESTDIR/fanboy-adblock.txt $MAINDIR/fanboy-adblock.txt
