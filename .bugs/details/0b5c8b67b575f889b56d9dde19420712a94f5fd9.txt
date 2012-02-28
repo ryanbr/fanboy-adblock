@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forums.macnn.com/90/mac-os-x/458897/os-x-v10-8-mountain-lion/
+
+
+[filters]
+http://www.uptimeviewer.com/icons/icons.php
+
+
+[other]
+
+
+[comments]
+nitrox
