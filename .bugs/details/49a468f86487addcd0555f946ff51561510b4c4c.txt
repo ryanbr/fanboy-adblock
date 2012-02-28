@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tvcatchup.com/watch.html?c=83_hq
+
+
+[filters]
+http://cdn.inskinmedia.com/////InSkinFiles/Flvs/Nestle_Rowntrees_2012_02/intro_30_winlogo_randoms.f4v
+
+
+[other]
+Update to existing whitelist to cover multiple forward slashes after tld.
+
+
+[comments]
+nitrox
