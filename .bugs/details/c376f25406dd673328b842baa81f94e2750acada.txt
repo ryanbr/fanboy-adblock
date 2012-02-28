@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.huffingtonpost.com/
+
+
+[filters]
+http://s.huffpost.com/images/hoton_facebook.png
+http://s.huffpost.com/images/hoton_twitter3.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
