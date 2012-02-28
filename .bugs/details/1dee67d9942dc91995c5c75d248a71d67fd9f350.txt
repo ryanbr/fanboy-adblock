@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.resellerratings.com/forum/traders-forum-buy-sell-trade-stuff/167885-info-needed-sale-listing-ebay.html
+
+
+[filters]
+http://www.booklandonline.info/icons/icons.php
+
+
+[other]
+
+
+[comments]
+nitrox
