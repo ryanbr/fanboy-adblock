@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forums.adoption.com/
+
+
+[filters]
+http://t.devnet.com/f/?m=v&t=adoption&l=unknown&r=1330419809
+
+
+[other]
+
+
+[comments]
+nitrox
