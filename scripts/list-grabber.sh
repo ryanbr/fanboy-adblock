@@ -28,7 +28,9 @@ NICE="nice -n 19"
 SHRED="nice -n 19 /usr/bin/shred"
 LOGFILE="/etc/crons/log-listgrabber.txt"
 DATE="`date`"
-ECHORESPONSE="list: $FILE changed on $DATE"
+ECHORESPONSE="List Changed: $LS2"
+BADUPDATE="Bad Update: $LS2"
+LS2="`ls -al $FILE`"
 # Grab Mercurial Updates
 #
 cd /home/fanboy/google/fanboy-adblock-list/
@@ -57,8 +59,6 @@ then
     rm -f $TESTDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-adblock.txt
     # Copy to ram disk first. (quicker)
     cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $TESTDIR/fanboy-adblock.txt
-    FILE="$TESTDIR/fanboy-adblock.txt"
-    echo $ECHORESPONSE >> $LOGFILE
     # Re-generate checksum
     perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-adblock.txt
     cp -f $TESTDIR/fanboy-adblock.txt $MAINDIR/fanboy-adblock.txt
@@ -72,6 +72,10 @@ then
     # cp -f $TESTDIR/firefox-expanded.txt-org2 $MAINDIR/fanboy-adblock.txt
     # cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt
     # cp -f $TESTDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt
+    
+    # Create a log
+    FILE="$TESTDIR/fanboy-adblock.txt"
+    echo $ECHORESPONSE >> $LOGFILE
 
     # The Dimensions List
     #
@@ -122,11 +126,13 @@ then
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
-    echo "Updated: fanboy-adblock.txt" > /dev/null
+    # echo "Updated: fanboy-adblock.txt" > /dev/null
   fi
 else
-  # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-current-expanded.txt size is zero, please fix. " mp3geek@gmail.com < /dev/null
+    # echo "Something went bad, file size is 0"
+    # Create a log
+    FILE="$TESTDIR/fanboy-adblock.txt"
+    echo $BADUPDATE >> $LOGFILE
 fi
 
 # Tracking
@@ -146,6 +152,9 @@ then
     perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-tracking.txt
     # GZip
     $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-tracking.txt > /dev/null
+    # Create a log
+    FILE="$TESTDIR/fanboy-tracking.txt"
+    echo $ECHORESPONSE >> $LOGFILE
     # Clear Webhost-copy before copying and Copy over GZip'd list
     cp -f $TESTDIR/fanboy-tracking.txt $MAINDIR/fanboy-tracking.txt
     rm -f $MAINDIR/fanboy-tracking.txt.gz
@@ -161,8 +170,10 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
  fi
 else
-  # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-stats.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+    # echo "Something went bad, file size is 0"
+    # Create a log
+    FILE="$TESTDIR/fanboy-tracking.txt"
+    echo $BADUPDATE >> $LOGFILE
 fi
 
 # Enhanced Trackers
@@ -180,6 +191,9 @@ then
     cp -f $GOOGLEDIR/enhancedstats-addon.txt $TESTDIR/enhancedstats.txt
     # GZip
     $ZIP a -mx=9 -y -tgzip $TESTDIR/enhancedstats.txt.gz $TESTDIR/enhancedstats.txt > /dev/null
+    # Create a log
+    FILE="$TESTDIR/enhancedstats.txt"
+    echo $ECHORESPONSE >> $LOGFILE
     # Clear Webhost-copy before copying and now Copy over GZip'd list
     cp -f $TESTDIR/enhancedstats.txt $MAINDIR/enhancedstats.txt
     rm -f $MAINDIR/enhancedstats.txt.gz
@@ -192,8 +206,10 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
  fi
 else
-  # echo "Something went bad, file size is 0"
-  mail -s "Google mirror enhancedstats.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+    # echo "Something went bad, file size is 0"
+    # Create a log
+    FILE="$MAINDIR/enhancedstats.txt"
+    echo $BADUPDATE >> $LOGFILE
 fi
 
 # Addon/Annoyances
@@ -211,6 +227,9 @@ then
     cp -f $GOOGLEDIR/fanboy-adblocklist-addon.txt $TESTDIR/fanboy-addon.txt
     # GZip
     $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-addon.txt.gz $TESTDIR/fanboy-addon.txt > /dev/null
+    # Create a log
+    FILE="$TESTDIR/fanboy-addon.txt"
+    echo $ECHORESPONSE >> $LOGFILE
     # Clear Webhost-copy before copying and now Copy over GZip'd list
     cp -f $TESTDIR/fanboy-addon.txt $MAINDIR/fanboy-addon.txt
     rm -f $MAINDIR/fanboy-addon.txt.gz
@@ -222,7 +241,9 @@ then
  fi
 else
   # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-addon.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+  # Create a log
+  FILE="$TESTDIR/fanboy-addon.txt"
+  echo $BADUPDATE >> $LOGFILE
 fi
 
 # CZECH
@@ -238,6 +259,9 @@ then
    # Properly wipe old file.
    $SHRED -n 3 -z -u $MAINDIR/fanboy-czech.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-czech.txt.gz $MAINDIR/fanboy-czech.txt > /dev/null
+   # Create a log
+   FILE="$MAINDIR/fanboy-czech.txt"
+   echo $ECHORESPONSE >> $LOGFILE
    # Combine Regional trackers
    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
@@ -247,7 +271,9 @@ then
  fi
 else
   # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-cz.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+  # Create a log
+  FILE="$MAINDIR/fanboy-czech.txt"
+  echo $BADUPDATE >> $LOGFILE
 fi
 
 # RUSSIAN
@@ -263,6 +289,9 @@ then
    # Properly wipe old file.
    $SHRED -n 3 -z -u $MAINDIR/fanboy-russian.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-russian.txt.gz $MAINDIR/fanboy-russian.txt > /dev/null
+   # Create a log
+   FILE="$MAINDIR/fanboy-russian.txt"
+   echo $ECHORESPONSE >> $LOGFILE
    # Combine Regional trackers
    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
@@ -274,7 +303,9 @@ then
  fi
 else
   # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-rus-v2.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+  # Create a log
+  FILE="$MAINDIR/fanboy-russian.txt"
+  echo $BADUPDATE >> $LOGFILE
 fi
 
 # TURK
@@ -290,6 +321,9 @@ then
    # Properly wipe old file.
    $SHRED -n 3 -z -u  $MAINDIR/fanboy-turkish.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-turkish.txt.gz $MAINDIR/fanboy-turkish.txt > /dev/null
+   # Create a log
+   FILE="$MAINDIR/fanboy-turkish.txt"
+   echo $ECHORESPONSE >> $LOGFILE
    # Combine Regional trackers
    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
@@ -299,7 +333,9 @@ then
  fi
 else
   # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-tky.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+  # Create a log
+  FILE="$MAINDIR/fanboy-turkish.txt"
+  echo $BADUPDATE >> $LOGFILE
 fi
 
 # JAPANESE
@@ -315,6 +351,9 @@ then
    # Properly wipe old file.
    $SHRED -n 3 -z -u  $MAINDIR/fanboy-japanese.txt.gz
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-japanese.txt.gz $MAINDIR/fanboy-japanese.txt > /dev/null
+   # Create a log
+   FILE="$MAINDIR/fanboy-japanese.txt"
+   echo $ECHORESPONSE >> $LOGFILE
    # Combine Regional trackers
    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
@@ -324,7 +363,9 @@ then
  fi
 else
   # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-jpn.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+  # Create a log
+  FILE="$MAINDIR/fanboy-japanese.txt"
+  echo $BADUPDATE >> $LOGFILE
 fi
 
 # KOREAN
@@ -340,6 +381,9 @@ then
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-korean.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-korean.txt.gz $MAINDIR/fanboy-korean.txt > /dev/null
+    # Create a log
+    FILE="$MAINDIR/fanboy-korean.txt"
+    echo $ECHORESPONSE >> $LOGFILE
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
@@ -347,7 +391,9 @@ then
  fi
 else
   # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-krn.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+  # Create a log
+  FILE="$MAINDIR/fanboy-korean.txt"
+  echo $BADUPDATE >> $LOGFILE
 fi
 
 
@@ -364,6 +410,9 @@ then
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-italian.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-italian.txt.gz $MAINDIR/fanboy-italian.txt > /dev/null
+    # Create a log
+    FILE="$MAINDIR/fanboy-italian.txt"
+    echo $ECHORESPONSE >> $LOGFILE
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Generate IE script
@@ -373,7 +422,9 @@ then
  fi
 else
   # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-ita.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+  # Create a log
+  FILE="$MAINDIR/fanboy-italian.txt"
+  echo $BADUPDATE >> $LOGFILE
 fi
 
 # POLISH
@@ -389,6 +440,9 @@ then
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-polish.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-polish.txt.gz $MAINDIR/fanboy-polish.txt /dev/null
+    # Create a log
+    FILE="$MAINDIR/fanboy-polish.txt"
+    echo $ECHORESPONSE >> $LOGFILE
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
@@ -396,7 +450,9 @@ then
  fi
 else
   # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-pol.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+  # Create a log
+  FILE="$MAINDIR/fanboy-polish.txt"
+  echo $BADUPDATE >> $LOGFILE
 fi
 
 # INDIAN
@@ -412,6 +468,9 @@ then
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-indian.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-indian.txt.gz $MAINDIR/fanboy-indian.txt > /dev/null
+    # Create a log
+    FILE="$MAINDIR/fanboy-indian.txt"
+    echo $ECHORESPONSE >> $LOGFILE
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
@@ -419,7 +478,9 @@ then
  fi
 else
   # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-ind.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+  # Create a log
+  FILE=" $MAINDIR/fanboy-indian.txt"
+  echo $BADUPDATE >> $LOGFILE
 fi
 
 # VIETNAM
@@ -435,6 +496,9 @@ then
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-vietnam.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-vietnam.txt.gz $MAINDIR/fanboy-vietnam.txt > /dev/null
+    # Create a log
+    FILE="$MAINDIR/fanboy-vietnam.txt"
+    echo $ECHORESPONSE >> $LOGFILE
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
@@ -442,7 +506,9 @@ then
  fi
 else
   # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-vtn.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+  # Create a log
+  FILE="$MAINDIR/fanboy-vietnam.txt"
+  echo $BADUPDATE >> $LOGFILE
 fi
 
 # CHINESE
@@ -458,6 +524,9 @@ then
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-chinese.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-chinese.txt.gz $MAINDIR/fanboy-chinese.txt > /dev/null
+    # Create a log
+    FILE="$MAINDIR/fanboy-chinese.txt"
+    echo $ECHORESPONSE >> $LOGFILE
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
@@ -465,7 +534,9 @@ then
  fi
 else
   # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-chn.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+  # Create a log
+  FILE="$MAINDIR/fanboy-chinese.txt"
+  echo $BADUPDATE >> $LOGFILE
 fi
 
 # ESPANOL
@@ -481,6 +552,9 @@ then
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-espanol.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-espanol.txt.gz $MAINDIR/fanboy-espanol.txt > /dev/null
+    # Create a log
+    FILE="$MAINDIR/fanboy-espanol.txt"
+    echo $ECHORESPONSE >> $LOGFILE
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
 		# Generate IE script
@@ -490,7 +564,9 @@ then
  fi
 else
   # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-esp.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+  # Create a log
+  FILE="$MAINDIR/fanboy-espanol.txt"
+  echo $BADUPDATE >> $LOGFILE
 fi
 
 # SWEDISH
@@ -506,6 +582,9 @@ then
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-swedish.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-swedish.txt.gz $MAINDIR/fanboy-swedish.txt > /dev/null
+    # Create a log
+    FILE="$MAINDIR/fanboy-swedish.txt"
+    echo $ECHORESPONSE >> $LOGFILE
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
@@ -513,7 +592,9 @@ then
  fi
 else
   # echo "Something went bad, file size is 0"
-  mail -s "Google mirror fanboy-adblocklist-swe.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+  # Create a log
+  FILE="$MAINDIR/fanboy-swedish.txt"
+  echo $BADUPDATE >> $LOGFILE
 fi
 
 # Gannett
