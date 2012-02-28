@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://boingboing.net/2012/02/27/scientific-paper-of-the-day-h.html
+
+
+[filters]
+http://assets.pinterest.com/js/pinit.js
+http://contextlysitescripts.contextly.com/plugin/linker-plugin.js?version=1.0.57
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
