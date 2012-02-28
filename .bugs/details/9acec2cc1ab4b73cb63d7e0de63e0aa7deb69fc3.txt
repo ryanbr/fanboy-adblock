@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wtatennis.com/page/RankingsSingles/0,,12781~0~1~100,00.html
+
+
+[filters]
+http://www.wtatennis.com/page/javascript/tracking.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
