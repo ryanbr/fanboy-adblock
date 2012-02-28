@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forums.appleinsider.com/showthread.php?t=144384
+
+
+[filters]
+http://www.bestlistonline.info/link/ad.js
+
+
+[other]
+
+
+[comments]
+nitrox
