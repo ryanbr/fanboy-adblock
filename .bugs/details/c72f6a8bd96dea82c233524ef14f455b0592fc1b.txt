@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.momtastic.com/
+
+
+[filters]
+http://www.momtastic.com/libraries/pebblebed/js/pb.track.js
+
+
+[other]
+
+
+[comments]
+nitrox
