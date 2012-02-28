@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.slingo.com/sgs/sample/32#ctrGame
+
+[filters]
+http://d2gfi8ctn6kki7.cloudfront.net/v1/appPage?t=1330431545205&a=110758382&u=0000000000&b=17375289713984038247&s=5793dfc24e5f1c25&z=-780&i=be519ed16e4b3d9b&dbg=v2%3A5793dfc24e5f1c25%3A1330431530236%3Au0000000000
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
