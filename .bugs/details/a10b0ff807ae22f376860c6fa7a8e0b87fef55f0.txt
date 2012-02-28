@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.slingo.com/
+
+[filters]
+http://a.amxdt.com/px/?id=1419
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
