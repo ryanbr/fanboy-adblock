@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newgrounds.com/
+
+
+[filters]
+http://ads.newgrounds.com/cache/ad_controller.js?rand=1330371053
+http://ads.newgrounds.com/cache/unit_15.html
+http://ads.newgrounds.com/cache/unit_23.html
+http://ads.newgrounds.com/cache/unit_29.html
+http://ads.newgrounds.com/store.html?product=2012%20NG%20Calendar&url=http%3A//www.newgrounds.com/store/product/2012-ng-calendar&price=%2415.00&image=http%3A//img.ngfiles.com/store/2012Calendar-1.jpg
+http://ads.newgrounds.com/store.html?product=Mastermind%20Shirt&url=http%3A//www.newgrounds.com/store/product/mastermind-shirt&price=%2412.00&image=http%3A//img.ngfiles.com/store/Mastermind-2.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
