@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.burningcamel.com/video/caught-masturbating-by-her-father-throws-dildo-at-him
+
+
+[filters]
+http://media.faceporn.com/cm_promo.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
