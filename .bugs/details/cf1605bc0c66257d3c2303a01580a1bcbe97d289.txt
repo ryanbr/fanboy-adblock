@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sticksports.com/game/stick-aussie-rules/footy-fan-fever/
+
+[filters]
+http://www.sticksports.com/global/inc_adtags.php?tag=lb_1&sport=aussie-rules
+http://www.sticksports.com/global/inc_adtags.php?tag=lb_2&sport=aussie-rules
+http://www.sticksports.com/global/inc_adtags.php?tag=mpu_1&sport=aussie-rules
+http://www.sticksports.com/global/inc_adtags.php?tag=wss_1&sport=aussie-rules
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
