@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://download.plimus.com/jsp/download_trial.jsp?contractId=1758386&referrer=acatrinei
+
+
+[filters]
+http://download.plimus.com/javascript/analytics/buynow_analytics.js
+
+
+[other]
+
+
+[comments]
+nitrox
