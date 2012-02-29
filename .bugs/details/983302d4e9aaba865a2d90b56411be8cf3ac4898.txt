@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.planetrecruit.com/show_job.cgi?j=8767843
+
+
+[filters]
+http://www.planetrecruit.com/ad/62306.gif
+
+
+[other]
+
+
+[comments]
+nitrox
