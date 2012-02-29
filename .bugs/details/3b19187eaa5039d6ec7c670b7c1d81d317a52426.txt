@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hipforums.com/newforums/forumdisplay.php?f=329
+
+
+[filters]
+http://www.hipforums.com/images/banners/buzz.gif
+http://www.hipforums.com/images/banners/herbies600.gif
+http://www.hipforums.com/images/banners/mjfreeway.png
+
+
+[other]
+
+
+[comments]
+nitrox
