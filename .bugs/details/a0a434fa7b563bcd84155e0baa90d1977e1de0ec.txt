@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.toonzone.net/forums/forum.php
+
+
+[filters]
+http://www.toonzone.net/tz5source/placements/placements.php?f=ad300x250_1
+http://www.toonzone.net/tz5source/placements/placements.php?f=ad300x250_2
+http://www.toonzone.net/tz5source/placements/placements.php?f=ad728x90_1
+
+
+[other]
+
+
+[comments]
+nitrox
