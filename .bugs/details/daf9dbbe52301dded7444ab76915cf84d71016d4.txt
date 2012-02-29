@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.crutop.nu/forum/
+
+
+[filters]
+http://ads.crutop.eu/ad.js
+http://ads.crutop.eu/ad?callback=jQuery15203067669254185429_1330512007570&q=global_top|global_bottom*3|forum_sidebar*2|s.f_34|s.f_9|s.f_10|s.f_18|s.f_13|s.f_14|s.f_22|s.f_15|s.f_37|s.f_38|s.f_39|s.f_40|s.f_41|s.f_29|s.f_26|s.f_20|s.f_35&_=1330512010924
+http://ads.crutop.eu/get-ad/5/1/05026353a1fa5bb25eb3ca18aa4c02425a541e41.jpg
+http://ads.crutop.eu/get-ad/5/3/a8793727d17819396d066d131de38fdeeeb1d6ed.jpg
+http://ads.crutop.eu/get-ad/5/4/404ac2105107cc597e35ac4c167162e436b9c37b.jpg
+
+
+[other]
+
+
+[comments]
+nitrox
