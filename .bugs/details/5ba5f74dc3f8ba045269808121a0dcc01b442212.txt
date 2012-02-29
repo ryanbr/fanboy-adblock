@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lenty.ru/
+
+
+[filters]
+http://viboom.ru/rotator/?wm=288&site=278&size=500x250&skey=f4017bf2b343cb99b46ecc354472352b&type=js
+
+
+[other]
+
+
+[comments]
+nitrox
