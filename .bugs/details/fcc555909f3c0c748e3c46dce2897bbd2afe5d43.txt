@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forum.1tv.ru/index.php
+
+
+[filters]
+http://www.1tv.ru/hit/?forum
+
+
+[other]
+
+
+[comments]
+nitrox
