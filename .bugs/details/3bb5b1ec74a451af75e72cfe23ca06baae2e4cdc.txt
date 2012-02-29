@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://earnforum.com/
+
+
+[filters]
+http://fxmail.ru/rating/img.php?cid=2169&p=0&rn=0.4968393021907852&c=1&t=0&j=N&wh=1600x1200&px=24&sl=1.3&r=&fr=0&pg=http%3A//earnforum.com/
+
+
+[other]
+
+
+[comments]
+nitrox
