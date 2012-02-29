@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.clantemplates.com/forums/showthread.php?p=1465683#post1465683
+
+
+[filters]
+http://www.countingbiz.info/icons/icons.php
+
+
+[other]
+
+
+[comments]
+nitrox
