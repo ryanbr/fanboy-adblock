@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.raspberrypi.org/
+
+
+[filters]
+http://www.google.com/cse/intl/en/images/google_custom_search_watermark.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
