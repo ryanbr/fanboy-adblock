@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thetechblock.com/articles/2012/sony-and-samsung-tablets-miss-the-mark-thanks-to-idiotic-contracts-and-pricing/
+
+
+[filters]
+https://apis.google.com/_/apps-static/_/js/gapi/gcm_ppb,googleapis_client,plusone/rt=j/ver=1j4J9NypzQg.en_GB./sv=1/am=!4ArSr93f4LuIjcmMGw/d=1/cb=gapi.loaded0
+http://apis.google.com/js/plusone.js
+
+
+
+
+[other]
+google tracking test
+
+
+[comments]
+fanboy
