@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wiadomosci.onet.pl/cnn/dramat-kobiet-w-usa-chcialam-umrzec,1,5039055,kiosk-wiadomosc.html
+
+
+[filters]
+http://media.onet.pl/_mmv/246392951,62,1.mp4
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
