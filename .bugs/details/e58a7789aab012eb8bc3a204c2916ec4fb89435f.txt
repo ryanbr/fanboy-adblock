@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://notchristine.tumblr.com/post/18526499676/sazmobile-one-of-archies-favourite-games
+
+
+[filters]
+http://assets.tumblr.com/javascript/tumblelog.js?744
+
+
+
+[other]
+fp
+
+
+[comments]
+fanboy
