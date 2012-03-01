@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ebay.co.uk/sch/sis.html?_kw=*&_id=*
+
+
+[filters]
+http://uk.scom.onad.eu/banner.php?s=*&cb=*&a=*
+
+
+[other]
+
+
+[comments]
+nitrox
