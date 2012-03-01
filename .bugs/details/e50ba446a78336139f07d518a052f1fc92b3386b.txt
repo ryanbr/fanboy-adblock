@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hiphim.com/search/label/H%C3%A0n%20Qu%E1%BB%91c?updated-max=*&max-results=*&start=*&by-date=*
+
+
+[filters]
+http://www.goodadvertising.info/images/others/zodaydi_280x120.gif
+http://ads.hotvnn.com/gaihapdan.php
+http://ads.hotvnn.com/hiphim.php
+http://adsviet.info/ads.html
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
