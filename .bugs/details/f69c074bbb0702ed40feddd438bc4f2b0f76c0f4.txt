@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.careerexplorer.net/
+
+
+[filters]
+http://artifacts.plattformad.com/logo/199/335/408/2528/250x100.gif
+http://tracking.plattformad.com/
+http://tracking.plattformad.com/LeadSourceRuntime.aspx?&&REFERER_SITE=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D6%26t%3D11118
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
