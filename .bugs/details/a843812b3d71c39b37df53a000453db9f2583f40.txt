@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.flickfilosopher.com/blog/2012/02/arrietty_aka_the_secret_world.html
+
+
+[filters]
+https://www.assoc-amazon.de/e/ir?t=flickfilocom-21&l=ur2&o=3
+https://www.assoc-amazon.es/e/ir?t=flickfiloco05-21&l=ur2&o=30
+https://www.assoc-amazon.fr/e/ir?t=flickfiloco08-21&l=ur2&o=8
+https://www.assoc-amazon.it/e/ir?t=flickfiloco0b-21&l=ur2&o=29
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
