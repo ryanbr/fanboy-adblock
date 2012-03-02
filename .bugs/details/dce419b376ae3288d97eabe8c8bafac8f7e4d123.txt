@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.salaryexpert.com/?FuseAction=COLCalculator.USCOL
+
+[filters]
+http://www.salaryexpert.com/SiteTracker/SiteTracker.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
