@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hollywoodbackwash.com/
+
+
+[filters]
+http://hollywoodbackwash.com/glam/160x600center.php
+http://hollywoodbackwash.com/glam/300x250squaread.php
+http://hollywoodbackwash.com/glam/728x90top.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
