@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thedoctorwillseeyounow.com/content/emotional_health/art3595.html
+
+[filters]
+http://www.thedoctorwillseeyounow.com/images/advertBanner2.jpg
+http://www.thedoctorwillseeyounow.com/images/advertRail.jpg
+http://www.honcode.ch/HONcode/Seal/HONConduct112654_s1.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
