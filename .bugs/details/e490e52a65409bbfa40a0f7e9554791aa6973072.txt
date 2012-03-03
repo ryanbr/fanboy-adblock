@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.cnbnews.com/category/read_org.html?bcode=179523
+
+
+[filters]
+http://ad.pickple.com/widget/show_join/6
+http://cm1.joins.com/?outputEnc=euc-kr&type=w_c_01_cnbnews_7&docUrl=http%3A%2F%2Fnews.cnbnews.com%2Fcategory%2Fread_org.html%3Fbcode%3D179523
+http://cm1.joins.com/?outputEnc=euc-kr&type=w_c_cnbnews_3&docUrl=http%3A%2F%2Fnews.cnbnews.com%2Fcategory%2Fjqb.html
+http://cm1.joins.com/?outputEnc=euc-kr&type=w_fc_cnbnews_1&docUrl=http%3A%2F%2Fnews.cnbnews.com%2Fcategory%2Fread_org.html%3Fbcode%3D179523
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
