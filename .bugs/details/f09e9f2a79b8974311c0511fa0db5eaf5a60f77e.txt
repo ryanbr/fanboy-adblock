@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mediatoday.co.kr/news/articleView.html?idxno=100742
+
+[filters]
+http://fs.bizspring.net/fs4/bstrk.js
+http://fs.bizspring.net/fs4/logger.v4.js
+http://adneo.encock.com/media/iframe.css?20110915001
+http://adneo.encock.com/media/iframe.html?i=Vkd4U2NsQlJQVDA9
+http://adneo.encock.com/media/view.js?20110915001
+http://p.lumieyes.com/frm2_db.asp?domain=mediatoday.co.kr&url=http%3A%2F%2Fwww%2Emediatoday%2Eco%2Ekr%2Fnews%2FarticleView%2Ehtml%3Fidxno%3D100742&rnd=2909
+http://p.lumieyes.com/frm2_db.asp?domain=mediatoday.co.kr&url=http%3A%2F%2Fwww%2Emediatoday%2Eco%2Ekr%2Fnews%2FarticleView%2Ehtml%3Fidxno%3D100742&rnd=3429
+http://p.lumieyes.com/frm4.asp?domain=mediatoday.co.kr&url=http://www.mediatoday.co.kr/news/articleView.html?idxno=100742
+http://p.lumieyes.com/frm4_db.asp?domain=mediatoday.co.kr&idx_campaign=2559,3186&ev=PV
+http://p.lumieyes.com/frm4_db.asp?domain=mediatoday.co.kr&idx_campaign=3068,3197&ev=PV
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
