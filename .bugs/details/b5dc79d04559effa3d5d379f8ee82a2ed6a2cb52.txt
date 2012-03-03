@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thesun.co.uk/sol/homepage/news/4165177/Still-sucking-the-worlds-oldest-vacuum-cleaner.html
+
+
+[filters]
+http://stream.thesun.fyre.co/livecountping/7086338/anonymous/5sMtAizXRO/rooms.thesun.fyre.co/?_bi=7830d2ca70a65f17b0f7b92688f367ad&protocol=http%3A&host=www.thesun.co.uk&lftoken=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
