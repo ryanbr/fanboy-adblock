@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mov-world.net/hoerbuecher/6-komplette-maerchen-alibaba-und-die-vierzig-raeuber-204413.html
+
+
+[filters]
+http://mov-world.net/js/javascript.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
