@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.news24.com/SciTech/News/SA-man-seeks-midget-to-kick-ex-20120302
+
+
+[filters]
+http://recommendation.24.com/Logging/LogRecorder.ashx?userId=8ef7246c-064f-26b7-b0e0-7a3f62d82cbc&keywords=johannesburg%2C%20internet
+http://scripts.24.co.za/libs/24com/Ads/2.0/24AdScript.min.js
+http://scripts.24.co.za/libs/24com/ads/1.0/Style/TransAd.css
+http://scripts.24.co.za/libs/24com/ads/1.0/script/TransAd.min.js
+http://www.news24.com/images/TrafficSynergySupportResponse_20111121110359_261.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
