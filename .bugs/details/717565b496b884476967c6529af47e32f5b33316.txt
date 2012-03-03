@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.food.com/recipe/cream-of-carrot-soup-with-ginger-and-rosemary-441926
+
+
+[filters]
+http://adsremote.scrippsnetworks.com/js.ng/ADTYPE=VSW&PAGEPOS=1&VGNCONTENT=RECIPES&CATEGORY=RECIPES&SITE=FOODCOM&TILE=6494766085&ORD=762407352&TOPIC=null&PAGETYPE=RECIPE&UNIQUEID=1_441926_recipe&ADKEY1=HEALTHY&ADKEY2=NULL
+
+
+
+[other]
+https://adblockplus.org/forum/viewtopic.php?f=2&t=9708
+
+
+[comments]
+fanboy
