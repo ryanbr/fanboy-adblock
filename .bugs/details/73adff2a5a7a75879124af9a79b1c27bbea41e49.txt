@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mediatoday.co.kr/news/articleView.html?idxno=100730
+
+
+[filters]
+http://adv.imadrep.co.kr/main.html?code=Mjo6MzIw
+http://adv.imadrep.co.kr/submain.html?code=Mjo6MzE5
+http://adv.mediaharbor.co.kr/nad/media/y4Q0MuUnqu/3TiixQaAqi_3.html
+http://adv.mediaharbor.co.kr/nad/media/y4Q0MuUnqu/YPiiwXJu4S_5.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
