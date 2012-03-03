@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.purelynsfw.com/gall278.html
+
+[filters]
+http://www.purelynsfw.com/~site/Scripts_ExternalRedirect/ExternalRedirect.dll?CMD=CMDGetJavaScript&H_SITEID=RTK3&H_AltURL=%2F%7Esite%2FRealTracker%2Fibc90006.js&HSGOTOURL=http%3A%2F%2Fweb4.realtracker.com%2Fnetpoll%2Fjs%2Fibc90006.js
+http://www.purelynsfw.com/~site/javascript/hs_track.js
+http://www.purelynsfw.com/~site/javascript/site_statistics.ffhtml?RTK=http%3a%2f%2fweb4%2erealtracker%2ecom%2fnetpoll%2fjs%2fibc90006%2ejs
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
