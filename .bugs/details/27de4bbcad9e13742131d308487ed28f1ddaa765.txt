@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://games.slashdot.org/story/12/03/02/214243/sony-to-delete-virtual-goods?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Slashdot%2Fslashdot+%28Slashdot%29
+
+
+[filters]
+http://a.fsdn.com/sd/commentshareicons.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
