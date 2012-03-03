@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.loopinsight.com/2012/02/28/apple-announces-ipad-event-for-march-7-in-san-francisco/
+
+
+[filters]
+http://cdn.loopinsight.com/images/icofacebook.png
+http://cdn.loopinsight.com/images/icogoogle.png
+http://cdn.loopinsight.com/images/icolinkedin.png
+http://cdn.loopinsight.com/images/icorss.png
+http://cdn.loopinsight.com/images/icotwitter.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
