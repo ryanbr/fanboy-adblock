@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.disneylandparis.co.uk/index.xhtml
+
+
+[filters]
+http://trackicollect.ibase.fr/pcmd.aspx?niveaucollect=1&leviercollect=Emailing&canalcollect=Inscrit&idCampagnecollect=31
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
