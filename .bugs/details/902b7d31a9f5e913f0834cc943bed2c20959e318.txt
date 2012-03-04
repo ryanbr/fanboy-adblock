@@ -1,0 +1,28 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mediafire.com/?utti55juavqphj1
+
+
+[filters]
+http://cdn.mediafire.com/images/backgrounds/header/rockmelt_tabcontent.jpg
+http://cdn.mediafire.com/images/rockmelt/bg_rockmelt.jpg
+http://cdn.mediafire.com/images/rockmelt/browser_chrome.png
+http://cdn.mediafire.com/images/rockmelt/browser_rockmelt.png
+http://cdn.mediafire.com/images/rockmelt/btn_download.png
+http://cdn.mediafire.com/images/rockmelt/check.png
+http://cdn.mediafire.com/images/rockmelt/cross.png
+http://cdn.mediafire.com/images/rockmelt/header_getRockmelt.png
+http://cdn.mediafire.com/images/rockmelt/logo_rockmelt.png
+http://cdn.mediafire.com/images/rockmelt/shadow_left.png
+http://cdn.mediafire.com/images/rockmelt/shadow_right.png
+http://cdn.mediafire.com/images/rockmelt/vs.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
