@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cbs.com/shows/the_talk/tickets/
+
+
+[filters]
+http://pix.npario-inc.net/DMP/928472.gif??l=1&loc=http%3A//www.cbs.com/shows/the_talk/tickets/&ref=http%3A//www.cbs.com/&c=&cbs=i%3Dnull%26t%3DTickets%20-%20The%20Talk%20-%20CBS.com%26s%3D32281%26ss%3D%26
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
