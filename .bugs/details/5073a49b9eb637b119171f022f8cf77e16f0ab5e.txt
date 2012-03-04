@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.4kidstv.com/dinosaurking
+
+[filters]
+http://www.4kidstv.com/img/vert728ad.png
+http://www.4kidstv.com/img/adv.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
