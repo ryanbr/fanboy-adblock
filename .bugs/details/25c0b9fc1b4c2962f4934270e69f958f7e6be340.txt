@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kcitp.com/2012/02/29/google-fiber-kansas-city-mentioned-by-eric-schmidt/
+
+
+[filters]http://ca153454.luckyorange.com/w.js
+http://w1.luckyorange.com/w.php?nc=13&ovid=0&res_id=0&rid=5130150&uf=0&u=http%3A%2F%2Fwww.kcitp.com%2F2012%2F02%2F29%2Fgoogle-fiber-kansas-city-mentioned-by-eric-schmidt%2F&r=http%3A%2F%2Fdigg.com%2Fnewsbar%2Ftopnews%2Fgoogle_fiber_kansas_city_mentioned_by_eric_schmidt_video_kansas_city_information_technology_professionals&uid=4f5329922dd36121791999&key=null&ir=1&t=Google%20Fiber%20Kansas%20City%20Mentioned%20By%20Eric%20Schmidt!%20%7BVideo%7D%20%E2%80%93%20Kansas%20City%20Information%20Technology%20Professionals&def_plan=16
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
