@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sdtstuff.co.cc/hairsList/2
+
+[filters]
+http://www.000webhost.com/images/banners/600x400/banner1.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
