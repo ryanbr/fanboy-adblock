@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rapmodels.net/
+
+
+[filters]
+http://rapmodels.net/images/ad_bg.jpg
+http://promos.gpniches.com/blackfling/geo/custom/toolbar_long.htm?cmp=IM&prg=&id=rapmodels&t=best&ad_id=noadid&rated=black&target=_blank&url=0&color_scheme=blue&type=full&=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
