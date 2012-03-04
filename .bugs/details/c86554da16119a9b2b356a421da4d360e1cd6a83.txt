@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.picvi.com/
+
+
+[filters]
+http://keyshot.greenlabelppc.com/feed/linkblock.js
+http://keyshot.greenlabelppc.com/feed/linkblock/?aid=35591&said=&ref=http%3A%2F/www.picvi.com/
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
