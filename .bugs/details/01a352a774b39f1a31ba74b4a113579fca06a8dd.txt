@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://singularityhub.com/2012/02/29/weight-loss-pill-recommended-by-fda-panel-companys-stock-doubles/
+
+[filters]
+http://www.plaxo.com/css/m/js/abc_launcher.js
+http://www.plaxo.com/css/m/js/basic.js
+http://www.plaxo.com/css/m/js/util.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
