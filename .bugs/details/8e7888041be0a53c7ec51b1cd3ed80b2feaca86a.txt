@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.greatgirlsgames.com/1396-preview-disney-princess-room.html
+
+
+[filters]
+http://www.greatgirlsgames.com/100x100.php
+http://www.greatgirlsgames.com/a/skyscraper.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
