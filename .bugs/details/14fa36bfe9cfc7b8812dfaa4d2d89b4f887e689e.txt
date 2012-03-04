@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.allvoices.com/contributed-news/11639282-russia-femen-activists-go-topless-in-moscow-polling-station-video
+
+[filters]
+http://www.allvoices.com/track_page
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
