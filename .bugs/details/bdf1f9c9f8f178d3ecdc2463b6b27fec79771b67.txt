@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.winsupersite.com/content1/tabid/2936/catpath/windows8/topic/windows-8-consumer-preview-push-button-reset-142376
+
+
+[filters]
+http://www.winsupersite.com/desktopmodules/pentonutility/skinobjects/demandbase_call.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
