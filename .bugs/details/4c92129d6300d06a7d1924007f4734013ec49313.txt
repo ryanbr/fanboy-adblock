@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://newsok.com/edmond-man-dies-in-le-flore-county-wreck/article/3654545
+
+
+[filters]
+http://cdn.pinddeals.com/sdk/widget.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
