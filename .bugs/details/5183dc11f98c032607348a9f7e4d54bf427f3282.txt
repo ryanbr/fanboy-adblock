@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://brorsoft.com/how-to/convert-video-to-galaxy-tab-for-different-media-players-with-best-galaxy-tab-video-converter.html
+
+
+[filters]
+http://www.ngmco.net/advstats/?referrer=&page=http%3A//brorsoft.com/how-to/convert-video-to-galaxy-tab-for-different-media-players-with-best-galaxy-tab-video-converter.html&site=www.brorsoft.com
+http://www.ngmco.net/advstats/advstats.js
+
+
+[other]
+
+
+[comments]
+nitrox
