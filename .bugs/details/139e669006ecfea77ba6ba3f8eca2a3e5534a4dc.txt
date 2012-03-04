@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kidscom.com/games/games.html
+
+
+[filters]
+http://www.kidscom.com/images/adbug_top_300w.gif
+http://www.kidscom.com/images/adbug_top_300w.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
