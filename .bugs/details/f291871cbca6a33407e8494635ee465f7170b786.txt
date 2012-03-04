@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.readwriteweb.com/archives/google_makes_itself_look_silly_with_hangout_cat_ma.php
+
+
+[filters]
+http://jobs.readwriteweb.com/feeds/jobroll/?num_jobs=6&num_featured_jobs=0&display_method=default&template_name=readwriteweb&version=2.0
+https://www.readwriteweb.com/uprev.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
