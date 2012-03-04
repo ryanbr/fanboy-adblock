@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.parentsconnect.com/parents/relationships/date-ideas/creative-date-ideas/creative-date-ideas-museum-hopping.html?navid=parenting-articles
+
+
+[filters]
+http://api.choicestream.com/instr/ccp/1178f48abc449c8c/a_rld?gid=6710454b-09a7-43e3-9439-c114d78f168f&cid=73f55cbc-bd4b-05c5-35f5-a7ea15265d52&bn=76518.6&rid=bbcbfb8d-97e8-4452-9977-8822be8e057c.1&rt=352&pt=47&ty=html&_=1330822239297
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
