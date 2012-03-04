@@ -1,0 +1,29 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blogs.laweekly.com/informer/2012/03/chevron_el_segundo_taxes_kcet.php
+
+
+[filters]
+http://blogs.laweekly.com/informer/assets_c/2012/03/chevron%20el%20segund%20socal%20connected-thumb-200x170.jpg
+http://blogs.laweekly.com/informer/breitbart%20hand%20100x92.JPG
+http://blogs.laweekly.com/informer/brietbart%20hands%20100x92.JPG
+http://blogs.laweekly.com/informer/clipper%20darrell%20100x92.JPG
+http://blogs.laweekly.com/informer/crime%20scene%20tape%20100x92.JPG
+http://blogs.laweekly.com/informer/deported%20mom%20100x92.JPG
+http://blogs.laweekly.com/informer/joint%20100x92.JPG
+http://blogs.laweekly.com/informer/lacma%20rock%20100x92.JPG
+http://blogs.laweekly.com/informer/marijuana%20bottle%20100x92.png
+http://blogs.laweekly.com/informer/reyna%20100x92.JPG
+http://blogs.laweekly.com/informer/ucla%20basketball%20100x92.JPG
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
