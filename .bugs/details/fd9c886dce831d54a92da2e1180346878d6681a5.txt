@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.muchmore.ca/video/cid/607071/pid/15978/wildlife-sea-dreamer
+
+
+[filters]
+http://esi2.ctv.ca/players/mediaplayer/builds/ets_3.1/includes/Metrics.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
