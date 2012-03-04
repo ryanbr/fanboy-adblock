@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cineworld.co.uk/news/315/detail
+
+
+[filters]
+http://www.cineworld.co.uk/assets/js/specialist/webtrends.jwplayer.packed.js
+http://www.cineworld.co.uk/assets/js/specialist/webtrends.packed.js
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11143
+
+
+[comments]
+vinny
