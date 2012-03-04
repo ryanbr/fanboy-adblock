@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.blitzcorner.com/
+
+
+[filters]
+http://www.blitzcorner.com/websites/getWebsiteAd/11/bigbox
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
