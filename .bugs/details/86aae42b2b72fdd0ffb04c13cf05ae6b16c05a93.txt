@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.learn2type.com/user/
+
+
+[filters]
+http://www.mysitetraffic.net/1.c?
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
