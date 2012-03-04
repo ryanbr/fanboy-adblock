@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.freetypinggame.net/play10.asp?lesson=1&goal=15&AGo1=Start+Lesson
+
+
+[filters]
+http://www.freetypinggame.net/burst720.asp
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
