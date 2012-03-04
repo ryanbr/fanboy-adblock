@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.doctoroz.com/videos/cut-carb-cravings-pt-1
+
+
+[filters]
+https://sc.ssoservice.com/tools/page.js?response_type=token&client_id=droz&state=index
+
+
+
+
+[other]
+Looks suspect
+
+[comments]
+fanboy
