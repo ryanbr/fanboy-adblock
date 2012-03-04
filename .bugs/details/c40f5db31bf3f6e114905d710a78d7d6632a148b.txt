@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.funbrain.com/cgi-bin/weather.cgi?A1=s&A2=2&A7=0
+
+
+[filters]
+http://www.funbrain.com/a2.gif?g=weather&l=teen&t=0&n=15269
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
