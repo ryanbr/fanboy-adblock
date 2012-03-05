@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/?shva=1#inbox/1358c815a065c3f7
+
+
+[filters]
+http://crossrider.us2.list-manage.com/track/open.php?u=94284e4165d7ac84f647b7a2c&id=01730fce6f&e=9d27e365ef
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
