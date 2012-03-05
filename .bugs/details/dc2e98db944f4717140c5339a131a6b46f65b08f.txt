@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/?shva=1#inbox/135e29232850cda1
+
+
+[filters]
+http://lm.pcworld.com/db/3439615/86967239/1.gif
+
+
+
+
+[other]
+tracking pixel
+
+[comments]
+fanboy
