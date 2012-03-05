@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mrstiff.com/movie/minka-u-big-boob_1323906
+
+
+[filters]
+http://mrstiff.com/view/adx/ads?zone=30014&img=1x1&num=1&al=en-us%2Cen%3Bq%3D0.5&ip=121.79.199.9&q=%2CMinka%2C%E2%80%93%2CBig%2CBoob%2Creally%2Chorny%2Ctit%2Csucking%2Cnipples%2Cslutload.com&ua=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A13.0a1%29+Gecko%2F13.0a1+Firefox%2F13.0a1&ref=http%3A%2F%2Fmrstiff.com%2Fmovie%2Fminka-u-big-boob_1323906&tpl=inline
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
