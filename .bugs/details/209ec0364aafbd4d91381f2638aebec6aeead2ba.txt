@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/?shva=1#inbox/1351fdf124508747
+
+
+[filters]
+http://tre.emv3.com/HO?DdX7Clu22CF78SA9MOPfaAnnGHxKbrvK9QjtS5lHnPsLJkw.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
