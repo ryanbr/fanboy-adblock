@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.alfacomp.cz/php/index.php
+
+
+[filters]
+http://www.alfacomp.cz/reklama/258spot.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+Moskoe.cz
