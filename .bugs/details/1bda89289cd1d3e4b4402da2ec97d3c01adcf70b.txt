@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://home.disney.com.au/games/?int_cmp=chrome:games
+
+[filters]
+http://home.disney.com.au/global/swf/banner728x90.swf
+http://home.disney.com.au/global/swf/banner300x250.swf
+
+
+
+
+[other]
+fp
+
+
+[comments]
+fanboy
