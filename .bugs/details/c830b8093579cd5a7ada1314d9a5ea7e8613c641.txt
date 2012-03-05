@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/#inbox/135e4ecb11f073c0
+
+
+[filters]
+http://click1.email.nymagazine.com/amdhfp/a.do?param=bGl2ZWNvbmNsaWVudElEPTQ2Mjk5NzU5MDcxNzImQ3JlYXRpdmVJRD0zOTIyRTkxNi00NzVDLTQzQTItQUQzRi1CNzUyMUQ4N0VEMDgtMzgwNTY5JlBsYWNlbWVudElEPTImRXZlbnRUeXBlPUltcHJlc3Npb24mcmFuZD1ac2NN&s=1
+http://click1.email.nymagazine.com/amdhfp/t.do?id=hwfbfqqdfvwzshcpzsblqzlrbgzjhcqvrmhdrnmhnhqhsb_wzjwllnswddl&o=1&
+http://click1.online.vulture.com/amdhfp/a.do?param=bGl2ZWNvbmNsaWVudElEPTQ2Mjk5NzU5MDcxNzImQ3JlYXRpdmVJRD0zOTIyRTkxNi00NzVDLTQzQTItQUQzRi1CNzUyMUQ4N0VEMDgtMzgwNTcxJlBsYWNlbWVudElEPTImRXZlbnRUeXBlPUltcHJlc3Npb24mcmFuZD03djJN&s=1
+http://click1.online.vulture.com/amdhfp/t.do?id=xbdhcvvycdbtpjrqtphnvtnlhmtkjrvdlsjylgsjgjvrrv_jfntrrqmtbbr&o=1&
+http://www.crosswalkmail.com/amdhfp/a.do?param=bGl2ZWNvbmNsaWVudElEPTQ2Mjk5NzU5MDcxNzImQ3JlYXRpdmVJRD03MjgxNjcwNy0xOTZGLTREQ0EtQkExOC05M0REOTA1MUEyMkYtNzk4MDEwJlBsYWNlbWVudElEPTImRXZlbnRUeXBlPUltcHJlc3Npb24mcmFuZD1hYTl6&s=1
+http://www.crosswalkmail.com/amdhfp/t.do?id=vpvjvmfgjrjnfygtnkbzqndqfmnypbbyrhfqvvtvpyfkvyk_gylryrknlnwy&o=1&
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
