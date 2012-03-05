@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/0/?shva=1#inbox/135e077754cc0d06
+
+
+[filters]
+https://mail.google.com/mail/c/u/0/data/contactstore?ac=false&clid=gmail189239&cr=true&ct=true&emls=test%40gmail.com&ev=true&f=g2&gp=false&hl=en&id=personal&out=js&sgids=21%2C6%2Cd%2Ce%2Cf&type=4
+
+
+
+
+[other]
+test
+
+
+[comments]
+fanboy
