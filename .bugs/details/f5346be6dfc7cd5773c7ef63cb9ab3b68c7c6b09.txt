@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://celebritypile.com/big-boob-celebrities/minka-asian-big-boobs/
+
+
+[filters]
+http://click.icetraffic.com/cpv.php?aff_id=celebpile
+http://click.icetraffic.com/go/?ver=1&aff_id=celebpile&base_aff_id=&passback_url=&passback=&keyword=&frames=3&ref_url=http%3A//celebritypile.com/big-boob-celebrities/minka-asian-big-boobs/&res_width=1920&res_height=1080&left=-8&top=-8&window_width=1&window_height=1&right=-7&bottom=-7&wname=&self=0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
