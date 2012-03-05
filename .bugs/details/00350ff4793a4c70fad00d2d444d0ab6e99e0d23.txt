@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://h2porn.com/videos/alexis-strapon-guy-gets-owned/?utm_source=tubegals&utm_medium=thumb&utm_campaign=Videos
+
+
+[filters]
+http://ads.h2porn.com/vp_b1.html
+http://ads.h2porn.com/vp_b2.html
+http://ads.h2porn.com/vp_b3.html
+http://ads.h2porn.com/vp_ip1.html
+http://ads.h2porn.com/vp_rs1.html
+http://ads.h2porn.com/vp_rs2.html
+http://ads.h2porn.com/vp_t1.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
