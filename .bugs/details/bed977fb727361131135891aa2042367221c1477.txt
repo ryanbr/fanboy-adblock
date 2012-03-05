@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.applemacvideo.com/
+
+
+[filters]
+http://cbs.wondershare.com/go.php?track=visit&visit_id=120305134200289_4430&customer_id=120305134200289_4430&prom_id=0&height=1080&width=1920&javas=1,0,0&ref_url=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D6%26t%3D11171&this_url=http%3A//www.wondershare.com/photo-editing-tips/iphoto-for-windows.html&back_url=
+http://cbs.wondershare.com/jslibs/track.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11171
+
+
+[comments]
+fanboy
