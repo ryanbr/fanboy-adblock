@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.interest.com/mortgage/rates/?state=NJ&market=&loan=165000&prods=1&x=129&y=27
+
+
+[filters]
+http://www.interest.com/content/plugins/bankrate-global/javascript/bglf-s_code.js?ver=1.0.0
+
+
+[other]
+
+
+[comments]
+nitrox
