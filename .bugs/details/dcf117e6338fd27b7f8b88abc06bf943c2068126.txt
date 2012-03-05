@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.brighthub.com/multimedia/photography/articles/36223.aspx
+
+
+[filters]
+http://cdn.static.zdtag.com/js/tr4oLEtsEeGk4RIxOSbhOA.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
