@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.warehousestationery.co.nz/is-bin/INTERSHOP.enfinity/WFS/WSL-B2C-Site/en_NZ/-/NZD/ViewApplication-DisplayWelcomePage;pgid=sso.01pJh3A00043GLQg7oNK0000TlW6vI6q;sid=511XQ6ckT04b6O5lkv13T7aITveKRA6OOlo=
+
+
+[filters]
+https://warehousestationery.resultspage.com/autosuggest.css
+https://warehousestationery.resultspage.com/autosuggest/searchbox_suggest_v1.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
