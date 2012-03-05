@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/#inbox/135e4d9a0013be47
+
+[filters]
+http://click1.online.vulture.com/bGl2ZWNvbmNsaWVudElEPTQ2Mjk5NzU5MDcxNzImQ3JlYXRpdmVJRD0zOTIyRTkxNi00NzVDLTQzQTItQUQzRi1CNzUyMUQ4N0VEMDgtMzgwNTcxJlBsYWNlbWVudElEPTImRXZlbnRUeXBlPUltcHJlc3Npb24mcmFuZD03djJN.jpeg
+http://click1.online.vulture.com/xbdhcvvycdbtpjrqtphnvtnlhmtkjrvdlsjylgsjgjvrrv_jfntrrqmtbbr.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
