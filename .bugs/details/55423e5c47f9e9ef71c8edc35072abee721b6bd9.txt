@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/#inbox/135e4f2fa43338d8
+
+
+[filters]
+http://newsletters.nationalgeographic.com/10b85b4eelayfor2ia3f3dkiaaaaaby4o6kjctwcnoayaaaaa
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
