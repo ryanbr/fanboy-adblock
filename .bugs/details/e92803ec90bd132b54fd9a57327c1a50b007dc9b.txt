@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://andrewoneverything.com/dude-its-a-laptop-you-want-not-an-ipad
+
+
+[filters]
+http://andrewoneverything.com/posts/deferred_content.jsonp?referrer=http%3A%2F%2Fandrewoneverything.com%2Fdude-its-a-laptop-you-want-not-an-ipad&url=http%3A%2F%2Fandrewoneverything.com%2Fposts%2Fdeferred_content.jsonp&post=%257B%2522post_id%2522%253A105355690%252C%2522post_is_private%2522%253Afalse%252C%2522post_url_slug%2522%253A%2522dude-its-a-laptop-you-want-not-an-ipad%2522%252C%2522user_id%2522%253A509973%257D&posts=%255B%257B%2522post_id%2522%253A105355690%252C%2522post_is_private%2522%253Afalse%252C%2522post_url_slug%2522%253A%2522dude-its-a-laptop-you-want-not-an-ipad%2522%252C%2522user_id%2522%253A509973%257D%255D&_1330915953332=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
