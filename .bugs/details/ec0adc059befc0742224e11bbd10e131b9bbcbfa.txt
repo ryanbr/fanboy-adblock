@@ -1,0 +1,29 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://claredargin.bravejournal.com/
+
+
+[filters]
+http://www.freewebs.com/ultragames0/index.htm
+http://www.htmlite.com/JS015.php
+------
+http://www.blogcatalog.com/images/buttons/blogcatalog5.gif
+http://www.bloglines.com/images/sub_modern11.gif
+http://www.blogtopsites.com/v_66909.gif
+http://www.scoutle.com/images/profiles/mini/5b4e9a49f6f04a8fe02258b67d549d4c.jpg
+http://www.scoutle.com/stageload/loadv2.php?stash=499a6b62a75a053cb7b9fc119e6fb7fd&st=classic&host=other
+http://www.scoutle.com/stageload/loadv2.php?stash=499a6b62a75a053cb7b9fc119e6fb7fd&st=static&host=other
+http://www.scoutle.com/swf/stagev2.php?stash=499a6b62a75a053cb7b9fc119e6fb7fd&st=classic
+http://www.scoutle.com/xml/xml_open.php?st=499a6b62a75a053cb7b9fc119e6fb7fd
+http://www.scoutle.com/xml/xml_postrecord.php?st=499a6b62a75a053cb7b9fc119e6fb7fd
+http://digg.com/img/badges/16x16-digg-guy.gif
+http://redvase.bravenet.com/pop/bravenet/popunder?term=001&bncat=010&serv=journal&core=0&csr[]=17&csr[]=19&csr[]=20&csr[]=902&r=1330928049144
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11192
+
+
+[comments]
+fanboy
