@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/?shva=1#inbox/135e2912caa068e1
+
+[filters]
+http://open.mkt3261.com/open/log/4427995/MjI2MzY3NzQ1NjAS1/0/MjY0ODU1OTUwS0/1/0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
