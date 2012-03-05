@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/?shva=1#inbox/135e4ebc093963eb (http://brizzly.com/)
+
+
+[filters]
+http://email.aol.com/cgi-bin25/flosensing?z=7De4ebc093963e
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox

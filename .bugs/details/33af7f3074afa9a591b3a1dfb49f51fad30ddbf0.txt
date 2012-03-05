@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/#inbox/135e489da3ca89a3
+
+
+[filters]
+http://b.bm324.com/public/open/process/?fn=Link&ssid=10573&id=cbpcfwn1dcbphnsvk6rgnfjd2divj&ceid=C8ID6AAAAAAAAAAAAAAHSQlH&deid=C8ID7gAAAAAAAAAAAAAAUmqa&meid=C7oD6wAAAAAAAAAAAAAAB0sp&ec=c88267
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
