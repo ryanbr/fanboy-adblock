@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.floppy-tits.com/tgp/
+
+
+[filters]
+http://chaturbate.com/creative/im/1.js?c=0&wm=7wwfO&tour=Qbun&track=track
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
