@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.interest.com/
+
+
+[filters]
+http://www.interest.com/content/plugins/bankrate-global/javascript/bglf-bluekai.js?ver=3.1.2
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11189
+
+
+[comments]
+nitrox
