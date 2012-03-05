@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rt.com/news/firefox-addon-tracking-privacy-759/
+
+
+[filters]
+http://rt.com/debug/jslog/?login=guest&msg=All_head_scripts_executed__13
+http://rt.com/debug/jslog/?login=guest&msg=redefined
+http://rt.com/debug/jslog/?login=guest&msg=time
+http://rt.com/debug/jslog/jstest.gif?--all
+http://rt.com/debug/jslog/jstest.gif?--script
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
