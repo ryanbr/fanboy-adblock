@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/#inbox/135e4c06e25d02e5
+
+
+[filters]
+http://seriouseats.us1.list-manage.com/track/open.php?u=4e35847fc56a636b1c9158810&id=d9391d4552&e=9fd1abd499
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
