@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.brighthub.com/multimedia/photography/articles/36223.aspx
+
+
+[filters]
+http://www.brighthub.com/clienttools/adblock?id=26&ch=1015317&t=73&k=which%20is%20better%20mac%20or%20pc%2c%20best%20computer%20for%20digital%20photography%2c%20compare%20mac%20and%20pc&ord=366963695509858900
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
