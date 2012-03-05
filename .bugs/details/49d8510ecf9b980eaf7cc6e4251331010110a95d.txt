@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/#inbox/135e433fdd91e8f1 (pcmag.com)
+
+
+[filters]
+http://mailing.enews.pcmag.com/db/7632/3180793/1.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
