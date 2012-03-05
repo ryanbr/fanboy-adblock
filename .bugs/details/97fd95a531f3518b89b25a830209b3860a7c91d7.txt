@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/#inbox/135e4ecb11f073c0
+
+
+[filters]
+http://click1.email.nymagazine.com/bGl2ZWNvbmNsaWVudElEPTQ2Mjk5NzU5MDcxNzImQ3JlYXRpdmVJRD0zOTIyRTkxNi00NzVDLTQzQTItQUQzRi1CNzUyMUQ4N0VEMDgtMzgwNTY5JlBsYWNlbWVudElEPTImRXZlbnRUeXBlPUltcHJlc3Npb24mcmFuZD1ac2NN.jpeg
+http://click1.email.nymagazine.com/hwfbfqqdfvwzshcpzsblqzlrbgzjhcqvrmhdrnmhnhqhsb_wzjwllnswddl.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
