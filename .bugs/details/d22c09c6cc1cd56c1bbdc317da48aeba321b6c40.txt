@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ebonybymail.com/daily.html?subscription_key=3499B745DDD8300E899C8D97CF7615CF1AED0A7E54C91B62B72BB14F55A8C8&date=2012-03-06
+
+
+[filters]
+http://c.porngraph.com/T/3553/0/?jscript=3&java=1&r=&h=20&p=2073600&c=24&pl=Shockwave%20Flash%7CJava%20Deployment%20Toolkit%206.0.290.11%7CJava%28TM%29%20Platform%20SE%206%20U29%7C
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
