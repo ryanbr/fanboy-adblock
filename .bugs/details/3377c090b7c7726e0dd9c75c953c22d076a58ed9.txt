@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.movieonmovie.com/2011/05/bill-collector-2010-dvdrip.html
+
+
+[filters]
+http://www.graboid.com/affiliates/scripts/imp.php?a_aid=kses25&a_bid=13be7bcf
+http://www.graboid.com/affiliates/scripts/imp.php?a_aid=kses25&a_bid=764b117d&chan=abovepost
+http://www.graboid.com/affiliates/accounts/default1/banners/450x250-2.jpg
+http://www.graboid.com/affiliates/accounts/default1/banners/download_blue2.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
