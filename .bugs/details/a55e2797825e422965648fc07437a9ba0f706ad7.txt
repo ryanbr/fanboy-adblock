@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+addictivetips.com
+
+
+[filters]
+addictivetips.com##.xoxo
+
+
+
+[other]
+hid the sidebar
+
+
+[comments]
+vinny86
