@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/#inbox/135e442eafa99b1a
+
+
+[filters]
+http://nlsl.about.com/img?nl=panicdisorder&ts=1330970400&uid=20305&channel=about_newsletters_panicdisorder%20test0&url=http%3A%2F%2Fspecials.about.com%2Fservice%2Fnewsletters%2Fpanicdisorder%2F1330970400.htm&adtest=off
+
+
+
+
+
+[other]
+ad not, tracker
+
+
+[comments]
+fanboy
