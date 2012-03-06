@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.foodingredientsfirst.com/
+
+
+[filters]
+http://www.foodingredientsfirst.com/Content/banners/TateandLyle_May_topbanner.gif
+http://www.foodingredientsfirst.com/Content/flash_loaders/loadlargetile.swf?tp=1501&nn=http%3a%2f%2fwww.symrise.com%2fen%2fflavor-nutrition.html&mn=/Content/banners/citrus_250x250_stoerer.swf&w=250&h=250
+http://www.foodingredientsfirst.com/Content/flash_loaders/loadskyscraper.swf?tp=1498&nn=http%3a%2f%2fwww.safcglobal.com%2fsafc-supply-solutions%2fen-us%2fhome%2fflavors-and-fragrances.html%3fcm_mmc%3daffiliate-_-SAFC-_-Food_Ingredients_First-_-F%2526F&mn=/Content/banners/SAFC_F_F_210X600.swf&w=210&h=600
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
