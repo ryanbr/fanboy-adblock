@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/#inbox/135e46fcefb56e24
+
+
+[filters]
+http://realsimple.chtah.com/a/hBPVRVmBAuBI6B8hLeHNtb6GU.BAuBI6M7/spacer-0.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
