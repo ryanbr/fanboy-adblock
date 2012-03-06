@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.spambog.com/en/
+
+[filters]
+http://www.referlytics.com/api/tracking.php?wid=4&uid=1&hash=60ddfa3189338172b9c54030f286d20a&rand=907bc42c9ca77136fb1088dd640e214f&referer=http%3A%2F%2Fwww.spambog.com%2F&query=content%3Dhome%26language%3Den&path=%2Fen%2F
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
