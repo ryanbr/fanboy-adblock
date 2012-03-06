@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/#inbox/135e583e2a508c83
+
+
+[filters]
+http://ads.feedblitz.com/?servead&feedid=24928&sub=27935352&doc=50e3d768-6727-11e1-a247-003005d070f0&seq=6&type=img&b=2&o=1&f=2&N=12&sender=28eca147d8b8188063c3446b7d6a061a,theybf.com
+http://ads.feedblitz.com/?servead&feedid=24928&sub=27935352&doc=50e3d768-6727-11e1-a247-003005d070f0&seq=7&type=img&b=2&o=2&f=2&N=12&sender=28eca147d8b8188063c3446b7d6a061a,theybf.com
+http://ads.feedblitz.com/?servead&feedid=24928&sub=27935352&doc=50e3d768-6727-11e1-a247-003005d070f0&seq=8&type=img&b=2&o=3&f=2&N=12&sender=28eca147d8b8188063c3446b7d6a061a,theybf.com
+http://ads.feedblitz.com/?servead&feedid=24928&sub=27935352&doc=50e3d768-6727-11e1-a247-003005d070f0&seq=9&type=img&b=3&o=0&f=2&N=12&sender=28eca147d8b8188063c3446b7d6a061a,theybf.com
+http://ads.feedblitz.com/?servetag&doc=50e3d768-6727-11e1-a247-003005d070f0&b=1&f=2
+http://ads.feedblitz.com/?servetag&doc=50e3d768-6727-11e1-a247-003005d070f0&b=2&f=2
+element:
+http://p.feedblitz.com/t2.asp?/24928/27935352/4149512/http://spnsrs.feedblitz.com/click?s=1801&t=newsletter&sz=69x15&li=234425&m=bd02f330c8372bb5a6f6468bb244f193&p=4149512_24928
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
