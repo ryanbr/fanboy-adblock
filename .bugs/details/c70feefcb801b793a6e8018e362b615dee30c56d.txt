@@ -1,0 +1,29 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://data.southampton.ac.uk/
+
+
+[filters]
+http://sharenice.org/code.js
+http://sharenice.org/images/bebo_com.png
+http://sharenice.org/images/bit_ly.png
+http://sharenice.org/images/blogger_com.png
+http://sharenice.org/images/delicious_com.png
+http://sharenice.org/images/digg_com.png
+http://sharenice.org/images/evernote_com.png
+http://sharenice.org/images/facebook_com.png
+http://sharenice.org/images/google_com.png
+http://sharenice.org/images/icon-email.png
+http://sharenice.org/images/icons/icon-share-orange16.png
+http://sharenice.org/images/identi_ca.png
+http://sharenice.org/images/linkedin_com.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
