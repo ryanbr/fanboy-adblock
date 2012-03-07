@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mnova.eu/torrent/1526509/David_DeAngelo_-_Cocky_Comedy_And_Other_Conversation_Skills_6_CD%27s.html
+
+
+[filters]
+http://74.113.68.19/ads/ads_new.php?name=adbrite_bottom
+http://74.113.68.19/ads/ads_new.php?name=adbrite_top
+http://74.113.68.19/ads/ads_new.php?name=bottom_2
+http://74.113.68.19/ads/ads_new.php?name=right&site=
+http://74.113.68.19/ads/ads_new.php?name=stats
+http://74.113.68.19/ads/ads_new.php?name=top&site=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
