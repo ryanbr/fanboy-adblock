@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://torrentz.eu/2ea33341a7e2c100071c92d01f5715d828d02472
+
+
+[filters]
+http://torrentz.eu/torrentz.js
+
+
+
+[other]
+var urlToShow = "http://7.rotator.wigetmedia.com/servlet/ajrotator/191583/0/vh?z=wiget&amp;dim=79059&amp;kw=&amp;click=";
+var popCookieName = "wigetmedia_torrentz";
+var expireHours = "24";
+http://redirect.ad-feeds.com/results/?partnerid=*&appid=*&subid=*&ip=*&cid=*&entry=*&qs=*
+
+
+[comments]
+fanboy
