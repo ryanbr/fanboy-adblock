@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.5giay.vn/
+
+
+[filters]
+http://khuyenmaivang.vn/banner5giay/rightbanner
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
