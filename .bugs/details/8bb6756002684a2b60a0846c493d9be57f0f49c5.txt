@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dsvload.net/index.php?newsid=*
+
+
+[filters]
+http://listof.mobi/6ebus9rtkbf7moovyb7kt0wdzg8zyvp
+http://listof.mobi/761lmgogyl77edd8hu7rbo6uy3egxroeb5nexyz44?&ms3biq=*//dsvload.net/index.php%3Fnewsid%3D235960&5dkjedxw=*&331mo=*&3tqfz=*&2nle8=*&2ytxd=*
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
