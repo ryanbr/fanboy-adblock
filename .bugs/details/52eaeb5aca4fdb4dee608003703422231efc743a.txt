@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://serial-detka.ru/music/
+
+
+[filters]
+http://codemedia.info/cgi/gask.cgi?ids=22036&ref=
+http://codemedia.info/codes/13795/22036_serial-detka.ru.js
+http://mediacod.in/code.php?idsite=22036
+http://mediaunder.org/scode.php?site=4622&ref=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
