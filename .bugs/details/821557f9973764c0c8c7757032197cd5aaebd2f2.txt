@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://xbt-torrent.ru/browse.php
+
+[filters]
+http://mobalives.com/761lmgogyl66mxreerp
+http://mobalives.com/7s7sp0lsh7e93b9cs82wbesvxiys?&5dkjedxw=33318836&3jwg0=0&3forj=0&331n4=0&4j0n5=0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
