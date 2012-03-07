@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.uc-forum.com/forum/call-duty-modern-warfare-3/73769-homohook-inurface-6.html
+
+
+[filters]
+http://www.myfpscheats.com/bannerimg.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
