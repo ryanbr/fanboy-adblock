@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.walgreens.com/store/c/eveready-floating-lantern/ID=prod6022256-product
+
+
+[filters]
+http://www.walgreens.com/common/omn_track/s_code_h.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11210
+
+[comments]
+fanboy
