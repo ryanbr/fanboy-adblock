@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zawya.com/story.cfm/sidZAWYA20120308050635/Platts_OPEC_oil_production_climbs_to_3127_Million_barrels_per_day_in_February
+
+
+[filters]
+http://ae.zawya.com/zscripts/logFile.cfm?WebPageTitle=Platts%3A%20OPEC%20Oil%20Production%20Climbs%20to%2031%2E27%20Million%20Barrels%20Per%20Day%20in%20February%20%2D%20Oil%20&Referer=&ScriptName=/story.cfm&QueryString=sidZAWYA20120308050635/Platts_OPEC_oil_production_climbs_to_3127_Million_barrels_per_day_in_February&CurrentDate=70516
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
