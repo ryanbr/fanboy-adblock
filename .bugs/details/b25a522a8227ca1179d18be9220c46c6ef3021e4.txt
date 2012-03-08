@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.financialexpress.com/news/debt-funds-emerge-as-a-right-choice/920054/
+
+
+[filters]
+http://www.financialexpress.com/hitCount.php?storyId=920054&date=Mar-05-2012
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
