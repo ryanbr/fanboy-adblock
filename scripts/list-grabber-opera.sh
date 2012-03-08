@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v1.5 (14/02/2012)
+# Fanboy Adblock list grabber Opera script v1.6 (09/03/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -260,6 +260,8 @@ else
   # echo "Something went bad, file size is 0"
   mail -s "Google mirror urlfilter-jpn.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
+# Temp Sleep
+sleep 5
     
 # Opera VTN
 # Check for 0-sized file first
@@ -286,6 +288,8 @@ else
   # echo "Something went bad, file size is 0"
   mail -s "Google mirror urlfilter-vtn.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
+# Temp Sleep
+sleep 5
 
 # Opera Turk
 # Check for 0-sized file first
