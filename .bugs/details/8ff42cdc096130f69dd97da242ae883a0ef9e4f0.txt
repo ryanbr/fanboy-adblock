@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bing.com/games/online/bing/slingo/default/en-us?form=DTPWGX
+
+
+[filters]
+http://az13127.vo.msecnd.net/glenlivet-9/gb/scripts/glenlivet/s_code.min.js
+http://www.bing.com/games/online/content/scripts/s_code.min.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
