@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://torrentfreak.com/uk-file-sharers-face-disconnections-after-appeal-court-ruling-120306/
+
+
+[filters]
+https://torrentfreak.com/images/dealcent.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
