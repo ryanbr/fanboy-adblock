@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.masala.com/
+
+
+[filters]
+http://www.ahlanlive.com/newsletters/banners/1652x770/113016-etisalat-refresh-masala_bgv2.jpg
+
+
+[other]
+
+
+[comments]
+nitrox
