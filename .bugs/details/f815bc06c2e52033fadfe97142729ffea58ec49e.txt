@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.backstage.com/bso/advice-the-craft/10-top-monologues-for-actors-1003999290.story?imw=Y
+
+
+[filters]
+http://ad.mlnadvertising.com/px.ashx?src=706&cat=Home&rand=2746106893813.619
+http://ad.mlnadvertising.com/px.ashx?src=706&cat=Home&rand=2746106893813.619&cktst=1
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
