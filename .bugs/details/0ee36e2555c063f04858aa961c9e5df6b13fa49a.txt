@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://torrentfreak.com/
+
+
+[filters]
+https://torrentfreak.com/images/dealcent_apple_09b.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
