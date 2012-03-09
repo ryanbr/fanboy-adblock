@@ -96,7 +96,7 @@ then
   sed '/^$/d' $TESTDIR/urlfilter-cz.ini > $TESTDIR/urlfilter-cz2.ini
   perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-cz2.ini
   if diff $TESTDIR/urlfilter-cz2.ini $MAINDIR/opera/cz/urlfilter.ini > /dev/null ; then
-     echo "No Changes detected: czech/urlfilter.ini"
+     echo "No Changes detected: czech/urlfilter.ini" > /dev/null
   else
      echo "Updated: czech/urlfilter.ini & czech/complete/urlfilter.ini"
      cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-cz.ini > $TESTDIR/urlfilter-cz-stats.ini
@@ -126,7 +126,7 @@ then
   sed '/^$/d' $TESTDIR/urlfilter-pol.ini > $TESTDIR/urlfilter-pol2.ini
   perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-pol2.ini
   if diff $TESTDIR/urlfilter-pol2.ini $MAINDIR/opera/pol/urlfilter.ini > /dev/null ; then
-      echo "No Changes detected: polish/urlfilter.ini"
+      echo "No Changes detected: polish/urlfilter.ini" > /dev/null
   else
     echo "Updated: polish/urlfilter.ini & pol/complete/urlfilter.ini"
     cat $TESTDIR/urlfilter-stats.ini  $GOOGLEDIR/opera/urlfilter-pol.ini > $TESTDIR/urlfilter-pol-stats.ini
@@ -154,7 +154,7 @@ then
   sed '/^$/d' $TESTDIR/urlfilter-esp.ini  > $TESTDIR/urlfilter-esp2.ini
   perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-esp2.ini
   if diff $TESTDIR/urlfilter-esp2.ini $MAINDIR/opera/esp/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: esp/urlfilter.ini"
+    echo "No Changes detected: esp/urlfilter.ini" > /dev/null
 else
     echo "Updated: esp/urlfilter.ini & esp/complete/urlfilter.ini"
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-esp.ini > $TESTDIR/urlfilter-esp-stats.ini
@@ -184,7 +184,7 @@ then
   sed '/^$/d' $TESTDIR/urlfilter-rus.ini > $TESTDIR/urlfilter-rus2.ini
   perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-rus2.ini
   if diff $TESTDIR/urlfilter-rus2.ini $MAINDIR/opera/rus/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: rus/urlfilter.ini"
+    echo "No Changes detected: rus/urlfilter.ini" > /dev/null
   else
     echo "Updated: rus/urlfilter.ini & rus/complete/urlfilter.ini"
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-rus.ini > $TESTDIR/urlfilter-rus-stats.ini
@@ -214,7 +214,7 @@ then
   sed '/^$/d' $TESTDIR/urlfilter-swe.ini > $TESTDIR/urlfilter-swe2.ini
   perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-swe2.ini
   if diff $TESTDIR/urlfilter-swe2.ini $MAINDIR/opera/swe/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: swe/urlfilter.ini"
+    echo "No Changes detected: swe/urlfilter.ini" > /dev/null
   else
     echo "Updated: swe/urlfilter.ini & swe/complete/urlfilter.ini"
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-swe.ini > $TESTDIR/urlfilter-swe-stats.ini
@@ -242,7 +242,7 @@ then
   sed '/^$/d' $TESTDIR/urlfilter-jpn.ini > $TESTDIR/urlfilter-jpn2.ini
   perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-jpn2.ini
   if diff $TESTDIR/urlfilter-jpn2.ini $MAINDIR/opera/jpn/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: jpn/urlfilter.ini"
+    echo "No Changes detected: jpn/urlfilter.ini" > /dev/null
   else
     echo "Updated: jpn/urlfilter.ini & jpn/complete/urlfilter.ini"
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-jpn.ini > $TESTDIR/urlfilter-jpn-stats.ini
@@ -272,7 +272,7 @@ then
   sed '/^$/d' $TESTDIR/urlfilter-vtn.ini > $TESTDIR/urlfilter-vtn2.ini
   perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-vtn2.ini
   if diff $TESTDIR/urlfilter-vtn2.ini $MAINDIR/opera/vtn/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: vtn/urlfilter.ini"
+    echo "No Changes detected: vtn/urlfilter.ini" > /dev/null
   else
     echo "Updated: vtn/urlfilter.ini & vtn/complete/urlfilter.ini"
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-vtn.ini > $TESTDIR/urlfilter-vtn-stats.ini
@@ -300,7 +300,7 @@ then
   sed '/^$/d' $TESTDIR/urlfilter-tky.ini >  $TESTDIR/urlfilter-tky2.ini
   perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-tky2.ini
   if diff $TESTDIR/urlfilter-tky2.ini $MAINDIR/opera/trky/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: trky/urlfilter.ini"
+    echo "No Changes detected: trky/urlfilter.ini" > /deb/null
   else
     echo "Updated: trky/urlfilter.ini & trky/complete/urlfilter.ini"
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-tky.ini > $TESTDIR/urlfilter-tky-stats.ini

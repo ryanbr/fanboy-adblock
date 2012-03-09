@@ -62,7 +62,7 @@ perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-css.txt
 # Compare the Dimensions on the website vs mercurial copy
 #
 if diff $TESTDIR/fanboy-css.txt $MAINDIR/opera/fanboy-adblocklist-elements-v4.css >/dev/null ; then
-   echo "No Changes detected: fanboy-adblocklist-elements-v4.css"
+   echo "No Changes detected: fanboy-adblocklist-elements-v4.css" > /dev/null
  else
 
    cp -f $TESTDIR/fanboy-css.txt $MAINDIR/opera/fanboy-adblocklist-elements-v4.css

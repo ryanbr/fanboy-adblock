@@ -141,7 +141,7 @@ fi
 if [ -n $GOOGLEDIR/fanboy-adblocklist-stats.txt ]
 then
   if diff $GOOGLEDIR/fanboy-adblocklist-stats.txt $MAINDIR/fanboy-tracking.txt >/dev/null ; then
-     echo "No Changes detected: fanboy-tracking.txt"
+     echo "No Changes detected: fanboy-tracking.txt" > /dev/null
    else
     # echo "Updated: fanboy-tracking.txt"
     # Clear old list
@@ -182,7 +182,7 @@ fi
 if [ -n $GOOGLEDIR/enhancedstats-addon.txt ]
 then
   if diff $GOOGLEDIR/enhancedstats-addon.txt $MAINDIR/enhancedstats.txt >/dev/null ; then
-    echo "No Changes detected: enhancedstats-addon.txt"
+    echo "No Changes detected: enhancedstats-addon.txt" > /dev/null
   else
     # echo "Updated: enhancedstats-addon.txt"
     # Clear old list
@@ -218,7 +218,7 @@ fi
 if [ -n $GOOGLEDIR/fanboy-adblocklist-addon.txt ]
 then
   if diff $GOOGLEDIR/fanboy-adblocklist-addon.txt $MAINDIR/fanboy-addon.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-addon.txt"
+    echo "No Changes detected: fanboy-addon.txt" > /dev/null
   else
     # echo "Updated: fanboy-addon.txt"
     # Clear old list
@@ -252,7 +252,7 @@ fi
 if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt ]
 then
  if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $MAINDIR/fanboy-czech.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-czech.txt"
+    echo "No Changes detected: fanboy-czech.txt" > /dev/null
   else
    echo "Updated: fanboy-czech.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $MAINDIR/fanboy-czech.txt
@@ -282,7 +282,7 @@ fi
 if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt ]
 then
  if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $MAINDIR/fanboy-russian.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-russian.txt"
+    echo "No Changes detected: fanboy-russian.txt" > /dev/null
   else
    echo "Updated: fanboy-russian.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $MAINDIR/fanboy-russian.txt
@@ -314,7 +314,7 @@ fi
 if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt ]
 then
  if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $MAINDIR/fanboy-turkish.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-turkish.txt"
+    echo "No Changes detected: fanboy-turkish.txt" > /dev/null
   else
    echo "Updated: fanboy-turkish.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $MAINDIR/fanboy-turkish.txt
@@ -344,7 +344,7 @@ fi
 if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt ]
 then
  if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $MAINDIR/fanboy-japanese.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-japanese.txt"
+    echo "No Changes detected: fanboy-japanese.txt" > /dev/null
   else
    echo "Updated: fanboy-japanese.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $MAINDIR/fanboy-japanese.txt
@@ -374,7 +374,7 @@ fi
 if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt ]
 then
  if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-korean.txt"
+    echo "No Changes detected: fanboy-korean.txt" > /dev/null
    else
     echo "Updated: fanboy-korean.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt
@@ -403,7 +403,7 @@ fi
 if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt ]
 then
  if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $MAINDIR/fanboy-italian.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-italian.txt"
+    echo "No Changes detected: fanboy-italian.txt" > /dev/null
    else
     echo "Updated: fanboy-italian.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $MAINDIR/fanboy-italian.txt
@@ -433,7 +433,7 @@ fi
 if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt ]
 then
  if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-polish.txt"
+    echo "No Changes detected: fanboy-polish.txt" > /dev/null
    else
     echo "Updated: fanboy-polish.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt
@@ -461,7 +461,7 @@ fi
 if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt ]
 then
  if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-indian.txt"
+    echo "No Changes detected: fanboy-indian.txt" > /dev/null
    else
     echo "Updated: fanboy-indian.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt
@@ -489,7 +489,7 @@ fi
 if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt ]
 then
  if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-vietnam.txt"
+    echo "No Changes detected: fanboy-vietnam.txt" > /dev/null
    else
     echo "Updated: fanboy-vietnam.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt
@@ -517,7 +517,7 @@ fi
 if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt ]
 then
  if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-chinese.txt"
+    echo "No Changes detected: fanboy-chinese.txt" > /dev/null
    else
     echo "Updated: fanboy-chinese.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt
@@ -545,7 +545,7 @@ fi
 if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt ]
 then
  if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $MAINDIR/fanboy-espanol.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-espanol.txt"
+    echo "No Changes detected: fanboy-espanol.txt" > /dev/null
    else
     echo "Updated: fanboy-espanol.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $MAINDIR/fanboy-espanol.txt
@@ -575,7 +575,7 @@ fi
 if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt ]
 then
  if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-swedish.txt"
+    echo "No Changes detected: fanboy-swedish.txt" > /dev/null
    else
     echo "Updated: fanboy-swedish.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt
@@ -603,7 +603,7 @@ fi
 if [ -n $GOOGLEDIR/other/adblock-gannett.txt ]
 then
  if diff $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-gannett.txt"
+    echo "No Changes detected: fanboy-gannett.txt" > /dev/null
    else
     echo "Updated: fanboy-gannett.txt"
     cp -f $GOOGLEDIR/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
