@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.barcelo.com/BarceloHotels/en-GB/home_en-US.htm?cultura=en-GB@_en-US
+
+
+[filters]
+http://www.barcelo.com/Barcelo.Portal.B2C.Web/Scripts/Tracking.js
+http://scripts.affilired.com/analytic/index.php?cultura=en-GB@_en-US&merchant=2&http://www.barcelo.com/BarceloHotels/en-GB/home_en-US.htm?cultura=en-GB@_en-US
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
