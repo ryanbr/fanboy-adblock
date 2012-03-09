@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bild.de/news/bild-english/bild-com/home-19858064.bild.html
+
+
+[filters]
+http://www.bild.de/code/webtrekk,15400926.50-15400928.28-15400930.17-15886126.22.bild.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
