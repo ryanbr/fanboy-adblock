@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.airasia.com/my/en/home.page
+
+
+[filters]
+http://hm.baidu.com/hm.gif?cc=1&ck=1&cl=24-bit&ds=1440x900&et=0&fl=11.2&ja=0&ln=en-US&lo=0&nv=1&rnd=1416456345&si=864bf130d90b55427bc9f48be17d033a&st=1&su=http%3A%2F%2Fwww.airasia.com%2Findex.htm&v=svn%3A%20%E2%80%9C.%E2%80%9D%E4%B8%8D%E6%98%AF%E5%B7%A5%E4%BD%9C%E5%89%AF%E6%9C%AC
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
