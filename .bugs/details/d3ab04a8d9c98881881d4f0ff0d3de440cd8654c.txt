@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://latimesblogs.latimes.com/gossip/2012/03/ashley-olsen-quitting-acting-retire-elle-magazine-mary-kate.html
+
+
+[filters]
+http://www.tribdss.com/assets/dss.js
+
+
+
+[other]
+looks tracker-ish, remove if it causes fps
+
+
+[comments]
+fanboy
