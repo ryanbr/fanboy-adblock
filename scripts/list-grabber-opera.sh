@@ -54,7 +54,7 @@ sleep 5
 if [ -n $TESTDIR/opera/urlfilter.ini ] || [ -n $TESTDIR/opera/urlfilter-stats.ini ]
 then
   if diff $TESTDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: urlfilter.ini"
+    echo "No Changes detected: urlfilter.ini" > /dev/null
    else
     echo "Updated: urlfilter.ini"
     cp -f $TESTDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter.ini
@@ -300,7 +300,7 @@ then
   sed '/^$/d' $TESTDIR/urlfilter-tky.ini >  $TESTDIR/urlfilter-tky2.ini
   perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-tky2.ini
   if diff $TESTDIR/urlfilter-tky2.ini $MAINDIR/opera/trky/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: trky/urlfilter.ini" > /deb/null
+    echo "No Changes detected: trky/urlfilter.ini" > /dev/null
   else
     echo "Updated: trky/urlfilter.ini & trky/complete/urlfilter.ini"
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-tky.ini > $TESTDIR/urlfilter-tky-stats.ini
