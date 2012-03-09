@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.goldsoftware.ru/powerdvd
+
+
+[filters]
+http://www.goldsoftware.ru/statistics/tracker/?url=http%3A//www.goldsoftware.ru/powerdvd&referer=&rnd=334854553
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
