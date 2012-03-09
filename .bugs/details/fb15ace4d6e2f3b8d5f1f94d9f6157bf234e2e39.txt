@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.accountnow.com/
+
+
+[filters]
+http://www.accountnow.com/SyslogWriter.ashx?jserror=mboxCreate%20is%20not%20defined|URL:http://www.accountnow.com/%20|Line:169%20|Browser:%20Netscape%20|Version:5.0%20(Windows)%20|Referrer:%20|Document:%20http://www.accountnow.com/
+http://www.accountnow.com/SyslogWriter.ashx?jserror=mboxCreate%20is%20not%20defined|URL:http://www.accountnow.com/%20|Line:275%20|Browser:%20Netscape%20|Version:5.0%20(Windows)%20|Referrer:%20|Document:%20http://www.accountnow.com/
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
