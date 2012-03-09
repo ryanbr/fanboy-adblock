@@ -1,0 +1,28 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://scribol.com/stories/linkgrid/752667/584/328838/a
+
+
+[filters]
+http://0.datacollector.coin.scribol.com/?action=impression&story=151029&sess=aai66efjcl&pub_ent=SBL&pub_st=31471&cats=584,585,586&type=1
+http://1.datacollector.coin.scribol.com/?action=impression&story=32369&sess=aai66efjcl&pub_ent=SBL&pub_st=20145&cats=584&type=1
+http://10.datacollector.coin.scribol.com/?action=impression&story=26016&sess=aai66efjcl&pub_ent=SBL&pub_st=20145&cats=572,584&type=1
+http://11.datacollector.coin.scribol.com/?action=impression&story=334927&sess=aai66efjcl&pub_ent=SBL&pub_st=156237&cats=547,583,584,605&type=1
+http://12.datacollector.coin.scribol.com/?action=impression&story=306534&sess=aai66efjcl&pub_ent=SBL&pub_st=156238&cats=572,584&type=1
+http://13.datacollector.coin.scribol.com/?action=impression&story=298510&sess=aai66efjcl&pub_ent=SBL&pub_st=152124&cats=583,584&type=1
+http://14.datacollector.coin.scribol.com/?action=impression&story=296872&sess=aai66efjcl&pub_ent=SBL&pub_st=156237&cats=572,584&type=1
+http://15.datacollector.coin.scribol.com/?action=impression&story=752655&sess=aai66efjcl&pub_ent=SBL&pub_st=472299&cats=572,584&type=1
+http://16.datacollector.coin.scribol.com/?action=impression&story=364590&sess=aai66efjcl&pub_ent=SBL&pub_st=156237&cats=584&type=1
+http://17.datacollector.coin.scribol.com/?action=impression&story=475751&sess=aai66efjcl&pub_ent=SBL&pub_st=156237&cats=584&type=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
