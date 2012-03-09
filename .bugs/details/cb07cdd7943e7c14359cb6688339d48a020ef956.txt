@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sn.soapnet.go.com/shows/beverly-hills-90210
+
+
+[filters]
+http://cdn.gigya.com/wildfire/WFApi.ashx?f=gs&asver=as3&service=reports&services=reports&pid=1214801
+
+
+
+
+[other]
+video no loady
+
+[comments]
+fanboy
