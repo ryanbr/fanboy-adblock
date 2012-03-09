@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.show9vip.com/2012/01/phim-cap-3-han-quoc-fuck-1-em-de-thuong.html
+
+
+[filters]
+http://www.targetingnow.com/dispatcher.js
+http://users5.nofeehost.com/show9vip/Keyword02%282%29.js
+http://users10.jabry.com/show9vip2/Pop_Giaitrituoitre.js
+http://users10.jabry.com/show9vip2/mucrieng/Rc-post-2cot-blank.js
+http://bit.ly/preload-show9vip
+http://ni5.upanh.com/b1.s13.d5/cab000a9c4b5721d4e62d4aa9cf86fe2_41195605.900x100.gif
+http://ni6.upanh.com/b6.s3.d1/4b7cbc322372f9e03f53e51906720eeb_41195356.650x100.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
