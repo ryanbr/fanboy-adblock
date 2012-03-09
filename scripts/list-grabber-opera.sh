@@ -75,6 +75,8 @@ then
       # Properly wipe old file.
       $SHRED -n 5 -z -u  $MAINDIR/opera/complete/urlfilter.ini.gz
       $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/complete/urlfilter.ini.gz $TESTDIR/urfilter-stats2.ini > /dev/null
+      # Temp Sleep
+      sleep 5
       # Generate Iron script
       # Turn off for the time being.
       $GOOGLEDIR/scripts/iron/adblock-iron-generator-tracker.sh  
@@ -84,8 +86,7 @@ else
 # echo "Something went bad, file size is 0"
   mail -s "Google mirror urlfilter.ini/urlfilter-stats size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
-# Temp Sleep
-sleep 5
+
 
 # Opera Czech
 # Check for 0-sized file first
@@ -107,6 +108,8 @@ then
      $SHRED -n 3 -z -u  $MAINDIR/opera/cz/complete/urlfilter.ini.gz $MAINDIR/opera/cz/urlfilter.ini.gz
      $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/cz/complete/urlfilter.ini.gz $TESTDIR/urlfilter-cz-stats.ini > /dev/null
      $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/cz/urlfilter.ini.gz $TESTDIR/urlfilter-cz2.ini > /dev/null
+     # Temp Sleep
+     sleep 5
      # Generate Iron script
      $GOOGLEDIR/scripts/iron/czech-iron-generator.sh  
   fi
@@ -114,8 +117,7 @@ else
   # echo "Something went bad, file size is 0"
   mail -s "Google mirror urlfilter-cz.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
-# Temp Sleep
-sleep 5
+
 
 # Opera Polish
 # Check for 0-sized file first
@@ -137,13 +139,14 @@ then
     $SHRED -n 3 -z -u  $MAINDIR/opera/pol/urlfilter.ini.gz $MAINDIR/opera/pol/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/pol/complete/urfilter.ini.gz $TESTDIR/urlfilter-pol-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/pol/urlfilter.ini.gz $TESTDIR/urlfilter-pol2.ini > /dev/null
+    # Temp Sleep
+    sleep 5
   fi
 else
   # echo "Something went bad, file size is 0"
   mail -s "Google mirror urlfilter-pol.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
-# Temp Sleep
-sleep 5
+
 
 # Opera Espanol
 # Check for 0-sized file first
@@ -167,13 +170,14 @@ else
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/esp/complete/urlfilter.ini.gz $TESTDIR/urlfilter-esp-stats.ini >/dev/null
     # Generate Iron script
     $GOOGLEDIR/scripts/iron/espanol-iron-generator.sh  
+    # Temp Sleep
+    sleep 5
   fi
 else
   # echo "Something went bad, file size is 0"
   mail -s "Google mirror urlfilter-esp.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
-# Temp Sleep
-sleep 5
+
 
 # Opera Russian
 # Check for 0-sized file first
@@ -197,13 +201,14 @@ then
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/rus/urlfilter.ini.gz $TESTDIR/urlfilter-rus2.ini >/dev/null
     # Generate Iron script
     $GOOGLEDIR/scripts/iron/russian-iron-generator.sh  
+    # Temp Sleep
+    sleep 5
   fi
 else
   # echo "Something went bad, file size is 0"
   mail -s "Google mirror urlfilter-rus.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
-# Temp Sleep
-sleep 5
+
 
 # Opera Swedish
 # Check for 0-sized file first
@@ -225,13 +230,14 @@ then
     $SHRED -n 3 -z -u  $MAINDIR/opera/swe/urlfilter.ini.gz $MAINDIR/opera/swe/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/swe/complete/urlfilter.ini.gz $TESTDIR/urlfilter-swe-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/swe/urlfilter.ini.gz $TESTDIR/urlfilter-swe2.ini > /dev/null
+    # Temp Sleep
+    sleep 5
   fi
 else
   # echo "Something went bad, file size is 0"
   mail -s "Google mirror urlfilter-swe.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
-# Temp Sleep
-sleep 5
+
 
 # Opera JPN
 # Check for 0-sized file first
@@ -253,6 +259,8 @@ then
     $SHRED -n 3 -z -u  $MAINDIR/opera/jpn/urlfilter.ini.gz $MAINDIR/opera/jpn/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/jpn/complete/urlfilter.ini.gz $TESTDIR/urlfilter-jpn-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/jpn/urlfilter.ini.gz $TESTDIR/urlfilter-jpn2.ini > /dev/null
+    # Temp Sleep
+    sleep 5
     # Generate Iron script
     $GOOGLEDIR/scripts/iron/japanese-iron-generator.sh  
   fi
@@ -260,8 +268,6 @@ else
   # echo "Something went bad, file size is 0"
   mail -s "Google mirror urlfilter-jpn.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
-# Temp Sleep
-sleep 5
     
 # Opera VTN
 # Check for 0-sized file first
@@ -283,13 +289,14 @@ then
     $SHRED -n 3 -z -u  $MAINDIR/opera/vtn/urlfilter.ini.gz $MAINDIR/opera/vtn/complete/urlfilter.ini.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/vtn/complete/urlfilter.ini.gz $TESTDIR/urlfilter-vtn-stats.ini > /dev/null
     $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/vtn/urlfilter.ini.gz $TESTDIR/urlfilter-vtn2.ini > /dev/null
+    # Temp Sleep
+    sleep 5
   fi
 else
   # echo "Something went bad, file size is 0"
   mail -s "Google mirror urlfilter-vtn.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
-# Temp Sleep
-sleep 5
+
 
 # Opera Turk
 # Check for 0-sized file first
