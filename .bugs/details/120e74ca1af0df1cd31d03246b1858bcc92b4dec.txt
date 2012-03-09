@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.torrent-invites.com/bittorrent/2322-bittorrent-supply-demand-long-read.html
+
+
+[filters]
+http://www.seednet.eu/banners/seednet-sm.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
