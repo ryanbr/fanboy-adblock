@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.booking.com/city/us/san-francisco.en-us.html?sid=6d9bff5387695f8acb7d0c8d4358d043;dcid=1;city=20015732
+
+
+[filters]
+http://www.booking.com/logo?ver=1;t=13312807761
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
