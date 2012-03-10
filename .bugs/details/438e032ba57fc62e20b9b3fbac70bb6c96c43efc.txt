@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+#http://www.petoskeynews.com/features/ky3-elderly-farmer-catches-3-thieves-on-his-property-20120308,0,3459274.story
+
+
+[filters]
+http://ads.petoskeynews.net/p2p/bg.png
+http://ads.petoskeynews.net/p2p/mainbg.png
+http://ads.petoskeynews.net/p2p/pnr/gry1.png
+http://ads.petoskeynews.net/p2p/pnr/gry2.png
+http://ads.petoskeynews.net/p2p/pnr/nav1.png
+http://ads.petoskeynews.net/p2p/pnr/pnrfavicon.png
+http://ads.petoskeynews.net/p2p/topbg.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
