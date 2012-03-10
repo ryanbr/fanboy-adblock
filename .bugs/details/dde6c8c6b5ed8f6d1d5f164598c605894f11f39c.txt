@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.catonmat.net/blog/why-vim-uses-hjkl-as-arrow-keys/
+
+
+[filters]
+http://yaudience.com/pubtag/publishers.js?KrV3EV9p1ftT
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
