@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.smartbiz.com/
+
+
+[filters]
+https://c.enhance.com/t?custid=123243&filltype=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
