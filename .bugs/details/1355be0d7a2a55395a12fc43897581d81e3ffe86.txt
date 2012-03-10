@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.erepublikar.com/t48546-embajada-en-ebosnia-y-herzegovina-embajada-suspendida
+
+
+[filters]
+http://es.pokerstrategy.com/media/tellafriend/es/Homepage/00-x-2-ps-AGBxGO.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
