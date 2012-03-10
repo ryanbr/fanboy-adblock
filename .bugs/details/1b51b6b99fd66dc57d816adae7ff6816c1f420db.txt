@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.moovielive.com/
+
+
+[filters]
+http://uu.cyberlink.com/analytics/uu.jsp?objectURL=http%3A%2F%2Fwww.moovielive.com%2F
+http://uu.cyberlink.com/analytics/uu_js.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
