@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.chip.com.tr/konu/30-muhtesem-duvar-kagidi_32440.html
+
+
+[filters]
+http://www.cimri.com/adaff/js/cimri-chip.js
+http://www.cimri.com/adaff/chipMakaleAlti.html?type=*&mcat=*&scat=
+http://www.cimri.com/adaff/chipMakaleAlti.html?type=*&mcat=*&scat=
+http://www.cimri.com/adaff/js/adaff.js
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
