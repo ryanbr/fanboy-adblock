@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.burbuja.info/inmobiliaria/index.php
+
+
+[filters]
+http://www.idealista.com/news/out/widget_news.php?medio=*&items=*
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
