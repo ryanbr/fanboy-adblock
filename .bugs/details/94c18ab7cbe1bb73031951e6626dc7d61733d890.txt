@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.amazon.co.uk/
+
+
+[filters]
+http://z-ecx.images-amazon.com/images/G/01/browser-scripts/DA-ca/DA-ca-906651179.js._V137770558_.js
+http://z-ecx.images-amazon.com/images/G/01/browser-scripts/DA-gb/DA-gb-2827666889.js._V137770503_.js
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11272
+
+
+[comments]
+fanboy
