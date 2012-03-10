@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.brobible.com/bronews/story/louie-ck-life-advice-optometrist?utm_source=theslingshot&utm_medium=referral&utm_campaign=further-proof-that-louie-c-k-is-awesome
+
+
+[filters]
+http://www.brobible.com/?ACT=25032004&site_id=1&entry_id=20005003
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
