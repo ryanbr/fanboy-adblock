@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tvn24.pl/-1,1736676,0,1,jak-sol-zamiast-na-droge-mogla-trafic-na-stol,wiadomosc.html
+
+
+[filters]
+http://reklama.onet.pl/_js/ads8flat.js?4f0450ce
+http://pro.hit.gemius.pl/hmapxy.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
