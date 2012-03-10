@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rockfm.fm/player/index.php
+
+
+[filters]
+http://www.rockfm.fm/player/nielsen.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
