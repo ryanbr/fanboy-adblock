@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.filmeseroticos.org/page/9/
+
+
+[filters]
+http://1.bp.blogspot.com/-nKUp5KU2cWo/TefhH06ijhI/AAAAAAAAANE/8Jw1LfULaWY/Banner.jpg
+http://www.filmeseroticos.org/anuncio.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
