@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pcworld.com/article/248857/macworld_iworld_game_your_video.html
+
+[filters]
+http://www.pcworld.com/script/omniture/video.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
