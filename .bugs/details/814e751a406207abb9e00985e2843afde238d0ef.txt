@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.avanquest.com/
+
+
+[filters]
+http://www.inspectlet.com/inspect/3121506292.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
