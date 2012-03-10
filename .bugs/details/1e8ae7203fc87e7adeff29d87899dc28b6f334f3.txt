@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dictionary.cambridge.org/
+
+
+[filters]
+http://dictionary.cambridge.org/external/scripts/dblclick.js?version=1.3.29b
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11248
+
+
+[comments]
+fanboy
