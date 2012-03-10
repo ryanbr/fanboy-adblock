@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sinemakeyfi.gen.tr/category/yerli-sinema/yerli-belgesel/
+
+
+[filters]
+http://boldserver.net/tanitim/bold-server.swf
+http://www.sinemakeyfi.gen.tr/ali.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
