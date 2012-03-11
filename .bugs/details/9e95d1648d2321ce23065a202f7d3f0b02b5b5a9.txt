@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://edomaining.com/
+
+
+[filters]
+http://go.seomoz.org/aff_i?offer_id=1&aff_id=1223&file_id=22
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
