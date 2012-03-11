@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://videosift.com/video/The-Rock-afire-Explosion-full-movie-2008
+
+[filters]
+http://www.hulu.com/site-player/playerembedwrapper.swf?referrer=none&eid=urg3306uJT_xUOdF5txPyw&st=&et=&it=&ml=0&siteHost=http://www.hulu.com
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11281
+
+
+[comments]
+fanboy
