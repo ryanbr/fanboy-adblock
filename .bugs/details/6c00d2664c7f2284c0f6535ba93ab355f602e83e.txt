@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.cloudflare.com/analytics#
+
+[filters]
+https://www.cloudflare.com/static/javascripts/live/page/analytics.js
+
+
+
+
+[other]
+Needs login. needs whitelist, breaks stats
+
+
+[comments]
+fanboy
