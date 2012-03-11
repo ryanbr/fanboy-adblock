@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.freep.com/article/20120305/NEWS03/203050334/With-video-Godzilla-the-wild-turkey-stalks-Commerce-Township-woman
+
+
+[filters]
+http://www.freep.com/odygel/lib/video/yume.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11294
+
+
+[comments]
+fanboy
