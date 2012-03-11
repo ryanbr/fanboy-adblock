@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.forbes.com/sites/davidewalt/2012/02/09/linus-likes-linux-license/
+
+
+[filters]
+http://www.facebook.com/plugins/subscribe.php?api_key=123694841080850&channel=https%3A%2F%2Fs-static.ak.fbcdn.net%2Fconnect%2Fxd_proxy.php%3Fversion%3D3%23cb%3Df1ea3fe1faf526c%26origin%3Dhttp%253A%252F%252Fwww.forbes.com%252Ff338ca65d78403c%26relation%3Dparent.parent%26transport%3Dpostmessage&colorscheme=light&href=https%3A%2F%2Fwww.facebook.com%2Fewalt&layout=button_count&locale=en_US&sdk=joey&show_faces=false&width=90
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
