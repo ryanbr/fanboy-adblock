@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rightstuf.com/rssite/main/
+
+
+[filters]
+http://www.rightstuf.com/phplive/ajax/footprints.php?deptid=0&r=hphp%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Drelated%253Aviz.com&onpage=hphp%3A%2F%2Fwww.rightstuf.com%2Frssite%2Fmain%2F&title=Right%20Stuf%20%7C%20Anime%2C%20Manga%20and%20More%20%40%20Right%20Stuf&c=0&resolution=1440%20x%20900&1331409429960
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
