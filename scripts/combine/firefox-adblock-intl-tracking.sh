@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy-Merge-complete Adblock list grabber script v1.2 (11/02/2012)
+# Fanboy Regional Tracking Combination script v1.3 (11/03/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -61,7 +61,7 @@ sed -i '/gemius_/d' $TESTDIR/fanboy-rus-track.txt
 # Merge Everything together
 #
 # Merge for IE trackers
-cat $TESTDIR/fanboy-esp-track.txt $TESTDIR/fanboy-cz-track.txt $TESTDIR/fanboy-rus-track.txt $TESTDIR/fanboy-tky-track.txt $TESTDIR/fanboy-jpn-track.txt $TESTDIR/fanboy-krn-track.txt $TESTDIR/fanboy-ita-track.txt $TESTDIR/fanboy-pol-track.txt $TESTDIR/fanboy-swe-track.txt $TESTDIR/fanboy-ind-track.txt > $TESTDIR/fanboy-track-test-ie.txt
+cat $TESTDIR/fanboy-esp-track.txt $TESTDIR/fanboy-cz-track.txt $TESTDIR/fanboy-rus-track.txt $TESTDIR/fanboy-vtn-track.txt $TESTDIR/fanboy-tky-track.txt $TESTDIR/fanboy-jpn-track.txt $TESTDIR/fanboy-krn-track.txt $TESTDIR/fanboy-ita-track.txt $TESTDIR/fanboy-pol-track.txt $TESTDIR/fanboy-chn-track.txt $TESTDIR/fanboy-swe-track.txt $TESTDIR/fanboy-ind-track.txt > $TESTDIR/fanboy-track-test-ie.txt
 # Merge enhanced for Firefox
 cat $GOOGLEDIR/enhancedstats-addon.txt $TESTDIR/fanboy-track-test-ie.txt > $TESTDIR/fanboy-track-test.txt
 perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-track-test.txt
