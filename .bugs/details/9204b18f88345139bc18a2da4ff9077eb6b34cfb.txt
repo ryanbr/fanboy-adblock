@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bothsidesofthetable.com/2012/03/10/never-negotiate-piecemeal-heres-why/
+
+[filters]
+http://widgets.awe.sm/v2/tweet_button?awesm_key=74d3ed005697a451004d356f2868706255383f4badd19bb64503b515a066aa38&data-url=http://www.bothsidesofthetable.com/2012/03/10/never-negotiate-piecemeal-heres-why/&data-counturl=http://www.bothsidesofthetable.com/2012/03/10/never-negotiate-piecemeal-heres-why/&data-text=Never%20Negotiate%20Piecemeal.%20Here%27s%20Why&data-count=vertical&data-lang=en&data-via=msuster&data-related=grp_partners:My%20firm
+http://widgets.awe.sm/v2/widgets.js?key=74d3ed005697a451004d356f2868706255383f4badd19bb64503b515a066aa38
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
