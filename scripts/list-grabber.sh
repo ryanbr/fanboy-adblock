@@ -5,19 +5,6 @@
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
-
-# Creating a 20Mb ramdisk Temp storage...
-#
-if [ ! -d "/tmp/ramdisk/" ]; then
-    rm -rf /tmp/ramdisk/
-    mkdir /tmp/ramdisk; chmod 777 /tmp/ramdisk
-    mount -t tmpfs -o size=20M tmpfs /tmp/ramdisk/
-    mkdir /tmp/ramdisk/opera/
-fi
-if [ ! -d "/tmp/ramdisk/opera/" ]; then
-    mkdir /tmp/ramdisk/opera/
-fi
-
 # Variables for directorys
 #
 MAINDIR="/var/www/adblock"
@@ -31,6 +18,21 @@ DATE="`date`"
 ECHORESPONSE="List Changed: $LS2"
 BADUPDATE="Bad Update: $LS2"
 LS2="`ls -al $FILE`"
+
+# Make Ramdisk.
+#
+$GOOGLEDIR/scripts/ramdisk.sh
+# Fallback if ramdisk.sh isn't excuted.
+#
+if [ ! -d "/tmp/ramdisk/" ]; then
+  rm -rf /tmp/ramdisk/
+  mkdir /tmp/ramdisk; chmod 777 /tmp/ramdisk
+  mount -t tmpfs -o size=30M tmpfs /tmp/ramdisk/
+  mkdir /tmp/ramdisk/opera/
+fi
+
+
+
 # Grab Mercurial Updates
 #
 cd /home/fanboy/google/fanboy-adblock-list/
