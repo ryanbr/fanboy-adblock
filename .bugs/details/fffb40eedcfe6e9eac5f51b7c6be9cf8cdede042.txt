@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rightnow.com/
+
+
+[filters]
+http://www.rnengage.com/api/1/record?31503168&s=vlTfxRSk&b=ca1&i=rightnow%3Arightnow&f=rnw&p=Customer%20Portal&v=12.2.0.1-b132&e=w-S-3566&a=script-page,view
+https://www.rnengage.com/api/e/ca1/e.js
+http://www.rnengage.com/api/1/javascript/acs.js
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11298
+
+
+[comments]
+nitrox
