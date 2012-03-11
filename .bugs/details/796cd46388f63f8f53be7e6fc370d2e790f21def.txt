@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.imqq.com/
+
+[filters]
+http://trace.qq.com/collect?pj=1990&dm=www.imqq.com&url=/&arg=&rdm=&rurl=&rarg=&icache=-&uv=&nu=&ol=&loc=http%3A//www.imqq.com/&column=&subject=&nrnd=F2878921866&rnd=25910
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
