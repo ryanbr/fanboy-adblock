@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nba.com/tvc/index.html?gamecode=20120310/CHAOKC&brand=CHA
+
+
+[filters]
+http://www.nba.com/tvc/script/tvc_omniture_code.js
+http://i.cdn.turner.com/nba/nba/.element/js/2.0/global/omniture/s_code.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11291
+
+
+[comments]
+fanboy
