@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.sky.com/home/world-news/article/16186397
+
+
+[filters]
+http://news.sky.com/sky-news/app/SkyMediaPlayer_v3.1.411/includes/swf/OmniturePlugin.swf?s.configURL=http://news.sky.com/sky-news/app/SkyMediaPlayer_v3.1.411/includes/config/p/omnitureOptions.xml
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
