@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://long-island.newsday.com/
+
+
+[filters]
+http://long-island.newsday.com/js/s_nd_code_xli.js
+
+
+[other]
+
+
+[comments]
+nitrox
