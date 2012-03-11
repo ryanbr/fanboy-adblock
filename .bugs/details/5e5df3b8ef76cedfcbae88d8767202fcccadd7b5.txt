@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dm5.com/manga-naruto/
+
+[filters]
+http://w.cnzz.com/c.php?id=30012311&l=3
+http://w.cnzz.com/c.php?id=30021316&l=3
+http://w.cnzz.com/c.php?id=30058792&l=3
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
