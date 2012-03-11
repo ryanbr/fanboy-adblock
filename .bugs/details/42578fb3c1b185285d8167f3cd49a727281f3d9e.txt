@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cnn.com/video/?hpt=hp_mid#/video/bestoftv/2012/03/09/pmt-santorum-romney.cnn
+
+
+[filters]
+http://z.cdn.turner.com/cnn/.e/js/3.0/video/videxp/TnT/mbox.01.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
