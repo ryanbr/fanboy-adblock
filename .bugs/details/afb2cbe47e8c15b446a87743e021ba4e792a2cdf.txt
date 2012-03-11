@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.betfair.com/
+
+
+[filters]
+http://mp.apmebf.com/ad/bn/7778-42433-16601-232?mpt=&host=altfarm.mediaplex.com
+http://mp.apmebf.com/ad/bn/7778-42433-16601-233?mpt=&host=altfarm.mediaplex.com
+http://mp.apmebf.com/ad/bn/7778-42433-16601-234?mpt=&host=altfarm.mediaplex.com
+http://mp.apmebf.com/ad/bn/7778-42433-16601-235?mpt=&host=altfarm.mediaplex.com
+http://mp.apmebf.com/ad/js/7778-42433-16601-167?mpt=9769532&mpvc=&host=altfarm.mediaplex.com
+http://mp.apmebf.com/ad/js/7778-42433-16601-206?mpt=8269666&mpvc=&host=altfarm.mediaplex.com
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11293
+
+
+[comments]
+nitrox
