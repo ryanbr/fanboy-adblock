@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sap.com/solutions/business-suite/crm/index.epx
+
+
+[filters]
+http://www.sap.com/global/ui/js/trackinghelper.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
