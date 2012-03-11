@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://yp.com.hk/home/en/html/main/home.aspx
+
+[filters]
+http://yp.com.hk/IYP_API/statistics/web_traffic_capture.js
+http://yp.com.hk/iypbusiness_e10/inc_e09/statcapture.asp?isCookie=True&referrer=&1331443220000
+http://yp.com.hk/iypbusiness_e10/inc_e09/statcapture.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
