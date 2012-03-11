@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://en.china.cn/content/d1067787,3f7eed,1899_15505.html
+
+
+[filters]
+http://clkstat.china.cn/qhstat.js
+http://pvstat.china.cn/statpv.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
