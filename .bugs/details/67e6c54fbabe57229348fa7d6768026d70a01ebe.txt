@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://chron.kaango.com/
+
+
+[filters]
+http://static.kaango.com/chron-right-ad.html
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
