@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thenextweb.com/insider/2012/03/12/cnn-to-buy-social-media-blog-mashable-for-200-million-a-little-bird-tells-reuters-reporter/?awesm=tnw.to_1Dcix&utm_campaign=social%20media&utm_medium=Spreadus&utm_source=Twitter&utm_content=CNN%20to%20buy%20social%20media%20blog%20Mashable%20for%20$200%20million%20,%20a%20little%20bird%20tells%20Reuters%20reporter
+
+
+[filters]
+http://thenextweb.com/wp-content/themes/tnw_6/ads/square2.html
+http://thenextweb.com/wp-content/themes/tnw_6/ajax/get_social_shares.php?esi&post_id=345782&blog_id=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
