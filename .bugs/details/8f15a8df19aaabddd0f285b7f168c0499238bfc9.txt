@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.snakesworld.com/links.html
+
+
+[filters]
+http://www.snakesworld.com/cgi-bin/hitometer/hitometer.cgi
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
