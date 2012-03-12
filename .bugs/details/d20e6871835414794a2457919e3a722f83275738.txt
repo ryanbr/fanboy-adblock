@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nz.bing.com/images/search?q=mercurial&qpvt=mercurial&FORM=Z7FD
+
+
+[filters]
+http://api.bing.com/qsonhs.aspx?FORM=ASAPII&q=
+http://nz.bing.com/fd/ls/ls.gif?IG=da79e6ea12364cbea9c978e467da670b&Type=Event.ClientInst&DATA={%22T%22:%22CI.DPLI%22,%22Key%22:%221%22,%22Timing%22:{%22start%22:1331550813995,%22elapsed%22:1068}}
+http://nz.bing.com/fd/ls/ls.gif?IG=da79e6ea12364cbea9c978e467da670b&Type=Event.ClientInst&DATA={%22T%22:%22CI.DPLI%22,%22Key%22:%222%22,%22Timing%22:{%22start%22:1331550814012,%22elapsed%22:1809}}
+http://nz.bing.com/fd/ls/ls.gif?IG=da79e6ea12364cbea9c978e467da670b&Type=Event.ClientInst&DATA={%22T%22:%22CI.ImgHover%22,%22AppNS%22:%22API.images.2%22,%22K%22:%2246.1%22,%22TS%22:1331550834568,%22ResultPosition%22:{%22Row%22:6,%22Column%22:1}}&log=UserEvent
+http://nz.bing.com/fd/ls/ls.gif?IG=da79e6ea12364cbea9c978e467da670b&Type=Event.ClientInst&DATA={%22T%22:%22CI.ImgHover%22,%22AppNS%22:%22API.images.2%22,%22K%22:%2246.1%22,%22TS%22:1331550841913,%22ResultPosition%22:{%22Row%22:6,%22Column%22:1}}&log=UserEvent
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
