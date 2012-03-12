@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://explosm.net/comics/2732/
+
+[filters]
+http://lanistaconcepts.com/publishers/Explosm/Lanista_L_Explosm_300.html
+http://lanistaconcepts.com/publishers/Explosm/Lanista_L_Explosm_728_BTF.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
