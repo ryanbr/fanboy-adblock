@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vevo.com/watch/dido/life-for-rent/GB1100300770?source=instantsearch
+
+
+[filters]
+http://audit.vevo.com/audit.ashx?isrc=GB1100300770&pid=62FF0A5C-0D9E-4AC1-AF04-1D9E97EE3961&int=0&cc=US
+
+
+[other]
+https://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11309
+
+
+[comments]
+nitrox
