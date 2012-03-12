@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://videosift.com/video/Summertime-Motherless-Child-Mahalia-Jackson
+
+
+[filters]
+http://js.tudouui.com/bin/player2/olc_1.swf?iid=34058951&swfPath=http://js.tudouui.com/bin/player2/olm_4.swf&adSourceId=81000&autoPlay=false&listType=0&rurl=&autostart=false&snap_pic=http%3A%2F%2Fi2.tdimg.com%2F034%2F058%2F951%2Fw.jpg&code=VK-_me4Q95A&tag=Mahalia+Jackson&title=Summertime%2FMotherless+Child+-+Mahalia+Jackson&mediaType=vi&totalTime=275000&hdType=0&hasPassword=0&nWidth=-1&isOriginal=0&channelId=14&nHeight=-1&banPublic=false
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11300
+
+
+[comments]
+fanboy
