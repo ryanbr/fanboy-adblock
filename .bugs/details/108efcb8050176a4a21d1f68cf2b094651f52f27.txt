@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.crackle.com/c/Cruel_Intentions
+
+
+[filters]
+http://www.crackle.com/tracking/mediahit.ashx?playtype=1&playerType=cracklePlayer&autoplay=1&externalsiteid=16&mediaid=2485403&mediafilter=o%253D12%2526fpl%253D894218%2526fx%253D&countinplayer=1&fileSlot=9
+http://www.crackle.com/tracking/pixel.gif?cmp=Crackle&tra=AdEnd&cre=2485403
+
+
+[other]
+https://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11310
+
+
+[comments]
+nitrox
