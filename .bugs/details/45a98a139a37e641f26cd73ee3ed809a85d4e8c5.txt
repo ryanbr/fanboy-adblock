@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hulu.com/watch/338441/community-a-conversation-with-the-stars-and-creators-of-community
+
+
+[filters]
+http://t2.hulu.com/v3/sitetracking/pageload?computerguid=A62EBA6D96984100B7E97B75259B77E2&userid=0&planid=0&sitesessionid=BBC573EE3B44F044D03B918E01B014A3&socialidentities=&os=Windows%206.1&client=Firefox%2011&pageurl=http%3A%2F%2Fwww.hulu.com%2Fwatch%2F338441%2Fcommunity-a-conversation-with-the-stars-and-creators-of-community&referrerurl=http%3A%2F%2Fwww.hulu.com%2F&distro=Hulu&distroplatform=Hulu&cb=1331535013207
+
+http://t2.hulu.com/v3/adinteraction/click?a=0&adtargeting_userinfo=host_1_10.17.1.70%7Chited_0_1%7Cc0_1_7%7Cc1_2_92%7Cc_3_6%7Cc_4_7%7Cc_5_11%7Cc0_6_4%7Cc1_7_32%7Cc0_8_26%7Cc0_9_11%7Cc0_10_37%7Cc0_11_40%7Cc_12_6%7Cc_13_86%7Cc_14_88%7Cc_15_31%7Cc_16_35%7Cc0_17_8%7Cc1_18_33%7Cc0_19_39%7Cc_20_8%7Cc_21_69%7Cc_22_70%7Cc0_23_12%7Cc_24_45%7Cc_25_65%7Cc_26_5%7Cc_27_85%7Cc_28_78%7Ca_9_26%7Cg_1_92%7Cas_28_1%7Cas_34_1&annotationenabled=false&auth=&beaconevent=click&bitrate=650&cb=1331535034808_591&client=Firefox&computerguid=A62EBA6D96984100B7E97B75259B77E2&contentid=60047027&cpidentifier=PaleyFest2012&creativeid=183725&distro=hulu&distroplatform=hulu&embedurl=177839e6e44667ca131fa7800c145d4a&flash=WIN%2011%2C2%2C202%2C197&language=en&os=Windows%207&packageavailability=shared&packageid=1&pid=NO_MORE_RELEASES_PLEASE_60047027&placementid=22360&planid=0&player=202766&playermode=normal&pod=1_1_a&position=0&promotion=&rectrack=&region=US&sessionguid=78C686636533152872EC44A33A02E8B1&sitesessionid=BBC573EE3B44F044D03B918E01B014A3&socialidentities=&source=Hulu&timepadding=20738&totalframes=435&totalmemory=166465536&ts=1331535006215&type=Video&userbandwidth=5993&attr=%7C1%7C+OR29ERWakx0sxEcYwLNBFMZSUG9u6eiPa95e5AgqED4jUaHpRBVjxkCB+30SO/Vf17uiBg/SuV1GPM0a65f5RW8R2gFeenod3tiIpVsIb/OshTyQKQOV8iqQ0dzRNaSaB+GHbJjHkFV92Y2r2JoB0ik3Qzc8a5gyp9c23h3fsCfaSQeWFufVfcdy11Q0qY6LivU3A1TuV9zWDIIBrQ3UBUTzGlNhm2Jn/RZk3lhUpgmOqs+rX6iMc82a2ucgDHffKOaBQnSFinugzlwpaTpPUs7bDjFs0/3rZcf9oGSMsueiwtHDZYTYfHks33krjBUweYeNLsZmXxANd/3yEz6p3eTO6fkbEJpO3WeDiRO+ax3a7JzzeeRo43d81QXJYptFWdsSHQ86WsCSCBMRF5H5zrl5ZW/vqyj/kIAQvYsOhkm7quiUf15yNHhaKGtnHCZ501MzkSP14lGku/nufEo+90U1bwcO0S43TfrZGcYDKwFrkhgEMgcIa6ZKJImwtZNzd7/hTMa2f3aTcizhb3CJw1EGMxUDV40+poZlVlwqP6A/ejwxg4ieMirCdC8nocHgcoLEsYyAA1i0/WoFrE6RUtWBr60KVuquMuUSJu3XkE%3D&userid=0&visit=6&variableattr=
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11311&p=30844
+
+
+[comments]
+fanboy
