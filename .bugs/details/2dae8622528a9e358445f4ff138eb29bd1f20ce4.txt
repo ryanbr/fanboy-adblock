@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hosted.ap.org/dynamic/stories/E/EU_IRELAND_GARLIC_SCAM?SITE=WIMIL&SECTION=HOME&TEMPLATE=DEFAULT
+
+
+[filters]
+http://hosted.ap.org/specials/AP_Tacoda_AMS_DDC_Header.js
+
+
+[other]
+https://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11307
+
+
+[comments]
+nitrox
