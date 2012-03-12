@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nudevista.com/?q=*
+
+[filters]
+http://i99.nudevista.com/_/teasernet03.html
+http://gagnifie.com/rssfeed3.php?b=*&c=*&h=*&v=*&ref=*&f=*&s=*&53350
+http://demilith.com/rss6/?XE=*&b=*&p=*&hp=*&LWS=*&np=*&h=*&30188
+http://demilith.com/rssfeed3.php?b=*&c=*&h=*&v=*&ref=*&f=*&s=*&27278
+http://gagnifie.com/rss6/?h=*&b=*&p=*&np=*&hp=*&QX=*&cmL=*&TDgd=*&oG=*&Va=*&52193
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
