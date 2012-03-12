@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sigalert.com/Map.asp?region=Greater+Los+Angeles#lat=33.66753&lon=-118.98527&z=2
+
+[filters]
+http://www.sigalert.com/GetUnit.asp?u=Head&s=WW1&a=LosAngeles
+http://www.sigalert.com/GetUnit.asp?u=MedRect&s=WW1&a=LosAngeles&cb=1331517811
+http://www.sigalert.com/GetUnit.asp?u=Sky&s=WW1&a=LosAngeles
+http://www.sigalert.com/GetUnit.asp?u=Vert&s=WW1&a=LosAngeles
+
+
+
+
+[other]
+https://adblockplus.org/forum/viewtopic.php?f=2&t=9749
+
+
+[comments]
+fanboy
