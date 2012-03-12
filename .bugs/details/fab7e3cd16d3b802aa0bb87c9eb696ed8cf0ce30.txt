@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.englishclub.com/
+
+
+[filters]
+http://www.google.co.uk/cse/brand?form=cse-search-box&lang=en
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
