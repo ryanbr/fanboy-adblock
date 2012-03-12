@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://global.alipay.com/ospay/home.html
+
+
+[filters]
+http://kcart.alipay.com/web/bi.do?ref=-&pg=http%3A%2F%2Fglobal.alipay.com%2Fospay%2Fhome.html&rnd=1331539424346&screen=-&color=-&utmhn=global.alipay.com&tm=-
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
