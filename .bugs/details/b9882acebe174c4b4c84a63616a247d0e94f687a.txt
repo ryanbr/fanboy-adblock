@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eircomphonebook.ie/
+
+
+[filters]
+http://www.eircomphonebook.ie/js/wt_capi.js?version=7.0.0-RC23_r14194
+
+
+
+[other]
+breaks page if you dont white list
+https://adblockplus.org/forum/viewtopic.php?f=2&t=9760
+
+
+
+[comments]
+fanboy
