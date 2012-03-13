@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sporcle.com/games/cdhmiamifan13/manningtds
+
+
+[filters]
+http://www.sporcle.com/adn/yak.php?sz=A&cb=1156894239
+http://www.sporcle.com/adn/yak.php?sz=B&cb=6899054281
+http://www.sporcle.com/adn/yaktrack.php?ab
+http://www.sporcle.com/adn/yaktrack.php?au=intl&sz=A&cb=1156894239
+http://www.sporcle.com/adn/yaktrack.php?au=intl&sz=B&cb=6899054281
+
+
+[other]
+
+
+[comments]
+nitrox
