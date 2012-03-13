@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://smartmania.cz/
+
+
+[filters]
+http://tely.cz/assets/adverts/smartmania/images/se-xperia-x8.png
+http://www.heureka.cz/direct/bannery/?id=40662653:3:233
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+Moskoe.cz
