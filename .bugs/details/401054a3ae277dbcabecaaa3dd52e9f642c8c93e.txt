@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.explainxkcd.com/feed/
+
+
+[filters]
+http://www.explainxkcd.com/wp-content/plugins/wp-tweet-button/tweetn.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
