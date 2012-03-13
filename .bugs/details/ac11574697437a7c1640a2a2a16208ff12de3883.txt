@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.moneymakerdiscussion.com/
+
+
+[filters]
+http://www.moneymakerdiscussion.com/mmd-banners/180x560-stuck.jpg
+http://www.moneymakerdiscussion.com/mmd-banners/266353.jpg
+http://www.moneymakerdiscussion.com/mmd-banners/8843940.jpg
+http://www.moneymakerdiscussion.com/mmd-banners/adsmall.gif
+http://www.moneymakerdiscussion.com/mmd-banners/mmdigitals.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
