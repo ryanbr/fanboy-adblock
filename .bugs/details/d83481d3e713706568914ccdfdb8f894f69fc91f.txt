@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sharebeast.com/3tc6b2nhdban
+
+
+[filters]
+http://ads.sharebeast.com/serve/atf300.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
