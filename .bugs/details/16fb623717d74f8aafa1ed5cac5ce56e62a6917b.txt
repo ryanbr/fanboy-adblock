@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mmorpgitalia.it/site/content.php?3382-World-of-Warplanes-Intervista-a-Anton-Sitnikau
+
+
+[filters]
+http://ads.glispa.com/z/35778/CD7415/&dp=134537
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
