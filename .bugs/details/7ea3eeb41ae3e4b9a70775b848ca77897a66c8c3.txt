@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.recyclingtoday.com/asc-complaint-russian-steel-scrap-export-restriction.aspx
+
+
+[filters]
+http://www.recyclingtoday.com/Tracker.ashx?content_type=Article&content_id=125994&subscriber_id=0&click=False&spinner=e0V9QajSsLpa9B5RhSdtXyNJfPebtR4T185iU1AfK9YthQWV2UGfGXTHz88XwUix
+http://www.recyclingtoday.com/Tracking.asmx/jsdebug
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
