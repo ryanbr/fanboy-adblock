@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thechive.com/2012/03/12/girls-in-bikinis-fail-compilation-video/
+
+
+[filters]
+http://media.scanscout.com/ads/partner124301_550df615-bdb3-458c-a82f-4ba7a90364e2.flv
+
+
+[other]
+https://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11322
+
+
+[comments]
+nitrox
