@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.i-am-bored.com/bored_link.cfm?link_id=69376
+
+
+[filters]
+http://www.i-am-bored.com/cad.asp?r=http%3A//www.i-am-bored.com/
+http://www.i-am-bored.com/cah.asp?lid=69376&rn=91
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
