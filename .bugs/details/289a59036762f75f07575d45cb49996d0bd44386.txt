@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://english.cntv.cn/photo/album/20120312/110345_0.shtml
+
+
+[filters]
+http://vote.cctv.com/application/cctv/SnoopStat?urlname=http://english.cntv.cn/photo/album/20120312/110345_0.shtml
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
