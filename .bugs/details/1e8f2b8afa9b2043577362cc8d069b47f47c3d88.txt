@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pooh.cz/
+
+
+[filters]
+http://ad.czechia.com/frame/46
+http://www.zapakatel.cz/random-banner/square.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+Moskoe.cz
