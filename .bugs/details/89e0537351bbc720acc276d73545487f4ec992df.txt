@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ebizmba.com/articles/funny-websites
+
+
+[filters]
+http://ebizmba.ebizmbainc.netdna-cdn.com/images/tab_sponsors.gif
+
+
+[other]
+
+
+[comments]
+nitrox
