@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dm5.com/manga-naruto/vol59-ch577-229399/
+
+
+[filters]
+http://hqs1.cnzz.com/stat.htm?id=30012311&r=&lg=undefined&ntime=0.01043000%201331624373&repeatip=0&rtime=0&cnzz_eid=81730015-1331624373-&showp=1600x1200&st=1331628056&sin=&res=0
+http://hqs1.cnzz.com/stat.htm?id=30021316&r=&lg=undefined&ntime=0.11190900%201331624339&repeatip=0&rtime=0&cnzz_eid=12674908-1331624339-&showp=1600x1200&st=1331628055&sin=&res=0
+http://hqs8.cnzz.com/stat.htm?id=30058792&r=&lg=undefined&ntime=0.07448300%201331623652&repeatip=0&rtime=0&cnzz_eid=49767472-1331623652-&showp=1600x1200&st=1331628055&sin=&res=0
+http://w.cnzz.com/c.php?id=30012311&l=3
+http://w.cnzz.com/c.php?id=30021316&l=3
+http://w.cnzz.com/c.php?id=30058792&l=3
+http://hm.baidu.com/h.js?7bacc2f1d25894fa0384711a0230af1a
+
+
+[other]
+
+
+[comments]
+nitrox
