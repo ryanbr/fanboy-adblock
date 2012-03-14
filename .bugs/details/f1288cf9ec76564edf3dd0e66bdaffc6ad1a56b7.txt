@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.rambler.ru/13158970/
+
+[filters]
+http://news.rambler.ru/social_counters/?url=http%3A%2F%2Fnews.rambler.ru%2F13158970%2F33743216%2F
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
