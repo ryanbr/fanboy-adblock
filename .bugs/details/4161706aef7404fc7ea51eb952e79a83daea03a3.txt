@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.virginmedia.com/
+
+
+[filters]
+http://da.virginmedia.com/virginmedia/vmmsu/s?name=vm.home.page&ns_m2=yes&ns_setsiteck=4F602F21410E0013&ns_setcorpck=4F602F21410E0014&vm_vs_pl=we&vm_vs_sn=vm&vm_vs_ct=ge&vm_iprange=non-customer&vm_vs_ch=ho&vm_ov=none&vm_pagevariant=prospect&vm_pbackground=00&vm_pcomponents=1&vm_customertype=1&vm_customersource=na&vm_pversion=3.2&ns__t=1331703586762&ns_c=UTF-8&ns_ti=Virgin%20Media%20-%20Cable%20broadband%2C%20TV%20%26%20phone%20plus%20mobile%20broadband%20%26%20phone&ns_jspageurl=http%3A//www.virginmedia.com/&ns_referrer=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D6%26t%3D11343
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
