@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zoopla.co.uk/
+
+
+[filters]
+https://us.ebayobjects.com/4a;dc_pixel_url=rmboom;rm=zooplarent;ord=5726561706777380?
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
