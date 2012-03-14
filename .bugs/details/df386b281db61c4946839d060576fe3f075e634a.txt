@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://megashara.com/movies/726989/ohotniki_za_almazami_black.html
+
+[filters]
+http://blogscash.info/
+http://nauch2.info/js/b.php?id=172
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
