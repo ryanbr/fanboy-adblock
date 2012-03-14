@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.securityweek.com/microsoft-remote-desktop-protocol-vulnerability-should-be-patched-immediately
+
+
+[filters]
+http://www.securityweek.com/images/subscribe_icon_new_03.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
