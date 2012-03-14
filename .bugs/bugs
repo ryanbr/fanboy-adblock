@@ -1256,6 +1256,7 @@ remove uneeded whitelist                                     | owner:, open:True
 http://ro.mg3.mail.yahoo.com/neo/launch?                     | owner:, open:True, id:a8da4458bd0a53fefea698e2edbbb5cd0a9bcb96, time:1331092168.82
 https://creativecommons.org/                                 | owner:, open:True, id:a8db22a4d15dec51db7c02e504ca11fb48158bc5, time:1327928147.08
 http://js.nyt.com/js/mtr.js                                  | owner:, open:True, id:a906c153b31e04748f169ea5ea2694bc1443deb8, time:1325391748.6
+http://my-hit.ru/film/6741/online                            | owner:, open:True, id:a9246b741e8dbc5b332b21456d7a7118a6877062, time:1331712876.8
 http://www.sporx.com/futbol/superlig/galatasaray/o-artik-sarisin-kazimSXHBQ263370SXQ | owner:, open:True, id:a92e27769e03d4d4318339578d38f9f1d1a23b6d, time:1327223260.91
 http://www.plombir.ru/video.php?id=291416                    | owner:, open:True, id:a92f6890a558737e0f03f65fe8b47746a327322f, time:1325233067.5
 http://xwapx.net/search.php?search=                          | owner:, open:True, id:a958fd33b3a5d54038a1e117758f59b1e8bd3cad, time:1325321565.71

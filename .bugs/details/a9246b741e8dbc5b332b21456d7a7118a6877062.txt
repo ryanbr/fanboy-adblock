@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://my-hit.ru/film/6741/online
+
+
+[filters]
+http://my-hit.ru/themes/kino/images/banner/citycritic.net.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
