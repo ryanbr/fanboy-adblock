@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tengrinews.kz/strange_news/209707/
+
+[filters]
+http://io.userlook.com/js/userlook.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
