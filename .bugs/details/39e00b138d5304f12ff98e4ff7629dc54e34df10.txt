@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://i-news.kz/
+
+
+[filters]
+http://www.crealog.kz/count/?id=400&but=22&referer=http%3A//www.google.com/search%3Fhl%3Den%26safe%3Doff%26q%3Drelated%3Avesti.kz&java=0&screen=1440x900&req=http%3A//i-news.kz/&color=24&js=1.3&cookie=Y&connect=&flash=Y
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
