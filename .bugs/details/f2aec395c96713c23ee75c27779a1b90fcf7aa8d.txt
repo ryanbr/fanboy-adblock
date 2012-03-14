@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.trutv.com/dumb_as_a_blog/2012/03/dumb-news-rare-non-functional-apple-product-sells-for-eight-grand.html?link=dumbrss
+
+
+[filters]
+http://www.trutv.com/includes/mods/iframes/mgid-blog.php
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
