@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.updowner.com/search?q=adblock
+
+
+[filters]
+http://ard.ihookup.com/geoprofiles2/iframe.php?tid=*&r=*&ard=*&lp_override=*&cname=*&gdr=*&and_options[]=*&rand=*&pg13=*&gl=*&ovrd=*&toi=*&tor=*
+http://ard.ihookup.com/trafficoptimizer/index.php?toid=*&r=*
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
