@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://turbotorrent.ru/
+
+
+[filters]
+http://contactsin.com/8s8v6nzfoym98vl6nuxfro963bx1npv7n59lq6lac?&3scn4sno=83938343&44yyo=0&47s4f=0&496og=0&425tt=0
+http://contactsin.com/8xseyayrkm68v0prkelqmspdfhtz4np
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
