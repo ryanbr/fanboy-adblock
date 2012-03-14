@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.twitch.tv/onemoregametv
+
+
+[filters]
+http://www-cdn.jtvnw.net/widgets/JITAds.r09daf1886bc6ae6f21fcb216280aee28c94115db.swf
+
+http://ad.doubleclick.net/pfadx/twitch/twitch/Conemoregametv;site=*;game=*;chan=*;genre=*;con=;tid=*;embed=*;tier=;partner=*;noAd=*;type=*;format=;pos=*;sz=*;xml=*;ord=*?
+
+
+[other]
+Apprently blocking the doubleclick prevents the pause button:
+https://adblockplus.org/forum/viewtopic.php?f=2&t=9773
+
+[comments]
+fanboy
