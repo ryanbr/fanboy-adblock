@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.flysat.com/e16a.php
+
+
+[filters]
+http://m.uploadedit.com/bab/75081792.gif
+http://www.alpsat.com/banner/alpsat_370x46.gif
+http://www.bluesattv.net/bluesat.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
