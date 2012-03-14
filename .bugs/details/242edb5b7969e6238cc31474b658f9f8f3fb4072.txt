@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.victoriaadvocate.com/news/2012/mar/12/kb_uhv_guarantee_031312_170245/?news&education
+
+
+[filters]
+http://secure.adpay.com/spotlightads/spotlightitems.aspx?pid=62426B4A7568694B675052446A647539376D694C76413D3D&ntr=3&cuid=165&ecat=Jobs&ft=11&ri=0
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
