@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/#inbox/135g4984sdg894sdg
+
+
+[filters]
+https://www.dmanalytics1.com/open?d=687GFH89-64SDG-SDGJ-5456-SXDF94D9F49DF&e=snipped@gmail.com
+
+
+[other]
+from cloudsafe.com newsletter
+
+[comments]
+nitrox
