@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://theurbandaily.com/movies/jbarrow/the-lorax-movie-review-4th-grader/
+
+[filters]
+http://www.blackplanet.com/jobs/ads/widget.html?s=cv
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
