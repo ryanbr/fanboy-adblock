@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kino.kz/
+
+
+[filters]
+http://banner.kkb.kz/f.js
+http://banner.kkb.kz/gsf?p=112&n=464493274
+http://banner.kkb.kz/gsf?p=84&n=008239327
+http://banner.kkb.kz/gsf?p=85&n=081328943
+http://banner.kkb.kz/gsf?p=86&n=010938795
+http://banner.kkb.kz/gsf?p=89&n=820349706
+http://banner.kkb.kz/view?b=13325&p=86&e=1
+http://banner.kkb.kz/view?b=13332&p=89&e=2
+http://banner.kkb.kz/view?b=13333&p=112&e=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
