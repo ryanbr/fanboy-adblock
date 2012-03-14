@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://art.gazeta.kz/news/?id=11769
+
+
+[filters]
+http://art.gazeta.kz/NoticesInc/counter.png?date=3/14/2012
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
