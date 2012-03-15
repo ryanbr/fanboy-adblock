@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jokeroo.com/pictures/fail/transparent-door-fail.html
+
+
+[filters]
+http://www.jokeroo.com/traffictrade/inJs.php?js=1&jvd=http%3A//www.jokeroo.com/|http%3A//www.jokeroo.com/pictures/fail/transparent-door-fail.html|
+http://www.jokeroo.com/i/.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
