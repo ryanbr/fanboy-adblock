@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tightvids.com/
+
+
+[filters]
+http://map.pop6.com/tile/lat/-45.48/lon/170.72/zoom/11/width/640/height/248/page/aHR0cDovL3NleGZpbmRlci5jb20vZ28vZzI0NzUyNi1wY3Q%2FJnNpdGU9ZmZhZHVsdCZkY2I9c2V4ZmluZGVyLmNvbSZsYW5nPWVuZ2xpc2gmYWdlPTE4LTM1JmNyZWF0aXZlPWlmcmFtZV9nZW9iYW5uZXJfOTAweDI1MA%3D%3D/target/_self.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
