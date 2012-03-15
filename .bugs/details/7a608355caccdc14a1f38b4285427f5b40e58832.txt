@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://feeds.feedburner.com/Torrentfreak
+
+
+[filters]
+http://res3.feedsportal.com/images/bookmark.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
