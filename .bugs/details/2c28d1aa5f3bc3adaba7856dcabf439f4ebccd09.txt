@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://for-ua.com/politics/2012/03/14/161450.html
+
+[filters]
+http://fbs.for-ua.org.ua/?zid=63
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
