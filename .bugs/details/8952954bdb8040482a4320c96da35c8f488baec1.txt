@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gamesforwork.com/games/play-17765-The_Pocalypse_Defense-Flash_Game
+
+
+[filters]
+http://x.mochiads.com/srv/2/5efe019beb8014fd.swf?CXNID=1000002.6844910252832331005NXC
+http://x.mochiads.com/srv/1/5efe019beb8014fd.swf?cacheBust=1331806199678
+http://x.mochiads.com/ctr/MochiAdsContainerCDN.swf?v=06431c50ffc33829dd45648c364f3648
+
+
+
+
+[other]
+Needs white to play
+
+
+[comments]
+fanboy
