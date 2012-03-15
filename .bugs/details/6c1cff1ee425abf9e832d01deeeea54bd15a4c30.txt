@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ivona.bigmir.net/showbiz/photo/327453-Shou-Holostjak-2--Beremennaja-Chehova-i-prichudy-uchastnic
+
+
+[filters]
+http://i.bigmir.net/a/top/at.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
