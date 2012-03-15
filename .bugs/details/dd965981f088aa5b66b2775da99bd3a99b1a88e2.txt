@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.videobash.com/video_show/rad-trials-bikers-11187
+
+[filters]
+http://ad.jokeroo.com/Ad.Fadeout/VideoBash.js?cb=1331799250
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
