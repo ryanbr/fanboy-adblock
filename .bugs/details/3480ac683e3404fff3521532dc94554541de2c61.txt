@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://video.online.ua/301365/bestamvsofalltime-mep-fragrance-amv/
+
+
+[filters]
+http://rtb.online.ua/rtb_s.php?p=157&i=2240&noBlank=0&stat=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
