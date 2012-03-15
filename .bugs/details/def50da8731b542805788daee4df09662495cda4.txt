@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fanhow.com/
+
+
+[filters]
+http://www.fanhow.com/script/tracker.js?201203151721
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
