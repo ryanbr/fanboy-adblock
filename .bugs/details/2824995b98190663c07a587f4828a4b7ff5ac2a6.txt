@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tightvids.com/
+
+
+[filters]
+http://geobanner.sexfinder.com/go/page/iframe_geobanner_900x250?pid=g247526-pct&numpins=10&find_sex=2&looking_for_person=1&age=18-35&photo=3&explicit=1&thumb=portrait&varname=simple&page=cover&banner_title_preset=5&dcb=sexfinder.com
+http://geobanner.sexfinder.com/p/density_banner.cgi?&who=r,iB/c3ryC1HE1x859rP/QOxLHgJLh9b9YDs_oKhzLvXiAkOkYiZ02n3SYyFswKv/3lsTO8ZA0FocKgyyS83t1Q6n982BBiwRPnOI_X8lWRYIsWbe/QaDN1y_48GKhXkyemgI1VEAZ8LHvpMD/6ueeYkkbLlcplJWCj7RK95CMJrg-&dcb=sexfinder.com&no_anim_gif=&width=640&madirect=&page=cover&niche=&photo=3&thumb=portrait&no_flash=1&target=&no_fake_vid=&race=&mapause=1&models=&explicit=1&looking_for_person=1&varname=simple&height=248&find_sex=2&land=&abs_age=18-35&numpins=10
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
