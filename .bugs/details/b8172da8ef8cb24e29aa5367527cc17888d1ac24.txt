@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://feeds.feedburner.com/Torrentfreak
+
+
+[filters]
+https://www.torrentfreak.com/wp-content/plugins/flattr/img/flattr-badge-large.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
