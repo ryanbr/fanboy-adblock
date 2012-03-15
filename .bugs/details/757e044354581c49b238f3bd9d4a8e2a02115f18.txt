@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pornologo.com/videos/54125/secretarys-day-with-darcy-tyler.html
+
+[filters]
+http://www.trafficholder.com/in/in.php?carlosperez
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
