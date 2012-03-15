@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://kiev.vgorode.ua/news/104497/
+
+
+[filters]
+http://kiev.vgorode.ua/hit.hnd?id=104497&ritid=4&d=634674091484303317&url=http://kiev.vgorode.ua/news/104497/
+http://kiev.vgorode.ua/activity.hnd?id=-666&t=634673804287768949
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
