@@ -52,8 +52,10 @@ SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-adblock.txt)
 
 #
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
  then
+    # Log
+    echo "Replacing: fanboy-adblock on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     # Make sure the old copy is cleared before we start
     rm -f $TESTDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-adblock.txt
     # Copy to ram disk first. (quicker)
@@ -139,9 +141,11 @@ SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-tracking.txt)
 # Tracking
 # Check for 0-sized file first
 #
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
  then
     # echo "Updated: fanboy-tracking.txt"
+    # Log
+    echo "Replacing: fanboy-tracking on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     # Clear old list
     rm -f $TESTDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-tracking.txt
     # Copy list from repo to RAMDISK
@@ -176,9 +180,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/enhancedstats-addon.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/enhancedstats.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # echo "Updated: enhancedstats-addon.txt"
+    # Log
+    echo "Replacing: fanboy-enhancedstats on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     # Clear old list
     rm -f $TESTDIR/enhancedstats.txt $TESTDIR/enhancedstats.txt.gz
     # Copy list from repo to RAMDISK
@@ -208,9 +214,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-addon.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-addon.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # echo "Updated: fanboy-addon.txt"
+    # Log
+    echo "Replacing: fanboy-addon on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     # Clear old list
     rm -f $TESTDIR/fanboy-addon.txt $TESTDIR/fanboy-addon.txt.gz
     # Copy list from repo to RAMDISK
@@ -238,9 +246,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-czech.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
-   echo "Updated: fanboy-czech.txt"
+   # echo "Updated: fanboy-czech.txt"
+   # Log
+   echo "Replacing: fanboy-czech on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $MAINDIR/fanboy-czech.txt
    # Properly wipe old file.
    $SHRED -n 3 -z -u $MAINDIR/fanboy-czech.txt.gz
@@ -264,9 +274,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-russian.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
-   echo "Updated: fanboy-russian.txt"
+   # echo "Updated: fanboy-russian.txt"
+   # Log
+   echo "Replacing: fanboy-russian on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $MAINDIR/fanboy-russian.txt
    # Properly wipe old file.
    $SHRED -n 3 -z -u $MAINDIR/fanboy-russian.txt.gz
@@ -292,9 +304,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-turkish.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
-   echo "Updated: fanboy-turkish.txt"
+   # echo "Updated: fanboy-turkish.txt"
+   # Log
+   echo "Replacing: fanboy-turk on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $MAINDIR/fanboy-turkish.txt
    # Properly wipe old file.
    $SHRED -n 3 -z -u  $MAINDIR/fanboy-turkish.txt.gz
@@ -318,9 +332,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-japanese.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
-   echo "Updated: fanboy-japanese.txt"
+   #echo "Updated: fanboy-japanese.txt"
+   # Log
+   echo "Replacing: fanboy-japanese on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $MAINDIR/fanboy-japanese.txt
    # Properly wipe old file.
    $SHRED -n 3 -z -u  $MAINDIR/fanboy-japanese.txt.gz
@@ -344,9 +360,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-korean.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
-    echo "Updated: fanboy-korean.txt"
+    #echo "Updated: fanboy-korean.txt"
+    # Log
+    echo "Replacing: fanboy-korean on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-korean.txt.gz
@@ -369,9 +387,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
-    echo "Updated: fanboy-italian.txt"
+    #echo "Updated: fanboy-italian.txt"
+    # Log
+    echo "Replacing: fanboy-italian on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $MAINDIR/fanboy-italian.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-italian.txt.gz
@@ -395,9 +415,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
-    echo "Updated: fanboy-polish.txt"
+    #echo "Updated: fanboy-polish.txt"
+    # Log
+    echo "Replacing: fanboy-polish on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-polish.txt.gz
@@ -419,9 +441,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-indian.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
-    echo "Updated: fanboy-indian.txt"
+    #echo "Updated: fanboy-indian.txt"
+    # Log
+    echo "Replacing: fanboy-indian on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-indian.txt.gz
@@ -443,9 +467,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-vietnam.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
-    echo "Updated: fanboy-vietnam.txt"
+    #echo "Updated: fanboy-vietnam.txt"
+    # Log
+    echo "Replacing: fanboy-vietnam on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-vietnam.txt.gz
@@ -467,9 +493,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-chinese.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
-    echo "Updated: fanboy-chinese.txt"
+    #echo "Updated: fanboy-chinese.txt"
+    # Log
+    echo "Replacing: fanboy-chinese on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-chinese.txt.gz
@@ -491,9 +519,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-espanol.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
-    echo "Updated: fanboy-espanol.txt"
+    # echo "Updated: fanboy-espanol.txt"
+    # Log
+    echo "Replacing: fanboy-espanol on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $MAINDIR/fanboy-espanol.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-espanol.txt.gz
@@ -517,9 +547,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-swedish.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
-    echo "Updated: fanboy-swedish.txt"
+    #echo "Updated: fanboy-swedish.txt"
+    # Log
+    echo "Replacing: fanboy-swedish on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-swedish.txt.gz
@@ -541,9 +573,11 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/other/adblock-gannett.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/adblock-gannett.txt)
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
-    echo "Updated: fanboy-gannett.txt"
+    #echo "Updated: fanboy-gannett.txt"
+    # Log
+    echo "Replacing: fanboy-gannett on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cp -f $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u $MAINDIR/adblock-gannett.txt.gz
