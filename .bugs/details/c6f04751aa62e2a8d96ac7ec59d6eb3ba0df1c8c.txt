@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.overclock.net/t/1175943/opencl-dll-is-missing
+
+
+[filters]
+http://www.overclock.net/p/ASpcIwYlXGAEPAU2DSwFaFNmAGUDMlJkVmwDb1RnDTBbOVYyVS4NdQFhXCMAbVBeViEEJARuBzVRIgcSBWhXJQdrUH1ReAEjD3dUdgM8XHQBNFxgBjVcXwQ4BTYNeQVwU3sAdAMwUmRWYwNvVGYNN1syViJVLg1mAQxcfA,,.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
