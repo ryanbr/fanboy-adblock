@@ -177,6 +177,7 @@ SSLGOOGLENCD=$($OPENSSL $ENCRYPT $GOOGLEDIR/enhancedstats-addon.txt)
 SSLENCD=$($OPENSSL $ENCRYPT $MAINDIR/enhancedstats.txt)
 
 if [ "$SSLGOOGLENCD" = "$SSLENCD" ]
+then
     # echo "Updated: enhancedstats-addon.txt"
     # Clear old list
     rm -f $TESTDIR/enhancedstats.txt $TESTDIR/enhancedstats.txt.gz
@@ -208,6 +209,7 @@ SSLGOOGLEANNOY=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-addon.txt)
 SSLANNOY=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-addon.txt)
 
 if [ "$SSLGOOGLEANNOY" = "$SSLANNOY" ]
+then
     # echo "Updated: fanboy-addon.txt"
     # Clear old list
     rm -f $TESTDIR/fanboy-addon.txt $TESTDIR/fanboy-addon.txt.gz
