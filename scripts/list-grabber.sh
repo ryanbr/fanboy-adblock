@@ -441,7 +441,7 @@ fi
 # Store Encryption data on whats on the server vs googlecode
 #
 SSLGOOGLE_VN=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt)
-SSLVN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-vietnam.txt)
+SSL_VN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-vietnam.txt)
 
 if [ "$SSLGOOGLE_VN" = "$SSL_VN" ]
 then
