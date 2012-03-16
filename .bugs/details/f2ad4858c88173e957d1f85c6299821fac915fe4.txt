@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.intel.com/p/en_US/support/detect
+
+
+[filters]
+http://www.intel.com/Assets/en_US/JavaScript/resources/pageLevelOmniture.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
