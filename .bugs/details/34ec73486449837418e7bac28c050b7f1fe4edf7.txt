@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.babycenter.com/
+
+
+[filters]
+http://www.babycenter.com/html/ad.html#sz=90x20&ts=1331901794222&pos=1
+http://www.babycenter.com/html/ad.html#sz=90x20&ts=1331901794222&pos=2
+http://www.babycenter.com/html/ad.html#sz=970x66&ts=1331901794222
+http://www.babycenter.com/html/thirdPartyPixel.html?x=1331901794220
+http://www.babycenter.com/viewAdvertorialPoll.htm?location=home&contentTreeType=&contentTreeTypeId=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
