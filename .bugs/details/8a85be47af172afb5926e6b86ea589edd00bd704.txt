@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.teamliquid.net/video/streams/TaKeTV%20LoL
+
+
+[filters]
+http://vox-static.liverail.com/swf/v4/admanager.swf
+http://vox-static.liverail.com/swf/v4/adapters/vpaid_adapter.swf
+
+
+[other]
+remove http://vox-static.liverail.com/swf/v4/admanager.swf
+
+
+[comments]
+fanboy
