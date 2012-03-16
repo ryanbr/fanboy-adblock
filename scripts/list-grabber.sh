@@ -48,11 +48,11 @@ $NICE /usr/local/bin/hg update
 # Main List
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLEMAIN=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt)
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-adblock.txt)
+SSLGOOGLE_MAIN=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt)
+SSL_MAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-adblock.txt)
 
 #
-if [ "$SSLGOOGLEMAIN" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE_MAIN" = "$SSL_MAIN" ]
  then
     # Make sure the old copy is cleared before we start
     rm -f $TESTDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-adblock.txt
@@ -133,13 +133,13 @@ fi
 # Tracking List
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLESTATS=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-stats.txt)
-SSLSTATS=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-tracking.txt)
+SSLGOOGLE_STATS=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-stats.txt)
+SSL_STATS=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-tracking.txt)
 
 # Tracking
 # Check for 0-sized file first
 #
-if [ "$SSLGOOGLESTATS" = "$SSLSTATS" ]
+if [ "$SSLGOOGLE_STATS" = "$SSL_STATS" ]
  then
     # echo "Updated: fanboy-tracking.txt"
     # Clear old list
@@ -173,10 +173,10 @@ fi
 # Enhanced Trackers
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLENCD=$($OPENSSL $ENCRYPT $GOOGLEDIR/enhancedstats-addon.txt)
-SSLENCD=$($OPENSSL $ENCRYPT $MAINDIR/enhancedstats.txt)
+SSLGOOGLE_NCD=$($OPENSSL $ENCRYPT $GOOGLEDIR/enhancedstats-addon.txt)
+SSL_ENCD=$($OPENSSL $ENCRYPT $MAINDIR/enhancedstats.txt)
 
-if [ "$SSLGOOGLENCD" = "$SSLENCD" ]
+if [ "$SSLGOOGLE_NCD" = "$SSL_ENCD" ]
 then
     # echo "Updated: enhancedstats-addon.txt"
     # Clear old list
@@ -205,10 +205,10 @@ fi
 # Addon/Annoyances
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLEANNOY=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-addon.txt)
-SSLANNOY=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-addon.txt)
+SSLGOOGLE_ANNOY=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-addon.txt)
+SSL_ANNOY=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-addon.txt)
 
-if [ "$SSLGOOGLEANNOY" = "$SSLANNOY" ]
+if [ "$SSLGOOGLE_ANNOY" = "$SSL_ANNOY" ]
 then
     # echo "Updated: fanboy-addon.txt"
     # Clear old list
@@ -235,10 +235,10 @@ fi
 # CZECH
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLECZ=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt)
-SSLCZ=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-czech.txt)
+SSLGOOGLE_CZ=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt)
+SSL_CZ=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-czech.txt)
 
-if [ "$SSLGOOGLECZ" = "$SSLCZ" ]
+if [ "$SSLGOOGLE_CZ" = "$SSL_CZ" ]
 then
    echo "Updated: fanboy-czech.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $MAINDIR/fanboy-czech.txt
@@ -261,10 +261,10 @@ fi
 # RUSSIAN
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLERU=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt)
-SSLRU=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-russian.txt)
+SSLGOOGLE_RU=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt)
+SSL_RU=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-russian.txt)
 
-if [ "$SSLGOOGLERU" = "$SSLRU" ]
+if [ "$SSLGOOGLE_RU" = "$SSL_RU" ]
 then
    echo "Updated: fanboy-russian.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $MAINDIR/fanboy-russian.txt
@@ -289,10 +289,10 @@ fi
 # TURK
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLETURK=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt)
-SSLTURK=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-turkish.txt)
+SSLGOOGLE_TURK=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt)
+SSL_TURK=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-turkish.txt)
 
-if [ "$SSLGOOGLETURK" = "$SSLTURK" ]
+if [ "$SSLGOOGLE_TURK" = "$SSL_TURK" ]
 then
    echo "Updated: fanboy-turkish.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $MAINDIR/fanboy-turkish.txt
@@ -315,10 +315,10 @@ fi
 # JAPANESE
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLEJP=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt)
-SSLJP=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-japanese.txt)
+SSLGOOGLE_JP=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt)
+SSL_JP=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-japanese.txt)
 
-if [ "$SSLGOOGLEJP" = "$SSLJP" ]
+if [ "$SSLGOOGLE_JP" = "$SSL_JP" ]
 then
    echo "Updated: fanboy-japanese.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $MAINDIR/fanboy-japanese.txt
@@ -341,10 +341,10 @@ fi
 # KOREAN
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLEKR=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt)
-SSLKR=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-korean.txt)
+SSLGOOGLE_KR=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt)
+SSL_KR=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-korean.txt)
 
-if [ "$SSLGOOGLEKR" = "$SSLKR" ]
+if [ "$SSLGOOGLE_KR" = "$SSL_KR" ]
 then
     echo "Updated: fanboy-korean.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt
@@ -366,10 +366,10 @@ fi
 # ITALIAN
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLEIT=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt)
-SSLIT=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt)
+SSLGOOGLE_IT=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt)
+SSL_IT=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt)
 
-if [ "$SSLGOOGLEIT" = "$SSLIT" ]
+if [ "$SSLGOOGLE_IT" = "$SSL_IT" ]
 then
     echo "Updated: fanboy-italian.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $MAINDIR/fanboy-italian.txt
@@ -392,10 +392,10 @@ fi
 # POLISH
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLEPL=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt)
-SSLPL=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt)
+SSLGOOGLE_PL=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt)
+SSL_PL=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt)
 
-if [ "$SSLGOOGLEPL" = "$SSLPL" ]
+if [ "$SSLGOOGLE_PL" = "$SSL_PL" ]
 then
     echo "Updated: fanboy-polish.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt
@@ -416,10 +416,10 @@ fi
 # INDIAN
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLEIN=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt)
-SSLIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-indian.txt)
+SSLGOOGLE_IN=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt)
+SSL_IN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-indian.txt)
 
-if [ "$SSLGOOGLEIN" = "$SSLIN" ]
+if [ "$SSLGOOGLE_IN" = "$SSL_IN" ]
 then
     echo "Updated: fanboy-indian.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt
@@ -440,10 +440,10 @@ fi
 # VIETNAM
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLEVN=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt)
+SSLGOOGLE_VN=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt)
 SSLVN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-vietnam.txt)
 
-if [ "$SSLGOOGLEVN" = "$SSLVN" ]
+if [ "$SSLGOOGLE_VN" = "$SSL_VN" ]
 then
     echo "Updated: fanboy-vietnam.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt
@@ -464,10 +464,10 @@ fi
 # CHINESE
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLECN=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt)
-SSLCN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-chinese.txt)
+SSLGOOGLE_CN=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt)
+SSL_CN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-chinese.txt)
 
-if [ "$SSLGOOGLECN" = "$SSLCN" ]
+if [ "$SSLGOOGLE_CN" = "$SSL_CN" ]
 then
     echo "Updated: fanboy-chinese.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt
@@ -488,10 +488,10 @@ fi
 # ESPANOL
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLEES=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt)
-SSLES=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-espanol.txt)
+SSLGOOGLE_ES=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt)
+SSL_ES=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-espanol.txt)
 
-if [ "$SSLGOOGLEES" = "$SSLES" ]
+if [ "$SSLGOOGLE_ES" = "$SSL_ES" ]
 then
     echo "Updated: fanboy-espanol.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $MAINDIR/fanboy-espanol.txt
@@ -514,10 +514,10 @@ fi
 # SWEDISH
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLESW=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt)
-SSLSW=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-swedish.txt)
+SSLGOOGLE_SW=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt)
+SSL_SW=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-swedish.txt)
 
-if [ "$SSLGOOGLESW" = "$SSLSW" ]
+if [ "$SSLGOOGLE_SW" = "$SSL_SW" ]
 then
     echo "Updated: fanboy-swedish.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt
@@ -538,10 +538,10 @@ fi
 # Gannett
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLEGANNETT=$($OPENSSL $ENCRYPT $GOOGLEDIR/other/adblock-gannett.txt)
-SSLGANNETT=$($OPENSSL $ENCRYPT $MAINDIR/adblock-gannett.txt)
+SSLGOOGLE_GANNETT=$($OPENSSL $ENCRYPT $GOOGLEDIR/other/adblock-gannett.txt)
+SSL_GANNETT=$($OPENSSL $ENCRYPT $MAINDIR/adblock-gannett.txt)
 
-if [ "$SSLGOOGLEGANNETT" = "$SSLGANNETT" ]
+if [ "$SSLGOOGLE_GANNETT" = "$SSL_GANNETT" ]
 then
     echo "Updated: fanboy-gannett.txt"
     cp -f $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
