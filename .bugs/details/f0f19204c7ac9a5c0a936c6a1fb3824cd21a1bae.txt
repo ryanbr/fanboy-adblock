@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://boardreader.com/fp/Guru3D_com_Forums_21786/Videocards_ATI_Drivers_Section_164541.html
+
+[filters]
+http://boardreader.com/js/adaffiliate_r0.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
