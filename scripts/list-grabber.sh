@@ -592,7 +592,7 @@ then
     echo "No Changes detected: fanboy-gannett.txt" > /dev/null
    else
     echo "Updated: fanboy-gannett.txt"
-    cp -f $GOOGLEDIR/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
+    cp -f $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/adblock-gannett.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/adblock-gannett.txt.gz $MAINDIR/adblock-gannett.txt > /dev/null
