@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v1.5 (14/02/2012)
+# Fanboy Adblock list grabber script v1.6 (16/03/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -18,6 +18,9 @@ DATE="`date`"
 ECHORESPONSE="List Changed: $LS2"
 BADUPDATE="Bad Update: $LS2"
 LS2="`ls -al $FILE`"
+# OPENSSL=/usr/bin/openssl
+OPENSSL=/usr/local/openssl/bin/openssl
+ENCRYPT=sha256
 
 # Make Ramdisk.
 #
@@ -31,7 +34,9 @@ if [ ! -d "/tmp/ramdisk/" ]; then
   mkdir /tmp/ramdisk/opera/
 fi
 
-
+# Make sure the shell scripts are exexcutable, all the time..
+#
+chmod a+x $GOOGLEDIR/scripts/ie/*.sh $GOOGLEDIR/scripts/iron/*.sh $GOOGLEDIR/scripts/*.sh $GOOGLEDIR/scripts/firefox/*.sh $GOOGLEDIR/scripts/combine/*.sh
 
 # Grab Mercurial Updates
 #
@@ -39,24 +44,16 @@ cd /home/fanboy/google/fanboy-adblock-list/
 $NICE /usr/local/bin/hg pull
 $NICE /usr/local/bin/hg update
 
-# Copy Popular Files into Ram Disk
-#
-$SHRED -n 5 -z -u  $TESTDIR/opera/urlfilter.ini $TESTDIR/opera/urlfilter-stats.ini
-cp -f $GOOGLEDIR/scripts/addChecksum.pl $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR
-cp -f $GOOGLEDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-stats.ini $TESTDIR/opera/
-
-# Make sure the shell scripts are exexcutable, all the time..
-#
-chmod a+x $GOOGLEDIR/scripts/ie/*.sh $GOOGLEDIR/scripts/iron/*.sh $GOOGLEDIR/scripts/*.sh $GOOGLEDIR/scripts/firefox/*.sh $GOOGLEDIR/scripts/combine/*.sh
 
 # Main List
-# Check for 0-sized file first
+# Store Encryption data on whats on the server vs googlecode
 #
-if [ -n $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt ]
-then
-  if diff $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt >/dev/null ; then
-    echo "No changes detected: fanboy-adblock.txt" > /dev/null
-  else
+SSLGOOGLEMAIN=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-adblock.txt)
+
+#
+if [ "$SSLGOOGLEMAIN" = "$SSLMAIN" ]
+ then
     # Make sure the old copy is cleared before we start
     rm -f $TESTDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-adblock.txt
     # Copy to ram disk first. (quicker)
@@ -129,22 +126,21 @@ then
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
     # echo "Updated: fanboy-adblock.txt" > /dev/null
-  fi
 else
-    # echo "Something went bad, file size is 0"
-    # Create a log
-    FILE="$TESTDIR/fanboy-adblock.txt"
-    echo $BADUPDATE >> $LOGFILE
+    echo "Files are different" > /dev/null
 fi
+
+# Tracking List
+# Store Encryption data on whats on the server vs googlecode
+#
+SSLGOOGLESTATS=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-stats.txt)
+SSLSTATS=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-tracking.txt)
 
 # Tracking
 # Check for 0-sized file first
 #
-if [ -n $GOOGLEDIR/fanboy-adblocklist-stats.txt ]
-then
-  if diff $GOOGLEDIR/fanboy-adblocklist-stats.txt $MAINDIR/fanboy-tracking.txt >/dev/null ; then
-     echo "No Changes detected: fanboy-tracking.txt" > /dev/null
-   else
+if [ "$SSLGOOGLESTATS" = "$SSLSTATS" ]
+ then
     # echo "Updated: fanboy-tracking.txt"
     # Clear old list
     rm -f $TESTDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-tracking.txt
@@ -170,22 +166,17 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
- fi
 else
-    # echo "Something went bad, file size is 0"
-    # Create a log
-    FILE="$TESTDIR/fanboy-tracking.txt"
-    echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 # Enhanced Trackers
-# Check for 0-sized file first
+# Store Encryption data on whats on the server vs googlecode
 #
-if [ -n $GOOGLEDIR/enhancedstats-addon.txt ]
-then
-  if diff $GOOGLEDIR/enhancedstats-addon.txt $MAINDIR/enhancedstats.txt >/dev/null ; then
-    echo "No Changes detected: enhancedstats-addon.txt" > /dev/null
-  else
+SSLGOOGLENCD=$($OPENSSL $ENCRYPT $GOOGLEDIR/enhancedstats-addon.txt)
+SSLENCD=$($OPENSSL $ENCRYPT $MAINDIR/enhancedstats.txt)
+
+if [ "$SSLGOOGLENCD" = "$SSLENCD" ]
     # echo "Updated: enhancedstats-addon.txt"
     # Clear old list
     rm -f $TESTDIR/enhancedstats.txt $TESTDIR/enhancedstats.txt.gz
@@ -206,22 +197,17 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
- fi
 else
-    # echo "Something went bad, file size is 0"
-    # Create a log
-    FILE="$MAINDIR/enhancedstats.txt"
-    echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 # Addon/Annoyances
-# Check for 0-sized file first
+# Store Encryption data on whats on the server vs googlecode
 #
-if [ -n $GOOGLEDIR/fanboy-adblocklist-addon.txt ]
-then
-  if diff $GOOGLEDIR/fanboy-adblocklist-addon.txt $MAINDIR/fanboy-addon.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-addon.txt" > /dev/null
-  else
+SSLGOOGLEANNOY=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-addon.txt)
+SSLANNOY=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-addon.txt)
+
+if [ "$SSLGOOGLEANNOY" = "$SSLANNOY" ]
     # echo "Updated: fanboy-addon.txt"
     # Clear old list
     rm -f $TESTDIR/fanboy-addon.txt $TESTDIR/fanboy-addon.txt.gz
@@ -240,12 +226,8 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$TESTDIR/fanboy-addon.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 # CZECH
