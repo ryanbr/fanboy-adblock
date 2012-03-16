@@ -233,13 +233,13 @@ else
 fi
 
 # CZECH
-# Check for 0-sized file first
+# Store Encryption data on whats on the server vs googlecode
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt ]
+SSLGOOGLECZ=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt)
+SSLCZ=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-czech.txt)
+
+if [ "$SSLGOOGLECZ" = "$SSLCZ" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $MAINDIR/fanboy-czech.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-czech.txt" > /dev/null
-  else
    echo "Updated: fanboy-czech.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $MAINDIR/fanboy-czech.txt
    # Properly wipe old file.
@@ -254,22 +254,18 @@ then
    $GOOGLEDIR/scripts/ie/czech-ie-generator.sh
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-czech.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-czech.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 # RUSSIAN
-# Check for 0-sized file first
+# Store Encryption data on whats on the server vs googlecode
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt ]
+SSLGOOGLERU=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt)
+SSLRU=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-russian.txt)
+
+if [ "$SSLGOOGLERU" = "$SSLRU" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $MAINDIR/fanboy-russian.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-russian.txt" > /dev/null
-  else
    echo "Updated: fanboy-russian.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $MAINDIR/fanboy-russian.txt
    # Properly wipe old file.
@@ -286,22 +282,18 @@ then
    $GOOGLEDIR/scripts/combine/firefox-adblock-rus.sh
    # Generate Opera RUS script also
    $GOOGLEDIR/scripts/firefox/opera-russian.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-russian.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 # TURK
-# Check for 0-sized file first
+# Store Encryption data on whats on the server vs googlecode
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt ]
+SSLGOOGLETURK=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt)
+SSLTURK=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-turkish.txt)
+
+if [ "$SSLGOOGLETURK" = "$SSLTURK" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $MAINDIR/fanboy-turkish.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-turkish.txt" > /dev/null
-  else
    echo "Updated: fanboy-turkish.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $MAINDIR/fanboy-turkish.txt
    # Properly wipe old file.
@@ -316,22 +308,18 @@ then
    $GOOGLEDIR/scripts/ie/turkish-ie-generator.sh
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-turk.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-turkish.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 # JAPANESE
-# Check for 0-sized file first
+# Store Encryption data on whats on the server vs googlecode
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt ]
+SSLGOOGLEJP=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt)
+SSLJP=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-japanese.txt)
+
+if [ "$SSLGOOGLEJP" = "$SSLJP" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $MAINDIR/fanboy-japanese.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-japanese.txt" > /dev/null
-  else
    echo "Updated: fanboy-japanese.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $MAINDIR/fanboy-japanese.txt
    # Properly wipe old file.
@@ -346,22 +334,18 @@ then
    $GOOGLEDIR/scripts/ie/italian-ie-generator.sh
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-jpn.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-japanese.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 # KOREAN
-# Check for 0-sized file first
-# 
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt ]
+# Store Encryption data on whats on the server vs googlecode
+#
+SSLGOOGLEKR=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt)
+SSLKR=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-korean.txt)
+
+if [ "$SSLGOOGLEKR" = "$SSLKR" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-korean.txt" > /dev/null
-   else
     echo "Updated: fanboy-korean.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt
     # Properly wipe old file.
@@ -374,23 +358,19 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-krn.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-korean.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 
 # ITALIAN
-# Check for 0-sized file first
-# 
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt ]
+# Store Encryption data on whats on the server vs googlecode
+#
+SSLGOOGLEIT=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt)
+SSLIT=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt)
+
+if [ "$SSLGOOGLEIT" = "$SSLIT" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $MAINDIR/fanboy-italian.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-italian.txt" > /dev/null
-   else
     echo "Updated: fanboy-italian.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $MAINDIR/fanboy-italian.txt
     # Properly wipe old file.
@@ -405,22 +385,18 @@ then
     $GOOGLEDIR/scripts/ie/italian-ie-generator.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-ita.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-italian.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 # POLISH
-# Check for 0-sized file first
-# 
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt ]
+# Store Encryption data on whats on the server vs googlecode
+#
+SSLGOOGLEPL=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt)
+SSLPL=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt)
+
+if [ "$SSLGOOGLEPL" = "$SSLPL" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-polish.txt" > /dev/null
-   else
     echo "Updated: fanboy-polish.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt
     # Properly wipe old file.
@@ -433,22 +409,18 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-polish.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 # INDIAN
-# Check for 0-sized file first
-# 
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt ]
+# Store Encryption data on whats on the server vs googlecode
+#
+SSLGOOGLEIN=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt)
+SSLIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-indian.txt)
+
+if [ "$SSLGOOGLEIN" = "$SSLIN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-indian.txt" > /dev/null
-   else
     echo "Updated: fanboy-indian.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt
     # Properly wipe old file.
@@ -461,22 +433,18 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-ind.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE=" $MAINDIR/fanboy-indian.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 # VIETNAM
-# Check for 0-sized file first
-# 
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt ]
+# Store Encryption data on whats on the server vs googlecode
+#
+SSLGOOGLEVN=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt)
+SSLVN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-vietnam.txt)
+
+if [ "$SSLGOOGLEVN" = "$SSLVN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-vietnam.txt" > /dev/null
-   else
     echo "Updated: fanboy-vietnam.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt
     # Properly wipe old file.
@@ -489,22 +457,18 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-vtn.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-vietnam.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 # CHINESE
-# Check for 0-sized file first
-# 
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt ]
+# Store Encryption data on whats on the server vs googlecode
+#
+SSLGOOGLECN=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt)
+SSLCN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-chinese.txt)
+
+if [ "$SSLGOOGLECN" = "$SSLCN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-chinese.txt" > /dev/null
-   else
     echo "Updated: fanboy-chinese.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt
     # Properly wipe old file.
@@ -517,22 +481,18 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-chn.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-chinese.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 # ESPANOL
-# Check for 0-sized file first
-# 
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt ]
+# Store Encryption data on whats on the server vs googlecode
+#
+SSLGOOGLEES=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt)
+SSLES=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-espanol.txt)
+
+if [ "$SSLGOOGLEES" = "$SSLES" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $MAINDIR/fanboy-espanol.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-espanol.txt" > /dev/null
-   else
     echo "Updated: fanboy-espanol.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $MAINDIR/fanboy-espanol.txt
     # Properly wipe old file.
@@ -547,22 +507,18 @@ then
 		$GOOGLEDIR/scripts/ie/espanol-ie-generator.sh
 		# Combine
 		$GOOGLEDIR/scripts/combine/firefox-adblock-esp.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-espanol.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 # SWEDISH
-# Check for 0-sized file first
-# 
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt ]
+# Store Encryption data on whats on the server vs googlecode
+#
+SSLGOOGLESW=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt)
+SSLSW=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-swedish.txt)
+
+if [ "$SSLGOOGLESW" = "$SSLSW" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-swedish.txt" > /dev/null
-   else
     echo "Updated: fanboy-swedish.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt
     # Properly wipe old file.
@@ -575,30 +531,24 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-swe.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-swedish.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are different" > /dev/null
 fi
 
 # Gannett
-# Check for 0-sized file first
-# 
-if [ -n $GOOGLEDIR/other/adblock-gannett.txt ]
+# Store Encryption data on whats on the server vs googlecode
+#
+SSLGOOGLEGANNETT=$($OPENSSL $ENCRYPT $GOOGLEDIR/other/adblock-gannett.txt)
+SSLGANNETT=$($OPENSSL $ENCRYPT $MAINDIR/adblock-gannett.txt)
+
+if [ "$SSLGOOGLEGANNETT" = "$SSLGANNETT" ]
 then
- if diff $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-gannett.txt" > /dev/null
-   else
     echo "Updated: fanboy-gannett.txt"
     cp -f $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
     # Properly wipe old file.
-    $SHRED -n 3 -z -u  $MAINDIR/adblock-gannett.txt.gz
+    $SHRED -n 3 -z -u $MAINDIR/adblock-gannett.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/adblock-gannett.txt.gz $MAINDIR/adblock-gannett.txt > /dev/null
- fi
 else
-  # echo "Something went bad, file size is 0"
-  mail -s "Google mirror adblock-gannett.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+   echo "Files are different" > /dev/null
 fi
 
