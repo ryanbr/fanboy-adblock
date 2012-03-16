@@ -127,7 +127,7 @@ if [ "$SSLGOOGLE_MAIN" = "$SSL_MAIN" ]
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
     # echo "Updated: fanboy-adblock.txt" > /dev/null
 else
-    echo "Files are different" > /dev/null
+    echo "Files are the same"
 fi
 
 # Tracking List
@@ -167,7 +167,7 @@ if [ "$SSLGOOGLE_STATS" = "$SSL_STATS" ]
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 # Enhanced Trackers
@@ -199,7 +199,7 @@ then
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 # Addon/Annoyances
@@ -229,7 +229,7 @@ then
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 # CZECH
@@ -255,7 +255,7 @@ then
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-czech.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 # RUSSIAN
@@ -283,7 +283,7 @@ then
    # Generate Opera RUS script also
    $GOOGLEDIR/scripts/firefox/opera-russian.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 # TURK
@@ -309,7 +309,7 @@ then
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-turk.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 # JAPANESE
@@ -335,7 +335,7 @@ then
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-jpn.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 # KOREAN
@@ -359,7 +359,7 @@ then
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-krn.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 
@@ -386,7 +386,7 @@ then
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-ita.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 # POLISH
@@ -410,7 +410,7 @@ then
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 # INDIAN
@@ -434,7 +434,7 @@ then
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-ind.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 # VIETNAM
@@ -458,7 +458,7 @@ then
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-vtn.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 # CHINESE
@@ -482,7 +482,7 @@ then
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-chn.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 # ESPANOL
@@ -508,7 +508,7 @@ then
 		# Combine
 		$GOOGLEDIR/scripts/combine/firefox-adblock-esp.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 # SWEDISH
@@ -532,7 +532,7 @@ then
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-swe.sh
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
 # Gannett
@@ -549,6 +549,6 @@ then
     $SHRED -n 3 -z -u $MAINDIR/adblock-gannett.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/adblock-gannett.txt.gz $MAINDIR/adblock-gannett.txt > /dev/null
 else
-   echo "Files are different" > /dev/null
+   echo "Files are the same"
 fi
 
