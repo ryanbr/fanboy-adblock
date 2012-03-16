@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nzherald.co.nz/entertainment/news/article.cfm?c_id=1501119&objectid=10792497
+
+[filters]
+http://www.nzonscreen.com/track_video_item
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
