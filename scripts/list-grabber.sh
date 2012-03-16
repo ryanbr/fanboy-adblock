@@ -46,13 +46,13 @@ $NICE /usr/local/bin/hg update
 
 
 # Main List
-# Store Encryption data on whats on the server vs googlecode
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE_MAIN=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt)
-SSL_MAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-adblock.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-adblock.txt)
 
 #
-if [ "$SSLGOOGLE_MAIN" = "$SSL_MAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
  then
     # Make sure the old copy is cleared before we start
     rm -f $TESTDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-adblock.txt
@@ -127,19 +127,19 @@ if [ "$SSLGOOGLE_MAIN" = "$SSL_MAIN" ]
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
     # echo "Updated: fanboy-adblock.txt" > /dev/null
 else
-    echo "Files are the same"
+    echo "Files are the same: fanboy-adblock.txt" > /dev/null
 fi
 
 # Tracking List
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLE_STATS=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-stats.txt)
-SSL_STATS=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-tracking.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-stats.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-tracking.txt)
 
 # Tracking
 # Check for 0-sized file first
 #
-if [ "$SSLGOOGLE_STATS" = "$SSL_STATS" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
  then
     # echo "Updated: fanboy-tracking.txt"
     # Clear old list
@@ -167,16 +167,16 @@ if [ "$SSLGOOGLE_STATS" = "$SSL_STATS" ]
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: fanboy-tracking.txt" > /dev/null
 fi
 
 # Enhanced Trackers
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLE_NCD=$($OPENSSL $ENCRYPT $GOOGLEDIR/enhancedstats-addon.txt)
-SSL_ENCD=$($OPENSSL $ENCRYPT $MAINDIR/enhancedstats.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/enhancedstats-addon.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/enhancedstats.txt)
 
-if [ "$SSLGOOGLE_NCD" = "$SSL_ENCD" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     # echo "Updated: enhancedstats-addon.txt"
     # Clear old list
@@ -199,16 +199,16 @@ then
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: enhancedstats.txt" > /dev/null
 fi
 
 # Addon/Annoyances
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLE_ANNOY=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-addon.txt)
-SSL_ANNOY=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-addon.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-addon.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-addon.txt)
 
-if [ "$SSLGOOGLE_ANNOY" = "$SSL_ANNOY" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     # echo "Updated: fanboy-addon.txt"
     # Clear old list
@@ -229,16 +229,16 @@ then
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: fanboy-addon.txt" > /dev/null
 fi
 
 # CZECH
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLE_CZ=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt)
-SSL_CZ=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-czech.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-czech.txt)
 
-if [ "$SSLGOOGLE_CZ" = "$SSL_CZ" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
    echo "Updated: fanboy-czech.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $MAINDIR/fanboy-czech.txt
@@ -255,16 +255,16 @@ then
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-czech.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: fanboy-czech.txt" > /dev/null
 fi
 
 # RUSSIAN
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLE_RU=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt)
-SSL_RU=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-russian.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-russian.txt)
 
-if [ "$SSLGOOGLE_RU" = "$SSL_RU" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
    echo "Updated: fanboy-russian.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $MAINDIR/fanboy-russian.txt
@@ -283,16 +283,16 @@ then
    # Generate Opera RUS script also
    $GOOGLEDIR/scripts/firefox/opera-russian.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: fanboy-russian.txt" > /dev/null
 fi
 
 # TURK
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLE_TURK=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt)
-SSL_TURK=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-turkish.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-turkish.txt)
 
-if [ "$SSLGOOGLE_TURK" = "$SSL_TURK" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
    echo "Updated: fanboy-turkish.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $MAINDIR/fanboy-turkish.txt
@@ -309,16 +309,16 @@ then
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-turk.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: fanboy-turkish.txt" > /dev/null
 fi
 
 # JAPANESE
-# Store Encryption data on whats on the server vs googlecode
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE_JP=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt)
-SSL_JP=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-japanese.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-japanese.txt)
 
-if [ "$SSLGOOGLE_JP" = "$SSL_JP" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
    echo "Updated: fanboy-japanese.txt"
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $MAINDIR/fanboy-japanese.txt
@@ -335,16 +335,16 @@ then
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-jpn.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: fanboy-japanese.txt" > /dev/null
 fi
 
 # KOREAN
-# Store Encryption data on whats on the server vs googlecode
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE_KR=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt)
-SSL_KR=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-korean.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-korean.txt)
 
-if [ "$SSLGOOGLE_KR" = "$SSL_KR" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     echo "Updated: fanboy-korean.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt
@@ -359,17 +359,17 @@ then
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-krn.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: fanboy-korean.txt" > /dev/null
 fi
 
 
 # ITALIAN
-# Store Encryption data on whats on the server vs googlecode
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE_IT=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt)
-SSL_IT=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt)
 
-if [ "$SSLGOOGLE_IT" = "$SSL_IT" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     echo "Updated: fanboy-italian.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $MAINDIR/fanboy-italian.txt
@@ -386,16 +386,16 @@ then
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-ita.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: fanboy-italian.txt" > /dev/null
 fi
 
 # POLISH
-# Store Encryption data on whats on the server vs googlecode
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE_PL=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt)
-SSL_PL=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt)
 
-if [ "$SSLGOOGLE_PL" = "$SSL_PL" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     echo "Updated: fanboy-polish.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt
@@ -410,16 +410,16 @@ then
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: fanboy-polish.txt" > /dev/null
 fi
 
 # INDIAN
-# Store Encryption data on whats on the server vs googlecode
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE_IN=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt)
-SSL_IN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-indian.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-indian.txt)
 
-if [ "$SSLGOOGLE_IN" = "$SSL_IN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     echo "Updated: fanboy-indian.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt
@@ -434,16 +434,16 @@ then
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-ind.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: fanboy-indian.txt" > /dev/null
 fi
 
 # VIETNAM
-# Store Encryption data on whats on the server vs googlecode
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE_VN=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt)
-SSL_VN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-vietnam.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-vietnam.txt)
 
-if [ "$SSLGOOGLE_VN" = "$SSL_VN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     echo "Updated: fanboy-vietnam.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt
@@ -458,16 +458,16 @@ then
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-vtn.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: fanboy-vietnam.txt" > /dev/null
 fi
 
 # CHINESE
-# Store Encryption data on whats on the server vs googlecode
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE_CN=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt)
-SSL_CN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-chinese.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-chinese.txt)
 
-if [ "$SSLGOOGLE_CN" = "$SSL_CN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     echo "Updated: fanboy-chinese.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt
@@ -482,16 +482,16 @@ then
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-chn.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: fanboy-chinese.txt" > /dev/null
 fi
 
 # ESPANOL
-# Store Encryption data on whats on the server vs googlecode
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE_ES=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt)
-SSL_ES=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-espanol.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-espanol.txt)
 
-if [ "$SSLGOOGLE_ES" = "$SSL_ES" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     echo "Updated: fanboy-espanol.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $MAINDIR/fanboy-espanol.txt
@@ -508,16 +508,16 @@ then
 		# Combine
 		$GOOGLEDIR/scripts/combine/firefox-adblock-esp.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: fanboy-espanol.txt" > /dev/null
 fi
 
 # SWEDISH
-# Store Encryption data on whats on the server vs googlecode
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE_SW=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt)
-SSL_SW=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-swedish.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-swedish.txt)
 
-if [ "$SSLGOOGLE_SW" = "$SSL_SW" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     echo "Updated: fanboy-swedish.txt"
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt
@@ -532,16 +532,16 @@ then
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-swe.sh
 else
-   echo "Files are the same"
+   echo "Files are the same: fanboy-swedish.txt" > /dev/null
 fi
 
 # Gannett
-# Store Encryption data on whats on the server vs googlecode
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE_GANNETT=$($OPENSSL $ENCRYPT $GOOGLEDIR/other/adblock-gannett.txt)
-SSL_GANNETT=$($OPENSSL $ENCRYPT $MAINDIR/adblock-gannett.txt)
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/other/adblock-gannett.txt)
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/adblock-gannett.txt)
 
-if [ "$SSLGOOGLE_GANNETT" = "$SSL_GANNETT" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     echo "Updated: fanboy-gannett.txt"
     cp -f $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
@@ -549,6 +549,6 @@ then
     $SHRED -n 3 -z -u $MAINDIR/adblock-gannett.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/adblock-gannett.txt.gz $MAINDIR/adblock-gannett.txt > /dev/null
 else
-   echo "Files are the same"
+   echo "Files are the same: adblock-gannett.txt" > /dev/null
 fi
 
