@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bettycrocker.com/coupons-promotions/coupons/default?cid=16868150&ESRC=15867
+
+
+[filters]
+http://www.bettycrocker.com/scripts/Bettycrocker_Clicktale.js
+http://www.bettycrocker.com/scripts/PointRollAnonymous.js
+https://www.bettycrocker.com/Shared/Javascript/UnicaTag.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
