@@ -19,6 +19,7 @@ ECHORESPONSE="List Changed: $LS2"
 BADUPDATE="Bad Update: $LS2"
 LS2="`ls -al $FILE`"
 SHA256SUM=/usr/bin/sha256sum
+HG=/usr/local/bin/hg --quiet
 
 # Make Ramdisk.
 #
@@ -39,8 +40,8 @@ chmod a+x $GOOGLEDIR/scripts/ie/*.sh $GOOGLEDIR/scripts/iron/*.sh $GOOGLEDIR/scr
 # Grab Mercurial Updates
 #
 cd /home/fanboy/google/fanboy-adblock-list/
-$NICE /usr/local/bin/hg pull
-$NICE /usr/local/bin/hg update
+$NICE $HG pull
+$NICE $HG update
 
 # Main List
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
@@ -53,7 +54,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-adblock.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $SSLGOOGLE"
 
 #
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
  then
     # Log
     echo "Replacing: fanboy-adblock on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -170,7 +171,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-tracking.txt | cut -d' ' -f1)
 # Tracking
 # Check for 0-sized file first
 #
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
  then
     # Log
     echo "Replacing: fanboy-tracking on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -223,7 +224,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/enhancedstats.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/enhancedstats-addon.txt $SSLGOOGLE"
 ### ls -al $MAINDIR/enhancedstats.txt $GOOGLEDIR/enhancedstats-addon.txt
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Replacing: fanboy-enhancedstats on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -272,7 +273,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-addon.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/fanboy-adblocklist-addon.txt $SSLGOOGLE"
 ### ls -al $MAINDIR/fanboy-addon.txt $GOOGLEDIR/fanboy-adblocklist-addon.txt
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Replacing: fanboy-addon on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -317,7 +318,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-czech.txt | cut -d' ' -f1)
 ### echo "SSLMAIN: $MAINDIR/fanboy-czech.txt $SSLMAIN"
 ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $SSLGOOGLE"
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
    echo "Replacing: fanboy-czech on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -359,7 +360,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-russian.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $SSLGOOGLE"
 ### ls -al $MAINDIR/fanboy-russian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
    echo "Replacing: fanboy-russian on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -403,7 +404,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-turkish.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $SSLGOOGLE"
 ### ls -al $MAINDIR/fanboy-turkish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
    echo "Replacing: fanboy-turk on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -445,7 +446,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-japanese.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $SSLGOOGLE"
 ### ls -al $MAINDIR/fanboy-japanese.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
    echo "Replacing: fanboy-japanese on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -488,7 +489,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-korean.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $SSLGOOGLE"
 ### ls -al $MAINDIR/fanboy-korean.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Replacing: fanboy-korean on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -529,7 +530,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-italian.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $SSLGOOGLE"
 ### ls -al $MAINDIR/fanboy-italian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Replacing: fanboy-italian on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -571,7 +572,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-polish.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $SSLGOOGLE"
 ### ls -al $MAINDIR/fanboy-polish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Replacing: fanboy-polish on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -611,7 +612,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-indian.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $SSLGOOGLE"
 ### ls -al $MAINDIR/fanboy-indian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Replacing: fanboy-indian on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -651,7 +652,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-vietnam.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $SSLGOOGLE"
 ### ls -al $MAINDIR/fanboy-vietnam.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Replacing: fanboy-vietnam on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -691,7 +692,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-chinese.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $SSLGOOGLE"
 ### ls -al $MAINDIR/fanboy-chinese.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Replacing: fanboy-chinese on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -731,7 +732,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-espanol.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $SSLGOOGLE"
 ### ls -al $MAINDIR/fanboy-espanol.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Replacing: fanboy-espanol on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -774,7 +775,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-swedish.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $SSLGOOGLE"
 ### ls -al $MAINDIR/fanboy-swedish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     ## DEBUG
     ### echo "Updated: fanboy-swedish.txt"
@@ -815,7 +816,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/adblock-gannett.txt | cut -d' ' -f1)
 ### echo "SSLGOOGLE: $GOOGLEDIR/other/adblock-gannett.txt $SSLGOOGLE"
 ### ls -al $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
 
-if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     ## DEBUG
     ### echo "Updated: fanboy-gannett.txt"
