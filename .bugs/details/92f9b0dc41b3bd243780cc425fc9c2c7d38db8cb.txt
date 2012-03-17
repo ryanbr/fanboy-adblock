@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.active.com/arts-and-entertainment-class/miami-gardens-fl/jazz-in-the-gardens-seniors-trip-2012
+
+
+[filters]
+http://pipeline.realtime.active.com/article.gif?asset_id=b5cb0a70-8af6-4bc4-b6b2-33b70731ee81
+http://pipeline.realtime.active.com/detailsview.gif?asset_id=B69B2977-E1BE-406A-AA29-18857935A551
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11379
+
+
+[comments]
+fanboy
