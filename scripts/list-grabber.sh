@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v1.5 (14/02/2012)
+# Fanboy Adblock list grabber script v1.6 (16/03/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -18,6 +18,9 @@ DATE="`date`"
 ECHORESPONSE="List Changed: $LS2"
 BADUPDATE="Bad Update: $LS2"
 LS2="`ls -al $FILE`"
+# OPENSSL=/usr/bin/openssl
+OPENSSL=/usr/local/openssl/bin/openssl
+ENCRYPT=sha256
 
 # Make Ramdisk.
 #
@@ -31,7 +34,9 @@ if [ ! -d "/tmp/ramdisk/" ]; then
   mkdir /tmp/ramdisk/opera/
 fi
 
-
+# Make sure the shell scripts are exexcutable, all the time..
+#
+chmod a+x $GOOGLEDIR/scripts/ie/*.sh $GOOGLEDIR/scripts/iron/*.sh $GOOGLEDIR/scripts/*.sh $GOOGLEDIR/scripts/firefox/*.sh $GOOGLEDIR/scripts/combine/*.sh
 
 # Grab Mercurial Updates
 #
@@ -39,24 +44,26 @@ cd /home/fanboy/google/fanboy-adblock-list/
 $NICE /usr/local/bin/hg pull
 $NICE /usr/local/bin/hg update
 
-# Copy Popular Files into Ram Disk
-#
-$SHRED -n 5 -z -u  $TESTDIR/opera/urlfilter.ini $TESTDIR/opera/urlfilter-stats.ini
-cp -f $GOOGLEDIR/scripts/addChecksum.pl $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR
-cp -f $GOOGLEDIR/opera/urlfilter.ini $GOOGLEDIR/opera/urlfilter-stats.ini $TESTDIR/opera/
-
-# Make sure the shell scripts are exexcutable, all the time..
-#
-chmod a+x $GOOGLEDIR/scripts/ie/*.sh $GOOGLEDIR/scripts/iron/*.sh $GOOGLEDIR/scripts/*.sh $GOOGLEDIR/scripts/firefox/*.sh $GOOGLEDIR/scripts/combine/*.sh
 
 # Main List
-# Check for 0-sized file first
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-if [ -n $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt ]
-then
-  if diff $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $MAINDIR/fanboy-adblock.txt >/dev/null ; then
-    echo "No changes detected: fanboy-adblock.txt" > /dev/null
-  else
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-adblock.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-adblock.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $SSLGOOGLE"
+
+#
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+ then
+    # Log
+    echo "Replacing: fanboy-adblock on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    ## DEBUG
+    ### echo "Updated: fanboy-adblock.txt"
+    ### echo "SSLMAIN: $MAINDIR/fanboy-adblock.txt $SSLMAIN"
+    ### echo "SSLGOOGLE: $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $SSLGOOGLE"
     # Make sure the old copy is cleared before we start
     rm -f $TESTDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-adblock.txt
     # Copy to ram disk first. (quicker)
@@ -80,72 +87,101 @@ then
     echo $ECHORESPONSE >> $LOGFILE
 
     # The Dimensions List
-    #
+    ### echo "Updated: fanboy-dimensions.txt"
     $NICE $GOOGLEDIR/scripts/firefox/fanboy-dimensions.sh
 
     # The Adult List
-    #
+    ### echo "Updated: fanboy-adult.txt"
     $NICE $GOOGLEDIR/scripts/firefox/fanboy-adult.sh
 
     # The P2P List
-    #
+    ### echo "Updated: fanboy-p2p.txt"
     $NICE $GOOGLEDIR/scripts/firefox/fanboy-p2p.sh
 
     # Seperate off CSS elements for Opera CSS
-    #
+    ### echo "Updated: fanboy-element-opera-generator.sh"
     $NICE $GOOGLEDIR/scripts/firefox/fanboy-element-opera-generator.sh
 
     # Seperate off Elements
-    #
+    ### echo "Updated: fanboy-noele.sh"
     $NICE $GOOGLEDIR/scripts/firefox/fanboy-noele.sh
 
     # Combine (Czech)
+    ### echo "Combine: firefox-adblock-czech.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-czech.sh
     # Combine (Espanol)
+    ### echo "Combine: firefox-adblock-esp.sh"
 		$NICE $GOOGLEDIR/scripts/combine/firefox-adblock-esp.sh
     # Combine (Russian)
+    ### echo "Combine: firefox-adblock-rus.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-rus.sh
     # Combine (Japanese)
+    ### echo "Combine: firefox-adblock-jpn.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-jpn.sh
     # Combine (Swedish)
+    ### echo "Combine: firefox-adblock-swe.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-swe.sh
     # Combine (Chinese)
+    ### echo "Combine: firefox-adblock-chn.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-chn.sh
     # Combine (Vietnam)
+    ### echo "Combine: firefox-adblock-vtn.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-vtn.sh
     # Combine (Vietnam)
+    ### echo "Combine: firefox-adblock-krn.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-krn.sh
     # Combine (Turkish)
+    ### echo "Combine: firefox-adblock-turk.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-turk.sh
     # Combine (Italian)
+    ### echo "Combine: firefox-adblock-ita.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-ita.sh
     # Combine (Polish)
+    ### echo "Combine: firefox-adblock-pol.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh
     # Combine Regional trackers
+    ### echo "Combine: firefox-adblock-intl-tracking.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
+    ### echo "Combine: firefox-adblock-tracking.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-tracking.sh
+    ### echo "Combine: firefox-adblock-merged.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
+    ### echo "Combine: firefox-adblock-ultimate.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
-    # echo "Updated: fanboy-adblock.txt" > /dev/null
-  fi
 else
-    # echo "Something went bad, file size is 0"
-    # Create a log
-    FILE="$TESTDIR/fanboy-adblock.txt"
-    echo $BADUPDATE >> $LOGFILE
+    echo "Files are the same: fanboy-adblock.txt" > /dev/null
+    ## DEBUG
+    ### echo Not Processed
+    ### echo "SSLMAIN: $MAINDIR/fanboy-adblock.txt $SSLMAIN"
+    ### echo "SSLGOOGLE: $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $SSLGOOGLE"
+    ### ls -al $MAINDIR/fanboy-adblock.txt $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt
 fi
+
+# Tracking List
+# Store Encryption data on whats on the server vs googlecode
+#
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-stats.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-tracking.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-tracking.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/fanboy-adblocklist-stats.txt $SSLGOOGLE"
+### ls -al $MAINDIR/fanboy-tracking.txt $GOOGLEDIR/fanboy-adblocklist-stats.txt
 
 # Tracking
 # Check for 0-sized file first
 #
-if [ -n $GOOGLEDIR/fanboy-adblocklist-stats.txt ]
-then
-  if diff $GOOGLEDIR/fanboy-adblocklist-stats.txt $MAINDIR/fanboy-tracking.txt >/dev/null ; then
-     echo "No Changes detected: fanboy-tracking.txt" > /dev/null
-   else
-    # echo "Updated: fanboy-tracking.txt"
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
+ then
+    # Log
+    echo "Replacing: fanboy-tracking on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    ## DEBUG
+    ### echo "Updated: fanboy-tracking.txt"
+    ### echo "SSLMAIN: $MAINDIR/fanboy-tracking.txt $SSLMAIN"
+    ### echo "SSLGOOGLE: $GOOGLEDIR/fanboy-adblocklist-stats.txt $SSLGOOGLE"
+    ### ls -al $MAINDIR/fanboy-tracking.txt $GOOGLEDIR/fanboy-adblocklist-stats.txt
     # Clear old list
     rm -f $TESTDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-tracking.txt
     # Copy list from repo to RAMDISK
@@ -170,23 +206,35 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
- fi
 else
-    # echo "Something went bad, file size is 0"
-    # Create a log
-    FILE="$TESTDIR/fanboy-tracking.txt"
-    echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: fanboy-tracking.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "SSLMAIN: $MAINDIR/fanboy-tracking.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/fanboy-adblocklist-stats.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-tracking.txt $GOOGLEDIR/fanboy-adblocklist-stats.txt
 fi
 
 # Enhanced Trackers
-# Check for 0-sized file first
+# Store Encryption data on whats on the server vs googlecode
 #
-if [ -n $GOOGLEDIR/enhancedstats-addon.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/enhancedstats-addon.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/enhancedstats.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/enhancedstats.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/enhancedstats-addon.txt $SSLGOOGLE"
+### ls -al $MAINDIR/enhancedstats.txt $GOOGLEDIR/enhancedstats-addon.txt
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
-  if diff $GOOGLEDIR/enhancedstats-addon.txt $MAINDIR/enhancedstats.txt >/dev/null ; then
-    echo "No Changes detected: enhancedstats-addon.txt" > /dev/null
-  else
-    # echo "Updated: enhancedstats-addon.txt"
+    # Log
+    echo "Replacing: fanboy-enhancedstats on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    ## DEBUG
+    ### echo "Updated: enhancedstats-addon.txt"
+    ### echo "SSLMAIN: $MAINDIR/enhancedstats.txt $SSLMAIN"
+    ### echo "SSLGOOGLE: $GOOGLEDIR/enhancedstats-addon.txt $SSLGOOGLE"
+    ### ls -al $MAINDIR/enhancedstats.txt $GOOGLEDIR/enhancedstats-addon.txt
     # Clear old list
     rm -f $TESTDIR/enhancedstats.txt $TESTDIR/enhancedstats.txt.gz
     # Copy list from repo to RAMDISK
@@ -206,23 +254,36 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
- fi
 else
-    # echo "Something went bad, file size is 0"
-    # Create a log
-    FILE="$MAINDIR/enhancedstats.txt"
-    echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: enhancedstats.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "SSLMAIN: $MAINDIR/enhancedstats.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/enhancedstats-addon.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/enhancedstats.txt $GOOGLEDIR/enhancedstats-addon.txt
+
 fi
 
 # Addon/Annoyances
-# Check for 0-sized file first
+# Store Encryption data on whats on the server vs googlecode
 #
-if [ -n $GOOGLEDIR/fanboy-adblocklist-addon.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-addon.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-addon.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-addon.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/fanboy-adblocklist-addon.txt $SSLGOOGLE"
+### ls -al $MAINDIR/fanboy-addon.txt $GOOGLEDIR/fanboy-adblocklist-addon.txt
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
-  if diff $GOOGLEDIR/fanboy-adblocklist-addon.txt $MAINDIR/fanboy-addon.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-addon.txt" > /dev/null
-  else
-    # echo "Updated: fanboy-addon.txt"
+    # Log
+    echo "Replacing: fanboy-addon on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    ## DEBUG
+    ### echo "Updated: fanboy-addon.txt"
+    ### echo "SSLMAIN: $MAINDIR/fanboy-addon.txt $SSLMAIN"
+    ### echo "SSLGOOGLE: $GOOGLEDIR/fanboy-adblocklist-addon.txt $SSLGOOGLE"
+    ### ls -al $MAINDIR/fanboy-addon.txt $GOOGLEDIR/fanboy-adblocklist-addon.txt
     # Clear old list
     rm -f $TESTDIR/fanboy-addon.txt $TESTDIR/fanboy-addon.txt.gz
     # Copy list from repo to RAMDISK
@@ -240,23 +301,34 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$TESTDIR/fanboy-addon.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: fanboy-addon.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "SSLMAIN: $MAINDIR/fanboy-addon.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/fanboy-adblocklist-addon.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-addon.txt $GOOGLEDIR/fanboy-adblocklist-addon.txt
 fi
 
 # CZECH
-# Check for 0-sized file first
+# Store Encryption data on whats on the server vs googlecode
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-czech.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-czech.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $SSLGOOGLE"
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $MAINDIR/fanboy-czech.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-czech.txt" > /dev/null
-  else
-   echo "Updated: fanboy-czech.txt"
+   # Log
+   echo "Replacing: fanboy-czech on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+   ## DEBUG
+   ### echo "Updated: fanboy-czech.txt"
+   ### echo "SSLMAIN: $MAINDIR/fanboy-czech.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-czech.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $MAINDIR/fanboy-czech.txt
    # Properly wipe old file.
    $SHRED -n 3 -z -u $MAINDIR/fanboy-czech.txt.gz
@@ -270,23 +342,35 @@ then
    $GOOGLEDIR/scripts/ie/czech-ie-generator.sh
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-czech.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-czech.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: fanboy-czech.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "SSLMAIN: $MAINDIR/fanboy-czech.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-czech.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt
 fi
 
 # RUSSIAN
-# Check for 0-sized file first
+# Store Encryption data on whats on the server vs googlecode
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-russian.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-russian.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $SSLGOOGLE"
+### ls -al $MAINDIR/fanboy-russian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $MAINDIR/fanboy-russian.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-russian.txt" > /dev/null
-  else
-   echo "Updated: fanboy-russian.txt"
+   # Log
+   echo "Replacing: fanboy-russian on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+   ## DEBUG
+   ### echo "Updated: fanboy-russian.txt"
+   ### echo "SSLMAIN: $MAINDIR/fanboy-russian.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-russian.txtt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $MAINDIR/fanboy-russian.txt
    # Properly wipe old file.
    $SHRED -n 3 -z -u $MAINDIR/fanboy-russian.txt.gz
@@ -302,23 +386,35 @@ then
    $GOOGLEDIR/scripts/combine/firefox-adblock-rus.sh
    # Generate Opera RUS script also
    $GOOGLEDIR/scripts/firefox/opera-russian.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-russian.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: fanboy-russian.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "SSLMAIN: $MAINDIR/fanboy-russian.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-russian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt
 fi
 
 # TURK
-# Check for 0-sized file first
+# Store Encryption data on whats on the server vs googlecode
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-turkish.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-turkish.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $SSLGOOGLE"
+### ls -al $MAINDIR/fanboy-turkish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $MAINDIR/fanboy-turkish.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-turkish.txt" > /dev/null
-  else
-   echo "Updated: fanboy-turkish.txt"
+   # Log
+   echo "Replacing: fanboy-turk on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+   ## DEBUG
+   ### echo "Updated: fanboy-turkish.txt"
+   ### echo "SSLMAIN: $MAINDIR/fanboy-turkish.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-turkish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $MAINDIR/fanboy-turkish.txt
    # Properly wipe old file.
    $SHRED -n 3 -z -u  $MAINDIR/fanboy-turkish.txt.gz
@@ -332,23 +428,35 @@ then
    $GOOGLEDIR/scripts/ie/turkish-ie-generator.sh
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-turk.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-turkish.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: fanboy-turkish.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "SSLMAIN: $MAINDIR/fanboy-turkish.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-turkish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt
 fi
 
 # JAPANESE
-# Check for 0-sized file first
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-japanese.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-japanese.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $SSLGOOGLE"
+### ls -al $MAINDIR/fanboy-japanese.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $MAINDIR/fanboy-japanese.txt >/dev/null ; then
-    echo "No Changes detected: fanboy-japanese.txt" > /dev/null
-  else
-   echo "Updated: fanboy-japanese.txt"
+   # Log
+   echo "Replacing: fanboy-japanese on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+   ## DEBUG
+   ### echo "Updated: fanboy-japanese.txt"
+   ### echo "SSLMAIN: $MAINDIR/fanboy-japanese.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-japanese.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $MAINDIR/fanboy-japanese.txt
    # Properly wipe old file.
    $SHRED -n 3 -z -u  $MAINDIR/fanboy-japanese.txt.gz
@@ -362,23 +470,36 @@ then
    $GOOGLEDIR/scripts/ie/italian-ie-generator.sh
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-jpn.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-japanese.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: fanboy-japanese.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "SSLMAIN: $MAINDIR/fanboy-japanese.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-japanese.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt
+
 fi
 
 # KOREAN
-# Check for 0-sized file first
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-korean.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-korean.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $SSLGOOGLE"
+### ls -al $MAINDIR/fanboy-korean.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-korean.txt" > /dev/null
-   else
-    echo "Updated: fanboy-korean.txt"
+    # Log
+    echo "Replacing: fanboy-korean on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    ## DEBUG
+    ### echo "Updated: fanboy-korean.txt"
+    ### echo "SSLMAIN: $MAINDIR/fanboy-korean.txt $SSLMAIN"
+    ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $SSLGOOGLE"
+    ### ls -al $MAINDIR/fanboy-korean.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-korean.txt.gz
@@ -390,24 +511,36 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-krn.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-korean.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: fanboy-korean.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "SSLMAIN: $MAINDIR/fanboy-korean.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-korean.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt
 fi
 
 
 # ITALIAN
-# Check for 0-sized file first
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-italian.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $SSLGOOGLE"
+### ls -al $MAINDIR/fanboy-italian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $MAINDIR/fanboy-italian.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-italian.txt" > /dev/null
-   else
-    echo "Updated: fanboy-italian.txt"
+    # Log
+    echo "Replacing: fanboy-italian on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    ## DEBUG
+    ### echo "Updated: fanboy-italian.txt"
+    ### echo "SSLMAIN: $MAINDIR/fanboy-italian.txt $SSLMAIN"
+    ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $SSLGOOGLE"
+    ### ls -al $MAINDIR/fanboy-italian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $MAINDIR/fanboy-italian.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-italian.txt.gz
@@ -421,23 +554,35 @@ then
     $GOOGLEDIR/scripts/ie/italian-ie-generator.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-ita.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-italian.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: fanboy-italian.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "SSLMAIN: $MAINDIR/fanboy-italian.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-italian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt
 fi
 
 # POLISH
-# Check for 0-sized file first
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-polish.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-polish.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $SSLGOOGLE"
+### ls -al $MAINDIR/fanboy-polish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-polish.txt" > /dev/null
-   else
-    echo "Updated: fanboy-polish.txt"
+    # Log
+    echo "Replacing: fanboy-polish on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    ## DEBUG
+    ### echo "Updated: fanboy-polish.txt"
+    ### echo "SSLMAIN: $MAINDIR/fanboy-polish.txt $SSLMAIN"
+    ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $SSLGOOGLE"
+    ### ls -al $MAINDIR/fanboy-polish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-polish.txt.gz
@@ -449,23 +594,35 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-polish.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: fanboy-polish.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "SSLMAIN: $MAINDIR/fanboy-polish.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-polish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt
 fi
 
 # INDIAN
-# Check for 0-sized file first
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-indian.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-indian.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $SSLGOOGLE"
+### ls -al $MAINDIR/fanboy-indian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-indian.txt" > /dev/null
-   else
-    echo "Updated: fanboy-indian.txt"
+    # Log
+    echo "Replacing: fanboy-indian on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    ## DEBUG
+    ### echo "Updated: fanboy-indian.txt"
+    ### echo "SSLMAIN: $MAINDIR/fanboy-indian.txt $SSLMAIN"
+    ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $SSLGOOGLE"
+    ### ls -al $MAINDIR/fanboy-indian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-indian.txt.gz
@@ -477,23 +634,35 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-ind.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE=" $MAINDIR/fanboy-indian.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: fanboy-indian.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "SSLMAIN: $MAINDIR/fanboy-indian.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-indian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt
 fi
 
 # VIETNAM
-# Check for 0-sized file first
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-vietnam.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-vietnam.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $SSLGOOGLE"
+### ls -al $MAINDIR/fanboy-vietnam.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-vietnam.txt" > /dev/null
-   else
-    echo "Updated: fanboy-vietnam.txt"
+    # Log
+    echo "Replacing: fanboy-vietnam on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    ## DEBUG
+    ### echo "Updated: fanboy-vietnam.txt"
+    ### echo "SSLMAIN: $MAINDIR/fanboy-vietnam.txt $SSLMAIN"
+    ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $SSLGOOGLE"
+    ### ls -al $MAINDIR/fanboy-vietnam.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-vietnam.txt.gz
@@ -505,23 +674,35 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-vtn.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-vietnam.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: fanboy-vietnam.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "SSLMAIN: $MAINDIR/fanboy-vietnam.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-vietnam.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt
 fi
 
 # CHINESE
-# Check for 0-sized file first
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-chinese.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-chinese.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $SSLGOOGLE"
+### ls -al $MAINDIR/fanboy-chinese.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-chinese.txt" > /dev/null
-   else
-    echo "Updated: fanboy-chinese.txt"
+    # Log
+    echo "Replacing: fanboy-chinese on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    ## DEBUG
+    ### echo "Updated: fanboy-chinese.txt"
+    ### echo "SSLMAIN: $MAINDIR/fanboy-chinese.txt $SSLMAIN"
+    ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $SSLGOOGLE"
+    ### ls -al $MAINDIR/fanboy-chinese.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-chinese.txt.gz
@@ -533,23 +714,35 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-chn.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-chinese.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: fanboy-chinese.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "SSLMAIN: $MAINDIR/fanboy-chinese.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-chinese.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt
 fi
 
 # ESPANOL
-# Check for 0-sized file first
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-espanol.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-espanol.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $SSLGOOGLE"
+### ls -al $MAINDIR/fanboy-espanol.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $MAINDIR/fanboy-espanol.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-espanol.txt" > /dev/null
-   else
-    echo "Updated: fanboy-espanol.txt"
+    # Log
+    echo "Replacing: fanboy-espanol on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    ## DEBUG
+    ### echo "Updated: fanboy-espanol.txt"
+    ### echo "SSLMAIN: $MAINDIR/fanboy-espanol.txt $SSLMAIN"
+    ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $SSLGOOGLE"
+    ### ls -al $MAINDIR/fanboy-espanol.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $MAINDIR/fanboy-espanol.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-espanol.txt.gz
@@ -563,23 +756,36 @@ then
 		$GOOGLEDIR/scripts/ie/espanol-ie-generator.sh
 		# Combine
 		$GOOGLEDIR/scripts/combine/firefox-adblock-esp.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-espanol.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: fanboy-espanol.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "Not updated: fanboy-espanol.txt"
+   ### echo "SSLMAIN: $MAINDIR/fanboy-espanol.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $SSLGOOGLE"
+   ### ls -al $MAINDIR/fanboy-espanol.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt
 fi
 
 # SWEDISH
-# Check for 0-sized file first
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-if [ -n $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-swedish.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/fanboy-swedish.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $SSLGOOGLE"
+### ls -al $MAINDIR/fanboy-swedish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
- if diff $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-swedish.txt" > /dev/null
-   else
-    echo "Updated: fanboy-swedish.txt"
+    ## DEBUG
+    ### echo "Updated: fanboy-swedish.txt"
+    ### echo "SSLMAIN: $MAINDIR/fanboy-swedish.txt $SSLMAIN"
+    ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $SSLGOOGLE"
+    ### ls -al $MAINDIR/fanboy-swedish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt
+    # Log
+    echo "Replacing: fanboy-swedish on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-swedish.txt.gz
@@ -591,30 +797,47 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-swe.sh
- fi
 else
-  # echo "Something went bad, file size is 0"
-  # Create a log
-  FILE="$MAINDIR/fanboy-swedish.txt"
-  echo $BADUPDATE >> $LOGFILE
+   echo "Files are the same: fanboy-swedish.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "Not updated: fanboy-swedish.txt"
+   ### echo "SSLMAIN: $MAINDIR/fanboy-swedish.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $SSLGOOGLE"
+   ### ls -al $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
 fi
 
 # Gannett
-# Check for 0-sized file first
+# Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-if [ -n $GOOGLEDIR/other/adblock-gannett.txt ]
+SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/other/adblock-gannett.txt | grep -o '[0-9a-f]*$')
+SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/adblock-gannett.txt | grep -o '[0-9a-f]*$')
+## DEBUG
+### echo "Before Loop"
+### echo "SSLMAIN: $MAINDIR/adblock-gannett.txt $SSLMAIN"
+### echo "SSLGOOGLE: $GOOGLEDIR/other/adblock-gannett.txt $SSLGOOGLE"
+### ls -al $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
+
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
- if diff $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt > /dev/null ; then
-    echo "No Changes detected: fanboy-gannett.txt" > /dev/null
-   else
-    echo "Updated: fanboy-gannett.txt"
-    cp -f $GOOGLEDIR/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
+    ## DEBUG
+    ### echo "Updated: fanboy-gannett.txt"
+    ### echo "SSLMAIN: $MAINDIR/adblock-gannett.txt $SSLMAIN"
+    ### echo "SSLGOOGLE: $GOOGLEDIR/other/adblock-gannett.txt $SSLGOOGLE"
+    ### ls -al $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
+    # Log
+    echo "Replacing: fanboy-gannett on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    cp -f $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
     # Properly wipe old file.
-    $SHRED -n 3 -z -u  $MAINDIR/adblock-gannett.txt.gz
+    $SHRED -n 3 -z -u $MAINDIR/adblock-gannett.txt.gz
     $ZIP a -mx=9 -y -tgzip $MAINDIR/adblock-gannett.txt.gz $MAINDIR/adblock-gannett.txt > /dev/null
- fi
 else
-  # echo "Something went bad, file size is 0"
-  mail -s "Google mirror adblock-gannett.txt size is zero, please fix." mp3geek@gmail.com < /dev/null
+   echo "Files are the same: adblock-gannett.txt" > /dev/null
+   ## DEBUG
+   ### echo Not Processed
+   ### echo "Not updated: fanboy-gannett.txt"
+   ### echo "SSLMAIN: $MAINDIR/adblock-gannett.txt $SSLMAIN"
+   ### echo "SSLGOOGLE: $GOOGLEDIR/other/adblock-gannett.txt $SSLGOOGLE"
+   ### ls -al $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
 fi
 
