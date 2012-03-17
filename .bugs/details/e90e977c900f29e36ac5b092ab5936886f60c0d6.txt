@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.worldgolf.com/
+
+
+[filters]
+https://s3.amazonaws.com/wgntrk/v1x1.gif?rand=87803877&app=locations&type=location&id=1
+
+
+
+
+[other]
+##.gfp-banner
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11378
+
+[comments]
+fanboy
