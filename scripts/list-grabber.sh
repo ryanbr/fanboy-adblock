@@ -52,7 +52,7 @@ SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-adblock.txt)
 
 #
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
  then
     # Log
     echo "Replacing: fanboy-adblock on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
@@ -141,7 +141,7 @@ SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-tracking.txt)
 # Tracking
 # Check for 0-sized file first
 #
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
  then
     # echo "Updated: fanboy-tracking.txt"
     # Log
@@ -180,7 +180,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/enhancedstats-addon.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/enhancedstats.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     # echo "Updated: enhancedstats-addon.txt"
     # Log
@@ -214,7 +214,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-addon.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-addon.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     # echo "Updated: fanboy-addon.txt"
     # Log
@@ -246,7 +246,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-czech.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
    # echo "Updated: fanboy-czech.txt"
    # Log
@@ -274,7 +274,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-russian.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
    # echo "Updated: fanboy-russian.txt"
    # Log
@@ -304,7 +304,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-turkish.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
    # echo "Updated: fanboy-turkish.txt"
    # Log
@@ -332,7 +332,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-japanese.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
    #echo "Updated: fanboy-japanese.txt"
    # Log
@@ -360,7 +360,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-korean.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     #echo "Updated: fanboy-korean.txt"
     # Log
@@ -387,7 +387,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     #echo "Updated: fanboy-italian.txt"
     # Log
@@ -415,7 +415,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     #echo "Updated: fanboy-polish.txt"
     # Log
@@ -441,7 +441,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-indian.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     #echo "Updated: fanboy-indian.txt"
     # Log
@@ -467,7 +467,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-vietnam.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     #echo "Updated: fanboy-vietnam.txt"
     # Log
@@ -493,7 +493,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-chinese.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     #echo "Updated: fanboy-chinese.txt"
     # Log
@@ -519,7 +519,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-espanol.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     # echo "Updated: fanboy-espanol.txt"
     # Log
@@ -547,7 +547,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-swedish.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     #echo "Updated: fanboy-swedish.txt"
     # Log
@@ -573,7 +573,7 @@ fi
 SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/other/adblock-gannett.txt)
 SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/adblock-gannett.txt)
 
-if [ "$SSLGOOGLE" != "$SSLMAIN" ]
+if [ "$SSLGOOGLE" = "$SSLMAIN" ]
 then
     #echo "Updated: fanboy-gannett.txt"
     # Log
