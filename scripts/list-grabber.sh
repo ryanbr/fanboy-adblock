@@ -18,9 +18,7 @@ DATE="`date`"
 ECHORESPONSE="List Changed: $LS2"
 BADUPDATE="Bad Update: $LS2"
 LS2="`ls -al $FILE`"
-# OPENSSL=/usr/bin/openssl
-OPENSSL=/usr/local/openssl/bin/openssl
-ENCRYPT=sha256
+SHA256SUM=/usr/bin/sha256sum
 
 # Make Ramdisk.
 #
@@ -44,12 +42,11 @@ cd /home/fanboy/google/fanboy-adblock-list/
 $NICE /usr/local/bin/hg pull
 $NICE /usr/local/bin/hg update
 
-
 # Main List
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-adblock.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-adblock.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-adblock.txt $SSLMAIN"
@@ -162,8 +159,8 @@ fi
 # Tracking List
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-stats.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-tracking.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/fanboy-adblocklist-stats.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-tracking.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-tracking.txt $SSLMAIN"
@@ -218,8 +215,8 @@ fi
 # Enhanced Trackers
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/enhancedstats-addon.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/enhancedstats.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/enhancedstats-addon.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/enhancedstats.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/enhancedstats.txt $SSLMAIN"
@@ -267,8 +264,8 @@ fi
 # Addon/Annoyances
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/fanboy-adblocklist-addon.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-addon.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/fanboy-adblocklist-addon.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-addon.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-addon.txt $SSLMAIN"
@@ -313,8 +310,8 @@ fi
 # CZECH
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-czech.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-czech.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-czech.txt $SSLMAIN"
@@ -354,8 +351,8 @@ fi
 # RUSSIAN
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-russian.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-russian.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-russian.txt $SSLMAIN"
@@ -398,8 +395,8 @@ fi
 # TURK
 # Store Encryption data on whats on the server vs googlecode
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-turkish.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-turkish.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-turkish.txt $SSLMAIN"
@@ -440,8 +437,8 @@ fi
 # JAPANESE
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-japanese.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-japanese.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-japanese.txt $SSLMAIN"
@@ -483,8 +480,8 @@ fi
 # KOREAN
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-korean.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-korean.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-korean.txt $SSLMAIN"
@@ -524,8 +521,8 @@ fi
 # ITALIAN
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-italian.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-italian.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-italian.txt $SSLMAIN"
@@ -566,8 +563,8 @@ fi
 # POLISH
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-polish.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-polish.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-polish.txt $SSLMAIN"
@@ -606,8 +603,8 @@ fi
 # INDIAN
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-indian.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-indian.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-indian.txt $SSLMAIN"
@@ -646,8 +643,8 @@ fi
 # VIETNAM
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-vietnam.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-vietnam.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-vietnam.txt $SSLMAIN"
@@ -686,8 +683,8 @@ fi
 # CHINESE
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-chinese.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-chinese.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-chinese.txt $SSLMAIN"
@@ -726,8 +723,8 @@ fi
 # ESPANOL
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-espanol.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-espanol.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-espanol.txt $SSLMAIN"
@@ -769,8 +766,8 @@ fi
 # SWEDISH
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/fanboy-swedish.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-swedish.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-swedish.txt $SSLMAIN"
@@ -810,8 +807,8 @@ fi
 # Gannett
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
-SSLGOOGLE=$($OPENSSL $ENCRYPT $GOOGLEDIR/other/adblock-gannett.txt | grep -o '[0-9a-f]*$')
-SSLMAIN=$($OPENSSL $ENCRYPT $MAINDIR/adblock-gannett.txt | grep -o '[0-9a-f]*$')
+SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/other/adblock-gannett.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/adblock-gannett.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/adblock-gannett.txt $SSLMAIN"
