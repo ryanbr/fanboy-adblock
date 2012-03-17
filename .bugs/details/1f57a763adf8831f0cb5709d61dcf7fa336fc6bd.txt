@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.recipe.com/
+
+
+[filters]
+http://as.featurelink.com/ERALinks/Custom/VSW/CSS/HtmlRelatedLinks.css?v=3.3.5201.17872
+http://as.featurelink.com/ERALinks/Default.aspx?eradomain=as.vs4food.com&ContentId=&numrequests=1&req1=SSMicrosites||4|&SortBy=Rank&Referrer=http%3A%2F%2Fwww.recipe.com%2F&PubID=recipe&Vis=F&OutputType=javascript
+http://as.featurelink.com/ResourceStorage/ResourceHandler.ashx?3eff06bf-99ee-4148-b5af-0486dbace3f2.jpg
+http://as.featurelink.com/ResourceStorage/ResourceHandler.ashx?a6cd2463-3296-4c9d-8f46-21413933d507;SH-Can_2.jpg
+http://as.vs4food.com/ERA/era_rl.aspx
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
