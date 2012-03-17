@@ -19,7 +19,7 @@ ECHORESPONSE="List Changed: $LS2"
 BADUPDATE="Bad Update: $LS2"
 LS2="`ls -al $FILE`"
 SHA256SUM=/usr/bin/sha256sum
-HG=/usr/local/bin/hg --quiet
+HG=/usr/local/bin/hg
 
 # Make Ramdisk.
 #
@@ -40,8 +40,8 @@ chmod a+x $GOOGLEDIR/scripts/ie/*.sh $GOOGLEDIR/scripts/iron/*.sh $GOOGLEDIR/scr
 # Grab Mercurial Updates
 #
 cd /home/fanboy/google/fanboy-adblock-list/
-$NICE $HG pull
-$NICE $HG update
+$NICE $HG --quiet pull
+$NICE $HG --quiet update
 
 # Main List
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
