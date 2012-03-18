@@ -11,6 +11,7 @@ MAINDIR="/var/www/adblock"
 GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 TESTDIR="/tmp/ramdisk"
 ZIP="/usr/local/bin/7za"
+NICE="nice -n 19"
 
 # Make Ramdisk.
 #
@@ -53,13 +54,42 @@ sed '$d' < $TESTDIR/fanboy-pol-temp.txt > $TESTDIR/fanboy-pol-temp2.txt
 # Merge to the files together
 #
 cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-pol-temp2.txt > $TESTDIR/fanboy-pol-merged.txt
+# Create a backup incase addchecksum "zeros" the file
+#
+cp -f $TESTDIR/fanboy-pol-merged.txt $TESTDIR/fanboy-pol-merged-bak.txt
+# Add checksum
+#
 perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-pol-merged.txt
 
-# Copy Merged file to main dir
-#
-cp $TESTDIR/fanboy-pol-merged.txt $MAINDIR/r/fanboy+polish.txt
+if [ -s $TESTDIR/fanboy-pol-merged.txt ];
+then
+  # Copy Merged file to main dir
+  #
+  cp $TESTDIR/fanboy-pol-merged.txt $MAINDIR/r/fanboy+polish.txt
 
-# Compress file
-#
-rm -f $MAINDIR/r/fanboy+polish.txt.gz
-$ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+polish.txt.gz $MAINDIR/r/fanboy+polish.txt > /dev/null
+  # Compress file
+  #
+  rm -f $MAINDIR/r/fanboy+polish.txt.gz
+  $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+polish.txt.gz $TESTDIR/fanboy-pol-merged.txt > /dev/null
+  
+  # log
+  ### echo "Updated fanboy+polish.txt"
+  echo "Updated /r/fanboy+polish.txt (merged fanboy+polish) (script: firefox-adblock-pol.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+else
+  # Copy Merged file to main dir
+  #
+  cp $TESTDIR/fanboy-pol-merged-bak.txt $MAINDIR/r/fanboy+polish.txt
+  
+  # Add checksum
+  #
+  sleep 2
+  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-pol-merged-bak.txt
+  
+  # Compress file
+  #
+  rm -f $MAINDIR/r/fanboy+polish.txt.gz
+  
+  ### echo "Updated fanboy+polish.txt"
+  $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+polish.txt.gz $TESTDIR/fanboy-pol-merged-bak.txt > /dev/null
+  echo "*** ERROR ***: Addchecksum Zero'd the file: fanboy+polish.txt (script: firefox-adblock-pol.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+fi
