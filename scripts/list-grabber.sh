@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v1.6 (16/03/2012)
+# Fanboy Adblock list grabber script v1.7 (18/03/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -41,12 +41,15 @@ chmod a+x $GOOGLEDIR/scripts/ie/*.sh $GOOGLEDIR/scripts/iron/*.sh $GOOGLEDIR/scr
 # Grab Mercurial Updates
 #
 cd /home/fanboy/google/fanboy-adblock-list/
-$NICE $HG --quiet pull
-$NICE $HG --quiet update
+echo "------------------------- Start of script -------------------------" >> /var/log/adblock-log.txt
+echo "Updated hg (hg pull ; hg update (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+$NICE $HG pull >> /var/log/adblock-log.txt
+$NICE $HG update >> /var/log/adblock-log.txt
+echo "------ End of hg pull and Update ------" >> /var/log/adblock-log.txt
 
 # Log Changes
 # 
-$NICE $TAIL -n 60 /var/log/adblock-log.txt > /var/www/adblock/adblock.log
+$NICE $TAIL -n 80 /var/log/adblock-log.txt > /var/www/adblock.log
 
 # Main List
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
@@ -62,7 +65,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-adblock.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
  then
     # Log
-    echo "Updated: fanboy-adblock.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    echo "Updated fanboy-adblock.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-adblock.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-adblock.txt $SSLMAIN"
@@ -176,7 +179,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-tracking.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
  then
     # Log
-    echo "Updated: fanboy-tracking.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    echo "Updated fanboy-tracking.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-tracking.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-tracking.txt $SSLMAIN"
@@ -229,7 +232,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/enhancedstats.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
-    echo "Updated: enhancedstats.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    echo "Updated enhancedstats.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: enhancedstats-addon.txt"
     ### echo "SSLMAIN: $MAINDIR/enhancedstats.txt $SSLMAIN"
@@ -278,7 +281,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-addon.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
-    echo "Updated: fanboy-addon.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    echo "Updated fanboy-addon.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-addon.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-addon.txt $SSLMAIN"
@@ -323,7 +326,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-czech.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
-   echo "Updated: fanboy-czech.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+   echo "Updated fanboy-czech.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
    ## DEBUG
    ### echo "Updated: fanboy-czech.txt"
    ### echo "SSLMAIN: $MAINDIR/fanboy-czech.txt $SSLMAIN"
@@ -365,7 +368,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-russian.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
-   echo "Updated: fanboy-russian.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+   echo "Updated fanboy-russian.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
    ## DEBUG
    ### echo "Updated: fanboy-russian.txt"
    ### echo "SSLMAIN: $MAINDIR/fanboy-russian.txt $SSLMAIN"
@@ -409,7 +412,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-turkish.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
-   echo "Updated: fanboy-turkish.txt (sctipt: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+   echo "Updated fanboy-turkish.txt (sctipt: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
    ## DEBUG
    ### echo "Updated: fanboy-turkish.txt"
    ### echo "SSLMAIN: $MAINDIR/fanboy-turkish.txt $SSLMAIN"
@@ -451,7 +454,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-japanese.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
-   echo "Updated: fanboy-japanese.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+   echo "Updated fanboy-japanese.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
    ## DEBUG
    ### echo "Updated: fanboy-japanese.txt"
    ### echo "SSLMAIN: $MAINDIR/fanboy-japanese.txt $SSLMAIN"
@@ -494,7 +497,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-korean.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
-    echo "Updated: fanboy-korean.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    echo "Updated fanboy-korean.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-korean.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-korean.txt $SSLMAIN"
@@ -535,7 +538,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-italian.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
-    echo "Updated: fanboy-italian.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    echo "Updated fanboy-italian.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-italian.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-italian.txt $SSLMAIN"
@@ -577,7 +580,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-polish.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
-    echo "Updated: fanboy-polish.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    echo "Updated fanboy-polish.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-polish.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-polish.txt $SSLMAIN"
@@ -617,7 +620,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-indian.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
-    echo "Updated: fanboy-indian.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    echo "Updated fanboy-indian.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-indian.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-indian.txt $SSLMAIN"
@@ -657,7 +660,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-vietnam.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
-    echo "Updated: fanboy-vietnam.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    echo "Updated fanboy-vietnam.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-vietnam.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-vietnam.txt $SSLMAIN"
@@ -697,7 +700,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-chinese.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
-    echo "Updated: fanboy-chinese.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    echo "Updated fanboy-chinese.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-chinese.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-chinese.txt $SSLMAIN"
@@ -737,7 +740,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-espanol.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
-    echo "Updated: fanboy-espanol.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    echo "Updated fanboy-espanol.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-espanol.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-espanol.txt $SSLMAIN"
@@ -785,7 +788,7 @@ then
     ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $SSLGOOGLE"
     ### ls -al $MAINDIR/fanboy-swedish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt
     # Log
-    echo "Updated: fanboy-swedish.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    echo "Updated fanboy-swedish.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u  $MAINDIR/fanboy-swedish.txt.gz
@@ -826,7 +829,7 @@ then
     ### echo "SSLGOOGLE: $GOOGLEDIR/other/adblock-gannett.txt $SSLGOOGLE"
     ### ls -al $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
     # Log
-    echo "Updated: fanboy-gannett.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    echo "Updated fanboy-gannett.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cp -f $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
     # Properly wipe old file.
     $SHRED -n 3 -z -u $MAINDIR/adblock-gannett.txt.gz
