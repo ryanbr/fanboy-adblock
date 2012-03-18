@@ -76,20 +76,20 @@ then
   ### echo "Updated fanboy+polish.txt"
   echo "Updated /r/fanboy+polish.txt (merged fanboy+polish) (script: firefox-adblock-pol.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
 else
-  # Copy Merged file to main dir
-  #
-  cp $TESTDIR/fanboy-pol-merged-bak.txt $MAINDIR/r/fanboy+polish.txt
-  
   # Add checksum
   #
   sleep 2
   perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-pol-merged-bak.txt
   
+  # Copy Merged file to main dir
+  #
+  cp $TESTDIR/fanboy-pol-merged-bak.txt $MAINDIR/r/fanboy+polish.txt
+   
   # Compress file
   #
   rm -f $MAINDIR/r/fanboy+polish.txt.gz
   
-  ### echo "Updated fanboy+polish.txt"
+  ### echo "Updated fanboy+polish.txt (checksum zerod file)"
   $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+polish.txt.gz $TESTDIR/fanboy-pol-merged-bak.txt > /dev/null
   echo "*** ERROR ***: Addchecksum Zero'd the file: fanboy+polish.txt (script: firefox-adblock-pol.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
 fi
