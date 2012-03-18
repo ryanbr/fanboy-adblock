@@ -52,7 +52,7 @@ cp -f $TESTDIR/fanboy-krn-merged.txt $TESTDIR/fanboy-krn-merged-bak.txt
 #
 perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-krn-merged.txt
 
-if [ -s $TESTDIR/fanboy-tky-merged.txt ];
+if [ -s $TESTDIR/fanboy-krn-merged.txt ];
 then
   # Copy Merged file to main dir
   #
