@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Regional Tracking Combination script v1.3 (11/03/2012)
+# Fanboy Regional Tracking Combination script v1.4 (18/03/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,6 +11,7 @@ MAINDIR="/var/www/adblock"
 GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 TESTDIR="/tmp/ramdisk"
 ZIP="/usr/local/bin/7za"
+NICE="nice -n 19"
 
 # Make Ramdisk.
 #
@@ -68,11 +69,39 @@ sed -i '/gemius_/d' $TESTDIR/fanboy-rus-track.txt
 cat $TESTDIR/fanboy-esp-track.txt $TESTDIR/fanboy-cz-track.txt $TESTDIR/fanboy-rus-track.txt $TESTDIR/fanboy-vtn-track.txt $TESTDIR/fanboy-tky-track.txt $TESTDIR/fanboy-jpn-track.txt $TESTDIR/fanboy-krn-track.txt $TESTDIR/fanboy-ita-track.txt $TESTDIR/fanboy-pol-track.txt $TESTDIR/fanboy-chn-track.txt $TESTDIR/fanboy-swe-track.txt $TESTDIR/fanboy-ind-track.txt > $TESTDIR/fanboy-track-test-ie.txt
 # Merge enhanced for Firefox
 cat $GOOGLEDIR/enhancedstats-addon.txt $TESTDIR/fanboy-track-test-ie.txt > $TESTDIR/fanboy-track-test.txt
-perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-track-test.txt
-cp -f $TESTDIR/fanboy-track-test.txt $MAINDIR/enhancedstats.txt
-# mv -f $TESTDIR/fanboy-track-test.txt $MAINDIR/fanboy-tracking-complete.txt
-
-# Compress file
+# Create a backup incase addchecksum "zeros" the file
 #
-rm -f $MAINDIR/enhancedstats.txt.gz
-$ZIP a -mx=9 -y -tgzip $MAINDIR/enhancedstats.txt.gz $TESTDIR/fanboy-track-test.txt > /dev/null
+cp -f $TESTDIR/fanboy-track-test.txt $TESTDIR/fanboy-track-bak.txt
+perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-track-test.txt
+
+# Now lets check if fanboy-track-test.txt isnt zero
+#
+if [ -s $TESTDIR/fanboy-track-test.txt ];
+then
+  cp -f $TESTDIR/fanboy-track-test.txt $MAINDIR/enhancedstats.txt
+  # mv -f $TESTDIR/fanboy-track-test.txt $MAINDIR/fanboy-tracking-complete.txt
+
+  ### echo "Updated enhancedstats.txt"
+  rm -f $MAINDIR/enhancedstats.txt.gz
+  # Compress file
+  #
+  $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/enhancedstats.txt.gz $TESTDIR/fanboy-track-test.txt > /dev/null
+  # Log
+  echo "Updated enhancedstats.txt (script: firefox-adblock-intl-tracking.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+else
+  # Use the backup file (fanboy-track-test.txt was zero'd by addchecksum)
+  #
+  sleep 2
+  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-track-bak.txt
+  cp -f $TESTDIR/fanboy-track-bak.txt $MAINDIR/enhancedstats.txt
+  # mv -f $TESTDIR/fanboy-track-test.txt $MAINDIR/fanboy-tracking-complete.txt
+
+  ### echo "Updated enhancedstats.txt (file was zero)"
+  rm -f $MAINDIR/enhancedstats.txt.gz
+  # Compress file
+  #
+  $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/enhancedstats.txt.gz $TESTDIR/fanboy-track-test.txt > /dev/null
+  # Log
+  echo "*** ERROR ***: Addchecksum Zero'd the file: enhancedstats.txt (script: firefox-adblock-intl-tracking.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+fi
+  
