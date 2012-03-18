@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.peoples.ru/undertake/show_bisness/puchkov/
+
+[filters]
+http://img.teaser-goods.ru/i/1507.jpg?b=45
+http://img.teaser-goods.ru/i/1509.jpg?b=45
+http://teaser-goods.ru/statistic/getblocks/?new&p=45_1,function%20(A)%20{%20%20%20%20return%20this.indexOf(A)%20!=%20-1;},function%20(A)%20{%20%20%20%20return%20this.concat();},function%20(B,%20A)%20{%20%20%20%20this.splice(A,%200,%20B);},function%20(C,%20B)%20{%20%20%20%20var%20A%20=%20this.indexOf(B);%20%20%20%20if%20(A%20==%20-1)%20{%20%20%20%20%20%20%20%20this.push(C);%20%20%20%20}%20else%20{%20%20%20%20%20%20%20%20this.splice(A,%200,%20C);%20%20%20%20}},function%20(A)%20{%20%20%20%20this.splice(A,%201);},function%20(B)%20{%20%20%20%20var%20A%20=%20this.indexOf(B);%20%20%20%20if%20(A%20!=%20-1)%20{%20%20%20%20%20%20%20%20this.splice(A,%201);%20%20%20%20}}&rt=3&r=teasercc_45_1%2Cfunction%20%28A%29%20%7B%0A%20%20%20%20return%20this.indexOf%28A%29%20%21%3D%20-1%3B%0A%7D%2Cfunction%20%28A%29%20%7B%0A%20%20%20%20return%20this.concat%28%29%3B%0A%7D%2Cfunction%20%28B%2C%20A%29%20%7B%0A%20%20%20%20this.splice%28A%2C%200%2C%20B%29%3B%0A%7D%2Cfunction%20%28C%2C%20B%29%20%7B%0A%20%20%20%20var%20A%20%3D%20this.indexOf%28B%29%3B%0A%20%20%20%20if%20%28A%20%3D%3D%20-1%29%20%7B%0A%20%20%20%20%20%20%20%20this.push%28C%29%3B%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20this.splice%28A%2C%200%2C%20C%29%3B%0A%20%20%20%20%7D%0A%7D%2Cfunction%20%28A%29%20%7B%0A%20%20%20%20this.splice%28A%2C%201%29%3B%0A%7D%2Cfunction%20%28B%29%20%7B%0A%20%20%20%20var%20A%20%3D%20this.indexOf%28B%29%3B%0A%20%20%20%20if%20%28A%20%21%3D%20-1%29%20%7B%0A%20%20%20%20%20%20%20%20this.splice%28A%2C%201%29%3B%0A%20%20%20%20%7D%0A%7D%7Chttp%253A//forums.fanboy.co.nz/forums/viewtopic.php%253Ff%253D7%2526t%253D11394s=1920_1080_24&t=0.23676893774315177&u=http%3A//www.peoples.ru/undertake/show_bisness/puchkov/&cref=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D7%26t%3D11394
+http://teaser-goods.ru/statistics/block4.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
