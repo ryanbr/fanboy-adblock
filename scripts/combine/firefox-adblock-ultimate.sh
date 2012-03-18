@@ -100,10 +100,10 @@ then
      cp $TESTDIR/fanboy-complete.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
      ## DEBUG
      ### echo "Updated fanboy-complete"
-     echo "Updated fanboy-complete.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+     echo "Updated fanboy-complete.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
   else
      ### echo "Unable to update fanboy-complete"
-     echo "*** ERROR ***: Unable to update fanboy-complete.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+     echo "*** ERROR ***: Unable to update fanboy-complete.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
   fi
 
   # Check Compressed file exists first for -ultimate
@@ -114,10 +114,10 @@ then
      cp $TESTDIR/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-ultimate.txt.gz
      ## DEBUG
      ### echo "Updated fanboy-ultimate"
-     echo "Updated fanboy-ultimate.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+     echo "Updated fanboy-ultimate.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
   else
      ### echo "Unable to update fanboy-ultimate"
-     echo "*** ERROR ***: Unable to update fanboy-ultimate.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+     echo "*** ERROR ***: Unable to update fanboy-ultimate.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
   fi
 else
   # Use the backup file (fanboy-merged.txt was zero'd by addchecksum)
