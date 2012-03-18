@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://love.raid.ru/
+
+
+[filters]
+||sp*.lovesupport.ru^$third-party,domain=~mail.ru|~neolove.ru|~mamba.ru remove
+
+
+
+
+[other]
+blocked user photos. rule: ||sp*.lovesupport.ru^$third-party,domain=~mail.ru|~neolove.ru|~mamba.ru
+
+
+[comments]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11399
