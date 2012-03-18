@@ -87,7 +87,7 @@ then
    echo "Updated fanboy-complete.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
 else
    ### echo "Unable to update fanboy-complete"
-   echo "Unable to update fanboy-complete.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+   echo "*** ERROR ***: Unable to update fanboy-complete.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
 fi
 
 # Check Compressed file exists first for -ultimate
@@ -101,7 +101,7 @@ then
    echo "Updated fanboy-ultimate.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
 else
    ### echo "Unable to update fanboy-ultimate"
-   echo "Unable to update fanboy-ultimate.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+   echo "*** ERROR ***: Unable to update fanboy-ultimate.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
 fi
 
 
