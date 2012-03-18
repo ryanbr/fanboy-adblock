@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://film-goblin.nm.ru/
+
+
+[filters]
+http://all-web.ru/button.php?id=5938
+http://br.gcl.ru/cgi-bin/br/br24998_2.cgi?1&1&2451&iframe&ref=http%3A//film-goblin.nm.ru/
+http://top.winrate.net/cookie.php?id=907
+http://top.winrate.net/img.php?id=907&&refer=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D7%26t%3D11393&page=http%3A//film-goblin.nm.ru/&c=yes&java=yes&razresh=1920x1080&cvet=24&jscript=1.3&
+http://www.agates.ru/counters/?f=6574&c=2
+http://www.climatecontrol.ru/counters/?f=5718&c=1
+http://www.sitecreation.ru/counters/?f=8423&c=25
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
