@@ -11,6 +11,7 @@ MAINDIR="/var/www/adblock"
 GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 TESTDIR="/tmp/ramdisk"
 ZIP="/usr/local/bin/7za"
+NICE="nice -n 19"
 
 # Make Ramdisk.
 #
@@ -46,13 +47,49 @@ sed '$d' < $TESTDIR/fanboy-tky-temp.txt > $TESTDIR/fanboy-tky-temp2.txt
 # Merge to the files together
 #
 cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-tky-temp2.txt > $TESTDIR/fanboy-tky-merged.txt
+
+# Create a backup incase addchecksum "zeros" the file
+#
+cp -f $TESTDIR/fanboy-tky-merged.txt $TESTDIR/fanboy-tky-merged-bak.txt
+
+# Add checksum
+#
 perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-tky-merged.txt
 
-# Copy Merged file to main dir
-#
-cp $TESTDIR/fanboy-tky-merged.txt $MAINDIR/r/fanboy+turkish.txt
+if [ -s $TESTDIR/fanboy-tky-merged.txt ];
+then
+  # Copy Merged file to main dir
+  #
+  cp $TESTDIR/fanboy-tky-merged.txt $MAINDIR/r/fanboy+turkish.txt
 
-# Compress file
-#
-rm -f $MAINDIR/r/fanboy+turkish.txt.gz
-$ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+turkish.txt.gz $MAINDIR/r/fanboy+turkish.txt > /dev/null
+  # Compress file
+  #
+  rm -f $MAINDIR/r/fanboy+turkish.txt.gz
+  $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+turkish.txt.gz $MAINDIR/r/fanboy+turkish.txt > /dev/null
+  # log
+  ### echo "Updated fanboy+turkish.txt"
+  echo "Updated /r/fanboy+turkish.txt (merged fanboy+turkish) (script: firefox-adblock-turk.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  # Clear old Variables
+  #
+  rm -rf $TESTDIR/fanboy-tky-*
+else
+  # Add checksum
+  #
+  sleep 2
+  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-tky-merged-bak.txt
+  
+  # Copy Merged file to main dir
+  #
+  cp $TESTDIR/fanboy-tky-merged-bak.txt $MAINDIR/r/fanboy+turkish.txt
+
+  # Compress file
+  #
+  rm -f $MAINDIR/r/fanboy+turkish.txt.gz
+  $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+turkish.txt.gz $MAINDIR/r/fanboy+turkish.txt > /dev/null
+  # log
+  ### echo "Updated fanboy+turkish.txt (checksum zerod file)"
+  echo "*** ERROR ***: Addchecksum Zero'd the file: fanboy+turkish.txt (script: firefox-adblock-turk.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  # Clear old Variables
+  #
+  rm -rf $TESTDIR/fanboy-tky-*
+fi
