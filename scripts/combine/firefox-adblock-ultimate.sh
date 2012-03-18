@@ -86,6 +86,11 @@ then
   #
   $NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-complete.txt.gz $TESTDIR/fanboy-complete.txt > /dev/null
   $NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate.txt > /dev/null
+  
+  # Copy to server
+  #
+  cp -f $TESTDIR/fanboy-complete.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
+  cp -f $TESTDIR/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-ultimate.txt.gz
 
   # Check Compressed file exists first for -complete
   #
@@ -124,18 +129,27 @@ else
   perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-complete-bak.txt
   sleep 2
   perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-ultimate-bak.txt
+  
   # Copy Merged file to main dir
   #
   cp -f $TESTDIR/fanboy-complete-bak.txt $MAINDIR/r/fanboy-complete.txt
   cp -f $TESTDIR/fanboy-ultimate-bak.txt $MAINDIR/r/fanboy-ultimate.txt
+  
   # Delete files before compressing
   #
   rm -f $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-complete.txt.gz
+  
   # Compress Files
   #
   $NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-complete.txt.gz $TESTDIR/fanboy-complete-bak.txt > /dev/null
   sleep 2
   $NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate-bak.txt > /dev/null
+  
+  # Copy to server
+  #
+  cp -f $TESTDIR/fanboy-complete.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
+  cp -f $TESTDIR/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-ultimate.txt.gz
+  
   # Log
   echo "*** ERROR ***: Addchecksum Zero'd the file: fanboy-adblock-ultimate.txt (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
 fi
