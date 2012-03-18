@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy-Merge-complete Adblock list grabber script v1.0 (18/06/2011)
+# Fanboy-Merge-complete Adblock list grabber script v1.1 (18/03/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,6 +12,8 @@ MAINDIR="/var/www/adblock"
 GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 TESTDIR="/tmp/ramdisk"
 ZIP="/usr/local/bin/7za"
+NICE="nice -n 19"
+DATE="`date`"
 
 # Make Ramdisk.
 #
@@ -39,13 +41,47 @@ cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-complete.txt $TESTDIR/fanboy-enh
 # Remove Empty Lines
 #
 sed '/^$/d' $TESTDIR/fanboy-merged2.txt > $TESTDIR/fanboy-merged.txt
+
+# Create a backup incase addchecksum "zeros" the file
+#
+cp -f $TESTDIR/fanboy-merged.txt $TESTDIR/fanboy-merged-bak.txt
+
+# Add checksum to file
+#
 perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-merged.txt
 
-# Copy Merged file to main dir
+# Now lets check if fanboy-merged.txt isnt zero
 #
-cp $TESTDIR/fanboy-merged.txt $MAINDIR/r/fanboy+tracking+addon.txt
+if [ -s $TESTDIR/fanboy-merged.txt ];
+then
+  # Copy Merged file to main dir
+  #
+  cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/r/fanboy+tracking+addon.txt
 
-# Compress file
-#
-rm -f $MAINDIR/r/fanboy+tracking+addon.txt.gz
-$ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+tracking+addon.txt.gz $MAINDIR/r/fanboy+tracking+addon.txt > /dev/null
+  # Compress file
+  #
+  ### echo "Updated fanboy+tracking+addon.txt"
+  rm -f $MAINDIR/r/fanboy+tracking+addon.txt.gz
+  # Compress file
+  $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+tracking+addon.txt.gz $MAINDIR/r/fanboy+tracking+addon.txt > /dev/null
+  # Log
+  echo "Updated fanboy+tracking+addon.txt (script: firefox-adblock-merged.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+else
+  # Use the backup file (fanboy-merged.txt was zero'd by addchecksum)
+  #
+  sleep 2
+  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-merged-bak.txt
+  
+  # Copy Merged file to main dir
+  #
+  cp -f $TESTDIR/fanboy-merged-bak.txt $MAINDIR/r/fanboy+tracking+addon.txt
+  
+  # Compress file
+  #
+  ### echo "Updated fanboy+tracking+addon.txt (file was zero)"
+  rm -f $MAINDIR/r/fanboy+tracking+addon.txt.gz
+  # Compress file
+  $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+tracking+addon.txt.gz $MAINDIR/r/fanboy+tracking+addon.txt > /dev/null
+  # Log
+  echo "*** ERROR ***: Addchecksum Zero'd the file: fanboy-merged.txt (script: firefox-adblock-merged.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+fi
