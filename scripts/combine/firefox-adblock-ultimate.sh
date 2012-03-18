@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy-Merge (Ultimate) Adblock list grabber script v1.0 (29/01/2012)
+# Fanboy-Merge (Ultimate) Adblock list grabber script v1.1 (18/03/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,6 +11,8 @@ MAINDIR="/var/www/adblock"
 GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 TESTDIR="/tmp/ramdisk"
 ZIP="/usr/local/bin/7za"
+NICE="nice -n 19"
+DATE="`date`"
 
 # Make Ramdisk.
 #
@@ -65,12 +67,41 @@ perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-ultimate.txt
 cp $TESTDIR/fanboy-complete.txt $MAINDIR/r/fanboy-complete.txt
 cp $TESTDIR/fanboy-ultimate.txt $MAINDIR/r/fanboy-ultimate.txt
 
-rm -f $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate.txt.gz
+# Delete files before compressing
+#
+rm -f $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-complete.txt.gz
 
-$ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-complete.txt.gz $TESTDIR/fanboy-complete.txt > /dev/null
-$ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate.txt > /dev/null
+# Compress Files
+#
+$NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-complete.txt.gz $TESTDIR/fanboy-complete.txt > /dev/null
+$NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate.txt > /dev/null
 
-cp $TESTDIR/fanboy-complete.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
-cp $TESTDIR/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-ultimate.txt.gz
+# Check Compressed file exists first for -complete
+#
+if [ -f $TESTDIR/fanboy-complete.txt.gz ];
+then
+   rm -f $MAINDIR/r/fanboy-complete.txt.gz
+   cp $TESTDIR/fanboy-complete.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
+   ## DEBUG
+   ### echo "Updated fanboy-complete"
+   echo "Updated fanboy-complete.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+else
+   ### echo "Unable to update fanboy-complete"
+   echo "Unable to update fanboy-complete.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+fi
 
-rm -f $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate.txt.gz
+# Check Compressed file exists first for -ultimate
+#
+if [ -f $TESTDIR/fanboy-ultimate.txt.gz ];
+then
+   rm -rf $MAINDIR/r/fanboy-ultimate.txt.gz
+   cp $TESTDIR/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-ultimate.txt.gz
+   ## DEBUG
+   ### echo "Updated fanboy-ultimate"
+   echo "Updated fanboy-ultimate.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+else
+   ### echo "Unable to update fanboy-ultimate"
+   echo "Unable to update fanboy-ultimate.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+fi
+
+
