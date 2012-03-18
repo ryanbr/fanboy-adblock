@@ -59,49 +59,85 @@ cat $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt | sed '$a!' > $TESTDIR/fa
 #
 cat $TESTDIR/fanboy-adblocklist-current.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt $TESTDIR/fanboy-addon-temp3.txt > $TESTDIR/fanboy-ultimate.txt
 cat $TESTDIR/fanboy-adblocklist-current.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt > $TESTDIR/fanboy-complete.txt
+# Create backups for zero'd addchecksum
+#
+cp -f $TESTDIR/fanboy-complete.txt $TESTDIR/fanboy-complete-bak.txt
+cp -f $TESTDIR/fanboy-ultimate.txt $TESTDIR/fanboy-ultimate-bak.txt
+# Addchecksum
+#
 perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-complete.txt
 perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-ultimate.txt
 
-# Copy Merged file to main dir
-#
-cp $TESTDIR/fanboy-complete.txt $MAINDIR/r/fanboy-complete.txt
-cp $TESTDIR/fanboy-ultimate.txt $MAINDIR/r/fanboy-ultimate.txt
 
-# Delete files before compressing
+# Now lets check if fanboy-merged.txt isnt zero
 #
-rm -f $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-complete.txt.gz
-
-# Compress Files
-#
-$NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-complete.txt.gz $TESTDIR/fanboy-complete.txt > /dev/null
-$NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate.txt > /dev/null
-
-# Check Compressed file exists first for -complete
-#
-if [ -f $TESTDIR/fanboy-complete.txt.gz ];
+if [ -s $TESTDIR/fanboy-complete.txt ] && [ -s $TESTDIR/fanboy-ultimate.txt ];
 then
-   rm -f $MAINDIR/r/fanboy-complete.txt.gz
-   cp $TESTDIR/fanboy-complete.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
-   ## DEBUG
-   ### echo "Updated fanboy-complete"
-   echo "Updated fanboy-complete.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
-else
-   ### echo "Unable to update fanboy-complete"
-   echo "*** ERROR ***: Unable to update fanboy-complete.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
-fi
+  # Copy Merged file to main dir
+  #
+  cp -f $TESTDIR/fanboy-complete.txt $MAINDIR/r/fanboy-complete.txt
+  cp -f $TESTDIR/fanboy-ultimate.txt $MAINDIR/r/fanboy-ultimate.txt
 
-# Check Compressed file exists first for -ultimate
-#
-if [ -f $TESTDIR/fanboy-ultimate.txt.gz ];
-then
-   rm -rf $MAINDIR/r/fanboy-ultimate.txt.gz
-   cp $TESTDIR/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-ultimate.txt.gz
-   ## DEBUG
-   ### echo "Updated fanboy-ultimate"
-   echo "Updated fanboy-ultimate.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  # Delete files before compressing
+  #
+  rm -f $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-complete.txt.gz
+
+  # Compress Files
+  #
+  $NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-complete.txt.gz $TESTDIR/fanboy-complete.txt > /dev/null
+  $NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate.txt > /dev/null
+
+  # Check Compressed file exists first for -complete
+  #
+  if [ -f $TESTDIR/fanboy-complete.txt.gz ];
+  then
+     rm -f $MAINDIR/r/fanboy-complete.txt.gz
+     cp $TESTDIR/fanboy-complete.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
+     ## DEBUG
+     ### echo "Updated fanboy-complete"
+     echo "Updated fanboy-complete.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  else
+     ### echo "Unable to update fanboy-complete"
+     echo "*** ERROR ***: Unable to update fanboy-complete.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  fi
+
+  # Check Compressed file exists first for -ultimate
+  #
+  if [ -f $TESTDIR/fanboy-ultimate.txt.gz ];
+  then
+     rm -rf $MAINDIR/r/fanboy-ultimate.txt.gz
+     cp $TESTDIR/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-ultimate.txt.gz
+     ## DEBUG
+     ### echo "Updated fanboy-ultimate"
+     echo "Updated fanboy-ultimate.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  else
+     ### echo "Unable to update fanboy-ultimate"
+     echo "*** ERROR ***: Unable to update fanboy-ultimate.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  fi
 else
-   ### echo "Unable to update fanboy-ultimate"
-   echo "*** ERROR ***: Unable to update fanboy-ultimate.txt.gz on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  # Use the backup file (fanboy-merged.txt was zero'd by addchecksum)
+  ### echo "Updated fanboy-enhanced.txt (file was zero)"
+  #
+  sleep 2
+  # Addchecksum
+  #
+  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-complete-bak.txt
+  sleep 2
+  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-ultimate-bak.txt
+  # Copy Merged file to main dir
+  #
+  cp -f $TESTDIR/fanboy-complete-bak.txt $MAINDIR/r/fanboy-complete.txt
+  cp -f $TESTDIR/fanboy-ultimate-bak.txt $MAINDIR/r/fanboy-ultimate.txt
+  # Delete files before compressing
+  #
+  rm -f $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-complete.txt.gz
+  # Compress Files
+  #
+  $NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-complete.txt.gz $TESTDIR/fanboy-complete-bak.txt > /dev/null
+  sleep 2
+  $NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate-bak.txt > /dev/null
+  # Log
+  echo "*** ERROR ***: Addchecksum Zero'd the file: fanboy-adblock-ultimate.txt (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
 fi
 
 
