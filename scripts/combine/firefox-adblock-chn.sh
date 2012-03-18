@@ -11,6 +11,7 @@ MAINDIR="/var/www/adblock"
 GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 TESTDIR="/tmp/ramdisk"
 ZIP="/usr/local/bin/7za"
+NICE="nice -n 19"
 
 # Make Ramdisk.
 #
@@ -42,13 +43,52 @@ sed '$d' < $TESTDIR/fanboy-chn-temp.txt > $TESTDIR/fanboy-chn-temp2.txt
 # Merge to the files together
 #
 cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-chn-temp2.txt > $TESTDIR/fanboy-chn-merged.txt
+
+# Create a backup incase addchecksum "zeros" the file
+#
+cp -f $TESTDIR/fanboy-chn-merged.txt $TESTDIR/fanboy-chn-merged-bak.txt
+
+# Add checksum
+#
 perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-chn-merged.txt
 
-# Copy Merged file to main dir
-#
-cp $TESTDIR/fanboy-chn-merged.txt $MAINDIR/r/fanboy+chinese.txt
+if [ -s $TESTDIR/fanboy-chn-merged.txt ];
+then
+  # Copy Merged file to main dir
+  #
+  cp $TESTDIR/fanboy-chn-merged.txt $MAINDIR/r/fanboy+chinese.txt
 
-# Compress file
-#
-rm -f $MAINDIR/r/fanboy+chinese.txt.gz
-$ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+chinese.txt.gz $MAINDIR/r/fanboy+chinese.txt > /dev/null
+  # Compress file
+  #
+  rm -f $MAINDIR/r/fanboy+chinese.txt.gz
+  $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+chinese.txt.gz $MAINDIR/r/fanboy+chinese.txt > /dev/null > /dev/null
+  
+  # log
+  ### echo "Updated fanboy+chinese.txt"
+  echo "Updated /r/fanboy+chinese.txt (merged fanboy+chinese) (script: firefox-adblock-chn.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  # Clear old Variables
+  #
+  rm -rf $TESTDIR/fanboy-chn-*
+else
+  # Add checksum
+  #
+  sleep 2
+  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-chn-merged-bak.txt
+  
+  # Copy Merged file to main dir
+  #
+  cp $TESTDIR/fanboy-chn-merged-bak.txt $MAINDIR/r/fanboy+chinese.txt
+   
+  # Compress file
+  #
+  rm -f $MAINDIR/r/fanboy+chinese.txt.gz
+  
+  ### echo "Updated fanboy+chinese.txt (checksum zerod file)"
+  $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+chinese.txt.gz $MAINDIR/r/fanboy+chinese.txt > /dev/null > /dev/null
+  echo "*** ERROR ***: Addchecksum Zero'd the file: fanboy+chinese.txt (script: firefox-adblock-chn.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  # Clear old Variables
+  #
+  rm -rf $TESTDIR/fanboy-chn-*
+fi
+
+
