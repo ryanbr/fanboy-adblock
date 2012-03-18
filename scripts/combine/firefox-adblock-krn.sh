@@ -11,6 +11,7 @@ MAINDIR="/var/www/adblock"
 GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 TESTDIR="/tmp/ramdisk"
 ZIP="/usr/local/bin/7za"
+NICE="nice -n 19"
 
 # Make Ramdisk.
 #
@@ -42,13 +43,51 @@ sed '$d' < $TESTDIR/fanboy-krn-temp.txt > $TESTDIR/fanboy-krn-temp2.txt
 # Merge to the files together
 #
 cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-krn-temp2.txt > $TESTDIR/fanboy-krn-merged.txt
+
+# Create a backup incase addchecksum "zeros" the file
+#
+cp -f $TESTDIR/fanboy-krn-merged.txt $TESTDIR/fanboy-krn-merged-bak.txt
+
+# Add checksum
+#
 perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-krn-merged.txt
 
-# Copy Merged file to main dir
-#
-cp $TESTDIR/fanboy-krn-merged.txt $MAINDIR/r/fanboy+korean.txt
+if [ -s $TESTDIR/fanboy-tky-merged.txt ];
+then
+  # Copy Merged file to main dir
+  #
+  cp $TESTDIR/fanboy-krn-merged.txt $MAINDIR/r/fanboy+korean.txt
 
-# Compress file
-#
-rm -f $MAINDIR/r/fanboy+korean.txt.gz
-$ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+korean.txt.gz $MAINDIR/r/fanboy+korean.txt > /dev/null
+  # Compress file
+  #
+  rm -f $MAINDIR/r/fanboy+korean.txt.gz
+  $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+korean.txt.gz $TESTDIR/fanboy-krn-merged.txt > /dev/null
+  
+  # log
+  ### echo "Updated fanboy+korean.txt"
+  echo "Updated /r/fanboy+korean.txt (merged fanboy+korean) (script: firefox-adblock-krn.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  # Clear old Variables
+  #
+  rm -rf $TESTDIR/fanboy-krn-*
+else
+  # Add checksum
+  #
+  sleep 2
+  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-krn-merged-bak.txt
+  
+  # Copy Merged file to main dir
+  #
+  cp $TESTDIR/fanboy-krn-merged-bak.txt $MAINDIR/r/fanboy+korean.txt
+
+  # Compress file
+  #
+  rm -f $MAINDIR/r/fanboy+korean.txt.gz
+  $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+korean.txt.gz $TESTDIR/fanboy-krn-merged-bak.txt > /dev/null
+  
+  # log
+  ### echo "Updated fanboy+korean.txt (checksum zerod file)"
+  echo "*** ERROR ***: Addchecksum Zero'd the file: fanboy+korean.txt (script: firefox-adblock-krn.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  # Clear old Variables
+  #
+  rm -rf $TESTDIR/fanboy-krn-*
+fi
