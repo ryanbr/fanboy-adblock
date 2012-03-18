@@ -222,7 +222,7 @@ fi
 # Store Encryption data on whats on the server vs googlecode
 #
 SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/enhancedstats-addon.txt | cut -d' ' -f1)
-SSLMAIN=$($SHA256SUM $MAINDIR/enhancedstats.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/enhancedstats.txt-org | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/enhancedstats.txt $SSLMAIN"
@@ -242,6 +242,8 @@ then
     rm -f $TESTDIR/enhancedstats.txt $TESTDIR/enhancedstats.txt.gz
     # Copy list from repo to RAMDISK
     cp -f $GOOGLEDIR/enhancedstats-addon.txt $TESTDIR/enhancedstats.txt
+    # Copy Orginal file over
+    cp -f $GOOGLEDIR/enhancedstats-addon.txt $TESTDIR/enhancedstats.txt-org
     # GZip
     $ZIP a -mx=9 -y -tgzip $TESTDIR/enhancedstats.txt.gz $TESTDIR/enhancedstats.txt > /dev/null
     # Create a log
