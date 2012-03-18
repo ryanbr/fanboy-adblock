@@ -67,6 +67,9 @@ then
   # log
   ### echo "Updated fanboy+italian.txt"
   echo "Updated /r/fanboy+polish.txt (merged fanboy+polish) (script: firefox-adblock-pol.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  # Clear old Variables
+  #
+  rm -rf $TESTDIR/fanboy-ita-*
 else
   # Add checksum
   #
@@ -84,4 +87,7 @@ else
   # log
   ### echo "Updated fanboy+italain.txt (checksum zerod file)"
   echo "*** ERROR ***: Addchecksum Zero'd the file: fanboy+italian.txt (script: firefox-adblock-ita.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  # Clear old Variables
+  #
+  rm -rf $TESTDIR/fanboy-ita-*
 fi

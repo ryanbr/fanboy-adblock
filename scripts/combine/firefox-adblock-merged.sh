@@ -66,6 +66,9 @@ then
   $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+tracking+addon.txt.gz $MAINDIR/r/fanboy+tracking+addon.txt > /dev/null
   # Log
   echo "Updated fanboy+tracking+addon.txt (script: firefox-adblock-merged.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  # Clear old Variables
+  #
+  rm -rf $TESTDIR/fanboy-merged*
 else
   # Use the backup file (fanboy-merged.txt was zero'd by addchecksum)
   #
@@ -84,4 +87,7 @@ else
   $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+tracking+addon.txt.gz $MAINDIR/r/fanboy+tracking+addon.txt > /dev/null
   # Log
   echo "*** ERROR ***: Addchecksum Zero'd the file: fanboy-merged.txt (script: firefox-adblock-merged.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  # Clear old Variables
+  #
+  rm -rf $TESTDIR/fanboy-merged*
 fi
