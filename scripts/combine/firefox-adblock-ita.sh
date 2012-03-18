@@ -11,6 +11,7 @@ MAINDIR="/var/www/adblock"
 GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 TESTDIR="/tmp/ramdisk"
 ZIP="/usr/local/bin/7za"
+NICE="nice -n 19"
 
 # Make Ramdisk.
 #
@@ -23,7 +24,6 @@ if [ ! -d "/tmp/ramdisk/" ]; then
   mount -t tmpfs -o size=30M tmpfs /tmp/ramdisk/
   mkdir /tmp/ramdisk/opera/
 fi
-
 
 
 # Trim off header file (first 2 lines)
@@ -45,13 +45,43 @@ sed '$d' < $TESTDIR/fanboy-ita-temp.txt > $TESTDIR/fanboy-ita-temp2.txt
 # Merge to the files together
 #
 cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-ita-temp2.txt > $TESTDIR/fanboy-ita-merged.txt
+
+# Create a backup incase addchecksum "zeros" the file
+#
+cp -f $TESTDIR/fanboy-ita-merged.txt $TESTDIR/fanboy-ita-merged-bak.txt
+
+# Add checksum
+#
 perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-ita-merged.txt
 
-# Copy Merged file to main dir
-#
-cp $TESTDIR/fanboy-ita-merged.txt $MAINDIR/r/fanboy+italian.txt
-
-# Compress file
-#
-rm -f $MAINDIR/r/fanboy+italian.txt.gz
-$ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+italian.txt.gz $MAINDIR/r/fanboy+italian.txt > /dev/null
+if [ -s $TESTDIR/fanboy-ita-merged.txt ];
+then
+  # Copy Merged file to main dir
+  #
+  cp $TESTDIR/fanboy-ita-merged.txt $MAINDIR/r/fanboy+italian.txt
+  
+  # Compress file
+  #
+  rm -f $MAINDIR/r/fanboy+italian.txt.gz
+  $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+italian.txt.gz $MAINDIR/r/fanboy+italian.txt > /dev/null
+  # log
+  ### echo "Updated fanboy+italian.txt"
+  echo "Updated /r/fanboy+polish.txt (merged fanboy+polish) (script: firefox-adblock-pol.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+else
+  # Add checksum
+  #
+  sleep 2
+  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-ita-merged-bak.txt
+  
+  # Copy Merged file to main dir
+  #
+  cp $TESTDIR/fanboy-ita-merged-bak.txt $MAINDIR/r/fanboy+italian.txt
+  
+  # Compress file
+  #
+  rm -f $MAINDIR/r/fanboy+italian.txt.gz
+  $NICE $ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+italian.txt.gz $MAINDIR/r/fanboy+italian.txt > /dev/null
+  # log
+  ### echo "Updated fanboy+italain.txt (checksum zerod file)"
+  echo "*** ERROR ***: Addchecksum Zero'd the file: fanboy+italian.txt (script: firefox-adblock-ita.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+fi
