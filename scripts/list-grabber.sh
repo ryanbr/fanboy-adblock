@@ -66,7 +66,7 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
  then
     # Log
     echo "Googles copy: `cat $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt | grep Checksum: ;echo HASH: $SSLGOOGLE`"
-    echo "Googles copy: `cat $MAINDIR/fanboy-adblock.txt | grep Checksum: ;echo HASH: $SSLMAIN`"
+    echo "Local copy: `cat $MAINDIR/fanboy-adblock.txt | grep Checksum: ;echo HASH: $SSLMAIN`"
     echo "Updated fanboy-adblock.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-adblock.txt"
