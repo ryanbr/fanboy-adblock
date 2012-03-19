@@ -49,7 +49,7 @@ echo "------ End of hg pull and Update ------" >> /var/log/adblock-log.txt
 
 # Log Changes
 # 
-$NICE $TAIL -n 80 /var/log/adblock-log.txt > /var/www/adblock.log
+$NICE $TAIL -n 380 /var/log/adblock-log.txt > /var/www/adblock.log
 
 # Main List
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
