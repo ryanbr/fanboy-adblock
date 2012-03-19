@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.coastalwatch.com/
+
+[filters]
+http://www.coastalwatch.com/content/advertSquare.aspx?adLocation=other&adcam=0
+http://www.coastalwatch.com/content/advertVerticalLong.aspx?adLocation=other&adcam=0&catid=0
+http://www.coastalwatch.com/content/advertHorisontalFullWidth.aspx?adLocation=other&adcam=0&catid=0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
