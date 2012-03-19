@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www22.verizon.com/OnDemand/unprotected/MovieDetails.aspx?contentId=TVNX0011600901163040&PName=
+
+
+[filters]
+https://www22.verizon.com/includes/javascript/omnicode.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
