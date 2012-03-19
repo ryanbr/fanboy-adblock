@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://au.eonline.com/news/page/3
+
+
+[filters]
+http://link.theplatform.com/s/CAY1CB/JG51wN_OmRulywXmQTWNujgHHD11IS6n/tracker.log?type=qos&ver=2&d=1332119578812&p=FRONTDOOR_RIGHT&pl=FRONTDOOR_RIGHT&af=au.eonline.com&prid=2975&rid0=2211089670&t0=Rosie%20O%27Donnell%27s%20Talk%20Show%20Cancelled&tc0=1&lp0=0&lt0=0&pb0=100&pp0=0&pr0=0&rid1=2975&tc1=1&lp1=0&lt1=0&pb1=100&pp1=0&pr1=0&nocache=1332119582607
+http://link.theplatform.com/s/CAY1CB/JG51wN_OmRulywXmQTWNujgHHD11IS6n?affiliate=au.eonline.com&player=FRONTDOOR_RIGHT&feed=FRONTDOOR_RIGHT&format=SMIL&Tracking=true&Embedded=true
+http://link.theplatform.com/s/CAY1CB/JG51wN_OmRulywXmQTWNujgHHD11IS6n?affiliate=au.eonline.com&player=FRONTDOOR_RIGHT&feed=FRONTDOOR_RIGHT&format=Script&height=168&width=292
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
