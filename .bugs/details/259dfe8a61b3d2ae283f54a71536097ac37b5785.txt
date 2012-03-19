@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://adv.li/llb
+
+
+[filters]
+http://adv.li/ads/tlvmedia.html
+http://network.adsmarket.es/ceas/1/2/2/ipBqmWWffZW3YmyXYcp8m4pomJhhoH_DkWVtlo2cfJ2MYpiV?w=728&h=90&target=_blank
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
