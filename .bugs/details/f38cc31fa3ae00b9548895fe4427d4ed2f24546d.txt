@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.howcast.com/videos/496962-Cupcake-Decorating-How-to-Make-Simple-Drop-Flowers
+
+
+[filters]
+http://www.howcast.com/flash/assets/ads/liverail.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
