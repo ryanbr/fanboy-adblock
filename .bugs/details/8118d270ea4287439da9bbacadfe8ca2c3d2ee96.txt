@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ontv.brighthouse.com/videos/
+
+
+[filters]
+http://brighthouse.feedroom.com/AdFinder.jsp?oas=true&nsid=a-32932c2d:13629ed6d66:-7fec&ord=531957.59620058&swfAdID=55f2e3577d6ebb36c43a49ea5e4c35702164e17d&syncAd=3&swfCT=http://oascentral.feedroom.com/RealMedia/ads/click_lx.ads/brighthouse.com/movies_coming_bh/library1/L15/774522700/x15/Feedroom/house_brighthouse_interstitial/house_brighthouse_interstitial.html/65552f484355396d3554674141687a67&swfDur=3
+http://brighthouse.feedroom.com/AdFinder.jsp?oas=true&nsid=a-32932c2d:13629ed6d66:-7fec&ord=721196.7109371811&swfAdID=55f2e3577d6ebb36c43a49ea5e4c35702164e17d&syncAd=3&swfCT=http://oascentral.feedroom.com/RealMedia/ads/click_lx.ads/brighthouse.com/movies_coming_bh/library1/L15/966503262/x15/Feedroom/house_brighthouse_interstitial/house_brighthouse_interstitial.html/65552f484355396d3554674141687a67&swfDur=3
+http://feedroom.speedera.net/static.feedroom.com/affiliate/_common/spacer.gif?ver=2011051801
+http://feedroom.speedera.net/static.feedroom.com/affiliate/brighthouse/library1/telegraph/bg.gif?ver=2011051801
+http://feedroom.speedera.net/static.feedroom.com/affiliate/brighthouse/library1/telegraph/bg_repeat-x.gif?ver=2011051801
+http://feedroom.speedera.net/static.feedroom.com/affiliate/brighthouse/library1/telegraph/bt_arrowside_off.gif?ver=2011051801
+http://feedroom.speedera.net/static.feedroom.com/affiliate/brighthouse/library1/telegraph/bt_channeldown_off.gif?ver=2011051801
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
