@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hi-fi.ru/news/active/detail/837770
+
+
+[filters]
+http://www.hi-fi.ru/adwolfScriptScroll.js
+http://www.hi-fi.ru/bitrix/rk.php?id=287&event1=banner&event2=click&event3=1+%2F+%5B287%5D+%5Bright_banner_2%5D+Viewsonic+%28%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D1%8B%29&goto=http%3A%2F%2Fwww.viewsoniceurope.com%2Fru%2F
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
