@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://chaturbate.com/
+
+
+[filters]
+http://www.amateurmatch.com/?ainfo=Mjg0MTl8MXwxMjQw&atcc=22&skin=40
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
