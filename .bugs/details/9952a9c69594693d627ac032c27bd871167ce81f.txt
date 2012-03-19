@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.doubleviking.com/hotties/main.php?g2_itemId=41077
+
+
+[filters]
+http://doubleviking.com/ss.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
