@@ -49,7 +49,7 @@ echo "------ End of hg pull and Update ------" >> /var/log/adblock-log.txt
 
 # Log Changes
 # 
-$NICE $TAIL -n 380 /var/log/adblock-log.txt > /var/www/adblock.log
+$NICE $TAIL -n 500 /var/log/adblock-log.txt > /var/www/adblock.log
 
 # Main List
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
@@ -65,6 +65,8 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-adblock.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
  then
     # Log
+    echo "Googles copy: `cat $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt | grep Checksum: ;echo HASH: $SSLGOOGLE`"
+    echo "Googles copy: `cat $MAINDIR/fanboy-adblock.txt | grep Checksum: ;echo HASH: $SSLMAIN`"
     echo "Updated fanboy-adblock.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-adblock.txt"
