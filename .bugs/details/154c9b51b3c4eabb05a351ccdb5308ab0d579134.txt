@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cesky-jazyk.cz/ctenarsky-denik/evan-hunter/dzungle-pred-tabuli.html
+
+
+[filters]
+http://www.playamo.cz/products/4888/movies/GH_128x128.gif
+cesky-jazyk.cz##.cornerbox
+cesky-jazyk.cz###playamo
+cesky-jazyk.cz###splayamo
+cesky-jazyk.cz##.heurekaIframeHeader
+
+[other]
+# Any other details
+
+
+[comments]
+Moskoe.cz
