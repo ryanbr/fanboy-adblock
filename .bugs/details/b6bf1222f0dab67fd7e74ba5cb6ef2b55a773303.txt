@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.everyeye.it/
+
+[filters]
+http://www.everyeye.it/topskin/2012_tim.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
