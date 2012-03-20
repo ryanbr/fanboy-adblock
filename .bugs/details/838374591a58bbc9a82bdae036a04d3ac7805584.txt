@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://filmixt.com/
+
+
+[filters]
+http://dlvr.readserver.net/tag?section=*&size=*
+
+
+
+
+[other]
+reported
+
+
+[comments]
+fanboy
