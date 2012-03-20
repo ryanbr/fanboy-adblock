@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cisco.com/en/US/products/ps7149/products_ios_protocol_group_home.html
+
+
+[filters]
+http://www.cisco.com/web/fw/m/visualsciences_ut.min.js?v=ut2.0.20100823.1200
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
