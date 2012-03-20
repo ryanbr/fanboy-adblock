@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://issuu.com/trimedia/docs/wk11-ogc/1
+
+
+[filters]
+http://request.issuu.com/dv.txt?id=120315140712-866ca2e9d3c448e9a85eb6f4819d7677&ut=1&m=0&du=trimedia&iv=1&fpv=WIN%2011%2C1%2C102%2C55&unique=1332217635814
+http://sidebar.issuu.com/v?s=i&t=load&id=120315140712-866ca2e9d3c448e9a85eb6f4819d7677&p=p&rv=2.0&v=WIN%2011%2C1%2C102%2C55&unique=1332217635813
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11420
+
+
+[comments]
+fanboy
