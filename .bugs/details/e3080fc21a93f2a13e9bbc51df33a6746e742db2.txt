@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.osnews.com/story/25694/CyanogenMod_9_alpha_puts_Samsung_to_shame
+
+
+[filters]
+http://www.osnews.com/images/socialnets/delicious.gif
+http://www.osnews.com/images/socialnets/digg.gif
+http://www.osnews.com/images/socialnets/facebook.gif
+http://www.osnews.com/images/socialnets/reddit.gif
+http://www.osnews.com/images/socialnets/slashdot.gif
+http://www.osnews.com/images/socialnets/technorati2.gif
+http://www.osnews.com/images/socialnets/twitterrific.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
