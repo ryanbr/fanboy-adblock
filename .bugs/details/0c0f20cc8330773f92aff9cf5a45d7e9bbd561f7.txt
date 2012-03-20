@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nature.com/
+
+
+[filters]
+http://www.nature.com/super/scripts/tsedge/images/marker-file.nocache?crd_ver=0.9.5&crd_rnd=557973&crd_cnt=0.01&crd_tpb=1332213287640&crd_olt=1844
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11417
+
+
+[comments]
+# Leave your username
