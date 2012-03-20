@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nar.oxfordjournals.org/
+
+
+[filters]
+http://nar.oxfordjournals.org/resource/js/realmedia_mjx_enhanced.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
