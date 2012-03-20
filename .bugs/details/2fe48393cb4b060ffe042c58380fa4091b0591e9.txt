@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.booksie.com/horror/short_story/mt_morris/*-blood-will-tell-*
+
+
+[filters]
+http://www.booksie.com/tracker/ping/id/492314
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
