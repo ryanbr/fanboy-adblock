@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://spaceweather.com/
+
+[filters]
+http://spaceweather.com/site_images/youradhere_icon_pixmap.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
