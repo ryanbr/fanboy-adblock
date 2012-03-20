@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.viamichelin.it/web/Itineraires?strStartLocid=32NDFvdnE1MzAwMzAxMGNORFV1TlRBd05UTT1jTVRJdU16TTROUT09&strDestLocid=32NDFpMnY1NjIxMDAxMGNORE11TXpJME16RT1jTVRNdU5ESTNOdz09&intItineraryType=1&caravaneHidden=false&vh=CAR&strVehicle=0&itineraryCarType=0&itineraryFuelType=0&isFavoriseAutoroute=false&isAvoidPeage=false&isAvoidVignette=false&isAvoidLNR=false&isAvoidFrontiers=false&dtmDeparture=21%2F03%2F2012&distance=km&devise=1.0|EUR&indemnite=&carbCost=1.5&autoConso=6.8&villeConso=6&routeConso=5.6
+
+
+[filters]
+http://js.viamichelin.it/jse/V11-4-3-0-2/VM/ah/gD/Advertisement/RentACar/RentACar.js
+
+
+
+
+[other]
+viamichelin.it###idBottomWeatherAlerts
+viamichelin.it###idTopWeatherAlerts
+
+
+[comments]
+fanboy
