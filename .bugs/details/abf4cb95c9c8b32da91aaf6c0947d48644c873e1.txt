@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.viamichelin.it/web/Cartes?layers=0001&strLocid=34MTE1bTg5ZjgwMDQxbzVmMTA1NThoMHhjTkRJdU1EQTRNRGM9Y01UUXVPVFkwTlRNPWNOREl1TURBM01ETT1jTVRRdU9UY3lPVGs9Y05ESXVNREEzTURNPWNNVFF1T1RjeU9Uaz0wa1ZpYSBBbWVyaWdvIFZlc3B1Y2Np
+
+
+[filters]
+http://www.viamichelin.it/htm/sponsoring/Epson_300x105.jpg
+http://www.viamichelin.it/htm/sponsoring/InMapSponsoring.htm
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
