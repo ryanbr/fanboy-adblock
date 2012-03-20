@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://s888.photobucket.com/upload/albums/bob9900990099/?location=test
+
+
+[filters]
+http://redir.adap.tv/redir/javascript/adaptvAdPlayer.js
+http://redir.adap.tv/redir/javascript/vpaid.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
