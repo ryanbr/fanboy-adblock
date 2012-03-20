@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dailymotion.com/Tv_Automaniacos#video=xpa62v
+
+
+[filters]
+http://www.dailymotion.com/images/vs/tag.gif?dr=http%3A%2F%2Fwww.dailymotion.com%2FTv_Automaniacos%23video%3Dxpa62v&dh=http%3A%2F%2Fwww.dailymotion.com%2FTv_Automaniacos%23video%3Dxpa62v&urange=27&asnum=AS53667&lat=13.0000000000000&lng=122.0000000000000&country=PH&rid=5V3QXFdTqiquEbASx&log=1&ff=on&locale=en&user=tv_automaniacos&pagename=user%2Fhome&routename=user_home&_n=75622603
+http://api161.thefilter.com/DailyMotionService/CaptureRest.ashx?cmd=AddVideoEvidence&evidenceType=PlayStart&catalogid=42464839&userLocale=EN&fmt=IMG&userid=&filterEnabled=false&ref=&refid=1332228925&_n=70932543
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
