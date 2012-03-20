@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://torrentz.eu/
+
+
+[filters]
+https://torrentz.eu/img/dc/11.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
