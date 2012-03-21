@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://walgreens.shoplocal.com/walgreens/default.aspx?action=entryflash&pretailerid=-99389&siteid=434&storeID=2429180
+
+
+[filters]
+http://ptsc.shoplocal.com/dot_clear.gif?aspxerrorpath=/pt/walgreens/default.aspx
+http://ptsc.shoplocal.com/pt/walgreens/default.aspx?action=entryflash&pretailerid=-99389&siteid=434&storeID=2429180&SLHTrackingSessionID=120321040657010052040008P-869S&SLHCookie=LanguageID&pagecounter=null&slhlogon=120321040700205185121060P-914S&siteid=434&referrer=&random=0.34527178116658164
+http://ptsc.shoplocal.com/pt/default.aspx?site=walgreens.shoplocal.com&siteid=434&slhlogon=120321040700205185121060P-914S&action=FlashBrowsePageSingle&storeid=2429180&promotioncode=76656&pagenumber=1
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
