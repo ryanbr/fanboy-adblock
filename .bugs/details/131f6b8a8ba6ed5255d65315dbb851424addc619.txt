@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tmz.com/videos/
+
+[filters]
+http://tmz.vo.llnwd.net/o28/assets/images/bent_skin-v2.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
