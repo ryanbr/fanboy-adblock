@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://realmoney.thestreet.com/
+
+
+[filters]
+http://realmoney.thestreet.com/sites/realmoney.thestreet.com/files/imagecache/small_tout/article_images/400x225_boomerang.jpg
+http://realmoney.thestreet.com/sites/realmoney.thestreet.com/files/imagecache/small_tout/article_images/400x225_chart_3.jpg
+http://realmoney.thestreet.com/sites/realmoney.thestreet.com/files/imagecache/small_tout/article_images/400x225_chart_up_down.jpg
+http://realmoney.thestreet.com/sites/realmoney.thestreet.com/files/imagecache/small_tout/article_images/400x225_clouds_storm_looming.jpg
+http://realmoney.thestreet.com/sites/realmoney.thestreet.com/files/imagecache/small_tout/article_images/400x225_money_plants.jpg
+http://realmoney.thestreet.com/sites/realmoney.thestreet.com/files/imagecache/small_tout/article_images/400x225_oil_drum_2.jpg
+http://realmoney.thestreet.com/sites/realmoney.thestreet.com/files/imagecache/small_tout/article_images/400x225_people_retail_young_woman.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
