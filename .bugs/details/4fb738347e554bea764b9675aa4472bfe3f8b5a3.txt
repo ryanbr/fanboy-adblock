@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://aisle7.com/
+
+
+[filters]
+http://aisle7.com/tools/packages/tony_stats/services?mode=tracker_js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
