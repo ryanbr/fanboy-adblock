@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.instructables.com/id/Home-Made-Arduino-Prototype-Shield/
+
+
+[filters]
+https://tpc.googlesyndication.com/pagead/abglogo/abg-en-100c-ffffff.png
+https://tpc.googlesyndication.com/pagead/abglogo/adc-en-100c-000000.png
+https://tpc.googlesyndication.com/pagead/images/i.png
+https://tpc.googlesyndication.com/pagead/js/abg.js
+https://tpc.googlesyndication.com/pagead/js/graphics.js
+https://securepubads.g.doubleclick.net/gampad/ads?correlator=2434974065062832&output=json_html&callback=GA_googleSetAdContentsBySlotForSync&impl=ss&client=ca-pub-1783560022203827&page_slots=technology_leaderboard%2Ctechnology_med_rectangle%2C_video%2C_house%2Ctechnology_inline_med_rectangle%2Crightside_inline_med_rectangle&cust_params=content%3DStep%2520by%2520St%26id%3D27GZPBLSEZ%26category%3Dtechnology%26channel%3Darduino%26author%3Dwaihung%26step%3Dintro%26featured%3Dtrue%26status%3DPUBLISHED%26loggedin%3Dfalse%26adtest%3D%26keyword%3Darduino%252Celectronic%252Cuno%2520r3%252Cprototype%252Cdiy%2520pcb%252Chome%2520made%2520%252Cpcb&url=http%3A%2F%2Fwww.instructables.com%2Fid%2FHome-Made-Arduino-Prototype-Shield%2F&lmt=1332332154&dt=1332332160982&cc=100&biw=1074&bih=678&ifi=1&oid=3&u_his=1&u_h=1200&u_w=1600&u_ah=1170&u_aw=1600&u_cd=24&u_nplug=2&u_nmime=8&flash=11.1.102&gads=v2&ga_vid=292428565.1332332161&ga_sid=1332332161&ga_hid=1795648055
+https://securepubads.g.doubleclick.net/gampad/google_ads.js
+
+[other]
+https://adblockplus.org/forum/viewtopic.php?f=2&t=9557#p57908
+
+
+[comments]
+nitrox
+
