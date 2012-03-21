@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://walgreens.shoplocal.com/walgreens/default.aspx?action=entryflash&pretailerid=-99389&siteid=434&storeID=2429180
+
+
+[filters]
+http://d.agkn.com/pixel!t=1254!?che=0.17390335847882044&uuid=120321040700205185121060P-914S&camid=1108&plaid=434
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
