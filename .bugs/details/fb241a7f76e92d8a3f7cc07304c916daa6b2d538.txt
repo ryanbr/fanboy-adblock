@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.7-eleven.com/Drinks/Cold/Big-Gulp/Default.aspx
+
+
+[filters]
+http://www.7-eleven.com/://ad.doubleclick.net/activity;src=3531567;type=pagel399;cat=7-ele595;ord=2817882408500.1875?
+
+
+
+
+[other]
+not seen, regional
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11440
+
+[comments]
+fanboy
