@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://textmechanic.com/Add-Prefix-Suffix-to-Text.html
+
+
+[filters]
+http://s3.buysellads.com/ac/bsa.js
+
+
+
+
+[other]
+reported
+https://adblockplus.org/forum/viewtopic.php?f=2&t=9825
+
+[comments]
+fanboy
