@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.techdirt.com/articles/20120316/00423518125/justintv-not-guilty-stealing-cable-when-users-stream-ufc-matches.shtml
+
+
+[filters]
+http://embed.docstoc.com/Flash.asmx/StoreReffer?docID=116413742&url=http://www.techdirt.com/docstoc_frame.php?oid=116413742
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
