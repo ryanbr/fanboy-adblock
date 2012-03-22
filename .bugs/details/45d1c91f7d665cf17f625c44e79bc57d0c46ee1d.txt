@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ghastlycomic.com/d/20040411.html
+
+
+[filters]
+http://www.adultwebcomics.com/~ghastly/awc-adbox/adboxtable-awc.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
