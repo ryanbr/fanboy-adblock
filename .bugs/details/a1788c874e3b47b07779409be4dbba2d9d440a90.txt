@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.activewin.com/awin/default.asp
+
+
+[filters]
+http://www.activewin.com/awin/images/april_2003_logo/awlogo_advertise-over.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
