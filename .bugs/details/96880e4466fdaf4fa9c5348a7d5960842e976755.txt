@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.elance.com/
+
+
+[filters]
+http://ws.elance.com/php/marketing/main/emc.php?request=http%3A//www.elance.com/&referrer=
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=4480
+
+
+[comments]
+fanboy
