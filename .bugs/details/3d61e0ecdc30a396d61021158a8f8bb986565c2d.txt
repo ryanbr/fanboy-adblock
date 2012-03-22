@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.simplyhired.com/a/jobs/list/c-7+eleven
+
+
+[filters]
+http://www.simplyhired.com/a/experiments/hit?shab=exp=16&alt=2
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
