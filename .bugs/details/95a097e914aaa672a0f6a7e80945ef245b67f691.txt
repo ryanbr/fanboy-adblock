@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.manta.com/c/mtmsqth/7-eleven-inc
+
+
+[filters]
+http://www.manta.com/sbb?sbbpg=chctrlp2
+http://www.manta.com/sbb?sbbpg=chctrlp1
+http://www.manta.com/sbb?sbbpg=sbbShell&gprid=xF&sbbgs=h4fc2a887b13ff848588b6b591338c8ca079&ddl=5
+http://www.manta.com/sbb?sbbpg=utMedia&vii=6hb42fac12fae8e8078b31b3ef6f4834f825a8386b960b95b9d1a393d80c581coat0t7p9
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
