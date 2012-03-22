@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://franchises.businessmart.com/how-much-does-a-7-eleven-franchise-cost.php
+
+
+[filters]
+http://affiliates.franchisegator.com/42/16/0/
+http://affiliates.franchisegator.com/eb/3/CD4/0
+http://affiliates.franchisegator.com/rotator/CD4/3&js=1&dp=0&r=1133377625400.029&nw=1
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
