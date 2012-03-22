@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://amaebi.net/
+
+
+[filters]
+http://269g-image.up.269g.net/image/locobase_bn125_3_0916.gif
+http://269g.com/c.php?v=xazeay
+http://bling.samuraiworks.com/xml/bling_banner.xml?1332414078096
+http://log.bling.samuraiworks.com/crossdomain.xml
+http://log.bling.samuraiworks.com/index.jpg?bparts%5Fid=00665c0a49a4664c&id=00&referer=http%253A%252F%252Famaebi%252Enet%252F&show=on&bparts%5Fbid=99&status=00
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
