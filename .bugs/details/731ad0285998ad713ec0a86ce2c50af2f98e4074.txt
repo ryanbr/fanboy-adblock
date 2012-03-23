@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://twitpic.com/8ywn84
+
+
+[filters]
+http://display.advertise.twitpic.com/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
