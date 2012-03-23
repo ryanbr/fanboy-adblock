@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.euroleague.tv/video/id/1953080
+
+[filters]
+http://www.tracking.performgroup.com/tracking/CallAction.html?SITEID=14240&CATEGORY=VIEWS&DETAILTYPEID=11&OBJECTID=1953080&USERID=0&TIMESTAMP=1332464988440
+http://www.euroleague.tv/js/global/js/core/tracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
