@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://applicant.com/30-sites-that-might-open-doors-to-a-new-career/
+
+
+[filters]
+http://www.viralogy.com/javascript/viralogy_tracker.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
