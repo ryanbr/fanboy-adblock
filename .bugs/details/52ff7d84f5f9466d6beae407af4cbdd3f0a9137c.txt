@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nytimes.com/ref/jobs/event_calendar.html?trumbaEmbed=calendar=nyt_job&mix=2&filter1=_Yes_
+
+
+[filters]
+http://www.trumba.com/et.aspx?calendar=137675&deed=2&spud=5
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
