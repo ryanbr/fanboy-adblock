@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.beyond.com/
+
+[filters]
+http://www.beyond.com/common/track/trackgeneral.asp?tcid=58&ttid=1&src=R04
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
