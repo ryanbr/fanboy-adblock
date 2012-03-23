@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mirror.co.uk/news/real-life-stories/after-fabrice-muambas-amazing-recovery-769808
+
+
+[filters]
+http://stats.mirror.co.uk/?rt=1&ctxId=74&pubId=2&cat=&meta=read-news&objId=769808&type=article&title=After+Fabrice+Muamba%26%23039%3bs+amazing+recovery%2c+we+look+at+more+miraculous+survival+stories&url=http%3a%2f%2fwww.mirror.co.uk%2fnews%2freal-life-stories%2fafter-fabrice-muambas-amazing-recovery-769808&clientDT=1332496411203
+http://stats.mirror.co.uk/?rt=1&ctxId=74&pubId=2&cat=People&meta=&objId=1043754896&type=tag&title=Fabrice+Muamba&url=tag%3admdev%40mgn.co.uk%2c2011%3aFabrice%2520Muamba&clientDT=1332496411206
+http://stats.mirror.co.uk/?rt=1&ctxId=879&pubId=2&cat=&meta=read-profile&objId=159275&type=article&title=Melissa+Thompson&url=http%3a%2f%2fwww.mirror.co.uk%2fauthors%2fmelissa-thompson%2f&clientDT=1332496411208
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
