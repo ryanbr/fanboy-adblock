@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sologig.com/Job/JN040/US-NY/Airport-Lounge-Host-Hostess/J3H72P68DZZ2KCD8JFN/?ipath=SGHPRJ&=
+
+
+[filters]
+http://clib.icbdr.com/common/js/SiteCatalystH243.js
+http://img.icbdr.com/common/js/SiteCatalystH243.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
