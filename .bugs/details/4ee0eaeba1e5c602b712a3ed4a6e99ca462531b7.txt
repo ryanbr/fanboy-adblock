@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://adindex.ru/news/media/2012/03/19/87497.phtml
+
+[filters]
+http://c.ile.ru/1113;1920x1080;24;1;;0.09557506462523924
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
