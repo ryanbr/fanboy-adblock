@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hotnewhiphop.com/dj-drama-exclusive-interview-with-hotnewhiphop-sxsw-video.5199.html
+
+
+[filters]
+http://static.hotnewhiphop.com/web_root/images/ads/banner-fb-232-90.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
