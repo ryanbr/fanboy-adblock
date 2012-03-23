@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forsale.oodle.com/classifieds/old-bridge-nj/
+
+
+[filters]
+http://img.oodle.com/js/doubleclick/621064677
+http://img.oodle.com/jaml/reporting/1332369666
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
