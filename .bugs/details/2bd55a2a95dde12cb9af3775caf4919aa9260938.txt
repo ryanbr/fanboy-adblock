@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://health-care.careerbuilder.com/
+
+
+[filters]
+http://img.icbdr.com/images/js/adchoicesfooter.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
