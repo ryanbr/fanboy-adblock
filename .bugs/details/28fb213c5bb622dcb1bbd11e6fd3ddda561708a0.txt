@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.net-temps.com/webapps/search/jobs.do?searchTerms=test&searchvar_textLoc=
+
+
+[filters]
+http://www.net-temps.com/javascript/googleAnalyticsBottom.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
