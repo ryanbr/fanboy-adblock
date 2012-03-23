@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dailymail.co.uk/money/news/article-2118649/BUDGET-2012-Holidays-expensive-air-passenger-duty-jumps-10pc.html
+
+
+[filters]
+http://video.dailymail.co.uk/brightcove/tracking/ted.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
