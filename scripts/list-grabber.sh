@@ -474,7 +474,7 @@ then
    # Combine Regional trackers
    $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
-   $GOOGLEDIR/scripts/ie/italian-ie-generator.sh
+   $GOOGLEDIR/scripts/ie/japanese-ie-generator.sh
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-jpn.sh
 else
