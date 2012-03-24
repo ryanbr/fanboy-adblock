@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.xe.com/
+
+
+[filters]
+http://s.xe.com/20100208/themes/xe/js/webtrends.1.js
+
+
+
+[other]
+Unable to switch between currancys
+
+[comments]
+fanboy
