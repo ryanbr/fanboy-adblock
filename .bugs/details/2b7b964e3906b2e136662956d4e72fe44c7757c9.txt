@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thejournal.ie/florida-police-chief-prosecutor-step-down-from-trayvor-martin-case-393747-Mar2012/
+
+[filters]
+http://www.thejournal.ie/i.php?i%5Bp%5D%5B0%5D=393747&h=0913456e783822372990d42846a61064
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
