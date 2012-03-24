@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.softwareok.com/?Download=Q-Dir
+
+
+[filters]
+http://www.countok.de/cgi-bin/bild.php?B=94x17&o=11&h=78&g=2564438&hz=10455&pv=258
+http://www.countok.de/cgi-bin/cnt.pl?cnt=1&uid=100345&java=y&sw=1440&sh=900&lng=undefined&sc=24&zeit=1332545256629&ref=http%3A//www.google.com/search%3Fq%3Drelated%253Afileseek.ca&cok=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
