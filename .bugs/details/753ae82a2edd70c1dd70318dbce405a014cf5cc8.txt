@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thingamajob.com/
+
+[filters]
+https://id.allegisgroup.com/t?a=http%3A//www.google.com/search%3Fq%3Drelated%3A%2509careerbuilder.com%26hl%3Den%26safe%3Doff%26prmd%3Dimvns%26ei%3DidhsT93RCsrq0gGu4PDoBg%26start%3D90%26sa%3DN%26biw%3D1392%26bih%3D452&b=www.thingamajob.com&c=Netscape&d=Mozilla/5.0%20%28Windows%20NT%206.1%3B%20WOW64%3B%20rv%3A11.0%29%20Gecko/20100101%20Firefox/11.0&e=http%3A//www.thingamajob.com/
+http://id.allegisgroup.com/js.aspx
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
