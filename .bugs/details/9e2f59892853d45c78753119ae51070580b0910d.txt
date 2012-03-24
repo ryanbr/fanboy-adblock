@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.adverts.ie/models/marvel-comics-wolverine-model/1040690#
+
+
+[filters]
+http://www.adverts.ie/reportad.php?item_id=*&adId=*&
+http://www.adverts.ie/reportad.php?item_id=*&adId=*&
+http://www.facebook.com/plugins/like.php?app_id=*&href=*//www.adverts.ie/models/marvel-comics-wolverine-model/1040690&send=*&layout=*&width=*&show_faces=*&action=*&colorscheme=*&font&height=*
+
+
+[other]
+reported, removing.
+
+[comments]
+fanboy
