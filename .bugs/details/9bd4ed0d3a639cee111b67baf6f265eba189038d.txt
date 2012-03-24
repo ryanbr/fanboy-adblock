@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wivb.com/
+
+
+[filters]
+http://www.crowdsavings.com/r/banner/300x320/wivb?style=wivb
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
