@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nyc.gov/html/media/html/home/home.shtml
+
+
+[filters]
+http://www.nyc.gov/html/misc/scripts/nycwebtrends.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
