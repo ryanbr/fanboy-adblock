@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.shoplocal.com/?citystatezip=60601&newzone=y
+
+
+[filters]
+http://pt.crossmediaservices.com/pt/default.aspx?action=home&viewmode=local&referrer=http%3a%2f%2fwww.google.com%2fsearch%3fq%3drelated%3a%09careerbuilder.com%26hl%3den%26safe%3doff%26prmd%3dimvns%26ei%3d-NlsT-LGEabu0gHg98T_Bg%26start%3d110%26sa%3dN%26biw%3d1392%26bih%3d452&random=272603632&siteid=252&SessionID=1&City=Newark&State=NJ&CountryID=1&ZipCode5=07101&Sniff=0&DMA=501&DMAName=New%20York%252c%20NY&CLat=0.710798619830298&CLong=-1.29454946996688&NLat=0.713324038427456&SLat=0.708273201233141&WLong=-1.29707488856404&ELong=-1.29202405136972&pagecounter=2&detid=9921000000&slhlogon=120323151700024228011153P-885S
+
+http://pt.crossmediaservices.com/dot_clear.gif?aspxerrorpath=/pt/default.aspx
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
