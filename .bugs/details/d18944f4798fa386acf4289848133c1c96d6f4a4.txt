@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://photos.toofab.com/galleries/celebrity_yearbook_photos_hunger_games_cast#tab=fab_photos
+
+
+[filters]
+http://tmz.vo.llnwd.net/o28/assets/images/toofab/0316-kotex-skin.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
