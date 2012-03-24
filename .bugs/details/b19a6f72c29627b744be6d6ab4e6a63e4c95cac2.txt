@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thejanedough.com/tina-brown-karl-lagerfeld/
+
+
+[filters]
+http://cdn.crowdignite.com//img/upload/cache/120x120__4e5285a1c2f3e.jpg
+http://cdn.crowdignite.com//img/upload/cache/120x120__4f452c297d343.jpg
+http://cdn.crowdignite.com//img/upload/cache/120x120__4f452d10be4e4.jpg
+http://cdn.crowdignite.com//img/upload/cache/120x120__4f46aa07a41c7.jpg
+
+
+
+
+[other]
+see initial add:
+http://www.idontlikeyouinthatway.com/index.html
+http://widget.crowdignite.com/widgets/604?_ci_wid=_CI_widget_1
+
+
+[comments]
+fanboy
