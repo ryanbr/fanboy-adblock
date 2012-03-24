@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.myhome.ie/lettings/brochure/academy-square/194625
+
+
+[filters]
+http://www.myhome.ie/ad?type=leaderboard&id=1684918&groupid=10980&localityid=2758&address=Academy+Square
+http://www.myhome.ie/ad?type=island&id=1684917&groupid=10980&localityid=2758&address=Academy+Square
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
