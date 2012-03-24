@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.czc.cz/
+
+
+[filters]
+http://ads2.czc.cz/www/delivery/lg.php?bannerid=1634&campaignid=57&zoneid=23&loc=http%3A%2F%2Fwww.czc.cz%2F&cb=51ed2e0359
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+Moskoe.cz
