@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://battlelog.battlefield.com/bf3/soldier/molleonline/vehicles/192061159/pc/
+
+[filters]
+http://resources.ea.com/omniture/s_code_remote_v02.js
+http://resources.ea.com/omniture/utils.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&p=31333&sid=01d3c5ea992c75ffc2bba077ad451c10#p31333
+
+
+[comments]
+fanboy
