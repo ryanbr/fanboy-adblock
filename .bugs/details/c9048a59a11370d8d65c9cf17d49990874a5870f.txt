@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.techarp.com/showarticle.aspx?artno=736&pgno=2
+
+[filters]
+http://cplayer.blinkx.com/?i=b87f5692cf313d82e510285366378ba257f35035&adc_pub_id=ad3921b
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
