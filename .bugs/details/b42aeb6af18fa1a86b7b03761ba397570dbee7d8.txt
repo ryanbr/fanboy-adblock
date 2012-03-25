@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.indiaresults.com/Uttaranchal/GKVH/default.asp?inst=GKVH
+
+
+[filters]
+http://www.indiaresults.com/ircimages/right_panel_advertisment.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
