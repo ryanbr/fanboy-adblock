@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.youtube.com/watch?v=CQzFZPEs020
+
+[filters]
+http://o-o.preferred.cablenet-mmu1.v15.lscache2.c.youtube.com/generate_204?sparams=id%2Cexpire%2Cip%2Cipbits%2Citag%2Calgorithm%2Cburst%2Cfactor%2Coc%3AU0hQRVdLVF9FSkNOMF9PRVhB&fexp=902512%2C904719&algorithm=throttle-factor&itag=34&ip=0.0.0.0&burst=40&sver=3&signature=59072E2CD84F6F3AEAC53533BCA7955A4235A1EB.B4231D992099F70BBFE71F65FA029882D5FD978D&expire=1310706000&key=yt1&ipbits=0&factor=1.25&id=090cc564f12cd36d
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
