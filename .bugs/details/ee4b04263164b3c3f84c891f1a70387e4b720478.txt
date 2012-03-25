@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://download.cnet.com/CCleaner/3001-18512_4-10315544.html?spi=b825de3d50c9090314624d953d2b7f93
+
+
+[filters]
+http://ad.download.cnet.com/widget/render/hash/c0608258a645a1949a22a2857f684e86?origin=http://download.cnet.com/CCleaner/3001-18512_4-10315544.html?spi=b825de3d50c9090314624d953d2b7f93
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
