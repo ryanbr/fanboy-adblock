@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.indiandating.com/
+
+
+[filters]
+http://stat.ed.cupidplc.com/images/ed2.swf?token=d75de7fd073a2528b8f1a01376f587cf
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
