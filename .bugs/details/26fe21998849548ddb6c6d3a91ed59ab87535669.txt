@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.computerarts.co.uk/blog/computer-arts-200-digital-cameras-123027
+
+
+[filters]
+http://www.computerarts.co.uk/future.php?cmd=site-stats&id=3027
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
