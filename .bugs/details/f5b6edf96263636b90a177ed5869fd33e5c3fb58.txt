@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.emp3world.com/mp3/125885/Obie Trice/Richard Feat. Eminem
+
+
+[filters]
+http://www.emp3world.com/ads/show_ads_im.php?k=Obie+Trice
+emp3world.com##.lower_ad
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
