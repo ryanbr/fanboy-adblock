@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bustnow.com/pornstar/Maria-Bellucci
+
+
+[filters]
+http://ads.flagads.net/popup_third_party_click?sid=uquosf
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
