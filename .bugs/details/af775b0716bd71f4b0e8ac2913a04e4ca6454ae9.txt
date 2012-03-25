@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tiffany.com/?origref=http://www.google.com/search?q=related:www.chanel.com&hl=en&safe=off&prmd=imvns&ei=QsluT5-kHcPi0gH-xcDJBg&start=20&sa=N&biw=1392&bih=452&siteid=1
+
+
+[filters]
+http://www.tiffany.com/Shared/Scripts/SiteTracking/SiteTrackingGA.js?v=5
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
