@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gamesradar.com/
+
+
+[filters]
+http://www.gamesradar.com/swf/brightcoveGoogleAnalytics.swf?accountNumber=UA-4957905-9&playerType={playername}
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
