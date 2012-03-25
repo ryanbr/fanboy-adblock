@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://us.mg5.mail.yahoo.com/neo/launch?.rand=3vu965982kkfc
+
+
+[filters]
+http://mail.yimg.com/zz/combo?/rq/darla/2-3-4/js/darla-dynamic-pre-beacons-min.js
+http://mail.yimg.com/zz/combo?/rq/darla/2-3-4/js/darla-dynamic-pre-beacons-min.js&nq/common/utils/track_4159.js&nq/mail/ui/darla/neodarla_4159.js
+
+
+
+
+[other]
+fp
+
+
+[comments]
+fanboy
