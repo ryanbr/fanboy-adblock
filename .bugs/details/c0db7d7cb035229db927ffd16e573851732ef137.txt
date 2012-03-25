@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rus.delfi.lv/news/daily/abroad/uchitelnica-poschitala-tuluzskogo-strelka-zhertvoj-i-pomyanula-ego.d?id=42232550
+
+
+[filters]
+http://stg.odnoklassniki.ru/share/odkl_share.js
+http://stg.odnoklassniki.ru/share/odkl_klass_stat.gif
+http://stg.odnoklassniki.ru/share/odkl_share.css
+
+
+
+[other]
+fps here..
+
+[comments]
+fanboy
