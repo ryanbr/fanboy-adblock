@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://amadoras.filhadaputa.com/galerias/bucetinha_suculenta.html
+
+
+[filters]
+http://www.filhadaputa.com/explicito/
+http://www.filhadaputa.com/flutuante/
+http://www.filhadaputa.com/frame.php
+http://www.filhadaputa.com/gostosas/
+http://www.filhadaputa.com/sexo_no_telefone/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
