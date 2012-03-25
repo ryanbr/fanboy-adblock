@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://games.sify.com/casual-games/cricket-57-71/ipl-cricket-588-71/play.html
+
+
+[filters]
+http://games.sify.com/images/games/gAdvt/game_play_gad.html
+http://games.sify.com/images/games/gAdvt/google_7s_300x250_2009_fixed11.html
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
