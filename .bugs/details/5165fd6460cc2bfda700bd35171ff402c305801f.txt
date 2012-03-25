@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bigadda.com/
+
+[filters]
+http://tracker.myseofriend.net/myseofriend.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
