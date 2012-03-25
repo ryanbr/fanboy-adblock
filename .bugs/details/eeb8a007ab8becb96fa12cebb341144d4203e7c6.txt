@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://seattletimes.nwsource.com/html/picturethis/2017826944_baby.html
+
+[filters]
+http://seattletimes.nwsource.com/art/ui/adv_top.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
