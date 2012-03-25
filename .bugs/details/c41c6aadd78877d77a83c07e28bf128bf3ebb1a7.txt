@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ibtimes.com/articles/318017/20120322/megan-piper-porn-star-mike-stone.htm
+
+
+[filters]
+@@||oascentral.ibtimes.com/crossdomain.xml
+
+
+
+[other]
+fp
+
+
+[comments]
+fanboy
