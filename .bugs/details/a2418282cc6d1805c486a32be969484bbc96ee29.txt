@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.unionleader.com/article/20120323/NEWS03/120329881
+
+
+[filters]
+http://www.unionleader.com/images/ul/Twittericon_75px.jpg
+http://www.unionleader.com/images/ul/facebookicon_75px.jpg
+http://www.unionleader.com/images/ul/rssicon_75px.jpg
+http://www.couptopia.com/affiliate/todaysdeal?referrer=rd-unionleader
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
