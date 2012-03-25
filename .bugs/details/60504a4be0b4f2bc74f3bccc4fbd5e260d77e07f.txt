@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://amadoras.filhadaputa.com/galerias/gostosinha_bucetuda.html
+
+
+[filters]
+http://amadoras.filhadaputa.com/galerias/java1.js
+http://amadoras.filhadaputa.com/galerias/java2.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
