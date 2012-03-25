@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.stylelist.com/2012/03/22/watch-do-the-clothes-make_n_1375766.html?ref=stylelist
+
+
+[filters]
+http://b.stylelist.com/ping?ts=1332674589439&h=www.stylelist.com&v=14&t=WATCH%3A%20Do%20The%20Clothes%20Make%20The%20Man%3F%20From%20Jon%20Hamm&r=&l=0&k=1&ms=20713&nm=video5min&dL_ch=us.style&dL_dpt=default&dL_cmsID=hpo%3A1375766&dL_author=Danielle%20Page&dL_crtdt=2012-03-22%2014%3A14%3A00&dL_blogID=2&dL_tags=Mad%20Men%2CMarlo%20Thomas%2Cvideo%2CDon%20Draper%2CMad%20Men%20Fashion%2Cjon%20hamm%2Cmondays%20with%20marlo&cobrand=HuffPost&fv=11&vidId=517312786&vidTime=1332674589438&vidAdViewed=0
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
