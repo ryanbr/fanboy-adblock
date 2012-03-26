@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.timeout.ru/
+
+
+[filters]
+http://js.timeout.ru/adriver-reload.js?v=1332747801
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
