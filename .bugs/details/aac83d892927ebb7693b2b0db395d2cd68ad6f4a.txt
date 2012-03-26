@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.shpilka.ru/
+
+
+[filters]
+http://sidebar.issuu.com/x?s=e&t=load&id=100314062925-5896fdaaddac45b9a13e708d9164a125&p=f&rv=1.0&d=n&unique=1332797391672
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
