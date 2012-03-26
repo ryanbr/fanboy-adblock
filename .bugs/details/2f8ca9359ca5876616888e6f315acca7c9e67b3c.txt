@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://chaturbate.com/
+
+
+[filters]
+http://hot.fling.com/zgffling2/?prg=1&id=chaturbate&tour=zgffling2&ot=best&cmp=pop_s16&utm_source=chaturbate&utm_medium=pop_s16&utm_content=_noadid&utm_campaign=zgffling2
+http://www.fling.com/enter.php?prg=1&t=best&id=chaturbate&cmp=pop_s16
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11566
+
+
+[comments]
+nitrox
