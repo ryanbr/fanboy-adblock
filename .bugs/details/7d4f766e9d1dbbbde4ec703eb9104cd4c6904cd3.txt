@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aintitcool.com/node/54512
+
+
+[filters]
+||adm.fwmrm.net^$object-subrequest,domain=ign.com|aintitcool.com
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11574
+
+
+[comments]
+fanboy
