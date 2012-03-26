@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.elle.ru/
+
+
+[filters]
+http://www.elle.ru/design/elleru/javascript/trackSocial.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
