@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.islamnews.ru/
+
+
+[filters]
+http://www.islamnews.ru/tizer2.js
+http://islamclick.ru/show/?block_id=51&r=&27592
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
