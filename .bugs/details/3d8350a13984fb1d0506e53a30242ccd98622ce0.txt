@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.luxurylink.com/
+
+
+[filters]
+http://www.luxurylink.com/t/hpr.php?ci=2530%7C939%7C3225%7C11353%7C1826%7C1905%7C335%7C550%7C1906%7C1487%7C8141%7C2941%7C73%7C11679%7C11631%7C1093%7C11440%7C282%7C11463%7C6522%7C11176%7C951%7C6244%7C4900%7C11702%7C11467%7C11011%7C1054%7C9928%7C7644%7C139%7C8335%7C108%7C2260%7C11733%7C11364%7C10006%7C1846%7C343%7C10975%7C7042%7C970%7C7545&e=41
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
