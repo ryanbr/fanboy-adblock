@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gamesforwork.com/games/index.php?action=play&id=19960
+
+[filters]
+http://x.mochiads.com/srv/3/frDtM8TQYoW7yNejCUm25oNQAAABp3icfZDNSsNAFIWvVsWgWHHbTdZSJjOTnzaKoOjGRYuI0GWYyZ02w6SZkrRO3fk4PoMP4HP4EC6FGgTBjXLgcDj3ns1X9BCO5jYvtMAme9TKhWKn6EiA3UjCwbknYe_1xcBxFEqetpYgCiEHcVslIVPDOIlEzBCTKBZgoHMzfkDwVhWqqa4UyoF5a-eHjDMySAlLU0INbKtKbjafHwZ6xXK5OAsC5xyZiblqprZ2tjYkt3MDo3-uwXcRNG4aXJc6N4tSPPn3QlfSOp9nI1HnRcbDGjNOGSftn4Hu5HbsM9ZvRXk_4Qa8ia7QusYftJmlnK4ZHVKEkx8ml4wSSoYkZgb2QxLlvmjCOQCcNgu7XGdS5Ga16Ntaz3QlSoEaLzCMI8ppRFPGQq44QrcprLurVWkFqvoKW77bz61tvQvvN66_8hfk5YIW
+http://x.mochiads.com/srv/1/43b2943b6ddaab75.swf?cacheBust=1332736009443
+http://x.mochiads.com/srv/2/43b2943b6ddaab75.swf?CXNID=1000002.4878124329362697077NXC
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11568
+
+
+[comments]
+fanboy
