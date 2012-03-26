@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.davidyurman.com/default.aspx
+
+
+[filters]
+https://tracking.aimediagroup.com/aitrk_secure.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
