@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thetravelmagazine.net/
+
+
+[filters]
+http://turnsocial.com/track/toolbar?key=e56fhib09hi0459ih0454h&site=http%3A%2F%2Fwww.thetravelmagazine.net%2F&agent=Mozilla%2F5.0+(Windows+NT+6.1%3B+rv%3A14.0)+Gecko%2F20120325+Firefox%2F14.0a1&referrer=&t=1984656549
+http://turnsocial.com/assets/background-dd5c81fd3961b047237d030255086572.png
+http://turnsocial.com/assets/blank-8f7b5f76fb9840d56b12ba0df01312ba.png
+http://turnsocial.com/assets/icons-9ad733d40ce9f387fbde486bc8978a26.png
+http://turnsocial.com/bar/e56eacf477a2901ab8810aead2d325c5.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
