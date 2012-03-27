@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rootzwiki.com/_/articles/the-samsung-galaxy-s-ii-for-att-gets-todays-ics-leak-love-r582
+
+
+[filters]
+http://rootzwiki.com/public/style_images/social/currents.png
+http://rootzwiki.com/public/style_images/social/facebook.png
+http://rootzwiki.com/public/style_images/social/gplus.png
+http://rootzwiki.com/public/style_images/social/rss.png
+http://rootzwiki.com/public/style_images/social/twitter.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
