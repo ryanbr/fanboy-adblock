@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://uptobox.com/pj5gcedwvhuy
+
+
+[filters]
+http://uptobox.com/ads.ad6media.fr.js?768-.adserver.300x250.&ad_url=480x100./banner/skyscraper1651654184_&adtext.js.affiliation-france.com&kip=&ad_url=/adbanner&ad_keyword=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
