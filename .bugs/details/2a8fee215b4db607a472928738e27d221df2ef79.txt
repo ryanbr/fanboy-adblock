@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gramfeed.com/
+
+
+[filters]
+https://lh6.googleusercontent.com/-Y3WFeV_g2M0/T1cJKQYJ3OI/AAAAAAAAACw/yl23SbmSSc4/s800/your_ad.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
