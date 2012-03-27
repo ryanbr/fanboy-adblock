@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fritzing.org/
+
+
+[filters]
+http://fritzing.org/media/uploads/social/Facebook-Buttons.png
+http://fritzing.org/media/uploads/social/Flickr-Buttons.png
+http://fritzing.org/media/uploads/social/Rss-Feed-Buttons.png
+http://fritzing.org/media/uploads/social/Twitter-Buttons.png
+http://fritzing.org/media/uploads/social/Youtube-Buttons.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
