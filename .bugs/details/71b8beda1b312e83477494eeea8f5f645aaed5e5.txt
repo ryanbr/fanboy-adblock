@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fox.com/kitchennightmares/full-episodes/51069/fleming
+
+[filters]
+http://link.theplatform.com/s/fox.com/XU6y3MNUYFaK/tracker.log?type=*&ver=*&d=*&cc=*&rc=*&p=*&rid0=*&t0=*&tc0=*&lp0=*&lt0=*&pb0=*&pp0=*&pr0=*&nocache=*
+http://link.theplatform.com/s/fox.com/XU6y3MNUYFaK/tracker.log?type=*&ver=*&d=*&cc=*&rc=*&p=*&rid0=*&t0=*&tc0=*&lp0=*&lt0=*&pb0=*&pp0=*&pr0=*&nocache=*
+
+
+
+[other]
+/tracker.log? issue its a "object_subrequest"
+https://adblockplus.org/forum/viewtopic.php?f=2&t=9843
+
+[comments]
+fanboy
