@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://a820.g.akamai.net/f/820/822/1d/i.ivillage.com/includes/TacodaFTT.js
+http://a820.g.akamai.net/f/820/822/1d/i.ivillage.com/includes/iv_footer.js
+http://a820.g.akamai.net/f/820/822/1d/i.ivillage.com/includes/iv_header.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
