@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dailyfinance.com/
+
+
+[filters]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11592
+||aolcdn.com/js/mg2.js
+
+
+
+[other]
+"Blocks thumbnails."
+
+[comments]
+fanboy
