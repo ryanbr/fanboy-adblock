@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://set.tidaltv.com/Ping.aspx?tids=28096|2400
+
+
+[filters]
+http://set.tidaltv.com/Ping.aspx?tids=28096|2400
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
