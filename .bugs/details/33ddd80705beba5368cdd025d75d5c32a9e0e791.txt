@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mediaite.com/tv/jon-stewart-returns-with-hoodie-tastic-trayvon-martin-outrage-roundup/
+
+[filters]
+http://videos.mediaite.com/embed/player/container/420/421/V552F50GP38HMVNW?referrer=http%3A%2F%2Fwww.mediaite.com%2Ftv%2Fjon-stewart-returns-with-hoodie-tastic-trayvon-martin-outrage-roundup%2F
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
