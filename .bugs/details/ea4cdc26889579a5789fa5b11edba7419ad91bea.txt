@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.howies.co.uk/
+
+
+[filters]
+https://www.ycctrk.co.uk/YuccaTracking.js
+https://www.ycctrk.co.uk/2223.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
