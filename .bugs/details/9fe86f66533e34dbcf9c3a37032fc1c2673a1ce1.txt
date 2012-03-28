@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.atlantis.com/default.aspx
+
+
+[filters]
+http://www.atlantis.com/_scripts/tsedge/pagemarker.gif?crd_ver=0.9.5&crd_rnd=351420&crd_cnt=0.01&crd_tpb=1332908342813&crd_olt=9996
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11608
+
+
+[comments]
+nitrox
