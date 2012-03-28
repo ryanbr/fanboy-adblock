@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.beaches.com/
+
+
+[filters]
+http://www.beaches.com/scripts/webtrendsUS.js
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11609
+
+
+[comments]
+nitrox
