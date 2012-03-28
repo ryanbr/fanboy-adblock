@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mediatoday.co.kr/news/articleView.html?idxno=101337
+
+
+[filters]
+http://nson.encock.com/media/mediatoday.co.kr/images/8.gif
+http://nson.encock.com/media/mediatoday.co.kr/images/title.gif
+http://nson.encock.com/media/mediatoday.co.kr/smart.css?20110412001
+http://nson.encock.com/media/mediatoday.co.kr/smart.css?20110412002
+http://nson.encock.com/media/mediatoday.co.kr/smart.html
+http://nson.encock.com/media/mediatoday.co.kr/smart_text.html
+http://nson.encock.com/media/thumb.html?i=TWpnMg==
+http://nson.encock.com/media/thumb.html?i=TWpnNQ==
+http://nson.encock.com/media/thumb.html?i=TWprdw==
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
