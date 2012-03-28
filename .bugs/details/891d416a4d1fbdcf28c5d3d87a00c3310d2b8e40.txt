@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.avclub.com/articles/memoryhouse-covers-the-police%2C70724/
+
+
+[filters]
+http://videos.theonion.com/ads/auto/3120/flv.mp4
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
