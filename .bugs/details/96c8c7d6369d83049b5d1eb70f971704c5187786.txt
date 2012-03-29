@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://us.levi.com/family/index.jsp?categoryId=3692014&cp=3146842.3146845&ab=home_waterless_mshop2_032612
+
+
+[filters]
+http://levi.imageg.net/js/netconversions.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
