@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nudecelebrityporn.net/archive/names/lindsay-lohan/
+
+
+[filters]
+http://www.nudecelebrityporn.net/images/juicyads_1.js
+http://www.nudecelebrityporn.net/images/juicyads_2.js
+http://www.nudecelebrityporn.net/images/juicyads_3.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
