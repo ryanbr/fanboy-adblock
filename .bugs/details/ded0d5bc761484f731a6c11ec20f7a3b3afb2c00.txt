@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://yandex.com/yandsearch?text=rest&lr=21356
+
+
+[filters]
+http://clck.yandex.com/click/data=AiuY0DBWFJ7IXge4WdYJQaYgAYq7Jarr-nIYfxpG11siOZIjhydToDwsp98K4fnczPUWNoWuUiKwGlET-lLazI-jPOxmYzU2PatQGH6irowULct-8nsS4OMyTGKSpXM1/sign=9fc72ef6011366f20e0dc6d36c19142a/keyno=0/path=1.238/*http://yandex.ru/
+http://clck.yandex.com/click/data=AiuY0DBWFJ7IXge4WdYJQaYgAYq7Jarr-nIYfxpG11siOZIjhydToDwsp98K4fnczPUWNoWuUiKwGlET-lLazI-jPOxmYzU2PatQGH6irowULct-8nsS4OMyTGKSpXM1/sign=9fc72ef6011366f20e0dc6d36c19142a/keyno=0/path=1.487/*http://yandex.ru/
+http://clck.yandex.com/click/dtype=stred/pid=1/cid=70061/path=p0.i-1.w1583.h845.nahodki.0/u=1333011201286/reqid=1333011200894019-952883472790219431355166-6-044/*http://yandex.ru/
+
+
+[other]
+https://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11636
+
+
+[comments]
+nitrox
