@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.google.com/hostednews/ap/article/ALeqM5gK85XRZhkXodgl6X2_1cSJK28Jvg?docId=0c78bc23b9fe49da974ab8ffcb54fb8c
+
+
+[filters]
+https://plusone.google.com/u/0/_/+1/fastbutton?url=http%3A%2F%2Fwww.google.com%2Fhostednews%2Fap%2Farticle%2FALeqM5gK85XRZhkXodgl6X2_1cSJK28Jvg%3FdocId%3D0c78bc23b9fe49da974ab8ffcb54fb8c&size=small&count=true&hl=en&jsh=m%3B%2F_%2Fapps-static%2F_%2Fjs%2Fwidget%2F__features__%2Frt%3Dj%2Fver%3DSvSTGk8PZnM.en.%2Fsv%3D1%2Fam%3D!K2t8zmDaIyaNjPbXTQ%2Fd%3D1%2F#id=I1_1332979227677&parent=http%3A%2F%2Fwww.google.com&rpctoken=494664848&_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
