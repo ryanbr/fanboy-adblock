@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.underu.com/
+
+
+[filters]
+http://tre.emv3.com/P?emv_client_id=1100044866&emv_pagename=Mens+Designer+Underwear%2c+Swimwear+%26+Clothing%7cDesigner+Underwear+Brands+for+Men+-+Calvin+Klein%2c+Armani%2c+D%26G%2c+Diesel+Clothing+%7cBoxers%2c+Briefs%2c+Boxer+Shorts%2c+Swim+shorts%2c+Socks%2c+T-Shirts%2c+Wallets&emv_conversionflag=N&emv_value=0.00&emv_currency=GBP&emv_date1=29-03-2012
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
