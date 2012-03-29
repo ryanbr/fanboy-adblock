@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.au.ru/DisplayManager.aspx?searchPhrase=test&lang=2~ltr&ssid=5&indexVersion=gt&pid=1
+
+
+[filters]
+http://www.au.ru/ExtPortal.aspx?langID=2&searchPhrase=test&googlePageType=adsPage&ssid=&IndexVersion=gt&ivid=1&pageName=1&spms=0&lang=2~ltr
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
