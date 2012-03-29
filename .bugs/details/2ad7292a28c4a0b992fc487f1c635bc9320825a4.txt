@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://btdigg.org/search?info_hash=e73de05d1b2fbee737957c104faf4d659a7b45e9
+
+
+[filters]
+https://btdigg.org/images/btguard2.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
