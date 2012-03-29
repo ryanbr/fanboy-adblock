@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mafona.ru/
+
+
+[filters]
+http://mafona.tizer-test.ru/banners_b_274_200x200.gif
+http://mafona.tizer-test.ru/geoIP.php
+http://mafona.tizer-test.ru/test.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
