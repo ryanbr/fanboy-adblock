@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://go.mail.ru/
+
+
+[filters]
+http://go.mail.ru/pxt?pxn=mpic&_=1333017397871&e=0e06ab6411266ef0&w=3b&h=e&a=none
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
