@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mp3share.ru/
+
+
+[filters]
+http://cs.undere.com/s/170/85289.js
+http://lachee.com/27f0ea7b95b/ab5d/8ebe3/
+http://lachee.com/rss6/?nC=0718188&N=0032&h=lachee&b=85289&p=3174&hp=-1&ph=1&np=1&93853
+http://lachee.com/wp-includes/js/jquery/jquery.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
