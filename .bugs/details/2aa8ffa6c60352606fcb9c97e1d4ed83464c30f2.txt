@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://orsn.rambler.ru/main/living/secondary
+
+
+[filters]
+http://orsn.rambler.ru/scripts/adfox_tidy.js
+http://account.marva.ru/image.asp?l=vtrynokM&x=61851&deptid=0&rand=1333017211226
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
