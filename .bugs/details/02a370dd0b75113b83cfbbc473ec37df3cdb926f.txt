@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cku.com/home/index.jsp
+
+
+[filters]
+http://cku.unrealmarketing.com/js/unrealGTS.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
