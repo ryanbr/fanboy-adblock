@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://krsk.24au.ru/
+
+
+[filters]
+http://adveasy.ru/bank/rashlop_270.png
+http://adveasy.ru/bank/rashlop_90.swf
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
