@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.anekdot.ru/
+
+
+[filters]
+http://linksctrsystem.com/ctr.php?ref=%27+document.referrer+%27
+http://linksctrsystem.com/pic/01.jpg
+http://linksctrsystem.com/view.php?title=%C0%ED%E5%EA%E4%EE%F2%FB%20%E8%E7%20%D0%EE%F1%F1%E8%E8%20-%20%F1%E0%EC%FB%E5%20%F1%EC%E5%F8%ED%FB%E5%20%E0%ED%E5%EA%E4%EE%F2%FB%20%E8%20%E4%F0%F3%E3%EE%E9%20%FE%EC%EE%F0&referrer=&lang=en-US
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
