@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rockpapershotgun.com/2012/03/28/simcity-to-be-crippled-by-always-on-lets-change-this/
+
+
+[filters]
+http://www.rockpapershotgun.com/wp-content/themes/rockpapershotgun/images/social-buttons.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
