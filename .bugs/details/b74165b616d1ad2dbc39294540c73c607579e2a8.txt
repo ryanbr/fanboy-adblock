@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://realsearch.net.ru/name/draconian+umpire/audio
+
+
+[filters]
+http://breedac.com/67x0/08/a9ba4/9046
+http://breedac.com/rss6/?QMX=00587&Qon=040844&h=breedac&nL=056&p=155260&TlU=06155&b=336936&hp=-1&np=1&ph=1&cig=037&98616
+http://clearac.com/b6c1a4e158af6dddf80bc2b4
+http://clearac.com/rss6/?b=336932&h=clearac&ph=1&p=155260&np=1&hp=-1&yC=0771570&rS=0105&Ouxs=006&87507
+http://breedac.com/wp-includes/js/jquery/jquery.js
+http://clearac.com/wp-includes/js/jquery/jquery.js
+http://jdsl.info/img.php?id=39&refer=&page=http%3A//realsearch.net.ru/name/draconian+umpire/audio&c=yes&jscript=1.0&rand=0.010858819410379805&
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
