@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.barenecessities.com/Calvin-Klein_brand_38.htm
+
+
+[filters]
+http://bare.barenecessities.com.edgesuite.net/js/ver/353F769676839B360BEC8D9D325B737DF0685BCF/BN-CoreMetrics.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
