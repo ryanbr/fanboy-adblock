@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.engadget.com/2012/03/28/google-maps-for-android-gets-bumped-to-6-5/
+
+[filters]
+http://assets.pinterest.com/images/PinExt.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
