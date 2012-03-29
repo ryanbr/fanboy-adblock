@@ -1,0 +1,29 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.24auto.ru/
+http://www.redom.ru/
+
+
+[filters]
+http://code.barrior.ru/s/132496298476.swf
+http://code.barrior.ru/?http://www.24auto.ru/++session=eJyrVirJzE2tys9Ljc9LzE1VslJQci0tyi9I1ffNL07OL1eqNU41NzNJSrFIS01LATINUlNMLQ3TzJOMzdKSzZNTLQAE0BX7
+http://code.barrior.ru/js/barrior.loader.js?v5
+http://code.barrior.ru/s/132489161851.swf
+http://code.barrior.ru/s/132851007877.swf
+http://code.barrior.ru/s/132884043785.swf
+http://code.barrior.ru/s/133091010940.swf
+http://code.barrior.ru/s/133143238732.swf
+http://code.barrior.ru/s/133154408722.swf
+http://code.barrior.ru/s/133238736391.swf
+http://code.barrior.ru/s/133291566780.swf
+http://code.barrior.ru/s/133291866321.swf
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
