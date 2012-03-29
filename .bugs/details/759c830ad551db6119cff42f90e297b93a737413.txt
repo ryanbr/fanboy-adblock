@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mp3lemon.net/
+
+
+[filters]
+http://glavrich.com/code.php?idsite=15924
+http://glavrich.com/codes/16001/15924_mp3lemon.net.js
+http://glavrich.com/gcgi/gask.cgi?ids=15924&ref=
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
