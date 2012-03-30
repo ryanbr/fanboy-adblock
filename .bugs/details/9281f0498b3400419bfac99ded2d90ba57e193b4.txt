@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wikinvest.com/concept/Game_Consoles_Wars:_Xbox_360_vs._PS3_vs._Wii
+
+
+[filters]
+http://www.wikinvest.com/plugin/api.php?display_batch=7317%2C1246351%7C&action=metricld&format=beacon&timestamp=1333053692314433900799958427
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
