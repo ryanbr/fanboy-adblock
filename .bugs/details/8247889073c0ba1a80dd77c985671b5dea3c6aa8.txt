@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wireless.ign.com/index/reviews.html
+
+
+[filters]
+http://widgets.ign.com/global/analytics/drones.js?url=http://wireless.ign.com/index/reviews.html&pagetype=section&channel_id=256
+http://oystatic.ignimgs.com/min/core/js/sugarads-min.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
