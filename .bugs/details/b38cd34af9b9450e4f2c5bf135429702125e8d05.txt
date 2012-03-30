@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wwe.com/magazine/diva-of-month-eve-feb
+
+
+[filters]
+http://www.wwe.com/sites/all/modules/wwe/wwe_analytics/s_wwe_code.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
