@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.miniusa.com/#/MINIUSA.COM-m
+
+
+[filters]
+http://www.miniusa.com/js/dcs_tag.js
+http://www.miniusa.com/js/trackFlash.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
