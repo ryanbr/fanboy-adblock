@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://42floors.com/blog/posts/be-yourself-abnormal-people-create-abnormal-returns
+
+
+[filters]
+http://hnapiwrapper.herokuapp.com/button.html?width=120&url=http%3A%2F%2F42floors.com%2Fblog%2Fposts%2Fbe-yourself-abnormal-people-create-abnormal-returns&title=Be+yourself.+Abnormal+people+create+abnormal+returns.
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
