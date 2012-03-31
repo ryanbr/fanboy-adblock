@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.boscovs.com/store/homepage.html
+
+
+[filters]
+http://libs.coremetrics.com/configs/90000393.js
+https://libs.coremetrics.com/eluminate.js
+https://libs.coremetrics.com/io.js
+http://iocdn.coremetrics.com/90000393/V4/E3/EB3/B3DD0476.js?V=2012033002
+http://iocdn.coremetrics.com/90000393/io_config.js?ts=2221947
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
