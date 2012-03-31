@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://articles.latimes.com/2012/mar/11/opinion/la-oe-holguin-veras-tsunami-20120311
+
+
+[filters]
+http://articles.latimes.com/images/pixel.gif
+http://articles.latimes.com/sn.php?out=iframe&l=Google_PlusOneBase&u=http%3A%2F%2Fwww.latimes.com%2Fla-oe-holguin-veras-tsunami-20120311%2C0%2C3425077.story&t=Japan%27s+1%2C000-year-old+warning&i=mod-sm-badge-top-defer&v=1f71561b6912e775f4e677372b7a7dbcf07e4c80&s=medium-true&a=center&p=LATArticles&c=&y=ap-LA-SN05-G02&f=186620898040944
+http://articles.latimes.com/sn.php?out=js&t=Japan%27s+1%2C000-year-old+warning&u=http%3A%2F%2Fwww.latimes.com%2Fla-oe-holguin-veras-tsunami-20120311%2C0%2C3425077.story&l=AddThis%3B&i=mod-sm-badge-bottom-defer&p=LATArticles&y=ap-LA-SN05-G02&f=186620898040944&c=&z=&v=1f71561b6912e775f4e677372b7a7dbcf07e4c80
+http://articles.latimes.com/sn.php?out=js&t=Japan%27s+1%2C000-year-old+warning&u=http%3A%2F%2Fwww.latimes.com%2Fla-oe-holguin-veras-tsunami-20120311%2C0%2C3425077.story&l=ShareThis_EmailIcon-AddThis%3B-Comments_Compact-Facebook_Connect-Facebook_RecommendCompact-Twitter_Compact-ShareThis_ShareThisCompact-Google_PlusOneMediumCount-&i=mod-sm-badge-top-defer&p=LATArticles&y=ap-LA-SN05-G02&f=186620898040944&c=&z=false&v=1f71561b6912e775f4e677372b7a7dbcf07e4c80
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
