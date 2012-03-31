@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mirrorcreator.com/files/17RA4CXU/SiSoftware.Sandra.Personal.v2012.05.18.40.rar_links
+
+
+[filters]
+http://as.mmngte.net/adj?s=202&w=300&h=250
+http://as.mmngte.net/adj?s=203&w=728&h=90
+http://as.mmngte.net/adj?ul_cb=1&s=202&w=300&h=250
+http://as.mmngte.net/adj?ul_cb=1&s=203&w=728&h=90
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11681
+
+[comments]
+fanboy
