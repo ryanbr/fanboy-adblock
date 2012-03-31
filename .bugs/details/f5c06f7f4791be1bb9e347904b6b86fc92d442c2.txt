@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.marketwatch.com/video/asset/free-homes-made-to-order-for-wounded-vets-2012-02-27/A4B31852-ACA6-45AA-96F7-5AF65271CF85#!A4B31852-ACA6-45AA-96F7-5AF65271CF85
+
+
+[filters]
+http://mw1.wsj.net/MW5/content/video/js/VideoTracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
