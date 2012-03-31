@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.usps.com/
+
+
+[filters]
+https://www.usps.com/adserver/phx/homepage/new-prices-january-2012.jpg
+https://www.usps.com/adserver/phx/homepage/village-postage-office.jpg
+https://www.usps.com/adserver/phx/homepage/whatsnew-promo-v2.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
