@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://lacuerda.net/tabs/e/extremoduro/el_dia_de_la_bestia
+
+
+[filters]
+http://pub.lacuerda.net/160.php
+http://pub.lacuerda.net/728.php
+http://pub.lacuerda.net/txtad.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
