@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thedailymuse.com/entrepreneurship/7-keys-to-hiring-your-start-ups-first-employee/
+
+
+[filters]
+http://www.thedailymuse.com/wp-content/plugins/social-media-widget/images/default/32/facebook.png
+http://www.thedailymuse.com/wp-content/plugins/social-media-widget/images/default/32/rss.png
+http://www.thedailymuse.com/wp-content/plugins/social-media-widget/images/default/32/stumble.png
+http://www.thedailymuse.com/wp-content/plugins/social-media-widget/images/default/32/twitter.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
