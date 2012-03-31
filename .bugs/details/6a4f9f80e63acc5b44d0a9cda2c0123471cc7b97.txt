@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ustream.tv/recorded/19156232
+
+
+[filters]
+http://tracking.ustream.tv/1x1.gif?r=0.3914622871009341333165625585
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
