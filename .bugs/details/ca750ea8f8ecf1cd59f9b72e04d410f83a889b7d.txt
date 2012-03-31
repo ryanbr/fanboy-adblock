@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.europafm.com/directo/
+
+
+[filters]
+http://www.smartadserver.com/crossdomain.xml
+http://secure-uk.imrworldwide.com/novms/js/2/swfobject.js
+http://secure-uk.imrworldwide.com/novms/js/2/ggcmb353.js
+http://www.smartadserver.com/call/pubj/11297/79112/4654/M/2343211.0343128443/%5Btarget%5D
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
