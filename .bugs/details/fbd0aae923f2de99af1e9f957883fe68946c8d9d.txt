@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wrappedhersheys.com/
+
+
+[filters]
+http://integration.delivra.com/tracking/default.aspx?mid=&ml=&cl=wrappedhersheys&e=page&sl=http%3A//wrappedhersheys.com/&u=&l=&url=http%3A//wrappedhersheys.com/&version=2
+http://integration.delivra.com/tracking/dltrv2.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
