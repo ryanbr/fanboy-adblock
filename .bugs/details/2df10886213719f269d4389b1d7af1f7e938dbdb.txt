@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://articles.latimes.com/2012/mar/11/opinion/la-oe-holguin-veras-tsunami-20120311
+
+
+[filters]
+http://www.google-analytics.com/ga.js
+
+
+
+[other]
+Cant click on the LA times main banner to get back.. 
+
+
+[comments]
+fanboy
