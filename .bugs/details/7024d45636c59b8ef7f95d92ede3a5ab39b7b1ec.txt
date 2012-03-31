@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.everydaysource.com/product/Extended-Li-ion-Battery-with-Cover-for-HTC-Droid-Incredible/CHTCINCRLI01
+
+[filters]
+http://shopsocially.com/merchant/offer_window?ptnr=0738a3d9bbc7127550a0c0a3d2961c64&oid=133317690160511769&cmp_id=4f3cc673375e8818e9000056&app_id=4f3cc673375e8818e9000054
+http://shopsocially.com/merchant/offer_window?ptnr=0738a3d9bbc7127550a0c0a3d2961c64&oid=133317690160511769&cmp_id=4f3cc673375e8818e9000056&app_id=4f3cc673375e8818e9000054
+http://j.maxmind.com/app/geoip.js
+
+
+[other]
+
+
+
+[comments]
+fanboy
