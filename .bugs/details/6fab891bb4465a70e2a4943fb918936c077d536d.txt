@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.autoguide.com/auto-news/2012/03/forza-motorsport-4-gets-alpinestars-pack-featuring-sls-amg-gt3.html
+
+
+[filters]
+http://pubads.g.doubleclick.net/gampad/ads?correlator=2566138855223031&output=json_html&callback=GA_googleSetAdContentsBySlotForSync&impl=s&prev_afc=4&pstok=w1GWAOEq68AKBRDlsdIECg0KCwitltkEEI3-6cAkCgA&client=ca-pub-7865546952023728&slotname=AutoGuide_com_Pre-Roll&page_slots=AutoGuide_com_728x90_Top_AUTO%2CAutoGuide_com_250x90_TopRight_AUTO%2CAutoGuide_com_Position4_AUTO%2CAutoGuide_com_Pre-Roll&cust_params=sitename%3Dautoguide_com%26folder1%3Dauto-news%26folder2%3D2012%26folder3%3D03%26filename%3Dforza-motorsport-4-gets-alpinestars-pack&cookie=ID%3Dbc50bb76f75a2a75%3AT%3D1333168410%3AS%3DALNI_MZCfl3YRBX7o7H17zPNmps_0m2l5A&url=http%3A%2F%2Fwww.autoguide.com%2Fauto-news%2F2012%2F03%2Fforza-motorsport-4-gets-alpinestars-pack-featuring-sls-amg-gt3.html&ref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D8%26t%3D11690&lmt=1333168613&dt=1333168615932&cc=100&biw=1903&bih=949&adk=2851703832&adx=473&ady=987&ifi=4&oid=3&u_tz=780&u_his=2&u_java=true&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=24&u_nplug=3&u_nmime=36&flash=11.1.102&gads=v2&ga_vid=631137006.1333168405&ga_sid=1333168405&ga_hid=230118740&ga_fc=true
+http://pubads.g.doubleclick.net/gampad/ads?correlator=2566138855223031&output=json_html&callback=GA_googleSetAdContentsBySlotForSync&impl=s&prev_afc=68&pstok=-EksQnu6kXQKBRDlsdIECg0KCwitltkEEI3-6cAkCgAKDQoLCI2InQEQva3PgxYKFBD9kacpENGZ-AcQ6LWrDxCLyLE4Cg0KCwjtx50BEJ2u1YMWCg0KCwjVkdkEEJX96cAk&client=ca-pub-7865546952023728&slotname=AutoGuide_com_728x90_Bottom_AUTO&page_slots=AutoGuide_com_728x90_Top_AUTO%2CAutoGuide_com_250x90_TopRight_AUTO%2CAutoGuide_com_Position4_AUTO%2CAutoGuide_com_Pre-Roll%2CAutoGuide_com_300x250_Top1_AUTO%2CAutoGuide_com_160x600_Right_AUTO%2CAutoGuide_com_250x90_BottomLeft_AUTO%2CAutoGuide_com_728x90_Bottom_AUTO&cust_params=sitename%3Dautoguide_com%26folder1%3Dauto-news%26folder2%3D2012%26folder3%3D03%26filename%3Dforza-motorsport-4-gets-alpinestars-pack&cookie=ID%3Dbc50bb76f75a2a75%3AT%3D1333168410%3AS%3DALNI_MZCfl3YRBX7o7H17zPNmps_0m2l5A&url=http%3A%2F%2Fwww.autoguide.com%2Fauto-news%2F2012%2F03%2Fforza-motorsport-4-gets-alpinestars-pack-featuring-sls-amg-gt3.html&ref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D8%26t%3D11690&lmt=1333168613&dt=1333168617605&cc=100&biw=1903&bih=949&adk=3624700119&adx=0&ady=570&ifi=8&oid=3&u_tz=780&u_his=2&u_java=true&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=24&u_nplug=3&u_nmime=36&flash=11.1.102&gads=v2&ga_vid=631137006.1333168405&ga_sid=1333168405&ga_hid=230118740&ga_fc=true
+http://pubads.g.doubleclick.net/gampad/ads?correlator=2566138855223031&output=json_html&callback=GA_googleSetAdContentsBySlotForSync&impl=s&prev_afc=8&pstok=uFOBjnE3mvAKBRDlsdIECg0KCwitltkEEI3-6cAkCgAKDQoLCI2InQEQva3PgxY&client=ca-pub-7865546952023728&slotname=AutoGuide_com_300x250_Top1_AUTO&page_slots=AutoGuide_com_728x90_Top_AUTO%2CAutoGuide_com_250x90_TopRight_AUTO%2CAutoGuide_com_Position4_AUTO%2CAutoGuide_com_Pre-Roll%2CAutoGuide_com_300x250_Top1_AUTO&cust_params=sitename%3Dautoguide_com%26folder1%3Dauto-news%26folder2%3D2012%26folder3%3D03%26filename%3Dforza-motorsport-4-gets-alpinestars-pack&cookie=ID%3Dbc50bb76f75a2a75%3AT%3D1333168410%3AS%3DALNI_MZCfl3YRBX7o7H17zPNmps_0m2l5A&url=http%3A%2F%2Fwww.autoguide.com%2Fauto-news%2F2012%2F03%2Fforza-motorsport-4-gets-alpinestars-pack-featuring-sls-amg-gt3.html&ref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D8%26t%3D11690&lmt=1333168613&dt=1333168616173&cc=100&biw=1903&bih=949&adk=1068911389&adx=0&ady=0&ifi=5&oid=3&u_tz=780&u_his=2&u_java=true&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=24&u_nplug=3&u_nmime=36&flash=11.1.102&gads=v2&ga_vid=631137006.1333168405&ga_sid=1333168405&ga_hid=230118740&ga_fc=true
+http://partner.googleadservices.com/gampad/google_service.js
+http://partner.googleadservices.com/gampad/google_ads.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
