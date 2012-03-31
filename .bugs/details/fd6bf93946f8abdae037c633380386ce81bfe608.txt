@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vivociti.com/
+
+
+[filters]
+http://www.namedrive.com/affiliates/Tracking?id=25_e&ref=2g751c
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
