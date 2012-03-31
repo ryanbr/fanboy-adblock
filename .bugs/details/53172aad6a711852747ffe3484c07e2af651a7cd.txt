@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nytimes.com/slideshow/2011/12/11/arts/design/12112000_DELSAUX.html#3
+
+
+[filters]
+/wtinit.js
+
+
+
+[other]
+bad filter, remove
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11698
+
+[comments]
+fanboy
