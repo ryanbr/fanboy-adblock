@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://imagecloset.com/
+
+
+[filters]
+http://tshirthell.com/img/affiliate_section/banners/newshirts_300x250_1.jpg
+http://www.tshirthell.com/img/affiliate_section/banners/newshirts_300x250_1.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
