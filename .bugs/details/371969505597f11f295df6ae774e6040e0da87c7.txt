@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bleacherreport.com/articles/1120633-the-50-best-college-football-swag-items
+
+[filters]
+http://bleacherreport.com/images/articles/icon-fb.png
+http://bleacherreport.com/images/redesign/common/icon_google.png
+http://bleacherreport.com/images/redesign/common/icon_subscribe.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
