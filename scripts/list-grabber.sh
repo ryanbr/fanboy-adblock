@@ -851,5 +851,5 @@ fi
 # echo when script is finished
 #
 echo "Script finished executing on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
-echo -e "------------------------- End of script -------------------------\n\r" >> /var/log/adblock-log.txt
-
+echo "------------------------- End of script -------------------------" >> /var/log/adblock-log.txt
+echo " " >> /var/log/adblock-log.txt
