@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lordandtaylor.com/eng/men-savemore-_40offsuitssportcoatsdresspants-lordandtaylor
+
+
+[filters]
+http://www.lordandtaylor.com/javascript/siteClarity/sc_lordandtaylor.js
+http://www.lordandtaylor.com/javascript/siteClarity/sc_cart.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11722
+
+
+[comments]
+fanboy
