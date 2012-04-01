@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://goldsilver.com/
+
+
+[filters]
+https://www.research.net/pop.aspx?sm=vfpSwLO7FoX9UpiAKM8pWpsZadPM7TT9NZrcWdth%2fuE%3d
+https://www.research.net/jsPop.aspx?sm=VqxlX4OWdKNsxCxFhtSmxw_3d_3d
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
