@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kcsoftwares.com/sumo/view.php?prot=2&ProductName=Zip+Express&Company=Insight%20Software%20Solutions
+
+
+[filters]
+http://cdn.recomendedsite.com/images/addons/icons/1786/Speed%20Up%20PC%20English.gif
+http://cdn.recomendedsite.com/images/widget/button.png
+http://cdn.recomendedsite.com/styles/widget/base.css
+http://cdn.recomendedsite.com/styles/widget/templates/1.css
+http://cdn.recomendedsite.com/styles/widget/themes/custom.css
+http://d.recomendedsite.com/widget/render/hash/10f65789174bb555cd6e5a11b390d086
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
