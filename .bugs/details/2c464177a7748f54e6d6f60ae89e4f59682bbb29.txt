@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.movie2k.to/Wrath-of-the-Titans-watch-movie-1268993.html
+
+
+[filters]
+http://www.movie2k.to/layer.php
+http://www.movie2k.to/pop.php
+http://www.videoweed.es/js/aff.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
