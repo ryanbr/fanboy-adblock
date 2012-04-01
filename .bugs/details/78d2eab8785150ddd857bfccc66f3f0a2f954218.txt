@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.motorola.com/Business/XA-EN/Business+Product+and+Services
+
+
+[filters]
+http://www.motorola.com/web/Business/survey/onlineopinionV5/oo_conf_en-XA_float.js
+http://www.motorola.com/web/Business/survey/onlineopinionV5/oo_conf_xa-en_invite.js
+http://www.motorola.com/web/Business/survey/onlineopinionV5/oo_engine.min.js
+http://www.motorola.com/web/Business/survey/onlineopinionV5/oo_style.css
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
