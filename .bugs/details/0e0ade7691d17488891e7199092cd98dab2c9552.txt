@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cnn.com/video/#/video/us/2012/03/31/nr-simon-inside-sanford.cnn
+
+[filters]
+http://z.cdn.turner.com/xslo/cvp/config/cnn/aspenanalytics.xml?cbr=1333231378890
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
