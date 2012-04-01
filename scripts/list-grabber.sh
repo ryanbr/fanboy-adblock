@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v1.7 (18/03/2012)
+# Fanboy Adblock list grabber script v1.71 (1/04/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -847,4 +847,9 @@ else
    ### echo "SSLGOOGLE: $GOOGLEDIR/other/adblock-gannett.txt $SSLGOOGLE"
    ### ls -al $GOOGLEDIR/other/adblock-gannett.txt $MAINDIR/adblock-gannett.txt
 fi
+
+# echo when script is finished
+#
+echo "Script finished executing on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+echo -e "------------------------- End of script -------------------------\n\r" >> /var/log/adblock-log.txt
 
