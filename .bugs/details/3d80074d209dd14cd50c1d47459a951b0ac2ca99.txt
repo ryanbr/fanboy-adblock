@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://richielewis.com/why-unbelievers-are-so-religious/
+
+
+[filters]
+http://richielewis.com/wp-content/plugins/social-media-widget/social_widget.css
+http://richielewis.com/wp-content/plugins/simple-social-icons/images/sprite_48x48.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
