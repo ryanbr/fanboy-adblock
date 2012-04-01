@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wineenthusiast.com/
+
+
+[filters]
+http://d1ivexoxmp59q7.cloudfront.net/c.gif?cli=wineenthusiast&tag=script&ref=http%3A//www.google.com/search%3Fhl%3Den%26safe%3Doff%26q%3Drelated%3Awww.wine.com&coo=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
