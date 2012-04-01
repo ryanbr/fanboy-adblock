@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gamesfreak.net/games/Sports-Heads-Tennis_3991.html
+
+
+[filters]
+http://s0.2mdn.net/instream/adsapi_2.swf
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
