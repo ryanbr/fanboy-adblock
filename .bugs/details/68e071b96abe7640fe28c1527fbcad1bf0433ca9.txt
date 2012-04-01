@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wine.com/Default.aspx?state=CA
+
+
+[filters]
+http://cache.wine.com/includes/analytics/s_remote_code.js?v=634678573249948978
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
