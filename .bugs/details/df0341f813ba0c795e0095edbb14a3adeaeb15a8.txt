@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://megashara.com/movies/728867/lichnost_neizvestna_id_a.html
+
+[filters]
+http://tds.traforet.ru/thread143/?path0052.172
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
