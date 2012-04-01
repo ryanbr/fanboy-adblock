@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.filmikz.ch/watch/5559/Splintered--2010--fkz.php
+
+
+[filters]
+http://pop-over.powered-by.onlinedl.info/e42ee96fa8cb951485f607d3c7db
+http://www.filmikz.ch/ads/bmedia.html
+http://www.filmikz.ch/ads/right.html
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
