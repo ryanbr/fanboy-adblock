@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.farposst.ru/2012/04/01/__heynkel___He_111_HQ.html#comment
+
+[filters]
+http://cool.farposst.ru/50fwvixumty8h4ob7bcx6t5mh1i4jacr3jp8ojn?&tzsrgy=http%3A//www.farposst.ru/page/1/&4zrbm044=52445976&4g7i8=0&2um8v=0&40r9s=0&4al8h=0
+http://cool.farposst.ru/5easame6byu8ecwfdtozd15dgxzf4v
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
