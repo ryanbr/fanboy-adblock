@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://code.google.com/p/tortoisegit/
+
+
+[filters]
+https://code-opensocial.googleusercontent.com/gadgets/ifr?url=http%3A%2F%2Fwww.ohloh.net%2Fp%2Ftortoisegit%2Fwidgets%2Fproject_users.xml&parent=%2F%2Fcode.google.com%2Fhosting&container=code
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
