@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newsday.com/long-island/suffolk/suffolk-program-supports-vets-with-ptsd-1.3636931
+
+
+[filters]
+http://metering.pagesuite.com/query/in_zone.aspx?&callback=jsonp1333368964905&ip=111.77.129.9&web=newsday.com&ua=4772127526447221
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
