@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://androidcommunity.com/htc-one-x-shows-nvidias-tegra-3-is-a-batteries-best-friend-20120402/
+
+
+[filters]
+http://cdn.androidcommunity.com/wp-content/themes/ewdisonv2/images/acw_icon_facebook_24.gif
+http://cdn.androidcommunity.com/wp-content/themes/ewdisonv2/images/acw_icon_feed_24.gif
+http://cdn.androidcommunity.com/wp-content/themes/ewdisonv2/images/acw_icon_technorati_24.gif
+http://cdn.androidcommunity.com/wp-content/themes/ewdisonv2/images/acw_icon_twitter_24.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
