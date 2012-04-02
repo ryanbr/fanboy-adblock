@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://code.google.com/p/gdipp/wiki/Updates
+
+
+[filters]
+https://code-opensocial.googleusercontent.com/gadgets/ifr?url=http%3A%2F%2Fsorryrobot.com%2Fprojecthostingupdates%2Fcom1.xml&up_projectName=gdipp&parent=%2F%2Fcode.google.com%2Fhosting&container=code
+https://code-opensocial.googleusercontent.com/gadgets/ifr?url=http%3A%2F%2Fsorryrobot.com%2Fprojecthostingupdates%2Fgc24.xml&up_projectName=gdipp&parent=%2F%2Fcode.google.com%2Fhosting&container=code
+https://code-opensocial.googleusercontent.com/gadgets/ifr?url=http%3A%2F%2Fsorryrobot.com%2Fprojecthostingupdates%2Ft5.xml&up_projectName=gdipp&parent=%2F%2Fcode.google.com%2Fhosting&container=code
+https://code-opensocial.googleusercontent.com/gadgets/js/rpc.js?c=1&container=code
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
