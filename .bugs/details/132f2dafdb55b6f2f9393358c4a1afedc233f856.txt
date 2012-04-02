@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.designbuzz.com/inspirational-kitchen-technologies-adorn-futuristic-homes.html
+
+
+[filters]
+||juggler.services.disqus.com/event.js?
+http://juggler.services.disqus.com/event.js?thread=631186402&forum=designbuzz-com&imp=1333372941063184214&event=init_embed&thread_slug=ubi_camera_frames_and_captures_snaps_with_your_fingers&user_type=anon&referrer=http%3A%2F%2Fwww.reddit.com%2F&active_switches=%5B%22olark_admin_addons%22%2C%22listactivity_replies%22%2C%22discovery_preview_users%22%2C%22es_index_threads%22%2C%22use_master_for_api%22%2C%22google_auth%22%2C%22discovery_best_comment%22%2C%22html_email%22%2C%22moderate_ascending%22%2C%22community_icon%22%2C%22realtime_cached%22%2C%22google_analytics%22%2C%22olark_admin_packages%22%2C%22static_styles%22%2C%22firehose%22%2C%22stats%22%2C%22firehose_gnip_http%22%2C%22transitional_sessions%22%2C%22discovery_redirect_event%22%2C%22show_captcha_on_links%22%2C%22statsd_created%22%2C%22bespin%22%2C%22olark_support%22%2C%22firehose_gnip%22%2C%22firehose_pubsub%22%2C%22olark_addons%22%2C%22new_facebook_auth%22%2C%22limit_get_posts_days_30d%22%2C%22edits_to_spam%22%2C%22juggler_thread_onReady%22%2C%22juggler_enabled%22%2C%22discovery_network%22%2C%22phoenix%22%2C%22phoenix_reputation%22%2C%22new_thread_create%22%2C%22use_impermium%22%2C%22upload_media%22%2C%22vip_read_slave%22%2C%22embedapi%22%2C%22ssl%22%2C%22es_index_posts_discovery%22%2C%22usertransformer_reputation%22%2C%22fingerprint%22%2C%22send_to_impermium%22%2C%22firehose_push%22%2C%22theme_editor_disabled%22%2C%22firehose_message_db_lookup%22%2C%22listactivity_replies_30d%22%2C%22realtime%22%2C%22phoenix_optout%22%2C%22statsd.timings%22%2C%22train_impermium%22%2C%22firehose_pubsub_throttle%22%2C%22git_themes%22%2C%22new_moderate%22%2C%22use_rs_paginator_60m%22%2C%22redis_threadcount%22%2C%22mentions%22%2C%22olark_install%22%2C%22static_reply_frame%22%5D&theme=Houdini&prev_imp
+
+
+
+
+[other]
+test
+
+
+[comments]
+fanboy
