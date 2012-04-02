@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.chatzy.com/
+
+
+[filters]
+http://us4.chatzy.com/?jsonp:X114=undefined&X122=&X264=&X149=&X1=213&X477=1&X145=quick&X370=Test&X900=000000&X903=&X343=&X904=&X535=&X9=Test&X371=&X374=Hi%20there%21%0A%0APlease%20join%20me%20for%20a%20chat.%20All%20you%20have%20to%20do%20is%20follow%20this%20link%3A&X123=&X702=4&X655=1333353944980
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
