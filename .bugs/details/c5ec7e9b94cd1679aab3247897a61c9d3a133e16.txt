@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.france24.com/en/20120327-tunisia-constitution-will-not-be-based-islamic-law
+
+[filters]
+http://pub.ftv-publicite.fr/4/www.france24.en/wire/1161003779@Top,Middle,Middle2,BottomRight,x01,x02,x30?
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
