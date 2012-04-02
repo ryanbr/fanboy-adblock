@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sci-tech-today.com/story.xhtml?story_id=12200C3ZB2GI
+
+
+[filters]
+http://content.yellowbrix.com/images/content/cimage.gif?ctype=FS&story_id=170699005&rand=1333368170
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
