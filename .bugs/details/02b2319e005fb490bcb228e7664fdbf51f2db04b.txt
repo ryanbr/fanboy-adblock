@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bauer-power.net/2009/10/where-is-startup-folder-in-windows-7.html
+
+
+[filters]
+http://scribol.com/sites/default/files/js/js_b70c4d88b345d6f1ce75bc7da62d70fd.js
+http://scribol.com/traffix/widget_tracker/438076/438432?src=http%3A%2F%2Fwww.bauer-power.net%2F2009%2F10%2Fwhere-is-startup-folder-in-windows-7.html&ids=d8e9307300e104e687d6eb8437d05b60%2C637991%2C886489%2C881254%2C88265
+http://ftp.bauer-power.net/misc/tc/advertisement.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11730
+
+
+[comments]
+fanboy
