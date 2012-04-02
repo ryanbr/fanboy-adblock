@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.popmatters.com/pm/column/156645-when-politicians-hit-wrong-notes
+
+[filters]
+http://styld-by.com/javascripts/gap.digicat.overlay.js
+http://styld-by.com/stylesheets/gap.digicat.overlay.css
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
