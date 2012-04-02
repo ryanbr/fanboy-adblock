@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.guardian.co.uk/technology/2012/apr/01/ai-artificial-intelligence-robots-sautoy
+
+
+[filters]
+http://assets.simplifydigital.co.uk/guardian/articlepages.htm
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
