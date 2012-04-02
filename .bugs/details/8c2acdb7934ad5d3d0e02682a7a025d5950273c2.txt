@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www2.tbo.com/news/offbeat/2012/mar/30/3/busch-gardens-celebrates-its-second-aardvark-birth-ar-386801/
+
+
+[filters]
+http://tbo.dukecms.com/deals2/categories/tbo-deals/pillow/
+http://www3.tbo.com/deals2/categories/tbo-deals/pillow/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
