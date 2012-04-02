@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.skype.com/intl/en-us/home
+
+
+[filters]
+http://www.skypeassets.com/i/js/jquery/tracking.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
