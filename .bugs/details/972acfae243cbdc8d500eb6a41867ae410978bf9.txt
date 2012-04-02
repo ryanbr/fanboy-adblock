@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.amazon.com/gp/cart/view-upsell.html?ie=UTF8&storeID=electronics&nodeID=195894&HUCT=1&newItems=fh998whe7W3%2C1
+
+
+[filters]
+https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/DA-us/DA-us-2978095521.js._V135493551_.js
+https://images-na.ssl-images-amazon.com/images/G/01/x-locale/traffic/s9m/1x1-trans-pixel._V195595349_.gif
+
+
+[other]
+https://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11735
+
+
+[comments]
+nitrox
