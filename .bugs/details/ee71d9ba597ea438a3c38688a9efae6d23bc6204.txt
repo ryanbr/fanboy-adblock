@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.businessnewsdaily.com/2280-national-pencil-day-sales.html?2
+
+[filters]
+http://www.businessnewsdaily.com/images/site/bnd-follow-us-icons.png
+http://www.businessnewsdaily.com/social.php?type=face&size=s&url=http%3A//www.businessnewsdaily.com/2280-national-pencil-day-sales.html%3F2&title=Pencils+Survive+and+Sales+Thrive%2C+Even+in+a+Digital+Age&page_position=Top_Share_Bar_followUs&env=production
+http://www.businessnewsdaily.com/social.php?type=face&size=s&url=http%3A//www.facebook.com/BusinessNewsDaily&title=BusinessNewsDaily&page_position=Top_Share_Bar_followUs&env=production
+http://www.businessnewsdaily.com/social.php?type=twit&size=s&url=http%3A//www.businessnewsdaily.com/2280-national-pencil-day-sales.html%3F2&title=Pencils+Survive+and+Sales+Thrive%2C+Even+in+a+Digital+Age&page_position=Top_Share_Bar_followUs&env=production
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
