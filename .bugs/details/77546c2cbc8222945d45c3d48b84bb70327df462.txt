@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://9to5google.com/2012/04/02/samsung-offering-free-extended-battery-kit-with-galaxy-nexus-on-contract/
+
+[filters]
+http://s0.wp.com/wp-content/themes/vip/9to5mac/images/social-sprite-small.png
+http://s0.wp.com/wp-content/themes/vip/9to5mac/images/social-sprite.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
