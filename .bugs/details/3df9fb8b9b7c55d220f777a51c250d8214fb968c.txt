@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://grooveshark.com/#!/playlist/Contraband/53947582
+
+
+[filters]
+# Copy your Adblock filters here
+
+
+
+
+[other]
+||v11media.com^$third-party
+
+[comments]
+fanboy
