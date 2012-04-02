@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.agame.com/game/millionaire-city.html
+
+
+[filters]
+http://crm.digitalchocolate.com/event/track?fb_user_id=11131090&project_id=65&event=Play%20Tutorial&group=Level&env=2&label=1.%20Loading%20started&version=0&parent_event_id=0&level=1&resource_1_delta=0&resource_1_balance=0&resource_1_total=0&game_currency_delta=0&game_currency_balance=200000&game_currency_total=0&paid_currency_delta=0&paid_currency_balance=0&paid_currency_total=0&real_currency_delta=0&real_currency_balance=0&real_currency_total=0&friends_total=3&application_friends_total=3&is_fan=1&is_bookmarked=0&session_duration=0&session_accumulated_time=0&nanos_delta=0&nanos_balance=0&nanos_total=0
+http://iframe.sponsorpay.com/javascripts/widget/v2/widgets.js?_=1333358714692
+http://iframe.sponsorpay.com/widgets/sp-banner.html?appid=2835&uid=spielen.com:d2b381953645c1de39f20b0a64ed77ca4f79702dc6001&shape=standard&skin=MillionaireCity&currency=Gold&pub0=agame.com
+http://b.scorecardresearch.com/b2?c1=2&c2=6035689&ns__t=1333358710549&ns_c=UTF-8&c8=Millionaire%20City%20-%20Free%20online%20games%20at%20Agame.com&c7=http%3A%2F%2Fwww.agame.com%2Fgame%2Fmillionaire-city.html&c9=
+http://b.scorecardresearch.com/b?c1=2&c2=6035689&ns__t=1333358710549&ns_c=UTF-8&c8=Millionaire%20City%20-%20Free%20online%20games%20at%20Agame.com&c7=http%3A%2F%2Fwww.agame.com%2Fgame%2Fmillionaire-city.html&c9=
+http://b.scorecardresearch.com/beacon.js
+http://b.scorecardresearch.com/p2?c1=2&c2=6035689&cv=2.0&cj=1
+http://b.scorecardresearch.com/p?c1=2&c2=6035689&cv=2.0&cj=1
+http://platform.twitter.com/widgets.js
+
+
+[other]
+https://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11700
+
+
+[comments]
+nitrox
