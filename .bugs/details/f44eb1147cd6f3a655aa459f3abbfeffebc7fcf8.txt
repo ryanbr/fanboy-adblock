@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.godtube.com/watch/?v=FC1MEJNU
+
+[filters]
+http://www.godtube.com/resource/mediaplayer/fc1mejnu.xml?autoplay=true&showLogo=false&noEmbed=false&overlaySize=normal&adZone=swn.godtube%2Fvideo&random=191638640
+http://allpass.salemwebnetwork.com/newsletters/init
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
