@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://videarn.com/
+
+
+[filters]
+http://3.magical-sky.com/a3/?sub=videarn
+http://3.magical-sky.com/a3/chatlistnew250.php?country=New%20Zealand&page=12&sub=videarn
+http://3.magical-sky.com/a3/chatsectionnew250.php?country=New%20Zealand&nick=K1SSY&city=Palmerston%20North&age=21&sub=videarn&thumb=http://3.magical-sky.com/a2/thumbs/5/2bd0cax909225.jpg
+http://3.magical-sky.com/a3/jquery-1.3.2.min.js
+http://3.magical-sky.com/a3/util.js
+http://3.magical-sky.com/a3/w-1.php?time=499827109
+http://3.magical-sky.com/a3/w-1.php?time=562234834
+http://3.magical-sky.com/a3/w-1.php?time=850532446
+http://3.magical-sky.com/a3/w-1.php?time=983320789
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
