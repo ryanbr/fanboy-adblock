@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jesusclips.com/view_video.php?viewkey=b617e9998dc4dd82eb3c
+
+
+[filters]
+http://familybx.com/cgi-bin/impression.pl?m=oebe&s=1&js=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
