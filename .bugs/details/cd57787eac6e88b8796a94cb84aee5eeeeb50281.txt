@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://podrobnosti.ua/internet/2012/03/30/828793.html
+
+
+[filters]
+http://juke.mmi.bemobile.ua/bug/pic.gif?siteid=podrobnosti.ua&j=1&0.8870488761529395
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
