@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ultimatetube.com/
+
+[filters]
+http://word-media.com/seo/plugins/TrackVisitors/Scan.php?IdWeb=1&NameWeb=Christian+Videos&Label=SEO
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
