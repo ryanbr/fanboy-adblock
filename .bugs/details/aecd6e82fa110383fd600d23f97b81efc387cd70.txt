@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yourdailymac.net/2012/04/apple-finally-gives-in-two-years-warranty-for-consumers-in-the-european-union/
+
+
+[filters]
+http://twitter.com/javascripts/blogger.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
