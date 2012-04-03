@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://oddstuffmagazine.com/most-of-the-hottest-horror-chicks-of-all-time.html
+
+
+[filters]
+http://api.nrelate.com/mpw_wp/0.51.1/loadcounter.php?tag=nrelate_popular&domain=oddstuffmagazine.com&url=http%3A%2F%2Foddstuffmagazine.com%2Fmost-of-the-hottest-horror-chicks-of-all-time.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
