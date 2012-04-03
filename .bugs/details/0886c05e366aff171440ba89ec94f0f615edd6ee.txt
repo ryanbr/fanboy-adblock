@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.own3d.tv/live/18755/CLG_Wickd
+
+
+[filters]
+http://static.ec.own3d.tv/lr/roccat/roccat-kave-us.flv
+
+
+
+
+[other]
+reported: https://adblockplus.org/forum/viewtopic.php?f=2&t=8484
+
+
+[comments]
+fanboy
