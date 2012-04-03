@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://censor.net.ua/
+
+
+[filters]
+http://a.censor.net.ua/js/4/1333439983
+http://a.censor.net.ua/js/3/1333439983
+http://a.censor.net.ua/js/5/1333439983
+http://a.censor.net.ua/js/6/1333439983
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
