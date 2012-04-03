@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aif.ua/society/news/29478
+
+
+[filters]
+http://www.aif.ua/lock/counter.php
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
