@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.alex-ionescu.com/?p=53
+
+
+[filters]
+http://www.alex-ionescu.com/wp-content/plugins/wp-social-toolbar/css/wp_social_toolbar.css
+http://www.alex-ionescu.com/wp-content/plugins/wp-social-toolbar/images/icons/white/close.png
+http://www.alex-ionescu.com/wp-content/plugins/wp-social-toolbar/images/icons/white/show.png
+http://www.alex-ionescu.com/wp-content/plugins/wp-social-toolbar/js/corescripts.js?ver=3.3
+http://www.alex-ionescu.com/wp-content/plugins/wp-social-toolbar/js/scripts.js?ver=3.3
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
