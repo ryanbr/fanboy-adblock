@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.readwriteweb.com/cloud/2012/04/enisa-to-cloud-service-provide.php
+
+
+[filters]
+http://tweetgrid.com/widget/widget.js
+http://www.readwriteweb.com/cloud/includes/tweetgrid.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
