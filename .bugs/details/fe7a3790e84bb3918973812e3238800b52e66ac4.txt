@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.huffingtonpost.co.uk/2012/04/03/the-whole-universe-in-one-photo_n_1399100.html
+
+
+[filters]
+http://s.huffpost.com/images/apps_feeds/follow-us-icons.png?v1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
