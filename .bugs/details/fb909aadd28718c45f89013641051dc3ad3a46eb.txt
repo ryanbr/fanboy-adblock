@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://uberhumor.com/best-b-day-present-ever-made-my-eyes-sweat-a-little
+
+[filters]
+http://uberhumor.com/iframe1.html
+http://uberhumor.com/iframe2.html
+http://uberhumor.com/iframe3.html
+http://uberhumor.com/iframe4.html
+http://uberhumor.com/iframe6.html
+http://uberhumor.com/iframe7.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
