@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://s4.letitbit.net/download3.php
+
+
+[filters]
+http://adv.letitbit.net/content/?pid=1&sid=3&3609
+http://up1.letitbit.net/counter/?domain=letitbit.net&img&ref=&rr=0.405634276572585
+http://up1.letitbit.net/counter/?domain=letitbit.net&img&ref=&rr=0.6688226529156177
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
