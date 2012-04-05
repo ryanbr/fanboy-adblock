@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://diziport.com/mad_men_2_sezon-izle/5_bolum/
+
+
+[filters]
+http://bbcdn.x.madserv.net/logos/b267527/diziport_playerskin_ii.jpg
+http://x.madserv.net/please/showit/16674/1/1/9/?typkodu=js&ubl=NaN&ucc=NaN&ucd=24&udx=NaN&udy=NaN&usl=NaN&uje=1&uah=1040&uaw=1920&ubd=NaN&uhe=1080&ulx=NaN&uly=NaN&use=NaN&uto=-720&uui=NaN&uul=NaN&uwi=1920&bust=0.34152135243614024&target=_blank
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
