@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.computerworlduk.com/news/it-business/3348926/one-third-of-o2-staff-more-productive-working-from-home/
+
+
+[filters]
+http://cdn4.computerworlduk.com/scripts/socialMedia.js?20120327113702
+http://www.computerworlduk.com/sponsored/hproi/social-media-linkedin/business-answers-group-posts/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
