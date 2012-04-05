@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://phim.xixam.com/movie/detail/11166/Muu-Dung-Ky-Phung-II---The-Gentle-Crackdown-II----Giang-Ho-Ky-An-2-2020.html
+
+
+[filters]
+http://1gom.com/
+http://bit.ly/phimxixam
+http://bit.ly/xixam12
+http://mediabulk.net/youtube.html
+http://mediaseedonline.net/2012/
+http://s.hort.me/mediaseed/
+http://vnpopads.com/12/phimxixam.html
+http://vnpopads.com/ads/xixam.html
+http://www.1gom.com/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
