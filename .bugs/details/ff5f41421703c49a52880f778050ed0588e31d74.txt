@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hungangels.com/board/index.php
+
+
+[filters]
+http://www.hungangels.com/vboard/ads/nichecastle/ats/rotate.php
+http://www.hungangels.com/vboard/ads/smc/mia/rotate.php
+http://www.moviedollars.com/dynamic_ads/plain1.php?&rss=http%3A%2F%2Fwww.tvtsvod.com%2Frecently_added.php%3Frss%3D1
+http://www.pecash.com/ahtml/php/feature.php?af=2028&type=dvd&init=trans&site=207&tmpl=4
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
