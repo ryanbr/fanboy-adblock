@@ -1,0 +1,33 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ketqua.net/
+
+
+[filters]
+http://1.bp.blogspot.com/-PfhpyruuowQ/T3J0amG4ZqI/AAAAAAAAAQQ/-mT2JLPm3ys/s1600/trungiphone4390x90.gif
+http://2.bp.blogspot.com/-1Ckn5T8rCNI/T3JyQxFslMI/AAAAAAAAAPg/oWnU3MtcQmQ/s1600/logo.jpg
+http://2.bp.blogspot.com/-9xeHv7w14RI/T3JySnFHsJI/AAAAAAAAAP4/2sHvyFdX-jw/s1600/soicau.jpg
+http://2.bp.blogspot.com/-XHZShh59BhE/T3qKhw8MLFI/AAAAAAAAAQo/zUf7tbi2eDE/s1600/190X90.gif
+http://3.bp.blogspot.com/-0gZDvdypkbk/T3JyRX2_AsI/AAAAAAAAAPo/ClGtiiRW6Ww/s1600/lottoonline.jpg
+http://3.bp.blogspot.com/-9qztjyBeCWs/T3JyN701j0I/AAAAAAAAAO4/Dnaik_Rh9KM/s1600/banner-VIP.gif
+http://3.bp.blogspot.com/-mNkHDW4sNRk/T3YYcz54CZI/AAAAAAAAAQg/wL3m3r6FWCw/s1600/m88.jpg
+http://3.bp.blogspot.com/-oxpkk9c_z_E/T3JyQRR8XxI/AAAAAAAAAPY/3ycL1vGg2tU/s1600/home.gif
+http://3.bp.blogspot.com/-rdQ12pQQHbw/T3JySGN5YdI/AAAAAAAAAPw/c1SxiYaExFg/s1600/new.gif
+http://4.bp.blogspot.com/-BS9fGVEibsU/T3JyTduJI4I/AAAAAAAAAQA/vYIXKKZvYBg/s1600/tao_lo_go.gif
+http://banner.12bet.com/Bonus/1991.gif
+http://banner.fun688.com/Banner/940/150x150_vn.gif
+http://data.ketqua.net/images/qc-casino789.gif
+http://ketqua.net/pop.html
+http://www.sbbanner.com/newmedia/vi/promo/viSBnG_240x100.gif
+http://www.sun988newsletter.com/111411/Marketing-Banner_190X90.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
