@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://indirdoldur.org/turkce-full-albumler/
+
+
+[filters]
+http://tik.tl/js/integrate.js
+http://www.ycreklam.com/banner/4274genelsplash8Td.jpg
+http://www.ycreklam.com/splash.js
+http://www.ycreklam.com/splash.js?getJs=1&campType=5&pageUniq=2882&userId=98&campCategory=1&privKey=f474ef64f53569e9d0dec94c9796b732&other=0&pageRef=http%3A%2F/indirdoldur.org/turkce-full-albumler/&pageRef2=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
