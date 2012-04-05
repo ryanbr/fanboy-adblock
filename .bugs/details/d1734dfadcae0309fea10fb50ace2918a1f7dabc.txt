@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.firstrowsports.eu/watch/117157/1/watch-townsville-crocodiles-vs-new-zealand.html
+
+
+[filters]
+http://watch.vipi.tv/ad.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
