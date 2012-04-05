@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.expedia.com/Sacramento-Hotels-The-Citizen-Hotel.h2201796.Hotel-Information?chkin=04%2F04%2F2012&chkout=04%2F07%2F2012&rm1=a2&hwrqCacheKey=2fb0a6e3-3503-4dd8-993e-79588aa58507HWRQ1333582694568&c=bff593e6-d86e-416a-821d-3b6ec0ed7ed8&&hashTag=roomsAndRates&rfrr=-5517#book_now
+
+
+[filters]
+http://www.expedia.com/static/default/default/scripts/siteAnalytics.js?v=release-2012-03-r4-27-428009
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11771
+
+
+[comments]
+fanboy
