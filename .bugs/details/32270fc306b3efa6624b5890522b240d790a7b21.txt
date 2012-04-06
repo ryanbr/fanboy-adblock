@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.v9.com/s#gsc.tab=0&gsc.q=test&gsc.page=1
+
+
+[filters]
+http://analytic.xingcloud.com/1333753371648/index.gif?appid=v9@337_pt_v9&uid=v9_1333753198_438538&event=user.visit
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
