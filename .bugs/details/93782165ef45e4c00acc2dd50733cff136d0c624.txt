@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.v9.com/
+
+
+[filters]
+http://v9s10.eleximg.com/v9/js/ga.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
