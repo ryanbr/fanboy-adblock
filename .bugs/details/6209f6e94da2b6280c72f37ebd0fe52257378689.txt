@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://theoaklandpress.com/articles/2012/03/30/news/state/doc4f75c230ab4db961037036.txt
+
+
+[filters]
+http://cms.myspacecdn.com/cms/ShareOnMySpace/small.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
