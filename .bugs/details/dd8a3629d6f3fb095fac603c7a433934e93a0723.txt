@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.i2i.jp/
+
+
+[filters]
+http://ac8.i2i.jp/bin/2nd_gets.php?00710687
+http://ac8.i2i.jp/bin/rows.php?idname=00710687&gid=121.xx.xx.x.1333708612&uq=1&ac=1&usra=Mozilla%2F5.0%20%28Windows%20NT%206.1%3B%20Win64%3B%20x64%3B%20rv%3A14.0%29%20Gecko%2F20120324%20Firefox%2F14.0a1&reff=&url=http%3A//www.i2i.jp/&etitle=i2i%20%u7121%u6599WEB%u30D1%u30FC%u30C4%20-%20%u30A2%u30AF%u30BB%u30B9%u89E3%u6790%u3001%u30AB%u30A6%u30F3%u30BF%u30FC%u3001%u30A2%u30AF%u30BB%u30B9%u30E9%u30F3%u30AD%u30F3%u30B0&rt=1080:1920&vd=no_date&vc=1
+http://image.fxprime-popular.com/bnr.gif?00710687
+http://raw.mobalyzer.net/sp/?user_no=2534cd6e92fef68f5c93eb44d10c1c45&ser_no=t1333708616930r6828__.XKcf90b9yk&ref=&url=http%3A%2F%2Fwww.i2i.jp%2F&ua=Mozilla%2F5.0%20(Windows%20NT%206.1%3B%20Win64%3B%20x64%3B%20rv%3A14.0)%20Gecko%2F20120324%20Firefox%2F14.0a1&m_id=&c_b=&jump=&aom=&order_id=&r=on
+http://raw.mobalyzer.net/sp/inc.js?
+http://track.affiliate-b.com/start.php?adv=v63B
+https://track.affiliate-b.com/start_1.php?ref=&adv=v63B
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
