@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.livedoor.jp/kinisoku/archives/3357401.html
+
+
+[filters]
+http://h.accesstrade.net/at/rot.html?rt=000m220095wh0k802i
+http://img.accesstrade.net/m/m_img/415196/032304.jpg
+http://www.accesstrade.net/at/r.html?rk=0100bd4n0095wh
+http://js.kau.li/yad.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
