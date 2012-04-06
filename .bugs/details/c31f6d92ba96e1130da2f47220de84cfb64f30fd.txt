@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://chowhound.chow.com/boards
+
+
+[filters]
+http://www.chow.com/static/20120404213653/images/socialButtons.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
