@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dnainfo.com/20120404/midtown/firefighters-battle-blaze-at-macys-herald-square/slideshow/popup/172038
+
+
+[filters]
+http://www.googletagservices.com/tag/js/gpt.js
+
+
+
+
+[other]
+reported: https://adblockplus.org/forum/viewtopic.php?f=2&t=9951
+breaks slideshow
+
+[comments]
+fanboy
