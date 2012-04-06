@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nbcmiami.com/news/Woman-Beats-Boyfriend-Who-Refused-to-Have-Sex-With-Her-Police-146284155.html
+
+
+[filters]
+http://sl1.cdn.fwix.com/geotagger/geotagger.min.js
+http://sl2.cdn.fwix.com/geotagger/badge/images/fwixgt_wide.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
