@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nbcmiami.com/entertainment/music/Celebrity_Hookups.html
+
+
+[filters]
+http://www.nbcmiami.com/includes/s_code.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
