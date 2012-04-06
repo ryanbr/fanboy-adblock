@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thenextweb.com/insider/2012/04/04/tired-fingers-sore-wallets-64-of-chinese-gamers-paying-up-each-month/
+
+
+[filters]
+http://thenextweb.com/wp-content/themes/tnw_6/ads/square3.php?c=insider
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
