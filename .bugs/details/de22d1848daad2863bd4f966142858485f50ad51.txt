@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://perfumism.if.land.to/home.html
+
+
+[filters]
+http://ad.land.to/ad/adpc_if_john-blaze.p
+http://ad.land.to/c.p?u=http%3A%2F%2Fperfumism.if.land.to%2Fhome.html
+http://ad.land.to/mvaxxiss.html
+http://if.land.to/ad/adpc_if.p
+http://perfumism.if.land.to/w3a/writelog.php?ref=http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=11780
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
