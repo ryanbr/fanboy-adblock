@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mugshotsusa.com/bay-fl/william-bruce-burke-mug-shot-2622/
+
+[filters]
+http://files.bannersnack.net/app/swf2/EmbedPlayerV2.swf?hash_id=127164bc30df90f05f256aa6b4152243&bgcolor=#330066&clickTag=null&t=1328142393
+http://files.bannersnack.net/exports/embed/127164bc30df90f05f256aa6b4152243?t=1328142393
+mugshotsusa.com##.google-ads-sidebar
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
