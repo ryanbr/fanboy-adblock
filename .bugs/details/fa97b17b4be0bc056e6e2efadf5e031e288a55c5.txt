@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.youtube.com/user/indiatimes
+
+
+[filters]
+https://www.youtube.com/live_204?ptk=Indiatimes&st=0&asv=3&video_id=tSpT9Zonibs&metric=connected&fmt=34&plid=AAS9F-hhkhWIGw-W&el=detailpage&noflv=1&ps=live
+https://www.youtube.com/live_204?ptk=Indiatimes&st=17311&asv=3&tpmt=2437&video_id=tSpT9Zonibs&metric=heartbeat&fmt=34&plid=AAS9F-hhkhWIGw-W&el=detailpage&noflv=1&ps=live
+https://www.youtube.com/live_204?ptk=Indiatimes&st=27789&asv=3&tpmt=12915&video_id=tSpT9Zonibs&metric=heartbeat&fmt=34&plid=AAS9F-hhkhWIGw-W&el=detailpage&noflv=1&ps=live
+https://www.youtube.com/live_204?ptk=Indiatimes&st=27849&asv=3&tpmt=12975&video_id=tSpT9Zonibs&metric=heartbeat&fmt=34&plid=AAS9F-hhkhWIGw-W&el=detailpage&noflv=1&ps=live
+
+
+[other]
+Tracker is present on live streaming events only. In this case it is a IPL match live stream.
+
+[comments]
+nitrox
