@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://video.nytimes.com/video/2012/04/01/sports/100000001453933/kathy-martin-master-runner.html?WT.mc_id=VI-D-E-TAB-AD-VAR-VIDEO-ROS-0412-NA&WT.mc_ev=click
+
+
+[filters]
+http://urc.taboolasyndication.com/nytimes/log/2/available?li=rplayer%2Dduring&ri=54eca002e38b844a6ea968f05de51c74&sd=v1%5F2923b260284ed7069b1dcea6c8f84762%5Fcc0a3864%2D19e3%2D41c3%2D862d%2D5dcc0a1e988a%5F1333744485%5F1333744582&pt=video&pi=100000001453933&ui=cc0a3864%2D19e3%2D41c3%2D862d%2D5dcc0a1e988a&id=462
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
