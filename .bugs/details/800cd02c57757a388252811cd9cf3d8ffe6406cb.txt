@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.businessweek.com/small-business/
+
+
+[filters]
+http://www.businessweek.com/assets/audience_science-a1957789b209b37e46bd83e708a0a5d8.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
