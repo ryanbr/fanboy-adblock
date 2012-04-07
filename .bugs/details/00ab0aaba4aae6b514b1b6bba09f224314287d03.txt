@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://kat.ph/
+
+[filters]
+https://adx.kat.ph/popunders/33/
+
+
+
+
+[other]
+block the popup and script
+
+
+[comments]
+fanboy
