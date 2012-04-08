@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.charlotteobserver.com/entertainment/#navlink=navbar
+
+
+[filters]
+http://admin.brightcove.com/viewer/us20120402.0949/federatedVideoUI/modules/AdvertisingModule.swf
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
