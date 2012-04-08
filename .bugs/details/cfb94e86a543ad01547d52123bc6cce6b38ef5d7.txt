@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.globaltimes.cn/NEWS/tabid/99/ID/703545/Gary-Lockes-frugal-style-causes-more-controversy.aspx
+
+
+[filters]
+http://www.globaltimes.cn/DesktopModules/BannerDisplay/GetBanners.aspx?moduleid=1300&portalid=0&html=True&qs=
+http://www.globaltimes.cn/DesktopModules/BannerDisplay/GetBanners.aspx?moduleid=1302&portalid=0&html=True&qs=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
