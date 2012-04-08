@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.facebook.com/NokiaUS/app_278723558826449
+
+
+[filters]
+https://track.engagesciences.com/track.ngx?e=vwch&h=2331&t=4d4g93-h04j5h04-45hjodijf-dhdfohi&medium=direct&source=facebook&channel=social
+https://track.engagesciences.com/track.ngx?e=vwdo&h=2331&t=4d4g93-h04j5h04-45hjodijf-dhdfohi&s=5849&medium=direct&source=facebook&channel=social
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
