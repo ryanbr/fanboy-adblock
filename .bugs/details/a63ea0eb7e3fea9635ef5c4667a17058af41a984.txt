@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.spanishdict.com/
+
+
+[filters]
+http://logs.loggly.com/inputs/edb08090-33c0-42cf-9435-681691ad638d.gif?ustatus=anon&rt=0.0339&purl=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D11822&agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A14.0%29+Gecko%2F20120329+Firefox%2F14.0a1&time=201204080815
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
