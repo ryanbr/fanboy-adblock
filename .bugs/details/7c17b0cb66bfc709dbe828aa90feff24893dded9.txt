@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.lse.epita.fr/articles/8-static-analysis-of-an-unknown-compression-format.html
+
+[filters]
+http://blog.lse.epita.fr/images/feed-icon-28x28.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
