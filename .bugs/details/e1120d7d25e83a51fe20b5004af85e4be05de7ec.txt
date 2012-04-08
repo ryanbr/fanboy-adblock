@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://watchseries.eu/episode/big_bang_theory_s1_e2-8164.html
+
+
+[filters]
+http://watchseries.eu/images/affiliate_buzz.gif
+http://watchseries.eu/images/download.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
