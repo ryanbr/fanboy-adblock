@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mlb.mlb.com/mlb/scoreboard/index.jsp
+
+
+[filters]
+http://mlb.mlb.com/bundle?css=/style/global.css&css=/style/mlb.css&css=external/themes/jquery-ui/custom-theme/jquery-ui-1.8.custom.css&css=/shared/style/jquery-ui-1.8.8.custom.css&css=/style/header/mlb_header_account_2012.css&css=/shared/css/facebook_button.css&css=/shared/css/widget/bam.buttons.css&css=/style/header/mlb_header_2012.css
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
