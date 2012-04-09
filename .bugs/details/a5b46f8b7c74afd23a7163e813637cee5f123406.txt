@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://lurkmore.to/%D0%94%D0%B5%D1%81%D1%83
+
+
+[filters]
+http://lurkmore.to/Fwa1?MdZwG=left1
+http://lurkmore.to/ZmRkM?block=left1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
