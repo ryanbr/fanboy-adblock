@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wiki.answers.com/Q/Why_did_Hitler_blame_the_Jews_for_Germany%27s_problems
+
+
+[filters]
+http://wiki.answers.com/Q/Special:Servlet&op=admeld&admeld_site=wikianswersrow&admeld_size=300x250&admeld_placement=atf_history-warandmilitary
+http://wiki.answers.com/Q/Special:Servlet&op=admeld&admeld_site=wikianswersrow&admeld_size=300x250&admeld_placement=btf_history-warandmilitary
+http://wiki.answers.com/Q/Special:Servlet&op=admeld&admeld_site=wikianswersrow&admeld_size=160x600&admeld_placement=btf_history-warandmilitary
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
