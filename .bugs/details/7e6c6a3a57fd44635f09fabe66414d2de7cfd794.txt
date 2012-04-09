@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.medilafire.com/zvqrtfp2le2fvt
+
+
+[filters]
+http://tracking11.com/go/locker.js?guid=24f6642c1a041780
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
