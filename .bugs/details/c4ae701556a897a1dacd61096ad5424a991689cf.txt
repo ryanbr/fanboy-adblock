@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.deadline.com/hollywood/
+
+[filters]
+http://www.nbc.com/assets/video/5-0/swf/akamai_analytics_extension.swf?5.0.6248
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
