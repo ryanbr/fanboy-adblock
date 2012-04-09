@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://videarn.com/video.php?id=896198
+
+[filters]
+http://cdn.trafficlearn.com/veunderplayer.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
