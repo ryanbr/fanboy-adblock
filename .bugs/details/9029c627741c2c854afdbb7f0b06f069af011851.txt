@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://videarn.com/video.php?id=896198
+
+
+[filters]
+http://invideo.ero-advertising.com/invideo/xmlconf.php?adspace%5Fid=140851
+http://invideo.ero-advertising.com/invideo/xmlads.php?siteid=13373&referer=http%253A%2F%2Fvidearn%2Ecom%2Fvideo%2Ephp%253Fid%253D896198&spaceid=140851
+http://invideo.ero-advertising.com/crossdomain.xml
+http://data-ero-advertising.com/datanew/ads/2965/3264071.jpg
+http://data-ero-advertising.com/datanew/ads/33856/18591105.jpg
+
+
+[other]
+invideo.ero-advertising.com needs to be whitelisted
+
+[comments]
+fanboy
