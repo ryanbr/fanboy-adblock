@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://trucks.dmir.ru/
+
+
+[filters]
+http://trucks.dmir.ru/adfile.ashx?placeid=241&fileid=11513
+http://trucks.dmir.ru/adfile.ashx?placeid=246&fileid=10215
+http://trucks.dmir.ru/adfile.ashx?placeid=246&fileid=10619
+http://trucks.dmir.ru/adfile.ashx?placeid=246&fileid=10860
+http://trucks.dmir.ru/adfile.ashx?placeid=246&fileid=11158
+http://trucks.dmir.ru/adfile.ashx?placeid=246&fileid=11354
+http://trucks.dmir.ru/adfile.ashx?placeid=246&fileid=11466
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
