@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zarplata.ru/
+
+
+[filters]
+http://www.zarplata.ru/adbanner/adfile.ashx?placeid=2&fileid=11349
+http://www.zarplata.ru/adbanner/adfile.ashx?placeid=2&fileid=11350
+http://www.zarplata.ru/adbanner/adfile.ashx?placeid=2&fileid=150
+http://www.zarplata.ru/adbanner/adfile.ashx?placeid=2&fileid=3856
+http://www.zarplata.ru/adbanner/adfile.ashx?placeid=2&fileid=6360
+http://www.zarplata.ru/adbanner/adfile.ashx?placeid=2&fileid=7909
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
