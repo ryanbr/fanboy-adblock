@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.doska.ru/construction/materials/
+
+[filters]
+http://www.doska.ru/counter/index.php?4786
+http://i.doska.ru/w_inc/ga.js
+http://i.doska.ru/w_inc/ya.metrica.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
