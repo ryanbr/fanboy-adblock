@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://newyork.cbslocal.com/photo-galleries/2012/04/05/2012-new-york-auto-show/#photo-408824
+
+
+[filters]
+http://cdn2.picadmedia.com/get_dom_data.php?host=newyork.cbslocal.com&t=&s=&v=4801
+http://cdn3.picadmedia.com/css/picad_overlay_3.3.03.css?t=22235082
+http://services.picadmedia.com/js/picad.js
+http://cdn3.picadmedia.com/js/picad_4801.js?t=22235082
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
