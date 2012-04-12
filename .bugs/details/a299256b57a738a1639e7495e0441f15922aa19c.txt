@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cinemablend.com/
+
+
+[filters]
+http://cdn.springboard.gorillanation.com/storage/js/list_widget/teaser.sb.lib.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
