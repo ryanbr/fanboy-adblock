@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ten.com.au/watch-tv-episodes-online.htm
+
+
+[filters]
+http://code.ten.com.au/js/ten.ads-and-tracking.2.0.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
