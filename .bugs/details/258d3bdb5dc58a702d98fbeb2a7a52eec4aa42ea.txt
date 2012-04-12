@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://g4me.ru/
+
+
+[filters]
+http://carveac.com/rss6/?np=1&sU=01169&p=3063&hp=-1&b=8128&ph=1&h=carveac&84331
+http://carveac.com/wp-includes/js/jquery/jquery.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
