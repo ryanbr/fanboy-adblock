@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rutube.ru/
+
+
+[filters]
+http://rutube.ru/j/controllers/ga_counter.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
