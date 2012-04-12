@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://service.velaro.com/visitor/requestchat.aspx?siteid=4432&showwhen=inqueue
+
+
+[filters]
+http://sp.velaro.com/lf/monitor2.aspx?siteid=1&deptid=344&autorefresh=yes&newtoday=no&returning=yes&vt=1&qs=&ti=1334217508405&tz=-60&an=Netscape&co=true&la=en-US&pl=Win32&pal=24&sw=1600x1200&je=true&origin=&pa=http://www.velaro.com/
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
