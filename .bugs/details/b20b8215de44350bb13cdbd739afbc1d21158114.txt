@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.history.com/videos
+
+
+[filters]
+http://www.history.com/imgs/template/ad-title.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
