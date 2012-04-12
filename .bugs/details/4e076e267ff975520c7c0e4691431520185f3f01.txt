@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://thepiratebay.se/torrent/7010891/
+
+
+[filters]
+http://click.eyk.net/42/63991/144335/
+http://click.eyk.net/42/63991/144336/
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
