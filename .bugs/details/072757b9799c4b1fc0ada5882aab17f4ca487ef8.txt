@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://stopgame.ru/flash/show/5885
+
+
+[filters]
+http://counter.rambler.ru/top100.jcn?456977
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
