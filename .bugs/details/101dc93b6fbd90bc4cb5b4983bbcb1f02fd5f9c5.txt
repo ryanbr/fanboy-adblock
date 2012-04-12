@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rutube.ru/tracks/5521984.html
+
+
+[filters]
+http://rutube.ru/trackinfo/e765b453e589882dfc5c4624a101a935.html?ad_ids=&referer=http%3A%2F%2Frutube%2Eru%2Ftracks%2F5521984%2Ehtml
+http://adv.gpm-digital.com/172102/getCode?pp=bog&ps=vsb&p2=emvl&pfc=a&pfb=a&plp=a&pli=a&pop=a&puid1=&puid2=5&puid3=4454215&puid4=0&pk=novajaobwaga,?????,???,??????,???????????,univer,????,????????,s01e11,?????&eid1=5127235&dl=http://rutube.ru
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
