@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eskimotube.com/166616-Kagney-Linn-Karter-And-Alexis-Texas-Vs-Randy-Spear-Two-Blondes-For-Randy-Randy.html?utm_source=awn&utm_medium=cpc&utm_campaign=tube
+
+[filters]
+http://www.hazeher.com/t1/pps=p3lance,eskimotubeskin
+http://www.tjoob.com/bgbb.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
