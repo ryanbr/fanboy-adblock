@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.calend.ru/holidays/0/0/2897/
+
+
+[filters]
+http://calend.ru/js/adv/utarget-27-03-2012.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
