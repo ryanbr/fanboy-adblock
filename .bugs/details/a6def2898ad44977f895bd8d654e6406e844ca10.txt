@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.utro.ru/articles/2012/03/15/1034685.shtml
+
+
+[filters]
+http://www.utro.ru/includes5/banners/articles_iframe_08.shtml
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
