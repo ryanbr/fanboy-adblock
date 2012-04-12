@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fredericknewspost.com/sections/news/display.htm?storyid=134274
+
+
+[filters]
+http://www.fredericknewspost.com/fnp_adsystem/banners/2-Remax-Elke_120x90.gif
+http://www.fredericknewspost.com/fnp_adsystem/banners/Darcars_468x60_March2012.gif
+http://www.fredericknewspost.com/fnp_adsystem/banners/FCMBANK_Mar2012B.gif
+http://www.fredericknewspost.com/fnp_adsystem/banners/TheMaids_Feb12.gif
+http://www.fredericknewspost.com/fnp_adsystem/banners/VFRS-FC_250x250_Volunteer.gif
+http://www.fredericknewspost.com/fnp_adsystem/banners/zip2save_120x90.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
