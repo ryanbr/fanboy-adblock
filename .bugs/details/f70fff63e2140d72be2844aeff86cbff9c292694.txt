@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://onlineguru.ru/12491/view.html
+
+
+[filters]
+http://onlineguru.ru/mmog/kstat/1282.gif
+http://onlineguru.ru/extra_online/kstat/475.gif?fbs=addins_payed_images
+http://onlineguru.ru/extra_online/kstat/482.gif?fbs=addins_payed_images
+http://onlineguru.ru/extra_online/kstat/493.gif?fbs=addins_payed_images
+http://onlineguru.ru/mmog/kstat/2272.gif
+http://onlineguru.ru/mmog/kstat/2482.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
