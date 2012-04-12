@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.oo.com.au/basket/?ab=75629&ReturnURL=http%3A%2F%2Fwww.oo.com.au%2F
+
+[filters]
+http://libs.coremetrics.com/eluminate.js
+
+
+
+[other]
+Unable to view recommendations when attempting to buy
+
+
+[comments]
+fanboy
