@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rg.ru/2012/04/10/mvd.html
+
+
+[filters]
+http://engine.turboroller.ru/Script?place=rg.ru-9429
+http://engine.turboroller.ru/Route?Place=rg.ru-9429&r=39631867422&r2=25313468413&ct1=undefined&ct2=windows-1251
+http://media.turboroller.ru/4e136a5539d04ad58fb270a60300a9ca.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
