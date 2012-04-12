@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mmorpg.su/
+
+
+[filters]
+http://www.mmorpg.su/media/js/counter.js?1319812041
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
