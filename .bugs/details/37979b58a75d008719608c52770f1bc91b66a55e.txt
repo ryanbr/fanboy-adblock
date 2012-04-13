@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cosmopolitan.com/hairstyles-beauty/skin-care-makeup/the-beauty-100#slide-21
+
+
+[filters]
+http://www.cosmopolitan.com/cm/shared/scripts/refreshads-v3.js
+http://www.cosmopolitan.com/cm/shared/scripts/refreshads-v2.1.0.js
+http://www.cosmopolitan.com/ams/page-ads.js?ad_category_prefix=beauty&ad_sub_category_prefix=&ams_promo=&amz_browse_node_ids=11055981&amz_search_indexes=Beauty&article_type_prefix=flipbook&browser_path=%2Fhairstyles-beauty%2Fskin-care-makeup%2Fthe-beauty-100&cat_prefixes=redesignChannelPeek&keywords=&position_list=ams_app_cos_foot_link%2Cams_app_cos_nav_link%2Cams_circ_cos_300x250%2Cams_circ_cos_300x300%2Cams_circ_cos_sub_nav_link%2Cams_cos_amazon_carousel_600x200%2Cams_cos_circ_takeover%2Cams_cos_epic%2Cams_cos_flipbook_bottom_circ%2Cams_cos_nl02%2Cams_cos_outbrain_610x%2Cams_cos_social_ad%2Cams_cosmo_fixed_panel%2Cams_cosmo_flipbook_control%2Cams_cosmo_footer%2Cams_cosmo_gallery%2Cams_cosmo_networktout%2Cams_cosmo_sponlogo%2Cams_cosmo_top%2Cams_cosmopolitan_hpto_inner%2Cams_cosmopolitan_smartbot%2Cams_cosmopolitan_smarttop%2Cams_digital_cos_foot_link%2Cams_digital_cos_nav_link%2Cams_mbox_cos_global&section_prefix=skin-care-makeup&site_prefix=cosmopolitan&sub_cat_prefixes=&subdomain=www&url_name=the-beauty-100
+http://www.cosmopolitan.com/ams/page-ads.js?site_prefix=cosmopolitan&article_type_prefix=flipbook&ad_sub_category_prefix=&subdomain=www&amz_search_indexes=Beauty&browser_path=%2Fhairstyles-beauty%2Fskin-care-makeup%2Fthe-beauty-100&keywords=&section_prefix=skin-care-makeup&ad_category_prefix=beauty&sub_cat_prefixes=&position_list=AMS_COSMO_FLIPBOOK&amz_browse_node_ids=11055981&ams_promo=&url_name=the-beauty-100&ajax=1&cat_prefixes=redesignChannelPeek
+http://www.cosmopolitan.com/ams/page-ads.js?site_prefix=cosmopolitan&article_type_prefix=flipbook&ad_sub_category_prefix=&subdomain=www&amz_search_indexes=Beauty&browser_path=%2Fhairstyles-beauty%2Fskin-care-makeup%2Fthe-beauty-100&keywords=&section_prefix=skin-care-makeup&ad_category_prefix=beauty&sub_cat_prefixes=&position_list=ams_cosmo_top%2Cams_cos_social_ad%2Cams_cosmo_gallery&amz_browse_node_ids=11055981&ams_promo=&url_name=the-beauty-100&ajax=1&cat_prefixes=redesignChannelPeek
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
