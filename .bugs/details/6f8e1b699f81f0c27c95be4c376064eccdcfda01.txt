@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.homeprivatevids.com/f/arabian/
+
+[filters]
+http://homeprivatevids.com/banner2.shtml
+http://homeprivatevids.com/banners.shtml
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
