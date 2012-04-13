@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zvents.com/holmdel_nj/events/show/235490165-premium-box-seats-yanni
+
+
+[filters]
+http://www.zvents.com/za?z=MjA1LjE4NS4xMjEuNjAwLjk2MDM1NzkzMDU1NDAxNDExMzM0MzA4MTcw&u=http%3A%2F%2Fwww.zvents.com%2Fholmdel_nj%2Fevents%2Fshow%2F235490165-premium-box-seats-yanni&l=&m=&k=&t=10053&j=1&f=11.2+r202&w=1053x737&s=1600x1200x24
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
