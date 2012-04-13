@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mn.ru/culture/20120409/315253414.html
+
+
+[filters]
+http://vid-1.rian.ru/ig/mn/adriver/iframe.html
+http://vid-1.rian.ru/ig/mn/adriver/ad.html
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
