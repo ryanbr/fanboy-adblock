@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://embed.vpro.nl/player/?src=urn:vpro:media:program:13486254&skin=default
+
+
+[filters]
+http://js.vpro.nl/vpro/htmlplayer/0.3-SNAPSHOT/statcounter.js?cachebust=Fri%20Apr%2013%202012%2020:58:52%20GMT+1200%20(New%20Zealand%20Standard%20Time)
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11911
+
+[comments]
+fanboy
