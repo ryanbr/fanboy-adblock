@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.moono.com/html/virginie-ledoyen/virginie-ledoyen-pictures-12227.cfm
+
+
+[filters]
+http://www.storewidesearch.com/imn/mn.gif?
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
