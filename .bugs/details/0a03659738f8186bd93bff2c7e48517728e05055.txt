@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gotceleb.com/carly-craig-me-in-my-place-esquire-photo-shoot-2012-04-11.html/carly-craig-me-in-my-place-2012-esquire-photo-shoot-09
+
+
+[filters]
+http://www.gotceleb.com/ad728-top.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
