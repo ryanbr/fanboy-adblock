@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.drtuber.com/video/234929/two-teens-and-their-asses-make-a-nice-target-for-this-guy-s-cock
+
+[filters]
+http://adv.drtuber.com/counter/?domain=drtuber.com&img&ref=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D6%26t%3D11927&rr=0.48569324882846154
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
