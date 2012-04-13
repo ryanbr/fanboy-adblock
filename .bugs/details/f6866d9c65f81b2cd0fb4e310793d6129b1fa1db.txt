@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mtb-news.de/forum/
+
+
+[filters]
+http://rc.rtl.btt.betarget.de/Get/betarget/JS/GetRcmd.js?domain=.netzathleten.de&d=7710&WlContentGroup=www.netzathleten.de/Default
+http://js.smartredirect.de/js/adbanner.js?a=adserver.belboon.de&b=banner.tradedoubler.com&c=click.zanox-affiliate.de&d=click.adbutler.de&e=partners.webmasterplan.com&f=ad.zanox.com&g=track.webgains.com&h=clix.superclix.de&i=cj.com
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
