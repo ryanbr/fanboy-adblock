@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gagreport.com/Funny_Pictures/sexy_martina_hingis_fake_7.htm
+
+
+[filters]
+http://www.gagreport.com/randomad120x600nsfw.php
+http://www.gagreport.com/randomad728x90nsfw.php
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
