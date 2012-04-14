@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.surfline.com/surf-news/return-to-nias---and-beyond_69185/
+
+[filters]
+http://www.surfline.com/functions/page_tracker.cfm?ID=69185&navbean=TRAVEL&navbeanSub=TRAVEL&slide=2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
