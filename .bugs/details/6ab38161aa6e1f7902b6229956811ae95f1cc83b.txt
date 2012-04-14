@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://online.wsj.com/article/SB10001424052702303815404577335783535660546.html
+
+
+[filters]
+http://online.wsj.com/public/page/0_0_WP_WSJSelect_Big-newyork-143.html?city=newyork
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
