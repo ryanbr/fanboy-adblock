@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://elpais.com/elpais/2012/04/11/inenglish/1334161312_484032.html
+
+[filters]
+http://a.prisacom.com/4/www.elpais.es/inenglish/1430115395@Position1,Bottom2,Right,Middle,Middle1,Middle2,Top,Top2,x02?
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
