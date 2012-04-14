@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tophotels.ru/main/hotel/al6073
+
+
+[filters]
+http://click.topturizm.ru/log_click.php?counter_id=1001&id=6073&type=2&subitem=0&rand=7621067
+http://click.topturizm.ru/log_click.php?counter_id=1001&id=83&type=1&subitem=0&rand=9147127
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
