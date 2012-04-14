@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.apartmentguide.com/
+
+
+[filters]
+http://assets.apartmentguide.com/images/nonsprite/icon_facebook48.png?e4e338c5b5c98455490e3765ea716f7a
+http://assets.apartmentguide.com/images/nonsprite/icon_google_plus48.png?94f648f5949fff300a33684f0bdbcfa4
+http://assets.apartmentguide.com/images/nonsprite/icon_mobile_app.png?b44371c531474f66b4523671a05f29c3
+http://assets.apartmentguide.com/images/nonsprite/icon_remove9.png?1333128166
+http://assets.apartmentguide.com/images/nonsprite/icon_search_with_friends.png?1333128166
+http://assets.apartmentguide.com/images/nonsprite/icon_twitter48.png?4e484276ed3545391fa6ba019f440128
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
