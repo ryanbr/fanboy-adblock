@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tophotels.ru/main/hotel/al6073
+
+[filters]
+http://netlog.ru/js/params_grabber.js
+http://stg.odnoklassniki.ru/share/odkl_klass_stat-neutral.gif
+http://stg.odnoklassniki.ru/share/odkl_share.css
+http://stg.odnoklassniki.ru/share/odkl_share.js
+http://www.tophotels.ru/like.php?type=recommend&allocId=6073&buttons=facebook_vkontakte_twitter_mailru_odnoklassniki&url=http%3A%2F%2Ftophotels.ru%2Fmain%2Fhotel%2Fal6073&image=http%3A%2F%2Ftophotels.ru%2Ficache%2Fhotel_photos%2F83%2F17%2F6073%2F150720s.jpg&block_class=%27like-block%20like-block-alt%27&click_netlog=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
