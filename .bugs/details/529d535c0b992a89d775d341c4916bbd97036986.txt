@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cagle.com/2012/04/down-pretty-close-to-out-in-grand-cayman/
+
+
+[filters]
+http://static.ak.facebook.com/connect/xd_arbiter.php?version=4#cb=f1c1c28b6343cfa&origin=http%3A%2F%2Fwww.cagle.com%2Ff143615f533c8c&domain=www.cagle.com&relation=parent&frame=f14a6ca195e04e2&error=not_authorized
+http://static.ak.facebook.com/connect/xd_arbiter.php?version=4#channel=f143615f533c8c&origin=http%3A%2F%2Fwww.cagle.com&channel_path=%2F2012%2F04%2Fdown-pretty-close-to-out-in-grand-cayman%2F%3Ffb_xd_fragment%23%3F%3D%26xd_sig%3Df21c21d7be70642%26&transport=postmessage
+http://cdn.cagle.com/otherimg/social-48/digg.gif
+http://cdn.cagle.com/otherimg/social-48/friendfeed.gif
+http://cdn.cagle.com/otherimg/social-48/reddit.gif
+http://cdn.cagle.com/otherimg/social-48/rss.gif
+http://cdn.cagle.com/otherimg/social-48/stumble.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
