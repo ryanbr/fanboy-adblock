@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pri.org/stories/health/advocates-say-fda-should-ban-all-non-medical-use-of-antibiotics-in-animals-9420.html
+
+[filters]
+http://www.pri.org/themes/tpl_4028_v45/img/youtubeIcon.gif
+http://www.pri.org/themes/tpl_4028_v45/img/tumblr.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
