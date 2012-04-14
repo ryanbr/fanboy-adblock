@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cnbc.com/id/47041424
+
+
+[filters]
+http://media.cnbc.com/i/CNBC/CNBC_Images/flexi/assets/cnbcsponsoredby_white.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
