@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://predictpick.nfl.com/?icampaign=Predict_Fantasy_othergames#
+
+
+[filters]
+http://predictpick.nfl.com/javascripts/omniture.js?1333994391
+
+
+
+
+[other]
+Blocks player stats.
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=11950
+
+
+[comments]
+fanboy
