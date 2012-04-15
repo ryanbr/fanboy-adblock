@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.latenightwithjimmyfallon.com/video/josh-brolin-part-1-4-13-12/1396603
+
+
+[filters]
+http://ads-pd.nbcuni.com/video/NOBR2460H_15_SHORT.flv
+http://adm.fwmrm.net/p/nbcu_live/VideoAdRenderer.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
