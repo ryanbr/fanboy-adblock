@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://uploads.ziddu.com/uploadanon.php
+
+
+[filters]
+http://www.egglad.com/get_adssource.php?size=300X250
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
