@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://whois.domaintools.com/domaintools.com
+
+[filters]
+http://img.domaintools.com/partners/seomoz/seomoz-pro-try-free-250x65.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
