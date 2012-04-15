@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sbrf.ru/moscow/ru/
+
+
+[filters]
+http://www.sbrf.ru/common/img/uploaded/tizer_tb/2011/08/banner_30-08-2011_17.jpg
+http://www.sbrf.ru/common/img/uploaded/tizer_tb/2012/03/banner_14-03-2012_msk.jpg
+http://www.sbrf.ru/common/img/uploaded/tizer_tb/2012/04/971x237_02-04-2012_msk.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
