@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.popcrunch.com/30-faces-of-intervention/
+
+[filters]
+http://social.popcrunch.com/google-plus.png
+http://social.popcrunch.com/pinterest.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
