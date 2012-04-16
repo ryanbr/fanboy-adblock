@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://clgaming.net/live/769-dan-dinh
+
+
+[filters]
+http://trk.tidaltv.com/ILogger.aspx?event=*&type=*&adId=*&fmid=*&mt=*&pid=*&rand=*&mid=*&pcid=*&pcv=&xf=*&cid=*&g=*&udcs=*&dd=*&ttid=*&hhudcs=*&udps=*&dr=*&isp=*&uocs=*&ap=*&sap=*&imtinfo=*
+http://trk.tidaltv.com/ILogger.aspx?event=*&type=*&adId=*&fmid=*&mt=*&pid=*&rand=*&mid=*&pcid=*&pcv=&xf=*&cid=*&g=*&udcs=*&dd=*&ttid=*&hhudcs=*&udps=*&dr=*&isp=*&uocs=*&ap=*&sap=*&imtinfo=*
+http://sync.tidaltv.com/GenericUserSync.ashx?dpid=*
+http://http.tidaltv.com/admanager/superbuddha/adoption/ttv_advertisingoptionicon_v1.swf
+
+[other]
+Reported
+
+
+[comments]
+fanboy
