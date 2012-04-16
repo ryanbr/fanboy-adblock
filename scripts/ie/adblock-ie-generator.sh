@@ -26,7 +26,7 @@ SUBS="/tmp/ieramdisk/subscriptions"
 
 # Clear out any old files lurking
 #
-rm -rf $IEDIR/* $SUBS/*
+rm -rf $IEDIR/*.txt $SUBS/*
 cd $IEDIR
 
 # Copy TPL (Microsoft IE9) Script
