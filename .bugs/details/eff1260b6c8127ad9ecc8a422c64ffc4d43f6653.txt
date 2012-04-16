@@ -1,0 +1,32 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sigpwned.com/content/learning-how-program
+
+
+[filters]
+http://sigpwned.com/modules/social_badges/badges/images/digg-sm-badge.png
+http://sigpwned.com/modules/social_badges/badges/images/facebook-sm-badge.png
+http://sigpwned.com/modules/social_badges/badges/images/feedburner-badge-footer.png
+http://sigpwned.com/modules/social_badges/badges/images/feedburner-lg-badge.png
+http://sigpwned.com/modules/social_badges/badges/images/gplus-sm-badge.png
+http://sigpwned.com/modules/social_badges/badges/images/loading-feedburner.gif
+http://sigpwned.com/modules/social_badges/badges/images/loading-twitter.gif
+http://sigpwned.com/modules/social_badges/badges/images/mail-sm-badge.png
+http://sigpwned.com/modules/social_badges/badges/images/reddit-sm-badge.png
+http://sigpwned.com/modules/social_badges/badges/images/tweetmeme-sm-badge.png
+http://sigpwned.com/modules/social_badges/badges/images/twitter-badge-footer.png
+http://sigpwned.com/modules/social_badges/badges/images/twitter-lg-badge.png
+http://sigpwned.com/modules/social_badges/images/loading.gif
+http://sigpwned.com/modules/social_badges/images/sm-badge-nub.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
