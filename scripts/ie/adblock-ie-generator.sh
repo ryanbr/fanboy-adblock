@@ -100,5 +100,5 @@ $ZIP a -mx=9 -y -tgzip $SUBS/fanboy-complete-ie.tpl.gz $SUBS/fanboy-complete-ie.
 # Now copy finished tpl list to the website.
 #
 cp -f $SUBS/fanboy-noele.tpl* $MAINDIR/ie/
-cp -f $SUBS/fanboy-complete-ie.tpl* $MAINDIR/ie/
+cp -f $SUBS/fanboy-ultimate-ie.tpl* $MAINDIR/ie/
 cp -f $SUBS/fanboy-complete-ie.tpl* $MAINDIR/ie/
