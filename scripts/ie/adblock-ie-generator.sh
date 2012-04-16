@@ -70,6 +70,8 @@ sed -i '/+d au.adserver.yahoo.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimat
 sed -i '/+d adserver.yahoo.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d skimlinks.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/# @@/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
+sed -i '/# :/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
+sed -i '/# http://log.$script/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d ad-emea.doubleclick.net/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d ad.au.doubleclick.net/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d spotxchange.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
