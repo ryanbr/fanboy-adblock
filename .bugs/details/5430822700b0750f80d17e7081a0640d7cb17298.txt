@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.play.com/Search.html?searchstring=ray&searchsource=0&searchtype=allproducts
+
+
+[filters]
+http://j.playserver1.com/SiteScript/Play/Live2/2012041601/webtrends2.min.js
+
+
+
+
+[other]
+stop using the search function
+
+
+[comments]
+fanboy
