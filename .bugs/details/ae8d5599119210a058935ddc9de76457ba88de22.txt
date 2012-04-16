@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cashtube.ru/5635/66165/1/
+
+
+[filters]
+http://trafovik.ru/get.js?user_id=1213&mode=pop
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
