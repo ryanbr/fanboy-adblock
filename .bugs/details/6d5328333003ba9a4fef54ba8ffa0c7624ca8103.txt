@@ -1,0 +1,36 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ansa.it/web/index_refresh_ce.html
+
+
+[filters]
+http://tiscali.ad.dotandad.com/tiscali.jsp?mpo=ansa&mpt=ansa.scienze/_default&kw=www_ansa_it_web_banner_js_banner_adv_Scienza_html&rnd=34200105926
+http://af21.ad.dotandad.com/pixel.jsp?param=31;98299;-31;7921;3547;-1;www_ansa_it_web_index_refresh_ce_html;1334570696850?7690358707
+http://af21.ad.dotandad.com/pixel.jsp?param=31;98301;-31;5932;2603;-1;www_ansa_it_web_index_refresh_ce_html;1334570696878?7690358707
+http://af21.ad.dotandad.com/pixel.jsp?param=31;98302;-31;6644;2976;-1;www_ansa_it_web_index_refresh_ce_html;1334570696893?7690358707
+http://af21.ad.dotandad.com/pixel.jsp?param=31;98303;-31;6639;2966;-1;www_ansa_it_web_index_refresh_ce_html;1334570696901?7690358707
+http://af21.ad.dotandad.com/pixel.jsp?param=31;98304;-31;6100;2628;-1;www_ansa_it_web_index_refresh_ce_html;1334570696905?7690358707
+http://af21.ad.dotandad.com/pixel.jsp?param=31;98305;-31;6102;2630;-1;www_ansa_it_web_index_refresh_ce_html;1334570696909?7690358707
+http://af21.ad.dotandad.com/pixel.jsp?param=31;98306;-31;6103;2631;-1;www_ansa_it_web_index_refresh_ce_html;1334570696913?7690358707
+http://af21.ad.dotandad.com/pixel.jsp?param=31;98307;-31;6871;3070;-1;www_ansa_it_web_index_refresh_ce_html;1334570696917?7690358707
+http://af21.ad.dotandad.com/pixel.jsp?param=31;98311;-31;6545;2907;-1;www_ansa_it_web_index_refresh_ce_html;1334570696874?7690358707
+http://filecdn2.dotandad.com/31/547/8639_1.gif
+http://filecdn2.dotandad.com/31/70/4781_1.jpg
+http://filecdn2.dotandad.com/31/907/3580_1.gif
+http://filecdn2.dotandad.com/31/966/4010_1.gif
+http://filecdn2.dotandad.com/31/976/4061_1.gif
+http://js.tiscali.dotandad.com/TiscaliAds.js
+http://js.tiscali.dotandad.com/js/bgCustom_ansa_100707.js
+http://tiscali.ad.dotandad.com/tiscali.jsp?mpo=ansa&mpt=ansa.home/_default&kw=www_ansa_it_web_index_refresh_ce_html&rnd=62560995170
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
