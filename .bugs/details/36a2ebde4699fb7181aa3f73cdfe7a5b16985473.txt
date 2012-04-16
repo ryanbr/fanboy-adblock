@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.techi.com/2012/04/online-empires-fall-will-facebook/?
+
+
+[filters]
+http://affiliates.cheapsally.com/embed/embed.v3.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
