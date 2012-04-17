@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sunporno.com/tube/videos/482756/girls-sucks-dick-and-gets-cum-all.html
+
+
+[filters]
+http://thumbs.vstreamcdn.com/sunstatic/ads/player-ad4.html
+http://thumbs.vstreamcdn.com/sunstatic/ads/player-ad5.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
