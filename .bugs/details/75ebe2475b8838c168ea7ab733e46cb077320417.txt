@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://h30565.www3.hp.com/t5/Feature-Articles/All-Optical-Networks-The-Last-Piece-of-the-Puzzle/ba-p/2736
+
+
+[filters]
+#http://h30565.www3.hp.com/html/assets/followus_twitter.v4.png
+http://h30565.www3.hp.com/html/assets/followus_linkedin.png
+http://h30565.www3.hp.com/html/assets/followus_f.png
+http://h30565.www3.hp.com/html/assets/followus_facebook_v2.png
+http://h30565.www3.hp.com/html/assets/followus_hp.png
+http://h30565.www3.hp.com/html/assets/followus_rss.png
+http://h30565.www3.hp.com/html/assets/followus_youtube_v2.png
+http://h30565.www3.hp.com/html/assets/tnb_followus_bg_bottom.png
+http://h30565.www3.hp.com/html/assets/tnb_followus_bg_sides.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
