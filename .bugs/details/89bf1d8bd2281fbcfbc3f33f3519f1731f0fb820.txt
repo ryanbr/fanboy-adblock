@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gfssex.com/videos/62489/my-new-girlfriend-and-hot-bang.html
+
+
+[filters]
+http://www.gfssex.com/_ad_over_player_code.php
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
