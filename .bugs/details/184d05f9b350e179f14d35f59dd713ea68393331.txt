@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.abcarticledirectory.com/
+
+
+[filters]
+http://cdn.attracta.com/badge/img/115374/2.png
+http://cdn.attracta.com/badge/js/115374/core.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
