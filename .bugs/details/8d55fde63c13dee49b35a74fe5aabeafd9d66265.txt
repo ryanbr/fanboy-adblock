@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.calend.ru/
+
+
+[filters]
+http://sup-banner.com/pic/1.png
+http://sup-banner.com/ctr.php?ref=
+http://sup-banner.com/view.php
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
