@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://adwords.google.com/um/Signup
+
+
+[filters]
+https://adwords.google.com/cues/com.google.ads.apps.servers.cues.CuesClient.nocache.js
+https://adwords.google.com/um/g
+https://adwords.google.com/um/s/F39463A60C6A142CB6FE37B9405AE9E7.cache.js
+https://adwords.google.com/um/s/clear.cache.gif
+https://adwords.google.com/um/s/com.google.ads.apps.usermgmt.signup.SignupRelease.nocache.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
