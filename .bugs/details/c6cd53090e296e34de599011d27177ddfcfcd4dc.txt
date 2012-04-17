@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.champssports.com/catalog/emptyCart/cartIsEmpty--1/
+
+
+[filters]
+http://libs.coremetrics.com/eluminate.js
+
+
+
+
+[other]
+Login doesnt work
+
+
+[comments]
+fanboy
