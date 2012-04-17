@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://techland.time.com/2012/04/16/photos-the-apple-ii-turns-35-2/?photo=appleii-jobs
+
+
+[filters]
+http://img.timeinc.net/shared/static/js/tii_ads.js?ver=3.4-beta2-20478
+http://img.timeinc.net/tii/omniture/h/common.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
