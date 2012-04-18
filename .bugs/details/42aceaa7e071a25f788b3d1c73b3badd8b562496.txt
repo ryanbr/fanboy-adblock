@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://eroanimeblog.livedoor.biz/
+
+
+[filters]
+http://eroanimeblog.livedoor.biz/dmm_ads/01/dmm_swf.html
+http://eroanimeblog.livedoor.biz/dmm_ads/02/dmm_swf.html
+http://eroanimeblog.livedoor.biz/dmm_ads/03/dmm_swf.html
+http://eroanimeblog.livedoor.biz/dmm_ads/middle01/dmm_swf.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
