@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hongkiat.com/blog/how-to-clear-dns-cache-in-mac-osx-leopard/
+
+
+[filters]
+http://www.hongkiat.com/blog/wp-content/themes/v5/ads/230x90.html
+http://www.hongkiat.com/blog/wp-content/themes/v5/ads/500x100.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
