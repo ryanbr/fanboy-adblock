@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sourceforge.net/projects/npp-plugins/files/Hex%20Editor/Hex%20Editor%20Plugin%20v0.9.5/HexEditor_0_9_5_ANSI_dll.zip/download
+
+
+[filters]
+http://sourceforge.net/log/webtracker/?event_id=983c74f4-8a1d-11e1-857e-001d0968d1a5&project=npp-plugins&active_tests=3324691168&url=%2Fprojects%2Fnpp-plugins%2Ffiles%2FHex%2520Editor%2FHex%2520Editor%2520Plugin%2520v0.9.5%2FHexEditor_0_9_5_ANSI_dll.zip%2Fdownload&action_type=pg_dwnld&download_ad_template=template2&ad_zones=cons_pg_dwnld_softdev_p77_immersion&ad_zones=cons_pg_dwnld_softdev_p83_medrec&ad_zones=cons_pg_dwnld_softdev_p84_medrec&ad_zones=cons_pg_dwnld_softdev_p86_featureddl&ad_zones=cons_pg_dwnld_softdev_p71_text&referer=http%3A%2F%2Fsourceforge.net%2Fapps%2Fmediawiki%2Fnotepad-plus%2Findex.php%3Ftitle%3DPlugin_Central
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
