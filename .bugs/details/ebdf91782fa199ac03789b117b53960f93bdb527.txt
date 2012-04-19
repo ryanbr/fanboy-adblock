@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eurogamer.net/articles/2012-04-18-the-diablo-3-beta-opens-up
+
+
+[filters]
+http://ads.eurogamer.net/delivery/fc.php?script=bannerTypeHtml:vastInlineBannerTypeHtml:vastInlineHtml&zones=pre-roll:0.0-0%3D186&nz=1&source=&r=R0.8513875538483262&block=1&format=vast&charset=UTF-8
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
