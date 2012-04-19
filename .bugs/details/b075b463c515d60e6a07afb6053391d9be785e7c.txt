@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ro89.com/q/swallow
+
+
+[filters]
+http://ro89.com/hitme.php?q=swallow&r=x%DA%95%91%CBn%830%10E%FF%C5%FB%E2%17%B6%F1%B0%ED%A6RW%7D%AC%91%83%2C%20%82%18aGn%15%E5%DF%8B%23DS%C4%22%D5lf%AC%B9%F7%1Ek%0Cp%B8t%40J%039%5C%3C0%40%2F%CF%A8%F4%20%01q%A1i%21%D3%20%00%7Dt%A1%B7%A9W%80%7C4%7D%EFb%9A8%A0%CF%B7%D7%5B7%2F%B5%21%8C%80q%8C1%1B%DDtj%9D%0FY%ED%06%2C%A5%E4Zp%AE5N%AB%C5%1C2%98%C6.J%C1Veh%CF%C3%81m%C4%A9%7E%0D%08%A1U8d%C7%B1A%E5%B5%03%BAG%CE%08%D1%BC%D8%21%7F%FF%2F%B9%90%8A0%91%CF%C9%8F%90%D3%8Dx%26%BF3%D8%90%B3%3Dr%A5%95%D4%FCQ%F2%9C%AC%F9%DF%EE%9C%B2o%B9%D1%84%BA%C54%97T%2B%BC%1Ck%0F_%E5%AB%DC%FB%27%96%DD%7B%F8z%B2%F6%E4%5B%17f%23%2C%E9%DF%87%E4%5C%D9%AF0%99%AA7Sc%97O%5D%7F%00%B1%D7%B1%95
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
