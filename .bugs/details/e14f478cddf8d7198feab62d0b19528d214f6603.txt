@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.infosecisland.com/blogview/14371-Malvertising-The-Use-of-Malicious-Ads-to-Install-Malware.html
+
+[filters]
+http://www.infosecisland.com/ajax/viewbanner/zone/10.html
+http://www.infosecisland.com/ajax/viewbanner/zone/2.html
+http://www.infosecisland.com/ajax/viewbanner/zone/3.html
+http://www.infosecisland.com/ajax/viewbanner/zone/4.html
+http://www.infosecisland.com/ajax/viewbanner/zone/5.html
+http://www.infosecisland.com/ajax/viewbanner/zone/8.html
+http://www.infosecisland.com/images/linkedin-small.gif
+http://www.infosecisland.com/images/rss-small.gif
+http://www.infosecisland.com/images/twitter-small.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
