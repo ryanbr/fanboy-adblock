@@ -1,0 +1,44 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yobt.com/content/203655/crazy-asian-blowjob-sex.html?cid=1
+
+
+[filters]
+http://1.100pour.com/a1/?sub=yobt&t=lite1
+http://1.100pour.com/a1/files/backchat.png
+http://1.100pour.com/a1/files/backhovernew.png
+http://1.100pour.com/a1/files/chatlisttop.png
+http://1.100pour.com/a1/files/chatlogo.png
+http://1.100pour.com/a1/files/dash.gif
+http://1.100pour.com/a1/files/newspaper.png
+http://1.100pour.com/a1/files/online.png
+http://1.100pour.com/a1/files/topbackxx.png
+http://1.100pour.com/a1/images/line.png
+http://1.100pour.com/a1/images/sendbutton.gif
+http://1.100pour.com/a1/images/writeicon.png
+http://1.100pour.com/a1/lite3.php?refdomain=&g=&sub=yobt&close=&?
+http://1.100pour.com/a1/util.js
+http://1.100pour.com/a1/w.php?time=659114102
+http://1.100pour.com/a1/w.php?time=715503744
+http://1.100pour.com/a1/w.php?time=820152805
+http://1.100pour.com/a1/w.php?time=971700118
+http://1.100pour.com/a2/thumbs/1/2af2a9x940771.jpg
+http://1.100pour.com/a2/thumbs/1/b8517ex940011.jpg
+http://1.100pour.com/a2/thumbs/1/cd3582x319971.jpg
+http://1.100pour.com/a2/thumbs/3/b1e99cx938603.jpg
+http://1.100pour.com/a2/thumbs/5/45f667x916705.jpg
+http://1.100pour.com/a2/thumbs/5/4bf727x335505.jpg
+http://1.100pour.com/a2/thumbs/7/421b42x913837.jpg
+http://1.100pour.com/a2/thumbs/8/1305acx912708.jpg
+http://1.100pour.com/a2/thumbs/8/1305acx912708.jpg
+http://1.100pour.com/a2/thumbs/8/ceb205x945408.jpg
+http://1.100pour.com/a2/thumbs/9/85dcbax897299.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
