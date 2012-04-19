@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bgr.in/news/lava-launches-the-xolo-x900-the-first-intel-powered-smartphone-in-the-world-for-rs-22000/
+
+
+[filters]
+http://ribbon.india.com/v4/bgr
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
