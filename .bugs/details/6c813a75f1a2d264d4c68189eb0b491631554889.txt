@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.geeksaresexy.net/
+
+[filters]
+http://www.geeksaresexy.net/wp-content/plugins/pinterest-pin-it-button/inc/pin-it-button-user-selects-image-iframe.html?url=http%3A%2F%2Fwww.geeksaresexy.net%2F2012%2F04%2F18%2Fnetflix-cries-foul-over-comcast-caps%2F&media=http%3A%2F%2Fwww.geeksaresexy.net%2Fwp-content%2Fuploads%2F2012%2F04%2Fnetflix.gif&description=Netflix+Cries+Foul+Over+Comcast+Caps&layout=horizontal
+http://www.geeksaresexy.net/wp-content/plugins/pinterest-pin-it-button/inc/pin-it-button-user-selects-image-iframe.html?url=http%3A%2F%2Fwww.geeksaresexy.net%2F2012%2F04%2F18%2Fnew-prometheus-viral-happy-birthday-david-video%2F&description=New+Prometheus+Viral%3A+Happy+Birthday+David%21+%5BVideo%5D&layout=horizontal
+http://www.geeksaresexy.net/wp-content/plugins/pinterest-pin-it-button/inc/pin-it-button-user-selects-image-iframe.html?url=http%3A%2F%2Fwww.geeksaresexy.net%2F2012%2F04%2F18%2Fthe-ancient-order-of-the-jedi-goes-door-to-door%2F&description=The+Ancient+Order+of+the+Jedi+Goes+Door+to+Door&layout=horizontal
+http://www.geeksaresexy.net/wp-content/plugins/pinterest-pin-it-button/inc/pin-it-button-user-selects-image-iframe.html?url=http%3A%2F%2Fwww.geeksaresexy.net%2F2012%2F04%2F18%2Fwth-japan-the-curse-of-the-colonel%2F&media=http%3A%2F%2Fwww.geeksaresexy.net%2Fwp-content%2Fuploads%2F2012%2F04%2FColonel_Sanders4.jpg&description=WTH+Japan%21+%26%238211%3B+The+Curse+of+the+Colonel&layout=horizontal
+http://www.geeksaresexy.net/wp-content/plugins/pinterest-pin-it-button/inc/pin-it-button-user-selects-image-iframe.html?url=http%3A%2F%2Fwww.geeksaresexy.net%2F2012%2F04%2F19%2F3-5-million-wristwatch-breaks-funding-records%2F&media=http%3A%2F%2Fwww.geeksaresexy.net%2Fwp-content%2Fuploads%2F2012%2F04%2FTrioGroup04-1024x768.png&description=%243.5+Million+%26%238220%3BSmartWatch%26%238221%3B+Breaks+Funding+Records&layout=horizontal
+http://www.geeksaresexy.net/wp-content/plugins/pinterest-pin-it-button/js/pin-it-button-user-selects-image-assets.js
+http://www.geeksaresexy.net/wp-content/plugins/pinterest-pin-it-button/js/pin-it-button-user-selects-image.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
