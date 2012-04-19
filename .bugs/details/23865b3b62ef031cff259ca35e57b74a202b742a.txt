@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yuvutu.com/modules.php?name=Video&op=view&video_id=767705
+
+
+[filters]
+http://lp.longtailvideo.com/4/adttext-h.swf
+http://lp.longtailvideo.com/5/adttext/adttext-h.swf
+http://lp.longtailvideo.com/5/adttext/adttext.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
