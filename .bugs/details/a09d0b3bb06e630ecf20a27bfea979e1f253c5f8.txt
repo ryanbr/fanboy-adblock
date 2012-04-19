@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newstimes.com/news/article/Calif-scientist-uses-physics-to-dodge-ticket-3493025.php
+
+
+[filters]
+http://p.ctpost.com/article?i=3493025&s=newstimes&ts=1334825499853
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
