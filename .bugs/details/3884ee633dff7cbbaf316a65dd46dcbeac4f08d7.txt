@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.theonion.com/video/four-american-troops-tragically-killed-along-with,27949/
+
+
+[filters]
+http://www.theonion.com/ads/video-ad/27949/
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
