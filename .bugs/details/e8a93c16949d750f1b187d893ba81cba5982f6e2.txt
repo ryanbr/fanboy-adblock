@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://h2porn.com/videos/clit-orgasm/
+
+
+[filters]
+http://adv.h2porn.com/adspot.php?spot_id=15
+http://adv.h2porn.com/adspot.php?spot_id=16
+http://adv.h2porn.com/adspot.php?spot_id=17
+http://adv.h2porn.com/adspot.php?spot_id=9
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
