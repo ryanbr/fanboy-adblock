@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://quick-dish.tablespoon.com/2011/10/21/fall-cookies-kids-can-create/
+
+
+[filters]
+http://www.tablespoon.com/assets/images/Reddit_Icon.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
