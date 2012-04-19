@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mikeonads.com/what-is-errorsafe-and-how-do-we-stop-it/
+
+[filters]
+http://ib.sand-07.adnxs.net/seg?add=5642
+http://ib.sand-07.adnxs.net/tt?id=1
+http://ib.sand-07.adnxs.net/tt?id=610&bidder=13&referrer=http://www.cnn.com
+http://ib.sand-08.adnxs.net/cjst?auction_id_64=8473957572435157677&time=40&auction_time=1334841401
+http://ib.sand-08.adnxs.net/cjst?auction_id_64=8473957572435157677&time=45&auction_time=1334841401
+http://ib.sand-08.adnxs.net/cjst?auction_id_64=8473957572435157677&time=50&auction_time=1334841401
+http://ib.sand-08.adnxs.net/cjst?auction_id_64=8473957572435157677&time=55&auction_time=1334841401
+http://ib.sand-08.adnxs.net/seg?add=5010&b64uid=ODAxODg0ODA3NjI4NzU0NjA3MQ%3D%3D
+http://ib.sand-08.adnxs.net/seg?add=5011&uid=8018848076287546071&b64uid=ODAxODg0ODA3NjI4NzU0NjA3MQ%3D%3D
+http://ib.sand-08.adnxs.net/tt?id=1
+http://ib.sand-08.adnxs.net/tt?id=610&bidder=13&referrer=http://www.cnn.com
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
