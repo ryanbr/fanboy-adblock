@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.homemade-voyeur.com/galery.php?id=52
+
+
+[filters]
+http://www.voyeurbase.com/
+
+
+[other]
+popup
+
+
+[comments]
+nitrox
