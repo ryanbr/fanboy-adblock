@@ -1,0 +1,30 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://media2.hpcwire.com/hpcwire/ads/SM_USO_20120302_X9_OnlineMaster_AdSeries_336x280_GPU.jpg
+http://media2.hpcwire.com/hpcwire/ads/amd_hpc_banner_160x600.jpg
+http://media2.hpcwire.com/hpcwire/ads/AltairLogo60x30.jpg
+http://media2.hpcwire.com/hpcwire/ads/Ansys60x30.gif
+http://media2.hpcwire.com/hpcwire/ads/AspenSystems60x30.gif
+http://media2.hpcwire.com/hpcwire/ads/ConveyBigDHPCwDec11Final.gif
+http://media2.hpcwire.com/hpcwire/ads/OBS_60x30.jpg
+http://media2.hpcwire.com/hpcwire/ads/XyratexLOGO_60x30.jpg
+http://media2.hpcwire.com/hpcwire/ads/netapp_logo_60x30.gif
+http://media2.hpcwire.com/hpcwire/ads/sas_60x30.gif
+http://media2.hpcwire.com/hpcwire/ads/univa_red_60x30.jpg
+http://media2.hpcwire.com/specialfeatureads/ISC_Think_Tank/ThinkTankBanne_2012.gif
+http://www.hpcwire.com/xtenit/jscripts/adminutilities.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
