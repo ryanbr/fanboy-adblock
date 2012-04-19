@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sunporno.com/tube/videos/486603/breathtaking-solo-action.html
+
+
+[filters]
+http://thumbs.vstreamcdn.com/sunstatic/ads/rotate/player-ad1-adx.html
+http://thumbs.vstreamcdn.com/sunstatic/ads/rotate/player-ad2-ero.html
+http://thumbs.vstreamcdn.com/sunstatic/ads/rotate/player-ad3-4-5-ero.html
+http://thumbs.vstreamcdn.com/sunstatic/ads/rotate/top-banner-ero.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
