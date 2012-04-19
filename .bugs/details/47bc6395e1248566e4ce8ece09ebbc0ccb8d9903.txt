@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://trubann.mybb.ru/
+
+
+[filters]
+http://mokuz.ru/vipcounter/13112006918409.jpg?clr=ccf&id=11278367675
+http://v1.super.md/?col=00000000;b=a;id=6606;v=2;je=y;pp=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D7%26t%3D12011;cp=http%3A//trubann.mybb.ru/;sh=1080;sw=1920;sc=24
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
