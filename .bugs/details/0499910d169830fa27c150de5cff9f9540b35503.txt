@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.twitch.tv/shaynehawke/b/315233698
+
+[filters]
+http://countess.twitch.tv/ping.gif?u=%7B%22type%22%3A%22archive%22%2C%22id%22%3A%22315233698%22%7D
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
