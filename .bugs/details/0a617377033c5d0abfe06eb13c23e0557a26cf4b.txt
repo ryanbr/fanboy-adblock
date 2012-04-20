@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.coolxvideos.com/
+
+
+[filters]
+http://www.sadtube.com/chat/j.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
