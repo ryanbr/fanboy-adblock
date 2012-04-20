@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://shkolazhizni.ru/test/
+
+
+[filters]
+http://keo-suppo.com/ctr.php?ref=http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=12015
+http://keo-suppo.com/pic/3.gif
+http://keo-suppo.com/view.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
