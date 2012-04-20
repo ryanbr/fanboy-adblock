@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pornfreebies.com/video/ava-devine--1389.html?utm_source=tubesgalore&utm_medium=cpc&utm_campaign=thumbclicks
+
+
+[filters]
+http://images.naughtycdn.com/public/iframes/csb/300x300/files/300x300.swf
+http://images.naughtycdn.com/public/iframes/csb/300x300/files/AC_RunActiveContent.js
+http://images.naughtycdn.com/public/iframes/csb/300x300/files/Comp%202.flv
+http://images.naughtycdn.com/public/iframes/csb/300x300/iframe.htm?nats=PornFreebies.4.62.103.0.0.0.0.0/?autocamp=L3ZpZGVvL2F2YS1kZXZpbmUtLTEzODkuaHRtbD91dG1fc291cmNlPXR1YmVzZ2Fsb3JlJnV0bV9tZWRpdW09Y3BjJnV0bV9jYW1wYWlnbj10aHVtYmNsaWNrcyZkZXNjPWNzYi1pZnJhbWUtYWQ=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
