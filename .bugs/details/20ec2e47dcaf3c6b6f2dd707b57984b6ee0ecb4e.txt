@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.diets.ru/
+
+
+[filters]
+http://www.diets.ru/click/xtend.php?src=7
+http://www.stranamam.ru/click/pir.php?src=3
+http://re.mediafort.ru/show.php?b=16&s=2
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=12013
+
+
+[comments]
+fanboy
