@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://salat.zahav.ru/Articles/1427/kirkorov_krestil_doch
+
+
+[filters]
+http://salat.zahav.ru/Handlers/Counter.ashx?articleID=1427&tile=4942450
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
