@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.crunchyroll.com/leiji-matsumotos-ozma/episode-5-episode-5-the-masked-man-593853
+
+
+[filters]
+http://www.crunchyroll.com/tracker?t=px&v=sm&k=469758
+http://www.crunchyroll.com/tracker
+http://www.crunchyroll.com/iphone_house_ad_vast2
+http://www.crunchyroll.com/ajax/?req=RpcApiVideoPlayer_LogAdSlot&integration=vast
+http://www.crunchyroll.com/ajax/?req=RpcApiVideoPlayer_LogAdSlot&integration=yume
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
