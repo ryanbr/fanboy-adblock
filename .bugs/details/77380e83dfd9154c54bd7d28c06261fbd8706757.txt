@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.flickr.com/photos/thelightningthief/6950621594/lightbox/
+
+[filters]
+http://l.yimg.com/g/combo/1/3.4.0?widget-stdmod/widget-stdmod-min.js&widget-stack/widget-stack-min.js&widget-position-constrain/widget-position-constrain-min.js&overlay/overlay-min.js&j/.FW-.HN.A.v22Msx&j/.BBs.A.vWxVn&event-simulate/event-simulate-min.js&node-event-simulate/node-event-simulate-min.js&j/.B-.T-bar-.C-.F.A.v22Etn&j/deja.JB-.D.A.vNstM&j/.HX-.C-.F.A.vNxQ8&j/.HX-.BH.A.v22NwB&j/.CN-.DD.A.vSXbt&j/.B-.O-.C-.F.A.vWuoc&j/.BM.A.vSDL8&j/.B-.O.A.vYmnZ&j/.B-.H-.BB-.C-.F.A.v221oK&j/.Y-.C-.F.A.vNqGk&j/.Y.A.vSPsc&j/.B-.M-.C-.F.A.vVkjx&transition/transition-min.js&j/.B-.M.A.vZ15c&j/.B-.HZs-.C-.F.A.v21yYB&j/.B-.HZs.A.v21yYB&j/box-.DG.A.vU69k&j/.B-.BE-.C-.F.A.vYpcM&j/.B-.BE-.D.A.v21HQp&j/.Z-.DK-.D.A.vLQEp&j/.Z-.DJ-.BJ.A.vLQEp&j/flapid.A.vT5pr&j/.HV-.C-.F.A.vPKTV&stylesheet/stylesheet-min.js&j/.HV.A.v21yYB&j/ywa.A.vN4Ng&j/.B-ywa-.BW.A.vPwkH&event-touch/event-touch-min.js&event-flick/event-flick-min.js&event-move/event-move-min.js&j/.N-.C-.F.A.vYDpV&j/.JB-count.A.v21B4i&j/.CM-ult.A.vPboP&j/.B-.D.A.v22FVR&j/.HX-.CZ.A.vZAee&j/.B-.T-bar.A.v22MZz&j/.B-.H-.BB.A.v22RwK&j/.N.A.v22MxH&j/.BF_.D-.C-.F.A.vPGYX&j/.CP-.U-.DE.A.vKEJK&j/.BF_.D.A.v21Nyx&j/.HV-.HW-.C-.F.A.vNwZR&j/.HV-.HW.A.vXfLk&j/.B-.R-.C-.F.A.vXt8z&j/.B-.R.A.vXW1c&j/.J-.GA.A.vThpZ&j/.CB-.C-.F.A.vNwWp&j/.CB-.IY.A.vZzGc&j/.CB-.D.A.vYCj8&j/.J-.D.A.v21B4i&j/.DN-.BB-.D-.C-.F.A.vVvzn&j/.IU.A.vWvCB&j/.HG-.W-.C-.F.A.vVVDV&j/.HF.HH-.C-.F.A.vTPCk&j/.HF.HK-.C-.F.A.vUELk&j/.HG-.HR.A.vVs3c&j/.HF.HJ.A.vU5pe&j/.HF.HH.A.vXp7P&j/.HF.HL.A.v22bcH&j/.HF.HT.A.vTV8i&j/.HF.HU.A.vVs3c&j/.HF.HK.A.vVJx6&j/.HF.HM.A.vVt5x&j/.HF.CM-.HI.A.vU1vn&j/.HG-.W.A.vXKSg&j/.HG-.HS.A.vXKTZ&j/.HG-.BB.A.v22auk&j/comscore.A.v22NTi
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
