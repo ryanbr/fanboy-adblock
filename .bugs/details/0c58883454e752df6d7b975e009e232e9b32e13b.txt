@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vipzone.ws/video/293225-naemniki-mercenaries-2011hdrip.html
+
+
+[filters]
+http://utarget.ru/jsclck/bc55c7a5cb
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
