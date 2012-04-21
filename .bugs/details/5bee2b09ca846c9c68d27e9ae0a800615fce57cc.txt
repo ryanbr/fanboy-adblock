@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://phimnhanh.net/movie/category/9/Khoa-Hoc-Vien-Tuong
+
+
+[filters]
+http://click.xdeal.vn/
+http://click.xdeal.vn/adssite/deal2.html?ver=2012321225714
+http://click.xdeal.vn/adssite/deal3.html?ver=2012321225713
+http://click.xdeal.vn/adssite/imgs/ic_back.gif
+http://click.xdeal.vn/adssite/imgs/ic_next.gif
+http://click.xdeal.vn/adssite/imgs/xlogo.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
