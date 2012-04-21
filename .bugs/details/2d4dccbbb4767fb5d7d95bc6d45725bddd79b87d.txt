@@ -8,6 +8,7 @@ http://rl-team.net/
 [filters]
 http://js.robottext.ru/context.js
 http://js.robottext.ru/context.js.php?adcount=4&blocktype=0&foncolor=FAF9F9&subjcolor=0000FF&textcolor=333333&linkcolor=009900&showfoto=1&partner=12010&cg=1&compact=yes
+http://datasearch.info/search.php?id=12010&go=1000000&close=1000000&hash=caa202034f268232c26fac9435f54e15&domain=%ED%E5+%EE%EF%F0%E5%E4%E5%EB%E5%ED&rref=&adult=
 
 
 [other]
