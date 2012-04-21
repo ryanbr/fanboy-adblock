@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rl-team.net/
+
+
+[filters]
+http://js.robottext.ru/context.js
+http://js.robottext.ru/context.js.php?adcount=4&blocktype=0&foncolor=FAF9F9&subjcolor=0000FF&textcolor=333333&linkcolor=009900&showfoto=1&partner=12010&cg=1&compact=yes
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
