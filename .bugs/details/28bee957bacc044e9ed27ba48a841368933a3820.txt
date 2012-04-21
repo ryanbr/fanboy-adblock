@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wgt.com/gameclient.aspx
+
+
+[filters]
+http://ad.doubleclick.net/adx/wgt.content.general/interstitial;tile=1;sz=300x250;gameMode=FullGame;course=STA;auth=Inactive;ord=56199333?
+
+
+
+[other]
+Play a game, fails to load without whitelist ^
+
+
+[comments]
+fanboy
