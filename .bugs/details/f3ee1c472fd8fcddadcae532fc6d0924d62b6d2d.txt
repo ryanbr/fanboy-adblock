@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hirensbootcd.org/
+
+
+[filters]
+http://www.hirensbootcd.org/hbcd_fb.html
+http://www.spotmau.com/content/psg_hirensbootcd_300.html
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
