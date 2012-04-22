@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.earthtechling.com/2011/01/201-mw-wind-plant-online-in-minnesota/
+
+
+[filters]
+http://engine.350media.com/z/13984/azk1_2_4_974,azk2_2_5_975,azk3_2_5_976,azk4_2_6_1049,azk5_2_43_1049
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
