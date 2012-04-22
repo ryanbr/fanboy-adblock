@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.buy.com/dept/Music_CDs_/109.html
+
+
+[filters]
+http://www.buy.com/retail/tags.asp?i1=228550180&i2=229164979&i3=230056286&i4=228327642&i5=213643868
+http://www.buy.com/retail/tags.asp?thinkRealTrack=contentpages
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
