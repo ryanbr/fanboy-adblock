@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.oracle.com/technetwork/java/javase/downloads/jre-7u3-download-1501631.html
+
+
+[filters]
+http://www.oracleimg.com/us/assets/metrics/ora_otn.js
+http://www.oracleimg.com/us/assets/metrics/ora_code.js
+http://www.oracleimg.com/us/assets/metrics/ora_code_otn.js
+
+
+
+[other]
+unable to download, with script blocked
+
+
+[comments]
+fanboy
