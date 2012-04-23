@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/?shva=1#inbox/136iudghisghdisd
+
+
+[filters]
+http://click.news.imdb.com/open.aspx?9rgy9sbgu9sd-sdjghsidgidsdg4g3-oashf0q93ujf0923jf
+
+
+[other]
+IMDB Spotlight email
+
+
+[comments]
+nitrox
