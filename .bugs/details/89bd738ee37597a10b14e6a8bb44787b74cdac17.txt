@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rbc.ua/rus/top/show/gnsu-vozbudila-ugolovnoe-delo-protiv-rozetka-ua-po-faktu-neuplaty-19042012144100
+
+
+[filters]
+http://pusk.ua/src/js/274_337.js
+http://pusk.ua/d/g/r43r34r34r4lj7l83jkz2tpfu2v1wp30pojg1iynyw/274/337/inline.js?r=
+http://pusk.ua/d/g/r43r34r34r4lj7l83jkz2tpfu2v1wp30pojg1iynyw/274/339/dg.js?r=
+http://pusk.ua/src/js/274_339.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
