@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/?shva=1#inbox/167bosubghdg
+
+[filters]
+http://sns2.rsys2.net/pub/as?_ri_=X0Gzc2X%3DWQpglLjHJlTQGnzdWT7qMJ2zb2hU2l0zcdEkP50OnzaO7OVXHkMX%3Dw&_ei_=EolaGGF4SNMvxFF7KucKuWO8JT3XG3OUoIjJ2yZl03B2UiNp.
+
+
+[other]
+Firefox Newsletter
+
+
+[comments]
+nitrox
