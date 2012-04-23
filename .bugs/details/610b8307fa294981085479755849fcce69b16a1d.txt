@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://newsletter.sourceforge.net/images/mlopen_post.html?rtr=on&siteid=257457457&mid=14w346346&mlid=346342&uid=346rhgh345y4
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
