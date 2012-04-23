@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/?shva=1#inbox/136fdgsdg987s9dg
+
+
+[filters]
+https://twitter.com/scribes/ibis?iid=am-99347868347583467587435&nid=21&uid=128937582
+
+
+[other]
+Tracker in email that Twitter sents when someone follows you
+
+
+[comments]
+nitrox
