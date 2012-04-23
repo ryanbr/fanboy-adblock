@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/?shva=1#inbox/136owiuoqiwufwqf
+
+
+[filters]
+http://mailer.photobucket.com/ss/open.php?M=2938759283&N=775&L=383
+
+
+[other]
+Photobuckt newsletter
+
+
+[comments]
+nitrox
