@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/?shva=1#inbox/124qwoiasjvoasv
+
+
+[filters]
+http://email.insynchq.com/wf/open?upn=v908ud90s8dbskda9365-2Fe5RNaqYJegNbE9-2FfZlDZoh0EyHnzVtOZOZxWm3SRDb26gpO5o4bhnomeYnp63D
+
+
+[other]
+insynchq.com newsletter
+
+
+[comments]
+nitrox
