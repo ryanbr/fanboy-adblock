@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://digitalnitelevize.cz/
+
+
+[filters]
+http://www.digitalnitelevize.cz/vsuvky/reklama/160x600/uvodni_stranka.php
+http://digitalnitelevize.cz/obrazky/reklamni_odkazy/allcom.cz.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+Moskoe.cz
