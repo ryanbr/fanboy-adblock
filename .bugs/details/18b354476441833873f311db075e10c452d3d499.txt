@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.trendmicro.co.uk/
+
+[filters]
+http://tracker.enectoanalytics.com/static/analysis_v1.2.0.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
