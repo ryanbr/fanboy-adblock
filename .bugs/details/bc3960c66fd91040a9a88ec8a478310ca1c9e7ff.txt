@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/?shva=1#inbox/167dgikhsdsdgv
+
+
+[filters]
+http://newsletter.mybboard.net/open.php?M=4646y&L=8&N=754&F=F
+
+
+[other]
+MyBB newsletter
+
+
+[comments]
+nitrox
