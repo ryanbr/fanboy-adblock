@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/?shva=1#inbox/124uiodhgisddgsd
+
+
+[filters]
+http://click.mailer.atlassian.com/open.aspx?fffvdv8903vidudghdg-fdec17757160027472157572-fec2157377620c74
+
+
+[other]
+HipChat acquired by atlassian email
+
+
+[comments]
+nitrox
