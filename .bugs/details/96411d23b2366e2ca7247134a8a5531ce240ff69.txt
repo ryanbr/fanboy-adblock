@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://apps.facebook.com/bingo-explosion/play.htm
+
+
+[filters]
+http://creative.ak.fbcdn.net/v41818/flyers/89/63/1328821283612050788_1_ad44159e.jpg
+http://creative.ak.fbcdn.net/v41818/flyers/94/21/13291692061262986727_1_48daad66.jpg
+http://creative.ak.fbcdn.net/v565063/flyers/20/53/13339832892087613361_1_15415fa8.jpg
+http://creative.ak.fbcdn.net/v565063/flyers/3/32/133462594121601710_1_7fcdffdc.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
