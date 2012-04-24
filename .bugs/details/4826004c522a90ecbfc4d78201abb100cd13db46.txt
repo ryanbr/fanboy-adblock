@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tutorvista.com/content/biology/biology-iv/flowering-plants-reproduction/sexual-reproduction.php
+
+
+[filters]
+http://www.tutorvista.com/iframe_container/iframe_popup_buynow
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
