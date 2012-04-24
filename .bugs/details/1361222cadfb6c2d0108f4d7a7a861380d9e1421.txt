@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.zombiesrungame.com/post/21662042177/its-update-time-so-many-new-features-and-missions-in
+
+
+[filters]
+http://blog.zombiesrungame.com/tweets.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
