@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rahulbalyan.com/2012/04/why-is-it-difficult-to-learn-from-success/
+
+[filters]
+http://www.rahulbalyan.com/wp-content/plugins/genesis-social-profiles-menu/icon-sets/prl-sprites/prl-sprite-s24.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
