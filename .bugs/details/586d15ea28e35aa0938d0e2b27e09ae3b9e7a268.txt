@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kanal5play.se/#!/play/program/322002/video/2422097|/program/223047/video/280395
+
+
+[filters]
+http://se-kanal5.llnw.videoplaza.tv/creatives/assets/2d0ade8b-3052-4bc9-9432-dd19014284fc/d59e969d-8265-4021-8616-e72d7e838198.mp4
+
+
+
+
+[other]
+whitelist needed to avoid the 60sec wait in playing
+
+
+[comments]
+fanboy
