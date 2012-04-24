@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kanal5play.se/#!/play/program/322002/video/2422097|/program/223047/video/280395
+
+
+[filters]
+https://www.facebook.com/impression.php/f1abb6e4b06960e/?lid=113&name=url_parse_error&payload=http%3A%2F%2Fwww.kanal5play.se%2F%23%21%2Fplay%2Fprogram%2F322002%2Fvideo%2F2422097%7C%2Fprogram%2F223047%2Fvideo%2F280395&api_key=131127933574421
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
