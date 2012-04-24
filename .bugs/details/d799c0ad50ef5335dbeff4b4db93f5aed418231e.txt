@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://adland.tv/content/you-cant-use-aps-photos-without-permission-they-can-use-yours
+
+[filters]
+http://adland.tv/openadserver/show.js
+http://adland.tv/openadserver/show?id_site=20&id_channel=59&id_dimension=1&width=728&height=90&id_palette=1&id_user=1&ident=5791&ref=http%3A//adland.tv/content/you-cant-use-aps-photos-without-permission-they-can-use-yours&sr=&ck=260&uf=1&ifr=1
+http://adland.tv/openadserver/show?id_site=20&id_channel=60&id_dimension=12&width=180&height=150&id_palette=1&id_user=1&ident=1831&ref=http%3A//adland.tv/content/you-cant-use-aps-photos-without-permission-they-can-use-yours&sr=&ck=260&uf=1&ifr=1
+http://adland.tv/openadserver/show?id_site=20&id_channel=62&id_dimension=14&width=336&height=280&id_palette=1&id_user=1&ident=3059&ref=http%3A//adland.tv/content/you-cant-use-aps-photos-without-permission-they-can-use-yours&sr=&ck=260&uf=1&ifr=1
+http://adland.tv/openadserver/show?id_site=20&id_channel=63&id_dimension=12&width=180&height=150&id_palette=1&id_user=1&ident=7898&ref=http%3A//adland.tv/content/you-cant-use-aps-photos-without-permission-they-can-use-yours&sr=&ck=260&uf=1&ifr=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
