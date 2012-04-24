@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://apps.facebook.com/bingo-explosion/play.htm
+
+
+[filters]
+https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v41818/flyers/42/6/13312822821904980886_1_416ccafb.jpg
+https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v41818/flyers/6/47/13225882751428417849_1_c44d9b7a.jpg
+https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v41818/flyers/89/63/1328821283612050788_1_ad44159e.jpg
+https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v565063/flyers/47/45/1333983300366033595_1_babc2377.jpg
+
+
+[other]
+If site is loaded via SSL this domain is used to serve ads else create.fbcdn.net
+
+
+[comments]
+nitrox
