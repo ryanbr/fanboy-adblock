@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pillreports.com/index.php?page=display_pill&id=27732
+
+
+[filters]
+http://stl.p.a1.traceworks.com/prod/reg_scripts/reg_301216-1.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
