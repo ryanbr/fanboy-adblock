@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vogue.com/vogue-daily/article/gwen-stefani-and-other-unconventional-wedding-dresses/?mbid=ob_ppc_81
+
+
+[filters]
+http://w.sharethis.com/button/sharethis.js#publisher=4a025e70-42d3-40c2-9f79-e8e94e82c14f&button=false
+
+
+
+
+[other]
+top banner fp
+
+[comments]
+fanboy
