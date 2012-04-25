@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wistv.com/category/224248/syndicated-content-vertical-acuity?vaid=3b11d298f56207f9638014319372f2ae
+
+[filters]
+http://cdn.syn.verticalacuity.com/394/default_syn.png
+http://syn.verticalacuity.com/varw/content?vaid=3b11d298f56207f9638014319372f2ae&tOff=12&conId=8c13e5c1-375e-4b60-8b77-5ae4aa012dce&cb=1335336287227
+http://syn.verticalacuity.com/varw/web/js/vaSyn-min-combo.js?cb=370927
+http://syn.verticalacuity.com/varw/web/skins/default/default.css?cb=370927
+http://syn.verticalacuity.com/web/js/vaSyn.js
+http://scripts.verticalacuity.com/vat/mon/vtw.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
