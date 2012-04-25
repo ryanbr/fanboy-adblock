@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pcworld.idg.com.au/top_rated/mobile_phones/107/top-rated-android-phones-january-2012/
+
+
+[filters]
+https://demo.idg.com.au/consumer/media/1335249261/images/social_media_16x16.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
