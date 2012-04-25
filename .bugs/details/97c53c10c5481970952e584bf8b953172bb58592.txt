@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gearslutz.com/board/mastering-forum/131433-best-cd-burners-error-checking-software.html
+
+
+[filters]
+http://www.gearslutz.com/board/ebayad.php?t=131433
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
