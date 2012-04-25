@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.software.com/internet-browser/news/yahoo-toolbar
+
+
+[filters]
+http://contextual.ads.sitethree.com/0/1-1-1683f88d04a032325b48/http://www.software.com/internet-browser/news/yahoo-toolbar?kw=
+http://contextual.ads.sitethree.com/3/1-1-1683f88d04a032325b48/http://www.software.com/internet-browser/news/yahoo-toolbar?kw=
+http://contextual.ads.sitethree.com/assets/search_block_logo.png
+http://contextual.ads.sitethree.com/s3_context.js
+http://contextual.ads.sitethree.com/s3_context_inner.js?id=s3ad-e0e1
+http://contextual.ads.sitethree.com/s3_context_inner.js?id=s3ad-efad
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
