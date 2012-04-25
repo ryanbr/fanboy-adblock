@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.datalounge.com/cgi-bin/iowa/ajax.html?t=11466526#page:showThread,11466526
+
+
+[filters]
+http://www.datalounge.com/ajax-advert-leader.html?2
+http://www.datalounge.com/ajax-advert.html?1
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
