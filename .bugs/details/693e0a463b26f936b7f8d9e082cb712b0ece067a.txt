@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wopular.com/permanent-patients-make-hospitals-their-home
+
+
+[filters]
+http://www.wopular.com/sites/all/themes/garland/wopular/ads_leaderboard_iframe.php
+http://www.wopular.com/sites/all/themes/garland/wopular/ads_medrec_iframe.php
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
