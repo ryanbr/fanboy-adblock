@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.idg.no/cw/art.cfm?id=D17A3D0A-A566-6D63-03CF05868ADF867E
+
+
+[filters]
+http://idg.tns-cs.net/blank.gif
+http://idg.tns-cs.net/j0=,,,;+,s=idg+cp=news.idg.no+url=http%3A//news.idg.no/cw/art.cfm%3Fid%3DD17A3D0A-A566-6D63-03CF05868ADF867E;;;?lt=h1g5g2um&x=1920x1080x24
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
