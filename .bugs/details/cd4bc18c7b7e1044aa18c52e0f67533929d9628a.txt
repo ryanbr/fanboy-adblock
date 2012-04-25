@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://speedtest.net/
+
+
+[filters]
+http://ads.ookla.com/www/delivery/lg.php?bannerid=6179&campaignid=650&zoneid=42&OACAP=1&OACCAP=1&loc=http%3A%2F%2Fspeedtest.net%2F&cb=bcb32c19e4
+http://ads.ookla.com/www/delivery/lg.php?bannerid=748&campaignid=101&zoneid=43&loc=1&referer=http%3A%2F%2Fspeedtest.net%2F&cb=14dde038e3
+http://cdn.ads.ookla.com/6e8a5562c8157b7d85c72a00f62602dd.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
