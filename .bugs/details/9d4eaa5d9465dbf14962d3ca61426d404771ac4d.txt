@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://shopping.burnabynow.com/SS/AllPages.aspx?sstarg=&facing=false&secid=101426
+
+[filters]
+http://cdn.travidia.com/ss-page/1127133-175
+http://cdn.travidia.com/ss-page/1127134-175
+http://cdn.travidia.com/ss-page/1127135-175
+http://cdn.travidia.com/ss-page/1127136-175
+http://cdn.travidia.com/ss-page/1127137-175
+http://cdn.travidia.com/ss-page/1127138-175
+http://cdn.travidia.com/ss-page/1127139-175
+http://cdn.travidia.com/ss-page/1127140-175
+http://cdn.travidia.com/ss-page/1127141-175
+http://cdn.travidia.com/ss-page/1127142-175
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
