@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.virginmedia.com/movies/trailers-clips/moviewatch-special-total-recall/1583289102001/
+
+
+[filters]
+http://cdn.inskinmedia.com/isfe/4.1/js/base/api/brightcove3.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
