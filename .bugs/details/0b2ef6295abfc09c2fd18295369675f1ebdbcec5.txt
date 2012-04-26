@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cultofmac.com/
+
+
+[filters]
+http://cultofmac.cultofmaccom.netdna-cdn.com/wp-content/uploads/2012/04/20100804-lock-300x250.jpg
+http://cultofmac.cultofmaccom.netdna-cdn.com/wp-content/uploads/2012/04/Green-woman-in-More-London-1-of-1-300x250.jpg
+http://cultofmac.cultofmaccom.netdna-cdn.com/wp-content/uploads/2012/04/Screen-Shot-2012-04-17-at-11.43.29-AM-300x250.jpg
+http://cultofmac.cultofmaccom.netdna-cdn.com/wp-content/uploads/2012/04/bbc39__instagram-facebook-300x250.jpg
+http://cultofmac.cultofmaccom.netdna-cdn.com/wp-content/uploads/2012/04/gsmarena_001-300x250.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
