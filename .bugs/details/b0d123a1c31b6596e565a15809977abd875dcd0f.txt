@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://reveal.diablo3.com/en_US/
+
+[filters]
+http://reveal.diablo3.com/assets/js/jquery.google-analytics.js?c=-62169955200
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
