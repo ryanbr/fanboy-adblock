@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.gitorious.org/2012/04/26/post-mortem-on-last-weeks-problems/
+
+[filters]
+http://s1.wp.com/wp-content/mu-plugins/post-flair/like/images/icon-like-sprite.png
+http://s1.wp.com/wp-content/mu-plugins/post-flair/style.css?m=1335215439g&ver=4
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
