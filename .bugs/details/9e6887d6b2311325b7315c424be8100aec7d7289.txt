@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wolframalpha.com/input/?i=Merck%2C+GSK
+
+
+[filters]
+http://www.wolframalpha.com/javascript/adpatch.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
