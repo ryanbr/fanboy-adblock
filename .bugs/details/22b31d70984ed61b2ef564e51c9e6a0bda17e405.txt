@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thedailywh.at/2012/04/26/peaceful-protest-of-the-day/
+
+
+[filters]
+http://static.guim.co.uk/flash/video/embedded/player-1.0.swf?referer=http%3A%2F%2Fthedailywh.at%2F2012%2F04%2F26%2Fpeaceful-protest-of-the-day%2F
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
