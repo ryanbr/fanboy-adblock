@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.myfoxny.com/story/17760446/boy-too-good-to-play-on-field-hockey-team
+
+
+[filters]
+http://ad.doubleclick.net/adx/wn.loc.wnyw.video/news;sz=10x10;wnsz=30;tile=1;wncc=News;imp=creative;wnpt=S;wnpc=story;wncp=WNYW;wncid=17760446;wnad85=wnyw;wnad41=wnyw;wnad43=wnyw;wnad52=wnyw;wnad102=wnyw;wnad17=wnyw;wnad30=wnyw;apptype=videostandard;env=production;ord=79810895?
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
