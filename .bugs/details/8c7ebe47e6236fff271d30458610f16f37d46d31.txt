@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://top100.rambler.ru/navi/?theme=245
+
+
+[filters]
+http://top100.rambler.ru/static/top100/tesla/visitor-tracker.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
