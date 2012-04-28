@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.siteslike.com/similar/alotporn.com
+
+[filters]
+http://static.1loop.com/spark.php?nsfw=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
