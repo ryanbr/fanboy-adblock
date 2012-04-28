@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.webmonkey.com/2012/04/speed-web-standards-make-latest-opera-beta-sing/
+
+
+[filters]
+http://www.webmonkey.com/wp-content/themes/wired-webmonkey/images/social-nav-sprite.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
