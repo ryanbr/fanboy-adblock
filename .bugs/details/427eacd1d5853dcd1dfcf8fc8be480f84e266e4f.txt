@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thepiratebay.se/
+
+
+[filters]
+http://media.888.com/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
