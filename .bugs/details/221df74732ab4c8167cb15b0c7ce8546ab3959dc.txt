@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://logs.omegle.com/03b551
+
+
+[filters]
+http://vk.com/js/api/share.js?11
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
