@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thepiratebay.se/search/colbert+report
+
+[filters]
+http://clkads.com/banners/script/include_img_banner.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
