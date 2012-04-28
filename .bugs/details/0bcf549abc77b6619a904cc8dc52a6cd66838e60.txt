@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.porn8.com/free-porn/video/c36e078b10/Hot-teen-Pinky-sucks-huge-cock-from-40oz-Bounce.video
+
+[filters]
+http://www.porn8.com/adbotleft.php
+http://www.porn8.com/adbotright.php
+http://www.porn8.com/adsecondary.php
+http://www.porn8.com/adtopcenter.php
+http://www.porn8.com/adtopleft.php
+http://www.porn8.com/adtopmidsky.php
+http://www.porn8.com/adtopright.php
+http://www.porn8.com/adtopsky.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
