@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vnmon.com/diendan/forumdisplay.php?53-b-font-color-5574d9-size-2-Anh-Nude-Nghe-Thuat-18-font-b-&s=*&order=*
+
+
+[filters]
+http://vnmon.com/popup.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
