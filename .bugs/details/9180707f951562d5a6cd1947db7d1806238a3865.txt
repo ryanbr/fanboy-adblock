@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nintendo.com/?country=US&lang=en
+
+
+[filters]
+http://www.nintendo.com/js/omniture-prod.js,jquery/jquery.js,jquery/jquery-ui.js,swfobject/swfobject.js,cufon-yui.js,AvenirNextLT.js,tabcontent.js,omniture-init.js,omniture.js,hotspotFinder.js,SpryAccordion.js,customscripts.js,jquery/plugins/jquery.pngie.min.js,jquery/plugins/jquery.hoverIntent.minified.js,jquery/plugins/jquery.prettyPhoto.js,jquery/jquery.qtip-1.0.min.js,jquery/plugins/jquery.jaddress.js,jquery/plugins/jquery.easing.js,jquery/plugins/jquery_jqdropdown.js,foresee/foresee-trigger.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
