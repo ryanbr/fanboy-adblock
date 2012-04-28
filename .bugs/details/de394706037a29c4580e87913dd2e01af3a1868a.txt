@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://wbillpay.verizonwireless.com/vzw/accountholder/payment/displayPaymentPage.action#
+
+
+[filters]
+https://ecache.vzw.com/imageFiles/Myacct/nda/css/onlineopinionV5/oo_conf.js
+https://ecache.vzw.com/imageFiles/Myacct/nda/css/onlineopinionV5/oo_engine.min.js
+https://ecache.vzw.com/imageFiles/Myacct/nda/css/onlineopinionV5/oo_style.css
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
