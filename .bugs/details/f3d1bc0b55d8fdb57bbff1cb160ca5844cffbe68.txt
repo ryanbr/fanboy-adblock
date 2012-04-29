@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.softpedia.com/news/HDD-Crisis-Was-Fake-Seagate-and-Western-Digital-Post-Big-Profits-266676.shtml
+
+
+[filters]
+http://platform.twitter.com/widgets/follow_button.html?screen_name=softpedia&show_count=false&link_color=EEEEEE&text_color=EEEEEE
+http://platform.twitter.com/widgets/follow_button.html?screen_name=softpedianews&lang=en
+/tweetn.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
