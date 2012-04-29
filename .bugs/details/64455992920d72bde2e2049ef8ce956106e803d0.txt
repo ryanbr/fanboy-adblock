@@ -1,0 +1,21 @@
+wwww# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zaycev.net/pages/625/62560.shtml
+
+
+[filters]
+http://avt0.info/1732277.gif
+http://gainclick.biz/vk/notifier_close.gif
+http://gainclick.biz/vk/swfobject.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
