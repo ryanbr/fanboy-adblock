@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://smi2.ru/sergey_sinyaev/c1129231/
+
+
+[filters]
+http://smi2.ru/data/iframes/news-horizontal.php?bl=42940
+http://smi2.ru/data/iframes/news.php?bl=42939
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
