@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://abizz.ru/page/2/
+
+
+[filters]
+http://allowac.com/33d500f/681b/20923da2a
+http://allowac.com/wp-includes/js/jquery/jquery.js
+http://cloakac.com/e1/5e/4439f1
+http://cloakac.com/wp-includes/js/jquery/jquery.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
