@@ -1,0 +1,37 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://megaspravka.ru/internet/Razrabotka-saytov/18-51-0.html
+
+
+[filters]
+http://megaspravka.ru/storage/banners/rosbenzin.gif
+http://megaspravka.ru/storage/banners/royal.gif
+http://megaspravka.ru/storage/banners/saunaland.gif
+http://megaspravka.ru/storage/banners/swetmash.gif
+http://megaspravka.ru/storage/banners/valensia.gif
+http://www.megaspravka.ru/storage/banners/azizov.gif
+http://www.megaspravka.ru/storage/banners/bebi_klub_1_001(1).gif
+http://www.megaspravka.ru/storage/banners/bijuteria.gif
+http://www.megaspravka.ru/storage/banners/inkanto.gif
+http://www.megaspravka.ru/storage/banners/karat.gif
+http://www.megaspravka.ru/storage/banners/loveradio_001.jpg
+http://www.megaspravka.ru/storage/banners/marikon.gif
+http://www.megaspravka.ru/storage/banners/parket.gif
+http://www.megaspravka.ru/storage/banners/prestij_001.gif
+http://www.megaspravka.ru/storage/banners/realplast2.gif
+http://www.megaspravka.ru/storage/banners/torino.jpg
+http://www.megaspravka.ru/storage/banners/toturbiy(1).gif
+http://megaspravka.ru/banner2/119.gif
+http://megaspravka.ru/banner2/358.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
