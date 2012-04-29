@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://xxx-tracker.com/torrent/25874/
+
+
+[filters]
+http://coolsor.ru/5easame6ckf6h430fs8ikz8jo6kr32zuz6s4ukgn54r25bmbvea3?&4a3x5afo=30946330&3tqf4=12&4bztr=45&2w0sw=10&3jwg1=70
+http://coolsor.ru/5easame6ckf8634ggkv6s37ryfqk6fll7u1lcpwqou
+http://rusrestbest.org/getThumbs?uid=1062726&p=2&fmt=htm&lng=ru&desc=name&cs=4&cp=3&tpl=t1&sty=int&margin=3&box_border=1&img_border=1&fnt=12&bg=%23FDD8B9&box_color=%23CC9999&box_border_color=%23996666&fg=%23444444&fghover=%23696969&a=&ah=&img_border_color=%23808080&cols=2&rows=2&tid=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
