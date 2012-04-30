@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sankakucomplex.com/2012/05/01/bakemonogatari-tsubasa-hanekawa-figma/
+
+
+[filters]
+http://data.otaserve.net/jlist/?orientation=horizontal-m&order=ranked&url=ANIME/ANTY/feed2.xml&title=Top%20Products&id=6858&z=26&filter=&opt=on&cmin=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
