@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://macys.shoplocal.com/macys/default.aspx?action=entryflash&=
+
+
+[filters]
+http://walgreens.shoplocal.com/walgreens/scripts/tracking.js
+http://macys.shoplocal.com/macys/scripts/tracking.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
