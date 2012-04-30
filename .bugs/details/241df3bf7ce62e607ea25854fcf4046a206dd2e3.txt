@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pangames.net/
+
+
+[filters]
+http://codes-media.ru/codes/14870/14450_pangames.net.js
+http://media-kod.net/code.php?idsite=14450
+http://mediarichcode.ru/cgi/gask.cgi?ids=14450&ref=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
