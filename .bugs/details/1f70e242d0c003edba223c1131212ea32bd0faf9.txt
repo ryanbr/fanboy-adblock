@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wwwb.fileflyer.com/
+
+
+[filters]
+http://pix.speedbit.com/http___forums.fanboy.co.nz_forums_viewtopic.php_f_6_t_12240/FF_default.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
