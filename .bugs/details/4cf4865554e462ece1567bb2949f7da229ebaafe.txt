@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.downturk.net/dl/TeraCopy+Pro+v2.12.html
+
+
+[filters]
+http://www.blitzdownloads.com/promo/2447/TeraCopy%20Pro%20v2.12.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
