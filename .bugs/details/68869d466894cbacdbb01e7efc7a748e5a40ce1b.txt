@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nhl.com/ice/recap.htm?id=2011030127&navid=DL|NHL|home
+
+
+[filters]
+http://cdn.gigya.com/js/gigya.services.socialize.plugins.reactions.min.js
+https://comments.gigya.com/comments.getComments?format=jsonp&sdk=js&APIKey=2_pd9mRZHRYIukd6DpOMReSfqTpuF0K4eHN_cz3hYmMGx8zmPE3ObXwGQCSKZ4FS1O&categoryID=21962092&streamID=127657&cid=nhl%2Cen%2Crecap&source=showCommentsUI&sourceData=%7B%22categoryID%22%3A%2221962092%22%2C%22streamID%22%3A%22127657%22%7D&includeSettings=true&threaded=false&includeStreamInfo=true&callback=gigya.global.JPCMD.prototype.hanldeJPResponse&context=R1335779859940_0.41783263906142176&authMode=cookie
+http://cdn.gigya.com/js/socialize.js?apikey=2_pd9mRZHRYIukd6DpOMReSfqTpuF0K4eHN_cz3hYmMGx8zmPE3ObXwGQCSKZ4FS1O&lang=en_US
+http://cdn.gigya.com/js/gigya.services.socialize.plugins.min.js
+http://cdn.gigya.com/js/gigya.services.socialize.plugins.comments.min.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
