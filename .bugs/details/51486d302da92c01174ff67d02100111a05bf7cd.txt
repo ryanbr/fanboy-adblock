@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kelkoo.co.uk/c-100326823-mobile-phones.html
+
+
+[filters]
+http://d1447tq2m68ekg.cloudfront.net/514f137d05585d05167cce67b32000cd.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
