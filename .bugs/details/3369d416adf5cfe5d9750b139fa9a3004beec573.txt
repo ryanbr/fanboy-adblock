@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.orapois.com.br/humor/piadas/fotos-engracadas/bbb-de-portugues_id13098_p0_mc0_G.html
+
+
+[filters]
+http://pan.orapois.com.br/www/images/6a72d9f407709749bb7f91a6201d241b.jpg
+http://pan.orapois.com.br/www/images/9e9d08e4399acbfc9c486be441e3e8d0.jpg
+http://pan.orapois.com.br/www/images/b0aab44aff53800c012b18486403657a.jpg
+http://pan.orapois.com.br/www/images/f4541ce236211e72bba1b7a1d98e7a24.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
