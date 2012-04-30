@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://shop.retrevo.com/m/laptop/c1020
+
+[filters]
+http://shop.retrevo.com/m/vm/tracking/init.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
