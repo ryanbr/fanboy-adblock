@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://do-while.com/10-chalk-masterpieces/
+
+
+[filters]
+http://looneyads.com/code/2/?site=do-while.com&c=x
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
