@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://homewares.twenga.co.uk/roman-blinds.html#hx=1&s=5&c=123ac&page=1
+
+[filters]
+http://www.twenga.co.uk/remote/log_hit.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
