@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bible.cc/matthew/4-23.htm
+
+
+[filters]
+http://biblemenus.com/adframe120.htm
+http://biblemenus.com/adframe728b.htm
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
