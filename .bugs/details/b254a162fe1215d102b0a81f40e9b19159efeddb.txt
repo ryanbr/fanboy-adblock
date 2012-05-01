@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bible.cc/matthew/23-4.htm
+
+
+[filters]
+http://d3a2okcloueqyx.cloudfront.net/s1?u=Updqz7Mp9H6Gl8bHS8UBL5JFm&b=UIX1SK3XIAkpKPS9VktVst1A1&e=1335875946120&m=1&s=0&r=bb485390fcc20b5b73ba9fb8fc144d5571bba3df&p=ade7187b6063a25520773c0d8943f67295e423dd&a=biblos&q=eng-NIV:eng-NLT:eng-ESV:eng-NASB:eng-ISV:eng-GWT:eng-KJB:eng-AKJV:eng-ASV:eng-BBE:eng-DRB:eng-DBT:eng-ERV:eng-WBT:eng-WNT:eng-WEB:eng-YLT:MAT.23.4
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
