@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lowyat.net/v2/index.php?option=com_content&task=view&id=6709&Itemid=1
+
+
+[filters]
+http://www.webshaper.com.my/ads/lowyat/ecommerce-partner.png
+http://images-cdn.lowyat.net/mainpage/background.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
