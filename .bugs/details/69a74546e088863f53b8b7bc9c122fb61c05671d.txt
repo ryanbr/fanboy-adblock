@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.answerology.com/index.aspx/question/3089426_I-have-trouble-trusting-my-fiance-is-only-friends-with-his-ex-wife-they-talk-but-never-around-me.html
+
+
+[filters]
+http://www.answerology.com/index.aspx?template=ads.ascx&topic=other&tile=3
+http://www.answerology.com/index.aspx?template=ads.ascx&topic=other&tile=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
