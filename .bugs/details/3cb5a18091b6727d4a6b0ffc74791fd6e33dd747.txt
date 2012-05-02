@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.instyle.com/instyle/makeover
+
+
+[filters]
+http://img2.timeinc.net/instyle/static/i/oba-compliance.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
