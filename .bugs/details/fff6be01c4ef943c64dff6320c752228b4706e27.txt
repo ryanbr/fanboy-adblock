@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.weather.com/weather/right-now/Marlboro+NJ+07746
+
+
+[filters]
+http://js.revsci.net/gateway/gw.js?csid=K06578
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
