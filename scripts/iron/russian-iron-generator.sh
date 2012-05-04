@@ -49,17 +49,23 @@ sed '/^$/d' $TESTDIR/adblock-rus-stats.ini > $TESTDIR/adblock-rus-stats2.ini
 
 # remove any wildcards
 #
-tr -d '*' <$TESTDIR/adblock-rus2.ini >$IRONDIR/rus/adblock.ini
-tr -d '*' <$TESTDIR/adblock-rus-stats2.ini >$IRONDIR/rus/complete/adblock.ini
+tr -d '*' <$TESTDIR/adblock-rus2.ini >$TESTDIR/adblock-rus.ini
+tr -d '*' <$TESTDIR/adblock-rus-stats2.ini >$TESTDIR/adblock-stats.ini
 
 # Checksum the file (Done)
 #
-perl $IRONDIR/addChecksum-opera.pl $IRONDIR/rus/adblock.ini
-perl $IRONDIR/addChecksum-opera.pl $IRONDIR/rus/complete/adblock.ini
-rm $IRONDIR/rus/adblock.ini.gz 
-rm $IRONDIR/rus/complete/adblock.ini.gz
+perl $IRONDIR/addChecksum-opera.pl $TESTDIR/adblock-rus.ini
+perl $IRONDIR/addChecksum-opera.pl $TESTDIR/adblock-stats.ini
+
+# Copy over files
+#
+cp -f $TESTDIR/adblock-rus.ini $IRONDIR/rus/adblock.ini
+cp -f $TESTDIR/adblock-stats.ini $IRONDIR/rus/complete/adblock.ini
+
 
 # Zip up files..
 #
-$ZIP a -mx=9 -y -tgzip $IRONDIR/rus/adblock.ini.gz $IRONDIR/rus/adblock.ini > /dev/null
-$ZIP a -mx=9 -y -tgzip $IRONDIR/rus/complete/adblock.ini.gz $IRONDIR/rus/complete/adblock.ini > /dev/null
+rm $IRONDIR/rus/adblock.ini.gz
+rm $IRONDIR/rus/complete/adblock.ini.gz
+$ZIP a -mx=9 -y -tgzip $IRONDIR/rus/adblock.ini.gz $TESTDIR/adblock-rus.ini > /dev/null
+$ZIP a -mx=9 -y -tgzip $IRONDIR/rus/complete/adblock.ini.gz $TESTDIR/adblock-stats.ini > /dev/null
