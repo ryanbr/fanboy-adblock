@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.onlineclasses.org/2012/05/03/7-things-you-didnt-know-about-cinco-de-mayo/
+
+
+[filters]
+http://www.onlineclasses.org/wp-content/plugins/bookmarkify/stumbleupon.png
+http://www.onlineclasses.org/wp-content/plugins/bookmarkify/facebook.png
+http://www.onlineclasses.org/wp-content/plugins/bookmarkify/delicious.png
+http://www.onlineclasses.org/wp-content/plugins/bookmarkify/digg.png
+http://www.onlineclasses.org/wp-content/plugins/bookmarkify/email.png
+http://www.onlineclasses.org/wp-content/plugins/bookmarkify/mixx.png
+http://www.onlineclasses.org/wp-content/plugins/bookmarkify/more.css
+http://www.onlineclasses.org/wp-content/plugins/bookmarkify/reddit.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
