@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kentucky.com/2012/05/04/2176309/barnstable-brown-party.html#wgt=rcntmulti
+
+
+[filters]
+http://media.kentucky.com/mistats/products/pubsys_s_code.js
+http://media.kentucky.com/mistats/finalizestats.js
+
+
+
+
+[other]
+Unable to browse pics properly
+
+
+[comments]
+fanboy
