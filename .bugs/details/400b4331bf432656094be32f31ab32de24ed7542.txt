@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.barclaycard.co.uk/personal
+
+
+[filters]
+https://www.barclaycard.co.uk/cs/static/js/esurveys/esurveys.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
