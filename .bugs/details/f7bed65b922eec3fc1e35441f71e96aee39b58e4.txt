@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vk.topface.ru/sexuality/
+
+
+[filters]
+http://landing.freetopay.ru/mc/790x90_link.swf
+http://img.creara-media.ru/errors/creara600x90.png
+http://rt.creara-media.ru/crossdomain.xml
+http://rt.creara-media.ru/v3//rot?cntrId=*&fn=*&uid=*&v=*&fmt=*&ln=*&extvk=*&locId=*&g=*&r=*&snet=*&bd=*&pid=*&aid=*&pos=*
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
