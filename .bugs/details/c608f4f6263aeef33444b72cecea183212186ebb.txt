@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.inilti.in/index.php?start=*
+
+[filters]
+http://www.inilti.in/budapop.js
+http://www.inilti.info/budapop.js
+http://www.inilti.info/onatsplash.php
+http://www.sik.me/splash.gif
+http://www.inilti.in/fuat/fsag.jpg
+http://www.inilti.in/fuat/fsol.jpg
+http://www.inilti.in/fuat/fvonu.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
