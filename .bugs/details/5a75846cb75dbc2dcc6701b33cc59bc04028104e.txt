@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lostfilm.ru/
+
+
+[filters]
+http://sovetnik.net/count/?id=23&ref=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D7%26t%3D12292&r=1920*1080&c=24&v=http%3A//www.lostfilm.ru/&title=%u041E%u0441%u0442%u0430%u0442%u044C%u0441%u044F%20%u0412%20%u0416%u0438%u0432%u044B%u0445.%3A.LOST.%3A.%u0420%u043E%u0441%u0441%u0438%u0439%u0441%u043A%u0438%u0439%20%u0421%u0430%u0439%u0442%20%u0421%u0435%u0440%u0438%u0430%u043B%u0430.%3A.%20-%20%u041D%u043E%u0432%u043E%u0441%u0442%u0438
+http://sovetnik.net/count/stat/?b=1&id=23
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
