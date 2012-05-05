@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tata.ru/news/21.12.2011/157568
+
+
+[filters]
+http://pics.rbc.ru/img/banners/show_flash.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
