@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.credit-agricole.com/en
+
+
+[filters]
+http://www.credit-agricole.com/extension/cadesign/design/cadesign/javascript/xtplug.js
+http://www.credit-agricole.com/extension/cadesign/design/cadesign/javascript/xtplugar.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
