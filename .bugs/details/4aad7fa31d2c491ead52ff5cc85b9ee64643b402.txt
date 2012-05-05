@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.filmikz.ch/watch/8783/Red-Faction--Origins---2011--fkz.php
+
+
+[filters]
+http://js.gonzagamer.com/uci/popover.js
+http://www.filmikz.ch/ads/right.html
+http://pop-over.powered-by.justplayzone.com/e42ee96fa8cb951485f800d2c5dd
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
