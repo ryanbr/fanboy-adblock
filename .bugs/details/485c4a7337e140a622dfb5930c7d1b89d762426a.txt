@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hn.24h.com.vn/an-ninh-hinh-su/cu-ba-73-tuoi-gay-an-vi-ghen-c51a451389.html
+
+
+[filters]
+http://ad-hn.24hstatic.com/upload/2-2012/images/2012-05-04/pico_210240_4t5.swf
+http://ad-hn.24hstatic.com/upload/4-2011/images/2011-12-02/lichvannien210480_3h22.swf
+http://ad-hn.24hstatic.com/upload/2-2012/images/2012-04-02/cuocthidiemthi_03_300_250.gif
+http://ad-hn.24hstatic.com/upload/1-2012/images/2012-03-10/nc-dai-ca-210x480.gif
+http://ad-hn.24hstatic.com/upload/4-2011/images/2011-11-30/gia-vang-120-120.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
