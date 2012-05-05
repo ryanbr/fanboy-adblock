@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.arcadeprehacks.com/
+
+[filters]
+http://www.arcadeprehacks.com/default_ads/300x250_top_category.htm
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
