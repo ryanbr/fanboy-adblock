@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gjsentinel.com/news/articles/wtf-headless-chicken-announces-presidential-candidacy/
+
+
+[filters]
+http://npc.us.srv.ysm.yahoo.com/partner/js/ypn.js
+http://npc.us.srv.ysm.yahoo.com/js_1_0/?config=22536842485&type=news&ctxtId=news&keywordCharEnc=utf8&source=npc_grandjunction_gjsentinel_t2_ctxt&adwd=728&adht=90&ctxtUrl=http%3A%2F%2Fwww.gjsentinel.com%2F%2Fnews%2Farticles%2Fwtf-headless-chicken-announces-presidential-candidacy%2F&css_url=http://www.gjsentinel.com/styles/y_content_match_css&du=1&cb=1336210336819&ctxtContent=%3Chead%3E%0A%09%3Cmeta%20http-equiv%3D%22content-type%22%20content%3D%22text%2Fhtml%3B%20charset%3Dutf-8%22%3E%0A%0A%09%0A%09%09%0A%09%09%09%3Ctitle%3EWTF%3F%20Headless%20chicken%20announces%20presidential%20candidacy%20%20%7C%20%20GJSentinel.com%3C%2Ftitle%3E%0A%09%0A%09%3Cmeta%20name%3D%22description%22%20content%3D%22Grand%20Junction%20-%20In%20another%20cheep%20bid%20for%20attention%2C%20the%20city%20of%20Fruita%20has%20announced%20that%20Mike%20the%20Headless%20Chicken%20will%20be%20running%20as%20a%20write-in%20candidate%22%3E%0A%09%3Cmeta%20name%3D%22keywords%22%20content%3D%22Grand%20Junction%20Colorado%20breaking%20news%20photography%20business%20events%20sports%20high%20school%20real%20estate%22%3E
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
