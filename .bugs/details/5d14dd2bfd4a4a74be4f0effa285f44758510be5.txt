@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.whatismyip.com/
+
+
+[filters]
+https://www.whatismyip.com/images/VyprVPN_9.99_2.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
