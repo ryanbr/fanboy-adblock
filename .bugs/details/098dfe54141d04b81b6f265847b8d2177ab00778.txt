@@ -1,0 +1,31 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.impressivewebs.com/css-the-good-parts/
+
+
+[filters]
+http://www.impressivewebs.com/wp-content/themes/iw-2012/images/btn-bsa.jpg
+http://www.impressivewebs.com/wp-content/themes/iw-2012/images/btn-camtasia.jpg
+http://www.impressivewebs.com/wp-content/themes/iw-2012/images/btn-email.jpg
+http://www.impressivewebs.com/wp-content/themes/iw-2012/images/btn-github.jpg
+http://www.impressivewebs.com/wp-content/themes/iw-2012/images/btn-googleplus-side.jpg
+http://www.impressivewebs.com/wp-content/themes/iw-2012/images/btn-googleplus.jpg
+http://www.impressivewebs.com/wp-content/themes/iw-2012/images/btn-mt.jpg
+http://www.impressivewebs.com/wp-content/themes/iw-2012/images/btn-rss.jpg
+http://www.impressivewebs.com/wp-content/themes/iw-2012/images/btn-smn.jpg
+http://www.impressivewebs.com/wp-content/themes/iw-2012/images/btn-twitter-side.jpg
+http://www.impressivewebs.com/wp-content/themes/iw-2012/images/btn-twitter.jpg
+http://www.impressivewebs.com/wp-content/themes/iw-2012/images/btn-wp.jpg
+http://www.impressivewebs.com/wp-content/themes/iw-2012/images/btn-youtube.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
