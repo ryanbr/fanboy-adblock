@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.us.hsbc.com/1/2/3/personal?home=personal
+
+
+[filters]
+https://www.us.hsbc.com/1/PA_1_083Q9FJ08A002FBP5S00000000/content/usshared/scripts/wt_plugins.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
