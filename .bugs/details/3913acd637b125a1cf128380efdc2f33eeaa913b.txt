@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.halifax.co.uk/home/home.asp
+
+
+[filters]
+https://www.halifax.co.uk/common/includes/rwtaghome.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
