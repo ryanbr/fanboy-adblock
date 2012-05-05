@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.telanon.info/
+
+
+[filters]
+http://www.telanon.info/wp-content/uploads/2010/06/cst_ver4.swf
+http://www.telanon.info/wp-content/uploads/2011/04/be_ver2.swf
+http://www.telanon.info/wp-content/uploads/2012/03/280X300-2.1.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
