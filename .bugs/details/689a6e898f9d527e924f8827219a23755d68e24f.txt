@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.alliance-leicester.co.uk/home/index.aspx
+
+
+[filters]
+http://www.alliance-leicester.co.uk/assets/jslib/sitetracker21.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
