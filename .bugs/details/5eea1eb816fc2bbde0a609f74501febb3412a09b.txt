@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gall.dcinside.com/list.php?id=baseball_new1&no=91833
+
+
+[filters]
+http://cm.semanticrep.com/soeacm/cmframeDCINSIDENEW.php?t=T47&s=120x600
+http://sosa.semanticrep.com/soea/ad_link.gif
+http://sosa.semanticrep.com/soea/close_white.gif
+http://sosa.semanticrep.com/soea/dc_ad.gif
+http://sosa.semanticrep.com/soea/soea_dcinsidenew.js
+http://sosa.semanticrep.com/soea/soeamulti2_bodyrich.swf
+http://sosa.semanticrep.com/soeacm/img/120600w.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
