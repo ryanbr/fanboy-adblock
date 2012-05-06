@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cuantarazon.com/ultimos/p/2
+
+
+[filters]
+http://www.todoanimes.com/js/only.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
