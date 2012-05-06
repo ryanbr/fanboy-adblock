@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://submanga.com/
+
+
+[filters]
+http://ib.reachjunction.com/ttj?id=771832&size=728x90
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
