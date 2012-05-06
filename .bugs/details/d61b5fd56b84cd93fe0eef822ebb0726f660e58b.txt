@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.freelibros.com/
+
+[filters]
+http://www.freelibros.com/wp-content/plugins/no-adblock/assets/blockBlock/advertisement.js?ver=3.3.1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
