@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://espn.go.com/newyork/photos/gallery/_/id/6221106/espnny-50-greatest-yankees
+
+
+[filters]
+# Copy your Adblock filters here
+http://a.espncdn.com/combiner/c?js=jquery-1.7.1.js,plugins/ba-debug-0.4.js,espn.l10n.r12.js,espn.core.duo.r54.js,plugins/jquery.hoverIntent.js,analytics/sOmni.js,analytics/analytics.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
