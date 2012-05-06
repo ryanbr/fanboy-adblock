@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://opentorrent.ru/viewtopic.php?t=125296
+
+
+[filters]
+http://opentorrent.ru/images/banner/mark.gif
+http://opentorrent.ru/images/banner/petrovich.gif
+http://opentorrent.ru/images/banner/vahu.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
