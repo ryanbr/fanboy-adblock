@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mirrorcreator.com/files/YXMD9LH5/
+
+
+[filters]
+http://as.mmngte.net/adi?s=292&w=728&h=90&click3rd=
+http://as.mmngte.net/adi?ul_cb=1&s=292&w=728&h=90&click3rd=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
