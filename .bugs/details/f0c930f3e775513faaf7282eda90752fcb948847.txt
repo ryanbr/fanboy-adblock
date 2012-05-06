@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://stopgame.ru/patches/new
+
+[filters]
+http://herwyq.net.ua/js/sdlkfjh4235.php?id=4007
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
