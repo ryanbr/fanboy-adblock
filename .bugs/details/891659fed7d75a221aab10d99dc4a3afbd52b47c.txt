@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://free-torrents.org/forum/viewforum.php?f=1541
+
+[filters]
+http://4mig.ru/js/3943.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
