@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.taringa.net/posts/musica/14660884/Musica-Electronica-es-VIDA.html
+
+[filters]
+http://ads.intextual.net/tags/347.js
+http://ads.intextual.net/static/js/intextual-min.gz.js
+
+
+
+[other]
+reported
+
+[comments]
+fanboy
