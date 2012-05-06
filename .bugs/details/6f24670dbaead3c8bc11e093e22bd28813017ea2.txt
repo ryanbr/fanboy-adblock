@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bigtorrent.org/tags/Windows/
+
+
+[filters]
+http://rikoli.org.ua/js/305.js
+http://znaniyasila.info/?user=tube0034.305
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
