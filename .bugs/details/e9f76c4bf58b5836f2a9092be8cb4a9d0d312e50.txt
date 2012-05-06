@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pinoytutorial.com/techtorial/samsung-sgh-i667-mandel-specs-and-leaked-release-for-new-windows-phone/
+
+[filters]
+http://en.sitebro.com/img/px.gif
+http://track.en.sitebro.com/track.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
