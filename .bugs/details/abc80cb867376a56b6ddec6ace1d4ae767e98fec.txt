@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+#http://www.rustorrents.org/
+
+[filters]
+http://applieda.com/53f/5/5511ad2c98c69/87/f
+http://applieda.com/wp-includes/js/jquery/jquery.js
+http://p.stayeda.com/s/132/66264.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
