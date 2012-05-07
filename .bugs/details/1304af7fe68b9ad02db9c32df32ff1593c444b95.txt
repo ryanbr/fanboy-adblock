@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.koreatimes.co.kr/www/news/nation/2012/05/367_108344.html
+
+
+[filters]
+http://ad.pickple.net/widget/show/?cid=korea&sid=type21&wid=316
+http://ts.2beon.co.kr/nad/media/0Ezo8FHUhX/AhJKaGZVnN_1.html
+http://ts.2beon.co.kr/nad/media/0Ezo8FHUhX/HI2RKyurhV_3.html
+http://ts.2beon.co.kr/nad/media/0Ezo8FHUhX/MPT1Ie2nLe_4.html
+http://ts.2beon.co.kr/nad/media/0Ezo8FHUhX/PGW1lmpcEQ_2.html
+http://ts.2beon.co.kr/nad/media/0Ezo8FHUhX/YMMG7DQsZ6_2.html
+http://ts.2beon.co.kr/nad/media/0Ezo8FHUhX/aSEGaRg37o_3.html
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
