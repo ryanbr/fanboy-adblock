@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thestir.cafemom.com/entertainment/137178/50_shades_of_grey_mothers
+
+
+[filters]
+http://t2.hulu.com/v3/potentialbugtracking/bigdropframes?a=1&annotationenabled=false&auth=&beaconevent=bigdropframes&bitrate=400&bufferlength=10093&cb=1336392085231_583&cdn=Akamai&client=PlugIn&computerguid=AA8D18B41BAFA65D0479EBABB35F2EFF&contentid=60069987&cpidentifier=Saturday%20Night%20Live&distro=hulu&distroplatform=embed&drop=5&embedurl=d41d8cd98f00b204e9800998ecf8427e&exid=4&flash=WIN%2011%2C2%2C202%2C235&language=en&maxbufferlength=60000&os=Windows%207&packageavailability=shared&packageid=1&pid=NO_MORE_RELEASES_PLEASE_60069987&planid=0&player=203504&playermode=embed&position=82787&promotion=&region=US&sessionguid=B9FEBF80F3DC95D2B74D448B7F433CD0&sitesessionid=&socialidentities=&states=&timepadding=148697&totalframes=2394&totalmemory=64847872&userbandwidth=834&userid=0&visit=2
+http://t2.hulu.com/v3/potentialbugtracking/bigdropframes?a=1&annotationenabled=false&auth=&beaconevent=bigdropframes&bitrate=400&bufferlength=11406&cb=1336392083918_231&cdn=Akamai&client=PlugIn&computerguid=AA8D18B41BAFA65D0479EBABB35F2EFF&contentid=60069987&cpidentifier=Saturday%20Night%20Live&distro=hulu&distroplatform=embed&drop=6&embedurl=d41d8cd98f00b204e9800998ecf8427e&exid=4&flash=WIN%2011%2C2%2C202%2C235&language=en&maxbufferlength=60000&os=Windows%207&packageavailability=shared&packageid=1&pid=NO_MORE_RELEASES_PLEASE_60069987&planid=0&player=203504&playermode=embed&position=81474&promotion=&region=US&sessionguid=B9FEBF80F3DC95D2B74D448B7F433CD0&sitesessionid=&socialidentities=&states=&timepadding=147383&totalframes=2362&totalmemory=64831488&userbandwidth=834&userid=0&visit=2
+http://t2.hulu.com/v3/potentialbugtracking/contentplaybackresume?a=1&annotationenabled=false&auth=&beaconevent=contentplaybackresume&bitrate=400&cb=1336392002203_895&client=PlugIn&computerguid=AA8D18B41BAFA65D0479EBABB35F2EFF&contentid=60069987&cpidentifier=Saturday%20Night%20Live&currentstate=CONTENT&distro=hulu&distroplatform=embed&embedurl=d41d8cd98f00b204e9800998ecf8427e&exid=4&flash=WIN%2011%2C2%2C202%2C235&language=en&os=Windows%207&packageavailability=shared&packageid=1&pendingstate=&pid=NO_MORE_RELEASES_PLEASE_60069987&planid=0&player=203504&playermode=embed&position=0&promotion=&region=US&sessionguid=B9FEBF80F3DC95D2B74D448B7F433CD0&sitesessionid=&socialidentities=&timepadding=65669&totalframes=404&totalmemory=68505600&userbandwidth=940&userid=0&visit=2
+http://t2.hulu.com/v3/potentialbugtracking/dropframes?a=1&annotationenabled=false&auth=&beaconevent=dropframes&bitrate=400&cb=1336392076902_595&client=PlugIn&computerguid=AA8D18B41BAFA65D0479EBABB35F2EFF&contentid=60069987&cpidentifier=Saturday%20Night%20Live&distro=hulu&distroplatform=embed&embedurl=d41d8cd98f00b204e9800998ecf8427e&exid=4&flash=WIN%2011%2C2%2C202%2C235&language=en&os=Windows%207&other=1&packageavailability=shared&packageid=1&pid=NO_MORE_RELEASES_PLEASE_60069987&planid=0&playbackduration=74448&player=203504&playermode=embed&position=74453&promotion=&region=US&resume=0&sessionguid=B9FEBF80F3DC95D2B74D448B7F433CD0&sitesessionid=&socialidentities=&timepadding=140368&total=1&totalframes=2194&totalmemory=64053248&userbandwidth=834&userid=0&visit=2
+http://t2.hulu.com/v3/recommendationTracking/tracking?computerguid=AA8D18B41BAFA65D0479EBABB35F2EFF&dstlist=358351_358344&eventtype=dstlistchange&location=embed-player-endcard&packageid=1&page=1&planid=0&recommendationtype=relatedvideo&sessionid=B9FEBF80F3DC95D2B74D448B7F433CD0&srcid=358341&timestamp=1336392101373&userid=0
+http://t2.hulu.com/v3/recommendationTracking/tracking?computerguid=AA8D18B41BAFA65D0479EBABB35F2EFF&eventtype=showup&location=embed-player-endcard&packageid=1&page=1&planid=0&recommendationtype=relatedvideo&sessionid=B9FEBF80F3DC95D2B74D448B7F433CD0&srcid=358341&timestamp=1336392101370&userid=0
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
