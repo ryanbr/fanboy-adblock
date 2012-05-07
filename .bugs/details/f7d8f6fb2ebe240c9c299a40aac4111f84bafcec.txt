@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bangkokpost.com/news/local/291334/yingluck-promises-better-welfares-on-labour-day
+
+
+[filters]
+http://www.bangkokpost.com/spac/spac.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
