@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://music.yahoo.com/programs/ram-country/the-ram-country-report-29191120.html
+
+
+[filters]
+http://music.yahoo.com/get-free-html/?id=pixel-tracking&s=791005064
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
