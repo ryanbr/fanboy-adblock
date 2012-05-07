@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cheezburger.com/6167918848
+
+
+[filters]
+http://insight.torbit.com/v1/insight.min.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
