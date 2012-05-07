@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hulu.com/playlist/313381#pli393831
+
+
+[filters]
+http://t2.hulu.com/v3/beavertest/sitetracking/pageload?computerguid=38F5A04FE89992A4A15333CA33BDEA55&userid=0&planid=0&sitesessionid=011DDD13551B0DF2E8B4B537428F825A&socialidentities=&os=Windows%206.1&client=Firefox%2014&pageurl=http%3A%2F%2Fwww.hulu.com%2Fplaylist%2F313381%23pli393831&referrerurl=&distro=Hulu&distroplatform=Hulu&cb=1336391315312
+http://t2.hulu.com/v3/sitetracking/pageload?computerguid=38F5A04FE89992A4A15333CA33BDEA55&userid=0&planid=0&sitesessionid=011DDD13551B0DF2E8B4B537428F825A&socialidentities=&os=Windows%206.1&client=Firefox%2014&pageurl=http%3A%2F%2Fwww.hulu.com%2Fplaylist%2F313381%23pli393831&referrerurl=&distro=Hulu&distroplatform=Hulu&cb=1336391315308
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
