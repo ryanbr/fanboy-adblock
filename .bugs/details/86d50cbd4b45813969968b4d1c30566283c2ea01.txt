@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://player.radio.com/player/YahooPlayer.php?version=1.2.10232&station=9239
+
+
+[filters]
+http://player.radio.com/player/javascript/tracking.js?v1.18
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
