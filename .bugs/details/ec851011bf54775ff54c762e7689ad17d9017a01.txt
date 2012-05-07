@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.microsoft.com/visualstudio/en-us/products/2010-editions/visual-cpp-express
+
+
+[filters]
+http://s.clicktale.net/WRb.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
