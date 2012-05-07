@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.osnews.com/permalink?517243
+
+
+[filters]
+http://img.revresponse.com//rsssub_emailicon.gif
+http://img.revresponse.com//rsssub_ne_999999.gif
+http://img.revresponse.com//rsssub_nw_999999.gif
+http://img.revresponse.com//rsssub_se_999999.gif
+http://img.revresponse.com//rsssub_sw_999999.gif
+http://img.revresponse.com/spacer.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
