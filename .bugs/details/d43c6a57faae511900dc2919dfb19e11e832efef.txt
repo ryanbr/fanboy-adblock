@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ynetnews.com/home/0,7340,L-3083,00.html
+
+
+[filters]
+http://clarityray.com/getConfig.axd?rand=16.2
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
