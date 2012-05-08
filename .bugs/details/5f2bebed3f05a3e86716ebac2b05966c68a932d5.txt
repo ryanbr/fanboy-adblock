@@ -1,0 +1,36 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.socaseiras.com.br/
+
+
+[filters]
+http://www.socaseiras.com.br/banners.php?secao=13
+http://www.socaseiras.com.br/banners.php?secao=14
+http://www.socaseiras.com.br/banners.php?secao=16&qnt=10
+http://www.socaseiras.com.br/banners.php?secao=2
+http://www.socaseiras.com.br/banners.php?secao=3
+http://www.socaseiras.com.br/banners.php?secao=4
+http://www.socaseiras.com.br/banners.php?secao=5
+http://www.socaseiras.com.br/banners.php?secao=6
+http://www.socaseiras.com.br/banners.php?secao=8
+http://www.socaseiras.com.br/arquivos/banners/cq_120x60.jpg
+http://www.socaseiras.com.br/arquivos/banners/np120x60.jpg
+http://www.socaseiras.com.br/arquivos/banners/orkut.jpg
+http://www.socaseiras.com.br/arquivos/banners/twitter.jpg
+http://www.socaseiras.com.br/banner_direita.html
+http://www.socaseiras.com.br/banner_topo.html
+http://depilflash.tv/FORCE/24/imagens/Extasy-Public.png
+http://www.putascaseiras.com/botao/botao120x60.jpg
+http://www.socaseiras.com.br/1.htm
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
