@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.netasdesalim.com/
+
+
+[filters]
+http://www.netosdesalim.info/netossexo.js
+http://www.netosdesalim.info/premium.js
+http://www.netasdesalim.com/js/netaspremium.js
+http://www.netasdesalim.com/js/netas2.js
+http://www.netasdesalim.com/js/netas.js
+http://www.mp3vicio.com/imagens/2yuasg6.gif
+http://www.mp3vicio.com/linksnetas.js
+http://www.netasdesalim.com/js/banners.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
