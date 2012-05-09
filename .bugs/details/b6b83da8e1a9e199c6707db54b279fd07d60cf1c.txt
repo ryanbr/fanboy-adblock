@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jeu-a-telecharger.com/multi_jeuxdecourse/?ptn=*&t2c=*
+
+
+[filters]
+http://ad.himediadx.com/seg?add=189158,188997,189000&t=1
+
+
+
+
+[other]
+adserver
+
+[comments]
+fanboy
