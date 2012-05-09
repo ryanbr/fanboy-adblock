@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blogtruyen.com/Truyen/good-ending
+
+
+[filters]
+http://ad.xdeal.vn/inslide/300x250/?utm_medium=Inside+Banner+300x250&utm_source=blogtruyen.com&utm_campaign=05052012
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
