@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.abc4.com/content/news/state/story/TSA-diabetes-salt-lake-insulin-savannah/Az-QjubuEUeXMX7LAbC1Xw.cspx
+
+
+[filters]
+http://widgets.seekitlocal.com/WebResource.axd?d=AWCnpHULNv8Dz7NHqQ3TYAL-u-pGXoeCp-14ATcxeXptFTxcHVy42P8TBhBnP5irZ0xEYvTLlwuQm0b278vSuNY9e-8QNR4JKJR89zV6XtN_Cj1zyc0JRQBpdZx8xORXbUN3r0zWd6Olnsh0wIrb6Eu5cUU1&t=634685405150000000
+http://widgets.seekitlocal.com/images/sil/email.gif
+http://widgets.seekitlocal.com/images/sil/featuring.png
+http://widgets.seekitlocal.com/images/sil/go_Button.gif
+http://widgets.seekitlocal.com/images/sil/website.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
