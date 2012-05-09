@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://khoahoc.com.vn
+
+
+[filters]
+http://khoahoc.com.vn/ad/cpmstar/style.css
+http://khoahoc.com.vn/ad/popup.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
