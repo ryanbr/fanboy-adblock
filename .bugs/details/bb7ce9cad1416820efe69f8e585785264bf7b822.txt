@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://arstechnica.com/business/2012/05/coolest-jobs-in-tech-from-the-pits-of-le-mans-to-the-dugouts-of-fenway-park/
+
+
+[filters]
+http://cdn.arstechnica.net/wp-content/uploads/2012/05/corvette-long-beach-4fa4146-intro-300x100.jpg
+http://ad.crwdcntrl.net/4/to=y%7Cp=1686%7Cout=json%7Cvar=ccauds
+http://cdn.arstechnica.net/wp-content/themes/arstechnica/assets/images/small-social-icons.png
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
