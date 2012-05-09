@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sbs.com.au/food/recipe/9222/Osso_bucco
+
+
+[filters]
+http://secure-au.imrworldwide.com/crossdomain.xml
+
+
+
+
+[other]
+Allow videos to play properly
+
+[comments]
+fanboy
