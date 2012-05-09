@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://honda-tech.com/index.php
+
+
+[filters]
+http://cdc.ibsrv.net/sponsors/honda-tech/KZNAuto/KNZ_HondaTech_215x30_041210.gif
+http://static.ibsrv.net/forums/autocomplete/214x30.jpg
+http://static.ibsrv.net/forums/autocomplete/brakespros_215x30.jpg
+http://static.ibsrv.net/hondatech/27243_215x30_Sale_IB.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
