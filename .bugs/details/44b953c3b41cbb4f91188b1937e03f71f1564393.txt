@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://xuongphim.com/movie/server-vn/iron-man-2-nguoi-sat-2/hanh-dong/m5205.html
+
+
+[filters]
+http://adsss.info/banner/chuchu/xuongphim_160x550.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
