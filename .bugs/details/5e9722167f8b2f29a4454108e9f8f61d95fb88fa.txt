@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://lauxanh.us/diendan/forumdisplay.php?f=*
+
+
+[filters]
+http://img.lauxanh.us/server/images/02343275319434032402.jpg
+http://img.lauxanh.us/server/images/42341654460494735955.gif
+http://img.lauxanh.us/server/images/62586180624878150739.jpg
+http://img.lauxanh.us/server/images/83eja29kbksrnfpv65d5.gif
+http://img.lauxanh.us/server/images/87269847931230554028.gif
+http://img.lauxanh.us/server5/images/50161223726726831656.gif
+http://img.lauxanh.us/server5/images/54378321987544699356.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
