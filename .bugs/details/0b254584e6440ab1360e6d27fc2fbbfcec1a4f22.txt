@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://watchseries.eu/new
+
+[filters]
+http://www.beead.co.uk/api/choixPubJS.htm?pid=49&screenLayer=1&mode=NONE&home=http://watchseries.eu/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
