@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rlslog.net/
+
+
+[filters]
+http://ukrre-tea.info/index.php?tp=e1909d7d62debace
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
