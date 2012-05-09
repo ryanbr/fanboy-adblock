@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vgunetwork.com/index.html/_/articles/feature-adblock-blocker-r38
+
+
+[filters]
+http://www.vgunetwork.com/public/js/3rd_party/adBlock/advertisement.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
