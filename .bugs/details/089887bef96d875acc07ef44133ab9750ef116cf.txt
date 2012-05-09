@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://webphunu.net/content/mac-ao-so-mi-2012-that-tre-that-dep
+
+
+[filters]
+http://cdn.liva.com.vn/cdn/webphunu.net/sites/default/files/banner%20lam%20dep-wpn1_0.swf
+http://cdn.liva.com.vn/cdn/webphunu.net/sites/default/files/banner-cansua3(340-240)4_1.swf
+http://cdn.liva.com.vn/cdn/webphunu.net/sites/default/files/banner-hh-wpn-hu1.swf
+http://cdn.liva.com.vn/cdn/webphunu.net/sites/default/files/banner-odbankin.swf
+http://cdn.liva.com.vn/cdn/webphunu.net/sites/default/files/banner-sach1_0.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
