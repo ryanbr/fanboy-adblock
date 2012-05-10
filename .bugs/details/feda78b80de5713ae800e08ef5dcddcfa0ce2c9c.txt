@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.realitytvworld.com/news/the-biggest-loser-sees-two-contestants-quit-and-eliminates-another-13382.php
+
+
+[filters]
+http://cdn.realitytvworld.com/images/facebookbadge.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
