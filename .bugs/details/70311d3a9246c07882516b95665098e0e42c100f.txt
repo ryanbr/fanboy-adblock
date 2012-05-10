@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.topix.com/forum/us/TDR30OVFA1J46J78U/p2#c35
+
+
+[filters]
+http://www.topix.com/ajax/krillion/us?num=2&speedbump=1&subaff=speedbump
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
