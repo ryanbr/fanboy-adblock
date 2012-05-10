@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.cnet.com/8301-1001_3-57431236-92/microsoft-bans-firefox-on-arm-based-windows-mozilla-says/
+
+
+[filters]
+http://dw.com.com/js/dw.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
