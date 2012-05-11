@@ -144,6 +144,9 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
     # Combine (Polish)
     ### echo "Combine: firefox-adblock-pol.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh
+    # Combine (Indian)
+    ### echo "Combine: firefox-adblock-ind.sh"
+    $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-ind.sh
     # Combine Regional trackers
     ### echo "Combine: firefox-adblock-intl-tracking.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
