@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://zailab.blogspot.com/#
+
+
+[filters]
+http://3.bp.blogspot.com/-sR72SM_Wets/TwHZG9y4hXI/AAAAAAAAFv8/0bP2R3Qkl8c/s400/rss-16x16.png
+http://4.bp.blogspot.com/-cC729VpBxrk/TwHZE71ZgoI/AAAAAAAAFvk/_UMyIgA8vj8/s400/gplus-16x16.png
+http://2.bp.blogspot.com/_nDNgmK8FIyI/TTPu1fD8gwI/AAAAAAAAASk/umOvdnb827E/way2blogging.org-twitterbirdsprite.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
