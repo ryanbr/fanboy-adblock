@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://xkcd.com/1025/
+
+[filters]
+http://imgs.xkcd.com/comics/tumblr.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
