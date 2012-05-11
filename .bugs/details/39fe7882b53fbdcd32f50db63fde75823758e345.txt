@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.cloudflare.com/cloudflare-tips-using-cloudflare-for-your-for
+
+
+[filters]
+http://www.cloudflare.com/images/icon/googleplus-32x32.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
