@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.canarias7.es/
+
+
+[filters]
+http://www.canarias7.es/i/temp/f_bateria1205.jpg
+http://www.canarias7.es/i/ico_delicious.gif
+http://www.canarias7.es/i/ico_digg.gif
+http://www.canarias7.es/i/ico_google.gif
+http://www.canarias7.es/i/ico_meneame.gif
+http://www.canarias7.es/i/ico_technorati.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
