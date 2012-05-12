@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vatgia.com/317/1363514/dell-xps-15z-intel-core-i7-2620m-2-7ghz-8gb-ram-750gb-hdd-vga-nvidia-geforce-gt-525m-15-6-inch-windows-7-home-premium-64-bit.html
+
+
+[filters]
+http://media.vatgia.vn/banners/fax1336726583.swf
+http://media.vatgia.vn/banners/hzq1332392308.jpg
+http://media.vatgia.vn/banners/nry1336637353.swf
+http://media.vatgia.vn/banners/ryt1336793823.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
