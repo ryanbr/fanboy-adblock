@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.fileplanet.com/2012/01/30/monday-mod-dead-island-wardrop/
+
+
+[filters]
+http://www.fileplanet.com/fileblog/sub-no-ad.shtml
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
