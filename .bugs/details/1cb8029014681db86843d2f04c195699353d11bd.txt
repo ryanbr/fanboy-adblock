@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sharebeast.com/mfrpxjom01l4
+
+
+[filters]
+http://meme.smhlmao.com/
+
+
+
+[other]
+play the stream, launches popup
+
+
+[comments]
+fanboy
