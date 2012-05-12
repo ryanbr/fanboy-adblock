@@ -40,7 +40,7 @@ cat $IRONDIR/adblock.ini $TESTDIR/urlfilter4.ini > $TESTDIR/adblock-rus.ini
 
 # Merge with tracking
 #
-cat $IRONDIR/complete/adblock.ini $TESTDIR/adblock-rus.ini > $TESTDIR/adblock-rus-stats.ini
+cat $IRONDIR/complete/adblock.ini $TESTDIR/urlfilter4.ini > $TESTDIR/adblock-rus-stats.ini
 
 # remove any blank lines
 #
