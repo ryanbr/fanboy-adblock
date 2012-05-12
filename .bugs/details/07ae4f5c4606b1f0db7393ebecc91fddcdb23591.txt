@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.truyen18.org/TheLoai/hentai.html
+
+[filters]
+http://www.vnnclub.com/bitly/mobiletruyen18.js
+http://yeuhentai.com/cache/728x90truyen18.swf
+http://yeuhentai.com/popup/pop-truyen18.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
