@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://anehsemua.blogspot.co.nz/2011/02/pelecehan-bus-trans-jakarta-tersangka.html
+
+
+[filters]
+http://www.gbotvisit.com/services/gblv/gblv.php?s=c8481b5ebcea798103cffc975e2206125e514437aa79
+http://www.quick-counter.net/aip.php?tp=sq&tz=Asia%2FJakarta
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
