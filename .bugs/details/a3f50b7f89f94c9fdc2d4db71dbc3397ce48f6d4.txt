@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://emedicine.medscape.com/article/1247426-overview
+
+[filters]
+http://emedicine.medscape.com/public/vptrack_iframe.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
