@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://arhiv-porno.com/russkoe-porno
+
+[filters]
+http://startede.com/js/7Xg1GkH000H.js?32626&6988&a=p.startede.com&startede.com
+http://startede.com/js/7Xg1GkH000H.js?32627&6988&a=p.startede.com&startede.com
+http://startede.com/js/7Xg1GkH000H.js?32634&6988&a=reg.startede.com&startede.com
+http://startede.com/js/7Xg1GkH000H.js?32635&6988&a=p.startede.com&startede.com
+http://startede.com/js/7Xg1GkH000H.js?32636&6988&a=nic.startede.com&startede.com
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
