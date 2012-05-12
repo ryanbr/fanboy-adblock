@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.narutoplanet.it/naruto-manga-download/
+
+[filters]
+http://ad.affiliazioni.me/popupit.js?u=11
+popup: http://www.pokerstars.it/sites/original-mirror/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
