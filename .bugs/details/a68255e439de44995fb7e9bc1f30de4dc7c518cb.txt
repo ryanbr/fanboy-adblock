@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cnettv.cnet.com/
+
+
+[filters]
+https://p.twitter.com/f.gif?_=1336828385703&id=twitter-widget-0&lang=en&screen_name=CNET&show_count=false&show_screen_name=true&size=m&original_redirect_referrer=http%3A%2F%2Fcnettv.cnet.com%2F&twttr_variant=2.0&twttr_referrer=http%3A%2F%2Fcnettv.cnet.com%2F&twttr_widget=1&twttr_hask=0&twttr_li=0&twttr_pid=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
