@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.webmd.com/skin-problems-and-treatments/candidiasis-yeast-infection
+
+
+[filters]
+http://www.webmd.com/modules/sponsor-box?id=091e9c5e80866d9e&pos=5000&FlightID=324422&AdID=569871&TargetID=50513&Values=60,72,85,93,150,204,207,210,229,241,826,1276,1962,2001,2966,3175,3187,3221,3432,3438,3443,6850,7093,7687,10380,14126,14129,14130,14144,16032,18257,18472,18566,18927,19638,20661,20774,21011,25639,26210,26513,26575,27680,28117,31912&Redirect=
+http://www.webmd.com/modules/sponsor-box?id=091e9c5e80a3a11e&pos=5001&FlightID=302185&AdID=617074&TargetID=86134&Values=60,72,85,93,150,204,207,210,229,241,826,1276,1962,2001,2966,3175,3187,3221,3432,3438,3443,6850,7093,7687,10380,14126,14129,14130,14144,16032,17608,18257,18566,18927,19638,20661,20774,21011,25639,26210,26513,26575,27680,28117,31912&Redirect=
+
+
+
+
+[other]
+fp:
+http://img.webmd.com/bi_common/bi_consumer.js?d=5/11/2012
+
+
+[comments]
+fanboy
