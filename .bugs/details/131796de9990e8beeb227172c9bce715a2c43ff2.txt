@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.papeleriadelasofertas.com/list.php
+
+
+[filters]
+http://www.papeleriadelasofertas.com/img/banners/13eab7b59d218debde719133d886e686.swf
+http://www.papeleriadelasofertas.com/img/banners/25127e0d220c74b276c34b44bf593233.jpg
+http://www.papeleriadelasofertas.com/img/banners/53386a3c988a325a6de3e86df5ac7e0e.jpg
+http://www.papeleriadelasofertas.com/img/banners/7af1a3bff7716b92c73032c9eb6f11d8.jpg
+http://www.papeleriadelasofertas.com/img/banners/dca6ba1ef0f92277ed962df386a279c5.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
