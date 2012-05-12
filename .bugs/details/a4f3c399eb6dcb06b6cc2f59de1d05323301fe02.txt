@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://divxhosted.com/video/vnw0vr717ixc
+
+
+[filters]
+http://affiliates.cupidplc.com/scripts/sb.php?a_aid=656ef373&a_bid=ac648a51
+http://www.edomz.net/popup.js
+http://www.edomz.net/popupads.php?username=hdvideohos&sid=344&open=2&cap=0&type=1&query=&keywords=&referrer=&location=http%3A//divxhosted.com/video/vnw0vr717ixc
+http://poponclick.com/click.php?selid=*&adsid=*&affid=*&signid=*&advid=*&targetUrl=*
+http://poponclick.com/click.php?selid=*&adsid=*&affid=*&signid=*&advid=*&targetUrl=*
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
