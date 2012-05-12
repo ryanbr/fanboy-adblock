@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.walmart.ca/en
+
+
+[filters]
+http://aka-cdn-ns.adtechus.com/apps/285/Ad0St3Sz4165Sq0V2Id21240093/POV_CampingMultiClickBuyNow_11052012_EN.jpg
+http://aka-cdn-ns.adtechus.com/apps/314/Ad0St3Sz4165Sq0V0Id21241658/WAL02-005_MotYA_746x303_EN.jpg
+http://aka-cdn-ns.adtechus.com/apps/361/Ad0St3Sz4165Sq0V0Id21216105/POV_CampingMultiClick_11052012_EN.jpg
+http://aka-cdn-ns.adtechus.com/apps/54/Ad0St3Sz4165Sq0V0Id21149750/2457_HB_OutdoorLivingCentre_EN.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
