@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cineplex.com/Movies/MovieDetails/The-Lucky-One.aspx?loc_cookie=*
+
+
+[filters]
+http://mediafiles.cineplex.com/Skins/TRESemme/tresemme_skin_bg.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
