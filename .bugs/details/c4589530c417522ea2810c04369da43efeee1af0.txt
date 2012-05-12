@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://yeuhentai.com/
+
+
+[filters]
+http://yeuhentai.com/code-js/ad.html
+http://yeuhentai.com/code-js/float-banner2.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
