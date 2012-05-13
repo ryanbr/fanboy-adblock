@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.technibble.com/how-to-fix-windows-registry-hive/
+
+
+[filters]
+http://www.technibble.com/admanager/images/style/output.css
+http://www.technibble.com/admanager/js.php?type=banner&align=center&zone=1
+http://www.technibble.com/admanager/js.php?type=banner&align=center&zone=3
+http://www.technibble.com/admanager/uploads/ozEYU9_FYadYP_CommitCRM4.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
