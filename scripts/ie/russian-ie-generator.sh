@@ -53,7 +53,7 @@ rm -rf $IEDIR/fanboy-russian-addon.txt
 # Generate .tpl IE list
 #
 # perl $IEDIR/maketpl.pl &> /dev/null
-python $IEDIR/combineSubscriptions.py
+python $IEDIR/combineSubscriptions.py $IEDIR $SUBS
 
 # Now remove filters that cause issues in IE (and false positives)
 #

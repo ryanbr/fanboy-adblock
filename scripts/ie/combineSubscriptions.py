@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# The contents of this file are subject to the Mozilla Public License
-# Version 1.1 (the "License"); you may not use this file except in
-# compliance with the License. You may obtain a copy of the License at
-# http://www.mozilla.org/MPL/
+# This Source Code is subject to the terms of the Mozilla Public License
+# version 2.0 (the "License"). You can obtain a copy of the License at
+# http://mozilla.org/MPL/2.0/.
 
 import sys, os, re, subprocess, urllib2, time, traceback, codecs, hashlib, base64
+from getopt import getopt, GetoptError
 
 acceptedExtensions = {
   '.txt': True,
@@ -21,31 +21,35 @@ verbatim = {
   'COPYING': True,
 }
 
-def combineSubscriptions(sourceDir, targetDir):
+def combineSubscriptions(sourceDirs, targetDir, timeout=30):
   global acceptedExtensions, ignore, verbatim
+
+  if isinstance(sourceDirs, basestring):
+    sourceDirs = {'': sourceDirs}
 
   if not os.path.exists(targetDir):
     os.makedirs(targetDir, 0755)
 
   known = {}
-  for file in os.listdir(sourceDir):
-    if file in ignore or file[0] == '.' or not os.path.isfile(os.path.join(sourceDir, file)):
-      continue
-    if file in verbatim:
-      processVerbatimFile(sourceDir, targetDir, file)
-    elif not os.path.splitext(file)[1] in acceptedExtensions:
-      continue
-    else:
-      try:
-        processSubscriptionFile(sourceDir, targetDir, file)
-      except:
-        print >>sys.stderr, 'Error processing subscription file "%s"' % file
-        traceback.print_exc()
-        print >>sys.stderr
+  for sourceName, sourceDir in sourceDirs.iteritems():
+    for file in os.listdir(sourceDir):
+      if file in ignore or file[0] == '.' or not os.path.isfile(os.path.join(sourceDir, file)):
+        continue
+      if file in verbatim:
+        processVerbatimFile(sourceDir, targetDir, file)
+      elif not os.path.splitext(file)[1] in acceptedExtensions:
+        continue
+      else:
+        try:
+          processSubscriptionFile(sourceName, sourceDirs, targetDir, file, timeout)
+        except:
+          print >>sys.stderr, 'Error processing subscription file "%s"' % file
+          traceback.print_exc()
+          print >>sys.stderr
+        known[os.path.splitext(file)[0] + '.tpl'] = True
+        known[os.path.splitext(file)[0] + '.tpl.gz'] = True
+      known[file] = True
       known[file + '.gz'] = True
-      known[os.path.splitext(file)[0] + '.tpl'] = True
-      known[os.path.splitext(file)[0] + '.tpl.gz'] = True
-    known[file] = True
 
   for file in os.listdir(targetDir):
     if file[0] == '.':
@@ -81,7 +85,8 @@ def processVerbatimFile(sourceDir, targetDir, file):
   conditionalWrite(os.path.join(targetDir, file), handle.read())
   handle.close()
 
-def processSubscriptionFile(sourceDir, targetDir, file):
+def processSubscriptionFile(sourceName, sourceDirs, targetDir, file, timeout):
+  sourceDir = sourceDirs[sourceName]
   filePath = os.path.join(sourceDir, file)
   handle = codecs.open(filePath, 'rb', encoding='utf-8')
   lines = map(lambda l: re.sub(r'[\r\n]', '', l), handle.readlines())
@@ -94,18 +99,18 @@ def processSubscriptionFile(sourceDir, targetDir, file):
   if not re.search(r'\[Adblock(?:\s*Plus\s*([\d\.]+)?)?\]', header, re.I):
     raise Exception('This is not a valid Adblock Plus subscription file.')
 
-  lines = resolveIncludes(filePath, lines)
+  lines = resolveIncludes(sourceName, sourceDirs, filePath, lines, timeout)
   lines = filter(lambda l: l != '' and not re.search(r'!\s*checksum[\s\-:]+([\w\+\/=]+)', l, re.I), lines)
 
   writeTPL(os.path.join(targetDir, os.path.splitext(file)[0] + '.tpl'), lines)
 
   checksum = hashlib.md5()
-  checksum.update((header + '\n' + '\n'.join(lines) + '\n').encode('utf-8'))
+  checksum.update((header + '\n' + '\n'.join(lines)).encode('utf-8'))
   lines.insert(0, '! Checksum: %s' % re.sub(r'=', '', base64.b64encode(checksum.digest())))
   lines.insert(0, header)
-  conditionalWrite(os.path.join(targetDir, file), '\n'.join(lines) + '\n')
+  conditionalWrite(os.path.join(targetDir, file), '\n'.join(lines))
 
-def resolveIncludes(filePath, lines, level=0):
+def resolveIncludes(sourceName, sourceDirs, filePath, lines, timeout, level=0):
   if level > 5:
     raise Exception('There are too many nested includes, which is probably the result of a circular reference somewhere.')
 
@@ -118,7 +123,17 @@ def resolveIncludes(filePath, lines, level=0):
       if re.match(r'^https?://', file):
         result.append('! *** Fetched from: %s ***' % file)
 
-        request = urllib2.urlopen(file, None, 2)
+        for i in range(3):
+          try:
+            request = urllib2.urlopen(file, None, timeout)
+            error = None
+            break
+          except urllib2.URLError, e:
+            error = e
+            time.sleep(5)
+        if error:
+          raise error
+
         charset = 'utf-8'
         contentType = request.headers.get('content-type', '')
         if contentType.find('charset=') >= 0:
@@ -126,10 +141,17 @@ def resolveIncludes(filePath, lines, level=0):
         newLines = unicode(request.read(), charset).split('\n')
         newLines = map(lambda l: re.sub(r'[\r\n]', '', l), newLines)
         newLines = filter(lambda l: not re.search(r'^\s*!.*?\bExpires\s*(?::|after)\s*(\d+)\s*(h)?', l, re.M | re.I), newLines)
+        newLines = filter(lambda l: not re.search(r'^\s*!\s*(Redirect|Homepage|Title)\s*:', l, re.M | re.I), newLines)
       else:
         result.append('! *** %s ***' % file)
 
-        parentDir = os.path.dirname(filePath)
+        includeSource = sourceName
+        if file.find(':') >= 0:
+          includeSource, file = file.split(':', 1)
+        if not includeSource in sourceDirs:
+          raise Exception('Cannot include file from repository "%s", this repository is unknown' % includeSource)
+
+        parentDir = sourceDirs[includeSource]
         includePath = os.path.join(parentDir, file)
         relPath = os.path.relpath(includePath, parentDir)
         if len(relPath) == 0 or relPath[0] == '.':
@@ -137,7 +159,7 @@ def resolveIncludes(filePath, lines, level=0):
 
         handle = codecs.open(includePath, 'rb', encoding='utf-8')
         newLines = map(lambda l: re.sub(r'[\r\n]', '', l), handle.readlines())
-        newLines = resolveIncludes(includePath, newLines, level + 1)
+        newLines = resolveIncludes(includeSource, sourceDirs, includePath, newLines, timeout, level + 1)
         handle.close()
 
       if len(newLines) and re.search(r'\[Adblock(?:\s*Plus\s*([\d\.]+)?)?\]', newLines[0], re.I):
@@ -165,7 +187,7 @@ def writeTPL(filePath, lines):
           interval = int(interval / 24)
         result.append(': Expires=%i' % interval)
       else:
-        result.append(re.sub(r'!', '#', re.sub(r'--!$', '--#', line))) 
+        result.append(re.sub(r'!', '#', re.sub(r'--!$', '--#', line)))
     elif line.find('#') >= 0:
       # Element hiding rules are not supported in MSIE, drop them
       pass
@@ -184,25 +206,41 @@ def writeTPL(filePath, lines):
       if match:
         # This rule has options, check whether any of them are important
         line = match.group(1)
-        for option in match.group(2).replace('_', '-').lower().split(','):
-          if (option == '' or option == 'third-party' or option == '~third-party' or option == 'match-case' or option == '~match-case'):
-            # Ignore third party, blank and match-case options
-            pass
-          elif option == 'script':
-			# Mark filters specifying a script
-            requiresScript = True
-          elif option == '~object-subrequest' and not isException or option == 'object-subrequest' and isException:
-            # Some object subrequest options are irrelevant and may be ignored
-            pass
-          elif option.startswith('domain=~') and isException:
-            # Ignore domain negation of whitelists
-            pass
-          elif option != 'object-subrequest' and option != 'donottrack' and not option.startswith('domain=') and isException:
-            # Ignore most options for exceptions to attempt to avoid false positives
-            pass
+        options = match.group(2).replace('_', '-').lower().split(',')
+
+        # Remove first-party only exceptions, we will allow an ad server everywhere otherwise
+        if isException and '~third-party' in options:
+          hasUnsupportedOptions = True
+
+        # A number of options are not supported in MSIE but can be safely ignored, remove them
+        options = filter(lambda o: not o in ('', 'third-party', '~third-party', 'match-case', '~match-case', '~other', '~donottrack'), options)
+
+        # Also ignore domain negation of whitelists
+        if isException:
+          options = filter(lambda o: not o.startswith('domain=~'), options)
+
+        unsupportedOptions = filter(lambda o: o in ('other', 'elemhide'), options)
+        if unsupportedOptions and len(unsupportedOptions) == len(options):
+          # The rule only applies to types that are not supported in MSIE
+          hasUnsupportedOptions = True
+        elif 'donottrack' in options:
+          # Do-Not-Track rules have to be removed even if $donottrack is combined with other options
+          hasUnsupportedOptions = True
+        elif 'script' in options and len(options) == len(unsupportedOptions) + 1:
+          # Mark rules that only apply to scripts for approximate conversion
+          requiresScript = True
+        elif len(options) > 0:
+          # The rule has further options that aren't available in TPLs. For
+          # exception rules that aren't specific to a domain we ignore all
+          # remaining options to avoid potential false positives. Other rules
+          # simply aren't included in the TPL file.
+          if isException:
+            hasUnsupportedOptions = any([o.startswith('domain=') for o in options])
           else:
             hasUnsupportedOptions = True
+
       if hasUnsupportedOptions:
+        # Do not include filters with unsupported options
         result.append('# ' + origLine)
       else:
         line = line.replace('^', '/') # Assume that separator placeholders mean slashes
@@ -219,6 +257,8 @@ def writeTPL(filePath, lines):
           line = re.sub(r'^\|', '', line)
         # Remove anchors at the rule end
         line = re.sub(r'\|$', '', line)
+        # Remove unnecessary asterisks at the ends of lines
+        line = re.sub(r'\*$', '', line)
         # Emulate $script by appending *.js to the rule
         if requiresScript:
           line += '*.js'
@@ -235,14 +275,38 @@ def writeTPL(filePath, lines):
           result.append('- ' + line)
   conditionalWrite(filePath, '\n'.join(result) + '\n')
 
+def usage():
+  print '''Usage: %s [source_dir] [output_dir]
+
+Options:
+  -h          --help              Print this message and exit
+  -t seconds  --timeout=seconds   Timeout when fetching remote subscriptions
+''' % os.path.basename(sys.argv[0])
+
 if __name__ == '__main__':
-  if len(sys.argv) >= 3:
-    sourceDir, targetDir = sys.argv[1], sys.argv[2]
-  else:
-    sourceDir, targetDir =  '.', 'subscriptions'
+  try:
+    opts, args = getopt(sys.argv[1:], 'ht:', ['help', 'timeout='])
+  except GetoptError, e:
+    print str(e)
+    usage()
+    sys.exit(2)
+
+  sourceDir, targetDir =  '.', 'subscriptions'
+  if len(args) >= 1:
+    sourceDir = args[0]
+  if len(args) >= 2:
+    targetDir = args[1]
+
+  timeout = 30
+  for option, value in opts:
+    if option in ('-h', '--help'):
+      usage()
+      sys.exit()
+    elif option in ('-t', '--timeout'):
+      timeout = int(value)
 
   if os.path.exists(os.path.join(sourceDir, '.hg')):
     # Our source is a Mercurial repository, try updating
     subprocess.Popen(['hg', '-R', sourceDir, 'pull', '--update']).communicate()
 
-  combineSubscriptions(sourceDir, targetDir)
+  combineSubscriptions(sourceDir, targetDir, timeout)
