@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://streamcloud.eu/k9sqd2f4hk65/Community.S01E01.Zurueck.aufs.College.GERMAN.WS.HDTVRip.XviD-TVP-stream-kinox.to.avi.html
+
+
+[filters]
+http://www.amarotic.com/?wmid=196&kamid=6663&wsid=stream_pop_Start_1klickmodal_AR
+
+
+
+[other]
+popup on play
+
+
+[comments]
+fanboy
