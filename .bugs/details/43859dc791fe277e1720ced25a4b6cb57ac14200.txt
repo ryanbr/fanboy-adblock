@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nikkei.com/money/investment/mandi.aspx?g=DGXZZO4120419009052012000000
+
+
+[filters]
+http://parts.nikkei.com/parts/ds/images/common/icon_hatena.gif
+http://parts.nikkei.com/parts/ds/images/common/icon_linkedin.png
+http://parts.nikkei.com/parts/ds/images/common/icon_mixi.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
