@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sondakika.com/haber-camurdan-evde-1-damat-2-gelin-3587063/
+
+
+[filters]
+http://www.sondakika.com/video-haber/adsense_news_politics.swf?url=&kapat=1
+
+
+
+[other]
+fp
+
+
+[comments]
+fanboy
