@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://laineygossip.com/Articles/Details/23499/John-Travolta-Kelly-Preston-masseur-scandal
+
+[filters]
+http://cdn.mediative.ca/a/mediative/muniversal_async.js
+http://cdn.mediative.ca/a/mediative/sites/laineygossip.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
