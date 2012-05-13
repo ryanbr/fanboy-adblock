@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.realitytvworld.com/news/exclusive-rachel-brown-and-dave-brown-talk-amazing-race-%28pt1%29--13444.php
+
+[filters]
+http://cdn.realitytvworld.com/includes/rtvw-jscript.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
