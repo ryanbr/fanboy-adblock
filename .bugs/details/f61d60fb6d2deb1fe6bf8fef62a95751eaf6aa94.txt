@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://lol.inven.co.kr/
+
+[filters]
+http://adcdn.247realmedia.co.kr/adimg/CDN/2012-05/itemmania_120504_banner_inven/300_70_0502_2.swf
+http://ads.inven.co.kr/ad/201204/0427_kritika_248x88_1.swf?clickthru=http://ad.inven.co.kr/NetInsight/click/inven/all/main@248x88?cmpnno%3d1424%26adsno%3d5%26ctvno%3d7844%26locno%3d201%26clkno%3d7563%26&cntRoll=14
+http://ads.inven.co.kr/ad/201205/0503_dia3_300_300_01.swf?clickthru=http://ad.inven.co.kr/NetInsight/click/inven/all/main@300x300?cmpnno%3d1433%26adsno%3d1%26ctvno%3d7889%26locno%3d206%26clkno%3d7605%26&cntRoll=7
+http://ads.inven.co.kr/ad/201205/0503_item_300_70L_1.swf?clickthru=http://ad.inven.co.kr/NetInsight/click/inven/all/main@300x70L?cmpnno%3d1432%26adsno%3d6%26ctvno%3d7879%26locno%3d202%26clkno%3d7602%26&cntRoll=n
+http://ads.inven.co.kr/ad/201205/0503_zb_120_180_1.swf?clickthru=http://ad.inven.co.kr/NetInsight/click/inven/all/main@120x180?cmpnno%3d1421%26adsno%3d4%26ctvno%3d7822%26locno%3d200%26clkno%3d7541%26&cntRoll=28
+http://ads.inven.co.kr/ad/201205/0504_logitech_300x300_1.swf?clickthru=http://ad.inven.co.kr/NetInsight/click/inven/all/main@300x300?cmpnno%3d1434%26adsno%3d1%26ctvno%3d7893%26locno%3d206%26clkno%3d7612%26&cntRoll=7
+http://ads.inven.co.kr/ad/201205/0504_logitech_300x70R_1.swf?clickthru=http://ad.inven.co.kr/NetInsight/click/inven/all/main@300x70R?cmpnno%3d1434%26adsno%3d7%26ctvno%3d7895%26locno%3d203%26clkno%3d7614%26&cntRoll=n
+http://ads.inven.co.kr/ad/201205/0511_rohan_548x88_1.swf?clickthru=http://ad.inven.co.kr/NetInsight/click/inven/all/main@538x88?cmpnno%3d1401%26adsno%3d4%26ctvno%3d7695%26locno%3d204%26clkno%3d7414%26&cntRoll=16
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
