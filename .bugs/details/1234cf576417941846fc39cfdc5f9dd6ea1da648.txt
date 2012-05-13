@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.livedoor.jp/dqnplus/archives/1710896.html
+
+
+[filters]
+http://pics.dmm.com/af/dmmad/adsite/dqnplus/150_600.jpg
+http://pics.dmm.com/af/dmmad/adsite/dqnplus/160_160.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
