@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.torrentbit.net/torrent/1777589/Kevin+Devine+-+Put+Your+Ghost+To+Rest+2006/
+
+
+[filters]
+http://bubblesmedia.ru/invoke.php?id=385&subid=0
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
