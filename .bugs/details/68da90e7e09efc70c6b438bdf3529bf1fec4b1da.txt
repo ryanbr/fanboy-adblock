@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hdsikisizle.info/pornoizle/hamile-ogretmenle-okulda-sikis.html
+
+
+[filters]
+http://www.geceshop.com/?ref=hd
+http://www.geceshop.com/hd.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
