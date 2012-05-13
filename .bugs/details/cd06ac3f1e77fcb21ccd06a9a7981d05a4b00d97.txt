@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thepiratebay.se.proxy.piratenpartij.nl/search/lost/0/99/0
+
+
+[filters]
+http://cdn1.clkads.com.proxy.piratenpartij.nl/banners/script/bnrcore_1.0.6.js
+http://clkads.com.proxy.piratenpartij.nl/banners/img-banner.html?tid=BAYBANNER120X600_1&num=1&w=120&h=600&orig_url=http%3A//thepiratebay.se.proxy.piratenpartij.nl/search/lost/0/99/0&ref_url=http%3A//thepiratebay.se.proxy.piratenpartij.nl/
+http://clkads.com.proxy.piratenpartij.nl/banners/img-banner.html?tid=BAYBANNER160X600_1&num=1&w=160&h=600&orig_url=http%3A//thepiratebay.se.proxy.piratenpartij.nl/search/lost/0/99/0&ref_url=http%3A//thepiratebay.se.proxy.piratenpartij.nl/
+http://clkads.com.proxy.piratenpartij.nl/banners/img-banner.html?tid=BAYBANNER468X60_1&num=1&w=468&h=60&orig_url=http%3A//thepiratebay.se.proxy.piratenpartij.nl/search/lost/0/99/0&ref_url=http%3A//thepiratebay.se.proxy.piratenpartij.nl/
+http://clkads.com.proxy.piratenpartij.nl/banners/img-banner.html?tid=BAYBANNER728X90_1&num=1&w=728&h=90&orig_url=http%3A//thepiratebay.se.proxy.piratenpartij.nl/search/lost/0/99/0&ref_url=http%3A//thepiratebay.se.proxy.piratenpartij.nl/
+http://clkads.com.proxy.piratenpartij.nl/banners/script/include_img_banner.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
