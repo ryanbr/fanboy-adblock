@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.2chan.net/
+
+
+[filters]
+http://gyutto.jp/data/banner_img/101.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
