@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rdmag.com/News/2012/05/Life-Sciences-Scientists-Invent-Superbug-Killers/
+
+
+[filters]
+http://pages.mail.advantagebusinessmedia.com/RD-Modal-Window-Subscription/
+http://pages.mail.advantagebusinessmedia.com/Script/HttpRequest.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
