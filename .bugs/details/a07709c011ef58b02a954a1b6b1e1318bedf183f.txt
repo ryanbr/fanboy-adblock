@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.watertowndailytimes.com/article/20120513/NEWS03/705139799
+
+
+[filters]
+http://www.watertowndailytimes.com/images/navicon_ap.gif
+http://www.watertowndailytimes.com/images/navicon_facebook.gif
+http://www.watertowndailytimes.com/images/navicon_feeds.gif
+http://www.watertowndailytimes.com/images/navicon_twitter.gif
+http://www.watertowndailytimes.com/images/navicon_youtube.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
