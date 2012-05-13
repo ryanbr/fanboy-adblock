@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://support.sas.com/kb/42/548.html
+
+
+[filters]
+http://collect.sas.com/sastag/SASTag.gif?CS=UTF-8$VER=2.2$EVT=load$CID=SAS_SUPPORT$VID=13369069035501836137752073624$PID=$LID=47822$URI=http://support.sas.com/kb/42/548.html$REF=http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=12440$TTL=42548%20-%20SAS%C2%AE%20Deployment%20Registry%20incorrectly%20updated%20by%20invalid%20hot%20fix%20installation%20attempts$PROT=http$DOM=support.sas.com$PORT=$PLAT=Win64$SINFO=1920x1080@24$FL=1$FLV=11.2%20r202$CK=1$JV=1$JVV=1.7.0_03$JS=1$DT=5/13/2012$TM=23:1:44.841$M_Content-Type=text/html;%20charset=utf-8$M_description=Attempts%20to%20apply%20a%20hot%20fix%20for%20a%20software%20component%20release%20that%20is%20not%20installed%20in%20&lt;SASHOME&gt;%20and%20that%20does%20not%20appear%20in%20the%20SAS%20Deployment%20Registry%20will%20result%20in%20the%20addition%20of%20that%20software%20component%20release%20to%20the%20SAS%20Deployment%20Registr$M_contenttype=Problem%20Note$M_priority=high$M_creationdate=2011-02-28$M_date=2011-03-01$M_product=%27not%20product%20specific%27$M_startsystem=9.2%20TS2M3$M_fixedsystem=$M_releasesystem=9.2.3,9.3,9.3.9$M_keywords=9.2.3,9.3,9.3.9$M_host=OS,W64,W6D,W6E,W6P,WX6,W3D,W3E,W3S,WX3,WN3,WXH,WXP,WN75,WN76,WN71,WN72,WN73,WN74,WN77,WN78,WVS,WVX,AR64,HP64,SL64,HPU8,HP6I,LINX,LINA,LINI,IVMS,SLX6,AOSF$M_hostfamily=MF,PC,UX$M_release=$M_startrelease=$M_fixed=$M_offering=not%20product%20specific$M_offfamily=BASE$C_SDD_cookie=1074113941.20480.0000$RND=0.4759403921904135
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
