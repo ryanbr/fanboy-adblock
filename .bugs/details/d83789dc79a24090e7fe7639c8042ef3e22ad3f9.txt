@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hce.edu.vn/hsv/showthread.php?32959-Nh%E1%BB%9D-m%E1%BA%A5y-b%E1%BA%A1n-m%C3%ACnh-d%C3%B9m-phim-The-Spheriks-...chi%E1%BA%BFu-%E1%BB%9F-vtv3-l%C3%A2u-l%E1%BA%AFm-ro%C3%A0i&s=e56edd0f32f084a99b980766a5a2158e
+
+
+[filters]
+http://www.careerlink.vn/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
