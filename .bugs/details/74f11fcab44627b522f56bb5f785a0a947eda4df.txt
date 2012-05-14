@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.imagesnake.com/show/3730/1.jp
+
+
+[filters]
+http://www.imgcarry.com/ad.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
