@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.imgcarry.com/show/2475/3.jpg..
+
+
+[filters]
+http://www.imgcarry.com/includes/js/pop.js
+http://www.imgcarry.com/includes/js/pops.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
