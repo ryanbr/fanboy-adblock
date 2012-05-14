@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.freebunker.com/show/36979/1.jpg
+
+
+[filters]
+http://www.pornbus.org/ad.html
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
