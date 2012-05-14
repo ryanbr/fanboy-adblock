@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://onlinelibrary.wiley.com/doi/10.1111/j.1360-0443.2012.03941.x/abstract;jsessionid=C7AF19CB9FB992BAA7B495408BFFE9C7.d02t04
+
+
+[filters]
+http://onlinelibrarystatic.wiley.com/js/wol.siteCatalyst.js
+http://onlinelibrarystatic.wiley.com/js/wol.siteCatalystTL.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
