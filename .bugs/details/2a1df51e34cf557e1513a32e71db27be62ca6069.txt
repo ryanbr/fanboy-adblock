@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.edweek.org/ew/articles/2012/05/09/30leaders.h31.html
+
+
+[filters]
+http://www.edweek.org/js/sc.js?v=132
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
