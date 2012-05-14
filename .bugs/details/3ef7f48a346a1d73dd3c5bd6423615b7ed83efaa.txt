@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://parentables.howstuffworks.com/take-charge/dear-mom-you-were-right-about-everything.html
+
+
+[filters]
+http://parentables.howstuffworks.com/static/images/social_media/buzz-static.png
+http://parentables.howstuffworks.com/static/images/social_media/digg-static.png
+http://parentables.howstuffworks.com/static/images/social_media/fb-share-static.png
+http://parentables.howstuffworks.com/static/images/social_media/reddit-static.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
