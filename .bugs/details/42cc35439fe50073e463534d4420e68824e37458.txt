@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.howtolearn.com/2012/05/have-a-happy-mothers-day2013
+
+
+[filters]
+http://as.vs4family.com/ERA/era_rl.aspx?elid=ERA_AD_BLOCK1&eradomain=as.vs4family.com&pubid=howtolearn&blockid=standard
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
