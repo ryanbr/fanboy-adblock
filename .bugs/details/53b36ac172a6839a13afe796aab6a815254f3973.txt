@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.barnesandnoble.com/w/fifty-shades-of-grey-e-l-james/1104280977?ean=9780345803481#
+
+
+[filters]
+http://img3.imagesbn.com/resources?cb=1.26.13&r=/js-min/core/lang/dom.js&r=/js-min/core/lang/obj.js&r=/js-min/core/lang/string.js&r=/js-min/core/analytics/model/analytics-model.js&r=|y|history-base/history-base-min.js&r=|y|querystring-stringify/querystring-stringify-min.js&r=/js-min/core/analytics/analytics.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
