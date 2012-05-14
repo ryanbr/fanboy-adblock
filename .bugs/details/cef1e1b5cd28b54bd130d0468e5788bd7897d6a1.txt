@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tech.sc/lg-eclipse-leaked-ready-to-compete-against-samsung-galaxy-s3/
+
+[filters]
+http://www.tech.sc/wp-content/plugins/upprev/scripts/upprev.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
