@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://browse.geekbench.ca/geekbench2/664125
+
+
+[filters]
+http://browse.geekbench.ca/visit/log.js?c=geekbench2&r=664125&f=http://www.engadget.com/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
