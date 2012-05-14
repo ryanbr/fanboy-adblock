@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pubrecord.org/torture/10335/obama-withdrew-bradbury-torture-memos/
+
+
+[filters]
+http://www.pubrecord.org/wordpress/wp-content/themes/Wp-Adv-Newspaper/sociables/digg.png
+http://www.pubrecord.org/wordpress/wp-content/themes/Wp-Adv-Newspaper/sociables/newsvine.png
+http://www.pubrecord.org/wordpress/wp-content/themes/Wp-Adv-Newspaper/sociables/reddit.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
