@@ -1,0 +1,32 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://screencity.pl/show/go6fb2f2d95a93a993ac3eda631a0952c8.html
+
+
+[filters]
+http://lucidsponge.pl/pop_1raz.js
+http://www.screencity.pl/images/bookmarkcraze_Digg_it.png
+http://www.screencity.pl/images/bookmarkcraze_Facebook.png
+http://www.screencity.pl/images/bookmarkcraze_GiveALink.png
+http://www.screencity.pl/images/bookmarkcraze_Gmail.png
+http://www.screencity.pl/images/bookmarkcraze_Google.png
+http://www.screencity.pl/images/bookmarkcraze_Linked_in.png
+http://www.screencity.pl/images/bookmarkcraze_MySpace.png
+http://www.screencity.pl/images/bookmarkcraze_Reddit.png
+http://www.screencity.pl/images/bookmarkcraze_Spurl.png
+http://www.screencity.pl/images/bookmarkcraze_Technorati.png
+http://www.screencity.pl/images/bookmarkcraze_Twine.png
+http://www.screencity.pl/images/bookmarkcraze_Twitter.png
+http://www.screencity.pl/images/bookmarkcraze_Windoes_Live.png
+http://www.screencity.pl/images/bookmarkcraze_Yahoo_My_Web.png
+http://www.screencity.pl/images/bookmarkcraze_del.icio.us.png
+http://screencity.pl/js/url2page.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
