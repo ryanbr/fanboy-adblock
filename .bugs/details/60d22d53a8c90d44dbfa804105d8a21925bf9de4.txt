@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.showmelocal.com/profile.aspx?bid=1762521
+
+
+[filters]
+http://maps-static.chitika.net/chitikamaps.js
+http://maps.chitika.net/tilecache/osm/11/599/768.png
+http://maps.chitika.net/tilecache/osm/11/599/769.png
+http://maps.chitika.net/tilecache/osm/11/599/770.png
+http://maps.chitika.net/tilecache/osm/11/599/771.png
+http://maps.chitika.net/tilecache/osm/11/600/768.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
