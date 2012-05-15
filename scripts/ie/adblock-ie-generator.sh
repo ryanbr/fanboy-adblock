@@ -71,6 +71,7 @@ sed -i '/+d skimlinks.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl
 sed -i '/+d ad-emea.doubleclick.net/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d ad.au.doubleclick.net/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d spotxchange.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
+sed -i '/adf.ly/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d ad-emea.doubleclick.net/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d g.doubleclick.net/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d pagead2.googlesyndication.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
