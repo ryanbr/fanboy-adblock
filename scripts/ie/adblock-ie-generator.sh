@@ -57,26 +57,21 @@ python $IEDIR/combineSubscriptions.py $IEDIR $SUBS
 
 # Now remove filters that cause issues in IE (and false positives)
 #
+sed -i '10,20000{/\#/d}' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
+sed -i '10,20000{/#/d}' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d atdmt.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d doubleclick.net/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d 247realmedia.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d googlesyndication.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d scorecardresearch.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
-sed -i '/# \//d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
-sed -i '/# |/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
-sed -i '/# \./d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d oascentral.thechronicleherald.ca/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d au.adserver.yahoo.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d adserver.yahoo.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d skimlinks.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
-sed -i '/# @@/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
-sed -i '/# :/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
-sed -i '/# log.$script/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d ad-emea.doubleclick.net/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d ad.au.doubleclick.net/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d spotxchange.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d ad-emea.doubleclick.net/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
-sed -i '/# ||/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d g.doubleclick.net/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d pagead2.googlesyndication.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d partner.googleadservices.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
@@ -86,6 +81,7 @@ sed -i '/+d ad.doubleclick.net/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-i
 sed -i '/+d zedo.com/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 # http://hg.fanboy.co.nz/rev/5760d7c3afb3
 sed -i '/&adsType=/d' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
+
 
 # Remove old gz file
 #

@@ -61,12 +61,8 @@ python $IEDIR/combineSubscriptions.py $IEDIR $SUBS
 
 # Now remove filters that cause issues in IE (and false positives)
 #
-sed -i '/# elnuevodiario.com/d' $SUBS/fanboy-espanol.tpl
-sed -i '/# ondacero.es/d' $SUBS/fanboy-espanol.tpl
-sed -i '/# uol.com.br/d' $SUBS/fanboy-espanol.tpl
-sed -i '/# ||/d' $SUBS/fanboy-espanol.tpl
-sed -i '/# @@/d' $SUBS/fanboy-espanol.tpl
-sed -i '/# .imageshack.us/d' $SUBS/fanboy-espanol.tpl
+sed -i '9,20000{/\#/d}' $SUBS/fanboy-espanol.tpl
+sed -i '9,20000{/#/d}' $SUBS/fanboy-espanol.tpl
 
 # Remove last line of file
 #

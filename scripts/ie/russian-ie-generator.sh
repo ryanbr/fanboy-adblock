@@ -57,15 +57,14 @@ python $IEDIR/combineSubscriptions.py $IEDIR $SUBS
 
 # Now remove filters that cause issues in IE (and false positives)
 #
+sed -i '9,20000{/\#/d}' $SUBS/fanboy-russian.tpl
+sed -i '9,20000{/#/d}' $SUBS/fanboy-russian.tpl
 sed -i '/+d b.dclick.ru/d' $SUBS/fanboy-russian.tpl
 sed -i '/+d redtram.com/d' $SUBS/fanboy-russian.tpl
 sed -i '/+d advert.kp.ru/d' $SUBS/fanboy-russian.tpl
 sed -i '/+d echo.msk.ru/d' $SUBS/fanboy-russian.tpl
 sed -i '/+d ad.adriver.ru/d' $SUBS/fanboy-russian.tpl
-sed -i '/# ||/d' $SUBS/fanboy-russian.tpl
-sed -i '/# @@/d' $SUBS/fanboy-russian.tpl
 sed -i '/Firefox 3.x/d' $SUBS/fanboy-russian.tpl
-sed -i '/# :\/\//d' $SUBS/fanboy-russian.tpl
 
 # Remove old gz file
 #

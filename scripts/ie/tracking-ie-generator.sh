@@ -54,21 +54,17 @@ python $IEDIR/combineSubscriptions.py $IEDIR $SUBS
 
 # Now remove filters that cause issues in IE (and false positives)
 #
+sed -i '9,20000{/\#/d}' $SUBS/fanboy-tracking.tpl
+sed -i '9,20000{/#/d}' $SUBS/fanboy-tracking.tpl
+
 sed -i '/Do-Not-Track/d' $SUBS/fanboy-tracking.tpl
-sed -i '/#  /d' $SUBS/fanboy-tracking.tpl
 sed -i '/donottrack/d' $SUBS/fanboy-tracking.tpl
-sed -i '/# http/d' $SUBS/fanboy-tracking.tpl
 sed -i '/-d nbcudigitaladops.com/d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d dhl./d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d server-au.imrworldwide.com/d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d secure-us.imrworldwide.com/d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d revsci.net/d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d js.revsci.net/d' $SUBS/fanboy-tracking.tpl
-sed -i '/# :/d' $SUBS/fanboy-tracking.tpl
-sed -i '/# \./d' $SUBS/fanboy-tracking.tpl
-sed -i '/# \//d' $SUBS/fanboy-tracking.tpl
-sed -i '/# \@/d' $SUBS/fanboy-tracking.tpl
-sed -i '/# ||/d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d easy.box/d' $SUBS/fanboy-tracking.tpl
 sed -i '/- \/quant.js/d' $SUBS/fanboy-tracking.tpl
 
