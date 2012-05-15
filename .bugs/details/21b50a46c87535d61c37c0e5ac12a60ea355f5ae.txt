@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tempe12.com/galleries/993-Samantha+king+relaxes+after+a+long+day+of+working+on+her+Health+Degree
+
+
+[filters]
+http://www.google-analytics.com/ga.js
+http://www.googletagservices.com/tag/js/gpt.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
