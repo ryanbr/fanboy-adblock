@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mailinator.com/displayemail1.jsp?email=codeyear&msgid=12340204
+
+
+[filters]
+http://link.codeyear.com/img/4f08ca0562047742c954ca1bgz2s.4caw/b322a942.gif
+
+
+[other]
+CodeYear newsletter tracker
+
+
+[comments]
+nitrox
