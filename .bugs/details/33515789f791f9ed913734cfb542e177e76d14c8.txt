@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.codecademy.com/tracks/4f4bdd96848740000300026a
+
+[filters]
+http://d47xnnr8b1rki.cloudfront.net/api/js/v2/segmentio.js
+http://track.segment.io/v1/track
+http://track.segment.io/v1/identify
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
