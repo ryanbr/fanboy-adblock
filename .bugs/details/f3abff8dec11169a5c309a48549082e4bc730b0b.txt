@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tinyurl.com/
+
+
+[filters]
+http://tinyurl.com/firefox_banner_4.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
