@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tudou.com/
+
+
+[filters]
+http://at-img1.tdimg.com/sales/material/2012/0109/1326076158232.swf
+http://at-img1.tdimg.com/sales/material/2012/0503/1336043342854.jpg
+http://at-img1.tdimg.com/sales/material/2012/0504/1336099309686.gif
+http://at-img2.tdimg.com/sales/material/2012/0511/1336715805826.swf
+http://at-img2.tdimg.com/sales/material/2012/0515/1337080054045.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
