@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mantapweb.blogspot.com/2011/05/jawaban-it-essentials-i-final-exam-11.html
+
+
+[filters]
+http://p4r46h-blog.googlecode.com/files/twitterfloat.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
