@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blogs.estadao.com.br/radar-politico/2012/05/15/desembargador-pede-vista-e-decisao-sobre-habeas-corpus-de-cachoeira-e-suspensa/
+
+
+[filters]
+http://blogs.estadao.com.br/radar-politico/wp-content/themes/blog-politica-fb-comments/images/icon_orkut.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
