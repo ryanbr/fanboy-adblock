@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nationaljournal.com/features/restoration-calls/too-hot-for-ted-income-inequality-20120516
+
+
+[filters]
+http://nationaljournal.com/js/njg.js?8312493246
+
+
+[other]
+ad popup while the site loads on the background
+
+
+[comments]
+nitrox
