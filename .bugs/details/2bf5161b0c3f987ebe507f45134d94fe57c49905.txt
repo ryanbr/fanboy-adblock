@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.datasheetarchive.com/Broadcom%20BCM6358-datasheet.html
+
+
+[filters]
+http://www.findchips.com/findchips/js/jquery-1.5.min.js
+http://www.supplyframe.com/partner/2/ipo950/
+http://www.supplyframe.com/partner/DA/search/Broadcom%20BCM6358
+http://www.supplyframe.com/partsearchservlet/partnerSearch.action?partnerName=DSA&search=Broadcom%20BCM6358
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
