@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.military.com/Entertainment/
+
+
+[filters]
+http://images.military.com/entertainment/ent_fd_adtop.gif
+http://images.military.com/entertainment/ent_fd_adbg2.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
