@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.srware.net/forum/viewtopic.php?f=18&t=3661&sid=190446c205de3c91ba96fe4ab9e4d73f
+
+
+[filters]
+http://werbemittel.adshot.de/lp/deliver.php?userid=5792&showlayer=1&subCategory=srware_forum
+http://werbemittel.adshot.de/lp/layer.php?code=NTc5Mnx8MTMzNzE3ODEzMHx8fHxzcndhcmVfZm9ydW0=
+http://www.adshot.de/click/random.php?id=32&v=1&s=MTMzNzE3ODEzMw==
+http://www.adshot.de/click/random.php?s=MTMzNzE3ODEzMw==&id=32&
+http://www.adshot.de/click/random/fc_fehler
+http://www.adshot.de/forward.php?url=http%3A%2F%2Fwww.adshot.de%2Fclick%2Frandom%2Ffc_fehler
+http://www.adshot.de/images/layer-4.0/bg-black.png
+http://www.adshot.de/images/layer-4.0/button-close.gif
+http://www.adshot.de/images/layer-4.0/button-favoriten.gif
+http://www.adshot.de/images/layer-4.0/button-open.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
