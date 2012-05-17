@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+publicknowledge.org newsletters
+
+
+[filters]
+http://img.constantcontact.com/letters/images/CC_Footer_Logo_New.png
+http://img.constantcontact.com/letters/images/SafeUnsubscribe_Footer_Logo_New.png
+https://imgssl.constantcontact.com/ui/images1/ic_twit_16.png
+http://ih.constantcontact.com/fs036/1109470950924/img/1.png
+http://r20.rs6.net/on.jsp?t=1110008365664.0.1109470950924.18742&ts=S0764&o=http://ui.constantcontact.com/images/p1x1.gif
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=12500
+
+
+[comments]
+nitrox
