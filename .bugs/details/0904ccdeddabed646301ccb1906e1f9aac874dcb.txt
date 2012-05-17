@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.buzzfeed.com/dorsey/how-to-fix-mitt-romneys-laugh
+
+
+[filters]
+http://videos.nymag.com/decor/javascript/magnify_stats.js?v1.3
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
