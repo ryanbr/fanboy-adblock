@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.24porn7.com/
+
+
+[filters]
+http://www.24porn7.com/float/float_adplib.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
