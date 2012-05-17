@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://download.cnet.com/8301-2007_4-57435916-12/firefox-gets-a-reset-button/
+
+
+[filters]
+http://dw.com.com/js/dw.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
