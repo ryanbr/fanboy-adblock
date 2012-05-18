@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.youtube.com
+
+
+[filters]
+http://s0.2mdn.net/instream/flash/v3/adsapi_3.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
