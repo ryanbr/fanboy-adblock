@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dumpert.nl/mediabase/2138831/f6bdc518/geniale_bear_grylls_spoof.html
+
+
+[filters]
+http://admatcher.videostrip.com/crossdomain.xml
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
