@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.barnesandnoble.com/w/fifty-shades-of-grey-e-l-james/1104280977?ean=9780345803481#
+
+
+[filters]
+http://img3.imagesbn.com/resources?cb=1.26.17&r=/js-min/core/analytics/coremetrics-helper.js&r=/js-min/widgets/shared/tooltip.js&r=/js-min/widgets/account/signin/signin-actions.js&r=/js-min/widgets/shared/fade-to-more.js&r=|y|event-simulate/event-simulate-min.js&r=|y|node-event-simulate/node-event-simulate-min.js&r=/js-min/core/analytics/buffer/delayed.js&r=/js-min/core/analytics/buffer/interval.js&r=/js-min/core/analytics/provider/internaltracking-provider.js&r=/js-min/core/analytics/visualization-tool.js&r=/js-min/core/utility/JSONUtil.js&r=/js-min/widgets/shared/form/render-errors.js&r=/js-min/widgets/shared/util/form.js&r=/js-min/widgets/shared/ajax/form.js&r=/js-min/widgets/shared/add-to-list.js&r=/js-min/vendor/yui-gallery/gallery-scroll-nav/gallery-scroll-nav.js&r=/js-min/widgets/reviews/review-form.js&r=|y|querystring-parse/querystring-parse-min.js&r=|y|querystring-parse-simple/querystring-parse-simple-min.js&r=/js-min/core/analytics/provider/coremetrics-provider.js
+
+
+[other]
+Doesn't ask for zip code when clicked on pick up at store
+
+
+[comments]
+nitrox
