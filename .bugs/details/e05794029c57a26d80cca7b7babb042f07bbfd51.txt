@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tvn24.pl/2524874,12690,0,1,1,kalisz-niesiolowski-popelnil-blad,wideo.html
+
+[filters]
+http://delivery.way2traffic.com/campaign=1996/view/14519/view.gif?pc=2002&rd=1337329628988
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
