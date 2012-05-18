@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://my-hit.ru/star/20403
+
+
+[filters]
+http://wwaobad.if.ua/js/2732.js?rnd=9363547994653
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
