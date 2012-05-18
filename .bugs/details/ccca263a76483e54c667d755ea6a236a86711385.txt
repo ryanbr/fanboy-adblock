@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.porn88.net/
+
+
+[filters]
+http://www.porn88.net/300x250ero.html
+http://www.porn88.net/popup.php?id=15761
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
