@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.youtube.com/watch?v=*&feature=*
+
+
+[filters]
+https://n4061ad.jp.doubleclick.net/adx/com.ytpwatch.filmsandanimation/main_86;sz=*;kvid=*;kpu=*;kpid=*;u=*;mpvid=*;plat=*;afct=*;afv=*;dc_dedup=*;k5=*;kage=*;kar=*;kauth=*;kclt=*;kcr=*;kga=*;kgender=*;kgg=*;khd=*;klg=*;ko=*;kr=*;kt=*;kvz=*;shortform=*;tves=*;ytexp=*;ytps=*;ytvt=*;!c=*;k2=*;k2=*;k2=*;as3=*;dc_seed=*;tile=*;kmyd=*;ord=*?
+https://n4061ad.jp.doubleclick.net/pfadx/com.ytpwatch.filmsandanimation/main_86;sz=*;kvid=*;kpu=*;kpid=*;u=*;mpvid=*;plat=*;afct=*;afv=*;dc_dedup=*;k5=*;kage=*;kar=*;kauth=*;kclt=*;kcr=*;kga=*;kgender=*;kgg=*;khd=*;klg=*;ko=*;kr=*;kt=*;kvz=*;shortform=*;tves=*;ytexp=*;ytps=*;ytvt=*;!c=*;k2=*;k2=*;k2=*;as3=*;pos=*;tile=*;kmyd=*;ciu_szs=*;ord=*
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
