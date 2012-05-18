@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sports.ru/
+
+[filters]
+http://www.sports.ru/derby/skin/images/adidas/mod-adidas.jpg
+http://www.sports.ru/i/promo/banners/bud/bud_1.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
