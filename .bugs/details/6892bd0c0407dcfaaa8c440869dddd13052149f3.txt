@@ -3,6 +3,7 @@
 #
 [Website]
 http://download.cnet.com/8301-2007_4-57435916-12/firefox-gets-a-reset-button/
+http://howto.cnet.com/8301-11310_39-20077917-285/disabling-the-caps-lock-key-on-windows-7/
 
 
 [filters]
