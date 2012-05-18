@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.xvideos.com/video1307492/bbm007-_001#3188.9
+
+
+[filters]
+http://pinkskstk.blog94.fc2.com/
+
+
+
+[other]
+reported jpn popup
+
+
+[comments]
+fanboy
