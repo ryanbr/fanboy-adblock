@@ -1,0 +1,30 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://1.bp.blogspot.com/-NfaE-RmhtBw/TyAbj06bcgI/AAAAAAAAAMA/Sr18ncDVIjw/s1600/8888.gif
+http://1.bp.blogspot.com/-Z4MtTjzERH4/T1QfD5Lr5DI/AAAAAAAAAW8/EKJZrP6ilfM/s1600/ppp2.gif
+http://1.bp.blogspot.com/-dEatbi9Q_ik/T1Qd6V7-Z2I/AAAAAAAAAWk/8TgTVSWDnxs/s1600/imgad.gif
+http://2.bp.blogspot.com/-HARL9yQJP5I/T1QfEMcfSHI/AAAAAAAAAXE/499BMr4x0CY/s1600/thuytien.jpg
+http://2.bp.blogspot.com/-ePI9x2hRQ30/T1Qd4UaeBvI/AAAAAAAAAV8/WHFG3xel8GI/s1600/75905404.jpg
+http://2.bp.blogspot.com/-rnFknjT_ZMc/T1QCykQNMdI/AAAAAAAAAT8/fzD_1keJgJI/s1600/adsclick.gif
+http://3.bp.blogspot.com/-HWFF3kCefgA/T1Qd4ASDCsI/AAAAAAAAAV0/0gLxDy-6O8M/s1600/2032123115-managa-download.jpg
+http://3.bp.blogspot.com/-MzGFkG9ZV84/T1QfE2_-c7I/AAAAAAAAAXU/NKw0eisLcxw/s1600/vz0120054544159114587.gif
+http://3.bp.blogspot.com/-ODYLHzIHWNs/T1QA6__fFWI/AAAAAAAAASU/UywmVlNduSo/s1600/0.865711001254061075.gif
+http://4.bp.blogspot.com/-DWBapMm0UOk/T1QCN8dEQ8I/AAAAAAAAAS8/uO8ixdTPwwU/s1600/51654614.gif
+http://4.bp.blogspot.com/-TDBC1yh0QNc/T1QCOe59zuI/AAAAAAAAATM/UlMtAlkLAOk/s1600/69350f33e6ab9512aab3d90d96b4f90f.jpg
+http://4.bp.blogspot.com/-duiH15K93Q0/T1QCzM1awgI/AAAAAAAAAUE/fqTMrvIjAew/s1600/anhdep.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
