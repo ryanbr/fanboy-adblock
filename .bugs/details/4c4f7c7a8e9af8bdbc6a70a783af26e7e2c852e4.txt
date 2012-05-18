@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.misterwhat.co.uk/company/10245-5-star-garage-london
+
+
+[filters]
+http://www.misterwhat.co.uk/business-company-300/
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
