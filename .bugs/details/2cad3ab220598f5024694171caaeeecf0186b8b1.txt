@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.railsonfire.com/2012/05/18/Assets-Sprites-CDN.html
+
+
+[filters]
+http://hnbutton.appspot.com/static/hn.js
+https://hnbutton.appspot.com/button?title=Make%20your%20website%20super%20fast%20with%20Asset%20Pipeline%2C%20Sprites%20%26%20Cloudfront&url=http%3A%2F%2Fblog.railsonfire.com%2F2012%2F05%2F18%2FAssets-Sprites-CDN.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
