@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vechai.info/Fairy-Tail/
+
+
+[filters]
+http://vechai.info/js/popnew.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
