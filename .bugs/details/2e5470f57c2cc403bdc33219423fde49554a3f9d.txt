@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://x2.blogtruyen.com/2012/03/dragon-ball-ban-vip-chap-158.html
+
+
+[filters]
+http://mcgame.vn/images/mc_120x500.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
