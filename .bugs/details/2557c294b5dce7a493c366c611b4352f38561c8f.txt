@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.realsimple.com/new-uses-for-old-things/new-uses-closet/index.html
+
+
+[filters]
+http://img4-3.realsimple.timeinc.net/static/shared/js/tii_ads.js?buildlife=48001
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
