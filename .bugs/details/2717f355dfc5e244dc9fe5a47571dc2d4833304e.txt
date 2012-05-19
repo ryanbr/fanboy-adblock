@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nsfw.myconfinedspace.com/2009/05/26/halle-brry-see-through-2/
+
+
+[filters]
+http://www.myconfinedspace.com/images/twitterbutton.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
