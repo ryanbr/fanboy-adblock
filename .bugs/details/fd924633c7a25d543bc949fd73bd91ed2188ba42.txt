@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pakwheels.com/used-cars/
+
+[filters]
+http://cache2.pakwheels.com/ad_pictures/91/tn_suzuki-alto-2007-917221.JPG
+http://cache3.pakwheels.com/ad_pictures/111/tn_toyota-camry-2007-1110105.JPG
+http://cache3.pakwheels.com/ad_pictures/113/tn_toyota-tundra-2007-1136068.jpg
+http://cache3.pakwheels.com/ad_pictures/115/tn_kia-spectra-2002-1154241.JPG
+http://cache3.pakwheels.com/ad_pictures/116/tn_suzuki-mehran-2006-1164356.jpg
+http://cache4.pakwheels.com/ad_pictures/107/tn_toyota-mark-x-2006-1073206.JPG
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
