@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.celebrityrumors.com/emma-watson/emma-watson-sports-see-through-dress.html
+
+
+[filters]
+http://www.newsgator.com/images/ngsub1.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
