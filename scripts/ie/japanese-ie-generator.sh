@@ -42,6 +42,10 @@ cd $IEDIR
 #
 sed -n '/Adblock Plus/,/Japanese Generic/{/Japanese Generic/!p}' $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt > $IEDIR/fanboy-japanese.txt
 
+# Remove ~third-party
+#
+sed -i '/~third-party/d' $IEDIR/fanboy-japanese.txt
+
 ####### Placeholder ########
 # Merge with Google-code (IE adblock addon)
 #

@@ -42,6 +42,10 @@ cd $IEDIR
 #
 sed -n '/Adblock Plus/,/Generic Spanish/{/Generic Spanish/!p}' $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt > $IEDIR/fanboy-espanol.txt
 
+# Remove ~third-party
+#
+sed -i '/~third-party/d' $IEDIR/fanboy-espanol.txt
+
 ####### Placeholder ########
 # Merge with Google-code (IE adblock addon)
 #

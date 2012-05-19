@@ -43,6 +43,10 @@ sed '1,8d' $GOOGLEDIR/ie/fanboy-tracking-addon.txt > $IEDIR/fanboy-tracking-addo
 cat $MAINDIR/fanboy-adblocklist-stats.txt $TESTDIR/fanboy-track-test-ie.txt $IEDIR/fanboy-tracking-addon.txt > $IEDIR/fanboy-tracking-merged.txt
 mv -f $IEDIR/fanboy-tracking-merged.txt $IEDIR/fanboy-tracking.txt
 
+# Remove ~third-party
+#
+sed -i '/~third-party/d' $IEDIR/fanboy-tracking.txt
+
 # Remove Old files
 #
 rm -rf $IEDIR/fanboy-tracking-addon.txt

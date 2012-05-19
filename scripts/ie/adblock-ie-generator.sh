@@ -50,6 +50,10 @@ cat $IEDIR/fanboy-noele.txt $MAINDIR/fanboy-complete-ie.txt > $IEDIR/fanboy-comp
 #
 rm -rf $IEDIR/fanboy-adblock-noele.txt $IEDIR/fanboy-adblock-addon.txt
 
+# Remove ~third-party
+#
+sed -i '/~third-party/d' $IEDIR/fanboy-noele.txt $IEDIR/fanboy-ultimate-ie.txt $IEDIR/fanboy-complete-ie.txt
+
 # Generate .tpl IE list
 #
 # perl $IEDIR/maketpl.pl &> /dev/null

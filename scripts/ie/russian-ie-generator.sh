@@ -50,6 +50,10 @@ mv -f $IEDIR/fanboy-russian-merged.txt $IEDIR/fanboy-russian.txt
 #
 rm -rf $IEDIR/fanboy-russian-addon.txt
 
+# Remove ~third-party
+#
+sed -i '/~third-party/d' $IEDIR/fanboy-russian.txt
+
 # Generate .tpl IE list
 #
 # perl $IEDIR/maketpl.pl &> /dev/null

@@ -42,6 +42,10 @@ cd $IEDIR
 #
 sed -n '/Adblock Plus/,/Firefox 3.x/{/Firefox 3.x/!p}' $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt > $IEDIR/fanboy-czech.txt
 
+# Remove ~third-party
+#
+sed -i '/~third-party/d' $IEDIR/fanboy-czech.txt
+
 ####### Placeholder ########
 # Merge with Google-code (IE adblock addon)
 #
