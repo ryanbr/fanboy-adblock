@@ -1,0 +1,28 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.makers.com/ren%C3%A9e-loux
+
+
+[filters]
+##.ad-wrapper
+http://assets.makers.com/styles/thumbnail/s3/maker/BethanyHamilton_1120x600.jpg
+http://assets.makers.com/styles/thumbnail/s3/maker/DenaSimmons_1120x600.jpg
+http://assets.makers.com/styles/thumbnail/s3/maker/Diane_Nash_01056009_Bb_1120x600.jpg
+http://assets.makers.com/styles/thumbnail/s3/maker/Lauren_Berger_Thumbnail_1120x600.jpg
+http://assets.makers.com/styles/thumbnail/s3/maker/LeilaJanah_Thumbnail_1120x600.jpg
+http://assets.makers.com/styles/thumbnail/s3/maker/LouannBrizendine_1120x600.jpg
+http://assets.makers.com/styles/thumbnail/s3/maker/LydiaVillaKamaroff_1120x600.jpg
+http://assets.makers.com/styles/thumbnail/s3/maker/MirandaJuly_1120x600.jpg
+http://assets.makers.com/styles/thumbnail/s3/maker/MistyCopeland_NewThumbnail_1120x600.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
