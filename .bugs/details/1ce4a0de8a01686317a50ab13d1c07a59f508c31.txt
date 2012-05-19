@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://space.geocities.jp/alice0775/others.html#FitToWidth
+
+
+[filters]
+http://bc.geocities.yahoo.co.jp/se/not_found/
+http://bc.geocities.yahoo.co.jp/js/geov2.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
