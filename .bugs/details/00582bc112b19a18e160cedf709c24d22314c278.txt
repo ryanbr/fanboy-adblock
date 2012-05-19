@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kuna.net.kw/Category.aspx?id=102&language=en&new=1&date=17052012
+
+
+[filters]
+http://www.kuna.net.kw/AdsResources/js_167.htm
+http://www.kuna.net.kw/AdsResources/js_168.htm
+http://www.kuna.net.kw/AdsResources/js_171.htm
+http://www.kuna.net.kw/AdsResources/js_174.htm
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
