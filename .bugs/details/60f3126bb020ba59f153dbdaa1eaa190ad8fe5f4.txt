@@ -1,0 +1,32 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fooyoh.com/iamchiq_celeb_gossip/5133242
+
+
+[filters]
+http://p.fooyoh.com:88/p/avp.innity.com/synd/a87ff679a2f3e71d9181a67b7542122c/15639/js/260/230/1337402202352
+http://p.fooyoh.com:88/p/www9.effectivemeasure.net/img.gif
+http://p.fooyoh.com:88/p/www9.effectivemeasure.net/v4/em_js?flag=0&v=&vt=&hl=&sv=0&pv=&pn=&p=aHR0cDovL2Zvb3lvaC5jb20vaWFtY2hpcV9jZWxlYl9nb3NzaXAvNTEzMzI0Mg%3D%3D&r=aHR0cDovL3d3dy5nb29nbGUuY28ubnovaW1ncmVzP3N0YXJ0PTkzJnVtPTEmaGw9ZW4mc2FmZT1vZmYmY2xpZW50PWZpcmVmb3gtYSZybHM9b3JnLm1vemlsbGE6ZW4tVVM6dW5vZmZpY2lhbCZhdXRodXNlcj0wJmJpdz0xOTIwJmJpaD05NzYmYWRkaD0zNiZ0Ym09aXNjaCZ0Ym5pZD1VUmczcGpzWENTTlZpTTomaW1ncmVmdXJsPWh0dHA6Ly9mb295b2guY29tL2lhbWNoaXFfY2VsZWJfZ29zc2lwLzUxMzMyNDImZG9jaWQ9eHVTdW03M0tsZ3BDdk0maW1ndXJsPWh0dHA6Ly9tYXhibG9nY2RuLmZvb3lvaC5jb20vYXR0YWNoLzMvMjAxMDA3MjAxMTIwMjIzOTQ5LmpwZyZ3PTQyOCZoPTQ2MCZlaT11aUczVDVtQUdjeVFpUWZ5ODRIdkNBJnpvb209MQ%3D%3D&f=1&ns=_em&rnd=0.7742961579726277&u=&
+http://p.fooyoh.com:88/p/www9.effectivemeasure.net/v4/em_js?flag=0&v=&vt=&hl=1&sv=0&pv=&pn=&p=aHR0cDovL2Zvb3lvaC5jb20vdHJhY2s%3D&r=&f=1&ns=_em&rnd=0.2220826454027307&u=&
+http://p.fooyoh.com:88/p/www9.effectivemeasure.net/v4/em_js?flag=0&v=&vt=&hl=1&sv=0&pv=&pn=&p=aHR0cDovL2Zvb3lvaC5jb20vdHJhY2s%3D&r=&f=1&ns=_em&rnd=0.2338401998269245&u=&
+http://p.fooyoh.com:88/p/www9.effectivemeasure.net/v4/em_js?flag=0&v=&vt=&hl=1&sv=0&pv=&pn=&p=aHR0cDovL2Zvb3lvaC5jb20vdHJhY2s%3D&r=&f=1&ns=_em&rnd=0.27907909992414803&u=&
+http://p.fooyoh.com:88/p/www9.effectivemeasure.net/v4/em_js?flag=0&v=&vt=&hl=1&sv=0&pv=&pn=&p=aHR0cDovL2Zvb3lvaC5jb20vdHJhY2s%3D&r=&f=1&ns=_em&rnd=0.5802966420878848&u=&
+http://p.fooyoh.com:88/p/www9.effectivemeasure.net/v4/em_js?flag=0&v=&vt=&hl=1&sv=0&pv=&pn=&p=aHR0cDovL2Zvb3lvaC5jb20vdHJhY2s%3D&r=&f=1&ns=_em&rnd=0.7486430950200215&u=&
+http://p.fooyoh.com:88/p/www9.effectivemeasure.net/v4/em_js?flag=0&v=&vt=&hl=1&sv=0&pv=&pn=&p=aHR0cDovL2Zvb3lvaC5jb20vdHJhY2s%3D&r=&f=1&ns=_em&rnd=0.8085455820767977&u=&
+http://p.fooyoh.com:88/p/www9.effectivemeasure.net/v4/em_js?flag=0&v=&vt=&hl=1&sv=0&pv=&pn=&p=aHR0cDovL2Zvb3lvaC5jb20vdHJhY2s%3D&r=&f=1&ns=_em&rnd=0.8155999926528066&u=&
+http://p.fooyoh.com:88/p/www9.effectivemeasure.net/v4/em_js?flag=0&v=1d5f60616287ed91391608fe4ec64fb7241ea327d4-481869364fb7241e&vt=97dd2c863c2cac114d32d17d25be4fb7241ea32a63-771505024fb7241e&hl=undefined&sv=0&pv=&pn=&p=aHR0cDovL2Zvb3lvaC5jb20vdHJhY2s%3D&r=&f=1&ns=_em&rnd=0.9004008968493277&u=&
+http://p.fooyoh.com:88/p/www9.effectivemeasure.net/v4/em_js?flag=0&v=1d5f60616287ed91391608fe4ec64fb7241ea327d4-481869364fb7241e&vt=97dd2c863c2cac114d32d17d25be4fb7241ea32a63-771505024fb7241e&hl=undefined&sv=0&pv=&pn=&p=aHR0cDovL2Zvb3lvaC5jb20vdHJhY2s%3D&r=&f=1&ns=_em&rnd=0.952639164885066&u=&
+http://fooyoh.com/ads/p/cdn.innity.com.network.js
+http://fooyoh.com/ads/p/effectivemeasure.net.em.js
+http://maxcdn.fooyoh.com/ads/beacon.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
