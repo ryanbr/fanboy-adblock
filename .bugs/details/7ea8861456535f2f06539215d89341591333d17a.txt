@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://apps.facebook.com/onthefarm/?ref=*&count=*&fb_source=*&fb_bmpos=*
+
+[filters]
+https://fb-tc-2.farmville.com/promo_bar.php?src=&key=&fv_canvas=1&zyUid=a9KNHFnhhynn4x2KrrQEtw.wxFzDU2ynCXTIHDi8zLYPQ&zySnuid=a9KNHFnhhynn4x2KrrQEtw.wxFzDU2ynCXTIHDi8zLYPQ&zySnid=1&zySig=cccdd6f0ac38b05bf29ca1a016b612f6
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
