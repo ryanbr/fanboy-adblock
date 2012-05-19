@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://arstechnica.com/tech-policy/2012/05/record-companies-score-infringement-victory-over-russian-facebook/
+
+
+[filters]
+http://arstechnica.com/public/shared/scripts/empty.html?cb=25759
+http://arstechnica.com/public/shared/scripts/empty.html?cb=6323
+http://arstechnica.com/public/shared/scripts/empty.html?cb=988
+http://cdn.arstechnica.net/public/shared/scripts/da-1.5.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
