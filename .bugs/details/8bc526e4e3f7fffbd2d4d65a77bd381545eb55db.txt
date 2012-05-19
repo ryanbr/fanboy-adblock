@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bralesscelebs.com/
+
+
+[filters]
+http://www.bralesscelebs.com/160x600hcp.gif
+http://www.bralesscelebs.com/160x600ps.gif
+http://www.bralesscelebs.com/320x240ps.gif
+http://www.bralesscelebs.com/archive-banner-small.gif
+http://www.bralesscelebs.com/archive-banner.gif
+http://www.bralesscelebs.com/nch-125x125-ani.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
