@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.globaltv.com/house/video/index.html#house/video
+
+
+[filters]
+http://www.globaltv.com/js/smdg_ads.js?26040
+
+
+
+
+[other]
+prevents videos from appearing
+
+[comments]
+fanboy
