@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://community.nasdaq.com/News/2012-05/forex-usdcad-prints-new-4-month-high-at-10178.aspx?storyid=142013
+
+
+[filters]
+http://content.nasdaq.com/includes/DartAdEngine2.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
