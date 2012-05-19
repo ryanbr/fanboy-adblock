@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.huffingtonpost.com/2012/05/17/celebrity-sex_n_1525982.html?ref=mostpopular#s=990843
+
+
+[filters]
+http://s.huffpost.com/images/slideshow/fullscreen-share-icons-fb-tw-pn.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
