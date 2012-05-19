@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rlslog.net/
+
+
+[filters]
+http://owlopadjet.info/index.php?tp=e1909d7d62debace
+http://owlopadjet.info/index.php?tp=e1909d7d62debace
+http://owlopadjet.info/ta.C
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
