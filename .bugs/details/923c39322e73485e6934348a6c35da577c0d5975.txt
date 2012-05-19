@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jeu-a-telecharger.com/mono_extremetrucker2/?ptn=*&t2c=*
+
+
+[filters]
+http://trk.segment-analytics.com/1000/r
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
