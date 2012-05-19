@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://videocelebrities.eu/category/emma-watson/
+
+
+[filters]
+http://seomonitor.ro/seomonitor.js
+http://www.rummyaffiliates.com/marketing_materials/brand_6/1/Gif/Romanian/USD/250x250/2046.gif?bid=5399-10752-95902
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
