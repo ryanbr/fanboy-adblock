@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://images.nonexiste.net/image/237738
+
+
+[filters]
+https://1e400.net/tracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
