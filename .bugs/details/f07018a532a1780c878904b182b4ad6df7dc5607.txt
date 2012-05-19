@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.internetsociety.org/deploy360/home/operators/
+
+
+[filters]
+http://www.internetsociety.org/deploy360/wp-content/themes/isoc-wp/images/icon_twitter_lg.png
+http://www.internetsociety.org/deploy360/wp-content/themes/isoc-wp/images/icon_googleplus.gif
+http://www.internetsociety.org/deploy360/wp-content/themes/isoc-wp/images/icon_facebook_lg.png
+http://www.internetsociety.org/deploy360/wp-content/themes/isoc-wp/images/icon_rss_lg.png
+http://www.internetsociety.org/deploy360/wp-content/themes/isoc-wp/images/icon_youtube_lg.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
