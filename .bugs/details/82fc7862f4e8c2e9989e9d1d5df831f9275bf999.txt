@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hairstyletwice.blogspot.co.nz/2010_12_01_archive.html
+
+
+[filters]
+http://dsp.apsmediaagency.com/dsp.php?class=NTUzfDcyOHg5MA==
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
