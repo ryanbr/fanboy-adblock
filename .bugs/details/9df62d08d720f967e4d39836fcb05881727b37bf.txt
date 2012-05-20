@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cargamer.net/
+
+
+[filters]
+http://www.firegob.com/net/manager/hg.php?z=44&j=1&code=1337507481506
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
