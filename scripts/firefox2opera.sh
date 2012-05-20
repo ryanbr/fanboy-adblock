@@ -25,13 +25,13 @@ if [ ! -d "/tmp/ramdisk/" ]; then
   rm -rf /tmp/ramdisk/
   mkdir /tmp/ramdisk; chmod 777 /tmp/ramdisk
   mount -t tmpfs -o size=30M tmpfs /tmp/ramdisk/
-  mkdir /tmp/ramdisk/opera/
-  mkdir /tmp/ramdisk/opera/test
+  mkdir /tmp/ramdisk/opera; chmod 777 /tmp/ramdisk/opera
+  mkdir /tmp/ramdisk/opera/test; chmod 777 /tmp/ramdisk/opera/test
 fi
 
 # Our Opera test Dirstuff
 #
-mkdir $TESTDIR/opera/test
+mkdir /tmp/ramdisk/opera/test; chmod 777 /tmp/ramdisk/opera/test
 rm -rf $TESTDIR/opera/test/*
 
 # Fanboy-Adblock.text
