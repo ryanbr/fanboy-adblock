@@ -36,15 +36,18 @@ See the README file for more details on what you can, and can't, do with b.
 # Imports
 #
 import os, errno, re, hashlib, sys, subprocess, tempfile, time
+from datetime import date, datetime
 from operator import itemgetter
-from datetime import datetime
 from mercurial.i18n import _
 from mercurial import hg,commands
 
 #
 # Version
 #
-version = _("b Version 0.6.1 - built 12-23-11")
+_major_version = 0
+_minor_version = 6
+_fix_version = 2
+_build_date = date(2012,3,4)
 
 #
 # Static values / config settings
@@ -663,7 +666,7 @@ def cmd(ui,repo,cmd = 'list',*args,**opts):
         subtext = (' '.join(args[1:])).strip()
     
     try:
-        bugsdir = ui.config("bugs","dir",".bugs")
+        bugsdir = bugs_dir(ui)
         user = ui.config("bugs","user",'')
         fast_add = ui.configbool("bugs","fast_add",False)
         if user == 'hg.user':
@@ -743,7 +746,7 @@ def cmd(ui,repo,cmd = 'list',*args,**opts):
             commands.help_(ui,'b')
 
         def _version():
-            ui.write(version + '\n')
+            ui.write(_("b Version %d.%d.%d - built %s\n") % (_major_version,_minor_version,_fix_version,_build_date))
 
         readonly_cmds = set(['users','details','list','id'])
         cmds = {
@@ -830,3 +833,63 @@ cmdtable = {"b|bug|bugs": (cmd,[
                                 ('', 'rev', '', _('Run a read-only command against a different revision'))
                            ]
                            ,_("cmd [args]"))}
+
+#
+# Programmatic access to b
+#
+
+def version(version = None):
+    """Returns a numerical representation of the version number, or takes a version string.
+    Can be used for comparison:
+        b.version() > b.version("0.7.0")
+    
+    Note: Before version 0.6.2 these functions did not exist.  A call to:
+        getattr(b,"version",None) == None
+    indicates a version before 0.6.2"""
+    def num_version(a,b,c):
+        return a*100+b+float('.%d' % c)
+    if(version):
+        a,b,c = [int(ver) for ver in version.split('.') if ver.isdigit()]
+        return num_version(a,b,c)
+    return num_version(_major_version,_minor_version,_fix_version)
+
+def bugs_dir(ui):
+    """Returns the path to the bugs dir, relative to the repo root"""
+    return ui.config("bugs","dir",".bugs")
+
+def status(ui,repo,revision='tip',ignore=[]):
+    """Indicates the state of a revision relative to the bugs database.  In essence, this
+    function is a wrapper for `hg stat --change x` which strips out changes to the bugs directory.
+    A revision either:
+    * Does not touch the bugs directory:
+      This generally indicates a feature change or other improvement, in any case, b cannot draw any
+      conclusions about the revision.
+      Returns None.
+    * Only touches the bugs directory:
+      This would indicate a new bug report, comment, reassignment, or other internal
+      b housekeeping.  No external files were touched, no progress is being made in
+      the rest of repository.
+      Returns an empty list.
+    * Touches the bugs directory, and other areas of the repository:
+      This is assumed to indicate a bug fix, or progress is being made on a bug.  Committing unrelated
+      changes to the repository and the bugs database in the same revision should be discouraged.
+      Returns a list of files outside the bugs directory in the given changeset.
+    
+    You may pass a list of Mercurial patterns (see `hg help patterns`) relative to the repository
+    root to exclude from the returned list.
+    """
+    bugsdir = bugs_dir(ui)
+    ui.pushbuffer()
+    commands.status(ui,repo,change=revision,no_status=True,print0=True)
+    files = ui.popbuffer().split('\0')
+    bug_change = False
+    ret = []
+    for file in files:
+        if file.strip():
+            if file.startswith(bugsdir):
+                bug_change = True
+            else:
+                ret.append(file)
+    ui.write(ret if bug_change else None)
+    ui.write('\n')
+    
