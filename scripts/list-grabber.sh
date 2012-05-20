@@ -32,6 +32,7 @@ if [ ! -d "/tmp/ramdisk/" ]; then
   mkdir /tmp/ramdisk; chmod 777 /tmp/ramdisk
   mount -t tmpfs -o size=30M tmpfs /tmp/ramdisk/
   mkdir /tmp/ramdisk/opera/
+  mkdir /tmp/ramdisk/opera/test
 fi
 
 # Make sure the shell scripts are exexcutable, all the time..
@@ -158,6 +159,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     ### echo "Combine: firefox-adblock-ultimate.sh"
     $NICE $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
+    # Firefox2Opera
+    $NICE $GOOGLEDIR/scripts/firefox2opera.sh
 else
     echo "Files are the same: fanboy-adblock.txt" > /dev/null
     ## DEBUG
@@ -214,6 +217,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
     $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
+    # Firefox2Opera
+    $NICE $GOOGLEDIR/scripts/firefox2opera.sh
 else
    echo "Files are the same: fanboy-tracking.txt" > /dev/null
    ## DEBUG
@@ -264,6 +269,8 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
+    # Firefox2Opera
+    $NICE $GOOGLEDIR/scripts/firefox2opera.sh
 else
    echo "Files are the same: enhancedstats.txt" > /dev/null
    ## DEBUG
@@ -311,6 +318,8 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
     $GOOGLEDIR/scripts/combine/firefox-adblock-ultimate.sh
+    # Firefox2Opera
+    $NICE $GOOGLEDIR/scripts/firefox2opera.sh
 else
    echo "Files are the same: fanboy-addon.txt" > /dev/null
    ## DEBUG
