@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ballerarcade.com/
+
+
+[filters]
+http://www.ballerarcade.com/ispark/h/?&v=v8&si=MQ&dp=HOME&ul=http%3A%2F%2Fwww.ballerarcade.com
+http://www.ballerarcade.com/ispark/legacy/MQ/0x0/1/?dp=HOME&u=http%3A%2F%2Fwww.ballerarcade.com
+http://www.ballerarcade.com/ispark/legacy/MQ/160x600/1/?dp=HOME&u=http%3A%2F%2Fwww.ballerarcade.com
+http://www.ballerarcade.com/ispark/legacy/MQ/300x250/1/?dp=HOME&u=http%3A%2F%2Fwww.ballerarcade.com
+http://www.ballerarcade.com/ispark/legacy/MQ/728x90/1/?dp=HOME&u=http%3A%2F%2Fwww.ballerarcade.com
+http://www.ballerarcade.com/ispark/legacy/MQ/728x90/2/?dp=HOME&u=http%3A%2F%2Fwww.ballerarcade.com
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
