@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://olex.openlogic.com/wazi/2012/postgresql-administration-for-mysql-admins/
+
+
+[filters]
+http://olex.openlogic.com/wazi/wp-content/plugins/social-bookmarks/images/buzz.png
+http://olex.openlogic.com/wazi/wp-content/plugins/social-bookmarks/images/digg.png
+http://olex.openlogic.com/wazi/wp-content/plugins/social-bookmarks/images/fark.png
+http://olex.openlogic.com/wazi/wp-content/plugins/social-bookmarks/images/google.png
+http://olex.openlogic.com/wazi/wp-content/plugins/social-bookmarks/images/reddit.png
+http://olex.openlogic.com/wazi/wp-content/plugins/social-bookmarks/images/slashdot.png
+http://olex.openlogic.com/wazi/wp-content/plugins/social-bookmarks/images/yahoo.png
+http://olex.openlogic.com/wazi/wp-content/plugins/social-bookmarks/social_bookmarks.css
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
