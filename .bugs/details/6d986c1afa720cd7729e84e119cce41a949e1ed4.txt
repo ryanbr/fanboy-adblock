@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.playedonline.com/game/601001/robot-legions.html
+
+
+[filters]
+http://partner.googleadservices.com/gampad/google_service.js
+http://www.googleadservices.com/pagead/conversion.js
+https://securepubads.g.doubleclick.net/gampad/ads?correlator=3499055911433775&output=json_html&callback=GA_googleSetAdContentsBySlotForSync&impl=s&client=ca-pub-6264456910227721&slotname=POL_Game_BannerBig&page_slots=POL_Game_BannerBig&cookie=ID%3D849408d4c42993e2%3AT%3D1337509413%3AS%3DALNI_Mbkl8VJ8zTXkPIPEfgxljhrXihicg&url=http%3A%2F%2Fwww.playedonline.com%2Fgame%2F601001%2Frobot-legions.html&lmt=1337511375&dt=1337511379128&cc=100&biw=1142&bih=717&adk=2906811962&adx=0&ady=0&ifi=1&oid=3&u_tz=60&u_his=1&u_h=1200&u_w=1600&u_ah=1170&u_aw=1600&u_cd=24&u_nplug=1&u_nmime=2&flash=11.2.202&gads=v2&ga_vid=924375477.1337508367&ga_sid=1337511379&ga_hid=2084475316&ga_fc=true
+https://securepubads.g.doubleclick.net/gampad/ads?correlator=3499055911433775&output=json_html&callback=GA_googleSetAdContentsBySlotForSync&impl=s&prev_afc=1&pstok=I5p8rEYAfdIKBRCjj5Ua&client=ca-pub-6264456910227721&slotname=POL_Game_BottomRight&page_slots=POL_Game_BannerBig%2CPOL_Game_BottomRight&cookie=ID%3D849408d4c42993e2%3AT%3D1337509413%3AS%3DALNI_Mbkl8VJ8zTXkPIPEfgxljhrXihicg&url=http%3A%2F%2Fwww.playedonline.com%2Fgame%2F601001%2Frobot-legions.html&lmt=1337511375&dt=1337511381261&cc=100&biw=1142&bih=717&adk=3598043649&adx=0&ady=0&ifi=2&oid=3&u_tz=60&u_his=1&u_h=1200&u_w=1600&u_ah=1170&u_aw=1600&u_cd=24&u_nplug=1&u_nmime=2&flash=11.2.202&gads=v2&ga_vid=924375477.1337508367&ga_sid=1337511379&ga_hid=2084475316&ga_fc=true
+https://securepubads.g.doubleclick.net/gampad/ads?correlator=3499055911433775&output=json_html&callback=GA_googleSetAdContentsBySlotForSync&impl=s&prev_afc=3&pstok=ULOxR3tA-ZoKBRCjj5UaCgUQmr7cGg&client=ca-pub-6264456910227721&slotname=KiziPOL&page_slots=POL_Game_BannerBig%2CPOL_Game_BottomRight%2CKiziPOL&cookie=ID%3D849408d4c42993e2%3AT%3D1337509413%3AS%3DALNI_Mbkl8VJ8zTXkPIPEfgxljhrXihicg&url=http%3A%2F%2Fwww.playedonline.com%2Fgame%2F601001%2Frobot-legions.html&lmt=1337511375&dt=1337511384811&cc=100&biw=1142&bih=700&adk=322747435&adx=0&ady=0&ifi=3&oid=3&u_tz=60&u_his=1&u_h=1200&u_w=1600&u_ah=1170&u_aw=1600&u_cd=24&u_nplug=1&u_nmime=2&flash=11.2.202&gads=v2&ga_vid=924375477.1337508367&ga_sid=1337511379&ga_hid=2084475316&ga_fc=true
+https://securepubads.g.doubleclick.net/gampad/google_ads.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
