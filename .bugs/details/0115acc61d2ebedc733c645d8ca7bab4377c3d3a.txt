@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fs-freeware.net/downloads/fs-x/cars/viewdownload/6-cars/69-fs-x-jcb-435b-digger
+
+
+[filters]
+http://www.fs-freeware.net/images/jdownloads/downloadimages/banner_ads.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
