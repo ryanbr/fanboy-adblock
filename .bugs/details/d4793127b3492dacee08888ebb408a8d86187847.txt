@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mirror.co.uk/
+
+
+[filters]
+http://images.mirror.co.uk/collections/m5_promos_230x90/bingo230x90.jpg
+http://images.mirror.co.uk/collections/m5_promos_230x90/goaldash-230x90.gif
+http://images.mirror.co.uk/collections/m5_promos_270x90/270x90-Money.jpg
+http://images.mirror.co.uk/collections/m5_promos_270x90/270x90-Weight-Watchers.jpg
+http://images.mirror.co.uk/collections/m5_promos_270x90/270x90-William-Hill.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
