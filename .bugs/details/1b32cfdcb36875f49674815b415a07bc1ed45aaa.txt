@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.unixmen.com/vlc-player-rocks-and-jean-kempf-talks-about-it/
+
+
+[filters]
+http://www.unixmen.com/wp-content/uploads/google-plus.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
