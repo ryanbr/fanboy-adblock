@@ -1,0 +1,30 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.am/eng/news/8954.html
+
+
+[filters]
+http://news.am/pic/bnr/180x350-erku-heraxos.swf
+http://news.am/pic/bnr/745x80_eng.gif
+http://news.am/pic/bnr/980x80Rosgostrakh.swf
+http://news.am/pic/bnr/ACBA-nor-link_180x350_v7.swf
+http://news.am/pic/bnr/ADB_bank_180x240.swf
+http://news.am/pic/bnr/Analiyika-logo.gif
+http://news.am/pic/bnr/VTB_bank_nor180x180_new.swf
+http://news.am/pic/bnr/arpine_180x180.swf
+http://news.am/pic/bnr/garnanajin_180x180.swf
+http://news.am/pic/bnr/helpnelli180x180.swf
+http://news.am/pic/bnr/hp_2011_news.gif
+http://news.am/pic/bnr/news_180_60.swf
+http://news.am/pic/bnr/tea_banner180x60.swf
+http://autocontext.begun.ru/autocontext2.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
