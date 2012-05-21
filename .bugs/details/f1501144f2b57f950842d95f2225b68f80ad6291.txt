@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://megashara.org/
+
+
+[filters]
+http://iloa.info/js/2273.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
