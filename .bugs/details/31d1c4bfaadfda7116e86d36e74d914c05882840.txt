@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.news.az/
+
+
+[filters]
+http://b.turbo.az/get3.php?p=76
+http://b.turbo.az/get3.php?p=91
+http://b.turbo.az/get3.php?p=97
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
