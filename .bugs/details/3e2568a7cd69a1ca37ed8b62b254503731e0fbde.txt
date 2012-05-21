@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.girlsgogames.co.uk/game/summer_girl_dressing_up.html
+
+
+[filters]
+http://ads.spilgames.com/ad/pb/1/3/102?locale=en-GB&country=US
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
