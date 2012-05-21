@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nmap.org/6/
+
+
+[filters]
+http://nmap.org/shared/images/p/Acunetix/120x90_Scanner.gif
+http://nmap.org/shared/images/p/gfi/120x90_gfi_languard_rebranding.gif
+http://nmap.org/shared/images/p/solarwinds/sw_banner_logconsolidator_728x90.jpg
+http://nmap.org/shared/images/p/solarwinds/sw_siem_lem_120x90.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
