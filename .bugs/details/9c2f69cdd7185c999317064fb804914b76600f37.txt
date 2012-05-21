@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bel.ru/
+
+
+[filters]
+http://www.bel.ru/img/banners/445.swf?9
+http://www.bel.ru/img/banners/485.swf?83
+http://www.bel.ru/img/banners/511.swf?73
+http://www.bel.ru/img/banners/518.swf
+http://www.bel.ru/img/banners/519.swf
+http://www.bel.ru/img/banners/525.swf?48
+http://www.bel.ru/img/banners/529.swf?21
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
