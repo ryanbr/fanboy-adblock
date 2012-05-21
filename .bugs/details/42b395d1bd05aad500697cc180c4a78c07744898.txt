@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://torrent-free.ru/video/filmy/11000-poliss-polisse.html
+
+
+[filters]
+http://rotation-media.net/cgi/gask.cgi?ids=19124&ref=http%3A//torrent-free.ru/
+http://web-rotation.net/codes/18004/19124_torrent-free.ru.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
