@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock list Firefox-Opera bash script v1.00 (20/05/2012)
+# Fanboy Adblock list Firefox-Opera bash script v1.01 (21/05/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -9,7 +9,7 @@
 #
 MAINDIR="/var/www/adblock"
 GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-OPERATEST="/var/www/adblock/opera-test"
+OPERATEST="/var/www/adblock/opera/test"
 TESTDIR="/tmp/ramdisk"
 ZIP="nice -n 19 /usr/local/bin/7za"
 NICE="nice -n 19"
@@ -37,7 +37,7 @@ rm -rf $TESTDIR/opera/test/*
 # Fanboy-Adblock.text
 # 
 cp -f $MAINDIR/fanboy-adblock.txt $TESTDIR/opera/test
-$NICE perl $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy-adblock.txt --nocss
+$NICE perl $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy-adblock.txt --nocss >/dev/null
 
 cp -f $TESTDIR/opera/test/urlfilter.ini $OPERATEST/urlfilter.ini2
 mv $OPERATEST/urlfilter.ini2 $OPERATEST/urlfilter.ini
@@ -47,7 +47,7 @@ rm -rf $TESTDIR/opera/test/*
 # Fanboy-Adblock+Tracking
 #
 cp -f $MAINDIR/r/fanboy+tracking.txt $TESTDIR/opera/test
-$NICE perl $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy+tracking.txt --nocss
+$NICE perl $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy+tracking.txt --nocss >/dev/null
 
 cp -f $TESTDIR/opera/test/urlfilter.ini $OPERATEST/tracking/urlfilter.ini2
 mv $OPERATEST/tracking/urlfilter.ini2 $OPERATEST/tracking/urlfilter.ini
@@ -57,7 +57,7 @@ rm -rf $TESTDIR/opera/test/*
 # Fanboy-Adblock+Tracking+Annoyances (Complete)
 #
 cp -f $MAINDIR/r/fanboy-complete.txt $TESTDIR/opera/test
-$NICE perl $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy-complete.txt --nocss
+$NICE perl $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy-complete.txt --nocss >/dev/null
 
 cp -f $TESTDIR/opera/test/urlfilter.ini $OPERATEST/complete/urlfilter.ini2
 mv $OPERATEST/complete/urlfilter.ini2 $OPERATEST/complete/urlfilter.ini
@@ -67,7 +67,7 @@ rm -rf $TESTDIR/opera/test/*
 # Fanboy-Adblock+Tracking+Annoyances+Enhanced (Ultimate)
 #
 cp -f $MAINDIR/r/fanboy-ultimate.txt $TESTDIR/opera/test
-$NICE perl $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy-ultimate.txt --nocss
+$NICE perl $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy-ultimate.txt --nocss >/dev/null
 
 cp -f $TESTDIR/opera/test/urlfilter.ini $OPERATEST/ultimate/urlfilter.ini2
 mv $OPERATEST/ultimate/urlfilter.ini2 $OPERATEST/ultimate/urlfilter.ini
