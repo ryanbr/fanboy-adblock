@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.funnygames.co.uk/spongebob-sea-battle.htm
+
+
+[filters]
+http://pm.jaludo.com/pm.php?bid=1997&sid=29&ord=1337597680009
+http://www.funnygames.co.uk/dynamic_banner_600x160.php
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
