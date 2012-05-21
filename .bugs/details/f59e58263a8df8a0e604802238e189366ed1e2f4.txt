@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nnm-club.ru/forum/viewtopic.php?t=499531
+
+
+[filters]
+http://i.tophot-news.com/266/110.png
+http://i.tophot-news.com/683/110.png
+http://i.tophot-news.com/828/110.png
+http://i.tophot-news.com/843/110.png
+http://t.tophot-news.com/15/1337600651578.js
+http://t.tophot-news.com/ldr.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
