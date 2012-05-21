@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bigtorrent.org/
+
+[filters]
+http://icqadv.net/get.php?user_id=382&mode=vk&domain=&block_id=4638&count=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
