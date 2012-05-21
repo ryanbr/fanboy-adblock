@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://disney.go.com/games/#/games/
+
+
+[filters]
+http://cdn4.home.disney.go.com/globalelements/footer/comscore.txt?location=http://disney.go.com/games/#/games/
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
