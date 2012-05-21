@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.from-ua.com/voice/4780c67059a38.html
+
+[filters]
+http://www.from-ua.com/files/directadvert.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
