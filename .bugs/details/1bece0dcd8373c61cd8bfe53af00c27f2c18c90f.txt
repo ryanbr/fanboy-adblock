@@ -1,0 +1,39 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rickey.org/
+
+
+[filters]
+http://s1.torbit.com/2161/css/766508e1426915316a2e2fa5c108fbdc-facebook-comments-widgets.css63ver613.3.2
+http://s1.torbit.com/2161/css/b6125e1340d5c0877366fa2677efd31b-css63family61Nunito58regular44bold
+http://s1.torbit.com/2161/css/c3b2774108584a3a1f9550de13a28ffe-style.css63ver613.3.2
+http://s1.torbit.com/2161/css/da6f27d0ac12eeacaf9ee3f361a0aaff-css63family61Droid32Sans
+http://s1.torbit.com/2161/css/eaef1c7835288eed764592ba80d24c4e-style.css
+http://s1.torbit.com/2161/css/eaef1c7835288eed764592ba80d24c4e-style.css63ver613.3.2
+http://s1.torbit.com/2161/css/f11e8cadc9f2aaeb34d498be8c1e105e-css63family61Droid32Serif
+http://s1.torbit.com/2161/favicon/fdc687fe475a196f4d019d6fb537f566-favicon.ico
+http://s1.torbit.com/img/2d2aaaae06de49db46b4d3bdd7ea521913d69eb1-flw-twitter.png
+http://s1.torbit.com/img/3e842f4b5c7335764332cc84d73f1fa129f220f1-flw-facebook.png
+http://s1.torbit.com/img/459456c6e5deb9a63daf3ad286d1387019400a71-funny-gifs-washed-up-parents-horrible-fail.gif
+http://s1.torbit.com/img/5156ba989f1692939f7d97d51e2b2235972c35ca-Horse-Americas-Got-Talent-Video-150x150.jpg
+http://s1.torbit.com/img/9229eea3b90b11c71980d9f49a10261950122e54-Who-will-win-Dancing-with-the-Stars-14-150x150.jpg
+http://s1.torbit.com/img/937c7c778d4ac66956ee0cc22bbeadb4aef705ac-Mir-Money-Americas-Got-Talent-Video-150x150.jpg
+http://s1.torbit.com/img/dd46516e08951ab90b807de6eb7f8068b3a79cd8-RICKEY-new-logo.png
+http://s1.torbit.com/img/ed9356e7b01101f54b04aa521900b130b7329701-Sharon-Osbourne-150x150.jpg
+http://s2.torbit.com/img/1b54e31570815503a0c4f414de9db34d7e3dc2af-Solar-Eclipse-2012-Ring-of-Fire-Video-150x75.jpg
+http://s2.torbit.com/img/49ef09ef0b5d53d67e97042069dcf4a803edcbdb-Mark-Zuckerberg-marries-Priscilla-Chan-150x75.jpg
+http://s2.torbit.com/img/8e83a7d159b512fa3028d938cd49dc2af93fd937-Donald-Driver-and-Peta-Murgatroyd-Freestyle-Dancing-with-the-Stars-150x150.jpg
+http://s2.torbit.com/img/c11469362598bdb0951cb9b7b8d37cf7f4271f8b-flw-rss.png
+http://s2.torbit.com/img/ce1d0d36603c196ff677a9b315223599db4d3246-Skyfall-Official-Teaser-Trailer-Video1-150x75.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
