@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.britishairways.com/travel/home/public/en_gb
+
+
+[filters]
+http://www.britishairways.com/cms/global/styles/applications/flightselling/openX.css
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
