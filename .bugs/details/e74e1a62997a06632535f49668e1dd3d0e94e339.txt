@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tv.desitvforum.net/index.php?option=com_content&task=view&id=161054&Itemid=116
+
+
+[filters]
+http://www.ventunotech.com/beacon/vtpixel.gif?pid=295&pixelfrom=jp
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
