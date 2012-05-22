@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.heganerotic.com/gallery/feather/e89d5ed90046a9b882cacc26b20114fb/4.html?xxx=*
+
+
+[filters]
+http://tools.fuckyoucash.com/slideAdverts/flash/playClip.swf
+http://tools.fuckyoucash.com/slideAdverts/scripts/code.js.php?x=1337324259&t=video&site=random&nats=MjU5NTE6MjoxMA
+http://tools.fuckyoucash.com/slideAdverts/styles/base.css
+http://tools.fuckyoucash.com/slideAdverts/styles/video/FlexiblePositions.gif
+http://tools.fuckyoucash.com/slideAdverts/styles/video/close.gif
+http://tools.fuckyoucash.com/slideAdverts/videos/FlexiblePositions/1.flv
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
