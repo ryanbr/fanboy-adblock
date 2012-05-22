@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://lj.libraryjournal.com/
+
+
+[filters]
+http://lj.libraryjournal.com/wp-content/themes/genesis/images/google_plus_one.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
