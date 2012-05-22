@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://lol.inven.co.kr/dataninfo/champion/manualToolView.php?idx=5917
+
+
+[filters]
+http://www.inven.co.kr/ad/lib/js/ad_maple_120504.js
+http://www.inven.co.kr/ad/lib/js/ad.js?v=20120407k
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
