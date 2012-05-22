@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.inews24.com/php/news_view.php?g_menu=020800&g_serial=659627
+
+
+[filters]
+http://news.inews24.com/php/ad/rolling/ifr_right_jshopbox_k123.php
+http://news.inews24.com/php/ad/rolling/news/news_260_1th.html
+http://news.inews24.com/php/ad/rolling/news/news_260_2nd.html
+http://www.inews24.com/images/adpresso/446.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
