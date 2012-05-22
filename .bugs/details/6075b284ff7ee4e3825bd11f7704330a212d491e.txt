@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.games.co.uk/game/Beauty-Salon-Makeover.html
+
+
+[filters]
+http://cdn.gigya.com/js/socialize.js?apiKey=2_f2bQfrmpPgOZBW8n1amP_NfTVfbjkPFcoTR9kxn6V5eOSq9_WI7tuqeyqaTXoPbl
+http://ads.spilgames.com/ad/pb/1/1/92?locale=en-GB&country=US
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
