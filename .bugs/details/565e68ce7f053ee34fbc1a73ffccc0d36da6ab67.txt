@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jeevansathi.com/profile/viewprofile.php?profilechecksum=74fee7f1fcaccca9dfd356e4691cf44ei3579631&fromViewSimilar=1&NAVIGATOR=7fa6e76e554b5ac4541e15c97e816001&stype=30
+
+
+[filters]
+http://static.jeevansathi.com/minify.php?files=/css/common_css_2.css,/css/thickbox_css_3.css,/css/hdr_css_new_2.css,/css/phonelayerStyle_css_1.css,/css/hdr_sulekha_1.css,/css/view_page_css_1.css
+http://static.jeevansathi.com/minify.php?files=/js/contact_engine_js_1.js
+http://static.jeevansathi.com/minify.php?files=/js/revampCommon_js_4.js,/js/jquery_js_1.js,/js/thickbox_js_1.js,/js/tracking_js_1.js
+http://static.jeevansathi.com/minify.php?files=/js/topSearchBand_js_3.js,/js/header_js_2.js,/js/search_similar_js_2.js,/js/ivrContact_js_1.js,/js/ivrVerifyPhone_js_2.js,/js/profile_tab_js_2.js,/js/removeBookmark_js_1.js,/js/viewSimilar_js_1.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
