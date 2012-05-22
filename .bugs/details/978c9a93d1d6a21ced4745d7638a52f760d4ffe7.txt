@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.xdafileserver.nl/index.php?dir=Samsung%2FGalaxy+S+II%2FWanamlite+Rom%2FSVoice
+
+
+[filters]
+http://www.xdafileserver.nl/template/adframe.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
