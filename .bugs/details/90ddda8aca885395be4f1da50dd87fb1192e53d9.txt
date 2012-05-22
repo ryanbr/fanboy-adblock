@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.binaries4all.com/
+
+
+[filters]
+http://www.binaries4all.nl/misc/misc.php?idsite=2&rec=1&apiv=1&r=652040&cip=173.254.206.174&_id=7dd1554e408a627e&url=http%3A%2F%2Fwww.binaries4all.com%2F&urlref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D12601&action_name=All+information+about+binary+newsgroups+and+usenet
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
