@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.agame.com/game/nob-war-the-elves.html
+
+
+[filters]
+http://cdn.gigya.com/js/socialize.js?apiKey=2_S3avRaiphYB7DbzeRHyeuo9ecY_zrjhwuOh6cfCUKbE36jR6BETKT11BwWg6SNN9
+http://ads.spilgames.com/ad/pb/1/2/79?locale=en-US&country=US
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
