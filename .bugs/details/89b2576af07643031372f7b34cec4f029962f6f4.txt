@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.steamprices.com/us
+
+
+[filters]
+http://amz.steamprices.com/com/rcm/e/cm?t=steamprcom-20&o=1&p=14&l=op1&pvid=768E472CE04F8F64&ref-url=http%3A//www.steamprices.com/us&ref-title=/us%20%AB%20SteamPrices.com&ref-ref=http%3A//www.steamprices.com/us/sub/1529/company-of-heroes-complete-pack&bgc=FFFFFF&bdc=000000&pcc=990000&tec=000000&tic=3399FF&ac=CC6600&pvc=6E6E6E&lgl=1&mp=1&hb=1&hl=1&incats=bcpdfgemn&f=ifr&e=utf-8
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
