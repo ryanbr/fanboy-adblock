@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dk.lastminute.com/
+
+[filters]
+http://stat.se.lastminute.com/pxl.cgi?partner=&combo=&dh_dest_id=&path=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
