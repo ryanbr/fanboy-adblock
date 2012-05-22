@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://index.healthboards.com/prostatecancer/sex-before-psa-test/1/
+
+
+[filters]
+http://www.gmodules.com/ig/ifr?up_ad=0&url=http://echo3.net/ja/gahealth/live/300x250-ad.xml?nocache=0&&r=icentric
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
