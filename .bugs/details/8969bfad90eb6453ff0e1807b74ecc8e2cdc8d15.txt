@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ansa.it/web/notizie/rubriche/english/2012/05/22/Italian-cheese-production-hit-hard-earthquake_6911349.html
+
+
+[filters]
+http://feed.4wnet.com/feed.html.ashx?a=4021&n=3&c=http://www.ansa.it/web/css/4wnetstileB2_660_60x60.css&u=REF&x=b&hd=2&i=1&iw=60&ih=60&s=ansa_std_bottom_60x60
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
