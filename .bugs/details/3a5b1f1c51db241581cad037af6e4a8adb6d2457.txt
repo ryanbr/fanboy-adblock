@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yota.ru/ru/
+
+
+[filters]
+http://ads.heias.com/x/heias.ret.px/?html=1&PX=HT|2899486553576966700|fl_ver|11|js_var|1600,1200,true|n|12564|cus|12595|pb|1|host|http://www.yota.ru/ru/
+http://ads.heias.com/x/heias.async/p.min.js
+http://ads.heias.com/x/heias.sc/heiaswb.php?count=1&1337812872216
+http://ads.heias.com/x/heias_sc.swf
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
