@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://maps.rambler.ru/
+
+
+[filters]
+http://rcounter.rambler.ru/count/1338324385295/?rn=1338938911067&id=59&pid=12&path=topline11px.view
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
