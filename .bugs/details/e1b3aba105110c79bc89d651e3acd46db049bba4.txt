@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://travel.rambler.ru/
+
+
+[filters]
+http://exat.travel.rambler.ru/touronline/?jsapp=clientform&form_type=twoforms_tworows&client_id=3vf8ab44a7b823777cf9873ed891fe94fe7f0b083fefa7ff7d&countryId=&target=self&break=logo
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
