@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hindimatrimony.com/
+
+
+[filters]
+http://imgs.bharatmatrimony.com/bmimgs/footer-followbg.gif
+http://imgs.bharatmatrimony.com/bmimgs/footer-innerbg.gif
+http://imgs.bharatmatrimony.com/bmimgs/home-sprite.gif
+http://imgs.bharatmatrimony.com/bmimgs/inputbg.gif
+http://imgs.bharatmatrimony.com/bmimgs/shadow-bottom-big.gif
+http://imgs.bharatmatrimony.com/bmimgs/trans.gif
+http://imgs.bharatmatrimony.com/bmimgs/vsep.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
