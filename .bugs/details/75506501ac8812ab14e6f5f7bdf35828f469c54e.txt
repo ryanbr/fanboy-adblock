@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://freeimgup.com/xxx/?v=52SdA.jpg#
+
+
+[filters]
+http://www.chtic.net/w/2923/
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
