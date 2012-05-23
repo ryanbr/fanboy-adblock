@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.app.com/VideoNetwork/1650980023001/Did-Justin-Bieber-and-Selena-Gomez-Split-&odyssey=mod|video||umbrella?nclick_check=1
+
+
+[filters]
+http://www.app.com/odygel/lib/video/yume.js?odyv=1.2.2075
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&p=33871#p33871
+
+
+[comments]
+fanboy
