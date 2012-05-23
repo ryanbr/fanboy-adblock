@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ansa.it/web/notizie/rubriche/english/2012/05/22/Italian-cheese-production-hit-hard-earthquake_6911349.html
+
+
+[filters]
+http://af21.ad.dotandad.com/pixel.jsp?param=31;98422;-31;6636;2962;-1;ansa_it_web_notizie_rubriche_english_2012_05_22_Italian-cheese-production-hit-hard-earthquake_6911349_html;1337732410144?3005485249
+http://af21.ad.dotandad.com/pixel.jsp?param=31;98425;-31;6167;2659;-1;ansa_it_web_notizie_rubriche_english_2012_05_22_Italian-cheese-production-hit-hard-earthquake_6911349_html;1337732410153?3005485249
+http://af21.ad.dotandad.com/pixel.jsp?param=31;98428;-31;6644;2976;-1;ansa_it_web_notizie_rubriche_english_2012_05_22_Italian-cheese-production-hit-hard-earthquake_6911349_html;1337732410166?3005485249
+http://af21.ad.dotandad.com/pixel.jsp?param=31;98431;-31;6639;2966;-1;ansa_it_web_notizie_rubriche_english_2012_05_22_Italian-cheese-production-hit-hard-earthquake_6911349_html;1337732410172?3005485249
+http://af21.ad.dotandad.com/pixel.jsp?param=31;98447;-31;6165;2658;-1;ansa_it_web_notizie_rubriche_english_2012_05_22_Italian-cheese-production-hit-hard-earthquake_6911349_html;1337732410141?3005485249
+http://filecdn2.dotandad.com/31/962/3977_1.gif
+http://filecdn2.dotandad.com/31/966/4010_1.gif
+http://filecdn2.dotandad.com/31/976/4061_1.gif
+http://js.tiscali.dotandad.com/TiscaliAds.js
+http://tiscali.ad.dotandad.com/tiscali.jsp?mpo=ansa&mpt=ansa.news/mondo&kw=ansa_it_web_notizie_rubriche_english_2012_05_22_Italian-cheese-production-hit-hard-earthquake_6911349_html&rnd=98870650704
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
