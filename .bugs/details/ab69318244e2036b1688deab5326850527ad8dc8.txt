@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://orsn.rambler.ru/
+
+
+[filters]
+http://ads.adfox.ru/165830/getCodeTest?p1=bdith&p2=eles&pct=d&pfc=a&pfb=a&pr=933353&pt=b&pd=23&pw=3&pv=23&prr=&rnd1=947979&rnd265=1600
+http://ads.adfox.ru/165830/getCodeTest?p1=bdith&p2=eles&pct=d&pfc=a&pfb=a&pr=933353&pt=b&pd=23&pw=3&pv=23&prr=&rnd1=978136&rnd459=85167
+http://ads.adfox.ru/165830/getCodeTest?p1=bdith&p2=eles&pct=d&pfc=a&pfb=a&pr=933353&pt=b&pd=23&pw=3&pv=23&prr=&rnd1=983136&rnd201=30472
+http://ads.adfox.ru/165830/getCodeTest?p1=bdith&p2=eles&pct=d&pfc=a&pfb=a&pr=933353&pt=b&pd=23&pw=3&pv=23&prr=&rnd1=9845&rnd720=9456
+http://ads.adfox.ru/165830/prepareCode?p1=bdith&p2=eles&pct=d&pfc=a&pfb=a&pr=933353&pt=b&pd=23&pw=3&pv=23&prr=&rnd1=103409&rnd143=82549
+http://ads.adfox.ru/165830/prepareCode?p1=bdith&p2=eles&pct=d&pfc=a&pfb=a&pr=933353&pt=b&pd=23&pw=3&pv=23&prr=&rnd1=108778&rnd828=78565
+http://ads.adfox.ru/165830/prepareCode?p1=bdith&p2=eles&pct=d&pfc=a&pfb=a&pr=933353&pt=b&pd=23&pw=3&pv=23&prr=&rnd1=11453&rnd961=16167
+http://ads.adfox.ru/165830/prepareCode?p1=bdith&p2=eles&pct=d&pfc=a&pfb=a&pr=933353&pt=b&pd=23&pw=3&pv=23&prr=&rnd1=162116&rnd122=87566
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
