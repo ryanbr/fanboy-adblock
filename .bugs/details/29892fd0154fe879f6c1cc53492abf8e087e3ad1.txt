@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.rambler.ru/
+
+
+[filters]
+http://adstat02.rambler.ru:8081/ban.ban?pg=8559&ifr=5&words=t56
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
