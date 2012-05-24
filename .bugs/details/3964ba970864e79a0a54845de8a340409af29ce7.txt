@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://photography.nationalgeographic.com/photography/photo-tips/color-palette-simply-beautiful-photos/#/new-york-skyline-richardson_25987_600x450.jpg
+
+
+[filters]
+http://images.nationalgeographic.com/wpf/sites/common/j/omniture_code.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
