@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gmvault.org/
+
+
+[filters]
+http://api.stathat.com/c?ukey=NjM3IHOkfz0i1DliotgKSxKEqGc~&key=uEWjLRysHJgQFmszTFzGKCBLRkFk&count=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
