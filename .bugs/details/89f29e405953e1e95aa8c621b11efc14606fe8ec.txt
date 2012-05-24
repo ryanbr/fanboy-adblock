@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.athlonsports.com/college-football
+
+[filters]
+http://www.athlonsports.com/google-admanager/render-ad/CollegeFootballPage_BigBox1_BTF_Right_300x250
+http://www.athlonsports.com/google-admanager/render-ad/CollegeFootballPage_BigBox2_BTF_Right_300x250
+http://www.athlonsports.com/google-admanager/render-ad/CollegeFootballPage_Leaderboard_ATF_Left_728x90
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
