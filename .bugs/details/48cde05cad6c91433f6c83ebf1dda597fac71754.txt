@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://channel.nationalgeographic.com/channel/
+
+
+[filters]
+http://images.nationalgeographic.com/wpf/media-live/photos/000/293/cache/ngc-wild-justice_29389_100x75.jpg
+http://images.nationalgeographic.com/wpf/media-live/photos/000/349/cache/restrepo-dvd-160_34972_admin_thumbnail.jpg
+http://images.nationalgeographic.com/wpf/media-live/photos/000/394/cache/email-newsletter_39450_100x75.jpg
+http://images.nationalgeographic.com/wpf/media-live/photos/000/395/cache/remembering9-11-commemorative-collection-dvd_39538_admin_thumbnail.jpg
+http://images.nationalgeographic.com/wpf/media-live/photos/000/399/cache/x-locked-up-abroad-1095232_39983_admin_thumbnail.jpg
+http://images.nationalgeographic.com/wpf/media-live/photos/000/401/cache/dvd-brain-games-1075529-160x120_40175_admin_thumbnail.jpg
+http://images.nationalgeographic.com/wpf/media-live/photos/000/404/cache/dvd-dog-whisperer-1074808_40474_admin_thumbnail.jpg
+http://images.nationalgeographic.com/wpf/media-live/photos/000/410/cache/alaska-state-troopers-dvd_41003_admin_thumbnail.jpg
+http://images.nationalgeographic.com/wpf/media-live/photos/000/443/cache/grizzly-showdown-alaskastatetroopers_44338_100x75.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
