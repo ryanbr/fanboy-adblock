@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fling.com/
+
+
+[filters]
+http://www.fling.com/zeftour/t_i.php?data=202::18596,18611,18264,18258,18521,18129,18372,17934,18569,18548,18384,17910,18288,17904,17892,18695,17988,18009,18099,18168$139::15439,15358,15409,15406,15435,15392,15378$142::15348
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
