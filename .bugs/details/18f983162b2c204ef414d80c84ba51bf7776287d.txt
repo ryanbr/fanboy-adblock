@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.satkurier.pl/
+
+[filters]
+http://100659.digi-tv.pl/?q=satkurier_750x100_glowna
+http://100659.digi-tv.pl/?q=satkurier_900x100
+http://5e89be5179728473266a14d97c8a596d.digi-tv.pl/?q=satkurier_reklama_left
+http://5e89be5179728473266a14d97c8a596d.digi-tv.pl/?q=satkurier_reklama_right
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
