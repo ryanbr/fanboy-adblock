@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://de.justin.tv/arconai_61#/w/3126818896/7
+
+
+[filters]
+http://cdn.zoomin.tv/video/590x332_02-2012_Kia_CEED_launch_30sec.flv
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
