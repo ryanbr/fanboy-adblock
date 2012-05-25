@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.people.com/people/celebritybabies/gallery/0,,20595791_21139112,00.html
+
+
+[filters]
+http://www.people.com/people/static/h/ads/adFactory-google.html?width=660&height=150&channel=gallery&maxads=3&theme=light
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
