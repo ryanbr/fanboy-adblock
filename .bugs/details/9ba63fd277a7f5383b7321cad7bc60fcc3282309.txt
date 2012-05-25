@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tech.fortune.cnn.com/2012/05/24/apple-tim-cook-ceo/
+
+[filters]
+http://w.sharethis.com/button/buttons.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
