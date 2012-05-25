@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.grani.ru/
+
+
+[filters]
+http://engine.media-networks.ru/code?pid=2267&gid=452&oin=1&rid=575339783
+http://engine.media-networks.ru/code?pid=2273&gid=452&oin=1&rid=222383713
+http://engine.media-networks.ru/code?pid=2274&gid=452&oin=1&rid=949240692
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
