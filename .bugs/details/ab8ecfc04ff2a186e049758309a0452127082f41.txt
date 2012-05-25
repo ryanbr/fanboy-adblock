@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://travel.mail.ru/
+
+
+[filters]
+http://travel.mail.ru/stat.gif/?action=avia_show&type=block&r=0.8664073299829366
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
