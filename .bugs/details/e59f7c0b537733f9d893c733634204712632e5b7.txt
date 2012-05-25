@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dumskaya.net/
+
+
+[filters]
+http://dumskaya.net/files/bannerfile_gastroli69_77617.gif
+http://dumskaya.net/files/bannerfile_kador261.swf
+http://dumskaya.net/files/bannerfile_ot-evgeniya65_18750.swf
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
