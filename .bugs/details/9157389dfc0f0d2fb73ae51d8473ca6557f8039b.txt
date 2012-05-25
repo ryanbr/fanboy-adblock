@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.twitch.tv/melonzz
+
+[filters]
+http://cdn-media.cbsinteractive.co.uk/cbsi/ads/preroll_mario_tennis_240512.flv
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
