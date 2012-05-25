@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://songspk.pk/
+
+
+[filters]
+http://images.songspk.pk/ie/ietext.html
+http://www.songspk.pk/textlinks/index.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
