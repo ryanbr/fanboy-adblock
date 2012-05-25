@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://yro.slashdot.org/story/12/05/25/0037256/fox-sues-dish-over-auto-hop-ad-skipping-feature
+
+
+[filters]
+http://a.fsdn.com/sd/topics/advertising_64.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
