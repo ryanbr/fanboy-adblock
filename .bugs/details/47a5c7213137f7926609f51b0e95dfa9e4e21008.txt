@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.crn.com.au/News/302034,it-vendors-in-spotlight-over-price-hike-claims.aspx
+
+[filters]
+http://www.crn.com.au/images/follow-icon-fb.gif
+http://www.crn.com.au/images/follow-icon-linkedin.gif
+http://www.crn.com.au/images/follow-icon-rss.gif
+http://www.crn.com.au/images/follow-icon-twitter.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
