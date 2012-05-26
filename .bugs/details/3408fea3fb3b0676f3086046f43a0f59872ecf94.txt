@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://videos.antville.org/stories/2123663/
+
+
+[filters]
+http://www.blastro.com/pl_ads.php?source=player&keywords=&paidContent=false&videocount=0&provider=openx&brightcove=false&position=0&pzoneid=&channel=&player%5Fmode=embed&rolldown=t&partner=&type=video&overlay%5Fprovider=openx&embed=true&filename=zealehopedies
+http://www.blastro.com/log_player_actions.php?site=www%2Eblastro%2Ecom&action=Paused%20Video&filename=zealehopedies
+http://www.blastro.com/log_player_actions.php?site=www%2Eblastro%2Ecom&action=Splash%20Clicked&filename=zealehopedies
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
