@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nedhardy.com/2012/05/16/daydreaming-about-the-many-beaches-id-rather-be-at-then-work-20-pics/
+
+
+[filters]
+http://www.nedhardy.com/wp-content/uploads/images/2011/march/follow_me.jpg
+
+
+
+
+[other]
+nedhardy.com##.fb-recommendations.fb_iframe_widget
+
+[comments]
+fanboy
