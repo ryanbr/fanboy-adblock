@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.frmtr.com/off-topic/4600126-sizce-dost-ranki-almali-miyim.html
+
+
+[filters]
+http://www.alacaknevar.com/banner/banner-sinbo-oto-buzdolabi.jpg
+http://www.alacaknevar.com/banner/frmtr.asp
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
