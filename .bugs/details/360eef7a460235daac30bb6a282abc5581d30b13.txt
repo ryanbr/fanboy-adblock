@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://egotastic.com/
+
+
+[filters]
+http://r.twimg.com/jot?l=%7B%22_category_%22%3A%22tfw_widgets%22%2C%22event_name%22%3A%22tweetbutton%3Aimpression%22%2C%22language%22%3A%22en%22%2C%22referrer%22%3A%22%22%2C%22pid%22%3A%22%22%2C%22widget%22%3Atrue%7D
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
