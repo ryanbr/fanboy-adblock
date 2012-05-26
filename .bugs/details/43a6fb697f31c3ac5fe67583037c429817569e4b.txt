@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thinknice.com/5-hottest-female-athletes-united-states/?utm_source=theslingshot&utm_medium=referral&utm_campaign=top-5-hottest-female-athletes
+
+
+[filters]
+http://thinknice.com/wp-content/themes/atahualpa/images/facebook-85.png
+http://thinknice.com/wp-content/themes/atahualpa/images/rssfeed-85.png
+http://thinknice.com/wp-content/themes/atahualpa/images/twitter-85.png
+http://www.celebjihad.com/widget/widget3.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
