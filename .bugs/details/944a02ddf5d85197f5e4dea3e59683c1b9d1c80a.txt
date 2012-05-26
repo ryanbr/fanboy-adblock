@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bauer-power.net/
+
+
+[filters]
+http://i263.photobucket.com/albums/ii143/pbauer007/Inside-facebook-64.png
+http://i263.photobucket.com/albums/ii143/pbauer007/Inside-rss-64.png
+http://i263.photobucket.com/albums/ii143/pbauer007/Inside-twitter-64.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
