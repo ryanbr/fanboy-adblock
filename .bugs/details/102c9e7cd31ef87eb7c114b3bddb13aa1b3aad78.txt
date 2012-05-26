@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://collegecandy.com/2012/05/20/ultimate-summer-2012-workout-playlist/
+
+
+[filters]
+http://s0.wp.com/wp-content/themes/vip/collegecandy/assets/social/fb.png?m=1334829603g
+http://s0.wp.com/wp-content/themes/vip/collegecandy/assets/social/fs.gif?m=1334829603g
+http://s0.wp.com/wp-content/themes/vip/collegecandy/assets/social/pinterest.jpg?m=1334829603g
+http://s0.wp.com/wp-content/themes/vip/collegecandy/assets/social/tublr.png?m=1334829603g
+http://s0.wp.com/wp-content/themes/vip/collegecandy/assets/social/youtube.png?m=1334829603g
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
