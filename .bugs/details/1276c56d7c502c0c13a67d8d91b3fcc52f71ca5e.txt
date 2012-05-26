@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.midwestsportsfans.com/2012/05/the-12-greatest-indianapolis-500-moments/
+
+
+[filters]
+http://ui.digitalsportsventures.com/js/dsv_video_bar.min.js
+http://ui.digitalsportsventures.com/css/dsv_video_bar.css
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
