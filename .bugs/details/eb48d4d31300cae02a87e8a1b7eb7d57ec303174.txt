@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thomsonlocal.com/BusinessFinder.aspx?phrase=Car+Spare+Parts&where=E5%2C+Clapton%2C+London&ld=-1&viewmap=true&type=&2Box=true
+
+
+[filters]
+http://www.thomsonlocal.com/js/adSense-min.js?v4
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
