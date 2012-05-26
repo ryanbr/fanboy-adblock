@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dfs.co.uk/sofas/offers/trophy/ipod-cuddler-chair/
+
+
+[filters]
+http://www.dfs.co.uk/framework/javascript/ga-social-tracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
