@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.motoclub-tingavert.it/a2753s.html
+
+
+[filters]
+http://www.motoclub-tingavert.it/modules/Dv_Banner/bstat.js?bid=57
+http://www.motoclub-tingavert.it/modules/Dv_Banner/bstat.js?bid=59
+http://www.motoclub-tingavert.it/modules/Dv_Banner/images/pirelli_scorpion_trail.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
