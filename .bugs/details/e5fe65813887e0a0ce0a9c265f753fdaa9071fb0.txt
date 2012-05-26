@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://coedmagazine.com/2012/05/25/keira-knightley-engaged-photos/
+
+
+[filters]
+http://s0.wp.com/wp-content/themes/vip/coedmagazine3/linkwidgets/slingshot_blinks.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
