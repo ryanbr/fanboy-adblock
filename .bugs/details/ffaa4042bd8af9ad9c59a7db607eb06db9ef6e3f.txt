@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://androidcommunity.com/samsung-galaxy-s-iii-pebble-blue-delayed-20120525/
+
+
+[filters]
+http://cdn.androidcommunity.com/wp-content/themes/ac-2012/images/ac2012/icon_gplus_32.png
+http://cdn.androidcommunity.com/wp-content/themes/ac-2012/images/ac2012/icon_reader_32.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
