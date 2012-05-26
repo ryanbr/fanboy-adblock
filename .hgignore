@@ -1,3 +1,4 @@
 syntax: glob
 scripts/b.pyo
 scripts/b.pyc
+.bugs/bugs-*
