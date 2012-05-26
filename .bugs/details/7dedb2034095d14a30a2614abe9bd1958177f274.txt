@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://eroshinnshi.blog136.fc2.com/blog-entry-1851.html
+
+
+[filters]
+http://g.seoparts.net/u80.gif
+http://js.addclips.org/v2/addclips.js
+http://www.a-pagerank.net/_img/mark/npr_na.gif
+http://www.a-pagerank.net/util/624de2cb-e84f-4341-b8bd-46262852a865.js
+http://www.a-pagerank.net/util/get.js?id=S-012942
+http://www.a-pagerank.net/util/pv_count.js
+http://ad.duga.jp/affimage/dp-petersppv-0245/8/10780-01
+http://ad.duga.jp/affimage/sd-hunterppv-0298/8/10780-01
+http://ad.duga.jp/flash/dugacgplayer.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
