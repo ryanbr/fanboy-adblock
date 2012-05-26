@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gesomoon.com/Ver2/board/list.php?tableName=comm_best0902&bCategory=21
+
+
+[filters]
+http://img.gesomoon.com/images/2011/banner1_1121.gif
+http://img.gesomoon.com/images/2011/banner2_1121.gif
+http://115.68.54.61/Ver2/images/205110_itembank_0430.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
