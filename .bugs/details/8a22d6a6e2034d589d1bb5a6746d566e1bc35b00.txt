@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lifenews.ru/news/42814
+
+
+[filters]
+http://asg.vidigital.ru/1/274/i/h
+http://asg.vidigital.ru/?v=1&t=c&f=v&x=2&p=252&i=201269950
+http://asg.vidigital.ru/?v=1&t=c&f=v&x=2&p=79&i=598327664
+http://www.lifenews.ru/flash/banners/b_babushki.swf
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
