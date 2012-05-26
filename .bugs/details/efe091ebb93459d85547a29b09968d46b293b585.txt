@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://zanaorias.blog90.fc2.com/blog-entry-4746.html
+
+
+[filters]
+http://img.i2i.jp/all/ad/top/2012012657027.gif
+http://www.infotop.jp/click.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
