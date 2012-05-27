@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+phim74.net/xem-phim/online/cuoc-doi-lon/88251.html
+
+
+[filters]
+http://tintuc88.com/popup.php
+http://tintuc88.com/tin-sock/quay-len-hoc-sinh-yeu-nhau-noi-cong-cong.html
+http://tocdo.vn/
+http://ad.xdeal.vn/inslide/css/style300x250.css
+http://ads.xdeal.vn/site/edit-code/300x250.html?utm_medium=Inside+Banner+300x250&utm_source=phim74.net&utm_campaign=05052012
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
