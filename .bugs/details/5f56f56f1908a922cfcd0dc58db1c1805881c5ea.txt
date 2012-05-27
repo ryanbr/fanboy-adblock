@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.podomatic.com/login
+
+
+[filters]
+http://d1.openx.org/avw.php?zoneid=163415&cb=92458860&n=ad1875d0
+http://d1.openx.org/avw.php?zoneid=163416&cb=19888893&n=a3c4c0de
+http://d1.openx.org/avw.php?zoneid=163417&cb=93032628&n=acb9200a
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
