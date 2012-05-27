@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tocdo.vn/
+
+
+[filters]
+http://www.tocdo.vn/images/tocdoads/51deal_680x100.swf
+http://www.tocdo.vn/images/tocdoads/680x80_KQSX.swf
+http://www.tocdo.vn/images/tocdoads/baokim.jpg
+http://www.tocdo.vn/images/tocdoads/ketoanexcel.gif
+http://www.tocdo.vn/images/tocdoads/nganluong.png
+http://www.tocdo.vn/images/tocdoads/xaluanvideo.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
