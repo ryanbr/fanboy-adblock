@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://chaturbate.com/female-cams/
+
+
+[filters]
+http://ccstatic.highwebmedia.com/static/hosted/xprofiles/300x250_01.gif
+http://ccstatic.highwebmedia.com/static/hosted/xprofiles/300x250_02.gif
+http://ccstatic.highwebmedia.com/static/hosted/xprofiles/300x250_03.gif
+http://ccstatic.highwebmedia.com/static/hosted/dinero/160x600/untrue_profile1_banner05_blue.jpg
+http://www.socialsex.com/dating/popmybubble/37934/z_chaturbate_popup_7
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
