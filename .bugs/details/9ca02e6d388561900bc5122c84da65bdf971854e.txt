@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+#http://epidemz.net/index.php?do=*
+
+
+[filters]
+http://real4traf.ru/code/msgbox.php?id=6153
+http://real4traf.ru/code/peeldown.php?id=6153
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
