@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lifescript.com/quizzes/fitness/whats_your_butt_exercise_iq.aspx
+
+
+[filters]
+http://api.adjector.com/Scripts/PopUnder.js
+http://api.adjector.com/Content/popBanner.css
+http://api.adjector.com/Images/PopHeaders/carousel_arrow_women.png
+http://api.adjector.com/PopTracking/GetUserBanners?CampaignID=199&ClientID=40&Referrer=&FirstName=&LastName=&Email=&HomePhone=&Sensitivity=1&callback=_jqjsp&_1338158400678=
+http://api.adjector.com/Scripts/PopBanner.js
+http://api.adjector.com/Scripts/PopBannerLoader.js
+http://api.adjector.com/Scripts/jquery.jsonp-2.2.0.min.js
+http://api.adjector.com/Scripts/jquery.simplemodal.1.4.2.min.js
+http://api.adjector.com/content/images/carousel_nothanks.png
+http://api.adjector.com/content/images/next.png
+http://api.adjector.com/content/images/poweredbyadjector.png
+http://api.adjector.com/content/images/prev.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
