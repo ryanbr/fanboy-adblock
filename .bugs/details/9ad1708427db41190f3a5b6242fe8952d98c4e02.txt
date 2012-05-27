@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ebay.com/itm/180886668071?ssPageName=*&_trksid=*
+
+
+[filters]
+http://pics.ebaystatic.com/aw/pics/social/spr_share_widget_v1.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
