@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://zombiegamer.co.za/category/news
+
+
+[filters]
+http://zombiegamer.co.za/wp-content/uploads/2012/03/UFC3-Zombie-Gamer-Skin-Reduced_03.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
