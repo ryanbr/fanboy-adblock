@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://flippa.com/2749123-estabilshed-mobileapp-website-dont-miss-out
+
+
+[filters]
+https://track.brighteroption.com/b?p=sx2t7n&l=4
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
