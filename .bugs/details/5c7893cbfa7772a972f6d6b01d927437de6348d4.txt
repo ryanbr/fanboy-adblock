@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bbc.co.uk/radio/player/bbc_radio_one
+
+[filters]
+http://static.bbci.co.uk/modules/sharetools/v1/script/sharetools.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
