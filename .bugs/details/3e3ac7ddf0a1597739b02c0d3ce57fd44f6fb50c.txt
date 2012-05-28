@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://player.stv.tv/programmes/the-jeremy-kyle-show/2012-05-25-0925/?yes
+
+
+[filters]
+http://79423.analytics.edgekey.net/csma/brightcove/BrightcoveCSMALoader.swf?pluginPath=http://79423.analytics.edgekey.net/csma/plugin/csma.swf&configPath=http://ma156-r.analytics.edgekey.net/config/beacon-1686.xml
+http://79423.analytics.edgekey.net/csma/plugin/csma.swf
+http://ma156-r.analytics.edgekey.net/config/beacon-1686.xml?beaconVersion=1.0&d=2842012
+http://ma156-r.analytics.edgekey.net/crossdomain.xml
+http://files.stv.tv/img/player/stvplayer-sponsorstrip-weathers.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
