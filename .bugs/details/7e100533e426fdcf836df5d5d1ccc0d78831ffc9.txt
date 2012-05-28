@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bk.com/
+
+[filters]
+http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f5890e00ab23e53
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
