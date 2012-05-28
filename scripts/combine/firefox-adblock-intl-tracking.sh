@@ -62,6 +62,30 @@ sed -i '/topshoptv.com.ua/d' $TESTDIR/fanboy-rus-track.txt
 sed -i '/stats.e-go.gr/d' $TESTDIR/fanboy-rus-track.txt
 sed -i '/nigma.ru/d' $TESTDIR/fanboy-rus-track.txt
 sed -i '/gemius_/d' $TESTDIR/fanboy-rus-track.txt
+#
+#
+sed -i '/||cnzz.com/stat/d' $TESTDIR/fanboy-chn-track.txt
+sed -i '/\/webtrekk./d' $TESTDIR/fanboy-ita-track.txt
+sed -i '/.cn\/urchin.js/d' $TESTDIR/fanboy-chn-track.txt
+sed -i '/||zoosnet.net/d' $TESTDIR/fanboy-chn-track.txt
+sed -i '/||stat.tudou.com/d' $TESTDIR/fanboy-chn-track.txt
+sed -i '/||bugun.com.tr\^\*\/stat.aspx/d' $TESTDIR/fanboy-tky-track.txt
+sed -i '/||dot.wp.pl/d' $TESTDIR/fanboy-pol-track.txt
+sed -i '/.com\/logger\//d' $TESTDIR/fanboy-krn-track.txt
+sed -i '/||mc.yandex.ru/d' $TESTDIR/fanboy-rus-track.txt
+sed -i '/||hotlog.ru/d' $TESTDIR/fanboy-rus-track.txt
+sed -i '/||rek.www.wp.pl/d' $TESTDIR/fanboy-pol-track.txt
+sed -i '/||spylog.ru\/counter/d' $TESTDIR/fanboy-rus-track.txt
+sed -i '/||videoplaza.com\/proxy\/tracker/d' $TESTDIR/fanboy-swe-track.txt
+sed -i '/||easyresearch.se/d' $TESTDIR/fanboy-swe-track.txt
+sed -i '/||webiqonline.com/d' $TESTDIR/fanboy-krn-track.txt
+sed -i '/||tns-counter.ru/d' $TESTDIR/fanboy-rus-track.txt
+sed -i '/||newstogram/d' $TESTDIR/fanboy-esp-track.txt
+sed -i '/||net-filter.com/d' $TESTDIR/fanboy-ind-track.txt
+sed -i '/||openstat.net/d' $TESTDIR/fanboy-rus-track.txt
+sed -i '/||post.rmbn.ru/d' $TESTDIR/fanboy-rus-track.txt
+sed -i '/||waplog.net/d' $TESTDIR/fanboy-rus-track.txt
+
 
 # Merge Everything together
 #
