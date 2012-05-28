@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.guardian.co.uk/media/2012/may/27/graham-linehan-twitter-has-made-me
+
+
+[filters]
+http://h.ophan.co.uk/t.gif?v=4&url=http%3A%2F%2Fwww.guardian.co.uk%2Fmedia%2F2012%2Fmay%2F27%2Fgraham-linehan-twitter-has-made-me&ref=http%3A%2F%2Fwww.reddit.com%2F&perf=0,292,144,1854,8983,0,0
+http://s.ophan.co.uk/js/t4.min.js
+http://js.cogmatch.net/sm/cm_lib_guardian.js?rnd=793.5601384447223
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
