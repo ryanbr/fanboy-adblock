@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://propakistani.pk/
+
+[filters]
+http://propakistani.pk/wp-content/themes/propakistani/images/warid.jpg
+http://propakistani.pk/data/warid_top1.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
