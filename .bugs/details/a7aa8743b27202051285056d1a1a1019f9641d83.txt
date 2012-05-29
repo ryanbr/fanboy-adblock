@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tvguide.ca/TVNews/Articles/120529_citytv_fall_AD
+
+
+[filters]
+http://ajax.twitthis.com/chuug.twitthis.resources/twitthis_grey_72x22.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
