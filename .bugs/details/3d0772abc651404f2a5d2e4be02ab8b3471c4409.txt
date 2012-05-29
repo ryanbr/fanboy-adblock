@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://videos.antville.org/stories/2123663/
+
+[filters]
+http://www2.music-tags.com/scripts/log_ad_play.php?videocount=ADVERTISEMENT1&site=www%2Eblastro%2Ecom&filename=Openx&noAdsReturnedCount=1&type=video&action=noAdReturned&getVars=&provider=openx&mediaURL=noAdReturned&mediatype=flv&id=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
