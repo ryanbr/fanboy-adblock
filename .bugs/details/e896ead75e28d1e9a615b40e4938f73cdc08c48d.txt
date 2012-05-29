@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sho.com/sho/home
+
+
+[filters]
+sho.com/ROOT/lib/js/vendor/omniture/s_code.js
+
+
+
+
+[other]
+Need to whitelist to prevent popup on site complaint
+
+
+[comments]
+fanboy
