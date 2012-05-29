@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cloud-www.vehix.com/research-cars/2013/cadillac/escalade-hybrid
+
+
+[filters]
+http://cloud-www.vehix.com/tags/default.imu?tile=2&size=400x40&site=veh&segment=new&brand=VehixBeta&zip=&z1=bg&z2=mod&z3=Escalade%20Hybrid&secondarybodystyle=luxury&make=Cadillac&model=Escalade%20Hybrid&product=model&style=luxury&section=buyers_guide&year=2013&ord=2983074004992838
+http://cloud-www.vehix.com/tags/default.imu?tile=4&size=300x120&site=veh&segment=new&brand=VehixBeta&zip=&z1=bg&z2=mod&z3=Escalade%20Hybrid&secondarybodystyle=luxury&make=Cadillac&model=Escalade%20Hybrid&product=model&style=luxury&section=buyers_guide&year=2013&ord=2983074004992838
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
