@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.globaltv.com/ncislosangeles/video/full+episodes/sans+voir++part+i++ii+season+finale/video.html?v=2235425756&p=1&s=dd#ncislosangeles/video/full+episodes
+
+
+[filters]
+http://ad.ca.doubleclick.net/N6872/adj/shaw.globaltv.com/ncislosangeles/video/full+episodes/sans+voir++part+i++ii+season+finale/video;loc=top;sz=1x1;kw=ron;kw=globaltv;pr=globaltv;nk=cbrdcst;ck=ncislosangeles;sck=video;sck=fullepisodes;sck=sansvoirpartiiiseasonfinale;sck=video;imp=ncislosangeles;tile=2;ord=41066897?
+http://ad.ca.doubleclick.net/N6872/adj/shaw.globaltv.com/ncislosangeles/video/full+episodes/sans+voir++part+i++ii+season+finale/video;loc=top;sz=468x60,728x90;dcopt=ist;kw=ron;kw=globaltv;pr=globaltv;nk=cbrdcst;ck=ncislosangeles;sck=video;sck=fullepisodes;sck=sansvoirpartiiiseasonfinale;sck=video;imp=ncislosangeles;tile=1;ord=41066897?
+http://ad.ca.doubleclick.net/N6872/pfadx/shaw.globaltv.com/globalncislosangeles/video;afv_frm=0;afv_output=xml_vast2;afv_u_cd=24;afv_videoFormat=18;tile=1;afv_flash=11.2.202.235;afv_u_tz=720;!c=iframe;afv_u_w=1920;afv_adType=video;afv_u_his=2;afv_u_java=true;afv_u_aw=1920;pos=pre2;sck=video;sck=fullepisodes;sck=sansvoirpartiiiseasonfinale;sck=video;afv_contentId=jX9RUP9IP7mSbPOwlJi1VwZfIzIg18M0;exp=no;afv_u_nplug=3;show=ncis_los_angeles;afv_numAds=1;ck=ncislosangeles;afv_productType=0;afv_u_nmime=40;network=global;kw=ron;kw=globaltv;afv_dt=1338291184082;season=3;afv_u_ah=1040;afv_maxTotalAdDuration=110000;episode=23;dc_ref=http://www.globaltv.com/ncislosangeles/video/full+episodes/sans+voir++part+i++ii+season+finale/video.html?s=dd&p=1&v=2235425756;afv_u_asa=1;cnt=entertainment;sz=320x240,480x360,912x342;afv_adTimePosition=1;imp=ncislosangeles;loc=top;dcopt=ist;pr=globaltv;nk=cbrdcst;afv_u_h=1080;clipLength=long;ord=1338291182736
+http://ad.ca.doubleclick.net/N6872/pfadx/shaw.globaltv.com/globalncislosangeles/video;afv_u_nmime=40;afv_videoFormat=18;afv_flash=11.2.202.235;pr=globaltv;cnt=entertainment;afv_u_tz=720;afv_u_cd=24;afv_frm=0;afv_u_asa=1;network=global;afv_u_nplug=3;afv_u_w=1920;afv_maxTotalAdDuration=110000;afv_u_aw=1920;tile=1;pos=pre1;clipLength=long;ck=ncislosangeles;afv_output=xml_vast2;afv_u_ah=1040;afv_u_java=true;afv_contentId=jX9RUP9IP7mSbPOwlJi1VwZfIzIg18M0;loc=top;show=ncis_los_angeles;nk=cbrdcst;afv_u_his=2;exp=no;kw=ron;kw=globaltv;season=3;sck=video;sck=fullepisodes;sck=sansvoirpartiiiseasonfinale;sck=video;afv_dt=1338291182650;!c=iframe;imp=ncislosangeles;dc_ref=http://www.globaltv.com/ncislosangeles/video/full+episodes/sans+voir++part+i++ii+season+finale/video.html?s=dd&p=1&v=2235425756;afv_adTimePosition=1;afv_u_h=1080;sz=320x240,480x360,912x342;episode=23;afv_productType=0;afv_adType=video;dcopt=ist;afv_numAds=1;ord=1338291181334
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
