@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.foodnetwork.ca/topchefcanada/video/index.html?releasePID=EsqanBCQQN2_8AjYTpMdPVxYE0Wb2i32
+
+
+[filters]
+http://www.foodnetwork.ca/UserControls/LargePlayerWidget/ThePlatformFoodTVLargePlayer/swf/omnitureMedia.swf
+http://www.foodnetwork.ca/Media/TopChefImages/AdHeading_Leaderboard.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
