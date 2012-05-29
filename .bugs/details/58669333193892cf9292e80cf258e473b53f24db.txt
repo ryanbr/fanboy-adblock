@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vancouversun.com/news/Burnaby+restaurant+owner+woman+gunned+down+inside+business+with+video/6689316/story.html
+
+[filters]
+http://ad.ca.doubleclick.net/N3081/adj/vancouversun.com/news/story;loc=top;sz=960x42;kw=ron;kw=news;nk=print;pr=vs;ck=news;page=story;kw=vs;tile=2;ord=45146008?
+http://ad.ca.doubleclick.net/N3081/adj/vs_news.com/news/story;loc=bot_box;loc=bot;sz=250x250,300x250;kw=ron;kw=news;nk=print;pr=vs;ck=news;page=story;kw=vs;tile=4;ord=45146008?
+http://ad.ca.doubleclick.net/N3081/adj/vs_news.com/news/story;loc=theTop;loc=top;sz=468x60,728x90;dcopt=ist;kw=ron;kw=news;nk=print;pr=vs;ck=news;page=story;kw=vs;tile=1;ord=45146008?
+http://ad.ca.doubleclick.net/N3081/adj/vs_news.com/news/story;loc=top_box;loc=top;sz=250x250,300x250,300x600;kw=ron;kw=news;nk=print;pr=vs;ck=news;page=story;kw=vs;tile=3;ord=45146008?
+http://ad.ca.doubleclick.net/crossdomain.xml
+
+
+
+[other]
+Works fine without whitelist, safe to remove.
+@@||ad.ca.doubleclick.net^$domain=vancouversun.com,script,object-subrequest
+
+[comments]
+fanboy
