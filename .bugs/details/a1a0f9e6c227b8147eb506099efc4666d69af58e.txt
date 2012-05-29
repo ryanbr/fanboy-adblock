@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://motor.israelinfo.ru/news/2592
+
+
+[filters]
+http://motor.israelinfo.ru/redtram/informer.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
