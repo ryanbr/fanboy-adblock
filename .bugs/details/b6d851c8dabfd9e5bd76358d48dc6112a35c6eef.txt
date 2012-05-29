@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.edmontonjournal.com/news/index.html
+
+
+[filters]
+http://ad.ca.doubleclick.net/N3081/adj/ej_news.com/news/index;loc=adimpulse;loc=top;sz=300x100;kw=ron;kw=news;nk=print;pr=ej;ck=news;page=index;imp=news;kw=ej;tile=4;ord=42874879?
+http://ad.ca.doubleclick.net/N3081/adj/ej_news.com/news/index;loc=bot_box;loc=bot;sz=250x250,300x250;kw=ron;kw=news;nk=print;pr=ej;ck=news;page=index;imp=news;kw=ej;tile=8;ord=42874879?
+http://ad.ca.doubleclick.net/N3081/adj/ej_news.com/news/index;loc=textlink;loc=bot;sz=125x125;kw=ron;kw=news;kw=bot;nk=print;pr=ej;ck=news;page=index;imp=news;kw=ej;tile=7;ord=42874879?
+http://ad.ca.doubleclick.net/N3081/adj/ej_news.com/news/index;loc=textlink;loc=mid;sz=125x125;kw=ron;kw=news;kw=mid;nk=print;pr=ej;ck=news;page=index;imp=news;kw=ej;tile=6;ord=42874879?
+http://ad.ca.doubleclick.net/N3081/adj/ej_news.com/news/index;loc=textlink;loc=top;sz=125x125;kw=ron;kw=news;kw=top;nk=print;pr=ej;ck=news;page=index;imp=news;kw=ej;tile=5;ord=42874879?
+http://ad.ca.doubleclick.net/N3081/adj/ej_news.com/news/index;loc=theTop;loc=top;sz=468x60,728x90;dcopt=ist;kw=ron;kw=news;nk=print;pr=ej;ck=news;page=index;imp=news;kw=ej;tile=1;ord=42874879?
+http://ad.ca.doubleclick.net/N3081/adj/ej_news.com/news/index;loc=top;sz=300x114;kw=ron;kw=news;nk=print;pr=ej;ck=news;page=index;imp=news;kw=ej;tile=2;ord=42874879?
+http://ad.ca.doubleclick.net/N3081/adj/ej_news.com/news/index;loc=top_box;loc=top;sz=250x250,300x250,300x600;kw=ron;kw=news;nk=print;pr=ej;ck=news;page=index;imp=news;kw=ej;tile=3;ord=42874879?
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
