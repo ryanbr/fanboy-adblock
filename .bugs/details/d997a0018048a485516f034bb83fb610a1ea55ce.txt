@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.theglobeandmail.com/news/video/video-air-canada-plane-makes-emergency-landing/article2446115/
+
+
+[filters]
+http://www.theglobeandmail.com/news/video/video-air-canada-plane-makes-emergency-landing/article2446115/
+http://ad.ca.doubleclick.net/adi/video.theglobeandmail.com/coad;coad=254728822;!category=pop;!category=video;!category=float;!category=expand;pos=coad;adpg=coad;arena=video;sz=300x250;ord=3608161?
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
