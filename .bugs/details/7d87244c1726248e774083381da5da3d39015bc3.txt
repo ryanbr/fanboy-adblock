@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.essence.com/2012/05/10/amber-riley-confirms-shes-done-with-glee/
+
+
+[filters]
+http://ll-assets.essence.com/www.essence.com/default/cacheimg/site/collision-ad-marker.v2011_09_01_135719.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
