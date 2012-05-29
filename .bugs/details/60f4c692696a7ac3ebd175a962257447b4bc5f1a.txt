@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dp-news.com/en/detail.aspx?articleid=121909
+
+
+[filters]
+http://www.dp-news.com/Contents/Flash/Ad/MTN-20120517.swf
+http://www.dp-news.com/contents/picture/ad/xittra.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
