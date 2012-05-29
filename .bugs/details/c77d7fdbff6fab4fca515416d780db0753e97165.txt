@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ru.delfi.lt/news/live/v-shyaulyaj-sostoyalos-aviacionnoe-shou.d?id=58799769
+
+
+[filters]
+http://ap.delfi.lt/b?region=1643
+http://ap.delfi.lt/b?region=1687
+http://g2.delfi.lt/b//smspinigai_mai_250x130_rus_delfi.gif
+http://g4.delfi.lt/b//Ventspils_250x130_lt-ru_govis.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
