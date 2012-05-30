@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.milliyet.com.tr/fotogaleri/45333-yasam-gercek-mi--sahte-mi-/
+
+
+[filters]
+http://genelistatistik3.milliyet.com.tr/CntRpt.aspx?UniqueID=1300153&rnd=65325&SourceID=29
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
