@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://seclists.org/nmap-hackers/
+
+
+[filters]
+http://seclists.org/shared/images/p/Acunetix/120x90_Scanner.gif
+http://seclists.org/shared/images/p/gfi/120x90_gfi_languard_rebranding.gif
+http://seclists.org/shared/images/p/solarwinds/sw_banner728x90_lem_award2012.png
+http://seclists.org/shared/images/p/solarwinds/sw_siem_lem_120x90.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
