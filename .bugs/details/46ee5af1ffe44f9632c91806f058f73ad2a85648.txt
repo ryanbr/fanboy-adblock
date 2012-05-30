@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sf.se/biljetter/bokningsflodet/valj-forestallning/
+
+
+[filters]
+http://se-02.adtomafusion.com/js/ssbqm/annonsbokningen.sf.www.se/lokal_layout?url=http%3A%2F%2Fwww.sf.se%2Fbiljetter%2Fbokningsflodet%2Fvalj-forestallning%2F&browserName=Firefox&browserVersion=15&browser=Firefox15&OS=win7&wm=0&rv=0&silverlight=1&qt=0&flash=11&screenRes=1920x1080&screenWidth=1920&screenHeight=1080&browserWidth=1920&browserHeight=976&time=2344&weekDay=wednesday&sf_film=&sf_stad=se&sf_typ=http&biograf=&sf_datum=&sf_tid=&sf_intresse=&sf_grupp=&sf_dinbiograf=
+http://se-02.adtomafusion.com/smartscrptB.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
