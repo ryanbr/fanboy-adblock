@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.qcard.co.nz/index.php/component/content/article/676?icn=QCard_Promo_Search&ici=18+months+interest+free+at+Dick+Smith*
+
+
+[filters]
+http://www.qcard.co.nz/templates/q_card_2011/css/images/qc-btn-social-print.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
