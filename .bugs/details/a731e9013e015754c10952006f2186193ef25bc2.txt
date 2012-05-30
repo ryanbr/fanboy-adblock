@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.indirmeden-filmizle.com/filmler/bilim-kurgu-filmleri/page/3
+
+
+[filters]
+http://www.hiperbet.com/uploads/Flash/ad/120x600Casino.swf?bonus=sinemada
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
