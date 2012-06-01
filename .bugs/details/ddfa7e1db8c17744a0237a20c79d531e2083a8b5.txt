@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gazeta.lv/
+
+
+[filters]
+http://imd.petit.lv/www/imgget/imgjs.php?what=big_gazeta&campaignid=0&cb=399514585&loc=&referer=
+http://img.petit.lv/www/delivery/ag.php
+http://img.petit.lv/www/imgget/imgjs.php?what=win_gazeta&campaignid=0&cb=962623075&loc=www.gazeta.lv
+http://knc.lv/scripts/knc_lib.js
+http://knc.lv/scripts/knc_lib.php?m=getIntext&pid=187&rand=1338505737260
+http://knc.lv/scripts/knc_lib.php?m=getKnc&pid=187&rand=1338505737256
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
