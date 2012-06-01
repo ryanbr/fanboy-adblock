@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wjunction.com/
+
+
+[filters]
+http://i.wjunction.com/530x60_altushost.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
