@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.eff.org/pages/who-has-your-back
+
+
+[filters]
+https://www.eff.org/sites/default/files/facebook.png
+https://www.eff.org/sites/default/files/linkedin.png
+https://www.eff.org/sites/default/files/twitter.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
