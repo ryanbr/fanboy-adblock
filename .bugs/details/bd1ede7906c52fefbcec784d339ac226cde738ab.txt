@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://events.nbc4i.com/columbus_oh/events/show/171822085-michael-jackson-the-immortal-world-tour-by-cirque-du-soleil
+
+
+[filters]
+http://pixel.claritytag.com/get_tags/UT-736573600?optIn=false&732074
+http://pixel.claritytag.com/javascripts/clarity.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
