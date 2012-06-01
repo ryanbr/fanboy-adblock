@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forum.notebookreview.com/windows-os-software/592969-firefox-5-memory-leak-decreases-system-performance.html
+
+
+[filters]
+http://cdn.ttgtmedia.com/rms/ux/javascript/jquery.writeCapture.js
+http://cdn.ttgtmedia.com/rms/ux/javascript/writeCapture.js
+http://dpmsrv.com/script_serve.php?t=1&cl=51&st=tg&zn=atgnb/forums&kw=fid%3D15&sz=1&ref=http://forum.notebookreview.com/windows-os-software/592969-firefox-5-memory-leak-decreases-system-performance.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
