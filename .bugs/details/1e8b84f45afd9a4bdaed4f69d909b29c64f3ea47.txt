@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ispreview.co.uk/index.php/2012/05/german-isp-delivers-world-record-internet-download-speed-of-4700mbps.html
+
+
+[filters]
+http://www.delicious.com/static/img/delicious.small.gif
+http://www.diigo.com/images/diigo-icon/16.png
+http://www.ispreview.co.uk/images/slashdot-icon.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
