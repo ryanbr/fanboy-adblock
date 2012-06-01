@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.webotes.com/page/23/
+
+
+[filters]
+http://estaticosak1.tuenti.com/layout/web2-Zero/images/corporate/6_share_es_ca.e0bf75da86.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
