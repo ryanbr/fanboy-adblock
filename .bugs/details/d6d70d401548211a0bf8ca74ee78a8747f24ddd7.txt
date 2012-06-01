@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thinkbroadband.com/
+
+
+[filters]
+http://www.thinkbroadband.com/uploads/banners/4c8358c727fbc59cf08a227e7df096f5.gif
+http://www.thinkbroadband.com/uploads/banners/ba071ac9bd2dce60cb993ea4d85ee1ac.gif
+http://www.thinkbroadband.com/uploads/banners/fcba10cf9e262c9d27a7740aeb36e7ec.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
