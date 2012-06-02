@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://espnfc.com/en
+
+
+[filters]
+http://a.espncdn.com/combiner/c?css=espnfc/eurofc/reset.css,espnfc/eurofc/base.r3.css,espnfc/eurofc/grid/970.css,espnfc/eurofc/site-structure/header.r3.css,espnfc/eurofc/site-structure/sub-header.r1.css,espnfc/eurofc/site-structure/navigation.css,espnfc/eurofc/site-structure/footer.css,espnfc/eurofc/modules/editions.r2.css,espnfc/eurofc/ui/ui.r1.css,espnfc/eurofc/ui/forms.css,espnfc/eurofc/ui/lists.r3.css,espnfc/eurofc/ui/tabs.r4.css,espnfc/eurofc/ui/table.css,espnfc/eurofc/ui/advertising.r4.css,espnfc/eurofc/ui/flags.css,espnfc/eurofc/modules/modules.r10.css,espnfc/eurofc/ui/social.css,espnfc/eurofc/page-type/media.r5.css&debug=true&minify=false
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
