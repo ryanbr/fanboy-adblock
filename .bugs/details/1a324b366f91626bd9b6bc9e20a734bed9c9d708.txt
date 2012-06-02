@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gamesofdesire.com/gambling/strip-poker-with-alyssia-l/
+
+
+[filters]
+http://www.gamesofdesire.com/images/banners/sexsim_vert_1.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
