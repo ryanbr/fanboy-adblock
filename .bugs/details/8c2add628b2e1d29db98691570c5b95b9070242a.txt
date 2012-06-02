@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://photosex.biz/v.php?id=ac49223b2a110f83fd54e1d2398c5757
+
+
+[filters]
+http://t2.cmix.org/teasers/?id=6046&rand=572&img_id=ac49223b2a110f83fd54e1d2398c5757&rr=&logic=4&ps=1
+http://t2.cmix.org/teasers/?id=6048&rand=318&img_id=ac49223b2a110f83fd54e1d2398c5757&rr=&logic=2&ps=1
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
