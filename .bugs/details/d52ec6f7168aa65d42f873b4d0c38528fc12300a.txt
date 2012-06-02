@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://alotporn.com/39236/wife-with-a-black-cock-at-glory-hole/
+
+
+[filters]
+http://alotporn.com/adv1.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
