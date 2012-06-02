@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.drtuber.com/video/209802/very-hot-ex-girlfriend-bent-over-and-fucked-doggystyle-on-a-bed
+
+
+[filters]
+http://www.drtuber.com/templates/frontend/white/js/adx_flash.js?v=11.53
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
