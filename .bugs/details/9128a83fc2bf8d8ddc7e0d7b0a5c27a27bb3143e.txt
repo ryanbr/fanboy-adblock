@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.winnfm.com/
+
+
+[filters]
+http://www.winnfm.com/GRFX/Banners/320x92BTSPricingbanner.swf
+http://www.winnfm.com/GRFX/Banners/Caines_Auto_150x225(1).jpg
+http://www.winnfm.com/GRFX/Banners/Digicel_Cash_BAck_320x390.jpg
+http://www.winnfm.com/GRFX/Banners/Digicel_SKN-digihome-EMAIL-SIG_1__604x224.jpg
+http://www.winnfm.com/GRFX/Banners/Gq.jpg
+http://www.winnfm.com/GRFX/Banners/SIDFFINANCIAL_STATEMENTS.jpg
+http://www.winnfm.com/GRFX/Banners/TDC_Fathers_Day_Sale_604x224.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
