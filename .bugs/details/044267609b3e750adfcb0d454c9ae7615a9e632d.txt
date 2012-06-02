@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.axifile.com/en/download-error.php?code=DL_FileNotFound
+
+
+[filters]
+http://123date.me/iframe.php?tid=493&rows=1&cols=6&lang=eng&geo_auto=1&age_from=18&age_to=40&size=2&show_info=1&new_window=1&width=500&width_px=1&link_no_follow=1&photo_bord_width=1&fo=1&icons=gray
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
