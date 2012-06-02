@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.buzzer-manager.com/en/analyse/90313/
+
+
+[filters]
+
+@@||buzzer-manager.com/img/banniere_bm_980x100.png
+
+[other]
+removed bad filters
+
+
+[comments]
+fanboy
