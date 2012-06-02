@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vonradio.com/
+
+
+[filters]
+http://www.vonradio.com/GRFX/Banners/CARICOMaudio_banner-copy.jpg
+http://www.vonradio.com/GRFX/Banners/CARICOMreport_banner.jpg
+http://www.vonradio.com/GRFX/Banners/ECSCreport_banner.jpg
+http://www.vonradio.com/GRFX/Banners/bon.jpg
+http://www.vonradio.com/GRFX/Banners/inSkn_728X90_banner.jpg
+http://www.vonradio.com/GRFX/Banners/inskn_468x74_banner.jpg
+http://www.vonradio.com/GRFX/Banners/iphone_app.jpg
+http://www.vonradio.com/GRFX/Banners/shopkn_468x60.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
