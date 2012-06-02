@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rapidmoviez.com/
+
+
+[filters]
+http://ax-d.pixfuture.net/w/1.0/afr?cc=1&auid=240874&cb=INSERT_RANDOM_NUMBER_HERE
+http://ax-d.pixfuture.net/w/1.0/afr?cc=1&auid=240875&cb=INSERT_RANDOM_NUMBER_HERE
+http://ax-d.pixfuture.net/w/1.0/afr?cc=1&auid=240877&cb=INSERT_RANDOM_NUMBER_HERE
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
