@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.canada.com/news/Shots+fired+Toronto+Eaton+Centre+media+reports/6720888/story.html
+
+
+[filters]
+http://www.canada.com/js/ooyala/comscore.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
