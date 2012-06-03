@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.deccanherald.com/content/254115/beautifying-battered-city.html
+
+
+[filters]
+http://rmserve.revenuemantra.com/server/log/0.5035662988817063/1/7
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
