@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sportsnet.ca/hockey/2012/06/02/devils_kings_game2_nhl_stanley_cup_final/
+
+
+[filters]
+http://static.rogersdigitalmedia.com/analytics/ComScorePlugin.swf?customField=sport&genre=Sports&debug=true&contentType=06
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
