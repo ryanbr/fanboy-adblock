@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zonealarm.com/security/en-us/trialpay-za-signup.htm
+fp: http://www.trialpay.com/checkout/?c=6771df8&tid=6rGG6-o
+
+
+[filters]
+http://www.trialpay.com/mi/?rc=v&ri=1360480&p=VtA7r&t=A7DDfNl
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
