@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://zattoo.com/#sf-2
+
+
+[filters]
+http://zattoo.com/advertising/channelswitch/SF2
+http://zattoo.com/advertising/channelswitch/RTL
+http://zattoo.com/advertising/channelswitch/DE_dasvierte
+http://usage.zattoo.com/?adblock=startup&f=1338721677429
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
