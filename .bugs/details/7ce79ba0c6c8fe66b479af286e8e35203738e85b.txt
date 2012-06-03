@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tvshark.com/photo/?n=Spring+Breakers+Bikini&c=24&m=30&d=1&l=1
+
+[filters]
+http://www.tvshark.com/stats.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
