@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zabasearch.com/people/john-adams/1
+
+
+[filters]
+http://www.zabasearch.com/search_box.php?qp=%28817%29+263-4814&adword=zaba+phone+noresults
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
