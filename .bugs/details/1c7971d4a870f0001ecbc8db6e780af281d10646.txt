@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://videos.thirdage.com/h/0/0/0/1202619/2304249/?vvad=376,29,08d74e904ba3012faaff0024e87a30c2,AG_P0=videology&pd1=Thirdage&pd2=travelwizard&utm_source=oj_site_pop&utm_medium=organic&utm_campaign=EPVideo
+
+
+[filters]
+http://cache.adfeedstrk.com/tags/pixels/thirdage2.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
