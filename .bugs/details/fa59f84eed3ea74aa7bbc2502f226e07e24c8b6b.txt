@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.oneindia.in/2012/06/03/italyhails-bail-for-marines-in-india-asks-for-theirreturn.html
+
+
+[filters]
+http://pl.yumenetworks.com/dynamic_preroll_playlist.fmil?domain=239mrZgLxHM&imu=medrect&sdk_ver=2.3.1.3&width=300&height=235&embeddedIn=&sdk_url=http%3A%2F%2Fs3.amazonaws.com%2Fadplayer%2Fplayer%2F
+http://pl.yumenetworks.com/crossdomain.xml
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
