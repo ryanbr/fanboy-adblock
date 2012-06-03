@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.makeuseof.com/tag/how-to-extract-audio-from-flv-files-mac-only/
+
+
+[filters]
+http://cdn.gigya.com/js/gigyaGAIntegration.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
