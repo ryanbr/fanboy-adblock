@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.babyblog.ru/community/lenta/baby_food
+
+
+[filters]
+http://www.babyblog.ru/ads_user.php?type=js_user_banner&rand=948350455
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
