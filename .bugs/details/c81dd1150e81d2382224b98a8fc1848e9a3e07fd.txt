@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thisis50.com/
+
+
+[filters]
+http://d3.centralnervous.net/w/1.0/afr?auid=227058&cb=INSERT_RANDOM_NUMBER_HERE
+http://d3.centralnervous.net/w/1.0/afr?auid=227059&cb=INSERT_RANDOM_NUMBER_HERE
+http://d3.centralnervous.net/w/1.0/afr?auid=227060&cb=INSERT_RANDOM_NUMBER_HERE
+http://d3.centralnervous.net/w/1.0/afr?auid=227061&cb=INSERT_RANDOM_NUMBER_HERE
+http://d3.centralnervous.net/w/1.0/afr?auid=227062&cb=INSERT_RANDOM_NUMBER_HERE
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
