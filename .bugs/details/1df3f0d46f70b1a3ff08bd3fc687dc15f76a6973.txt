@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.movilzona.es/foro/illusion-ics-xxlpb-t7097.html#p42187
+
+
+[filters]
+http://www.movilzona.es/wp-content/themes/Skydive-Grupo/static/img/skydive-publicidad.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
