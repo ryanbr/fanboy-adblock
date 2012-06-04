@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.foxnews.com/slideshow/entertainment/2009/09/30/jenny-mccarthy/#slide=3
+
+
+[filters]
+http://assets.luminate.com/3.0/backgrounds/background-00000025.png
+http://assets.luminate.com/3.0/backgrounds/background-00000075.png
+http://assets.luminate.com/3.0/backgrounds/background-ffffff25.png
+http://assets.luminate.com/3.0/icons/card3_sprited_icons_black_2b.png
+http://assets.luminate.com/none.png
+http://cache.luminate.com/product/120/1230bf19500.jpeg
+http://static.luminate.com/gzip/widget/3.0.19347/luminate.min.js
+http://www.luminate.com/widget/async/10bc1576f4f/
+http://www.luminate.com/widget/v3/10bc1576f4f/config/?r=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D12818
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=12818
+
+[comments]
+fanboy
