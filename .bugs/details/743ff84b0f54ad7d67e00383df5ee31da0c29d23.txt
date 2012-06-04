@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.goal.com/en/news/2898/euro-2012
+
+
+[filters]
+http://cdn.kalooga.com/static/kalooga.png
+http://publishing.kalooga.com/overviewWidget?publisherId=1037&widgetId=8769&label=en&async=true
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
