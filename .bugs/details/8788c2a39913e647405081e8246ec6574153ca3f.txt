@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://video.foxbusiness.com/v/1672882003001/
+
+
+[filters]
+http://widgets.outbrain.com/nanoWidget/3rd/comScore/comScore.htm
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
