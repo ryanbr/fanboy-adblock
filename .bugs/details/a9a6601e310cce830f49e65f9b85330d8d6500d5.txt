@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vn-zoom.com/f181/
+
+
+[filters]
+http://210.211.108.201:81/jsads/popupunder.js?v=M%C3%BAi%20gi%E1%BB%9D%20GMT%20+7.%20%20Hi%E1%BB%87n%20t%E1%BA%A1i%20l%C3%A0%20%3Cspan%20class=%22time%22%3E18:57%3C/span%3E.
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
