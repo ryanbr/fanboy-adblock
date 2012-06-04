@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.policymic.com/mobile/article/id/9163
+
+[filters]
+http://www.policymic.com/images/mobile/facebook-btn.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
