@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vagos.es/forum.php
+
+
+[filters]
+http://js.himediads.com/js?lang=es&s=vagos.es&z=ros&d=6366698608
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
