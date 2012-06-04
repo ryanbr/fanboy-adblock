@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tintuc88.com/video-clip/quay-len-mot-doi-phang-nhau-trong-rung.html
+
+
+[filters]
+http://phim247.net/danh-muc/phim-tam-ly
+http://phim247.net/phim/con-mua-tinh-yeu-love-rain-2012.html
+http://tintuc88.com/top_tintuc88.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
