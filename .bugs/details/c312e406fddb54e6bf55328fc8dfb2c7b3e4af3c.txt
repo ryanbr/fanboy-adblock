@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+fightforthefuture.org
+https://mail.google.com/mail/?shva=1#inbox/137b7119d382da1f
+
+[filters]
+http://list.fightforthefuture.org/wf/open?upn=VGe5-2FxjN-2BI-2B4B3VTA8MwtCZt1kcPTmCu2w4yBSVnORm1LKHIVBPkybLTDKdY0-2FzVE25Udprd-2BDWWmdKQXNoXi0p7t2s6YdsqqjuYA0-2F8ihLPvb1hoZH1UNTAL6QyGLpx9ttd0aes2wc-2FL5ce7SSoLBYFvRDfHPE5b3UzT-2BKVFOkgGfGBt-2Bhx3-2BdZ7SkUxox30CZoSDcvQrkcvK5ZYsImOqHo-2FCstVocOb6HSFuXwnhmZOyml42XZBR5tMfFwDrLO6sgHbSbG3zyAeRgUFxXNPw-3D-3D
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
