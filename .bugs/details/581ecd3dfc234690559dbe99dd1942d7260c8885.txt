@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://anime.mut.vn/xem-phim/3852/tham-tu-lung-danh-conan-movie-15:-tinh-lang-15-phut-2011.html
+
+[filters]
+http://film.so1vnn.com/ads/ads.js
+http://film.so1vnn.com/ads/mobile.js
+http://film.so1vnn.com/ads/rickmedia.css
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
