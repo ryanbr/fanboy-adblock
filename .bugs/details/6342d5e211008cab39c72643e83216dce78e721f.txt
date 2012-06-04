@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://css.dzone.com/articles/you-can-write-large-programs
+
+
+[filters]
+http://css.dzone.com/sites/all/themes/dzone2012/images/github_icon.png
+http://css.dzone.com/sites/all/themes/dzone2012/images/googleplus_icon.png
+http://css.dzone.com/sites/all/themes/dzone2012/images/linkedin_icon.png
+
+
+
+[other]
+dzone.com###superboard
+dzone.com##table[border="0"]
+
+
+[comments]
+fanboy
