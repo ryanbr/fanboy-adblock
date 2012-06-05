@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.unionbank.com/
+
+
+[filters]
+https://www.unionbank.com/ubincludes/js/cmdatatagutils.js
+https://www.unionbank.com/ubincludes/js/eluminate.js
+
+
+
+
+[other]
+https://adblockplus.org/forum/viewtopic.php?f=1&t=10366
+
+
+[comments]
+fanboy
