@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://newark-nj.yellowusa.com/Tutoring.html
+
+[filters]
+http://launchpad.chitika.com/PhoneLinx/myppcall.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
