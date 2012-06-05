@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hsn.com/product_p-6358356_xp.aspx?cm_re=product_carousel-_-last15aired-_-image
+
+
+[filters]
+http://tracking.hsn.com/PDView.aspx?webpid=6358356&webmid=&appId=ab957a9e-6b0f-4a81-813b-21d31110a9c3&srcId=&pageId=1&abId=157
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
