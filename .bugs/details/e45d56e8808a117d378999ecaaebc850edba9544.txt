@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hsn.com/product_p-6358356_xp.aspx?cm_re=product_carousel-_-last15aired-_-image
+
+
+[filters]
+http://libs.coremetrics.com/eluminate.js
+http://js.hsn.com/coremetrics/cmcustom.js?v235
+
+
+
+[other]
+Blocking these lines prevents adding items to shoppingbag
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=12826
+
+[comments]
+fanboy
