@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.partypop.com/d/Party/Catering-Food
+
+
+[filters]
+http://www.partypop.com/_test/log.cfm?host=www.partypop.com&path=%2Fd%2FParty%2FCatering-Food&query=&hash=&refhost=www.partypop.com&refpath=%2F&refquery=&refhash=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
