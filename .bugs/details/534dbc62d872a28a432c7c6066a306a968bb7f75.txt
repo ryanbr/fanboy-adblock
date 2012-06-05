@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gotchamediablog.com/2012/06/jay-leno-martin-short-on-mitt-romney.html
+
+
+[filters]
+http://video.nbcuni.com/core/6.3.0/OSMFPlayer.swf?disableGlobalErrorTrapping=true&logLevel=ALL&initialSize=popout&firstRunStrategy=autoplay&sequenceCompleteStrategy=tunein&aspectRatio=hd&csmaPluginPath=http://79423.analytics.edgesuite.net/csma/plugin/csma.swf&csmaConfigPath=http://ma99-r.analytics.edgesuite.net/config/beacon-2224.xml&containerType=DPSWidget&controlsHeightAllowance=24&controlsURL=http://video.nbcuni.com/core/6.3.0/controls/videocontrol_widget_wrapper.swf&shareMenu=http://video.nbcuni.com/core/6.3.0/sharemenu/ShareMenu.swf&carouselEnabled=false&baseLocation=http://video.nbcuni.com/core/head/metrics/&pluginHost=http://video.nbcuni.com/core/6.3.0/&freewheelNetworkID=169843&freewheelAdManagerURL=http://adm.fwmrm.net/p/nbcu_live/AdManager.swf&freewheelAdServerURL=http://29773.v.fwmrm.net/ad/p/1&freewheelProfile=nbcu_live_as3&freewheelSiteSection=nbc_widget&freewheelFallbackAssetID=35437275&configId=27502&initURL=http://www.nbc.com/the-tonight-show/video/init.xml?videoId=[VIDEO_ID]&vcmsMedia=1404768&clipPlaylist=1404768&videoWidgetService=http://www.nbc.com/service/videowidget/params/dmlkZW9faWQ9[BASE_64_VIDEO_ID]&watermark=http://video.nbcuni.com/core/6.3.0/images/watermarks/nbc/watermark.png&listVideoRecommendations=http%3A//www.nbc.com/useractivity/rest/listVideoRecommendations%3FvideoID%3D%5BVIDEO_ID%5D&omnitureFile=http://video.nbcuni.com/core/head/metrics/xml/nbc/omniture_widget_short.xml&widgetEmbed=http%3A//www.nbc.com/assets/video/6-3/xml/widgetEmbed.xml
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
