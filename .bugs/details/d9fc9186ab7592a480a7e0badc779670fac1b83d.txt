@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.careerbuilder.com/jobs/keyword/tutor/
+
+
+[filters]
+http://www.careerbuilder.com/JobSeeker/JobAlerts/PopUnder_Ad.aspx
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&p=34446&sid=bacf32f1df43ed02354dc75fba8eac65#p34446
+
+[comments]
+fanboy
