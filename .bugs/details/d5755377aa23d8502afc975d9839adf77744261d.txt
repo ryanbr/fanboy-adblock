@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.scotts.com/smg/home/home4.jsp
+
+
+[filters]
+http://www.scotts.com/smg/js/omni/customTracking.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
