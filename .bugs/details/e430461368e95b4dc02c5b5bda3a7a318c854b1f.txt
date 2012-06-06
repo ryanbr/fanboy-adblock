@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wiki.answers.com/Q/What_is_the_difference_between_security_and_protection
+
+
+[filters]
+https://www.dsply.com/index.php?ub=JJ5rTBEEOPM0FYSRFX3YfY_e-M3bEmeilVmFKJcrwzstqc0QLsK2ECYDIG3ojuynd5lFhr1So9c35BF7dUpopDv4FY20pAa3532G2XkLePqMM4PTPYqzczXQ19mAWo7VhvS86DuzjoD9YAuh0SIajg**
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
