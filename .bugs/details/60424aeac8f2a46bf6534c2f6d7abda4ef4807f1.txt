@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://asfile.com/en/free-download/file/2XgRpmZ
+
+
+[filters]
+http://am10.ru/code.php?type=cu&jq=1&rand=5905&u=12074&loc=http%3A//asfile.com/en/free-download/file/2XgRpmZ&ref=&title=Free%20download%20combo_not.zip
+http://am10.ru/code.php?type=sb&jq=1&rand=5905&u=12074&loc=http%3A//asfile.com/en/free-download/file/2XgRpmZ&ref=&title=Free%20download%20combo_not.zip
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
