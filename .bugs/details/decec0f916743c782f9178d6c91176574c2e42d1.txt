@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mirrorstack.com/as_yn97bpowh6fj
+
+
+[filters]
+http://aff.ringtonepartner.com/geo/creative/300x250/2/4606/2/?subid=1661
+http://cdnw.ringtonepartner.com/cdn/creative/img3_a8bc4_a8bc4_735_9200_1_b4_96_gif
+http://mirrorstack.com/?q=r_ads2
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
