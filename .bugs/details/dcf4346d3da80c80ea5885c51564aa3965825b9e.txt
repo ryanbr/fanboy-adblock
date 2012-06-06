@@ -1,0 +1,34 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/xuongphim.html
+
+
+[filters]
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/TG_94.gif
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/TG_95.gif
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/TG_96.gif
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/TG_98.gif
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/bkcom.ico
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/tra-gop-laptop_01.jpg
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/tra-gop-laptop_02.jpg
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/tra-gop-laptop_03.jpg
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/tra-gop-laptop_04.jpg
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/tra-gop-laptop_05.jpg
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/tra-gop-laptop_06.jpg
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/tra-gop-laptop_07.jpg
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/tra-gop-laptop_08.jpg
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/tra-gop-laptop_09.jpg
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/tra-gop-laptop_10.jpg
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/tra-gop-laptop_11.jpg
+http://www.tragoplaptop.com/Resources/QuangCao/tragop/images/tra-gop-thang-5_13.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
