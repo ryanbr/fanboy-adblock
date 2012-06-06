@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sebastiyan.mynet.com/muhtesem-yuzyil-izle-18-bolum-7-parca-vid-1188902/
+
+
+[filters]
+http://img3.mynet.com/prime/pageskin/muhtesem-yy-ps.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
