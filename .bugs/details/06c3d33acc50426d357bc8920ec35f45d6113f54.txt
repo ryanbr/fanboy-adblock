@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.huffingtonpost.com/2012/06/05/david-koechner-5-second-film-family-heirloom_n_1571124.html
+
+[filters]
+https://p.twitter.com/f.gif?screen_name=HuffPostComedy&show_count=false&show_screen_name=false&lang=en&original_redirect_referrer=http%3A%2F%2Fwww.huffingtonpost.com%2F2012%2F06%2F05%2Fdavid-koechner-5-second-film-family-heirloom_n_1571124.html&twttr_variant=2.0&twttr_referrer=http%3A%2F%2Fwww.huffingtonpost.com%2F2012%2F06%2F05%2Fdavid-koechner-5-second-film-family-heirloom_n_1571124.html&twttr_widget=0&twttr_dnt=1
+http://ping.indieclicktv.com/www/delivery/ajs.php?zoneid=455002&cb=6b6175ad2b08218a92c4d4f9e566ab98
+
+
+[other]
+ping.indieclicktv.com/www/delivery detects adblock
+
+[comments]
+fanboy
