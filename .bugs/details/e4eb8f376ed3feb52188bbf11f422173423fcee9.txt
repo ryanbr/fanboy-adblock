@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://disk.yandex.net/disk/public/?hash=pCAcIfV7wxXCL/YPhObEEH5u5PKPlp%2BmuGtgOEptAS4%3D
+
+
+[filters]
+https://yandex.st/share/share.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
