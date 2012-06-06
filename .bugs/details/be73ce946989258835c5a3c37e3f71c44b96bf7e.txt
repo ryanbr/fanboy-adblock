@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tech.go.vn/
+
+
+[filters]
+http://farm01.go.vn/zone/b28ad24a56b7ef8859a18ee38031ccb0.swf
+http://farm01.go.vn/zone/b9d3bd3b49839cf961d33fbc98ce8a90.jpg
+http://farm01.go.vn/zone/5bd24936ba075d5eecf90a69f5b9fead.jpg
+http://farm01.go.vn/zone/3b23c46c1fa7522dc2e93b2489387d22.gif
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
