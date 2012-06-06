@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.asspoint.com/video/cfnm-dirty-babe-gets-a-cumshot-Fs46ppelqEV.html
+
+
+[filters]
+http://ads.weownthetraffic.com/ads/ads.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
