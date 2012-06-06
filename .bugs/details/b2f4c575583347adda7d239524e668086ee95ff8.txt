@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.makeuseof.com/pages/best-websites
+
+[filters]
+http://bestof.s3.amazonaws.com/twitter.png
+http://bestof.s3.amazonaws.com/tumblr.png
+http://bestof.s3.amazonaws.com/stumbleupon.png
+http://main.makeuseoflimited.netdna-cdn.com/pages/wp-content/uploads/images/social.png?a5eda9
+http://bestof.s3.amazonaws.com/linkedin.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
