@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.xuongphim.com/movie/server-vn/ma-toc-do-2--2011-ghost-rider-spirit-of-vengeance--ban-dep-hd/hanh-dong/m7499.html
+
+[filters]
+http://www.xuongphim.com/movie/js/pop_vtlai.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
