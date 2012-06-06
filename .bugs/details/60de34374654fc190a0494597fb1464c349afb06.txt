@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://phim47.com/phim/xem-phim-ca-ho-an-thit-nguoi-2/Piranha-3dd-2012.html
+
+[filters]
+http://phim47.com/phim/no-cache/quang_cao/?type=2
+http://phim47.com/phim/js_ads/2/all
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
