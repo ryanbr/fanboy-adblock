@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zetorrents.com/torrents/find/231/documentaire/title:ma%20premiere%20fois
+
+
+[filters]
+http://test.direction-x.com/1a3fd6750f3143d24cc2.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
