@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://extreme.idg.se/2.1030/1.450636/corsair-k90-och-corsair-k60-tangentbord-med-roda-brytare/sida/2/mekaniska-brytare---en-stadig-comeback
+
+
+[filters]
+http://tracker.enectoanalytics.com/static/analysis_v1.2.0.js
+http://tracker.enectoanalytics.com/v2/analyzer.gif?cid=4ea12156e4b09d6e2c26d18d&sid=4ed350efe4b03e9d4e518047&purl=http%3A%2F%2Fextreme.idg.se%2F2.1030%2F1.450636%2Fcorsair-k90-och-corsair-k60-tangentbord-med-roda-brytare%2Fsida%2F2%2Fmekaniska-brytare---en-stadig-comeback&ref=extreme.idg.se&t=1339075880801
+http://tracker.enectoanalytics.com/v2/analyzer.gif?cid=4ea12156e4b09d6e2c26d18d&sid=4ed362b3e4b03e9d4e533551&purl=http%3A%2F%2Fextreme.idg.se%2F2.1030%2F1.450636%2Fcorsair-k90-och-corsair-k60-tangentbord-med-roda-brytare%2Fsida%2F2%2Fmekaniska-brytare---en-stadig-comeback&ref=extreme.idg.se&t=1339075880754
+http://www.idg.se/img/general/bg_admarking_horiz.gif
+http://sifomedia.idg.se/3/idg/1352148614@TopRight?XE&Sajt=*&Sektion=*&Undersektion1=*&Grupp2=*&Grupp7=*&tax23_RefDocLoc=*//extreme.idg.se/2.1030/1.450636/corsair-k90-och-corsair-k60-tangentbord-med-roda-brytare&if_nt_CookieAccept=*&XE
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
