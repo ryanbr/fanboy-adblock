@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.porntorrents.ws/torrent-internet-teens-special-2:635805
+
+
+[filters]
+http://www.bookmrk.us/i/iconm.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
