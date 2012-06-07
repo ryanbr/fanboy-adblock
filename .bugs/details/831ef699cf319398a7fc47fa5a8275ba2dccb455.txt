@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rediff.com/sports/report/french-open-mahesh-bhupathi-sania-mirza-win-mixed-doubles-title/20120608.htm
+
+
+[filters]
+http://im.rediff.com/uim/common/realmedia_banner_1_2.js
+http://imads.rediff.com/addetect.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
