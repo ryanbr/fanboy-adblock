@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://apps.cultofmac.com/#iphone/id/412380301
+
+
+[filters]
+http://apps.cultofmac.com/partners/ad-cultofmac.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
