@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://extreme.idg.se/2.1030/1.450636/corsair-k90-och-corsair-k60-tangentbord-med-roda-brytare
+
+[filters]
+http://ypvms.herokuapp.com/assets/flashmediaelement.swf
+http://ypvms.herokuapp.com/assets/pocket-format.js
+http://ypvms.herokuapp.com/public_video?site_id=31&format=sticky&mobile=false
+http://ypvms.herokuapp.com/public_video?site_id=31&format=widescreen&mobile=false
+
+
+
+[other]
+popout video on the side of page, very ad like.. and reported
+
+
+[comments]
+fanboy
