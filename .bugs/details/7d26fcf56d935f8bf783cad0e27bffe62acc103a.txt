@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.filetechnology.com/gwmtq707a2et
+
+
+[filters]
+http://ads.popcpm.com/tlv/728x90.php
+http://popcpm.com/key/d728x90.php
+http://popcpm.com/show_i.php?a=336&x=TVRNek9UQTFNamd6TVMwNE1DNDNPUzR4TVRZdU9UST0=&z=33&d=1&target=_blank
+http://popcpm.com/images/blank.gif
+http://popcpm.com/images/blank.gif
+http://popcpm.com/show.php?z=33&pl=503&j=1&code=1339070831011
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
