@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tvn24.pl/wielkie-show-rozpocznie-euro-bedzie-niespodzianka,256390,s.html#autoplay
+
+
+[filters]
+http://tvn.adocean.pl/*/ad.xml?aocodetype=1/predur=46/overdur=176/id=OY0FMwFC7WAdGuVQrLT8OkSVvQuy74eCPF4oSnjUvqD.V7/tvn_page=wielkie_show_rozpocznie_euro_bedzie_niespodzianka_256390_s_html
+http://tvn.adocean.pl/ad.xml?aocodetype=1/predur=46/overdur=176/id=OY0FMwFC7WAdGuVQrLT8OkSVvQuy74eCPF4oSnjUvqD.V7/tvn_page=wielkie_show_rozpocznie_euro_bedzie_niespodzianka_256390_s_html
+http://tvn.adocean.pl/crossdomain.xml
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
