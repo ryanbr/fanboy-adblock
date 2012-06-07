@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.comodo.com/
+
+
+[filters]
+https://s3.amazonaws.com/statics.reedge.com/js/REED_main.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=12861
+
+
+[comments]
+fanboy
