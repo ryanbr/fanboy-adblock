@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pcquest.ciol.com/
+
+
+[filters]
+http://www.ciol.com/track/impressions3.asp?client=PQHomeVisits208&imageUrl=http://www.ciol.com/images/1pix_blank.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
