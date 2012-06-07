@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.friday-ad.co.uk/uk/services/computer-services-N-1z13chq
+
+
+[filters]
+http://www.friday-ad.co.uk/Endeca/AFCContainer.aspx?GoogleBottomKeywords=Computer%20Services
+http://www.friday-ad.co.uk/Endeca/AFCContainer.aspx?GoogleTopKeywords=Computer%20Services
+http://www.friday-ad.co.uk/Endeca/SwitchAdBanner.aspx?Position=Bottom&Category=Services&SubCategoryName=Computer%20Services&ClassName=&IsRootCategory=false&IsMotoring=false&IsProperty=false&Make=&Model=&Terms=
+http://www.friday-ad.co.uk/Endeca/SwitchAdBanner.aspx?Position=Top&Category=Services&SubCategoryName=Computer%20Services&ClassName=&IsRootCategory=false&IsMotoring=false&IsProperty=false&Make=&Model=&Terms=
+http://www.friday-ad.co.uk/Endeca/SwitchAdBanner.aspx?Position=WideSky&Category=Services&SubCategoryName=Computer%20Services&ClassName=&IsRootCategory=false&IsMotoring=false&IsProperty=false&Make=&Model=&Terms=
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
