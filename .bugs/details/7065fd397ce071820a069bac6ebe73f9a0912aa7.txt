@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.trade-it.co.uk/whats-on-pubs-restaurants/region-w-uk-bristol-south-west/
+
+
+[filters]
+http://www.trade-it.co.uk/counter/write/category/trade-it/12593/?t=1339109437743
+http://www.trade-it.co.uk/counter/write/gallery_impression/trade-it/17473650,17294969/?t=1339109435737
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
