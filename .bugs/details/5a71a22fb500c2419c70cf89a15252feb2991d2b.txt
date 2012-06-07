@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.screenrush.co.uk/news/films/news-18502849/
+
+
+[filters]
+http://smart.allocine.fr/diff/17/1582633/ishow0.asp?1582633;126006;8625617646183532044;6993183630;S;target=news%3d18502849%3bkids%3d0
+http://smart.allocine.fr/diff/17/1582633/show0.asp?1582633;126006;8625617646183532044;6993183630;S;target=news%3d18502849%3bkids%3d0
+http://smart2.allocine.fr/call2/pubjall/17426/126006/1572,47,192,5197,46,5137,54,5370,5371,62,295,6709/6993183630/news%3D18502849%3Bkids%3D0?
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
