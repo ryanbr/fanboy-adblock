@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hulu.com/watch/358834/battleground-did-you-win
+
+
+[filters]
+http://www.hulu.com/watch/358834/*track.url-1.com
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
