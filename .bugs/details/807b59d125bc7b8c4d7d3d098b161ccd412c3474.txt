@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://kiwiload.com/en/file/13034/aoe-snow.avi.html
+
+
+[filters]
+http://kiwiload.com/skin/ad/
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
