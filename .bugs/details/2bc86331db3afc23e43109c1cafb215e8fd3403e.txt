@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.adflyer.co.uk/health-and-beauty
+
+
+[filters]
+http://thumbnail1.adflyer.co.uk/Adverts/ListGallery/adflyer-qbemkm45r22cvb554tqrax55-scale-41313.jpg
+http://thumbnail1.adflyer.co.uk/Adverts/ListGallery/adflyer-qbemkm45r22cvb554tqrax55-scale-75281.jpg
+http://thumbnail1.adflyer.co.uk/Adverts/ListGallery/adflyer-qbemkm45r22cvb554tqrax55-scale-85790.jpg
+http://thumbnail1.adflyer.co.uk/Adverts/ListGallery/adflyer-qbemkm45r22cvb554tqrax55-scale-99413.jpg
+http://thumbnail1.adflyer.co.uk/Adverts/ListGallery/adflyer-swdf-2211286-1468385.jpg
+http://thumbnail1.adflyer.co.uk/Adverts/ListGallery/adflyer-swdf-2211287-1468386.jpg
+http://thumbnail1.adflyer.co.uk/Adverts/ListGallery/adflyer-swdf-2211288-1468387.jpg
+http://thumbnail1.adflyer.co.uk/Adverts/ListGallery/adflyer-swdf-2211289-1468388.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
