@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.windowsazure.com/en-us/develop/nodejs/tutorials/create-a-website-%28mac%29/
+
+
+[filters]
+http://az83882.vo.msecnd.net/css/images/soc-icons.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
