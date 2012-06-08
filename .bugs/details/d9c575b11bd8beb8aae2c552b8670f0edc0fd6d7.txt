@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://internetsociety.org/ipv6/archive-2011-world-ipv6-day
+
+
+[filters]
+http://internetsociety.org/sites/default/files/Button-Scoopit-InternetSociety-colors.png
+http://internetsociety.org/sites/default/files/Button-YouTube.png
+http://internetsociety.org/sites/default/files/Buttons-Facebook.png
+http://internetsociety.org/sites/default/files/Buttons-Linkedin.png
+http://internetsociety.org/sites/default/files/Buttons-Twitter.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
