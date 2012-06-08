@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.freeads.co.uk/uk/jobs/financial_services_jobs/
+
+
+[filters]
+http://ads.freeads.co.uk/ctx.php?aid=1330&adid=151&start=0&size=3&searchterm=financial+services+jobs&catid=7506
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
