@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.last.fm/settings/password
+
+
+[filters]
+https://clicktalecdn.sslcs.cdngc.net/www/tc/WRc9.js
+https://clicktalecdn.sslcs.cdngc.net/www09/ptc/220b3951-66a2-4b8e-ac35-fa58bfb30846.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
