@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.telegraph.co.uk/news/worldnews/southamerica/falklandislands/9316959/Falklands-Minister-criticises-domineering-Argentina.html
+
+
+[filters]
+http://widgets.outbrain.com/nanoWidget/3rd/comScore/comScore.htm
+
+
+
+
+[other]
+prevents the Telegraph Video showing on the right, bottom
+
+
+[comments]
+fanboy
