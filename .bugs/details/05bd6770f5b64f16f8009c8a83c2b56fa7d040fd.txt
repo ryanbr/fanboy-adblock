@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://au.tv.yahoo.com/home-and-away/
+
+
+[filters]
+http://l.yimg.com/zz/combo?ao/i/mp/css/universal/reset.s1568.css&ao/i/mp/css/video/style.s1956.css&ao/i/mp/css/gallery/style.s2022.css&ao/i/mp/css/universal/print.s2470.css&ao/i/mp/css/utility/advertising.s2879.css&ao/i/mp/css/widgets/spreetsDeal.s2897.css&ao/i/mp/css/universal/core.s2471.css&ao/i/mp/css/opinions/opinions.s2521.css&ao/i/mp/css/opinions/mb.s2085.css&ao/i/mp/properties/tv/01/like/like.s2501.css&ao/i/mp/css/genie-widget/genie-widget.s2448.css&ao/i/mp/properties/tv/fango/01/css/fango-checkin.s2798.css&/ao/i/mp/properties/tv/01/home-and-away/css/styles.s2376.css&
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
