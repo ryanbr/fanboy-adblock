@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.carsales.com.au/suv/
+
+
+[filters]
+http://www.carsales.com.au/lib/tracking/track-referrals.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
