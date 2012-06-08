@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://stripcoin.com/
+
+
+[filters]
+http://bitcoinadvertisers.com/a.php?p=1NnLKGs9oxCuEMjFeZB7hJpU1bkQrPr8JZ
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
