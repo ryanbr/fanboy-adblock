@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.salon.com/writer/glenn_greenwald/
+
+
+[filters]
+||google-analytics.com/ga.js$domain=salon.com
+
+
+
+
+[other]
+https://adblockplus.org/forum/viewtopic.php?f=1&t=10384&p=60342
+If you dont block it, the site will crawl to load, site issue
+
+
+[comments]
+fanboy
