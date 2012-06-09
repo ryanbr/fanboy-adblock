@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vidohe.com/site.php?site=71
+
+
+[filters]
+http://ads.aclap.com/www/delivery/lg.php?bannerid=102&campaignid=11&zoneid=5&loc=http%3A%2F%2Fwww.vidohe.com%2Fsite.php%3Fsite%3D71&cb=dc2895e336
+http://ads.aclap.com/www/delivery/lg.php?bannerid=136&campaignid=11&zoneid=6&loc=http%3A%2F%2Fwww.vidohe.com%2Fsite.php%3Fsite%3D71&cb=43580d3f13
+http://ads.aclap.com/www/delivery/spcjs.php?id=1
+http://ads.aclap.com/www/images/436249c8525dcc42e19d2ee3cc49d01a.png
+http://ads.aclap.com/www/images/c1e32bb45ec07fdf94ed590048dcd24d.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
