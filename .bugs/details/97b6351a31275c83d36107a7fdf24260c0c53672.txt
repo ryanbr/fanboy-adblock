@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.freeviewmovies.com/video/17945442/rebellious-co-ed-sucks-dick-and-nails-hotdog
+
+
+[filters]
+http://www.xyztraffic.com/track/8/?referrer=
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
