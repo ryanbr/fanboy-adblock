@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://freakshare.com/files/n23czx6t/40P_MAYO12.part1.rar.html
+
+
+[filters]
+http://cdn.engine.4dsply.com/Scripts/infinity.js.aspx
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
