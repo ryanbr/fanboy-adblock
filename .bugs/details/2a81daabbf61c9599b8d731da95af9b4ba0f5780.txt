@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://es.wikipedia.org/wiki/Francisco_Pascasio_Moreno
+
+
+[filters]
+http://pelicula20.com/videos/p20p.js
+http://pelicula20.com/videos/script.php?tipo=*
+http://informtext.blogspot.com.ar/favicon.ico
+http://tutonovip.com/uno.php?b=*
+http://www.refblock.com/
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
