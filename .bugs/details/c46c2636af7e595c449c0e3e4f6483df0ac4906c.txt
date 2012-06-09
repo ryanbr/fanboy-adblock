@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.softonic.com/s/google-map
+
+
+[filters]
+http://informtext.blogspot.com/ 	
+http://www.refblock.com/ 	
+http://www.refblock.com/?http://informtext.blogspot.com/
+
+
+
+
+[other]
+reported, not seen
+
+
+[comments]
+fanboy
