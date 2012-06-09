@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jpopasia.com/news/oreimo-accepting-submissions-for-2nd-seasons-ending-theme::11296.html
+
+
+[filters]
+http://friedrice.la/widget/iframe/?maxWidth=260&maxHeight=84&showlabel=false&showsubtitle=false&titlesize=10&tag=anime,jpop,kpop,japan
+http://friedrice.la/widget/iframe/?tag=anime,jpop,kpop,japan
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
