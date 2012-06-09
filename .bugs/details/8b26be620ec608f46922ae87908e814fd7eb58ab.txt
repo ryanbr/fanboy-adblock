@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://smoda.elpais.com/articulos/divina-decadencia/461
+
+
+[filters]
+http://static-smoda.elpais.com/uploads/images/thumbs/201222/skin_solan_684_1630x816.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
