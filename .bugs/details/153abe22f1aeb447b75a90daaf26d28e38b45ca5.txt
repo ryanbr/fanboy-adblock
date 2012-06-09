@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.salon.com/2012/06/07/probing_obamas_secrecy_games/singleton/
+
+
+[filters]
+http://www.google-analytics.com/ga.js
+
+
+[other]
+Prevents comments from loading
+
+
+[comments]
+nitrox
