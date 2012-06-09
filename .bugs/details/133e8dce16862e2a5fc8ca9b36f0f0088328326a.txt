@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ayakino.kz/mult/
+
+
+[filters]
+http://w7.ru/images/news/9df1e93a1956e127d456b0b915762fc7.jpg
+http://w7.ru/images/news/d391e60f5589e28ff83a34153b0c1738.jpg
+http://w7.ru/images/news/d4cc02f94d62a6abffa9d0e1e92debfd.jpg
+http://w7.ru/images/news/ee7f2ab6364cafd3198d8e88f3d2f639.jpg
+http://w7.ru/images/news/f616c162e3f54cff217cc5bfa530434f.jpg
+http://w7.ru/show.php?bid=40
+http://w7.ru/show.php?bid=40&l=1&t=0.6693192596750771
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
