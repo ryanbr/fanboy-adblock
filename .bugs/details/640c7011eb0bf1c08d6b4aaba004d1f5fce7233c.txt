@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.americablog.com/2012/06/66m-more-kids-have-health-care-due-to.html
+
+
+[filters]
+http://2.bp.blogspot.com/-2yRrtruaElE/T6wg4j4XsNI/AAAAAAAAH9A/QipKL8WEJnQ/s1600/FaceBook_24x24.png
+http://4.bp.blogspot.com/-z_AIY0cqgMI/T6wg40-URAI/AAAAAAAAH9I/mhr4l4sDaLg/s1600/Feed_24x24.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
