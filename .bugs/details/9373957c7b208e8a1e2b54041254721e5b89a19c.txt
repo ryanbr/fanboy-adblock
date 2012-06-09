@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://yesfilmes.org/
+
+
+[filters]
+http://linkeasy.org/img/uploaded/160x600x2.gif
+http://yestorrents.org/js/jogada.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
