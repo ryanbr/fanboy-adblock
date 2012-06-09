@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.soccerstats.com/latest.asp?league=denmark
+
+
+[filters]
+http://www.soccerstats.com/img/adv_horiz.png
+http://www.soccerstats.com/img/adv_vert.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
