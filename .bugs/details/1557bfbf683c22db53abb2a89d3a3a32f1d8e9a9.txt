@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.imdb.com/video/hulu/vi3934036505/
+
+
+[filters]
+http://t.hulu.com/beacon/v3/error?event=HTTPError&cb=1339235184576_59&dict=operatingsystem%3AWindows%25207%3Bembedurl%3Ahttp%25253A//www.imdb.com/video/hulu/vi3934036505/%3Bregion%3AUS%3Battempt%3A0%3Bplanid%3A-1%3Bcontentid%3A60081869%3Bflashversion%3AWIN%252011%252C3%252C300%252C257%3Bplayerversion%3A203618%3Bdistroplatform%3ADP%3Bmediatype%3AAd%3Bpid%3ANO_MORE_RELEASES_PLEASE_60081869%3Bpackageid%3A1%3Blanguage%3Aen%3Bdistro%3AIMDB%3Bcomputerguid%3AB8944D26907435F692FF31A90039C000%3Bclient%3APlugIn%3Buserid%3A-1%3Bfatalfailure%3Afalse%3Bplayerstate%3AAdLoading%3Bbitrate%3A400&playermode=normal&position=0&session=DBCD00CAAFED67519608D66535C6FB44
+http://t2.hulu.com/v3/adinteraction/pause?a=0&adposition=2975&annotationenabled=false&auth=&beaconevent=pause&bitrate=400&cb=1339235071681_948&client=PlugIn&computerguid=554F74180918E754174CFF583304CBBE&contentid=60081869&cpidentifier=NBC&creativeid=271643&distro=IMDB&distroplatform=DP&embedurl=cd6cb9ca3cf843255d2ac0719770c6a4&flash=WIN%2011%2C3%2C300%2C257&language=en&os=Windows%207&packageavailability=shared&packageid=1&pid=NO_MORE_RELEASES_PLEASE_60081869&placementid=50609&planid=0&player=203618&playermode=normal&pod=0_1_a&position=0&promotion=&rectrack=&region=US&sessionguid=FFDAA06E6CAAEF7CBD7474944A27525E&sitesessionid=&socialidentities=&source=Hulu&timepadding=40400&totalframes=420&totalmemory=68870144&userbandwidth=220&userid=0&visit=2
+http://t2.hulu.com/v3/adinteraction/play?a=0&adposition=2975&annotationenabled=false&auth=&beaconevent=play&bitrate=400&cb=1339235073351_817&client=PlugIn&computerguid=554F74180918E754174CFF583304CBBE&contentid=60081869&cpidentifier=NBC&creativeid=271643&distro=IMDB&distroplatform=DP&embedurl=cd6cb9ca3cf843255d2ac0719770c6a4&flash=WIN%2011%2C3%2C300%2C257&language=en&os=Windows%207&packageavailability=shared&packageid=1&pid=NO_MORE_RELEASES_PLEASE_60081869&placementid=50609&planid=0&player=203618&playermode=normal&pod=0_1_a&position=0&promotion=&rectrack=&region=US&sessionguid=FFDAA06E6CAAEF7CBD7474944A27525E&sitesessionid=&socialidentities=&source=Hulu&timepadding=42070&totalframes=460&totalmemory=69074944&userbandwidth=222&userid=0&visit=2
+http://t2.hulu.com/v3/adinteraction/vote?a=0&adtargeting_userinfo=host_1_10.17.1.193%7Chited_0_1%7Cc0_1_54%7Cc0_2_45%7Cc0_3_5%7Cc0_4_3%7Cc0_5_9%7Cc0_6_36%7Cc0_7_33%7Cc0_8_65%7Cc0_9_41%7Cc0_10_41%7Cc0_11_78%7Cc0_12_49%7Cc0_13_44%7Cc0_14_90%7Cc0_15_27%7Cc0_16_44%7Cc0_17_26%7Cc0_18_25%7Cc0_19_46%7Cc0_20_30%7Cc0_21_28%7Cc0_22_53%7Cc0_23_14%7Cc0_24_14%7Cc0_25_26%7Cc0_26_40%7Cc0_27_40%7Cc0_28_73%7Cas_27_1%7Cas_30_1%7Cs1_01_54%7Cs2_01_45%7Cs6_01_36%7Cs7_01_33%7Cs8_31_65%7Cs9_01_41%7Cs10_01_41%7Cs11_01_78%7Cs15_00_27%7Cs17_01_26%7Cs18_01_25%7Cs19_01_46%7Cs23_01_14&annotationenabled=false&auth=&beaconevent=vote&bitrate=400&cb=1339235198984_105&client=PlugIn&computerguid=B8944D26907435F692FF31A90039C000&contentid=60081869&cpidentifier=NBC&creativeid=301207&distro=IMDB&distroplatform=DP&duration=30185&embedurl=cd6cb9ca3cf843255d2ac0719770c6a4&exid=4&flash=WIN%2011%2C3%2C300%2C257&language=en&os=Windows%207&packageavailability=shared&packageid=1&pid=NO_MORE_RELEASES_PLEASE_60081869&placementid=56890&planid=0&player=203618&playermode=normal&pod=1_1_a&position=0&promotion=&rating=0&rectrack=&region=US&sessionguid=DBCD00CAAFED67519608D66535C6FB44&sitesessionid=&socialidentities=&source=Hulu&timepadding=37129&totalframes=664&totalmemory=71585792&type=video&userbandwidth=268&userid=0&visit=2
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
