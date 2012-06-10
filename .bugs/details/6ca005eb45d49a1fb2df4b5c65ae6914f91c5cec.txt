@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.frys.com/ads/page2
+
+
+[filters]
+http://images.frys.com/art/ads/js/NavFunctions_01b.js
+http://images.frys.com/art/ads/js/NavFunctions_02b.js
+http://images.frys.com/art/ads/js/NavStyles_01.css
+http://images.frys.com/art/ads/js/NavTable_01.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
