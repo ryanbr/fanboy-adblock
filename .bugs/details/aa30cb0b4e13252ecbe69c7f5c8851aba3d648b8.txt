@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.freeads.in/computers-office-equipment/mobile-phones-accessories/jaipur/samsung-galaxy-gsm-rs17500/20791495/
+
+
+[filters]
+http://www.freeads.in/classifieds/common/postad.css
+http://img.freeads.in/freead.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy

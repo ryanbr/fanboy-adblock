@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dailystar.com.lb/News/Middle-East/2012/Jun-08/176176-bahraini-11-year-old-facing-protest-charge.ashx
+
+[filters]
+http://www.dailystar.com.lb/App_Themes/Default/Images/Google-plus_social.png
+http://www.dailystar.com.lb/App_Themes/Default/Images/Linkedin_social.png
+http://www.dailystar.com.lb/App_Themes/Default/Images/RSS_social.png
+http://www.dailystar.com.lb/App_Themes/Default/Images/Twitter_social.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
