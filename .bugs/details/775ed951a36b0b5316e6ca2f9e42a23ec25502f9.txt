@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://naturalsociety.com/nuclear-cover-up-radiation-levels-epa-geiger-counter-dhs-hazmat-team/
+
+
+[filters]
+http://naturalsociety.com/wp-content/uploads/540x80_4b.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
