@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.groupon.com/now/deals/9-for-15-at-devaney-s-5urhz?dl=d47388
+
+
+[filters]
+http://www.groupon.com/tracky
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
