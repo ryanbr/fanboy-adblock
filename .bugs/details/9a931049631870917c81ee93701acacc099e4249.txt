@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.semrush.com/info/background+check+free
+
+
+[filters]
+http://seoquake.com/seoadv/audience/3.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
