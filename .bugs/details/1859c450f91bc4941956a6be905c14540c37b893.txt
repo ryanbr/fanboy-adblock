@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://m.facebook.com/home.php?_rdr
+
+
+[filters]
+https://m.facebook.com/logging/pixel?edata=AZPtH-W6aJGQy4UbD6X_SV7tmG16qkaS4i1s3nRJGaXhHd4WbSR6hHZfz_UkbYxd3bJkV4RSiYqQ1w07RqVd-CAwTZ8emWGq-gyvT7Vtxq4bvT3e_KeoDx1PZVfUwiF-ysrTwG6UbqAnb4l3RMDImZLlAb8AUFuB5C3IQ_EFpgPoTOxdag2vaa7bZShVScLounRDXW95FSpzHhXbDvXrD0G7wyl2fu7NZdu-LJ76HCuwEVSccoxB7gf1L2QAM4CHlxT6a09IgFa6UHn4Ii5Ojf46wAfBND4yEP3kNwi3haLKxIOhVg4CyfupouS3MKM0rmulQblEfFZN1sbZmX84tjA5qPKHFclbHEpcxURI9Ck2QoqhfFeB0Wd_i6hQXbOj9swH96f4xShLy9NTSAe3Gi4i3D4ET8AvpORqHeJnCt8wZPV_UJKabStQTVL5fkMjGDzPSwrMcqJEKJ5gXqTQ4OFyFblvROTqSmTLL7UOnmMbEdhkFIvuUiPsT8fhYVI5uro4fWb2EO7oKLwqXAdXQXKA
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
