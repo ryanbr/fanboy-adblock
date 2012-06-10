@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://video.xnxx.com/in.php?referer=http%3A//video.xnxx.com/video1188447/beautiful_blonde_babe_alexis_texas_hardcore_action
+
+
+[filters]
+http://video.xnxx.com/in.php?referer=http%3A//video.xnxx.com/video1188447/beautiful_blonde_babe_alexis_texas_hardcore_action
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
