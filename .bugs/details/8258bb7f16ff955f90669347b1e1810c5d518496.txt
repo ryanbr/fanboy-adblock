@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.casinotop10.net/Pennsylvania-Gaming-Returns-to-Growth?tc=widget:rss
+
+
+[filters]
+http://www.casinotop10.net/tracker/referrer/1214
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
