@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tournaments.leagueoflegends.com/mlg-spring-championship#tournament-bracket
+
+
+[filters]
+http://mlg.cdn.auditude.com/flash/modules/mlg-1.0/AuditudeAdUnit.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
