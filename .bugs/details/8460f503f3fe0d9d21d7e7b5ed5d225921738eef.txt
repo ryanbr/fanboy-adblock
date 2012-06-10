@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.giveawayoftheday.com/hd-video-converter-factory-pro/
+
+
+[filters]
+http://www.giveawayoftheday.com/wp-content/plugins/GAOTD_twitterapp_pleaseinstall/img/1/button_add.png
+http://www.giveawayoftheday.com/wp-content/plugins/GAOTD_twitterapp_pleaseinstall/img/1/button_not_now.png
+http://www.giveawayoftheday.com/wp-content/plugins/GAOTD_twitterapp_pleaseinstall/js/instal-popup.js?2
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
