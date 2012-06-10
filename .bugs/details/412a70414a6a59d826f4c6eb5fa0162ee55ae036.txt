@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.songspk.pk/indian/qasam_se_qasam_se_2012_mp3_songs.html
+
+[filters]
+http://www.songspk.pk/chrome-ad.html
+http://www.songspk.pk/pops.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
