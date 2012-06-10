@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pinterest.com/pin/244461085993628388/
+
+
+[filters]
+http://click.scour.com/ads-clicktrack/resources/images/verify_04.jpg
+http://click.scour.com/ads-clicktrack/resources/images/verify_02.jpg
+http://click.scour.com/ads-clicktrack/resources/js/failover/jquery-1.7.1.min.js
+http://www.advconversion.com/ads-conversiontrack/conversion/set.do?advertiserId=*&keyword=*&adgroupId=*&keywordId=*&affiliateId=*&subAffiliate=*&campaignId=*&adId=*&ecnCategoryId=*&ecnSubCategoryId=*
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
