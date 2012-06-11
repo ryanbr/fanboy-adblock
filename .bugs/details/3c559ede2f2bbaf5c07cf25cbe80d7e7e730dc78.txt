@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://play.clubpenguin.com/#/create
+
+
+[filters]
+http://log.data.disney.com/flash_log?app=clubpenguin&user_id=-1&network=c&view_network=cp&lang=en_US&tag=step_timing&context=load.login&location=dep.airtower&transaction_id=D89F648D-D8F5-64A5-41EA-53FE71D06877&world_id=-1&elapsed_time_ms=117
+http://log.data.disney.com/cp?app=clubpenguin&user_id=-1&tag=flash_profile&network=c&view_network=cp&lang=en_US&app_locale=en_US&hw_accelStatus=unknown&hw_os=Windows%207&hw_driverInfo=unknown&hw_version=WIN%2011,3,300,257&hw_playerType=PlugIn&hw_browser=Mozilla/5.0%20(Windows%20NT%206.1;%20rv:16.0)%20Gecko/16.0%20Firefox/16.0a1&hw_errorMessage=stage3D%20instance%20was%20available%20but%20it%20never%20fired%20an%20event.%20stage.stage3Ds.length%20is:%204
+http://log.data.disney.com/crossdomain.xml
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
