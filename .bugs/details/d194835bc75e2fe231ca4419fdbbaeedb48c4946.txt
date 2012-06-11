@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.flipkart.com/transcend-memory-card-microsdhc-8gb-class-4/p/itmd4sbmrsnqw8sw?pid=ACCD4SBHRXV9B8UA&icmpid=reco__same_memory_card_1
+
+
+[filters]
+http://www.flipkart.com/bbeacon.php?v=0.9&controller=ProductPageController&vertical=accessory&t_done=4439&u=http%3A%2F%2Fwww.flipkart.com%2Ftranscend-memory-card-microsdhc-8gb-class-4%2Fp%2Fitmd4sbmrsnqw8sw%3Fpid%3DACCD4SBHRXV9B8UA%26icmpid%3Dreco__same_memory_card_1&r=http%3A%2F%2Fwww.flipkart.com%2Fsandisk-memory-card-microsdhc-8gb%2Fp%2Fitmczcthv3hpnhhe%3Fpid%3DACCCRRQZ2BHPWWEH&t_aready=610
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
