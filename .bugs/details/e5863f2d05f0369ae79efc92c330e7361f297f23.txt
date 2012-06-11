@@ -1,0 +1,34 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://androidadvices.com/install-apps-sd-card-android-rooting/
+
+
+[filters]
+http://www.facebook.com/plugins/recommendations_bar.php?api_key=307271962641199&channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D6%23cb%3Df1fc8f1b6c2f6c6%26origin%3Dhttp%253A%252F%252Fandroidadvices.com%252Ff14d498493dab7a%26domain%3Dandroidadvices.com%26relation%3Dparent.parent&href=http%3A%2F%2Fandroidadvices.com%2Finstall-apps-sd-card-android-rooting%2F&locale=en_US&num_recommendations=2&read_time=10&sdk=joey&side=right&site=androidadvices.com&trigger=onvisible
+http://cdn.androidadvices.com/wp-content/plugins/arscode-social-slider/fblb.css?ver=3.3.2
+http://cdn.androidadvices.com/wp-content/plugins/arscode-social-slider/js/userscripts.js?ver=3.3.2
+http://cdn.androidadvices.com/wp-content/plugins/arscode-social-slider/lionbars/jquery.lionbars.0.3.min.js?ver=3.3.2
+http://cdn.androidadvices.com/wp-content/plugins/arscode-social-slider/lionbars/lionbars.css?ver=3.3.2
+http://static.punchtab.com/css/pt.css?v=3
+http://static.punchtab.com/img/rewards_tab_icon_long.png
+http://static.punchtab.com/img/ribbon_earning_map.png
+http://static.punchtab.com/js/easyXDM.2.4.13.min.js
+http://static.punchtab.com/js/easyXDM.2.4.13.min.js
+http://static.punchtab.com/js/pt.js
+http://static.punchtab.com/js/pt_actions.js
+http://static.punchtab.com/js/pt_library.js?v=37
+http://static.punchtab.com/js/pt_util2.js
+http://static.punchtab.com/js/pt_util2.js?v=37
+http://static.punchtab.com/nd/css/common.css
+http://static.punchtab.com/nd/images/powered-by-ribbon.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
