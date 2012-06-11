@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.barnesandnoble.com/
+
+
+[filters]
+http://www.barnesandnoble.com/Analytics/Request/pG1heeZQT21339352899/Page
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
