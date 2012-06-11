@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.legoland.co.uk/
+
+
+[filters]
+https://www.hxtrack.com/tracker.js
+https://www.hxtrack.com/image.gif?ref=&sze=1600x1200
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
