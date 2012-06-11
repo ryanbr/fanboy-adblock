@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://shop.lego.com/en-US/Minecraft-21102
+
+[filters]
+https://a248.e.akamai.net/cache.lego.com/Stats/LEGOSiteStats.1.js.ashx?context=Shop
+https://account.lego.com/js/LEGOUserStats.1.js.ashx?context=Shop
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
