@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://lingvopro.abbyyonline.com/en
+
+
+[filters]
+http://lingvopro.abbyyonline.com/Content/1.8.19996.547/JsStandard/Adv/Adriver
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
