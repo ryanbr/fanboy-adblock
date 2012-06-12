@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://online.wsj.com/article/SB10001424052702303395604577434582318857536.html?mod=*
+
+
+[filters]
+http://nik.io/v1/nikio.js
+http://sj.wsj.net/javascript/nikioWSJCallback.js?t=25
+
+
+
+
+[other]
+suspect, remove if cause fps.
+
+[comments]
+fanboy
