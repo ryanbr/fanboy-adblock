@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.videodetective.com/movies/bol-bachchan/462792
+
+
+[filters]
+http://www.videodetective.net/flash/players/plugins5/iva_thefilterjwanalytics.swf
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
