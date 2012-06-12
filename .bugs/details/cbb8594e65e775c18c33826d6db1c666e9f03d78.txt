@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://m.ctv.ca/topstories/20120611/girls-charged-with-human-trafficking-120611.html
+
+
+[filters]
+http://m.ctv.ca/assets/images/fbshare.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
