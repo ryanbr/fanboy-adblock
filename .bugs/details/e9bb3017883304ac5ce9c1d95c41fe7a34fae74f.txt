@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://isohunt.com/torrents/?ihq=*
+
+
+[filters]
+http://www.adserver-fx.com/gate.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
