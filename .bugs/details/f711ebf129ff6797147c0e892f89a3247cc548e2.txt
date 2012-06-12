@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://en.sevenload.com/shows/NASA-EDGE/episodes/BoR1XN6-NE-Live-Transit-of-Venus-Promo
+
+
+[filters]
+http://omega.sevenload.com/blank.gif?id=BoR1XN6&env=episode&lang=en&type=play&user=NASA%20TV&show=VxApB6v&channel=Saqgpl8&url=http%3A%2F%2Fen.sevenload.com%2Fshows%2FNASA-EDGE%2Fepisodes%2FBoR1XN6-NE-Live-Transit-of-Venus-Promo&portal=en&geo=us
+http://omega.sevenload.com/blank.gif?id=BoR1XN6&env=episode&lang=en&type=view&user=NASA%20TV&show=VxApB6v&channel=Saqgpl8&url=http%3A%2F%2Fen.sevenload.com%2Fshows%2FNASA-EDGE%2Fepisodes%2FBoR1XN6-NE-Live-Transit-of-Venus-Promo&portal=en&geo=us
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
