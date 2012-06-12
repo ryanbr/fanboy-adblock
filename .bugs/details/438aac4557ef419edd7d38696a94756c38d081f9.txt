@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ukbusinessforums.co.uk/forums/showthread.php?t=44908
+
+
+[filters]
+http://shop.ukbusinessforums.co.uk/adblock/ad
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
