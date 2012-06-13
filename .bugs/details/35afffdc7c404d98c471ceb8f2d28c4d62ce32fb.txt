@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+news.biglobe.ne.jp/domestic/0613/ym_120613_9380146597.html
+
+[filters]
+http://top.bcdn.jp/up_image/sp_banner/120611_brcf_w590_h80_b.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
