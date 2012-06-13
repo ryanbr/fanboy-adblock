@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nmn.nifty.com/cs/catalog/nmn_topics/catalog_120613078521_1.htm
+
+[filters]
+http://movie.nifty.com/floating/floating.htm
+http://api.buzzurl.jp/api/counter/http://nmn.nifty.com/cs/catalog/nmn_topics/catalog_120613078521_1.htm
+http://image.clip.livedoor.com/counter/small/http://nmn.nifty.com/cs/catalog/nmn_topics/catalog_120613078521_1.htm
+http://tools.tweetbuzz.jp/imgcount?url=http%3A%2F%2Fnmn.nifty.com%2Fcs%2Fcatalog%2Fnmn_topics%2Fcatalog_120613078521_1.htm
+http://tools.tweetbuzz.jp/shared/images/count/0.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
