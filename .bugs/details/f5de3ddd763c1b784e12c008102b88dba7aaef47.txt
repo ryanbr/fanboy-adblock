@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nmn.nifty.com/
+
+
+[filters]
+http://clink.nifty.com/r/movie/header_banner_disp_count/?http://movie.nifty.com/cms_image/movie/tieup/120507055306/728_90_result.gif
+http://clink.nifty.com/r/movie/side_banner_disp_count/?http://movie.nifty.com/sp/gaiji/bnr/banner_500x300.swf?targetTAG=_blank&clickTAG=http://clink.nifty.com/r/movie/side_banner_imp_count/?http://movie.nifty.com/sp/gaiji/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
