@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://aviso.ua/
+
+
+[filters]
+http://r.i.ua/s?u57&p65&n0.37083130156095456&c1&d24&w1600&h1200&raviso.ua/
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
