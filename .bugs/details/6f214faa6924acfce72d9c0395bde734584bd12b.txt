@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.banki.ru/
+
+
+[filters]
+http://www.banki.ru/_lib/gemiusTraffic.js
+http://www.banki.ru/js/ga.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
