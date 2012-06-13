@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://volkswagen-cross-polo.infocar.ua/test8502_cross-polo_id849.html
+
+
+[filters]
+http://i.infocar.ua/icstat/branding/zaz/bg.jpg
+http://i.infocar.ua/icstat/branding/zaz/bg.png
+http://i.infocar.ua/icstat/branding/zaz/css_1339443307.css
+http://i.infocar.ua/icstat/branding/zaz/js_1339399173.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
