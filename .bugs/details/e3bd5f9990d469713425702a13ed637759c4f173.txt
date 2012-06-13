@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.movie-blog.org/category/zeichentrick/
+
+
+[filters]
+http://www.movie-blog.org/wp-content/themes/concrete/yieldads.js
+http://www.stargames.com/bridge.asp?idr=25574&lang=de
+http://www.stargames.com/captcha.asp?xpf=gen
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
