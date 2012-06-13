@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://support.nifty.com/support/service/?route=niftop_sup
+
+[filters]
+http://tag.nifty.com/pubc0m/js/tag/_nif_tag.js
+http://ot.ca-mpr.jp/s/pc/20/?i4ot=1
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
