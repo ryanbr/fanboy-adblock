@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.biglobe.ne.jp/domestic/0613/ym_120613_9380146597.html
+
+
+[filters]
+http://bcn01.er.cyberwing.co.jp/cwbcn/gif/0000100023/cwcurl=http(C_L)(S_L)(S_L)news.biglobe.ne.jp(S_L)domestic(S_L)0613(S_L)ym_120613_9380146597.html&cwbcnrnd=2047427742&cwcat=NEWBCN&cwcurl=http(C_L)(S_L)(S_L)news.biglobe.ne.jp(S_L)domestic(S_L)0613(S_L)ym_120613_9380146597.html&cwref=http(C_L)(S_L)(S_L)news.biglobe.ne.jp(S_L)topics(S_L)domestic(S_L)0613(S_L)25153.html&cwjs=1
+http://bcn01.er.cyberwing.co.jp/cwbcn/js/0000100023/cwcat=NEWBCN&cwcurl=http(C_L)(S_L)(S_L)news.biglobe.ne.jp(S_L)domestic(S_L)0613(S_L)ym_120613_9380146597.html&cwbcnrnd=2047427742
+http://webryblog.biglobe.ne.jp/cgi-bin/api/affiliate_word_api.zcgi?charset=utf8&format=jsonp&function=display_affiliate_amazon_item&type=amazon&id=biglobe06-news-22&word=%E5%85%90%E7%AB%A5%E3%83%9D%E3%83%AB%E3%83%8E
+http://biglobe.match.com/landing/CPLanding.aspx?cpp=jpn/biglobe/module/news/index.html&avo=1&trackingid=2155918
+http://ap.news.biglobe.ne.jp/bnews/ranking/RankingLogging.do?d=20120613223234&callback=jsonp1339583554266&GENRE_ID=domestic&ARTICLE_ID=9380146597&CP_ID=ym
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
