@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wp.pl/
+
+[filters]
+http://vda.wp.pl/RM/Box/2011-11/tod.js
+http://dto.wp.pl/s6143111432/show.gif?srv=tod&action=0_0_0&pg=http%3A//www.wp.pl/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
