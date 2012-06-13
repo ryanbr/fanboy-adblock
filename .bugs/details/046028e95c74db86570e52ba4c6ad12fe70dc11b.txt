@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kemipic.com/share-1091_4B28FFD1.html
+
+
+[filters]
+http://mt22.mtree.com/xbs/632025/7/10/59?mta=351253&js=0
+http://xbs.mtree.com/fci/chicksgonecrazy/8555.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
