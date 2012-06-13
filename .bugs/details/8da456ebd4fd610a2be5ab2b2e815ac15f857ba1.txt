@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.allbanks.ru/
+
+
+[filters]
+http://cat.mabico.ru/cgi-bin/topcount.cgi?i=412&j=1&n=Netscape&v=5.0%20%28Windows%29&r=&l=http%3A//www.allbanks.ru/&t=0.7221737045426918&c=-1&a=Mozilla/5.0%20%28Windows%20NT%206.1%3B%20rv%3A16.0%29%20Gecko/16.0%20Firefox/16.0a1&s=1600x1200x24
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
