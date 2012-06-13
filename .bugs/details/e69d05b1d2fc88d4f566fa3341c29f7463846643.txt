@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.luxemag.ru/menfashion/
+
+
+[filters]
+http://i.teaser.cc/115/100.gif
+http://i.teaser.cc/513/100.gif
+http://t.teaser.cc/ldr.js
+http://roller.rollad.ru/?aid=486593&type=script&timestamp=1339477468&referrer=&location=http%3A%2F%2Fwww.luxemag.ru%2Fmenfashion%2F&rand=1339477468
+http://cdn.rollad.ru/rollad.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
