@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://get.nifty.com/cs/catalog/get_topics/catalog_120611001833_1.htm
+
+
+[filters]
+http://i.gree.jp/img/share/button/btn_iine_20.png
+http://img.mixi.net/img/basic/mixicheck_entry/bt_check_1.png
+http://share.gree.jp/share?url=http://get.nifty.com/cs/catalog/get_topics/catalog_120611001833_1.htm&type=0&height=20
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
