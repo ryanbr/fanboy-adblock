@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.1024cores.net/home/lock-free-algorithms
+
+[filters]
+http://www.1024cores.net/_/rsrc/1292833828827/config/twitter_icon2.png
+http://www.1024cores.net/_/rsrc/1292833858861/config/rss_icon3.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
