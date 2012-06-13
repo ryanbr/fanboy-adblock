@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vcene.ua/
+
+
+[filters]
+http://rtt.campanja.com/script
+http://rtt.campanja.com/visit?vids[]=279c6cf5-8ee6-4c35-84c8-565543e87725&session_id=ad8c17d3-8169-443c-9f66-352c246e61fb&tg=13582&referrer=
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
