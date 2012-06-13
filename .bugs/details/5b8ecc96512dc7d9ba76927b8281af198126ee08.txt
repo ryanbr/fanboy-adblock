@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sports.news.nate.com/view/20120612n02377?mid=s0408&cid=357624
+
+[filters]
+http://sports.news.nate.com/Etc/AdRectangleBanner?bViewPage=true&g_bRightAD=1
+http://sports.news.nate.com/Etc/ViewAD?cate=spo05
+http://sports.news.nate.com/etc/adSpace?mode=left&mid=s0408
+http://sports.news.nate.com/etc/adSpace?mode=right&mid=s0408
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
