@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.flyordie.com/games/online/games.html?lang=en&game=DartsParchess&rs=1
+
+
+[filters]
+http://www.flyordie.com/games/online/ca.html?http%3A//www.flyordie.com/games/free/b/4G--%3Fp%3DDartsParchess
+http://www.flyordie.com/games/online/ca.html?http%3A//www.flyordie.com/games/free/b/8G--%3Fp%3DDartsParchess
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
