@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.send2fax.com/
+
+
+[filters]
+http://www.fax.com/domainTrack/dtrack.js
+http://www.fax.com/domainTrack/dtrack.jsp?n=_dt&aid=doc001&did=send2fax&h=www.send2fax.com&rnd=1339659267946
+
+
+[other]
+http://fax.com/
+
+
+[comments]
+fanboy
