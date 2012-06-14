@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rams263.tripod.com/id20.html
+
+
+[filters]
+http://ly.lygo.com/ly/tpSite/images/freeAd2.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
