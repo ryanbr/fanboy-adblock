@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.ringcentral.com
+
+
+[filters]
+http://www.ringcentral.com/js/rc12/libs/mbox_rc.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
