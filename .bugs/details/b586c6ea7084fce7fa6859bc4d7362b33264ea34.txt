@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://screencrave.com/2009-11-17/julia-stiles-as-the-black-cat-in-spider-man-4/
+
+
+[filters]
+http://static.screencrave.com/show/c2NyZWVuY3JhdmVfMzAweDI1MF9zaWRlYmFyXzE=/ZGl2LWdwdC1hZC0xMzMwNDc0NTg1MzQ4LTE=/MzAw/MjUw/c3RhdGljLnNjcmVlbmNyYXZlLmNvbQ==
+http://static.screencrave.com/show/c2NyZWVuY3JhdmVfMzAweDI1MF9zaWRlYmFyXzI=/ZGl2LWdwdC1hZC0xMzMwNDc0NTg1MzQ4LTI=/MzAw/MjUw/c3RhdGljLnNjcmVlbmNyYXZlLmNvbQ==
+http://static.screencrave.com/show/c2NyZWVuY3JhdmVfMzAweDYwMF9zaWRlYmFy/ZGl2LWdwdC1hZC0xMzMwNDc0NTg1MzQ4LTM=/MzAw/NjAw/c3RhdGljLnNjcmVlbmNyYXZlLmNvbQ==
+http://static.screencrave.com/show/c2NyZWVuY3JhdmVfNzI4eDkw/ZGl2LWdwdC1hZC0xMzMwNDc0NTg1MzQ4LTQ=/NzI4/OTA=/c3RhdGljLmdhZGdldGNyYXZlLmNvbQ==
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
