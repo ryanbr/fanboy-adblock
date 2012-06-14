@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://swagmp3.com/albums/t-pain-revolver-deluxe-edition-album-download
+
+
+[filters]
+https://www.hostingzoom.com/clients/ads/Failover-Reseller-Plans-160.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
