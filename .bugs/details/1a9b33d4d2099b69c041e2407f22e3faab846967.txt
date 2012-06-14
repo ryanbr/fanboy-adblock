@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://manga.animea.net/07-ghost-chapter-6.html
+
+
+[filters]
+http://173.231.31.34/AdsFuse-2.0/delivery.php?siteid=4f56111f52a1251f54000000&size=160&ch=safe,extrasafe
+http://173.231.31.34/AdsFuse-2.0/delivery.php?siteid=4f56111f52a1251f54000000&size=300&ch=safe,extrasafe
+http://173.231.31.34/AdsFuse-2.0/delivery.php?siteid=4f56111f52a1251f54000000&size=728&ch=safe,extrasafe
+http://cdn.animea.net/do/160vs.html
+http://cdn.animea.net/do/300_af_vs.html
+http://cdn.animea.net/do/728_af_vs.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
