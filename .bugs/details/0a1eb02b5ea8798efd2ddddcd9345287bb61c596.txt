@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gameitnow.com/Game/17850/Ready_Steady_Bolt.html
+
+
+[filters]
+http://www.gameitnow.com/ads/gameadvertentie.php?spel=http://plox.info/spelle/games/klaarvoordestartaf.swf&w=750&h=500
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
