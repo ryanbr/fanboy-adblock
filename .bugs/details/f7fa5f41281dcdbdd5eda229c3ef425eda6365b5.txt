@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kingofgames.net/free-games/Warped_Tour
+
+
+[filters]
+http://s0.2mdn.net/instream/as2_staticswfs_proxy_1_1.swf
+http://s0.2mdn.net/instream/afv_template_ads_manager_1_73.swf
+http://pagead2.googlesyndication.com/pagead/imgad?id=CP_juLfYk-vIpgEQ0AIYmAIyCM2V50u2E-5-&clickTAG=http://www.googleadservices.com/pagead/aclk%3Fsa%3DL%26ai%3DBfCoMwdrZT_r2IOeOlAL63JXEBZzj8cACvJD5jxnAjbcBoJwBEAEYASC_9_QbOABQ79nI2QJgyd7ohsijkBmgAZzwtfoDsgETd3d3LmtpbmdvZmdhbWVzLm5ldLoBIzIwMHgyMDAsMjUweDI1MCwzMDB4MjUwLDMzNngyODBfeG1syAEE2gExaHR0cDovL3d3dy5raW5nb2ZnYW1lcy5uZXQvZnJlZS1nYW1lcy9XYXJwZWRfVG91cvgBAYACAbgCGMgClMP5H6gDAegDaegDA-gDngf1AwAIAMj1AwAAABiYBASIBgGgBgQ%26num%3D1%26cid%3D5GiiSHMbsz2eJGqgog_A82fl%26sig%3DAOD64_1uUKyjRh19cmrsYHPMQLdwT73SwQ%26client%3Dca-games-pub-8917859110938093%26adurl%3Dhttp://www.kizi.com%253Fs%253D21%2526ch%253D13
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
