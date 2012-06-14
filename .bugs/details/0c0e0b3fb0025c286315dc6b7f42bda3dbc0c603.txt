@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sigalert.com/Map.asp?lat=40.741100&lon=-74.229301&z=1#lat=40.74111&lon=-74.2294&z=1
+
+
+[filters]
+http://cdn-static.sigalert.com/68/Zip/Nielsen53.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
