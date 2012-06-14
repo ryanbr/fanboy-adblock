@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nfl.com/videos/nfl-draft/09000d5d8281705c/Indianapolis-Colts-moving-on-without-Peyton-Manning
+
+
+[filters]
+http://combine.nflcdn.com/yui/min2/index.php?4.1ef9188556a9d3e7ae8bd43120fe12df3&b=yui3%2Fstatic%2F4.1%2Fscripts%2Fmodules&ss=anyraw&f=nfl-lang.js,nfl-user.js,nfl-sign-in-links.js,nfl-video-base.js,nfl-omniture.js,nfl-video.js,share-bar.js,ads-v2.js,ads-coad.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
