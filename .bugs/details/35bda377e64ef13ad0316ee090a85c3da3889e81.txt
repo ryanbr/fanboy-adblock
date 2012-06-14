@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.voipbuster.com/
+
+
+[filters]
+http://www.voipbuster.com/en/webstats/index?browser=Mozilla%2F5.0+%28Windows+NT+6.1%3B+WOW64%3B+rv%3A13.0%29+Gecko%2F20100101+Firefox%2F13.0&current_url=http%3A%2F%2Fwww.voipbuster.com%2F
+
+http://www.voipstunt.com/en/webstats/index?browser=Mozilla%2F5.0+%28Windows+NT+6.1%3B+WOW64%3B+rv%3A13.0%29+Gecko%2F20100101+Firefox%2F13.0&current_url=http%3A%2F%2Fwww.voipstunt.com%2F
+
+http://www.freecall.com/webstats/index?browser=Mozilla%2F5.0+%28Windows+NT+6.1%3B+WOW64%3B+rv%3A13.0%29+Gecko%2F20100101+Firefox%2F13.0&current_url=http%3A%2F%2Fwww.freecall.com%2F
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
