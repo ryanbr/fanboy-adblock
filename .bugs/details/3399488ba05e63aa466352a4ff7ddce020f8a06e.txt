@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wallpapers-hollywood-videos.blogspot.co.nz/2011/11/julia-stiles-wallpaper-hot.html
+
+
+[filters]
+http://www.chicbuy.info/cpm/ad.js.php
+http://www.chicbuy.info/cpm/hitstat.php
+http://www.chicbuy.info/cpm/like-widget.php
+http://www.mysdcc.sdccd.edu/phpATM/files/pfmdownload/apowellPFM/.log/autopost/image-artis/image-artis.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
