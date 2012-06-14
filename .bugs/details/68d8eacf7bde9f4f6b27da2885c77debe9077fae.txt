@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kingofgames.net/free-games/Warped_Tour
+
+
+[filters]
+http://s0.2mdn.net/instream/afv_text_ads_manager_1_67.swf
+http://pagead2.googlesyndication.com/pagead/show_ads.js
+http://pagead2.googlesyndication.com/pagead/js/r20120606/r20120410/show_ads_impl.js
+http://pagead2.googlesyndication.com/pagead/expansion_embed.js
+http://www.kingofgames.net/gads/kingofgames.swf
+http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-5531478061375210&output=html&h=90&slotname=9456679767&w=728&lmt=1339673209&flash=11.2.202&url=http%3A%2F%2Fwww.kingofgames.net%2Ffree-games%2FWarped_Tour&dt=1339673210212&bpp=2&shv=r20120606&jsv=r20110914&correlator=1339673210311&frm=20&adk=3249305751&ga_vid=898081101.1339672904&ga_sid=1339672904&ga_hid=855249488&ga_fc=1&u_tz=720&u_his=1&u_java=1&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=24&u_nplug=4&u_nmime=41&dff=arial&dfs=12&adx=0&ady=0&biw=1903&bih=976&oid=3&ref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D8%26t%3D12996&fu=0&ifi=1&dtd=587&xpc=GGBdmgolT9&p=http%3A//www.kingofgames.net
+http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-8917859110938093&output=html&h=250&slotname=4836819544&w=300&lmt=1339673209&flash=11.2.202&url=http%3A%2F%2Fwww.kingofgames.net%2Ffree-games%2FWarped_Tour&dt=1339673210791&bpp=1&shv=r20120606&jsv=r20110914&prev_slotnames=9456679767&correlator=1339673210311&frm=20&adk=3598816703&ga_vid=898081101.1339672904&ga_sid=1339672904&ga_hid=855249488&ga_fc=1&u_tz=720&u_his=1&u_java=1&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=24&u_nplug=4&u_nmime=41&dff=arial&dfs=12&adx=1135&ady=1073&biw=1903&bih=976&oid=3&ref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D8%26t%3D12996&fu=0&ifi=2&dtd=287&xpc=mwwqiRPn5C&p=http%3A//www.kingofgames.net
+http://googleads.g.doubleclick.net/pagead/ads?url=http%3A%2F%2Fwww.kingofgames.net%2Ffree-games%2FWarped_Tour&u_nmime=41&frm=0&flash=11.2.202.235&u_tz=720&client=ca-games-pub-8917859110938093&unviewed_position_start=1&dt=1339673211643&t_pyv=allow&videoad_start_delay=1&u_h=1080&num_ads=3&channel=Animation%2BAutos%20%26%20Vehicles%2BComedy%2BEducation%2BEntertainment%2BFilm%2BFullscreen%2BGaming%2BGraohicalOverlay%2BHealth%2BHow-to%2BMen%60s%20Lifestyle%2BMens%60s%20Interests%2BMidrollVideo%2BMusic%2BNews%20%26%20Politics%2BNonprofits%20%26%20Activism%2BOverlay%2BPeople%20%26%20Blogs%2BPets%20%26%20Animals%2BPostrollVideo%2BPremium%20LongForm%20Content%2BPremium%20ShortForm%20Content%2BPreroll%20Video%2BScience%20%26%20Technology%2BSports%2BTextOverlay%2BTravel%20%26%20Events%2BWomen%60s%20Interests%2BWomen%60s%20Lifestyle%2BEndcap&image_size=336x280%2C300x250%2C250x250%2C200x200&u_w=1920&adsafe=high&u_asa=1&correlator=1339673211586&u_java=true&sz=550x400&sdkv=2.11.27&u_his=1&output=xml_vast2&u_ah=1040&video_product_type=4&u_aw=1920&ref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ft%3D12996%26f%3D8&video_doc_id=http%3A%2F%2Fwww.kingofgames.net%2Ffree-games%2FWarped_Tour&u_cd=24&ad_type=text_dynamicimage_flash&ea=0&u_nplug=4
+http://googleads.g.doubleclick.net/crossdomain.xml
+http://s0.2mdn.net/instream/ads_sdk_config.xml
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
