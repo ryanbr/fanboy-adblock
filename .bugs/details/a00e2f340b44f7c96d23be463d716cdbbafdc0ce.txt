@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.myfax.com/
+
+
+[filters]
+http://affiliates.myfax.com/tracking/js.html?t=0&bbid=undefined&ref=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
