@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eldercare.gov/Eldercare.NET/Public/Index.aspx
+
+
+[filters]
+http://mtrics.cdc.gov/b/ss/cdcsynd/1/G.5--FB/s1154008561883?cl=session&j=1.0&c8=Widget&c27=CDC%20Framework&c17=http://www.eldercare.gov/Eldercare.NET/Public/Index.aspx&pageName=AIDS%20Service%20Provider%20Locator&v5=widget-040&c32=widget-040&v6=http://www.eldercare.gov/Eldercare.NET/Public/Index.aspx&c33=http://www.eldercare.gov/Eldercare.NET/Public/Index.aspx
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
