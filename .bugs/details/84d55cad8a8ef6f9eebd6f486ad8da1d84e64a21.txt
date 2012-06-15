@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aarp.org/technology/privacy-security/info-07-2011/can-company-demand-social-security-ask-sid.html
+
+
+[filters]
+http://cdn.aarp.net/etc/aarp/statics/global/js/mbox.rev8827.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
