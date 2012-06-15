@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gotennis.ru/read/news/shamil_tarpischev_v_londone_mozhem_rasschityvat_na_medali_tolko_u_devushek.html
+
+
+[filters]
+http://www.gotennis.ru/uploads/banners/9ffeb37e6904b624526f7c649621a0da.swf
+http://www.gotennis.ru/uploads/filefield/5f28ee13ebe21f18a1a2fb6faef7fe4b.swf
+http://www.gotennis.ru/uploads/filefield/7aa0cae3fab7943d2016d846399345da.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
