@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.medicaldaily.com/news/20120614/10301/ebola-virus-antibody-cure.htm
+
+[filters]
+http://www.medicaldaily.com/sections/recommend.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
