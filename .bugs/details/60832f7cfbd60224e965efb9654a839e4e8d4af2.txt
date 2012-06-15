@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.uscbookstore.com/site_computer_apple.asp
+
+
+[filters]
+http://www.yceml.net/0388/10847620-25
+http://www.lduhtrp.net/image-4286549-10847620
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
