@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dematom.com/570537-ne-liubishi-futbol.html
+
+
+[filters]
+http://web.globeac.com/s/454/227254.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
