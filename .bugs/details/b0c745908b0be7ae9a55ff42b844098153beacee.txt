@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ncoa.org/
+
+[filters]
+http://waystohelp.ncoa.org/bcu/js/ga_link_tracker_async.js
+http://www.aflcio.org/extension/aflcio/design/aflcio_user/javascript/ga_link_tracker_async.js
+
+
+
+[other]
+http://www.aflcio.org/
+
+
+[comments]
+fanboy
