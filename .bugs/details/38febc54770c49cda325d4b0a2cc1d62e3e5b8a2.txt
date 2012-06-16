@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.soccer.ru/
+
+
+[filters]
+http://soccer.ru/swf/313.swf
+http://www.soccer.ru/swf/306.swf?nocache=1339165391
+http://s1.ad.leongaming.com/stage/banner/bnrBok1UD.swf?&to=http://s1.ad.leongaming.com/newlinks.php?key=3isf70dfs42dyy1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
