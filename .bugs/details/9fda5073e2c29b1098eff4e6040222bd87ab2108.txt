@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.datacenterknowledge.com/archives/2012/06/14/hawking-is-first-user-of-sgi-big-brain-supercomputer/
+
+[filters]
+http://www.datacenterknowledge.com/wp-content/themes/dck-1.5/images/linkedin-32x32s.png
+http://www.datacenterknowledge.com/wp-content/themes/dck-1.5/images/facebook-32x32s.png
+http://www.datacenterknowledge.com/wp-content/themes/dck-1.5/images/rss-32x32s.png
+http://www.datacenterknowledge.com/wp-content/themes/dck-1.5/images/twitter-32x32s.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
