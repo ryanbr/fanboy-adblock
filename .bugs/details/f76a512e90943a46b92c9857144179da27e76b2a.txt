@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.golfchannel.com/tours/pga-tour/2012/us-open/
+
+
+[filters]
+http://www.golfchannel.com/components/pageelements/modules/adframewrapper.aspx?AdTag=http%3a%2f%2fad.doubleclick.net%2fadj%2fnbcu.golfchan%2ftours_pga_score%3bsite%3dgolfchan%3bsect%3dtours%3bsub%3dpga%3bsub2%3dscore%3bpageid%3d8da37f113c%3b!c%3dtours%3b!c%3dpga%3btandomad%3d%27%2beTandomAd%2b%27%3b%27%2b(top.__nbcudigitaladops_dtparams%7c%7c%27%27)%2b%27pos%3d2%3btile%3d2%3bsz%3d728x90%3bord%3d%27+%2b+randDARTNumber+%2b+%27%3f&Refresh=180
+http://www.golfchannel.com/components/pageelements/modules/adframewrapper.aspx?AdTag=http%3a%2f%2fad.doubleclick.net%2fadj%2fnbcu.golfchan%2ftours_pga_score%3bsite%3dgolfchan%3bsect%3dtours%3bsub%3dpga%3bsub2%3dscore%3bpageid%3d8da37f113c%3b!c%3dtours%3b!c%3dpga%3btandomad%3d%27%2beTandomAd%2b%27%3b%27%2b(top.__nbcudigitaladops_dtparams%7c%7c%27%27)%2b%27pos%3d5%3btile%3d5%3bsz%3d300x250%3bord%3d%27+%2b+randDARTNumber+%2b+%27%3f&Refresh=180
+http://www.golfchannel.com/components/pageelements/modules/adframewrapper.aspx?AdTag=http%3a%2f%2fad.doubleclick.net%2fadj%2fnbcu.golfchan%2ftours_pga_score%3bsite%3dgolfchan%3bsect%3dtours%3bsub%3dpga%3bsub2%3dscore%3bpageid%3d8da37f113c%3b!c%3dtours%3b!c%3dpga%3btandomad%3d%27%2beTandomAd%2b%27%3b%27%2b(top.__nbcudigitaladops_dtparams%7c%7c%27%27)%2b%27pos%3d5%3btile%3d5%3bsz%3d300x250%3bord%3d%27+%2b+randDARTNumber+%2b+%27%3f&Refresh=180&activateJS=1
+http://www.golfchannel.com/components/pageelements/modules/adframewrapper.aspx?AdTag=http%3a%2f%2fad.doubleclick.net%2fadj%2fnbcu.golfchan%2ftours_pga_score%3bsite%3dgolfchan%3bsect%3dtours%3bsub%3dpga%3bsub2%3dscore%3bpageid%3d8da37f113c%3bfol%3dbtf%3b!c%3dtours%3b!c%3dpga%3b!c%3dbtf%3btandomad%3d%27%2beTandomAd%2b%27%3b%27%2b(top.__nbcudigitaladops_dtparams%7c%7c%27%27)%2b%27pos%3d7%3btile%3d7%3bsz%3d578x31%3bord%3d%27+%2b+randDARTNumber+%2b+%27%3f&Refresh=180
+http://www.golfchannel.com/components/pageelements/modules/adframewrapper.aspx?AdTag=http%3a%2f%2fad.doubleclick.net%2fadj%2fnbcu.golfchan%2ftours_pga_score%3bsite%3dgolfchan%3bsect%3dtours%3bsub%3dpga%3bsub2%3dscore%3bpageid%3d8da37f113c%3bfol%3dbtf%3b!c%3dtours%3b!c%3dpga%3b!c%3dbtf%3btandomad%3d%27%2beTandomAd%2b%27%3b%27%2b(top.__nbcudigitaladops_dtparams%7c%7c%27%27)%2b%27pos%3d7%3btile%3d7%3bsz%3d578x31%3bord%3d%27+%2b+randDARTNumber+%2b+%27%3f&Refresh=180&activateJS=1
+http://www.golfchannel.com/components/pageelements/modules/adframewrapper.aspx?AdTag=http%3a%2f%2fad.doubleclick.net%2fadj%2fnbcu.golfchan.b%2ftours_pga_score%3bsite%3dgolfchan%3bsect%3dtours%3bsub%3dpga%3bsub2%3dscore%3bpageid%3d8da37f113c%3bfol%3dbtf%3b!c%3dtours%3b!c%3dpga%3b!c%3dbtf%3btandomad%3d%27%2beTandomAd%2b%27%3b%27%2b(top.__nbcudigitaladops_dtparams%7c%7c%27%27)%2b%27pos%3d8%3btile%3d8%3bsz%3d578x31%3bord%3d%27+%2b+randDARTNumber+%2b+%27%3f&Refresh=180
+http://www.golfchannel.com/components/pageelements/modules/adframewrapper.aspx?AdTag=http%3a%2f%2fad.doubleclick.net%2fadj%2fnbcu.golfchan.b%2ftours_pga_score%3bsite%3dgolfchan%3bsect%3dtours%3bsub%3dpga%3bsub2%3dscore%3bpageid%3d8da37f113c%3bfol%3dbtf%3b!c%3dtours%3b!c%3dpga%3b!c%3dbtf%3btandomad%3d%27%2beTandomAd%2b%27%3b%27%2b(top.__nbcudigitaladops_dtparams%7c%7c%27%27)%2b%27pos%3d8%3btile%3d8%3bsz%3d578x31%3bord%3d%27+%2b+randDARTNumber+%2b+%27%3f&Refresh=180&activateJS=1
+http://www.golfchannel.com/components/pageelements/modules/adframewrapper.aspx?AdTag=http%3a%2f%2fad.doubleclick.net%2fadj%2fnbcu.golfchan.b%2ftours_pga_score%3bsite%3dgolfchan%3bsect%3dtours%3bsub%3dpga%3bsub2%3dscore%3bpageid%3d8da37f113c%3bfol%3dbtf%3b!c%3dtours%3b!c%3dpga%3b!c%3dbtf%3btandomad%3d%27%2beTandomAd%2b%27%3b%27%2b(top.__nbcudigitaladops_dtparams%7c%7c%27%27)%2b%27pos%3d9%3btile%3d9%3bsz%3d728x90%3bord%3d%27+%2b+randDARTNumber+%2b+%27%3f&Refresh=180
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
