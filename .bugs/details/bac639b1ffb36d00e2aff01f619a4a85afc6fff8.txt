@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lostfilm.tv/
+
+
+[filters]
+http://lnk.lostfilm.tv/1nk.php?a=*&c=*&cc=*
+http://lnk.lostfilm.tv/shm/bfile_swf_568.swf?1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
