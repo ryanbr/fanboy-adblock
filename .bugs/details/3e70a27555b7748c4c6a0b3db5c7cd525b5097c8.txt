@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.publicpolicypolling.com/main/2012/06/nevada-miscellany.html
+
+
+[filters]
+http://static.typepad.com/.shared/themes/common/images/share-link-bg-delicious.gif
+http://static.typepad.com/.shared/themes/common/images/share-link-bg-digg.gif
+http://static.typepad.com/.shared/themes/common/images/share-link-bg-reblog.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
