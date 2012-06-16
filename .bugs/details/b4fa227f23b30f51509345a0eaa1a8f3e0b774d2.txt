@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pic5you.ru/6043/2114867/1/
+
+
+[filters]
+http://tmserver-2.net/news1.php
+http://tm-core.net/zoom.js
+http://code.okeo.ru/show/?oid=113
+http://id15700.luxup.ru/show/363349/?div=lx_363349&rt=28012&r=
+http://livetraf.com/js/body.php?id=1876
+http://traf.goklics.ru/get.js?user_id=1213&mode=pop
+http://applieda.com/f4ta37ed740/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
