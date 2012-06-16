@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thefirstrow.eu/watch/126897/1/watch-new-zealand-vs-ireland.html
+
+
+[filters]
+http://hqfootyad4.blogspot.com/
+http://meraad2.blogspot.com/
+
+
+
+[other]
+altervista.org###floatLayer1
+
+
+[comments]
+fanboy
