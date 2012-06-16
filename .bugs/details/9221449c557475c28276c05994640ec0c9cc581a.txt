@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://????-?????.??/1068-domashnyaya-fotostudiya-371-crack-klyuch-polnaya-versiya.html
+
+
+[filters]
+http://parad7.ru/js/mdhash.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
