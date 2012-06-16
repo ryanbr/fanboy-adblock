@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://confusedofcalcutta.com/2007/11/03/the-best-way-to-predict-the-future-is-to-prevent-it/
+
+[filters]
+http://confusedofcalcutta.com/wp-content/plugins/wordpress-social-ring//includes/share.php?url=http%3A%2F%2Fconfusedofcalcutta.com%2F2007%2F11%2F03%2Fthe-best-way-to-predict-the-future-is-to-prevent-it%2F
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
