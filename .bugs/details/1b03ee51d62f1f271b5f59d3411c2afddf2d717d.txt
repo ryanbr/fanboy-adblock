@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://filmix.net/page/2/
+
+
+[filters]
+http://ad001.ru/files/notifier_close.gif
+http://ad001.ru/uploads/363.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
