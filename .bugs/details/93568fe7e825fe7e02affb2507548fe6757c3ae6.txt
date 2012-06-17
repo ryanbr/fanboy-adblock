@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ustream.tv/decoraheagles
+
+
+[filters]
+http://cdngw.ustream.tv/rgw/Viewer/getAdverts?brandId=1&mediaId=3064708&mediaType=channel&countryCode=nz&locale=en_US&pageUrl=http%3A%2F%2Fwww%2Eustream%2Etv%2F
+http://cdngw.ustream.tv/rgw/Viewer/getAdverts?brandId=1&mediaId=3064708&mediaType=channel&countryCode=nz&locale=en_US&pageUrl=http%3A%2F%2Fwww%2Eustream%2Etv%2Fdecoraheagles
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
