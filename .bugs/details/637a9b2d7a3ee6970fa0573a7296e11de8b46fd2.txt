@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.adcode.mobi/en/
+
+
+[filters]
+http://adcode.mobi/assets/images/kuva.png
+http://adcode.mobi/assets/images/tooltip-arrow-up.png
+http://adcode.mobi/mobiledetect.js?auto=0&id=m
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
