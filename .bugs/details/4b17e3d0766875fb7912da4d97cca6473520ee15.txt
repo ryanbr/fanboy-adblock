@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thisav.com/search?query=*&for=*
+
+
+[filters]
+http://ad.thisav.com/rotate/html/thisavmain728x90.htm
+http://ad.thisav.com/rotate/html/adxmain300x250.htm
+http://ad.thisav.com/rotate/html/juicyads160x600.htm
+http://ad.thisav.com/rotate/mainpage160x600/
+http://ad.thisav.com/rotate/mainpage300x250/
+http://ad.thisav.com/rotate/mainpage728x90/
+http://images.thisav.com/js/thisav_pop.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
