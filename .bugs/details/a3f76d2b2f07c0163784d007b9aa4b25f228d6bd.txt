@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thepiratebay.se.firstproxy.net/
+
+
+[filters]
+http://www.xxor.se/projects/proxxor/proxxorad.js.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
