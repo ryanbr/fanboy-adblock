@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tucson12.com/galleries/873
+
+
+[filters]
+http://www.googletagservices.com/tag/js/gpt.js
+http://www.google-analytics.com/ga.js
+http://img.bnqt.com/CMS/assets/toolbar/css/bmg_tbar.css
+
+
+
+[other]
+Allow slideshow.
+
+
+[comments]
+fanboy
