@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cirquedusoleil.com/en/home.aspx#/en/home/americas/canada.aspx
+
+[filters]
+http://www.cirquedusoleil.com/en/~/script/Integration/global/js/cds-webanalytics.js
+http://www.cirquedusoleil.com/en/~/script/Integration/global/js/googleAnalyticsTracking.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
