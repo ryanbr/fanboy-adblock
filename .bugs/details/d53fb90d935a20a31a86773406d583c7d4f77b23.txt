@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kp.ru/video/444081/
+
+
+[filters]
+http://www.kp.ru/images/tabs/facebook2_icon.jpg
+http://www.kp.ru/images/tabs/twitter2_icon.jpg
+http://www.kp.ru/images/tabs/vkontakte2_icon.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
