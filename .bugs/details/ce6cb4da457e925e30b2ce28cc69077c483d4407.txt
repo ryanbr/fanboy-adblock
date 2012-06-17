@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://movies.netflix.com/WiPlayer?movieid=*&trkid=*&pt_request_id=*&pt_rank=*&pt_row=*&pt_location=*
+
+
+[filters]
+http://tt.arcadeweb.com/acttr?p=*&v=*&a=*&t=*
+http://cf.arcadeweb.com/cmn?p=*
+
+
+
+[other]
+reported tracker
+
+
+[comments]
+fanboy
