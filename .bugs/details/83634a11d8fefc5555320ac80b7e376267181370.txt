@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ergor.org/V2/telecharger/cat_1_20_20_films.html#tris
+
+
+[filters]
+http://www.ergor.org/V2/adserverpub?120
+http://www.ergor.org/V2/adserverpub?728
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
