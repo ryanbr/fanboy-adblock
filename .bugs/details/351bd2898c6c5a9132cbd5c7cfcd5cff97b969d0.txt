@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.n-tv.de/wetter/8-tage-wetter/?id=18219464
+
+
+[filters]
+http://ad.de.doubleclick.net/pfadx/www.nntv.de/vid_we;pack=;sz=320x240;pos=postroll;tile=5;;spot=1;theme=vid_we;pl=1;playerseite=ja;playersize=680x394;dcmt=text/xml;ord=981993
+http://ad.de.doubleclick.net/pfadx/www.nntv.de/vid_we;pack=;sz=320x240;pos=pre;tile=4;spot=1;theme=vid_we;pl=1;playerseite=ja;playersize=680x394;dcmt=text/xml;ord=981993
+http://ad.de.doubleclick.net/adj/www.nntv.de/vid_we;theme=vid_we;pack=;sz=120x600;tile=3;pl=1;ord=981993?
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
