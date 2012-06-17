@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sandiego12.com/galleries/773-Haylie+Knorr%27s+Heavenly+Photo+Shoot
+
+
+[filters]
+http://www.googletagservices.com/tag/js/gpt.js
+
+
+
+
+[other]
+need to white list to allow slideshow
+
+
+[comments]
+fanboy
