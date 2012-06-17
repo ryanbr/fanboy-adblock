@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://uxmovement.com/buttons/why-ok-buttons-in-dialog-boxes-work-best-on-the-right/
+
+
+[filters]
+http://uxmovement.com/wp-content/plugins/sketch-bookmarks/images/googleplus.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
