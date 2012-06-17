@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.n-tv.de/wetter/8-tage-wetter/?id=18219464
+
+
+[filters]
+http://www.n-tv.de/stat/videoplayer/TeunerFels.flv
+http://www.n-tv.de/stat/videoplayer/admeta_3.xml?ts=1339912881
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
