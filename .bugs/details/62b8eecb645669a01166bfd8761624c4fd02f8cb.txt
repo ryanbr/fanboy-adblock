@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://player.streamtheworld.com/_players/entercom/player/?id=WRKO
+
+
+[filters]
+http://click.andomedia.com/b/2/225920
+
+
+
+[other]
+http://tunein.com/radio/WRKO-680-s22465/
+
+
+[comments]
+fanboy
