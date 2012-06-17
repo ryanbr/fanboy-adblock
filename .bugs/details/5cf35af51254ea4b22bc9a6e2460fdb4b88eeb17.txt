@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://aniscartujo.com/webproxy/default.aspx?prx=http://torrentz.eu/fe837c5db0f2bb43333c9a1200dd11f7ae95c579
+
+
+[filters]
+https://aniscartujo.com/webproxy/layer.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
