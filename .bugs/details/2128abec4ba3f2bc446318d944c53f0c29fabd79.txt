@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nyctourist.com/broadway_tkts.asp
+
+
+[filters]
+http://newyorkcity.nyctourist.com/www/delivery/spcjs.php?id=11
+http://ads.bizx.info/www/delivery/spc.php?zones=ad_44935%3D44935%7Cad_37948%3D37948%7Cad_45739%3D45739%7Cad_37877%3D37877%7Cad_37913%3D37913%7Cad_37927%3D37927%7Cad_37914%3D37914%7Cad_37923%3D37923%7Cad_37924%3D37924%7Cad_40467%3D40467%7Cad_42456%3D42456%7Cad_39980%3D39980%7Cad_43147%3D43147%7C&nz=1&source=&r=84026918&charset=UTF-8&loc=http%3A//www.nyctourist.com/broadway_tkts.asp&referer=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D8%26t%3D13033
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
