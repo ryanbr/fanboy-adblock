@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fantasti.cc/user/bummboombecky/images/image/2470700
+
+[filters]
+http://fantasti.cc/ajax/gw.php?ad=2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
