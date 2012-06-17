@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.superstore.ca/LCLOnline/flyers_landing_page.jsp?_requestid=418129&categoryId=100008
+
+[filters]
+http://director.flyerservices.com/LCL/PublicationDirector.ashx?OrganizationId=*&BannerId=*&BannerName=*&banner=*&Language=*&storenum=*&pgnum=*&pgcat=*&PC=*&T=*&AllKey=*&StoreKey=*&publicationrunid=*&PublicationId=*&PublicationType=*&StoreId=*&Edition=*&version=*
+
+
+
+
+[other]
+reported
+
+[comments]
+fanboy
