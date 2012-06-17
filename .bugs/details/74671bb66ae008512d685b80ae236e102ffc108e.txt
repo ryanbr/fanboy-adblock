@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blogs.valvesoftware.com/economics/it-all-began-with-a-strange-email/
+
+
+[filters]
+http://blogs.valvesoftware.com/images/share_rss.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
