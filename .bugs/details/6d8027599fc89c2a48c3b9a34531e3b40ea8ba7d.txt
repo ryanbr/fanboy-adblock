@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://player.streamtheworld.com/_players/entercom/player/?id=WRKO
+
+
+[filters]
+http://lt.andomedia.com/ltflash.php
+http://click.andomedia.com/b/2/225920
+http://click.andomedia.com/b/2/233571
+http://edge-dl.andomedia.com/800185/download.andomedia.com/Creative/125/2/1252659_1.flv
+http://edge-dl.andomedia.com/800185/download.andomedia.com/Creative/127/5/1275714_0.flv
+http://edge-dl.andomedia.com/800185/download.andomedia.com/Creative/129/9/1299635_4.flv
+
+
+
+[other]
+making generic, stops the video ad (intro)
+http://tunein.com/radio/WRKO-680-s22465/
+
+
+
+[comments]
+fanboy
