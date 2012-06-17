@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thisav.com/video/9427/kawaii%82%9E%26frac34%3B%8E%91%26sup3%3B-33.html
+
+
+[filters]
+http://ad.thisav.com/player/jw.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
