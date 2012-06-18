@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.medindia.net/news/china-investigates-the-case-of-forced-abortion-102831-1.htm
+
+
+[filters]
+http://healthadnet.adprimemedia.com/vn/vna/data/ad.php?vp_id=300150
+
+[other]
+Video on right hand side doesn't play when ad.php is blocked.
+
+[comments]
+nitrox
