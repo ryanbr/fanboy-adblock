@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.itv.com/sport/football/euro/
+
+
+[filters]
+http://f.chtah.com/s/5/2075638157/2012_SportVR.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
