@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://boards.4chan.org/b/res/406885750#q406885750
+
+
+[filters]
+http://images.4chan.org/b/junk/flash/oldb.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
