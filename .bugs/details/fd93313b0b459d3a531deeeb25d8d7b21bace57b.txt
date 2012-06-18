@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.craftown.com/
+
+
+[filters]
+http://txn.grabnetworks.com/osmf/beacons/?e=1704950&u=http://www.craftown.com/&v=4092834&p=166668&b=0&m=ap
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
