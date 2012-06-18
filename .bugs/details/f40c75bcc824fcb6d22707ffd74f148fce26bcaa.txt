@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sex.com/
+
+
+[filters]
+http://www.sex.com/popunder/sex.html
+
+
+[other]
+
+
+[comments]
+nitrox
