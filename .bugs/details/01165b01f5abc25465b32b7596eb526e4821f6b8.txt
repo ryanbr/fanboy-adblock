@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.adultvideotorrents.com/viewcode.php?id=2382
+
+
+[filters]
+http://www.adultvideotorrents.com/assets/blockBlock/advertisement.js
+
+[other]
+anti-adblock
+
+
+[comments]
+nitrox
