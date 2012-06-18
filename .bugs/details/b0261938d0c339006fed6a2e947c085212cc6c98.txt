@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sharenxs.com/view/?id=4qqb28x-43202246656-dzqwipa
+
+
+[filters]
+http://www.sex.com/?utm_source=sharexns&utm_medium=popunder&utm_campaign=shaRexns
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
