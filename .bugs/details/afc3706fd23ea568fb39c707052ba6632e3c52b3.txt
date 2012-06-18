@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+fanboy
+
+
+[filters]
+http://sg.perion.com/v1.1/js/gt.js
+http://sg.perion.com/v1.1/js/loaderv2.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
