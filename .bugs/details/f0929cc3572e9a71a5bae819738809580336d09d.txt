@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://phandroid.com/2012/06/11/some-htc-one-xs-suffering-from-wifi-death-grip-issues-htc-looks-into-it/
+
+
+[filters]
+http://phandroid.com/globals/images/top_social_c_facebook.png
+http://phandroid.com/globals/images/top_social_c_gplus.png
+http://phandroid.com/globals/images/top_social_c_rss.png
+http://phandroid.com/globals/images/top_social_c_twitter.png
+http://phandroid.com/globals/images/top_social_c_youtube.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
