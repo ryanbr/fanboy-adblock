@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.webutation.net/go/review/google.com
+
+
+[filters]
+http://servestats.com/ts3.js
+http://advrtice.com/tsi3.html
+http://advrtice.com/tsi/?sid=2
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
