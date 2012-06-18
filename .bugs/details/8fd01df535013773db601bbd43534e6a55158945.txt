@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.outdoorphotographer.com/
+
+
+[filters]
+http://www.outdoorphotographer.com/script/outdoor_i2a.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
