@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.womenshealthbase.com/age-defying-tricks/?src=*&utm_source=*&utm_medium=*&utm_campaign=*
+
+[filters]
+http://ads.videohub.tv/crossdomain.xml
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
