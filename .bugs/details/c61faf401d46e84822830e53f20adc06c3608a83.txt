@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.medindia.net/news/china-investigates-the-case-of-forced-abortion-102831-1.htm
+
+
+[filters]
+http://healthadnet.adprimemedia.com/vn/vna/data/video_report/videoReport.php?vp_id=300150&video_id=200000695&time_start=0&time_end=0.679&from_url=http://healthadnet.adprimemedia.com/vn/players/html/iframe_size9.htm?player_file=undefined&vp_id=300150&subdomain=healthadnet&videoId=200000695&r1qm6=6@s4
+http://healthadnet.adprimemedia.com/vn/vna/data/video_report/attemptAdReport.php?vp_id=300150&_ad_provider=yume&pub_key=H5&from_url=http%3A//healthadnet.adprimemedia.com/vn/players/html/iframe_size9.htm%3Fplayer_file%3Dundefined%26vp_id%3D300150%26subdomain%3Dhealthadnet%26videoId%3D200000695
+http://healthadnet.adprimemedia.com/vn/vna/data/video_report/playerReport.php?vp_id=300150&subdomain=healthadnet&from_url=http%3A//healthadnet.adprimemedia.com/vn/players/html/iframe_size9.htm%3Fplayer_file%3Dundefined%26vp_id%3D300150%26subdomain%3Dhealthadnet%26videoId%3D200000695&r1qm6=6@s4
+http://healthadnet.adprimemedia.com/vn/vna/data/video_report/videoReport.php?vp_id=300150&video_id=200000695&time_start=0&time_end=0.827&from_url=http://healthadnet.adprimemedia.com/vn/players/html/iframe_size9.htm?player_file=undefined&vp_id=300150&subdomain=healthadnet&videoId=200000695&r1qm6=6@s4
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
