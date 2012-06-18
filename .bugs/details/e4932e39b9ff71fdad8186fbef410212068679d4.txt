@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wirefly.com/eCommerce/SpecialOffer.aspx?cid=21427_aa0c10e0e822458d8556d81ace123864
+
+
+[filters]
+https://www.inphonic.com/tracking/sopixels.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
