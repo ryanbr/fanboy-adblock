@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.juxtapoz.com/Gallery/john-kacere/john-kacere45-28681
+
+
+[filters]
+http://www.google-analytics.com/ga.js
+
+
+[other]
+next/previous buttons don't work when ga js is blocked.
+
+
+[comments]
+nitrox
