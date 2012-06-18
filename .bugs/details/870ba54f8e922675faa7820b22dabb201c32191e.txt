@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.symptomfind.com/health/preventing-mosquito-bites/
+
+
+[filters]
+http://analyze.yahooapis.com/get/Valueclick/CapAnywhere.getAnnotationCallback?url=http%3A//www.symptomfind.com/health/preventing-mosquito-bites/
+http://files.symptomfind.com/images/share_icon.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
