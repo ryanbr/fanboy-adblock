@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.imagekitty.com/be22w5zm36cm/Brunetteondesk1.jpeg.html
+
+
+[filters]
+http://sakuralive.com/dynamicbanner/300x300/SLpopup300.js
+http://sakuralive.com/dynamicbanner/300x300JP/chatscript300-JP.css
+http://sakuralive.com/dynamicbanner/300x300JP/random_preview300-JP.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
