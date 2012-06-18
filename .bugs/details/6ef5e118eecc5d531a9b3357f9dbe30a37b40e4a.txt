@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.meteovista.co.uk/Europe/Italy/Roma/4297322
+
+
+[filters]
+http://www.meteovista.co.uk/Go/Banner/Index?geoAreaId=4297322&template=CityPage&bannerType=Leaderboard&selectedMapType=Weather&selectedMapDay=Today&referer=http://www.meteovista.co.uk/Europe/Italy/Roma/4297322
+http://www.meteovista.co.uk/Go/Banner/Index?geoAreaId=4297322&template=CityPage&bannerType=Rectangle&selectedMapType=Weather&selectedMapDay=Today&referer=http://www.meteovista.co.uk/Europe/Italy/Roma/4297322
+http://www.zoover.co.uk/tracking/images/AQ1zdXBwbGllci1saW5rCEFsaXRhbGlhBDIyMzcUZXh0ZXJuYWw6IHdlZXJvbmxpbmULZGVzdGluYXRpb24KQ29kZSA9IDc1OQA1.jpg?ZooverAffId=6034
+http://www.zoover.co.uk/tracking/images/AQ1zdXBwbGllci1saW5rCVNrb29zaCBVSwQxMDAxFGV4dGVybmFsOiB3ZWVyb25saW5lC2Rlc3RpbmF0aW9uCkNvZGUgPSA3NTkA0.jpg?ZooverAffId=6034
+http://www.zoover.co.uk/tracking/images/AQ1zdXBwbGllci1saW5rCkRoaXRyYXggVUsEMjYzMBRleHRlcm5hbDogd2Vlcm9ubGluZQtkZXN0aW5hdGlvbgpDb2RlID0gNzU5AA2.jpg?ZooverAffId=6034
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
