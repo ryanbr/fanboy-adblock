@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.medicalnewstoday.com/articles/246619.php
+
+
+[filters]
+http://www.medicalnewstoday.com/scripts/googleadcode.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
