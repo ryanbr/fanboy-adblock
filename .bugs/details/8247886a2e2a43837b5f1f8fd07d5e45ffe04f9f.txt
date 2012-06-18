@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://oklahomacity.craigslist.org/ctd/3084746457.html
+
+
+[filters]
+http://a.easyinline.com/pubjs?pid=*&sid=*
+http://edge.easyinline.com/app/easyInline.js
+http://www.ezlooker.com/app/ezLookerLogoSmall.png
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
