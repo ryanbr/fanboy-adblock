@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.boards.ie/vbulletin/
+
+
+[filters]
+https://www.boards.ie/timing.php?start=0.92178500%201340058997&end=0.63879500%201340058998&render_time=4332&metrics=7&ads=0&cookielength=63
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
