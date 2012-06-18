@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://streamcloud.eu/1m614mr0p45n/cia-gottverkind-xvid.avi.html
+
+
+[filters]
+http://www.red-tube.com/popunder/stramcloud.php
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
