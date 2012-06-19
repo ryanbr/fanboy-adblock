@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cdmediaworld.com/hardware/cdrom/cd.shtml
+
+
+[filters]
+http://search.mediatarget.net/h1.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
