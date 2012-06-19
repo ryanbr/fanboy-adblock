@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.youtube-mp3.org/
+
+
+[filters]
+http://e390.u.aclst.com/ping.php?video_id=KMU0tzLwhbE&h=2851
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
