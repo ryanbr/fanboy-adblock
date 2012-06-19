@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.countrystartpage.com/countrywomen.php
+
+
+[filters]
+http://www.countrystartpage.com/afbeeldingen/facebookmall.png
+http://www.countrystartpage.com/afbeeldingen/myspacesmall.png
+http://www.countrystartpage.com/afbeeldingen/twittersmall.png
+http://www.geoplugin.net/javascript.gp
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
