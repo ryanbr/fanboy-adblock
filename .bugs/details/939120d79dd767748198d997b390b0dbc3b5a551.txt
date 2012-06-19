@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pclab.pl/news50176.html
+
+
+[filters]
+http://pclab.pl/partners/games/Dark_Orbit.jpg
+http://pclab.pl/partners/games/Drakensang_Online_2.jpg
+http://pclab.pl/partners/games/Fragoria_2.jpg
+http://pclab.pl/partners/games/Legenda_Wojna_Smokow.jpg
+http://pclab.pl/partners/games/Pirate_Storm.jpg
+http://pclab.pl/partners/games/The_Settlers_Online_2.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
