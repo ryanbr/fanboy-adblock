@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://consolecopyworld.com/
+
+
+[filters]
+http://filetarget.com/!_btm.php?sn=ccw
+http://filetarget.com/!_console.php?sz=fc&sn=ccw&bg=FFFFFF
+http://filetarget.com/!_top.php?cs=all&sn=ccw
+http://filetarget.com/@_ab.php?sz=bn&sn=ccw&bg=ccw&cn=NZ&df=&ns=&id=&nf=
+http://filetarget.com/@_ab.php?sz=fc&sn=ccw&bg=FFFFFF&cn=NZ&df=&ns=&id=;&nf=
+http://filetarget.com/cs/@_cs.php?cs=rnd&fs=8pt
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
