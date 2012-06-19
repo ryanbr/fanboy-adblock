@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://napisy24.pl/
+
+
+[filters]
+http://napisy24.pl/images/_sklep_jubilerski_190x260.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
