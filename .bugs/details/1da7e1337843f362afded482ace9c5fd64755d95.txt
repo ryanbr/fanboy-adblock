@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gactv.com/gac/ar_az_jason_aldean
+
+[filters]
+http://wms.assoc-amazon.com/20070822/US/js/swfobject_1_5.js
+http://www.gactv.com/cr/cda/javascript/ad/coreAd/0,2761,,00.js
+http://adsremote.scrippsnetworks.com/crossdomain.xml
+http://adsremote.scrippsnetworks.com/html.ng/adtype=PREROLL&PagePos=1&SUBSECTION=AR_AZ_JASON_ALDEAN&vgncontent=AR_ARTISTS_A-Z&category=ARTISTS&site=GAC&tile=899195958226095&ord=107045544&pagetype=SECTION&uniqueid=GAC_SECTION_26095_1&SECTION_ID=26095&playcount=12&title=0178161&playertype=PUP
+http://adsremote.scrippsnetworks.com/html.ng/adtype=VIDEO_XML_DESCRIPTOR&PagePos=1&SUBSECTION=AR_AZ_JASON_ALDEAN&vgncontent=AR_ARTISTS_A-Z&category=ARTISTS&site=GAC&tile=899195958226095&ord=107045544&pagetype=SECTION&uniqueid=GAC_SECTION_26095_1&SECTION_ID=26095&playertype=PUP
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
