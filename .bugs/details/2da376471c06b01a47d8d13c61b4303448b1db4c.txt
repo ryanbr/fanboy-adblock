@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.google.com/analytics/web/?pli=1#report/visitors-overview/a18005662w36322333p35749643/
+
+[filters]
+https://stats.g.doubleclick.net/dc.js
+https://ssl.gstatic.com/analytics/20120522/web/analytics.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
