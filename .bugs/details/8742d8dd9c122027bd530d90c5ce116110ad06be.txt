@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gactv.com/gac/shows_gcnao/0,3548,GAC_45265,00.html?xp=tc_footer
+
+
+[filters]
+http://images.gactv.com/lnb/sponsored_title.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
