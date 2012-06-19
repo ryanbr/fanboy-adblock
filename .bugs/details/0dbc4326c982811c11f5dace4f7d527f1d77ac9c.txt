@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thomashunter.name/blog/neoinvoice-post-mortem/
+
+
+[filters]
+http://thomashunter.name/wp-content/themes/pixelpower/images/social_icons/twitter.png
+http://thomashunter.name/wp-content/themes/pixelpower/images/social_icons/linkedin.png
+http://thomashunter.name/wp-content/themes/pixelpower/images/social_icons/google-plus.png
+http://thomashunter.name/wp-content/themes/pixelpower/images/social_icons/facebook.png
+http://thomashunter.name/wp-content/themes/pixelpower/images/social_icons/github.png
+http://thomashunter.name/wp-content/themes/pixelpower/images/social_icons/hacker-news.png
+http://thomashunter.name/wp-content/themes/pixelpower/images/social_icons/sharethis.png
+http://thomashunter.name/wp-content/themes/pixelpower/images/social_icons/stackoverflow.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
