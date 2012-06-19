@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://niebezpiecznik.pl/post/f-secure-odradza-korzystanie-z-siri/
+
+
+[filters]
+http://helion.pl/plugins/new/random-katalog.cgi?k=10&nr=4753c
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
