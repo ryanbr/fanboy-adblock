@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.drhtv.com.pl/drhtv4.html
+
+
+[filters]
+http://s1.ad.oddsring.com/banner/94_2.js?t
+http://s1.ad.oddsring.com/stage/banner/bnrFs6Vrp.swf?&to=http://s1.ad.oddsring.com/newlinks.php?key=20dse72isd94zaz2
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
