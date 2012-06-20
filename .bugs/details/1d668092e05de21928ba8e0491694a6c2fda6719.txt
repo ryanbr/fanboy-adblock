@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.money.pl/
+
+
+[filters]
+http://pixel.money.pl/dot2.gif?time=1340231476541&user=f013cafa0c618b9bf08276a42909c261
+http://www.money.pl/d/polecamy/?reff=http%3A%2F%2Fwww.money.pl%2F
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
