@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wykop.pl/
+
+
+[filters]
+http://c728492.cdn.imgwykop.pl/paylink_1573_DRoW6TaUTasW.jpg
+http://c728492.cdn.imgwykop.pl/paylink_1585_rKuZnWP7o3KG.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
