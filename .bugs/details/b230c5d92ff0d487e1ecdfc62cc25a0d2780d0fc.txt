@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://drhtv.com.pl/
+
+
+[filters]
+http://drhtv.com.pl/bet_double_drhtv.swf
+http://a.nvinet.pl/w/1.0/jstag
+http://a.nvinet.pl/w/2.0/ajs?cc=1&o=4310791199&auid=153295&url=http%3A//drhtv.com.pl/&res=1600x1200x24&plg=swf,shk&ch=windows-1250&tz=-60
+http://u.openx.net/w/1.0/sc?r=http%3A%2F%2Fa.nvinet.pl%2Fw%2F2.0%2Fajs%3Fcc%3D1%26o%3D4310791199%26auid%3D153295%26url%3Dhttp%253A%2F%2Fdrhtv.com.pl%2F%26res%3D1600x1200x24%26plg%3Dswf%2Cshk%26ch%3Dwindows-1250%26tz%3D-60
+http://a.nvinet.pl/w/2.0/ajs?o=4310791199&auid=153295&url=http%3A//drhtv.com.pl/&res=1600x1200x24&plg=swf,shk&ch=windows-1250&tz=-60
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
