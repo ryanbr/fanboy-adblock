@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://imgur.com/r/funny/VIa4f
+
+
+[filters]
+http://imgur.com/include/tf-iframe.html
+
+
+
+
+[other]
+unable to click on more links on the right
+
+[comments]
+fanboy
