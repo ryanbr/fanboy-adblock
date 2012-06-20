@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.skapiec.pl/
+
+
+[filters]
+http://buka.skapiec.pl/bukaw3/bukavw/bukajs.php?bukaid=8448&target=_blank&charset=ISO-8859-2&noBeacon=1&lokalizacja=glowna&cb=65128042726&charset=ISO-8859-2&loc=http%3A//www.skapiec.pl/
+http://buka.skapiecstatic.pl/bukaw3/bukavw/lg.php?bukabid=207&campaignid=79&zoneid=8448&cb=339b0894938cddce95f4eb325eebc5cc
+http://www.skapiec.pl/sfx/pp_check.php?zone=1
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
