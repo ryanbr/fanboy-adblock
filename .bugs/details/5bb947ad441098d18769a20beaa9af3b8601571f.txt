@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.joemonster.org/
+
+
+[filters]
+http://joemonster.org/i/b/duzeka.gif
+http://www.joemonster.org/i/an/artystyczna.gif
+http://www.joemonster.org/images/jastawiam25.gif
+http://www.joemonster.org/sp/banerki/advanced_banner.swf?xmlSource=/sp/banerki/articles.xml
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
