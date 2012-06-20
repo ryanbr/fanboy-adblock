@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rp.pl/
+
+
+[filters]
+http://stats-srv.rp.pl/StatisticsManager/StatisticsController?app=rp.pl&topicId=2&articleId=2
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
