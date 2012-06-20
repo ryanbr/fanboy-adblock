@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.we7.com/
+
+
+[filters]
+http://cdn.gigya.com/js/socialize.js?apiKey=2_Rwfxsxx7o84IpdtHamLYZ5IK2T8qzvPnYSCS_AXxEYDQzXnDZ3Je7sEGOIDk6mJR
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13079
+
+
+[comments]
+fanboy
