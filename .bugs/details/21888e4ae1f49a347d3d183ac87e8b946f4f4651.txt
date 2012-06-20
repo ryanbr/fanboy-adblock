@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sandiego6.com/news/local/Snigdha-Nandipati-Day-159557845.html
+
+
+[filters]
+https://www.dealcurrent.com/embed/?publisherID=519
+https://www.dealcurrent.com/feeds/market.php?widget=multi-deal&publisherID=519&parenturl=http%3A%2F%2Fwww.sandiego6.com%2Fnews%2Flocal%2FSnigdha-Nandipati-Day-159557845.html&popupcheckout=1&numToShow=3&rows=1&columns=1&sort=endingSoonest&scrollseconds=4
+https://www.dealcurrent.com/js/jquery/all.js
+http://ads.bimlocal.com/static/scripts/adserve-min.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
