@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zappos.com/vans-classic-slip-on-chambray-black?zfcTest=fw:1
+
+[filters]
+http://www.zappos.com/js/trackingPixel/mercentTracker.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13078
+
+
+[comments]
+fanboy
