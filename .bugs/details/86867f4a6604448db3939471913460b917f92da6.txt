@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ceneo.pl/
+
+
+[filters]
+http://image2.ceneo.pl/data/banners/cinkciarz/230x183_strona_kategorii_01.swf
+http://image2.ceneo.pl/data/banners/cinkciarz/980x70_strona_glowna_02.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
