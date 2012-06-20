@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.we7.com/stations/genres
+
+
+[filters]
+http://adverts.we7c.net/config/live/NewUserTraffickingConfig.json?_1340191373852=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
