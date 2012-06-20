@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.siteencore.com/cnhi/cullmantimes/shop_local/Carter_launch/index.html
+
+
+[filters]
+http://www.roadandstyle.com/cgi-bin/traxis/traxis-logger.cgi?.gif&site=wmou&ref=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
