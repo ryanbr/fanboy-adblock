@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.onet.pl/
+
+
+[filters]
+http://csr.onet.pl/_s/csr-004/req=eJyt1l9vgjAQAPDv0mcTKfJHTXyoypCMwAJMTNSHOlHJEF3BbMuy7z7cQhbSIzE5nyw89Mdd764uv8jbJRGfZEhCJ7JGtuvHHlt1WWCxkefHLLRX3UUUsBFddceO615.p.Uiqhfx34J0yF6cLudqtyNP8-qRF0W6z8lwST5KwasX22THL1lJ1t-dW2iPzZ2xvwhtaXO1sXtRioQfb931wWWRtZi4z6Ezt67fz6YVEjj2LNIkaJfxktKGtjl9iHR.KDUE6DreI4WxXgPL0vyVIiEVhjQJUpFQD4Z0CeohoNBiwWQGS0azLBIuXg7ImFpKwpRiwpaDDkN9CdKRkAFDAwkykJAJQqoiQSYS6sMQlaA-EhrAkCpBAwTEgsCPQajXbFkuxOkdO4QUWJJ7liqYpnWm1pgF1ZyFuWaVF-k22XBRDdq7kPD805QWEzsFKTzYNUNOKXay05bQ5F6mmKjq6xEOrFkq9e2ICe3.6OAbRddbjg5zr.zmE572ujztKWbc1.mET88A83mP84OzaYIeJpVPzLPkP4RXq9nnZ54nWeWsfwCmIzCY/flash=1/kwrd=WARSZAWA+/pgid=201206210041370533110036/now=1340232159715/alias=glowna_nowasg_right,glowna_nowasg_top/csr.js
+http://m.csr.onet.pl/apps/186/Ad7763130St3Sz4166Sq102588655V0Id3/olt_bg_750x300.swf
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
