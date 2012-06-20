@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sadistic.pl/
+
+
+[filters]
+http://www.sadistic.pl/mmo.js?02
+http://apps.portmmo.com/external-slider/6
+http://apps.portmmo.com/css/external_slider.css
+http://apps.portmmo.com/images/external_slider-bg.png
+http://apps.portmmo.com/images/external_slider-next_btn.png
+http://apps.portmmo.com/images/external_slider-prev_btn.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
