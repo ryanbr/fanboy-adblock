@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.myfoxal.com/story/18829709/county-could-change-name-of-road-honoring-felon
+
+
+[filters]
+http://ftpcontent.worldnow.com/raycom/js/chartbeat/wbrc.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
