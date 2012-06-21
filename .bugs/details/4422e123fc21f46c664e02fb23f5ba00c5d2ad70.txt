@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.spidersweb.pl/
+
+
+[filters]
+http://images.swcdn.pl/ads/Info_daily_300x200.jpg
+http://images.swcdn.pl/ads/Spidersweb_1000x200.jpg
+http://images.swcdn.pl/ads/cokupic-300x250.jpg
+http://images.swcdn.pl/ads/dp_promocja_300x250_spidersweb.swf
+http://images.swcdn.pl/ads/dp_promocja_510x140_spidersweb.swf
+http://images.swcdn.pl/ads/netia-300x250-promo.gif
+http://images.swcdn.pl/ads/nokia_mobi/400x130_nokia_610_xbox.jpg
+http://images.swcdn.pl/ads/nokia_mobi/800x250_nokia_610_mixradio.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
