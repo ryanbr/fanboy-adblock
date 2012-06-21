@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.spidersweb.pl/2012/06/kim-dotcom-jest-uparty-po-zamknieciu-megaupload-planuje-uruchomic-megabox.html
+
+
+[filters]
+http://images.swcdn.pl/hostersi-baner-600x30px.gif
+http://images.swcdn.pl/hostersi_logo.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
