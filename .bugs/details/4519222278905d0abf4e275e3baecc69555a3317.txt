@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://govcentral.monster.com/
+
+
+[filters]
+http://media.monster.com/js/wt/DCSgeneric_main.js
+http://media.monster.com/js/wt/dcs56rpha00000wo4pc0h6xh5_1r6l.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
