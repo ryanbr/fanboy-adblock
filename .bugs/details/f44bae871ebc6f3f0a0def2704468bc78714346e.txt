@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yahoo.com/
+
+
+[filters]
+http://l.yimg.com/cv/ae/us/audience/120329/300x250l6v0ykot9.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
