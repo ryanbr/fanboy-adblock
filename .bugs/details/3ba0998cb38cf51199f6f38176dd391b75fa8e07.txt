@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tech2.in.com/news/tablets/google-nexus-tablet-rumoured-to-be-available-by-july-at-199/317782
+
+
+[filters]
+http://tech2.in.com/images/min_share.gif
+http://tech2.in.com/images/shareArrow.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
