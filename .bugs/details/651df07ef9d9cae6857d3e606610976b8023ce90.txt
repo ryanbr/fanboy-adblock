@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://www.funiaste.net/obrazki/2012/czerwiec/18/27077037.jpg&adtype=0
+http://www.funiaste.net/obrazki/2012/czerwiec/18/30588986.jpg&adtype=0
+http://www.funiaste.net/obrazki/2012/czerwiec/18/31846162.jpg&adtype=0
+http://www.funiaste.net/obrazki/2012/czerwiec/18/43040712.jpg&adtype=0
+http://www.funiaste.net/obrazki/2012/czerwiec/18/51287341.jpg&adtype=0
+http://www.funiaste.net/obrazki/2012/czerwiec/18/59049563.jpg&adtype=0
+http://www.funiaste.net/obrazki/2012/czerwiec/18/91527908.jpg&adtype=0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
