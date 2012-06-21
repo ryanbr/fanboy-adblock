@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fantasybasketball.usatoday.com/content/player.asp?sport=nba&id=1054
+
+
+[filters]
+http://js.usatoday.com/_common/_scripts/_clickability/click-fantasy.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
