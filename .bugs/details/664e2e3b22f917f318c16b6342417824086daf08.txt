@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://euro2012.onet.pl/
+
+
+[filters]
+http://euro2012.onet.pl/_d/ad/castrol2.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
