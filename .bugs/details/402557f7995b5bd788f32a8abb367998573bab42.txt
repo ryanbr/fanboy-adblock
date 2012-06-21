@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.drhtv.com.pl/drhtv1.html
+
+
+[filters]
+http://www.castasap.com/js/dio.js
+
+[other]
+anti-adblock
+
+
+[comments]
+nitrox
