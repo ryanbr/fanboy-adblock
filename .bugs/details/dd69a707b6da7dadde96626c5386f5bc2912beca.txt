@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.castanet.net/
+
+
+[filters]
+http://x.castanet.net/Andres/12-06/display/Andres-MR1a.gif
+http://x.castanet.net/BigWhiteSilverStar/12-06/castanet_BC_FamDay_50th_300x100.gif
+http://x.castanet.net/DilworthHomes/12-05/display/DH-LB1d.swf
+http://x.castanet.net/MarshallsHomeFurnishings/01-12/display/Marshalls-LB1.gif
+http://x.castanet.net/TheFraserPatridgeGroup/12-06/display/FPG-MRR1a.swf
+http://x.castanet.net/TowerRanch/12-04/display/TR-SR-RO1f.swf
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
