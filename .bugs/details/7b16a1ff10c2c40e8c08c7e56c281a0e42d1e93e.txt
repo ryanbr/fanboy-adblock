@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://whois.domaintools.com/google.com
+
+
+[filters]
+http://www.domaintools.com/images/marketing/DTTV12B.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
