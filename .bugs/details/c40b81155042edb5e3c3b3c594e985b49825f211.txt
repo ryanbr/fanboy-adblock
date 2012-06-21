@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://konto.onet.pl/login.html
+
+
+[filters]
+https://kropka.onet.pl/_s/kropka/1?RI=28a734fe305a5234&C1=1340278181566&CL=std163&IP=201206211329399560010013&CS=1600x1200x24&CW=1600x865&DU=https%3A//konto.onet.pl/login.html&DV=poczta%2Flogowanie&SC=1&DG=id%3D.Fs1NDPUlTxXQBdsgUSzwrcf7J98qvhwGJtkpylGHWL.I7&SX=konto.onet.pl&DR=
+
+
+[other]
+Login form doesn't work. Keeps on suggesting to clear cookies if you try to login.
+
+
+[comments]
+nitrox
