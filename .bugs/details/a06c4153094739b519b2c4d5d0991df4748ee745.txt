@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.blox.pl/html
+
+
+[filters]
+http://blox.pl/css/weblog2.css
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
