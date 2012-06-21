@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://e-edition.metro.co.uk/2012/06/21/
+
+
+[filters]
+http://reports.pagesuite-professional.co.uk/metro_track.aspx?eid=7d9514e6-272a-4e35-92a5-303a374881de&vid=c8672984-7a4f-637c-d001-f8b6b6dd0877&pr=1
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
