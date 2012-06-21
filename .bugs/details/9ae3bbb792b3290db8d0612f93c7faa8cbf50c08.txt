@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://iv.pl/
+
+
+[filters]
+http://www.webstat.pl/jso_br.php
+http://www.webstat.pl/online.php?w=5&p=6571
+http://www.webstat.pl/online.php?w=5&p=6571&online=147&go=3
+http://www.webstat.pl/statystyk_online.swf?w=5&p=6571
+http://www.webstat.pl/wsimg.php?w=5&p=6571&u=1&ua=1&o=1&r=&l=http://iv.pl/&c=24&x=1600&y=1200&k=1&q=
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
