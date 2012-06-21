@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hdvnbits.org/
+
+[filters]
+http://hdvnbits.org/pic/banner/QCLogo.png
+http://hdvnbits.org/pic/bg2012ad3.png
+http://hdvnbits.org/pic/demo650x80_ver2.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
