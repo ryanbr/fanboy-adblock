@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.drhtv.com.pl/drhtv1.html
+
+
+[filters]
+castasap.com###total  and @@||castasap.com/adimages/ is needed
+http://www.castasap.com/adimages/
+http://www.castasap.com/adimages/textlink-ads.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
