@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.armystudyguide.com/education/schools/texas.html
+
+
+[filters]
+http://www.armystudyguide.com/hqxapi/it?ids=20120621133539433398321%2C20120621133539433555942%2C20120621133539433595853%2C20120621133539433578144%2C20120621133539433476825%2C20120621133539433163896%2C20120621133539433189027%2C20120621133539433170088%2C20120621133539433307679%2C201206211335394332224710&ca=n&coo=y
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
