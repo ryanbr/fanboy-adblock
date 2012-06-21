@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://games.on.net/article/15907/Roadmap_to_Profit_How_to_Make_Real_Money_on_the_Diablo_III_Real_Money_Auction_House
+
+
+[filters]
+http://games.on.net/images/gon_nodestore.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
