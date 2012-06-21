@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.guildlaunch.com/
+
+[filters]
+http://js.hubspot.com/analytics/176291.js
+http://track.hubspot.com/__ptq.gif?
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
