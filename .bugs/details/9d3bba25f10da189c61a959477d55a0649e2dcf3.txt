@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.businessschools.com/
+http://www.cookingschools.com/
+http://www.artschools.com/
+http://www.education.org/
+
+[filters]
+http://www.businessschools.com/parts/tracking_cookie_baker.js
+http://www.businessschools.com/parts/tracking_link_cookie.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
