@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://antyweb.pl/
+
+
+[filters]
+http://virtualo.pl/data/partners/promo_day_antyweb/280x250.html
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
