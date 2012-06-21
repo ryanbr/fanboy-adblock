@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.military.com/career-expo/2012-ft-huachuca-career-fair/
+
+
+[filters]
+http://images.military.com/pixel.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
