@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gamezilla.komputerswiat.pl/newsy/2012/25/polacy-walcza-o-statuetki-w-european-games-award
+
+
+[filters]
+http://gamezilla.komputerswiat.pl/media/2012/167/973022/gametrade300x250.swf
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
