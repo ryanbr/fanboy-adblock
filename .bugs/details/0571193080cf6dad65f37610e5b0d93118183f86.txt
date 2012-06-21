@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.army.mod.uk/
+
+
+[filters]
+http://www.army.mod.uk/js/tracker.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
