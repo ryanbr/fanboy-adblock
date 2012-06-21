@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://crowdignite.sheknows.com/v/3100/9110216
+
+
+[filters]
+http://cdn.crowdignite.com/img/upload/cache/300x250__4d5aac74efbfc.jpg
+http://cdn.crowdignite.com/img/upload/cache/300x250__4dcb2555983ee.jpg
+http://cdn.crowdignite.com/img/upload/cache/300x250__4defb44c7ab65.jpg
+http://cdn.crowdignite.com/img/upload/cache/300x250__4dfbe49ecd469.jpg
+http://cdn.crowdignite.com/img/upload/cache/300x250__4e28bc63c512f.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
