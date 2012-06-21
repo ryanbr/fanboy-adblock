@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.usmilitary.com/
+
+
+[filters]
+http://listings.brokersweb.com/JsonSBSearchEdu.aspx?prodId=604&st=CA&aid=10901&cid=5180&maxAds=2&Style=jListing&bwapsclickurl=listings.brokersweb.com&ref=http%3A%2F%2Fwww.usmilitary.com%2F&refParams=&ShowPlansAvailable=hide&ShowDomainLogo=show&bwapsmatching=show&ppc-attributes=show
+http://listings.brokersweb.com/js/RenderListingSb2.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
