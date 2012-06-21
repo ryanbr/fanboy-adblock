@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cookiecert.com/
+
+
+[filters]
+http://999-async.olark.com/nrpc/c?c=create&u=http%3A%2F%2Fwww.cookiecert.com%2F&r=&s=5267-336-10-5697&v=1R5Y79CJPK0KESQZJY2HKM4V52673363&i=716SC3I2ZCQ707MF648MVUNT52673363&g=ALL&q=precache009350727382759749&j=o0&version=loader-precache
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
