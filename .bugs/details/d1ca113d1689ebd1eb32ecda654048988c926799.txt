@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.military.com/veteran-jobs
+
+
+[filters]
+http://images.military.com/javascripts/GenericrichMediaBannerAd/1,,160|1500|careers|fd||14,00.htm
+http://www.military.com/sensor/statistic?siteName=1198882344557&objID=1198882780881&objName=Career%20Advice%20Most%20Popular&segID=0&sessionID=6c734a29-c126-4ab4-8abe-6d2ed0a87fca&size=1600x1200&objType=RecAsked
+http://images.military.com/javascripts/GenericrichMediaBannerAd/1,,160|1500|careers|fd||13,00.htm
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
