@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.komputerswiat.pl/
+
+
+[filters]
+http://www.komputerswiat.pl/media/2012/79/2297182/sw_house_300x250_pl.swf
+http://dis.eu.criteo.com/dis/rtt.js?networkId=1799&cookieName=critaxpl&rnd=47410582740&varName=crtg_content
+http://webservices.cafenews.pl/mpl/Static/Static.js?id=cafenews.pl#cvb64mnc8vg4jd8gksd653jkadg7j6&d=2012521
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
