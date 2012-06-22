@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.topnews.ru/
+
+
+[filters]
+http://www.topnews.ru/bframe.php?z=113
+http://www.topnews.ru/bframe.php?z=114
+http://www.topnews.ru/iframe/iframe_right.php
+http://www.topnews.ru/iframe/mailru.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
