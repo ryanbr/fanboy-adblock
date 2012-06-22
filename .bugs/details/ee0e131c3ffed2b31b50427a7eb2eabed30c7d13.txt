@@ -1,0 +1,32 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vedomosti.ru/politics/news/1949769/desant_sovmestyat_s_evakuaciej
+
+
+[filters]
+http://www.vedomosti.ru/ad/js.php?placeid=135&rnd=8017
+http://www.vedomosti.ru/ad/js.php?placeid=146&rnd=50965
+http://www.vedomosti.ru/ad/js.php?placeid=148&rnd=27092
+http://www.vedomosti.ru/ad/js.php?placeid=156&rnd=2092
+http://www.vedomosti.ru/ad/js.php?placeid=162&rnd=34002
+http://www.vedomosti.ru/ad/js.php?placeid=173&rnd=10303
+http://www.vedomosti.ru/ad/js.php?placeid=210&rnd=38341
+http://www.vedomosti.ru/ad/js.php?placeid=48&rnd=61113
+http://www.vedomosti.ru/ad/js.php?placeid=50&rnd=30720
+http://www.vedomosti.ru/ad/js.php?placeid=51&rnd=12242
+http://www.vedomosti.ru/ad/js.php?placeid=52&rnd=32968
+http://www.vedomosti.ru/ad/js.php?placeid=57&rnd=31344
+http://www.vedomosti.ru/ad/js.php?placeid=85&rnd=19764
+
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=13115
+
+
+[comments]
+fanboy
