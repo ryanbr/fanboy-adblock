@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://trunk.addroid.com/demo/?a=4fada89b1771a8027d000000
+
+
+[filters]
+http://trunk.addroid.com/demo/last-rev-link.php?id=4fada89b1771a8027d000000
+http://trunk.addroid.com/demo/last-rev-link.php?id=4fada89b1771a8027d000000
+http://trunk.addroid.com/demo/unit.php?tagurl=last-rev-link.php?id=4fada89b1771a8027d000000&dateset=0
+http://trunk.addroid.com/fonts/houschkapro-bold-webfont.woff
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
