@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nikeplus.nike.com/plus/
+
+[filters]
+https://secure-nikeplus.nike.com/plus/web/login/js/s_code.js
+
+
+
+
+[other]
+forgot password option doesnt work
+
+
+[comments]
+fanboy
