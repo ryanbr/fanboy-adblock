@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://7chan.org/b/
+
+
+[filters]
+http://trekmedia.net/loadad.js?username=Sazpaimon
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
