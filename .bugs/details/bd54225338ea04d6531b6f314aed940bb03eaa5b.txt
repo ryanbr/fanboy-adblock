@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://support.mozilla.org/en-US/kb/flash-113-doesnt-load-video-firefox
+
+
+[filters]
+https://support.mozilla.org/media/js/readtracker-min.js?build=5295612
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
