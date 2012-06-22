@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hypervocal.com/news/2012/abusive-teens-bully-elderly-female-bus-monitor-make-her-cry/
+
+
+[filters]
+http://hypervocal.wpengine.netdna-cdn.com/wp-content/themes/hypervocal/images/soc_med_sprite.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
