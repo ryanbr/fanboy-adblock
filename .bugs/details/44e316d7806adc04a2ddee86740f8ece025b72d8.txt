@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newnownext.com/adam-lambert-glambert-video-o-music-awards/06/2012/
+
+
+[filters]
+http://www.newnownext.com/wp-content/themes/newnownext_white/images/icon-ad-choices.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
