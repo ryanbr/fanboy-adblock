@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sportige.com/10-highest-paid-athletes-in-the-world/
+
+
+[filters]
+http://sportige.com/wp-content/themes/sportige/images/top_social.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
