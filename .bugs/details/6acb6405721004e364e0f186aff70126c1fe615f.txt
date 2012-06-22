@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forums.adobe.com/message/4508250#4508250
+
+
+[filters]
+http://forums.adobe.com/themes/adobe_forums_global/scripts/s_chl_code.js
+http://www.adobetag.com/d1/adobe/live/CHL.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
