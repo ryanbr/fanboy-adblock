@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.petapixel.com/2012/06/19/time-lapse-of-a-plane-crash-composite-photo-being-created-in-photoshop/
+
+
+[filters]
+http://files.petapixel.com/assets/images/subscribe_email2.png
+http://files.petapixel.com/assets/images/subscribe_facebook.png
+http://files.petapixel.com/assets/images/subscribe_rss.png
+http://files.petapixel.com/assets/images/subscribe_twitter.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
