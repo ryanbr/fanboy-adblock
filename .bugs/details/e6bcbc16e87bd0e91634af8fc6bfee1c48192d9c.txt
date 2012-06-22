@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ytro.ru/
+
+
+[filters]
+http://www.ytro.ru/includes5/banners/index_iframe_08.shtml
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
