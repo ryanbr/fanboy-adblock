@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://realty.newizv.ru/msk/dacha/sdam.html?sort=cost
+
+
+[filters]
+http://reklamadarom.com/show_i.php?a=6&x=TVRNME1ETXlNekl5TlMweU5DNHlNamd1TVRVdU9UWT0=&z=26&c=1&adurl=14383&pl=5&plurl=5483&target=_blank
+http://reklamadarom.com/show.php?z=26&pl=5&j=1&code=1340323195116
+http://reklamadarom.com/show.php?z=27&pl=6&j=1&code=1340323193967
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
