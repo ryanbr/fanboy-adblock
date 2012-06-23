@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.submitawebsite.com/
+
+
+[filters]
+http://www.submitawebsite.com/_JS/referral_tracker.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
