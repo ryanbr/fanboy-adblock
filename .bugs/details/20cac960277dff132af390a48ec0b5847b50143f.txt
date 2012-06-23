@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://babol.pl/gid,14583197,gpage,3,img,14583255,galeria.html
+
+
+[filters]
+http://i.wp.pl/a/i/babol/ico_social_facebook.jpg
+http://i.wp.pl/a/i/babol/ico_social_rss.jpg
+http://i.wp.pl/a/i/babol/ico_social_twitter.jpg
+http://i.wp.pl/a/i/babol/youtube_ico.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
