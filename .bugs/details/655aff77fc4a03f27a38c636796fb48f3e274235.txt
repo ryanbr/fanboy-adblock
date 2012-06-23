@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thinkbynumbers.org/blog/government-spending/corporate-welfare/corporate-welfare-statistics-vs-social-welfare-statistics/
+
+
+[filters]
+http://cdn1.thinkbynumbers.org/blog/wp-content/plugins/social-connect/media/img/google_32.png
+http://cdn2.thinkbynumbers.org/blog/wp-content/themes/mystique/images/socialize.jpg
+http://cdn3.thinkbynumbers.org/blog/wp-content/plugins/easy-social-media/style.css
+http://cdn3.thinkbynumbers.org/blog/wp-content/plugins/social-connect/media/js/connect.js?ver=3.4
+http://cdn4.thinkbynumbers.org/blog/wp-content/plugins/social-connect/media/css/style.css?ver=3.4
+http://cdn4.thinkbynumbers.org/blog/wp-content/plugins/social-connect/media/img/wordpress_32.png
+http://cdn4.thinkbynumbers.org/blog/wp-content/plugins/social-connect/media/img/yahoo_32.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
