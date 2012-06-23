@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nydailynews.com/
+
+
+[filters]
+http://assets.nydailynews.com/polopoly_fs/1.1099183.1340210113!/img/httpImage/image.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
