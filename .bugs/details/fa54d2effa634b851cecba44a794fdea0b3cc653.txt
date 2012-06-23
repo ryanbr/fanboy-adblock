@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://kiss951.cbslocal.com/2012/06/19/dirty-on-the-thirty-octomoms-porn-comes-out-today/
+
+
+[filters]
+http://widgets.outbrain.com/nanoWidget/3rd/comScore/comScore.htm
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13131
+
+
+[comments]
+fanboy
