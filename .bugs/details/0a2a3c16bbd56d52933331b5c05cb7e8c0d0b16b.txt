@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://weeklyad.michaels.com/stores/3034/coupons
+
+
+[filters]
+http://libs.coremetrics.com/eluminate.js
+http://c14985695.r95.cf2.rackcdn.com/banners/default_coupon_banner.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
