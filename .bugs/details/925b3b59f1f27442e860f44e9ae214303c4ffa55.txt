@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.digitaltrends.com/mobile/samsung-galaxy-s3-vs-htc-one-x-htc-evo-4g-lte/
+
+
+[filters]
+http://cdn.digitaltrends.com/wp-content/themes/digitaltrends/assets/images/sprite_social_icon.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
