@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://textmechanic.com/
+
+
+[filters]
+http://www.affilorama.com/img/affiloblueprint/banners/D-200X200.jpg
+http://www.affilorama.com/files/banners/Jetpack_200x200_A.gif
+http://www.affilorama.com/files/banners/Premium_200x200D.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
