@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.darkzone.in.th/forums/thread-69891-1-1.html
+
+
+[filters]
+http://www.darkzone.in.th/ads/banner_reborn2.gif
+http://www.darkzone.in.th/ads/popup_close.gif
+http://www.darkzone.in.th/ads/rancookie1.png
+http://www.darkzone.in.th/ads/rancookie2.gif
+http://www.darkzone.in.th/ads/rantop150x200.swf
+http://www.darkzone.in.th/ads/ranwow.png
+http://www.darkzone.in.th/ads/street.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
