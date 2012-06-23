@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vod.onet.pl/
+
+
+[filters]
+http://vod.onet.pl/_s/kropka/3?SXE=tVbC7cm3jmZD6ywImhRGenEpba-6ra5JPiqslx1t.bQZiAQBFcljFPxTJVelmqEjmX0WMUZxuGhI.ThWxjgLLbyt49yF44-Vqk012tVsy2YJJujeLrGxqp0UV6Cx1uqM-NPRzbLZXzyHunttsFC8iuE1.A44KcsTSqsATIK8Ej973V7PtXaOfhRqoKuyGyPR
+http://vod.onet.pl/_s/kropka/3?SXE=tVbC7cm3jmZD6ywImhRGenEpba-6ra5JPiqslx1t.bQZiAQBFcljFPxTJVelmqEjmX0WMUZxuGhI.ThWxjgLLbyt49yF44-Vqk012tVsy2YJJujeLrGxqp0UV6Cx1uqM-NPRzbLZXzyHunttsFC8iuE1.A44KcsTSqsATIK8Ej973V7PtXaOfhRqoKuyGyPR&hop=2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
