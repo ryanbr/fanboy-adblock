@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.webconfs.com/keyword-rich-domain-suggestions.php
+
+
+[filters]
+http://www.webconfs.com/linktracker/session.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
