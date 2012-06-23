@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lastfm.ru/music/Kasabian/+images/30106665
+
+[filters]
+http://cdn.last.fm/javascript/javascript/217792/lazyloading/modules/analytics.js
+
+
+
+[other]
+stops the slide show
+
+[comments]
+fanboy
