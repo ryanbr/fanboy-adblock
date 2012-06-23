@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gametrailers.com/video/diablo-iii-de-pixelated/732515
+
+
+[filters]
+http://gametrailers.mtvnimages.com/images/modules/social_subscribe_module/background.png
+http://gametrailers.mtvnimages.com/images/modules/social_subscribe_module/facebook_32x32.png
+http://gametrailers.mtvnimages.com/images/modules/social_subscribe_module/google_32x32.png
+http://gametrailers.mtvnimages.com/images/modules/social_subscribe_module/twitter_32x32.png
+http://gametrailers.mtvnimages.com/images/modules/social_subscribe_module/youtube_32x32.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
