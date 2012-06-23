@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gametrade.pl/kokpit
+
+
+[filters]
+http://gametrade.pl/promoted?limit=3&amp;unit=sky&amp;unit_id=749&_=1340423218694
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
