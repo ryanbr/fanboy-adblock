@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.goal.com/en-us/#
+
+
+[filters]
+http://cdn.gigya.com/js/socialize.js?apiKey=2_Y8Ou2zve7eSZI-lzS_Sx1CPu9ZO65T9xjCUz9vX5C60PxafAuK2Z5fPvO_tmfs7D
+
+
+
+[other]
+stops the slideshow
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13136
+
+[comments]
+fanboy
