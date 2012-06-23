@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.filmeonline.org/
+
+[filters]
+http://www.remiroyal.ro/cgi-bin/ref.cgi?aid=4840&cid=9434&lid=152&bid=101529&sid=&qs=
+http://www.remiroyal.ro/mysite/javascript/ref.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
