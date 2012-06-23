@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.impactwrestling.com/
+
+
+[filters]
+http://www.impactwrestling.com/templates/v3/images/socialBtns.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
