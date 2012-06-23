@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.theinquirer.net/inquirer/news/2186565/apple-s-ipad-costs-87p-charge
+
+
+[filters]
+http://secure.repost.us/images/button-hrz-tny.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
