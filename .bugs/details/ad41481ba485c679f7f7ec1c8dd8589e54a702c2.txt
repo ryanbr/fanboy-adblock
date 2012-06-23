@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cantoot.com/
+
+
+[filters]
+http://www.adultdatingtraffic.com/userbanners/990-3-3-1291565024.jpg
+http://www.adultdatingtraffic.com/work.php?n=1491&size=3&j=1&c=&code=1340446351840
+http://www.eadulttraffic.com//banners/topstrip.gif
+http://www.eadulttraffic.com//display.php?id=1210&size=1
+http://www.xxxbannerswap.com/work.php?n=319&size=2&c=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
