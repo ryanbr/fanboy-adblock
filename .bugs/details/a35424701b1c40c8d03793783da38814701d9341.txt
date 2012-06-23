@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.worldcrunch.com/why-facebook-must-die-internet-freedom-flourish/3825
+
+
+[filters]
+http://www.worldcrunch.com/sites/default/themes/worldcrunch2/css/bg/icon_mail.png
+http://www.worldcrunch.com/sites/default/themes/worldcrunch2/css/bg/icon_twitt.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
