@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.washingtonpost.com/business/economy/romneys-bain-capital-invested-in-companies-that-moved-jobs-overseas/2012/06/21/gJQAsD9ptV_story.html
+
+[filters]
+http://img.wpdigital.net/rw/sites/twpweb/img/sprites/ad-sprite.png?t=20120614222609
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
