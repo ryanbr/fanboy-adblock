@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.miniclip.com/games/en/
+
+[filters]
+http://static.miniclipcdn.com/content/push-ads/1/8ballpoolmultiplayer_218x78.jpg
+http://static.miniclipcdn.com/content/push-ads/1/boxo_218x78.jpg
+http://static.miniclipcdn.com/content/push-ads/1/bullfrog-poker_218x78.jpg
+http://static.miniclipcdn.com/content/push-ads/1/cactusmccoy2_218x78.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
