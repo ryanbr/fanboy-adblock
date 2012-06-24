@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fanatik.com.tr/Default.aspx
+
+
+[filters]
+http://www.arabam.com/Content/d/r/ArabamWidget.aspx?ref=fanatik
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
