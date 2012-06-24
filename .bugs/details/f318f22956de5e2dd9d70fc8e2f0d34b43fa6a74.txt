@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.babesandbitches.net/
+
+
+[filters]
+http://avalon.topbucks.com/popunder/?site=pinkvisualgames&number=1&iframe=1&revid=18529
+
+[other]
+popup ad
+
+
+[comments]
+nitrox
