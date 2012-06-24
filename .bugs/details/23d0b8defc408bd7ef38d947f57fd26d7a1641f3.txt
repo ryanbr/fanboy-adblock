@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tetrisfriends.com/games/Sprint/game.php
+
+[filters]
+http://www.tetrisfriends.com/ads/google_dfp_video_ad.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
