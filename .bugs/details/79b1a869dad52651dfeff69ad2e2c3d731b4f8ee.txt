@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://animals.nationalgeographic.com/animals/mammals/african-lion/
+
+
+[filters]
+http://images.nationalgeographic.com/wpf/media-live/graphic/FUNAI_300a-1-cb1339428171.gif
+http://images.nationalgeographic.com/wpf/media-live/graphic/losing-lions-c-300x250-cb1340293927.jpg
+http://images.nationalgeographic.com/wpf/media-live/graphic/map-african-lion-160-2964-cb1320412627.gif
+http://images.nationalgeographic.com/wpf/media-live/graphic/promo-tiger-300x250-cb1339428171.jpg
+http://images.nationalgeographic.com/wpf/media-live/graphic/size-africanlion-160-2584-cb1320412627.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
