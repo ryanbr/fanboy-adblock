@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.justin.tv/directory/gaming?lang=*&order=*&page=*
+
+[filters]
+http://www.justin.tv/widgets/mixpanel_beacon.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
