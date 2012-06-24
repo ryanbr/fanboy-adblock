@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://shareflare.net/
+
+
+[filters]
+http://wm-panel.com/js/size2ttl.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
