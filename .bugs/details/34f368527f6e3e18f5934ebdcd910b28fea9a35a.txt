@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wyff4.com/news/local-news/greenville-news/After-drunken-driver-kills-son-mother-billed-for-cleanup/-/9654794/15178974/-/pm6im3/-/index.html?source=WYFF
+
+
+[filters]
+http://dfdbz2tdq3k01.cloudfront.net/js/2.0.0/ortc.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
