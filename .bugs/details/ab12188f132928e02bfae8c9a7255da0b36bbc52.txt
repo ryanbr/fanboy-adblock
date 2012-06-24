@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pipl.com/directory/name/Noskin/Olga/
+
+[filters]
+http://pipl.com/rd/?S=1206240224265313064628376025875120973&DS=39969,54817,39833,584&T=26,26,26,26
+http://pipl.com/rd/?S=1206240224265313064628376025875120973&DS=42639,584,39921,39833,55256&T=36,36,36,36,36
+http://pipl.com/rd/?S=1206240224265313064628376025875120973&DS=52535,54116,39921,55352&T=92,92,92,92
+http://pipl.com/rd/?S=1206240224265313064628376025875120973&DS=57,39969,55352,55606,39921,54817&T=16,16,16,16,16,16
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
