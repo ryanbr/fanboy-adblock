@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jobstreet.com.sg/jobs/2012/4/c/20/3012143.htm?fr=J&src=16&srcr=12
+
+
+[filters]
+http://siva-sg-trackadhit.jobstreet.com/agena/trackAdHit.asp?jid=3015943&vc=1&fr=J&d=1340506929565
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
