@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.digitaldjtips.com/2012/06/djs-are-not-rock-stars-4-lessons-from-europe/
+
+
+[filters]
+http://www.digitaldjtips.com/wp-content/themes/djtips/SWF/pushdown_mmm2.swf
+http://www.digitaldjtips.com/wp-content/themes/djtips/js/pushdownbanner.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
