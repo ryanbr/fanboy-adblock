@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jobstreet.com.sg/
+
+
+[filters]
+http://banners-sg.jobstreet.com/floatBottomBanner.asp?id=2006
+http://banners-sg.jobstreet.com/java.asp?id=1935
+http://banners-sg.jobstreet.com/java.asp?id=2080
+http://banners-sg.jobstreet.com/sliderBanner.asp?id=2003|2016|2018|2019|2020&lbl=Advertisement&div=topAdvertisementBanner
+http://banners-sg.jobstreet.com/sliderBanner.asp?id=2004|2021|2022|2023|2024&lbl=&div=secondAdvertisementBanner
+http://banners-sg.jobstreet.com/sliderBanner.asp?id=2005|2025&lbl=Partners&div=Featured
+http://t10000.u1340431164318.s234671115.i587682.v10i.r4.td.labs.apnic.net/1x1.png?t10000.u1340431164318.s234671115.i587682.v10i.r4.td
+http://t10000.u1340431164318.s234671115.i587682.v10i.r6.td.labs.apnic.net/1x1.png?t10000.u1340431164318.s234671115.i587682.v10i.r6.td
+http://t10000.u1340431164318.s234671115.i587682.v10i.rd.t6.labs.apnic.net/1x1.png?t10000.u1340431164318.s234671115.i587682.v10i.rd.t6
+http://t10000.u1340431164318.s234671115.i587682.v10i.rd.td.labs.apnic.net/1x1.png?t10000.u1340431164318.s234671115.i587682.v10i.rd.td
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
