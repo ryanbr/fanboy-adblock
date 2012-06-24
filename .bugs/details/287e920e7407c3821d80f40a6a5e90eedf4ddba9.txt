@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bit-tech.net/modding/2012/06/18/monsoon-compression-fitting-six-pack-review/1
+
+
+[filters]
+http://images.bit-tech.net/content_images/2012/06/monsoon-compression-fitting-six-pack-review/1-300x250.jpg
+http://images.bit-tech.net/content_images/2012/06/monsoon-compression-fitting-six-pack-review/2-300x250.jpg
+http://images.bit-tech.net/content_images/2012/06/monsoon-compression-fitting-six-pack-review/3-300x250.jpg
+http://images.bit-tech.net/content_images/2012/06/monsoon-compression-fitting-six-pack-review/4-300x250.jpg
+http://images.bit-tech.net/content_images/2012/06/monsoon-compression-fitting-six-pack-review/5-300x250.jpg
+http://images.bit-tech.net/content_images/2012/06/monsoon-compression-fitting-six-pack-review/6-300x250.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
