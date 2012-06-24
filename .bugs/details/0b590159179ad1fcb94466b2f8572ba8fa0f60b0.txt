@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://movies.netflix.com/WiHome
+
+
+[filters]
+http://tbupdate.zugo.com/ztb/2.3/jsi/dis/script-dissd.js?provider=*&provider_name=*&provider_code=*&newtab_search_url=*&partner_id=*&product_id=*&affiliate_id=&channel=&toolbar_id=*&toolbar_version=*&install_country=*&install_date=*&user_guid=*&machine_id=*&browser=*&os=*&os_version=*
+http://tbupdate.zugo.com/ztb/2.3/jsi/dis/server-dissd.html
+http://d3lvr7yuk4uaui.cloudfront.net/it/swf/f.swf
+http://d15gt9gwxw5wu0.cloudfront.net/ssa/329/?zoneid=*&cid=*&pid=*
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
