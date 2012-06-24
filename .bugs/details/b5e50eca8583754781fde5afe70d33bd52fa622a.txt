@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blogs.smithsonianmag.com/science/2012/06/scientists-discover-that-mars-is-full-of-water/?utm_source=facebook.com&utm_medium=socialmedia&utm_campaign=20120622&utm_content=surprisingsciencemarsfullofwater
+
+
+[filters]
+http://media.smithsonianmag.com/images/blogs-rss-24x24.png
+http://media.smithsonianmag.com/images/blogs-twitter-24x24.png
+http://media.smithsonianmag.com/images/blogs-youtube-24x24.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
