@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tracker.v-clip.ru/
+
+
+[filters]
+http://st1.freefo.ru/60gzd6bhv6g8bng4fe8xzo1a12967ln9
+http://st3.freefo.ru/?t=vkm&noadult=1&pid=246
+http://st4.freefo.ru/getThumbs?uid=1407173031&p=1&fmt=htm&cityid=1961&lng=ru&fbc=%23FFFFFF&tbc=%23000000&hbc=%23D6F1FE&hfc=%2300F&hlu=1&hlhu=0&dbc=%23FFFFFF&dfc=%23000000&dlc=%230000FF&dlu=1&dlhu=0&rs=1&cols=10&rows=1&tid=3
+http://st7.freefo.ru/83y2a/88f72a04149b9
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
