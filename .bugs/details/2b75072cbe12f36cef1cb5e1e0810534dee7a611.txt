@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.in.com/games/playgame-total-takedown-34851.html
+
+
+[filters]
+http://s1.inviziads.com/crossdomain.xml
+http://posst.co/t.gif?url=http://www.in.com/games/playgame-total-takedown-34851.html&referrer=http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13182&_w18Id=&_w18kw=&
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
