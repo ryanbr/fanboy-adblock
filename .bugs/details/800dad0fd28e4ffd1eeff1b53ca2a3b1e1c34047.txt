@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.twitch.tv/dreamhacklol/popout
+
+
+[filters]
+http://www.twitch.tv/ad/doughboy_test?channel=dreamhacklol&player=site&slot=preroll
+http://ad.de.doubleclick.net/pfadx/esltv.de/video;sz=*;tile=*;pos=*;j4=*;j5=*;j5=*;j5=*;j5=*;test=*;dcmt=*/xml;ord=*;
+http://count.rtl.de/et/255313501/std/impression/VAST/47418309/1108657/?ord=*
+
+[other]
+test filter, attempt to stop pre-roll
+
+
+[comments]
+fanboy
