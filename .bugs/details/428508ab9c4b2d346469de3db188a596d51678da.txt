@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://streamcloud.eu/fm1cwawcdrkb/Prison.Break.S04E16.Die.Dame.im.Schachspiel.German.WS.DVDRiP.XviD-RSG.avi.html
+
+
+[filters]
+http://www.amarotic.com/rotation/layer/ChatPage/600x756?wmid=196&kamid=6799&wsid=stream_LC_Layer_modalsofort_AR&size=600x500&modal=true
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
