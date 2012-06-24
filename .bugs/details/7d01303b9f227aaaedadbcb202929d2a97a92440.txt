@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.onlygirlsgames.com/
+
+[filters]
+http://www.gamecetera.com/app/www/js/code/get.code.js
+http://www.gamecetera.com/app/www/js/code/getCode.js
+http://www.gamecetera.com/show/get.hash.php?1340487809584
+http://www.gamecetera.com/show/get.hash.php?1340487810131
+http://www.gamecetera.com/show/get.hash.php?1340487810361
+http://www.gamecetera.com/show/get.hash.php?1340487810575
+http://www.onlygirlsgames.com/newadvert/star300.htm
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
