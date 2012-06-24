@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://torrentdeluxe.com/torrents/1464350-bitdefender-total-security-2012-build-15.0.31.1282-final-x86-bringit.html
+
+
+[filters]
+http://torrentdeluxe.com/img/download-usenet.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
