@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pickmeupnews.com/rihannas-private-vacation-pictures-150-photos/
+
+
+[filters]
+http://www.pickmeupnews.com/cfopop.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
