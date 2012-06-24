@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://filespart.com/1/1080p-mkv-sample.html
+
+
+[filters]
+http://filespart.com/ot/fast.aspx?ft=1&fp=1&fw=1080p-mkv-sample
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
