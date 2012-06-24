@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ucomparehealthcare.com/drs/olga_noskin/
+
+
+[filters]
+http://maps.chitika.net/tilecache/osm/15/9639/12288.png
+http://maps.chitika.net/tilecache/osm/15/9639/12289.png
+http://maps.chitika.net/tilecache/osm/15/9640/12288.png
+http://maps.chitika.net/tilecache/osm/15/9640/12289.png
+http://maps-static.chitika.net/chitikamaps.js
+http://launchpad.chitika.com/maps/chitikamaps.css
+http://launchpad.chitika.com/maps/imgs/marker-shadow.png
+http://launchpad.chitika.com/maps/pins/red-A.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
