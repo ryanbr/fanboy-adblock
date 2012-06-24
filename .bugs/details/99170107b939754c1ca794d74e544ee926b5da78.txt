@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.edvantage.com.sg/edvantage/
+
+
+[filters]
+http://www.edvantage.com.sg/site/servlet/tracker.jsp
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
