@@ -1,0 +1,29 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://altrock.su/
+
+
+[filters]
+http://kinoline.su/uploads/rnb/informer/1329266988_onlinekinoline.su.jpg
+http://kinoline.su/uploads/rnb/informer/1329932999_onlinekinoline.su.jpg
+http://kinoline.su/uploads/rnb/informer/1331006379_onlinekinoline.su.jpg
+http://kinoline.su/uploads/rnb/informer/1332191538_onlinekinoline.su.jpg
+http://kinoline.su/uploads/rnb/informer/1332720068_onlinekinoline.su.jpg
+http://kinoline.su/uploads/rnb/informer/1335545364_onlinekinoline.su.jpg
+http://kinoline.su/uploads/rnb/informer/1336172361_onlinekinoline.su.jpg
+http://kinoline.su/uploads/rnb/informer/1336172479_onlinekinoline.su.jpg
+http://kinoline.su/uploads/rnb/informer/1336172607_onlinekinoline.su.jpg
+http://kinoline.su/uploads/rnb/informer/1336172732_onlinekinoline.su.jpg
+http://kinoline.su/uploads/rnb/informer/1336173156_onlinekinoline.su.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
