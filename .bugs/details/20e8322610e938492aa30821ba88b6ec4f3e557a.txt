@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/1/?shva=1#inbox/1381c6bd42b632fd
+
+[filters]
+http://email.mediafire.com/wf/open?upn=utOvOLoWAHgf-2Fxp25X9iBiPu62BWIxEn8Kzx5C5jyJoVXoFxlqPGD4T3RB2cSkW9MAkuWclAA6NGAQzhEHfa-2BNbdOxh86zYh7-2B3DyL6nIo-2F20D4IAatf5wNb7sSMevUnmYk-2FRwWplmpNEIYyGWNMKbh5PuGLEXZ6DoNAYSlMkr7ae3e5VA-2FSr3LNZWnh7KjX
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
