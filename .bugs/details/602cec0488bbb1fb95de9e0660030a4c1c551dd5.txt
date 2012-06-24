@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wmaraci.com/forum/blogger-temalari/arthemi-v3-temasini-editliyorum-iyi-gidiyormu-41368.html
+
+
+[filters]
+http://wmaraci.com/sponsor/gunlukkiralikdaireler.swf
+http://wmaraci.com/sponsor/uzmankirala.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
