@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hot-scene.com/
+
+
+[filters]
+http://hot-scene.com/cpop.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
