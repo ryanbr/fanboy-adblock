@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.twitch.tv/thegesl#r=*&s=*
+
+
+[filters]
+http://ads.heias.com/x/heias.smartclip/?H_VAR=*;|7553|;|noscript|;|1|;|c|;|1423|;|s|;|8308|;|t|;|6922003|;|heias_sc1|;|twitchtv.de.smartclip/|;|heias_sc2|;|scsid=*;sz=*;dcmt=*/xml;ord=*;|
+http://ads.heias.com/crossdomain.xml
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
