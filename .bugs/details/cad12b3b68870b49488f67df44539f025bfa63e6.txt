@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dp.ru/a/2012/06/18/Futbolisti_treneri_i_jeks/
+
+
+[filters]
+http://www.dp.ru/js/Ad-s.js
+http://www.dp.ru/Ad-s/?key=20120523
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
