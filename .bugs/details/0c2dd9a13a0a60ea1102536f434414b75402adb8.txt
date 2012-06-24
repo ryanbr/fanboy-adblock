@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tomshardware.com/forum/98555-13-games-players-computer
+
+[filters]
+http://m.bestofmedia.com/i/tomsguide/a.gif
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=13178
+
+
+[comments]
+fanboy
