@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pornvideoscout.com/russian-mom-wokes-up-son-512175.html
+
+
+[filters]
+http://inxy.pornnavigate.com/feeds/delivery.php?rnd=496498&min_width=700&min_height=60&max_width=1200&max_height=100&categories=Amateur%2CBlowjob%2CCum%2CCumshot%2CMature%2CMom%2COral%2CRussian
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
