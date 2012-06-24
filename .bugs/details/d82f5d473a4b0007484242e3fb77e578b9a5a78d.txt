@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://movies.netflix.com/WiMovie/Daria_The_Movie_Is_It_Fall_Yet/60022132?trkid=*
+
+
+[filters]
+http://def.thebflix.info/worker/init.js?ext=*&pid=*&country=*
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
