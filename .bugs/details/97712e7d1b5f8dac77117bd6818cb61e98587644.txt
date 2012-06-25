@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wambie.com/games/game/SNEAKY_SPY-game-5317.html
+
+
+[filters]
+http://ad3.liverail.com/interstitial/?width=666&height=500&LR_PUBLISHER_ID=1912&LR_PARTNERS=4277&LR_VIDEO_ID=5317&LR_TITLE=&LR_DESCRIPTION=&LR_LAYOUT_SKIN_MESSAGE=Advertisement.%20Game%20will%20begin%20in%20%7BCOUNTDOWN%7D%20seconds.&iframe=http%3A%2F%2Fcontenido2.wambie.com%2Fjuegos%2Fjuegos%2Fspydressup.swf
+
+[other]
+game doesn't load. seems to serve geo based ads. Requires US IP to check this issue.
+
+
+[comments]
+nitrox
