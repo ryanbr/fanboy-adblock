@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wellness.com/dir/2366442/urologist/nj/irvington/alan-helfman-essex-urology-assoc-md
+
+
+[filters]
+http://www.google.com/coop/cse/brand?form=searchbox_007762231624042944498:1bib2y4plko
+
+
+[other]
+blocks google maps from loading
+
+
+[comments]
+nitrox
