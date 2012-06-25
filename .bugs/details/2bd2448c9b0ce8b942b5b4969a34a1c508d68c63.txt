@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://getclicky.com/marketshare/global/web-browsers/
+
+
+[filters]
+https://getclicky.com/ajax/marketshare?&base_url=%2Fajax%2Fmarketshare&country=global&type=web-browsers&family=&el_name=markshare_ch&0.9397726281108167
+
+[other]
+blocks browser's market share graph
+
+
+[comments]
+nitrox
