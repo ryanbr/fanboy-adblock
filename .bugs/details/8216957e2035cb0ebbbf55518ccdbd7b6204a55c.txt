@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://baxters-briefs.blogspot.com
+
+
+[filters]
+http://www.tlavideo.com/affiliates/csbox.cfm?syndview=2&display_type=z&sn=3343&n=4
+http://www.tlavideo.com/affiliates/csbox.cfm?syndview=3&display_type=z&sn=3343&n=7
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
