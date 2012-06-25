@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pornstarstart.com/pornstars/search.php?s=Porn+Star&x=0&y=0
+
+
+[filters]
+http://www.best-top.de//js/best_top2_js.php?da=1&oa=37135&ao=&ur=
+http://www.best-top.de/beszur.php?da=1&oa=37135&ur=&ao=-1&vi=1&la=0&bn=en-US&x=1600&y=1200&sz=24&tz=-60&kar=windows-1252&je=0&r=48390&el=&mo=http%3A//www.pornstarstart.com/pornstars/search.php%3Fs%3DPorn+Star%26x%3D0%26y%3D0&ce=1&kezd=1340660504.53
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
