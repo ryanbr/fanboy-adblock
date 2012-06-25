@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://whatismyipaddress.com/
+
+[filters]
+http://maps.googleapis.com/maps/api/staticmap?zoom=5&size=300x250&maptype=roadmap&sensor=false&center=34.052200,-118.243698
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
