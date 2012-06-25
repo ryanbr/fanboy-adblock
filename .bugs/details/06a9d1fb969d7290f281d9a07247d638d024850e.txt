@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.timeatlas.com/5_minute_tips/general/how_to_find_and_install_firefox_extensions
+
+
+[filters]
+http://static.timeatlas.com/in.getclicky.com/66556010ns.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
