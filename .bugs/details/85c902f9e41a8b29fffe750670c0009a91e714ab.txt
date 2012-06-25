@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pakladies.com/how-to-make-easy-classic-club-sandwich-in-urdu-english/
+
+
+[filters]
+http://www.jugglu.com/content/widgets/v/mywidgets/36
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
