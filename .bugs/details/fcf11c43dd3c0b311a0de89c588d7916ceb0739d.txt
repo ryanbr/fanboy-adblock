@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rude.com/live-voyeur-houses/
+
+
+[filters]
+http://ads.rude.com/main/js/ipa/v/fl/id/4710/c/K3tCQ/re
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
