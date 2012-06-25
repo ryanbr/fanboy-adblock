@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://help.readability.com/customer/portal/topics/45779-add-ons-and-extensions
+
+
+[filters]
+http://webassets.desk.com/new/javascripts/deskanalytics.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
