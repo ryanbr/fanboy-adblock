@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mycams.com/allonline.php
+
+
+[filters]
+http://www.mycams.com/owa/_owa.gif?owa_timestamp=1340706557&owa_page_url=http%3A%2F%2Fwww.mycams.com%2Fallonline.php&owa_page_title=Live+Sex+Web+Cam+Video+Chat+-+myCams.com&owa_event_type=base.page_request&owa_HTTP_REFERER=&owa_visitor_id=1340705678075378364&owa_fsts=1340705678&owa_dsfs=0&owa_last_req=1340706418&owa_session_id=1340705678420449785&owa_nps=1&owa_dsps=0&owa_medium=direct&owa_source=%28none%29&owa_search_terms=%28none%29&owa_session_referer=%28none%29&owa_site_id=687ad3b1d62341af8573cd0c961fc2b0&
+http://www.mycams.com/owa/owa.tracker-combined-min.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
