@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://armorgames.com/play/13434/psychout
+
+
+[filters]
+http://media-delivery.armorgames.com/a8b94accfd985811c40dc86d2039a581.jpg
+http://media-mgmt.armorgames.com/delivery/timber.php?bannerid=54&campaignid=3&zoneid=1&loc=http%3A%2F%2Fmedia-mgmt.armorgames.com%2Fbroker%3Fr%3Dhttp%253A%252F%252Fcache%252Earmorgames%252Ecom%252Ffiles%252Fgames%252Fpsychout%252D13434%252Eswf&cb=3978d75349
+http://media-mgmt.armorgames.com/broker?r=http%3A%2F%2Fcache%2Earmorgames%2Ecom%2Ffiles%2Fgames%2Fpsychout%2D13434%2Eswf
+http://media-mgmt.armorgames.com/crossdomain.xml
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
