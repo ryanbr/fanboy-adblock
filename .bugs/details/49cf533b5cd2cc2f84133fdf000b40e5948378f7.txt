@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.collegehumor.com/video/6788413/lightning-up-close-and-personal
+
+
+[filters]
+http://ad.doubleclick.net/adj/5480.iac.collegehumor/sec=videos_originalcontent;referer=http://www.collegehumor.com/video/6788413/lightning-up-close-and-personal;rating=pg;ctype=video;video_id=6788413;tag=weather;tag=nature;tag=lightning;sz=3x3;tile=6
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&p=35366#p35366
+
+
+[comments]
+fanboy
