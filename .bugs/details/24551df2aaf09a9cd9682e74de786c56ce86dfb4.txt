@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ladoshki.com/books.htm
+
+
+[filters]
+http://tc.ladoshki.com/cgi-bin/c.cgi?1&1&20120626&n=351261
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
