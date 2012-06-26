@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.amik.ru/Article/1/13639.html
+
+
+[filters]
+http://stat-counter.tass-online.org/cnt?sid=22&p=0&rn=0.06235285078843433&c=1&t=240&j=N&wh=1440x900&px=24&sl=1.3&r=http%3A//www.amik.ru/&fr=0&pg=http%3A//www.amik.ru/Article/1/13639.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
