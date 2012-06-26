@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://allbest.ru/libraries.htm
+
+
+[filters]
+http://b600.abn.com.ua/iframe?t=600&w=120&h=600&id=296&c=24&cw=1920&ref=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D7%26t%3D13236&tz=-720&r=5352903
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
