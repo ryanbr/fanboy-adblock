@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gotalk.ru/
+
+
+[filters]
+http://www.gotalk.ru/track?rnd=0.3507774190110221&account_id=1&track_count=0&l=http%3A%2F%2Fwww.gotalk.ru%2F&r=&t=GoTalk%3A%20%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D0%BD%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%2C%20online%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D0%BD%D1%82%20%D0%BD%D0%B0%20%D1%81%D0%B0%D0%B9%D1%82&c=UTF-8
+http://www.gotalk.ru/track?rnd=0.38018175249785324&account_id=1&track_count=1&gt_tid=Fwodr1prqVtTLMpXZELkDQykBslKdlJRYeTYUXl58f7116b53b077b795c0995e26c9835d3
+http://www.gotalk.ru/track?rnd=0.930000733002512&account_id=1&track_count=2&gt_tid=Fwodr1prqVtTLMpXZELkDQykBslKdlJRYeTYUXl58f7116b53b077b795c0995e26c9835d3
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
