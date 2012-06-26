@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.camchat.org/
+
+
+[filters]
+http://www.adultsense.com/images/blank.gif
+http://www.adultsense.com/images/blank.gif
+http://www.adultsense.com/show.js
+http://www.adultsense.com/show.php?z=30&pl=705&j=1&code=1340691848150
+http://www.adultsense.com/show_i.php?a=746&x=TVRNME1EWTRPVEF4TlMweU1ETXVNVEUwTGpFeU9DNHlNemc9&z=30&c=1&adurl=825312&pl=705&plurl=3230234&dom=33894&target=_blank
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
