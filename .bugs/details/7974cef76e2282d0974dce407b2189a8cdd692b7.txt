@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.flirt4free.com/
+
+
+[filters]
+http://ecsm.vs.com/images/models/samples-160x120/521443.jpg
+http://ecsm.vs.com/images/models/samples-160x120/676361.jpg
+http://ecsm.vs.com/images/models/samples-160x120/697745.jpg
+http://ecsm.vs.com/images/models/samples-160x120/762219.jpg
+http://ecsm.vs.com/images/models/samples-160x120/806021.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
