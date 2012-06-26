@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://lib.rin.ru/
+
+
+[filters]
+http://ad001.ru/files/bb2.mp3
+http://ad001.ru/code/vknotifier.php?id=659&adf_in=1&vk_t=12&adv_ids=
+http://ad001.ru/code/vkshow.php?id=659
+http://ad001.ru/files/swfobject.js
+http://mediarich-code.info/codes/21997/24948_lib.rin.ru.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
