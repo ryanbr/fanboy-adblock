@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.4mycams.com/HotAddiction.html
+
+
+[filters]
+http://img.livejasmin.com/wa/H/Ho/HotAddiction/live/image.jpg
+http://img.mycams.com/css/thickbox.css
+http://img.mycams.com/img/88x31_RTA_b.gif
+http://img.mycams.com/img/addperformers_fav.png
+http://img.mycams.com/img/icra_sw.gif
+http://img.mycams.com/js/scripts-packed.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
