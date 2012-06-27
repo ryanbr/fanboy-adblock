@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fastpictureviewer.com/
+
+[filters]
+http://az3021.vo.msecnd.net/public/web/counter_xhtml.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
