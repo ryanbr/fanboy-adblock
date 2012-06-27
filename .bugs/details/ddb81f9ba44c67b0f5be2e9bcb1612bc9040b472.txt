@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://download.kappa.ro/action__file/id__6126
+
+
+[filters]
+http://www.kappa.ro/visits_contor.php?domain=download&tmst=1340755957
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
