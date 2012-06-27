@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.videolan.org/vlc/download-windows.html
+
+
+[filters]
+http://sourceforge.net/accelerator/js?partner_id=60
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
