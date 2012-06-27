@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sfwa.org/members/travistea/forum.htm
+
+
+[filters]
+http://assets.bravenet.com/cp/bn-forum.gif
+http://assets.bravenet.com/cp/forum.gif
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13249
+
+
+[comments]
+fanboy
