@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pohdiaries.com/jennifer-lawrence-hot-body-a-source-of-controversy/
+
+
+[filters]
+http://zfacts.com/giz/G05/debt.html?zWidth=140&zHeight=18&zSpeed=8&zFontSize=14&zFontColor=white&zBorderColor=%23CCC&zBackColor=&
+http://zfacts.com/giz/G05ndc.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
