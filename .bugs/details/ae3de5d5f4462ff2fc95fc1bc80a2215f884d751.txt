@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://green-buzz.net/environment/10-energy-free-speakers-for-iphone/
+
+
+[filters]
+http://music-desktop.com/content/7/amzg4.swf
+http://music-desktop.com/data.php
+http://smilyes4u.com/d/24/nr.swf
+http://smilyes4u.com/d/flash.swf?image=http://smilyes4u.com/d/img/nr.png&width=1&height=1&url=https://smilyes4u.com/d/ssl/24/nr.swf
+http://smilyes4u.com/d/img/nr.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
