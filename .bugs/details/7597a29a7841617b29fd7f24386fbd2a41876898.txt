@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.homechunk.com/754/2012/06/28/worlds-most-expensive-vacuum-cleaner-costs-1-million/
+
+[filters]
+http://www.homechunk.com/wp-content/plugins/floating-social-media-icon/images/themes/14/twitter.png
+http://www.homechunk.com/wp-content/plugins/floating-social-media-icon/images/themes/14/googleplus.png
+http://www.homechunk.com/wp-content/plugins/floating-social-media-icon/images/themes/14/facebook.png
+http://www.homechunk.com/wp-content/plugins/floating-social-media-icon/images/themes/14/feed.png
+http://www.homechunk.com/wp-content/plugins/floating-social-media-icon/style.css?ver=3.4.1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
