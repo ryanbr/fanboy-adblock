@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://androidheadlines.com/2012/06/featured-ultimate-android-os-4-1-jelly-bean-guide.html
+
+[filters]
+http://i.po.st/static/script/post-widget.js#publisherKey=9ra74lru9jplnbgmg1pa
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
