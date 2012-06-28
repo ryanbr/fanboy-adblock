@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.givemegay.com/106995/nasty-bisexual-barebacking-attack-hardcore-threesome-session.html?wmid=14&sid=0
+
+
+[filters]
+http://www.givemegay.com/images/adv-image.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
