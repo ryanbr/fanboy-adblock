@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.etonline.com/movies/108871_Jennifer_Lawrence_Cast_as_Katniss_in_Hunger_Games/index.html
+
+
+[filters]
+http://www.etonline.com/media/img/social_buzz.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
