@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://adexcite.com/
+
+
+[filters]
+http://ads.q1media.com/seg?add=293273&t=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
