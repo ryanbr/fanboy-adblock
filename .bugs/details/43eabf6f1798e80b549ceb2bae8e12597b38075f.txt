@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mix-magazines.blogspot.co.nz/2011/04/jennifer-lawrence.html
+
+[filters]
+http://www.amazon.com/gp/product/B001UCGZXI/ref=as_li_tf_tl?ie=UTF8&tag=thesecondword-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B001UCGZXI
+http://www.mynewcounter.com/services/wcounter/wcounter.php?s=9B104C07FDF352B224A7D8BD4D7C4C5B081C5328FC2DAC437C0721C09EAC40B5C94B7AA31BDA55C1C8767F
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
