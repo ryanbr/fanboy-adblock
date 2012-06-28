@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.similarsites.com/site/adversity.uk.to
+
+
+[filters]
+http://www.similarsites.com/sbbgate.aspx/?sbbpg=chctrlp1
+http://www.similarsites.com/sbbgate.aspx/?sbbpg=sbbShell&gprid=EQ&sbbgs=h439065613a286863aa8ee4861e3f6160877&ddl=7
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
