@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.snob.ru/selected/entry/50304
+
+
+[filters]
+http://www.snob.ru/js/AdriverScroll.js?9136
+http://www.snob.ru/i/promotion/lexus2.jpg
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
