@@ -1,0 +1,33 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mix-magazines.blogspot.co.nz/2011/04/jennifer-lawrence.html
+
+
+[filters]
+http://www.feedage.com/images/add2feedage.gif
+http://www.feedage.net/images/add2bloglines.gif
+http://www.feedage.net/images/add2feedagealerts.gif
+http://www.feedage.net/images/add2feedagegroups.gif
+http://www.feedage.net/images/add2fwicki_clicklet.png
+http://www.feedage.net/images/add2iPing-it.gif
+http://www.feedage.net/images/add2live.gif
+http://www.feedage.net/images/add2netvibes.gif
+http://www.feedage.net/images/add2pageflakes.gif
+http://www.feedage.net/images/add2spoken_to_you.gif
+http://www.feedage.net/images/addtogoogle.gif
+http://www.feedage.net/images/addtomyyahoo4.gif
+http://www.feedage.net/images/alesti-rss-reader.gif
+http://www.feedage.net/images/myaol_cta1.gif
+http://www.feedage.net/images/ngsub1.gif
+http://www.feedage.net/images/rss_mymsn.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
