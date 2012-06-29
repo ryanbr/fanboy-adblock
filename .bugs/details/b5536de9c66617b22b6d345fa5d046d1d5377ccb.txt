@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.di.se/
+
+
+[filters]
+http://oas.di.se/Static/di20-ads.css
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
