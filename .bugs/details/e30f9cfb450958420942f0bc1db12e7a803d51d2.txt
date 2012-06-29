@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ansa.it/web/notizie/videogallery/spettacolo/2012/06/29/Raphael-Gualazzi-avventura-internazionale-Blue-Note_7115590.html?
+
+[filters]
+http://tiscali.ad.dotandad.com/tiscali.jsp?mpo=vast2&mpt=ansa.video/_default&d=1340965324376
+http://tiscali.ad.dotandad.com/crossdomain.xml
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
