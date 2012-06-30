@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.avira.com/en/for-home?utm_source=direct&utm_medium=banner_en&utm_campaign=B2CBanner&x-test=banner_en&x-origin=web
+
+
+[filters]
+http://www.avira.com/site/datatracking?tracking-data=Y291bnRyeT1VUyZsYW5ndWFnZT1lbiZwYWdlSWQ9MiZwYWdlVmVyc2lvbklkPTIyMzEmd2lkZ2V0SWQ9NTA3JmFjcz05NzI0OTk2MTg=&tracking-data-action=__view__
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
