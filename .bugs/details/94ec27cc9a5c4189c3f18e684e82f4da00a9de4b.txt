@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://collegecandy.com/2012/06/27/25-under-25-most-influential-women-on-the-web-2012/#photo=1
+
+
+[filters]
+http://s1.wp.com/_static/??/wp-includes/js/jquery/jquery.js,/wp-content/themes/vip/collegecandy/js/modernizr-1.7.min.js,/wp-content/themes/vip/collegecandy/js/jquery.ba-hashchange.min.js,/wp-content/themes/vip/collegecandy/js/jquery.cycle.lite.min.js,/wp-content/themes/vip/collegecandy/js/jquery.omgallery-lite.js,/wp-content/themes/vip/collegecandy/js/jquery.gfeed.js,/wp-content/themes/vip/collegecandy/js/gaAddons.js,/wp-includes/js/spin.js,/wp-includes/js/jquery/jquery.spin.js?m=1339788006j
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
