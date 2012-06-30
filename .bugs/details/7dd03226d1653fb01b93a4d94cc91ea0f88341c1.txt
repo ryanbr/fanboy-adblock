@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/1/?shva=1#inbox/1383a3e764bb57de
+
+[filters]
+http://click.aristotle.net/viewlogger.aspx?mid=24791&uid=7337020
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
