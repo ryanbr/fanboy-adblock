@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://espn.go.com/olympics/
+
+
+[filters]
+http://ad.doubleclick.net/adj/espn.us.com.oly/summer12index;pgtyp=olysummer12index;sp=oly;objid=7915495;pos=Background_Skin;u=swid=104D8B63-4485-40DF-807F-3974CA410165|pgtyp=olysummer12index|sp=oly|objid=7915495;sz=1280x946,200x800,1x1;tile=2;ord=7080998175
+http://ad.doubleclick.net/adj/espn.us.com.oly/summer12index;pgtyp=olysummer12index;sp=oly;objid=7915495;pos=Banner;u=swid=104D8B63-4485-40DF-807F-3974CA410165|pgtyp=olysummer12index|sp=oly|objid=7915495;sz=728x90,970x66,924x50,1x1;tile=3;ord=7080998175
+http://ad.doubleclick.net/adj/espn.us.com.oly/summer12index;pgtyp=olysummer12index;sp=oly;objid=7915495;pos=SponsoredByLogoHeader;u=swid=104D8B63-4485-40DF-807F-3974CA410165|pgtyp=olysummer12index|sp=oly|objid=7915495;sz=150x45,1x1;tile=1;ord=7080998175
+
+
+
+[other]
+Stops site from rendering properly
+
+
+[comments]
+fanboy
