@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/1/?shva=1#inbox/13839ecc8aa449d1
+
+
+[filters]
+http://ifwnewsletters.newsletters.infoworld.com/db/8381417/1182177938/1.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
