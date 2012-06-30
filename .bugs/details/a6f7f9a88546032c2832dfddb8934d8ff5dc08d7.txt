@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mondediplo.com/2012/06/
+
+
+[filters]
+http://mondediplo.com/spip.php?page=stats.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
