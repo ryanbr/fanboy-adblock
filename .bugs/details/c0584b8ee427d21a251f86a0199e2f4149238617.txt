@@ -1,0 +1,28 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/1/?ui=2&shva=1#inbox/138383eb766dec9e
+
+
+[filters]
+http://www.rodalenl.com/imp?s=12730&t=newsletter&sz=2x1&li=EatThisNotThatNL&m=bd02f330c8372bb5a6f6468bb244f193&p=953670
+http://www.rodalenl.com/imp?s=12731&t=newsletter&sz=2x1&li=EatThisNotThatNL&m=bd02f330c8372bb5a6f6468bb244f193&p=953670
+http://www.rodalenl.com/imp?s=12732&t=newsletter&sz=2x1&li=EatThisNotThatNL&m=bd02f330c8372bb5a6f6468bb244f193&p=953670
+http://www.rodalenl.com/imp?s=12733&t=newsletter&sz=2x1&li=EatThisNotThatNL&m=bd02f330c8372bb5a6f6468bb244f193&p=953670
+http://www.rodalenl.com/imp?s=12734&t=newsletter&sz=2x1&li=EatThisNotThatNL&m=bd02f330c8372bb5a6f6468bb244f193&p=953670
+http://www.rodalenl.com/imp?s=12735&t=newsletter&sz=2x1&li=EatThisNotThatNL&m=bd02f330c8372bb5a6f6468bb244f193&p=953670
+http://www.rodalenl.com/imp?s=12736&t=newsletter&sz=2x1&li=EatThisNotThatNL&m=bd02f330c8372bb5a6f6468bb244f193&p=953670
+http://www.rodalenl.com/imp?s=12737&t=newsletter&sz=2x1&li=EatThisNotThatNL&m=bd02f330c8372bb5a6f6468bb244f193&p=953670
+http://www.rodalenl.com/imp?s=12738&t=newsletter&sz=2x1&li=EatThisNotThatNL&m=bd02f330c8372bb5a6f6468bb244f193&p=953670
+http://www.rodalenl.com/imp?s=14120&t=newsletter&sz=1x1&li=EatThisNotThatNL&m=bd02f330c8372bb5a6f6468bb244f193&p=953670
+http://www.rodalenl.com/imp?s=14121&t=newsletter&sz=1x1&li=EatThisNotThatNL&m=bd02f330c8372bb5a6f6468bb244f193&p=953670
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
