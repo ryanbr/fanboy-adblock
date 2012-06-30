@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/1/?ui=2&shva=1#inbox/13839ec2c4c09d3e
+
+
+[filters]
+http://link.huffingtonpost.com/img/4f547679b92da761feb58c1cj1nc.16ga/e0811080.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
