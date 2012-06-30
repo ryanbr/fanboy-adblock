@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/1/?shva=1#inbox/1383bd9d0df3100d
+
+
+[filters]
+http://open.postageapp.com/receipt/4df0c296917cb735d161e7518d240b777beb4b09@sender16.mailer.postageapp.com
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
