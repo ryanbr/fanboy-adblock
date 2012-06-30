@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/1/?ui=2&shva=1#inbox/13834dbb710d0f5a
+
+
+[filters]
+http://images.nymag.com/newsletters/ads/fa/ZARA_SALE_ONLINE_062812.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
