@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eurweb.com/2012/06/hip-hop-randb-album-release-dates-2012/
+
+
+[filters]
+http://adexcite.com/ads/video/controller.php?eid=10323
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=13283
+
+[comments]
+fanboy
