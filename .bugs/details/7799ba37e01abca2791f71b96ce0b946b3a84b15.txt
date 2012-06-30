@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://shop.f-secure.com/cgi-bin/shop/reg=US?ID=FSIS2012B&omc=US&oml=en&icid=465
+
+
+[filters]
+https://srv.asknet.com/shop.f-secure.com/jscr/asknet_tracking.js?ts=301
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
