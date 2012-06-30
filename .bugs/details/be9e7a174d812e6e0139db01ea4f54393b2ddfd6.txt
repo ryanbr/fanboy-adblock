@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/1/?ui=2&shva=1#inbox/1383aae036655c28
+
+
+[filters]
+http://spnsrs.feedblitz.com/imp?s=8486&t=newsletter&sz=2x1&li=&m=bd02f330c8372bb5a6f6468bb244f193&p=4199441_24928
+http://spnsrs.feedblitz.com/imp?s=8487&t=newsletter&sz=2x1&li=&m=bd02f330c8372bb5a6f6468bb244f193&p=4199441_24928
+http://spnsrs.feedblitz.com/imp?s=8488&t=newsletter&sz=2x1&li=&m=bd02f330c8372bb5a6f6468bb244f193&p=4199441_24928
+http://t.feedblitz.com/65134.gif?s=cdd32775cfaf74b56e32cd62d13ec0c57c15c47c&n=1
+http://t.feedblitz.com/65134.gif?s=cdd32775cfaf74b56e32cd62d13ec0c57c15c47c&n=2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
