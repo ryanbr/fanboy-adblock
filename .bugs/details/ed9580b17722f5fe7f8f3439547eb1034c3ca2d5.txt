@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://en.espnf1.com/sauber/motorsport/story/82869.html?CMP=OTC-RSS
+
+
+[filters]
+http://img.espngp.com/ads/F1_Sprite60_ver1.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
