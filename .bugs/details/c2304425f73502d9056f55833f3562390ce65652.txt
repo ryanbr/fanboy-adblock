@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hs.fi/english/
+
+[filters]
+http://hs.spring-tns.net/blank.gif
+http://hs.spring-tns.net/j0=,,,;+,cp=english+url=http%3A//www.hs.fi/english/;;;?lt=h42abk6f&x=1920x1080x24
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
