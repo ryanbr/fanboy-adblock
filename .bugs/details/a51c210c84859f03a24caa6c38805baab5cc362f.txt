@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://driverzone.com/
+
+[filters]
+http://secure.esupport.com/ea/analyze.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
