@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/1/?ui=2&shva=1#inbox/13834dab25c21882
+
+
+[filters]
+http://publish.pizzazzemail.com/t?c=694764&r=1543&l=34634&t=10&e=EDCD9E9A2AEF2DD84B7FDB78F864A8EA1391DD832FE6CAB0
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
