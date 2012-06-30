@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/1/?ui=2&shva=1#spam/13838743f781b233
+
+
+[filters]
+http://discoverymail.com/a/hBP7abTAHcAS1B8j0H0NslMNYbY/spacer.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
