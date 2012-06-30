@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/1/?ui=2&shva=1#inbox/13832ffd7c9d7f6a
+
+
+[filters]
+http://www.crosswalkmail.com/a.do?param=bGl2ZWNvbmNsaWVudElEPTQ2Mjk5NzU5MDcxNzImQ3JlYXRpdmVJRD03MjgxNjcwNy0xOTZGLTREQ0EtQkExOC05M0REOTA1MUEyMkYtODQzOTM2JlBsYWNlbWVudElEPTImRXZlbnRUeXBlPUltcHJlc3Npb24mcmFuZD12dm9T&s=1
+http://www.crosswalkmail.com/bGl2ZWNvbmNsaWVudElEPTQ2Mjk5NzU5MDcxNzImQ3JlYXRpdmVJRD03MjgxNjcwNy0xOTZGLTREQ0EtQkExOC05M0REOTA1MUEyMkYtODQzOTM2JlBsYWNlbWVudElEPTImRXZlbnRUeXBlPUltcHJlc3Npb24mcmFuZD12dm9T.jpeg
+http://www.crosswalkmail.com/ezszsprhzdzfrqhkftlwvfjvrpfqyllqdbrvssksbqszddq_ylbklkfcbcml.gif
+http://www.crosswalkmail.com/t.do?id=ezszsprhzdzfrqhkftlwvfjvrpfqyllqdbrvssksbqszddq_ylbklkfcbcml&o=1&
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
