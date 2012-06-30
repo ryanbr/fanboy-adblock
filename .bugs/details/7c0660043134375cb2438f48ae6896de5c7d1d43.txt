@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wireshark.org/
+
+
+[filters]
+http://collector.webtuna.com/?LoadTime=391&title=Wireshark%20%B7%20Go%20deep.&host=www.wireshark.org&path=/&prot=http:&search=&ref=http%3A//www.google.com/search%3Fq%3Drelated%3Asecunia.com%26hl%3Den%26safe%3Doff%26prmd%3Dimvns%26ei%3Dhk3sT6bFK_HH6AHzvdnSBQ%26start%3D20%26sa%3DN%26biw%3D1392%26bih%3D436&s=&fb=1109&elements=13&sess=722628893947
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
