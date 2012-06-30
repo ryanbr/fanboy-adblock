@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.as.com/english/articulo/italian-press-emphasises-germany-s/20120629dasdenspo_3/Ten
+
+
+[filters]
+http://www.as.com/est.pl?id=20120629dasdenspo_3.Ten&fp=20120629124300&te=visita&to=noticia&a=dasingspo&k=304930163.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
