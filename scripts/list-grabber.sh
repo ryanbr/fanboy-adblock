@@ -253,7 +253,7 @@ then
     # Copy list from repo to RAMDISK
     cp -f $GOOGLEDIR/enhancedstats-addon.txt $TESTDIR/enhancedstats.txt
     # Copy Orginal file over
-    cp -f $GOOGLEDIR/enhancedstats-addon.txt $TESTDIR/enhancedstats.txt-org
+    cp -f $GOOGLEDIR/enhancedstats-addon.txt $MAINDIR/enhancedstats.txt-org
     # GZip
     $ZIP a -mx=9 -y -tgzip $TESTDIR/enhancedstats.txt.gz $TESTDIR/enhancedstats.txt > /dev/null
     # Create a log
