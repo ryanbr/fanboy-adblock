@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/1/?ui=2&shva=1#spam/1381902741912be5
+
+
+[filters]
+http://tracking.drsfostersmith.com/t?c=83106&r=2&l=6&t=10&e=12BF72BD48B94D3DB6103D90CC7C08EF55D4898BCCC40632
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
