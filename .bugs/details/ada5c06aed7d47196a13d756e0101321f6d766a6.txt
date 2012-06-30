@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/1/?ui=2&shva=1#inbox/1383855d906a01f0
+
+
+[filters]
+http://e.dailycaller-alerts.com/util/get_image.jsp?e=0-jkh8dKjT2esrFFfR5a39kRlZzi-z62Tk-bh8Jg.A&s=7I2s0hRWsOtws0YlS-mSMMA..A&v=8O4svavFtcXa2wH1zPBZSZg..A
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
