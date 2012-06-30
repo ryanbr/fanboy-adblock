@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pinterest.com/about/goodies/
+
+
+[filters]
+http://passets-ec.pinterest.com/images/about/buttons/pinterest-button.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
