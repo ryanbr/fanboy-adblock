@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ehow.com/how_8386651_browse-android-using-pc.html
+
+
+[filters]
+http://s.dmd53.com/get?url=http%3A%2F%2Fwww.ehow.com%2Fhow_8386651_browse-android-using-pc.html&ref=&id=23&callback=DM53.api.herbie.callback&1341033242592
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
