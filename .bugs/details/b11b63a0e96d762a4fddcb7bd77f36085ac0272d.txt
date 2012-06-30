@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/1/?ui=2&shva=1#spam/1380a74d0e441ca1
+
+
+[filters]
+http://ct.itbusinessedge.com/r/?id=h2e97dfa,cc867e,1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
