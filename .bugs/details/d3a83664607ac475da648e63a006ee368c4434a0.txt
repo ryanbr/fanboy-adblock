@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://filehippo.com/download_avast_antivirus/comments/
+
+[filters]
+http://mediacdn.disqus.com/1340915586/uploads/themes/028ee724157b05d04e7bdcf237d12e60/img/social-icons.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
