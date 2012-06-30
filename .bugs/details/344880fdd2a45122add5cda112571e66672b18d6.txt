@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.theolivepress.es/
+
+
+[filters]
+http://www.theolivepress.es/cdn-cgi/cl/2719fd73a02ce9f71a97b52e50a779e2ab879fe5.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
