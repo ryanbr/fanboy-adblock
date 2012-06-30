@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.expatica.com/es/main.html
+
+
+[filters]
+http://ps.eyeota.net/pixel?pid=6lkb2cv&t=js&pcountry=es&ctg=main
+http://ps.eyeota.net/pixel?ul_cb=1&pid=6lkb2cv&t=js&pcountry=es&ctg=main
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
