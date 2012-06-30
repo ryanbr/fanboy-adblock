@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.tut.by/
+
+
+[filters]
+http://www.tut.by/uppod/frameid406/ads1/mp4/params.php?uid=playerTutbyAir&air=
+http://www.tut.by/uppod/frameid406/ads1/mp4/params.php?uid=playerTutbyAir&air=&rand=0.8693947698920965
+http://news.tut.by/informer/hint/rus/297090.html
+http://news.tut.by/informer/hint/rus/297243.html
+http://news.tut.by/informer/hint/rus/297249.html
+http://news.tut.by/informer/hint/rus/297357.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
