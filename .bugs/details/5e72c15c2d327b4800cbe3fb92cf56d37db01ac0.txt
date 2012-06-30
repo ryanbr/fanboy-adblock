@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.softpedia.com/dyn-postdownload.php?p=4059&t=0&i=2
+
+
+[filters]
+http://s1.softpedia-static.com/images/aff/avs4you_300.jpg
+http://s1.softpedia-static.com/images/aff/bd2013_728.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
