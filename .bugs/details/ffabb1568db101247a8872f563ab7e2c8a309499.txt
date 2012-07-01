@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.segodnya.ua/health/14401572.html
+
+
+[filters]
+http://com.segodnya.ua/r.php?bid=23&js=238083
+http://com.segodnya.ua/r.php?bid=23&js=300364
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
