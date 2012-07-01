@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.starfurniture.com/
+
+
+[filters]
+http://spur01.sitecompass.com/sc_cap/90/logo.php?acct=90&referrer=http%3A//www.google.com/search%3Fq%3Drelated%3Awww.roomstogo.com%26hl%3Den%26safe%3Doff%26prmd%3Dimvns%26ei%3Dt2rvT4TnOazG0AGR6vH8Ag%26start%3D20%26sa%3DN%26biw%3D1392%26bih%3D433&url=http%3A//www.starfurniture.com/&sres=1440X900&tm=1341090600133
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
