@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://finance.ua/s.php?m=j&l=2&news=282406&r=finance.ua&n=974908166
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
