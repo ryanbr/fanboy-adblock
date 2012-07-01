@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nydailynews.com/news/national/aguiar-wife-mother-clash-court-compromise-missing-millionaire-guma-100-million-estate-give-northern-trust-conservatorship-article-1.1104611
+
+
+[filters]
+http://assets.nydailynews.com/polopoly_fs/1.1104777.1341006859!/img/httpImage/image.jpg_gen/derivatives/index_140/image.jpg
+http://assets.nydailynews.com/polopoly_fs/1.1104801.1340996509!/img/httpImage/image.jpg_gen/derivatives/index_140/image.jpg
+http://assets.nydailynews.com/polopoly_fs/1.1104840.1340996144!/img/httpImage/image.jpg_gen/derivatives/index_140/image.jpg
+http://assets.nydailynews.com/polopoly_fs/1.1105267.1341126480!/img/httpImage/image.jpg_gen/derivatives/index_140/image.jpg
+http://assets.nydailynews.com/polopoly_fs/1.1105287.1341030262!/img/httpImage/image.jpg_gen/derivatives/index_140/image.jpg
+http://assets.nydailynews.com/polopoly_fs/1.1105289.1341125648!/img/httpImage/image.jpg_gen/derivatives/index_140/image.jpg
+http://assets.nydailynews.com/polopoly_fs/1.1105332.1341046134!/img/httpImage/image.jpg_gen/derivatives/index_140/image.jpg
+http://assets.nydailynews.com/polopoly_fs/1.1105357.1341055341!/img/httpImage/image.jpg_gen/derivatives/index_140/image.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
