@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wonka.com/
+
+
+[filters]
+# Copy your Adblock filters here
+
+
+
+
+[other]
+||google-analytics.com^$third-party
+
+Flash does not load completely.
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13347
+
+[comments]
+fanboy
