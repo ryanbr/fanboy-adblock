@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.potterybarnkids.com/
+
+
+[filters]
+http://www.potterybarnkids.com/pkimgs/rk/images/s/201224/0001/js/external/thirdparty.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
