@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://basilicus.wikia.com/wiki/Template:Cresia
+
+
+[filters]
+http://a.wikia-beacon.com/__track/view?v=v1&c=1961&lc=en&lid=75&x=basilicus&y=&u=0&ip=203.114.128.238&a=5897&s=oasis&n=10&r=&cb=1341117898376&beacon=TzJWH9a1_o&utma=26592377.635971028.1316980140.1316980140.1316980140.1
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13348
+
+[comments]
+fanboy
