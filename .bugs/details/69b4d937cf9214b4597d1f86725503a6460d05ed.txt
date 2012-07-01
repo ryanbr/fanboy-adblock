@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.anthropologie.com/anthro/index.jsp
+
+
+[filters]
+http://www.pswec.com/px/aec466b715/v3
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
