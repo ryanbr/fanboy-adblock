@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://emmas.blogg.se/
+
+[filters]
+http://stats.blogg.se/?id=20882
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
