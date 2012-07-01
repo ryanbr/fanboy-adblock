@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bettycrocker.com/videos/videolibrary/beerology/steer-clear-of-the-skunk?nicam1=content_pcc&nichn1=Outbrain&nicreatID1=Beerology&nipkw1={ad title}&niseg1=BC_TDCore
+
+
+[filters]
+http://www.bettycrocker.com/videos/videolibrary/beerology/~/media/Images/global/Logos/adchoice_1_1.ashx?w=16&as=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
