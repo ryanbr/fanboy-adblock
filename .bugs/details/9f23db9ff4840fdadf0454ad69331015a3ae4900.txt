@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://smartsource.com/smartsource/index.jsp?Link=MKRU3JAAR6CCY
+
+
+[filters]
+http://partners.mysavings.com/42/45/9740/&dp=1284083
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
