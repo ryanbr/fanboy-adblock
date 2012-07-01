@@ -50,7 +50,7 @@ echo "------ End of hg pull and Update ------" >> /var/log/adblock-log.txt
 
 # Log Changes
 # 
-$NICE $TAIL -n 2000 /var/log/adblock-log.txt > /var/www/adblock.log
+$NICE $TAIL -n 12000 /var/log/adblock-log.txt > /var/www/adblock.log
 
 # Main List
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
@@ -69,6 +69,11 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
     echo "Googles copy: `cat $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt | grep Checksum: ;echo HASH: $SSLGOOGLE`" >> /var/log/adblock-log.txt
     echo "Local copy: `cat $MAINDIR/fanboy-adblock.txt | grep Checksum: ;echo HASH: $SSLMAIN`" >> /var/log/adblock-log.txt
     echo "Updated fanboy-adblock.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Show changes
+    echo "Changes to File: fanboy-adblock.txt" >> /var/log/adblock-log.txt
+    $NICE diff -Naur $MAINDIR/fanboy-adblock.txt $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-adblock.patch
+    cat $TESTDIR/fanboy-adblock.patch >> /var/log/adblock-log.txt
+    echo " " >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-adblock.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-adblock.txt $SSLMAIN"
@@ -83,7 +88,7 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
     # Compress file in Ram disk
     $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-adblock.txt > /dev/null
     # Clear Webhost-copy before copying
-    rm -f $MAINDIR/fanboy-adblock.txt.gz
+    rm -f $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-adblock.patch
     
     # Now Copy over GZip'd list
     cp -f $TESTDIR/fanboy-adblock.txt.gz $MAINDIR/fanboy-adblock.txt.gz
@@ -188,6 +193,11 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
  then
     # Log
     echo "Updated fanboy-tracking.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Show changes
+    echo "Changes to File: fanboy-tracking.txt" >> /var/log/adblock-log.txt
+    diff -Naur $MAINDIR/fanboy-tracking.txt $GOOGLEDIR/fanboy-adblocklist-stats.txt > $TESTDIR/fanboy-tracking.patch
+    $NICE cat $TESTDIR/fanboy-adblock.patch >> /var/log/adblock-log.txt
+    echo " " >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-tracking.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-tracking.txt $SSLMAIN"
@@ -206,7 +216,7 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
     echo $ECHORESPONSE >> $LOGFILE
     # Clear Webhost-copy before copying and Copy over GZip'd list
     cp -f $TESTDIR/fanboy-tracking.txt $MAINDIR/fanboy-tracking.txt
-    rm -f $MAINDIR/fanboy-tracking.txt.gz
+    rm -f $MAINDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-tracking.patch
     cp -f $TESTDIR/fanboy-tracking.txt.gz $MAINDIR/fanboy-tracking.txt.gz
     # Now combine with international list
     sh /etc/crons/hg-grab-intl.sh
