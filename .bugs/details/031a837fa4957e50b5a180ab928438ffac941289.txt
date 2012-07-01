@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bagnet.org/news/peoples/16659
+
+
+[filters]
+http://194.186.171.75/images/default2/default/partner/banner/dynamic/2-600x120.swf
+http://www.bagnet.org/skin/v2/img/background/bg-cloud.jpg
+http://www.bagnet.org/skin/v2/img/background/nashe_mist-left.png
+http://www.bagnet.org/skin/v2/img/background/nashe_mist-right.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
