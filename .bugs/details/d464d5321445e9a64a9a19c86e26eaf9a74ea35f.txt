@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hammacher.com/Product/Default.aspx?sku=12157&promo=Category-NewArrivals&catid=60&PID=1781363&cm_ven=CJ&cm_ite=Hammacher+Schlemmer&cm_pla=1781363&cm_cat=1511450&source=cj
+
+
+[filters]
+http://www.hammacher.com/images30/social/google_16.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
