@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dp.ru/a/2012/06/29/Sammit_ES_v_Brjussele_fra/
+
+
+[filters]
+http://www.dp.ru/Handlers/st.ashx?b=8a60ec4f-ef8a-4a3f-943a-63fb267820b2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
