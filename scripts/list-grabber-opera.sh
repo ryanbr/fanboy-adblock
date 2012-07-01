@@ -34,7 +34,7 @@ fi
 
 # Opera logging
 #
-echo "------------------------- Start of Opera script -------------------------" >> /var/log/adblock-log.txt
+echo "************************* Start of Opera script *************************" >> /var/log/adblock-log.txt
 
 # Copy Popular Files into Ram Disk
 #
@@ -338,4 +338,8 @@ else
   mail -s "Google mirror urlfilter-tky.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
 
-echo "------------------------- End of Opera script -------------------------" >> /var/log/adblock-log.txt
+# End of logging
+#
+echo "Script finished executing on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+echo "************************* End of Opera script *************************" >> /var/log/adblock-log.txt
+echo " " >> /var/log/adblock-log.txt
