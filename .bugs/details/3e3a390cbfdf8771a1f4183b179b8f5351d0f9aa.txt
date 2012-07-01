@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hometownfavorites.com/
+
+
+[filters]
+http://www.topfloortech.com/insitemetrics/uRMJ/imgv2.php?imcustid=&inFrame=0&cookiesEnabled=0&purl=http%3A//www.hometownfavorites.com/&pref=http%3A//www.google.com/search%3Fhl%3Den%26safe%3Doff%26q%3Drelated%3Awww.oldtimecandy.com&topurl=&topref=
+http://www.topfloortech.com/insitemetrics/uRMJ/ujutilv2.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
