@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber Opera script v1.6 (09/03/2012)
+# Fanboy Adblock list grabber Opera script v1.7 (01/07/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -32,6 +32,10 @@ if [ ! -d "/tmp/ramdisk/" ]; then
   mkdir /tmp/ramdisk/opera/
 fi
 
+# Opera logging
+#
+echo "------------------------- Start of Opera script -------------------------" >> /var/log/adblock-log.txt
+
 # Copy Popular Files into Ram Disk
 #
 $SHRED -n 5 -z -u  $TESTDIR/opera/urlfilter.ini $TESTDIR/opera/urlfilter-stats.ini
@@ -54,9 +58,11 @@ sleep 5
 if [ -n $TESTDIR/opera/urlfilter.ini ] || [ -n $TESTDIR/opera/urlfilter-stats.ini ]
 then
   if diff $TESTDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter.ini > /dev/null ; then
-    echo "No Changes detected: urlfilter.ini" > /dev/null
+    # echo "No Changes detected: urlfilter.ini" > /dev/null
+    echo "No Changes detected: urlfilter.ini (script: list-grabber-opera.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
    else
-    echo "Updated: urlfilter.ini"
+    # echo "Updated: urlfilter.ini"
+    echo "Changes detected: urlfilter.ini (script: list-grabber-opera.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cp -f $TESTDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter.ini
     # Properly wipe old file.
     $SHRED -n 5 -z -u  $MAINDIR/opera/urlfilter.ini.gz
@@ -99,7 +105,8 @@ then
   if diff $TESTDIR/urlfilter-cz2.ini $MAINDIR/opera/cz/urlfilter.ini > /dev/null ; then
      echo "No Changes detected: czech/urlfilter.ini" > /dev/null
   else
-     echo "Updated: czech/urlfilter.ini & czech/complete/urlfilter.ini"
+     # echo "Updated: czech/urlfilter.ini & czech/complete/urlfilter.ini"
+     echo "Changes detected: czech/urlfilter.ini (script: list-grabber-opera.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
      cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-cz.ini > $TESTDIR/urlfilter-cz-stats.ini
      perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-cz-stats.ini
      cp -f $TESTDIR/urlfilter-cz2.ini $MAINDIR/opera/cz/urlfilter.ini
@@ -130,7 +137,8 @@ then
   if diff $TESTDIR/urlfilter-pol2.ini $MAINDIR/opera/pol/urlfilter.ini > /dev/null ; then
       echo "No Changes detected: polish/urlfilter.ini" > /dev/null
   else
-    echo "Updated: polish/urlfilter.ini & pol/complete/urlfilter.ini"
+    # echo "Updated: polish/urlfilter.ini & pol/complete/urlfilter.ini"
+    echo "Changes detected: polish/urlfilter.ini (script: list-grabber-opera.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cat $TESTDIR/urlfilter-stats.ini  $GOOGLEDIR/opera/urlfilter-pol.ini > $TESTDIR/urlfilter-pol-stats.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-pol-stats.ini
     cp -f $TESTDIR/urlfilter-pol2.ini $MAINDIR/opera/pol/urlfilter.ini
@@ -159,7 +167,8 @@ then
   if diff $TESTDIR/urlfilter-esp2.ini $MAINDIR/opera/esp/urlfilter.ini > /dev/null ; then
     echo "No Changes detected: esp/urlfilter.ini" > /dev/null
 else
-    echo "Updated: esp/urlfilter.ini & esp/complete/urlfilter.ini"
+    # echo "Updated: esp/urlfilter.ini & esp/complete/urlfilter.ini"
+    echo "Changes detected: esp/urlfilter.ini (script: list-grabber-opera.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-esp.ini > $TESTDIR/urlfilter-esp-stats.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-esp-stats.ini
     cp -f $TESTDIR/urlfilter-esp-stats.ini $MAINDIR/opera/esp/complete/urlfilter.ini
@@ -190,7 +199,8 @@ then
   if diff $TESTDIR/urlfilter-rus2.ini $MAINDIR/opera/rus/urlfilter.ini > /dev/null ; then
     echo "No Changes detected: rus/urlfilter.ini" > /dev/null
   else
-    echo "Updated: rus/urlfilter.ini & rus/complete/urlfilter.ini"
+    # echo "Updated: rus/urlfilter.ini & rus/complete/urlfilter.ini"
+    echo "Changes detected: rus/urlfilter.ini (script: list-grabber-opera.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-rus.ini > $TESTDIR/urlfilter-rus-stats.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-rus-stats.ini
     cp -f $TESTDIR/urlfilter-rus-stats.ini $MAINDIR/opera/rus/complete/urlfilter.ini
@@ -221,7 +231,8 @@ then
   if diff $TESTDIR/urlfilter-swe2.ini $MAINDIR/opera/swe/urlfilter.ini > /dev/null ; then
     echo "No Changes detected: swe/urlfilter.ini" > /dev/null
   else
-    echo "Updated: swe/urlfilter.ini & swe/complete/urlfilter.ini"
+    # echo "Updated: swe/urlfilter.ini & swe/complete/urlfilter.ini"
+    echo "Changes detected: swe/urlfilter.ini (script: list-grabber-opera.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-swe.ini > $TESTDIR/urlfilter-swe-stats.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-swe-stats.ini
     cp -f $TESTDIR/urlfilter-swe-stats.ini $MAINDIR/opera/swe/complete/urlfilter.ini
@@ -250,7 +261,8 @@ then
   if diff $TESTDIR/urlfilter-jpn2.ini $MAINDIR/opera/jpn/urlfilter.ini > /dev/null ; then
     echo "No Changes detected: jpn/urlfilter.ini" > /dev/null
   else
-    echo "Updated: jpn/urlfilter.ini & jpn/complete/urlfilter.ini"
+    # echo "Updated: jpn/urlfilter.ini & jpn/complete/urlfilter.ini"
+    echo "Changes detected: jpn/urlfilter.ini (script: list-grabber-opera.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-jpn.ini > $TESTDIR/urlfilter-jpn-stats.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-jpn-stats.ini
     cp -f $TESTDIR/urlfilter-jpn-stats.ini $MAINDIR/opera/jpn/complete/urlfilter.ini
@@ -280,7 +292,8 @@ then
   if diff $TESTDIR/urlfilter-vtn2.ini $MAINDIR/opera/vtn/urlfilter.ini > /dev/null ; then
     echo "No Changes detected: vtn/urlfilter.ini" > /dev/null
   else
-    echo "Updated: vtn/urlfilter.ini & vtn/complete/urlfilter.ini"
+    # echo "Updated: vtn/urlfilter.ini & vtn/complete/urlfilter.ini"
+    echo "Changes detected: vtn/urlfilter.ini (script: list-grabber-opera.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-vtn.ini > $TESTDIR/urlfilter-vtn-stats.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-vtn-stats.ini
     cp -f $TESTDIR/urlfilter-vtn-stats.ini $MAINDIR/opera/vtn/complete/urlfilter.ini
@@ -309,7 +322,8 @@ then
   if diff $TESTDIR/urlfilter-tky2.ini $MAINDIR/opera/trky/urlfilter.ini > /dev/null ; then
     echo "No Changes detected: trky/urlfilter.ini" > /dev/null
   else
-    echo "Updated: trky/urlfilter.ini & trky/complete/urlfilter.ini"
+    # echo "Updated: trky/urlfilter.ini & trky/complete/urlfilter.ini"
+    echo "Changes detected: trky/urlfilter.ini (script: list-grabber-opera.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
     cat $TESTDIR/urlfilter-stats.ini $GOOGLEDIR/opera/urlfilter-tky.ini > $TESTDIR/urlfilter-tky-stats.ini
     perl $TESTDIR/addChecksum-opera.pl $TESTDIR/urlfilter-tky-stats.ini
     cp -f $TESTDIR/urlfilter-tky-stats.ini $MAINDIR/opera/trky/complete/urlfilter.ini
@@ -323,3 +337,5 @@ else
   # echo "Something went bad, file size is 0"
   mail -s "Google mirror urlfilter-tky.ini size is zero, please fix." mp3geek@gmail.com < /dev/null
 fi
+
+echo "------------------------- End of Opera script -------------------------" >> /var/log/adblock-log.txt
