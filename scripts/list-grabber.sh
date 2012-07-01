@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v1.71 (1/04/2012)
+# Fanboy Adblock list grabber script v1.72 (1/07/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -69,7 +69,9 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
     echo "Googles copy: `cat $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt | grep Checksum: ;echo HASH: $SSLGOOGLE`" >> /var/log/adblock-log.txt
     echo "Local copy: `cat $MAINDIR/fanboy-adblock.txt | grep Checksum: ;echo HASH: $SSLMAIN`" >> /var/log/adblock-log.txt
     echo "Updated fanboy-adblock.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
-    # Show changes
+    # Write patch to log file
+    #
+    echo " " >> /var/log/adblock-log.txt
     echo "Changes to File: fanboy-adblock.txt" >> /var/log/adblock-log.txt
     $NICE diff -Naur $MAINDIR/fanboy-adblock.txt $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-adblock.patch
     cat $TESTDIR/fanboy-adblock.patch >> /var/log/adblock-log.txt
@@ -193,10 +195,12 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
  then
     # Log
     echo "Updated fanboy-tracking.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
-    # Show changes
+    # Write patch to log file
+    #
+    echo " " >> /var/log/adblock-log.txt
     echo "Changes to File: fanboy-tracking.txt" >> /var/log/adblock-log.txt
-    diff -Naur $MAINDIR/fanboy-tracking.txt $GOOGLEDIR/fanboy-adblocklist-stats.txt > $TESTDIR/fanboy-tracking.patch
-    $NICE cat $TESTDIR/fanboy-adblock.patch >> /var/log/adblock-log.txt
+    $NICE diff -Naur $MAINDIR/fanboy-tracking.txt $GOOGLEDIR/fanboy-adblocklist-stats.txt > $TESTDIR/fanboy-tracking.patch
+    $NICE cat $TESTDIR/fanboy-tracking.patch >> /var/log/adblock-log.txt
     echo " " >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-tracking.txt"
@@ -253,6 +257,13 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated enhancedstats.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Write patch to log file
+    #
+    echo " " >> /var/log/adblock-log.txt
+    echo "Changes to File: fanboy-enhancedstats.txt" >> /var/log/adblock-log.txt
+    $NICE diff -Naur $MAINDIR/enhancedstats.txt-org $GOOGLEDIR/enhancedstats-addon.txt > $TESTDIR/fanboy-enhancedtracking.patch
+    $NICE cat $TESTDIR/fanboy-enhancedtracking.patch >> /var/log/adblock-log.txt
+    echo " " >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: enhancedstats-addon.txt"
     ### echo "SSLMAIN: $MAINDIR/enhancedstats.txt $SSLMAIN"
@@ -271,7 +282,7 @@ then
     echo $ECHORESPONSE >> $LOGFILE
     # Clear Webhost-copy before copying and now Copy over GZip'd list
     cp -f $TESTDIR/enhancedstats.txt $MAINDIR/enhancedstats.txt
-    rm -f $MAINDIR/enhancedstats.txt.gz
+    rm -f $MAINDIR/enhancedstats.txt.gz $TESTDIR/fanboy-enhancedtracking.patch
     cp -f $TESTDIR/enhancedstats.txt.gz $MAINDIR/enhancedstats.txt.gz
     # Combine Regional trackers
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -306,13 +317,20 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-addon.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Write patch to log file
+    #
+    echo " " >> /var/log/adblock-log.txt
+    echo "Changes to File: fanboy-annoyances.txt" >> /var/log/adblock-log.txt
+    $NICE diff -Naur $MAINDIR/fanboy-addon.txt $GOOGLEDIR/fanboy-adblocklist-addon.txt > $TESTDIR/fanboy-annoy.patch
+    $NICE cat $TESTDIR/fanboy-annoy.patch >> /var/log/adblock-log.txt
+    echo " " >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-addon.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-addon.txt $SSLMAIN"
     ### echo "SSLGOOGLE: $GOOGLEDIR/fanboy-adblocklist-addon.txt $SSLGOOGLE"
     ### ls -al $MAINDIR/fanboy-addon.txt $GOOGLEDIR/fanboy-adblocklist-addon.txt
     # Clear old list
-    rm -f $TESTDIR/fanboy-addon.txt $TESTDIR/fanboy-addon.txt.gz
+    rm -f $TESTDIR/fanboy-addon.txt $TESTDIR/fanboy-addon.txt.gz 
     # Copy list from repo to RAMDISK
     cp -f $GOOGLEDIR/fanboy-adblocklist-addon.txt $TESTDIR/fanboy-addon.txt
     # GZip
@@ -322,7 +340,7 @@ then
     echo $ECHORESPONSE >> $LOGFILE
     # Clear Webhost-copy before copying and now Copy over GZip'd list
     cp -f $TESTDIR/fanboy-addon.txt $MAINDIR/fanboy-addon.txt
-    rm -f $MAINDIR/fanboy-addon.txt.gz
+    rm -f $MAINDIR/fanboy-addon.txt.gz $TESTDIR/fanboy-annoy.patch
     cp -f $TESTDIR/fanboy-addon.txt.gz $MAINDIR/fanboy-addon.txt.gz
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-merged.sh
@@ -353,14 +371,21 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
    echo "Updated fanboy-czech.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Write patch to log file
+    #
+   echo " " >> /var/log/adblock-log.txt
+   echo "Changes to File: fanboy-czech.txt" >> /var/log/adblock-log.txt
+   $NICE diff -Naur $MAINDIR/fanboy-czech.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt > $TESTDIR/fanboy-czech.patch
+   $NICE cat $TESTDIR/fanboy-czech.patch >> /var/log/adblock-log.txt
+   echo " " >> /var/log/adblock-log.txt
    ## DEBUG
    ### echo "Updated: fanboy-czech.txt"
    ### echo "SSLMAIN: $MAINDIR/fanboy-czech.txt $SSLMAIN"
    ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $SSLGOOGLE"
    ### ls -al $MAINDIR/fanboy-czech.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt $MAINDIR/fanboy-czech.txt
-   # Properly wipe old file.
-   $SHRED -n 3 -z -u $MAINDIR/fanboy-czech.txt.gz
+   # Wipe old files
+   rm -rf $MAINDIR/fanboy-czech.txt.gz $TESTDIR/fanboy-czech.patch
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-czech.txt.gz $MAINDIR/fanboy-czech.txt > /dev/null
    # Create a log
    FILE="$MAINDIR/fanboy-czech.txt"
@@ -371,6 +396,8 @@ then
    $GOOGLEDIR/scripts/ie/czech-ie-generator.sh
    # Combine
    $GOOGLEDIR/scripts/combine/firefox-adblock-czech.sh
+   # Remove uneeded file
+   rm -rf $TESTDIR/fanboy-czech.patch
 else
    echo "Files are the same: fanboy-czech.txt" > /dev/null
    ## DEBUG
@@ -395,14 +422,21 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
    echo "Updated fanboy-russian.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Write patch to log file
+    #
+   echo " " >> /var/log/adblock-log.txt
+   echo "Changes to File: fanboy-russian.txt" >> /var/log/adblock-log.txt
+   $NICE diff -Naur $MAINDIR/fanboy-russian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt > $TESTDIR/fanboy-russian.patch
+   $NICE cat $TESTDIR/fanboy-russian.patch >> /var/log/adblock-log.txt
+   echo " " >> /var/log/adblock-log.txt
    ## DEBUG
    ### echo "Updated: fanboy-russian.txt"
    ### echo "SSLMAIN: $MAINDIR/fanboy-russian.txt $SSLMAIN"
    ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $SSLGOOGLE"
    ### ls -al $MAINDIR/fanboy-russian.txtt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt $MAINDIR/fanboy-russian.txt
-   # Properly wipe old file.
-   $SHRED -n 3 -z -u $MAINDIR/fanboy-russian.txt.gz
+   # Wipe old files
+   rm -rf  $MAINDIR/fanboy-russian.txt.gz $TESTDIR/fanboy-russian.patch
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-russian.txt.gz $MAINDIR/fanboy-russian.txt > /dev/null
    # Create a log
    FILE="$MAINDIR/fanboy-russian.txt"
@@ -439,14 +473,21 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
    echo "Updated fanboy-turkish.txt (sctipt: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Write patch to log file
+    #
+   echo " " >> /var/log/adblock-log.txt
+   echo "Changes to File: fanboy-turkish.txt" >> /var/log/adblock-log.txt
+   $NICE diff -Naur $MAINDIR/fanboy-turkish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt > $TESTDIR/fanboy-turk.patch
+   $NICE cat $TESTDIR/fanboy-turk.patch >> /var/log/adblock-log.txt
+   echo " " >> /var/log/adblock-log.txt
    ## DEBUG
    ### echo "Updated: fanboy-turkish.txt"
    ### echo "SSLMAIN: $MAINDIR/fanboy-turkish.txt $SSLMAIN"
    ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $SSLGOOGLE"
    ### ls -al $MAINDIR/fanboy-turkish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt $MAINDIR/fanboy-turkish.txt
-   # Properly wipe old file.
-   $SHRED -n 3 -z -u  $MAINDIR/fanboy-turkish.txt.gz
+   # Wipe old files
+   rm -rf $MAINDIR/fanboy-turkish.txt.gz $TESTDIR/fanboy-turk.patch
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-turkish.txt.gz $MAINDIR/fanboy-turkish.txt > /dev/null
    # Create a log
    FILE="$MAINDIR/fanboy-turkish.txt"
@@ -481,14 +522,21 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
    echo "Updated fanboy-japanese.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Write patch to log file
+    #
+   echo " " >> /var/log/adblock-log.txt
+   echo "Changes to File: fanboy-japanese.txt" >> /var/log/adblock-log.txt
+   $NICE diff -Naur $MAINDIR/fanboy-japanese.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt > $TESTDIR/fanboy-jpn.patch
+   $NICE cat $TESTDIR/fanboy-jpn.patch >> /var/log/adblock-log.txt
+   echo " " >> /var/log/adblock-log.txt
    ## DEBUG
    ### echo "Updated: fanboy-japanese.txt"
    ### echo "SSLMAIN: $MAINDIR/fanboy-japanese.txt $SSLMAIN"
    ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $SSLGOOGLE"
    ### ls -al $MAINDIR/fanboy-japanese.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt
    cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt $MAINDIR/fanboy-japanese.txt
-   # Properly wipe old file.
-   $SHRED -n 3 -z -u  $MAINDIR/fanboy-japanese.txt.gz
+   # Wipe old files
+   rm -rf $MAINDIR/fanboy-japanese.txt.gz $TESTDIR/fanboy-jpn.patch
    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-japanese.txt.gz $MAINDIR/fanboy-japanese.txt > /dev/null
    # Create a log
    FILE="$MAINDIR/fanboy-japanese.txt"
@@ -513,7 +561,7 @@ fi
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
 SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt | cut -d' ' -f1)
-SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-korean.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-korean.txt $SSLMAIN"
@@ -524,14 +572,21 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-korean.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Write patch to log file
+    #
+    echo " " >> /var/log/adblock-log.txt
+    echo "Changes to File: fanboy-korean.txt" >> /var/log/adblock-log.txt
+    $NICE diff -Naur $MAINDIR/fanboy-japanese.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt > $TESTDIR/fanboy-krn.patch
+    $NICE cat $TESTDIR/fanboy-krn.patch >> /var/log/adblock-log.txt
+    echo " " >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-korean.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-korean.txt $SSLMAIN"
     ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $SSLGOOGLE"
     ### ls -al $MAINDIR/fanboy-korean.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt $MAINDIR/fanboy-korean.txt
-    # Properly wipe old file.
-    $SHRED -n 3 -z -u  $MAINDIR/fanboy-korean.txt.gz
+    # Wipe old files
+    rm -rf $MAINDIR/fanboy-korean.txt.gz $TESTDIR/fanboy-krn.patch
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-korean.txt.gz $MAINDIR/fanboy-korean.txt > /dev/null
     # Create a log
     FILE="$MAINDIR/fanboy-korean.txt"
@@ -565,14 +620,21 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-italian.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Write patch to log file
+    #
+    echo " " >> /var/log/adblock-log.txt
+    echo "Changes to File: fanboy-italian.txt" >> /var/log/adblock-log.txt
+    $NICE diff -Naur $MAINDIR/fanboy-italian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt > $TESTDIR/fanboy-ita.patch
+    $NICE cat $TESTDIR/fanboy-ita.patch >> /var/log/adblock-log.txt
+    echo " " >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-italian.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-italian.txt $SSLMAIN"
     ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $SSLGOOGLE"
     ### ls -al $MAINDIR/fanboy-italian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt $MAINDIR/fanboy-italian.txt
-    # Properly wipe old file.
-    $SHRED -n 3 -z -u  $MAINDIR/fanboy-italian.txt.gz
+    # Wipe old files
+    rm -rf $MAINDIR/fanboy-italian.txt.gz $TESTDIR/fanboy-ita.patch
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-italian.txt.gz $MAINDIR/fanboy-italian.txt > /dev/null
     # Create a log
     FILE="$MAINDIR/fanboy-italian.txt"
@@ -607,14 +669,21 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-polish.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Write patch to log file
+    #
+    echo " " >> /var/log/adblock-log.txt
+    echo "Changes to File: fanboy-polish.txt" >> /var/log/adblock-log.txt
+    $NICE diff -Naur $MAINDIR/fanboy-polish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt > $TESTDIR/fanboy-pol.patch
+    $NICE cat $TESTDIR/fanboy-pol.patch >> /var/log/adblock-log.txt
+    echo " " >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-polish.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-polish.txt $SSLMAIN"
     ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $SSLGOOGLE"
     ### ls -al $MAINDIR/fanboy-polish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt $MAINDIR/fanboy-polish.txt
-    # Properly wipe old file.
-    $SHRED -n 3 -z -u  $MAINDIR/fanboy-polish.txt.gz
+    # Wipe old files
+    rm -rf $MAINDIR/fanboy-polish.txt.gz $TESTDIR/fanboy-pol.patch
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-polish.txt.gz $MAINDIR/fanboy-polish.txt /dev/null
     # Create a log
     FILE="$MAINDIR/fanboy-polish.txt"
@@ -623,6 +692,8 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-pol.sh
+    # Remove uneeded file
+    rm -rf $TESTDIR/fanboy-pol.patch
 else
    echo "Files are the same: fanboy-polish.txt" > /dev/null
    ## DEBUG
@@ -647,14 +718,21 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-indian.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Write patch to log file
+    #
+    echo " " >> /var/log/adblock-log.txt
+    echo "Changes to File: fanboy-indian.txt" >> /var/log/adblock-log.txt
+    $NICE diff -Naur $MAINDIR/fanboy-indian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt > $TESTDIR/fanboy-ind.patch
+    $NICE cat $TESTDIR/fanboy-ind.patch >> /var/log/adblock-log.txt
+    echo " " >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-indian.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-indian.txt $SSLMAIN"
     ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $SSLGOOGLE"
     ### ls -al $MAINDIR/fanboy-indian.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt $MAINDIR/fanboy-indian.txt
-    # Properly wipe old file.
-    $SHRED -n 3 -z -u  $MAINDIR/fanboy-indian.txt.gz
+    # Wipe old files
+    rm -rf $MAINDIR/fanboy-indian.txt.gz $TESTDIR/fanboy-ind.patch
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-indian.txt.gz $MAINDIR/fanboy-indian.txt > /dev/null
     # Create a log
     FILE="$MAINDIR/fanboy-indian.txt"
@@ -687,14 +765,21 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-vietnam.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Write patch to log file
+    #
+    echo " " >> /var/log/adblock-log.txt
+    echo "Changes to File: fanboy-vietnam.txt" >> /var/log/adblock-log.txt
+    $NICE diff -Naur $MAINDIR/fanboy-vietnam.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt > $TESTDIR/fanboy-vtn.patch
+    $NICE cat $TESTDIR/fanboy-vtn.patch >> /var/log/adblock-log.txt
+    echo " " >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-vietnam.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-vietnam.txt $SSLMAIN"
     ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $SSLGOOGLE"
     ### ls -al $MAINDIR/fanboy-vietnam.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt $MAINDIR/fanboy-vietnam.txt
-    # Properly wipe old file.
-    $SHRED -n 3 -z -u  $MAINDIR/fanboy-vietnam.txt.gz
+    # Wipe old files
+    rm -rf $MAINDIR/fanboy-vietnam.txt.gz $TESTDIR/fanboy-vtn.patch
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-vietnam.txt.gz $MAINDIR/fanboy-vietnam.txt > /dev/null
     # Create a log
     FILE="$MAINDIR/fanboy-vietnam.txt"
@@ -727,14 +812,21 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-chinese.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Write patch to log file
+    #
+    echo " " >> /var/log/adblock-log.txt
+    echo "Changes to File: fanboy-chinese.txt" >> /var/log/adblock-log.txt
+    $NICE diff -Naur $MAINDIR/fanboy-chinese.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt > $TESTDIR/fanboy-chn.patch
+    $NICE cat $TESTDIR/fanboy-chn.patch >> /var/log/adblock-log.txt
+    echo " " >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-chinese.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-chinese.txt $SSLMAIN"
     ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $SSLGOOGLE"
     ### ls -al $MAINDIR/fanboy-chinese.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt $MAINDIR/fanboy-chinese.txt
-    # Properly wipe old file.
-    $SHRED -n 3 -z -u  $MAINDIR/fanboy-chinese.txt.gz
+    # Wipe old files
+    rm -rf $MAINDIR/fanboy-chinese.txt.gz $TESTDIR/fanboy-chn.patch
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-chinese.txt.gz $MAINDIR/fanboy-chinese.txt > /dev/null
     # Create a log
     FILE="$MAINDIR/fanboy-chinese.txt"
@@ -743,6 +835,7 @@ then
     $GOOGLEDIR/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $GOOGLEDIR/scripts/combine/firefox-adblock-chn.sh
+
 else
    echo "Files are the same: fanboy-chinese.txt" > /dev/null
    ## DEBUG
@@ -767,14 +860,21 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-espanol.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Write patch to log file
+    #
+    echo " " >> /var/log/adblock-log.txt
+    echo "Changes to File: fanboy-espanol.txt" >> /var/log/adblock-log.txt
+    $NICE diff -Naur $MAINDIR/fanboy-espanol.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt > $TESTDIR/fanboy-esp.patch
+    $NICE cat $TESTDIR/fanboy-esp.patch >> /var/log/adblock-log.txt
+    echo " " >> /var/log/adblock-log.txt
     ## DEBUG
     ### echo "Updated: fanboy-espanol.txt"
     ### echo "SSLMAIN: $MAINDIR/fanboy-espanol.txt $SSLMAIN"
     ### echo "SSLGOOGLE: $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $SSLGOOGLE"
     ### ls -al $MAINDIR/fanboy-espanol.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt $MAINDIR/fanboy-espanol.txt
-    # Properly wipe old file.
-    $SHRED -n 3 -z -u  $MAINDIR/fanboy-espanol.txt.gz
+    # Wipe old files
+    rm -rf $MAINDIR/fanboy-espanol.txt.gz $TESTDIR/fanboy-esp.patch
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-espanol.txt.gz $MAINDIR/fanboy-espanol.txt > /dev/null
     # Create a log
     FILE="$MAINDIR/fanboy-espanol.txt"
@@ -815,9 +915,17 @@ then
     ### ls -al $MAINDIR/fanboy-swedish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt
     # Log
     echo "Updated fanboy-swedish.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+    # Write patch to log file
+    #
+    echo " " >> /var/log/adblock-log.txt
+    echo "Changes to File: fanboy-swedish.txt" >> /var/log/adblock-log.txt
+    $NICE diff -Naur $MAINDIR/fanboy-swedish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt > $TESTDIR/fanboy-swe.patch
+    $NICE cat $TESTDIR/fanboy-swe.patch >> /var/log/adblock-log.txt
+    echo " " >> /var/log/adblock-log.txt
+    #
     cp -f $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt $MAINDIR/fanboy-swedish.txt
-    # Properly wipe old file.
-    $SHRED -n 3 -z -u  $MAINDIR/fanboy-swedish.txt.gz
+    # Wipe old files
+    rm -rf $MAINDIR/fanboy-swedish.txt.gz $TESTDIR/fanboy-swe.patch
     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-swedish.txt.gz $MAINDIR/fanboy-swedish.txt > /dev/null
     # Create a log
     FILE="$MAINDIR/fanboy-swedish.txt"
