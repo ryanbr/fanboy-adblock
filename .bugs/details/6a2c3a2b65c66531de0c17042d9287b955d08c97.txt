@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.koreatimes.co.kr/www/index.asp
+
+
+[filters]
+http://img.koreatimes.co.kr/ad/KB/bn_kookminbank.jpg
+http://img.koreatimes.co.kr/ad/Trend/sob250px.jpg
+http://img.koreatimes.co.kr/ad/Trend/sob700px.jpg
+http://img.koreatimes.co.kr/ad/samsung/s250x100.jpg
+http://img.koreatimes.co.kr/ad/smkorea/sm690x80.swf
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
