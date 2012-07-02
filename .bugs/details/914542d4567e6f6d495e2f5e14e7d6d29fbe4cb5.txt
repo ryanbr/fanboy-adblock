@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nzonscreen.com/title/popstars-series-excerpts-1999?video_ref=1075
+
+
+[filters]
+http://www.nzonscreen.com/resources/images/ui/icons/icon-tumblr.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
