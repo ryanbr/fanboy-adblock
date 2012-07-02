@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://view.koreaherald.com/kh/view.php?ud=20120701000427&cpv=0
+
+
+[filters]
+http://ad.about.co.kr/mad/html/koreaherald/left/left
+http://ad.about.co.kr/mad/html/koreaherald/right/right
+http://cadvv.heraldm.com/hb/imad/imad_khview_right01.html
+http://cadvv.koreaherald.com/kh/about_khview_rightsky01.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
