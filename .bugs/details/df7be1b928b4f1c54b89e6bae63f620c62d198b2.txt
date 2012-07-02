@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://economictimes.indiatimes.com/
+
+
+[filters]
+http://economictimes.indiatimes.com/doubleclick_adhome.cms
+http://economictimes.indiatimes.com/doubleclick_adhome_call.cms
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
