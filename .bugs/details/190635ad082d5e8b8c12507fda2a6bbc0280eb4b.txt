@@ -1,0 +1,13 @@
+[Website]
+http://main.makeuseoflimited.netdna-cdn.com/wp-content/plugins/gigya-socialize-for-wordpress/js/gigya.js?323f2c
+http://main.makeuseoflimited.netdna-cdn.com/wp-content/plugins/gigya-socialize-for-wordpress/js/jquery.tmpl.js?323f2c
+http://www.makeuseof.com/wp-content/plugins/gigya-socialize-for-wordpress/css/gigya.css?323f2c
+http://www.makeuseof.com/wp-content/plugins/gigya-socialize-for-wordpress/css/jqueryui/custom-theme/jquery-ui-1.8.7.custom.css?323f2c
+http://www.makeuseof.com/wp-content/plugins/gigya-socialize-for-wordpress/css/widget.css?323f2c
+
+[filters]
+# Copy your Adblock filters here
+
+
+[comments]
+vinny86
