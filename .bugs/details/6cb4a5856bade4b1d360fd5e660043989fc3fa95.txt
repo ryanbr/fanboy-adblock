@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kandagar.com/
+http://www.crimea-kurort.com/
+
+
+[filters]
+http://soft-pays.ru/js/if.php?id=43
+http://soft-pays.ru/r.php?l=http%3A%2F%2Fttddss.net%2F?l=t254t2944315x2w4u2w423m254l2u266q243b4v2f4t264v27413|v254
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
