@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.koreanmovie.com/Upcoming_Korean_movie_Invasion_of_Alien_Bikini_news6933/
+
+
+[filters]
+http://www.koreanmovie.com/img/banner/banner.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
