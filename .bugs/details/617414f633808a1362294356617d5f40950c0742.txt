@@ -1,0 +1,8 @@
+[Website]
+https://apis.google.com/js/plusone.js
+
+[filters]
+||apis.google.com/js/plusone.js$third-party
+
+[comments]
+vinny86
