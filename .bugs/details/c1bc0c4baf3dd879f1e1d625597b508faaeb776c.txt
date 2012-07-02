@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://whatismyip.org/
+
+
+[filters]
+http://cdn.whatismyip.org/ez_display_au_fillslot.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
