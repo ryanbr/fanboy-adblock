@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://afisha.open.by/perfomance/5410/
+
+
+[filters]
+http://r.open.by/bnrs/1x1.gif
+http://r.open.by/php/afrm.php?n=ad9972ce&what=zone:313
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
