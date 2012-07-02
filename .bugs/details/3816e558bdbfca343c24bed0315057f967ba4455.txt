@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eeo.com.cn/ens/
+
+
+[filters]
+http://cb.baidu.com/ecom?di=250382,250383&fn=BAIDU_CLB_ADDAD&tpl=BAIDU_CLB_SETJSONADSLOT&asp_refer=&asp_url=http%3A%2F%2Fwww.eeo.com.cn%2Fens%2F&new=1&fv=11&cn=1&if=0&word=http%3A%2F%2Fwww.eeo.com.cn%2Fens%2F&refer=&ready=1&jn=3&lmt=1341226018&csp=1600,1200&csn=1600,1170&ccd=24&chi=1&cja=false&cpl=4&cmi=10&cce=true&csl=en-US&did=1&rt=20&dt=1341226023&c01=0&prt=1341226023329&baidu_id=
+http://cbjs.baidu.com/js/log.js
+http://cbjs.baidu.com/js/m.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
