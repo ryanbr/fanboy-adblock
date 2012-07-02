@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bootstrike.com/Articles/SpeedUpIE/
+
+
+[filters]
+http://209.80.46.75/js/counter.js?site=sm9bootstrike
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
