@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.koreatimes.co.kr/www/news/tech/2012/07/133_114203.html
+
+
+[filters]
+http://www.koreatimes.co.kr/upload/AD/KT_460x40_GA1.swf
+http://www.koreatimes.co.kr/upload/AD/KT_500x70_GA2.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
