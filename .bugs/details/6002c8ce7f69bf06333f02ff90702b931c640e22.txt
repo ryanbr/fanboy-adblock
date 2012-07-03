@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www22.verizon.com/Content/ContactUs
+
+[filters]
+https://www22.verizon.com/content/contactus/includes/javascript/hbx.js
+
+
+
+
+[other]
+1. Click on its Internet's FiOS Internet link.
+2. Then, "Product Availability" topic.
+3. Contact Us' E-mail Us link.
+4. Nothing happens.
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13380
+
+[comments]
+fanboy
