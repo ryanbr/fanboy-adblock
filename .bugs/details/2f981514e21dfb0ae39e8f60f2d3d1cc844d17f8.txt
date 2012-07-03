@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tvnwarszawa.pl/informacje,news,znow-wycieka-piana-na-rondzie-daszynskiego,49487.html
+
+[filters]
+http://redir.atmcdn.pl/http/o2/TVN-Adserver/03_marzec_2012/1203485CPM_Dulux_marzec_player/r81359.mp4
+
+
+
+
+[other]
+Videos dont play (need polish vpn)
+
+
+[comments]
+fanboy
