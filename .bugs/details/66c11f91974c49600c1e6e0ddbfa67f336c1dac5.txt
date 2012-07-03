@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ageofempiresonline.wikia.com/wiki/Age_of_Empires_Online_Wiki
+
+
+[filters]
+http://slot1.images.wikia.nocookie.net/__cb55683/common/extensions/wikia/WikiaTracker/js/analytics_prod.js?v=5
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
