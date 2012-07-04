@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rusunderwater.ru/weapons/torpedi/MGT-1.htm
+
+
+[filters]
+http://list.mail.ru/img/listru-a21.gif
+http://jobworkservice.com/kantekst.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
