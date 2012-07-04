@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.laptopmag.com/review/laptops/asus_zenbook_prime_ux31a.aspx#
+
+
+[filters]
+http://www.laptopmag.com/scripts/s_code.js?1341396035
+http://www.laptopmag.com/scripts/ads.js
+http://b.scorecardresearch.com/beacon.js
+http://www.laptopmag.com/controls/iframe_gen.html?num=x03&dm=tmn.laptopmag.com/&pg=review_laptops/asus_zenbook_prime_ux31a.aspx&kw=
+http://www.laptopmag.com/controls/iframe_gen.html?num=x04&dm=tmn.laptopmag.com/&pg=review_laptops/asus_zenbook_prime_ux31a.aspx&kw=
+http://www.laptopmag.com/controls/iframe_gen.html?num=x06&dm=tmn.laptopmag.com/&pg=review_laptops/asus_zenbook_prime_ux31a.aspx&kw=
+http://www.laptopmag.com/controls/iframe_gen.html?num=x07&dm=tmn.laptopmag.com/&pg=review_laptops/asus_zenbook_prime_ux31a.aspx&kw=
+http://www.laptopmag.com/controls/iframe_gen.html?num=x10&dm=tmn.laptopmag.com/&pg=review_laptops/asus_zenbook_prime_ux31a.aspx&kw=
+
+
+[other]
+allow photos to show properly w/o reseting the page
+
+[comments]
+fanboy
