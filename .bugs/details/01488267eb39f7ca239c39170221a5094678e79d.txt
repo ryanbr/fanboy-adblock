@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newsru.com/
+
+
+[filters]
+http://b2bvideo.ru/flash/b2bplayer2.swf
+http://b2bvideo.ru/images/border-link-close.png
+http://b2bvideo.ru/images/vd-p-ai.gif
+http://b2bvideo.ru/js/b2bvideojs.js?138
+http://b2bvideo.ru/js/video.js.php?a=468
+http://b2bvideo.ru/uploads/borderlinks/a49e9411d64ff53eccfdd09ad10a15b3.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
