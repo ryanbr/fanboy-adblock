@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.list.ru/gazeta/
+
+
+[filters]
+http://rs.mail.ru/d227056.gif?rnd=143095996&ts=1341263119
+http://www.list.ru/img/p.gif
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
