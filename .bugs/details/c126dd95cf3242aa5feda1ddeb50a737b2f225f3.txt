@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://chat.ru/
+
+
+[filters]
+http://advideo.bb.ru/bb.cgi?cmd=ad&hreftarget=_blank&pubid=126761393&pg=1&r=js&ssi=nofillers&vbn=1808&num=1&w=300&h=250&&ref=&loc=http%3A//chat.ru/&nocache=739610
+http://chat.ru/ad_img/16_6_b1.gif
+http://chat.ru/ad_img/7_b2.gif
+http://chat.ru/ad_img/8_b3.gif
+http://static.mobadventure.com/images/ma/c.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
