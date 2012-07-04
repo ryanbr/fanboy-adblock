@@ -1,0 +1,7 @@
+[filters]
+http://edgenet.edgevertise.com/edgevertise/epanel/shared/php/js3.php
+http://edgenet.edgevertise.com/edgevertise/epanel/shared/php/js3.php
+
+
+[comments]
+vinny86
