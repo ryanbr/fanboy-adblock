@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.samaratoday.ru/
+
+
+[filters]
+http://rb.imarker.ru/show.js?r=696574
+http://rb.imarker.ru/uti/?p=589&e=auto&b=1&c=3&st=0&f=1&sz=0&u=http%3A//news.samaratoday.ru/&t=%u0421%u0410%u041C%u0410%u0420%u0410%20%u0421%u0415%u0413%u041E%u0414%u041D%u042F%20-%20%u0418%u043D%u0444%u043E%u0440%u043C%u0430%u0446%u0438%u043E%u043D%u043D%u044B%u0439%20%u043A%u0430%u043D%u0430%u043B&s=1440x900x24&r=http%3A//www.onlinenewspapers.com/russia.htm&rnd=131909
+http://rb.imarker.ru/uti?p=589&e=auto&b=1&c=3&st=0&f=1&sz=0&u=http%3A//news.samaratoday.ru/&t=%u0421%u0410%u041C%u0410%u0420%u0410%20%u0421%u0415%u0413%u041E%u0414%u041D%u042F%20-%20%u0418%u043D%u0444%u043E%u0440%u043C%u0430%u0446%u0438%u043E%u043D%u043D%u044B%u0439%20%u043A%u0430%u043D%u0430%u043B&s=1440x900x24&r=http%3A//www.onlinenewspapers.com/russia.htm&rnd=131909
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
