@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mail.ru/
+
+
+[filters]
+http://gstat.imgsmail.ru/gstat?logme=QUANTIL%20time%201880ms&rnd=13413494508360.2757452895079783
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
