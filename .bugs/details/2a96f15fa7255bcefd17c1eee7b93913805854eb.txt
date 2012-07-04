@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pressball.by/
+
+
+[filters]
+http://www.pressball.by/includes/banners/load.php?id=302
+http://www.pressball.by/files/banners/tuborg_20120624.swf
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
