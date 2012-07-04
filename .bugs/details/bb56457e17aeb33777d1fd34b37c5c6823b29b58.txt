@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aravot.am/en/
+
+
+[filters]
+http://www.aravot.am/banner/levgroup.swf
+http://www.aravot.am/banner/middle.swf
+http://www.aravot.am/banner/miniynd150.swf
+http://www.aravot.am/banner/right/adb.swf
+http://www.aravot.am/banner/right/sas.swf
+http://www.aravot.am/banner/top.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
