@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.brightmillionaire.com/articles/opinions/133-why-mobile-sites-suck
+
+
+[filters]
+http://www.brightmillionaire.com/modules/mod_nice_social_bookmark/icons/digg_gls_32.png
+http://www.brightmillionaire.com/modules/mod_nice_social_bookmark/icons/facebook_gls_32.png
+http://www.brightmillionaire.com/modules/mod_nice_social_bookmark/icons/google_gls_32.png
+http://www.brightmillionaire.com/modules/mod_nice_social_bookmark/icons/linkedin_gls_32.png
+http://www.brightmillionaire.com/modules/mod_nice_social_bookmark/icons/rss_gls_32.png
+http://www.brightmillionaire.com/modules/mod_nice_social_bookmark/icons/stumbleupon_gls_32.png
+http://www.brightmillionaire.com/modules/mod_nice_social_bookmark/icons/technorati_gls_32.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
