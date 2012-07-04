@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.am/rus/news/111926.html
+
+
+[filters]
+http://news.am/partner.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
