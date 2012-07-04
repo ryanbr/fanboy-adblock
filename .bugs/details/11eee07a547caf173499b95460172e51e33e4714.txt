@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vanityfair.com/online/daily/2012/07/microsoft-downfall-emails-steve-ballmer
+
+
+[filters]
+http://www.vanityfair.com/etc/designs/foundation/ads/newad.html#http%3A%2F%2Fad.doubleclick.net%2Fadj%2Fvanityfair.dart%2Fonline%3Bsz%3D300x250%3Btile%3D3%3Bkw%3D07%3Bkw%3D2012%3Bkw%3Ddaily%3Bkw%3Dmicrosoft_downfall_emails_steve_ballmer%3Bkw%3Donline%3Bkw%3Dtop%3B!c%3Dtop%3Bord%3D2780352000137%3F
+http://www.vanityfair.com/etc/designs/foundation/ads/newad.html#http%3A%2F%2Fad.doubleclick.net%2Fadj%2Fvanityfair.dart%2Fonline%3Bsz%3D300x250%3Btile%3D4%3Bkw%3D07%3Bkw%3D2012%3Bkw%3Dbottom%3Bkw%3Ddaily%3Bkw%3Dmicrosoft_downfall_emails_steve_ballmer%3Bkw%3Donline%3B!c%3Dbottom%3Bord%3D2780352000137%3F
+http://www.vanityfair.com/etc/designs/foundation/ads/newad.html#http%3A%2F%2Fad.doubleclick.net%2Fadj%2Fvanityfair.dart%2Fonline%3Bsz%3D728x90%3Btile%3D1%3Bdcopt%3Dist%3Bkw%3D07%3Bkw%3D2012%3Bkw%3Ddaily%3Bkw%3Dmicrosoft_downfall_emails_steve_ballmer%3Bkw%3Donline%3Bkw%3Dtop%3B!c%3Dtop%3Bord%3D2780352000137%3F
+http://www.vanityfair.com/etc/designs/foundation/ads/newad.html#http%3A%2F%2Fad.doubleclick.net%2Fadj%2Fvanityfair.dart%2Fonline%3Bsz%3D88x31%3Btile%3D2%3Bkw%3D07%3Bkw%3D2012%3Bkw%3Ddaily%3Bkw%3Dmicrosoft_downfall_emails_steve_ballmer%3Bkw%3Donline%3Bkw%3Dtop%3B!c%3Dtop%3Bord%3D2780352000137%3F
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
