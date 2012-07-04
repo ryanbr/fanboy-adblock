@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bitmit.net/en/trade/i/3874-gold-bar-krugerand-copy-replica-lion-king-of-africa/description
+
+
+[filters]
+http://www.bitmit.net/en/img/sidebar_facebook.png
+http://www.bitmit.net/en/img/sidebar_gplus.png
+http://www.bitmit.net/en/img/sidebar_twitter.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
