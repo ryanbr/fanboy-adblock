@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.s-info.ru/
+
+[filters]
+http://www.s-info.ru/img/recl/1200605_03d1.gif
+http://www.s-info.ru/img/recl/120413_01b.gif
+http://www.s-info.ru/img/recl/344-21.gif
+http://www.s-info.ru/img/recl/banner-88x31-rambler-gray2.gif
+http://www.s-info.ru/img/recl/eroic_120314.gif
+http://www.s-info.ru/img/recl/erosil_1.gif
+http://www.s-info.ru/img/recl/intim_kosm.gif
+http://www.s-info.ru/img/recl/lideron.gif
+http://www.s-info.ru/img/recl/magi.gif
+http://www.s-info.ru/img/recl/interauto_300.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
