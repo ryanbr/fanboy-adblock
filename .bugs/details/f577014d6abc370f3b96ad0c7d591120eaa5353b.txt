@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nude.hu/beauty-sofie-nude-outdoor-790282
+
+
+[filters]
+http://nude.hu/html/track.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
