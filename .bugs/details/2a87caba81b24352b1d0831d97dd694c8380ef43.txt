@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://network71.chat.ru/
+
+[filters]
+http://www.count.ru/cgi-bin/schetchik.cgi?id=5694&tip=1&show=all
+http://www.count.ru/cgi-bin/schetchik.cgi?id=5694&tip=1&show=today
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
