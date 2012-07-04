@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zillow.com/homedetails/5-Harvest-Ln-West-Hartford-CT-06117/57778777_zpid/
+
+[filters]
+http://tags.bkrtx.com/js/bk-coretag.js
+http://ad.doubleclick.net/adi/zillow.hdp/;zzip_code=06117;zcity=west+hartford;zcounty=hartford;zstate=ct;aamgnrc3=ct;dma=hartford;aamgnrc4=06117+west+hartford+hartford+ct+connecticut;zc1=49;zc2=47;zc3=21;generic=06117;aamgnrc2=west+hartford;aamgnrc5=399900;aamgnrc6=79980;fsbid=12802;hoc_lv=7;mlb=pr3;price_band=z200;rt=9;z600=false;zask=20;zbath=3;zbed=3;zls=3;zmo=forsale;zpark=true;zrm=1;aamsz=b300x250;sz=300x250;pos=bottom;tile=5;ord=5729920255?
+http://ad.doubleclick.net/adi/zillow.hdp/;zzip_code=06117;zcity=west+hartford;zcounty=hartford;zstate=ct;aamgnrc3=ct;dma=hartford;aamgnrc4=06117+west+hartford+hartford+ct+connecticut;zc1=49;zc2=47;zc3=21;generic=06117;aamgnrc2=west+hartford;aamgnrc5=399900;aamgnrc6=79980;fsbid=12802;hoc_lv=7;mlb=pr3;price_band=z200;rt=9;z600=false;zask=20;zbath=3;zbed=3;zls=3;zmo=forsale;zpark=true;zrm=1;aamsz=b300x250;sz=300x250;pos=bottom;tile=5;ord=5729920255?
+
+
+
+
+[other]
+Allow the map (doubleclick) and graph (bkrtx.com) to show
+
+
+[comments]
+fanboy
