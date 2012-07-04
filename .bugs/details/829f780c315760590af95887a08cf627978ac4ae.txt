@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jartic.or.jp/
+
+
+[filters]
+http://www.jartic.or.jp/guide/banner/090304_jyaran.gif
+http://www.jartic.or.jp/guide/banner/cid0003.gif
+http://www.jartic.or.jp/guide/banner/telephone_number.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
