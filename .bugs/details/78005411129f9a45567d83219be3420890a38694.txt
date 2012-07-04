@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aaanet.ru/cts
+
+
+[filters]
+http://sitelog.forsite.ru:8080/count/?0.19704207585244438&site_id=17&site_ref=&site_page=http%3A//www.aaanet.ru/cts&site_cookie=Y&site_browser=Netscape&site_platform=Win32&%27
+http://sitelog.forsite.ru:8080/count?0.19704207585244438&site_id=17&site_ref=&site_page=http%3A//www.aaanet.ru/cts&site_cookie=Y&site_browser=Netscape&site_platform=Win32&%27
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
