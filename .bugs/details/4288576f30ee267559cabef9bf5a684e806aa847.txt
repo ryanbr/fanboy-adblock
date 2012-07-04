@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.100bucksbabes.com/babe-showing-her-wet-big-tits/babe-showing-her-wet-big-tits-02.html
+
+
+[filters]
+http://www.100bucksbabes.com/admain
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
