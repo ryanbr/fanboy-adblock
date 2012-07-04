@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rayonka.chat.ru/
+
+[filters]
+http://www.fair.ru/cgi/im.pl?agent=35-1619
+http://www.statistic.ru/perl/banner/banner.pl?id=5789&rf=Unknown&width=1920&height=1080&bpp=24
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
