@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://novonews.tvnet.lv/
+
+
+[filters]
+http://adsplius.lt/banners_autopliuslv?pos=3&rnd=1
+http://novonews.tvnet.lv/assets/js/keyword_ad.js
+http://rus.tvnet.lv/assets/js/keyword_ad.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
