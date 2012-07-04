@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rusfolder.com/upload/?session=d1dbb9e633d6454bd1d0ea6addaca18d
+
+
+[filters]
+http://cbn.tbn.ru/sa/nts/20/stub/?comment=-100-0-99999-Ebs-11-098c-0712-0-0-0-0-0-0&app=pr_-100!lhv_0!lst_99999!t_21!h.c_1!h.s_1!v.l_098c!v.w_0712!ts.n_0!ts.tr_0!sp.p_0!sp.a_0!sp.b_0!sp.f_0
+http://cbn.tbn.ru/sa/nts/20/stub/?comment=600-1-61-Ebs-11-098c-0712-1341405882-1341405821-6000-1000-1000-1000&app=pr_600!lhv_1!lst_61!t_21!h.c_1!h.s_1!v.l_098c!v.w_0712!ts.n_1341405882!ts.tr_1341405821!sp.p_6000!sp.a_1000!sp.b_1000!sp.f_1000
+http://cbn2.tbn.ru/sa/nts/20/bs/0/acts/vw?pid=1921&advid=1294&bids=14358111&abt=N&sg=b37bd15b3f3a2f21ffe7655c7e7de9e2%2C1341405877%2C92446784%2C1341405882255&comment=600-1-61-N-11-098c-0712-1341405882-1341405821-6000-1000-1000-1000&app=pr_600!lhv_1!lst_61!t_1!h.c_1!h.s_1!v.l_098c!v.w_0712!ts.n_1341405882!ts.tr_1341405821!sp.p_6000!sp.a_1000!sp.b_1000!sp.f_1000
+http://cbn2.tbn.ru/sa/nts/20/bs/14358093/acts/vw?pid=1921&advid=1240&abt=A&sg=7b61dec13cba7fe180a9cb56633cf991%2C1341405878%2C84639905%2C1341405884949&comment=-100-0-99999-A-11-098c-0712-0-0-0-0-0-0&app=pr_-100!lhv_0!lst_99999!t_3!h.c_1!h.s_1!v.l_098c!v.w_0712!ts.n_0!ts.tr_0!sp.p_0!sp.a_0!sp.b_0!sp.f_0
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
