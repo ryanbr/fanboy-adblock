@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.youjizz.com/videos/japanese-cartoon---group-party-2178426.html
+
+[filters]
+http://www.youjizz.com/950_250.php
+http://www.youjizz.com/190_900.php
+http://as.sexad.net/crossdomain.xml
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
