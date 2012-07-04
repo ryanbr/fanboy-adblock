@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bermudasun.bm/index.asp
+
+
+[filters]
+http://bermudasun.bm/Siteimages/NonRotatingAds/17.gif
+http://bermudasun.bm/iFrame_RotatingTile.asp?ai=285
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
