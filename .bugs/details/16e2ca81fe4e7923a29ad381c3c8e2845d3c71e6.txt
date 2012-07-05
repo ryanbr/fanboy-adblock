@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rapidmoviez.com/r/7-sex-7-2011-dvdrip-xvid-reactor-rapidshare-ifile-uploaded-jumbofiles-vk-putlocker
+
+[filters]
+http://vk.com/videostats.php?act=view&oid=171425415&vid=162970237&quality=240
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
