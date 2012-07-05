@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tvdez.com/tvi24
+
+
+[filters]
+http://images.tvdez.com/ads/ads_728_90.php
+http://images.tvdez.com/ads/pf_728_90.php
+http://www.tvdez.com/ads/ads_728_90.php
+http://www.tvdez.com/ads/betathome_728_90.php
+http://images.tvdez.com/ads/ads_300_250.php
+http://images.tvdez.com/ads/ads_300_250.php
+
+
+
+
+[other]
+Anti-adblock
+
+
+[comments]
+fanboy
