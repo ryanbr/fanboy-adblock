@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cbn.co.za/tradeleads/1071.html
+
+
+[filters]
+http://www.cbn.co.za/ad_system/countme.php?action=hit&location_id=369
+http://www.cbn.co.za/ad_system/countme.php?action=hit&location_id=412
+http://www.cbn.co.za/ad_system/countme.php?action=hit&location_id=420
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
