@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.punchng.com/business/business-economy/foreign-lessors-set-to-repossess-air-nigeria-planes/
+
+
+[filters]
+http://198.101.148.38/update_counter.php?resource=/business/business-economy/foreign-lessors-set-to-repossess-air-nigeria-planes/&postdate=2012-07-05&postid=43454&ts=1341488325515&serve_js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
