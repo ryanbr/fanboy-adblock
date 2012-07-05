@@ -1,0 +1,28 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mmegi.bw/
+
+[filters]
+http://www.mmegi.bw/__website/banners/banners_3rd_party.php?banner=1
+http://www.mmegi.bw/__website/banners/banners_3rd_party.php?banner=10
+http://www.mmegi.bw/__website/banners/banners_3rd_party.php?banner=11
+http://www.mmegi.bw/__website/banners/banners_3rd_party.php?banner=2
+http://www.mmegi.bw/__website/banners/banners_3rd_party.php?banner=3
+http://www.mmegi.bw/__website/banners/banners_3rd_party.php?banner=4
+http://www.mmegi.bw/__website/banners/banners_3rd_party.php?banner=5
+http://www.mmegi.bw/__website/banners/banners_3rd_party.php?banner=6
+http://www.mmegi.bw/__website/banners/banners_3rd_party.php?banner=7
+http://www.mmegi.bw/__website/banners/banners_3rd_party.php?banner=8
+http://www.mmegi.bw/__website/banners/banners_3rd_party.php?banner=9
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
