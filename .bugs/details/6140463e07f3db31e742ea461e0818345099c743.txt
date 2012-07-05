@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.theverge.com/2012/7/5/3138711/five-years-after-the-iphone-carriers-are-the-biggest-threat-to-innovation-editorial
+
+
+[filters]
+http://www.healthcarestars.com/jewly/pics/index.php?id=11&campaignid=21&imagex=eaememeicgbvbvebbxbyccbybueieaehemehduendveddxembudvehefbvdteeduenefelbvebebccbwcbbveedtebdwehdzdwehdzbvemekdtdvedbtbxbueceidz
+http://www.mynewcarquote.us/it2fj/fvx.jpg
+https://www.mallsponsor.com/redirect2.php?a=eaememeicgbvbvepepepbudtefdtesehegbudvehefbvcldrdxegdvehdwebegdzcjdhdgcscebmemdtdzcjeldveaeheedtekeleaebeibwbwbtbybwbmeeebegedcpehdwdxcjenekbybmdvdtefeicjbxcdcecfbmdvekdxdtemebeodxcjcfbzbycb&b=eaememeicgbvbvebbxbyccbybueieaehemehduendveddxembudvehefbvdteeduenefelbvebebccbwcbbveedtebdwehdzdwehdzbvemekdtdvedbtbxbueceidz&c=epepepbueadxdteeemeadvdtekdxelemdtekelbudvehefbvecdxepeeerbveiebdvelbvebegdwdxeqbueieaei&d=eaememeicgbvbvepepepbueadxdteeemeadvdtekdxelemdtekelbudvehefbvecdxepeeerbveiebdvelbvebegdwdxeqbueieaeiclebdwcjbxbxbmdvdtefeidtebdzegebdwcjbybx
+
+
+
+
+[other]
+Looks dodgy and suspect.
+
+
+[comments]
+fanboy
