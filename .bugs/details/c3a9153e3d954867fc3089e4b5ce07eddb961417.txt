@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://imageevent.com/afap/wallpapers/stars/amandabynes;jsessionid=fnnk0iryn1.camel_s?p=23&n=1&m=-1&c=4&l=0&w=2&s=0&z=3
+
+
+[filters]
+http://adscampaign.net/v3/app/serve/?pID=176745&cID=17023&type=text&width=728&height=90&border=666666&bg=000000&title=990033&desc=999999&url=FFFFFF
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
