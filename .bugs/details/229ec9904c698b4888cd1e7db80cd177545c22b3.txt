@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sowetanlive.co.za/news/2012/07/04/tshwane-tariff-hikes-take-effect
+
+
+[filters]
+http://www.sowetanlive.co.za/statistics/view/record.do?articleId=5622204&sectionId=32&publicationId=6&articleType=news&userId=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
