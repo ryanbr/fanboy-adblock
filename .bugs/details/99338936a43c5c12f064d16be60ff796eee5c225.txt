@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.codewit.com/home/religion/2979-rev-chris-okoties-second-marriage-has-sadly-ended-after-only-four-years
+
+
+[filters]
+http://www.codewit.com/piwikTracker.enableLinkTracking();
+http://www.codewit.com/piwikTracker.trackPageView();
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
