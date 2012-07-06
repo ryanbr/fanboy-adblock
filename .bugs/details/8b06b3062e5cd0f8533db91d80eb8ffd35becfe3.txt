@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.stuff.co.nz/
+
+
+[filters]
+http://passets-cdn.pinterest.com/images/LogoRed.png
+http://passets-cdn.pinterest.com/images/bm/button.png
+
+
+
+
+[other]
+through pinterest.
+
+
+[comments]
+fanboy
