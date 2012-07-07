@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ag.ru/reviews/gray_matter
+
+[filters]
+http://i.ag.ru/ag/i/wide/new_rss_icon.png
+http://i.ag.ru/ag/i/wide/new_twitter_icon.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
