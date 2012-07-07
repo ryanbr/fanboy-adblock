@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www2.chimsedinang.com/video-aoe/Ha-Noi-Vs-Club-87-Tieubachlong-Ngay-5/7/2012-944.html
+
+[filters]
+http://www66.servegame.com/p/130x600.html?utm_source=chimsedinang.com
+http://xemphimonlines.com/randomiftan.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
