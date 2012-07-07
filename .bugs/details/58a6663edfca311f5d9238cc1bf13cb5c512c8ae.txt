@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.losethebackpain.com/
+
+
+[filters]
+https://infusionextreme.com/tracker/js/t9f28159b89b938d9d7aaf1395a0b27d8.js?itvr=1.0.8&ver=1.0.8
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
