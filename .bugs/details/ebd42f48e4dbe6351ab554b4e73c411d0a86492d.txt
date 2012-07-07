@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ivillage.com/you-could-win-500-lands-end-gift-card-ivillage-summer-breeze-sweepstakes-ivillagesummerbreezesweepstakes/8-z-460088
+
+
+[filters]
+http://www.ivillage.com/public/javascripts/ivillage/ui/analytics/Loyalty.js
+http://www.ivillage.com/public/javascripts/global/visual_revenue.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
