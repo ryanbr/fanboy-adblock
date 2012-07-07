@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.b-port.com/news/item/83044.html
+
+
+[filters]
+http://b-port.com/mediafiles/banners/250x90/nornik/20110501.swf
+http://www.b-port.com/mediafiles/banners/250x90/bport/grjaznyj_podezd.swf
+http://www.b-port.com/mediafiles/banners/250x90/bport/zhkh_jenergo.swf
+http://www.b-port.com/mediafiles/banners/640x90/krugka/20120620.swf
+http://www.b-port.com/mediafiles/banners/another/tiger.swf
+http://www.b-port.com/mediafiles/banners/triton/triton.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
