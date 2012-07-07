@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.finweb.com/banking-credit/small-business-credit-card-options-for-bad-credit.html
+
+
+[filters]
+http://api.myprecisionads.com/publog/1000012/9/1341546806505/?widgettype=ratewidget&widgetheight=250px&widgetwidth=300px&widgetversion=v1&eventtype=onload&product=refinance&rt=img
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
