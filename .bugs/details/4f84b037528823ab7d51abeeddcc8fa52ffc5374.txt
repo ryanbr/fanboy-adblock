@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.autobytel.com/lincoln/mks/2012/ratings/
+
+[filters]
+http://www.autobytel.com/content/shared/markerfile.bin?crd_ver=0.9.5&crd_rnd=127634&crd_cnt=0.01&crd_tpb=1341658233579&crd_olt=2330
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
