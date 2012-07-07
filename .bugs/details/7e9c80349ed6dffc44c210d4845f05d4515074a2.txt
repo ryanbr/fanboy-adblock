@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.everycarlisted.com/fl/clearwater/lincoln/mks/vin-1LNHL9DR7CG802561#
+
+[filters]
+http://a.vast.com/vimpressions.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13496
+
+[comments]
+fanboy
