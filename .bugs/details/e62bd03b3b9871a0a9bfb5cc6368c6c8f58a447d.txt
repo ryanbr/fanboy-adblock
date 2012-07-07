@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://my-hit.ru/film/18873/online
+
+
+[filters]
+http://hahalemer.if.ua/js/2732.js?rnd=1000690961841
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
