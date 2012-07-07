@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tech.gaeatimes.com/index.php/archive/beware-of-searchstatus-firefox-extension/
+
+
+[filters]
+http://tech.gaeatimes.com/ctad/250x250_flash_banner.swf
+http://tech.gaeatimes.com/ctad/AC_RunActiveContent.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
