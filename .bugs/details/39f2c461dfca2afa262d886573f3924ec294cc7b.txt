@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.instyle.com/instyle/package/transformations/photos/0,,20290122_20277645_20619409,00.html
+
+
+[filters]
+http://img2.timeinc.net/instyle/static/j/recirc/recirc.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
