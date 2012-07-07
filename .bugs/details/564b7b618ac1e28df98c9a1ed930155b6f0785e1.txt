@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.inmagine.com/beautiful-houses-photos/imagedj-ip012
+
+
+[filters]
+http://www.inmagine.com/j/ga.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
