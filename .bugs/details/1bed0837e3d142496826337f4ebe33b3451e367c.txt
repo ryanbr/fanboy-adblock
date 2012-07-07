@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.astrology.com/horoscopes/details/2012-01-01/aries-yearly-overview?play_horoscope=1#video-horoscope
+
+[filters]
+http://www.astrology.com/Astrology-OmnitureSWF.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
