@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.housebeautiful.com/photos/beautiful-designer-bedrooms#slide-4
+
+
+[filters]
+http://www.housebeautiful.com/cm/shared/scripts/refreshads-v2.1.0.js
+http://www.housebeautiful.com/ams/page-ads.js?ad_category_prefix=home&ad_sub_category_prefix=home_improvement&ams_promo=&amz_browse_node_ids=285080&amz_search_indexes=HomeGarden&article_type_prefix=flipbook&browser_path=%2Fphotos%2Fbeautiful-designer-bedrooms&cat_prefixes=most-popular%2Chp_photo_galleries&keywords=&position_list=ams_circ_hbu_300x250%2Cams_circ_hbu_300x300%2Cams_circ_hbu_header%2Cams_circ_hbu_sub_nav_link%2Cams_digital_hbu_foot_link%2Cams_digital_hbu_nav_link%2Cams_hb_banner%2Cams_hb_bot%2Cams_hb_flipbook_control%2Cams_hb_footer%2Cams_hb_gallery%2Cams_hb_gallery_bot%2Cams_hb_hpto%2Cams_hb_social_ad%2Cams_hb_sponlogo%2Cams_hbl_sponlink_300x250%2Cams_hbu_amazon_carousel_600x200%2Cams_hbu_circ_takeover%2Cams_hbu_epic%2Cams_hbu_nl01&section_prefix=photos&site_prefix=housebeautiful&sub_cat_prefixes=simplenavigator&subdomain=www&url_name=beautiful-designer-bedrooms
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13470
+
+
+[comments]
+fanboy
