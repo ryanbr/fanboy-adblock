@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bettyconfidential.com/ar/ld/a/did-kourtney-kardashian-give-birth-to-her-second-child-last-night.html
+
+
+[filters]
+http://cdn.doclix.com/track_pageviews.html?adv_id=4476
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
