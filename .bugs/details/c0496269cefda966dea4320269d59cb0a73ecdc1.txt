@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cinema-hd.ru/
+
+[filters]
+http://clickadvert.net/assets/notifier_close.gif
+http://clickadvert.net/bb1.mp3
+http://clickadvert.net/init.js
+http://clickadvert.net/mp3player.swf?file=http://clickadvert.net/bb1.mp3&startplay=true
+http://clickadvert.net/notifier.css
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
