@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www2.chimsedinang.com/video-aoe/Thao-Tac-Tay-Chimsedinang-Cong-Thanh-Star-Tuan-4-925.html
+
+
+[filters]
+http://www1.chimsedinang.com/ads/vuaphimpop.js
+http://www2.chimsedinang.com/ads/digioi.js
+http://www2.chimsedinang.com/ads/popup.js
+http://www2.chimsedinang.com/ads/thanbai_secure.swf
+http://vuaphim.net/ads/ads/hula/200x400.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
