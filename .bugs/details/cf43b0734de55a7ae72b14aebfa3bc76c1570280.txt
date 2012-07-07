@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dir.gardenweb.com/directory/
+
+[filters]
+http://graphics.gardenweb.com/stc/ivjs/iv_header.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
