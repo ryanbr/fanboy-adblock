@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.foxnews.com/tech/2011/03/15/attacking-tracking-theyre-watching/
+
+
+[filters]
+http://global.fncstatic.com/static/all/js/geo.js?cb=2012771855
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
