@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tsn.ua/video/video-novini/na-olimpiadu-sche-ne-doyihav-a-vzhe-stav-yiyi-rekordsmenom.html
+
+[filters]
+http://masterh4.adriver.ru/images/0000783/0000783295/0/index.xml
+http://masterh4.adriver.ru/crossdomain.xml
+http://ad.adriver.ru/crossdomain.xml
+http://ad.adriver.ru/cgi-bin/erle.cgi?sid=126719&sz=308&bn=1&target=blank&bt=16&pz=1&rnd=499157253&tail256=unknown
+http://ad.adriver.ru/cgi-bin/erle.cgi?sid=126719&sz=308&bn=1&target=blank&bt=16&pz=3&rnd=638409329&tail256=unknown
+http://ad.adriver.ru/cgi-bin/erle.cgi?sid=126719&sz=308&bn=5&target=blank&bt=16&pz=1&rnd=21291437&tail256=unknown
+http://ad.adriver.ru/cgi-bin/erle.cgi?sid=126719&sz=308&target=top&bt=54&pz=0&rnd=82969118
+http://ad.adriver.ru/cgi-bin/erle.cgi?sid=126719&sz=superzirka&bn=4&target=blank&bt=1&pz=3&rnd=374789282&tail256=unknown
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
