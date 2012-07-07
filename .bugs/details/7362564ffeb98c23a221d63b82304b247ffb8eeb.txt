@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.droidmatters.com/news/independent-investigation-determines-that-exploding-galaxy-s-iii-caused-by-external-energy-source-microwave/
+
+
+[filters]
+http://cdn7.droidmatters.com/wp-content/uploads/2011/03/youtube.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
