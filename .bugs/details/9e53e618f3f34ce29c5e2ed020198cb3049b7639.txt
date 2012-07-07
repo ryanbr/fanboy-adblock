@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.diy.ru/news/design_news/neobyichnyie-kartinyi-iz-disket/
+
+
+[filters]
+http://www.diy.ru/media/uploaded/bn/2012/02/21/240140_sale_craftstoro.jpg
+http://www.diy.ru/media/uploaded/bn/2012/03/06/gimme_free_ad_1.gif
+http://www.diy.ru/media/uploaded/bn/2012/05/15/Craftsman-37069_240x200.jpg
+http://www.diy.ru/media/uploaded/bn/2012/05/30/19961.jpg
+http://www.diy.ru/media/uploaded/bn/2012/06/18/240x400_3.gif
+http://www.diy.ru/media/uploaded/bn/2012/06/18/240x400_3.swf
+http://www.diy.ru/media/uploaded/bn/2012/06/20/fotokonkurs.jpg
+http://www.diy.ru/media/uploaded/bn/2012/07/03/201207022326_GD_240x400.swf
+http://www.diy.ru/media/uploaded/bn/2012/07/05/201207022326_GD_240x400.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
