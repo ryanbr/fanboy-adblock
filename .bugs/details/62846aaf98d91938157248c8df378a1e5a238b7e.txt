@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.shockwave.com/gamelanding/monkey-quest-game.jsp?extcmp=sw_mq_hp_dynfeature_pets&redirected=true
+
+
+[filters]
+http://www.monkeyquest.com/monkeyquest/static/js/ga.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
