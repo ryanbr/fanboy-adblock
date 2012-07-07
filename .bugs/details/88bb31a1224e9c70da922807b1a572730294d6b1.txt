@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.credit-land.com/1018/1018_page_13372_32278.php
+
+
+[filters]
+http://beemrdwn.com/imp.aspx?l=20042&c=1327
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
