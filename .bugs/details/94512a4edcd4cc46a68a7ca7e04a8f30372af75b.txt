@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.workingmother.com/2011/01/5-super-foods-fight-weigh-gain-and-stress
+
+
+[filters]
+http://www.workingmother.com/sites/all/modules/platform/laserfist/laserfist_omniture/js/s_code.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13472
+
+
+[comments]
+fanboy
