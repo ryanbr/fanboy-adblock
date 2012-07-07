@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.truthdig.com/report/item/time_to_get_crazy_20120702//
+
+[filters]
+#http://www.truthdig.com/themes/cp_global_images/lg_social_bookmarks/favicons/fark.png
+http://www.truthdig.com/themes/cp_global_images/lg_social_bookmarks/favicons/furl.png
+http://www.truthdig.com/themes/cp_global_images/lg_social_bookmarks/favicons/googlebookmark.png
+http://www.truthdig.com/themes/cp_global_images/lg_social_bookmarks/favicons/mixx.png
+http://www.truthdig.com/themes/cp_global_images/lg_social_bookmarks/favicons/myshare.png
+http://www.truthdig.com/themes/cp_global_images/lg_social_bookmarks/favicons/newsvine.png
+http://www.truthdig.com/themes/cp_global_images/lg_social_bookmarks/favicons/propeller.gif
+http://www.truthdig.com/themes/cp_global_images/lg_social_bookmarks/favicons/reddit.png
+http://www.truthdig.com/themes/cp_global_images/lg_social_bookmarks/favicons/sphere.png
+http://www.truthdig.com/themes/cp_global_images/lg_social_bookmarks/favicons/yahoomyweb.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
