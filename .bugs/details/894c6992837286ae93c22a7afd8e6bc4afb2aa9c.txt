@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mastercard.co.uk/index.html
+
+
+[filters]
+http://metadatasystems.mastercard.com/MetadataSystems/Entities/Analytics/Site_Tag/401418?depth=3&cacheTransactionMode=fast
+http://metadatasystems.mastercard.com/MetadataSystems/Entities/Analytics/Site_Tag?depth=0&criteria=URL%20SW%27www.mastercard.co.uk%27&cacheTransactionMode=fast
+http://metadatasystems.mastercard.com/dynamicTag.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
