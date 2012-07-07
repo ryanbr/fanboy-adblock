@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.financeglobe.com/ScoreMatch/
+
+
+[filters]
+http://www.financeglobe.com/Visit/ax.cgi?mode=img&ref=http%3A//www.google.com/search%3Fq%3Drelated%3Awww.credit-land.com%26hl%3Den%26safe%3Doff%26prmd%3Dimvns%26ei%3DK2L2T6zDIorE0QGc_IDUBg%26start%3D70%26sa%3DN%26biw%3D1392%26bih%3D433
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
