@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.creditreport.com/Order1.aspx?areaid=22&pkgid=CR2MT&SiteVersionID=974&SiteID=100328&sc=671972&bcd=&campaignID=31
+
+
+[filters]
+https://www.creditreport.com/javascripts/tracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
