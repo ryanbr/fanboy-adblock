@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.i4sn.com/phan-mem/windows-loader-215-crack-active-windows-tot-nhat-4181/
+
+[filters]
+http://ad360.vn/referralUrl.js
+http://cache.ad360.vn/refer-images/c9f0f895fb98ab9159f51fd0297e236dbanner_referal_300x250(3).gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
