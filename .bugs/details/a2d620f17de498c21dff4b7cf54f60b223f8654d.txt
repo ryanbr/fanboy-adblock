@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.behr.com/dsm-ext/v/index.jsp?vgnextoid=ba69ea6621ca5110VgnVCM1000008119fea9RCRD&vgnextfmt=default#view=4;vgnextoid=ba69ea6621ca5110VgnVCM1000008119fea9RCRD;channel=INSPIRATION
+
+
+[filters]
+http://www.behr.com/commonjs/webtrendsExt.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
