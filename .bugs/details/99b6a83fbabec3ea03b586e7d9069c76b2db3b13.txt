@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://spb.hh.ru/vacancy/5862874
+
+[filters]
+http://spb.hh.ru/stat?p=/vacancy/5862874,firstByte:754,LastByte:768,startDomParse:774,finishDomParse:1729,deferredDone:1895,domContentLoaded:1981,onLoad:4028,compInitStart:2691,compInitEnd:3783
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
