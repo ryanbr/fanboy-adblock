@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.oldhouseweb.com/gardening/6-spring-lawn-care-revival-secrets.shtml
+
+
+[filters]
+http://k.kopsil.com/jsc/dr/fl.js
+http://n.naayna.com/jsc/dr/fl.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
