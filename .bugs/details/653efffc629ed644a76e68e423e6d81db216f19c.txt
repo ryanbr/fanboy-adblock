@@ -1,0 +1,31 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.homeplans.com/
+
+
+[filters]
+http://content.secondspace.com/p/hmp/1.0/c/img/CostBuild.jpg
+http://content.secondspace.com/p/hmp/1.0/c/img/Customize.jpg
+http://content.secondspace.com/p/hmp/1.0/c/img/Decks_2.jpg
+http://content.secondspace.com/p/hmp/1.0/c/img/FreeShipping.jpg
+http://content.secondspace.com/p/hmp/1.0/c/img/GaragePlans.jpg
+http://content.secondspace.com/p/hmp/1.0/c/img/HomeBuildLib.jpg
+http://content.secondspace.com/p/hmp/1.0/c/img/PlanSets.jpg
+http://content.secondspace.com/p/hmp/1.0/c/img/StockHousePlan.jpg
+http://content.secondspace.com/p/hmp/1.0/c/img/aibdlogo.gif
+http://content.secondspace.com/p/hmp/1.0/c/img/cclogo.gif
+http://content.secondspace.com/p/hmp/1.0/c/img/hpmalogo.gif
+http://content.secondspace.com/p/hmp/1.0/c/img/search-btn.png
+http://content.secondspace.com/p/hmp/1.1.1/script.js
+http://content.secondspace.com/p/hmp/1.1.6/style.css
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
