@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.credit.com/
+
+
+[filters]
+http://static.ccom-cdn.com/assets/js/ga.js?ccom_md5=0322d6
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
