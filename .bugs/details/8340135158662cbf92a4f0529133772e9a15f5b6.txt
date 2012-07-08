@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.myrls.me/page/3/
+
+[filters]
+http://www.myrls.me/open.js
+http://wzus1.ask.com/r?t=p&d=us&s=a&c=a&app=a16&dqi=&askid=&l=dir&o=0&oo=0&sv=0a5c40d6&ip=d937452d&id=84E4D3C82E65559E357F7D84FABD46C5&q=hideus.in&p=1&qs=0&ac=0&g=073eBVTMJrjA95&cu.wz=0&en=te&io=0&ep=&eo=&b=a001&bc=&br=&tp=d&ec=1&pt=HideUs.in%20-%20Free%20Fast%20Unblocked%20Web%20Based%20Proxy.&ex=tsrc%3Dtled&url=&u=http://www.hideus.in/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
