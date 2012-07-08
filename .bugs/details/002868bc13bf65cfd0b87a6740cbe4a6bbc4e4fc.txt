@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wowhead.com/talent#oMZcbzbZffbhshsdzo
+
+[filters]
+http://zam.zamimg.com/images/skins/familyguy-interiorwhskin.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
