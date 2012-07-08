@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sondakika.com/haber/haber-adliyeden-film-gibi-kacis-3753441/
+
+[filters]
+http://ads.minireklam.com/reklam/textreklam/sondakika_980x90_2sutun.asp
+http://tra.minireklam.com/say.asp?s=14&b=8742&g=0&u=8498986181019971028476497510099931021017598919898&tm=320862
+http://tra.minireklam.com/say.asp?s=31&b=8296&g=3&u=38988891008852740839799100751003986974381003100&tm=1582
+http://tra.minireklam.com/say.asp?s=38&b=9158&g=2&u=98102779899271012102447988398999800509766979819&tm=20962
+http://tra.minireklam.com/say.asp?s=38&b=9403&g=3&u=9761009718910127698410298101839131028972621018119&tm=12592
+http://tra.minireklam.com/v4/tr.aspx?s=0,14,0,31,0,38_1,0,38_2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
