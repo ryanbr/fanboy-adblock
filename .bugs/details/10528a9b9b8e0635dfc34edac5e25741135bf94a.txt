@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.babycenter.com/slideshow-baby-size
+
+
+[filters]
+http://b.scorecardresearch.com/beacon.js
+
+http://www.babycenter.com/assets/5.11.1/images/buttons/share/share_sprite_v1.png
+
+
+[other]
+scorecard whitelist needed to allow slideshow to work properly
+
+
+[comments]
+fanboy
