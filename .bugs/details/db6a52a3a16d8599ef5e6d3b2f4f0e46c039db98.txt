@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://adv.li/24b
+
+
+[filters]
+http://adv.li/api?f=notify
+http://adv.li/styler/favicon.ico
+http://adv.li/styler/images/s-logo.png
+http://adv.li/styler/jquery-1.6.2.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
