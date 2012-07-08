@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vnexpress.net/gl/vi-tinh/giai-tri/2012/07/clip-giai-cuu-con-tin-hot-nhat-tren-mang-tuan-qua/page_3.asp
+
+
+[filters]
+http://180.148.142.16/videolog/?id=73541&dm=vnexpress.net&f=94&nid=1002279529
+http://180.148.142.153/crossdomain.xml
+http://180.148.142.153/Cpx.aspx?s=1&r=0&c=1111&p=604&n=416152511257&f=0&fm=1&uc=24&uv=-1&ud=1920x1080
+http://180.148.142.10/Images/Blank.gif
+http://180.148.142.10/website/vnexpress/Hot.asp?vid=AAAAhU/5T1AcMyQLBNr4Ag==&ovt=1&vsd=0&pfd=94&pid=1002279529&ref=&iTime=7/8/2012%203:52:00%20PM
+http://180.148.142.10/website/vnexpress/Res.asp?vid=AAAAhU/5T1AcMyQLBNr4Ag==&ovt=1&vsd=0&pfd=94&pid=1002279529&ref=&iTime=7/8/2012%203:52:00%20PM
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
