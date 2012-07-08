@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://secure1.esupport.com/380/?scope=checkout&cart=s2665&cfg=right_banner_nr&recommendation=DABlueSite_RWadd-on,DA-ESU&enablecoupon=false&x-cart=rightbanner&tracking=DA_Blue_New&x-mvt=c
+
+
+[filters]
+https://secure.esupport.com/ea/analyze.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
