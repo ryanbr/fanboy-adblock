@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bilibili.tv/video/av299256/
+
+
+[filters]
+http://www.bilibili.tv/html/ads-arc.js
+http://static.hdslb.com/ad-images/2012-0121-D.swf
+http://www.bilibili.tv/html/bdad-e2.html
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
