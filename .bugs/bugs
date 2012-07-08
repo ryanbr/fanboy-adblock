@@ -841,6 +841,7 @@ http://spongebob.nick.com/?navid=characterNav                | owner:, open:True
 http://www.financialexpress.com/                             | owner:, open:True, id:3cb45db96de20089f3221ac4403b6f168810f980, time:1341229779.89
 fp: http://www.hulu.com/                                     | owner:, open:True, id:3cb4949443282137bfb2379d57e3ad8cbb9eb533, time:1324939412.61
 http://www.instyle.com/instyle/makeover                      | owner:, open:True, id:3cb5a18091b6727d4a6b0ffc74791fd6e33dd747, time:1335919231.31
+http://www.yahoo.com/ (with embeded spam domains)            | owner:, open:True, id:3cc4e15e513761d597744f4cacd8b69e7cd8d171, time:1341712754.91
 http://www.laterooms.com/en/hotel-reservations/170101_regal-kowloon-kowloon.aspx | owner:, open:True, id:3ce1110c7f442fded62d726cc718b64efae1b3dd, time:1326546062.01
 fp: http://www.aintitcool.com/node/53672                     | owner:, open:True, id:3ce477c17d9e9fa81f3aa2c8818adf2a65bb69a8, time:1329603969.41
 http://www.shoplocal.com/?citystatezip=60601                 | owner:, open:True, id:3ce7450e061811337351daebe3e4980dc1648fc9, time:1332579453.81

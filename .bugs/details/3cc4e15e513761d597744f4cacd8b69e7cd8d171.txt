@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yahoo.com/
+
+
+[filters]
+http://spns.night-hawk.net/get.php?aid=*&key=*&title=*&keywords=*&keywords_text=*&ref=*&pref=
+http://find-abc.com/styles/6/1/1/style.css
+http://www.resultsz.com/search/anticheat6.php?username=*
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
