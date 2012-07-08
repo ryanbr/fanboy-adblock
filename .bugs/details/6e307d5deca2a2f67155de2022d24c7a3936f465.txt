@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://elpais.com/elpais/2012/07/05/inenglish/1341492506_304424.html
+
+
+[filters]
+http://urls.api.twitter.com/1/urls/count.json?url=http://elpais.com/elpais/2012/07/05/inenglish/1341492506_304424.html&callback=GlobRecvCount.t0.recvCount
+http://www.linkedin.com/countserv/count/share?url=http://elpais.com/elpais/2012/07/05/inenglish/1341492506_304424.html&callback=GlobRecvCount.l1.recvCount
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
