@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://uk.weather.com/local
+
+
+[filters]
+http://uk.weather.com/common/a21/makeRequest-2_4.html?pos=INT_HeaderSpon&key=1341706726883
+http://uk.weather.com/common/a21/makeRequest-2_4.html?pos=INT_Hidden&key=1341706726883
+http://uk.weather.com/common/a21/makeRequest-2_4.html?pos=INT_PageCounter&key=1341706726882
+http://uk.weather.com/common/a21/makeRequest-2_4.html?pos=INT_Top300Variable&key=1341706726882
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
