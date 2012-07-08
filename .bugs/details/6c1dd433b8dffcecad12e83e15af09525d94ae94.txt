@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bostinno.com/2012/04/30/ridiculousness-season-2-premiere-justin-bieber-guest-stars-on-rob-dyrdeks-the-ridiculousness-season-premiere-tonight-video/
+
+
+[filters]
+https://measure.api.umbel.com/measure.gif?uuid=577871cf-c3fd-4ab6-8bee-8a2fd7abaf49&ak=GzhkhynCqDsriWWp&event=new%20uuid
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
