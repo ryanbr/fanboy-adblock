@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rapidgator.net/
+
+[filters]
+http://rapidgator.net/images/twitter-16x16.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
