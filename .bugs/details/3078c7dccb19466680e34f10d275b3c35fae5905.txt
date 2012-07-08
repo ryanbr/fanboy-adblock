@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://muropaketti.com/
+
+
+[filters]
+http://eas3.emediate.se/eas?cu=7225;cre=mu;js=y;target=_blank;
+http://eas3.emediate.se/eas?cu=7226;cre=mu;js=y;target=_blank;
+http://eas3.emediate.se/eas?cu=7227;cre=mu;js=y;target=_blank;
+http://eas3.emediate.se/eas?cu=7228;cre=mu;js=y;target=_blank;
+http://eas3.emediate.se/eas?cu=7229;cre=mu;js=y;target=_blank;
+http://eas3.emediate.se/eas?cu=7230;cre=mu;js=y;target=_blank;
+http://eas3.emediate.se/eas?cu=7232;cre=mu;js=y;target=_blank;
+http://eas3.emediate.se/eas?cu=7663;cre=mu;js=y;target=_blank;
+http://eas3cdn.emediate.ch/media/302/20499/121416/Sisustusideoita_skyscraper.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
