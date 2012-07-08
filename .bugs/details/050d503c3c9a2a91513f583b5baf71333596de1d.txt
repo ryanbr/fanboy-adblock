@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bigtorrent.org/
+
+
+[filters]
+http://lawer.if.ua/images/c/1/i/305/h/edadec432dd4df072a70ad6abb95b880/v/
+http://lawer.if.ua/images/h/edadec432dd4df072a70ad6abb95b880/i/305
+http://melipovwe.km.ua/js/305.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
