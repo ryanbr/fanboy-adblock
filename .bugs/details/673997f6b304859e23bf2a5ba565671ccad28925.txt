@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://howfile.com/file/d9dd2f80/4c6e92b7/
+
+
+[filters]
+http://img.qiyou.com/close.png
+http://img.qiyou.com/logo.png
+http://p.qiyou.com/popup.php?NDY5OHwzMDI5fDk5fDZ8MHx8MTM0MTcwOTE0N3w1NzE5ZjZlNjIwNTYwYjQxNzM4MGU3ZjJiZDZjNGY1ZnwwfDEwMHww
+http://p.qiyou.com/view.php?uid=4698
+http://pic1.howfile.com/doimg/483793ea/b2b24ff2/
+http://r.qiyou.com/popup.php?NDY5OHwzMDI5fDk5fDZ8MHx8MTM0MTcwOTM4OHxlNDBjMGY3OGM0ZDA5ZmU3OWUxOWIwM2JmMTQ5NGM5ZXwwfDEwMA%3D%3D
+http://r.qiyou.com/view.php?uid=4698
+http://s.qiyou.com/pvcount.php?uid=4698&wid=3029&visit_count=2&isnew=0&ismonitor=0&pvtype=0&url=http%3A%2F%2Fhowfile.com%2Ffile%2Fd9dd2f80%2F4c6e92b7%2F&ref=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
