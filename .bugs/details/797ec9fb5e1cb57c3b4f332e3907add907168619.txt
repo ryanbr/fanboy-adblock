@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://j.gs/196F
+
+[filters]
+http://cdn.adf.ly/css/adfly_1.css
+http://cdn.adf.ly/favicon.ico
+http://cdn.adf.ly/images/advert-header-logo.gif
+http://cdn.adf.ly/images/logo_fb.png
+http://cdn.adf.ly/images/skip_ad/en.png
+
+
+
+
+[other]
+Causes too many fp's, removing.
+
+
+[comments]
+fanboy
