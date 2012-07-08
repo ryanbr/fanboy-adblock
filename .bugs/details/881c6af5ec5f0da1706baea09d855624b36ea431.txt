@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.viamichelin.co.uk/web/Itineraires?strDepartureAddress=*&strDepartureId=&strDepartureProductId=&strArrivalAddress=*&strArrivalId=&strArrivalProductId=&strStepTemplateAddress=&strStepTemplateId=&strStepTemplateProductId=&intItiType=*&dtmDepartureDisplay=*&dtmDeparture=&distance=*&itineraryCarType=*&devise=*&itineraryFuelType=*&carbCost=*&indemnite=
+
+
+[filters]
+http://js.viamichelin.com/jse/V12-1-1-1-3/VM/ah/Trad/Advertisement/RentACar/RentACar.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
