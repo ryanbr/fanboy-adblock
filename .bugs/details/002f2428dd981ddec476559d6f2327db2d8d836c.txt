@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://elpais.com/elpais/inenglish.html
+
+
+[filters]
+http://ep01.epimg.net/iconos/v1.x/v1.0/varios/logo_eskup.png
+http://ep01.epimg.net/iconos/v1.x/v1.0/varios/logo_facebook.png
+http://ep01.epimg.net/iconos/v1.x/v1.0/varios/logo_googleplus.png
+http://ep01.epimg.net/iconos/v1.x/v1.0/varios/logo_twitter.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
