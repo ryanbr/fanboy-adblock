@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://phim.xixam.com/movie/detail/13859/Aliens-Tan-Cong-Trai-Dat-Phan-2---Falling-Skies-Season-2.html
+
+
+[filters]
+http://phim.xixam.com/quangcao/300x50.jpg
+http://phim.xixam.com/quangcao/ND1_650x90_060712.gif
+http://phim.xixam.com/quangcao/adv1.gif
+http://phim.xixam.com/quangcao/banner_1_thang_6.gif
+http://phim.xixam.com/quangcao/bg_website_left.jpg
+http://phim.xixam.com/quangcao/bg_website_right.jpg
+http://phim.xixam.com/quangcao/thoitrangnu.gif
+http://ads.ewebse.com/go.php?client_ip=203.114.128.238&md5=19bcc1444e7bdce6f18f6e5aa7b516a4&track=nz&feedname=4&uid=bmconline&unique_id=n8lksu8gj4q7pdjqq934clsr24
+http://kc.mv.bidsystem.com/bin/findwhat.dll?clickthrough&y=78360&x=p25HUJIMhX5;zXm8lw4Yzo58ELXY:74ShoWKUKrxhk4AUybpsfIdKwZ;E04RC4qf:u2UXKGHxXiqwrzSL7r;7LdEQk;2DViL:oIXNLCku1r;zumvGU46Uj24oVO2obXEUb40ukA6UXNDGXAwUWZEz2klhbDBpsqGDVmAKXUVd14nZOD680ilwjijQzxytsOCLwdrNzOj7zCjKyghL1dzq1qB870VxVX:hU5fsUzTwoICZ7k:KMGk87DAUwCesJ2rGf;:MFztwF87NU23CLr4JbgPvJbLZkzfGV0RKFkSp2OTqOze4FO4pX7mNkkZ8FXB4MvdzVXSlCrkx1gtZjZhnzAgCymCUF0GoJxmG0vBqrzAI
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
