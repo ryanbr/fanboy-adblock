@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tablespoon.com/search/tesy/#&page_type=collection&sort=&page=1
+
+
+[filters]
+http://www.tablespoon.com/library/js/TBSP_ntpagetag.js
+###communityWidget
+##.share-bar-small
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13526
+
+[comments]
+fanboy
