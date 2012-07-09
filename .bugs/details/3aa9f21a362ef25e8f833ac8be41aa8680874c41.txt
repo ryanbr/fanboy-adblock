@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.diytrade.com/china/pl/0-k-c-1/solar_charger.html
+
+[filters]
+http://www.diytrade.com/diyep/dir?page=common/ppAdv&keyword=solar+charger&catCode=0534&langID=4&mode=popup
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
