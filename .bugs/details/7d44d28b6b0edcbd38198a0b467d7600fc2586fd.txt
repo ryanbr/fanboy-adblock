@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mysimon.com/find/rest
+
+
+[filters]
+http://tracking.sokrati.com/site?res=1920x1080&lang=en&client_id=38&product_category=default&item_identifier=%20default&_ur=22581129&_ref=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D6%26t%3D13532
+http://cdn.sokrati.com/javascripts/tracker.js
+
+
+
+
+[other]
+replace ||tracking.sokrati.com^ with generic.
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=13532
+
+[comments]
+fanboy
