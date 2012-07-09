@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v1.72 (1/07/2012)
+# Fanboy Adblock list grabber script v1.73 (9/07/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -68,6 +68,8 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-adblock.txt | cut -d' ' -f1)
 if [ "$SSLGOOGLE" != "$SSLMAIN" ]
  then
     # Log
+    echo "Googles copy: `ls -al $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt`" >> $LOGFILE2
+    echo "Local copy: `ls -al $MAINDIR/fanboy-adblock.txt`" >> $LOGFILE2
     echo "Googles copy: `cat $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt | grep Checksum: ;echo HASH: $SSLGOOGLE`" >> $LOGFILE2
     echo "Local copy: `cat $MAINDIR/fanboy-adblock.txt | grep Checksum: ;echo HASH: $SSLMAIN`" >> $LOGFILE2
     echo "Updated fanboy-adblock.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
@@ -197,6 +199,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
  then
     # Log
     echo "Updated fanboy-tracking.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+    echo "Googles copy: `ls -al $GOOGLEDIR/fanboy-adblocklist-stats.txt`" >> $LOGFILE2
+    echo "Local copy: `ls -al $MAINDIR/fanboy-tracking.txt`" >> $LOGFILE2
     # Write patch to log file
     #
     echo " " >> $LOGFILE2
@@ -259,6 +263,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated enhancedstats.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+    echo "Googles copy: `ls -al $GOOGLEDIR/enhancedstats-addon.txt`" >> $LOGFILE2
+    echo "Local copy: `ls -al $MAINDIR/enhancedstats.txt-org`" >> $LOGFILE2
     # Write patch to log file
     #
     echo " " >> $LOGFILE2
@@ -319,6 +325,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-addon.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+    echo "Googles copy: `ls -al $GOOGLEDIR/fanboy-adblocklist-addon.txt`" >> $LOGFILE2
+    echo "Local copy: `ls -al $MAINDIR/fanboy-addon.txt`" >> $LOGFILE2
     # Write patch to log file
     #
     echo " " >> $LOGFILE2
@@ -373,6 +381,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
    echo "Updated fanboy-czech.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+   echo "Googles copy: `ls -al $GOOGLEDIR/firefox-regional/fanboy-adblocklist-cz.txt`" >> $LOGFILE2
+   echo "Local copy: `ls -al $MAINDIR/fanboy-czech.txt`" >> $LOGFILE2
     # Write patch to log file
     #
    echo " " >> $LOGFILE2
@@ -424,6 +434,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
    echo "Updated fanboy-russian.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+   echo "Googles copy: `ls -al $GOOGLEDIR/firefox-regional/fanboy-adblocklist-rus-v2.txt`" >> $LOGFILE2
+   echo "Local copy: `ls -al $MAINDIR/fanboy-russian.txt`" >> $LOGFILE2
     # Write patch to log file
     #
    echo " " >> $LOGFILE2
@@ -475,6 +487,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
    echo "Updated fanboy-turkish.txt (sctipt: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+   echo "Googles copy: `ls -al $GOOGLEDIR/firefox-regional/fanboy-adblocklist-tky.txt`" >> $LOGFILE2
+   echo "Local copy: `ls -al $MAINDIR/fanboy-turkish.txt`" >> $LOGFILE2
     # Write patch to log file
     #
    echo " " >> $LOGFILE2
@@ -524,6 +538,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
    # Log
    echo "Updated fanboy-japanese.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+   echo "Googles copy: `ls -al $GOOGLEDIR/firefox-regional/fanboy-adblocklist-jpn.txt`" >> $LOGFILE2
+   echo "Local copy: `ls -al $MAINDIR/fanboy-japanese.txt`" >> $LOGFILE2
     # Write patch to log file
     #
    echo " " >> $LOGFILE2
@@ -574,6 +590,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-korean.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+    echo "Googles copy: `ls -al $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt`" >> $LOGFILE2
+    echo "Local copy: `ls -al $MAINDIR/fanboy-korean.txt`" >> $LOGFILE2
     # Write patch to log file
     #
     echo " " >> $LOGFILE2
@@ -622,6 +640,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-italian.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+    echo "Googles copy: `ls -al $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ita.txt`" >> $LOGFILE2
+    echo "Local copy: `ls -al $MAINDIR/fanboy-italian.txt`" >> $LOGFILE2
     # Write patch to log file
     #
     echo " " >> $LOGFILE2
@@ -671,6 +691,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-polish.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+    echo "Googles copy: `ls -al $GOOGLEDIR/firefox-regional/fanboy-adblocklist-pol.txt`" >> $LOGFILE2
+    echo "Local copy: `ls -al $MAINDIR/fanboy-polish.txt`" >> $LOGFILE2
     # Write patch to log file
     #
     echo " " >> $LOGFILE2
@@ -720,6 +742,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-indian.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+    echo "Googles copy: `ls -al $GOOGLEDIR/firefox-regional/fanboy-adblocklist-ind.txt`" >> $LOGFILE2
+    echo "Local copy: `ls -al $MAINDIR/fanboy-indian.txt`" >> $LOGFILE2
     # Write patch to log file
     #
     echo " " >> $LOGFILE2
@@ -767,6 +791,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-vietnam.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+    echo "Googles copy: `ls -al $GOOGLEDIR/firefox-regional/fanboy-adblocklist-vtn.txt`" >> $LOGFILE2
+    echo "Local copy: `ls -al $MAINDIR/fanboy-vietnam.txt`" >> $LOGFILE2
     # Write patch to log file
     #
     echo " " >> $LOGFILE2
@@ -814,6 +840,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-chinese.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+    echo "Googles copy: `ls -al $GOOGLEDIR/firefox-regional/fanboy-adblocklist-chn.txt`" >> $LOGFILE2
+    echo "Local copy: `ls -al $MAINDIR/fanboy-chinese.txt`" >> $LOGFILE2
     # Write patch to log file
     #
     echo " " >> $LOGFILE2
@@ -862,6 +890,8 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 then
     # Log
     echo "Updated fanboy-espanol.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+    echo "Googles copy: `ls -al $GOOGLEDIR/firefox-regional/fanboy-adblocklist-esp.txt`" >> $LOGFILE2
+    echo "Local copy: `ls -al $MAINDIR/fanboy-espanol.txt`" >> $LOGFILE2
     # Write patch to log file
     #
     echo " " >> $LOGFILE2
@@ -917,6 +947,8 @@ then
     ### ls -al $MAINDIR/fanboy-swedish.txt $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt
     # Log
     echo "Updated fanboy-swedish.txt (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
+    echo "Googles copy: `ls -al $GOOGLEDIR/firefox-regional/fanboy-adblocklist-swe.txt`" >> $LOGFILE2
+    echo "Local copy: `ls -al $MAINDIR/fanboy-swedish.txt`" >> $LOGFILE2
     # Write patch to log file
     #
     echo " " >> $LOGFILE2
