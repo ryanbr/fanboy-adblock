@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wfgo.net/movie/194-Family_Guy_1023_Internal_Affairs.html
+
+
+[filters]
+http://www.cashmylinks.com/locker.php?aff=1020&subid=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
