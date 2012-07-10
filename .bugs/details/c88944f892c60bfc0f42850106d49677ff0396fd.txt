@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.buy.com/buytv/
+
+[filters]
+http://tracking.shoptogether.buy.com/Event/Track/?eventid=initialize&id=62124&type=0&url=http%3A%2F%2Fwww.buy.com%2Fbuytv%2FDefault.asp&name=BuyTV&image=http%3A%2F%2Fak.buy.com%2Fbuy_assets%2Fshoptogether%2Fstore_icons%2Fcategory%2Flarge%2Fbuycom.gif&callback=jQuery162032133092269157804_1341866762149&_=1341866763785
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
