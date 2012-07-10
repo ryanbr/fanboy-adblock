@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.youtube.com/
+
+[filters]
+http://bestvideodownloader.com/content/css/XPIAds.css
+
+
+
+
+[other]
+reported, not seen
+
+
+[comments]
+fanboy
