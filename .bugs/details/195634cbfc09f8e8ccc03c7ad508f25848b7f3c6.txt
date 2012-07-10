@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://reklama5.mk/Sale.aspx?city=*
+
+
+[filters]
+http://reklama5.mk/dataImages/advertisments/small/209c3c12c22f470cb32a4bd2704ee31e.jpg
+http://reklama5.mk/dataImages/advertisments/small/45d1fdb7dd814d6ba1e31c2c2b7c1685.jpg
+http://reklama5.mk/dataImages/advertisments/small/504d01032dc540bb8ba3acb15f08bfde.jpg
+http://reklama5.mk/dataImages/advertisments/small/591ab19e263044d29626bcae859285d7.jpg
+http://reklama5.mk/dataImages/advertisments/small/59b7b61a622140be9cac3d151377b40f.jpg
+http://reklama5.mk/dataImages/advertisments/small/6e79f47199c44a708b98d793542090ee.jpeg
+http://reklama5.mk/dataImages/advertisments/small/76ae12a08d954be6a2816aeaf03a7f74.jpg
+http://reklama5.mk/dataImages/advertisments/small/7e6c362ea50c49839a169a0ea5203942.jpg
+http://reklama5.mk/dataImages/advertisments/small/8219a95e8b4f4b2b89ef6ae2d56ac5b3.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
