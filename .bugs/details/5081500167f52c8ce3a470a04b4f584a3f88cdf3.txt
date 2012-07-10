@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://betanews.com/2012/07/08/someone-save-us-from-these-huge-android-smartphones/
+
+
+[filters]
+http://betanews.com/wp-content/themes/betanews/images/icons/socialmedia_icons.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
