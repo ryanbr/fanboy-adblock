@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.advocate.com/politics/2012/07/07/barney-frank-marries-longtime-partner
+
+
+[filters]
+http://www.advocate.com/sites/advocate.com/themes/advocate/images/follow-facebook.gif
+http://www.advocate.com/sites/advocate.com/themes/advocate/images/follow-mobile.gif
+http://www.advocate.com/sites/advocate.com/themes/advocate/images/follow-rss.gif
+http://www.advocate.com/sites/advocate.com/themes/advocate/images/follow-twitter.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
