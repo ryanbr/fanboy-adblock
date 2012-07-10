@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newyork411.com/
+
+
+[filters]
+http://content.bitsontherun.com/ping.gif?event=ready&referrer=http%3A%2F%2Fwww.newyork411.com%2F&playerid=botr_XsDCQLL6_3xrWIHKs_swf&renderingmode=flash&r=0.11216099886223674
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=13546
+
+[comments]
+fanboy
