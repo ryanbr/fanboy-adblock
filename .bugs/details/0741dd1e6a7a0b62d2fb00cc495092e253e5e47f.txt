@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hsn.com/watch-hsn-tv-live_xh.aspx?network=1&autostart=1&cm_sp=Global*LNTV*LiveTV
+
+
+[filters]
+http://www.hsn.com/code/pix.aspx
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=13542
+
+
+[comments]
+fanboy
