@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.smartbargains.com/cust/weeklydeal.asp?d=0
+
+
+[filters]
+http://img.pulsemgr.com/script/pm/100/
+http://t.pm0.net/wtScript.js
+http://cdn.optimizely.com/js/44816178.js
+https://ssl.google-analytics.com/urchin.js
+https://www.dwin1.com/4339.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
