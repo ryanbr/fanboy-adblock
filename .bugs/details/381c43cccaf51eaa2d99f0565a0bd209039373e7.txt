@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.absolutelyrics.com/
+
+
+[filters]
+http://www.absolutelyrics.com/static/share-bebo.png
+http://www.absolutelyrics.com/static/share-delicious.png
+http://www.absolutelyrics.com/static/share-myspace.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
