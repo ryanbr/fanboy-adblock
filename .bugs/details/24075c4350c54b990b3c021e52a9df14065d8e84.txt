@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.walmart.com/ip/NO-AD-SPF60-LTN/12548312#rr
+
+
+[filters]
+https://a248.e.akamai.net/f/248/16813/4h/www-origin.walmart.com/webanalytics/omniture/s_code.js
+
+
+
+[other]
+At http://www.walmart.com/ip/NO-AD-SPF60-LTN/12548312#rr after adding the item to your cart, clicking the cart, then clicking proceed to checkout; the new page that loads is stuck and the checkout page is never finished loading.
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13552
+
+[comments]
+fanboy
