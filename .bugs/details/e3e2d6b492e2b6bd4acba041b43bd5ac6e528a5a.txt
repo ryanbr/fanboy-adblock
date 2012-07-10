@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.c9tk.com/forum.php
+
+
+[filters]
+http://www.c9tk.com/images/banner/betting2.gif
+http://www.c9tk.com/images/banner/fairbet.gif
+http://www.c9tk.com/images/banner/king4d.gif
+http://www.c9tk.com/images/banner/maxbet.gif
+http://www.c9tk.com/images/banner/poker228.gif
+http://www.c9tk.com/images/banner/stc333.jpg
+http://ad.indomp3z.us/ajax/?simple_ad_count=1&callback=jQuery17103605501992654129_1341911891941&_=1341911893393
+http://ad.indomp3z.us/css/adverts_css.css
+http://placehold.it/300x90
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
