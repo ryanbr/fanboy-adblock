@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bad25.michaeljackson.com/
+
+
+[filters]
+http://tag.sonymusic.com/t/a/bad25.michaeljackson.com
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=13551
+
+
+[comments]
+fanboy
