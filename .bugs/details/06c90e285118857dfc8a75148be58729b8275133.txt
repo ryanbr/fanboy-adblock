@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dap-news.com/en/
+
+
+[filters]
+http://111.92.240.170/dap-news/dap-advertise/NAGA-eng.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
