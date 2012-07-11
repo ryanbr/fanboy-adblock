@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.automotive.com/chevrolet/camaro/2012/t3-12-1/#
+
+
+[filters]
+http://static.powerreviews.com/t/v1/tracker.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
