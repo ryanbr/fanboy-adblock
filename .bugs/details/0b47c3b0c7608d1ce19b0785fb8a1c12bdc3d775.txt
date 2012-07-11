@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.metroweekly.com/technocrat/2012/07/san-francisco-banning-officials-from-buying-macs.html
+
+
+[filters]
+http://www.metroweekly.com/tools/blog_add_visitor/?mtid=6822
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
