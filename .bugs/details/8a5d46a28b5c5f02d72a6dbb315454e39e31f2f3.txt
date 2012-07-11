@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.samsung.com/us/support/owners/product/BD-P1600/XAA
+
+
+[filters]
+http://www.samsung.com/us/scripts/survey/survey.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13563
+
+
+[comments]
+fanboy
