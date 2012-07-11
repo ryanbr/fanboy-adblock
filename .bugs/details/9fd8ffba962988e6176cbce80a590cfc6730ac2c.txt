@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.redbullusa.com/cs/Satellite/en_US/Video/pipeline-masters-highlights-021243230753523?p=1242746208569
+
+
+[filters]
+http://ac.redbull.com/countercollector/count?c_id=1243230753523&c_p1=RB_Video&c_p2=RedBullUSA&c_p3=en_US&c_p4=Michel+Bourez%3BSurfing%3BIan+Walsh%3BJulian+Wilson%3BJamie+O%27Brien%3BMichel+Bourez%3BIan+Walsh%3B&c_p5=1242746276676%3B1242745951713%3B1242910984970%3B1242798318087%3B1242751876020%3B1242899723236%3B1242746288055%3B&c_p6=http%253A%252F%252Fwww.redbullusa.com%252Fcs%252FSatellite%252Fen_US%252FVideo%252Fpipeline-masters-highlights-021243230753523&c_p7=&c_des=Red%2BBull%2BSurfers%2Bat%2Bthe%2BPipeline%2BMasters&paramend=end
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
