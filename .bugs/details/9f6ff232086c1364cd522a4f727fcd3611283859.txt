@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gymboree.com/index.jsp?ASSORTMENT<>ast_id=1408474395917465&FOLDER<>folder_id=2534374303003787&bmUID=1341951271254
+
+
+[filters]
+http://gymboree.hs.llnwd.net/e2/media/Global/js/webtrack/webtrack_tag_v1_m56577569830757517.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/posting.php?mode=edit&f=6&p=36088
+
+
+[comments]
+fanboy
