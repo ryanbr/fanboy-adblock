@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.volvocars.com/ru/Pages/default.aspx
+
+
+[filters]
+http://tealium.hs.llnwd.net/o43/utag/volvo-russia/main/prod/utag.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=13582
+
+[comments]
+fanboy
