@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://styleblazer.com/
+
+
+[filters]
+http://styleblazer.com/wp-content/themes/styleblazer/scripts/mm-ga-track.js?ver=1.1
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=13566
+
+
+[comments]
+fanboy
