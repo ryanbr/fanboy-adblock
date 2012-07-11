@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wbshop.com/product/ultimate+matrix+collection+the+1000025732.do?ref=CASHOP
+
+
+[filters]
+http://t.p.mybuys.com/webrec/wr.do?client=WBSHOP&sessionId=9AE6AC3D-53E9-5BF3-B905-198B36D54F54&wrz=1,2&pt=prod&cpc=1000025732&ckc=MOVIESTVBLURAY&mbcc=5A324689-C93E-5D3E-07E9-A55CC47D49B6&lang=en&v=5.2.0&mbts=1342009241361&rf=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D8%26t%3D13561&purl=http%3A%2F%2Fwww.wbshop.com%2Fproduct%2Fultimate%2Bmatrix%2Bcollection%2Bthe%2B1000025732.do%3Fref%3DCASHOP
+http://ii.wbshop.com/fcgi-bin/iipsrv.fcgi?FIF=/images/warnerbros//source/warnerbros/bg2wq2o7vvuo9wc0p1z8f8xsou4lwytbyo74wdtoqkslqu4ggi6jo82lpudc3wg0noqahuv4ds3yktv7.tif&wid=1000&cvt=jpeg
+http://ii.wbshop.com/fcgi-bin/iipsrv.fcgi?FIF=/images/warnerbros//source/warnerbros/bg2wq2o7vvuo9wc0p1z8f8xsou4lwytbyo74wdtoqkslqu4ggi6jo82lpudc3wg0noqahuv4ds3yktv7.tif&wid=370&cvt=jpeg
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13561
+
+
+[comments]
+fanboy
