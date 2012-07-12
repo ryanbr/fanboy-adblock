@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pornhub.com/view_video.php?viewkey=857cec48f4866dc960df
+
+[filters]
+http://cdn1a.static.pornhub.phncdn.com/misc/xml/preroll.xml
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
