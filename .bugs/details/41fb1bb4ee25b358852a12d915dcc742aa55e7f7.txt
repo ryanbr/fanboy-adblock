@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forums.redflagdeals.com/
+
+
+[filters]
+http://assets.rfdcontent.com/js/rfd/v2.5.0.65/unica/utag.ntpagetag.js?utv=ut2.2.20101006.0000
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
