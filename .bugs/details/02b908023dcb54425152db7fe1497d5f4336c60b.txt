@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cwer.ru/blog/2447804/
+
+
+[filters]
+http://www.cwer.ru/zombi.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
