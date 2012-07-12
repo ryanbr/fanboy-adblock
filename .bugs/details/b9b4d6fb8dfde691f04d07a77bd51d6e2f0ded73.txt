@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dn.se/ekonomi
+
+
+[filters]
+http://dn.c.richmetrics.com/log?type=activity&av=1175-JS&ct=33837&mk=BINKQSYR38BG&pi=M71G4IJS5VCU&sn=24&ui=M71G42PM4I9E&wn=dn.se&sis=M71G4FL73YFU,M71G4GK1RN3S,M71G4GYCS010,M71G4GWMJ67V,M71G4GENSZMT,M71G4GRURPAU,M71G4G2WONNM,M71G4GB9N2ZB,M71G4GUSB1IQ,M71G4GB235WB,M71G4GHPQMP6,M71G4G0I06S0,M71G4GTXB86L,M71G4GNTH491,M71G4G5JUKIT,M71G4GYRYOOQ,M71G4G8MKE7O,M71G4G3DBJV8&pd=1903x6586&ty=mousemove&wd=1920x978&ws=0x0
+http://dn.c.richmetrics.com/log?type=exposure&av=1175-JS&ct=2517&mk=BINKQSYR38BG&pi=M71G4IJS5VCU&sn=10&ui=M71G42PM4I9E&wn=dn.se&ad=&ap=&ce=0&ep=1&nc=0&pd=1903x6586&pk=absolute&pn=k3a3&sa=1&si=M71G4GUSB1IQ;type=exposure&av=1175-JS&ct=2518&mk=BINKQSYR38BG&pi=M71G4IJS5VCU&sn=11&ui=M71G42PM4I9E&wn=dn.se&ad=&ap=&ce=0&ep=1&nc=0&pd=1903x6586&pk=absolute&pn=k3a4&sa=1&si=M71G4GB235WB;type=exposure&av=1175-JS&ct=2518&mk=BINKQSYR38BG&pi=M71G4IJS5VCU&sn=12&ui=M71G42PM4I9E&wn=dn.se&ad=&ap=&ce=0&ep=1&nc=0&pd=1903x6586&pk=absolute&pn=k3a5&sa=1&si=M71G4GHPQMP6;type=exposure&av=1175-JS&ct=2518&mk=BINKQSYR38BG&pi=M71G4IJS5VCU&sn=13&ui=M71G42PM4I9E&wn=dn.se&ad=&ap=&ce=0&ep=1&nc=0&pd=1903x6586&pk=absolute&pn=k4a1&sa=1&si=M71G4G0I06S0;type=exposure&av=1175-JS&ct=2519&mk=BINKQSYR38BG&pi=M71G4IJS5VCU&sn=14&ui=M71G42PM4I9E&wn=dn.se&ad=&ap=&ce=0&ep=1&nc=0&pd=1903x6586&pk=absolute&pn=k4a2&sa=1&si=M71G4GTXB86L
+http://dn.c.richmetrics.com/log?type=exposure&av=1175-JS&ct=2519&mk=BINKQSYR38BG&pi=M71G4IJS5VCU&sn=15&ui=M71G42PM4I9E&wn=dn.se&ad=&ap=&ce=0&ep=1&nc=0&pd=1903x6586&pk=absolute&pn=k4a3&sa=1&si=M71G4GNTH491;type=exposure&av=1175-JS&ct=2519&mk=BINKQSYR38BG&pi=M71G4IJS5VCU&sn=16&ui=M71G42PM4I9E&wn=dn.se&ad=&ap=&ce=0&ep=1&nc=0&pd=1903x6586&pk=absolute&pn=k4a6&sa=1&si=M71G4G5JUKIT;type=exposure&av=1175-JS&ct=2520&mk=BINKQSYR38BG&pi=M71G4IJS5VCU&sn=17&ui=M71G42PM4I9E&wn=dn.se&ad=&ap=&ce=0&ep=1&nc=0&pd=1903x6586&pk=absolute&pn=k4a7&sa=1&si=M71G4GYRYOOQ;type=exposure&av=1175-JS&ct=2520&mk=BINKQSYR38BG&pi=M71G4IJS5VCU&sn=18&ui=M71G42PM4I9E&wn=dn.se&ad=&ap=&ce=0&ep=1&nc=0&pd=1903x6586&pk=relative&pn=k5a1&sa=1&si=M71G4G8MKE7O;type=exposure&av=1175-JS&ct=2520&mk=BINKQSYR38BG&pi=M71G4IJS5VCU&sn=19&ui=M71G42PM4I9E&wn=dn.se&ad=&ap=&ce=0&ep=1&nc=0&pd=1903x6586&pk=absolute&pn=Bottom&sa=1&si=M71G4G3DBJV8
+http://measure.richmetrics.com/rfm/dn/rich-agent.js
+http://measure.richmetrics.com/rfm/dn/rich-dn.js
+http://oas.dn.se/adstream_mjx.ads/dn.se/ekonomi/hem/1249525719@rich_media1,rich_media2,Top2,Bottom,k5a1,k2a1,k2a2,k2a4,k3a1,k3a2,k3a3,k3a4,k3a5,k4a1,k4a2,k4a3,k4a6,k4a7?article=&topic=&keywords=&pagetype=SubSection&XE&pagetype=SubSection&XE
+http://oas.dn.se/3/annonstorget_DN/ekonomi/hem/L5/1794182294@k2a1,k2a2,k2a3,k2a4!k2a1
+http://oas.dn.se/3/annonstorget_DN/ekonomi/hem/L5/1794182294@k2a1,k2a2,k2a3,k2a4!k2a2
+http://oas.dn.se/3/annonstorget_DN/ekonomi/hem/L5/1794182294@k2a1,k2a2,k2a3,k2a4!k2a3
+
+
+
+[other]
+Allow top right picture slideshow
+
+
+[comments]
+fanboy
