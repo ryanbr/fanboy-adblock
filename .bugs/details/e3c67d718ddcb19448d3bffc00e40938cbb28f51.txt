@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://techreport.com/articles.x/23217/8
+
+[filters]
+http://techreport.com/imgnew/socialicons2.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
