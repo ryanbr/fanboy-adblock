@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rai.tv/dl/RaiTV/dirette/PublishingBlock-233b8482-1cbc-4970-87d5-9d7604b26ddb.html?channel=*
+
+
+[filters]
+http://d1oaxhr280l1ho.cloudfront.net/299/49_2299_1_1_COOP_cambia_e_risparmia_15s_sipra.wmv
+http://d1oaxhr280l1ho.cloudfront.net/154/49_2154_1_1_LIGHT_15_MAGRA.wmv
+
+
+
+[other]
+reported
+
+[comments]
+fanboy
