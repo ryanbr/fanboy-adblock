@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://phimhdhay.net/category/20/phim-18-+.html
+
+
+[filters]
+http://ad.tamly.in/ran.php
+http://tamly.in/banner/phimhd.html
+http://tamly.in/in~
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
