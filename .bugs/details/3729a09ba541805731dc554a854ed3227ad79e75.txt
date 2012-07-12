@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dn.se/ekonomi
+
+
+[filters]
+http://oas.dn.se/0/MediaAct/DN_AT_RIKS_Giertz_15Juni-15Juli//futurewines_geirtz_240x180.gif
+http://oas.dn.se/0/MediaAct/DN_AT_RIKS_Jambotours_v28-33//DN-V28-33-2012.gif
+http://oas.dn.se/0/MediaAct/DN_AT_RIKS_Myresjohus_v28-29//2_240x180_DN.jpg
+http://oas.dn.se/0/MediaAct/DN_AT_RIKS_Prydligt_v24_v26_v28//DN_se_Prydligt-Sverige-AB.jpg
+http://oas.dn.se/RealMedia/ads/Creatives/default/empty.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
