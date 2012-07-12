@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vuighe.net/xem-phim-online/xao-quyet-tap-1-insidious-ep-1_22200.html
+
+
+[filters]
+http://8x85.com/popup.js
+http://vuighe.net/public/js/4menshop_pop.js
+http://vuighe.net/public/js/popup.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
