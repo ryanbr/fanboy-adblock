@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://kinotvonline.ru/
+
+[filters]
+http://paymonsters.biz/js/vk.php?id=1294
+http://sw3m5ncmn.com/files/bb2.mp3
+http://sw3m5ncmn.com/files/mp3player.swf?file=http://sw3m5ncmn.com/files/bb2.mp3&startplay=true
+http://sw3m5ncmn.com/files/notifier_close.gif
+http://sw3m5ncmn.com/files/swfobject.js
+http://sw3m5ncmn.com/images/vk/7_1335459911.jpg
+http://sw3m5ncmn.com/js/vkdopl.php?id=1294&name=%C8%F0a%20%D8a%EF%ED%E8%EA%EE%E2a&text=%C7a%F0a%E1a%F2%FB%E2a%FE%20%F2%E5%EC,%20%F7%F2%EE%20%EE%E1%FB%E3%F0%FB%E2a%FE%20%EAa%E7%E8%ED%EE!%20800%20%E1%E0%EA%F1%EE%E2%20%E2%20%E4%E5%ED%FC,%20%E4%EB%FF%20%EC%E5%ED%FF%20%ED%E5%20%EF%F0%EE%E1%EB%E5%EC%E0!%20;)&id=1294&img=7_1335459911.jpg&idadv=5&dom=sw3m5ncmn.com&an=dzuigfmtlx
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
