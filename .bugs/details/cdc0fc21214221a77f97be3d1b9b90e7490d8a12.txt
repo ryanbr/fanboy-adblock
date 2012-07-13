@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/0/#inbox/138802d88121e31d
+
+
+[filters]
+https://t.paypal.com/ts?ppid=PP114&cnac=NZ&rsta=en_US&e=op&mchn=em&s=ci&mail=sys&page=main:email::::::
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
