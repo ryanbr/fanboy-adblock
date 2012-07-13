@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.spathi.net/tech-support/macosx/unzip-multiple-files-in-linux-or-mac-os-x/
+
+
+[filters]
+http://www.spathi.net/wp-content/themes/mystique/images/socialize.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
