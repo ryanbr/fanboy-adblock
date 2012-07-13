@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+Remove dubes
+
+[filters]
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
