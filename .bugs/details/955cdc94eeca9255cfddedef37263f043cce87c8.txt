@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dumpert.nl/mediabase/2220521/058fda31/ski_rs_veroorzaken_lawines.html
+
+
+[filters]
+http://www.dumpert.nl/css/dumpert4.css?1.95&ad_id=fuckyouabp/admatcher.doubleclick.net
+http://www.dumpert.nl/js/dumpert_v4.js?2.08&ad_id=1342130400fuckyouabp/admatcher.doubleclick.net
+
+
+
+[other]
+Anti adblock
+
+[comments]
+fanboy
