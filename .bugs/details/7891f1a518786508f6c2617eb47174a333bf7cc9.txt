@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://coderwall.com/p/rwm-3g?utm_campaign=protip&q=css&i=1&p=1
+
+
+[filters]
+http://cdn.coderwall.com/assets/protips/twitter-share-a50528c31b322e349ccdff05110c3f46.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
