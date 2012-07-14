@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pogoda.tourua.com/
+
+
+[filters]
+http://pogoda.tourua.com/bannerstat/stat.js
+http://pogoda.tourua.com/counter.php
+http://www.tourua.com/pic/1x1.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
