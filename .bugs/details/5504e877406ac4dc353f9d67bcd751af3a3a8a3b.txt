@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://jobs.classifieds1000.com/Pakistan/Banking_Jobs/225034-Apply_for_the_banking_jobs
+
+
+[filters]
+http://cr.loszona.com/cgi-bin/r.pl?i=1&x=0.14448974746912524&w=1600&h=1200&d=http%3A//jobs.classifieds1000.com/Pakistan/Banking_Jobs/225034-Apply_for_the_banking_jobs&r=&z=..0..
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
