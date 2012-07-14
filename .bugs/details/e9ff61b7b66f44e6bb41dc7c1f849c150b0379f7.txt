@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://poezda.meta.ua/
+
+
+[filters]
+http://meta.ua/rest.asp?hostURL=poezda.meta.ua&adUI=0UA6dc8ce67T5001ff14
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
