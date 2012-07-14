@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.airtet.in/2012/07/sherlyn-chopra-tweets-her-naked-photos.html
+
+
+[filters]
+http://2.bp.blogspot.com/-8BeuzmeuxZA/TwFTZ3vnfYI/AAAAAAAAB4U/y6Yh8zlGho4/s400/th_youtube-button.png
+http://2.bp.blogspot.com/-l4ITXRz3Md0/TwFTZhbIQSI/AAAAAAAAB4M/-mrZTbqsZeM/s400/th_twitter-button-small.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
