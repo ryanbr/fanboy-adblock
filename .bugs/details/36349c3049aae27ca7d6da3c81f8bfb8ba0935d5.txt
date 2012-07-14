@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mediafire4u.com/hdrip/reservoir-dogs-1992-hdrip-300mb/
+
+[filters]
+http://freetricktipss.info/300X250ad.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
