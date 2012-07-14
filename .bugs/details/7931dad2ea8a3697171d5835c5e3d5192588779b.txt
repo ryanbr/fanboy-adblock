@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.naukrigulf.com/
+
+
+[filters]
+http://www.naukrigulf.com/logger/zero1.gif?data=http://www.naukrigulf.com/|-1|-1|1342303357002|1342303357112|1342303357785|0.21665096283|HeadFlushTime:0.216635942459
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
