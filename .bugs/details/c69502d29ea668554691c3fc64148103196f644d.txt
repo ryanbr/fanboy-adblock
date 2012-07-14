@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.piligrim.ua/
+
+
+[filters]
+http://account.marva.ru/image_no.php?l=y_avdeev&x=4026&deptid=0&page=http%3A//www.piligrim.ua/&unique=1342306842114&refer=&ps=7b1bae79ae1c55dabfa8d20e17080b2a&text=
+http://account.marva.ru/scroll_image.php?x=4026&l=y_avdeev&resource=7b1bae79ae1c55dabfa8d20e17080b2a&1342306842114
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
