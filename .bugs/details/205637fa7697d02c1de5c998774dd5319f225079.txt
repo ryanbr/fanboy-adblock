@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thevine.com.au/entertainment/news/someone-is-coming-out-of-the-closet-on-may-5/
+
+
+[filters]
+http://cf.kampyle.com/k_button.js
+http://cf.kampyle.com/k_push.js
+##a[href^="http://www.kampyle.com/feedback_form/"]
+http://cf.kampyle.com/buttons/en/orange/en-orange-band-low-right.gif
+http://cf.kampyle.com/k_button.css
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
