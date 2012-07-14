@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.parents.com/baby-names/
+
+
+[filters]
+http://cdn.yb0t.com/js/yieldbot.intent.js
+
+
+[other]
+prevents widgets in sidebar from loading
+
+
+[comments]
+nitrox
