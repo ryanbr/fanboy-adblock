@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cricket.zapak.com/cricket-3D-Cricket-games-play-1171-11-19.php
+
+
+[filters]
+http://www.zapak.com/imgtracker.php?ref=/cricket-3D-Cricket-games-play-1171-11-19.php&ts=1342217441248
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
