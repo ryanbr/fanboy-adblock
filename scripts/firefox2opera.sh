@@ -14,6 +14,7 @@ TESTDIR="/tmp/ramdisk"
 ZIP="nice -n 19 /usr/local/bin/7za"
 NICE="nice -n 19"
 DATE="`date`"
+PERL="nice -n 19 /usr/bin/perl"
 
 
 # Make Ramdisk.
@@ -29,47 +30,57 @@ if [ ! -d "/tmp/ramdisk/" ]; then
   mkdir /tmp/ramdisk/opera/test; chmod 777 /tmp/ramdisk/opera/test
 fi
 
-# Our Opera test Dirstuff
+# Our Opera test Dirstuff (Temp DIR)
 #
-mkdir /tmp/ramdisk/opera/test; chmod 777 /tmp/ramdisk/opera/test
-rm -rf $TESTDIR/opera/test/*
+if [ ! -d "/tmp/ramdisk/opera/test/" ]; then
+  mkdir /tmp/ramdisk/opera/test; chmod 777 /tmp/ramdisk/opera/test
+  rm -rf $TESTDIR/opera/test/*
+fi
+
+# Docs
+# Take a copy of the files, move to Ramdisk, convert from Firefox to Opera, copy file over and compress
+#
 
 # Fanboy-Adblock.text
 # 
 cp -f $MAINDIR/fanboy-adblock.txt $TESTDIR/opera/test
-$NICE perl $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy-adblock.txt --nocss >/dev/null
+$PERL $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy-adblock.txt --nocss >/dev/null
 
-cp -f $TESTDIR/opera/test/urlfilter.ini $OPERATEST/urlfilter.ini2
-mv $OPERATEST/urlfilter.ini2 $OPERATEST/urlfilter.ini
-$ZIP a -mx=9 -y -tgzip $OPERATEST/urlfilter.ini.gz $OPERATEST/urlfilter.ini2 > /dev/null
+cp -f $TESTDIR/opera/test/urlfilter.ini $TESTDIR/opera/test/urlfilter.ini2
+$ZIP a -mx=9 -y -tgzip $TESTDIR/opera/test/urlfilter.ini.gz $TESTDIR/opera/test/urlfilter.ini2 > /dev/null
+cp -f $TESTDIR/opera/test/urlfilter.ini.gz $TESTDIR/opera/test/urlfilter.ini $OPERATEST
+# Remove any dead file
 rm -rf $TESTDIR/opera/test/*
 
 # Fanboy-Adblock+Tracking
 #
 cp -f $MAINDIR/r/fanboy+tracking.txt $TESTDIR/opera/test
-$NICE perl $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy+tracking.txt --nocss >/dev/null
+$PERL $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy+tracking.txt --nocss >/dev/null
 
-cp -f $TESTDIR/opera/test/urlfilter.ini $OPERATEST/tracking/urlfilter.ini2
-mv $OPERATEST/tracking/urlfilter.ini2 $OPERATEST/tracking/urlfilter.ini
-$ZIP a -mx=9 -y -tgzip $OPERATEST/tracking/urlfilter.ini.gz $OPERATEST/tracking/urlfilter.ini2 > /dev/null
+cp -f $TESTDIR/opera/test/urlfilter.ini $TESTDIR/opera/test/urlfilter.ini2
+$ZIP a -mx=9 -y -tgzip $TESTDIR/opera/test/urlfilter.ini.gz $TESTDIR/opera/test/urlfilter.ini2 > /dev/null
+cp -f $TESTDIR/opera/test/urlfilter.ini.gz $TESTDIR/opera/test/urlfilter.ini $OPERATEST/tracking
+# Remove any dead files
 rm -rf $TESTDIR/opera/test/*
 
 # Fanboy-Adblock+Tracking+Annoyances (Complete)
 #
 cp -f $MAINDIR/r/fanboy-complete.txt $TESTDIR/opera/test
-$NICE perl $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy-complete.txt --nocss >/dev/null
+$PERL $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy-complete.txt --nocss >/dev/null
 
-cp -f $TESTDIR/opera/test/urlfilter.ini $OPERATEST/complete/urlfilter.ini2
-mv $OPERATEST/complete/urlfilter.ini2 $OPERATEST/complete/urlfilter.ini
-$ZIP a -mx=9 -y -tgzip $OPERATEST/complete/urlfilter.ini.gz $OPERATEST/complete/urlfilter.ini2 > /dev/null
+cp -f $TESTDIR/opera/test/urlfilter.ini $TESTDIR/opera/test/urlfilter.ini2
+$ZIP a -mx=9 -y -tgzip $TESTDIR/opera/test/urlfilter.ini.gz $TESTDIR/opera/test/urlfilter.ini2 > /dev/null
+cp -f $TESTDIR/opera/test/urlfilter.ini.gz $TESTDIR/opera/test/urlfilter.ini $OPERATEST/complete
+# Remove any dead files
 rm -rf $TESTDIR/opera/test/*
 
 # Fanboy-Adblock+Tracking+Annoyances+Enhanced (Ultimate)
 #
 cp -f $MAINDIR/r/fanboy-ultimate.txt $TESTDIR/opera/test
-$NICE perl $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy-ultimate.txt --nocss >/dev/null
+$PERL $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR/opera/test/fanboy-ultimate.txt --nocss >/dev/null
 
-cp -f $TESTDIR/opera/test/urlfilter.ini $OPERATEST/ultimate/urlfilter.ini2
-mv $OPERATEST/ultimate/urlfilter.ini2 $OPERATEST/ultimate/urlfilter.ini
-$ZIP a -mx=9 -y -tgzip $OPERATEST/ultimate/urlfilter.ini.gz $OPERATEST/ultimate/urlfilter.ini2 > /dev/null
+cp -f $TESTDIR/opera/test/urlfilter.ini $TESTDIR/opera/test/urlfilter.ini2
+$ZIP a -mx=9 -y -tgzip $TESTDIR/opera/test/urlfilter.ini.gz $TESTDIR/opera/test/urlfilter.ini2 > /dev/null
+cp -f $TESTDIR/opera/test/urlfilter.ini.gz $TESTDIR/opera/test/urlfilter.ini $OPERATEST/ultimate
+# Remove any dead files
 rm -rf $TESTDIR/opera/test/*
