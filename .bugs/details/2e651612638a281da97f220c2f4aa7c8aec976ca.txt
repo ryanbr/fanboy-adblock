@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://horo.tochka.net/
+
+
+[filters]
+http://i0.tchkcdn.com/images/branding/PagesPantene/BgHeader.jpg
+http://i0.tchkcdn.com/images/branding/PagesPantene/BodyBg.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
