@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cockcheese.com/videos/butt-102--20347.html?utm_source=awn&utm_medium=cpc&utm_campaign=tube
+
+
+[filters]
+http://xnclips.com/images/banners/pxncash/swf/faf950x246.php?clickTag=http://tour1.filthyandfisting.com/track/MzEyLjEuMS4xLjQuMjI2Mi4wLjAuMA
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
