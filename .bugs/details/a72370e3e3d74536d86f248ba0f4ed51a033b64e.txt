@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.intelseek.com/default.asp?search=antique&submit=Search+&mode=allwords
+
+
+[filters]
+http://www.intelseek.com/intelSeekAds/aspbanner/images/banners/specialoffers468x60.gif
+http://www.intelseek.com/intelseekads/aspbanner/images/banners/1reseller_domains_120x240_v2.gif
+http://www.intelseek.com/intelseekads/aspbanner/images/banners/1reseller_hosting_120x240_bluebg.gif
+http://www.intelseek.com/intelseekads/aspbanner/images/banners/specialoffer.jpg
+http://www.intelseek.com/intelseekads/aspbanner/images/banners/specialoffer.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
