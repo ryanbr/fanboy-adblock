@@ -1,0 +1,32 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://adv.bigmir.net/
+
+
+[filters]
+http://adv.bigmir.net/css/main.css?g=main_part1
+http://adv.bigmir.net/css/main.css?g=main_part2
+http://adv.bigmir.net/img/buttons/button-search.png
+http://adv.bigmir.net/img/common/logo.png
+http://adv.bigmir.net/img/common/no-bg.gif
+http://adv.bigmir.net/img/common/select-cust-sprite.gif
+http://adv.bigmir.net/img/icons/arrow.gif
+http://adv.bigmir.net/img/icons/category_sprite.png
+http://adv.bigmir.net/img/icons/fawicon.ico
+http://adv.bigmir.net/img/icons/top-icon-sprite.png
+http://adv.bigmir.net/img/icons/vse_po_sprite.png
+http://adv.bigmir.net/js/dojo/app/AutocompleteTitle.js
+http://adv.bigmir.net/js/dojo/app/Config.js
+http://adv.bigmir.net/js/dojo/app/views/index/index.js
+http://adv.bigmir.net/js/dojo/dojo/NodeList-traverse.js
+http://adv.bigmir.net/js/dojo/dojo/dojo.js
+http://adv.bigmir.net/js/mapper.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
