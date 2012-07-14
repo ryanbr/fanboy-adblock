@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.timesonline.com
+
+
+[filters]
+http://bloximages.newyork1.vip.townnews.com/timesonline.com/content/tncms/live/components/core_services_manager/resources/scripts/tracker.js?_dc=1340179003
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
