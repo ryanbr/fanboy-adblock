@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bandwidthbar.co.za/
+
+[filters]
+http://bandwidthbar.co.za/images/bottom_ads.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
