@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cntraveller.com/
+
+
+[filters]
+http://cnda.condenast.co.uk/scripts/cn-advert.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
