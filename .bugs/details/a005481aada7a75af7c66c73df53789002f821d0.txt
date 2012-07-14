@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.astromeridian.ru/news/drugba_megdu_mughinami_i_genhinami.html
+
+
+[filters]
+http://reklama-centr.com/view2.php?title=%C4%F0%F3%E6%E1%E0%20%EC%E5%E6%E4%F3%20%EC%F3%E6%F7%E8%ED%E0%EC%E8%20%E8%20%E6%E5%ED%F9%E8%ED%E0%EC%E8%20%ED%E5%20%E8%F1%EA%EB%FE%F7%E0%E5%F2%20%F1%E5%EA%F1%F3%E0%EB%FC%ED%EE%E3%EE%20%E2%EB%E5%F7%E5%ED%E8%FF&referrer=&lang=en-US
+http://reklama-centr.com/ctr.php?ref=
+http://reklama-centr.com/pic/04.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
