@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gamenet.com/game/testcatch/
+
+
+[filters]
+http://www.inboxtag.com/tag.swf?cl=34&js=yes&isFlashCall=true&ti=600&pg=299&rnd=68969
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=13647
+
+[comments]
+fanboy
