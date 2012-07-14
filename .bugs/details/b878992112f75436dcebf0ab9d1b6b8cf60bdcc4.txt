@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mapsofindia.com/maps/maharashtra/mumbai-map.htm
+
+
+[filters]
+http://www.mapsofindia.com/widgets/tribalfusionboxadd.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
