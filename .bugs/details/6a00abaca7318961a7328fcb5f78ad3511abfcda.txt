@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://photos.mercurynews.com/2012/06/22/celeb-pix-spider-man-stars-very-cozy-on-red-carpet/#2
+
+
+[filters]
+http://extras.mnginteractive.com/live/js/omniture/SiteCatalystCode_H_17.js
+http://extras.mnginteractive.com/live/js/omniture/OmnitureHelper.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
