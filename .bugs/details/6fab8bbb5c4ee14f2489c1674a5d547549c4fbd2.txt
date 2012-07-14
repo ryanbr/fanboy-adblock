@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.centredaily.com/
+
+[filters]
+http://media.centredaily.com/mistats/mianalytics.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
