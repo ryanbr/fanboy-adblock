@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.princess.com/
+
+
+[filters]
+http://dpp750yjcl65g.cloudfront.net/m/princess/ae.js
+http://dpp750yjcl65g.cloudfront.net/m/princess/ae.live.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
