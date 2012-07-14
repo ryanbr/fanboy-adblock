@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dl.indiaresults.com/dl/
+
+
+[filters]
+http://dl.indiaresults.com/GLobal-images/social_icon_facebook.jpg
+http://dl.indiaresults.com/GLobal-images/social_icon_google_plus.jpg
+http://dl.indiaresults.com/GLobal-images/social_icon_linked_in.jpg
+http://dl.indiaresults.com/GLobal-images/social_icon_rss.jpg
+http://dl.indiaresults.com/GLobal-images/social_icon_twitter.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
