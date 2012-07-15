@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://imagebunk.com/image/263363_bikini.nakedamateurs.org-4895.jpg
+
+
+[filters]
+http://imagebunk.com/ads.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
