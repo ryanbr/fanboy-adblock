@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.4shared.com/video/R6DInXg9/FILM_Men_in_Black_3.htm
+
+
+[filters]
+http://www.adshost1.com/crossdomain.xml
+http://www.adshost1.com/ova/0a76e88fb639f63190ba7a681cf1b541.xml
+
+[other]
+prevents video from playing.
+
+
+[comments]
+nitrox
