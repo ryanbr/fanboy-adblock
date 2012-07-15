@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://snipmp3.com/?url=www.youtube.com%2Fwatch%3Fv%3DNOOvJTQlSlA
+
+
+[filters]
+http://snipmp3.com/images/ilivid-ad-s2.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
