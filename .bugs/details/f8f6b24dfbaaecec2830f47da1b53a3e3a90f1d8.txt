@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rutor.org/torrent/205644/polosatoe-schaste-01-12-iz-12-2012-satrip
+
+[filters]
+http://ghopolu.if.ua/js/1236.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
