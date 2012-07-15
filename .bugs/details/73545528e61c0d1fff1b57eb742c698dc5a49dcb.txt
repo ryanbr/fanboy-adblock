@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ru.redtram.com/
+
+
+[filters]
+http://rc.redtram.com/ru/i/www.google.com/0/-1/http://www.google.com/search?q=related:www.zman.com&hl=en&safe=off&prmd=imvns&ei=w_D_T4-dDcfp6wGC0f3zBw&start=90&sa=N&biw=1392&bih=433
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
