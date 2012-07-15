@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.frendz4m.com/forum/showthreads-27-0-5212864+-List-of-Rules-Breakerschk-b4-posting-updated.htm
+
+
+[filters]
+http://vserv.bc.cdn.bitgravity.com/b.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
