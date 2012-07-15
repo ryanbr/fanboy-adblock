@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.whataboutu.com/list_Anna+Wintour~4611.html
+
+
+[filters]
+http://partners.visiads.com/?op=jscript&page=http%3A%2F%2Fwww.whataboutu.com%2Flist_Anna%2BWintour%7E4611.html%3Fad_uzid%3D31&uid=13&z=10&id=_54136&uzid=31&zi=1&rand=174298869
+http://partners.visiads.com//js/scroll.js
+http://partners.visiads.com/?op=jscript&page=http%3A%2F%2Fwww.whataboutu.com%2Flist_Anna%2BWintour%7E4611.html%3Fad_uzid%3D8&uid=9&z=8&id=_220866&uzid=8&zi=0&dailydigs=1&rand=188669052
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
