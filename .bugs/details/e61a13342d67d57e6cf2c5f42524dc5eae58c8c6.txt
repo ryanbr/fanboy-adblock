@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.medsovet.info/
+
+
+[filters]
+http://www.medsovet.info/clck/v2/js.php?part=1&r=981
+http://www.medsovet.info/clck/v2/js.php?part=2&r=3334
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
