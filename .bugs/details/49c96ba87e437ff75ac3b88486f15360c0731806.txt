@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rusmed.ru/annonce/show/2382/Trevozhnost_u_detey
+
+
+[filters]
+http://www.rosmed.ru/_get_teasers.php
+http://www.rosmed.ru/_get_teasers_plain.php?count=1&img_width=40
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
