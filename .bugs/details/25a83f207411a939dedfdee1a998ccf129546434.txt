@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://doska.zahav.ru/wfADViewer.aspx?cat=0
+
+
+[filters]
+http://doska.zahav.ru/ClientScripts/statistics_zahav.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
