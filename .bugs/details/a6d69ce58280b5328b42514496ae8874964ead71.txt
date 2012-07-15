@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.trud.ua/rabota_prof-sistemnyj%20administrator-kiev-it_kompyutery_internet.html
+
+
+[filters]
+http://www.trud.ua/images/banners/240-350_banner.swf
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
