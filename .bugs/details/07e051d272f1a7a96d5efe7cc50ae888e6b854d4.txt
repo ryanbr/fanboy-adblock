@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rapgenius.com/Kanye-west-cold-lyrics
+
+
+[filters]
+http://spots.nowspots.com/assets/tags/nowspots.js
+http://static.nowspots.com/assets/tracking-4de64dec1e4612f47664a5d7e82f6fcb.js
+http://t.nowspots.com/tracker?a=4e23c7e917eea3000100001a&s=4e1a1f9753f6730001000067&t=r&cb=1342349333
+http://spots.nowspots.com/serve/4e23c7e917eea3000100001a?&preview=false
+http://static.nowspots.com/assets/blank-5b6af27a879c4abc08d551cd810f9d85.gif
+http://static.nowspots.com/assets/log-5676a69aa0754672ae3b2033f2577d31.js
+http://static.nowspots.com/assets/serve-c7a31046429d78654d317e88d29f3ab6.js
+http://static.nowspots.com/grid/assets/a3c024cf7d85e36ca079e5dd68bf64f8.css
+http://static.nowspots.com/grid/w%5B48%5D/m%5Bfill%5D/attachments/3ac1861e151ec71e73bf8ad5dd3ef723.png
+http://static.nowspots.com/images/single-spot/bg-dark.jpg
+http://static.nowspots.com/images/single-spot/logo-mask-dark.png
+http://static.nowspots.com/images/single-spot/twitter-controls-dark.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
