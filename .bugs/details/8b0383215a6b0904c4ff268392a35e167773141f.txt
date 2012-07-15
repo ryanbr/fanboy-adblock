@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://store.americangirl.com/shop/catreq.php
+
+
+[filters]
+https://store.americangirl.com/store/includes/webtrends75_ag.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
