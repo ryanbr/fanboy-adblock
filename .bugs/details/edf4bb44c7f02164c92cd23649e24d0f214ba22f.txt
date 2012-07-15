@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.delfi.ua/about/
+
+
+[filters]
+http://ad004.ru/files/swfobject.js
+http://ad004.ru/code/vknotifier1.php?id=562&adf_in=1&vk_t=12&adv_ids=
+http://ad004.ru/code/vkshow1.php?id=562
+http://ad004.ru/files/notifier_close.gif
+http://ad004.ru/uploads/567.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
