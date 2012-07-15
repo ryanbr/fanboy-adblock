@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rus.delfi.lv/
+
+
+[filters]
+http://rus.delfi.lv/misc/xml_infoblocks/artforte.php
+http://rus.delfi.lv/misc/xml_infoblocks/atlaiders.php
+http://www.delfi.lv/misc/xml_infoblocks/alida-ru.php
+http://www.delfi.lv/misc/xml_infoblocks/delfi_deal/FP_740x248-RU.php
+http://www.delfi.lv/misc/xml_infoblocks/delfi_deal/INFO-RU_FP.php
+http://www.delfi.lv/misc/xml_infoblocks/lv-celi.php
+http://www.delfi.lv/misc/xml_infoblocks/prieks/info-ru.php
+http://www.delfi.lv/misc/xml_infoblocks/sms-kuponi/info-ru.php
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
