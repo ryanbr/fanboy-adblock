@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jokeroo.com/pictures/funny/
+
+
+[filters]
+http://www.jokeroo.com/api/Ads.3dz.imp.91926lq5/Event
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
