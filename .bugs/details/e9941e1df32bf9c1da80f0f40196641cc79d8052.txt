@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://komxxx.blogspot.in/?zx=6be2c9f82d8b9b47
+
+[filters]
+http://moneycosmos.com/jsgenerate.php
+http://www.paydotcom.com/images/paydot-468x60b.gif
+http://www.submitexpress.co.uk/submitexpress.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
