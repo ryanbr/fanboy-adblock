@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://small-breasted-teens.com/
+
+
+[filters]
+http://247teencash.net/banner/master.shoot/120x400_01.jpg
+http://247teencash.net/banner/zora.shoot/120x400_03.jpg
+http://banner.247teencash.net/pvc.nextdoor/120x100_2.gif
+http://www.just-nude.com/images/ban_just8.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
