@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://movies.netflix.com/WiPlayer?movieid=*&trkid=*&pt_request_id=*&pt_rank=*&pt_row=*&pt_location=*
+
+
+[filters]
+http://inline.ibryte.com/js/inlinecommon/634655328910000000
+http://contentserv.brandaffinity.net/engagement/ice/plugin.js?VER=*&DID=*
+http://s.nsdsvc.com/App/DddWrapper.swf?c=*
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
