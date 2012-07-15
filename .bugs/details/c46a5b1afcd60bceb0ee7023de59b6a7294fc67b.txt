@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mattel.com/videos/26422
+
+
+[filters]
+http://tracker.mattel.com/tracker.aspx?site=mattel&suppress=true
+http://tracker.mattel.com/?mattel&suppress
+
+[other]
+prevents video from playing
+
+
+[comments]
+nitrox
