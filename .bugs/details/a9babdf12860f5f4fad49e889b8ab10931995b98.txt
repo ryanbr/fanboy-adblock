@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.snipershide.com/forum/ubbthreads.php?ubb=*
+
+[filters]
+http://delivery.tacticalrepublic.com/w/1.0/afr?auid=112933&cb=INSERT_RANDOM_NUMBER_HERE
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
