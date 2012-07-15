@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://streamcloud.eu/a2sch6n6ikq1/thecloser-s06e05rp.avi.html
+
+
+[filters]
+http://streamcloud.eu/a2sch6n6ikq1/Ngqd5oL/adimage.1
+
+[other]
+anti-adblock. Reduces the waiting time by half if the filter is whitelisted.
+
+
+[comments]
+nitrox
