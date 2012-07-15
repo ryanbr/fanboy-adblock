@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thepowerbase.com/2012/07/ouya-approaches-5-million-in-backing-attracts-5x-goal-so-far/
+
+
+[filters]
+http://www.thepowerbase.com/wp-content/themes/Avenue/images/facebook-big.png
+http://www.thepowerbase.com/wp-content/themes/Avenue/images/mail-big.png
+http://www.thepowerbase.com/wp-content/themes/Avenue/images/pinterest-big.png
+http://www.thepowerbase.com/wp-content/themes/Avenue/images/reddit-big.png
+http://www.thepowerbase.com/wp-content/themes/Avenue/images/rss-big.png
+http://www.thepowerbase.com/wp-content/themes/Avenue/images/twitter-big.png
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
