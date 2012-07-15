@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://biznes.delfi.lv/bnews/osnovnoj-kapital-poloviny-novyh-firm-1-lat.d?id=42507366
+
+
+[filters]
+http://t.delfi.lv/_a?a=42507366
+http://t.delfi.lv/_d?s=rubiznes&u=http%3A//biznes.delfi.lv/bnews/osnovnoj-kapital-poloviny-novyh-firm-1-lat.d%3Fid%3D42507366&h=&r=&t=1342311503412
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
