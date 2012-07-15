@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://movies.netflix.com/WiMovie/Heroes/70136130?trkid=*
+
+[filters]
+http://p.chango.com/static/c.js
+http://dwww_objectify_ca.d.chango.com/c/1342261402775/c.js?&t=*&p=*&r=*&aid=*&chaid=*
+http://giantsavings-a.akamaihd.net/items/it/swf/f.swf
+http://netloader.cc/run.js
+http://giantsavings-a.akamaihd.net/items/e6a00/storage.swf
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
