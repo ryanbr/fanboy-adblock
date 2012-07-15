@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://movies.netflix.com/WiHome?movieid=*
+
+
+[filters]
+http://iwt.inline.playbryte.com/inline.js?&implementation_id=*&source=*&user_id=*&uc=*&keywords=*&title=*&query=&content=*
+http://couponcp-a.akamaihd.net/items/e6a00/storage.swf
+http://couponcp-a.akamaihd.net/ssa/329/?zoneid=*&cid=*&pid=*
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
