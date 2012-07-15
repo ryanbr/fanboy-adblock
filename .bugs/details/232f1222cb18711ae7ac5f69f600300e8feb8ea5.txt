@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bloomberg.com/tv/
+
+
+[filters]
+http://opf.ooyala.com/3rdparty/comscore_other_module_010.swf
+http://opf.ooyala.com/3rdparty/comscore_other_module_009.swf
+http://ad.doubleclick.net/pfadx/blp.video/live2;sz=1x1;tile=1;tp_video=null;dcmt=text/html;ord=6776217816566
+
+
+
+[other]
+Allow the video to play, needs US ip
+
+[comments]
+fanboy
