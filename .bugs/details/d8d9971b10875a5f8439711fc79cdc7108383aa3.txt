@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.weather.com/news/drought-disaster-photos-20120713
+
+[filters]
+http://s.imwx.com/img/common/icons/wx-social-media.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboiy
