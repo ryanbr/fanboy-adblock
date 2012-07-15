@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://torrents.to/sites/music/jamendo
+
+
+[filters]
+http://adtgs.com/catfish.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
