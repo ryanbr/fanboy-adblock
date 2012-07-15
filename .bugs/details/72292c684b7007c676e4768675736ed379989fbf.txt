@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pogoda.ngs.ru/
+
+
+[filters]
+http://pogoda.ngs.ru/cache/uzxwz/jpaq/4cce961ddee096c0414bc906ede35ded_405.swf?pid=26&link1=%2Fwuzlqqzjnw__nvoqqzmt_iz_va
+http://pogoda.ngs.ru/hzqpz/khkl_vqrr/wmybuy/smspchmcz/i/f234bf721cbb0cd36eb0923a1ea5e2fc_1210.swf?pid=1990&link1=%2Fwuuqqqzjnw__v_sie_jm_sror_oa
+http://pogoda.ngs.ru/news/jjwuu/a/_xt/rzbvzbcfz/_uoqqsp/1facbcca74e8f3650fc5743e1ae839b1_134.swf?pid=25&link1=%2Fwkztlgwjnw_bfvi_udk_amrsq
+http://pogoda.ngs.ru/news/jzxg/yp/d/79cf24ef8ac1cb2c56c53d66e3b6cb19_130832.swf?pid=24&link1=%2Fwkgwxlzjnw_czym_otn_iroba
+http://pogoda.ngs.ru/news/xuqrg/hfmhnkucji/l_izirbvxstcx/fe6641e8204b91fbd8a2bc171dff9b82_54109.swf?pid=27&link1=%2Fwuqqvvjjnw_tq_pnhxblmxuq
+http://pogoda.ngs.ru/ohgc/nycebhp/386f86e3d6dd35de2964c1a7f14e4781_115.swf?pid=23&link1=%2Fwbzqyywjnw_xsbk_rwcm_cwqq
+http://pogoda.ngs.ru/xuytb/hizkfrur/cb5b938bc913bf70bc1b5293be64b111_124.swf?pid=30&link1=%2Fwyyhxlzjnw_ilvozso_ed_tda
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
