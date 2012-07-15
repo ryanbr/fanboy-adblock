@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://reporter.delfi.lv/news/witness/priezzhajte-k-nam-na-ko-na-kol-v-kraslavu-v-obschem-priezzhajte.d?id=42506018
+
+
+[filters]
+http://cdn1.citylife.lv/banners/iframe.html?source=delfi&lang=rus&banner=260x210&count=2&folder=citylife2
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
