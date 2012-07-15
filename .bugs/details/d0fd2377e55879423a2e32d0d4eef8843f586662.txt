@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://shop.mattel.com/family/index.jsp?categoryId=3810362
+
+
+[filters]
+http://stats.clear-media.com/js
+http://stats.clear-media.com/in.php?site_id=140415&res=1600x1200&lang=en&type=pageview&href=%2Ffamily%2Findex.jsp%3FcategoryId%3D3810362&title=Mattel%20Games%20-%20Find%20Blokus%2C%20Apples%20to%20Apples%20and%20Balderdash%20Games&ref=&jsuid=1189764175&mime=js&x=0.40020814282366
+http://cclickvidservgs.com/mattel/cclick.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
