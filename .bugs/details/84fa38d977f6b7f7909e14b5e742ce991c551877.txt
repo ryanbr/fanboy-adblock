@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://travel.yahoo.com/p-travelguide-191501967-las_vegas_vacations-i
+
+
+[filters]
+http://us.bc.yahoo.com/b?P=0d__h9j8ergl6S4AT_eWQgXqSAuMvlAD5AcAAGAx&T=18nt5cfvt%2fX%3d1342432263%2fE%3d191501967%2fR%3dtravel%2fK%3d5%2fV%3d1.1%2fW%3dJ%2fY%3dYAHOO%2fF%3d1032248451%2fH%3dY2FjaGVoaW50PSJZVFJBVkVMIiBzZXJ2ZUlkPSIwZF9faDlqOGVyZ2w2UzRBVF9lV1FnWHFTQXVNdmxBRDVBY0FBR0F4IiBzaXRlSWQ9IjQ0NjcwNTEiIHRTdG1wPSIxMzQyNDMyMjYzMDY5ODU0IiA-%2fS%3d1%2fJ%3d7CCFB444&U=12bidgbc1%2fN%3dK52QDUoGYrI-%2fC%3d-1%2fD%3dNT1%2fB%3d-1%2fV%3d0&U=12d0v7o0c%2fN%3dMJ2QDUoGYrI-%2fC%3d-1%2fD%3dFSRVY%2fB%3d-1%2fV%3d0&U=13fuibpaf%2fN%3dL52QDUoGYrI-%2fC%3d774647.14387566.14245712.12549985%2fD%3dSIP%2fB%3d6226706%2fV%3d1&U=13e3prai1%2fN%3dJ52QDUoGYrI-%2fC%3d236957.2521392.14722891.2459149%2fD%3dFOOT%2fB%3d6582277%2fV%3d1&U=12c8eplit%2fN%3dLJ2QDUoGYrI-%2fC%3d-1%2fD%3dRICH%2fB%3d-1%2fV%3d0&U=12cncln9q%2fN%3dJp2QDUoGYrI-%2fC%3d-1%2fD%3dFCUE%2fB%3d-1%2fV%3d0&Q=0&O=0.865465471552157
+http://csc.beap.bc.yahoo.com/yi?bv=1.0.0&bs=(128hhkj74(gid$0d__h9j8ergl6S4AT_eWQgXqSAuMvlAD5AcAAGAx,st$1342432263069854,v$1.0))&t=J_3-D_3&al=(as$12dpjh24e,aid$rJQi9kPDmLM-,bi$1200811551,ct$25,at$H)&s=0&r=0.1457974536523583
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=13732
+
+
+[comments]
+fanboy
