@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://stagevu.com/video/gozpanhmvxjb
+
+
+[filters]
+http://50.7.243.123/nmx/matryoshka.php?type=leaderboard&country=&agency=
+http://50.7.243.123/nmx/matryoshka.php?type=topmedrect&country=&agency=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
