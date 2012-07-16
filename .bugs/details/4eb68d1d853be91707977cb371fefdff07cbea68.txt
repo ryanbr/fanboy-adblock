@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.globester.com/
+
+
+[filters]
+http://www.globester.com/js/track.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
