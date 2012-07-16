@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cheapflights.co.uk/flight-guide/
+
+
+[filters]
+http://az138012.vo.msecnd.net/v-5/scripts/dcs-red-tag3-RJshfg.js
+http://az138012.vo.msecnd.net/v-5/scripts/webtrends-WxGOqA.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=13737
+
+[comments]
+fanboy
