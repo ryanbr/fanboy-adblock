@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vayama.com/results/index.jsp?s=3908205&tab=1&startItinId=0&cb=4558454570
+
+
+[filters]
+http://cdn-us.vayama.com/js/trackers/s_codeV2.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
