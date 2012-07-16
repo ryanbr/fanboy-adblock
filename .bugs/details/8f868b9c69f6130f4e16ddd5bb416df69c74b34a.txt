@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://yearofopensource.net/2012/07/03/how-i-explained-it-to-my-mum/	
+
+
+[filters]
+http://s1.wp.com/_static/??/wp-includes/js/jquery/jquery.js,/wp-content/blog-plugins/loggedout-follow/widget.js,/wp-includes/js/spin.js,/wp-includes/js/jquery/jquery.spin.js,/wp-includes/js/comment-reply.js,/wp-content/themes/pub/yoko/js/smoothscroll.js?m=1339788006j
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
