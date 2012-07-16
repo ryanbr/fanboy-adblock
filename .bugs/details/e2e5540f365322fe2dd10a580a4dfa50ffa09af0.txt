@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://travel.travelocity.com/trips/TTDateLessDetail.do?Service=TRAVELOCITY&propertyId=44204&leavingFrom=JFK&tab=features
+
+
+[filters]
+http://i.travelpn.com/js/WRc6.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
