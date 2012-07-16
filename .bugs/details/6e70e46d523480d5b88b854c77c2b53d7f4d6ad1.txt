@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jetblue.com/
+
+
+[filters]
+http://www.jetblue.com/js/SetSabreAnalyticsCookie.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
