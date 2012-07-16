@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hotels.skyscanner.com/City/Marion.htm
+
+[filters]
+http://www.skyscanner.com/trck/hotel/request.ashx?lang=en&pageReferrer=http%3A%2F%2Fwww.skyscanner.com%2Fflights%2Fus%2Fmwa%2Fcheapest-flights-from-united-states-to-marion.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
