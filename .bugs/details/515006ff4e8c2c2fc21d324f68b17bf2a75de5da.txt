@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.airfarewatchdog.com/cheap-flights/to-phoenix-arizona/815/
+
+
+[filters]
+http://j.slimg.com/js/AWD/Tracking.nano.js?v=20110228
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
