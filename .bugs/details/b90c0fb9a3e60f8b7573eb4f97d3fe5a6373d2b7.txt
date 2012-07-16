@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://xhamster.com/
+
+
+[filters]
+http://cache.imagehost123.com/adbucks/tags/playerad.js
+
+###br_ad
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
