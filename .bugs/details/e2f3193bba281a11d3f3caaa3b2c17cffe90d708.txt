@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.delish.com/recipes/cooking-recipes/how-to-store-produce#slide-12
+
+
+[filters]
+http://www.delish.com/cm/shared/scripts/refreshads-v3.js
+http://www.delish.com/cm/delish/tmpl_images/optimized/skyscraper_ad_bg.png
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13722
+
+
+[comments]
+fanboy
