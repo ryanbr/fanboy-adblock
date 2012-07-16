@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hotels.farecompare.com/hotel/?refid=4438&rs_hid=50570
+
+
+[filters]
+http://hotels.farecompare.com/trackstar/ts.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
