@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.weatheroffice.gc.ca/canada_e.html
+
+
+[filters]
+http://www.weatheroffice.gc.ca/banner/images/EAP-Generic_e.jpg
+http://www.weatheroffice.gc.ca/banner/images/EAP_-_Resp_Resource_Dev_-_195x70_e.jpg
+http://www.weatheroffice.gc.ca/banner/images/War_of_1812_-_195x70_e.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
