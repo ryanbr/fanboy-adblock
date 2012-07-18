@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+ttp://www.quotemedia.com/
+
+
+[filters]
+http://pub45.bravenet.com/counter/code.php?id=369807&usernum=3796878239&cpv=2
+http://pub45.bravenet.com/counter/show.php?id=369807&usernum=3796878239&cpv=2&ref=http%3A//www.google.com/search%3Fq%3Drelated%3Awww.investorplace.com%26hl%3Den%26safe%3Doff%26prmd%3Dimvns%26ei%3D3HkGUO24HaXr0gH3itHQCA%26start%3D10%26sa%3DN%26biw%3D1392%26bih%3D433&sw=1440&sh=900&sc=24
+
+
+
+
+[other]
+http://www.quotestream.com/
+
+
+[comments]
+fanboy
