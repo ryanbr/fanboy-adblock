@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hcareers.com/us/resourcecenter/tabid/306/articleid/431/default.aspx
+
+
+[filters]
+http://www.hcareers.com/public/common/right_ads.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
