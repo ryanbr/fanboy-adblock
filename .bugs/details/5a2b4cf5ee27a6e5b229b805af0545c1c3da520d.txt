@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tv3play.lv/program/kobra16
+
+[filters]
+http://e2.emediate.se/eas?EAScu_keys=2lv_preroll,2lv_preroll2,2lv_blip,2lv_info,2lv_sponsorship;ty=video;VMaxd=65;encoding=utf-8;cat1=2lv_kobra16_16sezona;kw=Kobra+16.sezona%2C+3.serija;eas_uid=1342611263134261117
+http://e2.emediate.se/eas?cu=12822&camp=84490&no=155138&ord=1342611725&EASevent=Start
+http://e2.emediate.se/eas?cu=12822::camp=84490::no=155138::encoding=utf-8::cat1=2lv_kobra16_16sezona::kw=Kobra+16.sezona%2C+3.serija::eas_uid=1342611263134261117::uuid=9960b5e2-d0cd-11e1-b80f-00259032d740::VMaxd=65::Vd=26::cre=log
+http://e2.emediate.se/eas?cu=14008;cre=mu;js=y;target=blank&cat1=2lv_kobra16_16sezona&cat2=kobra16&cat3=16sezona&kw=276947
+http://e2.emediate.se/eas?cu=16006;cre=mu;js=y;target=blank&cat1=2lv_kobra16_16sezona&cat2=kobra16&cat3=16sezona&kw=276947
+http://e2.emediate.se/crossdomain.xml
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
