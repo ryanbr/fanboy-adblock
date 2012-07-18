@@ -1,9 +1,12 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v1.73 (9/07/2012)
+# Fanboy Adblock list grabber script v1.74 (9/07/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
+#
+# Version history
+# 1.74 Store repo in ramdisk to avoid unnessary writes (Currently disabled)
 #
 # Variables for directorys
 #
@@ -35,6 +38,18 @@ if [ ! -d "/tmp/ramdisk/" ]; then
   mkdir /tmp/ramdisk/opera; chmod 777 /tmp/ramdisk/opera
   mkdir /tmp/ramdisk/opera/test; chmod 777 /tmp/ramdisk/opera/test
 fi
+
+# Fallback if ramdisk.sh isn't excuted. (mercurial repo in ramdisk)
+#
+#if [ ! -d "/tmp/hg-ramdisk/" ]; then
+#  rm -rf /tmp/hg-ramdisk/
+#  mkdir /tmp/hg-ramdisk; chmod 777 /tmp/hg-ramdisk
+#  mount -t tmpfs -o size=110M tmpfs /tmp/hg-ramdisk/
+#  cd /home/fanboy/google/fanboy-adblock-list/
+#  $NICE $HG pull >> /dev/null
+#  $NICE $HG update >> /dev/null
+#  cp -rf /home/fanboy/google/fanboy-adblock-list/ /tmp/hg-ramdisk/
+#fi
 
 # Make sure the shell scripts are exexcutable, all the time..
 #
