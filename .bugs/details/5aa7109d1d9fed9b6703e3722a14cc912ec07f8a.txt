@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://aol.careerbuilder.com/Jobseeker/Jobs/JobResults.aspx?CatalystID=JS_AOL_MainQSBox&SiteID=cbaol003&lr=cbaol&s_rawwords=&s_freeloc=
+
+
+[filters]
+http://leadback.advertising.com/adcedge/lb?site=695501&betr=careerbuilder_cs=[+]1[720],3[8760]
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=13797
+
+
+[comments]
+fanboy
