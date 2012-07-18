@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sexxxdoll.com/22010/Hot_Teens_Get_Fucked_In_The_Ass.html
+
+
+[filters]
+http://tools.gfcash.com/flash/index.php?site=muffx&size=300250&version=e&video=video2&nats=http://join.muffx.com/track/MzAwMDgxMS4xLjE2LjQ1LjMuMC4wLjAuMA
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
