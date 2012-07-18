@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.independent.co.uk/news/uk/politics/ministers-line-up-to-lobby-for-olympic-billions-7953433.html#
+
+[filters]
+http://ad.doubleclick.net/adj/indy.uk/indy_indyhome_partners;target=psmpu2;sz=300x250;kw=7953433;ord=884696273;gs_cat=DEFAULT;rsi=;?
+http://ad.doubleclick.net/adj/indy.uk/indy_indyhome_partners;target=ps;sz=300x250;kw=7953433;ord=884696273;gs_cat=DEFAULT;rsi=;?
+
+[other]
+Allow facebook widget on the right, in the main list.
+https://adblockplus.org/forum/viewtopic.php?f=2&t=10664
+
+[comments]
+fanboy
