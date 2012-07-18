@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eurojobs.com/
+
+
+[filters]
+http://t7.aqtracker.com/cgi-bin/asp/tagx/1342606092129/BE47LERK3JU9LCSQ54NL?1=A1043.420258BB0228D548DD&2=http%3A//www.eurojobs.com/&4=http%3A//www.google.com/search%3Fq%3Drelated%3Awww.jobsite.co.uk%26hl%3Den%26safe%3Doff%26prmd%3Dimvns%26ei%3DC4sGUKeuL-XJ0QGvw-ywCA%26start%3D10%26sa%3DN%26biw%3D1392%26bih%3D433&101=res=1440x900
+http://t7.aqtracker.com/asp/aq_tag.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
