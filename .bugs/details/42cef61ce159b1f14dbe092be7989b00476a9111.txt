@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.customerservicejobs.com/job.asp?id=55152538&aff=B90F0286-0C89-4DF9-A206-246C07CCCF1E
+
+
+[filters]
+http://data.beyond.com/BydContentSrc.aspx?f_jscript=Y&s_resulttypecode=addwzn&s_membershiptypeidlist=20004&s_industryidlist=180&s_siteidlist=411434&s_sitegroupidlist=363909&s_zoneAlias=Display_Job-Export-Free-Page_Bottom_Text_Position-1&s_taglist=B90F0286-0C89-4DF9-A206-246C07CCCF1E&r_sitepath=http://www.customerservicejobs.com&r_industryid=180&r_keywords=Pizza+Hut+Assistant+General+Manager+Job&r_partnerid=411434&r_partnersitename=CustomerServiceJobs.com&t_pgid=459401451045464523&t_sn=/job.asp&t_httph=www.customerservicejobs.com&t_httpurl=/job.asp&t_httpqs=id=55152538&aff=B90F0286-0C89-4DF9-A206-246C07CCCF1E&t_sgid=600637814355436795&t_ws=COLO-WFE07&t_ugid=825141401155424526&t_bot=N&f_ip=11.118.206.188&ud=
+http://data.beyond.com/t/ugid.aspx
+http://www.customerservicejobs.com/common/track/trackgeneral.asp?tcid=58&pgid=459401451045464523&ttid=1&rtid=1&rid=55152538&tl1=JobType&tv1=APPREQEXT&src=F19
+http://www.customerservicejobs.com/common/track/trackgeneral.asp?tcid=80&pgid=459401451045464523&ttid=1&rtid=1&rid=55152538&tl1=JobType&tv1=APPREQEXT&src=EXPORT
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
