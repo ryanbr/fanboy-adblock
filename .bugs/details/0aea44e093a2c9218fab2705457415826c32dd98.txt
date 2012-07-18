@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://theync.com/underground-options.php
+
+
+[filters]
+http://annamaria.estrack.net/tramp?ref=isaveu
+http://theync.com/_adbanners.php?id=11
+http://theync.com/_adbanners.php?id=14
+http://theync.com/_adbanners.php?id=16
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
