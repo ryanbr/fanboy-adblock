@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.youtube.com/watch?v=px6A9ucXBHc
+
+
+[filters]
+https://p2-did948w9sgh-lfkths9vhs-if-v6exp5-v4.metric.gstatic.com/v6exp3/iframe.html
+
+
+[other]
+Note: It seems to appear on regions where youtube has a CDN at local ISP.
+
+[comments]
+nitrox
