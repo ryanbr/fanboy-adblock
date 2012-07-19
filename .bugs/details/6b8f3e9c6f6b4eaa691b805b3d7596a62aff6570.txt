@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://clip.vn/watch/Than-phan-that-cua-Co-be-cam-ban-banh-bao-xinh-dep,O0gA?fm=fea-c
+
+
+[filters]
+http://clip.vn/ajax/showCodeads?id=123867
+http://clip.vn/ajax/showCodeads?id=123869
+http://clip.vn/ajax/showCodeads?id=123879
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
