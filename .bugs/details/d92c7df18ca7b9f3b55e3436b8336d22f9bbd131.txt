@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tinhoc24h.info/
+
+
+[filters]
+http://hoaphim.net/the-loai/8/phim-tam-ly/page-1.html
+
+
+
+[other]
+popup
+
+[comments]
+fanboy
