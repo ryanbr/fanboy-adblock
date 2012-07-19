@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.evo.co.uk/videos/trackdayvideos/285085/tiffs_track_battle_mercedes_sls_vs_aston_martin_dbs.html
+
+
+[filters]
+http://inskin.vo.llnwd.net/o21/ikit/default/js/3rdparty/swfobject_2x.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
