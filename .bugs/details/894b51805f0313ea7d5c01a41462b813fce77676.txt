@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.phimsexviet.info/2012/07/mot-em-cuc-cute-thoi-ken-nghe-thuat.html
+
+
+[filters]
+http://tourdulichre.com/tourdulichre.html
+http://teenvn.net/teenvn.html
+http://tailieuquy.com/cacche/minhhang.png
+http://sieumang.com/sieumang.html
+http://lop12x.com/popup.js
+http://bichhuyetkiem.net/banner_phimxxxviet.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
