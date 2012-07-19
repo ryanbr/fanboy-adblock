@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.watch-movies.net.in/link/the-dark-knight-rises-2012/
+
+[filters]
+http://www.watch-movies.net.in/ad/bottom.php
+http://www.watch-movies.net.in/ad/middle.php
+http://www.watch-movies.net.in/ad/right2.php?c=4
+http://www.watch-movies.net.in/ad/top.php
+http://www.watch-movies.net.in/ad/top2.php
+http://www.watch-movies.net.in/ad/top3.php
+http://www.watch-movies.net.in/ad/top_right.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
