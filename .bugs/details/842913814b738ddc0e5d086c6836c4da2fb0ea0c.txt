@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://elsolonline.com/
+
+
+[filters]
+http://elsolonline.com/archivos/banners/bannerveaargentaelsol644x70_1936870.swf
+http://elsolonline.com/archivos/banners/casino_1925503.swf
+http://elsolonline.com/archivos/banners/comerciojusto-elsol644x70_1914857.swf
+http://elsolonline.com/archivos/banners/epreelsol290x70_1925504.swf
+http://elsolonline.com/archivos/banners/gllen1_1925505.swf
+http://elsolonline.com/archivos/banners/godoycruzelsol_644x70vacaciones2012_1922515.swf
+http://elsolonline.com/archivos/banners/lujanbannersol_1914858.swf
+http://elsolonline.com/archivos/banners/maipusol_1914858.swf
+http://elsolonline.com/archivos/banners/nevadavacacioens_1925265.swf
+http://elsolonline.com/archivos/banners/osep-vacaciones_1925004.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
