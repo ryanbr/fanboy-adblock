@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://softvnn.com/forum/threads/264974-MediaFire-All-Bootable-Live-CD-Vista-Win-PE-XP
+
+
+[filters]
+https://www.googleapis.com/generate_204
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
