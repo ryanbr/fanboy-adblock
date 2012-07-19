@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.worldreviewer.com/travel-guides/wildlife-conservation/kuala-gandah-elephant-conservation-centre/63023/
+
+
+[filters]
+http://www.worldreviewer.com/_search/tracker.png?url=http%253A%252F%252Fwww.worldreviewer.com%252Ftravel-guides%252Fwildlife-conservation%252Fkuala-gandah-elephant-conservation-centre%252F63023
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
