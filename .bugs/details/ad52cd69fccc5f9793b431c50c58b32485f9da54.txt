@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://clip.vn/watch/Cho-do-kich-duc-o-thu-do,hA1-?fm=toc-c
+
+
+[filters]
+http://static.vclick.vn:8181/www/images/813fbf9d1931b309ef32b4a75ffd0122.swf
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
