@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pornoxit.net/bolshie-siski/page/2/
+
+
+[filters]
+http://www.broils.ru/js/code.php?id=4011&rc=3000
+http://www.rulerclick.ru/_files/tizers/t_48_13420099941209.jpg
+http://www.rulerclick.ru/_files/tizers/t_49_1342010143643.jpg
+http://www.rulerclick.ru/_files/tizers/t_8_13384829978001.gif
+http://www.rulerclick.ru/_files/tizers/t_9_13390755709660.jpg
+http://www.rulerclick.ru/code/tizer/?sid=174&bid=262
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
