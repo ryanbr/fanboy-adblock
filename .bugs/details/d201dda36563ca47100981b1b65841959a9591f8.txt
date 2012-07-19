@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ausdroid.net/2012/07/19/vodafone-nexus-s-jelly-bean-rollout-halted-the-challenge-may-not-be-over/
+
+
+[filters]
+http://ausdroid.net/wp-content/themes/Ausdroid/images/rss-follow.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
