@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://play.novatv.bg/program/shoutonaivaniandrei
+
+
+[filters]
+http://e2.emediate.se/crossdomain.xml
+http://e2.emediate.se/eas?EAScu_keys=1bg_preroll,1bg_preroll2,1bg_blip,1bg_info,1bg_sponsorship;ty=video;VMaxd=50;encoding=utf-8;cat1=1bg_shoutonaivaniandrei_sezon2;kw=SHOUTO+NA+IVAN+I+ANDREI;eas_uid=1342611263134261117
+http://e2.emediate.se/eas?cu=12089;cre=mu;js=y&cat1=1bg_shoutonaivaniandrei_sezon2&cat2=shoutonaivaniandrei&cat3=sezon2&kw=247828
+http://e2.emediate.se/eas?cu=12699::camp=82873::no=151953::encoding=utf-8::cat1=1bg_shoutonaivaniandrei_sezon2::kw=SHOUTO+NA+IVAN+I+ANDREI::eas_uid=1342611263134261117::uuid=7ae5d32c-d177-11e1-b1e3-00259032d740::VMaxd=50::Vd=30::cre=log
+http://e2.emediate.se/eas?cu=12773;cre=mu;js=y;target=blank&cat1=1bg_shoutonaivaniandrei_sezon2&cat2=shoutonaivaniandrei&cat3=sezon2&kw=247828
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
