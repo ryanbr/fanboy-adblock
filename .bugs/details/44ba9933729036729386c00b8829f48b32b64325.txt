@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vtc.vn/default.aspx
+
+
+[filters]
+http://www.mediamart.vn/marketing/VTC.png
+http://www.mediamart.vn/marketing/vtc.js
+http://www.mediamart.vn/marketing/vtc_.htm?time=1342679781476
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
