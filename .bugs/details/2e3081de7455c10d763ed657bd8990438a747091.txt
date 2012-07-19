@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tinhoc24h.info/2011/11/toi-uu-hoa-seo-tot-nhat-cho-blogger.html
+
+[filters]
+http://3.bp.blogspot.com/-zZE9sbG7o4w/T_ebU23IPrI/AAAAAAAAOaI/MPbHBYffJDE/s1600/tinhoc24h_580x100.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
