@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mlssoccer.com/
+
+
+[filters]
+http://c16.oos4l.com/a/e/s22800
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
