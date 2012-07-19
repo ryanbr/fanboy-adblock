@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.travelweekly.com/
+
+
+[filters]
+http://www.travelweekly.com/_js/ntm_adserve.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
