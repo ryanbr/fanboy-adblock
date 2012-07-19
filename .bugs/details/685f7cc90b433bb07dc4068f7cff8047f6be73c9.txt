@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.zulily.com/auth/create/?pos=*
+
+
+[filters]
+https://api.nanigans.com/event.php?app_id=3313&type=visit&name=landing
+https://www.zulily.com/action/track?tid=&action=signup-view&pageVariation=default&_=1342681002238
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
