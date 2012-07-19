@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.arcadeprehacks.com/game/20044/Cards-Wars.html
+
+
+[filters]
+http://s1.inviziads.com/crossdomain.xml
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
