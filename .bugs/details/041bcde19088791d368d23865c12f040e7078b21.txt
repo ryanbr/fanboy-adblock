@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://electriccity.yahoo.com/ep1-en-truth-or-consequences.html
+
+
+[filters]
+http://l.yimg.com/zz/combo?ep/cx/ec/global-min-69391.css&ep/cx/ec/ec-carousel-min-61717.css&ep/cx/ec/ec-scrollbar-min-67501.css&ep/cx/ec/characters-min-64443.css&ep/cx/ec/j/UnivHeader/header-min-64898.css&ep/cx/ec/j/AdService/ad-min-58866.css&ep/cx/ec/j/AdService2/ad-min-68408.css&ep/cx/ec/j/ThemeChanger/themechanger-min-66520.css&ep/cx/ec/j/Map/map-min-69441.css&ep/cx/ec/j/VideoPlayer/player-min-70115.css&ep/cx/ec/j/MediaSocialButtons/ymsb-min-67060.css&ep/cx/ec/j/CharList/charlist-min-68939.css&ep/cx/ec/j/LanguageSelection/languageselection-min-67071.css&ep/cx/ec/j/Community/community-min-69441.css&ep/cx/ec/j/Promo/promo-min-69399.css&ep/cx/ec/j/VideoCarousel/video-carousel-min-69389.css&ep/cx/ec/j/ECPanel/ecpanel-min-71429.css
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
