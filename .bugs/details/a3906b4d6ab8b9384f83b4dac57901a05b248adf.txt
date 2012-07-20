@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://us.mc1601.mail.yahoo.com/mc/welcome?.gx=1&.tm=1313017844&.rand=c4o7j3sjc6326#_pg=/vs/search;_ylc=X3oDMTBvbWozaGVpBF9TAzM5ODMwMTA2OARhYwNzcmNoTWFpbA--&fid=%2540S%2540Search&.rand=180852751&clean&.jsrand=6284915
+
+
+[filters]
+http://d.yimg.com/jq/js/ysc_csc_ymailm_3.7.1.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&p=36696#p36696
+
+
+[comments]
+fanboy
