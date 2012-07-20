@@ -1,0 +1,29 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://jdu.ru/travel/
+
+
+[filters]
+jdu.ru##.delimetr_custom
+mamba.ru##.delimetr_custom
+love.rambler.ru##.delimetr_custom
+facelink.ru##.delimetr_custom
+znakomka.ru##.delimetr_custom
+singles.ru##.delimetr_custom
+
+http://jdu.ru/travel/
+http://www.mamba.ru/
+http://love.rambler.ru/
+http://www.facelink.ru/
+http://www.znakomka.ru/
+http://www.singles.ru/
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=13767
+
+[comments]
+fanboy
