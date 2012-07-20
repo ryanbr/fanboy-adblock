@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://newpuru.doorblog.jp/archives/7646072.html
+
+
+[filters]
+http://parts.blog.livedoor.jp/ad/afc_image_c1.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
