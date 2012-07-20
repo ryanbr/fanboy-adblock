@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://electriccity.yahoo.com/ep20-en-illumination-night.html
+
+
+[filters]
+http://l.yimg.com/zz/combo?d/lib/ult/ylc_1.10.js&ep/cx/ec/mojito_rollup.client-min-63047.js&ep/cx/ec/a/ec-carousel.client-min-67055.js&ep/cx/ec/a/ec-scrollbar.client-min-66119.js&ep/cx/ec/a/ec-utils.client-min-70610.js&ep/cx/ec/a/gallery-idletimer.client-min-50338.js&ep/cx/ec/j/Map/a/ec-map-utils.common-min-61356.js&ep/cx/ec/j/MediaSocialButtons/fb-all.client-min-65255.js&ep/cx/ec/j/MediaSocialButtons/social-buttons.client-min-65255.js&ep/cx/ec/j/Rapid/rapid_2.5.0-min-65683.js&ep/cx/ec/j/ThemeChanger/b/index-min-69324.js&ep/cx/ec/j/Map/b/index-min-69732.js&ep/cx/ec/j/VideoPlayer/b/index-min-74521.js&ep/cx/ec/j/MediaSocialButtons/b/index-min-68972.js&ep/cx/ec/j/CharList/b/index-min-68939.js&ep/cx/ec/j/LanguageSelection/b/index-min-67901.js&ep/cx/ec/j/Community/b/index-min-69441.js&ep/cx/ec/j/Promo/b/index-min-71431.js&ep/cx/ec/j/VideoCarousel/b/index-min-67042.js&ep/cx/ec/j/ECPanel/b/index-min-71380.js&ep/cx/ec/j/Rapid/b/index-min-69318.js&ep/cx/ec/j/Frame/b/index-min-70154.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
