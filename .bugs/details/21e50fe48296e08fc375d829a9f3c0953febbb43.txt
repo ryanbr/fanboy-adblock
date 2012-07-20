@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://chasoku.blog.shinobi.jp/Entry/2685/
+
+
+[filters]
+http://adm.shinobi.jp/a/a95c2b342fe841f14afcfa2716c6b7e1?x=0&y=0&url=http%3A%2F%2Fchasoku.blog.shinobi.jp%2FEntry%2F2685%2F&referrer=http%3A%2F%2Fblog.livedoor.jp%2Fikuzi2p%2Farchives%2F5699079.html&uid=3f2f7558-84e0-4fa1-a334-436fea061cb1&du=http%3A%2F%2Fchasoku.blog.shinobi.jp%2FEntry%2F2685%2F&page=d
+http://adm.shinobi.jp/a/a95c2b342fe841f14afcfa2716c6b7e1?x=707&y=5444&url=http%3A%2F%2Fchasoku.blog.shinobi.jp%2FEntry%2F2685%2F&referrer=http%3A%2F%2Fblog.livedoor.jp%2Fikuzi2p%2Farchives%2F5699079.html&uid=3f2f7558-84e0-4fa1-a334-436fea061cb1&du=http%3A%2F%2Fchasoku.blog.shinobi.jp%2FEntry%2F2685%2F&page=d
+http://adm.shinobi.jp/freakout/cookiesync?dspid=fout&dspuid=PZXSYtN91mV22-CFkTqI0hV0uxw&noback=1
+http://adm.shinobi.jp/js/ads.js
+http://adm.shinobi.jp/s/a95c2b342fe841f14afcfa2716c6b7e1
+http://sync.fout.jp/sync?xid=ninja
+http://widget.zenback.jp/?base_uri=http%3A//chasoku.blog.shinobi.jp/&nsid=95898959913984545%3A%3A95898980046605934&rand=77043531267
+http://www.garss.jp/display.php?id=1349024614
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
