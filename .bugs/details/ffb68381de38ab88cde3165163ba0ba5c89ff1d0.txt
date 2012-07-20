@@ -1,0 +1,31 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://itaishinja.com/archives/3496216.html
+
+
+[filters]
+http://ac7.i2iserv.com/bin/2nd_gets.php?00638477
+http://ad.maist.jp/ad/js/spssi.js
+http://ad.maist.jp/ad/sp/ssi?_site=3616&_loc=3972&_ref=http%3A%2F%2Fblog.livedoor.jp%2Fikuzi2p%2Farchives%2F5699079.html&_nocache=1342783013338
+http://ad.maist.jp/ad/sp/ssi?_site=3616&_loc=3972&_ref=http%3A%2F%2Fblog.livedoor.jp%2Fikuzi2p%2Farchives%2F5699079.html&_nocache=1342783014278
+http://ad.oret.jp/cache_js/bestsellers-books-466280_.js
+http://ad.oret.jp/cache_js/bestsellers-books_.js
+http://ad.oret.jp/cache_js/bestsellers-dvd-562020_.js
+http://ad.oret.jp/cache_js/bestsellers-electronics-128187011_.js
+http://ad.oret.jp/cache_js/bestsellers-hobby_bestsellers-toys_.js
+http://ad.oret.jp/cache_js/bestsellers-videogames_.js
+http://blogroll.livedoor.net/blogroll/banner/1-bnr_192x76-2.png
+http://blogroll.livedoor.net/blogroll/banner/bnr_192x76_game_v1.gif
+http://blogroll.livedoor.net/blogroll/banner/d_192x76.jpg
+http://blogroll.livedoor.net/blogroll/banner/misawa192x76.jpg
+http://itaishinja.com/add/650100.gif
+http://itaishinja.com/add/b600x110_c.png
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
