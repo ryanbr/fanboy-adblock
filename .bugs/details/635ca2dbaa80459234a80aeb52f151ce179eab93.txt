@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://translate.google.com/
+
+
+[filters]
+http://translate.google.com/gen204?bbarshow=hl=en,type=chromepromo
+http://translate.google.com/gen204?hready=hl=en,sl=cs,tl=en,slh=cs%7Cru%7Czh-CN%7Cja%7Cen,tlh=en%7Cja,soph=1,ql=0,ttnc=320,uetrans=0
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
