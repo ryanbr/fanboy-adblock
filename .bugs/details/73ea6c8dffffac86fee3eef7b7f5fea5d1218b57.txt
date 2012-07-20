@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://matomeantena.com/feed/20120719215415
+
+
+[filters]
+http://www.ab.auone-net.jp/~papy02/1205/warota/warota05.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
