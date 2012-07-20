@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://www.brijj.com/
+
+[filters]
+# Copy your Adblock filters here
+http://track.99acres.com/images/zero.gif?data=http-//www.brijj.com/|http-//www.brijj.com/|1342802742170|1342802753248|1342802756313|1342802757137|0|startTime:1342802750.8067|pageEnd:1342802756312|endTime:1342802751.3503
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+vinny
