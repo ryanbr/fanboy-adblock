@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://screen.yahoo.com/kaboom-watermelons-29977917.html?pb_list=5df648f6-59a9-4189-bcde-00840c7ced50
+
+
+[filters]
+http://l.yimg.com/zz/combo?yui:3.5.1/build/scrollview-base/scrollview-base-min.js&yui:3.5.1/build/scrollview-paginator/scrollview-paginator-min.js&yui:3.5.1/build/event-simulate/event-simulate-min.js&yui:3.5.1/build/node-event-simulate/node-event-simulate-min.js&yui:3.5.1/build/node-focusmanager/node-focusmanager-min.js&/os/mit/media/p/common/ywa-tracking-min-658921.js&/os/mit/media/m/vyc/playlist-datasource-min-595878.js&/os/mit/media/m/vyc/playlist-carousel-min-571207.js&/os/mit/media/m/vyc/playlist-bar-min-595878.js&/os/mit/media/m/footer/footer-min-481455.js&/os/mit/media/m/base/tracking-min-614961.js&/os/mit/media/m/carousel/carousel-social-buttons-sync-min-182654.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
