@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.top-shop.ru/
+
+
+[filters]
+http://tracking.caanalytics.com/Javascripts/Tracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
