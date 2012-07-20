@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forums.realgm.com/boards/viewforum.php?f=24
+
+
+[filters]
+http://forums.realgm.com/banners/new_giants.png
+http://forums.realgm.com/banners/new_jets.png
+http://forums.realgm.com/banners/new_mets.png
+http://forums.realgm.com/banners/new_rangers.png
+http://forums.realgm.com/banners/new_yankees.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
