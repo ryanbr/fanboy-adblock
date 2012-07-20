@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vippers.jp/archives/6414390.html
+
+[filters]
+http://ad.vippers.jp/js/amawidget_favorite/favorite.js
+http://ad.vippers.jp/js/amawidget_footer/bestsellers_anime.js
+http://ad.vippers.jp/js/amawidget_footer/bestsellers_comic.js
+http://ad.vippers.jp/js/amawidget_footer/bestsellers_idol.js
+http://ad.vippers.jp/js/amawidget_footer/bestsellers_toys.js
+http://ad.vippers.jp/js/amawidget_footer/bestsellers_videogames.js
+http://ad.vippers.jp/js/amawidget_sidebar/bestsellers_anime.js
+http://ad.vippers.jp/js/amawidget_sidebar/bestsellers_comic.js
+http://ad.vippers.jp/js/amawidget_sidebar/bestsellers_toys.js
+http://ad.vippers.jp/js/amawidget_sidebar/bestsellers_videogames.js
+http://j.adresult-sp.jp/js/swfobject.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
