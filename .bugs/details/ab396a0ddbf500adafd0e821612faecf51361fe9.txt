@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://s1.jugger.mail.ru/register.php?v=2&t=c&adv_page=1
+
+
+[filters]
+http://1link.mail.ru/hit?action=visit_unique&pid=41&referer=http%3A//games.mail.ru/play/browser/best/&display=1440*900*24&site_id=1_900_68438_0__&rand=0.8063683065887355
+http://1link.mail.ru/pub/counter/41.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
