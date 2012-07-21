@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.howcast.com/videos/223520-How-to-Give-Someone-a-Hickey
+
+
+[filters]
+http://www.howcast.com/images/h.gif?time=0&mode=standard&id=223520&type=autostart&l=212375&ref=http%3A%2F%2Fwww%2Ehowcast%2Ecom%2Fvideos%2F223520%2DHow%2Dto%2DGive%2DSomeone%2Da%2DHickey
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
