@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.moneybookers.com/app/consumer.pl/
+
+
+[filters]
+https://i1.mbsvr.net/js/tracker/init.js?version=v1.2
+https://i1.mbsvr.net/js/tracker/internal-links.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
