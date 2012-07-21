@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cio.siliconindia.com/company/
+
+[filters]
+http://www.siliconindia.com/techcity-ads.php?id=1
+http://www.siliconindia.com/techcity-ads.php?id=2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
