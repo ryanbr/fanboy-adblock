@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.crunchyroll.com/beelzebub/episode-50-today-im-different-on-the-inside-585340
+
+
+[filters]
+http://www.crunchyroll.com/vast?type=*
+
+
+
+
+[other]
+reported
+
+[comments]
+fanboy
