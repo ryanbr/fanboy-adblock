@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sportingbet.com/
+
+[filters]
+http://wac.3a32.edgecastcdn.net/803A32/en/s/js/SB/minified/googleAnalyticsBase_201207181727.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
