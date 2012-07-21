@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://betting.betfair.com/
+
+[filters]
+http://wat.betfair.com/1x1.gif?TS=1342763327798&Ver=2.0.2&Log=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
