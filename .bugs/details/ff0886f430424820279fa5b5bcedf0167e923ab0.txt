@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.schooltube.com/video/20913a84f0ac41a89f3b/The%20Hue:%20Kosha%20Dillz
+
+[filters]
+http://cdn.sublimevideo.net/_.gif?t=2xrynuh2&e=l&du=http%3A%2F%2Fwww.schooltube.com%2Fvideo%2F20913a84f0ac41a89f3b%2FThe%2520Hue%3A%2520Kosha%2520Dillz&dt=The%20Hue%3A%20Kosha%20Dillz&sr=1920x1080&bl=en-US&fv=11.3.300&pt[]=n&pm[]=f&pff[]=&pz[]=620x350&vu[]=20913a84f0ac41a89f3b&h=m&i=1342878102366&d=d
+http://data.sublimevideo.net/_.gif?t=2xrynuh2&e=l&du=http%3A%2F%2Fwww.schooltube.com%2Fvideo%2F20913a84f0ac41a89f3b%2FThe%2520Hue%3A%2520Kosha%2520Dillz&dt=The%20Hue%3A%20Kosha%20Dillz&sr=1920x1080&bl=en-US&fv=11.3.300&pt[]=n&pm[]=f&pff[]=&pz[]=620x350&vu[]=20913a84f0ac41a89f3b&h=m&i=1342878102366&d=d
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
