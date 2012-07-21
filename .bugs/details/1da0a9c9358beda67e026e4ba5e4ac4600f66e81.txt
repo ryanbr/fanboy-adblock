@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sovereignbank.com/
+
+
+[filters]
+http://webcare.byside.com/agent/click.php?webcare_id=FC8171D870&x=1215&y=757&w=1903&b=firefox&c=3&page=http%3A//www.sovereignbank.com/&rnd=7614
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
