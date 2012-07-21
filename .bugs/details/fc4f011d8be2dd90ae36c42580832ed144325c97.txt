@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://channel.pandora.tv/channel/video.ptv?ref=main_issue_en&ch_userid=uschan01&prgid=45983507
+[filters]
+http://ads.pandora.tv/NetInsight/text/pandora/pandora_main/main@vsearch_txt
+http://ads.pandora.tv/NetInsight/text/pandora_global/channel/channel@300x250
+http://ads.pandora.tv/NetInsight/text/pandora_global/channel/top@234x60
+http://ads.pandora.tv/NetInsight/text/pandora_global/channel/topSkin@text
+http://ads.pandora.tv/crossdomain.xml
+http://ads.pandora.tv/NetInsight/text/pandora/pandora_channel/main@icover
+http://ads.pandora.tv/NetInsight/text/pandora_global/channel/icf@300x250
+
+
+
+
+[other]
+Need to whitelist 
+http://ads.pandora.tv/NetInsight/text/pandora_global/channel/icf@300x250
+
+[comments]
+fanboy
