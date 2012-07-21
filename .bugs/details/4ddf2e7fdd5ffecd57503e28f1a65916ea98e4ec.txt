@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.bankofamerica.com/
+
+
+[filters]
+https://tc.bankofamerica.com/c?siteid=429&ccID=BOA_HOME_SIGNON_SERVICE_01&ccID=BOA_HOME_SIGNON_SERVICE_02&ccID=BOA_HOME_SIGNON_SERVICE_03&ccID=BOA_HOME_SIGNON_HERO&location=https%3A%2F%2Fwww.bankofamerica.com%2Fhomepage%2Foverview.go%3FBOA_0020%3D999%26tc_lang%3Den_US%26state%3Dnull%26BA_0021%3Dnull%26BOA_HPR%3Dnull%26r%3D&callback=jsonp1342799955093
+https://www.bankofamerica.com/pa/components/utilities/touch-clarity-util/1.6/script/TouchClarity.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
