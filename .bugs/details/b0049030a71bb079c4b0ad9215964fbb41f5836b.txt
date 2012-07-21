@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.studioleaks.info/forums/f89/
+
+
+[filters]
+https://d5nxst8fruw4z.cloudfront.net/atrk.gif?random_number=2575368633&jsv=20110823&user_cookie=c59e25e1138a91ee29661b295ed&user_cookie_flag=1&sess_cookie=c59e25e1138a91ee29661b295ed&sess_cookie_flag=1&host_url=http%3A%2F%2Fwww.studioleaks.info%2Fforums%2Ff89%2F&ref_url=http%3A%2F%2Fwww.studioleaks.info%2Fforums%2F&cookie_enabled=1&java_enabled=1&screen_params=1920x1080x24&flashver=11.3.300&time=1342867171063&time_zone_offset=-720&title=New%20Members%20Introduction&iframe=0&frame_height=951&frame_width=1920&domain=studioleaks.info&account=UB5Xe1agAO00Or
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
