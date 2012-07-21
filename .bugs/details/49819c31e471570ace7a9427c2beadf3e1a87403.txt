@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cartoon.media.daum.net/#type=webtoonCategory&id=2
+
+
+[filters]
+http://amsv2.daum.net/ad/adview?secid=08E85
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
