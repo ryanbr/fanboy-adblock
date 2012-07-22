@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aliexpress.com/
+
+
+[filters]
+http://stat.alibaba.com/monitor.htm?tpath=&pos=758%2C395&cc=1&t=6847&t2=6847&f=tb-tracer&pvid=1342926581569.0.7917808420883068&tid=20120717-61-622&eid=0&r=0.2430158728283368&url=http%3A%2F%2Fwww.aliexpress.com%2F
+http://stat.alibaba.com/monitor.htm?type=pv&sw=1920&sh=1080&referrer=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D13879&f=tb-tracer&pvid=1342926581569.0.7917808420883068&tid=20120717-61-622&eid=0&r=0.5276841532165826&url=http%3A%2F%2Fwww.aliexpress.com%2F
+http://stat.alibaba.com/tb-tracer-min.js
+http://style.aliexpress.com/js/beacon_ws.js
+http://style.aliexpress.com/js/beacon_ws_2.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
