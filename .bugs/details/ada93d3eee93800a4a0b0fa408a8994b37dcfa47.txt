@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ricoh.com/
+
+[filters]
+http://b07.nakanohito.jp/b1/?uisv=7&id=31351&mode=default&h=1ab8&rand=7269304&url=http%3A%2F%2Fwww.ricoh.com%2F&ref=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Drelated%3Awww.epson.com%26hl%3Den%26safe%3Doff%26prmd%3Dimvns%26ei%3DVDcLUKcYorTrAaiD3IYK%26start%3D60%26sa%3DN%26biw%3D1392%26bih%3D433&uigr_1=&uigr_2=&uigr_3=&uigr_4=&uigr_5=&uigr_6=&uigr_7=&uigr_8=&uigr_9=&uigr_10=&lv=&sb=Home%20%7C%20Ricoh%20Global&guid=ON&eflg=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
