@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.peoplestylewatch.com/people/stylewatch
+
+
+[filters]
+http://img2.timeinc.net/people/static/i/advertising/getpeopleeverywhere-news_8.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
