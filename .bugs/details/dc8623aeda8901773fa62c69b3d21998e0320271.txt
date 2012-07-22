@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.justanswer.com/
+
+
+[filters]
+http://www.justanswer.com/ja_services/processes/log.asmx/ActivityTracking
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
