@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sf.se/filmer/
+
+
+[filters]
+http://fusion.sf.se/crossdomain.xml
+http://fusion.sf.se/scriptSF.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
