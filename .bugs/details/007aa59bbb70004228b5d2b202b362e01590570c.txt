@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.diariodeavisos.com
+
+
+[filters]
+http://www.diariodeavisos.com/wp-content/uploads/2012/06/banner-cispotting.jpg
+http://www.diariodeavisos.com/wp-content/uploads/2012/06/banner-kiosco120x600.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
