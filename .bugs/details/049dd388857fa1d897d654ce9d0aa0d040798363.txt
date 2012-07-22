@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cruise.expedia.com/home.aspx?tpid=1&eapid=0
+
+
+[filters]
+http://ads.expedia.com/event.ng/Type=click&FlightID=206415&AdID=314723&TargetID=52736&Segments=12,809,962,8304,11072,11314,12742,14481,14485,14486,14989,16242,16244,25588,25693,30368,30479,30732,31960,31964,32114,32336,32696,32772,32775,33155,33266&Targets=50463,50113,52736,53426,54713,55708&Values=60,72,86,92,236,247,5064,5078,5142,5218,5264,5519,5531,5567,5698,5703,9792,9795,9988,9995,10047,11201,11213,11246,11247,11458,11464,11469,161744,162654&RawValues=&Redirect=http://cruise.expedia.com/CruiseLine.aspx?cl=Celebrity+Cruises&tab=1
+http://www.expedia.com/daily/common/msi.asp?TPID=1&PLACEMENT=BCOLLGRECT1&LOCATION=CRUISES&SUBLOCATION=SEARCH&ADSIZE=145X135
+http://www.expedia.com/daily/common/msi.asp?TPID=1&PLACEMENT=BCOLLGRECT1&LOCATION=CRUISES&SUBLOCATION=SEARCH&ADSIZE=145X135
+http://www.expedia.com/daily/common/msi.asp?TPID=1&PLACEMENT=BCOLLGRECT2&LOCATION=CRUISES&SUBLOCATION=SEARCH&ADSIZE=145X135
+http://www.expedia.com/daily/common/msi.asp?TPID=1&PLACEMENT=BCOLLGRECT2&LOCATION=CRUISES&SUBLOCATION=SEARCH&ADSIZE=145X135
+http://www.expedia.com/daily/common/msi.asp?TPID=1&PLACEMENT=BCOLLGRECT3&LOCATION=CRUISES&SUBLOCATION=SEARCH&ADSIZE=145X135
+http://www.expedia.com/daily/common/msi.asp?TPID=1&PLACEMENT=BCOLLGRECT3&LOCATION=CRUISES&SUBLOCATION=SEARCH&ADSIZE=145X135
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
