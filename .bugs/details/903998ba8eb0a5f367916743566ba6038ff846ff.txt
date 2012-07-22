@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.coursehero.com/file/173688/Solutions29Oct2007/
+
+
+[filters]
+http://www.coursehero.com/ajax/tracker_pageview.php?url=http%3A%2F%2Fwww.coursehero.com%2Ffile%2F173688%2FSolutions29Oct2007%2F
+http://www.coursehero.com/min/?f=/javascript/tracker_pageview.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
