@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nickjr.com/kids-games/max-rubys-toy-parade.html
+
+[filters]
+http://www.nickjr.com/js/ads/yahoo/overture_utils.js
+http://www.nickjr.com/js/ads/yahoo/nickjr_overture_conf.js
+http://www.nickjr.com/js/ads/yahoo/nickjr-results.js
+http://www.nickjr.com/js/ads/yahoo/content-match.js
+http://www.nickjr.com/global/scripts/overture/sponsored_links_lib.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
