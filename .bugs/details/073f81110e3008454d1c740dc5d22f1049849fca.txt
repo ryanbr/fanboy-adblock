@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://usa.asus.com/Notebooks/
+
+[filters]
+http://www.google-analytics.com/ga.js
+http://etrk.asus.com/web_service/TrackingJS/wmxtracker.js
+http://etrk.asus.com/web_service/counter/CSTrack2.aspx?cli=UnitedStates&cam=website&1=W_S_UID&2=W_S_SC&3=W_S&5=W_S_DATE&7=usa.asus.com&8=usa.asus.com%2FNotebooks%2F&9=&10=W_S_IP&11=forums.fanboy.co.nz&12=forums.fanboy.co.nz%2Fforums%2Fviewtopic.php&13=f%3D8%26t%3D13893&14=website&15=W_S&16=W_S&17=W_S&19=windows&20=Win%207(x64)&21=2&22=17.0&23=1920x1080&24=1&25=1&6=ASUS%20-%20Notebooks&pc=&sc=&t=1342968538680
+
+
+[other]
+google analytics stops the clicking on the slideshow
+
+
+[comments]
+fanboy
