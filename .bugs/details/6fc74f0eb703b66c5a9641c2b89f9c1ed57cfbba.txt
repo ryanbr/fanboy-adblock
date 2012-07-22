@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://yandex.by/yandsearch?text=test&tld=by&lr=157
+
+
+[filters]
+http://yandex.ru/clck/click/data=AiuY0DBWFJ7IXge4WdYJQecgcY9XpXwSgR6hIqzEhLZeQJ3qk5gAAdj6g4yGFcCAblamKtlJ3nrl-t7JHb-ySfi-FpfaA4qlVTEJYvnKPqs6nzK7BE00c1VXiJOu0YiJs6sI9pf4pKVdYzAF77XgnQ/sign=0ed5de5466b2f1fc2828ef30274096c8/keyno=0/path=1.220/*http://yandex.ru/
+http://yandex.ru/clck/click/data=AiuY0DBWFJ7IXge4WdYJQecgcY9XpXwSgR6hIqzEhLZeQJ3qk5gAAdj6g4yGFcCAblamKtlJ3nrl-t7JHb-ySfi-FpfaA4qlVTEJYvnKPqs6nzK7BE00c1VXiJOu0YiJs6sI9pf4pKVdYzAF77XgnQ/sign=0ed5de5466b2f1fc2828ef30274096c8/keyno=0/path=1.487/*http://yandex.ru/
+http://yandex.ru/clck/click/dtype=stred/pid=1/cid=70061/path=p0.i-1.w1903.h978.nahodki.0/u=1342953575723/reqid=1342953565811465-760881253884827046525916-3-003/*http://yandex.ru/
+http://yandex.ru/clck/safeclick/data=AiuY0DBWFJ7IXge4WdYJQecgcY9XpXwSgR6hIqzEhLZeQJ3qk5gAAdj6g4yGFcCAblamKtlJ3nrl-t7JHb-ySfi-FpfaA4qlVTEJYvnKPqs6nzK7BE00c1VXiJOu0YiJs6sI9pf4pKVdYzAF77XgnQ/sign=0ed5de5466b2f1fc2828ef30274096c8/keyno=0/path=175.487/*http://yandex.ru/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
