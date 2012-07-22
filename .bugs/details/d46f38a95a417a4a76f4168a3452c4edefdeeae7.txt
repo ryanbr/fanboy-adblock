@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://classifieds.nydailynews.com/
+
+
+[filters]
+http://comboadmedia.adperfect.com/assets/nyDailyNews/images/place_ad_bg_blue_lrg.png
+http://comboadmedia.adperfect.com/assets/nyDailyNews/images/search_bg1.jpg
+http://comboadmedia.adperfect.com/assets/nyDailyNews/images/sm_no_photo.png
+http://www.mns.com/ad/134978/dailynews/thumbnail.JPEG
+http://www.mns.com/ad/139140/dailynews/thumbnail.JPEG
+http://www.mns.com/ad/145295/dailynews/thumbnail.JPEG
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
