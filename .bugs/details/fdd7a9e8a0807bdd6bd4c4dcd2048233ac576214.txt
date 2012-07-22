@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.spartanrace.com/tristate-new-jersey-obstacle-racing-super-spartan-2012.html
+
+
+[filters]
+http://bounceexchange.com/bounce/i.js?client_id=257
+http://media.extole.com/track/traction.min.js
+http://mentad.com/d/visit/new?website_id=A0biKju7lv_1c&page_url=http%3A%2F%2Fspartanrace.com%2F&prev_url=&data=null
+http://mentad.com/static/js/mentad-visit-notification.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
