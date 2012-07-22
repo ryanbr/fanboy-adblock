@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pcworld.com/article/259568/android_41_jelly_bean_heads_to_htc_one_an_update_roundup.html#tk.hp_ess
+
+
+[filters]
+http://p.staticworld.net/pixel.gif?aid=259568&d=1342926464301
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
