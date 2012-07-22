@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.youjizz.com/videos/all-natural-busty-native-american-girl-2644991.html
+
+
+[filters]
+http://vividcash.com/ve/cams.banner.list/?layout=190x900&nats=MjAxOTEyLjI2LjQ2Ljc1LjMuMC4wLjAuMA
+http://vividcash.com/ve/cams.banner.list?layout=190x900&nats=MjAxOTEyLjI2LjQ2Ljc1LjMuMC4wLjAuMA
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
