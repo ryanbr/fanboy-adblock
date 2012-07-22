@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.peoplestylewatch.com/people/stylewatch/gallery/0,,20605799_21188073,00.html
+
+[filters]
+http://img.timeinc.net/tii/omniture/h/config/people.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
