@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://torrentfreak.com/optimize-your-bittorrent-download-speed/
+
+
+[filters]
+http://torrentfreak.com//images/relakks.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
