@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.expedia.co.nz/Flights?rfrr=Redirect.From.www.expedia.com%2FFlights
+
+
+[filters]
+http://media.expedia.com/media/content/expnz/images/ads/globalsale/july-2012/Asia/gs-retail-992x265.jpg
+http://media.expedia.com/media/content/expnz/images/ads/globalsale/july-2012/Asia/gs-retail-992x265.swf
+http://www.expedia.co.nz/html.cms/TPID=29&LOCATION=FLIGHTS&LANGID=3081&USERTYPE=SHOPPER&tile=de422615-bf7a-4cad-a631-d64445705490&ADSIZE=160X600&EMAIL=NO&PLACEMENT=DCOLBOT&SECURE=0&ip=121.79.199.9&SUBLOCATION=SEARCH&EAPID=00&COMPTEST=B&perf=publish_%2Fp%2Fflights.htm%257Cde422615-bf7a-4cad-a631-d64445705490%257C138ac768908%257C6b1c812697166ece9fb6dc2d9840b739
+http://www.expedia.co.nz/html.cms/TPID=29&LOCATION=FLIGHTS&LANGID=3081&USERTYPE=SHOPPER&tile=de422615-bf7a-4cad-a631-d64445705490&ADSIZE=160X600&EMAIL=NO&PLACEMENT=DCOLBOT&SECURE=0&ip=121.79.199.9&SUBLOCATION=SEARCH&EAPID=00&COMPTEST=B&perf=publish_%2Fp%2Fflights.htm%257Cde422615-bf7a-4cad-a631-d64445705490%257C138ac768908%257C6b1c812697166ece9fb6dc2d9840b739
+http://www.expedia.co.nz/html.cms/TPID=29&LOCATION=FLIGHTS&LANGID=3081&USERTYPE=SHOPPER&tile=de422615-bf7a-4cad-a631-d64445705490&ADSIZE=300X250&EMAIL=NO&PLACEMENT=ACOL1&SECURE=0&ip=121.79.199.9&SUBLOCATION=SEARCH&EAPID=00&COMPTEST=B&perf=publish_%2Fp%2Fflights.htm%257Cde422615-bf7a-4cad-a631-d64445705490%257C138ac768a3c%257C4e3364e2af2f7cc60d7f0beb901fd947
+http://www.expedia.co.nz/html.cms/TPID=29&LOCATION=FLIGHTS&LANGID=3081&USERTYPE=SHOPPER&tile=de422615-bf7a-4cad-a631-d64445705490&ADSIZE=300X250&EMAIL=NO&PLACEMENT=ACOL1&SECURE=0&ip=121.79.199.9&SUBLOCATION=SEARCH&EAPID=00&COMPTEST=B&perf=publish_%2Fp%2Fflights.htm%257Cde422615-bf7a-4cad-a631-d64445705490%257C138ac768a3c%257C4e3364e2af2f7cc60d7f0beb901fd947
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
