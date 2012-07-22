@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rutor.org/torrent/207887/vesjolye-kanikuly_get-the-gringo-2012-bdrip-avc-720p-l-licenzija
+
+
+[filters]
+http://ghopolu.if.ua/js/1236.js
+http://lopae.km.ua/images/c/1/i/1236/h/7f719537763725f7d4b05f123c807a6f/v/q885
+http://lopae.km.ua/images/h/7f719537763725f7d4b05f123c807a6f/i/1236
+
+
+
+
+[other]
+popups
+http://lopae.km.ua/images/c/1/i/1236/h/7f719537763725f7d4b05f123c807a6f/v/q885
+http://lopae.km.ua/images/h/7f719537763725f7d4b05f123c807a6f/i/1236
+
+
+[comments]
+fanboy
