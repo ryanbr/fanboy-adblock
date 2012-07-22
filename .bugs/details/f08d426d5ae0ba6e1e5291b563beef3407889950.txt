@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fs.ua/video/serials/i98992
+
+
+[filters]
+http://ddqq.com.ua/?t=1342952741&m=0bdeb3513a0bf73b3d82e347fb4e1311
+http://openurls.co.cc/?t=1342952741&m=0bdeb3513a0bf73b3d82e347fb4e1311
+http://tdata.fs.ua/data.js?i=5&f=jsonv&adno=1&rand=1342952767547
+http://tdata.fs.ua/stats?d=1.18291.0_1.18292.1_1.18294.2_1.18135.3_1.18249.4
+http://tdata.fs.ua/stats?d=7.18133.0_7.18132.1_7.18137.2
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
