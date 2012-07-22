@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.brighthub.com/science/space/articles/114684.aspx
+
+
+[filters]
+http://trk.bhs4.com/img.gif?uuid=4dbf08e6-2e86-4d6c-86ca-d1f5e38a1599&page=1&img=0&comm=0&ref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D13891
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
