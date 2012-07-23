@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.adforum.com/search/creative-work
+
+
+[filters]
+https://bat.adforum.com/bat.js?cb=12072102
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
