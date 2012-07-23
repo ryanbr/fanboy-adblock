@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.realestate.com/results/NY/New+York/zip/10001/
+
+
+[filters]
+http://www.servingyourtown.com/js/metrics.js?reddawn.7.0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
