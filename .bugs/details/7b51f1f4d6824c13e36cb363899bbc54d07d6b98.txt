@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.realtor.com/search/searchresults.aspx?pg=1&cmid=1083543&pr=false
+
+[filters]
+http://static.move.com/common/3P/QualtricsSurvey/QualtricsSurvey.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
