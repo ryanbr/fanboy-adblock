@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.redfin.com/homes-for-sale#!market=philadelphia&region_id=7307&region_type=2&sf=1,2&v=8
+
+
+[filters]
+http://www.redfin.com/stingray/page-analytics.jsp?path=%2Fhomes-for-sale&hash=!search_location%3D10001
+http://img.cdn-redfin.com/v14.3/includes/js/dojo-release-1.5.0-src/redfin/common/page_analytics.xd.js
+
+
+
+[other]
+if causes more fps, remove
+http://forums.fanboy.co.nz/forums/posting.php?mode=edit&f=6&p=36896
+
+
+[comments]
+fanboy
