@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aliexpress.com/
+
+
+[filters]
+http://style.aliunicorn.com/lib/yui/connection/connection-min|app/click_stat/click_stat|run/pool/we_wholesale_user_vip_info|run/pool/ws_head/m_cookie_info|run/pool/ws_head/m_login|run/pool/ws_head/m_selector|run/pool/ws_head/m_intelligent_search|run/pool/ws_head/m_search_bar|run/pool/ws_head/m_categories_v031515|run/pool/ws_head/m_loadcount|run/pool/ws_head/p_head_dmtrack_for_new|run/pool/ws_head/p_head_v031515|run/intl_wholesale/home|MODERN_BROWSER|v_7a24538f1d8b8_3ffbfa9b94613.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
