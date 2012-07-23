@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.redfin.com/PA/Abington/1937-Guernsey-Ave-19001/home/38217703
+
+
+[filters]
+http://www.redfin.com/stingray/clicktracker.jsp?category=redfin.core.mvc&action=agentChoiceLoaded&listing_id=15468985&property_id=38217703&state_code=PA&county=Montgomery%20County&market=philadelphia&region=Lower%20Montgomery%20County&service=2&servicePolicy=15&priceBand=235-282&firstAgentId=2485&firstAgentType=2&agentChoiceOrder=2485-2064-2122
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
