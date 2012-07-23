@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tvnwarszawa.pl/informacje,news,znow-wycieka-piana-na-rondzie-daszynskiego,49487.html
+
+
+[filters]
+http://redir.atmcdn.pl/http/o2/TVN-Adserver/07_lipiec/1207808CPM_Samsung_Seria_9/samsung_npc_seria_9.mp4
+
+
+
+
+[other]
+no longer affected
+
+
+[comments]
+fanboy
