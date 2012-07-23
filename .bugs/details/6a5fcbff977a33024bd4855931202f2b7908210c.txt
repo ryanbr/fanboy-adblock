@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sawbuck.com/homes_for_sale/DC_Metro/McLean,VA/5447#zl_12/c_38.931765,-77.17632
+
+[filters]
+http://d21o24qxwf7uku.cloudfront.net/sst.gif?r=DBLQZa4JEoInuVQbgyS5VQnBZbVVCcAusVgbhia9VxebIrtVHYwlvlEXhSa6UAnFYLVZHoYlu1cYhDX.CBKCK7lZHIEiu1IJwXi1NG6YIrpZHIYjvlMChDXrXF-UdO1HTohl4QRYk2f4XByTZbVQGoQkrgdZiCG4VhuFK7tZCcZjtQlbwWOtUm6QIc5EHfNk-xYBxnL-A1rWeKYCQNg2uidH2n7tEnDTfPo.XNR-7UQd81fLPmLQZ-oOCodVxQJj0HLmRB32RclEHfMmvFUYk2HuXEfBZ-hEHPQ2uicKh1X-FlibYOkWTcBw409M2n6tU2mTZ.RcYtZf7QBBnlvnDErGOM4OXZ5A6Q1Knja7IAqGUqMsTPl26Q8Kh1CjN26eQe0AQ55W.xVOwXajRBz0NrsgBOZy-wNa1niuFRKEILxTFoMluFkfgCG6R1jHLrlWGYYhsFUek2D6XB6CK7xSFoEjrgJLiCG8
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
