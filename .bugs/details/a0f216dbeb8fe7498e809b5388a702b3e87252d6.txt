@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.walkscore.com/apartments/details/escuela-ave-and-mt-vernon-ct-mountain-view-ca-94040
+
+
+[filters]
+http://ecn.dev.virtualearth.net/mapcontrol/v7.0/js/bin/7.0.20120626190654.37/en-us/veapiAnalytics.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
