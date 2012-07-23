@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cdc.gov/vaccinesafety/Concerns/syncope.html
+
+
+[filters]
+http://www.cdc.gov/JScript/metrics/topic_levels.js
+http://www.cdc.gov/JScript/metrics/google/google-cdc.js
+http://www.cdc.gov/JScript/metrics/s_code_v21_cdcgov.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
