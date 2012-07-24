@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.retrevo.com/samples/Asus-Desktop.html
+
+
+[filters]
+http://www.retrevo.com/search/v2/jsp/blank.jsp?pageName=Product.tsy&c=Desktops&sz=970x66&ret=0&g=0&s=1&rfid=4
+http://64.245.1.134/search/v2/jsp/pcwFrame.jsp?provider=gadmanager&pos=bottom&pageName=Catalog.Desktop.issue5_default_plus1-a_sponsorship.plusOne&noauth=1&adwidth=728&adheight=90&bftype=&hostname=www.retrevo.com&adargs=Desktops/Overview;c=Desktops;pos=bottom;sz=728x90
+http://64.245.1.134/search/v2/jsp/pcwFrame.jsp?provider=gadmanager&pos=leader&pageName=Catalog.Desktop.issue5_default_plus1-a_sponsorship.plusOne&noauth=1&adwidth=728&adheight=90&bftype=&hostname=www.retrevo.com&adargs=Desktops/Overview;c=Desktops;pos=leader;sz=728x90
+http://64.245.1.134/search/v2/js/util/MetaAd.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
