@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wikio.com/product/asus-essentio-cm5671-05-315018.html
+
+
+[filters]
+http://www.wikio.com/shopping/tracking/hit.jsp?h=1&rp=315018&pt=1
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
