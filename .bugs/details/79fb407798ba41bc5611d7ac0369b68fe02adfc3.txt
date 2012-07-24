@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://music.ninemsn.com.au/
+
+
+[filters]
+http://shared.9msn.com.au/share/com/highlights/templates/inc/ninemsn.tracking.udc.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
