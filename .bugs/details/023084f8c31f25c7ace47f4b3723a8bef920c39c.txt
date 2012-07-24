@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.ninemsn.com.au/
+
+
+[filters]
+http://widgets.video.msn.com/report.aspx?u=c2d98085-0809-4605-84d2-7f5620645465&t=53&plt=chaninlinev2&fr=news%5Enews%5Ehome&d=0&src=unk&c8=FlashPlayer&pl=http%3A%2F%2Fnews.ninemsn.com.au%2F&rl=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Drelated%3Awww.sbs.com.au%26hl%3Den%26safe%3Doff%26prmd%3Dimvns%26ei%3D9oINULi4IeTJ0AHil7X_Aw%26start%3D20%26sa%3DN%26biw%3D1392%26bih%3D433&pbStatus=loaded&av=4&brs=1440x448&mkt=en-au&pv=WIN%2011%2C3%2C3&size=300x260&pg=MSVAU7%5ETPS%5Ehttp%3A%2F%2Fimg.widgets.video.s-msn.com%2Fv%2F5511.02%2Fflash%2Fvac%2FAdRendererFactory.swf&etd=Error%20%232035%20URL%3A%20http%253A%252F%252Fimg.widgets.video.s-msn.com%252Fv%252F5511.02%252Fflash%252Fvac%252FAdRendererFactory.swf%5Enull&fi=http%3A%2F%2Fimg.widgets.video.s-msn.com%2Fv%2F5511.02%2Fflash%2Fvac%2FAdRendererFactory.swf&et=ads%3ADownloadFactory
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
