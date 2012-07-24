@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vizio.com/
+
+
+[filters]
+http://cdn.vizio.com/resources/js/vizio-module-tracking-google-analytics.js
+
+[other]
+products drop down list doesn't open when products link on homepage is clicked.
+
+
+[comments]
+nitrox
