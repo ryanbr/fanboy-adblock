@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.desktopreview.com/
+http://www.tabletpcreview.com/
+http://www.brighthand.com/
+http://www.digitalcamerareview.com/
+
+[filters]
+http://www.desktopreview.com/shared/images/VisitOurSponsors.JPG
+http://www.tabletpcreview.com/shared/images/VisitOurSponsors.JPG
+http://www.brighthand.com/shared/images/VisitOurSponsors.JPG
+http://www.digitalcamerareview.com/shared/images/VisitOurSponsors.JPG
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
