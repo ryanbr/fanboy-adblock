@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.smashingapps.com/2010/11/08/excellent-search-engines-you-should-visit-to-find-high-quality-icons.html
+
+
+[filters]
+http://www.wordfence.com/wp-content/plugins/wordfence/visitor.php?hid=5B8BFDFAB804AD96E56697D603F5DF6A
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
