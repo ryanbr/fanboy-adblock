@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.buzzillions.com/reviews/asus-essentio-desktop-intel-core-i7-processor-reviews#rankedLower
+
+[filters]
+http://static.powerreviews.com/t/v1/tracker.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
