@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tvchannelsfree.com/watch/1473/Kabbalah-Channel.html
+
+
+[filters]
+http://www.tvchannelsfree.com/banner_one.swf
+http://www.simpio.com/ads/images/bg/01c6825a5f265634d4865b8adb367969.png
+http://www.simpio.com/ads/locker.js?guid=44df11dcc196ee52
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
