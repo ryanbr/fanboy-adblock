@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://shop.lenovo.com/SEUILibrary/controller/e/web/LenovoPortal/en_US/catalog.workflow:category.details?current-catalog-id=12F0696583E04D86B9B79B0FEC01C087&current-category-id=C7563337D3E07CC4B84607F2E57AE7FD
+
+
+[filters]
+http://shop.lenovo.com/ISS_Static/WW/omniture/s_code_lenovo.js
+http://shop.lenovo.com/ISS_Static/WW/omniture/s_code_section_shop.js
+http://shop.lenovo.com/ISS_Static/WW/omniture/s_code_setup.js
+
+[other]
+Laptop options are not listed.
+
+If the above link expired. Visit https://www.lenovo.com/products/us/laptop/ideapad/y-series/y480/ and click Buy now.
+
+
+[comments]
+nitrox
