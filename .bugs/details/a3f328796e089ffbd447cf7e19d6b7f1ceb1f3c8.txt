@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rightmove.co.uk/property-for-sale/find.html;jsessionid=DA61A068D974BFCDB0BE2D63BD235BE8?searchType=SALE&locationIdentifier=REGION^85216&insId=1&radius=0.0&displayPropertyType=&minBedrooms=&maxBedrooms=&minPrice=&maxPrice=&retirement=&partBuyPartRent=&maxDaysSinceAdded=&_includeSSTC=on&sortByPriceDescending=&primaryDisplayPropertyType=&secondaryDisplayPropertyType=&oldDisplayPropertyType=&oldPrimaryDisplayPropertyType=&newHome=&auction=false
+
+
+[filters]
+http://www.rightmove.co.uk/ps/images/logging/timer.gif?p=/property-for-sale/find.html&t=2357&r=1843&rt=1343002495682971&trcid=30cc5460-cb53-40e8-afb7-baa94fff9b93&svr=2709
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
