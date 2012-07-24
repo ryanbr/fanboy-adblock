@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.7digital.com/artist/kimbra/release/vows-3
+
+
+[filters]
+Need to whitelist to listen to preview.
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
