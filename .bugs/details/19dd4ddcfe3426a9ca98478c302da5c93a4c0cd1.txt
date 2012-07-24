@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://perezhilton.com/tag/teen_nick/
+
+
+[filters]
+http://img.perezhilton.com/included_ads/teen_choice_awards_2012/css/style_regular.css?v=1342686128
+http://img.perezhilton.com/included_ads/teen_choice_awards_2012/js/functions.js?v=1342686128
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
