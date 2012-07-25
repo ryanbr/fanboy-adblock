@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dariknews.bg/
+
+[filters]
+http://cnt.tyxo.bg/115827?rnd=1910668050&sp=1920x1080&r=
+http://cnt.tyxo.bg/1671?rnd=1488444625&sp=1920x1080&r=
+http://www.webresearch.bg/survey/js/jquery.colorbox-min.js
+http://www.webresearch.bg/survey/js/jquery.colorbox.css
+http://www.webresearch.bg/survey/js/jquery.cookie.js
+http://www.webresearch.bg/survey/survey.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
