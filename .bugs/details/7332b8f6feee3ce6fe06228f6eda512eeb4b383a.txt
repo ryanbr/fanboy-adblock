@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://isohunt.com/torrent_details/388502645/Resident+Evil+Afterlife+2010?tab=summary
+
+
+[filters]
+https://isohunt.com/js/c2s_offer.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
