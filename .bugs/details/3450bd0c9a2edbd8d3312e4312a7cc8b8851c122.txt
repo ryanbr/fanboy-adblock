@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://planetlotus.org/
+
+
+[filters]
+http://planetlotus.org/images/partners/helpsoft/B_YN_R1_01.gif
+http://planetlotus.org/images/partners/isw/kudos.gif
+http://planetlotus.org/images/partners/panagenda/panagenda2012.png
+http://planetlotus.org/images/partners/preemptive/defrag-20120525.gif
+http://planetlotus.org/images/sml-facebook.png
+http://planetlotus.org/images/sml-linkedin.png
+http://planetlotus.org/images/sml-twitter.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
