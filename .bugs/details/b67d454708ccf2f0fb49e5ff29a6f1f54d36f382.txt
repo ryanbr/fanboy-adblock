@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.marca.com/en/
+
+
+[filters]
+http://estaticos04.marca.com/deporte/css/v3.0/publicidad.css
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
