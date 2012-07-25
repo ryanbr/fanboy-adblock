@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://maps.nokia.com/33.973,-118.1312702,11,0,0,normal.day
+
+
+[filters]
+http://static1.maps.nokia.com/36838/resources/i18n/en/US/core/features/search/ads/ads.c.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
