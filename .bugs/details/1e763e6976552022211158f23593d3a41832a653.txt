@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.join.ua/
+
+
+[filters]
+http://www.partner.join.com.ua/count.cgi?nid=18441298
+http://www.partner.join.com.ua/counter.cgi?pid=364&nid=18874079&nid=19081810&nid=19377927
+http://www.partner.join.com.ua/images/clipart/_loaded/img_1338210108.jpg
+http://www.partner.join.com.ua/images/clipart/_loaded/img_1338210759.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
