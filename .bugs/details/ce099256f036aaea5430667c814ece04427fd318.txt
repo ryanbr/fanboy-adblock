@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mtv3.fi/
+
+
+[filters]
+http://static.mtv3.fi/js/ad.redirect.js
+http://static.mtv3.fi/ad-layout/ad-base.css?2011-04-18-2
+http://static.mtv3.fi/ad-layout/ad-mtv3.css?2011-11-22
+http://static.mtv3.fi/ad-layout/jquery.ad-like.js?2011-04-14
+http://static.mtv3.fi/ad-layout/jquery.ad.js?2011-04-19
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
