@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.phutu.org/t23439-topic
+
+
+[filters]
+http://illiweb.com/fa/empty.gif
+http://illiweb.com/fa/prosilver/icon_user_profile.png
+http://illiweb.com/fa/sprite_icons.png
+http://illiweb.com/rsc/34/frm/addthis/addthis_widget.js
+http://illiweb.com/rsc/34/frm/lang/vi.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
