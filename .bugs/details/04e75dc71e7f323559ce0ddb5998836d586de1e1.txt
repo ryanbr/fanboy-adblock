@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://quachdaica.info/
+
+
+[filters]
+http://quachdaica.info/uploads/banners/392tto_trungquoc.jpg
+http://quachdaica.info/uploads/banners/660x120_viet_media.gif
+http://quachdaica.info/uploads/banners/660x120_viet_media_1.gif
+http://quachdaica.info/uploads/banners/banner_danhbaitrungthuong600x120.gif
+http://quachdaica.info/uploads/banners/clip-sex-nu-sinh-vinh-phuc.jpg
+http://quachdaica.info/uploads/banners/clipsexcaothaison.gif
+http://quachdaica.info/uploads/banners/di_1.jpg
+http://quachdaica.info/uploads/banners/tauhaigiam-trungquoc-11.jpg
+http://www.m88dd.com/
+http://www.simdepdongnai.com/1111-Sim-Giam-Gia.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
