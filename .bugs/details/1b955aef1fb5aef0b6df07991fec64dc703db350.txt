@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+news.cnet.com/8301-13579_3-57479196-37/apples-cook-hints-at-upcoming-iphone-5..-or-something/
+
+[filters]
+http://www.google.com/images/icons/gplus-16.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
