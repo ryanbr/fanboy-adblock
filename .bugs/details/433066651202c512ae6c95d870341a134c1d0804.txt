@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://eroticx.blog.fc2.com/
+
+[filters]
+http://adv.addeluxe.jp/adv_pc.html?20120610&os_id=1456&adf_id=2&ver=1.4&is_pc=1&color=999999%2CFFFFFF%2C2200CC%2CF25D5D%2C671F28
+http://adv.addeluxe.jp/adv_pc.html?20120610&os_id=1456&adf_id=22&ver=1.4&is_pc=1&color=999999%2CFFFFFF%2C2200CC%2CF25D5D%2C671F28
+http://adv.addeluxe.jp/adv_pc.html?20120610&os_id=1456&adf_id=3&ver=1.4&is_pc=1&color=999999%2CFFFFFF%2C2200CC%2CF25D5D%2C671F28
+http://img.addeluxe.jp/js/iframe/adv.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
