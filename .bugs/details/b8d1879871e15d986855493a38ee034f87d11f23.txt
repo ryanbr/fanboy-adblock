@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.record.xl.pt/multimedia/videos/interior.aspx?content_id=768725
+
+
+[filters]
+http://pubs.xl.pt/molduras/record/producao/pubLayerTopo.js
+http://pubs.xl.pt/molduras/record/producao/pubScroller.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
