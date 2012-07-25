@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://chaobuoisang.net/1/tin-tuc-online-tintuc-tin-tuc-trong-ngay-tintuconline-24h-tin-tuc-tin-nhanh.htm
+
+[filters]
+http://chaobuoisang.net/libs/adv.js
+http://chaobuoisang.net/libs/adv_right_cat.js
+http://news.chaobuoisang.net/data/flash/google-adwords.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
