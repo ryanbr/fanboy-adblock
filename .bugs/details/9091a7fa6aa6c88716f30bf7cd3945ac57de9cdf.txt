@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.officedepot.com/catalog/search.do?N=5&Ntt=lenovo+&Ntk=all&Ntx=mode+matchpartialmax&Nty=1&pr=
+
+
+[filters]
+http://static.www.odcdn.com/133377069/bundles/en_US_od_business/coremetrics.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
