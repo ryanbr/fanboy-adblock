@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.neowin.net/news/deal-of-the-day-whatsapp-messenger-for-iphone-for-free
+
+
+[filters]
+http://www.neowin.net/images/header_promos/1335271646.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
