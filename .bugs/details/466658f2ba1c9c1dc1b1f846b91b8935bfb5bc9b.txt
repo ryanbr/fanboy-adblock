@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ubr.ua/history/0724/2692
+
+
+[filters]
+http://ubr.ua/js/adriver.core.2.js
+
+[other]
+block above footer is empty
+
+
+[comments]
+nitrox
