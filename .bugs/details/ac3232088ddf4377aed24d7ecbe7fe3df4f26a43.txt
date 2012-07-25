@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.officedepot.com/a/products/739142/Lenovo-Numeric-Keypad/;jsessionid=0000wJPokkxwr8-YgFkpCdTSF_z:1659q37ia
+
+
+[filters]
+http://vop.sundaysky.com/t/v1/i?a=officedepot&ap=1&m=uui&udt=segment/visitor;~pv/739142
+http://vop.sundaysky.com/t/v1/t?v=1.0.0&cb=602310430&sp=http%3A%2F%2Fwww.officedepot.com%2Fa%2Fproducts%2F739142%2FLenovo-Numeric-Keypad%2F%3Bjsessionid%3D0000wJPokkxwr8-YgFkpCdTSF_z%3A1659q37ia&a=officedepot&ap=1&m=uui&udt=segment/visitor;~pv/739142&_cvt=t
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
