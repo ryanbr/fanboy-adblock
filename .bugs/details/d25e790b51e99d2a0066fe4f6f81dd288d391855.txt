@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.xhamster.info/blowjob/in-den-mund-gespritzt/932
+
+
+[filters]
+http://www.xhamster.info/banner/300x250chatbanner.gif
+http://www.bumskontakte.ch/banner/ban_001.gif
+http://apromoweb.com/feed/index.php?wm=155&params=&pg=1&pc=72&sc=24&do=268&ds=382&ab=2&chrset=utf8&p=43045&program=13&cf=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
