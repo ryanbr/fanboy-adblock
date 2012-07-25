@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://movies.netflix.com/WiPlayer?movieid=*&trkid=*&pt_request_id=*&pt_rank=*&pt_row=*&pt_location=*
+
+
+[filters]
+http://contentcache-a.akamaihd.net/items/e6a00/storage.swf
+http://cdn1.certified-apps.com/scripts/shared/enable.js?si=*&tid=*
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
