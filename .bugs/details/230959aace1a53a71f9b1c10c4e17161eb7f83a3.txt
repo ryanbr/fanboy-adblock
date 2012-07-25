@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.record.xl.pt/multimedia/videos/interior.aspx?content_id=769013&autostart=true
+
+
+[filters]
+http://services.webspectator.com/init/WS-RECOR/1343204893770
+http://services.webspectator.com/sb/38/0/480/?s=1&meta=VIDEOS&t=27529125
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
