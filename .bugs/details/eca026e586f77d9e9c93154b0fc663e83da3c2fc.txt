@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.phimvang.org/phim/no-tinh-love-bond-2004/22201207.html
+
+
+[filters]
+http://check-in.gpnetsoft.com/seo.php?username=bmconline&format=ptp
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
