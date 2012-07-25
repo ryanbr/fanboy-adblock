@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.webpagetest.org/result/120725_6Y_9NF/
+
+[filters]
+http://lognormal.net/boomerang/9e4947b2702e36479f7d72b8954bf9b3addbca572d90c8c4b430e40c
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
