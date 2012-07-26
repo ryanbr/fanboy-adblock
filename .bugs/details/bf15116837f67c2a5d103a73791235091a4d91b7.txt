@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://btdigg.org/search?q=%22zero-project%22
+
+
+[filters]
+http://www.mmadsgadget.com/t?id=e78d6h78-8634-76h7-57jgj-nd934ngv9f&size=468x60
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
