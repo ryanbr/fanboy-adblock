@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pornkino.to/milf/dirty-over-30-5-3/
+
+
+[filters]
+http://ads.proxy1.adservr.de/view.php?id=27&hash=3bb6cc0e3e9aa2a0f92b91f76a1c08baf5afabc0&sense=500489575
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
