@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://linuxpoison.blogspot.co.nz/2008/05/gui-tools-to-build-iptablesfirewall.html
+
+
+[filters]
+http://ads.kmdisplay.com/tt?id=516946&size=300x250
+http://ads.kmdisplay.com/tt?id=516946&size=468x60
+http://ads.kmdisplay.com/tt?id=516946&size=728x90
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
