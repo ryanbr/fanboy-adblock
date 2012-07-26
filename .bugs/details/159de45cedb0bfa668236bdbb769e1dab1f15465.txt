@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://truyen.vietboom.com/
+
+
+[filters]
+http://truyen.vietboom.com/Resources/Advertises/634779864275781250.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
