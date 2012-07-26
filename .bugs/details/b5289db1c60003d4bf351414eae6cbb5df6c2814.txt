@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blogtruyen.com/Truyen/eat-man
+
+[filters]
+http://webphunu.net/
+http://pr.prchecker.info/getpr.php?codex=aHR0cDovL2Jsb2d0cnV5ZW4uY29tL1RyYW5nQ2h1&tag=1
+http://go.blogtruyen.com/rolo
+http://go.blogtruyen.com/tocdo
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
