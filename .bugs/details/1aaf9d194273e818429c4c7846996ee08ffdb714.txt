@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.el3lam.com/vb/
+
+
+[filters]
+http://www.feedage.com/images/add2feedage.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
