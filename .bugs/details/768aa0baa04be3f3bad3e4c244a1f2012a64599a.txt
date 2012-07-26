@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://quotes.libertymutual.com/PmInetAutoQuoteClient/index.html#tile-YI01
+
+
+[filters]
+https://quotes.libertymutual.com/PmInetAutoQuoteClient/lmig/analytics/SC_Code.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
