@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.chubb.com/
+
+
+[filters]
+http://www.chubb.com/common/images/cbanalytics.gif?js=1&ts=1343238734293.412&lc=http%3A%2F%2Fwww.chubb.com%2F&rf=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Drelated%3Alibertymutual.com%26hl%3Den%26safe%3Doff%26prmd%3Dimvns%26ei%3DzjAQUK-eELLr0QG1uoHwCA%26start%3D20%26sa%3DN%26biw%3D1392%26bih%3D433&rs=1440x900&cd=24&ln=en&tz=GMT%20-04%3A00&jv=0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
