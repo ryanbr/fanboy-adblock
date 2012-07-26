@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fhm.com/girls/news/olympics-womens-football-starts-today-but-who-is-fitter-team-gb-or-new-zealand-83401
+
+
+[filters]
+http://img.fhm.com/fhm/SocialTrack_min.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
