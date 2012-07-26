@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.netflix.com
+
+[filters]
+http://cdncache2-a.akamaihd.net/ssa/329/?zoneid=*&cid=*&pid=*
+http://cdncache2-a.akamaihd.net/items/e6a00/storage.swf
+http://cdncache2-a.akamaihd.net/items/it/swf/f.swf
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
