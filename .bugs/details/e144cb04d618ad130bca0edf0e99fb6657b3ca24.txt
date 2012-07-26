@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.myrls.me/films/movies/the-dark-knight-rises-2012-ts-ac3-5-1-crewsade/
+
+
+[filters]
+http://adf.ly/js/entry.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
