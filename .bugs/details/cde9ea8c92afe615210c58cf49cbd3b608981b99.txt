@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+wap9team.wapka.mobi/index.xhtml
+
+[filters]
+http://vserv.bc.cdn.bitgravity.com/i/320x50_1/1a32bf35c334a54b8ba9194c2713cc23.gif?5c921e12
+http://vserv.bc.cdn.bitgravity.com/i/320x50_4/4dfbace65fe3c3aa7d96e60abd989ce7.gif?9d4fac19
+http://vserv.bc.cdn.bitgravity.com/i/320x50_5/595d25dffe2fe8ef39938d4a300bc000.gif?3ac46069
+http://wap9team.wapka.mobi/ga.gif?utmac=MO-32471805-1&utmn=409205574&utmr=-&utmp=%2Findex.xhtml&guid=ON
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
