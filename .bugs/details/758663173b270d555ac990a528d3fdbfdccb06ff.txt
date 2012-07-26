@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://videos.nola.com/times-picayune/2012/07/multiple_angles_of_palace_hote.html
+
+
+[filters]
+http://objects.tremormedia.com/embed/swf/bcacudeomodule.swf
+http://admin.brightcove.com/viewer/us20120719.1449/federatedVideoUI/modules/AdvertisingModule.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
