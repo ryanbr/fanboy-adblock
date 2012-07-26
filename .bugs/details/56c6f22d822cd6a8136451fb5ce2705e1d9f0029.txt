@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://buyonline.nationwide.com/autoquote/initiateNewQuote.do?TypeBus=Auto&Zip=10001&TypeBus=AUTO&getQuote=Get
+
+
+[filters]
+https://buyonline.nationwide.com/aq-static/scripts/js/nw_wt_fpc.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
