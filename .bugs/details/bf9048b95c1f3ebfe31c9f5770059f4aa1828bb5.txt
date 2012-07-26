@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.realitykings.com/main.htm
+
+[filters]
+http://www.nastydollars.com/sts/ct/track_cmp_hits.php?id=&cmp=
+http://www.nastydollars.com/sts/ct/track_ad_hits.php?id=&site_id=rk&ad_id=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
