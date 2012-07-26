@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://techrights.org/2012/07/18/gates-and-gmo-in-bbc/
+
+
+[filters]
+http://identi.ca/js/identica-badge.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
