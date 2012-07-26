@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://torrent-finder.info/
+
+
+[filters]
+http://torrent-finder.info/cont.php?wch=usesky&
+http://torrent-finder.info/images/social_icons.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
