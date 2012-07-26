@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.statefarm.com/discount-double-check/
+
+
+[filters]
+http://tracking.callmeasurement.com/clickx/click_matrix.cfm?munique=1343290701846&prev=http://forums.fanboy.co.nz/forums/viewtopic.php?f=6zzzzzt=13981
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
