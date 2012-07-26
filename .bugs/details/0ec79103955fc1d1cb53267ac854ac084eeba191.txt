@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.linuxguruz.com/forum/viewforum.php?f=35
+
+
+[filters]
+http://ads.yourwebexperts.com/client/ranman/banner800.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
