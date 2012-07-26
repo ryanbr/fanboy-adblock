@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.muchmusic.com/
+
+[filters]
+http://ad.doubleclick.net/pfadx/ctv.muchmusic.com/index;clip=728045;sz=1x1;ord=8328242879;format=flv;
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
