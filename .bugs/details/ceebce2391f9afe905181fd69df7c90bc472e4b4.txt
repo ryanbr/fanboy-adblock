@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ura.ru/
+
+
+[filters]
+http://www.ura.ru/banner/www/images/1x1.gif
+http://www.ura.ru/banner/www/images/9e25a2b9b3e29172d3985dd026844b65.gif
+http://www.ura.ru/banner/www/images/cc39f01436ec530fd1f7966b3db1de63.gif
+http://www.ura.ru/banner/www/images/eec97214d2b1f418a29dccac84c72e02.gif
+http://www.ura.ru/banner/www/images/f9b63d6894379ee5d6d321e1e1d70a1e.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
