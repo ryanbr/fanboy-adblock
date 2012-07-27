@@ -1,0 +1,28 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nashgorod.ru/
+
+[filters]
+http://pics.nashgorod.ru/b//4_8.gif
+http://pics.nashgorod.ru/b//krepig-instrument.gif
+http://pics.nashgorod.ru/b//krepig-instrument.gif
+http://pics.nashgorod.ru/b//nashsibir.gif
+http://pics.nashgorod.ru/b//nashsibir.gif
+http://pics.nashgorod.ru/b//piastrella-centr.gif
+http://pics.nashgorod.ru/b//podkabl.gif
+http://pics.nashgorod.ru/b/777_3.gif
+http://pics.nashgorod.ru/b/avtog.gif
+http://pics.nashgorod.ru/b/cem.gif
+http://pics.nashgorod.ru/b/cem.gif
+http://pics.nashgorod.ru/b/gbi.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
