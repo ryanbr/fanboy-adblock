@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rus.delfi.ee/daily/
+
+[filters]
+http://ap.delfi.ee/b?region=693&name=10733&j=1&wm=transparent
+http://ap.delfi.ee/b?region=693&name=22331&j=1&wm=transparent
+http://ap.delfi.ee/b?region=761&name=13749&j=1&wm=transparent
+http://ap.delfi.ee/b?region=761&name=19571&j=1&wm=transparent
+http://ap.delfi.ee/b?region=779&name=12799&j=1&wm=transparent
+http://ap.delfi.ee/b?region=779&name=21333&j=1&wm=transparent
+http://g4.nh.ee/b/g/laen_220x40_ru-5.gif
+http://g.delfi.ee/b/c/laservisioon.gif
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
