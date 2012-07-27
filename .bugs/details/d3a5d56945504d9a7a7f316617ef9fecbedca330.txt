@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.vtomske.ru/news/51477.html
+
+
+[filters]
+http://api.vtomske.ru/cookie/visitor/?action=getid&callback=jsonp1343389455735
+http://vtomske.ru/js/hit.js?1343389456047
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
