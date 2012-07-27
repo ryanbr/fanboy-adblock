@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nickjr.com/kids/
+
+
+[filters]
+http://cm.nickjr.overture.com/js_flat_1_0/?source=viacom_nickjr_ctxt&outputCharEnc=latin1&ctxtId=shows&ctxtUrl=http%3A%2F%2Fwww.nickjr.com%2Fkids%2F&type=nickjr&cb=31809&config=4578258897&maxCount=3&mkt=us
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
