@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://oxe7.com/filmes/12684-act-of-valor-homens-de-coragem.html
+
+
+[filters]
+http://metodoroleta24h.com/
+http://oxe7.com/cpx_ads.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
