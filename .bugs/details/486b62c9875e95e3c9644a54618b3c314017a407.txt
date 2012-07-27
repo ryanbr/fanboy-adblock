@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.codez4mac.com/forum/
+
+
+[filters]
+http://ads.codez4mac.com/assets/banners/active/Codez4Mac_1_1334666047.png
+http://ads.codez4mac.com/assets/banners/active/SurveySavvy_5_1334668158.png
+http://www.amazon.co.uk/b/ref=cs_top_nav_gb27?ie=UTF8&node=350613011&tag=insh0e-21
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
