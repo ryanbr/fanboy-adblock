@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://obzor.westsib.ru/
+
+
+[filters]
+http://dbx.westsib.ru/a/b/4/414.swf?r=1878161293
+http://dbx.westsib.ru/a/bplace.php?a=23&r=521472.57086630724
+http://dbx.westsib.ru/a/bplace.php?a=24&r=788404.5067228856
+http://dbx.westsib.ru/a/bplace.php?a=31&r=594146.3211311802
+http://dbx.westsib.ru/a/bplace.php?a=32&r=278430.7144520739
+http://dbx.westsib.ru/a/l/25.swf?r=2040230575
+http://top.westsib.ru/counter-iframe.php?ak=000018&s=1920x1080&c=24&r=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D7%26t%3D14009&l=http%3A//obzor.westsib.ru/
+http://top.westsib.ru/counter-iframe.php?ak=000026&s=1920x1080&c=24&r=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D7%26t%3D14009&l=http%3A//obzor.westsib.ru/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
