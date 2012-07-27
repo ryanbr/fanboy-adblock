@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.mail.ru/inregions/nordwest/39/economics/9717336/
+
+
+[filters]
+http://b.irn.ru/zeropixel/?source=mail_ru&id=439
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
