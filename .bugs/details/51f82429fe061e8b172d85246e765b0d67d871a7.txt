@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.amic.ru/news/187794/
+
+
+[filters]
+http://www.amic.ru/design/line_advertising.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
