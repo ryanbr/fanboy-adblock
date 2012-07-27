@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.allcrimea.net/news/2012/7/26/1343298486/
+
+
+[filters]
+http://allcrimea.net/statistiks/plus.php?id=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
