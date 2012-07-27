@@ -1,0 +1,29 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://omskpress.ru/
+
+[filters]
+http://omskpress.ru/images/himg/01_12_2011/08af2d63ae44fd5d3769e37c082a0b13.gif
+http://omskpress.ru/images/himg/03_07_2012/4f90bc62878fc76cfe92e8e7b25b2230.swf
+http://omskpress.ru/images/himg/04_07_2012/7b55812f0b0cf3f1659116cbf054bc59.swf
+http://omskpress.ru/images/himg/06_07_2012/6508aec02cc591129c9c68fa505d2f13.gif
+http://omskpress.ru/images/himg/11_07_2012/7d8715de0f775d78069f2ce238b2f3d9.gif
+http://omskpress.ru/images/himg/19_07_2012/c4ff99d726126c43d1cd2f074c932808.jpg
+http://omskpress.ru/images/himg/23_07_2012/63b13582a41080460d733d36b5779936.swf
+http://omskpress.ru/images/himg/23_07_2012/d2b6e66c43597f07881e1b5940a128f0.swf
+http://omskpress.ru/images/himg/25_10_2011/1d5eaaa5fb8d22141783eb93c52ef7d9.png
+http://omskpress.ru/images/himg/27_07_2012/871faa45436be8be264386010f59709d.swf
+http://omskpress.ru/images/himg/28_03_2012/f68de1437640b70c959fd0b76c2faf9f.gif
+http://omskpress.ru/images/himg/29_02_2012/1b66da21c653d237d025d6fac9593a38.swf
+http://omskpress.ru/images/himg/29_06_2012/486395fb53b5ffd1b5655a813977d2be.swf
+
+
+
+[other]
+fp: http://omskpress.ru/images/himg/25_10_2011/1d5eaaa5fb8d22141783eb93c52ef7d9.png
+
+
+[comments]
+fanboy
