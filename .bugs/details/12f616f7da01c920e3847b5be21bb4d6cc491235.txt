@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://epidemz.net/505829-christy-mack-keiran-lee-filthy-christy-2012bigwetbuttscombrazzerscomhd.html
+
+
+[filters]
+http://data.krutilka.net/i/3207/?t=1126520
+http://data.krutilka.net/i/3208/?t=1126520
+http://dev4enki.com/getThumbs?uid=1907280331&p=1&fmt=htm&cityid=1961&lng=ru&fbc=%23FFFFFF&tbc=%23000000&hbc=%23000000&hfc=%23FFFFFF&hlu=0&hlhu=1&cols=6&rows=2&tid=2
+http://dev4enki.com/getThumbs?uid=1907280331&p=1&fmt=htm&cityid=1961&lng=ru&fbc=%23FFFFFF&tbc=%23000000&hbc=%23FF0000&hfc=%23FFFFFF&hlu=0&hlhu=0&cols=1&rows=3&tid=2
+http://jsn.krutilka.net/i/e/p/epidemz.net.3207.js
+http://jsn.krutilka.net/i/e/p/epidemz.net.3208.js
+http://goldline.pro/media/aban/gl_aban1_ru.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
