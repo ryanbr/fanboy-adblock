@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mediaryazan.ru/
+
+
+[filters]
+http://mediaryazan.ru/flash_banners/2gis730.swf
+http://mediaryazan.ru/flash_banners/avtoshkola_banner-730x120-2.swf
+http://mediaryazan.ru/flash_banners/euros.swf
+http://mediaryazan.ru/upload/rk/838/m5_leto.swf
+http://mediaryazan.ru/upload/rk/93f/magazin2.swf
+http://mediaryazan.ru/upload/rk/97a/pravro_180x150_banner2.jpg
+http://mediaryazan.ru/upload/rk/a3d/mir_colesa.gif
+http://mediaryazan.ru/upload/rk/e34/m.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
