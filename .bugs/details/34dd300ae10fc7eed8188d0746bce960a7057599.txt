@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://66.ru/news/business/120920/
+
+
+[filters]
+http://66.ru/lite/counter/?type=10&q=system%20/%20news%20/%20show%20/%20120920
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
