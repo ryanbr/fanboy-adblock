@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.uralweb.ru/poster/
+
+
+[filters]
+http://r.uralweb.ru/109.html?r=0.48015300
+http://r.uralweb.ru/113.html?r=0.48130300
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
