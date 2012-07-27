@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mmorpgextremist.com/700/the-argon-queen-set-to-expand-tera-next-month/
+
+
+[filters]
+http://mmorpgextremist.com/wp-content/plugins/facebook-like-content-locker/general.css?ver=3.3.2
+http://mmorpgextremist.com/wp-content/plugins/facebook-like-content-locker/js/pop.js?ver=3.3.2
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
