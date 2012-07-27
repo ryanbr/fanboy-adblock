@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blogs.evtrib.com/nerdvana/books/san-diego-comic-con-2012-recap/76893/
+
+
+[filters]
+http://blogs.evtrib.com/nerdvana/wp-content/plugins/social-networks/images/facebook_logo.png
+http://blogs.evtrib.com/nerdvana/wp-content/plugins/social-networks/images/rss_logo.png
+http://blogs.evtrib.com/nerdvana/wp-content/plugins/social-networks/images/twitter_logo.png
+http://blogs.evtrib.com/nerdvana/wp-content/plugins/social-networks/images/youtube_logo.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
