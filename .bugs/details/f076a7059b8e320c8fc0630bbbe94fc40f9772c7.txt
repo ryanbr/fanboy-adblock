@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wanamlite.com/forums/showthread.php?tid=2482
+
+
+[filters]
+http://wanamlite.com/forums/images/sharebuttons/delicious_big.png
+http://wanamlite.com/forums/images/sharebuttons/digg_big.png
+http://wanamlite.com/forums/images/sharebuttons/facebook_big.png
+http://wanamlite.com/forums/images/sharebuttons/linkedin_big.png
+http://wanamlite.com/forums/images/sharebuttons/myspace_big.png
+http://wanamlite.com/forums/images/sharebuttons/technorati_big.png
+http://wanamlite.com/forums/images/sharebuttons/twitter_big.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
