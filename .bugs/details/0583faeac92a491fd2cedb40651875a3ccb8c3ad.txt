@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.playpink.com/girls-games/388/Rocky-Roxy-Dress-Up.html
+
+
+[filters]
+http://ad2games.com/slave.php?w=15245_273185186&p=15865&o=c&rand=1cf641203e43c60733541f4c074cb9ba
+http://ad2games.com/slave.php?w=15245_273185186&redirect
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
