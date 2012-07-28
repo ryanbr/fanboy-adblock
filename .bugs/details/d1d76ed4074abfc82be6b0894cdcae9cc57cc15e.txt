@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://filesonick.net/download/18982/sc-pro2.rar
+
+
+[filters]
+http://cdn.adworkmedia.com/images/gateway/light_blue_survey.png
+http://cdn.adworkmedia.com/images/gateway/light_blue_survey_selected.png
+http://cdn.adworkmedia.com/images/gateway/light_blue_trial.png
+http://cdn.adworkmedia.com/images/gateway/light_blue_trial_selected.png
+http://www.adworkmedia.com/gLoader.php?GID=1088&pubID=2634&sid=f8d50c849f89b41e1971e532c9044f31|14232|173.214.200.0
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
