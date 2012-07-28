@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.chasepayeedirectory.com/chasebiller/home.html
+
+[filters]
+http://metadatasystems.mastercard.com/crossdomain.xml
+http://metadatasystems.mastercard.com/dynamicTag.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
