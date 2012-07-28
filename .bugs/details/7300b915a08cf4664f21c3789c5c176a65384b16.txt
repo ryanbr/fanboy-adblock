@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.scientificamerican.com/slideshow.cfm?id=deep-spaces-geometry-labs
+
+[filters]
+http://www.scientificamerican.com/view/includes/slideshow/ads.cfm
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
