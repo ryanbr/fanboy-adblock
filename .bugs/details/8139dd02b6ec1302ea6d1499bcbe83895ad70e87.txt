@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tntdrama.com/video/?oid=349173
+
+
+[filters]
+http://cdn.gigya.com/js/socialize.js?apiKey=2_kXEygSYFi-cFXJrUn1WKRRwwv73_mrv_dJSPhgrG7nIRjr1s8oeRx4Se5oa8PQa3
+http://bea4.v.fwmrm.net/ad/p/1?
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
