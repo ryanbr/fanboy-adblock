@@ -64,6 +64,7 @@ sed -i '9,20000{/#/d}' $SUBS/fanboy-tracking.tpl
 sed -i '/Do-Not-Track/d' $SUBS/fanboy-tracking.tpl
 sed -i '/donottrack/d' $SUBS/fanboy-tracking.tpl
 sed -i '/-d nbcudigitaladops.com/d' $SUBS/fanboy-tracking.tpl
+sed -i '/-d dw.com.com/d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d dhl./d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d server-au.imrworldwide.com/d' $SUBS/fanboy-tracking.tpl
 sed -i '/+d secure-us.imrworldwide.com/d' $SUBS/fanboy-tracking.tpl
