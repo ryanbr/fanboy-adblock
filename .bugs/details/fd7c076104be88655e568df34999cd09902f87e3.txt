@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://en.video.sympatico.ca/home/watch/past-olympic-athletes:-where-are-they-now/1757883586001?sort=date&page=1&lineupid=827265357001
+
+
+[filters]
+http://ad.doubleclick.net/N5479/adi/symp.en.video/general;tile=2;sz=300x250;ord=123456789?
+http://admin.brightcove.com/viewer/us20120725.1623/federatedVideo/modules/AdvertisingModule.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
