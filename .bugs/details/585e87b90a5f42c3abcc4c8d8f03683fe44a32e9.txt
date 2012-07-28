@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://piratereverse.info/torrent/7309483/Project_X_2012_DVDRip_XviD-AMIABLE
+
+[filters]
+http://pop-over.powered-by.blamcity.com/e42ee96fa8cb951485f80fd7c8da
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
