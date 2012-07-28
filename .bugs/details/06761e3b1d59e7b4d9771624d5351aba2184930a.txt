@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.seznam.cz/
+
+[filters]
+http://i.imedia.cz/javascript?mode=generic&charset=utf-8&cookieEnabled=1&lang=en&referer=&zoneId-0=seznam.hp.button&callback=adcb03712879002245357
+http://h.imedia.cz/hit/?d=%7B%22zones%22%3A%22seznam.hp.button%22%7D&a=ad&s=hp&lsid=&id=13434744670910.9195320180497107&v=2.2&r=0.47059113682426357&h=6488612568116289&rus=&u=http%3A%2F%2Fwww.seznam.cz%2F
+http://h.imedia.cz/hit/?q=&d=%7B%22tid%22%3A%2213434740993140.13059627718861744%22%2C%22referer%22%3A%22%22%2C%22path%22%3A%22hp_%22%2C%22scroll%22%3A%220%2C0%22%2C%22port%22%3A%221903%2C951%22%2C%22page%22%3A%221903%2C1484%22%2C%22screen%22%3A%221920%2C1080%2C24%22%7D&a=impress&s=hp&lsid=&id=13434744670910.9195320180497107&v=2.2&r=0.27161743517304937&h=6488612568116289&rus=&u=http%3A%2F%2Fwww.seznam.cz%2F
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
