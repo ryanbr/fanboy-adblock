@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dolidoli.com/game/lisa-s-late-for-work/
+
+[filters]
+http://www.dolidoli.com/images/ads-doli-no_bar.swf
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14045
+
+
+[comments]
+fanboy
