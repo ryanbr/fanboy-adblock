@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://discchord.com/blog/2012/7/27/pixitracker-1bit.html
+
+
+[filters]
+http://discchord.com/storage/social/face32.png?__SQUARESPACE_CACHEVERSION=1334333371669
+http://discchord.com/storage/social/gplus32.png?__SQUARESPACE_CACHEVERSION=1334333512239
+http://discchord.com/storage/social/rss32.png?__SQUARESPACE_CACHEVERSION=1334333570549
+http://discchord.com/storage/social/tube32.png?__SQUARESPACE_CACHEVERSION=1334333795530
+http://discchord.com/storage/social/twitter32.png?__SQUARESPACE_CACHEVERSION=1334333541601
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
