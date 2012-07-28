@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mashable.com/2012/07/09/galaxy-s-iii-ads/
+
+
+[filters]
+http://5.mshcdn.com/wp-content/gallery/samsung-galaxy-s-ii-ads/thumbs/thumbs_2bhD-BvPkn8.jpg
+http://5.mshcdn.com/wp-content/gallery/samsung-galaxy-s-ii-ads/thumbs/thumbs_9eQXi_qmovI.jpg
+http://6.mshcdn.com/wp-content/gallery/samsung-galaxy-s-ii-ads/thumbs/thumbs_oJKmSV-qRJg.jpg
+http://mashable.com/2012/07/09/galaxy-s-iii-ads/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
