@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.acehardware.com/mystore/storeLocator.jsp#07106|10
+
+
+[filters]
+https://dsa.csdata1.com/data/js/9027093/csgather.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14031
+
+
+[comments]
+fanboy
