@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.scientificamerican.com/multimedia.cfm
+
+
+[filters]
+http://nexus.ensighten.com/error/e.gif?msg=_tag%20is%20undefined&lnn=2&fn=http://nexus.ensighten.com/npg/code/B3CAVTTDgY2tmlTarHNXfQ((.js?ruleId=3606&cid=36&rid=3606
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
