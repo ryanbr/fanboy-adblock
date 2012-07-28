@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://spoonful.com/#carousel-id=content-carousel&carousel-item=4
+
+[filters]
+http://spoonful.com/sites/all/themes/spoonful-themes/spoonful/library/js/modules/tracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
