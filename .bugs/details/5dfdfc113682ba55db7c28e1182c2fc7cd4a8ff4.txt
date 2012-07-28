@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://encyclopediadramatica.se/Adalia_Rose
+
+
+[filters]
+https://static.encyclopediadramatica.se/spon/ad4.jpg
+https://static.encyclopediadramatica.se/spon/anonmgur.gif
+https://static.encyclopediadramatica.se/spon/srsvps.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
