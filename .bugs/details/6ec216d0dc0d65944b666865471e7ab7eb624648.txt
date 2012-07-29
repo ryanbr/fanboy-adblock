@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fastpic.ru/view/41/2012/0728/03e3d530ac70f136d8dcdf46f0ae787e.jpg.html
+
+[filters]
+http://cbn.tbn.ru/loader.js
+http://negolist.com/backend.php/widget/result/index/widget_id/366
+http://negolist.com/backend.php/widget_result/index/widget_id/366
+http://negolist.com/in/5565/416/9270/1/366
+http://negolist.com/in/5565/416/9270/1/366
+http://negolist.com/ru/catalog/0/5565/416/1
+http://negolist.com/uploads/images/170x170/___901256d7ada6e90bfd527d3470346ed8___negolist.com.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
