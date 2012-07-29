@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.realstylenetwork.com/blogs/celebrities/2012/07/emma-watson-rumored-to-star-in-50-shades-of-gray/
+
+[filters]
+http://www.realstylenetwork.com/blogs/celebrities/wp-content/plugins/really-simple-facebook-twitter-share-buttons/style.css?ver=3.0.1.2
+http://www.realstylenetwork.com/images/stories/emailbutton.jpg
+http://www.realstylenetwork.com/images/stories/facebookbutton.jpg
+http://www.realstylenetwork.com/images/stories/pinterestbutton.jpg
+http://www.realstylenetwork.com/images/stories/rssbutton.jpg
+http://www.realstylenetwork.com/images/stories/youtubebutton.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
