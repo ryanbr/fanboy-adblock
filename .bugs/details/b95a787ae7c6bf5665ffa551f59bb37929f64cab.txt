@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tottenhamhotspur.com/spurs/index.page?
+
+[filters]
+http://static.tottenhamhotspur.com/media/javascript/google/xtrtrkr-full.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
