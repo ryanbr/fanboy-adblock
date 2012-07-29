@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://boingboing.net/2012/07/28/sick-of-the-olympics-already.html
+
+
+[filters]
+http://boingboing.net/wp-content/themes/bb/ad_google_rect.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
