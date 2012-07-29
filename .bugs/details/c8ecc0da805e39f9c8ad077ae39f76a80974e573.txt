@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://deportescl.terra.cl/juegos-olimpicos/londres-2012/en-vivo/2099/
+
+[filters]
+http://s2.trrsf.com/atm/3/core/_js/admanager.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
