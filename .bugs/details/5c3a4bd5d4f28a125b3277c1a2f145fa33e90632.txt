@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://reference.medscape.com/features/slideshow/vision-loss-2012?sssdmh=*&src=*#
+
+
+[filters]
+http://as.medscape.com/html.ng/transactionid%3D32831800&pos%3D101&pf%3D17&usp%3D0&occ%3D0&tid%3D0&auth%3D1&ct%3Dus&inst%3D0&kw%3D0&artid%3D0&pub%3D0&spon%3D0&st%3Dca&env%3D0&ssp%3D34&cg%3D0&pclass%3Dslideshow&scg%3D918&bc%3D__&affiliate%3D2&site%3D1&leaf%3D0&tile%3D32831800&frame=5
+http://as.medscape.com/html.ng/transactionid%3D32831800&pos%3D123&pf%3D17&usp%3D0&occ%3D0&tid%3D0&auth%3D1&ct%3Dus&inst%3D0&kw%3D0&artid%3D0&pub%3D0&spon%3D0&st%3Dca&env%3D0&ssp%3D34&cg%3D0&pclass%3Dslideshow&scg%3D918&bc%3D__&affiliate%3D2&site%3D1&leaf%3D0&tile%3D32831800&frame=5
+http://as.medscape.com/html.ng/transactionid%3D3933286166&pos%3D101&pf%3D17&usp%3D0&occ%3D0&tid%3D0&auth%3D1&ct%3Dus&inst%3D0&kw%3D0&artid%3D0&pub%3D0&spon%3D0&st%3Dca&env%3D0&ssp%3D34&cg%3D0&pclass%3Dslideshow&scg%3D918&bc%3D__&affiliate%3D2&site%3D1&leaf%3D0&tile%3D3891740968
+http://as.medscape.com/html.ng/transactionid%3D3933286166&pos%3D123&pf%3D17&usp%3D0&occ%3D0&tid%3D0&auth%3D1&ct%3Dus&inst%3D0&kw%3D0&artid%3D0&pub%3D0&spon%3D0&st%3Dca&env%3D0&ssp%3D34&cg%3D0&pclass%3Dslideshow&scg%3D918&bc%3D__&affiliate%3D2&site%3D1&leaf%3D0&tile%3D3891740968
+http://as.medscape.com/html.ng/transactionid%3D51380908&pos%3D101&pf%3D17&usp%3D0&occ%3D0&tid%3D0&auth%3D1&ct%3Dus&inst%3D0&kw%3D0&artid%3D0&pub%3D0&spon%3D0&st%3Dca&env%3D0&ssp%3D34&cg%3D0&pclass%3Dslideshow&scg%3D918&bc%3D__&affiliate%3D2&site%3D1&leaf%3D0&tile%3D51380908&frame=2
+http://as.medscape.com/html.ng/transactionid%3D51380908&pos%3D123&pf%3D17&usp%3D0&occ%3D0&tid%3D0&auth%3D1&ct%3Dus&inst%3D0&kw%3D0&artid%3D0&pub%3D0&spon%3D0&st%3Dca&env%3D0&ssp%3D34&cg%3D0&pclass%3Dslideshow&scg%3D918&bc%3D__&affiliate%3D2&site%3D1&leaf%3D0&tile%3D51380908&frame=2
+http://as.medscape.com/html.ng/transactionid%3D55053873&pos%3D101&pf%3D17&usp%3D0&occ%3D0&tid%3D0&auth%3D1&ct%3Dus&inst%3D0&kw%3D0&artid%3D0&pub%3D0&spon%3D0&st%3Dca&env%3D0&ssp%3D34&cg%3D0&pclass%3Dslideshow&scg%3D918&bc%3D__&affiliate%3D2&site%3D1&leaf%3D0&tile%3D55053873&frame=3
+http://as.medscape.com/html.ng/transactionid%3D55053873&pos%3D123&pf%3D17&usp%3D0&occ%3D0&tid%3D0&auth%3D1&ct%3Dus&inst%3D0&kw%3D0&artid%3D0&pub%3D0&spon%3D0&st%3Dca&env%3D0&ssp%3D34&cg%3D0&pclass%3Dslideshow&scg%3D918&bc%3D__&affiliate%3D2&site%3D1&leaf%3D0&tile%3D55053873&frame=3
+http://as.medscape.com/html.ng/transactionid%3D86608059&pos%3D101&pf%3D17&usp%3D0&occ%3D0&tid%3D0&auth%3D1&ct%3Dus&inst%3D0&kw%3D0&artid%3D0&pub%3D0&spon%3D0&st%3Dca&env%3D0&ssp%3D34&cg%3D0&pclass%3Dslideshow&scg%3D918&bc%3D__&affiliate%3D2&site%3D1&leaf%3D0&tile%3D86608059&frame=4
+http://as.medscape.com/html.ng/transactionid%3D86608059&pos%3D123&pf%3D17&usp%3D0&occ%3D0&tid%3D0&auth%3D1&ct%3Dus&inst%3D0&kw%3D0&artid%3D0&pub%3D0&spon%3D0&st%3Dca&env%3D0&ssp%3D34&cg%3D0&pclass%3Dslideshow&scg%3D918&bc%3D__&affiliate%3D2&site%3D1&leaf%3D0&tile%3D86608059&frame=4
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
