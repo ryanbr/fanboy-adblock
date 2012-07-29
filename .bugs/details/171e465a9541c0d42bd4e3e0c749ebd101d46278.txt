@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://krasview.ru/video/288521-Avariya_DODGE
+
+[filters]
+http://krasview.ru/content/stargate/ac7734b4d16bfcb.swf
+http://krasview.ru/resource/a.php?feature=ngs-news-video&region=24
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
