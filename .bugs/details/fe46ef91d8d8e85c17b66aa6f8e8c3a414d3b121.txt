@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.85play.com/management-games/4764/family-restaurant.html
+
+[filters]
+http://s0.2mdn.net/instream/flash/v3/ads_sdk_config.xml
+http://googleads.g.doubleclick.net/pagead/ads?ad_type=text&adsafe=high&channel=TextOverlay%2BAfvVast2&client=ca-games-pub-1263150590374933&correlator=1343552208638&dt=1343552208647&flash=11.3.300.268&frm=0&num_ads=3&output=xml_vast2&ref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D8%26t%3D14057&sdkv=3.0.21&sz=400x300&t_pyv=allow&u_ah=1040&u_asa=1&u_aw=1920&u_cd=24&u_h=1080&u_his=1&u_java=true&u_nmime=45&u_nplug=6&u_tz=720&u_w=1920&unviewed_position_start=1&url=http%3A%2F%2Fwww.85play.com%2Fmanagement-games%2F4764%2Ffamily-restaurant.html&video_product_type=4&video_url_to_fetch=test.com&videoad_start_delay=1
+http://googleads.g.doubleclick.net/crossdomain.xml
+http://s0.2mdn.net/instream/flash/v3/adsapi_3.swf
+http://s0.2mdn.net/instream/flash/v3/adsapi_3_0_21.swf
+http://s0.2mdn.net/instream/flash/v3/afv_text_ads_manager_0_21.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
