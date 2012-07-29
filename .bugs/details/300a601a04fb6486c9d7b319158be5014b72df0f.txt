@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.funny-city.com/5300/
+
+[filters]
+http://tracking100.com/loader?customerid=3887&experimentid=-1&visitorid=5013df16a0c4c79f22000068&url=http%3A%2F%2Fwww.funny-city.com%2F5300%2F&ref=http%3A%2F%2Fwww.funny-city.com%2F&timezone=240
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
