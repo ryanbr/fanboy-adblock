@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wcnc.com/home/Restaurant-Inspections--Meat-stored--163832506.html
+
+
+[filters]
+http://www.wcnc.com/g/g/button/button_1.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
