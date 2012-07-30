@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.5star-shareware.com/Windows/Utilities/Registry/registry_booster_2012.html
+
+
+[filters]
+http://www.5star-shareware.com/scripts/5starads.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
