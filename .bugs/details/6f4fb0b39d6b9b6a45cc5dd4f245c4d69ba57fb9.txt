@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yuvutu.com/modules.php?name=Video&op=view&video_id=799399
+
+
+[filters]
+http://www.yuvutu.com/includes/custom_files/AdZoneBelowPlayer.php
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
