@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://di.com.pl/news/43126,0,FBI_podsluchiwalo_Skypea_pracownikow_MegaUpload_od_2007_roku.html&usg=ALkJrhgJF_trVIdgfYgjnG2unjR8F9KxeA
+
+
+[filters]
+http://www.wykop.pl/dataprovider/diggerwidget/?url=http%3A%2F%2Fdi.com.pl%2Fnews%2F43126%2C0%2CFBI_podsluchiwalo_Skypea_pracownikow_MegaUpload_od_2007_roku.html&title=&desc=&bg=FFFFFF&type=normal2
+http://www.wykop.pl/dataprovider/diggerwidget/?url=http://di.com.pl/news/43126,0,FBI_podsluchiwalo_Skype039a_pracownikow_MegaUpload_od_2007_roku.html&title=FBI%20pods%C5%82uchiwa%C5%82o%20Skype%27a%20pracownik%C3%B3w%20MegaUpload%20od%202007%20roku&desc=Ujawniono%20te%20fakty%20przed%20s%C4%85dem%20w%20Nowej%20Zelandii%2C%20by%20zyska%C4%87%20jego%20przychylno%C5%9B%C4%87%20w%20sprawie%20zatrzymanych%20pracownik%C3%B3w%20serwisu%20MegaUpload.&bg=FFFFFF&type=compact2&bold=true
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
