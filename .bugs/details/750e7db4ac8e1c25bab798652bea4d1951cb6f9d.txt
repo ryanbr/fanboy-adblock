@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://boingboing.net/2012/07/28/apple-wont-carry-an-ebook-be.html
+
+
+[filters]
+http://assets.callisto.fm/code/v2/autodetect.callisto.min.js
+http://assets.callisto.fm/code/v2/callisto.min.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
