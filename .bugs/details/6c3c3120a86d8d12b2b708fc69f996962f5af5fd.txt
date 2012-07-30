@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.redtube.com/
+
+
+[filters]
+http://www.redtube.com/trackstats?iAction=2&sParam=enter
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
