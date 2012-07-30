@@ -1,0 +1,16 @@
+i# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.totalporn.com/videos/milf-youjizz/
+
+[filters]
+http://www.totalporn.com/videos/tracking/?url=http%3A%2F%2Fwww.youjizz.com%2Fvideos%2Fdonita-dunes---busty-latina-milf-2264908.html&video_id=f0707000-e4bc-11e0-8761-12313d1b68f5&position_on_page=2
+http://www.totalporn.com/videos/tracking/?url=http%3A%2F%2Fwww.youjizz.com%2Fvideos%2Fmilf-rents-room-to-college-boy-2276879.html&video_id=6cb88280-e4c0-11e0-a6a9-12313d1b68f5&position_on_page=1
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
