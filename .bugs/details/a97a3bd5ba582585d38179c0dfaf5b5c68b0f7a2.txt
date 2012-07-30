@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.deluxeasianporn.com/535/index.html
+
+[filters]
+http://b.javbucks.com/?action=view&k=ed5adaed226aa3cb1389a27d3feb380a,geo
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
