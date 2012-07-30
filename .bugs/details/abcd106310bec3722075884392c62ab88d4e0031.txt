@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://javhd.com/en/id/5940?nats=MjUuMi4yLjIuMC4xLjEwMDAuMC4w
+
+[filters]
+http://javhd.com/click/5940
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
