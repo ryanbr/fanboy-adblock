@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pmu.fr/ouverture-compte/generique/?107&transversal-site
+
+
+[filters]
+http://script.weborama.fr/wbo_performance.js
+
+
+
+
+[other]
+stops site from loading, blank page
+
+
+[comments]
+fanboy
