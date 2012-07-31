@@ -74,4 +74,4 @@ sed -i '/- \/quant.js/d' $SUBSTEMP/fanboy-tracking.tpl $SUBSTEMP/fanboy-ultimate
 
 # Copy back
 #
-mv -f $SUBSTEMP/*.tpl $SUBS
+mv -f $SUBSTEMP/* $SUBS
