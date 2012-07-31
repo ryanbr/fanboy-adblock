@@ -61,11 +61,15 @@ python $IEDIR/combineSubscriptions.py $IEDIR $SUBS
 
 # Copy over files to be cleaned up
 #
-cp $SUBS/fanboy-tracking.tpl $SUBSTEMP
+cp -f $SUBS/fanboy-tracking.tpl $SUBSTEMP
 
 # Cleanup Script
 #
 $GOOGLEDIR/scripts/ie/ie-cleanup-filters.sh
+
+# Copy back
+#
+cp -f $SUBSTEMP/* $SUBS/
 
 # Remove old gz file
 #

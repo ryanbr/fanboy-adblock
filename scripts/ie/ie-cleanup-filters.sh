@@ -71,7 +71,3 @@ sed -i '/+d revsci.net/d' $SUBSTEMP/fanboy-tracking.tpl $SUBSTEMP/fanboy-ultimat
 sed -i '/+d js.revsci.net/d' $SUBSTEMP/fanboy-tracking.tpl $SUBSTEMP/fanboy-ultimate-ie.tpl $SUBSTEMP/fanboy-complete-ie.tpl
 sed -i '/+d easy.box/d' $SUBSTEMP/fanboy-tracking.tpl $SUBSTEMP/fanboy-ultimate-ie.tpl $SUBSTEMP/fanboy-complete-ie.tpl
 sed -i '/- \/quant.js/d' $SUBSTEMP/fanboy-tracking.tpl $SUBSTEMP/fanboy-ultimate-ie.tpl $SUBSTEMP/fanboy-complete-ie.tpl
-
-# Copy back
-#
-mv -f $SUBSTEMP/* $SUBS

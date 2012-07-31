@@ -74,6 +74,10 @@ cp $SUBS/fanboy-tracking.tpl $SUBSTEMP
 #
 $GOOGLEDIR/scripts/ie/ie-cleanup-filters.sh
 
+# Copy back
+#
+cp -f $SUBSTEMP/* $SUBS/
+
 # Remove old gz file
 #
 rm -f $SUBS/fanboy-noele.tpl*.gz
