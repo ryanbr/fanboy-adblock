@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fox411.blogs.foxnews.com/post/28331033744/rosie-huntington-whiteley-hit-the-big-time-when
+
+
+[filters]
+http://global.fncstatic.com/static/dc/img/fox411/fox-411-head-728x90.png
+http://global.fncstatic.com/static/v/dc/img/fox411/fox-411-head-728x90.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
