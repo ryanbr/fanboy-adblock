@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.espn.co.uk/
+
+
+[filters]
+http://i.espn.co.uk/ads/gameModule_v0.2.swf
+
+
+[other]
+blocks espn arcade games flash menu.
+
+
+[comments]
+nitrox
