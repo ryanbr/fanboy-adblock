@@ -24,12 +24,10 @@ GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 ZIP="/usr/local/bin/7za"
 IEDIR="/tmp/ieramdisk"
 SUBS="/tmp/ieramdisk/subscriptions"
-SUBSTEMP="/tmp/ieramdisk/subscriptions/temp"
 
 # Clear out any old files lurking
 #
-mkdir $SUBS/temp
-rm -rf $IEDIR/*.txt $SUBS/* $SUMS/temp/*
+rm -rf $IEDIR/*.txt $SUBS/*
 cd $IEDIR
 
 # Copy TPL (Microsoft IE9) Script
@@ -62,21 +60,9 @@ sed -i '/~third-party/d' $IEDIR/fanboy-noele.txt $IEDIR/fanboy-ultimate-ie.txt $
 # perl $IEDIR/maketpl.pl &> /dev/null
 python $IEDIR/combineSubscriptions.py $IEDIR $SUBS
 
-# Copy over files to be cleaned up
-#
-cp $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl $SUBSTEMP
-
-# Copy over files to be cleaned up
-#
-cp $SUBS/fanboy-tracking.tpl $SUBSTEMP
-
 # Cleanup Script
 #
 $GOOGLEDIR/scripts/ie/ie-cleanup-filters.sh
-
-# Copy back
-#
-cp -f $SUBSTEMP/* $SUBS/
 
 # Remove old gz file
 #
