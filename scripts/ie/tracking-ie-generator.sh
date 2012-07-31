@@ -14,6 +14,7 @@ if [ ! -d "/tmp/ieramdisk/" ]; then
     mount -t tmpfs -o size=10M tmpfs /tmp/ieramdisk/
     cp -f /home/fanboy/google/fanboy-adblock-list/scripts/ie/combineSubscriptions.py /tmp/ieramdisk/
     mkdir /tmp/ieramdisk/subscriptions
+    mkdir /tmp/ieramdisk/subscriptions/temp
 fi
 
 # Variables
@@ -23,11 +24,13 @@ GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
 ZIP="/usr/local/bin/7za"
 IEDIR="/tmp/ieramdisk"
 SUBS="/tmp/ieramdisk/subscriptions"
+SUBSTEMP="/tmp/ieramdisk/subscriptions/temp"
 TESTDIR="/tmp/ramdisk"
 
 # Clear out any old files lurking
 #
-rm -rf $IEDIR/*.txt $SUBS/*
+mkdir $SUBS/temp
+rm -rf $IEDIR/*.txt $SUBS/* $SUBS/temp/*
 cd $IEDIR
 
 # Copy TPL (Microsoft IE9) Script
@@ -56,22 +59,13 @@ rm -rf $IEDIR/fanboy-tracking-addon.txt
 # perl $IEDIR/maketpl.pl &> /dev/null
 python $IEDIR/combineSubscriptions.py $IEDIR $SUBS
 
-# Now remove filters that cause issues in IE (and false positives)
+# Copy over files to be cleaned up
 #
-sed -i '9,20000{/\#/d}' $SUBS/fanboy-tracking.tpl
-sed -i '9,20000{/#/d}' $SUBS/fanboy-tracking.tpl
+cp $SUBS/fanboy-tracking.tpl $SUBSTEMP
 
-sed -i '/Do-Not-Track/d' $SUBS/fanboy-tracking.tpl
-sed -i '/donottrack/d' $SUBS/fanboy-tracking.tpl
-sed -i '/-d nbcudigitaladops.com/d' $SUBS/fanboy-tracking.tpl
-sed -i '/-d dw.com.com/d' $SUBS/fanboy-tracking.tpl
-sed -i '/+d dhl./d' $SUBS/fanboy-tracking.tpl
-sed -i '/+d server-au.imrworldwide.com/d' $SUBS/fanboy-tracking.tpl
-sed -i '/+d secure-us.imrworldwide.com/d' $SUBS/fanboy-tracking.tpl
-sed -i '/+d revsci.net/d' $SUBS/fanboy-tracking.tpl
-sed -i '/+d js.revsci.net/d' $SUBS/fanboy-tracking.tpl
-sed -i '/+d easy.box/d' $SUBS/fanboy-tracking.tpl
-sed -i '/- \/quant.js/d' $SUBS/fanboy-tracking.tpl
+# Cleanup Script
+#
+$GOOGLEDIR/scripts/ie/ie-cleanup.sh
 
 # Remove old gz file
 #
@@ -84,3 +78,5 @@ $ZIP a -mx=9 -y -tgzip $SUBS/fanboy-tracking.tpl.gz $SUBS/fanboy-tracking.tpl > 
 # Now copy finished tpl list to the website.
 #
 cp -f $SUBS/fanboy-tracking.tpl $SUBS/fanboy-tracking.tpl.gz $MAINDIR/ie/
+
+
