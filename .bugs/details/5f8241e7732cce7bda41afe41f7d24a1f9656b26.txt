@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.youtube.com/watch?v=KleUddM2IPw
+
+
+[filters]
+http://www.youtube.com/watch?v=QcWF96wSjGM
+http://www.youtube.com/watch?v=ISTPlAYOsAc
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14093
+
+[comments]
+fanboy
