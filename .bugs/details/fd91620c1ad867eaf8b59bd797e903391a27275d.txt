@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.solarnovus.com/index.php?option=com_content&view=article&id=5264:snapshot-of-the-us-solar-industry&catid=46:politics-policy-features&Itemid=250
+
+[filters]
+http://cdncontent.solarnovus.com/images/stories/Icons/facebook_32x32.png
+http://cdncontent.solarnovus.com/images/stories/Icons/feed_32x32.png
+http://cdncontent.solarnovus.com/images/stories/Icons/twitter2_32x32.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
