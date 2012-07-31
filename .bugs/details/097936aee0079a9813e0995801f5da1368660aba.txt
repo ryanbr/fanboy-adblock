@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eurovisionsports.tv/london2012/
+
+
+[filters]
+http://adserver.adtech.de/?advideo/3.0/1215.1/3228528/0//cc=2;cfp=1;rndc=1343731652;vidAS=PRE_ROLL;vidREG=companion_right:300x250:adiframe;vidREG=companion_top:300x100:adiframe
+http://adserver.adtech.de/?advideo/3.0/1215.1/3228528/0//cc=2;vidAS=PRE_ROLL;vidREG=companion_right:300x250:adiframe;vidREG=companion_top:300x100:adiframe
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
