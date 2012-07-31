@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://free-castlevilleitem.blogspot.co.uk/2012/06/consenergyitem3-1160-build-release.html
+
+[filters]
+http://uz3.linkybank.com/pagelinks.php
+http://uz3.linkybank.com/pagelinks.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
