@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://salkkarit-ilmaiseksi.foorumini.com/f32-salkkarit-yleinen-keskustelu
+
+
+[filters]
+http://illiweb.com/fa/empty.gif
+http://illiweb.com/fa/favicon/form.ico
+http://illiweb.com/fa/prosilver/bg_button.gif
+http://illiweb.com/fa/prosilver/icon_pages.gif
+http://illiweb.com/fa/sprite_icons.png
+http://illiweb.com/fa/sprite_prosilver_navbar.png
+http://illiweb.com/rsc/34/frm/lang/fi.js
+
+
+
+
+[other]
+remove
+
+
+[comments]
+fanboy
