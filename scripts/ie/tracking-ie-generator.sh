@@ -65,7 +65,7 @@ cp $SUBS/fanboy-tracking.tpl $SUBSTEMP
 
 # Cleanup Script
 #
-$GOOGLEDIR/scripts/ie/ie-cleanup.sh
+$GOOGLEDIR/scripts/ie/ie-cleanup-filters.sh
 
 # Remove old gz file
 #
