@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wallpapersmania.com/22_mountains_wallpapers.html
+
+[filters]
+http://www.wallpapersmania.com/ad/celebrities/Pink/Preview/Pink1_thumb.jpg
+http://www.wallpapersmania.com/ad/nature/Animals/Preview/Animals109_GD35X0K5_thumb.jpg
+http://www.wallpapersmania.com/ad/nature/Animals/Preview/Animals19_J7ZC31_thumb.jpg
+http://www.wallpapersmania.com/ad/nature/Animals/Preview/Animals96_730VJ731_thumb.jpg
+http://www.wallpapersmania.com/ad/nature/BeachAndSea/Preview/BeachAndSea96_4DT319_thumb.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
