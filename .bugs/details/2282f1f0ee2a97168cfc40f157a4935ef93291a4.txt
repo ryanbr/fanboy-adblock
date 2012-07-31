@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.smithsonianmag.com/science-nature/Ten-Inventions-Inspired-by-Science-Fiction.html?c=y&page=4&navigation=thumb#IMAGES
+
+
+[filters]
+http://media.airspacemag.com/designimages/Google-Plus-icon-40.jpg
+http://media.smithsonianmag.com/designimages/Youtube-icon-40.jpg
+http://media.smithsonianmag.com/designimages/email-icon-40.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
