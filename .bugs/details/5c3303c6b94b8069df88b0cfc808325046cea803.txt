@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wral.com/traffic/
+
+
+[filters]
+http://www.beatthetraffic.com/traffic/?partner=wral&nolayout&lon=-78.6395&lat=35.7827&dt=c2044&zoom=12
+
+[other]
+# Any other details
+
+[comments]
+nitrox
