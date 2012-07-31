@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://video.citytv.com/video/detail/1762226842001.000000/Cooking-with-Corso-32-1/
+
+
+[filters]
+http://static.rogersdigitalmedia.com/libs/analytics/RDMOmniture.swf?account=rogmedcitytvvideo&visitorNameSpace=rogersmedia&dataCenter=122&trackingServer=om.rogersmedia.com&trackingServerSecure=om.rogersmedia.com
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14102
+
+
+[comments]
+fanboy
