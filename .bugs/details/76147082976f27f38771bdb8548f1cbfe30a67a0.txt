@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.interest.co.nz/
+
+
+[filters]
+http://www.interest.co.nz/banners/EFC3056_Search_NZ_294x245.gif
+http://www.interest.co.nz/sites/all/themes/sparks_framework/css/img/bnz_skin.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
