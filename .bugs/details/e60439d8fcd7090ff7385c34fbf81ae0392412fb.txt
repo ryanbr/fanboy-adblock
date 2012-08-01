@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.southdreamz.com/2012/04/manam-kothi-paravai-is-complete.html
+
+
+[filters]
+http://imgs.bharatmatrimony.com/matrimoney/matrimoneybanners/banner54.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
