@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forum.csmania.ru/viewtopic.php?f=14&t=35163&sid=f47cef95d14cfe2e20e7e1d02a5892b8&start=630
+
+
+[filters]
+http://forum.csmania.ru/ads/view.php?a=10
+http://forum.csmania.ru/ads/view.php?a=13
+http://forum.csmania.ru/ads/view.php?a=18
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
