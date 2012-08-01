@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://devatube.com/player/french-blonde/9542/?utm_source=Tubegalore&utm_medium=thumbsTubegalore&utm_campaign=Tubegalore1
+
+
+[filters]
+http://devatube.com/img/partners/barely-legal.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
