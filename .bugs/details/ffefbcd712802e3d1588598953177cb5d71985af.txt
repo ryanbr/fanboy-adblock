@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.silverlight.net/
+
+
+[filters]
+http://www.silverlight.net/microtext-right-adchain.html?siteid=2&Task=Get&IFR=True&zoneid=502
+http://www.silverlight.net/silverlight-adchain.html?siteid=2&Task=Get&IFR=True&zoneid=389
+http://www.silverlight.net/silverlight-adchain.html?siteid=2&Task=Get&IFR=True&zoneid=500
+http://www.silverlight.net/silverlight-adchain.html?siteid=2&Task=Get&IFR=True&zoneid=501
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
