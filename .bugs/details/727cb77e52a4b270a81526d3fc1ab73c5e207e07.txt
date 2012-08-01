@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rutracker.org/forum/index.php
+
+
+[filters]
+http://go.gamenet.ru/rutracker/?rnd=1517350169
+http://go.gamenet.ru/rutracker/?rnd=1517350169
+http://images.gamenet.ru/pics/go/rutracker/bs_luchnica_42.jpg
+http://images.gamenet.ru/pics/go/rutracker/bs_luchnica_42.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
