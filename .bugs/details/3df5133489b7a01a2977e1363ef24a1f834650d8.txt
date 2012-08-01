@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sjsuspartans.com/
+
+
+[filters]
+http://www.sjsuspartans.com/ads2/508335.jpg?M=201012032133
+http://www.sjsuspartans.com/ads2/508336.jpg?M=201008312042
+http://www.sjsuspartans.com/ads2/508337.jpg?M=201008312043
+http://www.sjsuspartans.com/ads2/508363.png?M=201008282040
+http://www.sjsuspartans.com/ads2/508364.png?M=201008282041
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
