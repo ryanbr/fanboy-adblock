@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eskimotube.com/200366-Arisa-Minami-This-Busty-Babe-Arisa-Minami-Is-One-Of-My-Favorite.html
+
+[filters]
+http://m.sancdn.net/imad/imad-san-v1.js?domain=eskimotubecams.com&AFNO=1-0-609922-344351&UHNSMTY=460&p=eskimotube
+
+http://www.eskimotube.com/kellyban.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
