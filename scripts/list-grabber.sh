@@ -1,34 +1,36 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v1.751 (18/07/2012)
+# Fanboy Adblock list grabber script v1.752 (01/08/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
+#
+# 1.752 Declare global variables
 # 1.751 Remove Shred, and cleanup variable names
 # 1.75 Store log in ramdisk to avoid unnessary writes (Currently disabled)
 # 1.74 Store repo in ramdisk to avoid unnessary writes (Currently disabled)
 #
 # Variables for directorys
 #
-MAINDIR="/var/www/adblock"
-GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-TESTDIR="/tmp/ramdisk"
-ZIP="nice -n 19 /usr/local/bin/7za"
-NICE="nice -n 19"
-LOGFILE="/etc/crons/log-listgrabber.txt"
-DATE="`date`"
-ECHORESPONSE="List Changed: $LS2"
-BADUPDATE="Bad Update: $LS2"
-LS2="`ls -al $FILE`"
-SHA256SUM=/usr/bin/sha256sum
-HG=/usr/local/bin/hg
-TAIL=/usr/bin/tail
-LOGFILE2="/var/log/adblock-log.txt"
-TEMPLOGFILE="/var/www/adblock.log"
-IEDIR="/tmp/ieramdisk"
-SUBS="/tmp/ieramdisk/subscriptions"
+export MAINDIR="/var/www/adblock"
+export GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
+export TESTDIR="/tmp/ramdisk"
+export ZIP="nice -n 19 /usr/local/bin/7za"
+export NICE="nice -n 19"
+export LOGFILE="/etc/crons/log-listgrabber.txt"
+export DATE="`date`"
+export ECHORESPONSE="List Changed: $LS2"
+export BADUPDATE="Bad Update: $LS2"
+export LS2="`ls -al $FILE`"
+export SHA256SUM="/usr/bin/sha256sum"
+export HG="/usr/local/bin/hg"
+export TAIL="/usr/bin/tail"
+export LOGFILE2="/var/log/adblock-log.txt"
+export TEMPLOGFILE="/var/www/adblock.log"
+export IEDIR="/tmp/ieramdisk"
+export SUBS="/tmp/ieramdisk/subscriptions"
 
 # Make Ramdisk.
 #
