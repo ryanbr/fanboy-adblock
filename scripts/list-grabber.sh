@@ -27,6 +27,8 @@ HG=/usr/local/bin/hg
 TAIL=/usr/bin/tail
 LOGFILE2="/var/log/adblock-log.txt"
 TEMPLOGFILE="/var/www/adblock.log"
+IEDIR="/tmp/ieramdisk"
+SUBS="/tmp/ieramdisk/subscriptions"
 
 # Make Ramdisk.
 #
@@ -68,7 +70,7 @@ chmod a+x $GOOGLEDIR/scripts/ie/*.sh $GOOGLEDIR/scripts/iron/*.sh $GOOGLEDIR/scr
 
 # Grab Mercurial Updates
 #
-cd /home/fanboy/google/fanboy-adblock-list/
+cd $GOOGLEDIR
 echo "------------------------- Start of script -------------------------" >> $LOGFILE2
 echo "Updated hg (hg pull ; hg update (script: list-grabber.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
 $NICE $HG pull >> $LOGFILE2

@@ -7,12 +7,12 @@
 #
 # Variables for directorys
 #
-MAINDIR="/var/www/adblock"
-GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-TESTDIR="/tmp/ramdisk"
-ZIP="/usr/local/bin/7za"
-NICE="nice -n 19"
-DATE="`date`"
+#MAINDIR="/var/www/adblock"
+#GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
+#TESTDIR="/tmp/ramdisk"
+#ZIP="/usr/local/bin/7za"
+#NICE="nice -n 19"
+#DATE="`date`"
 
 # Make Ramdisk.
 #

@@ -19,12 +19,12 @@ fi
 
 # Variables
 #
-MAINDIR="/var/www/adblock"
-GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-ZIP="/usr/local/bin/7za"
-IEDIR="/tmp/ieramdisk"
-SUBS="/tmp/ieramdisk/subscriptions"
-TESTDIR="/tmp/ramdisk"
+# MAINDIR="/var/www/adblock"
+# GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
+# ZIP="/usr/local/bin/7za"
+# IEDIR="/tmp/ieramdisk"
+# SUBS="/tmp/ieramdisk/subscriptions"
+# TESTDIR="/tmp/ramdisk"
 
 # Clear out any old files lurking
 #

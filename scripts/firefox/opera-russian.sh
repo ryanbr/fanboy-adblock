@@ -17,10 +17,10 @@ fi
 
 # Variables for directorys
 #
-MAINDIR="/var/www/adblock"
-GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-TESTDIR="/tmp/ramdisk"
-ZIP="/usr/local/bin/7za"
+# MAINDIR="/var/www/adblock"
+# GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
+# TESTDIR="/tmp/ramdisk"
+# ZIP="/usr/local/bin/7za"
 
 # Make copies into Ramdisk
 #
