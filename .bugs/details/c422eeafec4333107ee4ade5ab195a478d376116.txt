@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thehungersite.com/clickToGive/home.faces?siteId=1
+
+[filters]
+http://cdn.thehungersite.com/charityusa_vitalstream_com/ctg/p3/javascript/fb-app-tracker.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
