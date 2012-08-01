@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.feedthechildren.org/site/PageServer?pagename=dotorg_homepage
+
+
+[filters]
+http://allatu.pair.com/itero/tracker_ftc/hidden.php?trk_url=http://www.feedthechildren.org/site/PageServer?pagename=dotorg_homepage&trk_username=&trk_sessionID=icp5ttc8n2.app217a&trk_referer=&trk_agent=Mozilla/5.0%20%28Windows%20NT%206.1;%20Win64;%20x64;%20rv:17.0%29%20Gecko/17.0%20Firefox/17.0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
