@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.playground.ru/36813/
+
+
+[filters]
+http://ad05f.ru/code/vknotifier1.php?id=825&adf_in=1&vk_t=12&adv_ids=
+http://ad05f.ru/code/vkshow1.php?id=825
+http://ad05f.ru/files/notifier_close.gif
+http://ad05f.ru/files/swfobject.js
+http://ad05f.ru/uploads/627.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
