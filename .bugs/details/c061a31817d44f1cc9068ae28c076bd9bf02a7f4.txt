@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://cyberlaw.stanford.edu/blog/2012/02/setting-record-straight-google%E2%80%99s-safari-tracking
+
+
+[filters]
+http://dl.dropbox.com/u/37533397/tracking_the_trackers/safari_study/google_plus_settings_highlighted.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
