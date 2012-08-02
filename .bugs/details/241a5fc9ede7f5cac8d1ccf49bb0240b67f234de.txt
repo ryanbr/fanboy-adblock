@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.novinky.cz/domaci/274821-zakon-o-prime-volbe-ma-diry-neuspesni-kandidati-mohou-vysledek-zpochybnit.html
+
+
+[filters]
+http://c.imedia.cz/context?url=http%3A%2F%2Fwww.novinky.cz%2Fdomaci%2F274821-zakon-o-prime-volbe-ma-diry-neuspesni-kandidati-mohou-vysledek-zpochybnit.html&z=19976&hash=15360154971584315322
+http://c.imedia.cz/js/script.js
+http://c.imedia.cz/img//cimage2.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
