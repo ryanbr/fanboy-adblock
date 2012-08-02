@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newstube.ru/media/kofe-mozhet-rezko-podorozhat
+
+
+[filters]
+http://www.newstube.ru/images/social-like-it.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
