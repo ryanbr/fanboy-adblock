@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://twitter.com/
+
+
+[filters]
+http://static.ver-pelis.net/player/ready.js
+http://static.ver-pelis.net/player/servers/otros.js
+
+
+
+[other]
+reported malware
+
+
+[comments]
+fanboy
