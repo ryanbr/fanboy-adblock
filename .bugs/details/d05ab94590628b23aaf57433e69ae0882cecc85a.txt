@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.accuweather.com/en/us/newark-nj/07102/hourly-weather-forecast/349530?day=2&hbhhour=13
+
+
+[filters]
+http://ad.yabuka.com/af/5896/300x250
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
