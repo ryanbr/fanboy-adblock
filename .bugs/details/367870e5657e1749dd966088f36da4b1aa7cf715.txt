@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pornordie.com/hosted-id1274-she-lost-a-bet-with-her-friend.html
+
+
+[filters]
+http://www.xpeeps.com/?utm_source=fpctraffic&utm_medium=skim&utm_content=consumer&utm_campaign=fpctraffic_skim_consumer
+
+
+
+
+[other]
+popup on video, right side
+
+[comments]
+fanboy
