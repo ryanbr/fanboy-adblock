@@ -1,0 +1,28 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.livedoor.jp/blackwingcat/archives/1591502.html
+
+
+[filters]
+http://banner.blogranking.net/rb2.php?b=90846&si=1890419313&td[url]=http%3A//blog.livedoor.jp/blackwingcat/archives/1591502.html
+http://banner.blogranking.net/scs?90846
+http://topic.nifty.com/entry?mode=1&topic_url=http://blog.livedoor.jp/blackwingcat/archives/1591502.html
+http://www.assoc-amazon.jp/s/ads-common.js
+http://www.assoc-amazon.jp/s/ads.js
+http://www16.a8.net/0.gif?a8mat=1I27DP+CU0E7M+1RHK+64RJ5
+http://www16.a8.net/0.gif?a8mat=1I4HM3+12P73M+Q1I+1ZK375
+http://www18.a8.net/0.gif?a8mat=1I4HM3+8C38Y+1OT6+661TT
+http://www23.a8.net/svt/bgt?aid=090908715014&wid=001&eno=01&mid=s00000007881001036000&mc=1
+http://www24.a8.net/svt/bgt?aid=090802141776&wid=001&eno=01&mid=s00000008228001030000&mc=1
+http://www26.a8.net/svt/bgt?aid=090908715065&wid=001&eno=01&mid=s00000003375012019000&mc=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
