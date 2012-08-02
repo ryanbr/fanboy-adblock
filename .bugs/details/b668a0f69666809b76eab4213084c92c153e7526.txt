@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gaiaonline.com/
+
+
+[filters]
+http://www.gaiaonline.com/internal/mkt_t.php?mid[]=354&tm=1343899778
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
