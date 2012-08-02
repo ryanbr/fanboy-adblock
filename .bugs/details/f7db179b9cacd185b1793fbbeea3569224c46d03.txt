@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://promodj.com/cp
+
+
+[filters]
+http://i.cdn.maases.com/br/90/290_72c0b9.jpg
+http://i.cdn.maases.com/br/90/290_e3c6c8.swf
+
+
+
+[other]
+reported
+
+[comments]
+fanboy
