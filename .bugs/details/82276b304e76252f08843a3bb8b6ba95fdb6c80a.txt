@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rue89.com/2011/10/08/rien-compris-laffaire-karachi-reprend-zero-225351
+
+[filters]
+http://www.largus.fr/analytics/includes/javascript/argtk.min.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
