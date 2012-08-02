@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.festina.com/
+
+
+[filters]
+http://www.festina.com/txt/advertising.xml
+
+[other]
+blocks flash sites from loading
+
+
+[comments]
+nitrox
