@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.phpmotion.com/
+
+
+[filters]
+http://phpmotion.com/images/banners-webhosts/cirtex-button.gif
+http://www.phpmotion.com/images/banners-webhosts/cirtex.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
