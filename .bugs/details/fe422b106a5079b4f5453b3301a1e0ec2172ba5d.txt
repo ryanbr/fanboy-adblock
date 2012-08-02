@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fly.faa.gov/flyfaa/usmap.jsp
+
+
+[filters]
+http://www.fly.faa.gov/flyfaa/js_source/gecko.js
+http://www.fly.faa.gov/flyfaa/js_source/mapmaker.js
+http://www.fly.faa.gov/js_source/xbdhtml.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
