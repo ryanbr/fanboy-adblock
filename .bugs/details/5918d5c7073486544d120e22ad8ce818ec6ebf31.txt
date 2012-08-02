@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+tempsreel.nouvelobs.com
+
+[filters]
+http://builder.extensionfactory.com/embed/v1/minisite.js
+http://builder.extensionfactory.com/track/visitors/?minisite_url=http://tempsreel.nouvelobs.com/&embed_type=toolbar&embed_mode=top&embed_lang=fr
+http://builder.extensionfactory.com/track/visits/?minisite_url=http://tempsreel.nouvelobs.com/&embed_type=toolbar&embed_mode=top&embed_lang=fr
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
