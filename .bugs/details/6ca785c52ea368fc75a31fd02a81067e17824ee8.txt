@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.clothingattesco.com/tops+t-shirts/f+f-peter-pan-lace-tunic/invt/jf213049/&bklist=*
+
+
+[filters]
+http://imp.dpstack.com/dealdo/event-report?type=*&partner=*&channel=*&hid=*&uid=*&feedCategory=*&feedCategoryId=*&pageUrl=*&cb=*&product=*&placement=*&feed=*&zeroOffers=*&creativeId=*&offerCount=*&offerPrice=&offerPriceMin=*&offerPriceMax=*&queryProductPrice=&cb=*&localDate=*&roundTripTime=*
+
+
+
+[other]
+reported
+
+
+[comments]
+fanboy
