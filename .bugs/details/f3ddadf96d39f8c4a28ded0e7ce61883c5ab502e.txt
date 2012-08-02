@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blogtruyen.com/Truyen/otogi-matsuri
+
+
+[filters]
+http://blogtruyen.com/File/preload.html
+http://blogtruyen.com/File/800.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
