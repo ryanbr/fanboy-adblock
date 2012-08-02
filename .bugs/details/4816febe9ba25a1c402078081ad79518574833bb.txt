@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://madata.gr/
+
+
+[filters]
+http://static.madata.gr/themes/madata-2010-new/img/fb_side.png
+http://static.madata.gr/themes/madata-2010-new/img/twt_side.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
