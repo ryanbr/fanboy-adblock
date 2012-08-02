@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://darrenwbaker.com/2012/08/02/windows-8-enterprise-rtm-installed-the-photos/#
+
+[filters]
+http://s2.wp.com/wp-content/themes/premium/traction/images/flw-twitter.png?m=1297399733g
+http://s2.wp.com/wp-content/themes/premium/traction/images/flw-rss.png?m=1340927451g
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
