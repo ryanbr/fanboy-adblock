@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.soompi.com/
+
+
+[filters]
+http://d1i45kki000yqu.cloudfront.net/wp-content/uploads/2012/08/080312_Super_Junior_Spy-300x250.jpg
+https://d1i45kki000yqu.cloudfront.net/wp-content/uploads/2012/08/080312_Super_Junior_Spy-300x250.jpg
+
+[other]
+feature video images are blocked
+
+
+[comments]
+nitrox
