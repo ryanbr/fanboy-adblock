@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tourettebloggen.se/for-mycket/
+
+[filters]
+http://static.pusha.se/176/i/push_arrow.png
+http://static.pusha.se/knapp.js
+http://www.blogtoplist.com/images/votebutton.gif
+http://www.facebook.com/plugins/share_button.php?channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D9%23cb%3Df12d436d058c014%26origin%3Dhttp%253A%252F%252Ftourettebloggen.se%252Ff2b3d2afe77b34a%26domain%3Dtourettebloggen.se%26relation%3Dparent.parent&href=http%3A%2F%2Ftourettebloggen.se%2Ffor-mycket%2F&locale=en_US&sdk=joey&type=button
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
