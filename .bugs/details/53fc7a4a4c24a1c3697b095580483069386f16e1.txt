@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.smbc-comics.com/
+
+
+[filters]
+http://www.smbc-comics.com/images/reddit.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
