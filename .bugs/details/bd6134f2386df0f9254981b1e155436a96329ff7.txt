@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://anz.co.nz/personal/
+
+
+[filters]
+https://www.anz.com/common/code/js/ib/s_code.js
+
+
+
+
+[other]
+Stayed on Loading screen, needs login.
+
+
+[comments]
+fanboy
