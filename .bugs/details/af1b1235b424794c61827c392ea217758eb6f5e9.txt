@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+lifehacker.com	
+
+[filters]
+# Copy your Adblock filters here
+http://ad.doubleclick.net/N4246/adj/gm.lifehacker/android;;mtfIFPath=/assets/vendor/doubleclick/;loggedin=no;sz=80x45;tile=5;ord=18583921?
+http://ad.doubleclick.net/N4246/adj/gm.lifehacker/google,%20googles,%20googled;;mtfIFPath=/assets/vendor/doubleclick/;loggedin=no;sz=80x45;tile=4;ord=83162279?
+http://ad.doubleclick.net/N4246/adj/gm.lifehacker/money;;mtfIFPath=/assets/vendor/doubleclick/;loggedin=no;sz=80x45;tile=6;ord=66098198?
+http://ad.doubleclick.net/N4246/adj/gm.lifehacker/productivity;;mtfIFPath=/assets/vendor/doubleclick/;loggedin=no;sz=80x45;tile=7;ord=16614817?
+http://ad.doubleclick.net/N4246/adj/gm.lifehacker/storage;;mtfIFPath=/assets/vendor/doubleclick/;loggedin=no;sz=80x45;tile=8;ord=66235182?
+http://ad.doubleclick.net/N4246/adj/gm.lifehacker/timesaver;;mtfIFPath=/assets/vendor/doubleclick/;loggedin=no;sz=80x45;tile=3;ord=51914389?
+http://ad.doubleclick.net/N4246/adj/gm.lifehacker/timesaver;;mtfIFPath=/assets/vendor/doubleclick/;loggedin=no;sz=80x45;tile=9;ord=15970834?
+
+
+
+[other]
+cant change articles using side panel after sorting by built in site filters
+
+
+[comments]
+vinny
