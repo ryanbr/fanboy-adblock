@@ -1,0 +1,28 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rsvlts.com/2012/07/19/35-brilliant-advertisements/
+
+[filters]
+http://www.rsvlts.com/wp-content/uploads/2012/07/Brilliant-Advertisment-20.jpg
+http://www.rsvlts.com/wp-content/uploads/2012/07/Brilliant-Advertisment-21.jpg
+http://www.rsvlts.com/wp-content/uploads/2012/07/Brilliant-Advertisment-22.jpg
+http://www.rsvlts.com/wp-content/uploads/2012/07/Brilliant-Advertisment-23.jpg
+http://www.rsvlts.com/wp-content/uploads/2012/07/Brilliant-Advertisment-24.jpg
+http://www.rsvlts.com/wp-content/uploads/2012/07/Brilliant-Advertisment-25.jpg
+http://www.rsvlts.com/wp-content/uploads/2012/07/Brilliant-Advertisment-26.jpg
+http://www.rsvlts.com/wp-content/uploads/2012/07/Brilliant-Advertisment-27.jpg
+http://www.rsvlts.com/wp-content/uploads/2012/07/Brilliant-Advertisment-28.jpg
+http://www.rsvlts.com/wp-content/uploads/2012/07/Brilliant-Advertisment-29.jpg
+http://www.rsvlts.com/wp-content/uploads/2012/07/Brilliant-Advertisment-30.jpg
+http://www.rsvlts.com/wp-content/uploads/2012/07/Brilliant-Advertisment-31.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
