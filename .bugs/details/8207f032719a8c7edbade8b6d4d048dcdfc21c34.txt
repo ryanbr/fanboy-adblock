@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://espn.go.com/
+
+
+[filters]
+http://bd0dc.v.fwmrm.net/ad/p/1?
+
+
+
+
+[other]
+Sportcenter videos, with ads.
+was: ||fwmrm.net/ad/$object-subrequest,domain=twitch.tv|teamliquid.net|nbc.com|thedailyshow.com|colbertnation.com|southparkstudios.com|cnn.com|blip.tv|teamcoco.com|tntdrama.com|espn.go.com
+Making it generic
+
+
+[comments]
+fanboy
