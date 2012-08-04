@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+#http://cn.engadget.com/2012/07/31/gmail-hangouts/
+
+
+[filters]
+http://js.tudouui.com/bin/player2/olc_6.swf?iid=148471176&swfPath=http://js.tudouui.com/bin/player2/olm_26.swf&tag=Hangouts&title=Hangouts+in+Gmail&mediaType=vi&totalTime=58890&hdType=0&hasPassword=0&nWidth=-1&isOriginal=0&channelId=21&nHeight=-1&banPublic=false&tict=3&autoPlay=false&listType=0&rurl=http://cn.engadget.com/2012/07/31/gmail-hangouts/&resourceId=103356984_05_05_99&rpid=103356984&bid=05&autostart=false&snap_pic=http%3A%2F%2Fi3.tdimg.com%2F148%2F471%2F176%2Fw.jpg&code=NaHdMifrkro&aopRate=0.001&adSourceId=81000
+http://js.tudouui.com/bin/player2/olc_6.swf?iid=148471204&swfPath=http://js.tudouui.com/bin/player2/olm_26.swf&tag=google&title=Go+Google_+Circle+Back&mediaType=vi&totalTime=30000&hdType=0&hasPassword=0&nWidth=-1&isOriginal=0&channelId=21&nHeight=-1&banPublic=false&tict=3&autoPlay=false&listType=0&rurl=http://cn.engadget.com/2012/07/31/gmail-hangouts/&resourceId=103356984_05_05_99&rpid=103356984&bid=05&autostart=false&snap_pic=http%3A%2F%2Fi1.tdimg.com%2F148%2F471%2F204%2Fw.jpg&code=yJKRcWGCma8&aopRate=0.001&adSourceId=81000
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
