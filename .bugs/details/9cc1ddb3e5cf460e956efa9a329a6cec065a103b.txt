@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nymag.com/listings/movie/celeste-and-jesse-foreve/?imw=Y
+
+
+[filters]
+http://platform.foursquare.com/img/save.png
+http://platform.foursquare.com/img/tipDown.png
+http://platform.foursquare.com/js/modules/widgets.asyncbundle.js
+http://platform.foursquare.com/js/widgets.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
