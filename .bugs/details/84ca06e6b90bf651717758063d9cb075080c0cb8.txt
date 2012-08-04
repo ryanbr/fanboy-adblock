@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://haber.mynet.com/bu-canlilar-sizi-4-dakikada-oldurebilir-624661-foto-analiz-6
+
+[filters]
+http://s.mynet.com.tr/nocache/adocean.js
+http://s.mynet.com/adocean/mytag.js?v=16
+http://s.mynet.com/nocache/adocean.js?1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
