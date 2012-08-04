@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ehrens.org/
+
+
+[filters]
+http://ehrens.org/wp-content/uploads/2012/07/das_leben_der_anderen_c_buena_vista-300x200.gif
+
+
+
+
+[other]
+-300x200.gif|  removed
+
+[comments]
+fanboy
