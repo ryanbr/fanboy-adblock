@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bissell.com/cleaning-tips/deep-cleaning-faqs/
+
+
+[filters]
+http://www.bissell.com/min.axd?js=/js/jsAlertOverride.js,/js/json2.js,/js/jquery/jquery.MetaData.js,/js/jquery/rating/jquery.rating.js,/js/jqzoom.pack.1.0.1.js,/js/cufon/cufon-yui.js,/js/jquery/uploadify/jquery.uploadify.v2.1.0.min.js,/js/jquery/uploadify/swfobject.js,/js/c2library.js,/js/flash.js,/js/scripts.js,/js/jquery/cookie/jquery.cookie.js,/js/s_code.js,/js/ShareThis.js,/js/jqueryui.autocomplete.custom.js,/js/jquery/jquery.hoverIntent.js,/js/jquery.equalizeDimensions.js,/js/fancybox-rebinding.js,/js/yman.js&v=2012.08.01&debug=true
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14141
+
+[comments]
+fanboy
