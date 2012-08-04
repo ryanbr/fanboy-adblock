@@ -1,0 +1,28 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.undsports.com//
+
+
+[filters]
+http://www.undsports.com/ads2/487056.jpg?M=201108302101
+http://www.undsports.com/ads2/487057.jpg?M=201108302101
+http://www.undsports.com/ads2/487058.jpg?M=201201171512
+http://www.undsports.com/ads2/487059.jpg?M=201109261621
+http://www.undsports.com/ads2/487060.jpg?M=201008232158
+http://www.undsports.com/ads2/487061.jpg?M=201001191626
+http://www.undsports.com/ads2/487062.jpg?M=201001191627
+http://www.undsports.com/ads2/487063.jpg?M=201112282309
+http://www.undsports.com/ads2/487134.jpg?M=201001191613
+http://www.undsports.com/ads2/487135.jpg?M=201208031717
+http://www.undsports.com/ads2/487136.jpg?M=201102032357
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
