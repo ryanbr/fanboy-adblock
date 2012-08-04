@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.albanesi.it/Mente/figli.htm
+
+
+[filters]
+http://www.beead.it/swf/counterFooterFlash.swf?v=e860ae59493e546003901d5b3b1875b300733ed5
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
