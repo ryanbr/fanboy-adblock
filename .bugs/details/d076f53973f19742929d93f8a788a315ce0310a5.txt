@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bissell.com/how-to-videos/clean-filters-hoses/
+
+[filters]
+http://cache.vendaria.com/integration/images/ct/32/ui.swf?iid=sbpgzLIuvIlJlJquLvumgwqKqvIqvv&am=MAIN_bissell_sst721_v7&ap=vnd_bissell_sst721_v7&FPath=http://cache.vendaria.com/media/flash/&rp=http://cache.vendaria.com/&ct=32&logo=49&tb1=000000&tb2=A9A9A9&tb3=E9EEF2&tb4=C1CCD9&tb5=FFFFFF&nb1=666666&nb2=339900&f1=ABABAB&dt=000000&db=666666&dl1=666666&dl2=339900&dl3=666666&p=undefined&psp=http://pct.vendaria.com/openx/www/delivery/axmlrpc.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
