@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.self.com/
+
+
+[filters]
+http://www.self.com/js/cn-fe-stats/zig.js
+http://www.self.com/cs/studioads/self/hpto.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
