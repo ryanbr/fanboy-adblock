@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.flvsoft.com/download_flv/
+
+
+[filters]
+http://crm.foxreal.com/advstats/?referrer=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D6%26t%3D14148&page=http%3A//www.flvsoft.com/download_flv/&site=www.flvsoft.com
+http://crm.foxreal.com/advstats/advstats.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
