@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eluniversal.com.mx/noticias.html
+
+
+[filters]
+http://publicidad.eluniversal.com.mx/crossdomain.xml
+http://publicidad.eluniversal.com.mx/RealMedia/ads/adstream_nx.ads/www.eluniversal.com.mx/television/1490636576@Frame1,Middle,Middle1,Middle3,Bottom3,x15,x96!x96
+http://publicidad.eluniversal.com.mx/RealMedia/ads/adstream_nx.ads/www.eluniversaltv.mx/cultura@x66?a=0.86666394257918
+
+
+
+[other]
+video on front page doesnt work.
+
+
+[comments]
+fanboy
