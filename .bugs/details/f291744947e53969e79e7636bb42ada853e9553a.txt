@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.adrive.com/public/noexist
+
+
+[filters]
+http://static.adrive.com/images/fc_banner.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
