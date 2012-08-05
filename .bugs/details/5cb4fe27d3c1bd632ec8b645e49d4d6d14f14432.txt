@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.idontlikeyouinthatway.com/pictures/20120729/Katy%20Perry%20Bikini/wenn10274481.html
+
+
+[filters]
+http://cdn.idontlikeyouinthatway.com/img/facebook_logo.png
+http://cdn.idontlikeyouinthatway.com/img/rss_logo.png
+http://cdn.idontlikeyouinthatway.com/img/twitter_logo.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
