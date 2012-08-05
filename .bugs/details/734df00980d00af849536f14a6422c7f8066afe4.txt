@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.naughty.com/
+
+
+[filters]
+http://www.naughty.com/js/popJava.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
