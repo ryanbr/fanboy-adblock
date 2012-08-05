@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sunporno.com/tube/videos/501093/prison-fuck-party.html
+
+
+[filters]
+http://thumbs.vstreamcdn.com/sunstatic/ads/bt/top-banner.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
