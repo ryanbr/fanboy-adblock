@@ -1,0 +1,29 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forum.avsim.net/forum/365-the-microsoft-flight-forum/
+
+
+[filters]
+http://ads.avsim.net/admanager/banners/50-1-1343251111.png
+http://ads.avsim.net/admanager/banners/57-1-1343576706.jpg
+http://ads.avsim.net/admanager/banners/59-1-1344011288.png
+http://ads.avsim.net/admanager/show.js
+http://ads.avsim.net/admanager/show.php?z=25&j=1&code=1344155724668
+http://ads.avsim.net/admanager/show.php?z=25&j=1&code=1344155726682
+http://ads.avsim.net/admanager/show.php?z=26&j=1&code=1344155723789
+http://ads.avsim.net/admanager/show.php?z=26&j=1&code=1344155725060
+http://ads.avsim.net/admanager/show.php?z=26&j=1&code=1344155726283
+http://ads.avsim.net/admanager/show.php?z=26&j=1&code=1344155727014
+http://ads.avsim.net/admanager/show.php?z=27&j=1&code=1344155725690
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
