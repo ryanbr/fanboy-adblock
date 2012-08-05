@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://zakruti.com/dir/4-1-0-39
+
+
+[filters]
+http://100dosok.at.ua/stat/1344153369
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
