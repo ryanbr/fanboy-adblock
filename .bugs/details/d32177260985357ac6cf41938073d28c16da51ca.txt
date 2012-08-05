@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://abcfamily.go.com/watch/beverly-hills-nannies/SH55193069/VD55223965/nanny-war-is-coming
+
+
+[filters]
+http://2915a.v.fwmrm.net/ad/p/1?
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
