@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pornomovies.com/fuck/Teen/10962-Teen-with-Braces-Deepthroats.html
+
+
+[filters]
+http://www.pornomovies.com/pop/fastpop_pm.js
+http://www.pornomovies.com/pop/pop_pm.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
