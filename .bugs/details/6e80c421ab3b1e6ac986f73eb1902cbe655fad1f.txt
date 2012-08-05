@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thedreamtv.com/
+
+
+[filters]
+http://www.thedreamtv.com/gallery/count4.php?gr=2
+
+
+
+[other]
+fanboy
+
+
+[comments]
+fanboy
