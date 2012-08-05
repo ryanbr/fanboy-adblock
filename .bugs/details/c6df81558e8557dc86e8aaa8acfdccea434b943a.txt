@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://abc.go.com/watch/trust-us-with-your-life/SH55212766/VD55222441/david-hasselhoff
+
+
+[filters]
+http://2912a.v.fwmrm.net/ad/p/1?
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
