@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ah-me.com/videos/139901/babes-in-an-anal-japanese-orgy-leak-cum-anally.html
+
+
+[filters]
+http://thumbs.vstreamcdn.com/ahmestatic/ads/player-ad1-1.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
