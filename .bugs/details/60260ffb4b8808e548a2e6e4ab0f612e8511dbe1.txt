@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://video.cnbc.com/gallery/?video=3000107220&play=1
+
+
+[filters]
+http://29773.v.fwmrm.net/ad/p/1?
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
