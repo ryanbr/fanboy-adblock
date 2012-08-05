@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.smartcarfinder.com/used-cars/mercury/villager/2000/4M2XV11T1YDJ20113/
+
+[filters]
+http://www.fundingway.com/ace/pixel_tracking.php?key=VlRuO2xZSiVkYVVuXDp8fHNtYXJ0Y2FyZmluZGVyLmNvbQ%3D%3D&type=aW1wcmVzc2lvbg%3D%3D&wait=60&tracking_code=rdt00305&affid=af1701&subid=/index.php~related:www.usedcars.com&linkid=pg~&pagezoneid=dXNlZC1xdW90ZS1mb3Jt
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
