@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bustnowvip.com/?track=MTA4LjQuMS4xLjcuMC4wLjAuMA
+
+
+[filters]
+http://webmasters.pornstarnetwork.com/track/MTA4LjQuMS4xLjcuMC4wLjAuMA/affiliate/track?ref=aHR0cDovL2ZvcnVtcy5mYW5ib3kuY28ubnovZm9ydW1zL3ZpZXd0b3BpYy5waHA/Zj02JnQ9MTQxNjM=
+http://www.pornstarnetwork.com/affiliate/track?nats=MTA4LjQuMS4xLjcuMC4wLjAuMA&ref=aHR0cDovL2ZvcnVtcy5mYW5ib3kuY28ubnovZm9ydW1zL3ZpZXd0b3BpYy5waHA%2FZj02JnQ9MTQxNjM=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
