@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rapidzona.com/films-torrent/documentary-torrent/24972-ispytayte-svoy-mozg-test-your-brain-01-03-iz-03-2011-bdrip-720.html
+
+[filters]
+http://ekod.info/js/2205.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
