@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://www.usedcars.com/Handler/WebLogWriter.ashx?LogData={%22browser%22%3A%22Mozilla/5.0%20%28iPhone%3B%20CPU%20iPhone%20OS%205_0_1%20like%20Mac%20OS%20X%29%20AppleWebKit/534.46%20%28KHTML%7C%20like%20Gecko%29%20Version/5.1%20Mobile/9A406%20Safari/7534.48.3%22%2C%22detail_number%22%3A%2280000%22%2C%22ra5%22%3A%22Base%22%2C%22referrer_number%22%3A%2229386%22%2C%22referrer_page%22%3A%22http%3A//www.google.com/search%3Fq%3Dbuy+used+cars%26ie%3DUTF-8%26oe%3DUTF-8%26hl%3Den%26client%3Dsafari%22%2C%22remote_ip%22%3A%2266.87.131.191%22%2C%22site_name%22%3A%22UsedCars.com%22%2C%22user_number%22%3A%22f0b20334-5fb6-4002-99fc-8a365a13f2df%22%2C%22page%22%3A%22Home%22%2C%22data1%22%3A%22%22%2C%22data2%22%3A%22%22%2C%22HasErrors%22%3A%22False%22%2C%22ItemArray%22%3A%22System.Object%5B%5D%22%2C%22RowError%22%3A%22%22%2C%22RowState%22%3A%22Detached%22%2C%22Table%22%3A%22Weblog%22%2C%22timestamp%22%3A%228/5/2012%201%3A00%3A38%20AM%22%2C%22server_number%22%3A%2225%22%2C%22weblog_id%22%3A%22bed30e4c-4e34-4dc9-8ad4-a2bb940a06f2%22%7D&App=UsedCars
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
