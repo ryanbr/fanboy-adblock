@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://search.dell.com/results.aspx?s=gen&c=us&l=en&cs=&k=test&cat=all&x=0&y=0
+
+
+[filters]
+http://i.dell.com/images/global/js/s_metrics83.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
