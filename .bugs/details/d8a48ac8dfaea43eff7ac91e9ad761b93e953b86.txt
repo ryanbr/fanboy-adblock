@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.freewaregenius.com/
+
+
+[filters]
+http://cdn.freewaregenius.com/wp-content/plugins/trackable-social-share-icons/buttons/z5//facebook.png
+http://cdn.freewaregenius.com/wp-content/plugins/trackable-social-share-icons/buttons/z5//plusone.png
+http://cdn.freewaregenius.com/wp-content/plugins/trackable-social-share-icons/buttons/z5//twitter.png
+http://fwgpullzone.freewaregeniusco.netdna-cdn.com/wp-content/plugins/trackable-social-share-icons/buttons/z5//stumbleupon.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
