@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://search.oracle.com/search/search?q=test&group=MySQL&x=0&y=0
+
+[filters]
+http://search.oracle.com/search/assets/skins/external/js/s_site_catalyst.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
