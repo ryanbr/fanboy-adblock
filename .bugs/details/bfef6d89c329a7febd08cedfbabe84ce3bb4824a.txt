@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.sas.com/software/high-performance-analytics/in-memory-analytics/analytics.html
+
+
+[filters]
+https://collect2.sas.com/WEOIWMPIJ/1344263208060/cImage.bmp?c=&d=false
+http://collect2.sas.com/4347/handler8/session.js?se=_13442566155590.7109188444375623_4347&amp;sj=scm&amp;aP=_13442566155590.7109188444375623_&amp;bd=true&amp;si=true&amp;aM=_13442566155590.7109188444375623_&amp;aO=-1&amp;cf=SAS%20High-Performance%20Analytics%20Server%20%7C%20SAS&amp;az=%3B%20sifrFetch%3Dtrue%3B%20usy46gabsosd%3Dscm_13442566155590.7109188444375623_4347&amp;au=http%3A%2F%2Fwww.sas.com%2Fsoftware%2Fhigh-performance-analytics%2Fin-memory-analytics%2Fanalytics.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
