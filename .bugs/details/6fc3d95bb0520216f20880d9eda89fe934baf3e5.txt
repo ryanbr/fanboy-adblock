@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.infor.com/searchpage/?free=test&freebinarytextsearch=on&sortdirection=ascending&sortorder=score&branch=526
+
+
+[filters]
+http://www.infor.com/furniture/design2011/javascript/webtrends3302848986.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
