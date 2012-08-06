@@ -65,10 +65,17 @@ cat $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt > $TEST
 # Complete List
 #
 cat $TESTDIR/fanboy-adblocklist-current.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt > $TESTDIR/fanboy-complete.txt
+
+# Add titles
+#
+sed -i 's/Adblock\ List/Complete\ List/g' $TESTDIR/fanboy-complete.txt
+sed -i 's/Adblock\ List/Ultimate\ List/g' $TESTDIR/fanboy-ultimate.txt
+
 # Create backups for zero'd addchecksum
 #
 cp -f $TESTDIR/fanboy-complete.txt $TESTDIR/fanboy-complete-bak.txt
 cp -f $TESTDIR/fanboy-ultimate.txt $TESTDIR/fanboy-ultimate-bak.txt
+
 # Addchecksum
 #
 perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-complete.txt
