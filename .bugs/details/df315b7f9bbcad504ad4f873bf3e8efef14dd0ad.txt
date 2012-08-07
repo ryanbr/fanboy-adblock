@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dreammovies.com/
+
+
+[filters]
+http://www.dreammovies.com/in.php?referer=http%3A//www.google.com/search%3Fq%3Drelated%3Awww.parispornmovies.com%26hl%3Den%26safe%3Doff%26prmd%3Dimvns%26ei%3DQxQgUKPQLqnq6gHo5ICwBA%26start%3D100%26sa%3DN%26biw%3D1392%26bih%3D433
+http://www.xvideos.com/in.php?referer=http%3A//www.dreammovies.com/
+http://www.streamsex.com/in.php?referer=http%3A//www.google.com/search%3Fhl%3Den%26safe%3Doff%26q%3Drelated%3Awww.dreammovies.com
+http://www.gonzo-movies.com/in.php?referer=http%3A//www.google.com/search%3Fhl%3Den%26safe%3Doff%26q%3Drelated%3Awww.dreammovies.com
+
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14193
+
+
+[comments]
+fanboy
