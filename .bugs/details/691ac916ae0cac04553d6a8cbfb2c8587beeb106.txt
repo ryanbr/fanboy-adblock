@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://msdn.microsoft.com/en-us/subscriptions/downloads/default.aspx?pv=36:350#searchTerm=&ProductFamilyId=350&Languages=en&PageSize=10&PageIndex=0&FileId=0
+
+
+[filters]
+http://i2.msdn.microsoft.com/Combined.js?resources=0:JSON2,0:index,0:SubscriberContentControl,0:Notification,0:NotificationPage,0:downloads,0:downloadsdropdown,0:downloadsfilter,0:ClientsideCache,0:ErrorHandler,0:ProductKeys,0:Copy,0:downloadspage,1:omni_rsid_msdn;/Areas/Subscriptions/Content/Scripts:0,/Areas/Global/Content/Omniture/resources/msdn:1&hashKey=41520649EF8A2BC4E0A0088D5D52BF4A
+http://msdn.microsoft.com/Areas/Global/Content/Omniture/resources/ms2.js
+
+
+
+
+[other]
+reported fp.
+
+[comments]
+fanboy
