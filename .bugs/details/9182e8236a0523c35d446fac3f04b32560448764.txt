@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.x3xtube.com/video/Taylor_Barnes__Teaser_pleaser-15299/
+
+
+[filters]
+http://adv1.rack-media.com/?tag=banner300&id=1337779557
+http://www.x3xtube.com/banner_rotating_no_ip_cube1.php
+http://www.x3xtube.com/banner_rotating_no_ip_cube2.php
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
