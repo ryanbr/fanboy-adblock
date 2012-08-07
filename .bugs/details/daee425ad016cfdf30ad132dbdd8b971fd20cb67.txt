@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+http://pcsx2.net/244-pcsx2-1-0-released.html
+
+[filters]
+http://pcsx2.net/plugins/content/itpsocialbuttons/images/balloon/delicious.png
+http://pcsx2.net/plugins/content/itpsocialbuttons/images/balloon/digg.png
+http://pcsx2.net/plugins/content/itpsocialbuttons/images/balloon/facebook.png
+http://pcsx2.net/plugins/content/itpsocialbuttons/images/balloon/google.png
+http://pcsx2.net/plugins/content/itpsocialbuttons/images/balloon/twitter.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+vinny
