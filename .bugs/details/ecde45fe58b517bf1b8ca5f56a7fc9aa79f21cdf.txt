@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lfpress.com/entertainment/2012/08/07/20076876.html
+
+
+[filters]
+http://ga.canoe.ca/ga_lfpress.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
