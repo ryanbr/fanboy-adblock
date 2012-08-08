@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.usatoday.com/money/markets/story/2012-08-07/stocks-second-half-outlook/56859754/1
+
+
+[filters]
+http://trc.taboolasyndication.com/usatoday/log/3/available?tim=19%3A45%3A32.504&ri=89d426be757eeb3a2c9474853c6c1862&sd=v1_f6245dfc96e0332549c381f169dac32c_51b2324a-c9cb-4bd2-963e-047e6aee5a19_1344411490_1344411926&ui=51b2324a-c9cb-4bd2-963e-047e6aee5a19&pi=56859754&wi=8984859237895251398&pt=text&li=rbox-t2v&llvl=1&id=1425
+http://trc.taboolasyndication.com/usatoday/log/3/visible?tim=19%3A45%3A33.005&ri=89d426be757eeb3a2c9474853c6c1862&sd=v1_f6245dfc96e0332549c381f169dac32c_51b2324a-c9cb-4bd2-963e-047e6aee5a19_1344411490_1344411926&ui=51b2324a-c9cb-4bd2-963e-047e6aee5a19&pi=56859754&wi=8984859237895251398&pt=text&li=rbox-t2v&il=2763636181209138781%2C4285246736563621987%2C1575817937473772173&sil=&llvl=1&id=1017
+http://trc.taboolasyndication.com/usatoday/trc/3/json?tim=19%3A45%3A28.890&data=%7B%22ii%22%3A%2256859754%22%2C%22it%22%3A%22text%22%2C%22sd%22%3A%22v1_f6245dfc96e0332549c381f169dac32c_51b2324a-c9cb-4bd2-963e-047e6aee5a19_1344411490_1344411842%22%2C%22ui%22%3A%2251b2324a-c9cb-4bd2-963e-047e6aee5a19%22%2C%22cv%22%3A%225-41-1-60489-4794748%22%2C%22uiv%22%3A%22default%22%2C%22id%22%3A386%2C%22u%22%3A%22http%3A%2F%2Fwww.usatoday.com%2Fmoney%2Fmarkets%2Fstory%2F2012-08-07%2Fstocks-second-half-outlook%2F56859754%2F1%22%2C%22e%22%3A%22http%3A%2F%2Fwww.usatoday.com%2F%22%2C%22r%22%3A%5B%7B%22li%22%3A%22rbox-t2v%22%2C%22s%22%3A3%2C%22uim%22%3A%22rbox-t2v%22%2C%22uip%22%3A%22rbox-t2v%22%7D%5D%2C%22cb%22%3A%22TRC.callbacks.recommendations_1%22%7D
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
