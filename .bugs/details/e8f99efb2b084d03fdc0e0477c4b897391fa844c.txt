@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.scan.co.uk/products/thermalright-hr-02-macho-cpu-cooler-with-140mm-silent-fan-for-775-1155-1156-1366-amd-am2-am3
+
+
+[filters]
+http://www.scan.co.uk/images/ft-SocialMedia.png
+http://www.scan.co.uk/images/site/skins/Intel-SSD-Q3-2.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
