@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.openwith.org/programs/editplus
+
+[filters]
+http://www.openwith.org/static/img/ad-left.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
