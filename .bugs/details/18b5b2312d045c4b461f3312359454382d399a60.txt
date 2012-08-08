@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.raaga.com/channels/worldmusic/moviedetail.asp?mid=WM00001
+
+
+[filters]
+http://icdn.raaga.com/common/icon/y/buzz_16.png
+http://icdn.raaga.com/common/icon/y/orkut_16.png
+http://www.raaga.com/channels/home/album-share.asp?aId=WM00001&t=&m=Listening+to+Sound+Scapes+%2D+Music+Of+The+Seas+on+Raaga%2Ecom
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
