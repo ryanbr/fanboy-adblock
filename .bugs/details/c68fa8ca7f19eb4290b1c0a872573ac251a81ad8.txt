@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dabs.com/products/gigabyte-z77x-up5-th-s1155-intel-z77-ddr3-atx-thunderbolt-874S.html
+
+
+[filters]
+https://www.dabs.com/Images/page-backgrounds/vertex4-btn.png
+https://www.dabs.com/images/page-backgrounds/dabs-com-background.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
