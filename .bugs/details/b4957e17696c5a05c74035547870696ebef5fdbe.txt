@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://yourlust.com/videos/dildospass-auf-wunsch-mal-von-vorn.html?promoid=awn
+
+
+[filters]
+http://www.yourlust.com/im/ads_sidebar.html
+http://www.yourlust.com/im/ads_footer.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
