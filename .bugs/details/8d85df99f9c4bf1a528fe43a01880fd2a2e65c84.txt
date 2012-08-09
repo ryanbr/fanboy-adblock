@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fakku.net/doujinshi/star-shaft-english
+
+
+[filters]
+http://www.fakku.net/static/seele-03.html
+http://www.fakku.net/static/seele-06.html
+http://www.fakku.net/static/seele-07.html
+http://www.fakku.net/static/seele-footer.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
