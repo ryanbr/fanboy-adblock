@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mirrorcreator.com/redirect/0NYOPXMX/54
+
+[filters]
+http://withbinaryoptions.com/bani/index.php?id=212
+http://www.mirrorcreator.com/js/pu_ad.js
+
+[other]
+popup. click on click here to go to your download page link to trigger the popup
+
+
+[comments]
+nitrox
