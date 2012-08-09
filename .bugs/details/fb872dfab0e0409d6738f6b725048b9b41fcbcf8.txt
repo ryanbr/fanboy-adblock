@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://secure.videnciatupak.com/contacto_visionario_gratuito.html?theme=*&ectrans=*&campaign=*&campaignarea=*&media=*&partner=*&subid=*
+
+
+[filters]
+https://eulerian.videnciatupak.com/collector/-/706159473?ss=1920x1080&sd=24&fra=0&fl=11.3%20r300&url=https%3A//secure.videnciatupak.com/contacto_visionario_gratuito.html%3Ftheme%3D*%26ectrans%3D*%26campaign%3D*%26campaignarea%3D*%26media%3D*%26partner%3D*%26subid%3D*&rf=https%3A//reports.adblockplus.org/15a36076-ecca-4ca9-ba83-d721363048b8&
+https://eulerian.videnciatupak.com/ea.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
