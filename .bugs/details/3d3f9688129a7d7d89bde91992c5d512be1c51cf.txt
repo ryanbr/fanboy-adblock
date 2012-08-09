@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.movie-blog.org/page/1/
+
+
+[filters]
+http://www.movie-blog.org/wp-content/themes/concrete/starlay.js
+http://www.stargames.com/bridge.asp?idr=25574&lang=de
+http://www.wigetstudios.com/ctagadserv/f45f954feder564f/display.php?tag=fg5645644&lg=cpirt
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
