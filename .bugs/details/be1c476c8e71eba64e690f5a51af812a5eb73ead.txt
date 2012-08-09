@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wallpaper.skins.be/bar-refaeli/41343/1280x800/
+
+
+[filters]
+http://ads.sexier.com/services/AdsRedirect.ashx?case=skinsbepops
+
+[other]
+popup
+
+
+[comments]
+nitrox
