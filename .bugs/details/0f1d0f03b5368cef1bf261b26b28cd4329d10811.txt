@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ivi.ru/watch/olimpiada_2012_v_londone/91088
+
+
+[filters]
+http://stg.odnoklassniki.ru/share/odkl_share.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
