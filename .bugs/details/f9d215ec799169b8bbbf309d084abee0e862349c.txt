@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rutracker.org/forum/index.php
+
+
+[filters]
+http://static.rutracker.org/images/bn-stub-200x300-1.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
