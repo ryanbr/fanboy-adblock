@@ -10,6 +10,7 @@ http://aps.hearstnp.com/Scripts/loadAds.js
 http://aps.hearstnp.com/Scripts/loadAdsMain.js
 http://aps.hearstnp.com/Scripts/loadAdsMainParam.js
 http://aps.hearstnp.com/scripts/loadAdsParam.js?ver=2.0
+http://aps.hearstnp.com/Scripts/initDefineAds.js
 
 [other]
 # Any other details
