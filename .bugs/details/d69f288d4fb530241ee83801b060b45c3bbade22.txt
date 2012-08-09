@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bestserials.com/?sn_id=54626
+
+
+[filters]
+http://www.abletomeet.com/flash_iframe.php?did=14222&subdid=main&page=search&ad=13&size=300x250
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
