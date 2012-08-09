@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://memegenerator.net/create/generator
+
+
+[filters]
+http://partner.googleadservices.com/gampad/google_service.js
+https://securepubads.g.doubleclick.net/gampad/google_ads.js
+
+[other]
+meme generator doesn't load
+
+
+[comments]
+nitrox
