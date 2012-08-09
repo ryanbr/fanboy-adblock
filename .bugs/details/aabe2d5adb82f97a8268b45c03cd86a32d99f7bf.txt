@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://xvidstage.com/k3sapu7dsvme
+
+
+[filters]
+http://a.adorika.net/c/banner_s?selection=1305&rnd=0.5493159970781217&size=800x440&interval=8&skin=shadowbox_center
+http://a.adorika.net/c/pop3?selection=1305&rnd=0.8689546071595996&size=UN&skin=
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
