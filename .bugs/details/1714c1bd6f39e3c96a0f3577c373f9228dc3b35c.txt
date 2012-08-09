@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.xxxymovies.com/watch/72565/Nice_boy_has_group_sex_with_three_babes.html
+
+
+[filters]
+http://www.xxxymovies.com/js/vplayerad.js
+http://www.xxxymovies.com/js/win.js?cache=0x03
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
