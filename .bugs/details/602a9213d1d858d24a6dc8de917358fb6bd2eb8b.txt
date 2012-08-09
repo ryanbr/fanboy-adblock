@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.maxcolchon.com/outlet-c-49.html#52-packs
+
+
+[filters]
+http://ea.zebestof.com/collector/-/30356171?ss=1920x1080&sd=24&fra=0&fl=11.3%20r300&url=http%3A//www.maxcolchon.com/outlet-c-49.html%2352-packs&
+http://ea.zebestof.com/ea.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
