@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.sfgate.com/ontheblock/2012/08/07/what-the-marin-median-will-buy-you/
+
+
+[filters]
+http://aps.hearstnp.com/Scripts/loadAds.js
+http://aps.hearstnp.com/Scripts/loadAdsMain.js
+http://aps.hearstnp.com/Scripts/loadAdsMainParam.js
+http://aps.hearstnp.com/scripts/loadAdsParam.js?ver=2.0
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
