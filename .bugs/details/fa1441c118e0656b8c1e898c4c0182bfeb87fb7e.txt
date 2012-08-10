@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.uswitch.com/car-insurance/
+
+
+[filters]
+http://cms.uswitchinternal.com/wp-includes/js/adwords-conversion-tracking.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
