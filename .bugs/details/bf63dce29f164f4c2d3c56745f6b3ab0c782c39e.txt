@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.boyfriendtv.com/channels/5/bisexual/page1.html?sort=mw
+
+
+[filters]
+http://213.174.140.38/bftv/js/msn-3.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
