@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://klout.com/#/dashboard/quests
+
+[filters]
+http://kcdn3.klout.com/static/images/questing/conquer-twitter-icon.png
+http://kcdn3.klout.com/static/images/dashboard/badge-icon-fb.png
+http://kcdn3.klout.com/static/images/questing/conquer-facebook-icon.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
