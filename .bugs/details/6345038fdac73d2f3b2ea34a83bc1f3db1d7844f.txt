@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://ask.barclays.co.uk/help/day2day_banking/opening_hours
+
+
+[filters]
+https://ask.barclays.co.uk/action/logStatistics?allowcookies=false&amp;action1=%27category%27%3d%27day2day_banking%27%0a%27client%27%3d%27barclays%27%0a%27entry%27%3d%27138834%27%0a%27statistic%27%3d%27advert-view%27%0a%27topic%27%3d%27accounts_services%27%0a%27usergroup%27%3d%27barclaysMain%27%0a&action2=%27category%27%3d%27day2day_banking%27%0a%27client%27%3d%27barclays%27%0a%27entry%27%3d%2780980%27%0a%27statistic%27%3d%27advert-view%27%0a%27usergroup%27%3d%27barclaysMain%27%0a&action3=%27category%27%3d%27day2day_banking%27%0a%27client%27%3d%27barclays%27%0a%27entry%27%3d%277741%27%0a%27statistic%27%3d%27entry-view%27%0a%27usergroup%27%3d%27barclaysMain%27%0a&action4=%27category%27%3d%27insurance%27%0a%27client%27%3d%27barclays%27%0a%27entry%27%3d%278614887%27%0a%27statistic%27%3d%27advert-view%27%0a%27usergroup%27%3d%27barclaysMain%27%0a&action5=%27category%27%3d%27online_banking%27%0a%27client%27%3d%27barclays%27%0a%27entry%27%3d%278611850%27%0a%27statistic%27%3d%27advert-view%27%0a%27topic%27%3d%27online_statements%27%0a%27usergroup%27%3d%27barclaysMain%27%0a
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
