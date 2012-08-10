@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.iceland.co.uk/
+
+
+[filters]
+https://www.websiteperform.com/maxlive/collect/clscf.js
+http://www.websiteperform.com/maxlive/collect/?&rq=http%3A//www.iceland.co.uk/&rf=&pt=Welcome%20to%20Iceland%20Foods&es=&esg=&ifilter=&userid=11574&tt=t&lg=undefined&tc=1344588796929&sz=1600X1200&cl=24&jv=false&cks=true&fv=11&rd=&pn=http%253A//www.iceland.co.uk/&sr=none&bn=Firefox%2017&os=Microsoft%20Windows%207&mm=none&md=none
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
