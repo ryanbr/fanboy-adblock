@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.tescocompare.com/
+
+
+[filters]
+https://collector.tescocompare.com/JavascriptInsert.js
+https://collector.tescocompare.com/3216/90711653/UYT76TBX45GD/uw2jde932.bmp?z=0&y=!294316138461E6!+a4149!39atwbvk=Knep=or+50=7+36=2bw388589x=+b44134=188295by5+36413z455089+b85+49=584495889889=1ca453441388554D=+a4589295a=5+1
+https://collector.tescocompare.com/3216/handler7/session.js?se=_13445888789810.2804355486976503_3216&sj=tcstcsa&aP=_13445888789810.2804355486976503_&bd=true&si=false&aM=_13445888789810.2804355486976503_&aO=-1&cf=Compare%20Cheap%20Car%20and%20Motor%20Insurance%20Quotes%20%7C%20TESCO%20Compare&az=ASPSESSIONIDSGSTTBCT%3DPEAGGHMBMANOOFDDBHCNJHDJ&au=https%3A%2F%2Fwww.tescocompare.com%2F
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
