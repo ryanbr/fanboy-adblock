@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.esure.com/
+
+
+[filters]
+https://reporting.esure.com/cgi-bin/rr.cgi/images/blank.gif?nourl=www.esure.com/esure/homepage&norefer=
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
