@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.syfy.com/videos/Alphas/Promos & Trailers/vid:18676963
+
+
+[filters]
+http://www.syfy.com/_utils/video/codebase/pdk/swf/NBCUComScore.swf
+http://www.syfy.com/_utils/video/codebase/pdk/swf/NBCUOmnitureTracking.swf
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
