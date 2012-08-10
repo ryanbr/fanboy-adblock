@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.consumerreports.org/cro/index.htm
+
+
+[filters]
+https://www.consumerreports.org/etc/designs/cro/resources/js/conversion.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
