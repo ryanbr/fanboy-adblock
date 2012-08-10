@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.autoblog.com/2012/08/09/consumer-reports-calls-out-five-popular-cars-to-avoid/
+
+
+[filters]
+http://a01.korrelate.net/a/e/d2r.ads?et=r&adsuu=EsRR3q9TYmIE&1344589685796
+http://a37.korrelate.net/a/e/d2a.ads?r=1344589620&et=a&ago=127&ao=128&px=37&av1=Permalink&av2=&av3=&av4=
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
