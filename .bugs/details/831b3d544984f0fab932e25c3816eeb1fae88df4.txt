@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newteenvids.com/
+
+
+[filters]
+http://www.happy-community.com/layerad.php?gender=Paar&wmid=1014650
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
