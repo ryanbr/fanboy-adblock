@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aibgb.co.uk/servlet/Satellite?c=GBParent_P&channel=C001&cid=1141323165652&pagename=GBBusinessPortal/gb_main
+
+[filters]
+http://www.aibgb.co.uk/futuretense_cs/mis_code/GB_s_remote_code.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
