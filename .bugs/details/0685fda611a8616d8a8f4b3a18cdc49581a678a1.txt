@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.24studio.co.uk/ss/index.jsp
+
+
+[filters]
+http://www.24studio.co.uk/ss/js/cm_controldata.js
+http://www.24studio.co.uk/ss/js/wmps_tracker.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
