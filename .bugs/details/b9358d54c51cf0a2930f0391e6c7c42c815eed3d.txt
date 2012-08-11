@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cru-dataport.com/
+
+
+[filters]
+http://coolertracks.emailroi.com/tracks2.ice?un=cru&http://www.google.com/search?q=related:www.open-e.com&hl=en&safe=off&prmd=imvns&ei=R9UlULK8Cc-36QHetIGYCA&start=40&sa=N&biw=1392&bih=433
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
