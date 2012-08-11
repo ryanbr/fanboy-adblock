@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nexenta.com/corp/
+
+
+[filters]
+http://formalyzer.com/formalyze_call.js
+http://formalyzer.com/formalyze_init.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14248
+
+[comments]
+fanboy
