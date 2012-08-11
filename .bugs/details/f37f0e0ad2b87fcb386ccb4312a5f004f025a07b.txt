@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ewallstreeter.com/how-to-use-a-usb-drive-with-the-nexus-3306/#
+
+
+[filters]
+http://www.groupon.com/javascripts/common/affiliate_widget/grouponwidget.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
