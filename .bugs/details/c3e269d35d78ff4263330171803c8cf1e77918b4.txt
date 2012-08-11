@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fresh-weather.com/uk/forecast.php?postal=AFR|GQ|EK000|LONDON|
+
+[filters]
+http://www.fresh-weather.com/popup1.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
