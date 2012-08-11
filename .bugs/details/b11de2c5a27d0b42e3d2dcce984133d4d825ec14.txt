@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ovguide.com/video/week-8-ed7ca39ce100a2991e11956d6746fe72
+
+
+[filters]
+http://player.hulu.com/express2/203739/external_beacon.swf?cb=Hulu%20Player%204.06.203739&cb=22411108
+http://player.hulu.com/express2/203739/external_beacon.swf?cb=Hulu%20Player%204.06.203739
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14260
+
+
+[comments]
+fanboy
