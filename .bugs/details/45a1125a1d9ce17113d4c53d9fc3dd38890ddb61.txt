@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.livedoor.jp/idolover/archives/13812911.html
+
+
+[filters]
+http://blog.livedoor.jp/idolover/settings/ad.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
