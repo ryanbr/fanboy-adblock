@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kongregate.com/games/Ironhidegames/kingdom-rush
+
+
+[filters]
+http://internal.kongregate.com/flash/konduit_14e7b223d5a0cea4b265d11d0391ac2e.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
