@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.google.com/search?q=*&ie=*&oe=*&aq=*&rls=*&client=*
+
+
+[filters]
+https://cdn.lfstmedia.com/~cdn/Ads/ba7cb900-b900-1a7c-a40e-6eb6c97ec732.gif
+https://cdn.lfstmedia.com/~cdn/Ads/ad_shared/images/buttons_v2/bg.gif
+https://cdncache2-a.akamaihd.net/items/e6a00/storage.swf
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
