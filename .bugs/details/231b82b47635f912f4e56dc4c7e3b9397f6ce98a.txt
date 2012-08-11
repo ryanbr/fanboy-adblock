@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.art.com/home/artists/posters.htm?WT.ac=Shop_Artists
+
+
+[filters]
+http://www.art.com/asp/UTERecording.asp?UTE.REF=http%3A//www.art.com/&UTE.LOC=http%3A//www.art.com/home/artists/posters.htm%3FWT.ac%3DShop_Artists&UTE.TS=11/8/2012%2022:21:10
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
