@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cmjornal.xl.pt/
+
+
+[filters]
+http://pubs.xl.pt/banner_exclusivosCM.gif
+http://pubs.xl.pt/cetelem_201201.gif
+http://pubs.xl.pt/cg_cm.jpg
+http://pubs.xl.pt/molduras/cm/producao/moldurasHomepage.js
+http://pubs.xl.pt/molduras/cm/producao/pubLayerTopo.js?v=1
+http://pubs.xl.pt/molduras/cm/producao/pubScroller.js
+http://pubs.xl.pt/paddock_cm.gif
+http://pubs.xl.pt/sec1_cm.gif
+http://pubs.xl.pt/sexo-saude.gif
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=14211
+
+[comments]
+fanboy
