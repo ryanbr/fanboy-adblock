@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cnn.com/video/?hpt=*#/video/cvplive/cvpstream1
+
+[filters]
+http://cdn.octoshape.net/crossdomain.xml
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
