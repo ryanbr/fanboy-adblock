@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.stickam.com/fame_arts
+
+[filters]
+http://www.stickam.com/css/ver1/asset/sns_icons/youtube_16.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
