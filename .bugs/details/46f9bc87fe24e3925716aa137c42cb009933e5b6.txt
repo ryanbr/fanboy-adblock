@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fox.com/bones/full-episodes/6233837/the-crack-in-the-code
+
+
+[filters]
+http://www.fox.com/_ui/fox_player/swf/FoxBlueKaiPlugIn.swf
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14269
+
+
+[comments]
+fanboy
