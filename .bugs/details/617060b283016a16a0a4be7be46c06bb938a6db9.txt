@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.attachmate.com/
+
+
+[filters]
+http://www2.attachmate.com//pv.aspx?cid=703&pv_url=http%3A//www.attachmate.com/&pv_ref=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D6%26t%3D14246&pv_lbl=Fraud%20Monitoring%2C%20Managed%20File%20Transfer%2C%20%26%20Terminal%20Emulation%20Software%20%7C%20Attachmate
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
