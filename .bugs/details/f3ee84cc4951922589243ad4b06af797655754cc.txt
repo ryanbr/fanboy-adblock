@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.open-e.com/
+
+
+[filters]
+http://stats.open-e.com/statistics/stat_visits.php?did=1172012215255&maxszer=1920&maxwys=1080&kolory=24&wstad=http%253A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%253Ff%253D6%2526t%253D14247
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
