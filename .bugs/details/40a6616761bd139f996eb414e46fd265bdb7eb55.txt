@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://phim5.net/cam-xuc-thang-hoa-nhuc-bo-doan-3d-18-3-d-sex-and-zen-extreme-ecstasy-104786.html
+
+
+[filters]
+http://ad.thaisonmedia.com/ftconline/phim5.net.swf
+http://ad.thaisonmedia.com/mkt/pop-phim5-slot1.html
+http://ad.thaisonmedia.com/mkt/pop-phim5-slot2.html
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
