@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.techotopia.com/index.php/Understanding_Windows_Server_2008_File_and_Folder_Ownership_and_Permissions
+
+
+[filters]
+http://www.e-junkie.com/ecom/box.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
