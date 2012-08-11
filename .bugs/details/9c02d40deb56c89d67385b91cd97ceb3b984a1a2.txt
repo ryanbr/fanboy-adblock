@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://search.firstplace.com/search/web?q=data
+
+
+[filters]
+http://search.firstplace.com/__kl.gif?type=pageview&ac=1&s=FirstPlace&c=info.first&pid=2&lh=search.firstplace.com&dr=http%3A%2F%2Fwww.google.com%2Fsearch%3Fhl%3Den%26safe%3Doff%26q%3Drelated%3Awww.cru-dataport.com&qid=f771e0e9ec6348f089f877b94039e72f&rnd=0.8837985770151425&qsh=1941175470
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
