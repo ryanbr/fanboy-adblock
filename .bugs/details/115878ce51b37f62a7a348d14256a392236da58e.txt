@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.allposters.com/
+
+
+[filters]
+http://atrack.allposters.com/images/track/blank.gif
+http://atrack.allposters.com/images/track/blank.gif?01AD=3aK01Gq8LBDD_Osz0e0NSFrCRzgZbOcyViZ4p5dWTrLx33C3YgsMsBA&01RI=798716F37F55854&01NA=na
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
