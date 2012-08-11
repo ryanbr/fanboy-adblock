@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://4hds.com/clicksChat.php
+
+[filters]
+http://4hds.com/js/300by250/300by250ad.js
+http://ad.anonymousads.com/437/html
+http://anonymousads.com/a/1EtvYLk4H2auwX9Vcsf7tm3ZakM8BmH5XM
+http://buxp.org/images/250.gif
+http://www.4hds.com/js/300by250/300by250ad.js
+http://4hds.com/js/camstats.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
