@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tubeplus.me/
+
+
+[filters]
+http://install.blamcity.com/log/zcsoftware/impression/8f5d6e6daf608cbbc48cd956234507f8c76d4606bd0e55819d52ef03f2921ef7f16f355670:c6f603db96dd96110e63d6d497b1a32c/?lp=http%3A%2F%2Fwww.tubeplus.me%2F
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
