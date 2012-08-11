@@ -1,0 +1,33 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://animetoplist.org/out/watch/itazura-na-kiss/anime-tv-1
+
+
+[filters]
+http://findandtry.com/?aff=94541190-tsp.Quidditch
+http://findandtry.com/images/btn-create.png
+http://findandtry.com/images/easy-join.png
+http://findandtry.com/images/lang1.png
+http://findandtry.com/images/lang2.png
+http://findandtry.com/images/lang3.png
+http://findandtry.com/images/lang4.png
+http://findandtry.com/images/lang5.png
+http://findandtry.com/images/lang6.png
+http://findandtry.com/images/lang7.png
+http://findandtry.com/images/lang8.png
+http://findandtry.com/images/social1.png
+http://findandtry.com/images/social2.png
+http://findandtry.com/images/social3.png
+http://findandtry.com/images/verising-logo.png
+http://anonym.to/?http%3A%2F%2Ffindandtry.com%2F%3Faff%3D94541190-tsp.Quidditch
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
