@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://thepiratebay.se/torrent/7504816/My.Mom.Caught.On.Tape.XviD-SWE6RUS
+
+
+[filters]
+http://delivery.thepiratebay.se/custom/pp.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
