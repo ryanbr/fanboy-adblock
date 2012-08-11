@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thedailybeast.com/articles/2012/08/11/michael-tomasky-on-romney-s-stunning-terrible-choice-of-ryan-for-vp.html
+
+
+[filters]
+http://admin.livefyre.com/v3/tracking/http%3A%2F%2Fwww.thedailybeast.com%2Farticles%2F2012%2F08%2F11%2Fmichael-tomasky-on-romney-s-stunning-terrible-choice-of-ryan-for-vp.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
