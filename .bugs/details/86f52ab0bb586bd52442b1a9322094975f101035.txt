@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jango.com/
+
+
+[filters]
+http://a.jango.com/0/www.google.com%252Fsearch%253Fq%253Drelated%253Awww.sony.com%2526hl%253Den%2526safe%253Doff%2526prmd%253Dimvns%2526ei%253DiuElUMayAs2e6QHau4CIBA%2526start%253D90%2526sa%253DN%2526biw%253D1392%2526bih%253D433/%252F?sid=eeaa7668cbbb74bb4134472a6a06815f&cb=1344659953
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
