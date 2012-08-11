@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mindfood.com/at-australia-new-zealand-win-gold-silver-49er-class.seo
+
+
+[filters]
+http://www.mindfood.com/upload/images/wallpaper_images/Nurofen%20Skin.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
