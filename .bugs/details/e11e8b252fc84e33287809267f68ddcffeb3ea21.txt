@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.homestyler.com/
+
+
+[filters]
+http://www.homestyler.com/wa_code.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
