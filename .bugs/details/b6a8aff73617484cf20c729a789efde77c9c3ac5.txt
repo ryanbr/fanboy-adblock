@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tv-links.eu/
+
+
+[filters]
+http://www.tv-links.eu/qtt_spacer.gif?cb=1344679713
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
