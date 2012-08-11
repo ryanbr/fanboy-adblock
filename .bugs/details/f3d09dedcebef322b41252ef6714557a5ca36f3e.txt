@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.livedoor.jp/goldennews/archives/51733358.html
+
+[filters]
+http://api.unthem.com/js/pcad.js?zname=pbb00021&ref=http%3A%2F%2Fwww.livedoor.com%2F&_=4851923460
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
