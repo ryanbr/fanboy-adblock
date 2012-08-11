@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://lan-cerita18sx.blogspot.com/2012/04/senarai-cerita-baru.html
+
+
+[filters]
+http://s3.ongsono.com/show_ip_address.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
