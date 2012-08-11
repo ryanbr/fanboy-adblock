@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cbs.com/shows/how_i_met_your_mother/video/
+
+
+[filters]
+http://www.cbs.com/assets/js/setAdvCookie.js
+http://www.cbs.com/assets/js/deleteAdvCookie.js
+
+http://www.cbs.com/thunder/ad.doubleclick.net/adx/request.php?command=getPodConfig;/videos.can.com/cbs/%2Fent%2Fpt%2Fhmm%2Ffe%2Frb%3Bsite%3Dentertainment%3Bdpart%3Dprimetime%3Bshow%3Dhimym%3Bfeat%3Dfull_episodes%3Bfeat%3Drebroadcast;partner=cbs;vid=2150592552;outlet=CBS+Production;pid=WRmGO4Lpup2ZAOyP6r_rYNJYzXSaYa02;noAd=;type=ros;format=MPEG4;length=1294044;pos=1;sz=320x240;ord=88548;session=786bc4d579fd1c7e47de87a20c32ea77
+http://ad.doubleclick.net/pfadx/can/cbs/p2150592552;site=entertainment;dpart=primetime;show=himym;feat=full_episodes;feat=rebroadcast;partner=cbs;vid=2150592552;pid=WRmGO4Lpup2ZAOyP6r_rYNJYzXSaYa02;noAd=false;type=ros;format=MPEG4;length=1294044;pos=1;sz=320x240;embed=0;playerVersion=UVP3.0.1;host=www.cbs.com;session=786bc4d579fd1c7e47de87a20c32ea77;DVAR_UVP=UVP3.0.1;br=764;bw=666;ClipLength=longFormat;adv=undefined;slot=d;cat=packagedgoods;cat=financial;rot=engage;rot=engageo;ord=152161?
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14268
+
+
+[comments]
+fanboy
