@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fixya.com/support/p975509-chicago_pneumatic_cp_824_1_4_air_ratche
+
+
+[filters]
+http://srv.admailtiser.com/pix/redirect.js?url=http%3A%2F%2Fconvusmp.admailtiser.com%2Fst%3Fcijs%3D1%26cipid%3D28210%26ttype%3D0%26segid%3D282100%26pix%3D282100%26fixya_family%3D%26fixya_segment%3D8132%26fixya_product%3D975509%26fixya_category%3D363
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
