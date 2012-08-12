@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.atlantafalcons.com/
+
+
+[filters]
+http://www.atlantafalcons.com/wp-content/themes/falcons02/js/metrics.js?ver=201009101839
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
