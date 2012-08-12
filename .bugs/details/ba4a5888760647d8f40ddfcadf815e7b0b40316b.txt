@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gotomeeting.com/fec/
+
+
+[filters]
+https://marketing.citrixonline.com/api/2009/ChannelTrackingConverter.js
+http://www.citrixonlinecdn.com/dtsimages/im/fe/dnt/dnt.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
