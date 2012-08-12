@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.filestube.com/extabit/7hh4NF4HfnLWcHhw9W5sDP/07-26-12-Michael-Test-Driving-a-jQuery-Plugin.html
+
+
+[filters]
+http://static.filestube.com/files/images/bartvpn/bart8.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
