@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://travel.excite.co.uk/a-melodic-journey-through-nashvilles-country-music-hall-of-fame-N4235.html
+
+[filters]
+http://extranet.populis.com/?n=2&channel=excite-uk&idElement=advpromo&country=uk
+http://extranet.populis.com/cpa/?product=excite&country=GB&type=early
+http://static.populis.com/deliver/intext.js
+http://static2.populis.com/js/roitrack.js?v1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
