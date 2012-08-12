@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www91.hattrick.org/Club/Players/Player.aspx?playerId=*
+
+
+[filters]
+http://www91.hattrick.org/Img/Illustrations/ad_bar_right.png
+http://www91.hattrick.org/Img/Illustrations/ad_bar_left.png
+http://www91.hattrick.org/Img/Illustrations/ad_bar_bg.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
