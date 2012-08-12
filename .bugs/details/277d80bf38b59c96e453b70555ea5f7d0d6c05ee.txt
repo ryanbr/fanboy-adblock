@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.in.com/photogallery/oops-moments-at-london-olympics-2012-50001086.html
+
+[filters]
+http://www.in.com/ajax/trackContentViews.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
