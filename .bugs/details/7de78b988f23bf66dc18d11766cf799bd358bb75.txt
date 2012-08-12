@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nasa.gov/multimedia/imagegallery/image_feature_2334.html
+
+
+[filters]
+http://observer.nasa.gov/baynote/tags3/common?customerId=nasa&code=gov&timeout=undefined&onFailure=undefined
+http://observer.nasa.gov/baynote/tags3/policy?customerId=nasa&code=gov&subdomain=&userId=UNASSIGNED&userPolicyRequested=true&dataFormat=script
+
+
+
+
+[other]
+Cleanup baynote.
+
+
+[comments]
+fanboy
