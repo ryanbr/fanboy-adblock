@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.investinganswers.com/personal-finance/smart-consumer/5-most-overpriced-items-you-should-never-buy-grocery-store-4509
+
+
+[filters]
+http://www.investinganswers.com/sites/all/modules/click_statistics/a.js?M
+http://www.investinganswers.com/sites/all/modules/ia_core/ga_dpc_youtube.js?M
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
