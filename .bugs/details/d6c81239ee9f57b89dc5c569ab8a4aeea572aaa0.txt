@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.indiatvnews.com/live-video/mob-goes-on-rampage-in-mumbai-7401.22.html
+
+
+[filters]
+http://serve.vdopia.com/adserver/resolver.php?api_key=30ac36eed18b5df5a95b0a99f427cc40&stream_query=0%7Chttp%3A//www.indiatvnews.com/upload/svideofile/Mob_goes_on_ram7401.flv&rand=91676
+http://serve.vdopia.com/adserver/vastxml/30ac36eed18b5df5a95b0a99f427cc40/preroll|postroll/;category:EN|NE;api_test:false;format:vast;checkStatus:true;stream_id:0;ru=http%3A%2F%2Fwww.indiatvnews.com%2Flive-video%2Fmob-goes-on-rampage-in-mumbai-7401.22.html;rand=1627597?
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
