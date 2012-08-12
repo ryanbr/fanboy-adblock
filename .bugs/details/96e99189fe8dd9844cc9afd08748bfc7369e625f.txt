@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tg24.sky.it/tg24/diretta.html
+
+
+[filters]
+http://adv.ilsole24ore.it/crossdomain.xml
+http://adv.ilsole24ore.it/4/www.sky.it/12/tg24_diretta/1959342153@VideoBox?
+http://adv.ilsole24ore.it/5/www.sky.it/12/tg24_diretta/L26/16136027/VideoBox/IlSole24Ore/Adsalsa_120730_NETWORK_GR_B1/ADSALSA_300x250.html/664d624f7646416e6b4b674144474153?_RM_EMPTY_&
+http://adv.ilsole24ore.it/RealMedia/ads/adstream_lx.ads/www.sky.it/11/streaming_tg24/L28/443388828/PreRoll/IlSole24Ore/autopromo_SKY_billboard/PreRoll_vuoto_SKY.html/664d624f7646416e6b4b674144474153?_RM_EMPTY_
+http://adv.ilsole24ore.it/RealMedia/ads/adstream_sx.ads/www.sky.it/11/streaming_tg24/1913443579@PreRoll
+http://adv.ilsole24ore.it/0/IlSole24Ore/autopromo_SKY_billboard/empty.flv
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
