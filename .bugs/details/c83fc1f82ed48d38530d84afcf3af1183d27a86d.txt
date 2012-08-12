@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ps2.gamezone.com/products/oddworld-abe-s-oddysee/news/first-look-at-abe-s-oddysee-hd-remake
+
+
+[filters]
+http://download.gamezone.com/uploads/app/social.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
