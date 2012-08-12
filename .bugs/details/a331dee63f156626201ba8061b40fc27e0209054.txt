@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cl0thes0ff.com/tagged/h0e
+
+
+[filters]
+http://www.followercounter.com/counter.js?name=cl0thes0ff
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
