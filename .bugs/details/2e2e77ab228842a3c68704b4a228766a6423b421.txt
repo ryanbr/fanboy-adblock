@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.inkscapeforum.com/viewtopic.php?f=31&t=11215
+
+
+[filters]
+http://www.inkscapeforum.com/images/banners/bd-50-shades.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
