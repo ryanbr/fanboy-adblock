@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bookdepository.co.uk/Scar-Tissue-Anthony-Kiedis/9780751535662
+
+
+[filters]
+http://cache1.bdcdn.net/assets/images/sprite_social.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
