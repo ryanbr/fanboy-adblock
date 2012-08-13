@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.azfamily.com/news/Suns-dancer-tryouts-have-begun-165859586.html?gallery=y&img=2&c=y
+
+
+[filters]
+http://www.azfamily.com/templates/belo_dart_iframed_ad?dartTag=MedRectangle&c=y&pagetype=slideshow
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14296
+
+[comments]
+fanboy
