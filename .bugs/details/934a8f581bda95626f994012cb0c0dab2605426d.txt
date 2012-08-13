@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dailyfinance.com/savings-experiment/
+
+
+[filters]
+http://www.dailyfinance.com/traffic/?t=js&bv=&os=&tz=&lg=&rv=forums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D8%26t%3D14318&rsv=forums.fanboy.co.nz&pw=%2Fsavings-experiment%2F&cb=934062723
+http://o.aolcdn.com/os/aol/beacon.min.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14318
+
+
+[comments]
+fanboy
