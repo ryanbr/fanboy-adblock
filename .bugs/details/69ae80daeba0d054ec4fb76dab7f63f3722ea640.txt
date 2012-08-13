@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.linuxtoday.com/
+
+[filters]
+http://www.linuxtoday.com/hqxapi/it?ids=20120812170222778442911%2C20120812170222778451242&ca=y&coo=y
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
