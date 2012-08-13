@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.barnesandnoble.com/w/lolcat-bible-martin-grondin/1110906699?ean=9781569757345&itm=1&USRI=lolcat+bible&
+
+
+[filters]
+http://www.barnesandnoble.com/google/ad?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2Flolcat-bible-martin-grondin%2F1110906699
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
