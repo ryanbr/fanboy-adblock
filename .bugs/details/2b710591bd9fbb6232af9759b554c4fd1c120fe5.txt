@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.quickmeme.com/meme/3qgeko/
+
+
+[filters]
+http://static.quickmeme.com/media/rostilefive.html
+http://static.quickmeme.com/media/rostilefour.html
+http://static.quickmeme.com/media/rostileone.html
+http://static.quickmeme.com/media/rostilethree.html
+http://static.quickmeme.com/media/rostiletwo.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
