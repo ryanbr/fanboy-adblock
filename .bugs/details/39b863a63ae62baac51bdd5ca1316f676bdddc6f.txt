@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.techtree.com/content/news/1683/micromax-launches-4-superfone-elite-a84-android-23-10000.html
+
+
+[filters]
+http://clients1.google.com/generate_204
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
