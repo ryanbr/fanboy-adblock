@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.inven.co.kr/board/powerbbs.php?come_idx=2071&l=710
+
+[filters]
+http://adn.inven.co.kr/imp?slot=131&type=if
+http://adn.inven.co.kr/imp?slot=132&type=if
+http://adn.inven.co.kr/imp?slot=133&type=if
+http://adn.inven.co.kr/imp?slot=136&type=if
+http://adn.inven.co.kr/imp?slot=137&type=if
+
+
+
+
+[other]
+http://heroes.inven.co.kr/
+
+[comments]
+fanboy
