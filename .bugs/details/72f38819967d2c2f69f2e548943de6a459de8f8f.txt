@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://1tvlive.in/sun-tv/
+
+
+[filters]
+http://myalter1tv.altervista.org/siteads.php
+http://zonytvcom.info/adsrot.php
+http://zonytvcom.info/adsrot2.php
+http://myalter1tv.altervista.org/2641tv.php
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
