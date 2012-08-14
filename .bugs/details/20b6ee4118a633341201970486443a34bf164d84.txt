@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dayzdb.com/map
+
+
+[filters]
+http://d3pkae9owd2lcf.cloudfront.net/mb102.js.gz
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
