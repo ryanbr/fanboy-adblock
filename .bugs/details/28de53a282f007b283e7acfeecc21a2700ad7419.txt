@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://streamcloud.eu/za0d9pkse108/sof-ncis.s09e12.avi.html
+
+
+[filters]
+http://meta.streamcloud.eu/deliver.php
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
