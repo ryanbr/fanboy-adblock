@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://chaturbate.com/coto_chanel/
+
+[filters]
+http://www.seekbang.com/cs/rotator/index.html
+
+
+[other]
+popup
+
+
+[comments]
+nitrox
