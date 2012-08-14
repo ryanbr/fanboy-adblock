@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.levenger.com/
+
+[filters]
+http://www.levenger.com/javascript/Analytics/Google.js
+http://www.levenger.com/javascript/Analytics/Tracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
