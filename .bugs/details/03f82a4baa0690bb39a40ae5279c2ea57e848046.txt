@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tmz.com/videos/
+
+
+[filters]
+http://cdnbakmi.kaltura.com/content/uiconf/abc/kdp/v3.5.7.7/plugins/comscore_v1/comscorePlugin.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
