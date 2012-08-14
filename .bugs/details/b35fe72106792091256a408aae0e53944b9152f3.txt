@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ibnlive.in.com/videos/281089/watch-nasas-curiositys-first-video-from-mars.html
+
+
+[filters]
+http://c7.zedo.com/bar/v16-605/c1/jsc/fnsr.vast?n=1656&c=1166/55&d=74&s=7&v=vast2&z=?nostatic=25669
+http://c7.zedo.com/bar/v16-605/c1/jsc/fnsr.vast?n=1656&c=1167/55&d=74&s=7&v=vast2&z=?nostatic=22868
+http://c7.zedo.com/jsc/c1/fns.vast?n=1656&c=1166/55&d=74&s=7&v=vast2&z=?nostatic=25669
+http://c7.zedo.com/jsc/c1/fns.vast?n=1656&c=1167/55&d=74&s=7&v=vast2&z=?nostatic=22868
+
+[other]
+video doesn't play
+
+
+[comments]
+nitrox
