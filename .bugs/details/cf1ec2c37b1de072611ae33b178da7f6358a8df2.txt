@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mailinator.com/displayemail1.jsp?email=www.nowiknow.com&msgid=72057594042520159
+
+
+[filters]
+http://mir.insire.com/imp?s=2054&t=newsletter&sz=116x15&li=NowYouKnow728x90&e=M8R-mugalx@suremail.info&p=4b3f1b3792
+http://mir.insire.com/imp?s=2054&t=newsletter&sz=116x15&li=NowYouKnowtop728x90&e=M8R-mugalx@suremail.info&p=4b3f1b3792
+http://mir.insire.com/imp?s=2055&t=newsletter&sz=69x15&li=NowYouKnow728x90&e=M8R-mugalx@suremail.info&p=4b3f1b3792
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
