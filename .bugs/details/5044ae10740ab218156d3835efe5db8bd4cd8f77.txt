@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.salon.com/2012/08/11/2012_summer_olympics_londons_biggest_embarrassments/slide_show/1
+
+
+[filters]
+http://b.scorecardresearch.com/beacon.js
+
+[other]
+slideshow doesn't work
+
+
+[comments]
+nitrox
