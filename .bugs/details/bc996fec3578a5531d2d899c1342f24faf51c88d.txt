@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.engrish.com/2012/08/proof-that-capitalism-is-evil/
+
+
+[filters]
+http://www.engrish.com/wp-content/uploads//2012/08/advertisement-burns-the-child.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
