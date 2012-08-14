@@ -70,3 +70,4 @@ sed -i '/+d revsci.net/d' $SUBS/fanboy-tracking.tpl $SUBS/fanboy-ultimate-ie.tpl
 sed -i '/+d js.revsci.net/d' $SUBS/fanboy-tracking.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/+d easy.box/d' $SUBS/fanboy-tracking.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
 sed -i '/- \/quant.js/d' $SUBS/fanboy-tracking.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
+sed -i '/post-flair/d' $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl
