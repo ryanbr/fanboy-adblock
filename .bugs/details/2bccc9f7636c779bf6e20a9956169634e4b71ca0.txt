@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://zaphod.uk.vvhp.net/viewemail?con=6681650&cmp=3231&act=114902&sec=bb75105b7782
+
+
+[filters]
+https://pixel.monitor1.returnpath.net/pixel.gif?r=0c98f5715cdec83920cbc4753bd179a5bae3c1d7&s=6681650&c=UMGUK3231-114902&name=White%20Lies&label=Polydor
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
