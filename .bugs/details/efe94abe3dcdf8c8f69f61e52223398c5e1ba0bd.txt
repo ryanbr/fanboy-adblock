@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://offers.lendingtree.com/tl.aspx?tid=mortgage&vid=2-1-1-1-1-1-0-0-0-0-2-1-0-0-1-0-0-1-1-1-3-1-0-0-1-0&page=loan_selection&verb=continue&O_loan_type=LOAN_TYPE_REFINANCE&bp=v3&init=1&intro=0&ICODE=10&COMPCODE=6070&SITEID=&PARTNER=lendingtree&LOCID=14000&KWCODE=&REFERER=
+
+
+[filters]
+https://tree-pixel-log.s3.amazonaws.com/pixel_failure.gif?errMessage=s_gi%20is%20not%20defined&treeEvent=FormStep&version=1&id=undefined
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
