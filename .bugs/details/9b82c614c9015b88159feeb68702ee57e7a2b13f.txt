@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.boatshop24.com/en
+
+
+[filters]
+http://partner.googleadservices.com/gampad/google_service.js
+https://securepubads.g.doubleclick.net/gampad/ads?correlator=1542989640891280&output=json_html&callback=GA_googleSetAdContentsBySlotForSync&impl=s&client=ca-pub-3282173259769190&slotname=BS24_top_leaderboard&page_slots=BS24_top_leaderboard&cust_params=bs24cats%3D%26bs24makes%2520%3Dhomepage%26Language%3Den&cookie=ID%3D04a607b833957dc8%3AT%3D1344936253%3AS%3DALNI_MbvG_2iC3wv_KOHURiZLPWqwRiU1g&url=http%3A%2F%2Fwww.boatshop24.com%2Fen&lmt=1344936380&dt=1344936383305&cc=100&biw=1583&bih=891&adk=605333873&adx=0&ady=0&ifi=1&oid=3&u_tz=60&u_his=3&u_h=1200&u_w=1600&u_ah=1170&u_aw=1600&u_cd=24&u_nplug=5&u_nmime=6&flash=11.3.300&gads=v2&ga_vid=67328958.1344936383&ga_sid=1344936383&ga_hid=605284362
+https://securepubads.g.doubleclick.net/gampad/ads?correlator=1542989640891280&output=json_html&callback=GA_googleSetAdContentsBySlotForSync&impl=s&client=ca-pub-3282173259769190&slotname=BS24_top_leaderboard&page_slots=BS24_top_leaderboard&cust_params=bs24cats%3D%26bs24makes%2520%3Dhomepage%26Language%3Den&cookie=ID%3D04a607b833957dc8%3AT%3D1344936253%3AS%3DALNI_MbvG_2iC3wv_KOHURiZLPWqwRiU1g&url=http%3A%2F%2Fwww.boatshop24.com%2Fen&lmt=1344936380&dt=1344936383305&cc=100&biw=1583&bih=891&adk=605333873&adx=0&ady=0&ifi=1&oid=3&u_tz=60&u_his=3&u_h=1200&u_w=1600&u_ah=1170&u_aw=1600&u_cd=24&u_nplug=5&u_nmime=6&flash=11.3.300&gads=v2&ga_vid=67328958.1344936383&ga_sid=1344936383&ga_hid=605284362&_=1344936385404
+https://securepubads.g.doubleclick.net/gampad/google_ads.js
+
+
+[other]
+boat images don't appear
+
+
+[comments]
+nitrox

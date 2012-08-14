@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.itech7.com/
+
+
+[filters]
+http://img.sedoparking.com/js/jquery-1.4.2.min.js
+http://img.sedoparking.com/jspartner/google.js
+https://sedo.cachefly.net/templates/604/gfx/sprite604.png
+
+
+[other]
+parked domain ads
+
+
+[comments]
+nitrox

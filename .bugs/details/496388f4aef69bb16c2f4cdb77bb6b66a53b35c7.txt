@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://goodcomics.comicbookresources.com/
+
+
+[filters]
+http://img.comicbookresources.com/assets/images/skins/1344539747.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
