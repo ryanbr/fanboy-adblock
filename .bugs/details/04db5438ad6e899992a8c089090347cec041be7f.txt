@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mediabistro.com/tvnewser/the-scoreboard-friday-november-12_b39883
+
+
+[filters]
+http://www.mediabistro.com/blogshare/js/trackingFooter.js
+http://www.mediabistro.com/blogshare/js/viewTracking.min.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
