@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://espn.go.com/espnradio/newyork/play?s=nyc
+
+[filters]
+http://bd0dc.v.fwmrm.net/ad/p/1?
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
