@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cashadvance.com/
+
+
+[filters]
+https://www.cashadvance.com/session-tracker/tracking-code?website_id=1
+http://session-tracker.badcreditloans.com/p?guid=92232767-5d36-4d67-9edd-24ce02647a04&domain=www.cashadvance.com&query_string=&path=%2F&referrer=&website_id=1&tz=Europe/London&wx=1600&wy=1170&sx=1600&sy=1200&cd=24
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
