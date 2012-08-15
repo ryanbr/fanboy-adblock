@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.makeherup.com/2012/08/14/preview-jennifer-lopez-lands-the-september-cover-of-instlye-magazine/
+
+
+[filters]
+http://googlerank.info/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
