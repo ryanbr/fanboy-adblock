@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ceoexpress.com/default.asp
+
+
+[filters]
+http://www.ceoexpress.com/inc/adsnlhome.asp
+http://www.ceoexpress.com/inc/adsnlhome300.asp
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
