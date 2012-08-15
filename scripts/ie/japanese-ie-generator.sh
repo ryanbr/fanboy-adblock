@@ -53,7 +53,7 @@ sed -i '/~third-party/d' $IEDIR/fanboy-japanese.txt
 # Generate .tpl IE list
 #
 # perl $IEDIR/maketpl.pl &> /dev/null
-python $GOOGLEDIR/scripts/ie/combineSubscriptions.py $IEDIR $SUBS
+python $IEDIR/combineSubscriptions.py $IEDIR $SUBS
 
 # Now remove filters that cause issues in IE (and false positives)
 #
