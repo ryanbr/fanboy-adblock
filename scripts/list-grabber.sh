@@ -51,7 +51,8 @@ fi
 # Make sure Addchecksum is loaded
 #
 if [ ! -d "$TESTDIR/addChecksum.pl" ]; then
-   cp -rf $MAINDIR/addChecksum.pl $TESTDIR
+   cp -rf $GOOGLEDIR/scripts/addChecksum.pl $TESTDIR
+   cp -rf $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR $TESTDIR/opera
 fi
 
 # Fallback if ramdisk.sh isn't excuted. (mercurial repo in ramdisk)
