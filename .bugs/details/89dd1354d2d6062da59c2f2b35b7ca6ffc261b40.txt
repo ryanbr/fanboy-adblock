@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.travelsupermarket.com/holidays/?Source=MS
+
+
+[filters]
+http://www.travelsupermarket.com/shared/doubleclick.aspx?placement=PACKAGEHOMEMPU&format=iabmpu&width=300&height=250&keywords=
+http://www.travelsupermarket.com/shared/doubleclick.aspx?placement=PACKAGELEADERGTX&format=iabmpu&width=728&height=90&keywords=
+http://www.travelsupermarket.com/shared/doubleclick.aspx?placement=PACKAGESKYGTX&format=iabmpu&width=120&height=600&keywords=page=home;
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
