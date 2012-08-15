@@ -59,7 +59,7 @@ fi
 
 # Make sure IE script is loaded
 #
-if [ ! -d "$IEDIR/combineSubscriptions.py"]; then
+if [ ! -d "$IEDIR/combineSubscriptions.py" ]; then
     cp -rf $GOOGLEDIR/scripts/ie/combineSubscriptions.py $IEDIR
 fi
 
