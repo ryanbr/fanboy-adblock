@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://9to5mac.com/2012/08/14/ipad-mini-will-look-like-a-large-ipod-touch-with-smaller-side-bezels-gallery/
+
+[filters]
+http://9to5forums.com/settings/analyticstick.json
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
