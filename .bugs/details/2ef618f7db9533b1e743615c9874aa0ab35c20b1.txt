@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://officer.marines.com/
+
+
+[filters]
+http://officer.marines.com/js/officermarines_sdcTrackingCode.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
