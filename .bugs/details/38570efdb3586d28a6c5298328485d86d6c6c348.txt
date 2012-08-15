@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tamilrockers.net/
+
+
+[filters]
+http://cur.cursors-4u.net/cursors/cur-2/cur124.cur
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
