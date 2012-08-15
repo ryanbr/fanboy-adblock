@@ -7,6 +7,7 @@
 #
 # Version history
 #
+# 1.81 Misc Cleanups
 # 1.8  Allow list to be stored in ramdisk
 # 1.752 Declare global variables
 # 1.751 Remove Shred, and cleanup variable names
@@ -38,12 +39,19 @@ export SUBS="/tmp/ieramdisk/subscriptions"
 $GOOGLEDIR/scripts/ramdisk.sh
 # Fallback if ramdisk.sh isn't excuted.
 #
-if [ ! -d "/tmp/ramdisk/" ]; then
-  rm -rf /tmp/ramdisk/
-  mkdir /tmp/ramdisk; chmod 777 /tmp/ramdisk
-  mount -t tmpfs -o size=30M tmpfs /tmp/ramdisk/
-  mkdir /tmp/ramdisk/opera; chmod 777 /tmp/ramdisk/opera
-  mkdir /tmp/ramdisk/opera/test; chmod 777 /tmp/ramdisk/opera/test
+if [ ! -d "/tmp/work/" ]; then
+  rm -rf /tmp/work/
+  mkdir /tmp/work; chmod 777 /tmp/work
+  mount -t tmpfs -o size=30M tmpfs /tmp/work/
+  cp -rf $MAINDIR/addChecksum.pl $TESTDIR
+  mkdir /tmp/work/opera; chmod 777 /tmp/work/opera
+  mkdir /tmp/work/opera/test; chmod 777 /tmp/work/opera/test
+fi
+
+# Make sure Addchecksum is loaded
+#
+if [ ! -d "$TESTDIR/addChecksum.pl" ]; then
+   cp -rf $MAINDIR/addChecksum.pl $TESTDIR
 fi
 
 # Fallback if ramdisk.sh isn't excuted. (mercurial repo in ramdisk)
@@ -613,7 +621,7 @@ fi
 # Hash googlecode (SSLGOOGLE) and fanboy.co.nz (SSLMAIN), then compare the two.
 #
 SSLGOOGLE=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt | cut -d' ' -f1)
-SSLMAIN=$($SHA256SUM $GOOGLEDIR/firefox-regional/fanboy-adblocklist-krn.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-korean.txt | cut -d' ' -f1)
 ## DEBUG
 ### echo "Before Loop"
 ### echo "SSLMAIN: $MAINDIR/fanboy-korean.txt $SSLMAIN"
@@ -1051,4 +1059,4 @@ fi
 echo "Script finished executing on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE2
 echo "------------------------- End of script -------------------------" >> $LOGFILE2
 echo " " >> $LOGFILE2
-$NICE $TAIL -n 6000 $LOGFILE2 > /var/www/adblock.log
+$NICE $TAIL -n 6000 $LOGFILE2 > $MAINDIR/adblock.log
