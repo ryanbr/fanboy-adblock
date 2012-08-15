@@ -5,13 +5,6 @@
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
-# Variables for directorys
-#
-MAINDIR="/var/www/adblock"
-GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-TESTDIR="/tmp/ramdisk"
-ZIP="/usr/local/bin/7za"
-
 # Make Ramdisk.
 #
 $GOOGLEDIR/scripts/ramdisk.sh

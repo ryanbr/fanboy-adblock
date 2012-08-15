@@ -17,15 +17,6 @@ if [ ! -d "/tmp/ieramdisk/" ]; then
     mkdir /tmp/ieramdisk/subscriptions/temp
 fi
 
-# Variables
-#
-MAINDIR="/var/www/adblock"
-GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-ZIP="/usr/local/bin/7za"
-IEDIR="/tmp/ieramdisk"
-SUBS="/tmp/ieramdisk/subscriptions"
-TESTDIR="/tmp/ramdisk"
-
 # Now remove filters that cause issues in IE (and false positives)
 #
 sed -i '10,20000{/\#/d}' $SUBS/fanboy-noele.tpl $SUBS/fanboy-ultimate-ie.tpl $SUBS/fanboy-complete-ie.tpl

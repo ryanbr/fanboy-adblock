@@ -16,14 +16,6 @@ if [ ! -d "/tmp/ieramdisk/" ]; then
     cp -f /home/fanboy/google/fanboy-adblock-list/scripts/ie/combineSubscriptions.py /tmp/ieramdisk/
 fi
 
-# Variables
-#
-MAINDIR="/var/www/adblock"
-GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-ZIP="/usr/local/bin/7za"
-IEDIR="/tmp/ieramdisk"
-SUBS="/tmp/ieramdisk/subscriptions"
-
 # Clear out any old files lurking
 #
 rm -rf $IEDIR/*.txt $SUBS/*

@@ -16,14 +16,6 @@ if [ ! -d "/tmp/ieramdisk/" ]; then
     mkdir /tmp/ieramdisk/subscriptions
 fi
 
-# Variables
-#
-MAINDIR="/var/www/adblock"
-GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-ZIP="/usr/local/bin/7za"
-IEDIR="/tmp/ieramdisk"
-SUBS="/tmp/ieramdisk/subscriptions"
-
 # Clear out any old files lurking
 #
 rm -rf $IEDIR/*.txt $SUBS/*

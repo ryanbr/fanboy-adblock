@@ -14,13 +14,6 @@ if [ ! -d "/tmp/iron/" ]; then
     mount -t tmpfs -o size=10M tmpfs /tmp/iron/
 fi
 
-# Variables
-#
-MAINDIR="/var/www/adblock/opera"
-IRONDIR="/var/www/adblock/iron"
-GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-ZIP="/usr/local/bin/7za"
-TESTDIR="/tmp/iron"
 
 # Split the Opera-specific stuff off... into its own list
 #
