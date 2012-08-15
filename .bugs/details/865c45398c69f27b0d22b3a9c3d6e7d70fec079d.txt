@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.fidelity.com/retirement/small-business
+
+
+[filters]
+https://www.fidelity.com/adobe/measurement/insight/1.3/fmrvs.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
