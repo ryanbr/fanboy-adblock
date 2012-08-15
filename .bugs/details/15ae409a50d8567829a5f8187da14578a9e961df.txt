@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.virginholidays.co.uk/default.aspx
+
+
+[filters]
+http://www.virginholidays.co.uk/_assets/js/dc_storm/track.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
