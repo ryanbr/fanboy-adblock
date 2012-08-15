@@ -18,7 +18,7 @@ fi
 
 # Split the Opera-specific stuff off... into its own list
 #
-sed -n '/Stats list (Opera)/,/Wildcards/{/Wildcards/!p}' $MAINDIR/complete/urlfilter.ini > $TESTDIR/urlfilter3.ini
+sed -n '/Stats list (Opera)/,/Wildcards/{/Wildcards/!p}' $MAINDIR/opera/complete/urlfilter.ini > $TESTDIR/urlfilter3.ini
 
 # remove ; from the file
 #
@@ -42,7 +42,7 @@ tr -d '*' <$TESTDIR/adblock2-stats.ini >$IRONDIR/complete/adblock.ini
 
 # Checksum the file (Done)
 #
-perl $IRONDIR/addChecksum-opera.pl $IRONDIR/complete/adblock.ini
+perl $TESTDIR/opera/addChecksum-opera.pl $IRONDIR/complete/adblock.ini
 rm $IRONDIR/complete/adblock.ini.gz
 
 # echo "adblock.ini copied" > /dev/null

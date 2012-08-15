@@ -33,6 +33,7 @@ export LOGFILE2="/var/log/adblock-log.txt"
 export TEMPLOGFILE="/tmp/Ramdisk/www/adblock.log"
 export IEDIR="/tmp/ieramdisk"
 export SUBS="/tmp/ieramdisk/subscriptions"
+export IRONDIR="$MAINDIR/www/adblock/iron"
 
 # Make Ramdisk.
 #
@@ -52,7 +53,8 @@ fi
 #
 if [ ! -d "$TESTDIR/addChecksum.pl" ]; then
    cp -rf $GOOGLEDIR/scripts/addChecksum.pl $TESTDIR
-   cp -rf $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR $TESTDIR/opera
+   cp -rf $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR
+   cp -rf $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR/opera
 fi
 
 # Fallback if ramdisk.sh isn't excuted. (mercurial repo in ramdisk)

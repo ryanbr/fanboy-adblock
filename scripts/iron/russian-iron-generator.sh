@@ -46,8 +46,8 @@ tr -d '*' <$TESTDIR/adblock-rus-stats2.ini >$TESTDIR/adblock-stats.ini
 
 # Checksum the file (Done)
 #
-perl $IRONDIR/addChecksum-opera.pl $TESTDIR/adblock-rus.ini
-perl $IRONDIR/addChecksum-opera.pl $TESTDIR/adblock-stats.ini
+perl $TESTDIR/opera/addChecksum-opera.pl $TESTDIR/adblock-rus.ini
+perl $TESTDIR/opera/addChecksum-opera.pl $TESTDIR/adblock-stats.ini
 
 # Copy over files
 #

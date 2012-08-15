@@ -39,13 +39,15 @@ if [ ! -d "/tmp/work/opera" ]; then
   mkdir /tmp/work; chmod 777 /tmp/work
   mount -t tmpfs -o size=30M tmpfs /tmp/work/
   mkdir /tmp/work/opera/
-  cp -f $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR $TESTDIR/opera/
+  cp -f $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR
+  cp -f $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR $TESTDIR/opera
 fi
 
 # Make sure Addchecksum is loaded
 #
 if [ ! -d "$TESTDIR/opera/addChecksum-opera.pl" ]; then
-   cp -rf $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR $TESTDIR/opera
+   cp -rf $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR
+   cp -rf $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR/opera
    cp -rf $GOOGLEDIR/scripts/addChecksum.pl $TESTDIR
 fi
 

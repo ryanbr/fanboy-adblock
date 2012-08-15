@@ -46,8 +46,8 @@ tr -d '*' <$TESTDIR/adblock-esp-stats2.ini >$IRONDIR/esp/complete/adblock.ini
 
 # Checksum the file (Done)
 #
-perl $IRONDIR/addChecksum-opera.pl $IRONDIR/esp/adblock.ini
-perl $IRONDIR/addChecksum-opera.pl $IRONDIR/esp/complete/adblock.ini
+perl $TESTDIR/opera/addChecksum-opera.pl $IRONDIR/esp/adblock.ini
+perl $TESTDIR/opera/addChecksum-opera.pl $IRONDIR/esp/complete/adblock.ini
 rm $IRONDIR/esp/adblock.ini.gz 
 rm $IRONDIR/esp/complete/adblock.ini.gz
 

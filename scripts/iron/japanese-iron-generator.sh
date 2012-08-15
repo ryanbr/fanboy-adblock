@@ -46,8 +46,8 @@ tr -d '*' <$TESTDIR/adblock-jpn-stats2.ini >$IRONDIR/jpn/complete/adblock.ini
 
 # Checksum the file (Done)
 #
-perl $IRONDIR/addChecksum-opera.pl $IRONDIR/jpn/adblock.ini
-perl $IRONDIR/addChecksum-opera.pl $IRONDIR/jpn/complete/adblock.ini
+perl $TESTDIR/opera/addChecksum-opera.pl $IRONDIR/jpn/adblock.ini
+perl $TESTDIR/opera/addChecksum-opera.pl $IRONDIR/jpn/complete/adblock.ini
 rm $IRONDIR/jpn/adblock.ini.gz 
 rm $IRONDIR/jpn/complete/adblock.ini.gz
 
