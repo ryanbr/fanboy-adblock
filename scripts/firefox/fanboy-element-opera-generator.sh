@@ -46,7 +46,7 @@ sed -i '/.ad-vertical-container/d' $TESTDIR/fanboy-css.txt
 # the magic, remove ## and #. and add , to each line
 
 cat $TESTDIR/fanboy-css.txt | sed 's/^..\(.*\)$/\1,/' > $TESTDIR/fanboy-cs2.txt
-cat $MAINDIR/header-opera.txt $TESTDIR/fanboy-cs2.txt $GOOGLEDIR/other/opera-addon.css > $TESTDIR/fanboy-css.txt
+cat $MAINDIR/adblock/header-opera.txt $TESTDIR/fanboy-cs2.txt $GOOGLEDIR/other/opera-addon.css > $TESTDIR/fanboy-css.txt
 
 # remove any blank lines in Opera css
 sed '/^$/d' $TESTDIR/fanboy-css.txt > $TESTDIR/fanboy-css0.txt
@@ -61,12 +61,12 @@ mv -f $TESTDIR/fanboy-css0.txt $TESTDIR/fanboy-css.txt
 perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-css.txt
 # Compare the Dimensions on the website vs mercurial copy
 #
-if diff $TESTDIR/fanboy-css.txt $MAINDIR/opera/fanboy-adblocklist-elements-v4.css >/dev/null ; then
+if diff $TESTDIR/fanboy-css.txt $MAINDIR/adblock/opera/fanboy-adblocklist-elements-v4.css >/dev/null ; then
    echo "No Changes detected: fanboy-adblocklist-elements-v4.css" > /dev/null
  else
 
-   cp -f $TESTDIR/fanboy-css.txt $MAINDIR/opera/fanboy-adblocklist-elements-v4.css
-   rm -f $MAINDIR/opera/fanboy-adblocklist-elements-v4.css.gz
-   $ZIP a -mx=9 -y -tgzip $MAINDIR/opera/fanboy-adblocklist-elements-v4.css.gz $MAINDIR/opera/fanboy-adblocklist-elements-v4.css > /dev/null
+   cp -f $TESTDIR/fanboy-css.txt $MAINDIR/adblock/opera/fanboy-adblocklist-elements-v4.css
+   rm -f $MAINDIR/adblock/opera/fanboy-adblocklist-elements-v4.css.gz
+   $ZIP a -mx=9 -y -tgzip $MAINDIR/adblock/opera/fanboy-adblocklist-elements-v4.css.gz $MAINDIR/adblock/opera/fanboy-adblocklist-elements-v4.css > /dev/null
    $GOOGLEDIR/scripts/firefox/opera-russian.sh
 fi

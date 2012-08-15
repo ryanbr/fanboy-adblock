@@ -32,16 +32,16 @@ sed  -n '/Adult Blocking Rules/,/1st Party P2P Rules/{/1st Party P2P Rules/!p}' 
 sed  -n '/Adult Hiding FF 3.x Rules/,/Generic Hiding Rules/{/Generic Hiding Rules/!p}' $TESTDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-adult-ele.txt
 cat $TESTDIR/fanboy-adult.txt $TESTDIR/fanboy-adult-ele.txt > $TESTDIR/fanboy-adult2.txt
 sed -e '$d' $TESTDIR/fanboy-adult2.txt > $TESTDIR/fanboy-adult1.txt
-cat $MAINDIR/header-adult.txt $TESTDIR/fanboy-adult1.txt > $TESTDIR/fanboy-adult.txt
-perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-adult.txt
+cat $MAINDIR/adblock/header-adult.txt $TESTDIR/fanboy-adult1.txt > $TESTDIR/fanboy-adult.txt
+perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-adult.txt
 
 # Compare the Adult List on the website vs mercurial copy
 #
-if diff $TESTDIR/fanboy-adult.txt $MAINDIR/fanboy-adult.txt >/dev/null ; then
+if diff $TESTDIR/fanboy-adult.txt $MAINDIR/adblock/fanboy-adult.txt >/dev/null ; then
     echo "No Changes detected: fanboy-adult.txt"
  else
     echo "Updated: fanboy-adult.txt"
-    cp -f $TESTDIR/fanboy-adult.txt $MAINDIR/fanboy-adult.txt
-    rm -f $MAINDIR/fanboy-adult.txt.gz
-    $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-adult.txt.gz $TESTDIR/fanboy-adult.txt > /dev/null
+    cp -f $TESTDIR/fanboy-adult.txt $MAINDIR/adblock/fanboy-adult.txt
+    rm -f $MAINDIR/adblock/fanboy-adult.txt.gz
+    $ZIP a -mx=9 -y -tgzip $MAINDIR/adblock/fanboy-adult.txt.gz $TESTDIR/fanboy-adult.txt > /dev/null
 fi 
