@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.debtconsolidationcare.com/
+
+
+[filters]
+http://www.debtconsolidationcare.com/affiliate/admin/ga-affiliates.php
+http://www.debtconsolidationcare.com/affiliate/tracker/affiliate-track.js
+http://www.debtconsolidationcare.com/affiliate/tracker/cookieprocess.js?document_url=http://www.debtconsolidationcare.com/&referer=
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
