@@ -19,11 +19,13 @@ fi
 
 # Variables
 #
-# MAINDIR="/var/www/adblock"
-# GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-# ZIP="/usr/local/bin/7za"
-# IEDIR="/tmp/ieramdisk"
-# SUBS="/tmp/ieramdisk/subscriptions"
+export MAINDIR="/tmp/Ramdisk/www"
+export GOOGLEDIR="/tmp/hgstuff/fanboy-adblock-list"
+export TESTDIR="/tmp/work"
+export IEDIR="/tmp/ieramdisk"
+export SUBS="/tmp/ieramdisk/subscriptions"
+export ZIP="nice -n 19 /usr/local/bin/7za"
+export NICE="nice -n 19"
 
 # Clear out any old files lurking
 #
