@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nationalpayday.com/
+
+[filters]
+http://affiliates.nationalpayday.com/1pix.gif
+http://affiliates.nationalpayday.com/MAPProc.aspx?&curUrl=http%3A//www.nationalpayday.com/&refUrl=&c=24&sw=1600&sh=1200&winid=&ow=1&cookies=1
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
