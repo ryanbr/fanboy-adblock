@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.infoq.com/presentations/Value-Values
+
+[filters]
+http://cdn3.infoq.com/scripts/tracker.js;jsessionid=AA8AD7781FEFA0BC00579B96F42862C9?20110811
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
