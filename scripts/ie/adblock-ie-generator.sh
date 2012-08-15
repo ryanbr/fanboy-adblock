@@ -58,7 +58,7 @@ sed -i '/~third-party/d' $IEDIR/fanboy-noele.txt $IEDIR/fanboy-ultimate-ie.txt $
 # Generate .tpl IE list
 #
 # perl $IEDIR/maketpl.pl &> /dev/null
-python $IEDIR/combineSubscriptions.py $IEDIR $SUBS
+python $GOOGLEDIR/scripts/ie/combineSubscriptions.py $IEDIR $SUBS
 
 # Cleanup Script
 #

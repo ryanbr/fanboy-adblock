@@ -46,7 +46,7 @@ rm -rf $IEDIR/fanboy-tracking-addon.txt
 # Generate .tpl IE list
 #
 # perl $IEDIR/maketpl.pl &> /dev/null
-python $IEDIR/combineSubscriptions.py $IEDIR $SUBS
+python $GOOGLEDIR/scripts/ie/combineSubscriptions.py $IEDIR $SUBS
 
 # Cleanup Script
 #
