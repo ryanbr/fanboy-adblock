@@ -8,11 +8,11 @@
 
 # Creating a 10Mb ramdisk Temp storage...
 #
-if [ ! -d "/tmp/ieramdisk/" ]; then
+if [ ! -d "/tmp/ieramdisk/subscriptions" ]; then
     rm -rf /tmp/ieramdisk/
     mkdir /tmp/ieramdisk; chmod 777 /tmp/ieramdisk
     mount -t tmpfs -o size=10M tmpfs /tmp/ieramdisk/
-    cp -f /home/fanboy/google/fanboy-adblock-list/scripts/ie/combineSubscriptions.py /tmp/ieramdisk/
+    cp -f $MAINDIR/scripts/ie/combineSubscriptions.py /tmp/ieramdisk/
     mkdir /tmp/ieramdisk/subscriptions
     mkdir /tmp/ieramdisk/subscriptions/temp
 fi

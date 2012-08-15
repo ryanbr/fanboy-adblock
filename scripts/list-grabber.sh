@@ -57,6 +57,13 @@ if [ ! -d "$TESTDIR/addChecksum.pl" ]; then
    cp -rf $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR/opera
 fi
 
+# Make sure IE script is loaded
+#
+if [ ! -d "$IEDIR/combineSubscriptions.py"]; then
+    cp -rf $GOOGLEDIR/scripts/ie/combineSubscriptions.py $IEDIR
+fi
+
+
 # Fallback if ramdisk.sh isn't excuted. (mercurial repo in ramdisk)
 
 #if [ ! -d "/tmp/hg-ramdisk/" ]; then

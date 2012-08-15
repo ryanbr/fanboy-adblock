@@ -8,11 +8,11 @@
 
 # Creating a 10Mb ramdisk Temp storage...
 #
-if [ ! -d "/tmp/ieramdisk/" ]; then
+if [ ! -d "/tmp/ieramdisk/subscriptions" ]; then
     rm -rf /tmp/ieramdisk/
     mkdir /tmp/ieramdisk; chmod 777 /tmp/ieramdisk
     mount -t tmpfs -o size=10M tmpfs /tmp/ieramdisk/
-    cp -f /home/fanboy/google/fanboy-adblock-list/scripts/ie/combineSubscriptions.py /tmp/ieramdisk/
+    cp -rf $MAINDIR/scripts/ie/combineSubscriptions.py /tmp/ieramdisk/
     mkdir /tmp/ieramdisk/subscriptions
 fi
 
@@ -53,7 +53,7 @@ sed -i '/~third-party/d' $IEDIR/fanboy-espanol.txt
 # Generate .tpl IE list
 #
 # perl $IEDIR/maketpl.pl &> /dev/null
-python $GOOGLEDIR/scripts/ie/combineSubscriptions.py $IEDIR $SUBS
+python $IEDIR/combineSubscriptions.py $IEDIR $SUBS
 
 # Now remove filters that cause issues in IE (and false positives)
 #
