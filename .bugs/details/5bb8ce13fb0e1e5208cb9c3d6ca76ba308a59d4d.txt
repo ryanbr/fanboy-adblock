@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://autotrader.autos.msn.com/cars-for-sale/index.xhtml;jsessionid=F3F2776AEB70DF7A1F0EE248D7992423?listingType=all&LNX=MSNATHPPRMOFYC&searchRadius=25
+
+[filters]
+http://www.autotrader.com/btl/fyc/index.jsp/?Log=1&bv=10.c110.4c2&pg_inst=724640688498290748&pid=450192610920807565&seller_type=b&search_type=both&distance=25&lnx=MSNATHPPRMOFYC&test_name=chassisSF&pg=fyc_sf&cache_kill=450192611387239409
+http://www.autotrader.com/btl/no_cache/ac/findacarform2_findacar_ac.asis?Log=0&bv=10.c110.4c2&pg_inst=724640688498290748&pid=450192610920807565&cache_kill=450192611306071854&pg=fyc_sf
+http://www.autotrader.com/btl/no_cache/ac/usermatch_ext.asis?Log=0&bv=10.c110.4c2&pg_inst=724640688498290748&pid=450192610920807565&seller_type=b&search_type=both&distance=25&lnx=MSNATHPPRMOFYC&test_name=chassisSF&pg=fyc_sf&ext_id=80.82.68.54.1345019260717680&cache_kill=450192611145048648
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
