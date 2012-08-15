@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.investegate.co.uk/
+
+
+[filters]
+http://wl.uk-wire.com/cgi-bin/logstat?a=0.9991551025238936&ht=http%3A//www.investegate.co.uk/&rf=
+http://www.investegate.co.uk/Weblogs/IGLog.aspx?fut=http%3a%2f%2fwww.investegate.co.uk%2findex.aspx&rut=&bw=1600&bh=1200&bt=Netscape&bc=24&f=&uid=&pl=en-US&ai=&as=&rc=&rf=&se=&uty=
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
