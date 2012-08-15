@@ -109,7 +109,7 @@ else
   # Use the backup file (fanboy-track-test.txt was zero'd by addchecksum)
   #
   sleep 2
-  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-track-bak.txt
+  perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-track-bak.txt
   cp -f $TESTDIR/fanboy-track-bak.txt $MAINDIR/enhancedstats.txt
   # mv -f $TESTDIR/fanboy-track-test.txt $MAINDIR/fanboy-tracking-complete.txt
 

@@ -49,7 +49,7 @@ sed '$d' < $TESTDIR/fanboy-esp-temp.txt > $TESTDIR/fanboy-esp-temp2.txt
 # Merge to the files together
 #
 cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-esp-temp2.txt > $TESTDIR/fanboy-esp-merged.txt
-perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-esp-merged.txt
+perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-esp-merged.txt
 
 # Copy Merged file to main dir
 #

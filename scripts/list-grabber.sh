@@ -150,7 +150,7 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 
     # The Dimensions List
     ### echo "Updated: fanboy-dimensions.txt"
-    $NICE $GOOGLEDIR/scripts/firefox/fanboy-dimensions.sh
+    # $NICE $GOOGLEDIR/scripts/firefox/fanboy-dimensions.sh
 
     # The Adult List
     ### echo "Updated: fanboy-adult.txt"
@@ -158,7 +158,7 @@ if [ "$SSLGOOGLE" != "$SSLMAIN" ]
 
     # The P2P List
     ### echo "Updated: fanboy-p2p.txt"
-    $NICE $GOOGLEDIR/scripts/firefox/fanboy-p2p.sh
+    # $NICE $GOOGLEDIR/scripts/firefox/fanboy-p2p.sh
 
     # Seperate off CSS elements for Opera CSS
     ### echo "Updated: fanboy-element-opera-generator.sh"

@@ -54,7 +54,7 @@ sed -i '/||advg.jp/d' $TESTDIR/fanboy-jpn-temp2.txt
 # Merge to the files together
 #
 cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-jpn-temp2.txt > $TESTDIR/fanboy-jpn-merged.txt
-perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-jpn-merged.txt
+perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-jpn-merged.txt
 
 # Copy Merged file to main dir
 #

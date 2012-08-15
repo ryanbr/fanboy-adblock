@@ -52,7 +52,7 @@ cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-pol-temp2.txt > $TESTDIR/fanboy-
 cp -f $TESTDIR/fanboy-pol-merged.txt $TESTDIR/fanboy-pol-merged-bak.txt
 # Add checksum
 #
-perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-pol-merged.txt
+perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-pol-merged.txt
 
 if [ -s $TESTDIR/fanboy-pol-merged.txt ];
 then
@@ -75,7 +75,7 @@ else
   # Add checksum
   #
   sleep 2
-  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-pol-merged-bak.txt
+  perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-pol-merged-bak.txt
   
   # Copy Merged file to main dir
   #

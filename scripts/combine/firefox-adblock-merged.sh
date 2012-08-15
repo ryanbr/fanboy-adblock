@@ -38,7 +38,7 @@ cp -f $TESTDIR/fanboy-merged.txt $TESTDIR/fanboy-merged-bak.txt
 
 # Add checksum to file
 #
-perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-merged.txt
+perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-merged.txt
 
 # Now lets check if fanboy-merged.txt isnt zero
 #
@@ -63,7 +63,7 @@ else
   # Use the backup file (fanboy-merged.txt was zero'd by addchecksum)
   #
   sleep 2
-  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-merged-bak.txt
+  perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-merged-bak.txt
   
   # Copy Merged file to main dir
   #

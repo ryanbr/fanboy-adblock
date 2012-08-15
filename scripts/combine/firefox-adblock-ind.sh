@@ -6,13 +6,6 @@
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 
-# Variables for directorys
-#
-MAINDIR="/var/www/adblock"
-GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-TESTDIR="/tmp/ramdisk"
-ZIP="/usr/local/bin/7za"
-
 # Make Ramdisk.
 #
 $GOOGLEDIR/scripts/ramdisk.sh
@@ -41,7 +34,7 @@ sed '$d' < $TESTDIR/fanboy-ind-temp.txt > $TESTDIR/fanboy-ind-temp2.txt
 # Merge to the files together
 #
 cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-ind-temp2.txt > $TESTDIR/fanboy-ind-merged.txt
-perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-ind-merged.txt
+perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-ind-merged.txt
 
 # Copy Merged file to main dir
 #

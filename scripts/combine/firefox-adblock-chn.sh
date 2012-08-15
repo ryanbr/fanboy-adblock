@@ -43,7 +43,7 @@ cp -f $TESTDIR/fanboy-chn-merged.txt $TESTDIR/fanboy-chn-merged-bak.txt
 
 # Add checksum
 #
-perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-chn-merged.txt
+perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-chn-merged.txt
 
 if [ -s $TESTDIR/fanboy-chn-merged.txt ];
 then
@@ -66,7 +66,7 @@ else
   # Add checksum
   #
   sleep 2
-  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-chn-merged-bak.txt
+  perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-chn-merged-bak.txt
   
   # Copy Merged file to main dir
   #

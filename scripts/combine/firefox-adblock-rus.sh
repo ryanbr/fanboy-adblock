@@ -57,7 +57,7 @@ sed -i '/\.swf?link=http/d' $TESTDIR/fanboy-adblock.txt
 # Merge to the files together
 #
 cat $TESTDIR/fanboy-adblock.txt $TESTDIR/fanboy-rus-temp2.txt > $TESTDIR/fanboy-rus-merged.txt
-perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-rus-merged.txt
+perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-rus-merged.txt
 
 # Copy Merged file to main dir
 #

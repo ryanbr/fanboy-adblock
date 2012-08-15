@@ -45,7 +45,7 @@ cp -f $TESTDIR/fanboy-ita-merged.txt $TESTDIR/fanboy-ita-merged-bak.txt
 
 # Add checksum
 #
-perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-ita-merged.txt
+perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-ita-merged.txt
 
 if [ -s $TESTDIR/fanboy-ita-merged.txt ];
 then

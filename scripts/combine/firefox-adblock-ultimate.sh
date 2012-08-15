@@ -69,8 +69,8 @@ cp -f $TESTDIR/fanboy-ultimate.txt $TESTDIR/fanboy-ultimate-bak.txt
 
 # Addchecksum
 #
-perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-complete.txt
-perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-ultimate.txt
+perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-complete.txt
+perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-ultimate.txt
 
 
 # Now lets check if fanboy-merged.txt isnt zero
@@ -130,9 +130,9 @@ else
   sleep 2
   # Addchecksum
   #
-  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-complete-bak.txt
+  perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-complete-bak.txt
   sleep 2
-  perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-ultimate-bak.txt
+  perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-ultimate-bak.txt
   
   # Copy Merged file to main dir
   #
