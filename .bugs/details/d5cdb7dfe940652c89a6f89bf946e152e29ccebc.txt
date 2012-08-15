@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.credit.com/credit-cards/bad-credit/
+
+
+[filters]
+http://static.ccom-cdn.com/assets/img/clear.gif?ccom_md5=6c72e0
+
+
+[other]
+messes the top navigation bar
+
+
+[comments]
+nitrox
