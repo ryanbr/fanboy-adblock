@@ -32,8 +32,8 @@ cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $TESTDIR/fanboy-adblock
 sed  -n '/1st Party P2P Rules/,/Adult Hiding FF 3.x Rules/{/Adult Hiding FF 3.x Rules/!p}' $TESTDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-p2p.txt
 sed '1,2d' $TESTDIR/fanboy-p2p.txt > $TESTDIR/fanboy-p3p.txt
 sed -e '$d' $TESTDIR/fanboy-p3p.txt > $TESTDIR/fanboy-p2p.txt
-cat $MAINDIR/header-p2p.txt $TESTDIR/fanboy-p2p.txt > $TESTDIR/fanboy-p2p.txt2
-perl $MAINDIR/addChecksum.pl $TESTDIR/fanboy-p2p.txt2
+cat $MAINDIR/adblock/header-p2p.txt $TESTDIR/fanboy-p2p.txt > $TESTDIR/fanboy-p2p.txt2
+perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-p2p.txt2
 
 # Compare the P2P List on the website vs mercurial copy
 #
