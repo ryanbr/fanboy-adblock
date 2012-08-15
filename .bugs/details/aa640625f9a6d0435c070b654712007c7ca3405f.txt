@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bigcharts.marketwatch.com/
+
+
+[filters]
+http://bc.wsj.net/content/v0007/js/bigcharts.bluekai.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
