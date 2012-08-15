@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v1.752 (01/08/2012)
+# Fanboy Adblock list grabber script v1.8 (15/08/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
+# 1.8  Allow list to be stored in ramdisk
 # 1.752 Declare global variables
 # 1.751 Remove Shred, and cleanup variable names
 # 1.75 Store log in ramdisk to avoid unnessary writes (Currently disabled)
@@ -14,9 +15,9 @@
 #
 # Variables for directorys
 #
-export MAINDIR="/var/www/adblock"
-export GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-export TESTDIR="/tmp/ramdisk"
+export MAINDIR="/tmp/Ramdisk/www"
+export GOOGLEDIR="/tmp/hgstuff/fanboy-adblock-list"
+export TESTDIR="/tmp/work"
 export ZIP="nice -n 19 /usr/local/bin/7za"
 export NICE="nice -n 19"
 export LOGFILE="/etc/crons/log-listgrabber.txt"
@@ -28,7 +29,7 @@ export SHA256SUM="/usr/bin/sha256sum"
 export HG="/usr/local/bin/hg"
 export TAIL="/usr/bin/tail"
 export LOGFILE2="/var/log/adblock-log.txt"
-export TEMPLOGFILE="/var/www/adblock.log"
+export TEMPLOGFILE="/tmp/Ramdisk/www/adblock.log"
 export IEDIR="/tmp/ieramdisk"
 export SUBS="/tmp/ieramdisk/subscriptions"
 
@@ -46,7 +47,7 @@ if [ ! -d "/tmp/ramdisk/" ]; then
 fi
 
 # Fallback if ramdisk.sh isn't excuted. (mercurial repo in ramdisk)
-#
+
 #if [ ! -d "/tmp/hg-ramdisk/" ]; then
 #  rm -rf /tmp/hg-ramdisk/
 #  mkdir /tmp/hg-ramdisk; chmod 777 /tmp/hg-ramdisk
@@ -55,7 +56,7 @@ fi
 #  $NICE $HG pull >> /dev/null
 #  $NICE $HG update >> /dev/null
 #  cp -rf /home/fanboy/google/fanboy-adblock-list/ /tmp/hg-ramdisk/
-#fi
+# fi
 
 # Fallback if ramdisk.sh isn't excuted. (mercurial repo in ramdisk)
 #

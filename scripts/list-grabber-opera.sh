@@ -1,24 +1,33 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber Opera script v1.7 (01/07/2012)
+# Fanboy Adblock list grabber Opera script v1.8 (15/08/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
+# Version history
+#
+# 1.8  Allow list to be stored in ramdisk
 
 # Variables for directorys
 #
-MAINDIR="/var/www/adblock"
-GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-TESTDIR="/tmp/ramdisk"
-ZIP="nice -n 19 /usr/local/bin/7za"
-NICE="nice -n 19"
-SHRED="nice -n 19 /usr/bin/shred"
-LOGFILE="/etc/crons/log-listgrabber.txt"
-DATE="`date`"
-ECHORESPONSE="List Changed: $LS2"
-BADUPDATE="Bad Update: $LS2"
-LS2="`ls -al $FILE`"
+export MAINDIR="/tmp/Ramdisk/www"
+export GOOGLEDIR="/tmp/hgstuff/fanboy-adblock-list"
+export TESTDIR="/tmp/work"
+export ZIP="nice -n 19 /usr/local/bin/7za"
+export NICE="nice -n 19"
+export LOGFILE="/etc/crons/log-listgrabber.txt"
+export DATE="`date`"
+export ECHORESPONSE="List Changed: $LS2"
+export BADUPDATE="Bad Update: $LS2"
+export LS2="`ls -al $FILE`"
+export SHA256SUM="/usr/bin/sha256sum"
+export HG="/usr/local/bin/hg"
+export TAIL="/usr/bin/tail"
+export LOGFILE2="/var/log/adblock-log.txt"
+export TEMPLOGFILE="/tmp/Ramdisk/www/adblock.log"
+export IEDIR="/tmp/ieramdisk"
+export SUBS="/tmp/ieramdisk/subscriptions"
 
 # Make Ramdisk.
 #
