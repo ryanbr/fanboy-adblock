@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mypaydayloan.com/arizona-payday-loans.htm
+
+
+[filters]
+http://www.mypaydayloan.com/setc.asp?referer=http://www.google.com/search?q=related:www.cashadvance.com!~!hl=en!~!safe=off!~!prmd=imvns!~!ei=qTMrUKTmEoTJ6wGd8IDoBw!~!start=10!~!sa=N!~!biw=1392!~!bih=433
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
