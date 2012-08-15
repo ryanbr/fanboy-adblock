@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jorgecastro.org/2011/12/09/the-43-ikea-galant-standing-desk-mod
+
+
+[filters]
+http://hnlike.com/upvote.php?link=http%3A%2F%2Fwww.jorgecastro.org%2F2011%2F12%2F09%2Fthe-43-ikea-galant-standing-desk-mod&title=The%20%2443%20Ikea%20Galant%20Standing%20Desk%20mod
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
