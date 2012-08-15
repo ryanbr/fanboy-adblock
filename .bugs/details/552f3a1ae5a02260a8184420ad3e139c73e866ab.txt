@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://money.msn.com/saving-money-tips/post.aspx?post=ddb1c307-cb77-42b9-bd23-130f5feb7910
+
+
+[filters]
+http://media-social.s-msn.com/s/js/loader/activity/trackloader.min.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
