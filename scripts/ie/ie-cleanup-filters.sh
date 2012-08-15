@@ -16,6 +16,15 @@ if [ ! -d "/tmp/ieramdisk/subscriptions" ]; then
     mkdir /tmp/ieramdisk/subscriptions
     mkdir /tmp/ieramdisk/subscriptions/temp
 fi
+# Variables
+#
+export MAINDIR="/tmp/Ramdisk/www"
+export GOOGLEDIR="/tmp/hgstuff/fanboy-adblock-list"
+export TESTDIR="/tmp/work"
+export IEDIR="/tmp/ieramdisk"
+export SUBS="/tmp/ieramdisk/subscriptions"
+export ZIP="nice -n 19 /usr/local/bin/7za"
+export NICE="nice -n 19"
 
 # Now remove filters that cause issues in IE (and false positives)
 #
