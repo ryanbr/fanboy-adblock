@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.tiaa-cref.org/public/index.html
+
+
+[filters]
+https://www.tiaa-cref.org/ucm/groups/app/@ap_ucm_p_tcp/documents/webasset/js_tiaacref_analytics.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
