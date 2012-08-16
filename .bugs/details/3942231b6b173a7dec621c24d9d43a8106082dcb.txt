@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.techwev.com/top-five-free-vpn-service-2012/
+
+[filters]
+http://www.techwev.com/wp-content/plugins/lazy-load/images/1x1.trans.gif
+http://www.techwev.com/wp-content/plugins/getsocial/lib/getsocial.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+vinny
