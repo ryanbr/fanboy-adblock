@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jcwhitney.com/
+
+[filters]
+http://d6g8j4lnw8wv1.cloudfront.net/utag.ga.js?utv=ut2.7.20120212.0146
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
