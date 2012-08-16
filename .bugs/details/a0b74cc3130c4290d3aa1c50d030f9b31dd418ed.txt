@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.napaonline.com/Catalog/Result.aspx?Ntk=Category&N=0&Ntt=Batteries_Battery+Hold-Downs
+
+
+[filters]
+napaonline.com/Content/script/jquery.lazyload-ad-1.4.2-min.js
+
+
+
+
+[other]
+if you click 'select store' it asks for zip code, enter one (55555 for example) and it should display stores instead it doesn't.
+https://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14363
+
+
+[comments]
+fanboy
