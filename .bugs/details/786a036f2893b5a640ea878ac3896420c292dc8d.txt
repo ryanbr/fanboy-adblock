@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.onside.in/top-5-best-free-vpn-services-review/
+
+
+[filters]
+http://convertsocial.com/embeds/feedburner-to-download/feedburner.php?&feedburner=onsidedotin&rurl=http%3A%2F%2Fwww.onside.in%2F%3Fattachment_id%3D4312&header=1&color=
+http://convertsocial.com/embeds/feedburner-to-download/assets/img/arrow_down.png
+http://convertsocial.com/embeds/feedburner-to-download/assets/img/buttons.png
+http://convertsocial.com/embeds/feedburner-to-download/assets/js/jquery.PinAction.js
+
+[other]
+# Any other details
+
+
+[comments]
+vinny
