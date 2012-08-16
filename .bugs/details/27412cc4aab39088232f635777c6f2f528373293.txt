@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.oreillyauto.com/site/c/cat/Battery+%26+Accessories/C0005/C0001.oap
+
+
+[filters]
+http://www.oreillyauto.com/site/globals/js/s_code.js
+
+
+
+
+[other]
+if you click on Battery - Automotive it should pop up a box asking for year/make/model instead it does nothing.
+
+
+[comments]
+fanboy
