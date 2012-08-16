@@ -1,0 +1,28 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.summitracing.com/
+
+
+[filters]
+http://static.summitracing.com/global/images/bannerads/banr_facebook112411.jpg
+http://static.summitracing.com/global/images/bannerads/banr_husky_081312.jpg
+http://static.summitracing.com/global/images/bannerads/banr_main_freeshipping0212.jpg
+http://static.summitracing.com/global/images/bannerads/banr_main_lowpriceldr712.jpg
+http://static.summitracing.com/global/images/bannerads/banr_powersportsplace_712.jpg
+http://static.summitracing.com/global/images/bannerads/bnr_float_catalogso12.jpg
+http://static.summitracing.com/global/images/bannerads/bnr_float_iparcel812.jpg
+http://static.summitracing.com/global/images/bannerads/bnr_float_newpwrsports312.jpg
+http://static.summitracing.com/global/images/bannerads/bnr_home_bml101025.jpg
+http://static.summitracing.com/global/images/bannerads/bnr_home_motorsports909.jpg
+http://static.summitracing.com/global/images/bannerads/bnr_home_retailstores909.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
