@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dooyoo.co.uk/food/asda/
+
+
+[filters]
+http://visitors.dooyoo.co.uk/www.dooyoo.co.uk/footerpixel.gif?loc=%2Ffood-drink%2Ffood%2Fasda%2F&pgpt=8-196&18522
+http://visitors.dooyoo.co.uk/www.dooyoo.co.uk/headerpixel.gif?loc=%2F&18522
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
