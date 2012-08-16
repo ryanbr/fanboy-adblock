@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.onside.in/top-5-best-free-vpn-services-review/
+
+
+[filters]
+http://onside.in/wp-content/plugins/digg-digg/js/diggdigg-linkedin.js?ver=5.2.9
+http://onside.in/wp-content/plugins/digg-digg/css/diggdigg-style.css?ver=5.2.9
+http://onside.in/wp-content/plugins/pinterest-pin-it-button-for-images/ppibfi_pinterest.css?ver=3.4.1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+vinny
