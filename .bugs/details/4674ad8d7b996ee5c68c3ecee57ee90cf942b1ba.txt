@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rapidgator.net/file/329173514/boardwalk.empire.s02e11.dvdrip.xvid-reward.avi.html
+
+
+[filters]
+http://rapidgator.net/images/banners/button.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
