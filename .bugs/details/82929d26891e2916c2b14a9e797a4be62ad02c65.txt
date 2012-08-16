@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://widget.newsinc.com/_cfvp/playlist16x9_player.html?CID=507&WID=7749&VID=23777810&freewheel=90482&sitesection=sacbeetn_nws_non_sec&external_url=http://www.sacbee.com/2012/08/14/4723560/harvard-researchers-use-d-wave.html
+
+
+[filters]
+http://ad.auditude.com/adserver?u=53c6fba125802a182a6512056dbe1748&u=69832e95d26ae65e69ac72002a0be78c&z=50956&l=20120816212500&of=1.4&tm=15&g=1000002
+
+
+
+
+[other]
+video partially plays then stops in the middle.
+
+
+[comments]
+fanboy
