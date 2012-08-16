@@ -1,0 +1,37 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.autoanything.com/
+
+
+[filters]
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/CarCover.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/ChevySilverado.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/Deflectors.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/Exhaust.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/F150.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/F250.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/F350.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/GMCSierra.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/Intakes.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/Jeep.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/Lights.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/Mats.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/Mustang.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/NerfBars.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/Programmers.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/Ram.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/SeatCovers.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/Suspension.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/Tacoma.png
+http://a.cdnbrm.com/images/prm/homepage/TouchClarity/images/articles/Home/Titan.png
+
+
+
+[other]
+need us ip
+
+
+[comments]
+fanboy
