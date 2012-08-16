@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://therealincometoday.com/job-report/index.html
+
+
+[filters]
+http://click2meter.com/imp.ashx?CID=217550&AFID=
+http://click2meter.com/pixel.gif
+http://gemtrackers.com/imp.ashx?CID=217550&AFID=
+http://gemtrackers.com/pixel.gif
+http://affiliatetrackingsetup.com/imp.ashx?CID=217550&AFID=
+http://affiliatetrackingsetup.com/pixel.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
