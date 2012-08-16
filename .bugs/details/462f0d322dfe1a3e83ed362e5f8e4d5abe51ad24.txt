@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.autopartswarehouse.com/
+
+
+[filters]
+http://webiq-cdn-hr.appspot.com/js/min/WebIQ.API.js
+http://webiq-cdn-hr.appspot.com/js/min/WebIQ.JSON.js
+http://webiq-cdn-hr.appspot.com/js/min/WebIQ.WARP.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
