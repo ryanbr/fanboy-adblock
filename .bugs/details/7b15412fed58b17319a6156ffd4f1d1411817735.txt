@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.monarch.co.uk/
+
+
+[filters]
+http://reporting.flymonarch.com/cgi-bin/rr.cgi/images/blank.gif?nosubsite=en&nourl=www.monarch.co.uk/&norefer=http%3A//www.google.com/search%3Fq%3Drelated%3Awww.dealchecker.co.uk%26hl%3Den%26safe%3Doff%26prmd%3Dimvns%26ei%3DCfwrUM_FKcLG6wHn3IHgBw%26start%3D30%26sa%3DN%26biw%3D1392%26bih%3D433
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
