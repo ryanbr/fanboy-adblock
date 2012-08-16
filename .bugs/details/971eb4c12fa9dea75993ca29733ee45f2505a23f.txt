@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thrifty.co.uk/
+
+
+[filters]
+http://www.thrifty.co.uk/bannerads/117463798116953.gif
+http://www.thrifty.co.uk/bannerads/123314034829071.gif
+http://www.thrifty.co.uk/bannerads/default/overseas(166x52)1.gif
+http://www.thrifty.co.uk/bannerads/flexible_banner_2012.jpg
+http://www.thrifty.co.uk/bannerads/luxury-banner-2012.gif
+http://www.thrifty.co.uk/bannerads/prestige_banner.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
