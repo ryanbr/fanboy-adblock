@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.4shared.net/winzip+16+5
+
+
+[filters]
+http://static.filestube.com/files/images/banners/f980bfbfda80140ee6c262eabdf4b503-bart.swf
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
