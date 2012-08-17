@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.prnewswire.co.uk/news-releases/western-wind-energy-veroffentlicht-finanzergebnisse-fur-das-zweite-quartal-bis-zum-30-juni-2012-166460786.html
+
+
+[filters]
+http://www.prnewswire.co.uk/includes/PRNE_s-code.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
