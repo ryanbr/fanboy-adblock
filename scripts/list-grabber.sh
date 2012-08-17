@@ -98,6 +98,25 @@ $NICE $HG pull >> $LOGFILE2
 $NICE $HG update >> $LOGFILE2
 echo "------ End of hg pull and Update ------" >> $LOGFILE2
 
+# Make sure addChecksum.pl is in the right place
+#
+if [ "/tmp/work/addChecksum.pl" ]; then
+   # Generate checksums.
+   $NICE perl $TESTDIR/addChecksum.pl fanboy-adblocklist-current-expanded.txt fanboy-adblocklist-stats.txt fanboy-adblocklist-addon.txt other/adblock-gannett.txt other/chrome-addon.txt enhancedstats-addon.txt other/tracking-intl.txt
+   # Firefox Regional lists
+   $NICE perl $TESTDIR/addChecksum.pl firefox-regional/fanboy-adblocklist-cz.txt firefox-regional/fanboy-adblocklist-esp.txt firefox-regional/fanboy-adblocklist-ita.txt firefox-regional/fanboy-adblocklist-jpn.txt firefox-regional/fanboy-adblocklist-krn.txt firefox-regional/fanboy-adblocklist-rus-v2.txt firefox-regional/fanboy-adblocklist-swe.txt firefox-regional/fanboy-adblocklist-tky.txt firefox-regional/fanboy-adblocklist-vtn.txt firefox-regional/fanboy-adblocklist-ind.txt firefox-regional/fanboy-adblocklist-pol.txt
+   # Internet Explorer
+   $NICE perl $TESTDIR/addChecksum.pl ie/fanboy-adblock-addon.txt ie/fanboy-tracking-addon.txt ie/fanboy-russian-addon.txt
+fi
+
+# Make sure addChecksum-opera.pl is in the right place
+#
+if [ "/tmp/work/addChecksum-opera.pl" ]; then
+   # Generate checksum.
+   $NICE perl $TESTDIR/opera/addChecksum-opera.pl opera/urlfilter.ini
+fi
+
+
 # Log Changes
 # 
 $NICE $TAIL -n 6000 $LOGFILE2 > $TEMPLOGFILE
