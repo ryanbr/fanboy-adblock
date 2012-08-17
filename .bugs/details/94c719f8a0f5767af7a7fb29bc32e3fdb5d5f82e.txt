@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+facebook.com
+
+
+[filters]
+https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v41818/flyers/79/39/1331717165633232322_1_0fb5f671.jpg
+https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v565063/flyers/122/19/13341750961617288358_1_8a8429fd.jpg
+https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v565063/flyers/44/3/13350110831441504058_1_c44247d4.jpg
+https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v565063/flyers/71/45/13406045551894603420_1_555ac847.jpg
+https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v565063/flyers/76/25/1343453576577142668_1_34ec7ec2.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+vinny
