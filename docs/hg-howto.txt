@@ -22,11 +22,11 @@ Setting up Googlecode Login
 4e)  edit the file "hgrc" using your chosen text editor, include the following infomation in the hgrc file.
 
   [paths]
-  default = ssh://hg@205.185.125.107/adblock/
-  username = your name
-  default-push = ssh://hg@205.185.125.107/adblock/
+  default = https://fanboy-adblock-list.googlecode.com/hg/
+  username = your name <gmail-username@gmail.com>
+  default-push = https://username:password@fanboy-adblock-list.googlecode.com/hg/
   [ui]
-  username = your name
+  username = gmail-username@gmail.com
   verbose = true
   [extensions]
   rebase =
