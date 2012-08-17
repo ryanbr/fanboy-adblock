@@ -1,7 +1,7 @@
 @echo off
 hg pull -u
 :: pre-sort
-perl docs\sorting\sorter2.pl fanboy-adblocklist-current-expanded.txt fanboy-adblocklist-stats.txt fanboy-adblocklist-addon.txt enhancedstats-addon.txt other\adblock-gannett.txt
+perl docs\sorting\sorter2.pl fanboy-adblocklist-current-expanded.txt fanboy-adblocklist-stats.txt fanboy-adblocklist-addon.txt enhancedstats-addon.txt
 :: Firefox Regional lists
 perl docs\sorting\sorter2.pl firefox-regional\fanboy-adblocklist-cz.txt firefox-regional\fanboy-adblocklist-esp.txt firefox-regional\fanboy-adblocklist-ind.txt firefox-regional\fanboy-adblocklist-ita.txt firefox-regional\fanboy-adblocklist-jpn.txt firefox-regional\fanboy-adblocklist-krn.txt firefox-regional\fanboy-adblocklist-pol.txt firefox-regional\fanboy-adblocklist-rus-v2.txt firefox-regional\fanboy-adblocklist-swe.txt firefox-regional\fanboy-adblocklist-tky.txt firefox-regional\fanboy-adblocklist-vtn.txt
 :: Opera
