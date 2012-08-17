@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.2000shareware.com/downloads/winzip/64/bit/free/download/
+
+
+[filters]
+http://imgs.2000shareware.com/iconfiles/icon_ads_2.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
