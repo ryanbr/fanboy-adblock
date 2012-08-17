@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://econsultancy.com/us
+
+
+[filters]
+http://magiq100005.magiq.com/2287/8930891/XBW09WEA78JG/jsEvent.js?z=null_0_8450dac551fc473bbff10df1da48f083&y=399350010!805=+a45!0!=JaED54ap613641908edeoa+ma=islg=1vb=btd+1+=1805391+a0010!aED=+936!0!=R93854a4513641enumoap3+oc=dbe++amtcetplv=1=1
+http://magiq100005.magiq.com/2287/8930891/XBW09WEA78JG/jsEvent.js?z=null_0_8450dac551fc473bbff10df1da48f083&y=399370010!805=+atw!0!=KaEpbv2+1nek+or=2013x=5=5bw+b02+89=19456864696141by513441364183z=+b45+34=196068ca3+a031965186468642+3D=1945689=1vb=1+a
+http://magiq100005.magiq.com/2287/handler8/session.js?se=_13451964531710.7241144571020653_2287&sj=magiq100005csa&aP=_13451964531710.7241144571020653_&bd=true&si=false&aM=_13451964531710.7241144571020653_&aO=-1&cf=Econsultancy%20%7C%20Become%20a%20smarter%20digital%20marketer&az=usy46gabsosd%3Dmagiq100005csa_13451964531710.7241144571020653_2287%3B%20session_start_time%3D1345196453164%3B%20&au=http%3A%2F%2Feconsultancy.com%2Fus
+http://magiq100005.magiq.com/JavascriptInsert.js
+http://cdn.econsultancy.com/assets/magiq-eac8a4383aa8597fd624dced5f729db2.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
