@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.journeyed.com/item/Corel/WinZip/1524466
+
+
+[filters]
+https://ssl.pto.digitalriver.com/by/trial/698/p/globaltracking1.5ce/3/content.js?D_ts=1345196228&D_tzo=-60&D_loc=https%3A//www.journeyed.com/item/Corel/WinZip/1524466&D_ckl=199&siteMeta=%5Bobject%20Object%5D&op698globaltracking1gum=a003003002288hu04n33y9d0d&op698globaltracking1liid=a003003002288hu04n33y9d0d
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
