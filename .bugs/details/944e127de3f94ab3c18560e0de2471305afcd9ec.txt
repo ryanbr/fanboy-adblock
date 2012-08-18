@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://soft-best.ws/
+
+
+[filters]
+http://ekod.info/js/471.js
+http://hapend.biz/thread139/?path0040.471
+http://raoplenort.biz/?user=path0040.471
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
