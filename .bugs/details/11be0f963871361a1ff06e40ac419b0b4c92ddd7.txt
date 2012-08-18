@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.ctvnews.ca/world/chess-master-garry-kasparov-arrested-outside-pussy-riot-trial-1.918708
+
+[filters]
+http://esi2.ctv.ca/players/mediaplayer/builds/ets_3.2/includes/comscorebeacon.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
