@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gamespot.com/
+
+[filters]
+http://image.gamespotcdn.net/gamespot/www/js/social_share/socialShare.min.js?v=1329164047
+http://img2.gamespotcdn.com/gamespot/www/images/modules/socialShare.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
