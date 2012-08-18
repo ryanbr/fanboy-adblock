@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.overclockers.ru/lab/48922_4/Obzor_i_testirovanie_chetyreh_videokart_GeForce_GTX_670_chast_2.html
+
+
+[filters]
+http://b.kavanga.ru/exp?sid=3509&bt=5&bn=1&bc=3&ct=2&pr=22789&pt=b&pd=19&pw=0&pv=1&prr=http%3A//www.overclockers.ru/lab/48922/Obzor_i_testirovanie_chetyreh_videokart_GeForce_GTX_670_chast_2.html
+http://b.kavanga.ru/exp?sid=3509&bt=5&bn=1&bc=3&ct=2&pr=76240&pt=b&pd=19&pw=0&pv=1&prr=http%3A//www.overclockers.ru/lab/48922/Obzor_i_testirovanie_chetyreh_videokart_GeForce_GTX_670_chast_2.html
+http://b.kavanga.ru/exp?sid=3509&bt=5&bn=1&bc=3&ct=2&pr=84426&pt=b&pd=19&pw=0&pv=1&prr=http%3A//www.overclockers.ru/lab/48922/Obzor_i_testirovanie_chetyreh_videokart_GeForce_GTX_670_chast_2.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
