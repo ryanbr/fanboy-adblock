@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://betabeat.com/2012/08/i-have-50-dollars-a-real-time-social-feed-for-people-who-have-50-hilariously-satirizes-app-net/
+
+
+[filters]
+http://www.thelovebucks.com/love/0099536365946566650406456781234?href=http%3A%2F%2Fbetabeat.com%2F2012%2F08%2Fi-have-50-dollars-a-real-time-social-feed-for-people-who-have-50-hilariously-satirizes-app-net%2F&counter=1&mini=0&big=0&style=red
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
