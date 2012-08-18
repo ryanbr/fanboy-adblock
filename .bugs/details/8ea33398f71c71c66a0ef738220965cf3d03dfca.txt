@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.e-junkie.com/
+
+
+[filters]
+# Copy your Adblock filters here
+
+
+
+
+[other]
+E-junkie provides shopping cart and buy now buttons to let you sell downloads and tangible goods on your website, eBay, MySpace, Google Base, CraigsList
+
+
+[comments]
+fanboy
