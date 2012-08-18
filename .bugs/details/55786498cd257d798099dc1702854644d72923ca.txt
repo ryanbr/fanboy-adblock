@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://egotastic.com/2012/08/msm-weekly-fleshtastic-roundup-includes-charisma-carpenter-bare-booty-nekkid-jaws-action-and-true-blood-toplessness-video/#more-1698691
+
+
+[filters]
+http://www.dailymotion.com/swf/video/xsw02l?start=null&hideInfos=0&autoplay=1&isInIframe=1&parentURL=http%3A%2F%2Fegotastic.com%2F2012%2F08%2Fmsm-weekly-fleshtastic-roundup-includes-charisma-carpenter-bare-booty-nekkid-jaws-action-and-true-blood-toplessness-video%2F&referer=http%3A%2F%2Fegotastic.com%2F2012%2F08%2Fmsm-weekly-fleshtastic-roundup-includes-charisma-carpenter-bare-booty-nekkid-jaws-action-and-true-blood-toplessness-video%2F&enableApi=1&_=
+
+
+
+[other]
+&referer= tweak
+https://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14387
+
+[comments]
+fanboy
