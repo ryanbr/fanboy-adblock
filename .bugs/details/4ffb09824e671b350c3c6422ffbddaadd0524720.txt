@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.moevideos.net/online/70265
+
+[filters]
+http://ad.propellerads.com/afu.php?zoneid=333
+http://ad.propellerads.com/afu.php?zoneid=390
+http://lp.imesh.com/?appid=1157&lpid=135&subid=99239445
+
+
+
+
+[other]
+popups
+
+
+[comments]
+fanboy
