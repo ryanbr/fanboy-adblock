@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aztecanoticias.com.mx/capitulos/internacional/122560/madre-lanza-a-su-recien-nacido-al-techo-de-una-casa
+
+[filters]
+http://cdn.liverail.com/adasset4/4309/20934/54931/hi.flv
+http://oas.tvazteca.com/RealMedia/ads/adstream_sx.ads/video.aztecanoticias/internacional/1742769498@x41
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
