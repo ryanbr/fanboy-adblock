@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.shockya.com/news/2012/07/31/lindsay-lohan-makes-bizarre-sex-scene-demand-while-filming-new-movie-the-canyons/
+
+
+[filters]
+http://www.shockya.com/advertising-120.htm
+http://shockya.com/advertising-728.htm
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
