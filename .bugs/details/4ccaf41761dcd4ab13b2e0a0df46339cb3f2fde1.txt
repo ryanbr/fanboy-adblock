@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hulkfile.eu/l4htpknw004p.html
+
+
+[filters]
+http://www.hostdime.com/images/affiliate/dedicated_728.jpg
+https://www.hostdime.com/images/affiliate/dedicated_728.jpg
+http://xxl.singlehop.com/affiliates/image.php?bid=46&mid=900650
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
