@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+gosong.net
+
+
+[filters]
+http://ads.a-static.com/0/html/im_728x90.html?a=Flo+Rida&t=Good+Feeling+%5BOfficial+Video%5D&s=&c=http%3A%2F%2Fadserver.adreactor.com%2Fservlet%2Fclick%2Fzone%3Fzid%3D34%26cid%3D2140%26mid%3D3761%26pid%3D249%26default%3Dfalse%26random%3D38762443%26timestamp%3D20120819080203%26test%3Dfalse%26custom1%3DFlo%2BRida%26custom2%3DGood%2BFeeling%2B%255BOfficial%2BVideo%255D%26referrer%3Dhttp%253A%252F%252Fgosong.net%252Fdownload%252F3OnnDqH6Wj8%252FFlo_Rida_-_Good_Feeling.html%26redirect%3D
+http://ads.a-static.com/109/00_gen_468x60_3buttons.png
+http://ads.a-static.com/0/html/im_728x90.html?a=&t=&s=flo+rida+-+good+feeling&c=http%3A%2F%2Fadserver.adreactor.com%2Fservlet%2Fclick%2Fzone%3Fzid%3D34%26cid%3D2140%26mid%3D3761%26pid%3D249%26default%3Dfalse%26random%3D11461808%26timestamp%3D20120819080133%26test%3Dfalse%26custom3%3Dflo%2Brida%2B-%2Bgood%2Bfeeling%26referrer%3Dhttp%253A%252F%252Fgosong.net%252Fflo_rida_-_good_feeling.html%26redirect%3D
+http://ads.a-static.com/0/html/728x90_2.html?a=Flo+Rida&t=Good+Feeling+%5BOfficial+Video%5D&s=&c=http%3A%2F%2Fadserver.adreactor.com%2Fservlet%2Fclick%2Fzone%3Fzid%3D34%26cid%3D1665%26mid%3D3573%26pid%3D249%26default%3Dfalse%26random%3D79329103%26timestamp%3D20120819075631%26test%3Dfalse%26custom1%3DFlo%2BRida%26custom2%3DGood%2BFeeling%2B%255BOfficial%2BVideo%255D%26referrer%3Dhttp%253A%252F%252Fgosong.net%252Fdownload%252F3OnnDqH6Wj8%252FFlo_Rida_-_Good_Feeling.html%26redirect%3D
+http://ads.a-static.com/140/728x90-R.html
+http://ads.a-static.com/140/160x600-R.html
+http://ads.a-static.com/0/html/im_468x60.html?a=Carly+Rae+Jepsen&t=Call+Me+Maybe&s=&c=http%3A%2F%2Fadserver.adreactor.com%2Fservlet%2Fclick%2Fzone%3Fzid%3D8%26cid%3D2139%26mid%3D3760%26pid%3D249%26default%3Dfalse%26random%3D43643454%26timestamp%3D20120819080554%26test%3Dfalse%26custom1%3DCarly%2BRae%2BJepsen%26custom2%3DCall%2BMe%2BMaybe%26referrer%3Dhttp%253A%252F%252Fgosong.net%252Fdownload%252FfWNaR-rxAic%252FCarly_Rae_Jepsen_-_Call.html%26redirect%3D
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
