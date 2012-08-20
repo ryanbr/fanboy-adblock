@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://4fuckr.com/image_3523694.htm
+
+[filters]
+http://inad.view-ads.de/inad-431.js
+http://inad.view-ads.de/inad_content2.php?hash=84cfa51aa6b07218032b0e7e6d68ab90b111d0ef
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
