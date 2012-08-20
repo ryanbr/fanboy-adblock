@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pcpro.co.uk/
+
+
+[filters]
+http://dyn.icbdr.com/plink/js/QuickSearchBox.aspx?countrycode=uk
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
