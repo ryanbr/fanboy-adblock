@@ -17,7 +17,7 @@
 #
 # Variables for directorys
 #
-export MAINDIR="/tmp/Ramdisk/www"
+export MAINDIR="/tmp/Ramdisk/www/adblock"
 export GOOGLEDIR="/tmp/hgstuff/fanboy-adblock-list"
 export TESTDIR="/tmp/work"
 export ZIP="nice -n 19 /usr/local/bin/7za"
@@ -45,7 +45,7 @@ if [ ! -d "/tmp/work/" ]; then
   rm -rf /tmp/work/
   mkdir /tmp/work; chmod 777 /tmp/work
   mount -t tmpfs -o size=30M tmpfs /tmp/work/
-  cp -f $MAINDIR/addChecksum.pl $TESTDIR
+  cp -f $GOOGLEDIR/scripts/addChecksum.pl $TESTDIR
   cp -f $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR
   cp -f $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR/opera
   cp -f $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR
