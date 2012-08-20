@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://el-mariachi.livejournal.com/38277.html
+
+
+[filters]
+http://xc3.services.livejournal.com/ljcounter?d=srv:bil1-ws16,r:0,j:760770,uri:%22%2F38277.html%22,vig:0,extra:((760770,760770,38277))
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
