@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://awkwardfamilyphotos.com/2012/08/16/headstrong/
+
+
+[filters]
+http://awkwardfamilyphotos.com/2012/08/16/headstrong/?ad=footerboard&site=afp
+http://awkwardfamilyphotos.com/2012/08/16/headstrong/?ad=inline&site=afp
+http://awkwardfamilyphotos.com/2012/08/16/headstrong/?ad=leaderboard&site=afp
+http://awkwardfamilyphotos.com/2012/08/16/headstrong/?ad=rectangle&site=afp
+http://awkwardfamilyphotos.com/2012/08/16/headstrong/?ad=skyscraper&site=afp
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
