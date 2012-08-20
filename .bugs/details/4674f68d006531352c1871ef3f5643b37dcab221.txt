@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kinoafisha.msk.ru/movies/8125829/
+
+
+[filters]
+http://api.kinoafisha.info/banner/kinglion.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
