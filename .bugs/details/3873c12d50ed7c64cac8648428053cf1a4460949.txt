@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.local10.com/-/1717430/16088340/-/mi62lb/-/index.html
+
+
+[filters]
+http://www.ibatom.com/_blank/31344287/detail.html
+
+[other]
+blocks poll results frame
+
+
+[comments]
+nitrox
