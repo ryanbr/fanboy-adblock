@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gabrielart.com/shop/index.html
+
+
+[filters]
+http://openapi.etsy.com/v2/shops/gabrielartstudio/listings/active.js?callback=getData&limit=24&includes=Images:1,Shop/Sections&api_key=r9qiig9qir5l86o7y28iwjll
+
+[other]
+blocks listings page
+
+
+[comments]
+nitrox
