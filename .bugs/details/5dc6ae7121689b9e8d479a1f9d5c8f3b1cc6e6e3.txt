@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://movzap.com/ecoyzrk8p65e.html
+
+
+[filters]
+http://movzap.com/aad.html
+http://movzap.com/zad.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
