@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tube8.com/anal/brunette-phoenix-marie-in-fishnet/4831771/
+
+
+[filters]
+http://cdn1.static.tube8.phncdn.com/images/skin/fuck/video2.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
