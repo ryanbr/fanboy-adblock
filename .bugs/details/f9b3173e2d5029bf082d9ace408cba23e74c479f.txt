@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://publichd.eu/index.php?page=torrent-details&id=0bbca7584749d4e741747e32e6eb588aea03e40f
+
+
+[filters]
+http://publichd.eu/images/direct.download.ico
+http://publichd.eu/images/directdownload.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
