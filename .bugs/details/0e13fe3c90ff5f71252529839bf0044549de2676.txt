@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.msacademicverify.com/ave/Verify/Default.aspx
+
+
+[filters]
+https://www.msacademicverify.com/AVE/App_Themes/v2/js/s_code.js
+
+[other]
+submit button doesn't work
+
+
+[comments]
+nitrox
