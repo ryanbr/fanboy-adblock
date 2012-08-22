@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.torrentcrazy.com/torrent/4845925/human.target.s01.dvdrip.xvid-reward
+
+
+[filters]
+http://www.torrentcrazy.com/img/wx.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
