@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blogs.ft.com/beyond-brics/2012/08/17/russia-pussy-riot-and-the-investor/#axzz23p4u0MVv
+
+
+[filters]
+http://blogs.ft.com/wp-content/themes/falcon/img/socialcounters/facebook-counter.png
+http://blogs.ft.com/wp-content/themes/falcon/img/socialcounters/inferno-counter.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy

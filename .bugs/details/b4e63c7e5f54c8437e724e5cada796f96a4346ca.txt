@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://turbobit.net/download/free/dp7pd6opfkvl
+
+
+[filters]
+http://turbobit.net/oexktl/muzebra_eng_final.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox

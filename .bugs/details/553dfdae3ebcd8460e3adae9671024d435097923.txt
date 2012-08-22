@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ag.ru/games/penny_arcade_adventures_on_the_rain_slick_precipice_of_darkness_episode_three/review
+
+
+[filters]
+http://www.ag.ru/i/redesign/ex2/bg.jpg
+http://www.ag.ru/i/redesign/ex2/bottom_bg.jpg
+http://www.ag.ru/i/redesign/ex2/cast_bg.png
+http://www.ag.ru/i/redesign/ex2/design_logo.png
+http://www.ag.ru/i/redesign/ex2/top_bg.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy

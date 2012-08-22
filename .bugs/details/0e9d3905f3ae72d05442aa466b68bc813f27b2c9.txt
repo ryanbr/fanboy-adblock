@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sumotorrent.com/en/details/7362485/Bernie%20%282011%29%201080p%20x264%20DD5.1%20Eng%20NL%20Subs.html
+
+
+[filters]
+http://www.sumotorrent.com/img/dwld.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox

@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://espn.go.com/mlb/story/_/id/8287946/mlb-chased-plot-san-francisco-giants-melky-cabrera-dominican-republic-report-says
+
+
+[filters]
+http://adm.fwmrm.net/p/espn_live/VideoAdRenderer.swf
+
+[other]
+make it subdomain specific to block ads.
+
+
+[comments]
+nitrox

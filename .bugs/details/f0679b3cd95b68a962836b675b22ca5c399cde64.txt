@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zwire.com/site/news.cfm?brd=1842
+
+
+[filters]
+http://www.zwire.com/gen/qc/qualitycontrol.cfm?brd=1842&pId=2&host=www.zwire.com&sn=zwire14&uri=%2Fsite%2Fnews%2Ecfm&qs=brd%3D1842&pag=460
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy

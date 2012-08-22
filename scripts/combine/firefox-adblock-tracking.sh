@@ -5,24 +5,25 @@
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
-# Make Ramdisk.
-#
-$GOOGLEDIR/scripts/ramdisk.sh
-# Fallback if ramdisk.sh isn't excuted.
-#
-if [ ! -d "/tmp/ramdisk/" ]; then
-  rm -rf /tmp/ramdisk/
-  mkdir /tmp/ramdisk; chmod 777 /tmp/ramdisk
-  mount -t tmpfs -o size=30M tmpfs /tmp/ramdisk/
-  mkdir /tmp/ramdisk/opera/
-fi
-
-
-
+export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
+export NICE="nice -n 19"
+export TAC="/usr/bin/tac"
+export CAT="/bin/cat"
+export MAINDIR="/tmp/Ramdisk/www/adblock"
+export SPLITDIR="/tmp/Ramdisk/www/adblock/split/test"
+export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
+export TESTDIR="/tmp/work"
+export ADDCHECKSUM="nice -n 19 perl $HGSERV/scripts/addChecksum.pl"
+export LOGFILE="/etc/crons/log.txt"
+export HG="/usr/local/bin/hg"
+export SHA256SUM="/usr/bin/sha256sum"
+export IEDIR="/tmp/ieramdisk"
+export SUBS="/tmp/ieramdisk/subscriptions"
+export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
 
 # Trim off header file (first 2 lines)
 #
-sed '1,2d' $GOOGLEDIR/fanboy-adblocklist-stats.txt > $TESTDIR/fanboy-stats-temp2.txt
+sed '1,2d' $HGSYNC/fanboy-adblocklist-stats.txt > $TESTDIR/fanboy-stats-temp2.txt
 
 # Remove Empty Lines
 #
@@ -35,7 +36,7 @@ sed '$d' < $TESTDIR/fanboy-stats-temp.txt > $TESTDIR/fanboy-stats-temp2.txt
 # Merge to the files together
 #
 cat $MAINDIR/fanboy-adblock.txt $TESTDIR/fanboy-stats-temp2.txt > $TESTDIR/fanboy-stats-merged.txt
-perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-stats-merged.txt
+$ADDCHECKSUM $TESTDIR/fanboy-stats-merged.txt
 
 # Copy Merged file to main dir
 #
@@ -44,4 +45,4 @@ cp $TESTDIR/fanboy-stats-merged.txt $MAINDIR/r/fanboy+tracking.txt
 # Compress file
 #
 rm -f $MAINDIR/r/fanboy+tracking.txt.gz
-$ZIP a -mx=9 -y -tgzip $MAINDIR/r/fanboy+tracking.txt.gz $MAINDIR/r/fanboy+tracking.txt > /dev/null
+$ZIP $MAINDIR/r/fanboy+tracking.txt.gz $MAINDIR/r/fanboy+tracking.txt > /dev/null

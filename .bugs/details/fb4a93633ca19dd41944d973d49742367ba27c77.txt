@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://borovichi.sdelkino.com/browse/item/1/8/298835
+
+
+[filters]
+http://borovichi.sdelkino.com/images/ad/298835/56754/thumb.jpg
+http://borovichi.sdelkino.com/images/ad/298835/56755/thumb.jpg
+http://borovichi.sdelkino.com/images/ad/298835/56756/thumb.jpg
+http://borovichi.sdelkino.com/images/ad/298835/56757/thumb.jpg
+http://borovichi.sdelkino.com/images/ad/298835/56760/thumb.jpg
+http://borovichi.sdelkino.com/images/ad/298835/56761/thumb.jpg
+http://borovichi.sdelkino.com/images/ad/298835/56762/thumb.jpg
+http://borovichi.sdelkino.com/images/ad/298835/56763/thumb.jpg
+http://borovichi.sdelkino.com/images/ad/298835/56764/thumb.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy

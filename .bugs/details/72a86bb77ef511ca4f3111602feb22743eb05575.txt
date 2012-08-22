@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.channel4.com/programmes/the-it-crowd/4od
+
+
+[filters]
+http://www.channel4.com/assets/programmes/images/originals/35d09ac3-841c-4798-bc02-20df731669a0.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy

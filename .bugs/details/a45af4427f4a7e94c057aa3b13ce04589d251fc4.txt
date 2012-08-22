@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://borovichi.sdelkino.com/browse/item/1/8/298835
+
+
+[filters]
+http://cnt.nov.ru/13572;1920x1080;24;1;;0.7545762773045507
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy

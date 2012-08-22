@@ -5,31 +5,34 @@
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
-# Make Ramdisk.
-#
-$GOOGLEDIR/scripts/ramdisk.sh
-# Fallback if ramdisk.sh isn't excuted.
-#
-if [ ! -d "/tmp/ramdisk/" ]; then
-  rm -rf /tmp/ramdisk/
-  mkdir /tmp/ramdisk; chmod 777 /tmp/ramdisk
-  mount -t tmpfs -o size=30M tmpfs /tmp/ramdisk/
-  mkdir /tmp/ramdisk/opera/
-fi
 
-
+export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
+export NICE="nice -n 19"
+export TAC="/usr/bin/tac"
+export CAT="/bin/cat"
+export MAINDIR="/tmp/Ramdisk/www/adblock"
+export SPLITDIR="/tmp/Ramdisk/www/adblock/split/test"
+export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
+export TESTDIR="/tmp/work"
+export ADDCHECKSUM="nice -n 19 perl $HGSERV/scripts/addChecksum.pl"
+export LOGFILE="/etc/crons/log.txt"
+export HG="/usr/local/bin/hg"
+export SHA256SUM="/usr/bin/sha256sum"
+export IEDIR="/tmp/ieramdisk"
+export SUBS="/tmp/ieramdisk/subscriptions"
+export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
 
 # Clear old files
 #
 rm -rf $TESTDIR/fanboy-addon-temp*.txt $TESTDIR/enhancedstats-addon-temp*.txt $TESTDIR/fanboy-stats-temp*.txt $TESTDIR/fanboy-complete.txt $TESTDIR/fanboy-ultimate.txt
 
 # Tracking filter: Trim off header file, remove empty lines, and bottom line
-sed '1,9d' $GOOGLEDIR/fanboy-adblocklist-stats.txt > $TESTDIR/fanboy-stats-temp2.txt
+sed '1,9d' $HGSYNC/fanboy-adblocklist-stats.txt > $TESTDIR/fanboy-stats-temp2.txt
 sed '/^$/d' $TESTDIR/fanboy-stats-temp2.txt > $TESTDIR/fanboy-stats-temp3.txt
 sed '$d' < $TESTDIR/fanboy-stats-temp3.txt > $TESTDIR/fanboy-stats-temp.txt
 
 # Annoyances filter: Trim off header file, remove empty lines, and bottom line
-sed '1,10d' $GOOGLEDIR/fanboy-adblocklist-addon.txt > $TESTDIR/fanboy-addon-temp2.txt
+sed '1,10d' $HGSYNC/fanboy-adblocklist-addon.txt > $TESTDIR/fanboy-addon-temp2.txt
 sed '/^$/d' $TESTDIR/fanboy-addon-temp2.txt > $TESTDIR/fanboy-addon-temp3.txt
 
 # Enhanced-tracking filter: Trim off header file, remove empty lines, and bottom line
@@ -44,7 +47,7 @@ sed -i '/\/js\/tracking.js/d' $TESTDIR/fanboy-stats-temp.txt
 
 # Insert a new line to avoid chars running into each other
 #
-cat $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt | sed '$a!' > $TESTDIR/fanboy-adblocklist-current.txt
+cat $HGSYNC/fanboy-adblocklist-current-expanded.txt | sed '$a!' > $TESTDIR/fanboy-adblocklist-current.txt
 
 # Merge to the files together
 #
@@ -69,8 +72,8 @@ cp -f $TESTDIR/fanboy-ultimate.txt $TESTDIR/fanboy-ultimate-bak.txt
 
 # Addchecksum
 #
-perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-complete.txt
-perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-ultimate.txt
+$ADDCHECKSUM $TESTDIR/fanboy-complete.txt
+$ADDCHECKSUM $TESTDIR/fanboy-ultimate.txt
 
 
 # Now lets check if fanboy-merged.txt isnt zero
@@ -88,8 +91,8 @@ then
 
   # Compress Files
   #
-  $NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-complete.txt.gz $TESTDIR/fanboy-complete.txt > /dev/null
-  $NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate.txt > /dev/null
+  $ZIP $TESTDIR/fanboy-complete.txt.gz $TESTDIR/fanboy-complete.txt > /dev/null
+  $ZIP $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate.txt > /dev/null
   
   # Copy to server
   #
@@ -130,9 +133,9 @@ else
   sleep 2
   # Addchecksum
   #
-  perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-complete-bak.txt
+  $ADDCHECKSUM $TESTDIR/fanboy-complete-bak.txt
   sleep 2
-  perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-ultimate-bak.txt
+  $ADDCHECKSUM $TESTDIR/fanboy-ultimate-bak.txt
   
   # Copy Merged file to main dir
   #
@@ -145,9 +148,9 @@ else
   
   # Compress Files
   #
-  $NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-complete.txt.gz $TESTDIR/fanboy-complete-bak.txt > /dev/null
+  $ZIP $TESTDIR/fanboy-complete.txt.gz $TESTDIR/fanboy-complete-bak.txt > /dev/null
   sleep 2
-  $NICE $ZIP a -mx=9 -y -tgzip $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate-bak.txt > /dev/null
+  $ZIP $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate-bak.txt > /dev/null
   
   # Copy to server
   #

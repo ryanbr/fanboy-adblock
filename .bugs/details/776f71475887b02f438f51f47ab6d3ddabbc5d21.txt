@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.shoutmeloud.com/how-to-use-easy-wp-seo-wordpress-plugin.html
+
+
+[filters]
+http://tracking.maxcdn.com/i/12666/40313/378
+http://www.shrinktheweb.com/scripts/pagepix.js?ver=1345289023
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy

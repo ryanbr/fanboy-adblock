@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.directmirror.com/files/KM1OFBC3
+
+
+[filters]
+http://ad.directmirror.com/js.php?type=banner&align=center&zone=1
+http://ad.directmirror.com/images/style/output.css
+http://ad.directmirror.com/js_http.php?cls=ie4f52cb4&rand=85684184&ref=0&queries[]=type%3Dbanner%26align%3Dcenter%26zone%3D1%26id%3Die4f52cb4_1
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox

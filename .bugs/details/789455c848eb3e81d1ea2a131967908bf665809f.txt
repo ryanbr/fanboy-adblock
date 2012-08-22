@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bitrebels.com/design/worlds-most-photorealistic-paintings-ever-created/
+
+[filters]
+http://cdnetworks.cloudharmony.net/mm/bitrebels/37.js
+http://cotendo.cloudharmony.net/monitor/ping.js?20e3w4p
+http://cotendo.cloudharmony.net/monitor/ping.js?302rv71
+http://cotendo.cloudharmony.net/monitor/ping.js?3r4w8qy
+http://netdna.cloudharmony.net/monitor/ping.js?23oqu2q
+http://netdna.cloudharmony.net/monitor/ping.js?4506v0r
+http://netdna.cloudharmony.net/monitor/ping.js?48pelgh
+http://s.cloudharmony.net/s.js?18o2fpr_bitrebels/tl/a03A0000001Bp3DIAS/5/0//100/106/88/106/3/10.39
+http://s1.cloudharmony.net/s.js?18o2fpr_bitrebels/tl/a03A0000007FyzFIAS/5/0//213/214/209/216/3/1.69
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy

@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.britishairways.com/travel/fx/public/en_nl
+
+
+[filters]
+https://www.britishairways.com/cms/global/scripts/applications/tracking/visualsciences.js
+https://www.britishairways.com/cms/global/scripts/pages/interstitial.js
+
+
+[other]
+BA website gets stuck on please wait while we check for fares and dates after filling in the from, to and dates.
+
+
+[comments]
+nitrox

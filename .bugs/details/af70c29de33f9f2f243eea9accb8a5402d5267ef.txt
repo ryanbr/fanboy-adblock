@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://eye.swfchan.com/flash.asp?id=111784&n=sad-puppy.swf&w=700&h=500
+
+
+[filters]
+http://swfchan.com/bottom_ad.html?48963
+http://swfchan.com/ad.js?13
+http://cluster.adultadworld.com/intv2/interstitial.js
+
+
+
+
+[other]
+2 anti-adblocks, one iframe.
+https://adblockplus.org/forum/viewtopic.php?f=2&t=10884
+
+
+[comments]
+fanboy

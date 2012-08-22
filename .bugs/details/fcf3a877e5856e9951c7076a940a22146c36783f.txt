@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.q2servers.com/
+
+
+[filters]
+http://www.q2servers.com/pop.js
+
+[other]
+server info popup is blocked.
+
+
+[comments]
+nitrox

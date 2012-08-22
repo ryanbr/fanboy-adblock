@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wiki.hidemyass.com/Main_Page
+
+
+[filters]
+http://hidemyass.com/vpn-config/UDP/
+
+[other]
+blocks open in new tab links on hidemyass wiki.
+
+
+[comments]
+nitrox

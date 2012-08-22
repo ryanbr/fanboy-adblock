@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://freakfaceusacelebpics.blogspot.co.nz/search/label/Tiffani%20Thiessen
+
+
+[filters]
+http://9dl7h78ivl8smpn7vl3d9mo2g1ajbhaj-a-blogger-opensocial.googleusercontent.com/gadgets/ifr?url=http://wms.assoc-amazon.com/GoogleGadgets/amzn_omakase.xml&container=blogger&view=default&lang=en&country=ALL&sanitize=0&v=2a2d26f07f116c&libs=core:dynamic-height:google.blog:locked-domain:rpc:setprefs:skins:views&parent=http://freakfaceusacelebpics.blogspot.com/&up_size=3&up_color_theme=0&mid=1#up_color_theme=0&up_size=3&st=e%3DAFlCd0VunOFsaVfcdQtFX22p45OpgYGGym4mmTQB09loQdNXQmMozgvhwUvUENqTtSXDj3VY900Nq%252Bf4d2DFflZmu5jHNYlkmTK0KGsw%252B%252FQq45NghjK0ifGFoBYOYryJQrZhz608d6M3%26c%3Dblogger&rpctoken=-4953841265886494300
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy

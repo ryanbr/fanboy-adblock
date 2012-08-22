@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fileice.net/download.php?file=rdcp
+
+
+[filters]
+http://www.fileice.net/offerset.php?file=29778&t=869bc8942b0a34135c23&o=11033
+http://fileice.net/js/advertisement.js
+
+
+
+[other]
+https://adblockplus.org/forum/viewtopic.php?f=2&t=10869
+
+
+[comments]
+fanboy

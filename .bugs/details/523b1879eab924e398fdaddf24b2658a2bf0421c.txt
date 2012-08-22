@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.timeout.com/us/film/the-odd-life-of-timothy-green
+
+
+[filters]
+http://media.timeout.com/images/ads/weather/wx_97.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy

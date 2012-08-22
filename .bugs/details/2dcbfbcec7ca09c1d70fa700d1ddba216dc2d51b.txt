@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.free-tv-video-online.me/internet/aqua_teen_hunger_force/season_9.html
+
+
+[filters]
+http://cdn.engine.trklnks.com/Scripts/infinity.js.aspx
+http://engine.trklnks.com/Tag.engine?guid=6e89be73-2406-45e1-83b5-77cfc026516c&rand0.5848318773098734&ver=async&time=-720
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy

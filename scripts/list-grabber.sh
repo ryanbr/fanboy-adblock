@@ -7,6 +7,7 @@
 #
 # Version history
 #
+# 1.82 Better checking of scripts being loaded
 # 1.81 Misc Cleanups
 # 1.8  Allow list to be stored in ramdisk
 # 1.752 Declare global variables
@@ -16,7 +17,7 @@
 #
 # Variables for directorys
 #
-export MAINDIR="/tmp/Ramdisk/www"
+export MAINDIR="/tmp/Ramdisk/www/adblock"
 export GOOGLEDIR="/tmp/hgstuff/fanboy-adblock-list"
 export TESTDIR="/tmp/work"
 export ZIP="nice -n 19 /usr/local/bin/7za"
@@ -44,20 +45,31 @@ if [ ! -d "/tmp/work/" ]; then
   rm -rf /tmp/work/
   mkdir /tmp/work; chmod 777 /tmp/work
   mount -t tmpfs -o size=30M tmpfs /tmp/work/
-  cp -rf $MAINDIR/addChecksum.pl $TESTDIR
+  cp -f $GOOGLEDIR/scripts/addChecksum.pl $TESTDIR
+  cp -f $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR
+  cp -f $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR/opera
+  cp -f $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR
   mkdir /tmp/work/opera; chmod 777 /tmp/work/opera
   mkdir /tmp/work/opera/test; chmod 777 /tmp/work/opera/test
 fi
 
-# Make sure Addchecksum is loaded
+# Check for scripts to be loaded.. (these scripts are stored in ramdisk)
 #
 if [ ! -d "$TESTDIR/addChecksum.pl" ]; then
-   cp -rf $GOOGLEDIR/scripts/addChecksum.pl $TESTDIR
-   cp -rf $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR
-   cp -rf $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR/opera
+   cp -f $GOOGLEDIR/scripts/addChecksum.pl $TESTDIR
 fi
-
-# Make sure IE script is loaded
+#
+if [ ! -d "$TESTDIR/addChecksum-opera.pl" ]; then
+   cp -f $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR
+fi
+#
+if [ ! -d "$TESTDIR/createOperaFilters_new.pl" ]; then
+   cp -f $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR
+fi
+#
+if [ ! -d "$TESTDIR/opera/addChecksum-opera.pl" ]; then
+   cp -f $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR/opera
+fi
 #
 if [ ! -d "$IEDIR/combineSubscriptions.py" ]; then
     cp -rf $GOOGLEDIR/scripts/ie/combineSubscriptions.py $IEDIR

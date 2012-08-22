@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wolframalpha.com/input/?i=Mark%20Zuckerberg%27s%20net%20worth%20divided%20by%20total%20number%20of%20Facebook%20users&lk=2
+
+[filters]
+http://www.wolframalpha.com/input/admeld_footer.jsp
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
