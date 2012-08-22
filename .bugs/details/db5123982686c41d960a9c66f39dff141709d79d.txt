@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://abcfamily.go.com/watch/pretty-little-liars/SH5547476/VD55227061/single-fright-female
+
+
+[filters]
+http://cdn.video.abc.com/abcvideo/video_fep_family/ads/AD_20120807_AdAmericanEagleQVBP0004000H_BT_4756195.mp4
+
+[other]
+ad needs to be whitelisted inorder for the video to play
+
+
+[comments]
+nitrox
