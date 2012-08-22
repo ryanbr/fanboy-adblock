@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.worthofweb.com/website-value/gametator.com
+
+
+[filters]
+http://www.worthofweb.com/images/wow-ad-for-euro-2012.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
