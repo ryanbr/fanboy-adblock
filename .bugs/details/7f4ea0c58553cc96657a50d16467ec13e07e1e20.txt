@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://4fastfile.com/abv-fs/2012/05/17/cisco.certified.network.professional.ccnp_.semester.3.v4.0-lmr_keygen_1.rar
+
+
+[filters]
+http://www.4fastfile.com/afiliat.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
