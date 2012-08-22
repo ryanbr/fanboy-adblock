@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.magweb.com/actors/luke_aikman
+
+
+[filters]
+http://aff.cupidplc.com/banners/cl_eng_def_rem_m_25plus_240x400_anim_memb_litv_3.gif
+http://aff.cupidplc.com/scripts/sb.php?a_aid=0ea46232&a_bid=db745bd1
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
