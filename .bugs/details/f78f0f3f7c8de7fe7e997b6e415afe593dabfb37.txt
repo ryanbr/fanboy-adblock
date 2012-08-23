@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eagleboys.com.au/
+
+
+[filters]
+http://www.eagleboys.com.au/EagleBoys/Images/Ads/Butcher-sBlock_Pizza.jpg
+http://www.eagleboys.com.au/EagleBoys/Images/Ads/GourmetPepperoni_Pizza.jpg
+http://www.eagleboys.com.au/EagleBoys/Images/Ads/Hawaiian_Pizza.jpg
+http://www.eagleboys.com.au/EagleBoys/Images/Ads/Pepperonil_Pizza.jpg
+http://www.eagleboys.com.au/EagleBoys/Images/Ads/Reef-Beef_Pizza.jpg
+http://www.eagleboys.com.au/EagleBoys/Images/Ads/SpanishTapas_Pizza.jpg
+http://www.eagleboys.com.au/EagleBoys/media/Ads/Images/HomePageTile_Catering.jpg
+http://www.eagleboys.com.au/EagleBoys/media/Ads/Images/HomePageTile_Cerebral-Palsy.jpg
+http://www.eagleboys.com.au/EagleBoys/media/Ads/Images/HomePageTile_Facebook.jpg
+http://www.eagleboys.com.au/EagleBoys/media/Ads/Images/HomePageTile_YOURBIGSCORE.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
