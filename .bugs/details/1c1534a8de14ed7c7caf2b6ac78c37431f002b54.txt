@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pcgamesn.com/article/why-i-m-uninstalling-windows-8
+
+
+[filters]
+http://c1438034.r34.cf3.rackcdn.com/skin-wot.jpg
+http://cpm.worldoftanks.com/?code=HPjZYmsc9tqzvgAIPLKG_W-7W9qlrNqUTGMD0BE-4sjlunP_CMXS7oiIk038r0ETYAm5MVfJwbUyQt61fhBEBDGCHN9Jq3-g&pub_id=Skin_May_12
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox

@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pcgamesn.com/
+
+
+[filters]
+http://c1438034.r34.cf3.rackcdn.com/skin-wot.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
