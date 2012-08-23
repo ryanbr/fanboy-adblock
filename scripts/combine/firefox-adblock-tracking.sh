@@ -23,7 +23,7 @@ export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
 
 # Trim off header file (first 2 lines)
 #
-sed '1,2d' $HGSYNC/fanboy-adblocklist-stats.txt > $TESTDIR/fanboy-stats-temp2.txt
+sed '1,2d' $HGSERV/fanboy-adblocklist-stats.txt > $TESTDIR/fanboy-stats-temp2.txt
 
 # Remove Empty Lines
 #

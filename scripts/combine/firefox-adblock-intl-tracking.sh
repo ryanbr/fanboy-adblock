@@ -24,25 +24,25 @@ export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
 
 # Copy the Tracking addon from google dir
 #
-cp -f $HGSYNC/other/tracking-intl.txt $TESTDIR
+cp -f $HGSERV/other/tracking-intl.txt $TESTDIR
 
-sed '1,10d' $HGSYNC/ie/fanboy-tracking-addon.txt > $TESTDIR/fanboy-tracking-addon2.txt
+sed '1,10d' $HGSERV/ie/fanboy-tracking-addon.txt > $TESTDIR/fanboy-tracking-addon2.txt
 mv -f $TESTDIR/fanboy-tracking-addon2.txt $TESTDIR/fanboy-tracking-addon.txt
 
 # Copy Filters from the subscriptions..
 #
-sed -n '/Czech Trackers/,/Slovak Filters/{/Slovak Filters/!p}' $HGSYNC/firefox-regional/fanboy-adblocklist-cz.txt > $TESTDIR/fanboy-cz-track.txt
-sed -n '/Russian Trackers/,/Russian Whitelist/{/Russian Whitelist/!p}' $HGSYNC/firefox-regional/fanboy-adblocklist-rus-v2.txt > $TESTDIR/fanboy-rus-track.txt
-sed -n '/Turkish Trackers/,/Firefox 3.x/{/Firefox 3.x/!p}' $HGSYNC/firefox-regional/fanboy-adblocklist-tky.txt > $TESTDIR/fanboy-tky-track.txt
-sed -n '/Japanese Trackers/,/Japanese Whitelist/{/Japanese Whitelist/!p}' $HGSYNC/firefox-regional/fanboy-adblocklist-jpn.txt > $TESTDIR/fanboy-jpn-track.txt
-sed -n '/Korean Trackers/,/Korean Specific Whitelists/{/Korean Specific Whitelists/!p}' $HGSYNC/firefox-regional/fanboy-adblocklist-krn.txt > $TESTDIR/fanboy-krn-track.txt
-sed -n '/Italian Trackers/,/Whitelists/{/Whitelists/!p}' $HGSYNC/firefox-regional/fanboy-adblocklist-ita.txt> $TESTDIR/fanboy-ita-track.txt
-sed -n '/Polish Trackers/,/Polish Whitelist/{/Polish Whitelist/!p}' $HGSYNC/firefox-regional/fanboy-adblocklist-pol.txt > $TESTDIR/fanboy-pol-track.txt
-sed -n '/Indian Trackers/,/Indian Whitelists/{/Indian Whitelists/!p}' $HGSYNC/firefox-regional/fanboy-adblocklist-ind.txt > $TESTDIR/fanboy-ind-track.txt
-sed -n '/Vietnamese Trackers/,/Whitelists/{/Whitelists/!p}' $HGSYNC/firefox-regional/fanboy-adblocklist-vtn.txt > $TESTDIR/fanboy-vtn-track.txt
-sed -n '/Chinese Trackers/,/Chinese Whitelist/{/Chinese Whitelist/!p}' $HGSYNC/firefox-regional/fanboy-adblocklist-chn.txt > $TESTDIR/fanboy-chn-track.txt
-sed -n '/Portuguese Trackers/,/Portuguese Generic/{/Portuguese Generic/!p}' $HGSYNC/firefox-regional/fanboy-adblocklist-esp.txt > $TESTDIR/fanboy-esp-track.txt
-sed -n '/Swedish Trackers/,/Swedish Whitelist/{/Swedish Whitelist/!p}' $HGSYNC/firefox-regional/fanboy-adblocklist-swe.txt > $TESTDIR/fanboy-swe-track.txt
+sed -n '/Czech Trackers/,/Slovak Filters/{/Slovak Filters/!p}' $HGSERV/firefox-regional/fanboy-adblocklist-cz.txt > $TESTDIR/fanboy-cz-track.txt
+sed -n '/Russian Trackers/,/Russian Whitelist/{/Russian Whitelist/!p}' $HGSERV/firefox-regional/fanboy-adblocklist-rus-v2.txt > $TESTDIR/fanboy-rus-track.txt
+sed -n '/Turkish Trackers/,/Firefox 3.x/{/Firefox 3.x/!p}' $HGSERV/firefox-regional/fanboy-adblocklist-tky.txt > $TESTDIR/fanboy-tky-track.txt
+sed -n '/Japanese Trackers/,/Japanese Whitelist/{/Japanese Whitelist/!p}' $HGSERV/firefox-regional/fanboy-adblocklist-jpn.txt > $TESTDIR/fanboy-jpn-track.txt
+sed -n '/Korean Trackers/,/Korean Specific Whitelists/{/Korean Specific Whitelists/!p}' $HGSERV/firefox-regional/fanboy-adblocklist-krn.txt > $TESTDIR/fanboy-krn-track.txt
+sed -n '/Italian Trackers/,/Whitelists/{/Whitelists/!p}' $HGSERV/firefox-regional/fanboy-adblocklist-ita.txt> $TESTDIR/fanboy-ita-track.txt
+sed -n '/Polish Trackers/,/Polish Whitelist/{/Polish Whitelist/!p}' $HGSERV/firefox-regional/fanboy-adblocklist-pol.txt > $TESTDIR/fanboy-pol-track.txt
+sed -n '/Indian Trackers/,/Indian Whitelists/{/Indian Whitelists/!p}' $HGSERV/firefox-regional/fanboy-adblocklist-ind.txt > $TESTDIR/fanboy-ind-track.txt
+sed -n '/Vietnamese Trackers/,/Whitelists/{/Whitelists/!p}' $HGSERV/firefox-regional/fanboy-adblocklist-vtn.txt > $TESTDIR/fanboy-vtn-track.txt
+sed -n '/Chinese Trackers/,/Chinese Whitelist/{/Chinese Whitelist/!p}' $HGSERV/firefox-regional/fanboy-adblocklist-chn.txt > $TESTDIR/fanboy-chn-track.txt
+sed -n '/Portuguese Trackers/,/Portuguese Generic/{/Portuguese Generic/!p}' $HGSERV/firefox-regional/fanboy-adblocklist-esp.txt > $TESTDIR/fanboy-esp-track.txt
+sed -n '/Swedish Trackers/,/Swedish Whitelist/{/Swedish Whitelist/!p}' $HGSERV/firefox-regional/fanboy-adblocklist-swe.txt > $TESTDIR/fanboy-swe-track.txt
 
 # Remove Dubes and bad filters
 #
@@ -87,7 +87,7 @@ sed -i '/||waplog.net/d' $TESTDIR/fanboy-rus-track.txt
 # Merge for IE trackers
 cat $TESTDIR/fanboy-esp-track.txt $TESTDIR/fanboy-cz-track.txt $TESTDIR/fanboy-rus-track.txt $TESTDIR/fanboy-vtn-track.txt $TESTDIR/fanboy-tky-track.txt $TESTDIR/fanboy-jpn-track.txt $TESTDIR/fanboy-krn-track.txt $TESTDIR/fanboy-ita-track.txt $TESTDIR/fanboy-pol-track.txt $TESTDIR/fanboy-chn-track.txt $TESTDIR/fanboy-swe-track.txt $TESTDIR/fanboy-ind-track.txt > $TESTDIR/fanboy-track-test-ie.txt
 # Merge enhanced for Firefox
-cat $HGSYNC/enhancedstats-addon.txt $TESTDIR/fanboy-track-test-ie.txt > $TESTDIR/fanboy-track-test.txt
+cat $HGSERV/enhancedstats-addon.txt $TESTDIR/fanboy-track-test-ie.txt > $TESTDIR/fanboy-track-test.txt
 # Create a backup incase addchecksum "zeros" the file
 #
 cp -f $TESTDIR/fanboy-track-test.txt $TESTDIR/fanboy-track-bak.txt

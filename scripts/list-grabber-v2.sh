@@ -1120,11 +1120,11 @@ then
    # Combine Regional trackers
    $HGSYNC/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
-   $HGSYNC/scripts/ie/russian-ie-generator.sh
+   $HGSERV/scripts/ie/russian-ie-generator.sh
    # Combine
-   $HGSYNC/scripts/combine/firefox-adblock-rus.sh
+   $HGSERV/scripts/combine/firefox-adblock-rus.sh
    # Generate Opera RUS script also
-   $HGSYNC/scripts/firefox/opera-russian.sh
+   $HGSERV/scripts/firefox/opera-russian.sh
 else
    echo "Files are the same: fanboy-russian.txt" > /dev/null
 fi
@@ -1135,7 +1135,7 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-turkish.txt | cut -d' ' -f1)
 
 if [ "$SSLHG" != "$SSLMAIN" ]
 then
-   cp -f $HGSYNC/firefox-regional/fanboy-adblocklist-tky.txt $TESTDIR/fanboy-turkish.txt
+   cp -f $HGSERV/firefox-regional/fanboy-adblocklist-tky.txt $TESTDIR/fanboy-turkish.txt
    # Re-generate checksum
    $ADDCHECKSUM $TESTDIR/fanboy-turkish.txt
    cp -f $TESTDIR/fanboy-turkish.txt $MAINDIR/fanboy-turkish.txt
@@ -1143,11 +1143,11 @@ then
    rm -rf $MAINDIR/fanboy-turkish.txt.gz
    $ZIP $MAINDIR/fanboy-turkish.txt.gz $TESTDIR/fanboy-turkish.txt > /dev/null
    # Combine Regional trackers
-   $HGSYNC/scripts/combine/firefox-adblock-intl-tracking.sh
+   $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
-   $HGSYNC/scripts/ie/turkish-ie-generator.sh
+   $HGSERV/scripts/ie/turkish-ie-generator.sh
    # Combine
-   $HGSYNC/scripts/combine/firefox-adblock-turk.sh
+   $HGSERV/scripts/combine/firefox-adblock-turk.sh
 else
    echo "Files are the same: fanboy-turkish.txt" > /dev/null
 fi
@@ -1165,11 +1165,11 @@ then
    rm -rf $MAINDIR/fanboy-japanese.txt.gz
    $ZIP $MAINDIR/fanboy-japanese.txt.gz $TESTDIR/fanboy-japanese.txt > /dev/null
    # Combine Regional trackers
-   $HGSYNC/scripts/combine/firefox-adblock-intl-tracking.sh
+   $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
-   $HGSYNC/scripts/ie/japanese-ie-generator.sh
+   $HGSERV/scripts/ie/japanese-ie-generator.sh
    # Combine
-   $HGSYNC/scripts/combine/firefox-adblock-jpn.sh
+   $HGSERV/scripts/combine/firefox-adblock-jpn.sh
 else
    echo "Files are the same: fanboy-japanese.txt" > /dev/null
 fi
@@ -1188,15 +1188,15 @@ then
     rm -rf $MAINDIR/fanboy-korean.txt.gz
     $ZIP $MAINDIR/fanboy-korean.txt.gz $TESTDIR/fanboy-korean.txt > /dev/null
     # Combine Regional trackers
-    $HGSYNC/scripts/combine/firefox-adblock-intl-tracking.sh
+    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
-    $HGSYNC/scripts/combine/firefox-adblock-krn.sh
+    $HGSERV/scripts/combine/firefox-adblock-krn.sh
 else
    echo "Files are the same: fanboy-korean.txt" > /dev/null
 fi
 
 ############### Fanboy ITALIAN #################
-SSLHG=$($SHA256SUM $HGSYNC/firefox-regional/fanboy-adblocklist-ita.txt | cut -d' ' -f1)
+SSLHG=$($SHA256SUM $HGSERV/firefox-regional/fanboy-adblocklist-ita.txt | cut -d' ' -f1)
 SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-italian.txt | cut -d' ' -f1)
 
 if [ "$SSLHG" != "$SSLMAIN" ]
@@ -1207,11 +1207,11 @@ then
     cp -f $TESTDIR/fanboy-italian.txt $MAINDIR/fanboy-italian.txt
     $ZIP $MAINDIR/fanboy-italian.txt.gz $TESTDIR/fanboy-italian.txt > /dev/null
     # Combine Regional trackers
-    $HGSYNC/scripts/combine/firefox-adblock-intl-tracking.sh
+    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Generate IE script
-    $HGSYNC/scripts/ie/italian-ie-generator.sh
+    $HGSERV/scripts/ie/italian-ie-generator.sh
     # Combine
-    $HGSYNC/scripts/combine/firefox-adblock-ita.sh
+    $HGSERV/scripts/combine/firefox-adblock-ita.sh
 else
    echo "Files are the same: fanboy-italian.txt" > /dev/null
 fi
@@ -1230,20 +1230,20 @@ then
     rm -rf $MAINDIR/fanboy-polish.txt.gz 
     $ZIP $MAINDIR/fanboy-polish.txt.gz $TESTDIR/fanboy-polish.txt > /dev/null
     # Combine Regional trackers
-    $HGSYNC/scripts/combine/firefox-adblock-intl-tracking.sh
+    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
-    $HGSYNC/scripts/combine/firefox-adblock-pol.sh
+    $HGSERV/scripts/combine/firefox-adblock-pol.sh
 else
    echo "Files are the same: fanboy-polish.txt" > /dev/null
 fi
 
 ############### Fanboy INDIAN #################
-SSLHG=$($SHA256SUM $HGSYNC/firefox-regional/fanboy-adblocklist-ind.txt | cut -d' ' -f1)
+SSLHG=$($SHA256SUM $HGSERV/firefox-regional/fanboy-adblocklist-ind.txt | cut -d' ' -f1)
 SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-indian.txt | cut -d' ' -f1)
 
 if [ "$SSLHG" != "$SSLMAIN" ]
 then
-    cp -f $HGSYNC/firefox-regional/fanboy-adblocklist-ind.txt $TESTDIR/fanboy-indian.txt
+    cp -f $HGSERV/firefox-regional/fanboy-adblocklist-ind.txt $TESTDIR/fanboy-indian.txt
     # Re-generate checksum
     $ADDCHECKSUM $TESTDIR/fanboy-indian.txt 
     cp -f $TESTDIR/fanboy-indian.txt $MAINDIR/fanboy-indian.txt
@@ -1251,20 +1251,20 @@ then
     rm -rf $MAINDIR/fanboy-indian.txt.gz
     $ZIP $MAINDIR/fanboy-indian.txt.gz $MAINDIR/fanboy-indian.txt > /dev/null
     # Combine Regional trackers
-    $HGSYNC/scripts/combine/firefox-adblock-intl-tracking.sh
+    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
-    $HGSYNC/scripts/combine/firefox-adblock-ind.sh
+    $HGSERV/scripts/combine/firefox-adblock-ind.sh
 else
    echo "Files are the same: fanboy-indian.txt" > /dev/null
 fi
 
 ############### Fanboy VIETNAM #################
-SSLHG=$($SHA256SUM $HGSYNC/firefox-regional/fanboy-adblocklist-vtn.txt | cut -d' ' -f1)
+SSLHG=$($SHA256SUM $HGSERV/firefox-regional/fanboy-adblocklist-vtn.txt | cut -d' ' -f1)
 SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-vietnam.txt | cut -d' ' -f1)
 
 if [ "$SSLHG" != "$SSLMAIN" ]
 then
-    cp -f $HGSYNC/firefox-regional/fanboy-adblocklist-vtn.txt $TESTDIR/fanboy-vietnam.txt
+    cp -f $HGSERV/firefox-regional/fanboy-adblocklist-vtn.txt $TESTDIR/fanboy-vietnam.txt
     # Re-generate checksum
     $ADDCHECKSUM $TESTDIR/fanboy-vietnam.txt
     cp -f $TESTDIR/fanboy-vietnam.txt $MAINDIR/fanboy-vietnam.txt
@@ -1272,20 +1272,20 @@ then
     rm -rf $MAINDIR/fanboy-vietnam.txt.gz
     $ZIP $MAINDIR/fanboy-vietnam.txt.gz $MAINDIR/fanboy-vietnam.txt > /dev/null
     # Combine Regional trackers
-    $HGSYNC/scripts/combine/firefox-adblock-intl-tracking.sh
+    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
-    $HGSYNC/scripts/combine/firefox-adblock-vtn.sh
+    $HGSERV/scripts/combine/firefox-adblock-vtn.sh
 else
    echo "Files are the same: fanboy-vietnam.txt" > /dev/null
 fi
 
 ############### Fanboy ESPANOL #################
-SSLHG=$($SHA256SUM $HGSYNC/firefox-regional/fanboy-adblocklist-esp.txt | cut -d' ' -f1)
+SSLHG=$($SHA256SUM $HGSERV/firefox-regional/fanboy-adblocklist-esp.txt | cut -d' ' -f1)
 SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-espanol.txt | cut -d' ' -f1)
 
 if [ "$SSLHG" != "$SSLMAIN" ]
 then
-    cp -f $HGSYNC/firefox-regional/fanboy-adblocklist-esp.txt $TESTDIR/fanboy-espanol.txt
+    cp -f $HGSERV/firefox-regional/fanboy-adblocklist-esp.txt $TESTDIR/fanboy-espanol.txt
     # Re-generate checksum
     $ADDCHECKSUM $TESTDIR/fanboy-espanol.txt
     cp -f $TESTDIR/fanboy-espanol.txt $MAINDIR/fanboy-espanol.txt
@@ -1293,22 +1293,22 @@ then
     rm -rf $MAINDIR/fanboy-espanol.txt.gz
     $ZIP $MAINDIR/fanboy-espanol.txt.gz $MAINDIR/fanboy-espanol.txt > /dev/null
     # Combine Regional trackers
-    $HGSYNC/scripts/combine/firefox-adblock-intl-tracking.sh
+    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
 		# Generate IE script
-		$HGSYNC/scripts/ie/espanol-ie-generator.sh
+		$HGSERV/scripts/ie/espanol-ie-generator.sh
 		# Combine
-		$HGSYNC/scripts/combine/firefox-adblock-esp.sh
+		$HGSERV/scripts/combine/firefox-adblock-esp.sh
 else
    echo "Files are the same: fanboy-espanol.txt" > /dev/null
 fi
 
 ############### Fanboy SWEDISH #################
-SSLHG=$($SHA256SUM $HGSYNC/firefox-regional/fanboy-adblocklist-swe.txt | cut -d' ' -f1)
+SSLHG=$($SHA256SUM $HGSERV/firefox-regional/fanboy-adblocklist-swe.txt | cut -d' ' -f1)
 SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-swedish.txt | cut -d' ' -f1)
 
 if [ "$SSLHG" != "$SSLMAIN" ]
 then
-    cp -f $HGSYNC/firefox-regional/fanboy-adblocklist-swe.txt $TESTDIR/fanboy-swedish.txt
+    cp -f $HGSERV/firefox-regional/fanboy-adblocklist-swe.txt $TESTDIR/fanboy-swedish.txt
     # Re-generate checksum
     $ADDCHECKSUM $TESTDIR/fanboy-swedish.txt
     cp -f $TESTDIR/fanboy-swedish.txt $MAINDIR/fanboy-swedish.txt
@@ -1319,9 +1319,9 @@ then
     FILE="$MAINDIR/fanboy-swedish.txt"
     echo $ECHORESPONSE >> $LOGFILE
     # Combine Regional trackers
-    $HGSYNC/scripts/combine/firefox-adblock-intl-tracking.sh
+    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
-    $HGSYNC/scripts/combine/firefox-adblock-swe.sh
+    $HGSERV/scripts/combine/firefox-adblock-swe.sh
 else
    echo "Files are the same: fanboy-swedish.txt" > /dev/null
 fi
