@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.webmastercrunch.com/
+
+
+[filters]
+http://demo.creattor.net/flashxmlbanners/8/free-components-and-galleries.jpg
+http://www.berush.com/images/whorush_120x120_en.png
+http://www.berush.com/images/whorush_468x60_en.png
+http://www.webmastercrunch.com/wp-content/uploads/2012/03/hostgator300x30.gif
+http://www.wishlistproducts.com/affiliatetools/images/WLM_125X125_v2.gif
+http://www.berush.com/images/100x100_semrush_en.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
