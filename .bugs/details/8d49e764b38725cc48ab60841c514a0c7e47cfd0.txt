@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://anonchicks.slowblog.com/?category=Dump
+
+
+[filters]
+http://anonchicks.slowblog.com/ad.js
+
+
+[other]
+anti-adblock
+
+
+[comments]
+nitrox
