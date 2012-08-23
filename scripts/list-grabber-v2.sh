@@ -103,7 +103,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ 
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-generic.txt" > /dev/null
@@ -149,7 +149,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-thirdparty.txt" ] && [ -d "$TESTDIR" ] &&
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-thirdparty.txt" > /dev/null
@@ -195,7 +195,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-firstparty.txt" ] && [ -d "$TESTDIR" ] &&
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-firstparty.txt" > /dev/null
@@ -241,7 +241,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-popups.txt" ] && [ -d "$TESTDIR" ] && [ -
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-popups.txt" > /dev/null
@@ -287,7 +287,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-whitelist.txt" ] && [ -d "$TESTDIR" ] && 
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-whitelist.txt" > /dev/null
@@ -333,7 +333,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-dimensions.txt" > /dev/null
@@ -380,7 +380,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TES
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-dimensions-whitelist.txt" > /dev/null
@@ -427,7 +427,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-generic.txt" ] && [ -d "$TESTDIR" ]
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-adult-generic.txt" > /dev/null
@@ -522,7 +522,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-adult-firstparty.txt" > /dev/null
@@ -569,7 +569,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-adult-firstparty.txt" > /dev/null
@@ -616,7 +616,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-adult-thirdparty.txt" > /dev/null
@@ -663,7 +663,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-elements.txt" ] && [ -d "$TESTDIR" 
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-adult-elements.txt" > /dev/null
@@ -710,7 +710,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt" ] && [ -d "$TESTDIR
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-adult-whitelists.txt" > /dev/null
@@ -757,7 +757,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" 
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-p2p-firstparty.txt" > /dev/null
@@ -804,7 +804,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" 
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-p2p-thirdparty.txt" > /dev/null
@@ -851,7 +851,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-p2p-elements.txt" > /dev/null
@@ -898,7 +898,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-p2p-elements.txt" > /dev/null
@@ -945,7 +945,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-generic.txt" ] && [ -d "$TESTDIR
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-elements-generic.txt" > /dev/null
@@ -988,11 +988,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-specific-elements.txt" ] && [ -d "$TESTDI
         #
         cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
         rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        # $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
 
         # Fanboy Ultimate + Complete
         #
-        # $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
      else
         echo "Files are the same: fanboy-elements-specific.txt" > /dev/null
