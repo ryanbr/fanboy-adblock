@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.careerbuilder.com/
+
+
+[filters]
+https://secure.icbdr.com/Common/js/cblibraryajaxbase.min.js
+https://secure.icbdr.com/Common/js/jquery/jquery-1.7.2.min.js
+https://secure.icbdr.com/Common/js/jquery/jquery.cblibrary.min.js
+https://secure.icbdr.com/Common/js/jquery/jqueryui/jquery-ui-1.8.16.smoothness.min.js
+https://secure.icbdr.com/MediaManagement/85/MX34R066FHVHSZ8D685.JPG
+https://secure.icbdr.com/MediaManagement/FM/MFX8HZ70GTKK7KLBDFM.jpg
+https://secure.icbdr.com/MediaManagement/GV/MY13R6721QPS1HGQ8GV.jpg
+https://secure.icbdr.com/MediaManagement/ZY/MRJ09F67FBXQZX31QZY.jpg
+https://secure.icbdr.com/c.aspx?c=homepage_boom,jobseeker/jobcenter,jqueryui/jquery-ui-1.8.16.smoothness&v=v18.19
+
+[other]
+css,js and images are blocked.
+
+
+[comments]
+nitrox
