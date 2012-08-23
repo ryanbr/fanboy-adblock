@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bolli.it/
+
+
+[filters]
+http://www.avant.it/admentorasp/scriptinject.asp?F=10&Z=8&N=1&nocache=1345717075344
+http://www.avant.it/admentorasp/scriptinject.asp?F=15&Z=8&N=1&nocache=1345717075341
+http://www.avant.it/admentorasp/scriptinject.asp?F=25&Z=8&N=1&nocache=1345717075361
+http://www.avant.it/admentorasp/scriptinject.asp?F=9&Z=8&N=1&nocache=1345717075335
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
