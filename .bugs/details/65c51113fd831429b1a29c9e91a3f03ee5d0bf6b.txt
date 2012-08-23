@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://oneclickmoviez.com/wp-content/plugins/link-cloaking-plugin/wplc_redirector.php?post_id=48714&link_num=2&cloaked_url=dws/IMDB/48714/2
+
+
+[filters]
+http://pagead2.googlesyndication.com/pagead/show_ads.js
+
+[other]
+anti-adblock
+
+
+[comments]
+nitrox
