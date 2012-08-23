@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.torrentroom.com/torrent/2754203-Party-Down-Season-2-Complete-720p.html
+
+
+[filters]
+http://downsonglyrics.com/earning/a300.html
+http://downsonglyrics.com/earning/ab728.html
+http://downsonglyrics.com/earning/am728.html
+http://downsonglyrics.com/earning/at728.html
+http://www.torrentroom.com/images/download2.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
