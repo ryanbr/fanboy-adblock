@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v1.8 (15/08/2012)
+# Fanboy Adblock list grabber script v2.01 (23/08/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
+# 2.01 Various cleanups, add Israeli List
 # 2.00 Re-write the script to support split files
 # 1.82 Better checking of scripts being loaded
 # 1.81 Misc Cleanups
@@ -79,7 +80,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ 
         # Clean up
         #
         echo "" >> $HGSERV/fanboy-adblock/fanboy-header.txt
-
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -127,6 +128,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-thirdparty.txt" ] && [ -d "$TESTDIR" ] &&
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -173,6 +175,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-firstparty.txt" ] && [ -d "$TESTDIR" ] &&
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -219,6 +222,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-popups.txt" ] && [ -d "$TESTDIR" ] && [ -
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -265,6 +269,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-whitelist.txt" ] && [ -d "$TESTDIR" ] && 
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -311,6 +316,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -357,6 +363,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TES
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -404,6 +411,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-generic.txt" ] && [ -d "$TESTDIR" ]
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -452,6 +460,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -499,6 +508,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -546,6 +556,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -593,6 +604,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -640,6 +652,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-elements.txt" ] && [ -d "$TESTDIR" 
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -659,7 +672,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-elements.txt" ] && [ -d "$TESTDIR" 
         #
         cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
         rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        # $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
 
         # Fanboy Ultimate + Complete
         #
@@ -687,6 +700,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt" ] && [ -d "$TESTDIR
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -734,6 +748,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" 
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -781,6 +796,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" 
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -828,6 +844,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -875,6 +892,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -922,6 +940,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-generic.txt" ] && [ -d "$TESTDIR
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -969,6 +988,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-specific-elements.txt" ] && [ -d "$TESTDI
    #
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
+        rm -rf $TESTDIR/fanboy-merged.txt
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -1011,12 +1031,13 @@ SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-tracking.txt | cut -d' ' -f1)
 if [ "$SSLHG" != "$SSLMAIN" ]
  then
     # Copy list
-    cp -f $HGSERV/fanboy-adblocklist-stats.txt $MAINDIR/fanboy-tracking.txt
+    cp -f $HGSERV/fanboy-adblocklist-stats.txt $TESTDIR/fanboy-tracking.txt
     # Re-generate checksum
-    $ADDCHECKSUM $MAINDIR/fanboy-tracking.txt
+    $ADDCHECKSUM $TESTDIR/fanboy-tracking.txt
+    cp -f $TESTDIR/fanboy-tracking.txt $MAINDIR/fanboy-tracking.txt
     rm -rf $MAINDIR/fanboy-tracking.txt.gz
     # ZIP
-    $ZIP $MAINDIR/fanboy-tracking.txt.gz $HGSERV/fanboy-adblocklist-stats.txt > /dev/null
+    $ZIP $MAINDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-adblocklist-stats.txt > /dev/null
     # Now combine with international list
     # sh /etc/crons/hg-grab-intl.sh
     # Generate IE script
@@ -1039,12 +1060,13 @@ SSLMAIN=$($SHA256SUM $MAINDIR/enhancedstats.txt-org | cut -d' ' -f1)
 if [ "$SSLHG" != "$SSLMAIN" ]
 then
     # Copy list
-    cp -f $HGSERV/enhancedstats-addon.txt $MAINDIR/enhancedstats.txt
+    cp -f $HGSERV/enhancedstats-addon.txt $TESTDIR/enhancedstats.txt
     # Re-generate checksum
-    $ADDCHECKSUM $MAINDIR/enhancedstats.txt
+    $ADDCHECKSUM $TESTDIR/enhancedstats.txt
+    cp -f $TESTDIR/enhancedstats.txt $MAINDIR/enhancedstats.txt
     rm -rf $MAINDIR/enhancedstats.txt.gz
     # GZip
-    $ZIP $MAINDIR/enhancedstats.txt.gz $HGSERV/enhancedstats-addon.txt > /dev/null
+    $ZIP $MAINDIR/enhancedstats.txt.gz $TESTDIR/enhancedstats-addon.txt > /dev/null
     # Combine Regional trackers
     $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
@@ -1249,7 +1271,7 @@ then
     cp -f $TESTDIR/fanboy-indian.txt $MAINDIR/fanboy-indian.txt
     # Wipe old files
     rm -rf $MAINDIR/fanboy-indian.txt.gz
-    $ZIP $MAINDIR/fanboy-indian.txt.gz $MAINDIR/fanboy-indian.txt > /dev/null
+    $ZIP $MAINDIR/fanboy-indian.txt.gz $TESTDIR/fanboy-indian.txt > /dev/null
     # Combine Regional trackers
     $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
@@ -1270,7 +1292,7 @@ then
     cp -f $TESTDIR/fanboy-vietnam.txt $MAINDIR/fanboy-vietnam.txt
     # Wipe old files
     rm -rf $MAINDIR/fanboy-vietnam.txt.gz
-    $ZIP $MAINDIR/fanboy-vietnam.txt.gz $MAINDIR/fanboy-vietnam.txt > /dev/null
+    $ZIP $MAINDIR/fanboy-vietnam.txt.gz $TESTDIR/fanboy-vietnam.txt > /dev/null
     # Combine Regional trackers
     $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
@@ -1291,7 +1313,7 @@ then
     cp -f $TESTDIR/fanboy-espanol.txt $MAINDIR/fanboy-espanol.txt
     # Wipe old files
     rm -rf $MAINDIR/fanboy-espanol.txt.gz
-    $ZIP $MAINDIR/fanboy-espanol.txt.gz $MAINDIR/fanboy-espanol.txt > /dev/null
+    $ZIP $MAINDIR/fanboy-espanol.txt.gz $TESTDIR/fanboy-espanol.txt > /dev/null
     # Combine Regional trackers
     $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
 		# Generate IE script
@@ -1314,14 +1336,32 @@ then
     cp -f $TESTDIR/fanboy-swedish.txt $MAINDIR/fanboy-swedish.txt
     # Wipe old files
     rm -rf $MAINDIR/fanboy-swedish.txt.gz
-    $ZIP $MAINDIR/fanboy-swedish.txt.gz $MAINDIR/fanboy-swedish.txt > /dev/null
-    # Create a log
-    FILE="$MAINDIR/fanboy-swedish.txt"
-    echo $ECHORESPONSE >> $LOGFILE
+    $ZIP $MAINDIR/fanboy-swedish.txt.gz $TESTDIR/fanboy-swedish.txt > /dev/null
     # Combine Regional trackers
     $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     $HGSERV/scripts/combine/firefox-adblock-swe.sh
 else
    echo "Files are the same: fanboy-swedish.txt" > /dev/null
+fi
+
+############### Fanboy ISRAELI #################
+SSLHG=$($SHA256SUM $HGSERV/firefox-regional/IsraelList.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/IsraelList.txt.txt | cut -d' ' -f1)
+
+if [ "$SSLHG" != "$SSLMAIN" ]
+then
+    cp -f $HGSERV/firefox-regional/IsraelList.txt $TESTDIR/IsraelList.txt
+    # Re-generate checksum
+    $ADDCHECKSUM $TESTDIR/IsraelList.txt
+    cp -f $TESTDIR/fanboy-swedish.txt $MAINDIR/IsraelList.txt
+    # Wipe old files
+    rm -rf $MAINDIR/IsraelList.txt.gz
+    $ZIP $MAINDIR/IsraelList.txt.gz $TESTDIR/IsraelList.txt > /dev/null
+    # Combine Regional trackers
+    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
+    # Combine
+    # $HGSERV/scripts/combine/
+else
+   echo "Files are the same: IsraelList.txt" > /dev/null
 fi
