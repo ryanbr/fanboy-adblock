@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hipforums.com/newforums/showthread.php?t=455523&f=36
+
+
+[filters]
+http://www.hipforums.com/newforums/calendarcolumn.php?cquery=bush
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
