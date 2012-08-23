@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://keepvid.com/?url=http%3A%2F%2Fvimeo.com%2F46794982
+
+
+[filters]
+http://keepvid.com/images/adbars.png
+http://keepvid.com/images/ilivid-ad-s3.gif
+http://vdownloader.com/pages/keepvid.htm
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
