@@ -1354,12 +1354,12 @@ then
     cp -f $HGSERV/firefox-regional/IsraelList.txt $TESTDIR/IsraelList.txt
     # Re-generate checksum
     $ADDCHECKSUM $TESTDIR/IsraelList.txt
-    cp -f $TESTDIR/fanboy-swedish.txt $MAINDIR/IsraelList.txt
+    cp -f $TESTDIR/IsraelList.txt $MAINDIR/IsraelList.txt
     # Wipe old files
     rm -rf $MAINDIR/IsraelList.txt.gz
     $ZIP $MAINDIR/IsraelList.txt.gz $TESTDIR/IsraelList.txt > /dev/null
     # Combine Regional trackers
-    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
+    # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     # $HGSERV/scripts/combine/
 else
