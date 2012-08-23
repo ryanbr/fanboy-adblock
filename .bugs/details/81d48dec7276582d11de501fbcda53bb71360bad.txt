@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://perezhilton.com/2012-08-21-avril-lavigne-nickelback-chad-kroeger-engaged
+
+
+[filters]
+http://img.perezhilton.com/images/ask/PostSponsorshipBg.png?v=4
+http://img.perezhilton.com/images/ask/ask.com.png
+http://img.perezhilton.com/images/ask/askBull.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
