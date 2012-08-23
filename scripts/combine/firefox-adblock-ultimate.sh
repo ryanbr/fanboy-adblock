@@ -47,15 +47,17 @@ sed -i '/\/js\/tracking.js/d' $TESTDIR/fanboy-stats-temp.txt
 
 # Insert a new line to avoid chars running into each other
 #
-cat $HGSYNC/fanboy-adblocklist-current-expanded.txt | sed '$a!' > $TESTDIR/fanboy-adblocklist-current.txt
+cat $MAINDIR/fanboy-adblock.txt | sed '$a!' > $TESTDIR/fanboy-adblocklist-current.txt
 
 # Merge to the files together
 #
 cat $TESTDIR/fanboy-adblocklist-current.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt $TESTDIR/fanboy-addon-temp3.txt > $TESTDIR/fanboy-ultimate.txt
+
 # Ultimate List for IE (minus the main list)
 #
 cat $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt $TESTDIR/fanboy-addon-temp3.txt > $MAINDIR/fanboy-ultimate-ie.txt
 cat $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt > $TESTDIR/fanboy-complete.txt > $MAINDIR/fanboy-complete-ie.txt
+
 # Complete List
 #
 cat $TESTDIR/fanboy-adblocklist-current.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt > $TESTDIR/fanboy-complete.txt
@@ -74,7 +76,6 @@ cp -f $TESTDIR/fanboy-ultimate.txt $TESTDIR/fanboy-ultimate-bak.txt
 #
 $ADDCHECKSUM $TESTDIR/fanboy-complete.txt
 $ADDCHECKSUM $TESTDIR/fanboy-ultimate.txt
-
 
 # Now lets check if fanboy-merged.txt isnt zero
 #
@@ -107,10 +108,10 @@ then
      cp $TESTDIR/fanboy-complete.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
      ## DEBUG
      ### echo "Updated fanboy-complete"
-     echo "Updated fanboy-complete.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+     echo "Updated fanboy-complete.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE
   else
      ### echo "Unable to update fanboy-complete"
-     echo "*** ERROR ***: Unable to update fanboy-complete.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+     echo "*** ERROR ***: Unable to update fanboy-complete.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE
   fi
 
   # Check Compressed file exists first for -ultimate
@@ -121,20 +122,15 @@ then
      cp $TESTDIR/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-ultimate.txt.gz
      ## DEBUG
      ### echo "Updated fanboy-ultimate"
-     echo "Updated fanboy-ultimate.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+     echo "Updated fanboy-ultimate.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE
   else
      ### echo "Unable to update fanboy-ultimate"
-     echo "*** ERROR ***: Unable to update fanboy-ultimate.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+     echo "*** ERROR ***: Unable to update fanboy-ultimate.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE
   fi
 else
-  # Use the backup file (fanboy-merged.txt was zero'd by addchecksum)
-  ### echo "Updated fanboy-enhanced.txt (file was zero)"
-  #
-  sleep 2
   # Addchecksum
   #
   $ADDCHECKSUM $TESTDIR/fanboy-complete-bak.txt
-  sleep 2
   $ADDCHECKSUM $TESTDIR/fanboy-ultimate-bak.txt
   
   # Copy Merged file to main dir
@@ -149,7 +145,6 @@ else
   # Compress Files
   #
   $ZIP $TESTDIR/fanboy-complete.txt.gz $TESTDIR/fanboy-complete-bak.txt > /dev/null
-  sleep 2
   $ZIP $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate-bak.txt > /dev/null
   
   # Copy to server
@@ -158,7 +153,8 @@ else
   cp -f $TESTDIR/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-ultimate.txt.gz
   
   # Log
-  echo "*** ERROR ***: Addchecksum Zero'd the file: fanboy-adblock-ultimate.txt (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> /var/log/adblock-log.txt
+  #
+  echo "*** ERROR ***: Addchecksum Zero'd the file: fanboy-adblock-ultimate.txt (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE
 fi
 
 
