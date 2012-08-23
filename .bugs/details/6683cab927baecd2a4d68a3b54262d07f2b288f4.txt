@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://oneclickmoviez.com/safe-dvdrip-xvid-done/
+
+
+[filters]
+http://oneclickmoviez.com/wp-content/plugins/knxdt-bookmarks-wordpress-plugin/css/style.css
+http://oneclickmoviez.com/wp-content/plugins/knxdt-bookmarks-wordpress-plugin/images/bitacoras.png
+http://oneclickmoviez.com/wp-content/plugins/knxdt-bookmarks-wordpress-plugin/images/blinklist.png
+http://oneclickmoviez.com/wp-content/plugins/knxdt-bookmarks-wordpress-plugin/images/delicious.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
