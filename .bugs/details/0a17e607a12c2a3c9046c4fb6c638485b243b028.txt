@@ -1,0 +1,14 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.netload.in/index.php?id=10&file_id=MYErjZLxMp&s=aazVavYCK2&captcha=1
+
+
+[filters]
+http://www.erotikdeal.com/?ref=nl
+
+[other]
+
+[comments]
+nitrox
