@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aftonbladet.se/nyheter/article15292535.ab
+
+
+[filters]
+http://l.lp4.io/app/4f/69/93/4f6993f8f925b3a714000000.js
+http://l.lp4.io/p.gif?4f6993f8f925b3a714000000&p&http%3A%2F%2Fwww.aftonbladet.se%2Fnyheter%2Farticle15292535.ab&Riksbankschefens%20egna%20investeringar&&1&1&1&article&&&Aftonbladet%3A%20Sveriges%20nyhetsk%C3%A4lla%20och%20m%C3%B6tesplats%2CAftonbladet%2Cnyheter%2Csvenska%2Csenaste%20nytt%2Ckv%C3%A4llstidning%2Cnews%2Cswedish&&&&http%3A%2F%2Fgfx.aftonbladet-cdn.se%2Fimage%2F15292962%2F300%2Fwidescreen%2F264e073c398a8%2FStefan-Ingves-1.jpg&Fonder%20i%20Handelsbanken.%20Och%20aktier%20i%20svenska%20storbolag%20som%20H%26amp%3BM%20och%20Volvo.%20S%C3%A5%20investerar%20riksbankschefen%20Stefan%20Ingves%20sina%20egna%20pengar.&_r1345803071355
+http://l.lp4.io/p.gif?4f6993f8f925b3a714000000&pl&http%3A%2F%2Fwww.aftonbladet.se%2Fnyheter%2Farticle15292535.ab&9.06&0.653&9.713&_r1345803071364
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
