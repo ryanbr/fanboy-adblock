@@ -7,6 +7,7 @@
 #
 # Version history
 #
+# 2.04 Remove any empty lines
 # 2.03 Allow Hg pulls
 # 2.02 Typo in fanboy-elements-specific.txt
 # 2.01 Various cleanups, add Israeli List
@@ -90,7 +91,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ 
         # Clean up
         #
         echo "" >> $HGSERV/fanboy-adblock/fanboy-header.txt
-        rm -rf $TESTDIR/fanboy-merged.txt
+        rm -rf $TESTDIR/fanboy-merged.txt > /dev/null
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
@@ -101,6 +102,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ 
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-generic.txt $MAINDIR/split/fanboy-generic.txt
+
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
 
         # Checksum
         #
@@ -149,6 +155,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-thirdparty.txt" ] && [ -d "$TESTDIR" ] &&
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $MAINDIR/split/fanboy-thirdparty.txt
 
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
         # Checksum
         #
         $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
@@ -195,6 +206,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-firstparty.txt" ] && [ -d "$TESTDIR" ] &&
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-firstparty.txt $MAINDIR/split/fanboy-firstparty.txt
+
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
 
         # Checksum
         #
@@ -243,6 +259,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-popups.txt" ] && [ -d "$TESTDIR" ] && [ -
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-popups.txt $MAINDIR/split/fanboy-popups.txt
 
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
         # Checksum
         #
         $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
@@ -290,6 +311,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-whitelist.txt" ] && [ -d "$TESTDIR" ] && 
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-whitelist.txt $MAINDIR/split/fanboy-whitelist.txt
 
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
         # Checksum
         #
         $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
@@ -336,6 +362,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-dimensions.txt $MAINDIR/split/fanboy-dimensions.txt
+
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
 
         # Checksum
         #
@@ -385,6 +416,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TES
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $MAINDIR/split/fanboy-dimensions-whitelist.txt
 
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
         # Checksum
         #
         $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
@@ -432,6 +468,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-generic.txt" ] && [ -d "$TESTDIR" ]
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $MAINDIR/split/fanboy-adult-generic.txt
+
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
 
         # Checksum
         #
@@ -482,6 +523,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt $MAINDIR/split/fanboy-adult-firstparty.txt
 
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
         # Checksum
         #
         $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
@@ -529,6 +575,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt $MAINDIR/split/fanboy-adult-firstparty.txt
+
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
 
         # Checksum
         #
@@ -578,6 +629,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $MAINDIR/split/fanboy-adult-thirdparty.txt
 
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
         # Checksum
         #
         $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
@@ -625,6 +681,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $MAINDIR/split/fanboy-adult-thirdparty.txt
+
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
 
         # Checksum
         #
@@ -674,6 +735,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-elements.txt" ] && [ -d "$TESTDIR" 
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $MAINDIR/split/fanboy-adult-elements.txt
 
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
         # Checksum
         #
         $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
@@ -721,6 +787,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt" ] && [ -d "$TESTDIR
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt $MAINDIR/split/fanboy-adult-whitelists.txt
+
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
 
         # Checksum
         #
@@ -770,6 +841,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" 
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $MAINDIR/split/fanboy-p2p-firstparty.txt
 
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
         # Checksum
         #
         $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
@@ -817,6 +893,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" 
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $MAINDIR/split/fanboy-p2p-thirdparty.txt
+
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
 
         # Checksum
         #
@@ -866,6 +947,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt $MAINDIR/split/fanboy-p2p-elements.txt
 
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
         # Checksum
         #
         $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
@@ -913,6 +999,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt $MAINDIR/split/fanboy-p2p-elements.txt
+
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
 
         # Checksum
         #
@@ -962,6 +1053,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-generic.txt" ] && [ -d "$TESTDIR
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $MAINDIR/split/fanboy-elements-generic.txt
 
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
         # Checksum
         #
         $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
@@ -1010,6 +1106,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-specific.txt" ] && [ -d "$TESTDI
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $MAINDIR/split/fanboy-elements-specific.txt
 
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
         # Checksum
         #
         $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
@@ -1057,6 +1158,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt" ] && [ -d "$TEST
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt $MAINDIR/split/fanboy-elements-exceptions.txt
+
+        # Remove empty lines
+        #
+        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
 
         # Checksum
         #
