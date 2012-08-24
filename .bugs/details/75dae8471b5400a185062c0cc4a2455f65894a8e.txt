@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://couponistaqueen.com/coupon-0-75-off-one-box-fiber-one-cereal/
+
+
+[filters]
+http://www.nalook.com/click.php?source=adclnk&adgroupid=5987&param1=&param2=http%3A%2F%2Fcouponistaqueen.com%2Fcoupon-0-75-off-one-box-fiber-one-cereal%2F
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
