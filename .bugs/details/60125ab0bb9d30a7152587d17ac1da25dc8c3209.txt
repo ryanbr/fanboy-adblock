@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mlb.mlb.com/cutfour/index.jsp#contentId=37210020
+
+
+[filters]
+http://ad.doubleclick.net/adi/mlb.mlb/news;pageid=cutfour;sz=160x600;pos=2;tile=7;ord=8101223566244100
+http://ad.doubleclick.net/adi/mlb.mlb/news;pageid=cutfour;sz=300x250;pos=1;tile=2;ord=9297355801619554
+http://ad.doubleclick.net/adi/mlb.mlb/news;pageid=cutfour;sz=300x250;pos=2;tile=3;ord=7858282049577826
+http://ad.doubleclick.net/adi/mlb.mlb/news;pageid=cutfour;sz=300x250;pos=3;tile=4;ord=4382207728243900
+http://ad.doubleclick.net/adi/mlb.mlb/news;pageid=cutfour;sz=970x66;pos=2;tile=5;ord=5180813808568034
+
+[other]
+video player doesn't load
+
+
+[comments]
+nitrox
