@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aetv.com/storage-wars/video/?bctid=1137270535001
+
+[filters]
+http://www.aetv.com/bcplayers/Player/3Tier_ws/baseDIR/adSponsor.jsp?siteName=aetn.aetv.shows&zone1=storagewars&zone2=&pid=storage-wars_video__bctid_1137270535001_cmpid_PaidMedia_Taboola_Video_AETV_SW_cmpid_PaidMedia_Taboola_Video_AETV_STORAGE1714&kw=&ptype=video&mv=storage_wars&mv=video&mv=full_episodes&mv=bonus_scenes&mv=deleted_scenes&mv=extra_scenes&mv=auction&mv=bidding&mv=storage_locker&mv=professional_buyers&mv=hidden_treasure&mv=ae&test=&tile=4&sz=80x60&ord=6959189865977264&sid=leftSponsor&pos=left
+http://www.aetv.com/bcplayers/Player/3Tier_ws/baseDIR/adSponsor.jsp?siteName=aetn.aetv.shows&zone1=storagewars&zone2=&pid=storage-wars_video__bctid_1137270535001_cmpid_PaidMedia_Taboola_Video_AETV_SW_cmpid_PaidMedia_Taboola_Video_AETV_STORAGE1714&kw=&ptype=video&mv=storage_wars&mv=video&mv=full_episodes&mv=bonus_scenes&mv=deleted_scenes&mv=extra_scenes&mv=auction&mv=bidding&mv=storage_locker&mv=professional_buyers&mv=hidden_treasure&mv=ae&test=&tile=5&sz=80x60&ord=6959189865977264&sid=rightSponsor&pos=right
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
