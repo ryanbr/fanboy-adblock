@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://us.aving.net/news/index.php?mn_name=news&cateId=15_02
+
+
+[filters]
+http://bo.aving.net/common/js/connect_counter.js.php?bte_num=&a_num=&referrer=&redirect=http://us.aving.net/news/index.php?mn_name=news&cateId=15_02
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
