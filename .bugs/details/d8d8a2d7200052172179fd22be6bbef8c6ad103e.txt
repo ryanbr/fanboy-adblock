@@ -1,0 +1,29 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.petitionbuzz.com/petitions/wewantkriyaanshback
+
+
+[filters]
+http://mm1.dsero.net/t?id=11638916-feb4-58a4-f9c7-6df58f00f5ea&size=728x90
+http://p.dsero.net/clickscript.php?p=226_MSy16&adserver=1
+http://mm1.dsero.net/t?id=3c9a6fdb-0ed6-69b4-c5c3-6d997e15a4e1&size=300x250
+http://mm1.dsero.net/t?id=bea0a12f-12c0-8294-05a2-e650de0f8a1f&size=300x250
+http://p.dsero.net/dsero.p.php?p=226_MSy16
+http://y1.dsero.net/adasdadsadsdzczxczxc300x250&s=3301793&_salt=2449077125&B=11&r=0
+http://y1.dsero.net/adasdadsadsdzczxczxc300x250&s=3301794&_salt=1624452134&B=11&r=0
+http://y1.dsero.net/klfdaslkj?klsdfkjd=ad&klsadlk=skdkksb&section=3301793
+http://y1.dsero.net/klfdaslkj?klsdfkjd=ad&klsadlk=skdkksb&section=3301794
+http://ya2.dsero.net/atoms/03/a1/e1/31/03a1e131320e1752470d2ea20e77c9ab.png
+http://ya2.dsero.net/atoms/f2/c9/0d/09/f2c90d09ae659fa2a1ec2359467650bc.png
+http://gz.sytes.net/d.php?id=226_30_QqHKHKyw
+http://gz.sytes.net/d.php?id=226_31_h886HjmX
+http://gz.sytes.net/d.php?id=226_32_1wa849HA
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
