@@ -1348,7 +1348,7 @@ fi
 
 ############### Fanboy ISRAELI #################
 SSLHG=$($SHA256SUM $HGSERV/firefox-regional/IsraelList.txt | cut -d' ' -f1)
-SSLMAIN=$($SHA256SUM $MAINDIR/IsraelList.txt.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/IsraelList.txt | cut -d' ' -f1)
 
 if [ "$SSLHG" != "$SSLMAIN" ]
 then
