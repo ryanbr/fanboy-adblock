@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.porn.to/video/most-amazing-amateur-creampie-pov 
+
+
+[filters]
+http://www.adultadworld.com/adhandler/
+http://images.cdn.camelmedia.net/items/0/banners/sponsorsites/870/large.jpg
+http://m1.camelmedia.net/items/0/banners/sponsorsites/870/medium.gif
+http://m1.camelmedia.net/items/0/banners/sponsorsites/870/small.jpg
+
+[other]
+anti-adblock
+
+
+[comments]
+nitrox
