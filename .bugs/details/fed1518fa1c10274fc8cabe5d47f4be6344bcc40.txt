@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wallashops.co.il/a/ap.aspx?pi=1LIPLB15
+
+
+[filters]
+http://ypk.cs4u.co.il/mall_site_images/Promotions/4/0/3843_pitchon_mn.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
