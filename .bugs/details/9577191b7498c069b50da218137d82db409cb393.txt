@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://log.nadim.cc/?p=78
+
+
+[filters]
+http://log.nadim.cc/wp-content/uploads/2012/08/3-300x120.png
+
+[other]
+blocks legitimate images
+
+
+[comments]
+nitrox
