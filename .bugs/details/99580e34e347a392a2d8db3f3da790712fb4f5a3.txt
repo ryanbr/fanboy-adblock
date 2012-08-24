@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hometheater.co.il/article03865.IFA-2012-%D7%97%D7%91%D7%A8%D7%AA-Dune-%D7%9E%D7%A6%D7%99%D7%92%D7%94-%D7%90%D7%AA
+
+[filters]
+http://www.hometheater.co.il/pir/ffffff,hmt.main.articles,body_138,3865
+http://www.hometheater.co.il/pir/ffffff,hmt.main.articles,body_138_2,3865&r=5570
+http://www.hometheater.co.il/pir/ffffff,hmt.main.articles,footer_468,3865&r=7345
+http://www.hometheater.co.il/pir/white,hmt.main.articles,title_130,3865&r=3471
+http://www.hometheater.co.il/pir/white,hmt.main.articles,title_764x70,3865&r=6956
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
