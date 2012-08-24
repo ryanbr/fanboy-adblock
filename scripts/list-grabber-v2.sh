@@ -87,7 +87,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ 
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -135,7 +135,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-thirdparty.txt" ] && [ -d "$TESTDIR" ] &&
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $MAINDIR/split/fanboy-thirdparty.txt
@@ -182,7 +182,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-firstparty.txt" ] && [ -d "$TESTDIR" ] &&
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-firstparty.txt $MAINDIR/split/fanboy-firstparty.txt
@@ -229,7 +229,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-popups.txt" ] && [ -d "$TESTDIR" ] && [ -
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-popups.txt $MAINDIR/split/fanboy-popups.txt
@@ -276,7 +276,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-whitelist.txt" ] && [ -d "$TESTDIR" ] && 
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-whitelist.txt $MAINDIR/split/fanboy-whitelist.txt
@@ -323,7 +323,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-dimensions.txt $MAINDIR/split/fanboy-dimensions.txt
@@ -370,7 +370,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TES
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -418,7 +418,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-generic.txt" ] && [ -d "$TESTDIR" ]
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -467,7 +467,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -515,7 +515,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -563,7 +563,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -611,7 +611,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -659,7 +659,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-elements.txt" ] && [ -d "$TESTDIR" 
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -707,7 +707,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt" ] && [ -d "$TESTDIR
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -755,7 +755,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" 
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -803,7 +803,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" 
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -851,7 +851,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -899,7 +899,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -947,7 +947,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-generic.txt" ] && [ -d "$TESTDIR
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -995,7 +995,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-specific.txt" ] && [ -d "$TESTDI
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt > $TESTDIR/fanboy-merged.txt
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Copy over
         #
@@ -1024,6 +1024,55 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-specific.txt" ] && [ -d "$TESTDI
   echo "fanboy-elements-specific.txt failed to update: $DATE" >> $LOGFILE
   # twidge update "fanboy-elements-specific.txt failed to update: $DATE"
 fi
+
+# Fanboy-Adblock (fanboy-elements-specific.txt)
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-elements-exceptions.txt | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+        rm -rf $TESTDIR/fanboy-merged.txt
+       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
+        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
+        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
+        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Copy over
+        #
+        cp -f $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt $MAINDIR/split/fanboy-elements-exceptions.txt
+
+        # Checksum
+        #
+        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+        # Compress
+        #
+        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+        rm -rf $MAINDIR/fanboy-adblock.txt.gz
+        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+        # Fanboy Ultimate + Complete
+        #
+        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+     else
+        echo "Files are the same: fanboy-elements-exceptions.txt" > /dev/null
+   fi
+ else
+  # Notify!
+  #
+  echo "fanboy-elements-specific.txt failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-elements-specific.txt failed to update: $DATE"
+fi
+
 
 ############### Fanboy Tracking #################
 SSLHG=$($SHA256SUM $HGSERV/fanboy-adblocklist-stats.txt | cut -d' ' -f1)
