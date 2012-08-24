@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mako.co.il/music-news/local/Article-b77617aaa075931006.htm&sCh=f6750a2610f26110&pId=2082585621
+
+[filters]
+http://rcs.mako.co.il/js/ad_filler.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
