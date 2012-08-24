@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hometheater.co.il/
+
+
+[filters]
+http://www.hometheater.co.il/opx/sr.js
+http://www.hometheater.co.il/opx/www/haspaka/hfl.js
+http://www.hometheater.co.il/opx/www/images/action_764x70.jpg
+http://www.hometheater.co.il/opx/www/images/action_764x70_5.swf
+http://www.hometheater.co.il/opx/www/images/app-googleplay.jpg
+http://www.hometheater.co.il/opx/www/images/bikorot-body.jpg
+http://www.hometheater.co.il/opx/www/images/bikorot_138x190_hometheater_ros_iia8xw.swf
+http://www.hometheater.co.il/opx/www/images/daily-tip3.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
