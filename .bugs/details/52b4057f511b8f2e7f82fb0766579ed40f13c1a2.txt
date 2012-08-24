@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.atzuma.co.il/httpwwwhotneti
+
+
+[filters]
+http://gz.sytes.net/d.php?id=225_27_gMhSebNS
+http://gz.sytes.net/d.php?id=225_28_h2fcn5pR
+http://gz.sytes.net/d.php?id=225_29_3yxDnEmD
+
+[other]
+# Any other details
+
+
+[comments]
+vinny
