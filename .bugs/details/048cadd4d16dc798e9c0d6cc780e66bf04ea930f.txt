@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.madville.com/out/cool/482889_20_levitating_animals
+
+
+[filters]
+http://www.madville.com/afs.php?kw=animals
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
