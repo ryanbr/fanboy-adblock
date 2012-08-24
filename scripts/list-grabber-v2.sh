@@ -7,6 +7,7 @@
 #
 # Version history
 #
+# 2.03 Allow Hg pulls
 # 2.02 Typo in fanboy-elements-specific.txt
 # 2.01 Various cleanups, add Israeli List
 # 2.00 Re-write the script to support split files
@@ -63,6 +64,14 @@ fi
 
 if [ ! -d "/tmp/Ramdisk/www/adblock/split" ]; then
   mkdir /tmp/Ramdisk/www/adblock/split; chmod 777 /tmp/Ramdisk/www/adblock/split
+fi
+
+# Make sure hg dir is there
+#
+if [ -d "/tmp/hgstuff/fanboy-adblock-list" ]; then
+  cd /tmp/hgstuff/fanboy-adblock-list
+  $NICE $HG pull
+  $NICE $HG update
 fi
 
 
