@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.theroot.com/blogs/paul-ryan/does-paul-ryans-black-girlfriend-matter
+
+
+[filters]
+http://www.theroot.com/sites/default/files/ad_option_icon.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
