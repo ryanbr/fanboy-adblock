@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bongdaso.com/main.aspx
+
+
+[filters]
+http://api.popnet.vn/website/60-072b030ba126b2f4b2374f342be9ed44.js
+http://bongdaso.com/js/bds.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
