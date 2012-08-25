@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yaplakal.com/forum3/topic467633.html
+
+
+[filters]
+http://www.yapfiles.ru/files/453273/1.jpg
+http://www.yapfiles.ru/files/453275/2.swf
+http://www.yaplakal.com/click/?http%3A%2F%2Fgribam.net%2Fvolunteer%2F
+http://alpha.yaplakal.com/click/?http%253A%252F%252Fgribam.net%252Fvolunteer%252F
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
