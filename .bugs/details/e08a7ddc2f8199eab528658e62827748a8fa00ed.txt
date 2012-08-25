@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mrstiff.com/movie/ana-foxxx-black-model_4847382
+
+
+[filters]
+# Copy your Adblock filters here
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
