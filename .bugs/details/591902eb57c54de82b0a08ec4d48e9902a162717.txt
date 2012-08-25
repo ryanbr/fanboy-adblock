@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cars.ru/photo/20516840/1/BMW/
+
+[filters]
+http://www.media-active.ru/system/view/0000004935/c5f0232988/
+http://www.media-active.ru/system/view/0000005024/d5c7f9f960/
+http://www.media-active.ru/system/view/0000005148/3a3232f72b/
+http://www.media-active.ru/system/view/0000005149/f9492e997d/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
