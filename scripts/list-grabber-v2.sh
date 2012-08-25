@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v2.02 (24/08/2012)
+# Fanboy Adblock list grabber script v2.05 (25/08/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
+# 2.05 Remove Dube loops and create error checking.
 # 2.04 Remove any empty lines
 # 2.03 Allow Hg pulls
 # 2.02 Typo in fanboy-elements-specific.txt
@@ -31,11 +32,13 @@ export MAINDIR="/tmp/Ramdisk/www/adblock"
 export SPLITDIR="/tmp/Ramdisk/www/adblock/split/test"
 export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
 export TESTDIR="/tmp/work"
+export DATE="`date`"
 export ADDCHECKSUM="nice -n 19 perl $HGSERV/scripts/addChecksum.pl"
 export LOGFILE="/etc/crons/log.txt"
 export HG="/usr/local/bin/hg"
 export SHA256SUM="/usr/bin/sha256sum"
 export IEDIR="/tmp/ieramdisk"
+export TWIDGE="/usr/bin/twidge update"
 export SUBS="/tmp/ieramdisk/subscriptions"
 export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
 
@@ -99,6 +102,12 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ 
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-generic.txt - $DATE" >> $LOGFILE
+        fi
+
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-generic.txt $MAINDIR/split/fanboy-generic.txt
@@ -151,6 +160,13 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-thirdparty.txt" ] && [ -d "$TESTDIR" ] &&
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-thirdparty.txt - $DATE" >> $LOGFILE
+        fi
+
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $MAINDIR/split/fanboy-thirdparty.txt
@@ -203,6 +219,13 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-firstparty.txt" ] && [ -d "$TESTDIR" ] &&
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-firstparty.txt - $DATE" >> $LOGFILE
+        fi
+
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-firstparty.txt $MAINDIR/split/fanboy-firstparty.txt
@@ -255,6 +278,13 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-popups.txt" ] && [ -d "$TESTDIR" ] && [ -
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-popups.txt - $DATE" >> $LOGFILE
+        fi
+
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-popups.txt $MAINDIR/split/fanboy-popups.txt
@@ -307,6 +337,13 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-whitelist.txt" ] && [ -d "$TESTDIR" ] && 
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-whitelist.txt - $DATE" >> $LOGFILE
+        fi
+
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-whitelist.txt $MAINDIR/split/fanboy-whitelist.txt
@@ -359,6 +396,13 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-dimensions.txt - $DATE" >> $LOGFILE
+        fi
+
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-dimensions.txt $MAINDIR/split/fanboy-dimensions.txt
@@ -412,6 +456,12 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TES
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-dimensions-whitelist.txt - $DATE" >> $LOGFILE
+        fi
+
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $MAINDIR/split/fanboy-dimensions-whitelist.txt
@@ -464,6 +514,12 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-generic.txt" ] && [ -d "$TESTDIR" ]
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-adult-generic.txt - $DATE" >> $LOGFILE
+        fi
 
         # Copy over
         #
@@ -519,115 +575,15 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
-        # Copy over
+        # Make sure the file exists
         #
-        cp -f $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt $MAINDIR/split/fanboy-adult-firstparty.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
-        echo "Files are the same: fanboy-adult-firstparty.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-adult-firstparty.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-adult-firstparty.txt failed to update: $DATE"
-fi
-
-# Fanboy-Adblock (fanboy-adult-firstparty.txt)
-# Make sure the file exists, and the work directorys are also there before processing.
-#
-if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
-  then
-   # Compare differences, only process if file has changed..
-   #
-   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt | cut -d' ' -f1)
-   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-adult-firstparty.txt | cut -d' ' -f1)
-   #
-   if [ "$SSLHG" != "$SSLMAIN" ]
-     then
-        rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-adult-firstparty.txt - $DATE" >> $LOGFILE
+        fi
 
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt $MAINDIR/split/fanboy-adult-firstparty.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
-        echo "Files are the same: fanboy-adult-firstparty.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-adult-firstparty.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-adult-firstparty.txt failed to update: $DATE"
-fi
-
-# Fanboy-Adblock (fanboy-adult-thirdparty.tx)
-# Make sure the file exists, and the work directorys are also there before processing.
-#
-if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
-  then
-   # Compare differences, only process if file has changed..
-   #
-   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt | cut -d' ' -f1)
-   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-adult-thirdparty.txt | cut -d' ' -f1)
-   #
-   if [ "$SSLHG" != "$SSLMAIN" ]
-     then
-        rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $MAINDIR/split/fanboy-adult-thirdparty.txt
 
         # Remove empty lines
         #
@@ -678,6 +634,12 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-adult-thirdparty.txt - $DATE" >> $LOGFILE
+        fi
+
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $MAINDIR/split/fanboy-adult-thirdparty.txt
@@ -707,8 +669,8 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
  else
   # Notify!
   #
-  echo "fanboy-adult-thirdparty.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-adult-thirdparty.txt failed to update: $DATE"
+  echo "fanboy-adult-firstparty.txt failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-adult-firstparty.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-adult-elements.txt)
@@ -730,6 +692,12 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-elements.txt" ] && [ -d "$TESTDIR" 
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-adult-elements.txt - $DATE" >> $LOGFILE
+        fi
 
         # Copy over
         #
@@ -784,6 +752,12 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt" ] && [ -d "$TESTDIR
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-adult-whitelists.txt - $DATE" >> $LOGFILE
+        fi
+
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt $MAINDIR/split/fanboy-adult-whitelists.txt
@@ -836,6 +810,12 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" 
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-p2p-firstparty.txt - $DATE" >> $LOGFILE
+        fi
 
         # Copy over
         #
@@ -890,6 +870,12 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" 
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-p2p-thirdparty.txt - $DATE" >> $LOGFILE
+        fi
+
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $MAINDIR/split/fanboy-p2p-thirdparty.txt
@@ -943,58 +929,11 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
-        # Copy over
+        # Make sure the file exists
         #
-        cp -f $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt $MAINDIR/split/fanboy-p2p-elements.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
-        echo "Files are the same: fanboy-p2p-elements.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-p2p-elements.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-p2p-elements.txt failed to update: $DATE"
-fi
-
-# Fanboy-Adblock (fanboy-p2p-elements.txt)
-# Make sure the file exists, and the work directorys are also there before processing.
-#
-if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
-  then
-   # Compare differences, only process if file has changed..
-   #
-   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt | cut -d' ' -f1)
-   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-p2p-elements.txt | cut -d' ' -f1)
-   #
-   if [ "$SSLHG" != "$SSLMAIN" ]
-     then
-        rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-p2p-elements.txt - $DATE" >> $LOGFILE
+        fi
 
         # Copy over
         #
@@ -1049,6 +988,12 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-generic.txt" ] && [ -d "$TESTDIR
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-elements-generic.txt - $DATE" >> $LOGFILE
+        fi
+
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $MAINDIR/split/fanboy-elements-generic.txt
@@ -1102,6 +1047,12 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-specific.txt" ] && [ -d "$TESTDI
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-elements-specific.txt - $DATE" >> $LOGFILE
+        fi
+
         # Copy over
         #
         cp -f $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $MAINDIR/split/fanboy-elements-specific.txt
@@ -1154,6 +1105,12 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt" ] && [ -d "$TEST
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
         $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
         $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
+           echo "Error creating file fanboy-merged.txt: fanboy-elements-exceptions.txt - $DATE" >> $LOGFILE
+        fi
 
         # Copy over
         #
