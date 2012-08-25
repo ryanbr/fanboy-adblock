@@ -1,0 +1,28 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.panet.co.il/online/index.html
+
+
+[filters]
+http://pms.panet.co.il/online/images/cube_ads/17574_cube_201208181434.gif
+http://pms.panet.co.il/online/images/cube_ads/17597_cube_201208201229.gif
+http://pms.panet.co.il/online/images/cube_ads/17603_cube_201208141827.gif
+http://pms.panet.co.il/online/images/cube_ads/17648_cube_201208181540.gif
+http://pms.panet.co.il/online/images/cube_ads/17649_cube_201208231223.gif
+http://pms.panet.co.il/online/images/cube_ads/17650_cube_201208231333.gif
+http://pms.panet.co.il/online/images/cube_ads/17651_cube_201208231333.gif
+http://pms.panet.co.il/online/images/cube_ads/17652_cube_201208232016.gif
+http://pms.panet.co.il/online/images/cube_ads/17653_cube_201208241230.gif
+http://pms.panet.co.il/online/images/cube_ads/17655_cube_201208241508.gif
+http://pms.panet.co.il/online/images/cube_ads/17659_cube_201208242008.gif
+http://www.panet.co.il/Ext/cubeads_cached.php?Zone=24
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy

@@ -1,5 +1,4 @@
 @echo off
-echo %time%
 :: Sync
 :: This script needs b - Distributed Bug Tracking.
 :: Note: add /b to the .hg/hgrc under "[extensions]"
@@ -8,6 +7,7 @@ echo %time%
 hg pull -u
 :: b
 hg b add -e "%*"
+echo %time%
 :: pre-sort
 perl docs\sorting\sorter2.pl fanboy-adblock\fanboy-adult-generic.txt fanboy-adblock\fanboy-adult-elements.txt fanboy-adblock\fanboy-adult-firstparty.txt fanboy-adblock\fanboy-adult-thirdparty.txt fanboy-adblock\fanboy-adult-whitelists.txt fanboy-adblock\fanboy-p2p-elements.txt fanboy-adblock\fanboy-p2p-firstparty.txt fanboy-adblock\fanboy-p2p-thirdparty.txt
 ::
