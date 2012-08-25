@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hnn.co.il/
+
+
+[filters]
+http://advertex.media-vertex.com/MVAds.aspx?mediaID=83714
+http://advertex.media-vertex.com/mvbannerads.aspx?mediaID=83714&campaignID=7549&adsID=81989&watchID=1027676761&width=780&height=150
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=14483
+
+[comments]
+fanboy
