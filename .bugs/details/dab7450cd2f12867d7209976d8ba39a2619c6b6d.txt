@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://10tv.nana10.co.il/
+
+
+[filters]
+http://ws-ext.nana10.co.il/statistics/report/UniqueUserVisit?UserGUID=7bbcee1b-094a-4ee3-b616-a71bf0a920cc&ServiceID=169&ClassName=Category&PageNum=0&InstanceID=210155&IsLoggedIn=0&ContentRealm=11&_=1345865754332
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
