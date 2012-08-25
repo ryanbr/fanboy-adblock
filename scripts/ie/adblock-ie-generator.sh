@@ -54,7 +54,7 @@ sed '1,8d' $HGSERV/ie/fanboy-adblock-addon.txt > $IEDIR/fanboy-adblock-addon.txt
 # Merge with Google-code (IE adblock addon)
 #
 
-$HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
+cat $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
         $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
