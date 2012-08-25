@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blogtruyen.com/Truyen/noblesse
+
+
+[filters]
+http://ads.truongton.net/bar/2t-bar.js
+http://ads.truongton.net/bar/images/bg-btn-logo.png
+http://ads.truongton.net/bar/images/bg-btn-play.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
