@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.muzie.ne.jp/artist/a010591/
+
+[filters]
+http://www.muzie.ne.jp/image/muzie/banner/aiai_bn_300.gif
+http://www.muzie.ne.jp/image/muzie/banner/bandup_bn_300.gif
+http://www.muzie.ne.jp/image/muzie/banner/bannerLiveJunky.png
+http://www.muzie.ne.jp/image/muzie/banner/cfwr_300_100_sumfes_muzie.png
+http://www.muzie.ne.jp/image/muzie/banner/ejc300x100.png
+http://www.muzie.ne.jp/image/muzie/banner/ontane_300_100_2.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
