@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://zone.walla.co.il/
+
+[filters]
+http://www.walla.co.il/2009/@/js/inner_mega_adtoma.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
