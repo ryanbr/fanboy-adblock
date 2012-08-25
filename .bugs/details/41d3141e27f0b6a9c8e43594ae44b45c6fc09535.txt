@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.raddar.co.il/home.html
+
+[filters]
+http://www.raddar.co.il/bannersa.php?ID=12
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
