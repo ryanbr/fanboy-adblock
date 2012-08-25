@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.iworker.ru/
+
+
+[filters]
+http://www.iworker.ru/js/adwolfScriptScroll.js
+http://www.film.ru/img/js/web2/adwolfScriptScroll.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
