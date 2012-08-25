@@ -1,47 +1,65 @@
 #!/bin/bash
 #
-# Fanboy Adblock IE Convert script v1.3 (16/04/2012)
+# Fanboy Adblock IE Convert script v1.4 (25/08/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
-
-# Creating a 10Mb ramdisk Temp storage...
-#
-if [ ! -d "/tmp/ieramdisk/" ]; then
-    rm -rf /tmp/ieramdisk/
-    mkdir /tmp/ieramdisk; chmod 777 /tmp/ieramdisk
-    mount -t tmpfs -o size=10M tmpfs /tmp/ieramdisk/
-    cp -f /home/fanboy/google/fanboy-adblock-list/scripts/ie/combineSubscriptions.py /tmp/ieramdisk/
-    mkdir /tmp/ieramdisk/subscriptions
-    mkdir /tmp/ieramdisk/subscriptions/temp
-fi
-
 # Variables
 #
-export MAINDIR="/tmp/Ramdisk/www"
-export GOOGLEDIR="/tmp/hgstuff/fanboy-adblock-list"
-export TESTDIR="/tmp/work"
-export IEDIR="/tmp/ieramdisk"
-export SUBS="/tmp/ieramdisk/subscriptions"
-export ZIP="nice -n 19 /usr/local/bin/7za"
+
+export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
 export NICE="nice -n 19"
+export TAC="/usr/bin/tac"
+export CAT="/bin/cat"
+export MAINDIR="/tmp/Ramdisk/www/adblock"
+export SPLITDIR="/tmp/Ramdisk/www/adblock/split/test"
+export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
+export TESTDIR="/tmp/work"
+export ADDCHECKSUM="nice -n 19 perl $HGSERV/scripts/addChecksum.pl"
+export LOGFILE="/etc/crons/log.txt"
+export HG="/usr/local/bin/hg"
+export SHA256SUM="/usr/bin/sha256sum"
+export IEDIR="/tmp/work/ie"
+export IESUBS="/tmp/work/ie/subscriptions"
+export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
+
+
+# Check for temp ie stuff
+#
+if [ ! -d "$IEDIR" ]; then
+    rm -rf $IEDIR
+    mkdir $IEDIR; chmod 777 $IEDIR
+fi
+
+if [ ! -d "$IEDIR/combineSubscriptions.py" ]; then
+    cp -f $HGSERV/scripts/ie/combineSubscriptions.py $IEDIR
+fi
 
 # Clear out any old files lurking
 #
-rm -rf $IEDIR/*.txt $SUBS/*
-cd $IEDIR
 
-# Copy TPL (Microsoft IE9) Script
-#
-# cp -f /root/maketpl.pl $IEDIR
+if [ -d "$IESUBS" ]; then
+    rm -rf $IESUBS/*
+fi
+
+if [ -d "$IEDIR" ]; then
+    rm -rf $IEDIR/*.txt
+fi
 
 # Cleanup fanboy-adblock-addon.txt (remove the top 8 lines)
 #
-sed '1,8d' $GOOGLEDIR/ie/fanboy-adblock-addon.txt > $IEDIR/fanboy-adblock-addon.txt
+sed '1,8d' $HGSERV/ie/fanboy-adblock-addon.txt > $IEDIR/fanboy-adblock-addon.txt
 
 # Merge with Google-code (IE adblock addon)
 #
+
+$HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
+        $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
+        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt > $IEDIR/fanboy-adblock-noele.txt
+
 cat $MAINDIR/fanboy-adblock-noele.txt $IEDIR/fanboy-adblock-addon.txt > $IEDIR/fanboy-noele.txt
 
 # IE Ultimate and Complete
@@ -59,12 +77,11 @@ sed -i '/~third-party/d' $IEDIR/fanboy-noele.txt $IEDIR/fanboy-ultimate-ie.txt $
 
 # Generate .tpl IE list
 #
-# perl $IEDIR/maketpl.pl &> /dev/null
-python $GOOGLEDIR/scripts/ie/combineSubscriptions.py $IEDIR $SUBS
+python $IEDIR/combineSubscriptions.py $IEDIR $SUBS
 
 # Cleanup Script
 #
-$GOOGLEDIR/scripts/ie/ie-cleanup-filters.sh
+$HGSERV/scripts/ie/ie-cleanup-filters.sh
 
 # Remove old gz file
 #
@@ -74,9 +91,9 @@ rm -f $SUBS/fanboy-complete-*.gz
 
 # Re-compress newly modified file
 #
-$ZIP a -mx=9 -y -tgzip $SUBS/fanboy-noele.tpl.gz $SUBS/fanboy-noele.tpl > /dev/null
-$ZIP a -mx=9 -y -tgzip $SUBS/fanboy-ultimate-ie.tpl.gz $SUBS/fanboy-ultimate-ie.tpl > /dev/null
-$ZIP a -mx=9 -y -tgzip $SUBS/fanboy-complete-ie.tpl.gz $SUBS/fanboy-complete-ie.tpl > /dev/null
+$ZIP $SUBS/fanboy-noele.tpl.gz $SUBS/fanboy-noele.tpl > /dev/null
+$ZIP $SUBS/fanboy-ultimate-ie.tpl.gz $SUBS/fanboy-ultimate-ie.tpl > /dev/null
+$ZIP $SUBS/fanboy-complete-ie.tpl.gz $SUBS/fanboy-complete-ie.tpl > /dev/null
 
 # Now copy finished tpl list to the website.
 #
