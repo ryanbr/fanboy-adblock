@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sonara.net/
+
+
+[filters]
+http://www.sonara.net/static_banners.php?ID=37
+http://www.sonara.net/static_banners.php?ID=39&=dynamic
+http://www.sonara.net/static_banners.php?ID=5&art=
+http://www.sonara.net/static_banners.php?ID=6&art=
+http://www.sonara.net/static_banners.php?ID=81&art=
+http://www.sonara.net/js/asyn_banners.php?pn=dynamic.php&um=0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
