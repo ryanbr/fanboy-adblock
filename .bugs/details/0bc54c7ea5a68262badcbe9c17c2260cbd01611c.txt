@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://goodgame.ru/
+
+[filters]
+http://goodgame.ru/images/ad2/21.gif
+http://goodgame.ru/images/ad2/450x100_kingston.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
