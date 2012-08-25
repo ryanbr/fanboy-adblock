@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.srware.net/forum/index.php?sid=d4b9b97381165f4a97dcaedc60bbc90a
+
+
+[filters]
+http://www.browser-statistik.de/browser.png?style=0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
