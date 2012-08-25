@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newizv.ru/lenta/2012-08-21/168430-semja-dolgozhitelej-s-sardinii-popala-v-knigu-ginnesa-vsego-im-819-let.html
+
+
+[filters]
+http://g4p.grt01.com/?i=3548&p=1
+http://js.grt01.com/ticker_3548.js
+http://mskweb.ru/js/news.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
