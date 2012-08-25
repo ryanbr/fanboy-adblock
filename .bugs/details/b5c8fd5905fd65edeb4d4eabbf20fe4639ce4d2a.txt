@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zulily.com/
+
+
+[filters]
+http://ad.inttrax.com/unpixel?id=*
+http://px.steelhousemedia.com/st?aid=*&cb=*&shcv=&shcq=&shcp=&shpn=&shpc=&shpp=&shpb=&shpi=*&tdr=&plh=*
+
+
+
+[other]
+reported
+
+
+[comments]
+fanboy
