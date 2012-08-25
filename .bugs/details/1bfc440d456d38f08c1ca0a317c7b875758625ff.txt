@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://quachdaica.info/js/poptgdd.js
+http://quachdaica.info/popup/vng.html
+http://quachdaica.info/themes/modern/js/popupkdg.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
