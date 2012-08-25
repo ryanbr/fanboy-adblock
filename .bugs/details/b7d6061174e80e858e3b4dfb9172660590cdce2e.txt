@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://saloona.co.il/
+
+
+[filters]
+http://images.saloona.co.il/n_share_bt.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
