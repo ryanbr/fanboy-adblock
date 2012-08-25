@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://celebs.nana10.co.il/Article/?ArticleID=920669
+
+
+[filters]
+http://px.dynamicyield.com/ac?id=26930682&sec=8764265&elm=dyprem-1461.0.275.160.600&da=null&cl=tg.w.frv2.frs.f.&l=10381442265&p=3&_=1345854580697
+http://px.dynamicyield.com/ac?id=26930682&sec=8764265&elm=dyprem-1461.0.275.160.600&da=null&cl=tg.w.frv2.frs.f.&l=10381442265&p=3&_=1345854598487
+http://px.dynamicyield.com/ac?id=26930682&sec=8764265&elm=dyprem-1461.0.275.160.600&da=null&cl=tg.w.frv2.frs.f.&l=10381442265&p=3&_=1345854630526
+http://px.dynamicyield.com/imp?id=26930682&sec=8764265&imps%5B%5D=dyprem-1461.0.275.160.600&imps%5B%5D=dyprem-1463.0.0.160.600&imps%5B%5D=dyprem-1605.56.562.780.60&imps%5B%5D=dyprom-1495.231.562.300.382&imps%5B%5D=dylinkad-1499.635.562.298.87&imps%5B%5D=dysocial-1501.764.562.276.296&imps%5B%5D=dyperf-1503.0.0.296.190&imps%5B%5D=dyaffil-1505.1064.562.300.180&imps%5B%5D=dyprom-1509.1396.562.298.183&imps%5B%5D=dyprom-1495.1779.564.298.302&imps%5B%5D=dyprom-1493.1195.882.460.275&imps%5B%5D=dyprom-1497.1480.882.460.282&cl=tg.w.frv1.frs.f.ab&bl=0&l=10381442265&p=1&_=1345854392796
+http://px.dynamicyield.com/uia?id=26930682&se=8764265&us=0.0.1&cl=tg.w.frv1.frs.f.&rf=images.fxp.co.il&p=1&sub=celebs.nana10.co.il&_=1345854385893
+http://st.dynamicyield.com/dycss?v=1329
+http://st.dynamicyield.com/s.js?v=1329
+http://st.dynamicyield.com/st?sec=8764265&l=10381442265
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
