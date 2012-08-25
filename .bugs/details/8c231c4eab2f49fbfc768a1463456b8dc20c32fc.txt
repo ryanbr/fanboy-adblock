@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www1.bizportal.co.il/
+
+
+[filters]
+http://banners5.bizportal.co.il/web/giflib/zar/kolmex-16-008-2012_142x62_colmex_goldfish.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
