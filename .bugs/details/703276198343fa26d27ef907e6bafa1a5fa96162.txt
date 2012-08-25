@@ -1,0 +1,29 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ashams.com/
+
+
+[filters]
+http://ashams.com/Files/banners/221860881.png
+http://ashams.com/Files/banners/282346732.swf
+http://ashams.com/Files/banners/490021635.swf
+http://ashams.com/Files/banners/742372565.swf
+http://ashams.com/Files/banners/859333844.swf
+http://www.ashams.com/banners_all.php?ID=1
+http://www.ashams.com/banners_all.php?ID=16
+http://www.ashams.com/banners_all.php?ID=2
+http://www.ashams.com/banners_all.php?ID=25
+http://www.ashams.com/banners_all.php?ID=3
+http://www.ashams.com/banners_all.php?ID=5
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
