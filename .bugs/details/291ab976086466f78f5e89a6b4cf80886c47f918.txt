@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.petitionbuzz.com/petitions/wewantkriyaanshback
+
+
+[filters]
+http://d-m.hopto.org/d.php?id=226_30_QqHKHKyw
+http://d-m.hopto.org/d.php?id=226_31_h886HjmX
+http://d-m.hopto.org/d.php?id=226_32_1wa849HA
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
