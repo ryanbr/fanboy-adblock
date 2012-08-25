@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://static.ec.own3d.tv/player/Own3dPlayerV3_07.swf?config=liveembedcfg/315061;autoPlay=true
+
+
+[filters]
+http://ad4.live.liverail.com/crossdomain.xml
+http://ad4.live.liverail.com/?LR_PUBLISHER_ID=10916&LR_NETWORK_ID=11865&LR_ADMAP=in::0%&LR_TAGS=pro%20live%20game_lol&LR_WIDTH=1920&LR_HEIGHT=978&LR_DURATION=61&LR_VERTICALS=own3d_mlg_gaming%20gaming&LR_URL=
+http://ad4.live.liverail.com/?LR_PUBLISHER_ID=10916&LR_NETWORK_ID=1372&LR_ADMAP=in::0%&LR_TAGS=pro%20live%20game_lol&LR_WIDTH=1920&LR_HEIGHT=978&LR_DURATION=61&LR_VERTICALS=own3d_mlg_gaming%20gaming&LR_URL=
+http://ad4.live.liverail.com/?LR_PUBLISHER_ID=10916&LR_NETWORK_ID=1935&LR_ADMAP=in::0%&LR_TAGS=pro%20live%20game_lol&LR_WIDTH=1920&LR_HEIGHT=978&LR_DURATION=61&LR_VERTICALS=own3d_mlg_gaming%20gaming&LR_URL=
+http://ad4.live.liverail.com/?LR_PUBLISHER_ID=10916&LR_NETWORK_ID=2105&LR_ADMAP=in::0%&LR_TAGS=pro%20live%20game_lol&LR_WIDTH=1920&LR_HEIGHT=978&LR_DURATION=61&LR_VERTICALS=own3d_mlg_gaming%20gaming&LR_URL=
+http://ad4.live.liverail.com/?LR_PUBLISHER_ID=10916&LR_NETWORK_ID=4995&LR_ADMAP=in::0%&LR_TAGS=pro%20live%20game_lol&LR_WIDTH=1920&LR_HEIGHT=978&LR_DURATION=61&LR_VERTICALS=own3d_mlg_gaming%20gaming&LR_URL=
+http://ad4.live.liverail.com/?LR_PUBLISHER_ID=10916&LR_NETWORK_ID=6077&LR_ADMAP=in::0%&LR_TAGS=pro%20live%20game_lol&LR_WIDTH=1920&LR_HEIGHT=978&LR_DURATION=61&LR_VERTICALS=own3d_mlg_gaming%20gaming&LR_URL=
+http://ad4.live.liverail.com/?LR_PUBLISHER_ID=10916&LR_NETWORK_ID=7867&LR_ADMAP=in::0%&LR_TAGS=pro%20live%20game_lol&LR_WIDTH=1920&LR_HEIGHT=978&LR_DURATION=61&LR_VERTICALS=own3d_mlg_gaming%20gaming&LR_URL=
+http://ad4.live.liverail.com/?LR_PUBLISHER_ID=10916&LR_NETWORK_ID=8683&LR_ADMAP=in::0%&LR_TAGS=pro%20live%20game_lol&LR_WIDTH=1920&LR_HEIGHT=978&LR_DURATION=61&LR_VERTICALS=own3d_mlg_gaming%20gaming&LR_URL=
+http://ad4.live.liverail.com/?LR_PUBLISHER_ID=10916&LR_NETWORK_ID=9347&LR_ADMAP=in::0%&LR_TAGS=pro%20live%20game_lol&LR_WIDTH=1920&LR_HEIGHT=978&LR_DURATION=61&LR_VERTICALS=own3d_mlg_gaming%20gaming&LR_URL=
+http://ad4.live.liverail.com/?LR_PUBLISHER_ID=10916&LR_NETWORK_ID=9565&LR_ADMAP=in::0%&LR_TAGS=pro%20live%20game_lol&LR_WIDTH=1920&LR_HEIGHT=978&LR_DURATION=61&LR_VERTICALS=own3d_mlg_gaming%20gaming&LR_URL=
+
+
+
+[other]
+Made less generic.. just whitelist crossdomain.
+
+[comments]
+fanboy
