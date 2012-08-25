@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gidepark.ru/
+
+
+[filters]
+http://gidepark.ru/static/banners/right_top.html
+http://gidepark.ru/static/banners/top.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
