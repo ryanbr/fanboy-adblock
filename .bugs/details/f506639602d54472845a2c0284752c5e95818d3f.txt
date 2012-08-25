@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.superjob.ru/
+
+
+[filters]
+http://www.superjob.ru/cdn/min/file/sj/775935774/js/blocks/adriverBanner.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
