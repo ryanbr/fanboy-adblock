@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mako.co.il/
+
+
+[filters]
+http://mako.buy2.co.il/Buy2Wid.aspx?source=mako&date=25_7&medium=mako_hp_kubia&template=Buy2Wid_Mako_276_268&timer=0
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
