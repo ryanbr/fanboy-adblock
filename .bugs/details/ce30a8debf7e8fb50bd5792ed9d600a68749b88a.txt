@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sport5.co.il/HTML/articles/Article.416.128157.html
+
+[filters]
+http://www.sport5.co.il/banners2/FILES/1/1121.jpg?banner=100004
+http://www.sport5.co.il/banners2/FILES/2/22.jpg?banner=100015
+http://www.sport5.co.il/banners2/FILES/5/1245.jpg?banner=100095
+http://www.sport5.co.il/banners2/FILES/8/1118.jpg?banner=100006
+http://www.sport5.co.il/banners2/FILES/8/1188.jpg?banner=100002
+http://www.sport5.co.il/banners2/FILES/9/309.jpg?banner=100152
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
