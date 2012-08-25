@@ -1,4 +1,5 @@
 @echo off
+echo %time%
 hg pull -u
 :: pre-sort
 perl docs\sorting\sorter2.pl fanboy-adblock\fanboy-adult-generic.txt fanboy-adblock\fanboy-adult-elements.txt fanboy-adblock\fanboy-adult-firstparty.txt fanboy-adblock\fanboy-adult-thirdparty.txt fanboy-adblock\fanboy-adult-whitelists.txt fanboy-adblock\fanboy-p2p-elements.txt fanboy-adblock\fanboy-p2p-firstparty.txt fanboy-adblock\fanboy-p2p-thirdparty.txt
@@ -19,3 +20,4 @@ perl scripts\addChecksum-opera.pl opera\urlfilter.ini
 :: Commit
 hg commit -m "%*"
 hg push
+echo %time%

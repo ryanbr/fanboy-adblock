@@ -1,4 +1,5 @@
 @echo off
+echo %time%
 :: Sync
 :: This script needs b - Distributed Bug Tracking.
 :: Note: add /b to the .hg/hgrc under "[extensions]"
@@ -26,3 +27,4 @@ perl scripts\addChecksum-opera.pl opera\urlfilter.ini
 :: Commit
 hg commit -m "%*"
 hg push
+echo %time%
