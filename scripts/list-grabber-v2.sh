@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v2.05 (25/08/2012)
+# Fanboy Adblock list grabber script v2.06 (26/08/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
+# 2.06 Better error checking
 # 2.05 Remove Dube loops and create error checking.
 # 2.04 Remove any empty lines
 # 2.03 Allow Hg pulls
@@ -104,40 +105,36 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ 
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-generic.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-generic.txt $MAINDIR/split/fanboy-generic.txt
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/split/fanboy-adblock.txt
+              rm -rf $MAINDIR/split/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/split/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-generic.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-generic.txt $MAINDIR/split/fanboy-generic.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/split/fanboy-adblock.txt
-        rm -rf $MAINDIR/split/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/split/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-generic.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-generic failed to update: $DATE" >> $LOGFILE
+    fi
+else
+  echo "fanboy-generic (fanboy-generic.txt) failed to update: $DATE" >> $LOGFILE
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
@@ -163,41 +160,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-thirdparty.txt" ] && [ -d "$TESTDIR" ] &&
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-thirdparty.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $MAINDIR/split/fanboy-thirdparty.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-thirdparty.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $MAINDIR/split/fanboy-thirdparty.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-thirdparty.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-thirdparty failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-thirdparty.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-thirdparty.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-firstparty.txt)
@@ -222,41 +218,41 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-firstparty.txt" ] && [ -d "$TESTDIR" ] &&
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-firstparty.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-firstparty.txt $MAINDIR/split/fanboy-firstparty.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-firstparty.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-firstparty.txt $MAINDIR/split/fanboy-firstparty.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-firstparty.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-firstparty.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-firstparty.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-firstparty.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-popups.txt)
@@ -281,41 +277,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-popups.txt" ] && [ -d "$TESTDIR" ] && [ -
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-popups.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-popups.txt $MAINDIR/split/fanboy-popups.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-popups.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-popups.txt $MAINDIR/split/fanboy-popups.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-popups.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-popups.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-popups.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-popups.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-whitelist.txt)
@@ -340,41 +335,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-whitelist.txt" ] && [ -d "$TESTDIR" ] && 
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-whitelist.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-whitelist.txt $MAINDIR/split/fanboy-whitelist.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-whitelist.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-whitelist.txt $MAINDIR/split/fanboy-whitelist.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-whitelist.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-whitelist.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-whitelist.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-whitelist.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-dimensions.txt)
@@ -399,41 +393,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-dimensions.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-dimensions.txt $MAINDIR/split/fanboy-dimensions.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-dimensions.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-dimensions.txt $MAINDIR/split/fanboy-dimensions.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-dimensions.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-dimensions.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-dimensions.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-dimensions.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-dimensions-whitelist.txt)
@@ -458,41 +451,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TES
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-dimensions-whitelist.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $MAINDIR/split/fanboy-dimensions-whitelist.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-dimensions-whitelist.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $MAINDIR/split/fanboy-dimensions-whitelist.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-dimensions-whitelist.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-dimensions-whitelist.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-dimensions-whitelist.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-dimensions-whitelist.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-adult-generic.txt)
@@ -517,41 +509,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-generic.txt" ] && [ -d "$TESTDIR" ]
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-adult-generic.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $MAINDIR/split/fanboy-adult-generic.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-adult-generic.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $MAINDIR/split/fanboy-adult-generic.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-adult-generic.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-adult-generic.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-adult-generic.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-adult-generic.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 
@@ -577,41 +568,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-adult-firstparty.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt $MAINDIR/split/fanboy-adult-firstparty.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-adult-firstparty.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt $MAINDIR/split/fanboy-adult-firstparty.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-adult-firstparty.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-adult-firstparty.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-adult-firstparty.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-adult-firstparty.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-adult-thirdparty.txt)
@@ -636,41 +626,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-adult-thirdparty.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $MAINDIR/split/fanboy-adult-thirdparty.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-adult-thirdparty.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $MAINDIR/split/fanboy-adult-thirdparty.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-adult-thirdparty.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-adult-firstparty.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-adult-firstparty.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-adult-thirdparty.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-adult-elements.txt)
@@ -695,41 +684,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-elements.txt" ] && [ -d "$TESTDIR" 
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-adult-elements.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $MAINDIR/split/fanboy-adult-elements.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-adult-elements.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $MAINDIR/split/fanboy-adult-elements.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-adult-elements.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-adult-elements.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-adult-elements.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-adult-elements.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-adult-whitelists.txt)
@@ -754,41 +742,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt" ] && [ -d "$TESTDIR
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-adult-whitelists.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+             # Copy over
+             #
+             cp -f $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt $MAINDIR/split/fanboy-adult-whitelists.txt
+
+             # Remove empty lines
+             #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-adult-whitelists.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt $MAINDIR/split/fanboy-adult-whitelists.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-adult-whitelists.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-adult-whitelists.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-adult-whitelists.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-adult-whitelists.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-p2p-firstparty.txt)
@@ -813,41 +800,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" 
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-p2p-firstparty.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $MAINDIR/split/fanboy-p2p-firstparty.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-p2p-firstparty.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $MAINDIR/split/fanboy-p2p-firstparty.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-p2p-firstparty.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-p2p-firstparty.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-p2p-firstparty.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-p2p-firstparty.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-p2p-thirdparty.txt)
@@ -872,41 +858,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" 
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-p2p-thirdparty.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $MAINDIR/split/fanboy-p2p-thirdparty.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-p2p-thirdparty.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $MAINDIR/split/fanboy-p2p-thirdparty.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-p2p-thirdparty.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-p2p-thirdparty.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-p2p-thirdparty.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-p2p-thirdparty.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-p2p-elements.txt)
@@ -931,41 +916,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-p2p-elements.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt $MAINDIR/split/fanboy-p2p-elements.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-p2p-elements.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt $MAINDIR/split/fanboy-p2p-elements.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-p2p-elements.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-p2p-elements.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-p2p-elements.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-p2p-elements.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-elements-generic.txt)
@@ -990,41 +974,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-generic.txt" ] && [ -d "$TESTDIR
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-elements-generic.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $MAINDIR/split/fanboy-elements-generic.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-elements-generic.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $MAINDIR/split/fanboy-elements-generic.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-elements-generic.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-elements-generic.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-elements-generic.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-elements-generic.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-elements-specific.txt)
@@ -1049,41 +1032,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-specific.txt" ] && [ -d "$TESTDI
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-elements-specific.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $MAINDIR/split/fanboy-elements-specific.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-elements-specific.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $MAINDIR/split/fanboy-elements-specific.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-elements-specific.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-elements-specific.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-elements-specific.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-elements-specific.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 # Fanboy-Adblock (fanboy-elements-specific.txt)
@@ -1108,41 +1090,40 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt" ] && [ -d "$TEST
 
         # Make sure the file exists
         #
-        if [ ! -d "$TESTDIR/fanboy-merged.txt" ]; then
-           echo "Error creating file fanboy-merged.txt: fanboy-elements-exceptions.txt - $DATE" >> $LOGFILE
+        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt $MAINDIR/split/fanboy-elements-exceptions.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-elements-exceptions.txt - $DATE" >> $LOGFILE
         fi
-
-        # Copy over
-        #
-        cp -f $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt $MAINDIR/split/fanboy-elements-exceptions.txt
-
-        # Remove empty lines
-        #
-        sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
-        mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
-
-        # Checksum
-        #
-        $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-        # Compress
-        #
-        cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-        rm -rf $MAINDIR/fanboy-adblock.txt.gz
-        $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-        # Fanboy Ultimate + Complete
-        #
-        $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-     else
+    else
+        # File check hg vs secure.fanboy.co.nz
         echo "Files are the same: fanboy-elements-exceptions.txt" > /dev/null
-   fi
- else
-  # Notify!
-  #
-  echo "fanboy-elements-specific.txt failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-elements-specific.txt failed to update: $DATE"
+    fi
+else
+  echo "fanboy-generic (fanboy-elements-exceptions.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
 
@@ -1163,12 +1144,12 @@ if [ "$SSLHG" != "$SSLMAIN" ]
     # Now combine with international list
     # sh /etc/crons/hg-grab-intl.sh
     # Generate IE script
-    $HGSERV/scripts/ie/tracking-ie-generator.sh
+    # $HGSERV/scripts/ie/tracking-ie-generator.sh
     # Combine
-    $HGSERV/scripts/combine/firefox-adblock-tracking.sh
-    $HGSERV/scripts/combine/firefox-adblock-merged.sh
+    # $HGSERV/scripts/combine/firefox-adblock-tracking.sh
+    # $HGSERV/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
-    $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+    # $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
     # Firefox2Opera
     # $NICE $HGSERV/scripts/firefox2opera.sh
 else
@@ -1177,7 +1158,7 @@ fi
 
 ############### Fanboy Enhanced Trackers #################
 SSLHG=$($SHA256SUM $HGSERV/enhancedstats-addon.txt | cut -d' ' -f1)
-SSLMAIN=$($SHA256SUM $MAINDIR/enhancedstats.txt-org | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/enhancedstats.txt | cut -d' ' -f1)
 
 if [ "$SSLHG" != "$SSLMAIN" ]
 then
@@ -1190,11 +1171,11 @@ then
     # GZip
     $ZIP $MAINDIR/enhancedstats.txt.gz $TESTDIR/enhancedstats-addon.txt > /dev/null
     # Combine Regional trackers
-    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
+    # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
-    $HGSERV/scripts/combine/firefox-adblock-merged.sh
+    # $HGSERV/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
-    $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+    # $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
     # Firefox2Opera
     # $NICE $HGSERV/scripts/firefox2opera.sh
 else
@@ -1214,11 +1195,11 @@ then
     cp -f $TESTDIR/fanboy-addon.txt $MAINDIR/fanboy-addon.txt
     # Remove old copy, then gzip it
     rm -rf $MAINDIR/fanboy-addon.txt.gz
-    $ZIP $MAINDIR/fanboy-addon.txt.gz $TESTDIR/fanboy-addon.txtt > /dev/null
+    $ZIP $MAINDIR/fanboy-addon.txt.gz $TESTDIR/fanboy-addon.txt > /dev/null
     # Combine
-    $HGSERV/scripts/combine/firefox-adblock-merged.sh
+    # $HGSERV/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
-    $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+    # $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
     # Firefox2Opera
     # $NICE $HGSYNC/scripts/firefox2opera.sh
 else
@@ -1239,11 +1220,11 @@ then
    rm -rf $MAINDIR/fanboy-czech.txt.gz
    $ZIP $MAINDIR/fanboy-czech.txt.gz $TESTDIR/fanboy-czech.txt > /dev/null
    # Combine Regional trackers
-   $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
+   # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
-   $HGSERV/scripts/ie/czech-ie-generator.sh
+   # $HGSERV/scripts/ie/czech-ie-generator.sh
    # Combine
-   $HGSERV/scripts/combine/firefox-adblock-czech.sh
+   # $HGSERV/scripts/combine/firefox-adblock-czech.sh
 else
    echo "Files are the same: fanboy-czech.txt" > /dev/null
 fi
@@ -1264,11 +1245,11 @@ then
    # Combine Regional trackers
    $HGSYNC/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
-   $HGSERV/scripts/ie/russian-ie-generator.sh
+   # $HGSERV/scripts/ie/russian-ie-generator.sh
    # Combine
-   $HGSERV/scripts/combine/firefox-adblock-rus.sh
+   # $HGSERV/scripts/combine/firefox-adblock-rus.sh
    # Generate Opera RUS script also
-   $HGSERV/scripts/firefox/opera-russian.sh
+   # $HGSERV/scripts/firefox/opera-russian.sh
 else
    echo "Files are the same: fanboy-russian.txt" > /dev/null
 fi
@@ -1287,11 +1268,11 @@ then
    rm -rf $MAINDIR/fanboy-turkish.txt.gz
    $ZIP $MAINDIR/fanboy-turkish.txt.gz $TESTDIR/fanboy-turkish.txt > /dev/null
    # Combine Regional trackers
-   $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
+   # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
-   $HGSERV/scripts/ie/turkish-ie-generator.sh
+   # $HGSERV/scripts/ie/turkish-ie-generator.sh
    # Combine
-   $HGSERV/scripts/combine/firefox-adblock-turk.sh
+   # $HGSERV/scripts/combine/firefox-adblock-turk.sh
 else
    echo "Files are the same: fanboy-turkish.txt" > /dev/null
 fi
@@ -1309,11 +1290,11 @@ then
    rm -rf $MAINDIR/fanboy-japanese.txt.gz
    $ZIP $MAINDIR/fanboy-japanese.txt.gz $TESTDIR/fanboy-japanese.txt > /dev/null
    # Combine Regional trackers
-   $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
+   # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
    # Generate IE script
-   $HGSERV/scripts/ie/japanese-ie-generator.sh
+   # $HGSERV/scripts/ie/japanese-ie-generator.sh
    # Combine
-   $HGSERV/scripts/combine/firefox-adblock-jpn.sh
+   # $HGSERV/scripts/combine/firefox-adblock-jpn.sh
 else
    echo "Files are the same: fanboy-japanese.txt" > /dev/null
 fi
@@ -1332,9 +1313,9 @@ then
     rm -rf $MAINDIR/fanboy-korean.txt.gz
     $ZIP $MAINDIR/fanboy-korean.txt.gz $TESTDIR/fanboy-korean.txt > /dev/null
     # Combine Regional trackers
-    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
+    # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
-    $HGSERV/scripts/combine/firefox-adblock-krn.sh
+    # $HGSERV/scripts/combine/firefox-adblock-krn.sh
 else
    echo "Files are the same: fanboy-korean.txt" > /dev/null
 fi
@@ -1351,11 +1332,11 @@ then
     cp -f $TESTDIR/fanboy-italian.txt $MAINDIR/fanboy-italian.txt
     $ZIP $MAINDIR/fanboy-italian.txt.gz $TESTDIR/fanboy-italian.txt > /dev/null
     # Combine Regional trackers
-    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
+    # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Generate IE script
-    $HGSERV/scripts/ie/italian-ie-generator.sh
+    # $HGSERV/scripts/ie/italian-ie-generator.sh
     # Combine
-    $HGSERV/scripts/combine/firefox-adblock-ita.sh
+    # $HGSERV/scripts/combine/firefox-adblock-ita.sh
 else
    echo "Files are the same: fanboy-italian.txt" > /dev/null
 fi
@@ -1374,9 +1355,9 @@ then
     rm -rf $MAINDIR/fanboy-polish.txt.gz 
     $ZIP $MAINDIR/fanboy-polish.txt.gz $TESTDIR/fanboy-polish.txt > /dev/null
     # Combine Regional trackers
-    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
+    # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
-    $HGSERV/scripts/combine/firefox-adblock-pol.sh
+    # $HGSERV/scripts/combine/firefox-adblock-pol.sh
 else
    echo "Files are the same: fanboy-polish.txt" > /dev/null
 fi
@@ -1395,9 +1376,9 @@ then
     rm -rf $MAINDIR/fanboy-indian.txt.gz
     $ZIP $MAINDIR/fanboy-indian.txt.gz $TESTDIR/fanboy-indian.txt > /dev/null
     # Combine Regional trackers
-    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
+    # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
-    $HGSERV/scripts/combine/firefox-adblock-ind.sh
+    # $HGSERV/scripts/combine/firefox-adblock-ind.sh
 else
    echo "Files are the same: fanboy-indian.txt" > /dev/null
 fi
@@ -1416,9 +1397,9 @@ then
     rm -rf $MAINDIR/fanboy-vietnam.txt.gz
     $ZIP $MAINDIR/fanboy-vietnam.txt.gz $TESTDIR/fanboy-vietnam.txt > /dev/null
     # Combine Regional trackers
-    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
+    # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
-    $HGSERV/scripts/combine/firefox-adblock-vtn.sh
+    # $HGSERV/scripts/combine/firefox-adblock-vtn.sh
 else
    echo "Files are the same: fanboy-vietnam.txt" > /dev/null
 fi
@@ -1437,11 +1418,11 @@ then
     rm -rf $MAINDIR/fanboy-espanol.txt.gz
     $ZIP $MAINDIR/fanboy-espanol.txt.gz $TESTDIR/fanboy-espanol.txt > /dev/null
     # Combine Regional trackers
-    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
+    # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
 		# Generate IE script
-		$HGSERV/scripts/ie/espanol-ie-generator.sh
+		# $HGSERV/scripts/ie/espanol-ie-generator.sh
 		# Combine
-		$HGSERV/scripts/combine/firefox-adblock-esp.sh
+		# $HGSERV/scripts/combine/firefox-adblock-esp.sh
 else
    echo "Files are the same: fanboy-espanol.txt" > /dev/null
 fi
@@ -1460,9 +1441,9 @@ then
     rm -rf $MAINDIR/fanboy-swedish.txt.gz
     $ZIP $MAINDIR/fanboy-swedish.txt.gz $TESTDIR/fanboy-swedish.txt > /dev/null
     # Combine Regional trackers
-    $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
+    # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
-    $HGSERV/scripts/combine/firefox-adblock-swe.sh
+    # $HGSERV/scripts/combine/firefox-adblock-swe.sh
 else
    echo "Files are the same: fanboy-swedish.txt" > /dev/null
 fi
