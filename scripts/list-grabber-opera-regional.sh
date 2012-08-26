@@ -35,8 +35,8 @@ if diff $HGSERV/opera/urlfilter-cz.ini $MAINDIR/opera/urlfilter-cz.ini > /dev/nu
      echo "No Changes detected: czech/urlfilter.ini" > /dev/null
   else
     cp -f $HGSERV/opera/urlfilter-cz.ini $MAINDIR/opera/urlfilter-cz.ini
-    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-cz.ini > $TESTDIR/opera/urlfilter-cz2.ini
-    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-cz.ini > $TESTDIR/opera/urlfilter-cz-stats2.ini
+    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-cz.ini > $TESTDIR/opera/urlfilter-cz-stats2.ini
+    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-cz.ini > $TESTDIR/opera/urlfilter-cz2.ini
     # remove spaces
     sed '/^$/d'  $TESTDIR/opera/urlfilter-cz2.ini >  $TESTDIR/opera/urlfilter-cz.ini
     sed '/^$/d'  $TESTDIR/opera/urlfilter-cz-stats2.ini >  $TESTDIR/opera/urlfilter-cz-stats.ini
@@ -56,8 +56,8 @@ if diff $HGSERV/opera/urlfilter-pol.ini $MAINDIR/opera/urlfilter-pol.ini > /dev/
      echo "No Changes detected: Polish/urlfilter.ini" > /dev/null
   else
     cp -f $HGSERV/opera/urlfilter-pol.ini $MAINDIR/opera/urlfilter-pol.ini
-    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-pol.ini > $TESTDIR/opera/urlfilter-pol2.ini
-    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-pol.ini > $TESTDIR/opera/urlfilter-pol-stats2.ini
+    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-pol.ini > $TESTDIR/opera/urlfilter-pol-stats2.ini
+    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-pol.ini > $TESTDIR/opera/urlfilter-pol2.ini
     # remove spaces
     sed '/^$/d'  $TESTDIR/opera/urlfilter-pol2.ini >  $TESTDIR/opera/urlfilter-pol.ini
     sed '/^$/d'  $TESTDIR/opera/urlfilter-pol-stats2.ini >  $TESTDIR/opera/urlfilter-pol-stats.ini
@@ -75,8 +75,8 @@ if diff $HGSERV/opera/urlfilter-esp.ini $MAINDIR/opera/urlfilter-esp.ini > /dev/
      echo "No Changes detected: Espanol/urlfilter.ini" > /dev/null
   else
     cp -f $HGSERV/opera/urlfilter-esp.ini $MAINDIR/opera/urlfilter-esp.ini
-    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-esp.ini > $TESTDIR/opera/urlfilter-esp2.ini
-    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-esp.ini > $TESTDIR/opera/urlfilter-esp-stats2.ini
+    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-esp.ini > $TESTDIR/opera/urlfilter-esp-stats2.ini
+    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-esp.ini > $TESTDIR/opera/urlfilter-esp2.ini
     # remove spaces
     sed '/^$/d'  $TESTDIR/opera/urlfilter-esp2.ini >  $TESTDIR/opera/urlfilter-esp.ini
     sed '/^$/d'  $TESTDIR/opera/urlfilter-esp-stats2.ini >  $TESTDIR/opera/urlfilter-esp-stats.ini
@@ -93,8 +93,8 @@ if diff $HGSERV/opera/urlfilter-rus.ini $MAINDIR/opera/urlfilter-rus.ini > /dev/
      echo "No Changes detected: Russian/urlfilter.ini" > /dev/null
   else
     cp -f $HGSERV/opera/urlfilter-rus.ini $MAINDIR/opera/urlfilter-rus.ini
-    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-rus.ini > $TESTDIR/opera/urlfilter-rus2.ini
-    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-rus.ini > $TESTDIR/opera/urlfilter-rus-stats2.ini
+    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-rus.ini > $TESTDIR/opera/urlfilter-rus-stats2.ini
+    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-rus.ini > $TESTDIR/opera/urlfilter-rus2.ini
     # remove spaces
     sed '/^$/d'  $TESTDIR/opera/urlfilter-rus2.ini >  $TESTDIR/opera/urlfilter-rus.ini
     sed '/^$/d'  $TESTDIR/opera/urlfilter-rus-stats2.ini >  $TESTDIR/opera/urlfilter-rus-stats.ini
@@ -111,8 +111,8 @@ if diff $HGSERV/opera/urlfilter-swe.ini $MAINDIR/opera/urlfilter-swe.ini > /dev/
      echo "No Changes detected: Swedish/urlfilter.ini" > /dev/null
   else
     cp -f $HGSERV/opera/urlfilter-swe.ini $MAINDIR/opera/urlfilter-swe.ini
-    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-swe.ini > $TESTDIR/opera/urlfilter-swe2.ini
-    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-swe.ini > $TESTDIR/opera/urlfilter-swe-stats2.ini
+    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-swe.ini > $TESTDIR/opera/urlfilter-swe-stats2.ini
+    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-swe.ini > $TESTDIR/opera/urlfilter-swe2.ini
     # remove spaces
     sed '/^$/d'  $TESTDIR/opera/urlfilter-swe2.ini >  $TESTDIR/opera/urlfilter-swe.ini
     sed '/^$/d'  $TESTDIR/opera/urlfilter-swe-stats2.ini >  $TESTDIR/opera/urlfilter-swe-stats.ini
@@ -129,8 +129,8 @@ if diff $HGSERV/opera/urlfilter-jpn.ini $MAINDIR/opera/urlfilter-jpn.ini > /dev/
      echo "No Changes detected: Japanese/urlfilter.ini" > /dev/null
   else
     cp -f $HGSERV/opera/urlfilter-jpn.ini $MAINDIR/opera/urlfilter-jpn.ini
-    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-jpn.ini > $TESTDIR/opera/urlfilter-jpn2.ini
-    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-jpn.ini > $TESTDIR/opera/urlfilter-jpn-stats2.ini
+    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-jpn.ini > $TESTDIR/opera/urlfilter-jpn-stats2.ini
+    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-jpn.ini > $TESTDIR/opera/urlfilter-jpn2.ini
     # remove spaces
     sed '/^$/d'  $TESTDIR/opera/urlfilter-jpn2.ini >  $TESTDIR/opera/urlfilter-jpn.ini
     sed '/^$/d'  $TESTDIR/opera/urlfilter-jpn-stats2.ini >  $TESTDIR/opera/urlfilter-jpn-stats.ini
@@ -147,8 +147,8 @@ if diff $HGSERV/opera/urlfilter-vtn.ini $MAINDIR/opera/urlfilter-vtn.ini > /dev/
      echo "No Changes detected: Vietnamese/urlfilter.ini" > /dev/null
   else
     cp -f $HGSERV/opera/urlfilter-vtn.ini $MAINDIR/opera/urlfilter-vtn.ini
-    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-vtn.ini > $TESTDIR/opera/urlfilter-vtn2.ini
-    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-vtn.ini > $TESTDIR/opera/urlfilter-vtn-stats2.ini
+    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-vtn.ini > $TESTDIR/opera/urlfilter-vtn-stats2.ini
+    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-vtn.ini > $TESTDIR/opera/urlfilter-vtn2.ini
     # remove spaces
     sed '/^$/d'  $TESTDIR/opera/urlfilter-vtn2.ini >  $TESTDIR/opera/urlfilter-vtn.ini
     sed '/^$/d'  $TESTDIR/opera/urlfilter-vtn-stats2.ini >  $TESTDIR/opera/urlfilter-vtn-stats.ini
@@ -165,8 +165,8 @@ if diff $HGSERV/opera/urlfilter-tky.ini $MAINDIR/opera/urlfilter-tky.ini > /dev/
      echo "No Changes detected: Turkey/urlfilter.ini" > /dev/null
   else
     cp -f $HGSERV/opera/urlfilter-tky.ini $MAINDIR/opera/urlfilter-tky.ini
-    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-tky.ini > $TESTDIR/opera/urlfilter-tky2.ini
-    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-tky.ini > $TESTDIR/opera/urlfilter-tky-stats2.ini
+    cat $MAINDIR/opera/complete/urlfilter.ini $MAINDIR/opera/urlfilter-tky.ini > $TESTDIR/opera/urlfilter-tky-stats2.ini
+    cat $MAINDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter-tky.ini > $TESTDIR/opera/urlfilter-tky2.ini
     # remove spaces
     sed '/^$/d'  $TESTDIR/opera/urlfilter-tky2.ini >  $TESTDIR/opera/urlfilter-tky.ini
     sed '/^$/d'  $TESTDIR/opera/urlfilter-tky-stats2.ini >  $TESTDIR/opera/urlfilter-tky-stats.ini
