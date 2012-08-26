@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thewhir.com/whir-events?ee=40
+
+[filters]
+http://cdn.angelfishstats.com/WH511956/001.js
+http://cdn.angelfishstats.com/angelfish.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
