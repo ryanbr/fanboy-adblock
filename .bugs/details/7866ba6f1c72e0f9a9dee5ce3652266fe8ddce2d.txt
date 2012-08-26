@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.airspacemag.com/video/Armstrongs-Close-Call.html
+
+
+[filters]
+http://www.airspacemag.com/g/g/button/button_1.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
