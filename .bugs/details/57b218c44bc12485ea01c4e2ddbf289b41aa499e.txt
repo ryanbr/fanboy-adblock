@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pubarticles.com/trends,samsung-galaxy-s3,601073.html?refer=article_1
+
+
+[filters]
+http://www.pubarticles.com/add_hits_by_user_click.php?type=article&id=1059502
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
