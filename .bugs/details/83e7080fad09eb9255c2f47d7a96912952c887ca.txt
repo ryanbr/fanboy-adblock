@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newsarama.com/comics/10-marvel-cliffhangers.html
+
+
+[filters]
+http://www.newsarama.com/common/track.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
