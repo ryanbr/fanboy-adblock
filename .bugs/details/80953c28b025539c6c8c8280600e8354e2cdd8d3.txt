@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.broadbandgenie.co.uk/broadband/deals
+
+
+[filters]
+http://www.broadbandgenie.co.uk/images/takeover/sky/August2012_voucher.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
