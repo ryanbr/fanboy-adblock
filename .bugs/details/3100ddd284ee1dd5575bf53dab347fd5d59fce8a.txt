@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.wabcradio.com
+
+
+[filters]
+http://citadelcc.vo.llnwd.net/o29/stations/NEW_YORK/WABC/img/takeover_shebytes3.jpg
+http://rnlabs.com/apps/reztrack/inc.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
