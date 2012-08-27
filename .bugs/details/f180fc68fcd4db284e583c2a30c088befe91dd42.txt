@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rrstar.com/news/x1782334300/Wisconsin-museum-displays-Les-Pauls-first-pro-guitar
+
+
+[filters]
+http://209.20.84.187/blank.gif?site_id=rrstar&storyurl=http://www.rrstar.com/news/x1782334300/Wisconsin-museum-displays-Les-Pauls-first-pro-guitar&zip=61104&title=Wisconsin%20museum%20displays%20Les%20Paul%27s%20first%20pro%20guitar&comment_count=0&pubdate=2012-08-26&section=news
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
