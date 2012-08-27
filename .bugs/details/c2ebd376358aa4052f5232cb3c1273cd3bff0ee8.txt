@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://disney.go.com/videos/?channel=153589&content=2012594&playlistID=470097&playlistPanelID=dxd_media_playlist&&cmp=SYN|bme|Sustain|LiveEventsPage|RightBottomPromo||081712|watch||synergymusM|#/videos/musicvideos/&content=2012594
+
+
+[filters]
+http://vp.disney.go.com/player/latest/flash/plugins/doubleclickPlugin.swf
+
+
+
+
+[other]
+https://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14519
+
+
+[comments]
+fanboy
