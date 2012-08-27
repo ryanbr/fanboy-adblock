@@ -106,7 +106,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ 
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-generic.txt $MAINDIR/split/fanboy-generic.txt
@@ -161,7 +161,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-thirdparty.txt" ] && [ -d "$TESTDIR" ] &&
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $MAINDIR/split/fanboy-thirdparty.txt
@@ -219,7 +219,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-firstparty.txt" ] && [ -d "$TESTDIR" ] &&
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
 
               # Copy over
               #
@@ -278,7 +278,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-popups.txt" ] && [ -d "$TESTDIR" ] && [ -
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-popups.txt $MAINDIR/split/fanboy-popups.txt
@@ -336,7 +336,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-whitelist.txt" ] && [ -d "$TESTDIR" ] && 
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-whitelist.txt $MAINDIR/split/fanboy-whitelist.txt
@@ -394,7 +394,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-dimensions.txt $MAINDIR/split/fanboy-dimensions.txt
@@ -452,7 +452,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TES
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $MAINDIR/split/fanboy-dimensions-whitelist.txt
@@ -510,7 +510,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-generic.txt" ] && [ -d "$TESTDIR" ]
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $MAINDIR/split/fanboy-adult-generic.txt
@@ -569,7 +569,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt $MAINDIR/split/fanboy-adult-firstparty.txt
@@ -627,7 +627,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $MAINDIR/split/fanboy-adult-thirdparty.txt
@@ -685,7 +685,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-elements.txt" ] && [ -d "$TESTDIR" 
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $MAINDIR/split/fanboy-adult-elements.txt
@@ -743,7 +743,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt" ] && [ -d "$TESTDIR
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
              # Copy over
              #
              cp -f $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt $MAINDIR/split/fanboy-adult-whitelists.txt
@@ -801,7 +801,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" 
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $MAINDIR/split/fanboy-p2p-firstparty.txt
@@ -859,7 +859,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" 
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $MAINDIR/split/fanboy-p2p-thirdparty.txt
@@ -917,7 +917,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt $MAINDIR/split/fanboy-p2p-elements.txt
@@ -975,7 +975,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-generic.txt" ] && [ -d "$TESTDIR
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $MAINDIR/split/fanboy-elements-generic.txt
@@ -1033,7 +1033,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-specific.txt" ] && [ -d "$TESTDI
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $MAINDIR/split/fanboy-elements-specific.txt
@@ -1091,7 +1091,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt" ] && [ -d "$TEST
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt $MAINDIR/split/fanboy-elements-exceptions.txt
@@ -1154,7 +1154,7 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-generic.txt" ] && [ -d "$TESTDI
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-tracking-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-tracking-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt $MAINDIR/split/fanboy-tracking-generic.txt
@@ -1214,7 +1214,7 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt" ] && [ -d "$TES
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-tracking-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-tracking-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt $MAINDIR/split/fanboy-tracking-firstparty.txt
@@ -1274,7 +1274,7 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt" ] && [ -d "$TES
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-tracking-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-tracking-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt $MAINDIR/split/fanboy-tracking-thirdparty.txt
@@ -1334,7 +1334,7 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-general.txt" ] && [ -d "$TESTDI
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-tracking-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-tracking-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-tracking/fanboy-tracking-general.txt $MAINDIR/split/fanboy-tracking-general.txt
@@ -1394,7 +1394,7 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt" ] && [ -d "$TES
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-tracking-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-tracking-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt $MAINDIR/split/fanboy-tracking-nonenglish.txt
@@ -1454,7 +1454,7 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-adult.txt" ] && [ -d "$TESTDIR"
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-tracking-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-tracking-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt $MAINDIR/split/fanboy-tracking-adult.txt
@@ -1515,7 +1515,7 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt" ] && [ -d "$TEST
 
         # Make sure the file exists
         #
-        if [ -d "$TESTDIR/fanboy-tracking-merged.txt" ]; then
+        if [ -s "$TESTDIR/fanboy-tracking-merged.txt" ]; then
               # Copy over
               #
               cp -f $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt $MAINDIR/split/fanboy-tracking-whitelist.txt
