@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.digitaltrends.com/gaming/nintendo-president-3ds-sales-show-that-smartphones-havent-killed-handheld-gaming-yet/
+
+[filters]
+http://www.facebook.com/plugins/subscribe?app_id=61377565444&channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D10%23cb%3Df31f580eee02bee%26origin%3Dhttp%253A%252F%252Fwww.digitaltrends.com%252Ff271d7a7349c96a%26domain%3Dwww.digitaltrends.com%26relation%3Dparent.parent&href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D1362601810&layout=button_count&locale=en_US&sdk=joey&show_faces=false&width=105
+https://www.facebook.com/common/scribe_endpoint.php?c=jssdk_error&m=%7B%22appId%22%3A%2261377565444%22%2C%22error%22%3A%22Private%20method%20used%22%2C%22extra%22%3A%7B%22args%22%3A%22JSON.parse%22%7D%7D
+https://www.facebook.com/plugins/subscribe?app_id=61377565444&channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D10%23cb%3Df31f580eee02bee%26origin%3Dhttp%253A%252F%252Fwww.digitaltrends.com%252Ff271d7a7349c96a%26domain%3Dwww.digitaltrends.com%26relation%3Dparent.parent&href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D1362601810&layout=button_count&locale=en_US&sdk=joey&show_faces=false&width=105
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
