@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rrstar.com/news/x1898616984/Rockford-man-shot-outside-Citgo-gas-station-dies
+
+
+[filters]
+http://c5.zedo.com/jsc/c5/fhs.js
+http://c5.zedo.com/utils/fhstrans.min.js
+http://loadus.exelator.com/load/?p=298&g=003&c=1547567&ctg=news&subctg=&state=IL&city=Rockford&Zip=61104
+http://tags.w55c.net/rs?id=65b270531f0f414d948c74879b2e48f3&t=marketing
+
+[other]
+map doesn't load.
+
+
+[comments]
+nitrox
