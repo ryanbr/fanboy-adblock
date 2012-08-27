@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v2.06 (26/08/2012)
+# Fanboy Adblock list grabber script v2.10 (27/08/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
+# 2.10 Tracking List split list
 # 2.06 Better error checking
 # 2.05 Remove Dube loops and create error checking.
 # 2.04 Remove any empty lines
@@ -1126,34 +1127,425 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
+# Fanboy-Tracking (fanboy-tracking-generic.txt)
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-generic.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-tracking-generic.txt | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+        # Clean up
+        #
+        echo "" >> $HGSERV/fanboy-tracking/fanboy-header.txt
+        rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
+       $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-general.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
 
-############### Fanboy Tracking #################
-SSLHG=$($SHA256SUM $HGSERV/fanboy-adblocklist-stats.txt | cut -d' ' -f1)
-SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-tracking.txt | cut -d' ' -f1)
+        # Make sure the file exists
+        #
+        if [ -d "$TESTDIR/fanboy-tracking-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt $MAINDIR/split/fanboy-tracking-generic.txt
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-tracking-merged.txt > $TESTDIR/fanboy-tracking-merged2.txt
+              mv -f $TESTDIR/fanboy-tracking-merged2.txt $TESTDIR/fanboy-tracking-merged.txt
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-tracking-merged.txt
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-tracking-merged.txt $MAINDIR/fanboy-tracking.txt
+              rm -rf $MAINDIR/fanboy-tracking.txt.gz
+              $ZIP $MAINDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-tracking-merged.txt > /dev/null
 
-if [ "$SSLHG" != "$SSLMAIN" ]
- then
-    # Copy list
-    cp -f $HGSERV/fanboy-adblocklist-stats.txt $TESTDIR/fanboy-tracking.txt
-    # Re-generate checksum
-    $ADDCHECKSUM $TESTDIR/fanboy-tracking.txt
-    cp -f $TESTDIR/fanboy-tracking.txt $MAINDIR/fanboy-tracking.txt
-    rm -rf $MAINDIR/fanboy-tracking.txt.gz
-    # ZIP
-    $ZIP $MAINDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-adblocklist-stats.txt > /dev/null
-    # Now combine with international list
-    # sh /etc/crons/hg-grab-intl.sh
-    # Generate IE script
-    # $HGSERV/scripts/ie/tracking-ie-generator.sh
-    # Combine
-    # $HGSERV/scripts/combine/firefox-adblock-tracking.sh
-    # $HGSERV/scripts/combine/firefox-adblock-merged.sh
-    # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
-    # $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-    # Firefox2Opera
-    # $NICE $HGSERV/scripts/firefox2opera.sh
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-generic.txt - $DATE" >> $LOGFILE
+        fi
+    else
+        # File check hg vs secure.fanboy.co.nz
+        echo "Files are the same: fanboy-tracking-generic.txt" > /dev/null
+    fi
 else
-   echo "Files are the same: fanboy-tracking.txt" > /dev/null
+  echo "fanboy-tracking-merged.txt (fanboy-tracking-generic.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-tracking-generic.txt failed to update: $DATE"
+fi
+
+# Fanboy-Tracking (fanboy-tracking-firstparty.txt)
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-tracking-firstparty.txt | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+        # Clean up
+        #
+        echo "" >> $HGSERV/fanboy-tracking/fanboy-header.txt
+        rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
+       $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-general.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ -d "$TESTDIR/fanboy-tracking-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt $MAINDIR/split/fanboy-tracking-firstparty.txt
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-tracking-merged.txt > $TESTDIR/fanboy-tracking-merged2.txt
+              mv -f $TESTDIR/fanboy-tracking-merged2.txt $TESTDIR/fanboy-tracking-merged.txt
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-tracking-merged.txt
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-tracking-merged.txt $MAINDIR/fanboy-tracking.txt
+              rm -rf $MAINDIR/fanboy-tracking.txt.gz
+              $ZIP $MAINDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-tracking-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-firstparty.txt - $DATE" >> $LOGFILE
+        fi
+    else
+        # File check hg vs secure.fanboy.co.nz
+        echo "Files are the same: fanboy-tracking-firstparty.txt" > /dev/null
+    fi
+else
+  echo "fanboy-tracking-merged.txt (fanboy-tracking-firstparty.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-tracking-firstparty.txt failed to update: $DATE"
+fi
+
+# Fanboy-Tracking (fanboy-tracking-thirdparty.txt)
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-tracking-thirdparty.txt | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+        # Clean up
+        #
+        echo "" >> $HGSERV/fanboy-tracking/fanboy-header.txt
+        rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
+       $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-general.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ -d "$TESTDIR/fanboy-tracking-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt $MAINDIR/split/fanboy-tracking-thirdparty.txt
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-tracking-merged.txt > $TESTDIR/fanboy-tracking-merged2.txt
+              mv -f $TESTDIR/fanboy-tracking-merged2.txt $TESTDIR/fanboy-tracking-merged.txt
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-tracking-merged.txt
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-tracking-merged.txt $MAINDIR/fanboy-tracking.txt
+              rm -rf $MAINDIR/fanboy-tracking.txt.gz
+              $ZIP $MAINDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-tracking-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-thirdparty.txt - $DATE" >> $LOGFILE
+        fi
+    else
+        # File check hg vs secure.fanboy.co.nz
+        echo "Files are the same: fanboy-tracking-thirdparty.txt" > /dev/null
+    fi
+else
+  echo "fanboy-tracking-merged.txt (fanboy-tracking-thirdparty.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-tracking-thirdparty.txt failed to update: $DATE"
+fi
+
+# Fanboy-Tracking (fanboy-tracking-general.txt)
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-general.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/fanboy-tracking/fanboy-tracking-general.txt | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-tracking-general.txt | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+        # Clean up
+        #
+        echo "" >> $HGSERV/fanboy-tracking/fanboy-header.txt
+        rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
+       $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-general.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ -d "$TESTDIR/fanboy-tracking-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-tracking/fanboy-tracking-general.txt $MAINDIR/split/fanboy-tracking-general.txt
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-tracking-merged.txt > $TESTDIR/fanboy-tracking-merged2.txt
+              mv -f $TESTDIR/fanboy-tracking-merged2.txt $TESTDIR/fanboy-tracking-merged.txt
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-tracking-merged.txt
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-tracking-merged.txt $MAINDIR/fanboy-tracking.txt
+              rm -rf $MAINDIR/fanboy-tracking.txt.gz
+              $ZIP $MAINDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-tracking-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-general.txt - $DATE" >> $LOGFILE
+        fi
+    else
+        # File check hg vs secure.fanboy.co.nz
+        echo "Files are the same: fanboy-tracking-general.txt" > /dev/null
+    fi
+else
+  echo "fanboy-tracking-merged.txt (fanboy-tracking-general.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-tracking-general.txt failed to update: $DATE"
+fi
+
+# Fanboy-Tracking (fanboy-tracking-nonenglish.txt)
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-tracking-nonenglish.txt | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+        # Clean up
+        #
+        echo "" >> $HGSERV/fanboy-tracking/fanboy-header.txt
+        rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
+       $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-general.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ -d "$TESTDIR/fanboy-tracking-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt $MAINDIR/split/fanboy-tracking-nonenglish.txt
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-tracking-merged.txt > $TESTDIR/fanboy-tracking-merged2.txt
+              mv -f $TESTDIR/fanboy-tracking-merged2.txt $TESTDIR/fanboy-tracking-merged.txt
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-tracking-merged.txt
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-tracking-merged.txt $MAINDIR/fanboy-tracking.txt
+              rm -rf $MAINDIR/fanboy-tracking.txt.gz
+              $ZIP $MAINDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-tracking-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-nonenglish.txt - $DATE" >> $LOGFILE
+        fi
+    else
+        # File check hg vs secure.fanboy.co.nz
+        echo "Files are the same: fanboy-tracking-nonenglish.txt" > /dev/null
+    fi
+else
+  echo "fanboy-tracking-merged.txt (fanboy-tracking-nonenglish.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-tracking-nonenglish.txt failed to update: $DATE"
+fi
+
+# Fanboy-Tracking (fanboy-tracking-adult.txt)
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-adult.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-tracking-adult.txt | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+        # Clean up
+        #
+        echo "" >> $HGSERV/fanboy-tracking/fanboy-header.txt
+        rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
+       $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-general.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ -d "$TESTDIR/fanboy-tracking-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt $MAINDIR/split/fanboy-tracking-adult.txt
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-tracking-merged.txt > $TESTDIR/fanboy-tracking-merged2.txt
+              mv -f $TESTDIR/fanboy-tracking-merged2.txt $TESTDIR/fanboy-tracking-merged.txt
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-tracking-merged.txt
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-tracking-merged.txt $MAINDIR/fanboy-tracking.txt
+              rm -rf $MAINDIR/fanboy-tracking.txt.gz
+              $ZIP $MAINDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-tracking-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-adult.txt - $DATE" >> $LOGFILE
+        fi
+    else
+        # File check hg vs secure.fanboy.co.nz
+        echo "Files are the same: fanboy-tracking-adult.txt" > /dev/null
+    fi
+else
+  echo "fanboy-tracking-merged.txt (fanboy-tracking-adult.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-tracking-adult.txt failed to update: $DATE"
+fi
+
+
+# Fanboy-Tracking (fanboy-tracking-whitelist.txt)
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-tracking-whitelist.txt | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+        # Clean up
+        #
+        echo "" >> $HGSERV/fanboy-tracking/fanboy-header.txt
+        rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
+       $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-general.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt \
+            $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ -d "$TESTDIR/fanboy-tracking-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt $MAINDIR/split/fanboy-tracking-whitelist.txt
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-tracking-merged.txt > $TESTDIR/fanboy-tracking-merged2.txt
+              mv -f $TESTDIR/fanboy-tracking-merged2.txt $TESTDIR/fanboy-tracking-merged.txt
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-tracking-merged.txt
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-tracking-merged.txt $MAINDIR/fanboy-tracking.txt
+              rm -rf $MAINDIR/fanboy-tracking.txt.gz
+              $ZIP $MAINDIR/fanboy-tracking.txt.gz $TESTDIR/fanboy-tracking-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-whitelist.txt - $DATE" >> $LOGFILE
+        fi
+    else
+        # File check hg vs secure.fanboy.co.nz
+        echo "Files are the same: fanboy-tracking-whitelist.txt" > /dev/null
+    fi
+else
+  echo "fanboy-tracking-merged.txt (fanboy-tracking-whitelist.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-tracking-whitelist.txt failed to update: $DATE"
 fi
 
 ############### Fanboy Enhanced Trackers #################
