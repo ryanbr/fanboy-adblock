@@ -118,9 +118,9 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ 
               $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
               # Compress
               #
-              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/split/fanboy-adblock.txt
-              rm -rf $MAINDIR/split/fanboy-adblock.txt.gz
-              $ZIP $MAINDIR/split/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
+              rm -rf $MAINDIR/fanboy-adblock.txt.gz
+              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
 
               # Fanboy Ultimate + Complete
               #
