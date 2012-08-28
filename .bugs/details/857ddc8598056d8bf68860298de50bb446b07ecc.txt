@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jerusalemonline.com/tourism/goat-farm-in-ein-kamonin
+
+
+[filters]
+http://www.ltassrv.com/track/default.aspx?as=152475&id=14850&cc=LU&c=39608&pv=0&r=0&ts=1346144398509&v=0&t=2
+http://www.ltassrv.com/adsrv2/scr.ashx?id=14850
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
