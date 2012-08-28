@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://svscomics.com/
+
+
+[filters]
+http://svscomics.com/templates/aero2/js/dtrotator.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
