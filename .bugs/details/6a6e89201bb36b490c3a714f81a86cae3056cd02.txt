@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://unblockedpiratebay.com/index.php?loadurl=/torrent/7342722/Rosetta_Stone_v3_Polish__amp_amp__Speech_Preinstalled.exe
+
+
+[filters]
+http://unblockedpiratebay.com/static/img/bar.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
