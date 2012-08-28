@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.myinceststories.com/incest_stories.html
+
+
+[filters]
+http://www.myinceststories.com/ads2012/da/Drinken-Moms/7.gif
+http://www.myinceststories.com/ads2012/lb/Old-Goes-Young-Tube/468_100_1.gif
+http://www.myinceststories.com/ads2012b/da/Drinken-Moms/12.gif
+http://www.myinceststories.com/ads2012b/da/Mature-Vs-Young/6.gif
+http://www.myinceststories.com/ads2012b/da/Moms-Bang-Videos/15.gif
+http://www.myinceststories.com/ads2012b/da/My-Older-Lovers/100-468-3.gif
+http://www.myinceststories.com/ads2012b/sc/My-Wifes-Mom/mwm_200x300_01.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
