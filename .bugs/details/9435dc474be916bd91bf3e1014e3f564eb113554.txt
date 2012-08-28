@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.stockingstv.com/videos/12071/hentai-caught-and-ass-drilled-by-monster-tentacles.html
+
+
+[filters]
+http://www.stockingstv.com/partners/images/default.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
