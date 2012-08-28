@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://vidgrab.net/483486/sasha-rose-and-jenny-baby.html
+
+
+[filters]
+http://vidgrab.net/adsbar.png
+http://vidgrab.net/bnr.js
+http://vidgrab.net/images/adsbarf.jpg
+http://vidgrab.net/pads2.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
