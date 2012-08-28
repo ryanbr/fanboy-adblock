@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://4fuckr.com/
+
+
+[filters]
+http://4fuckr.com/g/8010/c3XcnN4cUe5geAQ34J51jBINi%2BkZcyJpRGwCMcH8H4Qw5f3tMR2imMcMS1JCFjik
+http://4fuckr.com/static/rommlr-banner.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
