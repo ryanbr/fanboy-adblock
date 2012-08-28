@@ -1,0 +1,32 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sex3dtoons.com/
+
+
+[filters]
+http://www.sex3dtoons.com/im/156.gif
+http://www.sex3dtoons.com/im/180x600-3.jpg
+http://www.sex3dtoons.com/im/3dsex.jpg
+http://www.sex3dtoons.com/im/sex3.gif
+http://www.sex3dtoons.com/im/sickey1.gif
+http://www.sex3dtoons.com/im/sickey10.gif
+http://www.sex3dtoons.com/im/sickey11.gif
+http://www.sex3dtoons.com/im/sickey12.gif
+http://www.sex3dtoons.com/im/sickey13.gif
+http://www.sex3dtoons.com/im/sickey2.gif
+http://www.sex3dtoons.com/im/sickey3.gif
+http://www.sex3dtoons.com/im/sickey4.gif
+http://www.sex3dtoons.com/im/sickey5.gif
+http://www.sex3dtoons.com/im/sickey6.gif
+http://www.sex3dtoons.com/im/sickey7.gif
+http://www.sex3dtoons.com/im/sickey8.gif
+http://www.sex3dtoons.com/im/sickey9.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
