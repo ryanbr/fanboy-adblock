@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dailystar.com.lb/Entertainment/Celebrities/2012/Aug-27/185846-clooney-aids-obama-campaign-with-geneva-fundraiser.ashx
+
+
+[filters]
+http://www.dailystar.com.lb/ArticleLog.aspx?id=185846
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
