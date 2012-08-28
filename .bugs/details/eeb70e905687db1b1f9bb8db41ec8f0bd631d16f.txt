@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.honeytube.net/
+
+
+[filters]
+http://image.vodconcepts.com/flash/promo/files/banners/218328/00/02/70/27082_g3-160x400.jpg
+http://www.sexytime.com/img/sexytime_anima.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
