@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.twinsporn.net/
+
+
+[filters]
+http://www.twinsporn.net/images/delay.gif
+http://www.twinsporn.net/images/free-penis-pills.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
