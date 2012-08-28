@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newsextube.org/
+
+
+[filters]
+http://megoads.eu/bannerCode/banner?width=728&height=90&lc=en-US&callback=jQuery17205689600773154266_1346189737289&_=1346189737604
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
