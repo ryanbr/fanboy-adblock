@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wpxi.com/news/news/local/sweet-caroline-gone-penn-state-playlist/nRLJj/
+
+
+[filters]
+http://media.cmgdigital.com/shared/media/2012-08-22-08-27-34/web/common/javascript/medley_ads/ad_fill.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
