@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://xxvideo.us/video/602391/nothing-like-a-boring-day-in-the-office-when-two-o.html
+
+
+[filters]
+http://xxvideo.us/ad728x15_footer.html
+http://xxvideo.us/ad728x15j.html
+http://xxvideo.us/adengage-j.php?s=11&f=AD0A0A
+http://xxvideo.us/bnr.js
+http://xxvideo.us/js/pop.js
+http://xxvideo.us/playertext.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
