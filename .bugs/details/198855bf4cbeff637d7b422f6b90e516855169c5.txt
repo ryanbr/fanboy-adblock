@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thedailystar.net/newDesign/index.php
+
+
+[filters]
+http://www.thedailystar.net/newDesign/ad/12-05-22-Bay-Flash.swf
+http://www.thedailystar.net/newDesign/ad/Dandelion_340x50.swf
+http://www.thedailystar.net/newDesign/ad/GP_400_x_50_for_Daily_Star.swf
+http://www.thedailystar.net/newDesign/ad/MTB2.gif
+http://www.thedailystar.net/newDesign/ad/breaking-news.gif
+http://www.thedailystar.net/newDesign/ad/champsnewbanner.jpg
+http://www.thedailystar.net/newDesign/ad/daily-star-480_60.gif
+http://www.thedailystar.net/newDesign/ad/dailystar-net-marriott-170x.gif
+http://www.thedailystar.net/newDesign/ad/western%20union%20170x160.swf
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
