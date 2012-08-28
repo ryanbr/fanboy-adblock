@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://querverweis.net/
+
+
+[filters]
+http://www.pornturbo.com/y2h8e6n4.php?g=1&l=6&h=0&lang=en&wide=0&fullinf=0&bg=&color=&pad=5&nu=1&cmp=quertopad&to_trade=1
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
