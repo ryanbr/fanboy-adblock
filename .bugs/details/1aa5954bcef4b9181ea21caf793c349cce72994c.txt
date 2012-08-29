@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rcinet.ca/english/
+
+
+[filters]
+http://www.radio-canada.ca/lib/TrueSight/markerFile.gif?crd_ver=0.9.5&crd_rnd=983371&crd_cnt=0.01&crd_tpb=1346277369577&crd_olt=3898
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
