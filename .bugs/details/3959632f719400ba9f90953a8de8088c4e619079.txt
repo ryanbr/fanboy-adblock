@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.klm.com/travel/us_en/apps/ebt/ebt_home.htm?name=on&c[0].os=JFK&ebt-destination-place=Paris+-+All+airports+%28PAR%29%2C+France&c[0].ds=PAR&c[0].dst=city&c[1].os=PAR&c[1].ost=city&c[1].ds=JFK&c[0].ost=airport&inboundDestinationLocationType=airport&redirect=no&chdQty=0&infQty=0&c[0].dd=2012-09-05&c[1].dd=2012-09-19&c[1].format=dd%2Fmm%2Fyyyy&flex=true&ebt-cabin-class=ECONOMY&adtQty=1&goToPage=&cffcc=ECONOMY&sc=false
+
+
+[filters]
+http://www.klm.com/travel/generic/static/js/measure_async.js
+https://www.klm.com/travel/generic/static/js/measure_async.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
