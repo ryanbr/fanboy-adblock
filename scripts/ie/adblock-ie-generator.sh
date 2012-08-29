@@ -52,7 +52,7 @@ fi
 
 # Check we have a generated non-element file before processing.
 #
-if [ -s "$TESTDIR/fanboy-non-element.txt" ] then
+if [ -s "$TESTDIR/fanboy-non-element.txt" ]; then
       # Cleanup fanboy-adblock-addon.txt (remove the top 8 lines)
       #
       sed '1,8d' $HGSERV/ie/fanboy-adblock-addon.txt > $TESTDIR/fanboy-adblock-ie-addon.txt
@@ -103,4 +103,9 @@ if [ -s "$TESTDIR/fanboy-non-element.txt" ] then
       # Remove Temp files before exiting
       #
       rm -rf $IESUBS/* IEDIR/*.txt
+
+      # If we cannot locate fanboy-non-element.txt, spit out an error:
+      #
+      else
+         echo "Unable to locate fanboy-non-element.txt: TESTDIR/fanboy-non-element.txt - $DATE" >> $LOGFILE
 fi
