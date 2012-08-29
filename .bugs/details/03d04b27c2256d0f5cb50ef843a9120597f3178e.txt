@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tech-blog.net/analysten-facebook-aktie-konnte-auf-13-us-dollar-fallen/
+
+
+[filters]
+http://1-ps.googleusercontent.com/h/www.tech-blog.net/socialnetwork-buttons/twitter.png.pagespeed.ce.Sha-q_1cbo.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
