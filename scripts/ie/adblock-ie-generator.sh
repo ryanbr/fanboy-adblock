@@ -56,6 +56,7 @@ if [ -s "$TESTDIR/fanboy-non-element.txt" ]; then
       # Cleanup fanboy-adblock-addon.txt (remove the top 8 lines)
       #
       sed '1,8d' $HGSERV/ie/fanboy-adblock-addon.txt > $TESTDIR/fanboy-adblock-ie-addon.txt
+      sed '1,8d' $HGSERV/ie/fanboy-tracking-addon.txt > $MAINDIR/split/fanboy-tracking-addon.txt
 
       # Standard Adblock Filter
       cat $TESTDIR/fanboy-non-element.txt \
@@ -64,12 +65,14 @@ if [ -s "$TESTDIR/fanboy-non-element.txt" ]; then
       cat $TESTDIR/fanboy-non-element.txt \
           $TESTDIR/fanboy-adblock-ie-addon.txt \
           $MAINDIR/fanboy-tracking.txt \
+          $MAINDIR/split/fanboy-tracking-addon.txt \
           $MAINDIR/fanboy-addon.txt \
           $MAINDIR/enhancedstats.txt > $IEDIR/fanboy-ultimate-ie.txt
       # IE Complete
       cat $TESTDIR/fanboy-non-element.txt \
           $TESTDIR/fanboy-adblock-ie-addon.txt \
           $MAINDIR/fanboy-tracking.txt \
+          $MAINDIR/split/fanboy-tracking-addon.txt \
           $MAINDIR/enhancedstats.txt > $IEDIR/fanboy-complete-ie.txt
 
       # Remove ~third-party
@@ -99,10 +102,6 @@ if [ -s "$TESTDIR/fanboy-non-element.txt" ]; then
       # Now copy finished tpl list to the website.
       #
       cp -f $IESUBS/fanboy-noele.tpl* $IESUBS/fanboy-ultimate-ie.tpl* $IESUBS/fanboy-complete-ie.tpl* $MAINDIR/ie/
-
-      # Remove Temp files before exiting
-      #
-      rm -rf $IESUBS/* IEDIR/*.txt
 
       # If we cannot locate fanboy-non-element.txt, spit out an error:
       #

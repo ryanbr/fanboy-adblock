@@ -1245,6 +1245,10 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-generic.txt" ] && [ -d "$TESTDI
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # IE: Fanboy-Tracking
+              #
+              $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-generic.txt - $DATE" >> $LOGFILE
@@ -1304,6 +1308,10 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt" ] && [ -d "$TES
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # IE: Fanboy-Tracking
+              #
+              $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-firstparty.txt - $DATE" >> $LOGFILE
@@ -1363,6 +1371,10 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt" ] && [ -d "$TES
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # IE: Fanboy-Tracking
+              #
+              $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-thirdparty.txt - $DATE" >> $LOGFILE
@@ -1422,6 +1434,10 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-general.txt" ] && [ -d "$TESTDI
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # IE: Fanboy-Tracking
+              #
+              $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-general.txt - $DATE" >> $LOGFILE
@@ -1481,6 +1497,10 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt" ] && [ -d "$TES
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # IE: Fanboy-Tracking
+              #
+              $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-nonenglish.txt - $DATE" >> $LOGFILE
@@ -1540,6 +1560,10 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-adult.txt" ] && [ -d "$TESTDIR"
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # IE: Fanboy-Tracking
+              #
+              $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-adult.txt - $DATE" >> $LOGFILE
@@ -1600,6 +1624,10 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt" ] && [ -d "$TEST
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # IE: Fanboy-Tracking
+              #
+              $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-whitelist.txt - $DATE" >> $LOGFILE
