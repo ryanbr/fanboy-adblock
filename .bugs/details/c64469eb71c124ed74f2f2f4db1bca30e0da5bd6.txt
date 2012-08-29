@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.perfume.com/
+
+
+[filters]
+http://dybeulj0jdhd2.cloudfront.net/banners/images/268/original/AmericasLargest_home.jpg?1346260722
+http://dybeulj0jdhd2.cloudfront.net/banners/images/269/original/free-shipping-main.jpg?1346261098
+http://dybeulj0jdhd2.cloudfront.net/banners/images/270/original/skincare_offer.jpg?1346261110
+https://dybeulj0jdhd2.cloudfront.net/banners/images/268/original/AmericasLargest_home.jpg?1346260722
+https://dybeulj0jdhd2.cloudfront.net/banners/images/269/original/free-shipping-main.jpg?1346261098
+https://dybeulj0jdhd2.cloudfront.net/banners/images/270/original/skincare_offer.jpg?1346261110
+
+[other]
+legitimate banners are blocked.
+
+
+[comments]
+nitrox
