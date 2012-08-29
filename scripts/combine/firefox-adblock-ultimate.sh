@@ -27,7 +27,7 @@ export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
 rm -rf $TESTDIR/fanboy-addon-temp*.txt $TESTDIR/enhancedstats-addon-temp*.txt $TESTDIR/fanboy-stats-temp*.txt $TESTDIR/fanboy-complete.txt $TESTDIR/fanboy-ultimate.txt
 
 # Tracking filter: Trim off header file, remove empty lines, and bottom line
-sed '1,9d' $HGSERV/fanboy-adblocklist-stats.txt > $TESTDIR/fanboy-stats-temp2.txt
+sed '1,9d' $MAINDIR/fanboy-adblocklist-stats.txt > $TESTDIR/fanboy-stats-temp2.txt
 sed '/^$/d' $TESTDIR/fanboy-stats-temp2.txt > $TESTDIR/fanboy-stats-temp3.txt
 sed '$d' < $TESTDIR/fanboy-stats-temp3.txt > $TESTDIR/fanboy-stats-temp.txt
 
