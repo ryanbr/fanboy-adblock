@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.haxx.ly/h/1m
+
+
+[filters]
+https://haxx-prox.herokuapp.com/hack/577a6b7c5781fd09deafea7dfd881d9bd63b0f6e/58
+
+[other]
+hacker news iframe is blocked.
+
+
+[comments]
+nitrox
