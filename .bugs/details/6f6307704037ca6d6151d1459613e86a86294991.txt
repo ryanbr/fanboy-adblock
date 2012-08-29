@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cardstore.com/?utm_source=gan&utm_medium=aff&affid=411
+
+
+[filters]
+http://www.cardstore.com/affiliate.jsp?affid=411
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
