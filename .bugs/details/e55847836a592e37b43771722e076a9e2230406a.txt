@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cheapflights.com/book-flights-online/?source=aff-CJ-154779-10820358
+
+
+[filters]
+http://www.cheapflights.com/ic/4fddbae4.gif?pt=ODP&g=eea9f510-ccb4-4fa7-bdee-73ac226520b1&r=&u=1
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
