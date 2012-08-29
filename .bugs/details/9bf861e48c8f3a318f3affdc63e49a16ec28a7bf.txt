@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.marriott.com/marriott-hotels-resorts/travel.mi?aff=Hotel_MarriottForEveryone&affname=154779&co=US&nt=CJ
+
+
+[filters]
+http://rewards.ritzcarlton.com/ritz/crossDomainTracking.mi?aff=Hotel_MarriottForEveryone&affname=154779&co=US&nt=CJ&parentDomainLocale=en_US
+http://www.marriott.com/miJSPath/N379170193/bundles/mi_customer_survey.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
