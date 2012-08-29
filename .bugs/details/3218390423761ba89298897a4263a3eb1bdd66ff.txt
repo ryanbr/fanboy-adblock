@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.globes.co.il/
+
+
+[filters]
+http://wink.globes.co.il/globes/Newsletters/swf/990x200_03.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
