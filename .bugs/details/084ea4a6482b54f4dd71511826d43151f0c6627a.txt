@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.feeder.co.il/
+
+
+[filters]
+http://www.globes.co.il/shared/js/he/c_doubleclick.asp
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
