@@ -95,7 +95,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ 
      then
         # Clean up
         #
-        echo "" >> $HGSERV/fanboy-adblock/fanboy-header.txt
         rm -rf $TESTDIR/fanboy-merged.txt > /dev/null
        $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
         $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
@@ -1161,7 +1160,6 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-generic.txt" ] && [ -d "$TESTDI
      then
         # Clean up
         #
-        echo "" >> $HGSERV/fanboy-tracking/fanboy-header.txt
         rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
        $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
             $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
@@ -1221,7 +1219,6 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt" ] && [ -d "$TES
      then
         # Clean up
         #
-        echo "" >> $HGSERV/fanboy-tracking/fanboy-header.txt
         rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
        $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
             $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
@@ -1281,7 +1278,6 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt" ] && [ -d "$TES
      then
         # Clean up
         #
-        echo "" >> $HGSERV/fanboy-tracking/fanboy-header.txt
         rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
        $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
             $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
@@ -1341,7 +1337,6 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-general.txt" ] && [ -d "$TESTDI
      then
         # Clean up
         #
-        echo "" >> $HGSERV/fanboy-tracking/fanboy-header.txt
         rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
        $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
             $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
@@ -1401,7 +1396,6 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt" ] && [ -d "$TES
      then
         # Clean up
         #
-        echo "" >> $HGSERV/fanboy-tracking/fanboy-header.txt
         rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
        $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
             $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
@@ -1461,7 +1455,6 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-adult.txt" ] && [ -d "$TESTDIR"
      then
         # Clean up
         #
-        echo "" >> $HGSERV/fanboy-tracking/fanboy-header.txt
         rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
        $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
             $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
@@ -1522,7 +1515,6 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt" ] && [ -d "$TEST
      then
         # Clean up
         #
-        echo "" >> $HGSERV/fanboy-tracking/fanboy-header.txt
         rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
        $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
             $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
