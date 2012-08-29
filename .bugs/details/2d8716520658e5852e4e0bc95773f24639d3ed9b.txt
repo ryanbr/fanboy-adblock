@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://yellowpages.superpages.com/listings.jsp?C=office&CS=L&MCBP=true&search=Find+It&SRC=&STYPE=S&SCS=&channelId=&sessionId=
+
+
+[filters]
+http://www.superpages.com/js/mbox.js
+
+
+[other]
+search results are blocked.
+
+
+[comments]
+nitrox
