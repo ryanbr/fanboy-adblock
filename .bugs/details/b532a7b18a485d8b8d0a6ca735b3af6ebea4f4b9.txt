@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://autos.aol.com/article/punishment-for-fatal-accident-driver-will-be-executed/
+
+
+[filters]
+removal of ||aolcdn.com/js/mg2.js
+
+
+
+[other]
+https://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14566
+
+
+[comments]
+fanboy
