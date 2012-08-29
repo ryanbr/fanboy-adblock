@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.optimumenergy.com/infrared-thermal-night-vision-versus-image-intensified-night-vision/
+
+
+[filters]
+http://www.optimumenergy.com/wp-content/themes/oepl/images/btn-social-email.png
+http://www.optimumenergy.com/wp-content/themes/oepl/images/btn-social-facebook.png
+http://www.optimumenergy.com/wp-content/themes/oepl/images/btn-social-rss.png
+http://www.optimumenergy.com/wp-content/themes/oepl/images/btn-social-twitter.png
+http://www.optimumenergy.com/wp-content/themes/oepl/images/btn-social-youtube.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
