@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+tv.msn.com/reality-tv/stars-who-drive-us-crazy/photo-gallery/feature/
+
+[filters]
+http://blstc.msn.com/br/chan/css/decoration/adchoicesv4.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
