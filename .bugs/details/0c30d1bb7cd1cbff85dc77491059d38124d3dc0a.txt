@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://new.evite.com/#gallery/select_category:category=bbq_pool_party&displayName=BBQ
+
+
+[filters]
+http://new.evite.com/services/content/analytics/trackers?f=true&_=1346282223660
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
