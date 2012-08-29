@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://affiliates.onetravel.com/hotels.asp?kw2=Save%20$15%20to%20$20%20with%20Coupon%20-%20OTH20
+
+
+[filters]
+http://affiliates.onetravel.com/TrackOnetravelAds.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
