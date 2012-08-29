@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.statravel.com/?wt.mc_id=CJ_statravel_110209&PID=154779
+
+
+[filters]
+http://www.statravel.com/static/us_division_web_live/Javascript/wt_gets.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
