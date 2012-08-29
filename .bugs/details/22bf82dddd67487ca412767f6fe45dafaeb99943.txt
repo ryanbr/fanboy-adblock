@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.watchgfporn.com/videos/her-parents-had-no-idea-she-was-getting-paid-to-fuck--6474.html
+
+[filters]
+http://media.watchgfporn.com/player_ads/1mtg_600x470.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
