@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.irs.ustreas.gov/
+
+
+[filters]
+http://www.irs.gov/js/irs_reporting_cookie.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
