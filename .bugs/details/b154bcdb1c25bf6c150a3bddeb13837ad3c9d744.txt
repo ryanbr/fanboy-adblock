@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://ws-ext.nana10.co.il/statistics/report/Article?InstanceID=921466&PartnerID=48&ServiceID=126&Optional1=&Optional2=&Optional3=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
