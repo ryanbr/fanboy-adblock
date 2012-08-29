@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.globes.co.il/news/article.aspx?did=1000780311
+
+
+[filters]
+http://p.md-ia.info/g.php?p=238_FQCCd
+http://www.globes.co.il/data/js/gtv_ads.js
+http://www.globes.co.il/news/click.ashx?did=1000736607
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
