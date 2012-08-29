@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.animesuki.com/
+
+[filters]
+http://www.crunchyroll.com/awidget/?widget=Im01B&affiliate=af-38065-mpcm
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
