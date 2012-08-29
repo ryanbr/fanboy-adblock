@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://lifestyle.iafrica.com/wellness/813618.html
+
+
+[filters]
+http://iaf.stats.cdn.playfair.co.za/?1|526860|813618|5||1346245160612
+http://iaf.stats.cdn.playfair.co.za/spacer.gif
+http://www.passport.pfn.bz/acT.js
+http://www.passport.pfn.bz/t/4eabc26095f6023706060000/1346245161473/4cbb582b-455d-3f32-bd4f-4369f3756816
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
