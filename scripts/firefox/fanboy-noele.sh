@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Non-element Adblock list grabber script v2.0 (26/08/2011)
+# Fanboy Non-element Adblock list grabber script v2.1 (29/08/2011)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -71,6 +71,10 @@ if [ -s "$TESTDIR/fanboy-non-element.txt" ]; then
           # Gzip the file
           #
           $ZIP $MAINDIR/fanboy-adblock-noele.txt.gz $TESTDIR/fanboy-non-element.txt &> /dev/null
+
+          # Generate IE list (Generates Adblock, Complete and Ultimate)
+          #
+          $NICE $HGSERV/scripts/ie/adblock-ie-generator.sh
     else
           # If the Cat fails.
           #
