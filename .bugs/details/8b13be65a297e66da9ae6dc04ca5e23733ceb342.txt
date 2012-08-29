@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://den-a.plr.liquidcompass.net/player/flash/audio_player.php?id=WWRCAM&uid=349
+
+
+[filters]
+http://den-a.plr.liquidcompass.net/player/flash/inc/flash_sync_banners.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
