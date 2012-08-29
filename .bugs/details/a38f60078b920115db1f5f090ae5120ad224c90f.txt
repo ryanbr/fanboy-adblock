@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dailymail.co.uk/femail/article-2152417/How-big-breasts-years-life-Jane-Clarke-shares-story.html
+
+[filters]
+http://ad.uk.doubleclick.net/N5765/adj/dailymail.uk/dm_dmfemail_femailart;pos=mpu_top;area=femail;subarea=femail;target=;page=art;article=2152417;content=;section=;referrer=;environment=production;grapeshot=display_mol_victoriasecrets;grapeshot=us_victoriasecret;wl10134camp=;wl10135camp=tile=1;sz=300x600,300x250;ord=29806226971929730
+
+
+
+
+[other]
+https://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14586
+
+[comments]
+fanboy
