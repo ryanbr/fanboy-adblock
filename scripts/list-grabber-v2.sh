@@ -533,6 +533,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-generic.txt" ] && [ -d "$TESTDIR" ]
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # Fanboy-Adult
+              #
+              $NICE $HGSERV/scripts/firefox/fanboy-adult.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-adult-generic.txt - $DATE" >> $LOGFILE
@@ -592,6 +596,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # Fanboy-Adult
+              #
+              $NICE $HGSERV/scripts/firefox/fanboy-adult.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-adult-firstparty.txt - $DATE" >> $LOGFILE
@@ -650,6 +658,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # Fanboy-Adult
+              #
+              $NICE $HGSERV/scripts/firefox/fanboy-adult.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-adult-thirdparty.txt - $DATE" >> $LOGFILE
@@ -708,6 +720,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-elements.txt" ] && [ -d "$TESTDIR" 
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # Fanboy-Adult
+              #
+              $NICE $HGSERV/scripts/firefox/fanboy-adult.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-adult-elements.txt - $DATE" >> $LOGFILE
@@ -766,6 +782,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt" ] && [ -d "$TESTDIR
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # Fanboy-Adult
+              #
+              $NICE $HGSERV/scripts/firefox/fanboy-adult.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-adult-whitelists.txt - $DATE" >> $LOGFILE
