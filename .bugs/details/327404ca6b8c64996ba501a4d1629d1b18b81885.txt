@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.inn.co.il/News/News.aspx/243298
+
+
+[filters]
+http://www.inn.co.il/Controls/HPJS.ashx?act=log&type=3&cat=0&place=301&item=184498&_1346327987880&_1346327987880
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
