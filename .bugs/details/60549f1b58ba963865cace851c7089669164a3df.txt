@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nrg.co.il/online/1/ART2/399/176.html?hp=1&cat=459&loc=6
+
+
+[filters]
+http://nrg.hiro.co.il/hiro/HiroServlet/HiroAdRequest?UTF-8=true&hiro_id=254&cache_buster=0.436971253453275&session_id=9df64e1a-e22b-4b25-8c36-de830e66014e&user_id=91053e9f-917c-4022-8827-d163a77ce2b5&VAST=2&break_number=0&content_page_url=http://www.nrg.co.il/online/1/ART2/399/176.html?hp=1&cat=459&loc=6&external_page_id=459-NRG
+http://mccann.hiro.co.il/hiro/HiroServlet/HiroAdRequest?UTF-8=true&hiro_id=238&cache_buster=0.237522050848939&session_id=9df64e1a-e22b-4b25-8c36-de830e66014e&user_id=91053e9f-917c-4022-8827-d163a77ce2b5&VAST=2&break_number=0&content_page_url=http://www.nrg.co.il/online/1/ART2/399/176.html?hp=1&cat=459&loc=6&click_3rd_side=http%3A%2F%2F95.142.29.9%2Fhiro%2FHiroServlet%2FRedirectionServlet%3FclipID%3D999878382%26campaignID%3D999786800%26publisherId%3D14326%26location%3D0%26clientID%3D166259982%26internalVAST%3Dtrue
+http://mccann.hiro.co.il/crossdomain.xml
+http://nrg.hiro.co.il/crossdomain.xml
+http://mccann.hiro.co.il/clientaccesspolicy.xml
+http://nrg.hiro.co.il/clientaccesspolicy.xml
+
+
+
+
+[other]
+https://forums.fanboy.co.nz/forums/viewtopic.php?f=7&t=14560
+
+Need to whitelist these to make the video play
+
+[comments]
+fanboy
