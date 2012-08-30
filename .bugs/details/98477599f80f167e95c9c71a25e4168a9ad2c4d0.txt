@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mouse.co.il/CM.articles_item,610,209,69647,.aspx
+
+
+[filters]
+http://s.mousetrace.com/s.aspx?sid=68
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
