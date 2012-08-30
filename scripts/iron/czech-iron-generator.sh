@@ -16,7 +16,7 @@ export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
 export TESTDIR="/tmp/work"
 export DATE="`date`"
 export ADDCHECKSUM="nice -n 19 perl $HGSERV/scripts/addChecksum.pl"
-export ADDCHECKSUMOPERA="nice -n 19 perl $HGSERV/scripts/addChecksum-opera.pl"
+export ADDCHECKSUMIRON="nice -n 19 perl $HGSERV/scripts/addChecksum-iron.pl"
 export LOGFILE="/etc/crons/log.txt"
 export HG="/usr/local/bin/hg"
 export SHA256SUM="/usr/bin/sha256sum"
@@ -56,8 +56,8 @@ tr -d '*' <$TESTDIR/adblock-cz-stats2.ini >$TESTDIR/adblock-cz-stats.ini
 
 # Checksum the file (Done)
 #
-$ADDCHECKSUMOPERA $TESTDIR/adblock-cz.ini
-$ADDCHECKSUMOPERA $TESTDIR/adblock-cz-stats.ini
+$ADDCHECKSUMIRON $TESTDIR/adblock-cz.ini
+$ADDCHECKSUMIRON $TESTDIR/adblock-cz-stats.ini
 
 # Copy over files
 #
