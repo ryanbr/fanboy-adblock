@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tgw.com/main.jsp?siteID=o8tNT3SgySs-tk9oOnJ5eiQ3JE1OD5oqjg
+
+
+[filters]
+http://www.tgw.com/1/t.gif?Lo0P=18b3e43abad26bdac6f4cea944777b62807
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
