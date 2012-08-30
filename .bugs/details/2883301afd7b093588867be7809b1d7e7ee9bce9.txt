@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www1.bizportal.co.il/
+
+
+[filters]
+http://banners1.bizportal.co.il/web/giflib/zar/Biz_tabu_300-250_loader.swf
+http://banners2.bizportal.co.il/web/giflib/zar/Biz_tabu_300-250_loader.swf
+http://banners2.bizportal.co.il/web/giflib/zar/Testimonial_Loader_He_990x50.swf
+http://banners2.bizportal.co.il/web/giflib/zar/bulet_15-8-12_bizportal_140x62.swf
+http://banners8.bizportal.co.il/web/giflib/zar/megamit_22-8-12_300x250_loader.swf
+http://banners9.bizportal.co.il/web/giflib/zar/megamit_22-8-12_300x250_loader.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
