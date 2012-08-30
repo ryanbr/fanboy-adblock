@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://www.d.co.il/Hebrew/images/Premium/28073.swf
+http://www.d.co.il/Hebrew/images/Premium/28078.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
