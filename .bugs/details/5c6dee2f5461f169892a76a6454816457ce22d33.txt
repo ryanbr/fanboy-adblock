@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.awkwardboners.com/page/4/
+
+
+[filters]
+http://www.lickbylick.com/angifbanner_02.gif
+http://www.lickbylick.com/angifbanner_04.gif
+http://www.awkwardboners.com/images/facebook32px.gif
+http://www.awkwardboners.com/images/twitter32px.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
