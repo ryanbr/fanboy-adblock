@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www1.bizportal.co.il/article/333671
+
+
+[filters]
+http://colmextrading.com/lp/campaigns/Israel/70120000000Ve2D/142x62.swf
+http://www.colmextrading.com/lp/campaigns/Israel/70120000000Ve2D/142x62.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
