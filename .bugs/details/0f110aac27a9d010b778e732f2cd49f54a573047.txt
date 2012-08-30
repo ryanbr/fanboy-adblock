@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ynet.co.il/articles/0,7340,L-4274299,00.html
+
+
+[filters]
+http://www.ynet.co.il/images/hp_player_lightbox_top.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
