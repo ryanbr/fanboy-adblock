@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy-Merge (Ultimate) Adblock list grabber script v1.1 (18/03/2012)
+# Fanboy-Merge (Ultimate) Adblock list grabber script v1.2 (30/08/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -49,18 +49,18 @@ sed -i '/\/js\/tracking.js/d' $TESTDIR/fanboy-stats-temp.txt
 #
 cat $MAINDIR/fanboy-adblock.txt | sed '$a!' > $TESTDIR/fanboy-adblocklist-current.txt
 
-# Merge to the files together
+# Ultimate List
 #
 cat $TESTDIR/fanboy-adblocklist-current.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt $TESTDIR/fanboy-addon-temp3.txt > $TESTDIR/fanboy-ultimate.txt
+
+# Complete List
+#
+cat $TESTDIR/fanboy-adblocklist-current.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt > $TESTDIR/fanboy-complete.txt
 
 # Ultimate List for IE (minus the main list)
 #
 cat $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt $TESTDIR/fanboy-addon-temp3.txt > $MAINDIR/fanboy-ultimate-ie.txt
 cat $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt > $TESTDIR/fanboy-complete.txt > $MAINDIR/fanboy-complete-ie.txt
-
-# Complete List
-#
-cat $TESTDIR/fanboy-adblocklist-current.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt > $TESTDIR/fanboy-complete.txt
 
 # Add titles
 #
@@ -77,84 +77,13 @@ cp -f $TESTDIR/fanboy-ultimate.txt $TESTDIR/fanboy-ultimate-bak.txt
 $ADDCHECKSUM $TESTDIR/fanboy-complete.txt
 $ADDCHECKSUM $TESTDIR/fanboy-ultimate.txt
 
-# Now lets check if fanboy-merged.txt isnt zero
+# Copy to the website
 #
-if [ -s $TESTDIR/fanboy-complete.txt ] && [ -s $TESTDIR/fanboy-ultimate.txt ];
-then
-  # Copy Merged file to main dir
-  #
-  cp -f $TESTDIR/fanboy-complete.txt $MAINDIR/r/fanboy-complete.txt
-  cp -f $TESTDIR/fanboy-ultimate.txt $MAINDIR/r/fanboy-ultimate.txt
+cp -f $TESTDIR/fanboy-complete.txt $MAINDIR/r/fanboy-complete.txt
+cp -f $TESTDIR/fanboy-ultimate.txt $MAINDIR/r/fanboy-ultimate.txt
 
-  # Delete files before compressing
-  #
-  rm -f $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-complete.txt.gz
-
-  # Compress Files
-  #
-  $ZIP $TESTDIR/fanboy-complete.txt.gz $TESTDIR/fanboy-complete.txt > /dev/null
-  $ZIP $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate.txt > /dev/null
-  
-  # Copy to server
-  #
-  cp -f $TESTDIR/fanboy-complete.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
-  cp -f $TESTDIR/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-ultimate.txt.gz
-
-  # Check Compressed file exists first for -complete
-  #
-  if [ -f $TESTDIR/fanboy-complete.txt.gz ];
-  then
-     rm -f $MAINDIR/r/fanboy-complete.txt.gz
-     cp $TESTDIR/fanboy-complete.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
-     ## DEBUG
-     ### echo "Updated fanboy-complete"
-     echo "Updated fanboy-complete.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE
-  else
-     ### echo "Unable to update fanboy-complete"
-     echo "*** ERROR ***: Unable to update fanboy-complete.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE
-  fi
-
-  # Check Compressed file exists first for -ultimate
-  #
-  if [ -f $TESTDIR/fanboy-ultimate.txt.gz ];
-  then
-     rm -rf $MAINDIR/r/fanboy-ultimate.txt.gz
-     cp $TESTDIR/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-ultimate.txt.gz
-     ## DEBUG
-     ### echo "Updated fanboy-ultimate"
-     echo "Updated fanboy-ultimate.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE
-  else
-     ### echo "Unable to update fanboy-ultimate"
-     echo "*** ERROR ***: Unable to update fanboy-ultimate.txt.gz (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE
-  fi
-else
-  # Addchecksum
-  #
-  $ADDCHECKSUM $TESTDIR/fanboy-complete-bak.txt
-  $ADDCHECKSUM $TESTDIR/fanboy-ultimate-bak.txt
-  
-  # Copy Merged file to main dir
-  #
-  cp -f $TESTDIR/fanboy-complete-bak.txt $MAINDIR/r/fanboy-complete.txt
-  cp -f $TESTDIR/fanboy-ultimate-bak.txt $MAINDIR/r/fanboy-ultimate.txt
-  
-  # Delete files before compressing
-  #
-  rm -f $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-complete.txt.gz
-  
-  # Compress Files
-  #
-  $ZIP $TESTDIR/fanboy-complete.txt.gz $TESTDIR/fanboy-complete-bak.txt > /dev/null
-  $ZIP $TESTDIR/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate-bak.txt > /dev/null
-  
-  # Copy to server
-  #
-  cp -f $TESTDIR/fanboy-complete.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
-  cp -f $TESTDIR/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-ultimate.txt.gz
-  
-  # Log
-  #
-  echo "*** ERROR ***: Addchecksum Zero'd the file: fanboy-adblock-ultimate.txt (script: firefox-adblock-ultimate.sh) on `date +'%Y-%m-%d %H:%M:%S'`" >> $LOGFILE
-fi
-
-
+# Gzip up the ultimate/complete lists
+#
+rm -f $MAINDIR/r/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
+$ZIP $MAINDIR/r/fanboy-complete.txt.gz $TESTDIR/fanboy-complete.txt &> /dev/null
+$ZIP $MAINDIR/r/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate.txt &> /dev/null
