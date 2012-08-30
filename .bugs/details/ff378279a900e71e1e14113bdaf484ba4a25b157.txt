@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://reg.coolsavings.com/rd_p?p=204153&t=14346&c=10547087&a=154779&uid=
+
+
+[filters]
+http://i.pcp001.com/media/globalPixel.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
