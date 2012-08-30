@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nrg.co.il/online/1/ART2/399/176.html?hp=1&cat=459&loc=6
+
+
+[filters]
+http://95.142.29.9/hiro/HiroServlet/HiroBeacon?adId=999878382&campaignID=999786800&publisher=14326&user_id=166262318&product_id=0&cachBuster=0.5536366936782207&content_page_url=http://www.nrg.co.il/online/1/ART2/399/176.html?hp=1
+http://95.142.29.7/hiro/HiroServlet/HiroBeacon?adId=999879502&campaignID=999787298&publisher=13918&user_id=166262330&product_id=0&cachBuster=0.49153178677477694&content_page_url=http://www.nrg.co.il/online/1/ART2/399/176.html?hp=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
