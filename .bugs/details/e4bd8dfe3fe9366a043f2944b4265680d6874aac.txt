@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://morfixsearch.morfix.co.il//
+
+
+[filters]
+http://morfixsearch.morfix.co.il//adZoneCenterAdHomepage.aspx
+http://morfixsearch.morfix.co.il//adZoneSideAd.aspx
+http://morfixsearch.morfix.co.il//adzonelegend.aspx
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
