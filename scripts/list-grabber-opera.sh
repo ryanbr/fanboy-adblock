@@ -1,18 +1,18 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber Opera script v2.0 (26/08/2012)
+# Fanboy Adblock list grabber Opera script v2.1 (30/08/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
+# 2.1  Re-implement the iron list generator
 # 2.0  Re-write Opera code, and split off regional list
 # 1.8  Allow list to be stored in ramdisk
 
 # Variables for directorys
 #
-
 export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
 export NICE="nice -n 19"
 export TAC="/usr/bin/tac"
@@ -30,19 +30,6 @@ export IEDIR="/tmp/ieramdisk"
 export TWIDGE="/usr/bin/twidge update"
 export SUBS="/tmp/ieramdisk/subscriptions"
 export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
-
-
-# Make Ramdisk.
-#
-$GOOGLEDIR/scripts/ramdisk.sh
-# Fallback if ramdisk.sh isn't excuted.
-#
-if [ ! -d "/tmp/work/opera" ]; then
-  rm -rf /tmp/work/
-  mkdir /tmp/work; chmod 777 /tmp/work
-  mount -t tmpfs -o size=30M tmpfs /tmp/work/
-  mkdir /tmp/work/opera/
-fi
 
 
 # Opera Standard Filter
@@ -67,13 +54,13 @@ then
     rm -rf $MAINDIR/opera/complete/urlfilter.ini.gz
     $ZIP $MAINDIR/opera/complete/urlfilter.ini.gz $TESTDIR/opera/urfilter-stats.ini > /dev/null
     # Generate Iron script
-    # Turn off for the time being.
-    # $HGSERV/scripts/iron/adblock-iron-generator-tracker.sh
+    $HGSERV/scripts/iron/adblock-iron-generator-tracker.sh
+    # Regional Opera
     $HGSERV/scripts/list-grabber-opera-regional.sh
   fi
 else
 # echo "Something went bad, file size is 0"
-  echo "Google mirror urlfilter.ini/urlfilter-stats size is zero, please fix." >> $LOGFILE
+  echo "urlfilter.ini/urlfilter-stats size is zero, please fix." >> $LOGFILE
 fi
 
 # Opera Tracking Filter
@@ -98,13 +85,13 @@ then
     rm -rf $MAINDIR/opera/complete/urlfilter.ini.gz
     $ZIP $MAINDIR/opera/complete/urlfilter.ini.gz $TESTDIR/opera/urfilter-stats2.ini > /dev/null
     # Generate Iron script
-    # Turn off for the time being.
-    # $HGSERV/scripts/iron/adblock-iron-generator.sh
+    $HGSERV/scripts/iron/adblock-iron-generator-tracker.sh
+    # Regional Opera
     $HGSERV/scripts/list-grabber-opera-regional.sh
   fi
 else
 # echo "Something went bad, file size is 0"
-  echo "Google mirror urlfilter.ini/urlfilter-stats size is zero, please fix." >> $LOGFILE
+  echo "urlfilter.ini/urlfilter-stats size is zero, please fix." >> $LOGFILE
 fi
 
 

@@ -1,22 +1,32 @@
 #!/bin/bash
 #
-# Fanboy Adblock Iron Convert script (espanol) v1.1 (03/09/2011)
+# Fanboy Adblock Iron Convert script (Espanol) v2.0 (30/08/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 
-# Creating a 10Mb ramdisk Temp storage...
-#
-if [ ! -d "/tmp/iron/" ]; then
-    rm -rf /tmp/iron/
-    mkdir /tmp/iron; chmod 777 /tmp/iron
-    mount -t tmpfs -o size=10M tmpfs /tmp/iron/
-fi
+export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
+export NICE="nice -n 19"
+export TAC="/usr/bin/tac"
+export CAT="/bin/cat"
+export MAINDIR="/tmp/Ramdisk/www/adblock"
+export SPLITDIR="/tmp/Ramdisk/www/adblock/split/test"
+export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
+export TESTDIR="/tmp/work"
+export DATE="`date`"
+export ADDCHECKSUM="nice -n 19 perl $HGSERV/scripts/addChecksum.pl"
+export ADDCHECKSUMOPERA="nice -n 19 perl $HGSERV/scripts/addChecksum-opera.pl"
+export LOGFILE="/etc/crons/log.txt"
+export HG="/usr/local/bin/hg"
+export SHA256SUM="/usr/bin/sha256sum"
+export IEDIR="/tmp/ieramdisk"
+export TWIDGE="/usr/bin/twidge update"
+export SUBS="/tmp/ieramdisk/subscriptions"
 
 # Split the Opera-specific stuff off... into its own list
 #
-sed -n '/Portuguese-addon/,/Wildcards/{/Wildcards/!p}'  $GOOGLEDIR/opera/urlfilter-esp.ini > $TESTDIR/urlfilter4.ini
+sed -n '/Portuguese-addon/,/Wildcards/{/Wildcards/!p}' $MAINDIR/opera/urlfilter.ini > $TESTDIR/urlfilter4.ini
 
 # remove ; from the file
 #
@@ -28,11 +38,11 @@ sed '1d' $TESTDIR/urlfilter-esp.ini > $TESTDIR/urlfilter4.ini
 
 # Merge with main
 #
-cat $IRONDIR/adblock.ini $TESTDIR/urlfilter4.ini > $TESTDIR/adblock-esp.ini
+cat $MAINDIR/iron/adblock.ini $TESTDIR/urlfilter4.ini > $TESTDIR/adblock-esp.ini
 
 # Merge with tracking
 #
-cat $IRONDIR/complete/adblock.ini $TESTDIR/adblock-esp.ini > $TESTDIR/adblock-esp-stats.ini
+cat $MAINDIR/iron/complete/adblock.ini $TESTDIR/adblock-esp.ini > $TESTDIR/adblock-esp-stats.ini
 
 # remove any blank lines
 #
@@ -41,17 +51,25 @@ sed '/^$/d' $TESTDIR/adblock-esp-stats.ini > $TESTDIR/adblock-esp-stats2.ini
 
 # remove any wildcards
 #
-tr -d '*' <$TESTDIR/adblock-esp2.ini >$IRONDIR/esp/adblock.ini
-tr -d '*' <$TESTDIR/adblock-esp-stats2.ini >$IRONDIR/esp/complete/adblock.ini
+tr -d '*' <$TESTDIR/adblock-esp2.ini >$TESTDIR/adblock-esp.ini
+tr -d '*' <$TESTDIR/adblock-esp-stats2.ini >$TESTDIR/adblock-esp-stats.ini
 
 # Checksum the file (Done)
 #
-perl $TESTDIR/opera/addChecksum-opera.pl $IRONDIR/esp/adblock.ini
-perl $TESTDIR/opera/addChecksum-opera.pl $IRONDIR/esp/complete/adblock.ini
-rm $IRONDIR/esp/adblock.ini.gz 
-rm $IRONDIR/esp/complete/adblock.ini.gz
+$ADDCHECKSUMOPERA $TESTDIR/adblock-esp.ini
+$ADDCHECKSUMOPERA $TESTDIR/adblock-esp-stats.ini
+
+# Copy over files
+#
+cp -f $TESTDIR/adblock-esp.ini $MAINDIR/iron/esp/adblock.ini
+cp -f $TESTDIR/adblock-esp-stats.ini $MAINDIR/iron/esp/complete/adblock.ini
+
+# Remove old gzip'd
+#
+rm -f $MAINDIR/iron/esp/adblock.ini.gz
+rm -f $MAINDIR/iron/esp/complete/adblock.ini.gz
 
 # Zip up files..
 #
-$ZIP a -mx=9 -y -tgzip $IRONDIR/esp/adblock.ini.gz $IRONDIR/esp/adblock.ini > /dev/null
-$ZIP a -mx=9 -y -tgzip $IRONDIR/esp/complete/adblock.ini.gz $IRONDIR/esp/complete/adblock.ini > /dev/null
+$ZIP $MAINDIR/iron/esp/adblock.ini.gz $TESTDIR/adblock-esp.ini &> /dev/null
+$ZIP $MAINDIR/iron/esp/complete/adblock.ini.gz $TESTDIR/adblock-esp-stats.ini &> /dev/null
