@@ -1660,7 +1660,7 @@ then
     # Combine
     # $HGSERV/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
-    # $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+    $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
     # Firefox2Opera
     # $NICE $HGSERV/scripts/firefox2opera.sh
 else
@@ -1684,7 +1684,7 @@ then
     # Combine
     # $HGSERV/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
-    # $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+    $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
     # Firefox2Opera
     # $NICE $HGSYNC/scripts/firefox2opera.sh
 else
