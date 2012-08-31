@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ligtv.com.tr/
+
+
+[filters]
+http://www.ligtv.com.tr/App_Themes/2011/gfx/ad/sezon_ilk_gol_skin3.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
