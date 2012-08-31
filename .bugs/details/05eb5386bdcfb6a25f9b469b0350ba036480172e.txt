@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nyharborwebcam.com/
+
+[filters]
+http://pagead2.googlesyndication.com/pagead/show_ads.js
+
+
+
+[other]
+Need to whitelist google to allow video
+
+[comments]
+fanboy
