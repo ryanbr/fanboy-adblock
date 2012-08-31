@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://portcanaveralwebcam.com/
+
+
+[filters]
+http://pagead2.googlesyndication.com/pagead/show_ads.js
+
+
+
+
+[other]
+Need to whitelist google ads
+
+[comments]
+fanboy
