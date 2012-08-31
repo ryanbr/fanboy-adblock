@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ftlauderdalewebcam.com/
+
+
+[filters]
+http://ftlauderdalewebcam.com/images/PIE-1954-WebCamBanner_V1.gif
+http://ftlauderdalewebcam.com/images/PIE-1954-WebCamBanner_V2.gif
+http://pagead2.googlesyndication.com/pagead/show_ads.js
+
+
+
+
+[other]
+Need to whitelist google ads to allow video
+
+[comments]
+fanboy
