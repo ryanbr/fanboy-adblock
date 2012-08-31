@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.juancole.com/2012/08/top-ten-repeated-paul-ryan-lies.html
+
+
+[filters]
+http://www.juancole.com/site/wp-content/plugins/fv-sharing/images/tweet.png
+http://www.juancole.com/site/wp-content/plugins/fv-sharing/images/close1.png
+http://www.juancole.com/site/wp-content/plugins/fv-sharing/images/email.gif
+http://www.juancole.com/site/wp-content/plugins/fv-sharing/images/loading.gif
+http://www.juancole.com/site/wp-content/plugins/fv-sharing/images/reddit.gif
+http://www.juancole.com/site/wp-content/plugins/fv-sharing/js/fvfacebook.js?ver=3.4.1
+http://www.juancole.com/site/wp-content/plugins/fv-sharing/js/jquery.colorbox-min.js?ver=3.4.1
+http://www.juancole.com/site/wp-content/plugins/fv-sharing/style.css?ver=1.0
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
