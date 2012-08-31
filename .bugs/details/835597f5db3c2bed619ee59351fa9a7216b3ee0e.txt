@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://deals.ebay.com/5000115428_Toshiba_Satellite_15_6__inch_AMD_E_300_Notebook?_trksid=p5197.m462
+
+
+[filters]
+http://include.ebaystatic.com/js/e757/us/tracking_headerJS_e7571us.js
+
+
+
+
+[other]
+https://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14638
+
+[comments]
+fanboy
