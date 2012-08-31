@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.globalpost.com/dispatch/news/regions/americas/brazil/120830/gay-man-gets-maternity-leave-brazil
+
+
+[filters]
+http://www.globalpost.com/adpage-jx?pos=Top,Right1,Right2,Bottom,x18!Right1&rand=969671916&delay=150&frameid=ad-leaderboard-right-1&url=www.globalpost.com/dispatch/news/regions/americas/brazil/120830/gay-man-gets-maternity-leave-brazil&query=nid%3D5717837%26node_type%3Dbreaking_news%26url_raw%3Dnode%2F5717837%26url%3Ddispatch%2Fnews%2Fregions%2Famericas%2Fbrazil%2F120830%2Fgay-man-gets-maternity-leave-brazil%26node_title%3Dgay-man-gets-maternity-leave-brazil%26author%3D26349%26section_tid%3D18764%26is_region%3D0%26is_topic%3D0%26is_landing%3D0%26section_title%3Dbrazil%26section_url%3Dnews%2Fregions%2Famericas%2Fbrazil%26terms%3Dbrazil%26tags%3Dgay-rights
+http://www.globalpost.com/adpage-jx?pos=Top,Right1,Right2,Bottom,x18!Top&rand=969671916&delay=150&frameid=ad-leaderboard-header-ad1&url=www.globalpost.com/dispatch/news/regions/americas/brazil/120830/gay-man-gets-maternity-leave-brazil&query=nid%3D5717837%26node_type%3Dbreaking_news%26url_raw%3Dnode%2F5717837%26url%3Ddispatch%2Fnews%2Fregions%2Famericas%2Fbrazil%2F120830%2Fgay-man-gets-maternity-leave-brazil%26node_title%3Dgay-man-gets-maternity-leave-brazil%26author%3D26349%26section_tid%3D18764%26is_region%3D0%26is_topic%3D0%26is_landing%3D0%26section_title%3Dbrazil%26section_url%3Dnews%2Fregions%2Famericas%2Fbrazil%26terms%3Dbrazil%26tags%3Dgay-rights
+http://www.globalpost.com/adpage-jx?pos=Top,Right1,Right2,Bottom,x18!x18&rand=969671916&delay=150&frameid=ad-leaderboard-right-x&url=www.globalpost.com/dispatch/news/regions/americas/brazil/120830/gay-man-gets-maternity-leave-brazil&query=nid%3D5717837%26node_type%3Dbreaking_news%26url_raw%3Dnode%2F5717837%26url%3Ddispatch%2Fnews%2Fregions%2Famericas%2Fbrazil%2F120830%2Fgay-man-gets-maternity-leave-brazil%26node_title%3Dgay-man-gets-maternity-leave-brazil%26author%3D26349%26section_tid%3D18764%26is_region%3D0%26is_topic%3D0%26is_landing%3D0%26section_title%3Dbrazil%26section_url%3Dnews%2Fregions%2Famericas%2Fbrazil%26terms%3Dbrazil%26tags%3Dgay-rights
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
