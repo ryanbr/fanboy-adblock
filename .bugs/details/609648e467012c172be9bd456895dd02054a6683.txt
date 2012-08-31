@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.petcarerx.com/Default.aspx?id=1493
+
+
+[filters]
+http://cdn.petcarerx.com/banners/default/2728e47e-8891-4dd5-8cf2-5b74af92dd9b.jpg
+http://cdn.petcarerx.com/banners/default/67fba13a-6f9c-4ef3-b2c4-f00a224ab996.jpg
+http://cdn.petcarerx.com/banners/default/7eaf4f5d-21cf-4f62-8560-7c033798d7c0.jpg
+http://cdn.petcarerx.com/banners/leftcol/03bbb783-b23d-4cb2-b863-d09164b74bda.gif
+http://cdn.petcarerx.com/banners/leftcol/675d8f51-4be1-43e7-95fc-8eed63ba5bdf.jpg
+http://cdn.petcarerx.com/banners/leftcol/89897665-589e-43d0-942e-e0545060c047.gif
+http://cdn.petcarerx.com/banners/leftcol/bd5c8c1b-60e3-438a-b641-58199232bb37.jpg
+http://cdn.petcarerx.com/banners/leftcol/f0a927d4-d827-444b-8006-54d774e96d6e.gif
+http://cdn.petcarerx.com/banners/leftcol/f7f29f34-ca37-4b24-a439-aeb1dfe66a8d.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
