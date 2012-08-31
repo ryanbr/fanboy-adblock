@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://portevergladeswebcam.com/
+
+[filters]
+http://portevergladeswebcam.com/images/PIE-1954-WebCamBanner_V1.gif
+http://portevergladeswebcam.com/images/Rodewayfll-EvergladeCam-Ad.jpg
+http://pagead2.googlesyndication.com/pagead/show_ads.js
+
+
+[other]
+Need to white googleads
+
+[comments]
+fanboy
