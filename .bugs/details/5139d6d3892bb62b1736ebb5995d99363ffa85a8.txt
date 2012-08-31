@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sports.walla.co.il/?w=/151/2563145
+
+
+[filters]
+http://events.walla.co.il/events.asp?l=walla.sports.&event_type=1&DIvName=MotorolaPlayer_motocity_EX&page_location=5&geo=IL&un=1
+http://fus.walla.co.il/impression/nycea/walla.sports.basketball.article/pre/3370507523?affiliate=246&custom3=&custom2=2563145
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
