@@ -1,0 +1,37 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.globalpost.com/dispatch/news/regions/americas/united-states/120829/black-cnn-reporter-at-rnc-had-food-thrown-at-her-rnc
+
+
+[filters]
+http://cdn.gigya.com/gs/i/comments/providers/twitterUser_14x14.gif
+http://cdn.gigya.com/gs/i/comments/remove_icon.gif
+http://cdn.gigya.com/gs/i/comments/thumbsdown.png
+http://cdn.gigya.com/gs/i/comments/thumbsup.png
+http://cdn.gigya.com/gs/i/followbar/facebook_22.png
+http://cdn.gigya.com/gs/i/followbar/googleplus_22.png
+http://cdn.gigya.com/gs/i/followbar/linkedin_22.png
+http://cdn.gigya.com/gs/i/followbar/rss_22.png
+http://cdn.gigya.com/gs/i/followbar/twitter_22.png
+http://cdn.gigya.com/gs/i/shareBar/button/buttonCenterImgBGOver.png
+http://cdn.gigya.com/gs/i/shareBar/button/buttonCenterImgUp.png
+http://cdn.gigya.com/js/gigya.services.socialize.plugins.comments.min.js
+http://cdn.gigya.com/js/gigya.services.socialize.plugins.followbar.min.js
+http://cdn.gigya.com/js/gigya.services.socialize.plugins.login.min.js
+http://cdn.gigya.com/js/gigya.services.socialize.plugins.min.js
+http://cdn.gigya.com/js/gigya.services.socialize.plugins.newsfeed.min.js
+http://cdn.gigya.com/js/gigya.services.socialize.plugins.reactions.min.js
+http://cdn.gigya.com/js/gigya.services.socialize.plugins.shareCounts.min.js
+http://cdn.gigya.com/js/gigya.services.socialize.plugins.simpleshare.min.js
+
+
+
+
+[other]
+Needed for comments
+
+
+[comments]
+fanboy
