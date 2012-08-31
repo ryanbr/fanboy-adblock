@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://quakewars.filefront.com/file/Enemy_Territory_Quake_Wars_Linux_Client;83788
+
+[filters]
+http://media1.break.com/adops/filefront/ff_ros.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
