@@ -62,33 +62,56 @@ cat $TESTDIR/fanboy-adblocklist-current.txt $TESTDIR/fanboy-stats-temp.txt $TEST
 cat $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt $TESTDIR/fanboy-addon-temp3.txt > $MAINDIR/fanboy-ultimate-ie.txt
 cat $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt > $TESTDIR/fanboy-complete.txt > $MAINDIR/fanboy-complete-ie.txt
 
-if [ -s "$TESTDIR/fanboy-ultimate.txt" ] && [ -s "$TESTDIR/fanboy-complete.txt" ];
+if [ -s "$TESTDIR/fanboy-ultimate.txt" ];
   then
    # Add titles
    #
-   sed -i 's/Adblock\ List/Complete\ List/g' $TESTDIR/fanboy-complete.txt
    sed -i 's/Adblock\ List/Ultimate\ List/g' $TESTDIR/fanboy-ultimate.txt
 
    # Addchecksum
    #
-   $ADDCHECKSUM $TESTDIR/fanboy-complete.txt
    $ADDCHECKSUM $TESTDIR/fanboy-ultimate.txt
 
    # Erase old files
    #
-   rm -rf $MAINDIR/r/fanboy-complete.txt $MAINDIR/r/fanboy-ultimate.txt
+   rm -rf $MAINDIR/r/fanboy-ultimate.txt
 
    # Copy to the website
    #
-   cp -f $TESTDIR/fanboy-complete.txt $MAINDIR/r/fanboy-complete.txt
    cp -f $TESTDIR/fanboy-ultimate.txt $MAINDIR/r/fanboy-ultimate.txt
 
    # Gzip up the ultimate/complete lists
    #
-   rm -f $MAINDIR/r/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
-   $ZIP $MAINDIR/r/fanboy-complete.txt.gz $TESTDIR/fanboy-complete.txt &> /dev/null
+   rm -f $MAINDIR/r/fanboy-ultimate.txt.gz
    $ZIP $MAINDIR/r/fanboy-ultimate.txt.gz $TESTDIR/fanboy-ultimate.txt &> /dev/null
   else
    # If the Cat fails.
-   echo "Error creating file firefox-adblock-ultimate.txt: fanboy-ultimate.txt/fanboy-complete.txt: 0sized- $DATE" >> $LOGFILE
+   echo "Error creating file firefox-adblock-ultimate.txt: fanboy-ultimate.txt: 0sized- $DATE" >> $LOGFILE
+fi
+
+if [ -s "$TESTDIR/fanboy-complete.txt" ];
+  then
+   # Add titles
+   #
+   sed -i 's/Adblock\ List/Complete\ List/g' $TESTDIR/fanboy-complete.txt
+
+   # Addchecksum
+   #
+   $ADDCHECKSUM $TESTDIR/fanboy-complete.txt
+
+   # Erase old files
+   #
+   rm -rf $MAINDIR/r/fanboy-complete.txt
+
+   # Copy to the website
+   #
+   cp -f $TESTDIR/fanboy-complete.txt $MAINDIR/r/fanboy-complete.txt
+
+   # Gzip up the ultimate/complete lists
+   #
+   rm -f $MAINDIR/r/fanboy-complete.txt.gz
+   $ZIP $MAINDIR/r/fanboy-complete.txt.gz $TESTDIR/fanboy-complete.txt &> /dev/null
+  else
+   # If the Cat fails.
+   echo "Error creating file firefox-adblock-ultimate.txt: fanboy-complete.txt: 0sized- $DATE" >> $LOGFILE
 fi
