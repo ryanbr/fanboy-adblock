@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.catalogs.com/health.html
+
+
+[filters]
+http://track.catalogs.com:3050/javascripts/track.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
