@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.twirlit.com/2012/08/30/jersey-shore-cancelled-by-mtv/
+
+[filters]
+http://www.twirlit.com/wp-content/themes/main/images/follow-us.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
