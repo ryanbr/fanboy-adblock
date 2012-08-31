@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jamendo.com/en/list/a91153/digital-memories
+
+
+[filters]
+http://www.jamendo.com/images/libs/social/youtube_16.png
+http://www.jamendo.com/images/libs/social/twitter_16.png
+http://www.jamendo.com/images/libs/social/google_16.png
+http://www.jamendo.com/images/libs/social/facebook_16.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
