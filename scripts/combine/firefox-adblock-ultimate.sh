@@ -60,7 +60,7 @@ cat $TESTDIR/fanboy-adblocklist-current.txt $TESTDIR/fanboy-stats-temp.txt $TEST
 # Ultimate List for IE (minus the main list)
 #
 cat $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt $TESTDIR/fanboy-addon-temp3.txt > $MAINDIR/fanboy-ultimate-ie.txt
-cat $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt > $TESTDIR/fanboy-complete.txt > $MAINDIR/fanboy-complete-ie.txt
+cat $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt $TESTDIR/fanboy-complete.txt > $MAINDIR/fanboy-complete-ie.txt
 
 if [ -s "$TESTDIR/fanboy-ultimate.txt" ];
   then
