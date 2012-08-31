@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.shoes.com/en-US/Womens/_/_/Dress+Shoes~Flats/_/Products.aspx
+
+
+[filters]
+http://www.shoes.com/scripts/bvreporting.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
