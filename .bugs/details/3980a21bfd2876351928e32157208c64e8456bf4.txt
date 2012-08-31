@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hotpads.com/rentals/Boston-MA-02109--3e6gr5q8h6td0#lat=42.358274&lon=-71.057811&zoom=20&previewId=3e6gr5q8h6td0&previewType=listing&detailsOpen=true&dupeGrouping=building&listingTypes=rental,sublet,room,corporate&loan=30,0.04,0&resultsPerQuad=24
+
+[filters]
+http://hotpads.com/search/footerAd?listingId=3e6gr5q8h6td0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
