@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.google.com/
+
+
+[filters]
+https://www.google.com/images/hpp/n7_promo_en_us.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
