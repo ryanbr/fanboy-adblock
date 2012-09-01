@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://autobuy.ru/page/prodazha-avto/2
+
+
+[filters]
+http://autobuy.ru/banner/oldtimer/2012_2_228x130.swf
+http://autobuy.ru/userfiles/autoretroclub21_190x110.swf
+http://autobuy.ru/userfiles/autoretroclub21_800x100.swf
+http://autobuy.ru/userfiles/avtodoka_big.swf
+http://autobuy.ru/userfiles/banner.gif
+http://autobuy.ru/userfiles/bprgbunner.swf
+http://autobuy.ru/userfiles/espa_big.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
