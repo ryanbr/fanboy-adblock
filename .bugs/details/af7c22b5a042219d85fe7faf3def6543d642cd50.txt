@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vw-bus.ru/forum/
+
+
+[filters]
+http://www.vw-bus.ru/forum/images/banners/at-service.gif
+http://www.vw-bus.ru/forum/images/banners/busservice.gif
+http://www.vw-bus.ru/forum/images/banners/prestus.gif
+http://www.vw-bus.ru/forum/images/banners/studio31.jpg
+http://www.vw-bus.ru/forum/images/banners/t4t5banner.gif
+http://www.vw-bus.ru/forum/images/banners/vw_7years.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
