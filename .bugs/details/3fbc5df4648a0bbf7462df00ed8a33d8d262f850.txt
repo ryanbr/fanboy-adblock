@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yopmail.com/en/
+
+
+[filters]
+http://www.yopmail.com/c.swf
+http://www.yopmail.com/fbd.js
+
+
+[other]
+Create an account first
+
+[comments]
+fanboy
