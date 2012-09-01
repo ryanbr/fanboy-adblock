@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nuvid.com/
+
+
+[filters]
+http://service.clicksvenue.com/pu.php?sid=10&spid=18&scid=10&tt=2
+http://service.clicksvenue.com/pujs.php?sid=10&spid=18&scid=10
+http://service.clicksvenue.com/redirect.php?target=http%3A%2F%2Fwww.livejasmin.com%2Ffreechat.php%3Fpsid%3Ded_cvennuv%26welcome
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
