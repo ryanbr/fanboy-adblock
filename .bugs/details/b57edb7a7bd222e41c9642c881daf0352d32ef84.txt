@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://empireamateurs.com/
+
+
+[filters]
+http://ads.amakings.com/hosted/badassgirlfriends/300x250.php?nats=MTYzMDUxOjI6ODE
+/pu.js
+http://ads.adtrovert.com/pu/pu-rt.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
