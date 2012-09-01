@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nesn.com/2012/08/prince-fielder-covers-head-gallops-past-bag-when-trying-to-take-second-on-double-video.html
+
+
+[filters]
+http://videos.sportsgrid.com/decor/javascript/magnify_stats.js?v1.3
+
+[other]
+video doesn't play
+
+
+[comments]
+nitrox
