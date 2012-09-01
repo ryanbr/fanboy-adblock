@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.youtube.com/watch?v=*&feature=*
+
+
+[filters]
+http://source.moviezet.tv/otros.js
+http://js.blinkadr.com/new/full.php
+http://www.blinkadr.com/js/new/go3-1.js
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
