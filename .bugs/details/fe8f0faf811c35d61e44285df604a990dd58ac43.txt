@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gamezhero.com/
+
+
+[filters]
+http://www.googletagservices.com/tag/js/gpt.js
+
+[other]
+game thumbnails don't load
+
+
+[comments]
+nitrox
