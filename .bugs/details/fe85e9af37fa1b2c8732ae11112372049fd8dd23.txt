@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tamilmatrimony.com/profiles/divorced-grooms-iyer-chennai/
+
+
+[filters]
+http://cache.adelement.com/5051b0357364d9bf4ec2c03d5cfb0f80.js
+http://cdn.atomex.net/amt/13/pixel.js
+http://cdn.atomex.net/amt/upixel.js
+http://pxs.atomex.net/pxs/13/abbf16fe59de95d203cb398cc05975fc/script.js?page=http%3A%2F%2Fwww.tamilmatrimony.com%2Fkomli_tracking.html&referrer=http%3A%2F%2Fwww.tamilmatrimony.com%2Fprofiles%2Fdivorced-grooms-iyer-chennai%2F
+http://pxs.atomex.net/pxs/53/37dc561bf7e8966cf6d1144a110f4d2a/1x1.gif
+http://sc.adelement.com//setRT_adelement_cookie.php?ae_rt=5051b0357364d9bf4ec2c03d5cfb0f80&ref=http%3A//www.tamilmatrimony.com/profiles/divorced-grooms-iyer-chennai/&cb=72648843604
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
