@@ -1,0 +1,30 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kongregate.com/games/Kongregate/kongai/?referrer=deimosta
+
+
+[filters]
+http://internal.kongregate.com/assets/challenges/cards/battlesprite/card1.png?v=2.0
+http://internal.kongregate.com/assets/challenges/cards/battlesprite/card2060.png?v=2.0
+http://internal.kongregate.com/assets/challenges/cards/battlesprite/card44.png?v=2.0
+http://internal.kongregate.com/assets/challenges/cards/battlesprite/card9.png?v=2.0
+http://internal.kongregate.com/assets/challenges/cards/enemyattacktab/card2060.png?v=2.0
+http://internal.kongregate.com/assets/challenges/cards/gamefull/card2035.png?v=2.0
+http://internal.kongregate.com/assets/challenges/cards/itemorb/card2035.png?v=2.0
+http://internal.kongregate.com/assets/challenges/cards/portrait/card1.png?v=2.0
+http://internal.kongregate.com/assets/challenges/cards/portrait/card2060.png?v=2.0
+http://internal.kongregate.com/assets/challenges/cards/portrait/card44.png?v=2.0
+http://internal.kongregate.com/assets/challenges/cards/portrait/card9.png?v=2.0
+http://internal.kongregate.com/flash/API_5cdb62e2fc08b127926bffb46b6bb076.swf
+http://internal.kongregate.com/flash/GameShell_28b56f9744d64f5c7504d3bac9f0cd58.swf
+http://internal.kongregate.com/gamez/0000/4350/live/metagame.swf?kongregate_game_version=1277316742
+http://internal.kongregate.com/gamez/0000/4350/live/metagame_preloader.swf?kongregate_game_version=1277316742
+
+[other]
+game is blocked
+
+
+[comments]
+nitrox
