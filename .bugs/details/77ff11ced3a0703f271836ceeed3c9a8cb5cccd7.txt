@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zillow.com/homedetails/120-W-Los-Amigos-Ave-Montebello-CA-90640/20670715_zpid/
+
+
+[filters]
+http://js.dmtry.com/channel.js#gid:2702;advid:757;pid:180104;pri:925000;lst:forsale;zip:90640
+
+
+[other]
+price chart is blocked.
+
+
+[comments]
+nitrox
