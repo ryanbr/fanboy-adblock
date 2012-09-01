@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.freebunker.com/show/28686/1.jpg
+
+[filters]
+http://www.freebunker.com/includes/js/contpop.js
+http://www.freebunker.com/includes/js/exa.js
+http://www.freebunker.com/includes/js/js.js
+http://www.freebunker.com/includes/js/pops.js
+http://www.freebunker.com/includes/js/raw.js
+
+
+
+
+[other]
+update filters
+
+
+[comments]
+fanboy
