@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dress-up-games.heavygames.com/
+
+
+[filters]
+http://www.arcadetown.com/as/show.asp?src=arcadetown_sky160
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
