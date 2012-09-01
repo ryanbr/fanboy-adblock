@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.avanturist.org/forum/
+
+
+[filters]
+http://www.avanturist.org/files/tendery2_180_150.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
