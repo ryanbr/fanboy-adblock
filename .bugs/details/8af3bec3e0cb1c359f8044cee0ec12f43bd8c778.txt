@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.coolmath-games.com/
+
+
+[filters]
+http://www.coolmath.net/000-Main-MedRect.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
