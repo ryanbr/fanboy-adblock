@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gamefudge.com/The-Last-Stand-Union-City
+
+
+[filters]
+http://server.cpmstar.com/adviewas2.swf?contentspotid=5559Q223BE489
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
