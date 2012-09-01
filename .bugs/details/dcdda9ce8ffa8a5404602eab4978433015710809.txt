@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.williams-sonoma.com/recipe/layered-chicken-three-cheese-enchilada.html
+
+
+[filters]
+http://www.williams-sonoma.com/wsimgs/rk/images/s/201234/0008/js/external/coremetrics.js
+
+[other]
+rations and reviews don't load
+
+
+[comments]
+nitrox
