@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://himasoku.com/
+
+
+[filters]
+http://mng2.mcnt.jp/pv.php?120901imanori04_a
+http://himarin.s174.coreserver.jp/Amazon-Side/amazon_bestseller.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
