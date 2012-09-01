@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://xemphimso.com/xem-phim/online/dao-hai-tac-tap-561-562-one-piece/77717.html
+
+
+[filters]
+http://xemphimso.com/img/BN.gif
+http://xemphimso.com/img/download_lage.png
+http://xemphimso.com/img/right_banner.gif
+http://xemphimso.com/img/soha.swf
+http://xemphimso.com/img/troll.gif
+http://xemphimso.com/js/popupnew.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
