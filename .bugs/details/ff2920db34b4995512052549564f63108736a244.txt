@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gaixinhgaidep.com/?s=*
+
+[filters]
+http://gaixinhgaidep.com/pop-4.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
