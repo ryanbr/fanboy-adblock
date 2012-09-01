@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.filmlinks4u.net/2010/06/punjabi-house-1998-%E2%80%93-malayalam-movie-watch-online.html
+
+
+[filters]
+http://www.lyricsbogie.com/?aff=flp0510
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
