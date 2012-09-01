@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.own3d.tv/Destiny/live/153518
+
+
+[filters]
+http://cdn-media.cbsinteractive.co.uk/cbsi/ads/Alienware_M14x_UK_15_HD.flv
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
