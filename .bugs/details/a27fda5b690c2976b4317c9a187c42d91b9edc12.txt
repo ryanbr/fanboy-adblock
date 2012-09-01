@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bnn.ca/
+
+
+[filters]
+http://metrics.ctvdigital.net/global/CtvAd.js
+
+[other]
+page main content is blocked.
+
+
+[comments]
+nitrox
