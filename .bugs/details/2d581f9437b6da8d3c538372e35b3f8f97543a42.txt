@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thegameslist.com/
+
+
+[filters]
+http://www.thegameslist.com/wb/t.gif?r=0.37031516014445043&u=0&g=55089972&l=http%3A//www.thegameslist.com/&s=_enter_&t=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
