@@ -1,0 +1,31 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://pornoshara.tv/
+
+[filters]
+http://2e0.ru/news.html
+http://2e0.ru/news.js
+http://2e0.ru/news.php
+http://3c6.ru/15.php?a=49236,56507,56126,57000,
+http://adpron.com/code/vknotifier1.php?id=4&adf_in=1&vk_t=0&adv_ids=&adv_q=null
+http://adpron.com/code/vkshow.php?id=4
+http://adpron.com/files/bb2.mp3
+http://adpron.com/files/mp3player.swf?file=http://adpron.com/files/bb2.mp3&startplay=true
+http://adpron.com/files/notifier_close.gif
+http://adpron.com/files/swfobject.js
+http://adpron.com/uploads/32.jpg
+http://gangstaporno.com/forum/upload/pop_clouse.gif
+http://gangstaporno.com/forum/upload/popup.js
+http://www.rapsyava.narod.ru/images/600-90.gif
+http://robimobi.com/6bk2wga5mvu6pfsn1fdr185guczj92u4h445ssfus
+http://robimobi.com/70i1utp53bu5xq1suiqcrg75tefk1pibl6jtxw9iuhaavmzy2p?&4a3x5afo=68726581&8pgom2pdwsqi8t=http%3A//pornoshara.tv/&44yyo=40&44yzj=39&308i8=44&4j0n5=100
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
