@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sportlemon.tv/v-4/4/38/v-443961.html
+
+[filters]
+http://leton.tv/adl.php?type=center
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
