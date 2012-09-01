@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nuvid.com/video/218934/two-skinny-teen-lesbians-kiss-and-rub-and-lick-their-titties
+
+[filters]
+http://nuvidp.com/nuvid/video_top_cams.php?cats=1|2|11
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
