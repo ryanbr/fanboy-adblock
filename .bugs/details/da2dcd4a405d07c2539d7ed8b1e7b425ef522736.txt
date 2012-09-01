@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.madsextube.com/hentai.shtml
+
+
+[filters]
+http://www.openjavascript.com/im-popup/im-custom.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
