@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.uniongang.tv/
+
+
+[filters]
+http://traf-zona.ru/images/a/1_1344938436.gif
+http://traf-zona.ru/images/a/2_1345616096.gif
+http://traf-zona.ru/images/a/3_1345622438.gif
+http://traf-zona.ru/images/a/7_1345616765.gif
+http://traf-zona.ru/images/a/8_1345211918.jpg
+http://traf-zona.ru/js/utftizer.php?id=129&c=5&c2=1&t=1&ct=3&f=120&v=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
