@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://jailbaitchan.com/
+
+
+[filters]
+http://jailbaitchan.com/tp/a_ft.php?rand=12
+http://jailbaitchan.com/tp/img.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
