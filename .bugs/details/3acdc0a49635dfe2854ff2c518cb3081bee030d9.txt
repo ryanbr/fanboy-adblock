@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dwdrums.com.pl/
+
+[filters]
+http://www.dwdrums.com.pl/banery/SuperBaner/132407203811.jpg
+http://www.dwdrums.com.pl/banery/SuperBaner/132407226713.jpg
+http://www.dwdrums.com.pl/banery/SuperBaner/132407232614.jpg
+http://www.dwdrums.com.pl/banery/SuperBaner/132766213015.jpg
+http://www.dwdrums.com.pl/banery/SuperBaner/min_13240716069.jpg
+http://www.dwdrums.com.pl/banery/SuperBaner/min_132407203811.jpg
+http://www.dwdrums.com.pl/banery/SuperBaner/min_132407226713.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
