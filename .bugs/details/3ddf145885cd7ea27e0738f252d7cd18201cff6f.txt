@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://infuture.ru/article/5726
+
+
+[filters]
+http://infuture.ru/orphus/telecomideas.gif
+http://www.infuture.ru/image/banfast.jpg
+http://www.infuture.ru/image/perrelet.jpg
+http://www.infuture.ru/orphus/3.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
