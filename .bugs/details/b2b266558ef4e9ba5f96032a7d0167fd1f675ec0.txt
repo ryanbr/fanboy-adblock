@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hotair.com/archives/2012/08/31/quotes-of-the-day-1131/
+
+
+[filters]
+http://st.magnify.net/decor/track/pixel.gif?ts=1346479951378&type=page&s=6a872949bc41bcafe5385f210b80d025&cs=QYDH920S8K6SQQ1L&r=http%3A%2F%2Fhotair.com%2Farchives%2F2012%2F08%2F31%2Fquotes-of-the-day-1131%2F&v=%2F%2Fw-q%2F%3Fcontent%3DS265CX1Q2C4JB0QT%26layout%3D%26content_type%3Dcontent_item%26playlist_cid%3D%26media_type%3Dvideo%26read_more%3D1%26widget_type_cid%3Dsvp&c=%2F%2Fci-c%2FS265CX1Q2C4JB0QT&sp=enterprise
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
