@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gamek.vn/c195n20120825121318764/toi-con-song-do-bo-len-pc.chn
+
+[filters]
+http://admicro1.vcmedia.vn/ads_codes/ads_box_183.ads
+http://admicro1.vcmedia.vn/ads_codes/ads_box_360.ads
+http://admicro1.vcmedia.vn/ads_codes/ads_box_498.ads
+http://admicro1.vcmedia.vn/ads_codes/ads_box_57.ads
+http://admicro1.vcmedia.vn/ads_codes/ads_box_59.ads
+http://admicro1.vcmedia.vn/ads_codes/ads_box_60.ads
+http://admicro1.vcmedia.vn/ads_codes/ads_box_962.ads
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
