@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.linecinema.org/page/2/
+
+[filters]
+http://gravdee.com/js/loader.js
+http://kinobzor.tv/_cron/img/684262c509753120bfc63e432fea3f60.jpg
+http://kinobzor.tv/_cron/img/86ade5f11589ca29093a0ef90ff356fb.jpg
+http://kinobzor.tv/_cron/img/a56ae1652631bd00001c6a45850d790c.jpg
+http://kinobzor.tv/_cron/img/c7ea23c7a9453bc216bfbddfd9eb1356.jpg
+http://kinobzor.tv/_cron/img/cb5958595add87ea7cb49de28fd8c60c.jpg
+http://kinobzor.tv/_cron/img/da80cfe7f19db486d83d2a7d1e2622d2.jpg
+http://kinobzor.tv/_cron/js/informer12.js
+http://www.linecinema.org/clk.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
