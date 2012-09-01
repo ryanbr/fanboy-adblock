@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.quibids.com/en/landing/index.php?c=*&mb=*&lp=*&sub=*
+
+[filters]
+https://www.quibids.com/marketing/pixels/landing.php
+https://a.adtpix.com/px/?id=4196
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
