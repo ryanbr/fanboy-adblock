@@ -1,0 +1,31 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.f1cd.ru/news/intel_priglashaet_obsudit_processori_haswell/
+
+
+[filters]
+http://ad.f1cd.ru/iframe/293c0d0867b23de0906466448f88c27d/640658243/?=http%3A//www.f1cd.ru/news/intel_priglashaet_obsudit_processori_haswell/
+http://ad.f1cd.ru/iframe/50ca3efc59c94a43794b2c2dd4735691/521529287/?=http%3A//www.f1cd.ru/news/intel_priglashaet_obsudit_processori_haswell/
+http://ad.f1cd.ru/load/69/1/293c0d0867b23de0906466448f88c27d
+http://ad.f1cd.ru/load/99/1/50ca3efc59c94a43794b2c2dd4735691
+http://ad.f1cd.ru/load_img/102/3/529310bfa98f45b681c7431cec0a0145/134646602152/
+http://ad.f1cd.ru/load_img/27/3/fa9c9e83087ade259ac1c97bc05a9b6c/1346466021664/
+http://ad.f1cd.ru/load_img/67/3/7e563110a1c8c24b27b5acf550ef5923/1346466021202/
+http://ad.f1cd.ru/load_img/81/0/5b82b4482d0b9ee483626d90f2c201ea/817203082/?=http%3A//www.f1cd.ru/news/intel_priglashaet_obsudit_processori_haswell/
+http://ad.f1cd.ru/load_img/86/3/084b3a7215b03ddc749bba6ee10e1101/1346466021313/
+http://ad.f1cd.ru/load_img/88/3/861d9095d5997bf2460450dc08712384/1346466021861/
+http://ad.f1cd.ru/load_img/91/3/e0e18ff7bff36c06efccbdc7735418cf/1346466021687/
+http://ad.f1cd.ru/scripts/swf.js
+http://ad.f1cd.ru/scripts/swf.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
