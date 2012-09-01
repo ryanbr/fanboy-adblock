@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mmorpg.com/discussion2.cfm/thread/359874/Aerowyns-Video-Compilation-of-ALL-things-Guild-Wars-2.html
+
+[filters]
+http://www.mmorpg.com/ext/inc_ad_frame.cfm?locationId=25&resize=true&frameId=2&groupStr=200X200&robot=0
+http://www.mmorpg.com/ext/inc_ad_frame.cfm?locationId=25&resize=true&frameId=2&groupStr=200X200&robot=0#
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
