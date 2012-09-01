@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wwe.com/inside/overtheropes/the-miz-visits-london-photos
+
+
+[filters]
+http://www.wwe.com/sites/all/modules/wwe/wwe_ads/FiFIE.html?id=galAd300x600,300x251&dcsrc=http://ad.doubleclick.net/N4675/adj/wwe.photos/superstars;name=the-miz-visits-london-photos;objid=26049046;pagetype=gallery;show=;type=photos;sz=300x600,300x251;pos=right;tile=2;dcove=d;ord=17208558293364307?
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
