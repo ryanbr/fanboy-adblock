@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mail2web.com/
+
+
+[filters]
+http://www.customerlobby.com/ctrack-9987
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14710
+
+
+[comments]
+fanboy
