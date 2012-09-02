@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.burningcamel.com/video/voyeur-in-locker-room
+
+
+[filters]
+http://www.adultadworld.com/adhandler/
+http://www.b?ad_height=300&adzone=100&adserver=1&adType=32
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
