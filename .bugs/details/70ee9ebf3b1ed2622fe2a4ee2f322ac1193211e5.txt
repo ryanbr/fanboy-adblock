@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sextubestore.com/fresh/Indian
+
+[filters]
+http://www.badjojo.com/?q=indian&utm_source=Q&utm_medium=popunder&utm_campaign=Q
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14715
+
+
+[comments]
+fanboy
