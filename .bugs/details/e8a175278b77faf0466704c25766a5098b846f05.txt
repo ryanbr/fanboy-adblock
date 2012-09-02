@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://porn.crazyshit.com/cnt/medias/30901-really-weird-fat-porn
+
+
+[filters]
+http://ox-d.adnetxchange.com/w/1.0/afr?auid=256444&cb=INSERT_RANDOM_NUMBER_HERE
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
