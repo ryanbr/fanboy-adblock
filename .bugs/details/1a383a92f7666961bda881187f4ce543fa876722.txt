@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.girlfriendvids.net/
+
+
+[filters]
+http://www.pornoow.com/red_admin/redirect.js?id=18
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
