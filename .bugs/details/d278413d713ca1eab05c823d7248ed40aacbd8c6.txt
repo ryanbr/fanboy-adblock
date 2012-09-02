@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.digitaljournal.com/article/331892
+
+
+[filters]
+https://www.facebook.com/ajax/photos/logging/everstore_logging.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
