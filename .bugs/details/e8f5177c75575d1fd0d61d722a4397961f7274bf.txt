@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.playedonline.com/game/597218/cradle-of-rome.html
+
+
+[filters]
+http://partner.googleadservices.com/gampad/google_ads.js
+http://partner.googleadservices.com/gampad/google_service.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
