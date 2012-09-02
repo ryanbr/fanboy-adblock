@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+https://mail.google.com/mail/u/0/images/c.gif?zx=o475q0gmhouo
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
