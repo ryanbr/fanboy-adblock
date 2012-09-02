@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.shop.puma.com/Kabo-Runner-Sneakers/pna352986,en_US,pd.html&cgid=25100#!i%3D27%26color%3D09%26size%3DUS_4
+
+
+[filters]
+http://demandware.edgesuite.net/aade_prd/on/demandware.static/Sites-US-Site/-/en_US/v1346483187244/lib/js/s_code.js
+http://demandware.edgesuite.net/aade_prd/on/demandware.static/Sites-US-Site/-/en_US/v1346483187244/js/omniture.js
+
+
+
+
+[other]
+Allow pic and allow ordering.
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14705
+
+[comments]
+fanboy
