@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+egotastic.com/sports/
+
+
+[filters]
+http://cdn.mxpnl.com/libs/mixpanel-2.1.min.js
+http://egotastic.com/wp-includes/js/mixpanel.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14713
+
+
+[comments]
+fanboy
