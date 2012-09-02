@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.shop.puma.com/on/demandware.store/Sites-EU-Site/en/Gateway-Show?q=master
+
+[filters]
+http://tracking.quisma.com/t.cfs?pid=61178293324S1115430&js=1&ss=1920x1080&cd=24&ce=1&je=0&ul=en-US&cpu=undefined&pfla=1&preal=0&pq=0&pmp=0&pado=0&re=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D8%26t%3D14705&gtoo=0&extrap=
+http://tracking.quisma.com/trakking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
