@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eporner.com/
+
+
+[filters]
+http://ad.eporner.com/ads-foot.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
