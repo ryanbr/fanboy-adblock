@@ -1,0 +1,40 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dojki.com/180641/
+
+[filters]
+http://clearac.com/94b9c54e3308653e9b86
+http://clearac.com/b2qdd46f269c2/31571612
+http://clearac.com/rss6/?b=170667&kl=00283&co=095&p=57030&h=clearac&gzd=082379&hp=-1&ph=1&np=1&63630
+http://clearac.com/rss6/?w=069230&h=clearac&p=57030&b=174699&vvi=0651&ph=1&hp=-1&np=1&Yw=0490573&sTl=0045&dLy=038&55669
+http://clearac.com/rssfeed3.php?b=170667&c=djMuPdKVBN7ceYvshteymIj7uITSfcVz4jm%2FRDCCdE7IY72qUy2FLXyXsvNmsRBH%2FesUPxjrym9tATEMbyq5TknJ6MlpH8HhR1gaI4KSVJI8nsSIeC26J1g1w9mxghDfIANgv9htKmRCP2c%2BvAZliZOhjGEFngr7xb7%2FgeqIG6FXGi86i%2FoZB0gE3lmwaUddM1BIbGEZnBzlT3AZQ2J%2FG65tPnSBOs0gPlWHq6HHKQSidpeLujjEVTka6S4zX07XOZg0ydFVAZf1hOnJ1jSCRKmdGF3qQON068LO&h=1&v=4&ref=http%3A%2F%2Fwww.dojki.com%2F&f=1&s=110&41320
+http://clearac.com/rssfeed3.php?b=174699&c=djMuPdKVBN7ceYvshteymIj7uITSfcVz4jm%2FRDCCdE7IY72qUy2FLXyXsvNmsRBH%2FesUPxjrym9tATEMbyq5TknJ6MlpH8HhR1gaI4KSVJI8nsSIeC26J1g1w9mxghDfIANgv9htKmRCP2c%2BvAZliZOhjGEFngr7xb7%2FgeqIG6FXGi86i%2FoZB0gE3lmwaUddM1BIbGEZnBzlT3AZQ2J%2FG65tPnSBOs0gPlWHq6HHKQSidpeLujjEVTka6S4zX07XOZg0ydFVAZf1hOnJ1jSCRKmdGF3qQON068LO&h=6&v=1&ref=http%3A%2F%2Fwww.dojki.com%2F&f=1&s=150&52914
+http://clearac.com/wp-includes/js/jquery/jquery.js
+http://office.partnerearning.com/getrotatorbannerlist?id=4378&refid=ddd85330f29c53cc7e47b16743d09a63
+http://office.partnerearning.com/img/gallery/1344505330.swf
+http://p.polimantu.com/g51/51148/43225/f0fb793014/110x110.gif
+http://p.polimantu.com/g66/66869/155533/15de1707351/110x110.gif
+http://p.polimantu.com/g88/88215/85386/48e4a80319/110x110.gif
+http://p.polimantu.com/js/jQuery.js
+http://p.polimantu.com/s/341/170667.html?b=170667&x=1&y=4&s=1&c=djMuPdKVBN7ceYvshteymIj7uITSfcVz4jm%2FRDCCdE7IY72qUy2FLXyXsvNmsRBH%2FesUPxjrym9tATEMbyq5TknJ6MlpH8HhR1gaI4KSVJI8nsSIeC26J1g1w9mxghDfIANgv9htKmRCP2c%2BvAZliZOhjGEFngr7xb7%2FgeqIG6FXGi86i%2FoZB0gE3lmwaUddM1BIbGEZnBzlT3AZQ2J%2FG65tPnSBOs0gPlWHq6HHKQSidpeLujjEVTka6S4zX07XOZg0ydFVAZf1hOnJ1jSCRKmdGF3qQON068LO&ref=http%3A//www.dojki.com/&h=clearac.com&57345
+http://p.polimantu.com/s/341/170667.js
+http://promo.runetki.com/res/tpl/din.swf?id=2496&bid=3620&server=runetki.com&langs=ru&campaign=&size=320x265&header=1&modelname=1&modelicon=1&modelinfo=1&selgeoheader=0&mediagroup=2&mediatype=3&skins=custom&linkdest=&modelnick=&clickurl=&refresh=1&logo=black&bbgcolor=none&bg_none=none&btextcolor=222222&mbordercolor=000000&mhovercolor=f7941d&mbordertype=solid&shad=0&bfontfamily=Arial&mtextalign=center&category=all
+http://tools.runetki.com/crossdomain.xml
+http://tools.runetki.com/din.php?src=0234d70e5e5ebf68a514964a83c9e9fa&bg=none&w=320&h=265
+http://tools.runetki.com/res.php?mediatype=1&category=all&languages=all&lang=ru&tp=din&r=0&w=320&h=265
+http://tools.runetki.com/res.php?mediatype=1&category=all&languages=all&lang=ru&tp=din&r=1&w=320&h=265
+http://tools.runetki.com/res.php?mediatype=1&category=all&languages=all&lang=ru&tp=din&r=2&w=320&h=265
+http://tools.runetki.com/res/swf/0234d70e5e5ebf68a514964a83c9e9fa/v.swf?rn=6
+http://tools.runetki.com/res/tpl/logo/91_black_ru.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
