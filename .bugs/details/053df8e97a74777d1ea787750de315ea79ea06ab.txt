@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bettycrocker.com/recipes/test/9174ad37-02de-4c4f-a072-148656372dea?src=SH
+
+
+[filters]
+http://www.bettycrocker.com/Shared/Javascript/ntpagetag.js
+http://www.bettycrocker.com/Shared/Javascript/UnicaTag.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14695
+
+[comments]
+fanboy
