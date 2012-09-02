@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.moshimonsters.com/adopt
+
+
+[filters]
+http://c.mmcdn.net/game/43.26/flash/config/metrics.xml
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14684
+
+
+[comments]
+fanboy
