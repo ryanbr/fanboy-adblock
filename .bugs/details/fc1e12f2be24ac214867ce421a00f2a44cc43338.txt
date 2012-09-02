@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sexhotmodels.com/
+
+
+[filters]
+http://gogousenet.com/tools/promo2.cgi?aid=2088021&cat=37&group=&cb=&var=lllllll&target=_blank&show=0000&kw=nude+teen+model&lnk=set
+http://gogousenet.com/tools/promo2.cgi?aid=2088021&cat=57&group=&cb=&var=lllllll&target=_blank&show=0000&kw=nude+teen+model&lnk=set
+http://gogousenet.com/tools/promo2.cgi?aid=2088021&cat=6&group=&cb=&var=lllllll&target=_blank&show=0000&kw=nude+teen+model&lnk=set
+http://gogousenet.com/tools/promo2.cgi?aid=2088021&cat=68&group=&cb=&var=lllllll&target=_blank&show=0000&kw=nude+teen+model&lnk=set
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
