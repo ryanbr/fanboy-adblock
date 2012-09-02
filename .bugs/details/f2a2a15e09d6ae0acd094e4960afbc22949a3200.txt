@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sears.com/shc/s/p_10153_12605_SPM6255557201P?sid=IDx20110310x00001i&ci_src=25356082&ci_sku=SPM2406547603&srccode=cii_184425893&cpncode=33-77330377-2
+
+[filters]
+http://nc.shld.net/08300100/ue/home/mbox_09.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14703
+
+
+[comments]
+fanboy
