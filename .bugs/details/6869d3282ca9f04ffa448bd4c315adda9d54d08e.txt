@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://finance.walla.co.il/?w=/111/2563644
+
+[filters]
+http://fus.walla.co.il/vast/333377483/walla.finance.tel-aviv.article/pre/?item_type=129&linked_item_id=&user_group=&exclusive=&exclusive.exclusive=&cdn=WBE&ssl=no&agegroup=&affiliate=244&target_audiance=1&target_audiance=3&target_audiance=5&target_audiance=2&custom2=2563644&gender=&targetingMode=ExclusiveOR&age=&item_id=2563644&content_page_url=http://finance.walla.co.il/?w=/111/2563644&break_number=0
+http://fus.walla.co.il/script.js?1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
