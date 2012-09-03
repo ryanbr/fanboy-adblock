@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://freegames.1up.com/games/pokemontowerdefense.html
+
+
+[filters]
+http://www.ugoplayer.com/jlibrary/prerollAd.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14744
+
+
+[comments]
+fanboy
