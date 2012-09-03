@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.newegg.com/
+
+
+[filters]
+http://images10.newegg.com/WebResource/Scripts/TP_CoreMetrics/v40/eluminate.en.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14739
+
+[comments]
+fanboy
