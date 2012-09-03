@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.politicususa.com/canada-proves-conservatives-wrong-cutting-corporate-taxes-30-jobs.html
+
+[filters]
+http://www.politicususa.com/psa/get_psa.php?w=300&h=250
+http://www.politicususa.com/psa/get_psa.php?w=300&h=250&t=1346652014767
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
