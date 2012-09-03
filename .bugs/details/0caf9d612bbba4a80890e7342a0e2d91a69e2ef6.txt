@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.globes.co.il/news/article.aspx?did=1000781111
+
+[filters]
+http://www.globes.co.il/news/Cache/sponser.js?ver=4
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
