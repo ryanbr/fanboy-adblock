@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.zeromillion.com/
+
+[filters]
+http://www.zeromillion.com/includes/async_ga_tag.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
