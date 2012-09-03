@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://gameserpent.com/playgame/6622/Ace-Gangster-Taxi
+
+[filters]
+http://gameserpent.com/kit120.php
+http://gameserpent.com/kit160.php
+http://gameserpent.com/kit300.php
+http://gameserpent.com/vcrectangle.php
+http://gameserpent.com/vcscraper.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
