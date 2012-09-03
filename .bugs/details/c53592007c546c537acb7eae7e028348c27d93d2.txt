@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://realtytimes.com/
+
+
+[filters]
+http://img.realtytimes.com/rtimages/pmg_480x70_images/$file/480x70_5x.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
