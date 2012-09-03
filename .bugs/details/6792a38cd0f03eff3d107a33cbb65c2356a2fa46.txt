@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thesun.co.uk/sol/homepage/showbiz/4517317/Bruce-Willis-to-fight-Apple-over-music-rights-after-his-death.html
+
+[filters]
+http://lc.livefyre.com/livecountping/16982262/314509080403/?routed=0&timeout=0&_bi=bd0782ce9ab2841caf5e0fb3ee722e1a&protocol=http%3A&host=www.thesun.co.uk&lftoken=
+http://lc.livefyre.com/livecountping/16982262/314509080403/?routed=0&timeout=1&_bi=bd0782ce9ab2841caf5e0fb3ee722e1a&protocol=http%3A&host=www.thesun.co.uk&lftoken=
+
+
+
+
+[other]
+breaks comments/comment layout, bad filter
+
+
+[comments]
+fanboy
