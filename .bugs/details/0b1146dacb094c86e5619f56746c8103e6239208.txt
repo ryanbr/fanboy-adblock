@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://artofmanliness.com/2012/09/01/heading-out-on-your-own-31-life-skills-in-31-days-series-wrap-up/
+
+
+[filters]
+http://s.bit.ly/TweetAndTrack.js?v=1.01
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
