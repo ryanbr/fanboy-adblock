@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pornordie.com/hosted-id604-thai-monkey-girl-fucked-up-5-times-for-one-night.html
+
+
+[filters]
+http://www.nonktube.com/popembed.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
