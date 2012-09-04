@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dannychoo.com/post/en/25633/Fujisawa+High+School+Photos+1.html
+
+
+[filters]
+http://www.dannychoo.com/public/img/dannychoo/icon-gplus.png?1332902159
+http://www.dannychoo.com/public/img/dannychoo/icons/icon-gplus.png?1332902159
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
