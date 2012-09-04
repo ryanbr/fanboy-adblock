@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www2.dupont.com/home/en-us/index.html
+
+
+[filters]
+http://www2.dupont.com/home/en-us/sites/all/themes/dpphoenix/js/DuPont_global_analytics_vH.24.1.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14762
+
+
+[comments]
+fanboy
