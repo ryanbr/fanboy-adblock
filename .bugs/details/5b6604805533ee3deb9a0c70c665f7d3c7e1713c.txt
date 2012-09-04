@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bakermckenzie.com/
+
+
+[filters]
+http://www.bakermckenzie.com/analyticsscript_apt.axd?apt__url=/default.aspx&apt__path=/FCWSite/Features/General/Home.aspx&apt__hostname=www.bakermckenzie.com&apt__port=80
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
