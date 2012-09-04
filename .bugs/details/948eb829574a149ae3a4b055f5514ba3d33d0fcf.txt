@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pwc.com/us/en/index.jhtml
+
+
+[filters]
+http://liveviewer.ez.no/statjs/sst-81-771466412/stat.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
