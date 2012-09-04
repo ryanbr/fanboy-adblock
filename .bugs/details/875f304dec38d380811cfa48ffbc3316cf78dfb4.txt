@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dsm.com/en_US/cworld/public/home/pages/home.jsp
+
+
+[filters]
+http://www.searchenginetracking.nl/pageview.ashx?host=www.dsm.com&url=http%3A//www.dsm.com/en_US/cworld/public/home/pages/home.jsp&referrer=http%3A//www.dsm.com/&time=1346710723581
+http://www.searchenginetracking.nl/pageview.ashx?host=www.dsm.com&url=http%3A//www.dsm.com/en_US/cworld/public/home/pages/home.jsp&referrer=http%3A//www.dsm.com/&time=1346710723581&cookietest=true
+
+http://www.dsm.com/en_US/js/searchenginetracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
