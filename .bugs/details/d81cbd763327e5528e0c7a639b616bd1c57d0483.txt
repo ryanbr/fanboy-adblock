@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.accaglobal.com/
+
+
+[filters]
+http://www.accaglobal.com/etc/designs/acca/js/lbi_ga.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
