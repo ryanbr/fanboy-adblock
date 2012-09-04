@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.grantthornton.com/portal/site/gtcom/menuitem.a8ee697a92b73ac9b217bfae633841ca/?vgnextoid=b17acbbdad9c4010VgnVCM100000368314acRCRD&vgnextfmt=default
+
+
+[filters]
+http://www.grantthornton.com/staticfiles/GTCom/media/JS/marketing-analytics.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
