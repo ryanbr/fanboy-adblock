@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.marilyn.ca/Fashion/segment.aspx/Daily/August2012/08_31_2012/FallBoots
+
+
+[filters]
+http://www.marilyn.ca/jsHandler.aspx?serial=1343417492&src=libs/jquery-1.4.4.min.js,libs/jquery-ui-1.8.6.custom.min.js,libs/jquery.address-1.3.1.min.js,libs/jquery.fancybox-1.3.4.pack.js,libs/jquery.cycle.lite.min.js,libs/jquery.ba-postmessage.min.js,libs/pdfobject.js,oneclip-extensions.js,Modules/one-clip-player.js,Modules/rotator-small.js,article.js,Modules/jquery.rotator-large-1.0.1.js,ctv.js,ctv.utilities.string.js,ctv.marilyn.modules.liveindicator.js,ctv.marilyn.modules.gallery.js,ctv.marilyn.modules.video-data.js,ctv.marilyn.modules.video-player.js,ctv.marilyn.modules.video-playlist-tabbed.js,ctv.marilyn.modules.daily-content-switcher.js,ctv.marilyn.modules.episode-archive.js,ctv.modules.slider.js,ctv.tracking.js,ctv.tracking.omniture.js,ctv.cookie.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
