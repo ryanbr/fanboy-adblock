@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://push2check.com/acuityplatform.com
+
+
+[filters]
+http://push2check.com/stats.php?task=stats&domain_name=acuityplatform.com&ref=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D8%26t%3D14782&randn=813459
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
