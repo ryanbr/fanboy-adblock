@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ctv.ca/SavingHope/Episode-Guide/Season-One/savinghope_111.aspx?vp=122892
+
+
+[filters]
+http://esi2.ctv.ca/players/mediaplayer/builds/ets_3.1/includes/Metrics.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14779
+
+
+[comments]
+fanboy
