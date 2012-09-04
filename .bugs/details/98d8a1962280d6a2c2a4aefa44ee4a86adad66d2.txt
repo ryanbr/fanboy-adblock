@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://series-cravings.info/watch-weeds-s8e10-threshold
+
+
+[filters]
+http://series-cravings.info/wp-content/plugins/wordpress-adblock-blocker/adframe.js
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=14765
+
+[comments]
+fanboy
