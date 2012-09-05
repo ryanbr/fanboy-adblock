@@ -1645,7 +1645,7 @@ fi
 # Fanboy-Annoyances (fanboy-addon-generic.txt)
 # Make sure the file exists, and the work directorys are also there before processing.
 #
-if [ -s "$HGSERV/fanboy-tracking/fanboy-addon-generic.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+if [ -s "$HGSERV/fanboy-addon/fanboy-addon-generic.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
   then
    # Compare differences, only process if file has changed..
    #
@@ -1713,9 +1713,6 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-addon-generic.txt" ] && [ -d "$TESTDIR" 
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
-              # IE: Fanboy-Tracking
-              #
-              $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-generic.txt: fanboy-addon-merged.txt - $DATE" >> $LOGFILE
@@ -1732,7 +1729,7 @@ fi
 # Fanboy-Annoyances (fanboy-addon-thirdparty.txt)
 # Make sure the file exists, and the work directorys are also there before processing.
 #
-if [ -s "$HGSERV/fanboy-tracking/fanboy-addon-thirdparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+if [ -s "$HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
   then
    # Compare differences, only process if file has changed..
    #
@@ -1800,9 +1797,6 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-addon-thirdparty.txt" ] && [ -d "$TESTDI
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
-              # IE: Fanboy-Tracking
-              #
-              $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-generic.txt: fanboy-addon-merged.txt - $DATE" >> $LOGFILE
@@ -1821,7 +1815,7 @@ fi
 # Fanboy-Annoyances (fanboy-addon-firstparty.txt)
 # Make sure the file exists, and the work directorys are also there before processing.
 #
-if [ -s "$HGSERV/fanboy-tracking/fanboy-addon-firstparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+if [ -s "$HGSERV/fanboy-addon/fanboy-addon-firstparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
   then
    # Compare differences, only process if file has changed..
    #
@@ -1889,9 +1883,6 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-addon-firstparty.txt" ] && [ -d "$TESTDI
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
-              # IE: Fanboy-Tracking
-              #
-              $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-firstparty.txt: fanboy-addon-firstparty.txt - $DATE" >> $LOGFILE
@@ -1908,7 +1899,7 @@ fi
 # Fanboy-Annoyances (fanboy-addon-whitelists.txt)
 # Make sure the file exists, and the work directorys are also there before processing.
 #
-if [ -s "$HGSERV/fanboy-tracking/fanboy-addon-whitelists.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+if [ -s "$HGSERV/fanboy-addon/fanboy-addon-whitelists.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
   then
    # Compare differences, only process if file has changed..
    #
@@ -1976,9 +1967,6 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-addon-whitelists.txt" ] && [ -d "$TESTDI
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
-              # IE: Fanboy-Tracking
-              #
-              $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-firstparty.txt: fanboy-addon-whitelists.txt - $DATE" >> $LOGFILE
@@ -1995,7 +1983,7 @@ fi
 # Fanboy-Annoyances (fanboy-addon-intl.txt)
 # Make sure the file exists, and the work directorys are also there before processing.
 #
-if [ -s "$HGSERV/fanboy-tracking/fanboy-addon-intl.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+if [ -s "$HGSERV/fanboy-addon/fanboy-addon-intl.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
   then
    # Compare differences, only process if file has changed..
    #
@@ -2042,9 +2030,6 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-addon-intl.txt" ] && [ -d "$TESTDIR" ] &
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
-              # IE: Fanboy-Tracking
-              #
-              $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-intl.txt: fanboy-addon-intl.txt - $DATE" >> $LOGFILE
@@ -2061,7 +2046,7 @@ fi
 # Fanboy-Annoyances (fanboy-addon-elements.txt)
 # Make sure the file exists, and the work directorys are also there before processing.
 #
-if [ -s "$HGSERV/fanboy-tracking/fanboy-addon-elements.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
   then
    # Compare differences, only process if file has changed..
    #
@@ -2129,9 +2114,6 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-addon-elements.txt" ] && [ -d "$TESTDIR"
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
-              # IE: Fanboy-Tracking
-              #
-              $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-elements.txt: fanboy-addon-elements.txt - $DATE" >> $LOGFILE
@@ -2148,7 +2130,7 @@ fi
 # Fanboy-Annoyances (fanboy-addon-elements-exceptions.txt)
 # Make sure the file exists, and the work directorys are also there before processing.
 #
-if [ -s "$HGSERV/fanboy-tracking/fanboy-addon-elements-exceptions.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
   then
    # Compare differences, only process if file has changed..
    #
@@ -2216,9 +2198,6 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-addon-elements-exceptions.txt" ] && [ -d
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
-              # IE: Fanboy-Tracking
-              #
-              $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-elements-exceptions.txt: fanboy-addon-elements-exceptions.txt - $DATE" >> $LOGFILE
