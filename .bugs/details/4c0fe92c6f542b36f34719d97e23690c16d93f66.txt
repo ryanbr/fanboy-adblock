@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.freelotto.com/preplay.asp
+
+
+[filters]
+http://www.freelotto.com/offer.asp?offer=10640298&r=0.699149020582063
+http://www.freelotto.com/offer.asp?offer=14999&r=0.641361835934394
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
