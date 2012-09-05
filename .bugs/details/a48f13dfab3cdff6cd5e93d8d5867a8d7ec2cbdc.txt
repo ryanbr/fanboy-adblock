@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blogs.hbr.org/cs/2012/09/are_you_building_facebooks_empire.html?awid=6622495466955191463-3271
+
+
+[filters]
+http://web.hbr.org/test/whoami.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
