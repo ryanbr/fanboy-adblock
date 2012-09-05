@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sso.spectrum.pch.com/Path/2012JulyTVPC1REG/CTRLFULLREG.aspx?tid=0c362ccd-34e4-4af8-891d-3517f2f8e864
+
+
+[filters]
+http://cdn.pch.com/SSO_SpectrumMedia/Spectrum/scripts/Analytics/Dfa/DfaProvider.js?cacheBuster=12.5.5002.0-29133
+http://cdn.pch.com/SSO_SpectrumMedia/Spectrum/scripts/Analytics/Multi/MultiAnalyticsProvider.js?cacheBuster=12.5.5002.0-29133
+http://cdn.pch.com/SSO_SpectrumMedia/Spectrum/scripts/SpectrumAnalytics.js?cacheBuster=12.5.5002.0-29133
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
