@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.iplayerhd.com/
+
+
+[filters]
+http://iplayerhd.bc.cdn.bitgravity.com/data/e/28cbbcce.mp4
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
