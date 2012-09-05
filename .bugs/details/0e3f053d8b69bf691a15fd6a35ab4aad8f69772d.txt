@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://anidub.com/
+
+
+[filters]
+http://tools20.ru/cp?h=http%3A%2F%2Fanidub.com%2F&r=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Danidub&t=1&p=122&d=1346782554744
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
