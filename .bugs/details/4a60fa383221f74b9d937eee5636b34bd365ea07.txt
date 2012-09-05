@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://torrents.net.ua/forum/index.php
+
+
+[filters]
+http://a1.admaster.net/g/1/1000000.png
+http://a1.admaster.net/a/10006/155/JMUCJKC7VU5QKNH55B7HEUMXCCHATYUB?pos=0.8563100069026541
+http://a1.admaster.net/a/10006/155?pos=0.8563100069026541
+http://a1.admaster.net/g/1040431/30074.jpg
+http://a1.admaster.net/g/40431/30074.jpg
+http://a1.admaster.net/s/XDOOQJWXRAMAWIW25B7LFY5RVCZXGK4NVQ7DGWLEEE3DEVZ3
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
