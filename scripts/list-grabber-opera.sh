@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber Opera script v2.1 (30/08/2012)
+# Fanboy Adblock list grabber Opera script v2.2 (06/09/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
