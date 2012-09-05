@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://us.peeplo.com/search/?q=the paradigm shift&type=web&from=adg71
+
+
+[filters]
+http://statsadv.dadapro.com/sadvtrack.php?uu=moc.olpeep.su%3Dtsoh%26su_neF2%255_da_bewF2%25su%3Decruos%26tfihs02%25mgidarap02%25eht%3Dyek%2617gda%3Decruosyek%26tfihsB2%25mgidarapF2%25esworbF2%25moc.ecnerefer.yranoitcidF2%25F2%25A3%25ptth%3Drerefer%26622VDAS%3Dedoc%26tisiv%3Dedom&p=512973
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
