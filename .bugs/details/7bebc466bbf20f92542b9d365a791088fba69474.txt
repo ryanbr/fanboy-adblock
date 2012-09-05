@@ -1,0 +1,34 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.daysofdawn.com/
+
+
+[filters]
+http://core2.sharexy.com/getShares?r=http%3A%2F%2Fwww.daysofdawn.com%2F&callback=SharexyWidget.Core.secretPlaceToCoreAnswer.shares_sharexy_3051
+http://shuttle.sharexy.com/Loader.js
+http://shuttle.sharexy.com/css/SharexyCss.css
+http://shuttle.sharexy.com/css/SharexySendMail.css
+http://shuttle.sharexy.com/design/sharexy/add_to_favorites/32.png
+http://shuttle.sharexy.com/design/sharexy/counter_top.png
+http://shuttle.sharexy.com/design/sharexy/digg/32.png
+http://shuttle.sharexy.com/design/sharexy/facebook/32.png
+http://shuttle.sharexy.com/design/sharexy/google_plus/32.png
+http://shuttle.sharexy.com/design/sharexy/linkedin/32.png
+http://shuttle.sharexy.com/design/sharexy/print_page/32.png
+http://shuttle.sharexy.com/design/sharexy/send_to_email/32.png
+http://shuttle.sharexy.com/design/sharexy/sharexy/32.png
+http://shuttle.sharexy.com/design/sharexy/tumblr/32.png
+http://shuttle.sharexy.com/design/sharexy/twitter/32.png
+http://shuttle.sharexy.com/full.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
