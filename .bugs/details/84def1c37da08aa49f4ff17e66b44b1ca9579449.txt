@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.day.az/
+
+
+[filters]
+http://img.day.az/i/v1/Day_Slot/DAY_Slot_Adv_346x136.html
+http://img.day.az/i/v1/Day_Slot/DAY_Slot_RightDown_240x200.html
+http://img.day.az/i/v1/Day_Slot/DAY_Slot_RightDown_240x400.html
+http://img.day.az/i/v1/Day_Slot/DAY_Slot_Top_728x90.html
+http://img.dayazcdn.net/i/v1/Day_Slot/DAY_Slot_Top_255x120x4.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
