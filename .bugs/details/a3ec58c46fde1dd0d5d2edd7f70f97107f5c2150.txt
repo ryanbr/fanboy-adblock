@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.examiner.com/slideshow/hollywood-bad-girls?slide=blank-6#slide=52222511
+
+[filters]
+http://cdn2-b.examiner.com/sites/all/modules/custom/ex_omniture/s_code.js?v=m9n0vp
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
