@@ -7,6 +7,7 @@
 #
 # Version history
 #
+# 2.2  Fix bug where Opera uncompressed wasnt being copied over.
 # 2.1  Re-implement the iron list generator
 # 2.0  Re-write Opera code, and split off regional list
 # 1.8  Allow list to be stored in ramdisk
@@ -42,6 +43,7 @@ then
     # echo "Updated: urlfilter.ini"
     cp -f $HGSERV/opera/urlfilter.ini $TESTDIR/opera/urlfilter.ini
     $ADDCHECKSUM $TESTDIR/opera/urlfilter.ini
+    cp -f $TESTDIR/opera/urlfilter.ini $MAINDIR/opera/urlfilter.ini
     # Properly wipe old file.
     rm -rf $MAINDIR/opera/urlfilter.ini.gz
     $ZIP $MAINDIR/opera/urlfilter.ini.gz $TESTDIR/opera/urlfilter.ini > /dev/null
