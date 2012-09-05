@@ -71,5 +71,5 @@ rm -f $MAINDIR/iron/esp/complete/adblock.ini.gz
 
 # Zip up files..
 #
-$ZIP $MAINDIR/iron/esp/adblock.ini.gz $TESTDIR/adblock-esp.ini &> /dev/null
-$ZIP $MAINDIR/iron/esp/complete/adblock.ini.gz $TESTDIR/adblock-esp-stats.ini &> /dev/null
+$ZIP $MAINDIR/iron/esp/adblock.ini.gz $TESTDIR/adblock-esp.ini > /dev/null
+$ZIP $MAINDIR/iron/esp/complete/adblock.ini.gz $TESTDIR/adblock-esp-stats.ini > /dev/null

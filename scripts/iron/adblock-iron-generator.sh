@@ -56,4 +56,4 @@ rm $MAINDIR/iron/adblock.ini.gz
 
 # echo "adblock.ini copied" > /dev/null
 #
-$ZIP $MAINDIR/iron/adblock.ini.gz $TESTDIR/adblock.ini &> /dev/null
+$ZIP $MAINDIR/iron/adblock.ini.gz $TESTDIR/adblock.ini > /dev/null

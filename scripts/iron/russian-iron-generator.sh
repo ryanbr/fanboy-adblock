@@ -71,5 +71,5 @@ rm -f $MAINDIR/iron/rus/complete/adblock.ini.gz
 
 # Zip up files..
 #
-$ZIP $MAINDIR/iron/rus/adblock.ini.gz $TESTDIR/adblock-rus.ini &> /dev/null
-$ZIP $MAINDIR/iron/rus/complete/adblock.ini.gz $TESTDIR/adblock-rus-stats.ini &> /dev/null
+$ZIP $MAINDIR/iron/rus/adblock.ini.gz $TESTDIR/adblock-rus.ini > /dev/null
+$ZIP $MAINDIR/iron/rus/complete/adblock.ini.gz $TESTDIR/adblock-rus-stats.ini > /dev/null

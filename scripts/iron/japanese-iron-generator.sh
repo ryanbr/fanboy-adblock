@@ -71,5 +71,5 @@ rm -f $MAINDIR/iron/jpn/complete/adblock.ini.gz
 
 # Zip up files..
 #
-$ZIP $MAINDIR/iron/jpn/adblock.ini.gz $TESTDIR/adblock-jpn.ini &> /dev/null
-$ZIP $MAINDIR/iron/jpn/complete/adblock.ini.gz $TESTDIR/adblock-jpn-stats.ini &> /dev/null
+$ZIP $MAINDIR/iron/jpn/adblock.ini.gz $TESTDIR/adblock-jpn.ini > /dev/null
+$ZIP $MAINDIR/iron/jpn/complete/adblock.ini.gz $TESTDIR/adblock-jpn-stats.ini > /dev/null
