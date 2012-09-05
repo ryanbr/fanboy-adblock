@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.americaru.com/
+
+
+[filters]
+http://c.bb.ru/cook.cgi?tid=yDzX5PdEkdxO&ret=ad.americaru.com/bb.cgi
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
