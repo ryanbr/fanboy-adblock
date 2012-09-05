@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vidachok.com/
+
+
+[filters]
+http://www.vidachok.com/css/ga.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
