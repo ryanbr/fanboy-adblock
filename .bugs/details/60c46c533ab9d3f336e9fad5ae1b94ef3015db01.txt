@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dictionary.reference.com/browse/loan?s=t
+
+[filters]
+http://app.dictionary.com/track/adBlockerDetected?site=dict&page=dic&ldid=0&ord=809205258
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
