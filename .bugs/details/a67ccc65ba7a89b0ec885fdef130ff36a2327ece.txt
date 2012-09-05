@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pornoxo.com/videos/82093/asian-teen-enjoys-anal-penetration.html
+
+
+[filters]
+http://46.229.160.199/pxo/ads/b/bottom-ad-exo.html
+http://46.229.160.199/pxo/ads/b/ntv-ad-exo-a.html
+http://46.229.160.199/pxo/ads/b/ntv-ad-exo-b.html
+http://46.229.160.199/pxo/ads/b/ntv-ad-exo-c.html
+http://46.229.160.199/pxo/ads/b/top-ad-exo.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
