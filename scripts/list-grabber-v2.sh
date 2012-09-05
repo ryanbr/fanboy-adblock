@@ -1667,30 +1667,6 @@ else
    echo "Files are the same: enhancedstats.txt" > /dev/null
 fi
 
-############### Fanboy Addon/Annoyances #################
-SSLHG=$($SHA256SUM $HGSERV/fanboy-adblocklist-addon.txt | cut -d' ' -f1)
-SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-addon.txt | cut -d' ' -f1)
-
-if [ "$SSLHG" != "$SSLMAIN" ]
-then
-    # Copy list from repo to RAMDISK
-    cp -f $HGSERV/fanboy-adblocklist-addon.txt $TESTDIR/fanboy-addon.txt
-    # Re-generate checksum
-    $ADDCHECKSUM $TESTDIR/fanboy-addon.txt
-    cp -f $TESTDIR/fanboy-addon.txt $MAINDIR/fanboy-addon.txt
-    # Remove old copy, then gzip it
-    rm -rf $MAINDIR/fanboy-addon.txt.gz
-    $ZIP $MAINDIR/fanboy-addon.txt.gz $TESTDIR/fanboy-addon.txt > /dev/null
-    # Combine
-    # $HGSERV/scripts/combine/firefox-adblock-merged.sh
-    # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
-    $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-    # Firefox2Opera
-    # $NICE $HGSYNC/scripts/firefox2opera.sh
-else
-   echo "Files are the same: fanboy-addon.txt" > /dev/null
-fi
-
 ############### Fanboy CZECH #################
 SSLHG=$($SHA256SUM $HGSERV/firefox-regional/fanboy-adblocklist-cz.txt | cut -d' ' -f1)
 SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-czech.txt | cut -d' ' -f1)

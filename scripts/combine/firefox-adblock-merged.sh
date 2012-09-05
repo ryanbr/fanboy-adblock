@@ -25,7 +25,7 @@ export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
 # Trim off header file (first 2 lines)
 #
 sed '1,2d' $MAINDIR/enhancedstats.txt > $TESTDIR/fanboy-enhanced.txt
-sed '1,2d' $HGSYNC/fanboy-adblocklist-addon.txt > $TESTDIR/fanboy-addon.txt
+sed '1,2d' $MAINDIR/fanboy-addon.txt > $TESTDIR/fanboy-addon.txt
 sed '1,2d' $MAINDIR/fanboy-tracking-complete.txt > $TESTDIR/fanboy-complete.txt
 
 # Merge to the files together
