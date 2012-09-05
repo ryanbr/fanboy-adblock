@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://megashara.com/music/169261/reel_big_fish_greatest_hits_more.html
+
+
+[filters]
+http://megashara.com/templates/mediaget/button.jpg
+http://megashara.com/templates/mediaget/logo.png
+http://megashara.com/templates/mediaget/promo_bg.jpg
+http://megashara.com/templates/mediaget/ribbon.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
