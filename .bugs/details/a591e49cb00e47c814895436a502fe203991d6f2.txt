@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nctimes.com/news/opinion/columnists/dyer/dyer-sea-ice-and-climate-the-unknown-unknown/article_2654f185-a50d-5b46-bf4f-4bb447c509f1.html
+
+
+[filters]
+http://affiliates.eblastengine.com/Javascript/Widgets.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
