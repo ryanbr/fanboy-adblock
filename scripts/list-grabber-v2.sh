@@ -1664,6 +1664,7 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-generic.txt" ] && [ -d "$TESTDIR" ] &
             $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
             $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
        # English
        rm -rf $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
@@ -1673,6 +1674,7 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-generic.txt" ] && [ -d "$TESTDIR" ] &
             $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
             $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
 
         # Make sure the file exists
@@ -1748,6 +1750,7 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt" ] && [ -d "$TESTDIR" 
             $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
             $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
        # English
        rm -rf $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
@@ -1757,6 +1760,7 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt" ] && [ -d "$TESTDIR" 
             $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
             $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
 
         # Make sure the file exists
@@ -1834,6 +1838,7 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-firstparty.txt" ] && [ -d "$TESTDIR" 
             $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
             $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
        # English
        rm -rf $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
@@ -1843,6 +1848,7 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-firstparty.txt" ] && [ -d "$TESTDIR" 
             $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
             $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
 
         # Make sure the file exists
@@ -1918,6 +1924,7 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-whitelists.txt" ] && [ -d "$TESTDIR" 
             $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
             $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
        # English
        rm -rf $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
@@ -1927,6 +1934,7 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-whitelists.txt" ] && [ -d "$TESTDIR" 
             $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
             $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
 
         # Make sure the file exists
@@ -2002,6 +2010,7 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-intl.txt" ] && [ -d "$TESTDIR" ] && [
             $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
             $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
 
         # Make sure the file exists
@@ -2065,6 +2074,7 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements.txt" ] && [ -d "$TESTDIR" ] 
             $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
             $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
        # English
        rm -rf $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
@@ -2074,6 +2084,7 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements.txt" ] && [ -d "$TESTDIR" ] 
             $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
             $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
 
         # Make sure the file exists
@@ -2127,6 +2138,92 @@ else
   # twidge update "fanboy-tracking-thirdparty.txt failed to update: $DATE"
 fi
 
+# Fanboy-Annoyances (fanboy-addon-elements-specific.txt)
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-addon-elements-specific.txt | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+        # Clean up
+        #
+        rm -rf $TESTDIR/fanboy-addon-merged.txt > /dev/null
+       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
+       # English
+       rm -rf $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
+       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
+
+        # Make sure the file exists
+        #
+        if [ -s "$TESTDIR/fanboy-addon-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt $MAINDIR/split/fanboy-addon-elements-specific.txt
+
+              # Remove empty lines (International)
+              #
+              sed '/^$/d' $TESTDIR/fanboy-addon-merged.txt > $TESTDIR/fanboy-addon-merged2.txt
+              mv -f $TESTDIR/fanboy-addon-merged2.txt $TESTDIR/fanboy-addon-merged.txt
+
+              # Remove empty lines (English)
+              #
+              sed '/^$/d' $TESTDIR/fanboy-addon-merged-english.txt > $TESTDIR/fanboy-addon-merged-english2.txt
+              mv -f $TESTDIR/fanboy-addon-merged-english2.txt $TESTDIR/fanboy-addon-merged-english.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-addon-merged.txt
+              $ADDCHECKSUM $TESTDIR/fanboy-addon-merged-english.txt
+
+              # Compress (International)
+              #
+              cp -f $TESTDIR/fanboy-addon-merged.txt $MAINDIR/fanboy-addon.txt
+              rm -rf $MAINDIR/fanboy-addon.txt.gz
+              $ZIP $MAINDIR/fanboy-addon.txt.gz $TESTDIR/fanboy-addon-merged.txt > /dev/null
+
+              # Compress (English)
+              #
+              cp -f $TESTDIR/fanboy-addon-merged-english.txt $MAINDIR/fanboy-addon-english.txt
+              rm -rf $MAINDIR/fanboy-addon-english.txt.gz
+              $ZIP $MAINDIR/fanboy-addon-english.txt.gz $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-addon-elements-specific.txt: fanboy-addon-elements-specific.txt - $DATE" >> $LOGFILE
+        fi
+    else
+        # File check hg vs secure.fanboy.co.nz
+        echo "Files are the same: fanboy-addon-elements-specific.txt" > /dev/null
+    fi
+else
+  echo "fanboy-addon-elements-specific.txt (fanboy-addon-elements-specific.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-tracking-elements-exceptions.txt failed to update: $DATE"
+fi
+
 # Fanboy-Annoyances (fanboy-addon-elements-exceptions.txt)
 # Make sure the file exists, and the work directorys are also there before processing.
 #
@@ -2149,6 +2246,7 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt" ] && [ -d "$
             $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
             $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
        # English
        rm -rf $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
@@ -2158,6 +2256,7 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt" ] && [ -d "$
             $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
             $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
+            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
             $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
 
         # Make sure the file exists

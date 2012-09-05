@@ -14,7 +14,7 @@ perl docs\sorting\sorter2.pl fanboy-adblock\fanboy-dimensions.txt fanboy-adblock
 :: Fanboy Tracking
 perl docs\sorting\sorter2.pl fanboy-tracking\fanboy-tracking-generic.txt fanboy-tracking\fanboy-tracking-firstparty.txt fanboy-tracking\fanboy-tracking-thirdparty.txt fanboy-tracking\fanboy-tracking-whitelist.txt fanboy-tracking\fanboy-tracking-adult.txt fanboy-tracking\fanboy-tracking-general.txt fanboy-tracking\fanboy-tracking-nonenglish.txt
 :: Fanboy Annoyances
-perl docs\sorting\sorter2.pl enhancedstats-addon.txt fanboy-addon\fanboy-addon-generic.txt fanboy-addon\fanboy-addon-thirdparty.txt fanboy-addon\fanboy-addon-firstparty.txt fanboy-addon\fanboy-addon-whitelists.txt fanboy-addon\fanboy-addon-intl.txt fanboy-addon\fanboy-addon-elements.txt fanboy-addon\fanboy-addon-elements-exceptions.txt
+perl docs\sorting\sorter2.pl enhancedstats-addon.txt fanboy-addon\fanboy-addon-generic.txt fanboy-addon\fanboy-addon-thirdparty.txt fanboy-addon\fanboy-addon-firstparty.txt fanboy-addon\fanboy-addon-whitelists.txt fanboy-addon\fanboy-addon-intl.txt fanboy-addon\fanboy-addon-elements.txt fanboy-addon\fanboy-addon-elements-specific.txt fanboy-addon\fanboy-addon-elements-exceptions.txt
 :: Firefox Regional lists
 perl docs\sorting\sorter2.pl firefox-regional\IsraelList.txt firefox-regional\fanboy-adblocklist-cz.txt firefox-regional\fanboy-adblocklist-esp.txt firefox-regional\fanboy-adblocklist-ind.txt firefox-regional\fanboy-adblocklist-ita.txt firefox-regional\fanboy-adblocklist-jpn.txt firefox-regional\fanboy-adblocklist-krn.txt firefox-regional\fanboy-adblocklist-pol.txt firefox-regional\fanboy-adblocklist-rus-v2.txt firefox-regional\fanboy-adblocklist-swe.txt firefox-regional\fanboy-adblocklist-tky.txt firefox-regional\fanboy-adblocklist-vtn.txt
 :: Opera
