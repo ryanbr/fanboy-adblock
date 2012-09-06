@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dacho.co.il/
+
+
+[filters]
+http://date.dacho.co.il/app1/photos/153/1353/171353/ts_lkextorftm.jpg
+http://date.dacho.co.il/app1/photos/36/4236/49236/ts_539whli29a.jpg
+http://date.dacho.co.il/app2/photos/63/3463/1858463/ts_ac2gd91j8m.jpg
+http://date.dacho.co.il/css/iframe.css?v=21
+http://date.dacho.co.il/iframe.php?tid=904&rows=3&cols=1&lang=heb&gender=2&size=2&show_info=1&text_color=#3E3E3E&width=75&width_px=1&link_color=#0C3D75&link_no_follow=1&bord_color=FFFFFF&icons=purple-glow
+http://www.youtoo.co.il/php/embed/dacho
+http://www.youtoo.co.il/site/Images/header_logo.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
