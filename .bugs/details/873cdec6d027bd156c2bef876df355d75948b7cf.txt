@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.illinoislottery.com/en-us/home.html
+
+[filters]
+http://www.illinoislottery.com/etc/designs/northstar/clientlibs/ga.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
