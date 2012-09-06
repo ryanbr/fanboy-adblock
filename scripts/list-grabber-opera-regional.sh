@@ -31,10 +31,13 @@ export TWIDGE="/usr/bin/twidge update"
 export SUBS="/tmp/ieramdisk/subscriptions"
 export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
 
-# To be used for mirrors
+# Check mirror dir exists and its not a symlink
 #
-if [ -d "/var/hgstuff/fanboy-adblock-list" ]; then
-  export HGSERV="/var/hgstuff/fanboy-adblock-list"
+if [ -d "/var/hgstuff/fanboy-adblock-list" ] && [ -h "/tmp/hgstuff" ]; then
+    export HGSERV="/var/hgstuff/fanboy-adblock-list"
+  else
+    # If not, its stored here
+    export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
 fi
 
 

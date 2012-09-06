@@ -35,10 +35,13 @@ if [ ! -d "$IEDIR" ]; then
     mkdir $IESUBS; chmod 777 $IESUBS
 fi
 
-# To be used for mirrors
+# Check mirror dir exists and its not a symlink
 #
-if [ -d "/var/hgstuff/fanboy-adblock-list" ]; then
-  export HGSERV="/var/hgstuff/fanboy-adblock-list"
+if [ -d "/var/hgstuff/fanboy-adblock-list" ] && [ -h "/tmp/hgstuff" ]; then
+    export HGSERV="/var/hgstuff/fanboy-adblock-list"
+  else
+    # If not, its stored here
+    export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
 fi
 
 if [ ! -s "$IEDIR/combineSubscriptions.py" ]; then
