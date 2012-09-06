@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ctv.ca/DailyShowwithJonStewart/video.aspx
+
+[filters]
+http://www.ctv.ca/ctvresources/js/WatchShow/bmd.adrefresher.min.js
+http://ad.doubleclick.net/pfadx/ctv.ctvwatch.ca/dailyshowwithjonstewart;clip=754582;sz=1x1;ord=84519839659;tile=10;programid=111;episodeid=123102;dtype=vast;player=show
+http://ad.doubleclick.net/pfadx/ctv.ctvwatch.ca/dailyshowwithjonstewart;clip=754582;sz=1x1;ord=84519839659;tile=11;programid=111;episodeid=123102;dtype=vast;player=show
+http://ets-lb-464837895.us-east-1.elb.amazonaws.com/g.aspx?SUrl=&SNam=Advertisement&Org=ctv&Evt=video_ended&EvtV=1&SId=D8927800-709B-6F5A-8504-EF5DE6B331BA&OS=win&Bwsr=firefox&BVer=1&SSiz=1920x1080&Ip=67.205.92.44&Coun=CA&Regn=QC&City=MONTREAL&Tz=EST&Lati=45.50&Long=-73.58&FVer=11.4.402&PVer=imediaplayer%20v3.0.53%20QOS%20HDCore%202.82%20-%20f10
+http://ets-lb-464837895.us-east-1.elb.amazonaws.com/g.aspx?SUrl=&SNam=Advertisement&Org=ctv&Evt=video_started&EvtV=1&SId=D8927800-709B-6F5A-8504-EF5DE6B331BA&OS=win&Bwsr=firefox&BVer=1&SSiz=1920x1080&Ip=67.205.92.44&Coun=CA&Regn=QC&City=MONTREAL&Tz=EST&Lati=45.50&Long=-73.58&FVer=11.4.402&PVer=imediaplayer%20v3.0.53%20QOS%20HDCore%202.82%20-%20f10
+http://ets-lb-464837895.us-east-1.elb.amazonaws.com/g.aspx?SUrl=&SNam=undefined&Org=ctv&Evt=playerready&EvtV=&SId=D8927800-709B-6F5A-8504-EF5DE6B331BA&OS=win&Bwsr=firefox&BVer=1&SSiz=1920x1080&Ip=67.205.92.44&Coun=CA&Regn=QC&City=MONTREAL&Tz=EST&Lati=45.50&Long=-73.58&FVer=11.4.402&PVer=imediaplayer%20v3.0.53%20QOS%20HDCore%202.82%20-%20f10
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
