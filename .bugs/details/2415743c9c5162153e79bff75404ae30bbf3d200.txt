@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.scoot.co.uk/find/corporate-entertainment-and-hospitality-in-uk
+
+
+[filters]
+http://www.scoot.co.uk/ajax/log_serps.php?r=1346937139&advert_id[]=12497239&advert_id[]=12408396&advert_id[]=10292400&advert_id[]=11817485&advert_id[]=10126900&advert_id[]=11028514&advert_id[]=10011098&advert_id[]=11299809&advert_id[]=11178556&advert_id[]=11081198&advert_id[]=11948604&advert_id[]=12408032&advert_id[]=11877460&advert_id[]=10950417&advert_id[]=10010731&advert_id[]=10115354&advert_id[]=10004329&advert_id[]=11464608&advert_id[]=10123847&advert_id[]=10017472
+http://www.scoot.co.uk/delivery.php?pool_id=1&portal_id=1&what=corporate+entertainment+and+hospitality&where=&is_adult=0
+http://www.scoot.co.uk/delivery.php?pool_id=6&portal_id=1&what=corporate+entertainment+and+hospitality&where=&is_adult=0
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
