@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://search.monstercrawler.com/search/news?fcoid=417&fcop=topnav&fpid=2&q=test
+
+[filters]
+http://search.monstercrawler.com/__kl.gif?type=pageview&pvaid=88303186.2908353357379.1346937648.2&ac=3&s=monstercrawler&c=monster&pid=2&lh=search.monstercrawler.com&dr=http%3A%2F%2Fsearch.monstercrawler.com%2Fsearch%2Fnews%3Ffcoid%3D417%26fcop%3Dtopnav%26fpid%3D765%26q%3Dtest&qid=7e73769785c642079856e0fa5c72886f&rnd=0.35765869932556793&qsh=466459183
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
