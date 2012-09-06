@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dacho.co.il/showthread.php/533812-%D7%92%D7%A8%D7%A1%D7%AA-%D7%91%D7%98%D7%90-%D7%97%D7%93%D7%A9%D7%94!-iOS-6-Beta-3-%D7%A2%D7%95%D7%93%D7%9B%D7%9F?p=3080062#post3080062
+
+
+[filters]
+http://ws.walla.co.il/iframes/?a=dachob
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
