@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v2.12 (05/09/2012)
+# Fanboy Adblock list grabber script v2.13 (06/09/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
+# 2.13 Allow mirrors to use non-ram disk for HG
 # 2.12 Annoyance List split list (beta)
 # 2.11 Added Non-element and Fanboy-Adult
 # 2.10 Tracking List split list
@@ -72,6 +73,15 @@ fi
 
 if [ ! -d "/tmp/Ramdisk/www/adblock/split" ]; then
   mkdir /tmp/Ramdisk/www/adblock/split; chmod 777 /tmp/Ramdisk/www/adblock/split
+fi
+
+# To be used for mirrors
+#
+if [ -d "/var/hgstuff/fanboy-adblock-list" ]; then
+  export HGSERV="/var/hgstuff/fanboy-adblock-list"
+  cd /tmp/hgstuff/fanboy-adblock-list
+  $NICE $HG pull
+  $NICE $HG update
 fi
 
 # Make sure hg dir is there

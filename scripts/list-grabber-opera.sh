@@ -32,6 +32,12 @@ export TWIDGE="/usr/bin/twidge update"
 export SUBS="/tmp/ieramdisk/subscriptions"
 export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
 
+# To be used for mirrors
+#
+if [ -d "/var/hgstuff/fanboy-adblock-list" ]; then
+  export HGSERV="/var/hgstuff/fanboy-adblock-list"
+fi
+
 
 # Opera Standard Filter
 if [ -n $HGSERV/opera/urlfilter.ini ]

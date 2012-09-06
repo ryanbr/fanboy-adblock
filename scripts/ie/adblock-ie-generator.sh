@@ -27,6 +27,12 @@ export IEDIR="/tmp/work/ie"
 export IESUBS="/tmp/work/ie/subscriptions"
 export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
 
+# To be used for mirrors
+#
+if [ -d "/var/hgstuff/fanboy-adblock-list" ]; then
+  export HGSERV="/var/hgstuff/fanboy-adblock-list"
+fi
+
 # Check for temp ie stuff
 #
 if [ ! -d "$IEDIR" ]; then

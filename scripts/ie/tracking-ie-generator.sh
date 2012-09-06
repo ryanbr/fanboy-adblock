@@ -35,6 +35,12 @@ if [ ! -d "$IEDIR" ]; then
     mkdir $IESUBS; chmod 777 $IESUBS
 fi
 
+# To be used for mirrors
+#
+if [ -d "/var/hgstuff/fanboy-adblock-list" ]; then
+  export HGSERV="/var/hgstuff/fanboy-adblock-list"
+fi
+
 if [ ! -s "$IEDIR/combineSubscriptions.py" ]; then
     cp -f $HGSERV/scripts/ie/combineSubscriptions.py $IEDIR
 fi
