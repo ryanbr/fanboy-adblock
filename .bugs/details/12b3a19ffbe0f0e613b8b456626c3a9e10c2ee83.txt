@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rachelheldevans.com/win-culture-war-lose-generation-amendment-one-north-carolina
+
+[filters]
+http://rachelheldevans.com/assets/templates/rhe2/images/subscribe-to-blog_rss.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
