@@ -75,23 +75,20 @@ if [ ! -d "/tmp/Ramdisk/www/adblock/split" ]; then
   mkdir /tmp/Ramdisk/www/adblock/split; chmod 777 /tmp/Ramdisk/www/adblock/split
 fi
 
-# To be used for mirrors
+# Check mirror dir exists and its not a symlink
 #
-if [ -d "/var/hgstuff/fanboy-adblock-list" ]; then
-  export HGSERV="/var/hgstuff/fanboy-adblock-list"
-  cd /tmp/hgstuff/fanboy-adblock-list
-  $NICE $HG pull
-  $NICE $HG update
+if [ -d "/var/hgstuff/fanboy-adblock-list" ] && [ -h "/tmp/hgstuff" ]; then
+    export HGSERV="/var/hgstuff/fanboy-adblock-list"
+    cd /tmp/hgstuff/fanboy-adblock-list
+    $NICE $HG pull
+    $NICE $HG update
+  else
+    # If not, its stored here
+    export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
+    cd /tmp/hgstuff/fanboy-adblock-list
+    $NICE $HG pull
+    $NICE $HG update
 fi
-
-# Make sure hg dir is there
-#
-if [ -d "/tmp/hgstuff/fanboy-adblock-list" ]; then
-  cd /tmp/hgstuff/fanboy-adblock-list
-  $NICE $HG pull
-  $NICE $HG update
-fi
-
 
 # Fanboy-Adblock (fanboy-generic.txt)
 # Make sure the file exists, and the work directorys are also there before processing.
