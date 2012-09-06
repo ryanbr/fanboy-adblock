@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thephonebook.bt.com/publisha.content/en/index.publisha
+
+
+[filters]
+http://www.thephonebook.bt.com/media/js/ecos.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
