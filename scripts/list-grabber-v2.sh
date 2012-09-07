@@ -1216,6 +1216,182 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
+# Fanboy-P2P (fanboy-p2p-firstparty.txt)
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-p2p-firstparty.txt | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+       rm -rf $TESTDIR/fanboy-merged.txt
+       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt \
+       $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt > $TESTDIR/fanboy-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $MAINDIR/split/fanboy-p2p-firstparty.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # P2P Header
+              #
+              sed -i 's/Adblock\ List/Fanboy\ P2P\ List/g' $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-p2p.txt
+              rm -rf $MAINDIR/fanboy-p2p.txt.gz
+              $ZIP $MAINDIR/fanboy-p2p.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-p2p-firstparty.txt: fanboy-p2p-firstparty.txt - $DATE" >> $LOGFILE
+        fi
+    else
+        # File check hg vs secure.fanboy.co.nz
+        echo "Files are the same: fanboy-p2p-firstparty.txt" > /dev/null
+    fi
+else
+  echo "fanboy-p2p (fanboy-p2p-firstparty.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-p2p-firstparty.txt failed to update: $DATE"
+fi
+
+
+# Fanboy-P2P (fanboy-p2p-thirdparty.txt)
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-p2p-thirdparty.txt | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+       rm -rf $TESTDIR/fanboy-merged.txt
+       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt \
+       $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt > $TESTDIR/fanboy-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $MAINDIR/split/fanboy-p2p-thirdparty.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # P2P Header
+              #
+              sed -i 's/Adblock\ List/Fanboy\ P2P\ List/g' $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-p2p.txt
+              rm -rf $MAINDIR/fanboy-p2p.txt.gz
+              $ZIP $MAINDIR/fanboy-p2p.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-merged.txt: fanboy-p2p-thirdparty.txt - $DATE" >> $LOGFILE
+        fi
+    else
+        # File check hg vs secure.fanboy.co.nz
+        echo "Files are the same: fanboy-p2p-thirdparty.txt" > /dev/null
+    fi
+else
+  echo "fanboy-p2p (fanboy-p2p-thirdparty.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-p2p-thirdparty.txt failed to update: $DATE"
+fi
+
+
+# Fanboy-P2P (fanboy-p2p-elements.txt)
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-p2p-elements.txt | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+       rm -rf $TESTDIR/fanboy-merged.txt
+       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt \
+       $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt > $TESTDIR/fanboy-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt $MAINDIR/split/fanboy-p2p-elements.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # P2P Header
+              #
+              sed -i 's/Adblock\ List/Fanboy\ P2P\ List/g' $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-p2p.txt
+              rm -rf $MAINDIR/fanboy-p2p.txt.gz
+              $ZIP $MAINDIR/fanboy-p2p.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-p2p-elements.txt: fanboy-p2p-elements.txt - $DATE" >> $LOGFILE
+        fi
+    else
+        # File check hg vs secure.fanboy.co.nz
+        echo "Files are the same: fanboy-p2p-elements.txt" > /dev/null
+    fi
+else
+  echo "fanboy-p2p (fanboy-p2p-elements.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-p2p-elements.txt failed to update: $DATE"
+fi
+
 # Fanboy-Tracking (fanboy-tracking-generic.txt)
 # Make sure the file exists, and the work directorys are also there before processing.
 #
