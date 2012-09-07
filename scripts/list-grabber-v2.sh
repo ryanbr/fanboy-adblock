@@ -99,7 +99,7 @@ if [ -d "/var/hgstuff/fanboy-adblock-list" ] && [ -h "/tmp/hgstuff" ]; then
     $NICE $HG update
 fi
 
-# Fanboy-Adblock (fanboy-generic.txt)
+#######################################  fanboy-generic.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -160,7 +160,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-thirdparty.txt)
+#######################################  fanboy-thirdparty.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-thirdparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -222,7 +222,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-firstparty.txt)
+#######################################  fanboy-firstparty.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-firstparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -285,7 +285,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-popups.txt)
+#######################################  fanboy-popups.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-popups.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -347,7 +347,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-whitelist.txt)
+#######################################  fanboy-whitelist.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-whitelist.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -409,7 +409,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-dimensions.txt)
+#######################################  fanboy-dimensions.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -471,7 +471,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-dimensions-whitelist.txt)
+#######################################  fanboy-dimensions-whitelist.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -533,7 +533,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-adult-generic.txt)
+#######################################  fanboy-adult-generic.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-generic.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -600,7 +600,7 @@ else
 fi
 
 
-# Fanboy-Adblock (fanboy-adult-firstparty.txt)
+#######################################  fanboy-adult-firstparty.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -666,7 +666,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-adult-thirdparty.txt)
+#######################################  fanboy-adult-thirdparty.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -732,7 +732,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-adult-elements.txt)
+#######################################  fanboy-adult-elements.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-elements.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -794,7 +794,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-adult-whitelists.txt)
+#######################################  fanboy-adult-whitelists.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -860,7 +860,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-p2p-firstparty.txt)
+#######################################  fanboy-p2p-firstparty.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -922,7 +922,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-p2p-thirdparty.txt)
+#######################################  fanboy-p2p-thirdparty.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -984,7 +984,8 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-p2p-elements.txt)
+
+#######################################  fanboy-p2p-elements.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1042,7 +1043,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-P2P (fanboy-dimensions.txt)
+#######################################  fanboy-dimensions.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1101,7 +1102,7 @@ else
 fi
 
 
-# Fanboy-P2P (fanboy-dimensions-whitelist.txt)
+#######################################  fanboy-dimensions-whitelist.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1159,7 +1160,7 @@ else
   # twidge update "fanboy-p2p-firstparty.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-elements-generic.txt)
+#######################################  fanboy-elements-generic.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-generic.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1217,7 +1218,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-elements-specific.txt)
+#######################################  fanboy-elements-specific.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-specific.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1275,7 +1276,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Adblock (fanboy-elements-specific.txt)
+#######################################  fanboy-elements-exceptions.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1333,7 +1334,7 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-P2P (fanboy-p2p-firstparty.txt)
+#######################################  fanboy-p2p-firstparty.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1391,8 +1392,7 @@ else
   # twidge update "fanboy-p2p-firstparty.txt failed to update: $DATE"
 fi
 
-
-# Fanboy-P2P (fanboy-p2p-thirdparty.txt)
+#######################################  fanboy-p2p-thirdparty.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1450,8 +1450,7 @@ else
   # twidge update "fanboy-p2p-thirdparty.txt failed to update: $DATE"
 fi
 
-
-# Fanboy-P2P (fanboy-p2p-elements.txt)
+#######################################  fanboy-p2p-elements.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1509,7 +1508,7 @@ else
   # twidge update "fanboy-p2p-elements.txt failed to update: $DATE"
 fi
 
-# Fanboy-Tracking (fanboy-tracking-generic.txt)
+#######################################  fanboy-tracking-generic.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-generic.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1572,7 +1571,7 @@ else
   # twidge update "fanboy-tracking-generic.txt failed to update: $DATE"
 fi
 
-# Fanboy-Tracking (fanboy-tracking-firstparty.txt)
+#######################################  fanboy-tracking-firstparty.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1635,7 +1634,7 @@ else
   # twidge update "fanboy-tracking-firstparty.txt failed to update: $DATE"
 fi
 
-# Fanboy-Tracking (fanboy-tracking-thirdparty.txt)
+#######################################  fanboy-tracking-thirdparty.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1698,7 +1697,7 @@ else
   # twidge update "fanboy-tracking-thirdparty.txt failed to update: $DATE"
 fi
 
-# Fanboy-Tracking (fanboy-tracking-general.txt)
+#######################################  fanboy-tracking-general.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-general.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1761,7 +1760,7 @@ else
   # twidge update "fanboy-tracking-general.txt failed to update: $DATE"
 fi
 
-# Fanboy-Tracking (fanboy-tracking-nonenglish.txt)
+#######################################  fanboy-tracking-nonenglish.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1824,7 +1823,7 @@ else
   # twidge update "fanboy-tracking-nonenglish.txt failed to update: $DATE"
 fi
 
-# Fanboy-Tracking (fanboy-tracking-adult.txt)
+#######################################  fanboy-tracking-adult.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-adult.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1888,7 +1887,7 @@ else
 fi
 
 
-# Fanboy-Tracking (fanboy-tracking-whitelist.txt)
+#######################################  fanboy-tracking-whitelist.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -1951,7 +1950,7 @@ else
   # twidge update "fanboy-tracking-whitelist.txt failed to update: $DATE"
 fi
 
-# Fanboy-Annoyances (fanboy-addon-generic.txt)
+#######################################  fanboy-addon-generic.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-addon/fanboy-addon-generic.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -2037,7 +2036,7 @@ else
   # twidge update "fanboy-tracking-thirdparty.txt failed to update: $DATE"
 fi
 
-# Fanboy-Annoyances (fanboy-addon-thirdparty.txt)
+#######################################  fanboy-addon-thirdparty.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -2123,9 +2122,7 @@ else
   # twidge update "fanboy-tracking-thirdparty.txt failed to update: $DATE"
 fi
 
-##########################################################################################
-
-# Fanboy-Annoyances (fanboy-addon-firstparty.txt)
+#######################################  fanboy-addon-firstparty.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-addon/fanboy-addon-firstparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -2211,7 +2208,7 @@ else
   # twidge update "fanboy-tracking-thirdparty.txt failed to update: $DATE"
 fi
 
-# Fanboy-Annoyances (fanboy-addon-whitelists.txt)
+#######################################  fanboy-addon-whitelists.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-addon/fanboy-addon-whitelists.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -2297,7 +2294,7 @@ else
   # twidge update "fanboy-tracking-thirdparty.txt failed to update: $DATE"
 fi
 
-# Fanboy-Annoyances (fanboy-addon-intl.txt)
+#######################################  fanboy-addon-intl.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-addon/fanboy-addon-intl.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -2361,7 +2358,7 @@ else
   # twidge update "fanboy-tracking-thirdparty.txt failed to update: $DATE"
 fi
 
-# Fanboy-Annoyances (fanboy-addon-elements.txt)
+#######################################  fanboy-addon-elements.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -2447,7 +2444,7 @@ else
   # twidge update "fanboy-tracking-thirdparty.txt failed to update: $DATE"
 fi
 
-# Fanboy-Annoyances (fanboy-addon-elements-specific.txt)
+#######################################  fanboy-addon-elements-specific.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
@@ -2533,7 +2530,7 @@ else
   # twidge update "fanboy-tracking-elements-exceptions.txt failed to update: $DATE"
 fi
 
-# Fanboy-Annoyances (fanboy-addon-elements-exceptions.txt)
+#######################################  fanboy-addon-elements-exceptions.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
 #
 if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
