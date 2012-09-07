@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://network-speed.com/dnstime.php
+
+
+[filters]
+http://network-speed.com/images/likeus.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
