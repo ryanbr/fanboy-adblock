@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.trendmicro.co.uk/infographics/behind-the-android-menace/index.html
+
+
+[filters]
+http://www.trendmicro.co.uk/media/icon/pinit.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
