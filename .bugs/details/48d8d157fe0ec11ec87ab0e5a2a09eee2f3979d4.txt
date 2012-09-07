@@ -1,0 +1,29 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.novinky.cz/ekonomika/278113-ve-vetsine-cernych-caju-jsou-zbytky-nebezpecnych-pesticidu.html
+
+
+[filters]
+http://i.imedia.cz/creative?bannerId=1004215&seqNo=5
+http://i.imedia.cz/creative?bannerId=1004215&seqNo=9
+http://i.imedia.cz/impress?spotId=1322455&section=/ekonomika&lang=en&referer=www.seznam.cz&r=0.469391
+http://i.imedia.cz/impress?spotId=1352764&section=/ekonomika&lang=en&referer=www.seznam.cz&r=0.0179065
+http://i.imedia.cz/impress?spotId=1353107&section=/ekonomika&lang=en&referer=www.seznam.cz&r=0.598113
+http://i.imedia.cz/impress?spotId=1353378&section=/ekonomika&lang=en&referer=www.seznam.cz&r=0.363348
+http://i.imedia.cz/impress?spotId=1353611&section=/ekonomika&lang=en&referer=www.seznam.cz&r=0.902385
+http://i.imedia.cz/impress?spotId=1353806&section=/ekonomika&lang=en&referer=www.seznam.cz&r=0.507115
+http://i.imedia.cz/impress?spotId=1353895&section=/ekonomika&lang=en&referer=www.seznam.cz&r=0.675171
+http://i.imedia.cz/impress?spotId=1353946&section=/ekonomika&lang=en&referer=www.seznam.cz&r=0.112902
+http://i.imedia.cz/impress?spotId=1354068&section=/ekonomika&lang=en&referer=www.seznam.cz&r=0.934317
+http://stat.novinky.cz/?articleId=278113
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
