@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://everythingsysadmin.com/2012/09/unorthodoxunix.html
+
+[filters]
+http://everythingsysadmin.com/2012/1203_sw_banner120x600_Top5.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
