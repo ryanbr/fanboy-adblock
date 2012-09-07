@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.viamichelin.com/web/Itineraires?strDepartureAddress=London&strDepartureId=&strDepartureProductId=&strArrivalAddress=Fleet&strArrivalId=&strArrivalProductId=&strStepTemplateAddress=&strStepTemplateId=&strStepTemplateProductId=&intItiType=1&dtmDepartureDisplay=07%2F09%2F2012&dtmDeparture=&distance=mi&itineraryCarType=0&devise=1.0|EUR&itineraryFuelType=1&carbCost=1.45&indemnite=
+
+[filters]
+http://www.viamichelin.com/jQuery/ntpagetag.js
+
+[other]
+map not displayed.
+
+
+[comments]
+nitrox
