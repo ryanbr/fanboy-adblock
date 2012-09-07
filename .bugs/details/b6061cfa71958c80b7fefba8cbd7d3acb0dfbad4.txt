@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.118.com/
+
+
+[filters]
+http://www.118.com/HttpCombiner.ashx?f=~/Assets/Stylesheets/Reset.css--~/Assets/Stylesheets/OneOneEightBase.css--~/Assets/Stylesheets/OneOneEightStyled.css--~/Assets/Stylesheets/jquery.tools.css--~/Assets/Stylesheets/GoogleAds.css&t=text/css&v=806374097
+
+[other]
+stylesheets are blocked
+
+
+[comments]
+nitrox
