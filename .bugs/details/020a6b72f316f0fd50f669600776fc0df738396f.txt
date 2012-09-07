@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://stuffheaven.com/windows-vista-enhanced-black-windows-xp-theme/
+
+
+[filters]
+http://regnow.img.digitalriver.com/vendor/37587/ud_box200.png
+https://regnow.img.digitalriver.com/vendor/37587/ud_box200.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
