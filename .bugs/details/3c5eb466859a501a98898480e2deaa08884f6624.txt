@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://play.iprima.cz/all/277675/all
+
+[filters]
+http://10.im.cz/sos/1e7/5fc/1e75fcc110edddea9c064d5e263af08bNone
+http://10.im.cz/sos/862/72f/86272febfb26d2049e9c541ee15a9660.flv
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
