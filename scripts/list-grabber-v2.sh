@@ -86,12 +86,14 @@ fi
 #
 if [ -d "/var/hgstuff/fanboy-adblock-list" ] && [ -h "/tmp/hgstuff" ]; then
     export HGSERV="/var/hgstuff/fanboy-adblock-list"
+    echo "HGSERV=/var/hgstuff/fanboy-adblock-list"
     cd /tmp/hgstuff/fanboy-adblock-list
     $NICE $HG pull
     $NICE $HG update
   else
     # If not, its stored here
     export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
+    echo "HGSERV=/tmp/hgstuff/fanboy-adblock-list"
     cd /tmp/hgstuff/fanboy-adblock-list
     $NICE $HG pull
     $NICE $HG update
