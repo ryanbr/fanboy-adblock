@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.motordelisi.com/forum/surus-teknikleri/18287-b-sinifi-ehliyeti-olupta-a2-ehliyeti-alacak-olan-arkadaslara-3.html
+
+
+[filters]
+http://s1.ontek-serv.com/serve/xLZ75Y
+http://www.motordelisi.com/flash/FREE-MOTO.swf
+http://www.motordelisi.com/flash/mdreklambordo.swf
+http://www.motordelisi.com/flash/vfr2.swf
+http://www.motordelisi.com/forum/k.swf
+http://www.motordelisi.com/forum/kare.swf
+http://www.motordelisi.com/forum/motolastik.swf
+http://www.motordelisi.com/forum/motomax.swf
+http://www.motordelisi.com/forum/reklam.swf
+http://www.motordelisi.com/istanbulmc.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
