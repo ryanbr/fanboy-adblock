@@ -1042,6 +1042,123 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
+# Fanboy-P2P (fanboy-dimensions.txt)
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-dimensions.txt | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-dimensions.txt | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+       rm -rf $TESTDIR/fanboy-merged.txt
+       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
+       $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt > $TESTDIR/fanboy-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-dimensions.txt $MAINDIR/split/fanboy-dimensions.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Dimension Header
+              #
+              sed -i 's/Adblock\ List/Fanboy\ Dimension\ List/g' $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-dimensions.txt
+              rm -rf $MAINDIR/fanboy-dimensions.txt.gz
+              $ZIP $MAINDIR/fanboy-dimensions.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-dimensions.txt: fanboy-dimensions.txt - $DATE" >> $LOGFILE
+        fi
+    else
+        # File check hg vs secure.fanboy.co.nz
+        echo "Files are the same: fanboy-dimensions.txt" > /dev/null
+    fi
+else
+  echo "fanboy-p2p (fanboy-dimensions.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-p2p-firstparty.txt failed to update: $DATE"
+fi
+
+
+# Fanboy-P2P (fanboy-dimensions-whitelist.txt)
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-dimensions-whitelist.txt | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+       rm -rf $TESTDIR/fanboy-merged.txt
+       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
+       $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt > $TESTDIR/fanboy-merged.txt
+
+        # Make sure the file exists
+        #
+        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
+              # Copy over
+              #
+              cp -f $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $MAINDIR/split/fanboy-dimensions-whitelist.txt
+
+              # Remove empty lines
+              #
+              sed '/^$/d' $TESTDIR/fanboy-merged.txt > $TESTDIR/fanboy-merged2.txt
+              mv -f $TESTDIR/fanboy-merged2.txt $TESTDIR/fanboy-merged.txt
+
+              # Dimension Header
+              #
+              sed -i 's/Adblock\ List/Fanboy\ Dimension\ List/g' $TESTDIR/fanboy-merged.txt
+
+              # Checksum
+              #
+              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
+
+              # Compress
+              #
+              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-dimensions.txt
+              rm -rf $MAINDIR/fanboy-dimensions.txt.gz
+              $ZIP $MAINDIR/fanboy-dimensions.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
+
+              # Fanboy Ultimate + Complete
+              #
+              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+        else
+              # If the Cat fails.
+              echo "Error creating file fanboy-dimensions-whitelist.txt: fanboy-dimensions-whitelist.txt - $DATE" >> $LOGFILE
+        fi
+    else
+        # File check hg vs secure.fanboy.co.nz
+        echo "Files are the same: fanboy-dimensions-whitelist.txt" > /dev/null
+    fi
+else
+  echo "fanboy-p2p (fanboy-dimensions-whitelist.txt) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-p2p-firstparty.txt failed to update: $DATE"
+fi
+
 # Fanboy-Adblock (fanboy-elements-generic.txt)
 # Make sure the file exists, and the work directorys are also there before processing.
 #
