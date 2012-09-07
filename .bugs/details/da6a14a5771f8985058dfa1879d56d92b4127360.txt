@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://wink.com/people/nm/john adams/l/10001
+
+[filters]
+http://search.mylife.com/partner/ps?searchState=&searchLastName=&searchFirstName=&pid=wink&searchAge=&s_cid=API%3A00022&searchCity=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
