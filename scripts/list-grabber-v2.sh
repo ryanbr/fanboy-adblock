@@ -7,6 +7,7 @@
 #
 # Version history
 #
+# 2.14 More error Checking of Ramdisks, removal of seperate IE ramdisk
 # 2.13 Allow mirrors to use non-ram disk for HG
 # 2.12 Annoyance List split list (beta)
 # 2.11 Added Non-element and Fanboy-Adult
@@ -42,9 +43,9 @@ export ADDCHECKSUM="nice -n 19 perl $HGSERV/scripts/addChecksum.pl"
 export LOGFILE="/etc/crons/log.txt"
 export HG="/usr/local/bin/hg"
 export SHA256SUM="/usr/bin/sha256sum"
-export IEDIR="/tmp/ieramdisk"
 export TWIDGE="/usr/bin/twidge update"
-export SUBS="/tmp/ieramdisk/subscriptions"
+export IEDIR="/tmp/work/ie"
+export IESUBS="/tmp/work/ie/subscriptions"
 export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
 
 # Test for Ram disks
@@ -64,12 +65,18 @@ if [ ! -d "/tmp/work/opera/test" ]; then
   mkdir /tmp/work/opera/test; chmod 777 /tmp/work/opera/test
 fi
 
-if [ ! -d "/tmp/ieramdisk/subscriptions" ]; then
-  rm -rf /tmp/ieramdisk/subscriptions
-  mkdir /tmp/ieramdisk; chmod 777 /tmp/ieramdisk
-  mount -t tmpfs -o size=30M tmpfs /tmp/ieramdisk
-  mkdir /tmp/ieramdisk/subscriptions; chmod 777 /tmp/ieramdisk/subscriptions
+if [ ! -d "/tmp/Ramdisk/" ]; then
+  rm -rf /tmp/Ramdisk/
+  mkdir /tmp/Ramdisk; chmod 777 /tmp/Ramdisk
+  mount -t tmpfs -o size=110M tmpfs /tmp/Ramdisk/
 fi
+
+#if [ ! -d "/tmp/ieramdisk/subscriptions" ]; then
+#  rm -rf /tmp/ieramdisk/subscriptions
+#  mkdir /tmp/ieramdisk; chmod 777 /tmp/ieramdisk
+#  mount -t tmpfs -o size=30M tmpfs /tmp/ieramdisk
+#  mkdir /tmp/ieramdisk/subscriptions; chmod 777 /tmp/ieramdisk/subscriptions
+#fi
 
 if [ ! -d "/tmp/Ramdisk/www/adblock/split" ]; then
   mkdir /tmp/Ramdisk/www/adblock/split; chmod 777 /tmp/Ramdisk/www/adblock/split
