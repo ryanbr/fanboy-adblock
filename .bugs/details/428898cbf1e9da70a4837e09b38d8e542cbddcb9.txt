@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.switchboard.com/business/details?uid=KebGXDgnGT~RbrY0u9ST-1~2~1~0~1~NJ~us~RbrY0u9ST~1~0~1~~0~1
+
+
+[filters]
+http://local.xad.com/rest/notify?k=1Q3E4Wbm99S5-I6xZpQtsTc5eRPjrTAAGhoTrkubWjW6INrt4jJ4IQ..&v=1.1&uid=yaKxxHr8QT-vY9AGV5-vqQ&ts=1346907224&ip=24.228.15.96&l_id=ebGXDgnGT%7ERbrY0u9ST-1%7E2%7E1%7E0%7E1%7ENJ%7Eus%7ERbrY0u9ST%7E1%7E0%7E1%7E%7E0%7E1&t=click
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
