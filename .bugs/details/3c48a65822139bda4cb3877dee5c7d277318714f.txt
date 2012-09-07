@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://shop.retrevo.com/m/search/productpage?c=1020&og=1766922&m=24044162
+
+[filters]
+http://shop.retrevo.com/m/google?q=Gateway%20NV51B25u
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
