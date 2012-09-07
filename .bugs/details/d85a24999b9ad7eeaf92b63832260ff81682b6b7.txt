@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.globalguideline.com/interview_questions/Questions.php?sc=ccna__Interview_Questions_and_Answers_
+
+[filters]
+http://www.globalguideline.com/ggl_js/tweet.global.guideline.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
