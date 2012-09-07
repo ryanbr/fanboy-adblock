@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://docbao.vn/
+
+
+[filters]
+http://media.docbao.vn/Ad/04092012/bien-dong.jpg
+http://media.docbao.vn/Ad/22062012/chotot.swf
+http://media.docbao.vn/Ad/27092010/120x290-2.gif
+http://docbao.vn/dendau680x90.htm
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
