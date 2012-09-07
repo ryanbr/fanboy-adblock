@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://otomoto.pl/bmw-735-gaz-sekwencja-brc-C25781621.html
+
+
+[filters]
+http://adct.gg.pl/ct.js?_=1347015879844
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
