@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.koreatimes.net/
+
+[filters]
+http://www.koreatimes.net/iframe_Rad
+http://www.koreatimes.net/ad2/kt_ad_fb.gif
+http://www.koreatimes.net/ad2/kt_ad_tt.gif
+http://www.koreatimes.net/ad2/kt_tv_ad.gif
+http://www.koreatimes.net/ad/cic.gif
+http://www.koreatimes.net/ad/classichonda.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
