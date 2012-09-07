@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.puch.co.kr/html/mainn.html
+
+
+[filters]
+http://serial7.logcounter.com/%5Bsr%5D.gif?d=r1413662482844.7861
+http://serial7.logcounter.com/UsrConfig/p/Conf_puch3.js?s=r1413662482844.7861
+http://serial7.logcounter.com/se/http_fajax.swf?r=1347021836367
+http://web7.logcounter.com/%5Bsr%5D.gif?r=r1347021832814362362848&cdkey=puch3&surl=http%3A%2F%2Fwww.puch.co.kr%2Fhtml%2Fmainn.html
+http://web7.logcounter.com/HTTP_MSN/Messenger/HTTP_s.js
+http://web7.logcounter.com/HTTP_MSN/Messenger/log_run.php?tmpUss=&PHPSESSID=&HTTP_SERVER_ADDR=http%3A%2F%2Fweb7.logcounter.com&h_domain=www.puch.co.kr&firstConnection=true&history_length=1&HTTP_MSN_AUTH_CDKEY=puch3&HTTP_MSN_MEMBER_NAME=&Check_WH=1920%20X%201080&Check_Color=24&Check_java=N&Check_cookie=true&ChatYN=false&random=null&sn=NO&Aurl=&reffer_id=http%3A%2F%2Fwww.puch.co.kr%2F%3F_C_%3D1%26NaPm%3Dct%253Dh6ta0mg0%257Cci%253D0x000004V4zeO4Wb00bg%257Ctr%253Dsbtsb%257Csn%253D117823%257Chk%253D4b71e255bb92b5ade7ed9f67de3d56f1bf1a129c&url=http%3A%2F%2Fwww.puch.co.kr%2Fhtml%2Fmainn.html&son=Y&con=N&non=N&lon=Y&UPO=1&SLv=5&FLv=11.4.402
+http://web7.logcounter.com/emd_pt.js
+http://www.fashiontop10.com/co/log-002.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
