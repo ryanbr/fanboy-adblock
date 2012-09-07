@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.news24.com/Columnists/ClemSunter/How-the-world-turns-20120906
+
+[filters]
+http://stats.24.com/content/image.articleview?rnd=634826167750973351&s=5&c=1329&a=f4461afc-7079-4393-b203-d63e39f873c5&t=How%20the%20world%20turns&ct=Columnists/ClemSunter&u=http%3a%2f%2fwww.news24.com%2fTemplates%2fArticles%2fColumnistArticle.aspx%3fsid%3d5%26cid%3d1329%26acid%3d1415%26cb%3dColumnists%2fClemSunter%26aid%3df4461afc70794393b203d63e39f873c5&uid=&luid=&sn=
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
