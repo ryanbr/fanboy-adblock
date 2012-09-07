@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yasni.com/pizza+new+york/free+people+search?psi
+
+
+[filters]
+http://www.yasni.com/ad_pop.php?popup=us1
+http://www.yasni.com/ad_pop.php?popup=us2
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
