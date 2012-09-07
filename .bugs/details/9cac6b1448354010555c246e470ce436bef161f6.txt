@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.darkheartfelt.com/blog/2012/8/23/mac-app-store-taking-two-months-to-review-apps.html
+
+[filters]
+http://www.darkheartfelt.com/universal/scripts/social.js?CE=66
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
