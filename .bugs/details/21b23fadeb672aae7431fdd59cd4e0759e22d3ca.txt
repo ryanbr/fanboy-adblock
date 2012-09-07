@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://play.iprima.cz/all/277665/all
+
+
+[filters]
+http://i.imedia.cz/javascript?mode=generic&zoneId-0=iprima.all.leaderboard&section-0=iPrima_Videoarchiv&zoneId-1=iprima.all.leaderboard.double&section-1=iPrima_Videoarchiv&cookieEnabled=1&referer=&lang=en&charset=utf-8
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
