@@ -1,0 +1,14 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.applegate.co.uk/
+
+[filters]
+http://www.applegate.co.uk/stats/recordClick.html?type=HOTLINK&m1=Directory&m2=root&m3=Home_Page&m4=HOTLINK&m5=1004907&m6=10&m7=INT_EXT&m8=200407&pageCategory=root&event=CLICK
+
+[other]
+links on the right don't work when clicked.
+
+[comments]
+nitrox
