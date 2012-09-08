@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.boston.com/bigpicture/2010/08/russia_in_color_a_century_ago.html
+
+
+[filters]
+https://www.facebook.com/ajax/photos/logging/everstore_logging.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
