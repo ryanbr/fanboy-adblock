@@ -1431,6 +1431,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-generic.txt" ] && [ -d "$TESTDIR
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
+              # Opera CSS
+              #
+              $NICE $HGSERV/scripts/firefox/fanboy-element-opera-generator.sh
+
               # Remove temp files
               #
               rm -rf $TESTDIR/split/fanboy-adblock/*.txt

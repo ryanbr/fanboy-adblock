@@ -1,72 +1,61 @@
 #!/bin/bash
 #
-# Fanboy Dimensions Adblock list grabber script v1.0 (26/05/2011)
+# Fanboy Dimensions Adblock list grabber script v2.0 (08/09/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 
-# Creating a 20Mb ramdisk Temp storage...
+export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
+export NICE="nice -n 19"
+export TAC="/usr/bin/tac"
+export CAT="/bin/cat"
+export MAINDIR="/tmp/Ramdisk/www/adblock"
+export SPLITDIR="/tmp/Ramdisk/www/adblock/split/test"
+export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
+export TESTDIR="/tmp/work"
+export DATE="`date`"
+export ADDCHECKSUM="nice -n 19 perl $HGSERV/scripts/addChecksum.pl"
+export LOGFILE="/etc/crons/log.txt"
+export HG="/usr/local/bin/hg"
+export SHA256SUM="/usr/bin/sha256sum"
+export TWIDGE="/usr/bin/twidge update"
+export IEDIR="/tmp/work/ie"
+export IESUBS="/tmp/work/ie/subscriptions"
+export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
+
+
+# Add New line
 #
-if [ ! -d "/tmp/ramdisk/" ]; then
-    rm -rf /tmp/ramdisk/
-    mkdir /tmp/ramdisk; chmod 777 /tmp/ramdisk
-    mount -t tmpfs -o size=20M tmpfs /tmp/ramdisk/
-    mkdir /tmp/ramdisk/opera/
-fi
+sed -e '$a\' $HGSERV/opera/opera-header.txt > $TESTDIR/opera-header.txt
+sed -e '$a\' $HGSERV/fanboy-adblock/fanboy-elements-generic.txt > $TESTDIR/fanboy-elements-generic.txt
 
-# Variables for directorys
+# the magic, remove ## and #. and add , to each line
 #
-# MAINDIR="/var/www/adblock"
-# GOOGLEDIR="/home/fanboy/google/fanboy-adblock-list"
-# TESTDIR="/tmp/ramdisk"
-# ZIP="/usr/local/bin/7za"
+cat $TESTDIR/fanboy-elements-generic.txt | sed 's/^..\(.*\)$/\1,/' > $TESTDIR/fanboy-css.txt
 
-# Remove Temp files
+# Combine
 #
-rm -f $TESTDIR/dim*.txt
-rm -f $TESTDIR/fanboy-adblocklist-current-expanded.txt
-
-cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $TESTDIR/fanboy-adblocklist-current-expanded.txt
-      
-# Seperage off CSS elements for Opera CSS
-sed -n '/Generic Hiding Rules/,/Common Element Rules/{/Common Element Rules/!p}' $TESTDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-css.txt
-
-# remove the top 3 lines
-sed '1,2d' $TESTDIR/fanboy-css.txt > $TESTDIR/fanboy-css0.txt
-
-# remove bottom line
-sed -e '$d' $TESTDIR/fanboy-css0.txt  > $TESTDIR/fanboy-css.txt
+cat $TESTDIR/opera-header.txt $TESTDIR/fanboy-css.txt $HGSERV/other/opera-addon.css > $TESTDIR/opera-addon.css
 
 # Remove selected lines (be very specific, include comma)
-# sed -i '/#testfilter,/d' $TESTDIR/fanboy-css.txt
-sed -i '/.ad-vertical-container/d' $TESTDIR/fanboy-css.txt
+# sed -i '/#testfilter,/d' $TESTDIR/opera-addon.css
+sed -i '/.ad-vertical-container/d' $TESTDIR/opera-addon.css
 
+# Remove empty lines
 #
-# the magic, remove ## and #. and add , to each line
+sed -i -e '/^$/d' $TESTDIR/opera-addon.css
 
-cat $TESTDIR/fanboy-css.txt | sed 's/^..\(.*\)$/\1,/' > $TESTDIR/fanboy-cs2.txt
-cat $MAINDIR/adblock/header-opera.txt $TESTDIR/fanboy-cs2.txt $GOOGLEDIR/other/opera-addon.css > $TESTDIR/fanboy-css.txt
-
-# remove any blank lines in Opera css
-sed '/^$/d' $TESTDIR/fanboy-css.txt > $TESTDIR/fanboy-css0.txt
-
-# remove ^M from the lists..
-tr -d '\r' <$TESTDIR/fanboy-css0.txt >$TESTDIR/fanboy-css.txt
-mv -f $TESTDIR/fanboy-css0.txt $TESTDIR/fanboy-css.txt
-
-# Fix speedtest.net 27/03/2011 (reported)
-# sed -i '/.ad-vertical-container/d' $TESTDIR/fanboy-css.txt
-
-perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-css.txt
-# Compare the Dimensions on the website vs mercurial copy
+# Checksum
 #
-if diff $TESTDIR/fanboy-css.txt $MAINDIR/adblock/opera/fanboy-adblocklist-elements-v4.css >/dev/null ; then
-   echo "No Changes detected: fanboy-adblocklist-elements-v4.css" > /dev/null
- else
+$ADDCHECKSUM $TESTDIR/opera-addon.css
 
-   cp -f $TESTDIR/fanboy-css.txt $MAINDIR/adblock/opera/fanboy-adblocklist-elements-v4.css
-   rm -f $MAINDIR/adblock/opera/fanboy-adblocklist-elements-v4.css.gz
-   $ZIP a -mx=9 -y -tgzip $MAINDIR/adblock/opera/fanboy-adblocklist-elements-v4.css.gz $MAINDIR/adblock/opera/fanboy-adblocklist-elements-v4.css > /dev/null
-   $GOOGLEDIR/scripts/firefox/opera-russian.sh
-fi
+# Compress
+#
+cp -f $TESTDIR/opera-addon.css $MAINDIR/opera/fanboy-adblocklist-elements-v5.css
+rm -rf $MAINDIR/opera/fanboy-adblocklist-elements-v5.css.gz
+$ZIP $MAINDIR/opera/fanboy-adblocklist-elements-v5.css.gz $TESTDIR/opera-addon.css > /dev/null
+
+# Remove temp files
+#
+rm -rf $TESTDIR/opera-header.txt $TESTDIR/fanboy-elements-generic.txt $TESTDIR/fanboy-css.txt $TESTDIR/opera-addon.css
