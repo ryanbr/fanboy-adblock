@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dictionary.babylon.com/english/
+
+[filters]
+http://www.google-analytics.com/ga.js
+http://b1.babbnrs.com/?units[]=MED_RECTANGLE_SIDEBAR&affID=123456&r=38224
+http://bis.babylon.com/?rt=GetFile&uri=!!BTMJWKZGYE&type=1&index=11
+
+
+[other]
+Need to whitelist google analytics to allow translation service to work.
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14900
+
+[comments]
+fanboy
