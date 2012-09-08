@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blogs.valvesoftware.com/abrash/two-possible-paths-into-the-future-of-wearable-computing-part-1-vr/
+
+
+[filters]
+http://blogs.valvesoftware.com/images/share_fb.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
