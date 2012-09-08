@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://motherless.com/
+
+
+[filters]
+http://204.140.25.247/ads/motherless.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
