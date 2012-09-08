@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yasni.ca/ext.php?url=https%3A%2F%2Fprofile.live.com%2Fcid-26b831d9d3c574df%2F&name=Gerard+Eichelsheim&cat=profile&showads=1
+
+[filters]
+# Copy your Adblock filters here
+http://www.yasni.ca/ads_banner_ext.php?region_ip=nz&region=ca&d=94310825
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
