@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://thepiratebay.se/torrent/7608699/Men_in_Black_3_%282012%29_720p_BrRip_x264_-_750MB_-_YIFY
+
+
+[filters]
+https://static.thepiratebay.org/img/toolnew.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
