@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.onlife.co.il/%D7%A2%D7%91%D7%95%D7%93%D7%94/%D7%97%D7%91%D7%A8%D7%94/48603/%D7%97%D7%91%D7%A8%D7%95%D7%AA-%D7%AA%D7%A8%D7%95%D7%A4%D7%95%D7%AA-%D7%9E%D7%A1%D7%99%D7%99%D7%A2%D7%95%D7%AA-%D7%9C%D7%A7%D7%9E%D7%A4%D7%99%D7%99%D7%9F-%D7%94%D7%91%D7%A8%D7%99%D7%9D-%D7%91%D7%AA%D7%90
+
+
+[filters]
+http://www.onlife.co.il/sites/default/themes/onlife/images/share_btn.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
