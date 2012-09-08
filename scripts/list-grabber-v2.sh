@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v2.15 (08/09/2012)
+# Fanboy Adblock list grabber script v2.20 (08/09/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
+# 2.20 Allow spaces to prepended to each list before processing
 # 2.15 Optimise sed (no need for temp files)
 # 2.14 More error Checking of Ramdisks, removal of seperate IE ramdisk
 # 2.13 Allow mirrors to use non-ram disk for HG
@@ -66,6 +67,13 @@ if [ ! -d "/tmp/work/opera/test" ]; then
   mkdir /tmp/work/opera/test; chmod 777 /tmp/work/opera/test
 fi
 
+if [ ! -d "/tmp/work/split" ]; then
+  mkdir /tmp/work/split; chmod 777 /tmp/work/split
+  mkdir /tmp/work/split/fanboy-adblock; chmod 777 /tmp/work/split/fanboy-adblock
+  mkdir /tmp/work/split/fanboy-addon; chmod 777 /tmp/work/split/fanboy-addon
+  mkdir /tmp/work/split/fanboy-tracking; chmod 777 /tmp/work/split/fanboy-tracking
+fi
+
 if [ ! -d "/tmp/Ramdisk/" ]; then
   rm -rf /tmp/Ramdisk/
   mkdir /tmp/Ramdisk; chmod 777 /tmp/Ramdisk
@@ -115,12 +123,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ 
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -150,6 +167,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ 
               # Fanboy-non-element
               #
               $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-generic.txt - $DATE" >> $LOGFILE
@@ -176,12 +197,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-thirdparty.txt" ] && [ -d "$TESTDIR" ] &&
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -211,6 +241,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-thirdparty.txt" ] && [ -d "$TESTDIR" ] &&
               # Fanboy-non-element
               #
               $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-thirdparty.txt - $DATE" >> $LOGFILE
@@ -237,12 +271,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-firstparty.txt" ] && [ -d "$TESTDIR" ] &&
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -273,6 +316,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-firstparty.txt" ] && [ -d "$TESTDIR" ] &&
               # Fanboy-non-element
               #
               $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-firstparty.txt - $DATE" >> $LOGFILE
@@ -299,12 +346,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-popups.txt" ] && [ -d "$TESTDIR" ] && [ -
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -334,6 +390,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-popups.txt" ] && [ -d "$TESTDIR" ] && [ -
               # Fanboy-non-element
               #
               $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-popups.txt - $DATE" >> $LOGFILE
@@ -360,12 +420,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-whitelist.txt" ] && [ -d "$TESTDIR" ] && 
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -395,6 +464,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-whitelist.txt" ] && [ -d "$TESTDIR" ] && 
               # Fanboy-non-element
               #
               $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-whitelist.txt - $DATE" >> $LOGFILE
@@ -421,12 +494,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -456,6 +538,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
               # Fanboy-non-element
               #
               $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-dimensions.txt - $DATE" >> $LOGFILE
@@ -482,12 +568,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TES
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -517,6 +612,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TES
               # Fanboy-non-element
               #
               $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-dimensions-whitelist.txt - $DATE" >> $LOGFILE
@@ -543,12 +642,20 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-generic.txt" ] && [ -d "$TESTDIR" ]
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -582,6 +689,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-generic.txt" ] && [ -d "$TESTDIR" ]
               # Fanboy-non-element
               #
               $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-adult-generic.txt - $DATE" >> $LOGFILE
@@ -609,12 +720,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -648,6 +768,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
               # Fanboy-non-element
               #
               $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-adult-firstparty.txt - $DATE" >> $LOGFILE
@@ -674,12 +798,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -713,6 +846,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
               # Fanboy-non-element
               #
               $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-adult-thirdparty.txt - $DATE" >> $LOGFILE
@@ -739,12 +876,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-elements.txt" ] && [ -d "$TESTDIR" 
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -774,6 +920,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-elements.txt" ] && [ -d "$TESTDIR" 
               # Fanboy-Adult
               #
               $NICE $HGSERV/scripts/firefox/fanboy-adult.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-adult-elements.txt - $DATE" >> $LOGFILE
@@ -800,12 +950,22 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt" ] && [ -d "$TESTDIR
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
 
         # Make sure the file exists
         #
@@ -839,6 +999,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt" ] && [ -d "$TESTDIR
               # Fanboy-non-element
               #
               $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-adult-whitelists.txt - $DATE" >> $LOGFILE
@@ -865,12 +1029,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" 
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -900,6 +1073,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" 
               # Fanboy-non-element
               #
               $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-p2p-firstparty.txt - $DATE" >> $LOGFILE
@@ -926,12 +1103,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" 
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -961,6 +1147,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" 
               # Fanboy-non-element
               #
               $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-p2p-thirdparty.txt - $DATE" >> $LOGFILE
@@ -988,12 +1178,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -1019,6 +1218,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-p2p-elements.txt - $DATE" >> $LOGFILE
@@ -1045,8 +1248,17 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
        rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-       $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+       $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+            $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -1076,6 +1288,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-dimensions.txt: fanboy-dimensions.txt - $DATE" >> $LOGFILE
@@ -1103,8 +1319,18 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TES
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
        rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-       $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt > $TESTDIR/fanboy-merged.txt
+
+
+       # Allow Temp dir so we can insert spaces..
+       #
+       cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+       # Add a space at the end of each file (before we cat it)
+       #
+       sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+       $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+            $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -1134,6 +1360,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TES
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-dimensions-whitelist.txt: fanboy-dimensions-whitelist.txt - $DATE" >> $LOGFILE
@@ -1160,12 +1390,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-generic.txt" ] && [ -d "$TESTDIR
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -1191,6 +1430,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-generic.txt" ] && [ -d "$TESTDIR
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-elements-generic.txt - $DATE" >> $LOGFILE
@@ -1217,12 +1460,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-specific.txt" ] && [ -d "$TESTDI
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -1248,6 +1500,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-specific.txt" ] && [ -d "$TESTDI
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-elements-specific.txt - $DATE" >> $LOGFILE
@@ -1274,12 +1530,21 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt" ] && [ -d "$TEST
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
         rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-generic.txt $HGSERV/fanboy-adblock/fanboy-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-popups.txt $HGSERV/fanboy-adblock/fanboy-whitelist.txt $HGSERV/fanboy-adblock/fanboy-dimensions.txt \
-        $HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt $HGSERV/fanboy-adblock/fanboy-adult-generic.txt $HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-adult-elements.txt $HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt \
-        $HGSERV/fanboy-adblock/fanboy-elements-generic.txt $HGSERV/fanboy-adblock/fanboy-elements-specific.txt $HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
+        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -1305,6 +1570,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt" ] && [ -d "$TEST
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-elements-exceptions.txt - $DATE" >> $LOGFILE
@@ -1331,8 +1600,19 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" 
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
        rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt \
-       $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+        $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt \
+             $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt \
+             $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt \
+             $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -1362,6 +1642,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" 
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-p2p-firstparty.txt: fanboy-p2p-firstparty.txt - $DATE" >> $LOGFILE
@@ -1388,8 +1672,19 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" 
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
        rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt \
-       $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+        $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt \
+             $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt \
+             $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt \
+             $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -1419,6 +1714,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" 
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-merged.txt: fanboy-p2p-thirdparty.txt - $DATE" >> $LOGFILE
@@ -1445,8 +1744,19 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
    if [ "$SSLHG" != "$SSLMAIN" ]
      then
        rm -rf $TESTDIR/fanboy-merged.txt
-       $CAT $HGSERV/fanboy-adblock/fanboy-header.txt $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt \
-       $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt > $TESTDIR/fanboy-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+        $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt \
+             $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt \
+             $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt \
+             $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
         #
@@ -1476,6 +1786,10 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] 
               # Fanboy Ultimate + Complete
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+
+              # Remove temp files
+              #
+              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-p2p-elements.txt: fanboy-p2p-elements.txt - $DATE" >> $LOGFILE
@@ -1504,14 +1818,23 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-generic.txt" ] && [ -d "$TESTDI
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-general.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-tracking/*.txt $TESTDIR/split/fanboy-tracking
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-tracking/*.txt
+
+       $CAT $TESTDIR/split/fanboy-tracking/fanboy-header.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-generic.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-thirdparty.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-firstparty.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-adult.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-general.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-nonenglish.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
 
         # Make sure the file exists
         #
@@ -1540,6 +1863,10 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-generic.txt" ] && [ -d "$TESTDI
               # IE: Fanboy-Tracking
               #
               $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
+
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-tracking/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-generic.txt - $DATE" >> $LOGFILE
@@ -1568,14 +1895,23 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt" ] && [ -d "$TES
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-general.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-tracking/*.txt $TESTDIR/split/fanboy-tracking
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-tracking/*.txt
+
+       $CAT $TESTDIR/split/fanboy-tracking/fanboy-header.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-generic.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-thirdparty.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-firstparty.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-adult.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-general.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-nonenglish.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
 
         # Make sure the file exists
         #
@@ -1605,6 +1941,10 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt" ] && [ -d "$TES
               # IE: Fanboy-Tracking
               #
               $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
+
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-tracking/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-firstparty.txt - $DATE" >> $LOGFILE
@@ -1633,14 +1973,23 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt" ] && [ -d "$TES
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-general.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-tracking/*.txt $TESTDIR/split/fanboy-tracking
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-tracking/*.txt
+
+       $CAT $TESTDIR/split/fanboy-tracking/fanboy-header.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-generic.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-thirdparty.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-firstparty.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-adult.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-general.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-nonenglish.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
 
         # Make sure the file exists
         #
@@ -1670,6 +2019,10 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt" ] && [ -d "$TES
               # IE: Fanboy-Tracking
               #
               $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
+
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-tracking/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-thirdparty.txt - $DATE" >> $LOGFILE
@@ -1698,14 +2051,23 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-general.txt" ] && [ -d "$TESTDI
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-general.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-tracking/*.txt $TESTDIR/split/fanboy-tracking
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-tracking/*.txt
+
+       $CAT $TESTDIR/split/fanboy-tracking/fanboy-header.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-generic.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-thirdparty.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-firstparty.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-adult.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-general.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-nonenglish.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
 
         # Make sure the file exists
         #
@@ -1736,6 +2098,10 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-general.txt" ] && [ -d "$TESTDI
               # IE: Fanboy-Tracking
               #
               $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
+
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-tracking/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-general.txt - $DATE" >> $LOGFILE
@@ -1764,14 +2130,23 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt" ] && [ -d "$TES
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-general.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-tracking/*.txt $TESTDIR/split/fanboy-tracking
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-tracking/*.txt
+
+       $CAT $TESTDIR/split/fanboy-tracking/fanboy-header.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-generic.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-thirdparty.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-firstparty.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-adult.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-general.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-nonenglish.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
 
         # Make sure the file exists
         #
@@ -1802,6 +2177,10 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt" ] && [ -d "$TES
               # IE: Fanboy-Tracking
               #
               $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
+
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-tracking/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-nonenglish.txt - $DATE" >> $LOGFILE
@@ -1830,14 +2209,23 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-adult.txt" ] && [ -d "$TESTDIR"
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-general.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-tracking/*.txt $TESTDIR/split/fanboy-tracking
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-tracking/*.txt
+
+       $CAT $TESTDIR/split/fanboy-tracking/fanboy-header.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-generic.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-thirdparty.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-firstparty.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-adult.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-general.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-nonenglish.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
 
         # Make sure the file exists
         #
@@ -1868,6 +2256,10 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-adult.txt" ] && [ -d "$TESTDIR"
               # IE: Fanboy-Tracking
               #
               $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
+
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-tracking/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-adult.txt - $DATE" >> $LOGFILE
@@ -1897,14 +2289,23 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt" ] && [ -d "$TEST
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-tracking-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-tracking/fanboy-header.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-generic.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-firstparty.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-adult.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-general.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt \
-            $HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-tracking/*.txt $TESTDIR/split/fanboy-tracking
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-tracking/*.txt
+
+       $CAT $TESTDIR/split/fanboy-tracking/fanboy-header.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-generic.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-thirdparty.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-firstparty.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-adult.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-general.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-nonenglish.txt \
+            $TESTDIR/split/fanboy-tracking/fanboy-tracking-whitelist.txt > $TESTDIR/fanboy-tracking-merged.txt
 
         # Make sure the file exists
         #
@@ -1934,6 +2335,10 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-whitelist.txt" ] && [ -d "$TEST
               # IE: Fanboy-Tracking
               #
               $NICE $HGSERV/scripts/ie/tracking-ie-generator.sh
+
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-tracking/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-tracking-merged.txt: fanboy-tracking-whitelist.txt - $DATE" >> $LOGFILE
@@ -1962,25 +2367,34 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-generic.txt" ] && [ -d "$TESTDIR" ] &
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-addon-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-addon/*.txt $TESTDIR/split/fanboy-addon
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-addon/*.txt
+
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-intl.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
        # English
        rm -rf $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
 
         # Make sure the file exists
         #
@@ -2013,6 +2427,9 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-generic.txt" ] && [ -d "$TESTDIR" ] &
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-addon/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-generic.txt: fanboy-addon-merged.txt - $DATE" >> $LOGFILE
@@ -2041,25 +2458,34 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt" ] && [ -d "$TESTDIR" 
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-addon-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-addon/*.txt $TESTDIR/split/fanboy-addon
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-addon/*.txt
+
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-intl.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
        # English
        rm -rf $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
 
         # Make sure the file exists
         #
@@ -2092,6 +2518,9 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt" ] && [ -d "$TESTDIR" 
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-addon/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-generic.txt: fanboy-addon-merged.txt - $DATE" >> $LOGFILE
@@ -2120,25 +2549,34 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-firstparty.txt" ] && [ -d "$TESTDIR" 
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-addon-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-addon/*.txt $TESTDIR/split/fanboy-addon
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-addon/*.txt
+
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-intl.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
        # English
        rm -rf $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
 
         # Make sure the file exists
         #
@@ -2171,6 +2609,9 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-firstparty.txt" ] && [ -d "$TESTDIR" 
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-addon/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-firstparty.txt: fanboy-addon-firstparty.txt - $DATE" >> $LOGFILE
@@ -2199,26 +2640,34 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-whitelists.txt" ] && [ -d "$TESTDIR" 
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-addon-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-addon/*.txt $TESTDIR/split/fanboy-addon
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-addon/*.txt
+
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-intl.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
        # English
        rm -rf $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
-
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
         # Make sure the file exists
         #
         if [ -s "$TESTDIR/fanboy-addon-merged.txt" ]; then
@@ -2250,6 +2699,9 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-whitelists.txt" ] && [ -d "$TESTDIR" 
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-addon/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-firstparty.txt: fanboy-addon-whitelists.txt - $DATE" >> $LOGFILE
@@ -2278,15 +2730,23 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-intl.txt" ] && [ -d "$TESTDIR" ] && [
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-addon-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-addon/*.txt $TESTDIR/split/fanboy-addon
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-addon/*.txt
+
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-intl.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
 
         # Make sure the file exists
         #
@@ -2313,6 +2773,9 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-intl.txt" ] && [ -d "$TESTDIR" ] && [
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-addon/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-intl.txt: fanboy-addon-intl.txt - $DATE" >> $LOGFILE
@@ -2341,25 +2804,34 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements.txt" ] && [ -d "$TESTDIR" ] 
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-addon-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-addon/*.txt $TESTDIR/split/fanboy-addon
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-addon/*.txt
+
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-intl.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
        # English
        rm -rf $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
 
         # Make sure the file exists
         #
@@ -2392,6 +2864,9 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements.txt" ] && [ -d "$TESTDIR" ] 
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-addon/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-elements.txt: fanboy-addon-elements.txt - $DATE" >> $LOGFILE
@@ -2420,25 +2895,34 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt" ] && [ -d "$TE
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-addon-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-addon/*.txt $TESTDIR/split/fanboy-addon
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-addon/*.txt
+
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-intl.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
        # English
        rm -rf $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
 
         # Make sure the file exists
         #
@@ -2471,6 +2955,9 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt" ] && [ -d "$TE
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-addon/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-elements-specific.txt: fanboy-addon-elements-specific.txt - $DATE" >> $LOGFILE
@@ -2499,25 +2986,34 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt" ] && [ -d "$
         # Clean up
         #
         rm -rf $TESTDIR/fanboy-addon-merged.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-intl.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
+
+        # Allow Temp dir so we can insert spaces..
+        #
+        cp -f $HGSERV/fanboy-addon/*.txt $TESTDIR/split/fanboy-addon
+
+        # Add a space at the end of each file (before we cat it)
+        #
+        sed -i -e '$G' $TESTDIR/split/fanboy-addon/*.txt
+
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-intl.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged.txt
        # English
        rm -rf $TESTDIR/fanboy-addon-merged-english.txt > /dev/null
-       $CAT $HGSERV/fanboy-addon/fanboy-header.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-generic.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-thirdparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-firstparty.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-whitelists.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-specific.txt \
-            $HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
+       $CAT $TESTDIR/split/fanboy-addon/fanboy-header.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-generic.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-thirdparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-firstparty.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-whitelists.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-specific.txt \
+            $TESTDIR/split/fanboy-addon/fanboy-addon-elements-exceptions.txt > $TESTDIR/fanboy-addon-merged-english.txt
 
         # Make sure the file exists
         #
@@ -2550,6 +3046,9 @@ if [ -s "$HGSERV/fanboy-addon/fanboy-addon-elements-exceptions.txt" ] && [ -d "$
               #
               $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
+              # Remove temp files
+              #
+              rm -f $TESTDIR/split/fanboy-addon/*.txt
         else
               # If the Cat fails.
               echo "Error creating file fanboy-addon-elements-exceptions.txt: fanboy-addon-elements-exceptions.txt - $DATE" >> $LOGFILE
