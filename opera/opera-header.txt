@@ -1,7 +1,7 @@
 /*
 ! Checksum: 1xB+UpAmzjMKAgXtQvZCwA
 ! Fanboy Optimised Element Blocking
-! Version: V4 Updated: 19 Aug 2012
+! Version: V4 Updated: 20 Aug 2012
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Email: fanboyadblock@googlegroups.com - Project homepage: http://fanboy.co.nz/
 !

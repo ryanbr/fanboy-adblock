@@ -28,7 +28,11 @@ export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
 # Add New line
 #
 sed -e '$a\' $HGSERV/opera/opera-header.txt > $TESTDIR/opera-header.txt
-sed -e '$a\' $HGSERV/fanboy-adblock/fanboy-elements-generic.txt > $TESTDIR/fanboy-elements-generic.txt
+sed -e '$a\' $HGSERV/fanboy-adblock/fanboy-elements-generic.txt > $TESTDIR/fanboy-elements-generic2.txt
+
+# Remove top lines
+#
+sed '1,3d' $TESTDIR/fanboy-elements-generic2.txt > $TESTDIR/fanboy-elements-generic.txt
 
 # the magic, remove ## and #. and add , to each line
 #
@@ -52,10 +56,10 @@ $ADDCHECKSUM $TESTDIR/opera-addon.css
 
 # Compress
 #
-cp -f $TESTDIR/opera-addon.css $MAINDIR/opera/fanboy-adblocklist-elements-v5.css
-rm -rf $MAINDIR/opera/fanboy-adblocklist-elements-v5.css.gz
-$ZIP $MAINDIR/opera/fanboy-adblocklist-elements-v5.css.gz $TESTDIR/opera-addon.css > /dev/null
+cp -f $TESTDIR/opera-addon.css $MAINDIR/opera/fanboy-adblocklist-elements-v4.css
+rm -rf $MAINDIR/opera/fanboy-adblocklist-elements-v4.css.gz
+$ZIP $MAINDIR/opera/fanboy-adblocklist-elements-v4.css.gz $TESTDIR/opera-addon.css > /dev/null
 
 # Remove temp files
 #
-rm -rf $TESTDIR/opera-header.txt $TESTDIR/fanboy-elements-generic.txt $TESTDIR/fanboy-css.txt $TESTDIR/opera-addon.css
+rm -rf $TESTDIR/opera-header.txt $TESTDIR/fanboy-elements-generic.txt $TESTDIR/fanboy-css.txt $TESTDIR/opera-addon.css $TESTDIR/fanboy-elements-generic2.txt
