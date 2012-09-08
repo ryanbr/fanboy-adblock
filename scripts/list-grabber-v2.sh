@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v2.20 (08/09/2012)
+# Fanboy Adblock list grabber script v2.21 (08/09/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
+# 2.21 Opera CSS generator
 # 2.20 Allow spaces to prepended to each list before processing
 # 2.15 Optimise sed (no need for temp files)
 # 2.14 More error Checking of Ramdisks, removal of seperate IE ramdisk
@@ -3065,6 +3066,79 @@ else
   echo "fanboy-addon-elements-exceptions.txt (fanboy-addon-elements-exceptions.txt) failed to update: $DATE" >> $LOGFILE
   # twidge update "fanboy-tracking-elements-exceptions.txt failed to update: $DATE"
 fi
+
+#######################################  fanboy-adblocklist-elements-v4.css  #######################################
+# Make sure the file exists, and the work directorys are also there before processing.
+#
+if [ -s "$HGSERV/other/opera-addon.css" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
+  then
+   # Compare differences, only process if file has changed..
+   #
+   SSLHG=$($SHA256SUM $HGSERV/other/opera-addon.css | cut -d' ' -f1)
+   SSLMAIN=$($SHA256SUM $MAINDIR/split/opera-addon.css | cut -d' ' -f1)
+   #
+   if [ "$SSLHG" != "$SSLMAIN" ]
+     then
+        rm -rf $TESTDIR/fanboy-opera-css.txt
+        # Copy over
+        #
+        cp -f $HGSERV/other/opera-addon.css $MAINDIR/split/opera-addon.css
+
+        # Add New line
+        #
+        sed -e '$a\' $HGSERV/opera/opera-header.txt > $TESTDIR/opera-header2.txt
+        sed -e '$a\' $HGSERV/fanboy-adblock/fanboy-elements-generic.txt > $TESTDIR/fanboy-elements-generic3.txt
+
+        # Remove top lines
+        #
+        sed '1,3d' $TESTDIR/fanboy-elements-generic3.txt > $TESTDIR/fanboy-elements-generic.txt
+
+        # the magic, remove ## and #. and add , to each line
+        #
+        cat $TESTDIR/fanboy-elements-generic.txt | sed 's/^..\(.*\)$/\1,/' > $TESTDIR/fanboy-css.txt
+
+        # Combine
+        #
+        cat $TESTDIR/opera-header2.txt $TESTDIR/fanboy-css.txt $HGSERV/other/opera-addon.css > $TESTDIR/fanboy-opera-css.txt
+
+        # Make sure the file exists
+        #
+        if [ -s "$TESTDIR/fanboy-opera-css.txt" ]; then
+
+          # Remove selected lines (be very specific, include comma)
+          # sed -i '/#testfilter,/d' $TESTDIR/opera-addon.css
+          sed -i '/.ad-vertical-container/d' $TESTDIR/fanboy-opera-css.txt
+
+          # Remove empty lines
+          #
+          sed -i -e '/^$/d' $TESTDIR/fanboy-opera-css.txt
+
+          # Checksum
+          #
+          $ADDCHECKSUM $TESTDIR/fanboy-opera-css.txt
+
+          # Compress
+          #
+          cp -f $TESTDIR/fanboy-opera-css.txt $MAINDIR/opera/fanboy-adblocklist-elements-v4.css
+          rm -rf $MAINDIR/opera/fanboy-adblocklist-elements-v4.css.gz
+          $ZIP $MAINDIR/opera/fanboy-adblocklist-elements-v4.css.gz $TESTDIR/fanboy-opera-css.txt > /dev/null
+
+          # Remove temp files
+          #
+          rm -rf $TESTDIR/opera-header2.txt $TESTDIR/fanboy-elements-generic3.txt $TESTDIR/fanboy-opera-css.txt $TESTDIR/fanboy-elements-generic.txt
+        else
+          # If the Cat fails.
+          echo "Error creating file fanboy-adblocklist-elements-v4.css: fanboy-adblocklist-elements-v4.css - $DATE" >> $LOGFILE
+        fi
+    else
+        # File check hg vs secure.fanboy.co.nz
+        echo "Files are the same: fanboy-adblocklist-elements-v4.css" > /dev/null
+    fi
+else
+  echo "fanboy-generic (fanboy-adblocklist-elements-v4.css) failed to update: $DATE" >> $LOGFILE
+  # twidge update "fanboy-generic.txt failed to update: $DATE"
+fi
+
 
 ############### Fanboy Enhanced Trackers #################
 SSLHG=$($SHA256SUM $HGSERV/enhancedstats-addon.txt | cut -d' ' -f1)
