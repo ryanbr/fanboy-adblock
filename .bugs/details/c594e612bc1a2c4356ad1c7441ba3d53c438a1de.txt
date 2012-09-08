@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ebayinkblog.com/2012/09/06/ebay-inc-acquires-svpply-com/
+
+
+[filters]
+http://api.bit.ly/v3/clicks?callback=BitlyCB._cb_._1&hash=OdMA0E&login=ebayinkblog&apiKey=R_26b0b99b080a0f910a972165c025df00&client=bitly-javascript-api
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
