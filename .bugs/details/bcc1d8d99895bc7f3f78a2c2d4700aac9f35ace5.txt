@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://codinginmysleep.com/bitcoin-mining-in-plain-english/
+
+
+[filters]
+http://codinginmysleep.com/wp-content/uploads/shareaholic/spritegen/jquery.shareaholic-publishers-sb.min.js?ver=6.0.0.3
+http://codinginmysleep.com/wp-content/uploads/shareaholic/spritegen/jquery.shareaholic-share-buttons.min.js?ver=6.0.0.3
+http://dtym7iokkjlif.cloudfront.net/media/js/jquery.shareaholic-publishers-rd.min.js?ver=6.0.0.3
+http://codinginmysleep.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=0.3.1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
