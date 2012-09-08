@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://zooweekly.com.au/girls/real-girls/2010/members/jordanna83
+
+
+[filters]
+http://shared.9msn.com.au/share/com/js/v5.3nse.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
