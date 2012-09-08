@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gizchina.com/2012/09/04/chinese-phone-maker-goophone-i5-might-have-blocked-iphone-5-sales-in-china/
+
+
+[filters]
+http://www.gizchina.com/wp-content/plugins/viperbar/client/css/front_style.css?ver=3.4.2
+http://www.gizchina.com/wp-content/plugins/viperbar/client/js/front.js?ver=3.4.2
+http://www.gizchina.com/wp-content/plugins/viperbar/client/js/viperbar_sticky.js?ver=3.4.2
+http://www.gizchina.com/wp-content/plugins/viperbar/images/icon-down.png
+http://www.gizchina.com/wp-content/plugins/viperbar/images/icon-up.png
+http://www.gizchina.com/wp-content/plugins/viperbar/includes/gradient.php?width=10&height=30&color=0066FF
+http://www.gizchina.com/wp-content/plugins/viperbar/includes/gradient.php?width=10&height=45&color=FF00CC
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
