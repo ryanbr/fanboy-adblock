@@ -1,0 +1,20 @@
+/*
+! Checksum: 1xB+UpAmzjMKAgXtQvZCwA
+! Fanboy Optimised Element Blocking
+! Version: V4 Updated: 19 Aug 2012
+! License: http://creativecommons.org/licenses/by-sa/3.0/
+! Email: fanboyadblock@googlegroups.com - Project homepage: http://fanboy.co.nz/
+!
+! For Opera, save this file into
+! (XP) C:\Documents and Settings\<username>\Application Data\Opera\Opera\styes\user.css
+! (Vista/7) C:\Users\<username>\AppData\Roaming\Opera\Opera\styles\user.css
+! (Linux) ~/.opera/
+! (OSX) /Users/<username>/Library/Preferences/Opera Preferences/
+!
+! To load in opera, Tools -> Preferences -> Advanced Tab -> Content -> Style Options Button
+! Browse to your Opera profile directory and select "user.css" (this file)
+!
+! OSX: Opera Menu -> Preferences -> Advanced Tab -> Content -> Style Options Button
+! Browse to your Opera Prefs directory and select "fanboy-adblocklist-elements-v4.css" (this file)
+!
+*/
