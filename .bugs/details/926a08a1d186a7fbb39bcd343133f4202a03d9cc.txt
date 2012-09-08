@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.xinhuanet.com/english/world/2012-09/05/c_131829212.htm
+
+
+[filters]
+http://www.news.cn/weibo/js/share_iframe.js
+http://www.news.cn/weibo/css/share_iframe.css
+http://hits.sinajs.cn/A1/weiboshare.html?url=http%3A%2F%2Fnews.xinhuanet.com%2Fenglish%2Fworld%2F2012-09%2F05%2Fc_131829212.htm&type=3&count=&appkey=&title=Sweden%20grants%2059.4%20mln%20USD%20aid%20to%20Cambodia%20for%20social%20development%20-%20Xinhua%20%7C%20English.news.cn&pic=&ralateUid=&rnd=1347073997858
+http://www.news.cn/weibo/share.html?url=http%3A%2F%2Fnews.xinhuanet.com%2Fenglish%2Fworld%2F2012-09%2F05%2Fc_131829212.htm&type=3&appkey=&title=Sweden%20grants%2059.4%20mln%20USD%20aid%20to%20Cambodia%20for%20social%20development%20-%20Xinhua%20%7C%20English.news.cn&pic=&rnd=1347073998250
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
