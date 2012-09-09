@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nr2.ru/moskow/259778.html
+
+
+[filters]
+http://img.nr2.ru/banner/12/09/240x400_nr2.gif
+http://img.nr2.ru/banner/swf/12/09/240x400_nr2.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
