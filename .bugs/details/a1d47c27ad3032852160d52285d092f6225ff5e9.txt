@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.cosmopolitan.com/quizzes-games/
+
+[filters]
+http://go.realvu.net/?key=ZdafRqqh%2bQGAPacEKbO%2fcrJ5yssY2uFAkaG9n4TVnfMF8B96RrMLuh3EwoTADP5sIXODnc6C0F0%3d&tail=type:hearst;sitename:%20cosmopolitan;placementname:Top%3a728x90;size:728x90;
+http://go.realvu.net/fsdc/do.aspx?a=0&tm=1&num=0&js=1&ip=0&ru=http%3A%2F%2Fwww.cosmopolitan.com%2Fquizzes-games%2F&sw=1920&sh=1080&pw=1920&ph=3272&ch0=978&cw0=1920&st0=0&sl0=0&ax0=0&ay0=0&tr0=0&va0=100&s0=1&m0=ZdafRqqh+QGAPacEKbO/crJ5yssY2uFAkaG9n4TVnfMF8B96RrMLuh3EwoTADP5sx0wVwXsn1epLJkzZLq6Qrf1Fq3ClqGZoMgNmzJPHvwbd1X47JfWFtIgMabx5EUS1&tail=type%3ahearst%3bsitename%3a+cosmopolitan%3bplacementname%3aTop%3a728x90%3bsize%3a728x90%3b&adw=1&adh=1
+http://go.realvu.net/fsdc/do.aspx?a=26&tm=1&num=0&js=1&ip=0&ru=http%3A%2F%2Fwww.cosmopolitan.com%2Fquizzes-games%2F&sw=1920&sh=1080&pw=1920&ph=0&ch0=978&cw0=1920&st0=0&sl0=0&ax0=0&ay0=0&tr0=0&va0=0&s0=0&key=ZdafRqqh+QGAPacEKbO%2fcrJ5yssY2uFAkaG9n4TVnfMF8B96RrMLuh3EwoTADP5sIXODnc6C0F0%3d&tail=type%3ahearst%3bsitename%3a+cosmopolitan%3bplacementname%3aTop%3a728x90%3bsize%3a728x90%3b&adw=1&adh=1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
