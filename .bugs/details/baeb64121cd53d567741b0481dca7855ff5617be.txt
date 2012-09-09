@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://news.ninemsn.com.au/world/8529873/us-man-ripped-out-friends-heart-tongue
+
+
+[filters]
+http://news.ninemsn.com.au/share/com/js/v5.3nse.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
