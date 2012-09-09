@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.asgayas.com/free-gay-porn-videos/
+
+[filters]
+http://www.asgayas.com/ads/exit.js
+http://www.asgayas.com/favicon.gif
+http://www.asgayas.com/floater/adl.php
+http://www.asgayas.com/floater/backgroundl.png
+http://www.asgayas.com/popin.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
