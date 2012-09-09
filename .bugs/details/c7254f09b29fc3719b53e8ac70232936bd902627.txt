@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hellobeautiful.com/2538142/lhha-rasheedas-husband-kirk-reported-to-have-fathered-child-w-stepdaughter/
+
+
+[filters]
+http://s2.wp.com/_static/??/wp-includes/js/jquery/jquery.js,/wp-content/themes/vip/interactiveone/js/media-element.js,/wp-content/themes/vip/interactiveone/js/jquery.jcarousellite.js,/wp-content/themes/vip/interactiveone/functions/single-dynamic-carousel/single-dynamic-carousel.js,/wp-content/themes/vip/interactiveone/js/iscroll-lite.js,/wp-content/themes/vip/interactiveone/js/ione-global-header.js,/wp-content/themes/vip/interactiveone/js/facebook-connect.js,/wp-content/themes/vip/interactiveone/js/jquery.cookie.js,/wp-content/themes/vip/interactiveone/js/criteo.js?m=1346103131j
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
