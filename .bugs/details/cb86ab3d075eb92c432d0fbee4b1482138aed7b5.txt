@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bikyamasr.com/74388/yemens-tawakkol-karman-on-high-level-panel-to-map-out-bold-vision-for-future-global-development/
+
+
+[filters]
+http://cdn.feed.adzouk.com/feed/_resources/scripts/jsAds-1.3.min.js
+http://feed.adzouk.com/feed.jsonp.ashx?a=null&sys=null&n=1&u=REF&i=1&callback=m3advertscallback255012277
+http://feed.adzouk.com/feed.jsonp.ashx?a=null&sys=null&n=1&u=REF&i=1&callback=m3advertscallback544310280
+http://feed.adzouk.com/feed.jsonp.ashx?a=null&sys=null&n=1&u=REF&i=1&callback=m3advertscallback689575558
+http://feed.adzouk.com/feed.jsonp.ashx?a=null&sys=null&n=1&u=REF&i=1&callback=m3advertscallback756420418
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
