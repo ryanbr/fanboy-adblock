@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nbnews.com.ua/news/54775/
+
+
+[filters]
+http://js.sn00.net/00/44/92.js?1326361868
+
+
+
+[other]
+stops the error popup
+
+[comments]
+fanboy
