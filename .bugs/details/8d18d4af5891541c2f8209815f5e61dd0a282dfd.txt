@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://informer.ru/
+
+
+[filters]
+http://pics.rbc.ru/img/informer/div.gif
+http://pics.rbc.ru/img/informer/dot.gif
+http://pics.rbc.ru/img/informer/gal_all2.gif
+http://pics.rbc.ru/img/informer/lenta.gif
+http://pics.rbc.ru/img/informer/logo_new1.gif
+http://pics.rbc.ru/img/informer/prev_conv.gif
+http://pics.rbc.ru/img/informer/top1-01-02.gif
+http://pics.rbc.ru/img/informer/top1-01-03.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
