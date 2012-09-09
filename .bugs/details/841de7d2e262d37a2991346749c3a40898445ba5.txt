@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rateherpussy.com/index.php
+
+
+[filters]
+http://www.ukrainamateurs.com/images/banners/ban17.gif
+http://www.gloryholegirlz.com/images/banners/ghg_120x60_bnr2.gif
+http://www.crackwhoreconfessions.com/images/banners/cwc_120x60_bnr1.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
