@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://consumerist.com/2012/09/restaurant-owner-gets-revenge-on-a-customer-with-a-fake-sex-site-profile-hooks-up-with-libel-conviction.html
+
+
+[filters]
+http://consumerist-com.wpengine.netdna-cdn.com/assets/grossnothanksoreos-300x250.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
