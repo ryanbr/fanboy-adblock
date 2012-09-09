@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://chicken.genouest.org/perl/multi-threading-with-perl/
+
+
+[filters]
+http://chicken.genouest.org/wp-content/themes/room-34-baseline/images/share_icons/twitter.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
