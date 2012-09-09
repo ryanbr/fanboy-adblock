@@ -3109,6 +3109,10 @@ if [ -s "$HGSERV/other/opera-addon.css" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR
           # sed -i '/#testfilter,/d' $TESTDIR/opera-addon.css
           sed -i '/.ad-vertical-container/d' $TESTDIR/fanboy-opera-css.txt
 
+          # Remove any trailing blank lines, or blank lines in front
+          #
+          sed -i -e 's/^[ \t]*//;s/[ \t]*$//' $TESTDIR/fanboy-opera-css.txt
+
           # Remove empty lines
           #
           sed -i -e '/^$/d' $TESTDIR/fanboy-opera-css.txt

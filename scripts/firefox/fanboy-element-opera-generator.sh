@@ -46,6 +46,10 @@ cat $TESTDIR/opera-header.txt $TESTDIR/fanboy-css.txt $HGSERV/other/opera-addon.
 # sed -i '/#testfilter,/d' $TESTDIR/opera-addon.css
 sed -i '/.ad-vertical-container/d' $TESTDIR/opera-addon.css
 
+# Remove any trailing blank lines, or blank lines in front
+#
+sed -i -e 's/^[ \t]*//;s/[ \t]*$//' $TESTDIR/opera-addon.css
+
 # Remove empty lines
 #
 sed -i -e '/^$/d' $TESTDIR/opera-addon.css
