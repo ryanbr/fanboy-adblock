@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.stickam.com/thecharliemarietomei
+
+[filters]
+http://redir.adap.tv/redir/client/static/AS3AdPlayer.swf
+
+
+
+[other]
+Need to allow this on stickam.
+
+
+[comments]
+fanboy
