@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.virgilio.it/
+
+
+[filters]
+http://kpi.plug.it/tracks/bi/images/RT_A.gif?id=HPST_146443&rand=4322
+http://kpi.plug.it/tracks/bi/images/RT_A.gif?id=HPST_249441&rand=66165
+http://kpi.plug.it/tracks/bi/images/RT_A.gif?id=HPST_249470,HPST_202592&rand=79573
+http://kpi.plug.it/tracks/bi/images/RT_A.gif?id=HPST_250278,HPST_250280,HPST_250014,HPST_249176&rand=93503
+http://www.virgilio.it/adv/fov.html?advTile=980109&
+http://www.virgilio.it/adv/inc_virg_home_cachebust.js_300x250.html?advTile=980109&
+http://www.virgilio.it/adv/inc_virg_home_cachebust.js_300x250_top.html?advTile=980109&
+http://www.virgilio.it/adv/skin.html?advTile=980109&
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
