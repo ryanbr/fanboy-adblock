@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.usatodayhss.com/indianapolis/photos/cathedral-14-warren-central-7
+
+
+[filters]
+http://uploads.usatodayhss.com/images/e9/ee/73179a0249ddba3e5cb781eeeb81/UA_Spine_HSS_Skin.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
