@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://uralpress.ru/news/2012/09/07/v-chelyabinskoy-oblasti-budut-sudit-bandu-ubivavshuyu-i-grabivshuyu-taksistov
+
+
+[filters]
+http://uralpress.ru/sites/default/files/banners/ca.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
