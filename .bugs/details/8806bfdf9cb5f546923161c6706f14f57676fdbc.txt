@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://uploadnudepictures.com/
+
+[filters]
+http://ads.videochat.com/iframe/?style=850x350&mp_code=a6vk0&service=girls&bgcolor=393939&txtcolor=FFFFFF&linkcolor=64AADD&sitekey=videochat&target=_new
+http://ads.videochat.com/iframe/?style=850x350&mp_code=a6vk0&service=girls&bgcolor=393939&txtcolor=FFFFFF&linkcolor=64AADD&sitekey=videochat&target=_new&wmode=transparent
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
