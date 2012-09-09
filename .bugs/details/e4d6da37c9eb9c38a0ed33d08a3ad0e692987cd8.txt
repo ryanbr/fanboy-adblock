@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.beppegrillo.it/
+
+
+[filters]
+https://s3-eu-west-1.amazonaws.com/materiali-bg/bg_ebook_ju-tarramutu.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
