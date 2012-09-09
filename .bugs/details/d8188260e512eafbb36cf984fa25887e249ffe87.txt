@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://5secondfilms.com/watch/lost_cat-_answers_to
+
+
+[filters]
+http://5secondfilms.com/?json=get_category_posts&category_name=shorts&exclude=comments&custom_fields=post_views_count%2CictvCode%2CThumbnail%2Cscreenshot&count=10&page=1&cache=false
+http://5secondfilms.com/?json=get_post&id=639&include=comments%2C+url&_=1347153499804
+http://beacon2.indieclicktv.com/cnt/ictv/69739745a9f0627dd9399eb61bac4886-791dfa9b19db887ba76c9b09a5a29f89/html_load/ic_beacon.js
+
+
+[other]
+removing .com/?js
+
+[comments]
+fanboy
