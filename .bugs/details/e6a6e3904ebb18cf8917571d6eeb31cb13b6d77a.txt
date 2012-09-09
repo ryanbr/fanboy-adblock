@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://photos.essence.com/galleries/hair-how-7-days-7-styles#!172469
+
+
+[filters]
+http://pixel.quantserve.com/seg/p-5dyPa639IrgIw.js;fpa=;r=2245312
+http://pagead2.googlesyndication.com/pagead/show_ads.js
+
+
+
+
+[other]
+Allow slideshow
+
+
+[comments]
+fanboy
