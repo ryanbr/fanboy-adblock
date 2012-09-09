@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://robinfilm-new.blogspot.it/2012/06/il-mio-amico-eric-streaming-download.html
+
+
+[filters]
+http://www.compteur-gratuit.org/count/c.js?id=7780890&t=2&d=29&n=4&s=100000
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
