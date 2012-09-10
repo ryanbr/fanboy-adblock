@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.seventeen.com/love/advice/how-to-hook-up?click=smart&kw=ist&src=smart&mag=SVN&link=http://www.seventeen.com/love/advice/how-to-hook-up-SMT-SVN#slide-5
+
+
+[filters]
+http://www.seventeen.com/ams/page-ads.js?ad_category_prefix=relationships&ad_sub_category_prefix=&ams_promo=&amz_browse_node_ids=1000&amz_search_indexes=Books&article_type_prefix=flipbook&browser_path=%2Flove%2Fadvice%2Fhow-to-hook-up%3Fclick%3Dsmart%26kw%3Dist%26src%3Dsmart%26mag%3DSVN%26link%3Dhttp%3A%2F%2Fwww.seventeen.com%2Flove%2Fadvice%2Fhow-to-hook-up-SMT-SVN&cat_prefixes=homepage%2Cchannel&keywords=ist&position_list=ams_17_networktout%2Cams_app_svn_foot_link%2Cams_app_svn_nav_link%2Cams_circ_svn_300x300%2Cams_circ_svn_300x300_flipbook%2Cams_circ_svn_sub_nav_link%2Cams_digital_svn_foot_link%2Cams_digital_svn_nav_link%2Cams_seventeen_flipbook_control%2Cams_seventeen_footer%2Cams_seventeen_gallery%2Cams_seventeen_hpto_inner%2Cams_seventeen_meebo%2Cams_seventeen_smartbot%2Cams_seventeen_smarttop%2Cams_seventeen_sponlogo%2Cams_seventeen_sponsored_links%2Cams_seventeen_top%2Cams_svn_205x92_header%2Cams_svn_amazon_carousel_600x200%2Cams_svn_circ_takeover%2Cams_svn_epic%2Cams_svn_social_ad&section_prefix=advice&site_prefix=seventeen&sub_cat_prefixes=navigator%2CmasterNavPromo%2CredesignFeaturedPromos&subdomain=www&url_name=how-to-hook-up
+http://www.seventeen.com/ams/page-ads.js?site_prefix=seventeen&article_type_prefix=flipbook&ad_sub_category_prefix=&subdomain=www&amz_search_indexes=Books&browser_path=%2Flove%2Fadvice%2Fhow-to-hook-up%3Fclick%3Dsmart%26kw%3Dist%26src%3Dsmart%26mag%3DSVN%26link%3Dhttp%3A%2F%2Fwww.seventeen.com%2Flove%2Fadvice%2Fhow-to-hook-up-SMT-SVN&keywords=ist&section_prefix=advice&ad_category_prefix=relationships&sub_cat_prefixes=navigator%2CmasterNavPromo%2CredesignFeaturedPromos&position_list=ams_seventeen_top%2Cams_svn_social_ad%2Cams_seventeen_gallery%2Cams_seventeen_top&amz_browse_node_ids=1000&ams_promo=&url_name=how-to-hook-up&ajax=1&cat_prefixes=homepage%2Cchannel
+
+
+
+[other]
+Allow slideshow
+
+
+[comments]
+fanboy
