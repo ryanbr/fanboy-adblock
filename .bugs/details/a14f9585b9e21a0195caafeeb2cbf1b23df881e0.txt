@@ -1,0 +1,14 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mailinator.com/displayemail1.jsp?email=ex.fm&msgid=57295832
+
+[filters]
+http://link.ex.fm/img/504db4b6dc87ac0b4f388f9e504db4b6dd6a493658000069/a10e99b4.gif
+
+[other]
+email tracker
+
+[comments]
+nitrox
