@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mailinator.com/displayemail1.jsp?email=nowiknow.com&msgid=56385618
+
+
+[filters]
+http://launchbit.com/taz-i/973-photo1.jpg
+http://www.launchbit.com/taz-pixel/365-973-8b02393623
+http://launchbit.com/taz-pixel/365-973-8b02393623
+http://www.launchbit.com/taz-i/973-photo1.jpg
+http://www.launchbit.com/taz-pixel/365-973-8b02393623/
+
+[other]
+ad network for emails
+
+
+[comments]
+nitrox
