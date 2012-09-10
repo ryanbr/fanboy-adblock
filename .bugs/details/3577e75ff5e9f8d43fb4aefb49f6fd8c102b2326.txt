@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.auto.co.il/default.aspx
+
+[filters]
+http://www.auto.co.il/Banner/BannerIFrame.aspx?BK=Default_Right_Center_4_130_54
+http://www.auto.co.il/Banner/BannerIFrame.aspx?BK=Default_Right_Center_5_130_54
+http://www.auto.co.il/Banner/BannerIFrame.aspx?BK=Default_Right_Center_6_130_54
+http://www.auto.co.il/Banner/BannerIFrame.aspx?BK=Default_Right_Center_7_130_54
+http://www.auto.co.il/Banner/BannerIFrame.aspx?BK=Default_Right_Center_8_130_54
+http://www.auto.co.il/Banner/BannerIFrame.aspx?BK=Default_Right_Center_9_130_54
+http://ads.atpclick.com/atpClick.aspx?z=273&a=256&t=_blank&uid=1347270237712-1347270237713-1347270238337&c=script
+http://ads.atpclick.com/atpClick.aspx?z=320&a=159&t=_blank&uid=1347270237712&c=script
+http://ads.atpclick.com/atpClick.aspx?z=320&a=159&t=_blank&uid=1347270237712-1347270237713&c=script
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
