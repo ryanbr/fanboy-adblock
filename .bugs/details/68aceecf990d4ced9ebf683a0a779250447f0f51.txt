@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lanacion.com.ar/1507041-lanata-si-cristina-nos-tiene-que-dar-miedo-querra-decir-que-lo-que-esta-haciendo-es-de-terror
+
+
+[filters]
+http://www.lanacion.com.ar/scripts/publicidad/vast/classic.zip
+http://www.lanacion.com.ar/scripts/publicidad/vast/ova-jw.swf
+http://www.lanacion.com.ar/scripts/ver_2012042091035/publicidad/eplanning.js
+http://www.lanacion.com.ar/scripts/ver_201206061500/publicidad/vast/vast.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
