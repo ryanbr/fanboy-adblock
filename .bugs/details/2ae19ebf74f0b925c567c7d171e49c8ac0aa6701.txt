@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.auto.co.il/%D7%9B%D7%AA%D7%91%D7%95%D7%AA-152-%D7%97%D7%95%D7%A7-%D7%95%D7%9E%D7%A9%D7%A4%D7%98.aspx
+
+[filters]
+http://www.auto.co.il/Banner/BannerIFrame.aspx?BK=Articles_Right_Center_130_54_3
+http://www.auto.co.il/Banner/BannerIFrame.aspx?BK=Articles_Right_Center_130_54_4
+http://www.auto.co.il/Banner/BannerIFrame.aspx?BK=Articles_Right_Center_130_54_6
+http://www.auto.co.il/Banner/BannerIFrame.aspx?BK=DefaultMaster_Plazma_970_200
+http://www.auto.co.il/BannersIfarme/prime.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
