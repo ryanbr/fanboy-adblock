@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://it.toolbox.com/blogs/personal-pc-assistant/ever-want-a-better-tool-than-ldquosystem-informationrdquondashwell-herersquos-ldquospeccyrdquo-52976
+
+
+[filters]
+http://s3.amazonaws.com/static.adziff/qhint/topad_tb.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
