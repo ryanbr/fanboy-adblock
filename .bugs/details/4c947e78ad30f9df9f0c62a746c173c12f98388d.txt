@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fastpic.ru/view/43/2012/0910/1cb3a48ac1d04dc7d0ccb2836e940913.png.html
+
+
+[filters]
+http://www.gstatic.com/ads/branding/adplanner/dcap88_31.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
