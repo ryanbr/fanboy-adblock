@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hollywire.com/
+
+[filters]
+http://www.hollywire.com/hly_advertising_iframe.php?advertisement=hly_ad_zone_1x1_home
+http://www.hollywire.com/hly_advertising_iframe.php?advertisement=hly_ad_zone_banner
+http://www.hollywire.com/hly_advertising_iframe.php?advertisement=hly_ad_zone_sidebar_first
+http://www.hollywire.com/hly_advertising_iframe.php?advertisement=hly_ad_zone_sidebar_second
+http://www.hollywire.com/hly_advertising_iframe.php?advertisement=hly_ad_zone_sidebar_third
+http://www.hollywire.com/hly_advertising_iframe.php?advertisement=hly_ad_zone_sidebar_tower
+http://www.hollywire.com/hly_advertising_iframe.php?advertisement=hly_ad_zone_super_header
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
