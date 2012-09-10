@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://megatorrents.org/forum/index.php
+
+
+[filters]
+http://st.keyset.kz/dota2/ti2.png
+http://st.keyset.kz/imgb/mega_top_radio2.jpg
+http://st.keyset.kz/imgb/mega_top_right_radio2.jpg
+http://ekod.info/js/90.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
