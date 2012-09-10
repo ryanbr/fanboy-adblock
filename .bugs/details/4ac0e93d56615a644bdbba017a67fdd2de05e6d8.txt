@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://megatorrents.org/forum/viewtopic.php?t=357477
+
+
+[filters]
+http://img.megatorrents.org/forum/hoster.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
