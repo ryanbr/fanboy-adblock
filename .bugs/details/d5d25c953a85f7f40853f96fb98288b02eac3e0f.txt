@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.vanquis.co.uk/apply
+
+[filters]
+https://www.vanquis.co.uk/scripts/dcstorm.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
