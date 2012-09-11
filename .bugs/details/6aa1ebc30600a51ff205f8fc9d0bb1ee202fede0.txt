@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.halfords.com/
+
+[filters]
+http://www.halfords.com/wcsstore7.00.00.676/HalfordsConsumerDirect/javascript/dcstorm/track.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=14978
+
+
+[comments]
+fanboy
