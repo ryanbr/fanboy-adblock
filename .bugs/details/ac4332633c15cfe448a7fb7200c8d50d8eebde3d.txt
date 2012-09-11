@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.hoseasons.co.uk/
+
+[filters]
+https://partners.hoseasons.co.uk/tracking/js.html?t=0&bbid=100&ref=
+https://partners.hoseasons.co.uk/tracking/js.html?t=0&bbid=97&ref=
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
