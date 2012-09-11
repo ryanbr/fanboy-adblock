@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.guardian.co.uk/money/2012/sep/11/iphone-5-affordable-alternatives
+
+
+[filters]
+http://platform.twitter.com/js/tfw/widget/hubclient.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
