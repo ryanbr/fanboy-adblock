@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://hnpickup.appspot.com/
+
+
+[filters]
+https://hnpickup.appspot.com/js/hnbutton_js_wrapper.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
