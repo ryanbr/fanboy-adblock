@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.goireland.com/
+
+
+[filters]
+http://www.goireland.com/javascript/asyncggtracking.js
+http://www.goireland.com/javascript/dcstorm-track.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
