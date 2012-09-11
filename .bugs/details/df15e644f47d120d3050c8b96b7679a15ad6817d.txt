@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lipsy.co.uk/
+
+[filters]
+http://www.lipsy.co.uk/_assets/images/skin/tracking/05.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
