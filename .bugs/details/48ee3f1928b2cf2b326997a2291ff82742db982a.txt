@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.broadwaytravel.com/Home.aspx
+
+[filters]
+http://www.active-track.co.uk/generic/activetrackphp.php?F=Direct&G=btw3912t&H=broadtravel&J=Cheap%20holidays,%20hotels%20and%20apartments%20from%20Broadway%20Travel
+http://www.active-track.co.uk/generic/activetrack.php?atuap=broadtravel
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
