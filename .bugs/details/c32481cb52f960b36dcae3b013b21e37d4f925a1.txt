@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.office.co.uk/
+
+[filters]
+http://s3-eu-west-1.amazonaws.com/qubittracker/office/affiliate_window_custom.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
