@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.laredoute.co.uk/
+
+[filters]
+https://www.24caratleeds.co.uk/tr/laredoute/carat_laredoute_v1.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
