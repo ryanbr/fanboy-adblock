@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lkbennett.com/
+
+[filters]
+http://www.lkbennett.com/eXoResources/QL-resources/lkbennett/js/dc-storm.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
