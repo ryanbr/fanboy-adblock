@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.donnakaran.com/
+
+[filters]
+http://jscssec.dki.ctscdn.com/content/tracking-2.0.66977.1.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
