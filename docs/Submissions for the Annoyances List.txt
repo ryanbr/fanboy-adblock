@@ -1,0 +1,57 @@
+Submissions for the Annoyances List
+-=================================-
+Updated: 12/09/2012
+
+Overview
+The Annoyances list is a mix of social, self promo cleanups, CSS toolbars/flyouts/popups and any other distracting elements.
+
+   Social Content
+   -============-
+   The social element covers commonly used buttons, like social boxes, social icons, feed icons, common social elements.
+
+   Annoyances
+   -========-
+   The following annoyances will be covered by the list;
+
+        * CSS website takeovers.
+        * Hover css elements (non-ad).
+        * CSS Popups, Flyouts, Toolbars.
+        * Static CSS elements.
+        * Job ads, affiliate promos
+        * Self promo elements.
+        * Newsletter signup fields
+        * Website icons for printing, toolbox's etc.
+        * Any element that distracts the user from the main content.
+
+Self promo filters
+-=================-
+        * Generally not considered ads, but items that can distract from the main content of the website.
+        * Eliminating any whitespace left over from standard Adblocking.
+
+Block social media sites
+-=======================-
+        * Domains blocked by the Annoyances filter will be 3rd party only, and shouldn't affect the site directly.
+        * Any social sites affected directly by the Annoyances filter will be corrected when reported.
+
+International Annoyances
+-======================-
+        * Generic international elements will be added as normal generic filters.
+        * International requests will be added (elements, 3rd-party, site specific filters) into a seperate section.
+        * International white lists and Site specific exceptions are included in the same sections as the english sections.
+        * For users not wanting International support, an English only list is available.
+
+Submission of Filters
+-===================-
+        * The site needs to be fairly popular to get any site specific blocks.
+        * If the site some decent generic elements, filters or commonly used 3rd party annoyances, it may* be accepted for inclusion.
+
+Filters not accepted
+-===================-
+        * If the site is designed around social aspect, the filters will be either whitelisted or removed.
+        * Disabling comments used by the social websites
+        * Disabling donation buttons (assuming they don't override or hide webpage content)
+        * Blocking of some popular sites outright like Twitter, Facebook etc. Just aiming to block the certain scripts used on each site.
+        * If a blocked toolbar or CSS element limits functionality of site, it shall be removed.
+
+
+* Filter removals, suggestions and additions are at the discretion of the subscription author.
