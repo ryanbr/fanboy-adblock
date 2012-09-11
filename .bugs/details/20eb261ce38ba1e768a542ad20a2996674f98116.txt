@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://jobs.brandrepublic.com//landingpage/444106/graphic-design-jobs/
+
+[filters]
+http://jobs.brandrepublic.com/session-img/e65b503a-93a3-49f5-a933-e49070e1dac6/
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
