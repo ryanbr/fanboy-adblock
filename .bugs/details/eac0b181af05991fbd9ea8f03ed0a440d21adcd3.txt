@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://un.deadurl.com/http://www.reddit.com
+
+[filters]
+http://wayback.archive.org/web/jsp/Interstitial.jsp?seconds=5&date=1309472859000&url=http%3A%2F%2Fwww.reddit.com%2F&target=http%3A%2F%2Fweb.archive.org%2Fweb%2F20110630222739%2Fhttp%3A%2F%2Fwww.reddit.com%2F
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
