@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mycelebrityfashion.co.uk/2012/09/steal-andrew-garfields-style-mtv-movie-awards/
+
+[filters]
+https://js.emberads.com/pineapple.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
