@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://www-origin.justin.tv/widgets/JITAds.r4dc0751327fa4b95a2e44bcc5a7f5634a5e356fd.swf?&referer=http://www-origin.justin.tv/widgets/live_site_player.rf9366eb2b264b3daaa9e2eedf4573b27c4eae7bf.swf?&referer=http://www.twitch.tv/rainicorn&userAgent=Mozilla/5.0%20(Windows%20NT%206.1;%20Win64;%20x64;%20rv:18.0)%20Gecko/18.0%20Firefox/18.0&userAgent=Mozilla/5.0%20(Windows%20NT%206.1;%20Win64;%20x64;%20rv:18.0)%20Gecko/18.0%20Firefox/18.0
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
