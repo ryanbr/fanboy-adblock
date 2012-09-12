@@ -1,0 +1,37 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://postbulletin.com/news/stories/display.php?id=1505085
+
+
+[filters]
+http://d.oxsng.com/w/1.0/arj?cc=1&o=6045714799&callback=OX6045714799&auid=264134&ju=http%3A//postbulletin.com/news/stories/display.php%3Fid%3D1505085&jr=http%3A//www.reddit.com/&res=1920x1080x24&plg=swf|sl|shk&ch=ISO-8859-1&tz=-720
+http://d.oxsng.com/w/1.0/arj?o=1886379923&callback=OX1886379923&auid=268871&ju=http%3A//postbulletin.com/news/stories/display.php%3Fid%3D1505085&jr=http%3A//www.reddit.com/&res=1920x1080x24&plg=swf|sl|shk&ch=ISO-8859-1&tz=-720
+http://d.oxsng.com/w/1.0/arj?o=2939948565&callback=OX2939948565&auid=264270&ju=http%3A//postbulletin.com/news/stories/display.php%3Fid%3D1505085&jr=http%3A//www.reddit.com/&res=1920x1080x24&plg=swf|sl|shk&ch=ISO-8859-1&tz=-720
+http://d.oxsng.com/w/1.0/arj?o=4013280154&callback=OX4013280154&auid=264624&ju=http%3A//postbulletin.com/news/stories/display.php%3Fid%3D1505085&jr=http%3A//www.reddit.com/&res=1920x1080x24&plg=swf|sl|shk&ch=ISO-8859-1&tz=-720
+http://d.oxsng.com/w/1.0/arj?o=4058987914&callback=OX4058987914&auid=264412&ju=http%3A//postbulletin.com/news/stories/display.php%3Fid%3D1505085&jr=http%3A//www.reddit.com/&res=1920x1080x24&plg=swf|sl|shk&ch=ISO-8859-1&tz=-720
+http://d.oxsng.com/w/1.0/arj?o=6045714799&callback=OX6045714799&auid=264134&ju=http%3A//postbulletin.com/news/stories/display.php%3Fid%3D1505085&jr=http%3A//www.reddit.com/&res=1920x1080x24&plg=swf|sl|shk&ch=ISO-8859-1&tz=-720
+http://d.oxsng.com/w/1.0/arj?o=6683326993&callback=OX6683326993&auid=264842&ju=http%3A//postbulletin.com/news/stories/display.php%3Fid%3D1505085&jr=http%3A//www.reddit.com/&res=1920x1080x24&plg=swf|sl|shk&ch=ISO-8859-1&tz=-720
+http://d.oxsng.com/w/1.0/arj?o=7788921689&callback=OX7788921689&auid=264389&ju=http%3A//postbulletin.com/news/stories/display.php%3Fid%3D1505085&jr=http%3A//www.reddit.com/&res=1920x1080x24&plg=swf|sl|shk&ch=ISO-8859-1&tz=-720
+http://d.oxsng.com/w/1.0/arj?o=9560586779&callback=OX9560586779&auid=264271&ju=http%3A//postbulletin.com/news/stories/display.php%3Fid%3D1505085&jr=http%3A//www.reddit.com/&res=1920x1080x24&plg=swf|sl|shk&ch=ISO-8859-1&tz=-720
+http://d.oxsng.com/w/1.0/jstag
+http://d.oxsng.com/w/1.0/ri?ts=1fHNpZD01MzA1OHxhdWlkPTI2NDI3MHxhaWQ9NTMzNDgwfHB1Yj02NzEzM3xsaWQ9MzA2NzU5fHQ9MXxyaWQ9OGVmNDdkNmItMDcyOC00OTEzLThlZWQtODA0NTJjYWM3NDRjfG9pZD04ODA4NHxibT1CVVlJTkcuSE9VU0V8cGM9VVNEfHA9MHxhYz1VU0R8cG09UFJJQ0lORy5DUE18cnQ9MTM0NzQ0NjUzM3xwcj0wfGFkdj02NzI1OA&cb=86291607
+http://d.oxsng.com/w/1.0/ri?ts=1fHNpZD01MzA1OHxhdWlkPTI2NDI3MXxhaWQ9NTQ3MTc0fHB1Yj02NzEzM3xsaWQ9MzEzNjk2fHQ9MXxyaWQ9MzAwZDljODctNjYzNC00YWEyLTgxYTQtMzFlZmU3NjY5ZDQzfG9pZD05MDEwM3xibT1CVVlJTkcuSE9VU0V8cGM9VVNEfHA9MHxhYz1VU0R8cG09UFJJQ0lORy5DUE18cnQ9MTM0NzQ0NjUzMnxwcj0wfGFkdj02NzI1OA&cb=89380406
+http://d.oxsng.com/w/1.0/ri?ts=1fHNpZD01MzA1OHxhdWlkPTI2NDM4OXxhaWQ9NTMyNzIxfHB1Yj02NzEzM3xsaWQ9MzA2MjE0fHQ9MXxyaWQ9ZTU4OTdkYzAtMzk3OS00MDIwLTgyZTQtZGRkOTgyYTc4ZTIzfG9pZD04NzkyNXxibT1CVVlJTkcuSE9VU0V8cGM9VVNEfHA9MHxhYz1VU0R8cG09UFJJQ0lORy5DUE18cnQ9MTM0NzQ0NjUzNHxwcj0wfGFkdj02NzI1OA&cb=55177741
+http://d.oxsng.com/w/1.0/ri?ts=1fHNpZD01MzA1OHxhdWlkPTI2NDQxMnxhaWQ9NTUyODAxfHB1Yj02NzEzM3xsaWQ9MzE2NDQ1fHQ9MXxyaWQ9OTVkMjAxNWEtZmI5YS00ZDk3LWFiMzctMmQxZTUwMzE1OWQxfG9pZD05MDEwM3xibT1CVVlJTkcuSE9VU0V8cGM9VVNEfHA9MHxhYz1VU0R8cG09UFJJQ0lORy5DUE18cnQ9MTM0NzQ0NjUzM3xwcj0wfGFkdj02NzI1OA&cb=23180912
+http://d.oxsng.com/w/1.0/ri?ts=1fHNpZD01MzE1MXxhdWlkPTI2NDYyNHxhaWQ9NTMyNzIwfHB1Yj02NzEzM3xsaWQ9MzA2MjE0fHQ9MXxyaWQ9ZTg3MGQwYjAtYzgwYi00NjI3LWFhODQtMWQ3YzlhYmNjOWVifG9pZD04NzkyNXxibT1CVVlJTkcuSE9VU0V8cGM9VVNEfHA9MHxhYz1VU0R8cG09UFJJQ0lORy5DUE18cnQ9MTM0NzQ0NjUzMnxwcj0wfGFkdj02NzI1OA&cb=93347437
+http://i.oxsng.com/6b6/6b67aa84-f3d1-4e2d-8a08-ff084e1eef3c/1ce/1cef6f2fcdcd51138324af71a09d9da2.jpg
+http://i.oxsng.com/6b6/6b67aa84-f3d1-4e2d-8a08-ff084e1eef3c/74f/74f3979bff98563280a6eb39502d6cb7.jpg
+http://i.oxsng.com/6b6/6b67aa84-f3d1-4e2d-8a08-ff084e1eef3c/897/8975828c7333a827952d60d74d1d07be.png
+http://i.oxsng.com/6b6/6b67aa84-f3d1-4e2d-8a08-ff084e1eef3c/8ad/8ad98f239d5cbce80f115d0044d935d7.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
