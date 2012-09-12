@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.readersdigest.com.au/
+
+
+[filters]
+http://pagead2.googlesyndication.com/pagead/show_ads.js
+http://partner.googleadservices.com/gampad/google_service.js
+
+
+
+
+[other]
+renders site incorrectly
+
+
+[comments]
+fanboy
