@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.instyle.co.uk/
+
+
+[filters]
+http://www.instyle.co.uk/sites/all/themes/custom/instyle2/scripts/tracking.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
