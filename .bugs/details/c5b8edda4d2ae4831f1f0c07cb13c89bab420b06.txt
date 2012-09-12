@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.knowledgespeak.com/newsArchieveviewdtl.asp?pickUpID=16307&pickUpBatch=2035
+
+
+[filters]
+http://knowledgespeak.com/kspeak/Ads/scriptinject.asp?F=7&Z=5&N=1&nocache=1347434679931
+http://knowledgespeak.com/kspeak/Ads/scriptinject.asp?F=7&Z=6&N=1&nocache=1347434680092
+http://knowledgespeak.com/kspeak/Ads/scriptinject.asp?F=7&Z=7&N=1&nocache=1347434680093
+http://knowledgespeak.com/kspeak/Ads/scriptinject.asp?F=8&Z=3&N=1&nocache=1347434678725
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
