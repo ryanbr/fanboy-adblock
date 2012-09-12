@@ -8,7 +8,7 @@ http://www.readersdigest.com.au/
 [filters]
 http://pagead2.googlesyndication.com/pagead/show_ads.js
 http://partner.googleadservices.com/gampad/google_service.js
-
+https://securepubads.g.doubleclick.net/gampad/google_ads.js
 
 
 
