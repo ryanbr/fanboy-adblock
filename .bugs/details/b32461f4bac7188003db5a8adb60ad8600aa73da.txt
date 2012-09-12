@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.photonics.com/Article.aspx?AID=51799
+
+[filters]
+http://www.photonics.com/Servings/Servings.aspx?AdID=1880&uniqueNo=1295953329
+http://www.photonics.com/Servings/Servings.aspx?AdID=5617&uniqueNo=734319642
+http://www.photonics.com/Servings/Servings.aspx?AdID=5631&uniqueNo=1202323228
+http://www.photonics.com/Servings/Servings.aspx?AdID=5824&uniqueNo=1334274755
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
