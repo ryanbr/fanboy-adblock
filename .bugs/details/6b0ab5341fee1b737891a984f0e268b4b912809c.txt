@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.company.co.uk/
+
+
+[filters]
+http://www.company.co.uk/cm/shared/scripts/uk_floating_Ad_V2.js
+http://www.company.co.uk/cm/shared/styles/uk_floating_ad_V2.css
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
