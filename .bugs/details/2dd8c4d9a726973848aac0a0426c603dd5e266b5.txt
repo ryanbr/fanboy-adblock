@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blip.tv/nostalgiacritic
+
+[filters]
+http://a.blip.tv/scripts/BLIP/DestinationAnalytics.78acfbd8.js
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=15020
+
+
+[comments]
+fanboy
