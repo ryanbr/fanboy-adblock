@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jukebo.com/keith-urban/news,keith-urban-album-re-released,3pf8k-5320.html
+
+
+[filters]
+http://www.ultimedia.com/js/common/jquery.gatracker.js?v=2.0.1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
