@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://live.wsj.com/public/page/video-popup.html?currentPlayingLocation=0&currentlyPlayingCollection=Tech&currentlyPlayingVideoId={FCB1CF6F-98B3-4E0F-9534-23EE5CEAC8C6}
+
+[filters]
+https://a248.e.akamai.net/f/1731/67675/12h/s1.wsj.net/img/vcrShareSprite.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
