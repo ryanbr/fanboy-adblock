@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/0/#inbox/564h8e87c68946354
+
+
+[filters]
+http://mdx.hobsons.co.uk/admin/Communications/WebBeacon.aspx?qs=Mdfgdf8%2fdz%2bY0VujgOAgdSVO%2b8%dfgjt56jfrtgjnrftjhweyt465i
+
+[other]
+e-mail tracker used by many universities in UK
+
+
+[comments]
+nitrox
