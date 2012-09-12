@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rd.com/slideshows/13-things-your-bartender-wont-tell-you-slideshow/#slideshow=slide2
+
+
+[filters]
+http://www.rd.com/wp-content/themes/readersdigest/js/mbox.js?ver=3.4
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=15025
+
+
+[comments]
+fanboy
