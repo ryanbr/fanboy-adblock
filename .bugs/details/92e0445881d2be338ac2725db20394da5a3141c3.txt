@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://getai.stomp.com.sg/getai/
+
+
+[filters]
+http://getai.stomp.com.sg/site/servlet/tracker+ffffff.gif;jsessionid=B9F0DA0378482570ACE66C19B500E52C?m=v&c=contentbean_.3566*DEFAULT*en*1contentbean_.3566
+http://getai.stomp.com.sg/site/servlet/tracker.jsp
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
