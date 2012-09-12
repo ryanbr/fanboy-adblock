@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.twitch.tv/ministryofwin_sage
+
+[filters]
+http://ocp.cbs.com/pacific/Request.jsp?/twitch/twitch/Cministryofwin_sage/T3;site=twitch;game=StarCraft_II_Wings_of_Liberty;chan=ministryofwin_sage;genre=Real_Time_Strategy;con=;tid=710448;embed=0;tier=3;partner=twitch;noAd=;type=ros;format=;pos=1;sz=320x240;xml=vast2;ord=103118
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
