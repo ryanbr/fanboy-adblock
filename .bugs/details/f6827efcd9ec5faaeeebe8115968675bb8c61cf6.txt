@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.youandyourwedding.co.uk/real-weddings/winter/london-lovers/4733.html
+
+[filters]
+http://www.youandyourwedding.co.uk/includes/EAS_tag.1.0.js?version=2
+http://www.youandyourwedding.co.uk/resources/site/socialtracking/SocialTracker.js?version=2
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
