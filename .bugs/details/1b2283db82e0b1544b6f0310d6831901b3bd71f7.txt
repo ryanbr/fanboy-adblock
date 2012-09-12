@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wetteronline.de/Berlin/Berlin.htm
+
+
+[filters]
+http://pr.adtecc.com/delivery/adtcfr.php?z=346&js=1&cb=857354&top=90&left=803&ref=http%3A%2F%2Fwww.wetteronline.de%2FBerlin%2FBerlin.htm
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
