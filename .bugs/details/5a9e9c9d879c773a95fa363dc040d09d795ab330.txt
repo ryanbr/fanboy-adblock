@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.getrichslowly.org/blog/2006/08/08/make-money-quick-in-the-stock-market/
+
+
+[filters]
+http://www.getrichslowly.org/blog/img/banner/chase100dollarcashback.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
