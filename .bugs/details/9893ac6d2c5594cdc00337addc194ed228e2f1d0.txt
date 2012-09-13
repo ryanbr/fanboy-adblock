@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thehotpennystocks.com/
+
+
+[filters]
+http://www.thehotpennystocks.com/-ad-home.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
