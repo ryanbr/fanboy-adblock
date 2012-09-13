@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mayoclinic.org/medical-edge-newspaper-2011/sep-16b.html
+
+
+[filters]
+http://www.mayoclinic.org/js/tracker.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
