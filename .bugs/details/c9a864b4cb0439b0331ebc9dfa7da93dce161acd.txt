@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.webjam.com/
+
+[filters]
+http://www.webjam.com/Actions/Hit.jam?userId=673d9425-5894-45d2-8740-fdd75b5e245a&pageId=655446de-947f-4bdc-9f39-a3db3e33c242&AJAX=1&ViewState=9a88ac76-c667-4544-a0c9-2e2ea48af2f5&rand=0.0173871539402517&action=&xsltTime=0&executionTime=63&time=2012-9-13%2011:48:12
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
