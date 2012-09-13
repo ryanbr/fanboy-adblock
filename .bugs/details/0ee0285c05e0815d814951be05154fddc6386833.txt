@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.canon.com.au/For-You/Printers/PIXMA-InkJet-Printers/MP250
+
+
+[filters]
+http://www.canon.com.au/js/s_code.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
