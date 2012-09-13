@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.teenvogue.com/
+
+
+[filters]
+http://www.teenvogue.com/js/lib/cn-fe-stats/v3/s_code.js
+http://www.teenvogue.com/js/cn-fe-ads/cn.dart.js
+http://www.teenvogue.com/js/cn-fe-ads/cn.ad.yieldex.js
+http://www.teenvogue.com/js/cn-fe-ads/cn.ad.modifiers.js
+http://www.teenvogue.com/js/cn-fe-ads/cn.ad.lotame.js
+http://www.teenvogue.com/appjs/stats/omniture.js
+http://subscribe.teenvogue.com/ams/page-ads.js?ad_category_prefix=&browser_path=%2F&cat_prefixes=%2C&keywords=TeenVogue%2Cmagazine%2Csubscription%2Cbeauty%2Cmakeover%2Cmakeup%2Ctips&position_list=AMS_TNV_GLOBAL_PROMOTOP%2CAMS_TNV_MOBILE_PROMOTOP%2CAMS_TNV_HOMEPAGE_RACETRACK_A%2CAMS_TNV_MOBILE_HOMEPAGE_RACETRACK_A%2CAMS_TNV_HOMEPAGE_RACETRACK_B%2CAMS_TNV_MOBILE_HOMEPAGE_RACETRACK_B%2CAMS_TNV_POPUP_FLOATINGAD%2CAMS_TNV_GLOBAL_PROMOTOP%2CAMS_TNV_HOMEPAGE_RACETRACK_A%2CAMS_TNV_HOMEPAGE_RACETRACK_B%2CAMS_TNV_CONTENTPAGE_ZRAIL%2CAMS_TNV_GLOBAL_FOOTER%2CAMS_TNV_MOBILE_GLOBAL_FOOTER%2CAMS_TNV_FOOTER_SUBSCRIBE%2CAMS_TNV_MOBILE_GLOBAL_FOOTER%2CAMS_TNV_GLOBAL_NAVBAR_ROLLOVER%2CAMS_TNV_GLOBAL_NAVBAR%2CAMS_TNV_MOBILE_GLOBAL_NAV%2CAMS_TNV_GLOBAL_HEADER_FULL%2CAMS_TNV_GLOBAL_HEADER_COLLAPSE%2CAMS_TNV_GLOBAL_HEADER%2CAMS_TNV_LITEREG_SUBSCRIBE%2CAMS_TNV_POPUP_EXIT%2CAMS_TNV_POPUP_FLOATINGAD%2CAMS_TNV_POPUP_ENTRY%2CAMS_TNV_CONTENTPAGE_ZRAIL%2CAMS_TNV_CONTENTPAGE_TEXTOFFER&site_prefix=teenvogue&subdomain=www&url_name=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
