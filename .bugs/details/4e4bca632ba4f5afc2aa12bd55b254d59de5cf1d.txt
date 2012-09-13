@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.architecturaldigest.com/celebrity-homes/2012/celebrity-closets-mariah-carey-elton-john-slideshow#slide=1
+
+
+[filters]
+http://www.architecturaldigest.com/etc/designs/ad/images/shell/ad-sprite.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
