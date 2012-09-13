@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nationalreview.com/corner
+
+
+[filters]
+http://global.nationalreview.com/images/display_300x600-book02_091112.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
