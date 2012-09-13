@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dashrecipes.com/blogs/dashboard/2012/09/05-win-a-pizza-stone-from-king-arthur-flour.html
+
+
+[filters]
+http://www.dashrecipes.com/scripts/doubleclick/global/dash_a300_adunit.html
+http://www.dashrecipes.com/scripts/doubleclick/global/dash_a728_adunit.html
+http://www.dashrecipes.com/scripts/doubleclick/global/dash_b300_adunit.html
+http://www.dashrecipes.com/scripts/doubleclick/global/dash_b728_adunit.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
