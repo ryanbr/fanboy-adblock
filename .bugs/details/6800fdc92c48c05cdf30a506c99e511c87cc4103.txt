@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.novinky.cz/
+
+[filters]
+http://10.im.cz/sos/ec0/c8a/ec0c8ad5c08e2cf5d6c341673c93e403.swf?&clickthru=http://i.imedia.cz/clickthru%3FspotId%3D1358449%26lang%3Den%26destination%3Dhttp%253A//www.dovolena.cz/zajezdy/vyhledane/%253Ffind%253D1%2526destination%253D4830-4833%2526length_min%253D7%2526airport%253D40-45-41-47-42-48-43-57-44-51-50%2526slide%253D8%2526utm_source%253Dseznam%2526utm_medium%253Dbanner%2526utm_campaign%253Dexotika-970x100&pad&clickTarget=_top
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
