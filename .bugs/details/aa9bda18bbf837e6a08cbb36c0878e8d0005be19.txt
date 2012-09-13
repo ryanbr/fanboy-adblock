@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.heraldnet.com/article/20120912/BIZ/709129801
+
+[filters]
+http://www.heraldnet.com/section/iFrame_AutosInternetSpecials?Omniture=0
+http://www.heraldnetdailydeal.com/widgets/DailyDealWidget300x250
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
