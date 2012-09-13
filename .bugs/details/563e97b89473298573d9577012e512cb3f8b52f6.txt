@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://tv.seznam.cz/
+
+
+[filters]
+http://10.im.cz/sos/01d/6e8/01d6e803794e58b65fc5ef617d3ae764.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
