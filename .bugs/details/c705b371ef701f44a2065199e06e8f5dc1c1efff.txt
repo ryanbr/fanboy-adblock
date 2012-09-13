@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://creativecommons.org/weblog/entry/34017
+
+
+[filters]
+https://creativecommons.org/wp-content/themes/creativecommons.org/img/facebook.png
+https://creativecommons.org/wp-content/themes/creativecommons.org/img/twitter.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
