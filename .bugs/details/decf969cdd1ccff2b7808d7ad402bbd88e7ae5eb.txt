@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.randomhouse.com/book/217834/year-zero-by-rob-reid
+
+
+[filters]
+http://www.randomhouse.com/js/resxclsa35.js
+http://www.randomhouse.com/js/s_code.js
+http://www.randomhouse.com/book/css/certona.css
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
