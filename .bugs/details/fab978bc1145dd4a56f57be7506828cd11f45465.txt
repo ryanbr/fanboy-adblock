@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.radaronline.com/exclusives/2012/09/kate-middleton-topless-photos-scandal
+
+[filters]
+http://www.americanmediainc.com/sites/americanmediainc.com/files/uploads/pinterest-new-icon_02.png
+http://www.americanmediainc.com/sites/americanmediainc.com/files/uploads/tumbler-icon-1.gif
+http://www.americanmediainc.com/sites/americanmediainc.com/files/uploads/twitter-button-1.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
