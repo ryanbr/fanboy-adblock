@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.inquisitr.com/330970/topless-kate-middleton-french-tabloid-claims-to-have-photos-of-duchess-topless/
+
+
+[filters]
+http://platform.twitter.com/widgets/follow_button.html?show_screen_name=false&text_color=dark&button=blue&lang=en&screen_name=theinquisitr
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
