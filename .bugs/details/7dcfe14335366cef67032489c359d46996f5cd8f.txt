@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://inagist.com/all/246419088421826560/
+
+
+[filters]
+http://ads.inagist.com/api/v1/record_hbeacon?t=p&v=0.1&imp=gif&f=0.03323189143427152&q=&i=246419088421826560
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
