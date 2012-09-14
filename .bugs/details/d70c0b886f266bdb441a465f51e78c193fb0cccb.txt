@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.geekwire.com/2012/microsoft-employees-surface-tablets-work-pcs-windows-phone-8/
+
+[filters]
+http://cdn.geekwire.com/wp-content/uploads/facebook.png?7794fe
+http://cdn.geekwire.com/wp-content/uploads/twitter-bird-white-on-blue.png?7794fe
+http://cdn.geekwire.com/wp-content/uploads/youtube2.png?7794fe
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
