@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://steadierfooting.com/2012/03/25/how-to-minimize-tracking-on-the-web/
+
+
+[filters]
+http://steadierfooting.com/wp-content/themes/platformpro/images/sprite-socialicons.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
