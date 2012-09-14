@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.valentinas-kochbuch.de/
+
+
+[filters]
+http://valentinas-kochbuch.de/files/facebook-42.jpg
+http://valentinas-kochbuch.de/files/twitter-42.jpg
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
