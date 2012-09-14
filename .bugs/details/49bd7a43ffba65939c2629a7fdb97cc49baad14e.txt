@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://howfile.com/file/dde3fe8a/f5652a7a/
+
+[filters]
+http://count39.51yes.com/click.aspx?id=391583826&logo=1
+http://u.3393.com/j/99/?pid=152099&show_t=2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
