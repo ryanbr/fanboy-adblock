@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.heraldnet.com/article/20120912/BIZ/709129801
+
+
+[filters]
+http://www.heraldnet.com/images/hnet/icons/socialnetworking/icon_facebook_32x32.png
+http://www.heraldnet.com/images/hnet/icons/socialnetworking/icon_googleplus_32x32.jpg
+http://www.heraldnet.com/images/hnet/icons/socialnetworking/icon_pinterest_square_32x32.jpg
+http://www.heraldnet.com/images/hnet/icons/socialnetworking/icon_rss_32x32.png
+http://www.heraldnet.com/images/hnet/icons/socialnetworking/icon_twitter_bird_logo_32x32.jpg
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
