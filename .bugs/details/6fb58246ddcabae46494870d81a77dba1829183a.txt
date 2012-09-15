@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.blogtopsites.com/music/
+
+[filters]
+http://www.blogclans.com/bx/banner-close-btn.png
+http://cdn.blogclans.com/2470da613d6434aa25104cf624cfc360_bc_banner.gif
+http://www.blogclans.com/bx/banners.php?uid=1&bid=22
+http://www.blogclans.com/bx/core.php?bcids=zAzYkG9TJb9Lm6UB1t1MvV2vxwDFm7Ybtf2QCTS1xTo
+http://www.blogclans.com/theme_v1/graphics/banner-link-blogclans.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
