@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.style.com/fashionshows/complete/slideshow/S2013RTW-TLYNN/#14
+
+
+[filters]
+http://www.style.com/js/stats/s_code_slideshow_helper.js
+http://www.style.com/js/stats/s_code_helper.js
+http://www.style.com/js/stats/s_code.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
