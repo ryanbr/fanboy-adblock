@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.shermanstravel.com/travel_search/hotels
+
+[filters]
+http://www.shermanstravel.com/travel_search/js/ad_loader.js
+http://www.clicktripz.com/vc_offers.php?search=ottawa+Hotels&affid=156871&serveurl=http%3A%2F%2Fwww.travbuddy.com&pid=5400.537
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
