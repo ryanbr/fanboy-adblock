@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.warcraftmovies.com/movieview.php?id=220967
+
+
+[filters]
+http://tags.pubgears.com/warcraftmovies/ros/160x600
+http://tags.pubgears.com/warcraftmovies/ros/728x90
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
