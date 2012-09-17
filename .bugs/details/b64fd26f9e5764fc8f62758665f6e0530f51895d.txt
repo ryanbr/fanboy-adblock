@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.androidcentral.com/ebay-pushing-update-previous-version-app-citing-issues-v-20
+
+[filters]
+http://cdn.androidcentral.com/sites/androidcentral.com/themes/basic/images/sidebar/social/follow-fb.gif
+http://cdn.androidcentral.com/sites/androidcentral.com/themes/basic/images/sidebar/social/follow-feed.gif
+http://cdn.androidcentral.com/sites/androidcentral.com/themes/basic/images/sidebar/social/follow-podcast.png?1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
