@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.footy-boots.com/
+
+
+[filters]
+http://www.footy-boots.com/wp-content/plugins/wp-minify/min/?f=wp-includes/js/jquery/jquery.js,wp-content/plugins/pinterest-pin-it-button-for-images/ppibfi_pinterest.js,wp-content/plugins/drp-coupon/sc/zeroclipboard/ZeroClipboard.js,wp-content/plugins/drp-coupon/sc/zeroclipboard_ready.js,wp-content/plugins/drp-coupon/sc/plugin.js,wp-content/plugins/gd-star-rating/js/gdsr.js,wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.js,wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js,wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js,wp-content/plugins/fancybox-for-wordpress/fancybox/jquery.fancybox.js,wp-content/plugins/network-bar/application.js,wp-content/themes/footy-boots-10/js/jquery.cycle.js,wp-content/themes/footy-boots-10/js/chili-1.7.pack.js,wp-content/themes/footy-boots-10/js/jquery.easing.js,wp-content/themes/footy-boots-10/js/jquery.dimensions.js,wp-content/themes/footy-boots-10/js/jquery.accordion.js,wp-content/themes/footy-boots-10/js/jquery.hoverIntent.minified.js,wp-content/themes/footy-boots-10/js/jquery.cookie.js,wp-content/themes/footy-boots-10/js/menu.js,wp-content/themes/footy-boots-10/js/javascript-api.js,wp-content/themes/footy-boots-10/js/jquery.countdown.min.js,wp-includes/js/comment-reply.js&m=1345622512
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
