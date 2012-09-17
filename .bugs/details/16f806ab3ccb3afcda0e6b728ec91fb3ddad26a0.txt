@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://autodaily.vn/2012/09/terra-mau-suv-chay-dien-doc-dao-cua-nissan/
+
+
+[filters]
+http://autodaily.vn/wp-content/uploads/2012/08/22/Toyota_RM_665x90x178.swf
+http://autodaily.vn/wp-content/uploads/2012/09/10/Flash300x120_Final.swf
+http://autodaily.vn/wp-content/uploads/2012/09/10/NVR_Autodaily_300x240_Fibal.swf
+http://autodaily.vn/wp-content/uploads/2012/09/11/newPrice-998x90.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
