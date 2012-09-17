@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bookit.com/travel-ideas/all-inclusive/
+
+
+[filters]
+http://from.bookit.com/iframes/advertserve.php?zid=3&keyword=All+Inclusive&referrer=http%3A%2F%2Fbookit.com%2Ftravel-ideas%2Fall-inclusive%2F%3F
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
