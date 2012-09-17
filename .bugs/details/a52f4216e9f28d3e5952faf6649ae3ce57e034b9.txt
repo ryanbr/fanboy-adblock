@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://torrentdownloads.be/
+
+
+[filters]
+http://torrent-finder.info/cont.html?wch=&tp=lb&rev=2010
+http://torrent-finder.info/cont.html?wch=&tp=rec&rev=2010
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
