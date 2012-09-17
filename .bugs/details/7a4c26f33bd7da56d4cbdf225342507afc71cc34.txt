@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nnews.mk.co.kr/newsRead.php?year=2012&no=595962&url=n
+
+
+[filters]
+http://plugin.me2day.net/html/button.html?href=http%3A%2F%2Fnews.mk.co.kr%2Fv3%2Fview.php%3Fyear%3D2012%26no%3D595962&plugin_key=Z_6LwXofRm6ZCwDtg3nKPw&layout=box&color=light&profile_images=off&pingback=checked&layer_type=standard&data_frame_name=me2DataUniq_6749222397019657&tc=&bc=&uniqId=Uniq_781645861062832
+http://plugin.me2day.net/html/data.html?plugin_key=Z_6LwXofRm6ZCwDtg3nKPw&url[]=http%3A%2F%2Fnews.mk.co.kr%2Fv3%2Fview.php%3Fyear%3D2012%26no%3D595962&title=28%EC%84%B8%20%EF%A6%81%EA%B0%84%ED%98%B8%EC%82%AC%2C%20%EB%B0%A4%EB%A7%88%EB%8B%A4%20%EC%9A%B8%EB%A6%AC%EB%8A%94%20%60%EC%B9%B4%ED%86%A1%60%EC%97%90%20%EA%B7%B8%EB%A7%8C%E2%80%A6&plugin_referer=http%3A%2F%2Fnnews.mk.co.kr%2FnewsRead.php%3Fyear%3D2012%26no%3D595962%26url%3Dn&is_mobile=false
+http://plugin.me2day.net/v1/plugin/get_webpage_info.json?url=http%3A%2F%2Fnews.mk.co.kr%2Fv3%2Fview.php%3Fyear%3D2012%26no%3D595962&plugin_key=Z_6LwXofRm6ZCwDtg3nKPw&plugin_referer=http%3A%2F%2Fnnews.mk.co.kr%2FnewsRead.php%3Fyear%3D2012%26no%3D595962%26url%3Dn
+http://static.plugin.me2day.com/css/me2.css
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
