@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://travel.travelocity.com/flights/InitialSearch.do?Service=TRAVELOCITY&flightType=roundtrip&dateTypeSelect=exactDates&leavingDate=9/23/2012&dateLeavingTime=Anytime&returningDate=9/30/2012&dateReturningTime=Anytime&adults=1&children=0&seniors=0&leavingFrom=NYC&goingTo=LAX&WA1=03010&WA2=fly.com&WA5=trave_airbookingeng_air_tvly_|u&WA6=air&classOfService=Economy&WA8=Los+Angeles
+
+
+[filters]
+http://i.travelpn.com.edgesuite.net/12.09/js/vs-track.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
