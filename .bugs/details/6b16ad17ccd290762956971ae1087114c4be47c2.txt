@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cnews.mt.co.kr/mtview.php?no=2012091713572603180&type=2
+
+[filters]
+http://adcrm.co.kr/md/retarget_possible.jsp?mbc=M004486W
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
