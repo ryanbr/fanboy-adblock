@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mlssoccer.com/matchcenter/2012-09-15-por-v-sea/highlights
+
+
+[filters]
+http://oascentral.sumworld.com/crossdomain.xml
+http://oascentral.sumworld.com/RealMedia/ads/adstream_sx.ads/MLSsoccer.com/video_50moments/1234567890@x90
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
