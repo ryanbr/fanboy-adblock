@@ -1,0 +1,28 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vistek.ca/
+
+
+[filters]
+http://www.vistek.ca/ads/a1/1_a1_adobepremiere.jpg
+http://www.vistek.ca/ads/a1/canonlens-sale.jpg
+http://www.vistek.ca/ads/a1/m.jpg
+http://www.vistek.ca/ads/a1/nikond600.jpg
+http://www.vistek.ca/ads/a2/a2_seminars2.jpg
+http://www.vistek.ca/ads/sideads/2_a2_edwardtowp.jpg
+http://www.vistek.ca/ads/sideads/blog.jpg
+http://www.vistek.ca/ads/sideads/side_clearance.jpg
+http://www.vistek.ca/ads/sideads/side_enews.jpg
+http://www.vistek.ca/ads/sideads/sidenav_rotoanova.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
