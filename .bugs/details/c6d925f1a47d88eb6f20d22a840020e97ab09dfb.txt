@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://caloriecount.about.com/cc/recipe_analysis.php
+
+
+[filters]
+http://ccakamai.about.com/images/elements/ad_side.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
