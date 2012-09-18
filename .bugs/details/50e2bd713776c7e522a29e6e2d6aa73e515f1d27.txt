@@ -1,0 +1,34 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://diffuser.fm/listen-live/popup/
+
+
+[filters]
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Beck&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&track=The%20New%20Pollution&method=track%2EgetInfo
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Clap%20Your%20Hands%20Say%20Yeah&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&limit=1&method=artist%2EgetImages
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Clap%20Your%20Hands%20Say%20Yeah&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&track=The%20Skin%20of%20My%20Yellow%20Countr&method=track%2EgetInfo
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Delta%20Spirit&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&track=California&method=track%2EgetInfo
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Green%20Day&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&track=Kill%20the%20DJ&method=track%2EgetInfo
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Heavy&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&limit=1&method=artist%2EgetImages
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Heavy&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&track=What%20Makes%20a%20Good%20Man&method=track%2EgetInfo
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Little%20Hurricane&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&track=Haunted%20Heart&method=track%2EgetInfo
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Matt%20and%20Kim&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&limit=1&method=artist%2EgetImages
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Matt%20and%20Kim&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&track=Lets%20Go&method=track%2EgetInfo
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Metric&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&track=Breathing%20Underwater&method=track%2EgetInfo
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Mumford%20%26%20Sons&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&track=I%20Will%20Wait&method=track%2EgetInfo
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Nada%20Surf&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&track=Looking%20Through&method=track%2EgetInfo
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Roxy%20Music&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&track=More%20Than%20This&method=track%2EgetInfo
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Smithereens&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&track=Only%20a%20Memory&method=track%2EgetInfo
+http://ws.audioscrobbler.com/2.0/?autocorrect=1&artist=Snow%20Patrol&api%5Fkey=589014260f6a806ca8d1b24bb9df3d4c&lang=en&track=In%20the%20End&method=track%2EgetInfo
+http://ws.audioscrobbler.com/crossdomain.xml
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
