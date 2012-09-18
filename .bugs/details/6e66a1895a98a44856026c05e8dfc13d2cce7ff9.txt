@@ -1,0 +1,29 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bworldonline.com/
+
+[filters]
+http://adserver.bworldonline.com/webpics/pictures/slideshow/201207174c33f.jpg
+http://adserver.bworldonline.com/webpics/pictures/slideshow/2012071793421.jpg
+http://adserver.bworldonline.com/webpics/pictures/slideshow/20120717ce886.jpg
+http://adserver.bworldonline.com/webpics/pictures/slideshow/2012072575e3d.jpg
+http://adserver.bworldonline.com/webpics/pictures/slideshow/201208080d698.jpg
+http://adserver.bworldonline.com/webpics/pictures/slideshow/2012082722860.jpg
+http://www.bworldonline.com/adserver/bworldonline/css/div_enhance.css
+http://www.bworldonline.com/adserver/bworldonline/css/fonts.css
+http://www.bworldonline.com/adserver/bworldonline/css/html.css
+http://www.bworldonline.com/adserver/bworldonline/css/style_enhance.css
+http://www.bworldonline.com/adserver/bworldonline/images/arrow_right.PNG
+http://www.bworldonline.com/adserver/bworldonline/images/header.PNG
+http://www.bworldonline.com/adserver/bworldonline/images/header2.PNG
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
