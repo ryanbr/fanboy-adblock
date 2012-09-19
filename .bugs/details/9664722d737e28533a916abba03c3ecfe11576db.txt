@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rackspace.com/blog/patent-trolls-make-them-pay/
+
+
+[filters]
+http://www.rackspace.com/blog/wp-content/themes/rackspaceoneblog1.0/images/elements/sprite_socialicons.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
