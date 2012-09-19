@@ -1,0 +1,14 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/0/?shva=1#inbox/139kjh57sg575dh987
+
+[filters]
+http://email-sg.coursera.org/wf/open?upn=ClEUtUxvC1Au5hqCPtjav-2IUDEHGIHGIWSHGIWWEGUIWEIFC6-2BaIBl8Pa6BTtFS0-2FwjkDZNmDi-2F5Ib-2Fmej4K4x1l4AmugfVQc5wVbQcrTRCqP4kMLd9I3o
+
+[other]
+coursera email tracker
+
+[comments]
+nitrox
