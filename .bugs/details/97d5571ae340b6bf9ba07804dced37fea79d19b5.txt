@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://atl.gmnews.com/news/2012-09-20/Front_Page/Grant_funds_will_enhance_suicide_prevention_progra.html
+
+
+[filters]
+http://invite.insightexpress.com/InviteServer/2/Invite.aspx?surveyID=164454
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
