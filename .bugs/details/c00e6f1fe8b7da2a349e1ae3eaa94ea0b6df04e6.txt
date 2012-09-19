@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/0/#inbox/877dh8gb3549ff2f46
+
+
+[filters]
+http://p5trc.emv2.com/HO?DdX7CqlCLJfy8SA9MOPv7MfnGHxKLIxChwjtS5kGdUBxK-8.gif
+http://webr.emv2.com/tmobile_base/images/120412/27749_arrow.jpg
+http://webr.emv2.com/tmobile_base/images/120612/28109_bullet.gif
+http://webr.emv2.com/tmobile_base/images/310812/fbook.gif
+http://webr.emv2.com/tmobile_base/images/310812/twitter.gif
+http://webr.emv2.com/tmobile_base/images/310812/youtube.gif
+http://webr.emv2.com/tmobile_base/images/head.jpg
+
+[other]
+blocks genuine images in newsletter. Change from whole domain block to specific.
+
+
+[comments]
+nitrox
