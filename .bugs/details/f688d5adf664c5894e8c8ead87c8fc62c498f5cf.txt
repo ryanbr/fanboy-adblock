@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.etonline.com/tv/125099_Britney_s_Embarrassing_Moment_on_The_X_Factor/index.html
+
+
+[filters]
+http://www.etonline.com/media/flash/coincident/ctvconviva.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
