@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://disneyworld.disney.go.com/parks/magic-kingdom/special-events/mickeys-not-so-scary-halloween-party/
+
+
+[filters]
+http://wdw2.wdpromedia.com/i/2/concat/9.10.0.4/js?files=/_lib/modernizr.js,/_lib/jquery/jquery-1.4.4.min.js,/_lib/jquery/jquery-ui-1.8.7.custom.min.js,/_lib/jquery/jquery.cookie.js,/_lib/jquery/jquery.jcarousel-0.2.7.min.js,/_lib/jquery/pleaseWait.js,/_lib/jquery/jquery.stylishselect.js,/_lib/swfobject.js,/_lib/swfaddress.js,/_lib/mbox.js,/global/global.js,/global/linkClassification.js,/global/dart.js,/global/mtagconfig.js
+http://wdw1.wdpromedia.com/i/2/concat/9.10.0.4/js?files=/module/momsPanel.js,/global/searchAutoComplete.js,/module/entityMapPanel.js,/module/header/dropdown.js,/module/header/globalHeaderExport.js,/module/header/header.js,/module/subNavigation.js,/module/quickTip.js,/module/footer/footer.js,/global/quickQuote.js,/_lib/s_code.js,/global/swfPopup.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
