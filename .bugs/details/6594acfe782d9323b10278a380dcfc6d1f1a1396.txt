@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hk.dv.nextmedia.com/actionnews/chinainternational/20120920/18020201/20001456 
+
+
+[filters]
+http://video.appledaily.com.hk/admedia/20120920/20092012_chi_03_w.mp4
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
