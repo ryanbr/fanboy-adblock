@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kadavy.net/blog/posts/minimum-viable-movie-joe-avella/
+
+
+[filters]
+http://del.icio.us/feeds/js/kadavy?title=&extended;count=5;
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
