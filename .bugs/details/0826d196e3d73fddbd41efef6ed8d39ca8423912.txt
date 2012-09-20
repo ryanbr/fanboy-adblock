@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://megarapid.net/forums/t/132756.aspx
+
+
+[filters]
+http://megarapid.net/script/pop.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
