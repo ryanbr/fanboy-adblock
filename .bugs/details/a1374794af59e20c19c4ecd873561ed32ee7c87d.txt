@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.politicususa.com/gop-falling-astommy-thompson-blames-romney-plummet-polls.html
+
+
+[filters]
+http://d1k74lgicilrr3.cloudfront.net/e.php?xdih=436_441_NabkgKbT
+http://d1k74lgicilrr3.cloudfront.net/e.php?xdih=436_442_2KMNADFB
+http://d1k74lgicilrr3.cloudfront.net/e.php?xdih=436_566_2Q3aZEx7
+http://d1ade4ciw4bqyc.cloudfront.net/b.ad.page.d/ajs.php
+http://d1ade4ciw4bqyc.cloudfront.net/c.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
