@@ -1,27 +1,25 @@
 Submissions for the Annoyances List
 -=================================-
-Updated: 12/09/2012
+Updated: 21/09/2012
 
 Overview
 The Annoyances list is a mix of social, self promo cleanups, CSS toolbars/flyouts/popups and any other distracting elements.
 
-   Social Content
-   -============-
-   The social element covers commonly used buttons, like social boxes, social icons, feed icons, common social elements.
 
-   Annoyances
-   -========-
+Social Content & Annoyances
+-=========================-
    The following annoyances will be covered by the list;
 
-        * CSS website takeovers.
-        * Hover css elements (non-ad).
-        * CSS Popups, Flyouts, Toolbars.
-        * Static CSS elements.
-        * Job ads, affiliate promos
-        * Self promo elements.
-        * Newsletter signup fields
-        * Website icons for printing, toolbox's etc.
-        * Any element that distracts the user from the main content.
+        * CSS Popups or Takeovers (Anything that takes over the screen)
+        * CSS Flyouts (popups that "fly" out, generally if scroll through the website)
+        * CSS Toolbars that stay with the page
+        * CSS Elements (next page/prev page/top of the page) that stay with the page
+        * Social images (rss, twitter, facebook etc)
+        * Social divs and boxes (which generally hold the social images)
+        * Self promos of apps (iphone/ipad/...)
+        * Newsletter signup fields and div elements.
+        * Job ads & affiliate promos.
+        * Any element that distracts the user from the main content, even including self promos.
 
 Self promo filters
 -=================-
@@ -47,11 +45,12 @@ Submission of Filters
 
 Filters not accepted
 -===================-
-        * If the site is designed around social aspect, the filters will be either whitelisted or removed.
-        * Disabling comments used by the social websites
+        * If the site is designed around social aspect, the filters will be either whitelisted, excempted or removed.
+        * Disabling comments used by the social websites (such as facebook chat within a website)
         * Disabling donation buttons (assuming they don't override or hide webpage content)
         * Blocking of some popular sites outright like Twitter, Facebook etc. Just aiming to block the certain scripts used on each site.
-        * If a blocked toolbar or CSS element limits functionality of site, it shall be removed.
+        * If a blocked toolbar or CSS element limits functionality of site, it shall be removed. (searching, Login to the site)
+           => If the site can off functionality through another method, blocking a toolbar
 
 
 * Filter removals, suggestions and additions are at the discretion of the subscription author.
