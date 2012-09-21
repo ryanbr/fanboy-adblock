@@ -50,7 +50,7 @@ Filters not accepted
         * Disabling donation buttons (assuming they don't override or hide webpage content)
         * Blocking of some popular sites outright like Twitter, Facebook etc. Just aiming to block the certain scripts used on each site.
         * If a blocked toolbar or CSS element limits functionality of site, it shall be removed. (searching, Login to the site)
-           => If the site can off functionality through another method, blocking a toolbar
+           => If the site can offer the functionality through another method, blocking a toolbar or element could be permitted.
 
 
 * Filter removals, suggestions and additions are at the discretion of the subscription author.
