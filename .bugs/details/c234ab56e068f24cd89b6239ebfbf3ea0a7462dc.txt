@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://blog.livedoor.jp/ryodan13/
+
+
+[filters]
+http://blog.livedoor.jp/ryodan13/bnr/bnr-kairakujigen2.jpg
+http://blog.livedoor.jp/ryodan13/bnr/bnr-nijimoeimg2.jpg
+http://blog.livedoor.jp/ryodan13/bnr/bnr-okazu1.jpg
+http://blog.livedoor.jp/ryodan13/bnr/bnr-onaho1.jpg
+http://blog.livedoor.jp/ryodan13/bnr/bnr-oppaigirls2.jpg
+http://blog.livedoor.jp/ryodan13/bnr/bnr-ramarama1.jpg
+http://blog.livedoor.jp/ryodan13/bnr/bnr-ramarama3.jpg
+http://src.reachword.com/js.php?wvl100612c99
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
