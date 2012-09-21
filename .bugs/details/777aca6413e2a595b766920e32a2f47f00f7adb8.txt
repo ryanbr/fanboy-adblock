@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tumanude.com/nude/nudebbs-1/photobbs.cgi
+
+
+[filters]
+http://www.tumanude.com/nude/ad/random_b.php
+http://210.136.172.75/h/174/174.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
