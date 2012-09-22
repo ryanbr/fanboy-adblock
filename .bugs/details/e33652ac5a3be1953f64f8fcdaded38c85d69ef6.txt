@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.countryliving.com/cooking/entertaining/thanksgiving-table-settings-1108#slide-4
+
+
+[filters]
+http://www.countryliving.com/ams/page-ads.js?ad_category_prefix=&ad_sub_category_prefix=&ams_promo=&amz_browse_node_ids=&amz_search_indexes=&article_type_prefix=flipbook&browser_path=%2Fcooking%2Fentertaining%2Fthanksgiving-table-settings-1108&cat_prefixes=&keywords=&position_list=ams_circ_clg_300x250%2Cams_circ_clg_300x300%2Cams_circ_clg_sub_nav_link%2Cams_clg_amazon_carousel_600x200%2Cams_clg_circ_takeover%2Cams_clg_epic%2Cams_clg_flipbook_luminate%2Cams_clg_nl01%2Cams_countryliving_flipbook_control%2Cams_countryliving_footer%2Cams_countryliving_gallery%2Cams_countryliving_hpto_inner%2Cams_countryliving_social_ad%2Cams_countryliving_sponsored_links%2Cams_countryliving_top%2Cams_digital_clg_foot_link%2Cams_digital_clg_nav_link&section_prefix=entertaining&site_prefix=countryliving&sub_cat_prefixes=catdriven_centerpieces&subdomain=www&url_name=thanksgiving-table-settings-1108
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
