@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.24hourfitness.com/not-yet-member.html
+
+
+[filters]
+http://www.24hourfitness.com/includes/script/siteTracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
