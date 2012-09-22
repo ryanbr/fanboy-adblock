@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.politicususa.com/paul-ryan-booed-aarp-attacking-obama-obamacare.html
+
+
+[filters]
+http://d1d95giojjkirt.cloudfront.net/e.php?J=436_133_dYTScr2B
+http://d1d95giojjkirt.cloudfront.net/e.php?J=436_137_PECZm6hk
+http://d1d95giojjkirt.cloudfront.net/e.php?J=436_566_2Q3aZEx7
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
