@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.theshoppingchannel.com/Joan-Rivers/Scarves-Wraps/Joan-Rivers-Leopard-Pattern-Scarf/pages/productdetails?nav=R:578630
+
+[filters]
+http://t.powerreviews.com/t/v1.gif?e=rd&id=8qmfn73c81&t=h7el04p8&uid=uswfax3290&mgid=12623&p=http%3A%2F%2Fwww.theshoppingchannel.com%2FJoan-Rivers%2FScarves-Wraps%2FJoan-Rivers-Leopard-Pattern-Scarf%2Fpages%2Fproductdetails%3Fnav%3DR%3A578630&r=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D15225&et=snippet-visible&l=en_CA&pid=578630&mid=3077&v=2&i=n
+http://t.powerreviews.com/t/v1.gif?e=rd&id=drz1xepb0q&t=h7el04t9&uid=uswfax3290&mgid=12623&p=http%3A%2F%2Fwww.theshoppingchannel.com%2FJoan-Rivers%2FScarves-Wraps%2FJoan-Rivers-Leopard-Pattern-Scarf%2Fpages%2Fproductdetails%3Fnav%3DR%3A578630&r=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D15225&l=en_CA&pid=578630&mid=3077&v=2&i=y&rc=1&s=5&vis=n
+http://t.powerreviews.com/t/v1.gif?e=rd&id=fbgw56b3g2&t=h7el04sh&uid=uswfax3290&mgid=12623&p=http%3A%2F%2Fwww.theshoppingchannel.com%2FJoan-Rivers%2FScarves-Wraps%2FJoan-Rivers-Leopard-Pattern-Scarf%2Fpages%2Fproductdetails%3Fnav%3DR%3A578630&r=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D15225&et=inline&l=en_CA&pid=578630&v=2&rc=1&ropc=1&srids=27280679&s=5&delay=n&i=y
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
