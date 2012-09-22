@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vitalbmx.com/
+
+
+[filters]
+http://assets.vitalmedianet.com/images/4li2k73z.gif
+http://assets.vitalmedianet.com/images/_bmx/favicon.ico
+http://assets.vitalmedianet.com/javascripts/111223_vital.homepage.min.js
+http://assets.vitalmedianet.com/javascripts/jquery-libs.vital.min.js
+http://assets.vitalmedianet.com/javascripts/require-1.08.min.js
+http://assets.vitalmedianet.com/javascripts/vital.apps.js?1339632657
+http://assets.vitalmedianet.com/stylesheets/120103_bmx.css
+http://assets.vitalmedianet.com/stylesheets/120111_main.min.css
+http://assets.vitalmedianet.com/stylesheets/120305_comments.min.css
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
