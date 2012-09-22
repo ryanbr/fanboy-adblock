@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.idealhomegarden.com/living-rooms/how-to-decorate-a-fireplace-mantel-for-fall/
+
+
+[filters]
+http://ae.amikay.com/proxy/m/valueclickbrands/adlist.csv
+http://dpp750yjcl65g.cloudfront.net/m/valueclickbrands/ae.js
+http://dpp750yjcl65g.cloudfront.net/m/valueclickbrands/lib.csv.js
+http://dpp750yjcl65g.cloudfront.net/m/valueclickbrands/site.idealhomegarden.js
+http://dpp750yjcl65g.cloudfront.net/m/valueclickbrands/v3.global.js
+http://dpp750yjcl65g.cloudfront.net/m/valueclickbrands/v3.js
+http://dpp750yjcl65g.cloudfront.net/util/contextdriver.compiled.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+# Leave your username
