@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ynet.co.il/home/0,7340,L-8,00.html
+
+
+[filters]
+http://go.calcalist.co.il/long/content/2009/teaser_ynet/flash/index4.html
+http://go.calcalist.co.il/long/content/2009/teaser_ynet/images/flashlogo-right.gif
+http://go.calcalist.co.il/long/content/2009/teaser_ynet/ordering/index03_OnlyArticleLinksWithReference.asp
+http://go.ynet.co.il/short/commerce/2012/links/59/
+http://go.ynet.co.il/short/commerce/2012/links/59/pharm1.jpg
+http://go.ynet.co.il/short/commerce/2012/links/60/
+http://go.ynet.co.il/short/commerce/2012/links/60/pharm2.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
