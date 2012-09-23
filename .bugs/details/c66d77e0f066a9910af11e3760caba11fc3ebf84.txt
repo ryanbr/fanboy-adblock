@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.market.tut.ua/equipment_tools_packing/
+
+
+[filters]
+http://www.market.tut.ua/banners/empty/2.htm?h=04
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
