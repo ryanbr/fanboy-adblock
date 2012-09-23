@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://559.tut.ua/
+
+
+[filters]
+http://gredinatib.biz/news.php?sid=48882&bn=BRoWtyPFmMIWSuA8NjEx&ad=0&ref=http%3A//www.tut.ua/&pt=%CA%EE%EC%E8%EA%F1%20%ED%E0%20559%20-%20TUT.ua&cookie=null&cls=null
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
