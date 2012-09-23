@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://versii.com/news/263165/
+
+
+[filters]
+http://n.vipadvert.net/64?v=2247274
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
