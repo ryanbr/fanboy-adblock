@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dir.meta.ua/ru/business/industry/building-materials-and-constructions/
+
+
+[filters]
+http://ptn.market.meta.ua/314742/30/block.js
+http://ad.admixer.net/adsource_async.js?zone=bd4e9653-f204-439b-affa-743780e16821&phid=admixer_async_534452842&ref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D7%26t%3D15160&pg=http%3A%2F%2Fdir.meta.ua%2Fru%2Fbusiness%2Findustry%2Fbuilding-materials-and-constructions%2F&pvId=1348363232603
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
