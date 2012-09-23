@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.girlsgonewild.com/blog/2012/09/13/topless-trivia-best-game-show-ever/
+
+
+[filters]
+http://wac.4a7a.edgecastcdn.net/804A7A/s5img/www.girlsgonewild.com/images/Blog-Ad-HSA-01.jpg
+http://wac.4a7a.edgecastcdn.net/804A7A/s5img/www.girlsgonewild.com/images/Blog-Ad-Rent-for-499.jpg
+http://wac.4a7a.edgecastcdn.net/804A7A/s5img/www.girlsgonewild.com/images/Blog-Ad-SneakPeek.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
