@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://obozrevatel.com/politics/48671-lutsenko-nashli-novuyu-rabotu-kleit-konvertyi.htm
+
+
+[filters]
+http://obozrevatel.com/js/xg-obozrevatel.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
