@@ -1,0 +1,33 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.abc.com.py/
+
+
+[filters]
+http://www.abc.com.py/banners/2012/03/19/idesa-173727.swf
+http://www.abc.com.py/banners/2012/03/26/censu-115729.swf
+http://www.abc.com.py/banners/2012/03/27/kodak-abctv-174811.png
+http://www.abc.com.py/banners/2012/05/31/raices-229-90.gif
+http://www.abc.com.py/banners/2012/05/31/vivabien.swf
+http://www.abc.com.py/banners/2012/07/09/motomax.swf
+http://www.abc.com.py/banners/2012/07/23/renaultsanderonew.swf
+http://www.abc.com.py/banners/2012/08/09/colgate-360.swf
+http://www.abc.com.py/banners/2012/08/16/lleva-uno.swf
+http://www.abc.com.py/banners/2012/08/30/complus.gif
+http://www.abc.com.py/banners/2012/09/18/bannerabc-11sept-swf-171807.swf
+http://www.abc.com.py/banners/2012/09/19/bannerpumafinal-swf-174241.swf
+http://www.abc.com.py/banners/2012/09/20/banner-especial-y-multimedia-san-sebastian-gif-171903.gif
+http://www.abc.com.py/banners/espacios-publicitarios/229-240-1.jpg
+http://www.abc.com.py/banners/espacios-publicitarios/229-90-3.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
