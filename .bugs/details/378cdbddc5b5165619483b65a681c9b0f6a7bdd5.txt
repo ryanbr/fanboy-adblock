@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.kinokadr.ru/afisha/?2076
+
+[filters]
+http://www.kinokadr.ru/includes/count.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
