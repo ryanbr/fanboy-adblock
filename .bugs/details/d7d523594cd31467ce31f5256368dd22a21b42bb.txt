@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nydailynews.com/news/election-2012/mitt-romney-stacked-audience-univision-forum-republican-activists-campaign-find-student-supporters-university-miami-moderator-maria-elenas-salinas-claims-article-1.1165534
+
+
+[filters]
+https://graph.facebook.com/fql?q=SELECT%20total_count%20FROM%20link_stat%20WHERE%20url=%22http%3A%2F%2Fwww.nydailynews.com%2Fnews%2Felection-2012%2Fmitt-romney-stacked-audience-univision-forum-republican-activists-campaign-find-student-supporters-university-miami-moderator-maria-elenas-salinas-claims-article-1.1165534%22&callback=gig_pc_facebook_1348362649274_8148170810583335
+http://www.stumbleupon.com/services/1.1/badge.getinfo?url=http%3A%2F%2Fwww.nydailynews.com%2Fnews%2Felection-2012%2Fmitt-romney-stacked-audience-univision-forum-republican-activists-campaign-find-student-supporters-university-miami-moderator-maria-elenas-salinas-claims-article-1.1165534&format=jsonp&callback=gig_pc_stumbleupon_1348362649277_5277182652268156
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
