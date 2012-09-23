@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nydailynews.com/news/election-2012/mitt-romney-stacked-audience-univision-forum-republican-activists-campaign-find-student-supporters-university-miami-moderator-maria-elenas-salinas-claims-article-1.1165534
+
+
+[filters]
+removing Gigya
+http://cdn.gigya.com/gs/i/comments/avatar_32x32.gif
+http://cdn.gigya.com/gs/i/comments/avatar_48x48.gif
+http://cdn.gigya.com/gs/i/comments/flag_icon.png
+http://cdn.gigya.com/gs/i/comments/icon_ExpandReply.png
+http://cdn.gigya.com/gs/i/comments/providers/YahooUser_14x14.gif
+http://cdn.gigya.com/gs/i/comments/remove_icon.gif
+http://cdn.gigya.com/gs/i/comments/thumbsup.png
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
