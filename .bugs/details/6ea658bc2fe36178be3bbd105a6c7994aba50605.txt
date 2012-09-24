@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://songza.com/
+
+
+[filters]
+http://songza.com/static/ac16ce35fef9/js/songza/systems/quantcast.js
+http://songza.com/static/ac16ce35fef9/js/songza/systems/google-analytics.js
+http://songza.com/static/ac16ce35fef9/js/songza/systems/comscore.js
+http://songza.com/static/ac16ce35fef9/js/songza/systems/chartbeat.js
+http://songza.com/static/ac16ce35fef9/js/songza/ads/iframe.js
+http://songza.com/advertising/top/
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
