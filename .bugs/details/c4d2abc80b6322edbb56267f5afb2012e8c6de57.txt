@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.politicususa.com/americans-outraged-romney-pays-0-2-payroll-taxes.html
+
+
+[filters]
+http://www.politicususa.com/private_addons/fb-widget.php?x=134849517720
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
