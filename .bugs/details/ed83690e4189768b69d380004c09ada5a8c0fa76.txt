@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://jbbs.livedoor.jp/bbs/read.cgi/school/2283/1340458224/
+
+
+[filters]
+http://cast.ads.jlisting.jp/ad_premium.js
+http://cast.ads.jlisting.jp/ad_premium_temp.js
+http://cast.ads.jlisting.jp/index.php?q=vb7Ivn%2Fbvc0nQNblXncS17EhqXvVFGvilobkgJYPf6B6gO%2FDWSz%2BQ0ffjvRzzLUj2TsH8hPSHA0%3D&mid=&chid=&pid=&gformat=&type=jl0034&tc=3366ff&cc=000000&uc=009900&bdc=cccccc&bgc=ECFFEC&subad=http%3A%2F%2Fcast.ads.jlisting.jp%2Fsubad%2Fshitaraba_bl.php&ref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D7%26t%3D15304&hints=%E9%9B%91%E8%AB%87%20%E6%8E%B2%E7%A4%BA%20%E5%90%8C%E6%A2%B1%20%E5%B0%91%E5%A5%B3%20Zero%20PVC%20Fate%20%E9%AD%94%E6%B3%95%20%E9%AB%98%E7%94%BA%20%E9%9B%BB%E6%92%83%20%E9%99%90%E5%AE%9A%20%E9%98%B2%E8%A1%9B%20%E8%BF%BD%E5%8A%A0%20%E8%B3%BC%E5%85%A5%20%E8%A3%BD%E5%A1%97%20%E8%A3%85%E6%B8%88%20%E7%A7%8B%E9%A2%A8%20%E7%9B%B8%E4%BA%92%20%E7%94%A3%E7%89%88%20%E6%B8%88%E3%81%BF%20%E6%B6%BC%E9%A2%A8%20%E6%9D%B1%E5%8C%97%E5%AD%A6%E9%99%A2%20%E6%99%82%E4%BB%A3%20%E6%97%A9%E6%9C%9F%20%E6%96%87%E5%BA%AB%20%E5%BD%BC%E5%A5%B3%20%E5%BC%8F%E6%B3%A2%20%E5%AE%9A%E7%9B%A4%20%E5%AE%8C%E6%88%90%20%E5%AD%A6%E7%94%9F%20%E5%A4%A7%E5%AD%A6&safefilter=0&charset=&offset=0&ma=1&rr=1&n=1&v=2&width=600&height=130&limit=2
+http://cast.ads.jlisting.jp/js/jquery/jquery-1.3.2.min.js
+http://cast.ads.jlisting.jp/tiny_segmenter-0.1.js
+http://lcs.livedoor.net/m?u=http%3A%2F%2Fjbbs.livedoor.jp%2Fbbs%2Fread.cgi%2Fschool%2F2283%2F1340458224%2F&e=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D7%26t%3D15304&i=&os=Win64&ln=en-US&sr=1920x1080&bw=1903&bh=978&c=24&j=N&jv=1.8&k=Y&fv=11.4&sl=5.0&ct=&p=Shockwave%20Flash%3BJava%20Deployment%20Toolkit%207.0.40.255%3BSilverlight%20Plug-In&EOU
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
