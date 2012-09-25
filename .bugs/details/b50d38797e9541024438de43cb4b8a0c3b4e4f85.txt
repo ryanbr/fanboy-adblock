@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fhg.met-art.com/2012-09-06/POSTAVIT/?pa=540530
+
+
+[filters]
+http://guests.met-art.com/visit.js?ru=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D15250&lu=http%3A%2F%2Ffhg.met-art.com%2F2012-09-06%2FPOSTAVIT%2F%3Fpa%3D540530&width=1920&height=1080&alt-index=standard
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
