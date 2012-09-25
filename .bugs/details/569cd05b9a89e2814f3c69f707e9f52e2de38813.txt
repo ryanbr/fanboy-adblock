@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.valueresearchonline.com/
+
+
+[filters]
+http://www.valueresearchonline.com/gamads/home_top_left_1st.inc.asp?IsHome=True
+http://www.valueresearchonline.com/gamads/home_top_left_2nd.inc.asp?IsHome=True
+http://www.valueresearchonline.com/gamads/home_top_left_3rd.inc.asp?IsHome=True
+http://www.valueresearchonline.com/gamads/home_top_right_1st.inc.250.asp?IsHome=True
+http://www.valueresearchonline.com/gamads/home_top_right_2nd.inc.250.asp?IsHome=True
+http://www.valueresearchonline.com/gamads/leaderboard_top.inc.asp?IsHome=True
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
