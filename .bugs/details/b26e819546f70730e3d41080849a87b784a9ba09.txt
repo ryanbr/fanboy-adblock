@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rapidmoviez.com/
+
+
+[filters]
+http://rapidmoviez.com/files/php/mgid-ad-1.php?t=1348574532
+http://rapidmoviez.com/files/php/mgid-ad-2.php?t=1348574532
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
