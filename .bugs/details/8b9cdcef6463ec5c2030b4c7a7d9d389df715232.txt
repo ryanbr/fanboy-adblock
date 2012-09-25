@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.healthline.com/
+
+
+[filters]
+http://ads.healthline.com/v2/ad-mr1-iframe?useAdsHost=true&dfpAdSite=hn.us.hl.hp.x.x.x&btk1=&btk2=&kw=9999999&k1=none&k2=none&k3=health&pos=mr1&ugc=false&ac=&uac=&akh=health&aks=5000&dfpTileIdx=3&hlnord=9417059937170860&pv=1&env=&msiteID=&adTagPageUrl=%2F&yeildex=true&targetsrc=www.google.com
+http://ads.healthline.com/v2/ad-pb-iframe?useAdsHost=true&dfpAdSite=hn.us.hl.hp.x.x.x&btk1=&btk2=&kw=9999999&k1=none&k2=none&k3=health&pos=lb&ugc=false&ac=&uac=&akh=&aks=5000&dfpTileIdx=2&hlnord=9417059937170860&pv=1&env=&msiteID=&adTagPageUrl=%2F&yeildex=true&targetsrc=www.google.com
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
