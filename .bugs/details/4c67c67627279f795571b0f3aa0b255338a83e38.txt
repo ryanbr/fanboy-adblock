@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.darknet.org.uk/2012/08/1-million-accounts-leaked-from-banks-government-agencies-consultancy-firms/
+
+[filters]
+http://www.elearnsecurity.com/iframe_ads/darknet/BTT.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
