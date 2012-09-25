@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yellowpages.co.in/Furnitures
+
+[filters]
+http://www.yellowpages.co.in/trac/event/SERP/furnitures?entityId=,22471306297,28142655053,1576642421,27862658447,65452949658,48392662473,65323678898,64912651249,84182650107,74323188038,47302663850,89662651239,62712663556,68262654930,19863679832&entityType=LISTING&event=Impression&note=&uniqueCode=1348554600910&ctx=ypweb
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
