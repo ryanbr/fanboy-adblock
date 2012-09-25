@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+# If this applys to other websites, or other previous commits
+
+
+[filters]
+http://www.getit.in/Search/ads_Bottom.aspx?what=Doctors%20Ophthalmologist(Eye%20Specialists)&city=
+http://www.getit.in/Search/ads_GATop.aspx?what=Doctors%20Ophthalmologist(Eye%20Specialists)&city=
+http://www.getit.in/Search/pgRightSideAds.aspx?what=Doctors%20Ophthalmologist(Eye%20Specialists)&city=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
