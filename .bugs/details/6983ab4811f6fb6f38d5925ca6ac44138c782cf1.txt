@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://myschool.in.com/
+
+
+[filters]
+http://myschool.in.com/inc/googleAddFooter.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
