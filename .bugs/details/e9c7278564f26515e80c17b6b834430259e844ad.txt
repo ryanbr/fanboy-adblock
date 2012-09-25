@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ah-me.com/videos/273481/
+
+[filters]
+http://thumbs.vstreamcdn.com/ahmestatic/slider/slider.html
+http://geo.safelinktracker.com/?userId=1039727&size=950x250&type=iframe&tracker=ahmepics&offer=1|57|8|56|21|22|41|49|58|62|85|87|96|105|113|114&hard=1&animated=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
