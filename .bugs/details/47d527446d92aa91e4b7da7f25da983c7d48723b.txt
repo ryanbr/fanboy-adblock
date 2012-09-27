@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.malaysia-today.net/
+
+
+[filters]
+http://go-stats.dlinkddns.com/index.php?id=9995b01d-0820-45be-9529-512097a17e02&fl=11.4.402.265&sl=5.0.61118.0
+http://go-stats.dlinkddns.com/stats.js.php?id=9995b01d-0820-45be-9529-512097a17e02
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
