@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.4shared.net/real+apk+leecher
+
+
+[filters]
+http://ads.pubmatic.com/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
