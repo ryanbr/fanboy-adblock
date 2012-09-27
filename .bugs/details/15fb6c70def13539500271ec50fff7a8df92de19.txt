@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://new.rol.co.il/
+
+
+[filters]
+http://new.rol.co.il/files/banners/goshen_210x90_03.swf?url=/155180&dynamic_text=
+http://new.rol.co.il/files/banners/honey_230x90_300812.swf?url=/155189&dynamic_text=
+http://new.rol.co.il/files/banners/la-gofre210x90.swf?url=/155194&dynamic_text=
+http://new.rol.co.il/files/banners/mate230x95.jpg
+http://new.rol.co.il/files/banners/microdeal.swf?url=/155188&dynamic_text=
+http://new.rol.co.il/files/banners/neeman640x90.swf?url=/155192&dynamic_text=
+http://new.rol.co.il/files/banners/noya230x90_27912.swf?url=/155196&dynamic_text=
+http://new.rol.co.il/files/banners/raffaello640x90_050812.swf?url=/155186&dynamic_text=
+http://new.rol.co.il/files/banners/spaghettim750x90_bf.swf?url=/155185&dynamic_text=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
