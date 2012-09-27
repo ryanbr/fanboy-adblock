@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://veetle.com/#_
+
+
+[filters]
+http://veetle.com/images/common/ads/app_promo_arrived.jpg
+http://veetle.com/images/common/ads/badge_appstore.png
+http://veetle.com/images/common/ads/badge_googleplay.png
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
