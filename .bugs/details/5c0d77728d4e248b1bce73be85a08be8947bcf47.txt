@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ridemonkey.com/forums/f67/hey-everyone-stop-picking-mittens-253767/
+
+[filters]
+http://www.avantlink.com/ale/ale.php?ti=503
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
