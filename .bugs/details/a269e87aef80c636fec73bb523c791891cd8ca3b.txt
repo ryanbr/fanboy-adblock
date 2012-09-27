@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.neopets.com/
+
+
+[filters]
+http://images.neopets.com/themes/000_def_f65b1/navigation/ad-choices.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
