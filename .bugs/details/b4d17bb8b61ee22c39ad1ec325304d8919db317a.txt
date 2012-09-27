@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.own3d.tv/MLGPrizefights
+
+
+[filters]
+http://videos-curse.cursecdn.com/banner/videos/2012/battle_cry_15_post_launch_usa_1280x720_curse_4000kbps_v2.flv
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
