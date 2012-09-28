@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wix.com/html-templates/html/web/wedding-01-orly
+
+
+[filters]
+http://frog.wix.com/mlt?src=42&did=eb8b896d-4d3e-40ba-b772-4de33867c299&uid=84770f67-ecbd-44b6-b35a-584f2dc15af1&gsi=76e45016-e9c8-4e1f-851e-c3deb2d113b5&cid=37639e5f-0170-49d3-ac3e-90b83482b1d3&ver=VR1.14.0&lng=en-US&evid=301&ts=232&msid=&esi=&g1=&i1=&c1=&
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
