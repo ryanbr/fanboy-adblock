@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cwer.ws/node/63690/
+
+
+[filters]
+http://hata.nikolaev.ua/what/zombi_600.swf
+http://xata.mk.ua/what/zombi_600.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
