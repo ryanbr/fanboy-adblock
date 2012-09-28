@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://hdvnbits.org/torrents.php?search=*
+
+
+[filters]
+http://adbroker.zing.vn/res1/2012/09/20/bd/bd9042e26dcc5ec4.gif
+http://adbroker.zing.vn/res1/crystal.js
+http://adbroker.zing.vn/res1/crystal_ext.js
+http://lview.adbroker.zing.vn/lview?loc=_adb_18_10001995&callback=crystal2.hackIe7&rot=1
+http://lview.adbroker.zing.vn/lview?loc=_adb_22_10002004&callback=crystal2.addStaticSlot
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
