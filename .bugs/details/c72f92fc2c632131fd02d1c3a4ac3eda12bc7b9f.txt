@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.yuvutu.com/modules.php?name=Video&op=view&video_id=814690
+
+
+[filters]
+http://www.yuvutu.com/includes/custom_files/AdZoneAdXp.php?q=Flashing%2FPublic&al=english&ref=http%3A%2F%2Fwww.yuvutu.com%2Fmodules.php%3Fname%3DVideo%26op%3Dview%26video_id%3D814690
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
