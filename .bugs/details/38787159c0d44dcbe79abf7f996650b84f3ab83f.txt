@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://s7.directupload.net/file/d/3023/xan4hcxe_jpg.htm
+
+
+[filters]
+http://ad.sevenads.net/layer.php?p=3547323&u=386&r=1&nopop=1
+http://ads.directcorp.de/du/du_image_160.php
+http://ads.directcorp.de/du/du_image_728_oben.php
+http://ads.directcorp.de/du/du_image_728_unten.php
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
