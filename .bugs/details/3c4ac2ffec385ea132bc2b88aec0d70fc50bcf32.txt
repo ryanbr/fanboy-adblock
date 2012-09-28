@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://bugaga.net.ru/ege/rus/bank-argumentov
+
+
+[filters]
+http://savepages.ru/js/com.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
