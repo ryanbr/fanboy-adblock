@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://windowsforum.kr/
+
+[filters]
+http://ad.kau.li/?url=http%3A%2F%2Fwindowsforum.kr%2F&rurl=&count=1&char=utf-8&id=7372&ttlc=0000FF&txtc=000000&urlc=008000&bg=FFFFFF&bd=ffffff&ch=null&width=200&height=200&mnum=2&shape=0&ck=1
+http://ad.kau.li/?url=http%3A%2F%2Fwindowsforum.kr%2F&rurl=&count=2&char=utf-8&id=7372&ttlc=0000FF&txtc=000000&urlc=008000&bg=FFFFFF&bd=ffffff&ch=null&width=728&height=90&mnum=3&shape=1&ck=1
+http://www.dothome.co.kr/advertisement/dothome_index.gif
+http://js.kau.li/ad.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
