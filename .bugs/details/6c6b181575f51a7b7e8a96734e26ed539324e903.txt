@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://rutracker.org/forum/index.php
+
+
+[filters]
+http://labadon.com/api.js?labadon.com
+http://labadon.com/static/flashinpage.js
+http://labadon.com/static/tds.js
+http://nic.hopedac.com/s/786/393196.js
+http://rotator.nivalnetwork.com/index.html?rnd=1622722446
+http://rotator.nivalnetwork.com/rutracker.js
+http://steamac.com/rutracker.html?no_cache=35861
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
