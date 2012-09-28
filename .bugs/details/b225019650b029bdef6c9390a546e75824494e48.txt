@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bigmir.net/
+
+
+[filters]
+http://bm.img.com.ua/a/hp3/img/branding/tele-trade/tele-trade-branding.jpg
+http://bm.img.com.ua/a/hp3/img/branding/tele-trade/tele-trade-img.png?v2
+http://bm.img.com.ua/a/hp3/img/branding/tele-trade/tele-trade-img_hands.png?v2
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
