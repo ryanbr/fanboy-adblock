@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.paypal.com/
+
+
+[filters]
+https://www.paypalobjects.com/MERCHANTPAYMENTWEB-640-20120914-1/js/site_catalyst/pp_jscode_080706.js
+
+
+
+[other]
+Needs to be whitelisted, to avoid paypal from timing out during a payment transaction.
+
+
+[comments]
+fanboy
