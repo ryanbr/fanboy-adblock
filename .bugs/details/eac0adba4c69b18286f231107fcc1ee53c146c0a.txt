@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.asexstories.com/new-sex-stories.html
+
+[filters]
+http://cdn1.promotion.partnercash.com/1/8_5724/content_videos02/saboom/5724/data/4eb933a8b0068_1320760232.flv
+http://cdn1.promotion.partnercash.com/feed/swf/decissionvideo.swf?time=1348920294
+http://promotion.partnercash.com/crossdomain.xml
+http://promotion.partnercash.com/feed/index.php?params=wm=15022:params=:pg=2:pc=73:program=15:ab=1:p=:lg=25:sc=1:do=489:ds=635:chrset=iso8859:format=280x380:prm=rev:cfg=1317340687_4e85060f59437:cf=1:doxml=1
+http://www.asexstories.com/010ads/7da3c64e3301fc2ea8c2a205c381ff8f.gif
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
