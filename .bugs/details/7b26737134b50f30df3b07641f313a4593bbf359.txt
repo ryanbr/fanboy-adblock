@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lesacasino.com/
+
+[filters]
+http://mts.mansion.com/MtsStorage.swf
+http://mts.mansion.com/collect.js?json=%7B%22GUID%22%3A%22b06ed2a4-21b4-4f68-bca0-cb1980dc120f%22%2C%22property_bag%22%3A%7B%22user_id%22%3A%22none%22%2C%22custom_data%22%3A%7B%7D%7D%2C%22brand%22%3A%22lesacasino%22%2C%22local_timestamp%22%3A1348884570%2C%22page%22%3A%7B%22request_url%22%3A%22http%3A%2F%2Fwww.lesacasino.com%2F%22%2C%22title%22%3A%22Online%20casino%20at%20LesAcasino.com%20%7C%20Play%20now%20-%20%C2%A31000%20Welcome%20Bonus!%22%2C%22cookies%22%3A%22lo%3Dnz%3B%20tc-www-affbanner_png%3Dhttp%3A%2F%2Fcacheimg.lesacasino.com%2Fwww%2Faffbanner.png%7Cnormal%3B%20hpTrue%3Dtrue%3B%20language%3Den%3B%20entryCookie%3Dtrue%3B%20tc-www-welcome_banner_xml%3Dhttp%3A%2F%2Fcacheimg.lesacasino.com%2Fwww%2Fwelcome_banner.xml%7Cnormal%3B%20mts_guid%3Db06ed2a4-21b4-4f68-bca0-cb1980dc120f%3B%20mts_browser_id%3D89c9c7050a8a08307ae220e7cff94294%3B%20mts_session_id%3D%255B%257B%2522brand%2522%253A%2522lesacasino%2522%252C%2522session_id%2522%253A%2522abf9e639c18338146e89cb9fc2d735cb%2522%252C%2522session_expire_timestamp%2522%253A1349143763%252C%2522traffic_source%2522%253A%2522UNKNOWN%2522%257D%255D%22%7D%2C%22browser%22%3A%7B%22resolution%22%3A%221920x1080%22%2C%22lang%22%3A%22en-US%22%2C%22cookie%22%3A%221%22%2C%22pdf%22%3A%220%22%2C%22quicktime%22%3A%220%22%2C%22realplayer%22%3A%220%22%2C%22windowsmedia%22%3A%220%22%2C%22director%22%3A%220%22%2C%22flash%22%3A%221%22%2C%22java%22%3A%220%22%2C%22gears%22%3A%220%22%2C%22silverlight%22%3A%221%22%2C%22html5%22%3A%221%22%2C%22is_mobile%22%3A%220%22%2C%22id%22%3A%2289c9c7050a8a08307ae220e7cff94294%22%7D%2C%22session%22%3A%7B%22channel%22%3A%7B%22traffic_source%22%3A%22UNKNOWN%22%2C%22referrer%22%3A%22http%3A%2F%2Fwww.mansion.com%2F%22%2C%22custom_data%22%3A%7B%22serial%22%3A1%2C%22banner_click%22%3A%22%2C%2C%2C%2C%22%7D%7D%7D%2C%22events%22%3A%5B%7B%22type%22%3A%22page-view%22%2C%22name%22%3A%22page-view%22%2C%22local_timestamp%22%3A1348884570%2C%22custom_data%22%3A%7B%7D%7D%5D%2C%22timezone_offset%22%3A-720%7D&callback=MTSTracker.INSTANCE.response&onerror=MTSTracker.INSTANCE.onerror
+http://mts.mansion.com/mts.tracker.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
