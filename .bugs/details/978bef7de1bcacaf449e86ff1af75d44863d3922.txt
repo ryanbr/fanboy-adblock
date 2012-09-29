@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://login.live.com/login.srf?wa=wsignin1.0&ct=1348543840&rver=6.1.6206.0&sa=1&ntprob=-1&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fmail.live.com%2F%3Fowa%3D1%26owasuffix%3Dowa%252f&id=64855&snsc=1&cbcxt=mail
+
+[filters]
+https://sc.imp.live.com/content/dam/imp/surfaces/mail_signin/js/mbox.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
