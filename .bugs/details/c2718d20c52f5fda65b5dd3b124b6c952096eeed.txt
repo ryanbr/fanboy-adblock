@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ozon.ru/context/detail/id/7278122/
+
+
+[filters]
+http://bn.adblender.ru/view.gif?client=Ozon.ru&act=view&r=0.6810411946631818
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
