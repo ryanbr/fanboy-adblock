@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.2eat.co.il/
+
+[filters]
+http://www.2eat.co.il/banner/bnr2_16_14122011_152739315_1.jpg
+http://www.2eat.co.il/banner/bnr2_16_14122011_15275475_2.jpg
+http://www.2eat.co.il/banner/bnr2_20_05092012_160550110_0.swf
+http://www.2eat.co.il/banner/bnr2_20_24052012_174432255_10.jpg
+http://www.2eat.co.il/banner/bnr2_20_24072012_141407185_3.swf
+http://www.2eat.co.il/banner/bnr2_24_09092012_200659176_0.swf
+http://www.2eat.co.il/banner/bnr2_41_23072012_165928361_2.swf
+http://www.2eat.co.il/banner/bnr2_9_09092012_200836189_2.swf
+http://www.2eat.co.il/banner/bnr2_9_28082012_102930239_2.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
