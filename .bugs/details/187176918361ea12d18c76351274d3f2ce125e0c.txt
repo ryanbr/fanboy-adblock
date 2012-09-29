@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.theflexbelt.com/
+
+
+[filters]
+http://www.w3track.com/newtrk/w3track_cookies.php?op=setc&mexa=&meclid=201209-872757&mecp=93
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
