@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://ptf.com/download/iobit_unlocker/6745700/
+
+
+[filters]
+http://ptf.com/js/ptf_rc_s.js
+http://ptf.com/js/rc_banner.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
