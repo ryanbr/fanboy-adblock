@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.broadbandchoices.co.uk/
+
+
+[filters]
+http://www.cdndtl.co.uk/v-5.00/2/General/TalkTalk_HPCtakeover_background.jpg
+https://www.cdndtl.co.uk/v-5.00/2/General/TalkTalk_HPCtakeover_banner_ends4oct.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
