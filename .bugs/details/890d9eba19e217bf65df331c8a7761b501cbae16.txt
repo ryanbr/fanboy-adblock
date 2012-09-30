@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.theday.com/
+
+
+[filters]
+http://www.theday.com/Assets/images/sponsorlogos/lm100x16.gif
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
