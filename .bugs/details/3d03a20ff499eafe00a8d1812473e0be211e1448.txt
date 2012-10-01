@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pearltrees.com/
+
+
+[filters]
+http://cdn.pearltrees.com/scripts/piwik-1.7.1.js?20120926144040b
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
