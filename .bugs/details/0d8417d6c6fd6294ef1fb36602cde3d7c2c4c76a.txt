@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sciencedirect.com/science/bookseries/18748635
+
+
+[filters]
+http://aws.tracker.squidanalytics.com/js/tracker.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
