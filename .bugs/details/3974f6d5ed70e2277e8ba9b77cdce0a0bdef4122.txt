@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://login.medscape.com/login/sso/getlogin?urlCache=aHR0cDovL3d3dy5tZWRzY2FwZS5jb20vdmlld2FydGljbGUvNzcxNDk1&ac=401
+
+
+[filters]
+https://img.medscape.com/pi/1x1/pv/profreg-1x1.gif?1349089394737
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
