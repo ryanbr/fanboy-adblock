@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pc.co.il/
+
+[filters]
+http://pc.co.il/ajaxfilemanager/uploaded/759x77.swf
+http://pc.co.il/ajaxfilemanager/uploaded/Ness_Pc_307x196.swf
+http://pc.co.il/ajaxfilemanager/uploaded/l_hc_availability_639x90.swf
+http://pc.co.il/ajaxfilemanager/uploaded/l_hc_efficiency_307x61.swf
+http://www.pc.co.il/wp-content/uploads/banner309x698.swf
+http://www.pc.co.il/wp-content/uploads/daily.swf
+http://www.pc.co.il/wp-content/uploads/shonot.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
