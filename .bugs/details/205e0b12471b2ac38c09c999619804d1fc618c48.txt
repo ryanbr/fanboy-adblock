@@ -1,0 +1,23 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.netall.ru/gnn/130/574/464718.html
+
+
+[filters]
+http://b.netall.ru/h139/2/
+http://b.netall.ru/v125/
+http://b.netall.ru/v145/
+http://b.netall.ru/v155/
+http://b.netall.ru/v171/
+http://b.netall.ru/v177/
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
