@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.alleng.ru/edu/chem.htm
+
+
+[filters]
+http://adv758968.ru/files/mp3player.swf?file=http://adv758968.ru/files/bb2.mp3&startplay=true
+http://adv758968.ru/files/bb2.mp3
+http://adv758968.ru/code/message.php?adf_in=1&pl=707&vk_t=12&adv_ids=&adv_q=null
+http://adv758968.ru/code/vkshow1.php?id=707
+http://adv758968.ru/files/swfobject.js
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
