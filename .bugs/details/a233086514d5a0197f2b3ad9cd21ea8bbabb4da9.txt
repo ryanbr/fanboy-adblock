@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.expotv.com/Canon-XSi450D-Digital-SLR-Camera/1q-1dlL
+
+
+[filters]
+http://ttwbs.channelintelligence.com/?eid=203&oid=240237888&linkid=372%7C288960&uid=28164053&rgid=4234&scid=0&ctid=0&crdr=http%3A%2F%2Fcontent%2Echannelintelligence%2Ecom%2Fimages%2Fblank%2Egif%3Fy%3D0&rl=9426599_13793087&origargs=nCTID%3D0%26nSCID%3D0%26nIID%3D28164053%26nICnt%3D1%26nDCnt%3D2%26nRGID%3D4234%26sCT%3D372%257C288960%26sPCode%3D%26nStoreID%3D0%26nVStoreID%3D0%26sModelNumber%3D2756B003%26sUPC%3D013803096095%26sCCode%3DUS%26nRadius%3D15%26nColID%3D0%26nOppCnt%3D0%26sRL%3D9426599%5F13793087%26nRID%3D0%26sRnd%3DCA1NaOf9
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
