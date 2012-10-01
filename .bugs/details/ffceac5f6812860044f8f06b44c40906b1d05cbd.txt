@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.news12.com/Login/home_login?articleId=335236&position=1&news_type=news
+
+
+[filters]
+http://www.news12.com/player/js/s_code.js?clear=8
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
