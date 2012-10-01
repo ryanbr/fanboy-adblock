@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.technopark.ru/
+
+[filters]
+http://seo.adlabs.ru/tr/67/?r=http%3A//www.google.com/search%3Fq%3Drelated%3Aeldorado.ru%26hl%3Den%26safe%3Doff%26prmd%3Dimvns%26ei%3Dlz1kUIb2BtS50AHT3IHgBw%26start%3D20%26sa%3DN%26biw%3D1392%26bih%3D434/?z=http%3A//www.technopark.ru/&t=1348747028831
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
