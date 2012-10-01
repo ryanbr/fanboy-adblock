@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ivebeenthere.co.uk/places/united-kingdom/york/tips/eating
+
+
+[filters]
+http://image.guim.co.uk/Guardian/thirdparty/beenthere/hitbox.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
