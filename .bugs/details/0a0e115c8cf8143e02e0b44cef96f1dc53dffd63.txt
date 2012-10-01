@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hotelplanner.com/Search/Index.cfm?City=ottawa&InDate=09/23/2012&OutDate=09/30/2012&NumRooms=1&sc=clicktripz_shermans
+
+
+[filters]
+http://www.hotelplanner.com/TT.cfm?Type=1&PageURL=http%3A%2F%2Fwww%2Ehotelplanner%2Ecom%2FSearch%2FIndex%2Ecfm%3FCity%3Dottawa%26InDate%3D09%2F23%2F2012%26OutDate%3D09%2F30%2F2012%26NumRooms%3D1%26sc%3Dclicktripz%5Fshermans&Notes=&recache=1BF9DCD5-19B9-E77B-92AD2DF38000C559
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
