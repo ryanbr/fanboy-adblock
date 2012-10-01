@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sugarvine.com/leeds/search/location_search.asp?town=Leeds City Centre
+
+[filters]
+http://www.sugarvine.com/inc/tracking.asp?pagename=location_search.asp&folder=leeds&tvar=7972,75150,13643,23667,94860,7660,102412,7523,18440,7779,7790,76066,7778,64182,100576,48323,11816,7833,64228,13650
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
