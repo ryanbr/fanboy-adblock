@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.doctoroz.com/
+
+
+[filters]
+http://www.doctoroz.com/sites/all/themes/droz/flash/player/swf/sonyOmnitureTracker.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
