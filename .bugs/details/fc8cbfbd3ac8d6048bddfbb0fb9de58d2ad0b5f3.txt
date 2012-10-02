@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.totallyfreestuff.com/
+
+
+[filters]
+http://www.linkclicks.com/creative.asp?a=1&s=1&cs=1&C_ID=156&bgc=FFFFFF
+http://www.linkclicks.com/creative.asp?a=1&s=1&cs=2&C_ID=156
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
