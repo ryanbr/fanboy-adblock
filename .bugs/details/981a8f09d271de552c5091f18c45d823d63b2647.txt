@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mysavings.com/free-product-samples-section/
+
+
+[filters]
+http://partners.mysavings.com/42/1/21560/
+http://partners.mysavings.com/tracking/js.html?t=0&bbid=5431&ref=http%3A//forums.fanboy.co.nz/forums/viewtopic.php%3Ff%3D6%26t%3D15451
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
