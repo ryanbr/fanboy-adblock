@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.myspace.com/video/evanescence/bring-me-to-life-live-video-version/57421154
+
+[filters]
+http://cache.vindicosuite.com/xumo/swf/prod/Xumo.swf?forcefeed=http%3A//afe.specificclick.net/%3Fl%3D30791%26t%3Dx%26msd%3D2%3A2%3AUPoGyAdzrgM-NZTve9AHdW4Rv1LtdQLs2npdPLuqeKdZLbw1n9QHoJb8s9MMP3-YyQoArSZf-1_MTg2BhT_l25Ty2VWkk0GBLRQENQUvl6Y%26rnd%3D583022642&version=release&themeId=black&statusBar=false&stageW=620&stageH=349&stretch=true&maintainAspectratio=true&usage=VPAID&mute=false
+http://cdn.visiblemeasures.com/swf/as3/v4.2/vmcutility.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
