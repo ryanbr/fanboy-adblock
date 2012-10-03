@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.scan-manga.com/lecture-en-ligne/Bleach-Chapitre-509-Tenshi-Kaijin_12827.html#30.12827.378456
+
+[filters]
+# Copy your Adblock filters here
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
