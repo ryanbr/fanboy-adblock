@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://eventful.com/newyork_ny/events/fuerza-bruta-look-up-/E0-001-036912730-4@2012100320
+
+
+[filters]
+http://click.eventful.com/tools/click/url?token=1MAAxLjAAMjk2MDAAaHR0cDovL2V2ZW50ZnVsLmNvbS9pbWFnZXMvdHJhbnNwYXJlbnQuZ2lm
+
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
