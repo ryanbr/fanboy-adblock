@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.usatodayhss.com/school/friends-seminary-new-york-ny
+
+
+[filters]
+http://scor.edutrek.com/wgsltrk.php?src=tallhss&kw=NY100032315&slt=1&sit=newyork&cid=702
+http://scor.edutrek.com/wgsltrk.php?src=tallhss&kw=NY100032315&slt=2&sit=newjersey&cid=1184
+http://scor.edutrek.com/wgsltrk.php?src=tallhss&kw=NY100032315&slt=3&sit=newyork&cid=651
+http://scor.edutrek.com/wgsltrk.php?src=tallhss&kw=NY100032315&slt=4&sit=newjersey&cid=527
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
