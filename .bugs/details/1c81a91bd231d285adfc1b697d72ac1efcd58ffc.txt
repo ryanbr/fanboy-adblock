@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.shopwiki.com/d/96940/284928271/Black-Relief-Valve,-Urinals
+
+
+[filters]
+https://www.shopwiki.com/banner_iframe/216925632/3/300/250/_home_garden/Black-Relief-Valve%2C-Urinals
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
