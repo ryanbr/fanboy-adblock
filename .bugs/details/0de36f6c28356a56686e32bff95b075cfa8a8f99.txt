@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.enjoydressup.com/pet-games/chinchilla-pet-care-5127.html
+
+
+[filters]
+http://googleads.g.doubleclick.net/crossdomain.xml
+http://googleads.g.doubleclick.net/pagead/ads?ad_type=text&adsafe=high&channel=7688191803%2BEndcap&client=ca-games-pub-9766356536948632&correlator=1349259337778&dt=1349259337863&flash=11.4.402.265&frm=0&num_ads=3&output=xml_vast2&ref=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D8%26t%3D15459&sdkv=2.11.30&sz=640x433&t_pyv=allow&u_ah=1040&u_asa=1&u_aw=1920&u_cd=24&u_h=1080&u_his=1&u_java=true&u_nmime=93&u_nplug=9&u_tz=780&u_w=1920&unviewed_position_start=1&url=http%3A%2F%2Fwww.enjoydressup.com%2Fpet-games%2Fchinchilla-pet-care-5127.html&video_doc_id=5127adDuration%3D15000&video_product_type=4&video_url_to_fetch=http%3A%2F%2Fwww.enjoydressup.com%2Fdesc%2Fchinchilla-pet-care-5127.html&videoad_start_delay=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
