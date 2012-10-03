@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://topalternate.com/mediagra.com/
+
+
+[filters]
+http://topalternate.com/assets/sponsored_links-bea25f1229c7162eb34389f473501a0e.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
