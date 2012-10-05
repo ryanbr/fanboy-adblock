@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pandora.com/station/play/1116405843313244585
+
+
+[filters]
+http://www.pandora.com/radio/util/mediaserverPublicRedirect.jsp?file=/in-tuner/2012/08/PaneraTurkeyCranberryPaniniDanCatering30_PRBR00400000_audio_checked.mp3
+http://www.pandora.com/radio/util/mediaserverPublicRedirect.jsp?file=/in-tuner/2012/09/QSRA20260000_9.17_to_11.10_audio_checked.mp3
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
