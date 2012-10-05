@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.own3d.tv/Vman7
+
+[filters]
+http://static.llnw.own3d.tv/lr/alienware/q412/M17x_nvidia_UK.flv
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
