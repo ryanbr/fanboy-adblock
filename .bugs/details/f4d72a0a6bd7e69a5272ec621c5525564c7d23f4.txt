@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.overstock.com/Clothing-Shoes/Espadrille-Childrens-Slippers/2947578/product.html
+
+
+[filters]
+http://www.overstock.com/boomerang?v=0.9.1340821214&u=http%3A%2F%2Fwww.overstock.com%2FClothing-Shoes%2FEspadrille-Childrens-Slippers%2F2947578%2Fproduct.html&rt.start=navigation&rt.bstart=1349524445853&rt.end=1349524446932&t_done=1867&t_resp=593&t_page=1274&r=http%3A%2F%2Fwww.overstock.com%2FClothing-Shoes%2FEspadrille-Childrens-Slippers%2F2947578%2Fproduct.html&r2=http%3A%2F%2Fforums.fanboy.co.nz%2Fforums%2Fviewtopic.php%3Ff%3D6%26t%3D15532&t_other=boomerang%7C0%2Cboomr_fb%7C788%2Ct_domloaded%7C1504
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
