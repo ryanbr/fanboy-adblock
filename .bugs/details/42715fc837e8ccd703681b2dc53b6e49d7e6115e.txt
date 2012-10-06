@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://womansday.ninemsn.com.au/celebrityheadlines/8409750/michelle-bridges-meet-my-secret-husband
+
+
+[filters]
+http://shared.9msn.com.au/share/com/js/social/sharebar.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
