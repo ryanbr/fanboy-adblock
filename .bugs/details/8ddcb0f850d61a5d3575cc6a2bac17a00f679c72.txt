@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://minnesota.hometownlocator.com/mn/dodge/poolers-mobile-home-park.cfm
+
+[filters]
+http://img.icbdr.com/images/pixel.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
