@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.linuxmobile.org/atrix
+
+
+[filters]
+http://8854lhq122fnoqritdc86frp93052sdv-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.linuxmobile.org/ad_footer.xml&container=enterprise&view=default&lang=en&country=ALL&sanitize=0&v=ca50c6c8b43e09ca&libs=core:dynamic-height:setprefs:settitle&mid=164&parent=http://www.linuxmobile.org/atrix#st=e%3DAIHE3cBwodRG9RGkyVYW4dN5sP%252FZItERYjT%252FlbxiDPtfXC7lGeCpMDneDtkSGqymid3Qjlo5SiuAkWr%252BNpNtmPkKKHfoUzFGwAnsgDFjJMrcUqf6zbiyF2mG%252B6iWZx%252B%252F0EjH6gKp%252Fp1j%26c%3Denterprise&rpctoken=-3062963269981828197
+http://a3sv5sv6i7sj235rpk4pgck032h2sfdq-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.linuxmobile.org/ad.xml&container=enterprise&view=default&lang=en&country=ALL&sanitize=0&v=cb8d577db5d11667&libs=core:dynamic-height:setprefs:settitle&mid=184&parent=http://www.linuxmobile.org/atrix#st=e%3DAIHE3cCeXPJQBOCPyjQIT%252BzRv57r2JTvBDQjweKB%252FV%252FVuhsn6QD3EzJpJ%252BV56YM5XB7HCouERpQRLGXXgNNOL2UJjzHVqAs1P6sK3H0fB424lShs1C8fG7JJZFZ93vZosL9S0IWJreVz%26c%3Denterprise&rpctoken=693975053287689034
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
