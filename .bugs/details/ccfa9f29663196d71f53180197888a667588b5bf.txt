@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.furaffinity.net/
+
+
+[filters]
+http://ox.furaffinity.net/img/349cc6fdf58d549e5ad909fb26d03e13.gif
+http://ox.furaffinity.net/img/4d38c73c310efe6959949cc3e817f089.gif
+http://ox.furaffinity.net/img/9a60272f828781bcef575ebad6af6771.jpg
+http://ox.furaffinity.net/img/b89aff34625be320b28ddbb656cd161f.jpg
+http://ox.furaffinity.net/js/fab_json.php?zones=1%7C2%7C3%7C4%7C5%7C6%7C7%7C8&source=&block=1&loc=http%3A//www.furaffinity.net/&charset=UTF-8
+http://ox.furaffinity.net/js/spcjs_json.php?id=1&block=1
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
