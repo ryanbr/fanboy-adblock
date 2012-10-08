@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.webupd8.org/2009/12/setting-up-transmission-remote-gui-in.html
+
+
+[filters]
+http://www.netupd8.com/webupd8/2.0/ads/raspberry-ad.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
