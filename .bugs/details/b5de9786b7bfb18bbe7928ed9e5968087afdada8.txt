@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://cmdrtaco.net/2012/10/15-years-after-the-first-post/
+
+
+[filters]
+http://gplusapi.appspot.com/a.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
