@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sears.com/shc/s/ShoppingCartDisplayCmd?isCartValidated=true&catalogId=12605&notShippableItems=43324964&orderId=409986970&storeName=Sears&appID=&storeId=10153&searsRnpEnabled=false&ddkey=http:ProductOptionsOrderItemAddCmd
+
+[filters]
+http://c.shld.net/10040130/js/s_code.js
+http://c.shld.net/10040130/ue/home/mbox_09.js
+
+[other]
+Adding or updating the cart doesn't work
+
+
+[comments]
+nitrox
