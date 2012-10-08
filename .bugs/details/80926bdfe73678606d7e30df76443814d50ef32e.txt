@@ -1,0 +1,15 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://j.gs/1Pxx
+
+[filters]
+http://j.gs/omnigy7425325410.swf
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
