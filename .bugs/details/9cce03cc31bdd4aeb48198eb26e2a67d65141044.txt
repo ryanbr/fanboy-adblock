@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.babynamewizard.com/baby-name/girl/enora
+
+
+[filters]
+http://www.babynamewizard.com/sites/default/ads/block_31.html
+http://www.babynamewizard.com/sites/default/ads/block_7.html
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
