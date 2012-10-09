@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thehawkeye.com/
+
+
+[filters]
+http://btn.php.mediaspanonline.com/inc.php?uri=/&bannerPositions=StayOnTopBox,adLeaderboard_728x90,ad234x90,logoBannerTop_390x80,adBannerBreaking_520x65,adVertBanLeft1_120x240,adVertBanSearch_120x240,adVertBanLeft1_160x600,adVertBanRight1_160x600,adMedRect_300x250,adLeaderboardBottom_728x90,video
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
