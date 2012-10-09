@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.americantowns.com/ia/burlington
+
+
+[filters]
+http://offerssyndication.appspot.com/js/americantowns/homepage_475.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
