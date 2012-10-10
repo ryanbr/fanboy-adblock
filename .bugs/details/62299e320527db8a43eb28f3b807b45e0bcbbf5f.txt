@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.subtitlesz.com/download/big-day-s01e02-the-world-according-to-garf-hdtv-xvid-xor-srt-id178562
+
+[filters]
+http://www.emuleday.com/cpxt_pab2728.php
+http://www.emuleday.com/cpxt_pab300.php
+
+
+
+[other]
+http://www.emuleday.com/
+
+[comments]
+fanboy
