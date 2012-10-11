@@ -71,8 +71,8 @@ my $elemfilter = createElemfilter($list) unless $nocss;
 
 
 # Warn if a file won't be generated
-print "Urlfilter won't be generated!\n" unless $urlfilter;
-print "CSS won't be generated!\n" unless $elemfilter;
+# print "Urlfilter won't be generated!\n" unless $urlfilter;
+# print "CSS won't be generated!\n" unless $elemfilter;
 
 
 # Write generated files
