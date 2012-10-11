@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://m.quickmeme.com/meme/3raohe/
+
+
+[filters]
+http://ads.admarvel.com/fam/javascriptGetAd.php?partner_id=a6466b7b822766d5&site_id=21004&version=1.5&language=javascript&format=wap&cb=93663029532
+http://ads.admarvel.com/fam/javascriptGetAd.php?partner_id=a6466b7b822766d5&site_id=36065&version=1.5&language=javascript&format=wap&cb=97834381321
+
+[other]
+set user agent to firefox mobile.
+
+[comments]
+nitrox
