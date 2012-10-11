@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://m.techcrunch.com/2012/10/11/like-alibaba-but-safer-yc-backed-hd-trade-services-wants-to-become-the-primary-platform-for-goods-traders-in-china-and-beyond/
+
+
+[filters]
+http://m.techcrunch.com/images/techcrunch/en/US/icn_Sharing-Sprite.png
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
