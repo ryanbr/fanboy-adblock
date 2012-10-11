@@ -1,99 +1,89 @@
 #!/bin/bash
 #
-# Fanboy Adblock list Firefox-Opera bash script v2.0 (19/08/2012)
+# Fanboy Adblock list Firefox-Opera bash script v2.0 (11/10/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
-# 2.0 Re-write script, cleaner and better, removed lots of cruft.
+# 3.0 Re-write script, cleaner and better, removed lots of cruft.
 
 # Variables for directorys
 #
-MAINDIR="/tmp/Ramdisk/www"
-MAINDIROPERA="/tmp/Ramdisk/www/opera/test/"
+export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
+export NICE="nice -n 19"
+export TAC="/usr/bin/tac"
+export CAT="/bin/cat"
+export MAINDIR="/tmp/Ramdisk/www/adblock"
+export SPLITDIR="/tmp/Ramdisk/www/adblock/split/test"
+export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
+export TESTDIR="/tmp/work"
+export DATE="`date`"
+export ADDCHECKSUM="nice -n 19 perl $HGSERV/scripts/addChecksum.pl"
+export LOGFILE="/etc/crons/log.txt"
+export HG="/usr/local/bin/hg"
+export SHA256SUM="/usr/bin/sha256sum"
+export TWIDGE="/usr/bin/twidge update"
+export IEDIR="/tmp/work/ie"
+export IESUBS="/tmp/work/ie/subscriptions"
+export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
+export PERL="/usr/bin/perl"
 
-GOOGLEDIR="/tmp/hgstuff/fanboy-adblock-list"
-OPERATEST="/tmp/ramdisk/opera/test/"
-TESTDIR="/tmp/work"
-
-ZIP="nice -n 19 /usr/local/bin/7za"
-NICE="nice -n 19"
-DATE="`date`"
-PERL="nice -n 19 /usr/bin/perl"
-
-
-# Make Ramdisk.
+# Check mirror dir exists and its not a symlink
 #
-$GOOGLEDIR/scripts/ramdisk.sh
-
-if [ ! -d "/tmp/work/" ]; then
-  rm -rf /tmp/work/
-  mkdir /tmp/work; chmod 777 /tmp/work
-  mount -t tmpfs -o size=30M tmpfs /tmp/work/
-  cp -f $MAINDIR/addChecksum.pl $TESTDIR
-  cp -f $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR
-  cp -f $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR
-  mkdir /tmp/work/opera; chmod 777 /tmp/work/opera
-  mkdir /tmp/work/opera/test; chmod 777 /tmp/work/opera/test
-fi
-
-# Our Opera test Dirstuff (Temp DIR)
-#
-if [ ! -d "/tmp/work/opera/test" ]; then
-  mkdir /tmp/work/opera/test; chmod 777 /tmp/work/opera/test
-fi
-
-if [ ! -d "$TESTDIR/createOperaFilters_new.pl" ]; then
-   cp -f $GOOGLEDIR/scripts/createOperaFilters_new.pl $TESTDIR
-fi
-
-if [ ! -d "$TESTDIR/addChecksum-opera.pl" ]; then
-   cp -f $GOOGLEDIR/scripts/addChecksum-opera.pl $TESTDIR
+if [ -d "/var/hgstuff/fanboy-adblock-list" ] && [ -h "/tmp/hgstuff" ]; then
+    export HGSERV="/var/hgstuff/fanboy-adblock-list"
+    echo "HGSERV=/var/hgstuff/fanboy-adblock-list"
+    cd /tmp/hgstuff/fanboy-adblock-list
+    $NICE $HG pull
+    $NICE $HG update
+  else
+    # If not, its stored here
+    export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
+    echo "HGSERV=/tmp/hgstuff/fanboy-adblock-list"
+    cd /tmp/hgstuff/fanboy-adblock-list
+    $NICE $HG pull
+    $NICE $HG update
 fi
 
 # Check that the www server is up before proceding
 #
-if [ ! -d "/tmp/Ramdisk/www/opera/test/" ]; then
+if [ ! -d "/tmp/Ramdisk/www/adblock" ]; then
 
   # Fanboy-Adblock
   #
-  $PERL $TESTDIR/createOperaFilters_new.pl --nocss $MAINDIR/fanboy-adblock.txt --urlfilter $OPERATEST/fanboy-adblock.ini
-  $PERL $TESTDIR/addChecksum-opera.pl $OPERATEST/fanboy-adblock.ini
-  cp -f $OPERATEST/fanboy-adblock.ini $OPERATEST/fanboy-adblock.ini2
-  $ZIP a -mx=9 -y -tgzip $OPERATEST/fanboy-adblock.ini.gz $OPERATEST/fanboy-adblock.ini2 > /dev/null
+  $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl --nocss $MAINDIR/fanboy-adblock.txt --urlfilter $MAINDIR/opera/urlfilter-adblock.bak
 
-  # Fanboy-Tracking (merged)
+  # Fanboy-Tracking
   #
-  $PERL $TESTDIR/createOperaFilters_new.pl --nocss $MAINDIR/adblock/r/fanboy+tracking.txt --urlfilter $OPERATEST/fanboy-tracking.ini
-  $PERL $TESTDIR/addChecksum-opera.pl $OPERATEST/fanboy-tracking.ini
-  cp -f $OPERATEST/fanboy-tracking.ini $OPERATEST/fanboy-tracking.ini2
-  $ZIP a -mx=9 -y -tgzip $OPERATEST/fanboy-tracking.ini.gz $OPERATEST/fanboy-tracking.ini2 > /dev/null
+  $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl --nocss $MAINDIR/fanboy-tracking.txt --urlfilter $MAINDIR/opera/urlfilter-tracking.bak
 
-  # Fanboy-Complete
+  # Include Opera urlfilter header file
   #
-  $PERL $TESTDIR/createOperaFilters_new.pl --nocss $MAINDIR/adblock/r/fanboy-complete.txt --urlfilter $OPERATEST/fanboy-complete.ini
-  $PERL $TESTDIR/addChecksum-opera.pl $OPERATEST/fanboy-complete.ini
-  cp -f $OPERATEST/fanboy-complete.ini $OPERATEST/fanboy-complete.ini2
-  $ZIP a -mx=9 -y -tgzip $OPERATEST/fanboy-complete.ini.gz $OPERATEST/fanboy-complete.ini2 > /dev/null
+  $CAT $HGSERV/opera/urlfilter-header.txt $MAINDIR/opera/urlfilter-adblock.bak > $MAINDIR/opera/urlfilter-adblock.bak2
+  $CAT $HGSERV/opera/urlfilter-header.txt $MAINDIR/opera/urlfilter-tracking.bak > $MAINDIR/opera/urlfilter-tracking.bak2
 
-  # Fanboy-Ultimate
+  # Remove empty lines
   #
-  $PERL $TESTDIR/createOperaFilters_new.pl --nocss $MAINDIR/adblock/r/fanboy-ultimate.txt --urlfilter $OPERATEST/fanboy-ultimate.ini
-  $PERL $TESTDIR/addChecksum-opera.pl $OPERATEST/fanboy-ultimate.ini
-  cp -f $OPERATEST/fanboy-ultimate.ini $OPERATEST/fanboy-ultimate.ini2
-  $ZIP a -mx=9 -y -tgzip $OPERATEST/fanboy-ultimate.ini.gz $OPERATEST/fanboy-ultimate.ini2 > /dev/null
+  sed -i -e '/^$/d' $MAINDIR/opera/urlfilter-adblock.bak2
+  sed -i -e '/^$/d' $MAINDIR/opera/urlfilter-tracking.bak2
 
-  # Copy over files to webserver
+  # Checksums
   #
-  cp -rf $OPERATEST/* $MAINDIROPERA
+  $PERL $HGSERV/scripts/addChecksum-opera.pl $MAINDIR/opera/urlfilter-adblock.bak2
+  $PERL $HGSERV/scripts/addChecksum-opera.pl $$MAINDIR/opera/urlfilter-tracking.bak2
 
-  # Remove any dead files afterwards
+  # GZIP
   #
-  if [ ! -d "$OPERATEST" ]; then
-     rm -rf $OPERATEST/*
-  fi
+  cp -f $MAINDIR/opera/urlfilter-adblock.bak2 $MAINDIR/opera/urlfilter.ini
+  cp -f $$MAINDIR/opera/urlfilter-tracking.bak2 $MAINDIR/opera/complete/urlfilter.ini
+  $ZIP $MAINDIR/opera/urlfilter.ini.gz $MAINDIR/opera/urlfilter-adblock.bak2 > /dev/null
+  $ZIP $MAINDIR/opera/complete/urlfilter.ini.gz $$MAINDIR/opera/urlfilter-tracking.bak2 > /dev/null
+
+  # Remove Backup files
+  #
+  rm -rf $MAINDIR/opera/urlfilter-tracking.bak* $MAINDIR/opera/urlfilter-adblock.bak*
 
 fi
 
