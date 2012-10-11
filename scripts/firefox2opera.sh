@@ -53,16 +53,21 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
 
   # Fanboy-Adblock
   #
-  $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl --nocss $MAINDIR/fanboy-adblock.txt --urlfilter $MAINDIR/opera/urlfilter-adblock.bak
+  $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl --nocss $MAINDIR/fanboy-adblock.txt --urlfilter $MAINDIR/opera/urlfilter-adblock.bak --nocomments
 
   # Fanboy-Tracking
   #
-  $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl --nocss $MAINDIR/fanboy-tracking.txt --urlfilter $MAINDIR/opera/urlfilter-tracking.bak
+  $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl --nocss $MAINDIR/fanboy-tracking.txt --urlfilter $MAINDIR/opera/urlfilter-tracking.bak --nocomments
+
+  # Because Tracking list is merged with Adblock, remove the top 5 lines
+  #
+  sed -i -e '1,5d' $MAINDIR/opera/urlfilter-tracking.bak
 
   # Include Opera urlfilter header file
   #
   $CAT $HGSERV/opera/urlfilter-header.txt $MAINDIR/opera/urlfilter-adblock.bak > $MAINDIR/opera/urlfilter-adblock.bak2
-  $CAT $HGSERV/opera/urlfilter-header.txt $MAINDIR/opera/urlfilter-tracking.bak > $MAINDIR/opera/urlfilter-tracking.bak2
+  # Adblock+Tracking
+  $CAT $HGSERV/opera/urlfilter-header.txt $MAINDIR/opera/urlfilter-adblock.bak $MAINDIR/opera/urlfilter-tracking.bak > $MAINDIR/opera/urlfilter-tracking.bak2
 
   # Remove empty lines
   #
@@ -77,9 +82,14 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
   # GZIP
   #
   cp -f $MAINDIR/opera/urlfilter-adblock.bak2 $MAINDIR/opera/urlfilter.ini
-  cp -f $$MAINDIR/opera/urlfilter-tracking.bak2 $MAINDIR/opera/complete/urlfilter.ini
+  cp -f $MAINDIR/opera/urlfilter-tracking.bak2 $MAINDIR/opera/complete/urlfilter.ini
+
+  # Clear old files first
+  #
+  rm -rf $MAINDIR/opera/urlfilter.ini.gz $MAINDIR/opera/complete/urlfilter.ini.gz
+
   $ZIP $MAINDIR/opera/urlfilter.ini.gz $MAINDIR/opera/urlfilter-adblock.bak2 > /dev/null
-  $ZIP $MAINDIR/opera/complete/urlfilter.ini.gz $$MAINDIR/opera/urlfilter-tracking.bak2 > /dev/null
+  $ZIP $MAINDIR/opera/complete/urlfilter.ini.gz $MAINDIR/opera/urlfilter-tracking.bak2 > /dev/null
 
   # Remove Backup files
   #
