@@ -1,0 +1,9 @@
+; Fanboy's Adblock list (Opera)
+; Checksum: y0H3AKdVydST5LR1/Pl4QA
+;
+; Linux: ~/.opera/
+; OSX: /Users/<username>/Library/Preferences/Opera Preferences/
+; save this urlfilter.ini file into,
+; Updated: 10 Oct 2012
+; Vista: C:\Users\<username>\AppData\Roaming\Opera\Opera\
+; XP: C:\Documents and Settings\...\Application Data\Opera\Opera\
