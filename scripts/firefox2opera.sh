@@ -49,7 +49,7 @@ fi
 
 # Check that the www server is up before proceding
 #
-if [ ! -d "/tmp/Ramdisk/www/adblock" ]; then
+if [ -d "/tmp/Ramdisk/www/adblock" ]; then
 
   # Fanboy-Adblock
   #
@@ -72,7 +72,7 @@ if [ ! -d "/tmp/Ramdisk/www/adblock" ]; then
   # Checksums
   #
   $PERL $HGSERV/scripts/addChecksum-opera.pl $MAINDIR/opera/urlfilter-adblock.bak2
-  $PERL $HGSERV/scripts/addChecksum-opera.pl $$MAINDIR/opera/urlfilter-tracking.bak2
+  $PERL $HGSERV/scripts/addChecksum-opera.pl $MAINDIR/opera/urlfilter-tracking.bak2
 
   # GZIP
   #
