@@ -26,17 +26,18 @@ use feature 'unicode_strings';
 
 
 # Set defaults
-my $urlfilterfile = my $cssfile = my $nourlfilter = my $nocss = my $newsyntax = my $nocomments = '';
+my $urlfilterfile = my $cssfile = my $nourlfilter = my $nocss = my $newsyntax = my $nocomments = my $everythingisfirstparty = '';
 my @customcssfile;
 
 # Get command line options
-GetOptions ('urlfilter=s'       => \$urlfilterfile,
-            'css=s'             => \$cssfile,
-            'addcustomcss=s{,}' => \@customcssfile,
-            'nourlfilter'       => \$nourlfilter,
-            'nocss'             => \$nocss,
-            'new'               => \$newsyntax,
-            'nocomments'        => \$nocomments)
+GetOptions ('urlfilter=s'             => \$urlfilterfile,
+            'css=s'                   => \$cssfile,
+            'addcustomcss=s{,}'       => \@customcssfile,
+            'nourlfilter'             => \$nourlfilter,
+            'nocss'                   => \$nocss,
+            'new'                     => \$newsyntax,
+            'nocomments'              => \$nocomments,
+            'everythingisfirstparty'  => \$everythingisfirstparty)
   or die pod2usage(" ");
 
 
@@ -71,8 +72,8 @@ my $elemfilter = createElemfilter($list) unless $nocss;
 
 
 # Warn if a file won't be generated
-# print "Urlfilter won't be generated!\n" unless $urlfilter;
-# print "CSS won't be generated!\n" unless $elemfilter;
+print "Urlfilter won't be generated!\n" if (!$urlfilter and !$nourlfilter);
+print "CSS won't be generated!\n" if (!$elemfilter and !$nocss);
 
 
 # Write generated files
@@ -100,6 +101,11 @@ sub createUrlfilter
   $list =~ s/^\[.+\]\n//m;    # Remove ABP header
   $list =~ s/^@@.*\n?//gm;    # Remove whitelists
   $list =~ s/^.*##.*\n?//gm;    # Remove element filters
+
+  $list =~ s/^(.*[^\*])(\*?)\$script$/$1\*\.js\*/gm;    # Convert filters with script type
+  $list =~ s/^(.*[^\*])(\*?)\$stylesheet$/$1\*\.css\*/gm;    # Convert filters with stylesheet type
+
+  $list =~ s/^(.*)\$third-party$/$1/gm if $everythingisfirstparty;
   $list =~ s/^.*\$.*\n?//gm;    # Remove filters with types
 
   $list =~ s/^!/;/gm;    # Convert comments
@@ -126,6 +132,7 @@ sub createUrlfilter
   $whitelists =~ s/^\|\|//gm;    # Remove vertical bars
   $whitelists =~ s/\^$//gm;    # Remove ending caret
   $whitelists =~ s/\^/\//gm;    # Convert caret to slash
+  $whitelists =~ s/^.*\$elemhide.*\n?//gm;    # Remove element whitelists
   $whitelists =~ s/\$.*//gm;    # Remove everything after a dollar sign
   $whitelists =~ s/^\*//gm;    # Remove beginning asterisk
   $whitelists =~ s/\*$//gm;    # Remove ending asterisk
@@ -265,6 +272,7 @@ createOperaFilters.pl [file] [options]
    --addcustomcss [file ...] - specify custom CSS file(s) to combine with converted CSS file
    --new - use new syntax
    --nocomments - don't put comments in generated files
+   --everythingisfirstparty - parse third party filters as first party filters
    --help - brief help message
 
 
