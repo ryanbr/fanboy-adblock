@@ -53,11 +53,11 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
 
   # Fanboy-Adblock
   #
-  $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl --nocss $MAINDIR/fanboy-adblock.txt --urlfilter $MAINDIR/opera/urlfilter-adblock.bak --nocomments --everythingisfirstparty
+  $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl $MAINDIR/fanboy-adblock.txt --urlfilter $MAINDIR/opera/urlfilter-adblock.bak --nocomments --everythingisfirstparty --nocss --ignorewhitelist
 
   # Fanboy-Tracking
   #
-  $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl --nocss $MAINDIR/fanboy-tracking.txt --urlfilter $MAINDIR/opera/urlfilter-tracking.bak --nocomments --everythingisfirstparty
+  $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl $MAINDIR/fanboy-tracking.txt --urlfilter $MAINDIR/opera/urlfilter-tracking.bak --nocomments --everythingisfirstparty --nocss --ignorewhitelist
 
   # Because Tracking list is merged with Adblock, remove the top 5 lines
   #
