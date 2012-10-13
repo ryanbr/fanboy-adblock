@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hookedgamers.com/pc/serious_sam_3_bfe_jewel_of_the_nile.html
+
+
+[filters]
+http://www.hookedgamers.com/modules/ad/160x80.php
+http://www.hookedgamers.com/modules/ad/network.php
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
