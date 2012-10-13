@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://themoscownews.com/russia/20111202/189253949.html
+
+[filters]
+http://files.goodadvert.ru/ga_3.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
