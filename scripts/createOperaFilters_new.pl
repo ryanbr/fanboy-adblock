@@ -26,7 +26,7 @@ use feature 'unicode_strings';
 
 
 # Set defaults
-my $urlfilterfile = my $cssfile = my $nourlfilter = my $nocss = my $newsyntax = my $nocomments = my $everythingisfirstparty = '';
+my $urlfilterfile = my $cssfile = my $nourlfilter = my $nocss = my $newsyntax = my $nocomments = my $everythingisfirstparty = my $ignorewhitelist = '';
 my @customcssfile;
 
 # Get command line options
@@ -37,7 +37,8 @@ GetOptions ('urlfilter=s'             => \$urlfilterfile,
             'nocss'                   => \$nocss,
             'new'                     => \$newsyntax,
             'nocomments'              => \$nocomments,
-            'everythingisfirstparty'  => \$everythingisfirstparty)
+            'everythingisfirstparty'  => \$everythingisfirstparty,
+            'ignorewhitelist'         => \$ignorewhitelist)
   or die pod2usage(" ");
 
 
@@ -96,7 +97,7 @@ sub createUrlfilter
     $oldmodified = $1 if $oldlist =~ m/((Last modified|Updated):.*)$/mi;
   }
 
-  my $whitelists = join("\n", ($list =~ m/^@@.*$/gm));    # Collect whitelists
+  my $whitelists = join("\n", ($list =~ m/^@@.*$/gm)) unless $ignorewhitelist;    # Collect whitelists
 
   $list =~ s/^\[.+\]\n//m;    # Remove ABP header
   $list =~ s/^@@.*\n?//gm;    # Remove whitelists
@@ -126,37 +127,41 @@ sub createUrlfilter
 
 
   # Parse whitelists
-  my $urlfilter = my $matcheswhitelist = '';
-
-  $whitelists =~ s/^@@//gm;    # Remove whitelist symbols
-  $whitelists =~ s/^\|\|//gm;    # Remove vertical bars
-  $whitelists =~ s/\^$//gm;    # Remove ending caret
-  $whitelists =~ s/\^/\//gm;    # Convert caret to slash
-  $whitelists =~ s/^.*\$elemhide.*\n?//gm;    # Remove element whitelists
-  $whitelists =~ s/\$.*//gm;    # Remove everything after a dollar sign
-  $whitelists =~ s/^\*//gm;    # Remove beginning asterisk
-  $whitelists =~ s/\*$//gm;    # Remove ending asterisk
-
-  foreach my $line (split(/\n/, $list))
+  unless ($ignorewhitelist)
   {
-    # Remove filters that require whitelists
-    my $tmpline = $line;
-    unless ($line =~ m/^;/)
+    my $urlfilter = my $matcheswhitelist = '';
+
+    $whitelists =~ s/^@@//gm;    # Remove whitelist symbols
+    $whitelists =~ s/^\|\|//gm;    # Remove vertical bars
+    $whitelists =~ s/\^$//gm;    # Remove ending caret
+    $whitelists =~ s/\^/\//gm;    # Convert caret to slash
+    $whitelists =~ s/^.*\$elemhide.*\n?//gm;    # Remove element whitelists
+    $whitelists =~ s/\$.*//gm;    # Remove everything after a dollar sign
+    $whitelists =~ s/^\*//gm;    # Remove beginning asterisk
+    $whitelists =~ s/\*$//gm;    # Remove ending asterisk
+
+    foreach my $line (split(/\n/, $list))
     {
-      $tmpline =~ s/^\|\|//;    # Remove pipes
-      $tmpline =~ s/\^$//;    # Remove ending caret
-      $tmpline =~ s/\^/\//;    # Convert caret to slash
-      $tmpline =~ s/\$.*//;    # Remove everything after a dollar sign
-      $tmpline =~ s/^\*//;    # Remove beginning asterisk
-      $tmpline =~ s/\*$//;    # Remove ending asterisk
+      # Remove filters that require whitelists
+      my $tmpline = $line;
+      unless ($line =~ m/^;/)
+      {
+        $tmpline =~ s/^\|\|//;    # Remove pipes
+        $tmpline =~ s/\^$//;    # Remove ending caret
+        $tmpline =~ s/\^/\//;    # Convert caret to slash
+        $tmpline =~ s/\$.*//;    # Remove everything after a dollar sign
+        $tmpline =~ s/^\*//;    # Remove beginning asterisk
+        $tmpline =~ s/\*$//;    # Remove ending asterisk
 
-      $matcheswhitelist = 1 if (($tmpline =~ m/\Q$whitelists\E/gmi) or ($whitelists =~ m/\Q$tmpline\E/gmi));
+        $matcheswhitelist = 1 if (($tmpline =~ m/\Q$whitelists\E/gmi) or ($whitelists =~ m/\Q$tmpline\E/gmi));
+      }
+
+      $urlfilter = $urlfilter."$line\n" unless $matcheswhitelist;
+      $matcheswhitelist = '';
     }
-
-    $urlfilter = $urlfilter."$line\n" unless $matcheswhitelist;
-    $matcheswhitelist = '';
-  }
   $list = $urlfilter;
+  }
+
 
   return '' if ((scalar(split(m/^(?!;|$)/m,$list)) - 1) < 1);   # Return empty list if it doesn't have anything but comments
 
@@ -273,6 +278,7 @@ createOperaFilters.pl [file] [options]
    --new - use new syntax
    --nocomments - don't put comments in generated files
    --everythingisfirstparty - parse third party filters as first party filters
+   --ignorewhitelist - don't parse whitelists
    --help - brief help message
 
 
