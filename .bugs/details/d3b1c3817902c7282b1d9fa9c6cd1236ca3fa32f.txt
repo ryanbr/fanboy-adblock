@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forums.penny-arcade.com/discussion/137807/serious-sam-3-bfe-jewel-of-the-nile-dlc-details-released/p7
+
+
+[filters]
+http://autostatic-cl1.vanilladev.com/analytics.vanillaforums.com/applications/vanillastats/js/track.min.js?v=1.0.1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
