@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.filesin.com/91EED280249/41D8CD98F091EED280249/Sandboxie-3.74.rar.html
+
+
+[filters]
+http://www.garedaonline.com/images/banner_728-90.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
