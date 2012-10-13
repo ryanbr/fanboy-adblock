@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.veidt.com/?p=3257
+
+[filters]
+http://i485.photobucket.com/albums/rr211/Veidt/ad_gif_2_rockethub.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
