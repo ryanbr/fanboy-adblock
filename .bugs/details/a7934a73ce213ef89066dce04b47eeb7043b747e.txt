@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.co-optimus.com/article/9038/serious-sam-3-bfe-s-jewel-of-the-nile-dlc-out-on-october-16th.html
+[filters]
+http://ads.vntsm.com/ttj?id=852735&cb=334925224
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
