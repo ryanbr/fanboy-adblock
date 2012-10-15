@@ -1,0 +1,26 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://apps.facebook.com/theguardian/society/2012/oct/12/husband-rapist-shannon-moroney-book
+
+[filters]
+https://www.facebook.com/plugins/like.php?action=recommend&api_key=180444840287&channel_url=https%3A%2F%2Fs-static.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D11%23cb%3Df15a561f642f4ca%26origin%3Dhttps%253A%252F%252Fgu-facebook.appspot.com%252Ff2d95ffc801e42c%26domain%3Dgu-facebook.appspot.com%26relation%3Dparent.parent&colorscheme=light&extended_social_context=false&href=http%3A%2F%2Fgu.com%2Fp%2F3b29y&layout=box_count&locale=en_US&node_type=link&sdk=joey&send=true&show_faces=false&width=100
+https://www.facebook.com/plugins/like.php?api_key=180444840287&channel_url=https%3A%2F%2Fs-static.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D11%23cb%3Df377e356bddeea4%26origin%3Dhttps%253A%252F%252Fgu-facebook.appspot.com%252Ff2d95ffc801e42c%26domain%3Dgu-facebook.appspot.com%26relation%3Dparent.parent&colorscheme=light&extended_social_context=false&href=%2F%2Fwww.facebook.com%2Fsocietyguardian&layout=button_count&locale=en_US&node_type=link&sdk=joey&send=false&show_faces=false&width=90
+https://www.facebook.com/plugins/facepile.php?href=http%3A%2F%2Fwww.guardian.co.uk%2Fscience%2F2012%2Foct%2F14%2Fchildhood-stimulation-key-brain-development&action=news.reads&max_rows=1&width=200&app_id=180444840287&locale=en_US&sdk=joey&channel=https%3A%2F%2Fs-static.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D11%23cb%3Df3c37d7b0c8ced%26origin%3Dhttps%253A%252F%252Fgu-facebook.appspot.com%252Ff2d95ffc801e42c%26domain%3Dgu-facebook.appspot.com%26relation%3Dparent.parent
+https://www.facebook.com/plugins/facepile.php?href=http%3A%2F%2Fwww.guardian.co.uk%2Fsociety%2F2012%2Foct%2F12%2Fhusband-rapist-shannon-moroney-book&action=news.reads&max_rows=1&width=200&app_id=180444840287&locale=en_US&sdk=joey&channel=https%3A%2F%2Fs-static.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D11%23cb%3Df34338c4cac43f4%26origin%3Dhttps%253A%252F%252Fgu-facebook.appspot.com%252Ff2d95ffc801e42c%26domain%3Dgu-facebook.appspot.com%26relation%3Dparent.parent
+https://www.facebook.com/plugins/facepile.php?href=http%3A%2F%2Fwww.guardian.co.uk%2Fsport%2F2012%2Foct%2F14%2Ffelix-baumgartner-lands-safely-record&action=news.reads&max_rows=1&width=200&app_id=180444840287&locale=en_US&sdk=joey&channel=https%3A%2F%2Fs-static.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D11%23cb%3Df212b84465e1f12%26origin%3Dhttps%253A%252F%252Fgu-facebook.appspot.com%252Ff2d95ffc801e42c%26domain%3Dgu-facebook.appspot.com%26relation%3Dparent.parent
+https://www.facebook.com/plugins/facepile.php?href=http%3A%2F%2Fwww.guardian.co.uk%2Fsport%2F2012%2Foct%2F14%2Ffelix-baumgartner-lands-safely-record&action=news.reads&max_rows=1&width=200&app_id=180444840287&locale=en_US&sdk=joey&channel=https%3A%2F%2Fs-static.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D11%23cb%3Df2aa891f325ebbe%26origin%3Dhttps%253A%252F%252Fgu-facebook.appspot.com%252Ff2d95ffc801e42c%26domain%3Dgu-facebook.appspot.com%26relation%3Dparent.parent
+https://www.facebook.com/plugins/facepile.php?href=http%3A%2F%2Fwww.guardian.co.uk%2Fsport%2Fvideo%2F2012%2Foct%2F14%2Ffelix-baumgartner-skydive-space-video&action=video.watches&max_rows=1&width=200&app_id=180444840287&locale=en_US&sdk=joey&channel=https%3A%2F%2Fs-static.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D11%23cb%3Df1484bcc4539132%26origin%3Dhttps%253A%252F%252Fgu-facebook.appspot.com%252Ff2d95ffc801e42c%26domain%3Dgu-facebook.appspot.com%26relation%3Dparent.parent
+https://www.facebook.com/plugins/facepile.php?href=http%3A%2F%2Fwww.guardian.co.uk%2Fsport%2Fvideo%2F2012%2Foct%2F14%2Ffelix-baumgartner-skydive-space-video&action=video.watches&max_rows=1&width=200&app_id=180444840287&locale=en_US&sdk=joey&channel=https%3A%2F%2Fs-static.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D11%23cb%3Df25230e8e8d576e%26origin%3Dhttps%253A%252F%252Fgu-facebook.appspot.com%252Ff2d95ffc801e42c%26domain%3Dgu-facebook.appspot.com%26relation%3Dparent.parent
+https://www.facebook.com/plugins/facepile.php?href=http%3A%2F%2Fwww.guardian.co.uk%2Fsport%2Fvideo%2F2012%2Foct%2F14%2Ffelix-baumgartner-skydive-space-video&action=video.watches&max_rows=1&width=200&app_id=180444840287&locale=en_US&sdk=joey&channel=https%3A%2F%2Fs-static.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D11%23cb%3Df51f91b002a364%26origin%3Dhttps%253A%252F%252Fgu-facebook.appspot.com%252Ff2d95ffc801e42c%26domain%3Dgu-facebook.appspot.com%26relation%3Dparent.parent
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
