@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.androidzoom.com/android_applications/bioharness
+
+
+[filters]
+http://www.androidzoom.com/w/promote/ad?iframe_id=iframe_featured_101619&ad_format=search&ofs=0&price=0&cat=&kw=bioharness&app=&down=0
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
