@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.torrent-finder.eu/movies/i-kissed-a-vampire-2010-dvdrip-x264-acesn8s-484460/
+
+[filters]
+http://www.torrent-finder.eu/wp-content/themes/Simplism/js/splashpage.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
