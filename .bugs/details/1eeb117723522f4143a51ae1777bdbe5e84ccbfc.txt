@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://techorama.comyr.com/2009/04/more-python-coolness-nested-list-comprehensions-and-map/
+
+
+[filters]
+http://stats.hosting24.com/count.php
+http://stats.hosting24.com/j.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
