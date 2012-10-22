@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nextgenupdate.com/forums/playstation-3-trophy-exploits-hacks-guides/
+
+
+[filters]
+http://www.nextgenupdate.com/forums/images/ngu_sidead.jpeg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
