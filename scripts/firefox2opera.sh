@@ -63,6 +63,10 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
   #
   sed -i -e '1,5d' $MAINDIR/opera/urlfilter-tracking.bak
 
+  # Remove Bad opera filters
+  #
+  sed -i -e '/\/adsWrapper\./d' $MAINDIR/opera/urlfilter-adblock.bak
+
   # Include Opera urlfilter header file
   #
   $CAT $HGSERV/opera/urlfilter-header.txt $MAINDIR/opera/urlfilter-adblock.bak > $MAINDIR/opera/urlfilter-adblock.bak2
