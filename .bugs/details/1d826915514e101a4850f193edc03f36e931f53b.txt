@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://sinhro.net/ej25fuymd7h1/Ad_Muncher_4.93_Build_33707_Patch.rar.html
+
+
+[filters]
+http://p.adframesrc.com/static/js/blockm.js?1350865467266
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
