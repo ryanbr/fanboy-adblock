@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fox.com/
+
+[filters]
+http://www.fox.com/_ui/js/combinedjs.php?page=tracking
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=15651
+
+
+[comments]
+fanboy
