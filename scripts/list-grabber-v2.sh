@@ -171,7 +171,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ 
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -249,7 +249,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-thirdparty.txt" ] && [ -d "$TESTDIR" ] &&
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -328,7 +328,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-firstparty.txt" ] && [ -d "$TESTDIR" ] &&
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -406,7 +406,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-popups.txt" ] && [ -d "$TESTDIR" ] && [ -
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -558,7 +558,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -713,7 +713,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-generic.txt" ] && [ -d "$TESTDIR" ]
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -796,7 +796,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -878,7 +878,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -1109,7 +1109,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" 
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -1187,7 +1187,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" 
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -1332,7 +1332,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -1694,7 +1694,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" 
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -1770,7 +1770,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" 
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -1923,7 +1923,7 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-generic.txt" ] && [ -d "$TESTDI
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -2083,7 +2083,7 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-thirdparty.txt" ] && [ -d "$TES
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -2166,7 +2166,7 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-general.txt" ] && [ -d "$TESTDI
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -2249,7 +2249,7 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-nonenglish.txt" ] && [ -d "$TES
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
@@ -2332,7 +2332,7 @@ if [ -s "$HGSERV/fanboy-tracking/fanboy-tracking-adult.txt" ] && [ -d "$TESTDIR"
 
               # Firefox2operascript
               #
-              # $NICE $HGSERV/scripts/firefox2opera.sh
+              $NICE $HGSERV/scripts/firefox2opera.sh
 
               # Remove temp files
               #
