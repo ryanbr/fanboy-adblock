@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://lolzparade.com/quizzes/media/does-your-horoscope-match-your-favorite-disney-princess?v=HcYsWuLkOUjXpZPMdDmUeHNS654DzWZK7prggWbXP-1lnNgvLzq4En-N2nEe6VXpfJK3PRsdOmYNHFm2YWAI4g
+
+
+[filters]
+http://clnk.me/_t.gif?event=hb&rnd=0.8518491814756662&v=HcYsWuLkOUjXpZPMdDmUeHNS654DzWZK7prggWbXP-1lnNgvLzq4En-N2nEe6VXpfJK3PRsdOmYNHFm2YWAI4g
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
