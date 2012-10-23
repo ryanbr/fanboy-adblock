@@ -66,6 +66,8 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
   # Remove Bad opera filters
   #
   sed -i -e '/\/adsWrapper\./d' $MAINDIR/opera/urlfilter-adblock.bak
+  # http://forums.fanboy.co.nz/forums/viewtopic.php?f=5&t=15558
+  sed -i -e '/eloqua.com/d' $MAINDIR/opera/urlfilter-tracking.bak
 
   # Include Opera urlfilter header file
   #
