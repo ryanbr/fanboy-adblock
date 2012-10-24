@@ -1,0 +1,25 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://inferot.ru/girls/photoset/930-molodaya-i-seksualnaya-20-foto.html
+
+
+[filters]
+http://backromy.com/static/flash.js
+http://backromy.com/static/tds.js
+http://cs.knewy.com/s/736/368426.js
+http://real-benefit.ru/get-money.php?e=cp1251
+http://vmblock.net/bblock.php?sid=25035&bid=2723&ref=&cookie%20=%20null
+http://vmblock.net/upload/swfobject.js
+http://vmblock.net/vm.js
+http://vsexshop.ru/store/widget/?offers_number=5&show_picture=1&show_name=1&show_description=1&show_price=1&partner=14211&trunc_desc_size=150&trunc_name_size=15&lazy=1&mode=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
