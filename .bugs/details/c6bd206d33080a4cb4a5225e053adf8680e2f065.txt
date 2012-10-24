@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.budsgunshop.com/catalog/index.php/cPath/1072_1073/Advanced+Armament+Corp./
+
+
+[filters]
+http://static.gunpartners.com/ados.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
