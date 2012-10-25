@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://macworld.idg.se/2.1038/1.468207/hitta-ratt-med-smart-sokning-i-itunes
+
+[filters]
+http://se-de.ect.adtooxcloud.com/ectracker/1034/AdtooxPluginJS.js?_=1351205551838
+http://se-de.ect.adtooxcloud.com/ectracker/1034/AdtooxPluginJS.js?_=1351205551889
+http://macworld.idg.se/img/idgse/logo_adtech.gif
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
