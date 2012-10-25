@@ -71,6 +71,8 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
   # http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&p=40974
   sed -i -e '/analytics_prod./d' $MAINDIR/opera/urlfilter-tracking.bak
   sed -i -e '/wikia-beacon.com/d' $MAINDIR/opera/urlfilter-tracking.bak
+  # http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=7043
+  sed -i -e '/webtrends.com/d' $MAINDIR/opera/urlfilter-tracking.bak
 
   # Include Opera urlfilter header file
   #
