@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://thepiratebay.se/search/Finding%20Traction/0/99/0
+
+
+[filters]
+http://cdn1.adexprt.com/z/?nid=2051&cid=13&sid=4&width=728&height=90&sz=14
+http://cdn1.adexprt.com/z/?nid=2051&cid=5&sid=4&width=120&height=600&sz=8
+http://cdn2.adexprt.com/z/?nid=2051&cid=5&sid=4&width=468&height=60&sz=0
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
