@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.fotomage.com/born-to-be-blonde/?z=1&utm_source=avalanchers.com&utm_medium=referral&utm_campaign=avalanchers
+
+
+[filters]
+http://ads.888media.net/server-routing.php?aduid=21629&pid=11262
+http://ads.888media.net/server-routing.php?aduid=21630&pid=11262
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
