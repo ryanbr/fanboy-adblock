@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://celebfails.com/london-upskirt-of-emma-watson/?utm_source=avalanchers.com&utm_medium=referral&utm_campaign=avalanchers
+
+
+[filters]
+http://ab.goodsblock.adskeeper.co.uk/p/j/1695/1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
