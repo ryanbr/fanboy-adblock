@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sensodyne.co.uk/products/sensodyne-products/sensodyne-repair-protect.aspx
+
+
+[filters]
+http://listener.fabricww.com/ai-listener/AiListener.html?idsite=3123274e-6a23-4434-891f-fd6e21c79c6d&rec=1&r=553932&ct=2012-10-27T14%3A42%3A00&url=http%3A%2F%2Fwww.sensodyne.co.uk%2Fproducts%2Fsensodyne-products%2Fsensodyne-repair-protect.aspx&urlref=http%3A%2F%2Fwww.reddit.com%2Fr%2FLifeProTips%2Fcomments%2F120xmm%2Flpt_if_your_toothpaste_says_it_repairs_your_teeth%2F&_id=afe4d95012b4a52303ad2d0aa76c96b7b288f638&_idts=1351301967&_idvc=1&_idn=0&_refts=1351301967&_viewts=1351301967&_ref=http%3A%2F%2Fwww.reddit.com%2Fr%2FLifeProTips%2Fcomments%2F120xmm%2Flpt_if_your_toothpaste_says_it_repairs_your_teeth%2F&pdf=0&qt=0&realp=0&wma=0&dir=0&fla=1&java=1&gears=0&ag=1&res=1920x1080&cookie=1
+http://listener.fabricww.com/ai-listener/js/fabric.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
