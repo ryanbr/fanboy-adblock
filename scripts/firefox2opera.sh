@@ -77,6 +77,8 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
   sed -i -e '/.php?zoneid=/d' $MAINDIR/opera/urlfilter-adblock.bak
   # http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=15567
   sed -i -e '/viglink.com/d' $MAINDIR/opera/urlfilter-adblock.bak
+  # http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=6840
+  sed -i -e '/comscore.com/d' $MAINDIR/opera/urlfilter-tracking.bak
 
   # Include Opera urlfilter header file
   #
