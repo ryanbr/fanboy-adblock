@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://espn.go.com/nba/conversations/_/id/8558910/ray-allen-miami-heat-hopes-move-boston-celtics-game
+
+
+[filters]
+http://a.espncdn.com/combiner/c?js=jquery-1.7.1.js,plugins/json2.r3.js,plugins/teacrypt.js,plugins/jquery.metadata.js,plugins/jquery.bgiframe.r3.js,plugins/jquery.easing.1.3.js,plugins/jquery.hoverIntent.js,plugins/jquery.jcarousel.js,plugins/jquery.tinysort.r4.js,plugins/jquery.pubsub.r5.js,ui/1.8.16/jquery.ui.core.js,ui/1.8.16/jquery.ui.widget.js,ui/1.8.16/jquery.ui.tabs.js,ui/1.8.16/jquery.ui.accordion.js,plugins/ba-debug-0.4.js,espn.l10n.r12.js,swfobject/2.2/swfobject.js,flashObjWrapper.r7.js,plugins/jquery.colorbox.1.3.14.js,plugins/jquery.ba-postmessage.js,espn.core.duo.r55.js,espn.mem.r27.js,stub.search.r9.js,espn.nav.mega.r35.js,espn.storage.r6.js,espn.p13n.r16.js,espn.video.r68.js,registration/staticLogin.r10-28.js,espn.universal.overlay.r15.js,insider/espn.insider.2012062703.js,espn.espn360.stub.r9.js,espn.myHeadlines.stub.r13.js,espn.myfaves.stub.r3.js,tsscoreboard.20090612.js,/foresee/v7/foresee-alive.js,ie9pinning.r3.js,espn.f8.r7.js,espn.socialmediamod.r6.js,playerpopup.r14.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
