@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.6park.com/news/multi1.shtml
+
+
+[filters]
+http://img.6park.com/img/straw/72890.gif
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
