@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bbc.co.uk/iplayer/tv/bbc_one_london/watchlive
+
+
+[filters]
+http://static.bbci.co.uk/iplayer/3.60.0/script/build/iplayer/utils/logging.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
