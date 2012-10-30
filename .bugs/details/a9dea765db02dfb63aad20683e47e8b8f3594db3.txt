@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://keygen-fm.ru/index.php/en/-g-listen-.html
+
+
+[filters]
+http://keygen-fm.ru/images/bnr4681.swf
+http://keygen-fm.ru/images/gorcom.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
