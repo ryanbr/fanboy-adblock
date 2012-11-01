@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://7e624873.amy.gs/url/http://rapidgator.net/file/50717180/Cinnamon027028
+
+[filters]
+http://7e624873.amy.gs/track/1/a4c587a763b041a29e00ef9b0268d3103b1b5f8f?rnd=0.17116290680912438
+http://7e624873.amy.gs/track/1/a4c587a763b041a29e00ef9b0268d3103b1b5f8f?rnd=0.3981225811735283
+http://7e624873.amy.gs/track/2/a4c587a763b041a29e00ef9b0268d3103b1b5f8f?rnd=0.721625731333055
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
