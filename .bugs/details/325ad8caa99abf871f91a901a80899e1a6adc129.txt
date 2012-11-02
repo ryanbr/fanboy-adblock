@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.imdb.com/title/tt2069449/combined
+
+
+[filters]
+http://aan.amazon.com/2009-05-01/imdb/default?slot=sitewide-iframe&u=5809291568078387&ord=5809291568078387
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
