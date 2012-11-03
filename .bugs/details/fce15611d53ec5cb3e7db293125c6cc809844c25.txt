@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.dashlane.com/en/download?from=Homepage
+
+[filters]
+https://afterdownloads.com/conversion.html?pubid=3204&secure=1
+https://s.d.adapd.com/addon/upixel/id/3204
+https://s.d.foxadd.com/addon/upixel/id/3204
+https://s.d.recomendedsite.com/addon/upixel/id/3204
+https://afterdownloads.com/conversion.min.js
+https://logs.dashlane.com/1/websitelog/trackDirectDownload?callback=ddlTracker.directDownloadSentCallback&language=en&pagename=https%3A%2F%2Fwww.dashlane.com%2Fen%2Fdownload%3Ffrom%3DHomepage&orderId=kw_1351944729267-43979-3&date=2012-11-03T12%3A19%3A33.671Z&pathname=%2F&referrer=&search=&trackingId=kw_1351944729267-43979&utm_source=&utm_campaign=&utm_medium=&utm_content=&utm_term=&downloadId=3&_=1351945173675
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
