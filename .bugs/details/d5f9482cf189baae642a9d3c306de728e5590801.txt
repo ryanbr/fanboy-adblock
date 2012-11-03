@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.360haven.com/forums/forum.php
+
+[filters]
+http://www.360haven.com/forums/%5C%27http://uac.advertising.com/wrapper/aceUAC.js%5C%27
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
