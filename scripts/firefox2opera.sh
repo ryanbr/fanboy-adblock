@@ -54,7 +54,7 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
   # Fanboy-Adblock
   #
   $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl $MAINDIR/fanboy-adblock.txt --urlfilter $MAINDIR/opera/urlfilter-adblock.bak --nocomments --everythingisfirstparty --nocss --ignorewhitelist
-
+  $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl $MAINDIR/fanboy-opera-specific.txt --urlfilter $MAINDIR/opera/urlfilter-specific.bak --nocomments --everythingisfirstparty --nocss --ignorewhitelist
   # Fanboy-Tracking
   #
   $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl $MAINDIR/fanboy-tracking.txt --urlfilter $MAINDIR/opera/urlfilter-tracking.bak --nocomments --everythingisfirstparty --nocss --ignorewhitelist
@@ -87,13 +87,23 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
   sed -i -e '/linksynergy.com/d' $MAINDIR/opera/urlfilter-adblock.bak
   # Problematic filter
   sed -i -e '/scorecardresearch.com/d' $MAINDIR/opera/urlfilter-adblock.bak
-
+  # http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=9849&start=10
+  sed -i -e '/tkqlhce.com/d' $MAINDIR/opera/urlfilter-adblock.bak
+  sed -i -e '/anrdoezrs.net/d' $MAINDIR/opera/urlfilter-adblock.bak
+  sed -i -e '/jdoqocy.com/d' $MAINDIR/opera/urlfilter-adblock.bak
+  sed -i -e '/apmebf.com/d' $MAINDIR/opera/urlfilter-adblock.bak
+  sed -i -e '/kqzyfj.com/d' $MAINDIR/opera/urlfilter-adblock.bak
+  sed -i -e '/dpbolvw.net/d' $MAINDIR/opera/urlfilter-adblock.bak
+  sed -i -e '/apmebf.com/d' $MAINDIR/opera/urlfilter-adblock.bak
+  sed -i -e '/rover.ebay.com/d' $MAINDIR/opera/urlfilter-tracking.bak
+  sed -i -e '/amazon.com\/gp\/\*&linkCode/d' $MAINDIR/opera/urlfilter-tracking.bak
+  sed -i -e '/emjcd.com/d' $MAINDIR/opera/urlfilter-tracking.bak
 
   # Include Opera urlfilter header file
   #
-  $CAT $HGSERV/opera/urlfilter-header.txt $MAINDIR/opera/urlfilter-adblock.bak > $MAINDIR/opera/urlfilter-adblock.bak2
+  $CAT $HGSERV/opera/urlfilter-header.txt $MAINDIR/opera/urlfilter-adblock.bak $MAINDIR/opera/urlfilter-specific.bak > $MAINDIR/opera/urlfilter-adblock.bak2
   # Adblock+Tracking
-  $CAT $HGSERV/opera/urlfilter-header.txt $MAINDIR/opera/urlfilter-adblock.bak $MAINDIR/opera/urlfilter-tracking.bak > $MAINDIR/opera/urlfilter-tracking.bak2
+  $CAT $HGSERV/opera/urlfilter-header.txt $MAINDIR/opera/urlfilter-adblock.bak $MAINDIR/opera/urlfilter-tracking.bak  $MAINDIR/opera/urlfilter-specific.bak > $MAINDIR/opera/urlfilter-tracking.bak2
 
   # Remove empty lines
   #
