@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.3news.co.nz/TV3-wins-Best-News-at-NZ-Television-Awards/tabid/418/articleID/275319/Default.aspx
+
+
+[filters]
+http://static.mediaworks.co.nz/ads/takeovers/bait3d/3news-bait3d-bg.jpg
+http://static.mediaworks.co.nz/ads/takeovers/bait3d/bait-poster.jpg
+http://static.mediaworks.co.nz/ads/takeovers/bait3d/colorbox-3news.css
+http://static.mediaworks.co.nz/ads/takeovers/bait3d/spacer.png
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
