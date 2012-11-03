@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hollywoodtuna.com/
+
+
+[filters]
+http://js.nster.net/00/00/43.js?
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
