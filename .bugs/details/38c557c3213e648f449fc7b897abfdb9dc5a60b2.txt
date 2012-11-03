@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.tune-up.com/
+
+[filters]
+https://www.adtraxx.de/wo/WebObjects.dll/VisitTracker.woa/wa/checkpoint?checkpoint=70&client_id=72&ordernr=tuu2013&desc=
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
