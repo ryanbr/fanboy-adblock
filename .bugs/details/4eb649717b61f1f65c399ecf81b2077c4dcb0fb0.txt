@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.hwp.ru/
+
+
+[filters]
+http://www.hwp.ru/upload/bx/005/Nnada.swf?flash_link=%2Fbitrix%2Frk.php%3Fid%3D231%26amp%3Bevent1%3Dbanner%26amp%3Bevent2%3Dclick%26amp%3Bevent3%3D2%2B%252F%2B%255B231%255D%2B%255BRIGHT%255D%2BTelecom%2BIT%2B%25ED%25E0%2B%25EC%25EE%25F0%25E4%25E5%2B%25F1%25EF%25F0%25E0%25E2%25E0%2B-%2B%25D1%25E5%25F0%25E2%25E0%25F7%25EA%25E8%2B%25ED%25ED%25E0%25E4%25E0%253F%26amp%3Bgoto%3Dhttp%253A%252F%252Fwww.telecomit.ru&flash_target=_blank
+http://www.hwp.ru/upload/bx/c95/SLIM-PRO-XDS800-MATRIXi_590x162_hwp.swf
+http://www.hwp.ru/upload/bx/df6/950x92.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
