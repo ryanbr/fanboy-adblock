@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.webpark.ru/
+
+[filters]
+http://www.webpark.ru/design/adv/600-60.swf
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
