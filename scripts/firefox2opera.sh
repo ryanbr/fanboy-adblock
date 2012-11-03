@@ -129,7 +129,7 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
 
   # Remove Backup files
   #
-  rm -rf $MAINDIR/opera/urlfilter-tracking.bak* $MAINDIR/opera/urlfilter-adblock.bak*
+  rm -rf $MAINDIR/opera/urlfilter-tracking.bak* $MAINDIR/opera/urlfilter-adblock.bak* $MAINDIR/opera/urlfilter-specific.bak*
 
 fi
 
