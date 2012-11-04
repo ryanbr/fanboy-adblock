@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.techsupportforum.com/cmps_index.php?page=videos
+
+
+[filters]
+http://static.verticalscope.com/h.js?27022
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
