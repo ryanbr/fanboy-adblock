@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.techsupportforum.com/cmps_index.php?page=videos
+
+
+[filters]
+http://tracking.oggifinogi.com/trk/ad-engine.gif?cid=8c0d3b67-2f76-41be-b196-d2ef915823a6&pid=f2ecbcde-6838-4a3b-bf77-a9112e77c8c5&stage=start&adEngine=&vid=dae29ee8-3c3f-411d-8339-ec8f3590c3c0&videoSource=IDG&partner=IDG&fsid=984893f3-096b-a770-b9a2-158e74f72413&r=http%3A%2F%2Fwww.techsupportforum.com%2Fcmps_index.php%3Fpage%3Dvideos&cb=0.3447422436438501
+http://tracking.oggifinogi.com/trk/ad-issue.gif?cid=8c0d3b67-2f76-41be-b196-d2ef915823a6&pid=f2ecbcde-6838-4a3b-bf77-a9112e77c8c5&adEngine=&details=VPAID%20error%3A%20%7Bmessage%3A%20No%20ads%20available.%7D&type=VAST%20error%20occurred.&fsid=984893f3-096b-a770-b9a2-158e74f72413&r=http%3A%2F%2Fwww.techsupportforum.com%2Fcmps_index.php%3Fpage%3Dvideos&cb=0.5826714215800166
+http://tracking.oggifinogi.com/trk/ads-request.gif?cid=8c0d3b67-2f76-41be-b196-d2ef915823a6&pid=f2ecbcde-6838-4a3b-bf77-a9112e77c8c5&vid=dae29ee8-3c3f-411d-8339-ec8f3590c3c0&videoSource=IDG&partner=IDG&fsid=984893f3-096b-a770-b9a2-158e74f72413&r=http%3A%2F%2Fwww.techsupportforum.com%2Fcmps_index.php%3Fpage%3Dvideos&cb=0.3614307274110615
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
