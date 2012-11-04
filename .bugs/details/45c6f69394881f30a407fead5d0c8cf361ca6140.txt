@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://updates.gizmodo.com/
+
+
+[filters]
+http://orig-emrg.gawker.com/?op=hyperion_useragent_data
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
