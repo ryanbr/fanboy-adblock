@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+www.nissanusa.com/suvs/pathfinder/?next=Homepage.pfa.pathfinder_micro.pathfinder_micro.pre.home.background
+
+[filters]
+http://www.nissanusa.com/js/crm/page_tags/30859.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
