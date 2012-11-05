@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://spongebob.nick.com/
+
+[filters]
+http://ad.doubleclick.net/ad/spongebob.nol/atf_a_s/spongebob/_hp;sec0=_hp;sec1=spongebob;pos=atf;site=spongebob;!category=_hp;tag=adj;mtype=standard;sz=3x3;tile=3;u=pos-atf|site-spongebob|tag-adj|mtype-standard|sz-3x3|tile-3;ord=81127787508013908?
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
