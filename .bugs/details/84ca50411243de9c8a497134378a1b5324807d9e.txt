@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gm.com/
+
+
+[filters]
+http://www.gm.com/etc/designs/gmcom/js/gPageTracking.js
+http://www.gm.com/etc/designs/gmcom/js/gClickTracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
