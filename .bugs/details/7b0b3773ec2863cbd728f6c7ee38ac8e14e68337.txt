@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.jeep.com/en/
+
+[filters]
+http://www.jeep.com/crossbrand/shared/javascripts/web_analytics/cas.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
