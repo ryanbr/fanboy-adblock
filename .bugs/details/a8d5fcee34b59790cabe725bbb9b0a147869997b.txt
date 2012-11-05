@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://progress.audiusa.com/
+
+[filters]
+http://www.audiusa.com/us/brand/en.usertracking_javascript.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
