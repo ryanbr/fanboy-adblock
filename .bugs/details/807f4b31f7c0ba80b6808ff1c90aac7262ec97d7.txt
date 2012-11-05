@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mopar.com/
+
+[filters]
+http://www.mopar.com/assets/js/ga_external.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
