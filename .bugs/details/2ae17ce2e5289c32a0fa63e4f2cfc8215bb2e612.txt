@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.lexus.com/
+
+
+[filters]
+http://www.lexus.com/lexus-share/js/campaign_tracking.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
