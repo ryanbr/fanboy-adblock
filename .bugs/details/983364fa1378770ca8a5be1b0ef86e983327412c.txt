@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.teennick.com/games/dance-academy-dance-maker.html
+
+
+[filters]
+http://www.teennick.com/js/ads/yahoo/nick_overture_conf.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
