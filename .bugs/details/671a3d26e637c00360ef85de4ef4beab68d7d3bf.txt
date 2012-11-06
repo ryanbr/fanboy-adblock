@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.aarp.org/relationships/love-sex/info-01-2012/older-women-sexual-satisifaction.html?cmp=BAC-NRELATE-RELATIONSHIPS-Study+Finds+High+Rate+of+Sexual+Satisfaction+in+Women+Over+80-www.inquisitr.com
+
+
+[filters]
+http://cdn.aarp.net/etc/aarp/statics/global/js/omniture.rev10229.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
