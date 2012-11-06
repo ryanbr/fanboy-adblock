@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.time.com/time/
+
+
+[filters]
+http://img.timeinc.net/tii/omniture/h/config/time_s_code.js
+http://img.timeinc.net/time/assets/js/responsive-ads.min.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
