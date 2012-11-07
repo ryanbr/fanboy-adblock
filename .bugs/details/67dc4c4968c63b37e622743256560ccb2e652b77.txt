@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.guardian.co.uk/media/video/2012/feb/29/open-journalism-three-little-pigs-advert
+
+
+[filters]
+http://static.guim.co.uk/static/8eb2084edba34d7445ce708e56e6fddf8a3159c5/common/scripts/omniture-H.24.2.2.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
