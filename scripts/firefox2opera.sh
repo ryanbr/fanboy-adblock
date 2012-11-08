@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# Fanboy Adblock list Firefox-Opera bash script v2.0 (11/10/2012)
+# Fanboy Adblock list Firefox-Opera bash script v2.0 (09/11/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
+# 3.1 Minor bug
 # 3.0 Re-write script, cleaner and better, removed lots of cruft.
 
 # Variables for directorys
@@ -54,7 +55,7 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
   # Fanboy-Adblock
   #
   $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl $MAINDIR/fanboy-adblock.txt --urlfilter $MAINDIR/opera/urlfilter-adblock.bak --nocomments --everythingisfirstparty --nocss --ignorewhitelist
-  $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl $MAINDIR/fanboy-opera-specific.txt --urlfilter $MAINDIR/opera/urlfilter-specific.bak --nocomments --everythingisfirstparty --nocss --ignorewhitelist
+  $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl $HGSERV/fanboy-adblock/fanboy-opera-specific.txt --urlfilter $MAINDIR/opera/urlfilter-specific.bak --nocomments --everythingisfirstparty --nocss --ignorewhitelist
   # Fanboy-Tracking
   #
   $NICE $PERL $HGSERV/scripts/createOperaFilters_new.pl $MAINDIR/fanboy-tracking.txt --urlfilter $MAINDIR/opera/urlfilter-tracking.bak --nocomments --everythingisfirstparty --nocss --ignorewhitelist
