@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://overthumbs.com/galleries/man-meat-cums-at-nerdy-looking-chick-ticklish-feet1/
+
+
+[filters]
+http://overthumbs.com/ads/advshow.php?sid=1
+http://overthumbs.com/ads/advshow.php?sid=3
+http://overthumbs.com/ads/advshow.php?sid=5
+http://overthumbs.com/ads/advshow.php?sid=6
+http://overthumbs.com/ads/advshow.php?sid=7
+http://overthumbs.com/ads/advshow.php?sid=8
+http://overthumbs.com/ads/advshow.php?sid=9
+http://overthumbs.com/ads/popout.php?id=31
+http://overthumbs.com/ads/popshow.php?id=31,32,33,36,37&camid=girl
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
