@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.gamecopyworld.com/games/pc_borderlands_2.shtml
+
+
+[filters]
+http://www.gamecopyworld.com/games/js/abd.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
