@@ -63,6 +63,7 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
   # Because Tracking list is merged with Adblock, remove the top 5 lines
   #
   sed -i -e '1,5d' $MAINDIR/opera/urlfilter-tracking.bak
+  sed -i -e '1,5d' $MAINDIR/opera/urlfilter-specific.bak
 
   # Remove Bad opera filters
   #
