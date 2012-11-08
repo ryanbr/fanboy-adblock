@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.egeve.com/en/celebrity/674-Lady-Gaga-donates-$1M-to-Red-Cross-for-Sandy.html
+
+[filters]
+http://www.zowary.com/zowary.js?u=egevesite
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
