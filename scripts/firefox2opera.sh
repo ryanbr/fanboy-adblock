@@ -99,6 +99,8 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
   sed -i -e '/rover.ebay.com/d' $MAINDIR/opera/urlfilter-tracking.bak
   sed -i -e '/amazon.com\/gp\/\*&linkCode/d' $MAINDIR/opera/urlfilter-tracking.bak
   sed -i -e '/emjcd.com/d' $MAINDIR/opera/urlfilter-tracking.bak
+  # http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=15969&p=41651
+  sed -i -e '/googletagservices.com/d' $MAINDIR/opera/urlfilter-adblock.bak
 
   # Include Opera urlfilter header file
   #
