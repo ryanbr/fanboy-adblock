@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://theamazingchief.tumblr.com/post/34659125851/what-if-the-star-wars-and-marvel-universe
+
+
+[filters]
+http://www.tumblr.com/impixu?T=1352405747&J=eyJibG9naWQiOiI3NTIyNDExOSJ9&U=AOILJDMKFB&K=a827e545f6efe9833beeb3af96957502229231ffd9a104db2aa333c34af8cff3
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
