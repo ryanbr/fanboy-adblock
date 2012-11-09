@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.surf2sex.com/
+
+
+[filters]
+http://www.sexvertise.com/banner/Scripts/banner.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
