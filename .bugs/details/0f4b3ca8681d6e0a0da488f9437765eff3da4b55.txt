@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://videarn.com/gang-bang-asian-teen/301144-2-is-to-1.html
+
+
+[filters]
+http://cdn4.adshostview.com/?id=1453278427&tag=banner72&cache=01&cdnserver=power&uni=635
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
