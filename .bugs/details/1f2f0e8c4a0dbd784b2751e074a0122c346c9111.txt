@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nosvideo.com/?v=yaa4khmt4vmy
+
+
+[filters]
+http://nosvideo.com/nosplayer/player/js/anyad.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
