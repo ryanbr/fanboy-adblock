@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.usatoday.com/media/cinematic/video/1684805/week-after-sandy-still-a-slow-slog-in-nj-ny/
+
+
+[filters]
+http://usatoday30.usatoday.com/test/redesign/2012/ComScoreSWF.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
