@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.flipkart.com/transcend-memory-card-microsdhc-8gb-class-4/p/itmd4sbmrsnqw8sw?pid=ACCD4SBHRXV9B8UA&icmpid=reco__same_memory_card_1
+
+
+[filters]
+http://www.flipkart.com/ajaxlog/visitIdlog?vid=VISIT135255046983965291841309715914351887221121358962013521628114375530&fk=d1t18HEO3Bouv0WPMYu9AK2Tct6tRXk3lde3zFfrjtuB2eb0d2EK2e%2FoF9g3l6pY6QxP0D%2F70EkuGpk%2BZ%2FYjwKKh8V0XtEzOqf1comxwZgjIZ2x8VEOVP1VeXgOgyTfTxPwDCns0EpcrN8XIqjYJ09GwINIp%2FGxX%2FwVVxjwVAlLo5ADm8WElw1WRIT5SG17B%2FmRCmlJoHNNz0RY5lvgeIdqh3mxX2a8hpa7upd%2BPn3IrmnJ3YPndzZyjVZTE3LErtLRCchVfsslpNjXmqi8rxbkzzLQ%3D%3D&isNewVisit=false&page=ProductPage&oos=0
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
