@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://www.paypal.com/
+
+
+[filters]
+https://t.paypal.com/ts?v=0.1&t=1352509479235&g=-780&e=im&pgrp=main%3Amktg%3Apersonal%3A%3Ahome&page=main%3Amktg%3Apersonal%3A%3Ahome%3A%3A%3A&tmpl=home.jsp&pgst=Unknown&lgin=out&calc=635a1178c5dee&rsta=en_NZ&md5h=98817fe37ab57b3b630739452a2fcbdc&shfp=%7C%7C&usce=%2B&pgtf=Sparta&s=ci&aver=unverified&rstr=unrestricted&pfid=635a1178c5dee&bzsr=main&bchn=mktg&pgsf=personal&ccpg=nzl&pgld=Unknown&shir=main_mktg_personal_&pt=Send%20Money%2C%20Pay%20Online%20or%20Set%20Up%20a%20Merchant%20Account%20-%20PayPal&cd=24&sw=1920&sh=1080&bw=1920&bh=951&ce=1&pl=silverlight%2CShockwave%20Flash%2011.4%20r402&t1=3688&t1c=0&t1d=0&t1s=0&t2=510&t3=49&t4=-1352509473396&t4d=-1352509473396&t4e=0&tt=-1352509469147&teal=reFcXMxRtAPAcPVju1Itw3qMAJPsnSbCn2Hqx%25252BA%25252FX8BbIpjNlADIJMUbWz%25252F%25252BtwyHlGMJ1ACGTSE_13ae7d8b600
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
