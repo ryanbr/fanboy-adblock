@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sheknows.com/sheknowstv/the-buzz
+
+
+[filters]
+http://cdn.springboard.gorillanation.com/mediaplayer/springboard/plugins/flowplayer.ganalytics.swf?v=5
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
