@@ -17,11 +17,11 @@ sed -i '10,20000{/\#/d}' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl
 sed -i '10,20000{/#/d}' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
 sed -i '/+d atdmt.com/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
 sed -i '/+d doubleclick.net/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
-sed -i '/+d 247realmedia.com/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
-sed -i '/+d googlesyndication.com/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
-sed -i '/+d scorecardresearch.com/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
-sed -i '/+d oascentral.thechronicleherald.ca/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
-sed -i '/+d au.adserver.yahoo.com/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
+sed -i '/247realmedia.com/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
+sed -i '/googlesyndication.com/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
+sed -i '/scorecardresearch.com/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
+sed -i '/oascentral.thechronicleherald.ca/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
+sed -i '/au.adserver.yahoo.com/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
 sed -i '/+d adserver.yahoo.com/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
 sed -i '/+d skimlinks.com/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
 sed -i '/+d ad-emea.doubleclick.net/d' $IESUBS/fanboy-noele.tpl $IESUBS/fanboy-ultimate-ie.tpl $IESUBS/fanboy-complete-ie.tpl
