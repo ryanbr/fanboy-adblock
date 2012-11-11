@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://seasonvar.ru/serial-2348-Zajtcev_-1-season.html
+
+
+[filters]
+http://recreativ.ru/rcode.dKRWG7YD4S.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
