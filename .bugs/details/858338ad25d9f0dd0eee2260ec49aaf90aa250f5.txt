@@ -1,0 +1,22 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://av.bonbonme.com/Asian/cute-big-tits-Hitomi-Kitagawa-01_4286.html
+
+
+[filters]
+http://av.bonbonme.com/js/rightbanner.js
+http://bonbonme.com/js/av/bottom.js
+http://bonbonme.com/js/dticash/art_bottom.js
+http://bonbonme.com/js/dticash/art_top.js
+http://bonbonsex.com/js/workhome.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
