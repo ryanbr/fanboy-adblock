@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://dl.bonbonme.com/vid/Squirting-Cowgirls--2-Scene-3-462.html
+
+
+[filters]
+http://dl.bonbonme.com/js/cams.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
