@@ -1,0 +1,21 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.everybody.co.nz/quiz-9f60bb35-8363-4b57-b42e-1a05a5ecc24e.aspx
+
+[filters]
+http://shared.9msn.com.au/share/long_cache/js/tracking/udc/ninemsn.tracking.udc-1.1.0.min.js
+http://shared.9msn.com.au/share/short_cache/js/ads/ninemsn.ads.loader-1.0.0.min.js
+http://data.9msn.com.au/Services/Service.axd?callback=ninemsn_ads_contextualTargeting_getContextualTargetingMappings&ServiceName=AdExpert&ServiceAction=GetContextualTargetingMappings&ServiceFormat=JSONAUTO
+http://data.9msn.com.au/Services/Service.axd?callback=ninemsn_ads_webServiceHelper_ServiceFrameworkHelper_jsonpCallback&ServiceName=AdExpert&ServiceAction=GetAdExpertList&ServiceFormat=JSONAUTO&type=both&v=13102012&sitename=nztp-everybody
+http://mi9.gscontxt.net/main/channels-jsonp.cgi?url=http%3A%2F%2Fwww.everybody.co.nz%2Fquiz-9f60bb35-8363-4b57-b42e-1a05a5ecc24e.aspx
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
