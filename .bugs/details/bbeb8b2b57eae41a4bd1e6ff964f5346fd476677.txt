@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.thirdage.com/hc/c/osteoarthritis-screening
+
+
+[filters]
+http://p.hgcdn.net/?t=Ge-L&appendTo=%23hgplayer-holder-5759&url=http%3A%2F%2Fwww.thirdage.com%2Fhc%2Fc%2Fosteoarthritis-screening
+http://w.hgcdn.net/?t=Ge-L&appendTo=%23hgplayer-holder-5759&url=http%3A%2F%2Fwww.thirdage.com%2Fhc%2Fc%2Fosteoarthritis-screening&&_=1352655479775
+
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=16033
+
+[comments]
+fanboy
