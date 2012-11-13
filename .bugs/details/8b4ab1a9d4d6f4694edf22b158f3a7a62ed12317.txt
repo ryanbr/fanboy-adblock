@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.wesh.com/news/central-florida/Families-want-apology-for-men-accused-in-48-rape-case/-/11788162/16525268/-/k44y0i/-/index.html
+
+[filters]
+http://cdnbakmi.kaltura.com/p/557781/sp/55778100/flash/kdp3/v3.5.45/plugins/statisticsPlugin.swf
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
