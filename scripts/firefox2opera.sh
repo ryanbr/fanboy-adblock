@@ -104,7 +104,9 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
   sed -i -e '/googletagservices.com/d' $MAINDIR/opera/urlfilter-adblock.bak
   # http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=15843
   sed -i -e '/\*\/advertising\/\*/d' $MAINDIR/opera/urlfilter-adblock.bak
-
+  # http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=6885
+  sed -i -e '/chitika.com/d' $MAINDIR/opera/urlfilter-adblock.bak
+  
   # Include Opera urlfilter header file
   #
   $CAT $HGSERV/opera/urlfilter-header.txt $MAINDIR/opera/urlfilter-adblock.bak $MAINDIR/opera/urlfilter-specific.bak > $MAINDIR/opera/urlfilter-adblock.bak2
