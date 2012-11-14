@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pandora.com/static/ads/landing_pages/2193_toyota/2193_landing_page.html
+
+
+[filters]
+http://www.pandora.com/static/ads/landing_pages/2193_toyota/2193_landing_page.html
+http://www.pandora.com/static/ads/landing_pages/2193_toyota/alanisMorissette/bottom_alanis.html
+http://www.pandora.com/static/ads/landing_pages/2193_toyota/genre_menu.html
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
