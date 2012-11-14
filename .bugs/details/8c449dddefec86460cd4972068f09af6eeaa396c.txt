@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://weknowmemes.com/2012/11/10-best-obama-wins-reelection-memes/
+
+
+[filters]
+http://weknowmemes.com/sidead3.html
+http://weknowmemes.com/topad3.html
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
