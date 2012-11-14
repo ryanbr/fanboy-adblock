@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dlldump.com/download-dll-files_new.php/dllfiles/L/lame_enc.dll/-/download.html
+
+
+[filters]
+http://www.dlldump.com/ads/mysa_output.php?callback=handleJson_i76553&sid=i76553&show_ad_group=3
+http://www.dlldump.com/ads/mysa_output.php?callback=handleJson_i82995&sid=i82995&show_ad_group=6
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
