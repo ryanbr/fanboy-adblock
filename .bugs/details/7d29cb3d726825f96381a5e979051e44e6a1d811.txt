@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.playboy.com/videos
+
+
+[filters]
+http://static2.playboy.com/assets/common/js/galinks-full.js
+http://static2.playboy.com/assets/common/js/analytics-tag.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
