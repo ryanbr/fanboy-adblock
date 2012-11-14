@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://androidaustralia.com.au/2012/11/google-2/nexus-4-nexus-10-go-on-sale-%20today/?utm_source=Contextly
+
+
+[filters]
+http://adn.impactradius.com/display-clicktoplayimage/39779
+http://t.dgm-au.com/i/39434/39779/1065
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
