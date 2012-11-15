@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://qrrro.com/images/2012/11/qo7kac4bh05l0ujanky8.jpg.html
+
+
+[filters]
+http://qrrro.com/187v/index.php/adhandler/
+
+
+
+[other]
+anti adblock
+
+[comments]
+fanboy
