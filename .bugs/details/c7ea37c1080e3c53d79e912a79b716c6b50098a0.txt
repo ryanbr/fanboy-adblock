@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://polnyetezki.ru/?action=*&fid=*
+
+[filters]
+http://wizard.topbirju.ru/?t=b&blockids=5852
+http://ya.topbirju.ru/7mo8xdmgjrq638fd8taccl4xop2zbz
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
