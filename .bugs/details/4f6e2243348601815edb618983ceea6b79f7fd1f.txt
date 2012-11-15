@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nuts.co.uk/video/topless-wii/play/1125842155
+
+
+[filters]
+http://www.nuts.co.uk/video/topless-wii/play/1125842155
+
+
+
+[other]
+http://forums.fanboy.co.nz/forums/viewtopic.php?f=6&t=16003
+
+
+[comments]
+fanboy
