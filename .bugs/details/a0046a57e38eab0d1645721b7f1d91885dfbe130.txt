@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vps-trading.info/
+
+
+[filters]
+http://lmbf88.hypertrackeraff.com/Banner/1295/5066cf43-ce7d-4cf2-8aa0-d6aa73231e82.gif?affapp=kBsagw7G1PZvW0sjPR%2faxPLNJVH91x6sWUAi8rixZA6I9SJis3yged3%2b1Re7LlbrEKOBT3YVbijFKio5A29wNRx6xKEYcKLQn8HTH%2bdk2s0%3d
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
