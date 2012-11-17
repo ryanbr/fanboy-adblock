@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://m.newsok.com/ten-commandments-monument-is-installed-at-oklahoma-state-capitol/article/3728824
+
+[filters]
+http://ad.mo.doubleclick.net/dartproxy/mobile.handler?k=okp.mob.newsok/article;t=kw%3Dpoliticskw%3Dreligionkw%3Dstatekw%3Dcapitolkw%3Dmichael-mcnutt;pos=top;sz=300x50,300x100,300x250,320x50&forecast=1&dw=1
+http://ad.mo.doubleclick.net/dartproxy/mobile.handler?k=okp.mob.newsok/article;t=kw%3Dpoliticskw%3Dreligionkw%3Dstatekw%3Dcapitolkw%3Dmichael-mcnutt;pos=top;sz=300x50,300x100,320x50&forecast=1&dw=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
