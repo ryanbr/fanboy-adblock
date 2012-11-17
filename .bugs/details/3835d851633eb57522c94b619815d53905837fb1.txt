@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.chron.com/news/politics/article/Tenn-GOP-congressman-s-ex-wife-had-2-abortions-4040986.php#photo-3742354
+
+
+[filters]
+http://adunit.cdn.auditude.com/player/js/lib/aud.html5player.js
+
+
+
+[other]
+video on the right hand side.
+
+
+[comments]
+fanboy
