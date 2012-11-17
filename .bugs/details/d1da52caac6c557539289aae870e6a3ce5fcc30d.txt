@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mobilesyrup.com/
+
+
+[filters]
+http://assets.pinterest.com/js/pinit.js?ver=3.4.2
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
