@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.ebooks.com/
+
+[filters]
+http://i2.ebkimg.com/banners/featured/banner-1042647.jpg
+http://i3.ebkimg.com/banners/featured/banner-1004893.jpg
+http://i3.ebkimg.com/banners/featured/banner-1034103.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
