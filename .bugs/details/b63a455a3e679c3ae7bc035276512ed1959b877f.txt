@@ -1,0 +1,24 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.rantsports.com/clubhouse/2012/09/19/top-13-nfl-players-you-love-to-hate
+
+
+[filters]
+http://www.rantsports.com/clubhouse/wp-content/plugins/WP_Decks/adsiframe.php?page_id=13357&unit_id=283201&meta=1002
+http://www.rantsports.com/clubhouse/wp-content/plugins/WP_Decks/adsiframe.php?page_id=13357&unit_id=283202&meta=1002
+http://www.rantsports.com/clubhouse/wp-content/plugins/WP_Decks/adsiframe.php?page_id=13357&unit_id=283204&meta=1002
+http://www.rantsports.com/clubhouse/wp-content/plugins/WP_Decks/adsiframe.php?page_id=13358&unit_id=283203&meta=1002
+http://www.rantsports.com/clubhouse/wp-content/plugins/WP_Decks/adsiframe.php?page_id=13358&unit_id=283205&meta=1002
+
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
