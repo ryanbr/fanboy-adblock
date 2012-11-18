@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://fileshunt.eu/windows-8-consumer-preview-serial-free-download/
+
+[filters]
+http://clp.cpabeyond.com/images/bg/skpl008.png
+http://clp.cpabeyond.com/locker.js?guid=9504510f880d9083
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
