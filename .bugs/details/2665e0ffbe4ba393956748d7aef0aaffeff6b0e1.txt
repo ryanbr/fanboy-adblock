@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://mediafiremoviez.com/
+
+
+[filters]
+http://www.overturs.com/run.php?user=lostindest&js=1&lb=0&pnum=1
+http://widgets.tcimg.com/v2/bblog.js
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
