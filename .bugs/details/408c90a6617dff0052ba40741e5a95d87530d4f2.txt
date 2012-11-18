@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.mininova.org/search/?search=big+day&cat=0
+
+
+[filters]
+http://www.mininova.org/feedads.php?search=big+day
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
