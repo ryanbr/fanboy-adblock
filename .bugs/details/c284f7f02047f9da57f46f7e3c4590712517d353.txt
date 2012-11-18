@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://nakedsecurity.sophos.com/2012/08/24/sophos-sucks-malware/
+
+
+[filters]
+http://sophosnews.files.wordpress.com/2012/11/free-trials-ad-220.jpg
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
