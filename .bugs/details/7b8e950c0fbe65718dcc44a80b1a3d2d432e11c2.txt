@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://omg.yahoo.com/news/bieber-pulled-over-cops-again-171900775.html
+
+
+[filters]
+http://platform.twitter.com/js/xd/jsonrpc.js
+http://platform.twitter.com/js/xd/parent.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
