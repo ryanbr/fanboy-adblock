@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://amygrindhouse.com/nicole-kidman-dujour-magazine.html
+
+
+[filters]
+http://ads-by.madadsmedia.com/tags/453/315/async/head.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
