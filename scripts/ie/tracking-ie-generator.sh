@@ -71,6 +71,7 @@ if [ -s "$TESTDIR/fanboy-tracking-merged.txt" ]; then
           $MAINDIR/split/fanboy-tracking-addon.txt > $IEDIR/fanboy-tracking.txt
       # IE Ultimate
       cat $TESTDIR/fanboy-non-element.txt \
+          $HGSERV/fanboy-adblock/fanboy-opera-specific.txt \
           $TESTDIR/fanboy-adblock-ie-addon.txt \
           $MAINDIR/fanboy-tracking.txt \
           $MAINDIR/split/fanboy-tracking-addon.txt \
@@ -78,6 +79,7 @@ if [ -s "$TESTDIR/fanboy-tracking-merged.txt" ]; then
           $MAINDIR/enhancedstats.txt > $IEDIR/fanboy-ultimate-ie.txt
       # IE Complete
       cat $TESTDIR/fanboy-non-element.txt \
+          $HGSERV/fanboy-adblock/fanboy-opera-specific.txt \
           $TESTDIR/fanboy-adblock-ie-addon.txt \
           $MAINDIR/fanboy-tracking.txt \
           $MAINDIR/split/fanboy-tracking-addon.txt \

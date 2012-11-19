@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy Adblock IE Convert script v1.5 (29/08/2012)
+# Fanboy Adblock IE Convert script v1.5 (19/11/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -9,6 +9,7 @@
 #
 # Version history
 #
+# 1.60 Include opera-specific filter
 # 1.50 Re-write script to be cleaner and more readable, better error checking.
 
 export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
@@ -69,9 +70,11 @@ if [ -s "$TESTDIR/fanboy-non-element.txt" ]; then
 
       # Standard Adblock Filter
       cat $TESTDIR/fanboy-non-element.txt \
-          $TESTDIR/fanboy-adblock-ie-addon.txt > $IEDIR/fanboy-noele.txt
+          $TESTDIR/fanboy-adblock-ie-addon.txt \
+          $HGSERV/fanboy-adblock/fanboy-opera-specific.txt > $IEDIR/fanboy-noele.txt
       # IE Ultimate
       cat $TESTDIR/fanboy-non-element.txt \
+          $HGSERV/fanboy-adblock/fanboy-opera-specific.txt \
           $TESTDIR/fanboy-adblock-ie-addon.txt \
           $MAINDIR/fanboy-tracking.txt \
           $MAINDIR/split/fanboy-tracking-addon.txt \
@@ -79,6 +82,7 @@ if [ -s "$TESTDIR/fanboy-non-element.txt" ]; then
           $MAINDIR/enhancedstats.txt > $IEDIR/fanboy-ultimate-ie.txt
       # IE Complete
       cat $TESTDIR/fanboy-non-element.txt \
+          $HGSERV/fanboy-adblock/fanboy-opera-specific.txt \
           $TESTDIR/fanboy-adblock-ie-addon.txt \
           $MAINDIR/fanboy-tracking.txt \
           $MAINDIR/split/fanboy-tracking-addon.txt \
