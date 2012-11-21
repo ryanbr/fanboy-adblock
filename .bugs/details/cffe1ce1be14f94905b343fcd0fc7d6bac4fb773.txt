@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.epctv.com/channels/Boxing-Online-Watch-17.htm
+
+
+[filters]
+http://pop-over.powered-by.skyactivate.com/e42ee96fa8cb951485f705d7c9de
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
