@@ -1,7 +1,7 @@
 @echo off
 hg pull -u
 :: pre-sort
-perl docs\sorting\sorter2.pl fanboy-adblock\fanboy-adult-generic.txt fanboy-adblock\fanboy-adult-elements.txt fanboy-adblock\fanboy-adult-firstparty.txt fanboy-adblock\fanboy-adult-thirdparty.txt fanboy-adblock\fanboy-adult-whitelists.txt fanboy-adblock\fanboy-p2p-elements.txt fanboy-adblock\fanboy-p2p-firstparty.txt fanboy-adblock\fanboy-p2p-thirdparty.txt
+perl docs\sorting\sorter2.pl fanboy-adblock\fanboy-adult-generic.txt fanboy-adblock\fanboy-adult-elements.txt fanboy-adblock\fanboy-adult-firstparty.txt fanboy-adblock\fanboy-adult-thirdparty.txt fanboy-adblock\fanboy-adult-whitelists.txt
 ::
 perl docs\sorting\sorter2.pl fanboy-adblock\fanboy-dimensions.txt fanboy-adblock\fanboy-dimensions-whitelist.txt fanboy-adblock\fanboy-generic.txt fanboy-adblock\fanboy-popups.txt fanboy-adblock\fanboy-firstparty.txt fanboy-adblock\fanboy-thirdparty.txt fanboy-adblock\fanboy-whitelist.txt fanboy-adblock\fanboy-elements-exceptions.txt fanboy-adblock\fanboy-elements-generic.txt fanboy-adblock\fanboy-elements-specific.txt
 :: Fanboy Tracking

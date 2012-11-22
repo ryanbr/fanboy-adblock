@@ -7,6 +7,7 @@
 #
 # Version history
 #
+# 2.30 Remove p2p list
 # 2.21 Opera CSS generator
 # 2.20 Allow spaces to prepended to each list before processing
 # 2.15 Optimise sed (no need for temp files)
@@ -137,7 +138,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-generic.txt" ] && [ -d "$TESTDIR" ] && [ 
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
@@ -215,7 +215,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-thirdparty.txt" ] && [ -d "$TESTDIR" ] &&
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
@@ -293,7 +292,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-firstparty.txt" ] && [ -d "$TESTDIR" ] &&
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
@@ -372,7 +370,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-popups.txt" ] && [ -d "$TESTDIR" ] && [ -
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
@@ -450,7 +447,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-whitelist.txt" ] && [ -d "$TESTDIR" ] && 
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
@@ -524,7 +520,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
@@ -602,7 +597,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TES
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
@@ -675,7 +669,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-generic.txt" ] && [ -d "$TESTDIR" ]
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
@@ -758,7 +751,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-firstparty.txt" ] && [ -d "$TESTDIR
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
@@ -840,7 +832,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-thirdparty.txt" ] && [ -d "$TESTDIR
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
@@ -922,7 +913,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-elements.txt" ] && [ -d "$TESTDIR" 
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
@@ -996,7 +986,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-adult-whitelists.txt" ] && [ -d "$TESTDIR
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
 
@@ -1049,232 +1038,6 @@ else
   # twidge update "fanboy-generic.txt failed to update: $DATE"
 fi
 
-#######################################  fanboy-p2p-firstparty.txt  #######################################
-# Make sure the file exists, and the work directorys are also there before processing.
-#
-if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
-  then
-   # Compare differences, only process if file has changed..
-   #
-   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt | cut -d' ' -f1)
-   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-p2p-firstparty.txt | cut -d' ' -f1)
-   #
-   if [ "$SSLHG" != "$SSLMAIN" ]
-     then
-        rm -rf $TESTDIR/fanboy-merged.txt
-
-        # Allow Temp dir so we can insert spaces..
-        #
-        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
-
-        # Add a space at the end of each file (before we cat it)
-        #
-        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
-
-   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
-
-        # Make sure the file exists
-        #
-        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
-              # Copy over
-              #
-              cp -f $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $MAINDIR/split/fanboy-p2p-firstparty.txt
-
-              # Remove empty lines
-              #
-              sed -i -e '/^$/d' $TESTDIR/fanboy-merged.txt
-
-              # Checksum
-              #
-              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-              # Compress
-              #
-              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-              rm -rf $MAINDIR/fanboy-adblock.txt.gz
-              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-              # Fanboy Ultimate + Complete
-              #
-              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-              # Fanboy-non-element
-              #
-              $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
-
-              # Firefox2operascript
-              #
-              $NICE $HGSERV/scripts/firefox2opera.sh
-
-              # Remove temp files
-              #
-              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
-        else
-              # If the Cat fails.
-              echo "Error creating file fanboy-merged.txt: fanboy-p2p-firstparty.txt - $DATE" >> $LOGFILE
-        fi
-    else
-        # File check hg vs secure.fanboy.co.nz
-        echo "Files are the same: fanboy-p2p-firstparty.txt" > /dev/null
-    fi
-else
-  echo "fanboy-generic (fanboy-p2p-firstparty.txt) failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-generic.txt failed to update: $DATE"
-fi
-
-#######################################  fanboy-p2p-thirdparty.txt  #######################################
-# Make sure the file exists, and the work directorys are also there before processing.
-#
-if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
-  then
-   # Compare differences, only process if file has changed..
-   #
-   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt | cut -d' ' -f1)
-   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-p2p-thirdparty.txt | cut -d' ' -f1)
-   #
-   if [ "$SSLHG" != "$SSLMAIN" ]
-     then
-        rm -rf $TESTDIR/fanboy-merged.txt
-
-        # Allow Temp dir so we can insert spaces..
-        #
-        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
-
-        # Add a space at the end of each file (before we cat it)
-        #
-        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
-
-   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
-
-        # Make sure the file exists
-        #
-        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
-              # Copy over
-              #
-              cp -f $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $MAINDIR/split/fanboy-p2p-thirdparty.txt
-
-              # Remove empty lines
-              #
-              sed -i -e '/^$/d' $TESTDIR/fanboy-merged.txt
-
-              # Checksum
-              #
-              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-              # Compress
-              #
-              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-              rm -rf $MAINDIR/fanboy-adblock.txt.gz
-              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-              # Fanboy Ultimate + Complete
-              #
-              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-              # Fanboy-non-element
-              #
-              $NICE $HGSERV/scripts/firefox/fanboy-noele.sh
-
-              # Firefox2operascript
-              #
-              $NICE $HGSERV/scripts/firefox2opera.sh
-
-              # Remove temp files
-              #
-              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
-        else
-              # If the Cat fails.
-              echo "Error creating file fanboy-merged.txt: fanboy-p2p-thirdparty.txt - $DATE" >> $LOGFILE
-        fi
-    else
-        # File check hg vs secure.fanboy.co.nz
-        echo "Files are the same: fanboy-p2p-thirdparty.txt" > /dev/null
-    fi
-else
-  echo "fanboy-generic (fanboy-p2p-thirdparty.txt) failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-generic.txt failed to update: $DATE"
-fi
-
-
-#######################################  fanboy-p2p-elements.txt  #######################################
-# Make sure the file exists, and the work directorys are also there before processing.
-#
-if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
-  then
-   # Compare differences, only process if file has changed..
-   #
-   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt | cut -d' ' -f1)
-   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-p2p-elements.txt | cut -d' ' -f1)
-   #
-   if [ "$SSLHG" != "$SSLMAIN" ]
-     then
-        rm -rf $TESTDIR/fanboy-merged.txt
-
-        # Allow Temp dir so we can insert spaces..
-        #
-        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
-
-        # Add a space at the end of each file (before we cat it)
-        #
-        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
-
-   $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock/fanboy-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-firstparty.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
-
-        # Make sure the file exists
-        #
-        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
-              # Copy over
-              #
-              cp -f $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt $MAINDIR/split/fanboy-p2p-elements.txt
-
-              # Remove empty lines
-              #
-              sed -i -e '/^$/d' $TESTDIR/fanboy-merged.txt
-
-              # Checksum
-              #
-              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-              # Compress
-              #
-              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-adblock.txt
-              rm -rf $MAINDIR/fanboy-adblock.txt.gz
-              $ZIP $MAINDIR/fanboy-adblock.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-              # Fanboy Ultimate + Complete
-              #
-              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-              # Remove temp files
-              #
-              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
-        else
-              # If the Cat fails.
-              echo "Error creating file fanboy-merged.txt: fanboy-p2p-elements.txt - $DATE" >> $LOGFILE
-        fi
-    else
-        # File check hg vs secure.fanboy.co.nz
-        echo "Files are the same: fanboy-p2p-elements.txt" > /dev/null
-    fi
-else
-  echo "fanboy-generic (fanboy-p2p-elements.txt) failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-generic.txt failed to update: $DATE"
-fi
 
 #######################################  fanboy-dimensions.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
@@ -1346,8 +1109,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions.txt" ] && [ -d "$TESTDIR" ] &&
         echo "Files are the same: fanboy-dimensions.txt" > /dev/null
     fi
 else
-  echo "fanboy-p2p (fanboy-dimensions.txt) failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-p2p-firstparty.txt failed to update: $DATE"
+  echo "fanboy-dimensions (fanboy-dimensions.txt) failed to update: $DATE" >> $LOGFILE
 fi
 
 
@@ -1418,7 +1180,7 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-dimensions-whitelist.txt" ] && [ -d "$TES
         echo "Files are the same: fanboy-dimensions-whitelist.txt" > /dev/null
     fi
 else
-  echo "fanboy-p2p (fanboy-dimensions-whitelist.txt) failed to update: $DATE" >> $LOGFILE
+  echo "fanboy-dimensions-whitelist (fanboy-dimensions-whitelist.txt) failed to update: $DATE" >> $LOGFILE
   # twidge update "fanboy-p2p-firstparty.txt failed to update: $DATE"
 fi
 
@@ -1448,7 +1210,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-generic.txt" ] && [ -d "$TESTDIR
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
@@ -1522,7 +1283,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-specific.txt" ] && [ -d "$TESTDI
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
@@ -1592,7 +1352,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt" ] && [ -d "$TEST
         $TESTDIR/split/fanboy-adblock/fanboy-popups.txt $TESTDIR/split/fanboy-adblock/fanboy-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-dimensions.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-dimensions-whitelist.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-firstparty.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-adult-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-elements.txt $TESTDIR/split/fanboy-adblock/fanboy-adult-whitelists.txt \
-        $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt \
         $TESTDIR/split/fanboy-adblock/fanboy-elements-generic.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-specific.txt $TESTDIR/split/fanboy-adblock/fanboy-elements-exceptions.txt > $TESTDIR/fanboy-merged.txt
 
         # Make sure the file exists
@@ -1634,230 +1393,6 @@ if [ -s "$HGSERV/fanboy-adblock/fanboy-elements-exceptions.txt" ] && [ -d "$TEST
 else
   echo "fanboy-generic (fanboy-elements-exceptions.txt) failed to update: $DATE" >> $LOGFILE
   # twidge update "fanboy-generic.txt failed to update: $DATE"
-fi
-
-#######################################  fanboy-p2p-firstparty.txt  #######################################
-# Make sure the file exists, and the work directorys are also there before processing.
-#
-if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
-  then
-   # Compare differences, only process if file has changed..
-   #
-   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt | cut -d' ' -f1)
-   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-p2p-firstparty.txt | cut -d' ' -f1)
-   #
-   if [ "$SSLHG" != "$SSLMAIN" ]
-     then
-       rm -rf $TESTDIR/fanboy-merged.txt
-
-        # Allow Temp dir so we can insert spaces..
-        #
-        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
-
-        # Add a space at the end of each file (before we cat it)
-        #
-        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
-
-        $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt \
-             $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt \
-             $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt \
-             $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt > $TESTDIR/fanboy-merged.txt
-
-        # Make sure the file exists
-        #
-        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
-              # Copy over
-              #
-              cp -f $HGSERV/fanboy-adblock/fanboy-p2p-firstparty.txt $MAINDIR/split/fanboy-p2p-firstparty.txt
-
-              # Remove empty lines
-              #
-              sed -i -e '/^$/d' $TESTDIR/fanboy-merged.txt
-
-              # P2P Header
-              #
-              sed -i 's/Adblock\ List/Fanboy\ P2P\ List/g' $TESTDIR/fanboy-merged.txt
-
-              # Checksum
-              #
-              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-              # Compress
-              #
-              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-p2p.txt
-              rm -rf $MAINDIR/fanboy-p2p.txt.gz
-              $ZIP $MAINDIR/fanboy-p2p.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-              # Fanboy Ultimate + Complete
-              #
-              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-              # Firefox2operascript
-              #
-              $NICE $HGSERV/scripts/firefox2opera.sh
-
-              # Remove temp files
-              #
-              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
-        else
-              # If the Cat fails.
-              echo "Error creating file fanboy-p2p-firstparty.txt: fanboy-p2p-firstparty.txt - $DATE" >> $LOGFILE
-        fi
-    else
-        # File check hg vs secure.fanboy.co.nz
-        echo "Files are the same: fanboy-p2p-firstparty.txt" > /dev/null
-    fi
-else
-  echo "fanboy-p2p (fanboy-p2p-firstparty.txt) failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-p2p-firstparty.txt failed to update: $DATE"
-fi
-
-#######################################  fanboy-p2p-thirdparty.txt  #######################################
-# Make sure the file exists, and the work directorys are also there before processing.
-#
-if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
-  then
-   # Compare differences, only process if file has changed..
-   #
-   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt | cut -d' ' -f1)
-   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-p2p-thirdparty.txt | cut -d' ' -f1)
-   #
-   if [ "$SSLHG" != "$SSLMAIN" ]
-     then
-       rm -rf $TESTDIR/fanboy-merged.txt
-
-        # Allow Temp dir so we can insert spaces..
-        #
-        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
-
-        # Add a space at the end of each file (before we cat it)
-        #
-        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
-
-        $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt \
-             $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt \
-             $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt \
-             $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt > $TESTDIR/fanboy-merged.txt
-
-        # Make sure the file exists
-        #
-        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
-              # Copy over
-              #
-              cp -f $HGSERV/fanboy-adblock/fanboy-p2p-thirdparty.txt $MAINDIR/split/fanboy-p2p-thirdparty.txt
-
-              # Remove empty lines
-              #
-              sed -i -e '/^$/d' $TESTDIR/fanboy-merged.txt
-
-              # P2P Header
-              #
-              sed -i 's/Adblock\ List/Fanboy\ P2P\ List/g' $TESTDIR/fanboy-merged.txt
-
-              # Checksum
-              #
-              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-              # Compress
-              #
-              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-p2p.txt
-              rm -rf $MAINDIR/fanboy-p2p.txt.gz
-              $ZIP $MAINDIR/fanboy-p2p.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-              # Fanboy Ultimate + Complete
-              #
-              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-              # Firefox2operascript
-              #
-              $NICE $HGSERV/scripts/firefox2opera.sh
-
-              # Remove temp files
-              #
-              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
-        else
-              # If the Cat fails.
-              echo "Error creating file fanboy-merged.txt: fanboy-p2p-thirdparty.txt - $DATE" >> $LOGFILE
-        fi
-    else
-        # File check hg vs secure.fanboy.co.nz
-        echo "Files are the same: fanboy-p2p-thirdparty.txt" > /dev/null
-    fi
-else
-  echo "fanboy-p2p (fanboy-p2p-thirdparty.txt) failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-p2p-thirdparty.txt failed to update: $DATE"
-fi
-
-#######################################  fanboy-p2p-elements.txt  #######################################
-# Make sure the file exists, and the work directorys are also there before processing.
-#
-if [ -s "$HGSERV/fanboy-adblock/fanboy-p2p-elements.txt" ] && [ -d "$TESTDIR" ] && [ -d "$MAINDIR" ] && [ -d "$HGSERV" ];
-  then
-   # Compare differences, only process if file has changed..
-   #
-   SSLHG=$($SHA256SUM $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt | cut -d' ' -f1)
-   SSLMAIN=$($SHA256SUM $MAINDIR/split/fanboy-p2p-elements.txt | cut -d' ' -f1)
-   #
-   if [ "$SSLHG" != "$SSLMAIN" ]
-     then
-       rm -rf $TESTDIR/fanboy-merged.txt
-
-        # Allow Temp dir so we can insert spaces..
-        #
-        cp -f $HGSERV/fanboy-adblock/*.txt $TESTDIR/split/fanboy-adblock
-
-        # Add a space at the end of each file (before we cat it)
-        #
-        sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
-
-        $CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt \
-             $TESTDIR/split/fanboy-adblock/fanboy-p2p-firstparty.txt \
-             $TESTDIR/split/fanboy-adblock/fanboy-p2p-thirdparty.txt \
-             $TESTDIR/split/fanboy-adblock/fanboy-p2p-elements.txt > $TESTDIR/fanboy-merged.txt
-
-        # Make sure the file exists
-        #
-        if [ -s "$TESTDIR/fanboy-merged.txt" ]; then
-              # Copy over
-              #
-              cp -f $HGSERV/fanboy-adblock/fanboy-p2p-elements.txt $MAINDIR/split/fanboy-p2p-elements.txt
-
-              # Remove empty lines
-              #
-              sed -i -e '/^$/d' $TESTDIR/fanboy-merged.txt
-
-              # P2P Header
-              #
-              sed -i 's/Adblock\ List/Fanboy\ P2P\ List/g' $TESTDIR/fanboy-merged.txt
-
-              # Checksum
-              #
-              $ADDCHECKSUM $TESTDIR/fanboy-merged.txt
-
-              # Compress
-              #
-              cp -f $TESTDIR/fanboy-merged.txt $MAINDIR/fanboy-p2p.txt
-              rm -rf $MAINDIR/fanboy-p2p.txt.gz
-              $ZIP $MAINDIR/fanboy-p2p.txt.gz $TESTDIR/fanboy-merged.txt > /dev/null
-
-              # Fanboy Ultimate + Complete
-              #
-              $NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
-
-              # Remove temp files
-              #
-              rm -rf $TESTDIR/split/fanboy-adblock/*.txt
-        else
-              # If the Cat fails.
-              echo "Error creating file fanboy-p2p-elements.txt: fanboy-p2p-elements.txt - $DATE" >> $LOGFILE
-        fi
-    else
-        # File check hg vs secure.fanboy.co.nz
-        echo "Files are the same: fanboy-p2p-elements.txt" > /dev/null
-    fi
-else
-  echo "fanboy-p2p (fanboy-p2p-elements.txt) failed to update: $DATE" >> $LOGFILE
-  # twidge update "fanboy-p2p-elements.txt failed to update: $DATE"
 fi
 
 #######################################  fanboy-tracking-generic.txt  #######################################

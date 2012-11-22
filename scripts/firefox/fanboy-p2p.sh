@@ -24,24 +24,24 @@ fi
 
 # Remove Temp files
 #
-rm -f $TESTDIR/fanboy-p2p*.txt
-rm -f $TESTDIR/fanboy-adblocklist-current-expanded.txt
+# rm -f $TESTDIR/fanboy-p2p*.txt
+# rm -f $TESTDIR/fanboy-adblocklist-current-expanded.txt
 
-cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $TESTDIR/fanboy-adblocklist-current-expanded.txt
+# cp -f $GOOGLEDIR/fanboy-adblocklist-current-expanded.txt $TESTDIR/fanboy-adblocklist-current-expanded.txt
 
-sed  -n '/1st Party P2P Rules/,/Adult Hiding FF 3.x Rules/{/Adult Hiding FF 3.x Rules/!p}' $TESTDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-p2p.txt
-sed '1,2d' $TESTDIR/fanboy-p2p.txt > $TESTDIR/fanboy-p3p.txt
-sed -e '$d' $TESTDIR/fanboy-p3p.txt > $TESTDIR/fanboy-p2p.txt
-cat $MAINDIR/adblock/header-p2p.txt $TESTDIR/fanboy-p2p.txt > $TESTDIR/fanboy-p2p.txt2
-perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-p2p.txt2
+# sed  -n '/1st Party P2P Rules/,/Adult Hiding FF 3.x Rules/{/Adult Hiding FF 3.x Rules/!p}' $TESTDIR/fanboy-adblocklist-current-expanded.txt > $TESTDIR/fanboy-p2p.txt
+# sed '1,2d' $TESTDIR/fanboy-p2p.txt > $TESTDIR/fanboy-p3p.txt
+# sed -e '$d' $TESTDIR/fanboy-p3p.txt > $TESTDIR/fanboy-p2p.txt
+# cat $MAINDIR/adblock/header-p2p.txt $TESTDIR/fanboy-p2p.txt > $TESTDIR/fanboy-p2p.txt2
+# perl $TESTDIR/addChecksum.pl $TESTDIR/fanboy-p2p.txt2
 
 # Compare the P2P List on the website vs mercurial copy
 #
-if diff $TESTDIR/fanboy-p2p.txt2 $MAINDIR/fanboy-p2p.txt >/dev/null ; then
-     echo "No Changes detected: fanboy-p2p.txt"
-  else
-     echo "Updated: fanboy-p2p.txt"
-     rm -f $MAINDIR/fanboy-p2p.txt.gz
-     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-p2p.txt.gz $TESTDIR/fanboy-p2p.txt2 > /dev/null
-fi
+#if diff $TESTDIR/fanboy-p2p.txt2 $MAINDIR/fanboy-p2p.txt >/dev/null ; then
+#     echo "No Changes detected: fanboy-p2p.txt"
+#  else
+#     echo "Updated: fanboy-p2p.txt"
+#     rm -f $MAINDIR/fanboy-p2p.txt.gz
+#     $ZIP a -mx=9 -y -tgzip $MAINDIR/fanboy-p2p.txt.gz $TESTDIR/fanboy-p2p.txt2 > /dev/null
+#fi
  
