@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://m13.photobucket.com/image/recent/meditron/jlsib.jpg.html?src=www
+
+
+[filters]
+http://m13.photobucket.com/track/tr?t=mobile_page_view%2Cmobile+media+detail+view%2Cmobile+page+view+logged+out&cb=1353621067130
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
