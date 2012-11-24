@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.graze.com/b/HFHI0
+
+
+[filters]
+http://watch.teroti.com/track/GRZ1/add?op=traffic&gt_ref=&gt_kw=&gt_pg=/b/HFHI0&gt_ua=Firefox&gt_ht=www.graze.com&gt_up=Win32&gt_fua=Mozilla%2F5.0%20(Windows%20NT%206.1%3B%20WOW64%3B%20rv%3A17.0)%20Gecko%2F17.0%20Firefox%2F17.0&gt_se=&source=&medium=&camp=&conv=0
+http://watch.teroti.com/track/GRZ1/trackmin.js
+
+[other]
+# Any other details
+
+
+[comments]
+nitrox
