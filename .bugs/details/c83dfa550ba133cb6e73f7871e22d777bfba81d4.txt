@@ -1,0 +1,16 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+https://mail.google.com/mail/u/0/?shva=1#inbox/46sfj89w98375
+
+
+[filters]
+http://www.dropbox.com/el/?b=open:1464356547:4976934769384701239:353:375&z=AAC0SsL37YDGKLJDGPODGDG_YSSIJUOIDGDG
+
+[other]
+Dropbox email tracker
+
+
+[comments]
+nitrox
