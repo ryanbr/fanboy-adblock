@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://forum.xda-developers.com/showthread.php?t=2011843
+
+
+[filters]
+http://m.servebom.com/xda-developers.com/tn_xdadev.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
