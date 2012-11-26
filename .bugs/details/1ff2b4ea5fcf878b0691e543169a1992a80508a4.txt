@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.videobash.com/video_show/best-pranks-ever-commentary-376429
+
+
+[filters]
+http://knowd.com/w/607.js?swid=316
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
