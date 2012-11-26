@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.dreamamateurs.com/Couple/13735/Real_Hacked_Private_Sextape_With_Hot_Girlfriend.html
+
+
+[filters]
+http://rpc.cyberbidhost.com/?id=1344256131
+http://rpc.cyberbidhost.com/images/uploads/1351885124.jpg
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
