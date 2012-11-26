@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.amazon.com/Daylight/dp/B008B1W008
+
+
+[filters]
+http://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:186-4824794-5646839:1DEV3WE485J8J9CMTMTB$uedata=s:%2FDaylight%2Fdp%2FB008B1W008%2Fuedata%2Funsticky%2F186-4824794-5646839%2FDetail%2Fntpoffrw%3Fld%26v%3D23%26id%3D1DEV3WE485J8J9CMTMTB%26m%3D1%26sc%3D1DEV3WE485J8J9CMTMTB%26ue%3D225%26ns%3D518%26ne%3D525%26af%3D1328%26cf%3D8368%26be%3D8475%26pc%3D8778%26tc%3D-910%26na_%3D-910%26fe_%3D-909%26lk_%3D-885%26_lk%3D-885%26co_%3D-909%26_co%3D-909%26rq_%3D-665%26rs_%3D-35%26_rs%3D1362%26dl_%3D-34%26di_%3D8497%26de_%3D8606%26_de%3D8684%26_dc%3D8800%26ld_%3D8800%26ty%3D0%26rc%3D0%26hob%3D224%26hoe%3D225%26ld%3D8778%26t%3D1353918984279%26ctb%3D1%26csmtags%3Diss-on-time%7Cnonredirect%7Cue_tofc%26viz%3Dhidden%3A225%7Cvisible%3A5369:8778
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
