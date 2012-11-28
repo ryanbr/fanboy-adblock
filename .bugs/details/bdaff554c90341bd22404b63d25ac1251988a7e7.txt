@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sleepinn.com/hotel-de_pere-wisconsin-WI088?source=gglocaloz
+
+
+[filters]
+http://www.sleepinn.com/assets/33267/javascript/chi/chi.webmetrics.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
