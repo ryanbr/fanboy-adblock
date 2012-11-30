@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.llbean.com/llb/shop/1058?page=kids-swimwear
+
+
+[filters]
+http://www.llbean.com/js/llbmetrics.min.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
