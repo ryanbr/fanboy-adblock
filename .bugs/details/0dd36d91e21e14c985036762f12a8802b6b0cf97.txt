@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://theindustry.cc/2012/11/30/itunes-11-the-convergence-of-ios-and-os-x-design/
+
+
+[filters]
+http://quote.fm/services/button/js?id=0&url=http%3A%2F%2Ftheindustry.cc%2F2012%2F11%2F30%2Fitunes-11-the-convergence-of-ios-and-os-x-design%2F
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
