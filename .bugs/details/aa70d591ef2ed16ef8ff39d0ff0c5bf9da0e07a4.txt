@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.sharingzone.net/download_page.php?q=Once.an.Eagle.S01E07.BDRip.XviD-SPRiNTER
+
+
+[filters]
+http://www.downloadprovider.me/en/search/Once%20an%20Eagle%20S01E07%20BDRip%20XviD%20SPRiNTER.html?aff.id=3772&iframe=1
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
