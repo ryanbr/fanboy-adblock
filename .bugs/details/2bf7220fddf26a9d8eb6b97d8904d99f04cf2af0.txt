@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vh1.com/video/alex-clare/811023/too-close.jhtml
+
+
+[filters]
+http://www.vh1.com/sitewide/scripts/chartbeat.jhtml
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
