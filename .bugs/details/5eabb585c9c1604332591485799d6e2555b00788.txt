@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.swimoutlet.com/Swimwear_s/813.htm
+
+
+[filters]
+http://tag.perfectaudience.com/serve/5077324030a1d50002000146.js
+http://www.swimoutlet.com/scripts/clicktale_top.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
