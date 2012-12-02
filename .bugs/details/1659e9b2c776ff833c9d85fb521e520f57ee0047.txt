@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.shopping.hp.com/webapp/shopping/cto.do
+
+
+[filters]
+http://welcome.hp-ww.com/cma/region/na/metricsHHOstore.js
+
+
+
+
+[other]
+fp:
+
+
+[comments]
+fanboy
