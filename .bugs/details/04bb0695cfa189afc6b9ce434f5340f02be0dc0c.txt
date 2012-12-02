@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://aol.sportingnews.com/nfl/story/2012-11-18/video-aj-green-td-catch-touchdown-watch-bengals-wr-chiefs-crazy-grab?ncid=webmail6
+
+[filters]
+http://nfl.cpl.delvenetworks.com/player/common/scripts/omniture.js
+http://nfl.cpl.delvenetworks.com/player/common/scripts/delve-omniture-callback.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
