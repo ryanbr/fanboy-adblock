@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.chicagotribune.com/classified/realestate/home/sc-home-range-hood-20121127,0,7604566.story
+
+
+[filters]
+http://assets.newsinc.com/launchers/HorizontalTitle550/20121008/js/analytics.js
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
