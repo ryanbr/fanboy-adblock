@@ -1,0 +1,33 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.nadlan.com/
+
+
+[filters]
+http://media.clickcenter.net/?source=zone&id=9202&site=0&iframe=1&keyword=CL1000
+http://media.clickcenter.net/?source=zone&id=9202&site=0&iframe=1&keyword=CL374286
+http://media.clickcenter.net/?source=zone&id=9203&site=0&iframe=1&keyword=
+http://media.clickcenter.net/?source=zone&id=9204&site=0&iframe=1&keyword=
+http://media.clickcenter.net/?source=zone&id=9205&site=0&iframe=1&keyword=
+http://media.clickcenter.net/?source=zone&id=9206&site=0&iframe=1&keyword=
+http://media.clickcenter.net/?source=zone&id=9207&site=0&iframe=1&keyword=
+http://media.clickcenter.net/?source=zone&id=9208&site=0&iframe=1&keyword=
+http://media.clickcenter.net/?source=zone&id=9209&site=0&iframe=1&keyword=
+http://media.clickcenter.net/?source=zone&id=9210&site=0&iframe=1&keyword=
+http://media.clickcenter.net/?source=zone&id=9211&site=0&iframe=1&keyword=
+http://media.clickcenter.net/?source=zone&id=9212&site=0&iframe=1&keyword=
+http://media.clickcenter.net/?source=zone&id=9213&site=0&iframe=1&keyword=
+http://media.clickcenter.net/?source=zone&id=9214&site=0&iframe=1&keyword=
+http://media.clickcenter.net/?source=zone&id=9215&site=0&iframe=1&keyword=
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
