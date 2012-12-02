@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.bloomberg.com/video/how-should-you-invest-if-dividend-taxes-go-up-PU1fJzE1Qjite2_xc8g6jw.html
+
+[filters]
+http://consent.truste.com/notice?domain=bloomberg.com&c=consent-track-image
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
