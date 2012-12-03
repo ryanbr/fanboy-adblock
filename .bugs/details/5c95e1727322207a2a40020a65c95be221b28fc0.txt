@@ -1,0 +1,17 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.match.com/Profile/Create/Welcome/?regstate=1
+
+[filters]
+http://track.bmlmedia.com/SL1k
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
