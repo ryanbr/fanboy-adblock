@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.vistaprint.co.nz/vp/ns/default.aspx?langid=23&xnav=ipaddr&rd=1&GP=12%2f3%2f2012+2%3a06%3a20+AM&GPS=2653486599&GNF=0
+
+
+[filters]
+http://www.vistaprint.co.nz/sf/_sv-25.7/_hc--1889209565/_/vp/JS-Lib/Sales/Web/Sessions/vp.pageVisitCounter_min.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
