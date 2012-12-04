@@ -1,0 +1,18 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://automobiles.honda.com/shop/odyssey.aspx
+
+
+[filters]
+http://automobiles.honda.com/js/tracking/global_code.js
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
