@@ -1,0 +1,27 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.pandora.com/
+
+
+[filters]
+http://lt150.tritondigital.com/crossdomain.xml
+http://lt150.tritondigital.com/lt?guid=VEQwOX41MjgyNzkzOC0zNmUwLTQ0NTUtOTM5MC1iODdiODkwZmRlY2M%3D&yob=1976&gender=M&zip=90210&hasads=1&devcat=WEB&devtype=WEB&cb=13546940343449276
+http://lt150.tritondigital.com/lt?guid=VEQwOX41MjgyNzkzOC0zNmUwLTQ0NTUtOTM5MC1iODdiODkwZmRlY2M%3D&yob=1976&gender=M&zip=90210&hasads=1&devcat=WEB&devtype=WEB&cb=13546940943437101
+http://lt150.tritondigital.com/lt?guid=VEQwOX41MjgyNzkzOC0zNmUwLTQ0NTUtOTM5MC1iODdiODkwZmRlY2M%3D&yob=1976&gender=M&zip=90210&hasads=1&devcat=WEB&devtype=WEB&cb=13546941543425083
+http://lt150.tritondigital.com/lt?guid=VEQwOX41MjgyNzkzOC0zNmUwLTQ0NTUtOTM5MC1iODdiODkwZmRlY2M%3D&yob=1976&gender=M&zip=90210&hasads=1&devcat=WEB&devtype=WEB&cb=13546942143421606
+http://lt150.tritondigital.com/lt?guid=VEQwOX41MjgyNzkzOC0zNmUwLTQ0NTUtOTM5MC1iODdiODkwZmRlY2M%3D&yob=1976&gender=M&zip=90210&hasads=1&devcat=WEB&devtype=WEB&cb=13546942743413089
+http://lt150.tritondigital.com/lt?guid=VEQwOX41MjgyNzkzOC0zNmUwLTQ0NTUtOTM5MC1iODdiODkwZmRlY2M%3D&yob=1976&gender=M&zip=90210&hasads=1&devcat=WEB&devtype=WEB&cb=1354694334341502
+http://lt150.tritondigital.com/lt?guid=VEQwOX41MjgyNzkzOC0zNmUwLTQ0NTUtOTM5MC1iODdiODkwZmRlY2M%3D&yob=1976&gender=M&zip=90210&hasads=1&devcat=WEB&devtype=WEB&cb=13546943943406518
+http://lt150.tritondigital.com/lt?guid=VEQwOX41MjgyNzkzOC0zNmUwLTQ0NTUtOTM5MC1iODdiODkwZmRlY2M%3D&yob=1976&gender=M&zip=90210&hasads=1&devcat=WEB&devtype=WEB&cb=13546944543412882
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
