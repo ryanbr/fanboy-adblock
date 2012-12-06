@@ -1,0 +1,19 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.in.com/
+
+
+[filters]
+http://stat.moneycontrol.co.in/mcjs/pyt_promo.js?v=am1
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
