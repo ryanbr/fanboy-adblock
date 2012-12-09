@@ -1,0 +1,20 @@
+# Lines starting with '#' and sections without content
+# are not displayed by a call to 'details'
+#
+[Website]
+http://www.eclectablog.com/2012/12/how-do-you-get-record-high-corporate-profits-and-record-low-worker-wages-you-bust-unions.html#.UMNPQ3-Hs78.reddit
+
+
+[filters]
+http://referrer.disqus.com/juggler/event.js?major_version=midway&internal_organic=6&external_organic=0&promoted=5&promoted_ids=%5B10951%2C7598%2C7594%2C10770%2C10681%5D&display=true&event=init_discovery&thread=964414085&forum=eclectablog&forum_id=588711&imp=1355011625323855039&prev_imp=1355011625323855039
+http://referrer.disqus.com/juggler/event.js?thread_slug=how_do_you_get_record_high_corporate_profits_and_record_low_worker_wages_union_busting&user_type=anon&referrer=http%3A%2F%2Fwww.eclectablog.com%2F2012%2F12%2Fhow-do-you-get-record-high-corporate-profits-and-record-low-worker-wages-you-bust-unions.html&theme=next&event=init_embed&thread=964414085&forum=eclectablog&forum_id=588711&imp=1355011625323855039&prev_imp=1355011625323855039
+
+
+
+
+[other]
+# Any other details
+
+
+[comments]
+fanboy
