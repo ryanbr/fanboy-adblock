@@ -4644,6 +4644,7 @@
 ##.add_container
 ##.add_topbanner
 ##.addarea
+##.addBanner
 ##.addbanner
 ##.addBox
 ##.addboxRight
@@ -5491,6 +5492,7 @@
 ##.advertising_box_bg
 ##.advertising_widget
 ##.advertisingBanner
+##.advertisingBlocks
 ##.advertisingLrec
 ##.advertisingTable
 ##.Advertisment
