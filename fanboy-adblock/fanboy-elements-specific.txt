@@ -2309,6 +2309,7 @@ fox6now.com###links-we-like
 fox8.com##.size_728_90
 foxlingo.com##div[style="margin-left: 3px; width:187px; min-height:187px;"]
 foxnews.com###frame2-300x100
+foxnews.com##.advert
 foxnews.com##.block-fox_yume
 foxnewsinsider.com##.ad
 foxreno.com###leaderboard-sticky
