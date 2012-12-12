@@ -1494,7 +1494,6 @@
 ||sbcpower.com^$third-party
 ||scanmedios.com^$third-party
 ||scanscout.com/ads/partner
-||scorecardresearch.com^$third-party
 ||screenconnect.com^$third-party
 ||scribol.com^$third-party
 ||search.spotxchange.com^$object-subrequest

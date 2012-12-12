@@ -835,6 +835,7 @@
 ||sawpf.com/1.0.js$third-party
 ||sbdtds.com^$third-party
 ||sciencerevenue.com^$third-party
+||scorecardresearch.com^$third-party
 ||scout.haymarketmedia.com^$third-party
 ||scripts.psyma.com^$third-party
 ||search.mediatarget.net^$third-party
