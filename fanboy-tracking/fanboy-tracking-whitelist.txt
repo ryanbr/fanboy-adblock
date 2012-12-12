@@ -172,6 +172,7 @@
 @@||tracker.mattel.com/tracker.aspx?site=$script
 @@||tracker.mattel.com^$domain=barbie.com
 @@||trc.taboolasyndication.com^$domain=nme.com|breitbart.tv|breitbart.com|slatev.com|bloomberg.com
+@@||turner.com/cnn/*/video/chartbeat.js$domain=cnn.com
 @@||ultimedia.com/js/common/jquery.gatracker.js
 @@||unifi.me/mootools/classes/*-tracking
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
