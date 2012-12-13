@@ -122,15 +122,13 @@ fi
 #######################################  easylist-fanboy.txt  #######################################
 # Allow Temp dir so we can insert spaces..
 #
-# Just include an Adblock header here, not official header...
-
-cp -f $HGSERV/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock
 
 # Add a space at the end of each file (before we cat it)
 #
 # sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
 
-$CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $EASYLIST/easylist_adservers.txt $EASYLIST/easylist_general_block_dimensions.txt $EASYLIST/easylist_adservers_popup.txt $EASYLIST/easylist_general_block_popup.txt \
+
+$CAT $HGSERV/fanboy-adblock/fanboy-header-2.txt $EASYLIST/easylist_adservers.txt $EASYLIST/easylist_general_block_dimensions.txt $EASYLIST/easylist_adservers_popup.txt $EASYLIST/easylist_general_block_popup.txt \
         $EASYLIST/easylist_general_block.txt $EASYLIST/easylist_general_hide.txt $EASYLIST/easylist_specific_block_popup.txt $EASYLIST/easylist_specific_block.txt \
         $EASYLIST/easylist_specific_hide.txt $EASYLIST/easylist_thirdparty_popup.txt $EASYLIST/easylist_thirdparty.txt $EASYLIST/easylist_whitelist_dimensions.txt \
         $EASYLIST/easylist_whitelist_general_hide.txt $EASYLIST/easylist_whitelist_popup.txt $EASYLIST/easylist_whitelist.txt \
@@ -146,6 +144,12 @@ if [ -s "$TESTDIR/fanboy-easy.txt" ]; then
 #
 sed -i -e '/^$/d' $TESTDIR/fanboy-easy.txt
 
+# Title:
+#
+sed -i 's/Fanboy\'s\ Adblock\ List/Fanboy-Easylist\ Merged\ List/g' $TESTDIR/fanboy-easy.txt
+
+
+Fanboy's Adblock List
 # Checksum
 #
 $ADDCHECKSUM $TESTDIR/fanboy-easy.txt
