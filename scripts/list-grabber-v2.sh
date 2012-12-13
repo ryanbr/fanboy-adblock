@@ -1,13 +1,13 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v2.21 (13/12/2012)
+# Fanboy Adblock list grabber script v2.40 (13/12/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
-# 2,40 Include test Easylist sub generator
+# 2.40 Include test Easylist sub generator
 # 2.30 Remove p2p list
 # 2.21 Opera CSS generator
 # 2.20 Allow spaces to prepended to each list before processing
@@ -133,7 +133,7 @@ $CAT $HGSERV/fanboy-adblock/fanboy-header-2.txt $EASYLIST/easylist_adservers.txt
         $EASYLIST/easylist_specific_hide.txt $EASYLIST/easylist_thirdparty_popup.txt $EASYLIST/easylist_thirdparty.txt $EASYLIST/easylist_whitelist_dimensions.txt \
         $EASYLIST/easylist_whitelist_general_hide.txt $EASYLIST/easylist_whitelist_popup.txt $EASYLIST/easylist_whitelist.txt \
         $EASYLIST/adult_adservers_popup.txt $EASYLIST/adult_adservers.txt $EASYLIST/adult_specific_block_popup.txt $EASYLIST/adult_specific_block.txt $EASYLIST/adult_specific_hide.txt \
-        $EASYLIST/adult_thirdparty_popup.txt $EASYLIST/adult_thirdparty_popup.txt $EASYLIST/adult_thirdparty.txt $EASYLIST/adult_whitelist_popup.txt \
+        $EASYLIST/adult_thirdparty_popup.txt $EASYLIST/adult_thirdparty.txt $EASYLIST/adult_whitelist_popup.txt \
         $EASYLIST/adult_whitelist.txt > $TESTDIR/fanboy-easy.txt
 
 # Make sure the file exists
