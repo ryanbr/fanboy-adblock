@@ -650,6 +650,7 @@
 /adcontent/*
 /adcontents_
 /adcontrol.
+/adcontrol/*
 /adcontroller.
 /adcount.
 /adcreative/*
