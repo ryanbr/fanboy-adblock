@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v2.21 (08/09/2012)
+# Fanboy Adblock list grabber script v2.21 (13/12/2012)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
+# 2,40 Include test Easylist sub generator
 # 2.30 Remove p2p list
 # 2.21 Opera CSS generator
 # 2.20 Allow spaces to prepended to each list before processing
@@ -51,6 +52,7 @@ export TWIDGE="/usr/bin/twidge update"
 export IEDIR="/tmp/work/ie"
 export IESUBS="/tmp/work/ie/subscriptions"
 export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
+export EASYLIST="/root/easylist/easylist/easylistfanboy/fanboy-adblock"
 
 # Test for Ram disks
 #
@@ -109,6 +111,61 @@ if [ -d "/var/hgstuff/fanboy-adblock-list" ] && [ -h "/tmp/hgstuff" ]; then
     $NICE $HG pull
     $NICE $HG update
 fi
+
+if [ -d "/root/easylist/easylist" ]; then
+    cd /root/easylist/easylist
+    $NICE $HG pull
+    $NICE $HG update
+fi
+
+
+#######################################  easylist-fanboy.txt  #######################################
+# Allow Temp dir so we can insert spaces..
+#
+# Just include an Adblock header here, not official header...
+
+cp -f $HGSERV/fanboy-adblock/fanboy-header.txt $TESTDIR/split/fanboy-adblock
+
+# Add a space at the end of each file (before we cat it)
+#
+# sed -i -e '$G' $TESTDIR/split/fanboy-adblock/*.txt
+
+$CAT $TESTDIR/split/fanboy-adblock/fanboy-header.txt $EASYLIST/easylist_adservers.txt $EASYLIST/easylist_general_block_dimensions.txt $EASYLIST/easylist_adservers_popup.txt $EASYLIST/easylist_general_block_popup.txt \
+        $EASYLIST/easylist_general_block.txt $EASYLIST/easylist_general_hide.txt $EASYLIST/easylist_specific_block_popup.txt $EASYLIST/easylist_specific_block.txt \
+        $EASYLIST/easylist_specific_hide.txt $EASYLIST/easylist_thirdparty_popup.txt $EASYLIST/easylist_thirdparty.txt $EASYLIST/easylist_whitelist_dimensions.txt \
+        $EASYLIST/easylist_whitelist_general_hide.txt $EASYLIST/easylist_whitelist_popup.txt $EASYLIST/easylist_whitelist.txt \
+        $EASYLIST/adult_adservers_popup.txt $EASYLIST/adult_adservers.txt $EASYLIST/adult_specific_block_popup.txt $EASYLIST/adult_specific_block.txt $EASYLIST/adult_specific_hide.txt \
+        $EASYLIST/adult_thirdparty_popup.txt $EASYLIST/adult_thirdparty_popup.txt $EASYLIST/adult_thirdparty.txt $EASYLIST/adult_whitelist_popup.txt \
+        $EASYLIST/adult_whitelist.txt > $TESTDIR/fanboy-easy.txt
+
+# Make sure the file exists
+#
+if [ -s "$TESTDIR/fanboy-easy.txt" ]; then
+
+# Remove empty lines
+#
+sed -i -e '/^$/d' $TESTDIR/fanboy-easy.txt
+
+# Checksum
+#
+$ADDCHECKSUM $TESTDIR/fanboy-easy.txt
+
+# Compress
+#
+cp -f $TESTDIR/fanboy-easy.txt $MAINDIR/fanboy-easy.txt
+rm -rf $MAINDIR/fanboy-easy.txt.gz
+$ZIP $MAINDIR/fanboy-easy.txt.gz $TESTDIR/fanboy-easy.txt > /dev/null
+
+# Firefox2operascript
+#
+# $NICE $HGSERV/scripts/firefox2opera.sh
+
+else
+# If the Cat fails.
+  echo "Error creating file fanboy-easy.txt: fanboy-generic.txt - $DATE" >> $LOGFILE
+fi
+
+
 
 #######################################  fanboy-generic.txt  #######################################
 # Make sure the file exists, and the work directorys are also there before processing.
