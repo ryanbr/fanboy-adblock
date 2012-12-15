@@ -6569,6 +6569,7 @@ torrentreactor.net##img[alt="secure download"]
 torrentreactor.to##p[style="font-size: 1.2em; text-align: center;"]
 torrentresource.com##[width="150"]:last-child
 torrentroom.com###earn_dir
+torrentroom.com###earn_qry
 torrentroom.com###earn_spon
 torrentroom.com##a[href^="/afba/"]
 torrents.net##.btn3
