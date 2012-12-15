@@ -2412,6 +2412,7 @@ fullepisode.info##.post-banner
 fullepisode.info##div[style="margin: 0 auto 0 auto; text-align:center;"]
 fullrip.net###ad
 fun.familyeducation.com###ssky
+funmunch.com##.addimage
 funny-city.com##div[style="width:300px; height:250px; margin:auto;"]
 funny.com##.ctnAdBanner
 funnycrazygames.com###fad
