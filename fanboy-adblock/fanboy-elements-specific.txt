@@ -1155,6 +1155,7 @@ cnet.com##.ad
 cnet.com##.bidwar
 cnet.com##.iframeWrap
 cnet.com##.infoboardWrap
+cnet.com##.innerMPUwrap
 cnet.com##.leaderboard
 cnet.com##.promo3000
 cnet.com##.shopperSpecials
