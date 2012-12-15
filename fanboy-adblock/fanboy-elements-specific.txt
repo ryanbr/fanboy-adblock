@@ -2602,6 +2602,7 @@ givemefile.net##.ccb_cap_class_1
 givemefootball.com###advertisement
 givesmehope.com##.ad
 gixen.com##.td_bck3
+gizchina.com##a[href^="http://www.uredeal.com"]
 gizgag.com###leftBanner1
 gizgag.com###rightBanner
 gizgag.com###topBanner
