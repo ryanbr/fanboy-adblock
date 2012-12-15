@@ -7424,6 +7424,7 @@ wrytestuff.com##.eoc250
 wsbtv.com###leaderboard-sticky
 wsbtv.com###middleLeaderBoard
 wsj.com###promo_container
+wsj.com##.ad
 wsj.com##.cioMypro-marketing
 wsj.com##.metaboxType-sponsor
 wsj.com##.specialAdvertising

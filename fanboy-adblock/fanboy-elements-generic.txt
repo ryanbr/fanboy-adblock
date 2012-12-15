@@ -6743,6 +6743,7 @@
 ##.lr-ad
 ##.lr_skyad
 ##.lt_ad_call
+##.luxeAd
 ##.m-sponsored
 ##.m4-adsbygoogle
 ##.m_ad300

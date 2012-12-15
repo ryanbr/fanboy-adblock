@@ -1957,6 +1957,7 @@
 ##.undocked-share
 ##.utilities-fblike-twitter
 ##.utils_social_tracking
+##.vcrSocial
 ##.ve2_sharebox
 ##.vertical-social
 ##.vertical-social-icons
