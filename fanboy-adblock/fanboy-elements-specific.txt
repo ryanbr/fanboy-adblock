@@ -5795,6 +5795,7 @@ sportinglife.com###mpu
 sportodin.com##.unfullscreener
 sportschatplace.com##.textLink
 sportsclimax.com###top_banner
+sportsgrid.com###am-ngg-ss-unit-label
 sportsgrid.com###unit-sidebar
 sportsnet.ca##.v2-topnav-promo
 sportspagenetwork.com##.top_banner_scoreboard_content
