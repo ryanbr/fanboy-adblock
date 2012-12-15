@@ -918,6 +918,7 @@
 ||triond.com/cntimp?
 ||tripadvisor.com/uvpages/page_moniker.html
 ||trovus.co.uk/tracker/
+||truste.com/common/js/ga.js
 ||truthdig.com/?ACT=
 ||tscapeplay.com/msvp.php?
 ||tscapeplay.com/pvim?
