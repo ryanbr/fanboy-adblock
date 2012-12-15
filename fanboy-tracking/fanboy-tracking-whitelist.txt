@@ -12,6 +12,7 @@
 @@||api.chartbeat.com^script,domain=financialpost.com|wcpo.com|betabeat.com|couriermail.com.au|betabeat.com
 @@||api.mixpanel.com/track/$xmlhttprequest,domain=thefrisky.com
 @@||audience.visiblemeasures.com/crossdomain.xml$domain=espn.go.com
+@@||b.scorecardresearch.com/r?$image
 @@||banking.ing-diba.de^*/js/logging.js?$domain=banking.ing-diba.de
 @@||barclays.touchclarity.com^$domain=barclaycard.co.uk
 @@||bbc.co.uk/frameworks/nedstat/$~third-party,script
