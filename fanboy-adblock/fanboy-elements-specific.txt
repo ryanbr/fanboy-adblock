@@ -6917,6 +6917,7 @@ usmagazine.com###sub_form_popup
 usmagazine.com##.sb_logo
 usnews.com###leaderboard-b
 usnews.com###loomia_display
+usnews.com###navbuglink
 usnews.com##.sponsored-listing
 usnewsuniversitydirectory.com##.right
 usniff.com###bottom
