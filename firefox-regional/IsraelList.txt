@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: l3EZizSIoOgg6q3vIE5MsA
+! Checksum: 6HrhbaXv83gkFq/WWEJkxg
 ! Title: Fanboy's IsraelList
 ! Updated: 16 Dec 2012
 ! This list expires after 4 days
@@ -721,6 +721,7 @@ walla.co.il##.wrapperOfYad2Board
 walla.co.il##[href^="http://pirsumi.walla.co.il/?w="]
 walla.co.il##[id^="Fusion_holder_"]
 walla.co.il##div.pnl248.pnlx[style]
+walla.co.il##div[style="display: block; padding-top: 260px;"]
 walla.co.il##div[style="padding-left:2px;width:134;"]
 walla.co.il##div[style="width:468px;height:70px;"]
 walla.co.il##div[style="width:468px;margin:0 auto;"]
