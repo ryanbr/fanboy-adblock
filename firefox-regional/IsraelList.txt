@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 6HrhbaXv83gkFq/WWEJkxg
+! Checksum: oK0LpFxYdU3+lozF73qECg
 ! Title: Fanboy's IsraelList
 ! Updated: 16 Dec 2012
 ! This list expires after 4 days
@@ -1442,6 +1442,7 @@ zvz.co.il##.ad_upper_sdera_container
 /adcontent/*
 /adcontents_
 /adcontrol.
+/adcontrol/*
 /adcontroller.
 /adcount.
 /adcreative/*
@@ -3021,7 +3022,6 @@ zvz.co.il##.ad_upper_sdera_container
 /pop_under/*
 /popads.
 /popads_
-/popover/*$script
 /popunder-
 /popunder.$script,object-subrequest,popup
 /popunder/*
@@ -5179,7 +5179,6 @@ _zedo.
 ||sbcpower.com^$third-party
 ||scanmedios.com^$third-party
 ||scanscout.com/ads/partner
-||scorecardresearch.com^$third-party
 ||screenconnect.com^$third-party
 ||scribol.com^$third-party
 ||search.spotxchange.com^$object-subrequest
@@ -6485,6 +6484,7 @@ _zedo.
 ||ar.voicefive.com^$popup,image,~image
 ||artsyspot.com/pure-awesomeness$popup,image,~image
 ||avalanchers.com/alt/$popup,image,~image
+||awempire.com^$image,~image,popup,third-party
 ||becoquin.com^$popup,image,~image
 ||becoquins.net^$popup,image,~image
 ||bestproducttesters.com^$popup,image,~image
@@ -6768,6 +6768,7 @@ _zedo.
 @@||53.com/resources/images/ad-rotator/
 @@||6waves.com/ads/720x300/
 @@||6waves.com/js/adshow.js
+@@||9msn.com.au^*/ads/ninemsn.ads$script
 @@||a.collective-media.net^$domain=wrc.com,object-subrequest
 @@||abbyy.com/adx/$image
 @@||abcnews.go.com/assets/static/ads/fwps.js
@@ -6819,6 +6820,7 @@ _zedo.
 @@||ads.gamelink.com/ads/www/delivery/$subdocument,domain=goodvibes.com
 @@||ads.globo.com^*/globovideo/player/
 @@||ads.golfweek.com^$~third-party
+@@||ads.hulu.com/published/*.mp4
 @@||ads.msvp.net/campagnes*?ad_id=preroll$domain=allocine.fr
 @@||ads.pandora.tv/netinsight/text/pandora_global/channel/icf@
 @@||ads.spilgames.com/ad/$script,domain=games.co.uk|agame.com
@@ -7119,6 +7121,7 @@ _zedo.
 @@||live365.com/web/components/ads/rect_ad.html?s=inner
 @@||live365.com/web/components/ads/rma.html
 @@||liverail.com/adasset4/$domain=aztecanoticias.com.mx
+@@||ll.a.hulu.com/published/*.mp4
 @@||llnwd.net^*/js/3rdparty/swfobject$script
 @@||longtailvideo.com/adtvideo.swf$domain=sportbox.ru
 @@||longtailvideo.com^*/gapro.js$domain=physorg.com
@@ -7234,7 +7237,6 @@ _zedo.
 @@||salon.com/content/plugins/salon-ad-controller/ad-utilities.js
 @@||sankakucomplex.com^$script
 @@||sankakustatic.com^$script
-@@||scorecardresearch.com/beacon.js$domain=ouramazingplanet.com|allrecipes.com|mainstreet.com|thinkatheist.com|deviantart.com|linkinpark.com|ning.com|thedailybeast.com|huffingtonpost.com|landandfarm.com|last.fm|agame.com|cbc.ca|laptopmag.com|babycenter.com|fastcompany.com|salon.com
 @@||sdelkino.com/images/ad/$image
 @@||search.spotxchange.com/crossdomain.xml$domain=own3d.tv
 @@||sec-ads.bridgetrack.com/ads_img/
@@ -14761,6 +14763,7 @@ zuzandra.com##.jx-bar
 ##.add_container
 ##.add_topbanner
 ##.addarea
+##.addBanner
 ##.addbanner
 ##.addBox
 ##.addboxRight
@@ -15608,6 +15611,7 @@ zuzandra.com##.jx-bar
 ##.advertising_box_bg
 ##.advertising_widget
 ##.advertisingBanner
+##.advertisingBlocks
 ##.advertisingLrec
 ##.advertisingTable
 ##.Advertisment
@@ -16684,6 +16688,7 @@ zuzandra.com##.jx-bar
 ##.info-ads
 ##.info-advert-160x600
 ##.info-advert-300x250
+##.info-advert-728x90
 ##.info-advert-728x90-inside
 ##.ingameadbox
 ##.ingameboxad
@@ -16858,6 +16863,7 @@ zuzandra.com##.jx-bar
 ##.lr-ad
 ##.lr_skyad
 ##.lt_ad_call
+##.luxeAd
 ##.m-sponsored
 ##.m4-adsbygoogle
 ##.m_ad300
@@ -18945,6 +18951,7 @@ bnet.com###powerPromo
 bnet.com###reg-overlay
 bnqt.com##.ad05
 bobvila.com##.ad
+bonjourlife.com##div[style="margin-left:15px;display:block;width:960px;height:150px;"]
 bonniegames.com###caja_publicidad
 bonniegames.com##.caja_juegopubli
 bonniegames.com##div[style="float: left; height: 90px; width: 728px; background:#DDDDDD; margin:2px;"]
@@ -19363,6 +19370,7 @@ cnet.com##.ad
 cnet.com##.bidwar
 cnet.com##.iframeWrap
 cnet.com##.infoboardWrap
+cnet.com##.innerMPUwrap
 cnet.com##.leaderboard
 cnet.com##.promo3000
 cnet.com##.shopperSpecials
@@ -20517,6 +20525,7 @@ fox6now.com###links-we-like
 fox8.com##.size_728_90
 foxlingo.com##div[style="margin-left: 3px; width:187px; min-height:187px;"]
 foxnews.com###frame2-300x100
+foxnews.com##.advert
 foxnews.com##.block-fox_yume
 foxnewsinsider.com##.ad
 foxreno.com###leaderboard-sticky
@@ -20617,6 +20626,7 @@ fullepisode.info##.post-banner
 fullepisode.info##div[style="margin: 0 auto 0 auto; text-align:center;"]
 fullrip.net###ad
 fun.familyeducation.com###ssky
+funmunch.com##.addimage
 funny-city.com##div[style="width:300px; height:250px; margin:auto;"]
 funny.com##.ctnAdBanner
 funnycrazygames.com###fad
@@ -20628,6 +20638,7 @@ funnyordie.com###header_takeover
 funnyordie.com##.sponsored_videos
 funnyplace.org###oglas-desni
 funnytipjars.com###top-leaderboard
+funpic.hu##.banner
 funtasticus.com##div[style="float:left; width:160px; height:600px; margin-left:-10px;"]
 funtasticus.com##div[style="height:600px; float:left; margin-left:-1px; width:160px; margin-right:0; "]
 funvid.hu##div[style="padding: 3px 0px 0px 26px; height: 90px; clear: both;"]
@@ -20808,6 +20819,7 @@ givemefile.net##.ccb_cap_class_1
 givemefootball.com###advertisement
 givesmehope.com##.ad
 gixen.com##.td_bck3
+gizchina.com##a[href^="http://www.uredeal.com"]
 gizgag.com###leftBanner1
 gizgag.com###rightBanner
 gizgag.com###topBanner
@@ -23668,6 +23680,7 @@ scam.com##a[href="http://www.ip-adress.com/trace_email/"]
 scanwith.com##.middle-banner
 scholastic.com###schlSkyscraper
 scholastic.com##.rectangleMedium
+sci-news.com###header0
 sci-tech-today.com##table[cellpadding="10"]
 sci-tech-today.com##table[style="border: #cccccc solid 1px;"]
 sci-tech-today.com##td[style="padding:0px; border-left:#BFBFBF solid 1px;border-right: #BFBFBF solid 1px;"]
@@ -23999,12 +24012,14 @@ sportinglife.com###mpu
 sportodin.com##.unfullscreener
 sportschatplace.com##.textLink
 sportsclimax.com###top_banner
+sportsgrid.com###am-ngg-ss-unit-label
 sportsgrid.com###unit-sidebar
 sportsnet.ca##.v2-topnav-promo
 sportspagenetwork.com##.top_banner_scoreboard_content
 sportsvite.com##.leaderboard
 springwise.com##.ad
 squidoo.com###header_banner
+squidoo.com##.header_banner
 ssireview.org##.ad
 stabroeknews.com##div[style="width:336px;height:280px;"]
 star-magazine.co.uk###imu
@@ -24772,6 +24787,7 @@ torrentreactor.net##img[alt="secure download"]
 torrentreactor.to##p[style="font-size: 1.2em; text-align: center;"]
 torrentresource.com##[width="150"]:last-child
 torrentroom.com###earn_dir
+torrentroom.com###earn_qry
 torrentroom.com###earn_spon
 torrentroom.com##a[href^="/afba/"]
 torrents.net##.btn3
@@ -25122,6 +25138,7 @@ usmagazine.com###sub_form_popup
 usmagazine.com##.sb_logo
 usnews.com###leaderboard-b
 usnews.com###loomia_display
+usnews.com###navbuglink
 usnews.com##.sponsored-listing
 usnewsuniversitydirectory.com##.right
 usniff.com###bottom
@@ -25629,6 +25646,7 @@ wrytestuff.com##.eoc250
 wsbtv.com###leaderboard-sticky
 wsbtv.com###middleLeaderBoard
 wsj.com###promo_container
+wsj.com##.ad
 wsj.com##.cioMypro-marketing
 wsj.com##.metaboxType-sponsor
 wsj.com##.specialAdvertising
