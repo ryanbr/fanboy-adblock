@@ -5023,6 +5023,7 @@ pixdaus.com##.inlineBanner
 pixelatedgeek.com##.small-leaderboard
 planet-source-code.com##td[width="340"]
 planet5d.com##.wp-image-1573
+planetfashiontv.com##.banneritem
 planetlotus.org##td[bgcolor="#BCCEDC"][align="center"][colspan="6"]
 planetlotus.org##td[bgcolor="#FFFFFF"][align="center"][colspan="6"]
 planetminecraft.com###box_160btf
