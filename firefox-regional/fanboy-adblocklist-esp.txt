@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: kdzJny0GVl2mBzsDTSxbcQ
+! Checksum: 1Y8NCDGsKIvcDN+PcIOJlA
 ! Title: Fanboy's Spanish/Portuguese
-! Updated: 9 Dec 2012
+! Updated: 17 Dec 2012
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -1053,6 +1053,8 @@ globo.com##.vitrine_banner
 globo.com##.widget-shopping
 google.com.ec,google.com.br,google.pt,google.es,google.com.mx,google.com.ni,google.com.ar,google.cl,google.com.pe,google.com.co###mbEnd
 google.com.ec,google.com.br,google.pt,google.es,google.com.mx,google.com.ni,google.com.ar,google.cl,google.com.pe,google.com.co###tads
+gsmspain.com###div_banner728
+gsmspain.com##a[href^="http://grupolidertel.com/affiliates/"]
 guiadasemana.com.br##TABLE[bgcolor="#808080"]
 guiadasemana.com.br##TD[bgcolor="#dcdcdc"]
 guiasp.com.br###box-ad-topo
