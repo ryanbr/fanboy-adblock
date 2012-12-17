@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: mbRiOpoZhBpcHrxfHq4G8Q
+! Checksum: 1CJouavIdm33xvjQvVogEw
 ! Title: Fanboy's IsraelList
 ! Updated: 17 Dec 2012
 ! This list expires after 4 days
@@ -757,7 +757,6 @@ xnet.co.il###XnetAdSenceThinkAdAD-300
 yad2.co.il###left_banner
 yad2.co.il###left_textlink_bg
 yad2.co.il###td_clicy_title
-yad2.co.il##.pie
 yad2.co.il##.plasma_banner
 yad2.co.il##.search_banners
 yeshanews.com###sideban
