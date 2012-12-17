@@ -113,6 +113,8 @@ nnews.mk.co.kr##div[style="width: 525px; border:1px solid #ddd; border-radius: 3
 auto.co.il###openButton
 auto.co.il##.searchbtn
 calcalist.co.il###CornerPromotionDiv
+gadgety.co.il###subscribefield
+gadgety.co.il##.facelike
 globes.co.il###GTV_VideoDetails
 globes.co.il##.footerN_box
 holesinthenet.co.il###bottombar
