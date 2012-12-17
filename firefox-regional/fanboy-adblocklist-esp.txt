@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 1Y8NCDGsKIvcDN+PcIOJlA
+! Checksum: xn3rBA/TxS4IA2br/zuvDw
 ! Title: Fanboy's Spanish/Portuguese
 ! Updated: 17 Dec 2012
 ! This list expires after 4 days
@@ -1321,9 +1321,12 @@ saludalia.com##td[style="height:110px;width:760px;padding-left:25px;padding-top:
 sapo.ao###pub300x250
 sapo.cv###pub300x250
 sapo.mz###pub300x250
+sapo.pt###mrec
+sapo.pt###MREC2
 sapo.pt###pub300x250
 sapo.pt###pub728x90ifrm
 sapo.pt##.BoxPub300x250
+sapo.pt##.comentariosPag
 sapo.pt##.cx-iniciativas-pub
 sapo.pt##.PagInicialPub2
 sapo.pt##.pub

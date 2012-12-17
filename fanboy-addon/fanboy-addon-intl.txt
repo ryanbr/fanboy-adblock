@@ -92,6 +92,7 @@ eleconomista.es##.tbot
 lanacion.com.ar##.twitter
 record.xl.pt###apDiv2
 record.xl.pt###MenuDinamico
+sapo.pt###redesSociais
 terra.es###trr-root
 uol.com.br###follow
 !
