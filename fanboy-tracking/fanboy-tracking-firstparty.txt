@@ -1053,6 +1053,7 @@
 ||yelp.com/spice?
 ||yelp.ie/spice?
 ||yimg.com/mi/ywa.js$domain=~yahoo.com|~nydailynews.com
+||yimg.com/nq/ued/assets/flash/wsclient_
 ||yimg.com^*/swfproxy-$object
 ||yimg.com^*/traffic/traffic-simulation.js
 ||yoox.com^*/yoox/ga.js
