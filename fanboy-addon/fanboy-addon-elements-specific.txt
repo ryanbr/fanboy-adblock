@@ -3350,6 +3350,7 @@ veteranstoday.com##div[style="width:260px; background-color: #EFEFEF;"]
 vetstreet.com###newsletter
 vetstreet.com###top-products
 vh1.com##.bar
+vh1.com##.share
 vh1.com##.shareholder
 vibe.com###subscribe_abvfold
 vibe.com##div[style="position: fixed; bottom: 0px; left: 0px; height: 45px; width: 100%; background: url(\"http://media.jetpackdigital.com/footer/vln/images/footer_bg.png\") repeat-x scroll 0% 0% transparent; z-index: 2000000000;"]
