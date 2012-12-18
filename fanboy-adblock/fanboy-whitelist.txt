@@ -569,7 +569,7 @@
 @@||usps.com/adserver/
 @@||utdallas.edu^*/banner.js
 @@||v.fwmrm.net/ad/p/1?$object-subrequest,domain=adultswim.com|cartoonnetwork.com|mlb.mlb.com|abc.go.com|ign.com|abcfamily.go.com|video.cnbc.com|espn.go.com|thingx.tv
-@@||v.fwmrm.net/crossdomain.xml
+@@||v.fwmrm.net/crossdomain.xml?$object-subrequest,domain=adultswim.com|cartoonnetwork.com|mlb.mlb.com|abc.go.com|ign.com|abcfamily.go.com|video.cnbc.com|espn.go.com|thingx.tv
 @@||valueram.com/banners/ads/
 @@||vap.yahoo.net/nicobarman/ads/$domain=caller.com
 @@||veetle.com/images/common/ads/
