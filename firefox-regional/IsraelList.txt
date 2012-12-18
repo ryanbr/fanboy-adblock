@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: h+zz4gfd1gKVmjrBIEU/cg
+! Checksum: tmJ5hAQpwQRtSABDJU26dg
 ! Title: Fanboy's IsraelList
-! Updated: 17 Dec 2012
+! Updated: 18 Dec 2012
 ! This list expires after 4 days
 ! Email: fanboyadblock@googlegroups.com
 ! Homepage: http://www.fanboy.co.nz/
@@ -588,6 +588,7 @@ one.co.il##div[style="height:43px;padding-bottom:18px"]
 one.co.il##div[style="height:530px;line-height:520px"]
 one.co.il##div[style="width: 636px; height: 32px; margin: 5px 0px 5px -340px;"]
 one.co.il##div[style="width:100%;text-align:center;background:#ebebeb;padding:10px auto 10px auto;"]
+one.co.il##table[width="100%"] + table[width="100%"]
 onlife.co.il##.advertisement
 onlife.co.il##.banner
 onone.co.il##.onone_below_nav
