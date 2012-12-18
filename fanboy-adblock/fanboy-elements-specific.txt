@@ -7210,6 +7210,7 @@ webhostingtalk.com###hc-postbit-3
 webhostingtalk.com###sponsored
 webhostingtalk.com###sponsored-clear
 webhostingtalk.com##div[class^="flashAd_"]
+webmaster-source.com##.ad1
 webmastertalkforums.com###ad_global_below_navbar
 webmastertalkforums.com##LI[style="width: 100%; height: 100px !important;"]
 webmd.com###hot-tpcs
