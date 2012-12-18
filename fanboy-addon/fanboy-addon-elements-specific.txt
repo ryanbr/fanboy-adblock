@@ -3568,6 +3568,7 @@ yourbittorrent.com###cnv
 yourtango.com###tango-newsletter-form
 yourtvseri.es###uvTab
 youtube.com###yt-feedback
+youtube.com###yt-hitchhiker-feedback
 yumsugar.com###gift-guide-widget
 yumsugar.com###sugar-post-cross-sell
 yumsugar.com###twitter-widget
