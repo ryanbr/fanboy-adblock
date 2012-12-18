@@ -1288,6 +1288,7 @@ computerworlduk.com##.socialMediaBoxout
 computing.net###top_banner
 computingondemand.com###sub-nav
 concierge.com###cnt_sub_unitdir
+concordmonitor.com###dfp_intext_med_rectangle
 concreteloop.com##.ad
 condo.com###ctl00_ContentPlaceHolder_PageHeading_Special_divGoogleAd2
 condo.com##[style="float:left;width:515px;"]
