@@ -2479,6 +2479,7 @@ recordonline.com###loginBarBtm
 recordonline.com###topHomesFrame
 recordonline.com###topJobFrame
 recordonline.com##div[id^="nimbleBuyWidget"]
+reddit.com##.goldvertisement
 reddit.com##.share
 redferret.net###scdiv
 redmondpie.com##.twitterBarForSb
