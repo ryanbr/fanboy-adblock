@@ -564,6 +564,7 @@
 ###sharingcolumn
 ###SharingComponentId
 ###ShowsRightSocial
+###shrbar
 ###side-social
 ###sidebar-facebook-activity
 ###sidebar-fb-social-reader
