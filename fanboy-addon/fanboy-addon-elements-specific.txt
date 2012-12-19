@@ -2886,6 +2886,7 @@ techrepublic.com##.siu-vertical-cont
 techshout.com###stp-bg
 techshout.com###stp-main
 techshout.com##.subscribition
+techsplurge.com###pty_pkg
 techsplurge.com###sharing
 techsplurge.com###subscribe
 techsplurge.com##.xoxo
