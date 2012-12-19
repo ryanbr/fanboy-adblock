@@ -5160,6 +5160,7 @@ pricegrabber.com##.topBanner
 priceindia.in##ins[style="display:inline-table;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:300px"]
 priceme.co.nz##.ProductAdr
 pricespy.co.nz###banner250
+pricespy.co.nz##.adbox
 pricespy.co.nz##.banner_div
 priceviewer.com##.banner
 priceviewer.com##.banner1
