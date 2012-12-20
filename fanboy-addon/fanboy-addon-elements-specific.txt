@@ -3202,6 +3202,7 @@ tractorbynet.com###exposeMask
 tractorbynet.com##.pop-up
 trade2win.com###fancybox-overlay
 trade2win.com###fancybox-wrap
+trademe.co.nz##.promo-spot
 trafficestimate.com##.stay-connected-wrapper
 traileraddict.com###catfish
 translate.google.com###gt-bbar
