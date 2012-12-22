@@ -79,6 +79,7 @@ afterdawn.com##[title="Follow AfterDawn at Facebook"]
 aimonetti.net##.social
 airtet.in###joead2
 ajc.com##.cxArticleList
+al-akhbar.com###to-top
 al-monitor.com##.ui-dialog
 al.com##.share
 alarabiya.net##.advt + .panel
