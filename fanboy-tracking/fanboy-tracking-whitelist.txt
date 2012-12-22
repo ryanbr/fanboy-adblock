@@ -194,6 +194,7 @@
 @@||wp.com/_static/*/criteo.js
 @@||wp.com/_static/*/gaAddons.js
 @@||xcweather.co.uk/*/geo.php?
+@@||yimg.com/bm/lib/fi/common/*/yfi_comscore.js$domain=finance.yahoo.com
 @@||zappos.com/js/trackingPixel/mercentTracker.js
 @@||zeit.de/piwik/piwik.js$domain=schach.zeit.de
 @@||zeit.de/static/js/webtrekk/webtrekk_$script,domain=schach.zeit.de
