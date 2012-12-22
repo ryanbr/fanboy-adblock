@@ -1065,6 +1065,7 @@ gajitz.com###headerMenuRSS
 gameinformer.com##.g-i-blog-links
 gamenguide.com###anotherBox
 gamenguide.com##.nw_cont
+gamenguide.com##.s_sns
 gamepro.com###secondaryMenu
 gamepro.com##.share
 gamerant.com###subbox
