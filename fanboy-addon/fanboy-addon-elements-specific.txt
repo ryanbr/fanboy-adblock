@@ -383,6 +383,7 @@ cagle.com###cboxOverlay
 cagle.com###colorbox
 callingallgeeks.org###floating-count
 callingallgeeks.org###text-16
+cambio.com###user-bar-wrapper
 canada.com###newsletterbox
 canada.com##.classifieds
 canberratimes.com.au##.twitter
