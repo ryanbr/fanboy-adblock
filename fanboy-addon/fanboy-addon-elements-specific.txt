@@ -3219,6 +3219,8 @@ trendhunter.com###DOMWindow
 trendhunter.com###DOMWindowOverlay
 trendhunter.com###fixed-element
 tressugar.com###page-message
+tribune.com.pk###adjacent
+tribune.com.pk##.widget[style="height:300px"]
 tripadvisor.com##.ftr_mobile
 tripadvisor.com##.overlay
 tripod.com###tb_container
