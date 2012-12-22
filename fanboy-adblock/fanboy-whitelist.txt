@@ -455,6 +455,7 @@
 @@||planetrecruit.com/ad/$image
 @@||player.animelicio.us/adimages/$subdocument
 @@||player.streamtheworld.com/liveplayer.php?*adstype=
+@@||player.tritondigital.com^$domain=kmozart.com
 @@||playintraffik.com/advertising/
 @@||plugcomputer.org^*/ad1.jpg
 @@||popcap.com/delivery/afr.php?&zoneid$subdocument,domain=popcap.com
