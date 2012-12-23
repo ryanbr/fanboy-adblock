@@ -1474,6 +1474,7 @@ instructables.com###modalMask
 interfacelift.com##[title="Click to visit the official Google+ page for InterfaceLIFT..."]
 internetevolution.com##.menudropdown
 internetnews.com###sblinks
+internetnews.com###sg-popup
 intomobile.com##.services
 intomobile.com##.share
 intomobile.com##.social
