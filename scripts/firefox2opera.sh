@@ -90,7 +90,7 @@ if [ -d "/tmp/Ramdisk/www/adblock" ]; then
   # Problematic filter
   sed -i -e '/scorecardresearch.com/d' $MAINDIR/opera/urlfilter-adblock.bak
   # http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=16666
-  sed -i -e '/.com/ads-/d' $MAINDIR/opera/urlfilter-adblock.bak
+  sed -i -e '/.com\/ads-/d' $MAINDIR/opera/urlfilter-adblock.bak
   # http://forums.fanboy.co.nz/forums/viewtopic.php?f=8&t=9849&start=10
   sed -i -e '/tkqlhce.com/d' $MAINDIR/opera/urlfilter-adblock.bak
   sed -i -e '/anrdoezrs.net/d' $MAINDIR/opera/urlfilter-adblock.bak
