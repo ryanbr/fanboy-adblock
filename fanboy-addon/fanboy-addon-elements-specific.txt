@@ -3536,6 +3536,7 @@ wsadirectory.com##.blockOverlay
 wsj.com###ArticleRRTest_JobListings
 wsj.com###FINSW_Jobs
 wsj.com###login_scrim
+wsj.com###subscribeNowMediumBar
 wsj.com###subscribeNowSmallBar
 wsj.com###valetTools-left
 wsj.com##.fbRecWidget
