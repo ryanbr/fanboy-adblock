@@ -1420,6 +1420,7 @@ imore.com###block-block-4
 impactwrestling.com##.topIcons
 impresspages.org##.social
 impulsedriven.com##.social
+in.com###nextslide
 in.com##.category_box
 in.com##.floating-box
 in.com##.utility_bar_block
