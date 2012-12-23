@@ -937,6 +937,11 @@ fanpop.com###trophy_display_div
 fanpop.com##.fp_panel
 fantasti.cc##td[style="font-size:11px; padding-left:12px;"]
 fareastgizmos.com###sticky-area-container
+fark.com###abPleaBar
+fark.com###facebook
+fark.com###gplus
+fark.com###rss
+fark.com###twitter
 farmersalmanac.com##.like-wrap
 fashionotes.com##.newsletter
 fastcompany.com###header_region
