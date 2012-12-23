@@ -947,6 +947,7 @@
 ##.btn_digg
 ##.btn_furl
 ##.btn_technorati
+##.btnSocial
 ##.btnTwitterConnect
 ##.button-share
 ##.buzz-link
