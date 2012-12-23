@@ -2250,6 +2250,7 @@ overstock.com###cars-twitter
 oyetimes.com###uBarDiv
 paidcontent.org##.go_newsletter_widget
 paidcontent.org##.subscribe_box
+pandora.com##.tip_container
 pandora.tv##.quick
 parenting.com###scroll-box
 parents.com###adtrafficright
