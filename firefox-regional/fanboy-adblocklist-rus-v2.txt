@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 05I1y7anYvEJ5QhDP8OWZA
+! Checksum: El4UYvQftb2bt5IESakaCw
 ! Title: Fanboy's Russian
 ! Updated: 25 Dec 2012
 ! This list expires after 4 days
@@ -814,6 +814,7 @@ _teasernet.
 !
 ||001forex.com^$third-party
 ||0324.0x96.34.0163^$third-party
+||0iu.ru^$third-party
 ||100projects.ru^$third-party,subdocument
 ||17teen.ru^$third-party
 ||194.135.105.23^$third-party
@@ -2216,6 +2217,7 @@ _teasernet.
 ||yandex.ru/click/
 ||yandex.ru/metrika/
 ||yandex.ru/redir?dtype=stred
+||yaplakal.com/html/static/brand$object,image
 ||yuga.ru/statistic/
 ||yuga.ru^*/statistic/
 ||zahav.ru/ClientScripts/statistics_
@@ -3797,6 +3799,7 @@ yandex.ru##a[href^="//welcome.advertising.yandex.ru/"]
 yandex.ua###banner
 yandex.ua###teaser
 yaplakal.com###footer-informer
+yaplakal.com###top-line
 yuga.ru##.px980
 zakon.kz###banner-top-expandable
 zakon.kz###nz10-place
