@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: htblr9KXzZDKb4JDbaUiAw
+! Checksum: O1zcowZbtfEYQA7i9xid4Q
 ! Title: Fanboy's Russian
 ! Updated: 25 Dec 2012
 ! This list expires after 4 days
@@ -2401,6 +2401,9 @@ minfin.com.ua##.b-fb-popup
 2ch.hk##.rekl5
 2ip.ru##div[style="width:1000px;height:90px"]
 3dnews.ru###topBanners
+4pda.ru###topnavi
+4pda.ru##.sidbar_devsale_blue
+4pda.ru##span[style="line-height: 35px;"]
 50ml.com.ua##.popup
 5ka.su###girlsBar
 5ka.su##.topBanner
