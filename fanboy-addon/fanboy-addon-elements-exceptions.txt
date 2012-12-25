@@ -16,6 +16,7 @@
 ~electnext.com##.twitter-share
 ~facebook.com###fb_header
 ~facebook.com###fbContainer
+~facebook.com###share_feed
 ~facebook.com##.connect_widget
 ~facebook.com##.facebook-widget
 ~facebook.com##.facebookLikeBox
