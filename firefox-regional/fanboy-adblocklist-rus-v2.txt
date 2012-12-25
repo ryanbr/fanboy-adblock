@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: Jio84jgr6Dvp+fP43Wf69A
+! Checksum: LuY1qmkHQGYJ2QELzNpF/Q
 ! Title: Fanboy's Russian
 ! Updated: 25 Dec 2012
 ! This list expires after 4 days
@@ -740,6 +740,8 @@ _teasernet.
 ||mediaryazan.ru/upload/rk/
 ||mediaunder.us^
 ||meta.ua/f_new.asp?
+||mixnews.lv/images/brand/
+||mixnews.lv/uploads/banners/
 ||moijs.com^
 ||my-hit.r^*/images/banner/
 ||mycomet.mail.ru^
@@ -3157,6 +3159,10 @@ mignews.com.ua##table[style="border: 1px solid rgb(216, 216, 189);"]
 mignews.ru##.padadv
 mindmix.ru##table[width="728"][height="90"]
 missfit.ru##.adv
+mixnews.lv###brandbox
+mixnews.lv##.advert
+mixnews.lv##.banner-space
+mixnews.lv##a[href^="http://www.mixnews.lv/ru/banner/"]
 mk.ru##.mk_insert
 mk.ru##.NewGrRight
 mk.ru##.right_banner
