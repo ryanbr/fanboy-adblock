@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: VPQGe1TkBfSHOtqzLeeYkw
+! Checksum: 3Z6wDzZLbKbbiOxFaDnDdg
 ! Title: Fanboy's IsraelList
 ! Updated: 25 Dec 2012
 ! This list expires after 4 days
@@ -22513,6 +22513,7 @@ nadaguides.com###rtn_ad_160x600
 naldzgraphics.net##.adis
 naldzgraphics.net##.advertBSA
 nameberry.com##.leaderboard
+nana10.co.il###CM8ShowAd_Tower_120x600_1
 napavalleyregister.com##.blox-leaderboard-container
 naplesnews.com###content_match_wrapper
 naplesnews.com##.bigbox_wrapper
