@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: tJGyE53gpeI4svw4xSVP3A
+! Checksum: 05I1y7anYvEJ5QhDP8OWZA
 ! Title: Fanboy's Russian
-! Updated: 21 Dec 2012
+! Updated: 25 Dec 2012
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -1553,6 +1553,7 @@ _teasernet.
 ||traffbiz.ru^$third-party
 ||traffic.ru^$third-party
 ||trafftrade.ru^$third-party
+||trafmag.com^$third-party
 ||traforet.ru^$third-party
 ||trafovik.ru^$third-party
 ||traient.com^$third-party
@@ -1561,6 +1562,7 @@ _teasernet.
 ||truenty.com^$third-party
 ||turbobit.net/ref/$third-party
 ||turboroller.ru^$third-party
+||tv-best.net^$third-party
 ||twistcasino.net^$third-party
 ||tx2.ru^$third-party
 ||txtrk.com^$third-party
