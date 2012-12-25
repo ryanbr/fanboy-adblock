@@ -124,6 +124,7 @@ mouse.co.il##.fbox_main
 mouse.co.il##.hp_banners
 mouse.co.il##.mouseExtraContent
 onlife.co.il##div[style="height:264px; background-color:white;width: 300px; float: left;margin-bottom:0px;"]
+tapuz.co.il###LikeTapuzImage
 tapuz.co.il##.tapuzShareBar
 themarker.com###bottom_navigator
 walla.co.il###inwise
