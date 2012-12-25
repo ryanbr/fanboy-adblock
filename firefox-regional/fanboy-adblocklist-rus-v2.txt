@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: z4LfYIek5vVqUkqQd5qmDg
+! Checksum: htblr9KXzZDKb4JDbaUiAw
 ! Title: Fanboy's Russian
 ! Updated: 25 Dec 2012
 ! This list expires after 4 days
@@ -1114,6 +1114,7 @@ _teasernet.
 ||ero-tizz.info^$third-party
 ||ero-tizzer.info^$third-party
 ||eroadvert.net^$third-party
+||erokadr.ru^$third-party
 ||eropays2.com^$third-party
 ||erotizz.info^$third-party
 ||erotizzer.info^$third-party
@@ -1222,6 +1223,7 @@ _teasernet.
 ||jobworkservice.com^$third-party
 ||js.anonym.to^$third-party
 ||js.smi2.ru^$third-party
+||kadam.ru^$third-party
 ||kinobzor.tv^$third-party
 ||kinomir.kz^$third-party,subdocument
 ||kinomir.org^$third-party
@@ -1318,6 +1320,7 @@ _teasernet.
 ||moifoto.ru^$third-party
 ||monetizator.net^$third-party
 ||moneysyst.biz^$third-party
+||morenews3.net^$third-party
 ||morenews4.net^$third-party
 ||morkovka.net^$third-party
 ||mskweb.ru^$third-party
@@ -1328,6 +1331,7 @@ _teasernet.
 ||neboisya.com^$third-party
 ||negolist.com^$third-party
 ||neosmi.ru^$third-party
+||newsmarket.pixarea.ru^$third-party
 ||nnn.novoteka.ru^$third-party
 ||node.webkupi.pro^$third-party
 ||noev-kovcheg.ru^$third-party
