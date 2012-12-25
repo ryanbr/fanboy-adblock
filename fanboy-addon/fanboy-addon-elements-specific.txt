@@ -303,6 +303,7 @@ bloomberg.com###story_tools_top
 bloomberg.com##.blp2_alert_widget
 bloomberg.com##.key_rates
 bloomberg.com##.story_inline
+bmj.com##.bmj-cookie-noticebar-content
 bodyandsoul.com.au##.connect
 boingboing.net###sidebarsticky
 boldprogressives.org##.ui-dialog
