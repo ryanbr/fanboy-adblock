@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: O1zcowZbtfEYQA7i9xid4Q
+! Checksum: Jio84jgr6Dvp+fP43Wf69A
 ! Title: Fanboy's Russian
 ! Updated: 25 Dec 2012
 ! This list expires after 4 days
@@ -2436,6 +2436,7 @@ ag.ru###upadbg2
 ag.ru##.a_blk
 ag.ru##.dotsbg2[height="80"]
 agava.ru###pseudo_cbntbnbanner
+aif.ru##.adwrapper
 aif.ua##DIV[style=" width:970px; text-align:center;"]
 akak.ru##.bnrs
 alaev.info###daos
