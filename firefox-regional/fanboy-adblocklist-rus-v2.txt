@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: El4UYvQftb2bt5IESakaCw
+! Checksum: y+zdQIjodn8vycb/2fyHUg
 ! Title: Fanboy's Russian
 ! Updated: 25 Dec 2012
 ! This list expires after 4 days
@@ -3800,6 +3800,7 @@ yandex.ua###banner
 yandex.ua###teaser
 yaplakal.com###footer-informer
 yaplakal.com###top-line
+yaplakal.com##iframe[src^="http://www.yaplakal.com/html/"]
 yuga.ru##.px980
 zakon.kz###banner-top-expandable
 zakon.kz###nz10-place
