@@ -1978,6 +1978,8 @@ myspace.com##.subscriber
 mzhiphop.com##.facebook
 mzhiphop.com##a[href^="http://www.facebook.com/pages/"]
 naranjaja.com##.buttonfixed
+narr8.me##.share-txt
+narr8.me##.social
 nationalgeographic.com###dod_flyout
 nationalgeographic.com###follow_ng
 nationalgeographic.com###signMeUpDialog
