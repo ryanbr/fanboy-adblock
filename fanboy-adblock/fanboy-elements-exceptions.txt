@@ -55,7 +55,6 @@
 ~billboard.com##.ad-unit-300-wrapper
 ~bipbip.co.il,~clickindia.com##.adlist
 ~blogcritics.org###leaderboard-ad
-~blogg.se,~gismeteo.com###ad-top
 ~box10.com,~washingtonpost.com###prerollAd
 ~boylesports.com##.small_ad
 ~bplaced.net,~explosm.net,~pocket-lint.com###adbar
