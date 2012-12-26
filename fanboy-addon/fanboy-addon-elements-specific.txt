@@ -2655,6 +2655,7 @@ shimory.com###banners
 shocktillyoudrop.com##.fb_iframe_widget
 shop4freebies.com###popup
 shop4freebies.com###popup_bg
+shoutfactory.com##.right_last
 shoutmeloud.com###floating-count
 shoutmeloud.com###text-482895650
 shoutmeloud.com###text-482895670
