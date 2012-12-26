@@ -842,6 +842,7 @@ businessdayonline.com###ja-topsl
 businessdictionary.com###standalone_text
 businessdictionary.com##.grey-small-link
 businessdictionary.com##.leaderboard-placement
+businessfinder.nj.com##.adv-ad
 businessinsider.com###FM1
 businessinsider.com##.chartbeat
 businessinsider.com##.continue-link
