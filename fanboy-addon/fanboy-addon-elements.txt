@@ -901,6 +901,7 @@
 ##.aptureTMMBar
 ##.article-share
 ##.article-social
+##.article-social-bar
 ##.article-social-bar-floating
 ##.article_sharing
 ##.articleShare

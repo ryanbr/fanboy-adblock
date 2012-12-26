@@ -2380,6 +2380,7 @@ plosone.org###share
 plus.google.com##.c-zh-Wf
 pocket-lint.com##[style="border: none; width: 300px; height: 250px"]
 pocketnow.com##.head_function
+policymic.com###article-finished
 politico.com###bottomBar
 politico.com###widgetAlertLive
 politico.com###widgetConnect
