@@ -867,6 +867,7 @@
 ##.addthis-button
 ##.addthis-footer
 ##.addthis-vertical-layout
+##.addthis_bar
 ##.addthis_button
 ##.addthis_button_compact
 ##.addthis_button_digg
