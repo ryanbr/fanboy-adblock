@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: l972Cn11/dfY7knad4tKOw
+! Checksum: SWKZtyEhZEZ7dpJ4UhbcTg
 ! Title: Fanboy's IsraelList
 ! Updated: 28 Dec 2012
 ! This list expires after 4 days
@@ -239,6 +239,7 @@
 ||sport5.co.il/banners2/
 ||tog.co.il/Resources/JS/Site/Banner.js
 ||views.co.il/banners/
+||wcdn.co.il/banners/
 ||wcdn.co.il/w/w-300/*-35.
 ||wcdn.co.il/w/w-300/*-5.
 ||wcdn.co.il/w/w-300/*-67.
@@ -718,6 +719,7 @@ walla.co.il###sec_yad2_905
 walla.co.il##.banner-container
 walla.co.il##.banner-tower-container
 walla.co.il##.benfitsAd
+walla.co.il##.btm_sep
 walla.co.il##.cm_ads
 walla.co.il##.ct_ad
 walla.co.il##.gr_h
