@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: JNXyJRlhXq8773LQ1y9DhA
+! Checksum: mDaL+hotpmFyXoDzkp3Saw
 ! Title: Fanboy's IsraelList
 ! Updated: 28 Dec 2012
 ! This list expires after 4 days
@@ -566,6 +566,7 @@ news-israel.net##td[width="763"][valign="middle"][bgcolor="#5181bf"][align="cent
 newsgeek.co.il##.opx_box
 newsgeek.co.il##.opx_box_rect_horiz
 newsgeek.co.il##.opx_box_square
+newsgeek.co.il##.opx_boxes_square
 newsgeek.co.il##.opx_horiz
 nrg.co.il###adArt
 nrg.co.il###b600x125
