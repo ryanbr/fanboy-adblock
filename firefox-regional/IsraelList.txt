@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 96XHCYLrfqyGZsK4HpiNpg
+! Checksum: eQrhAGgFN4U19OEOLX0uFA
 ! Title: Fanboy's IsraelList
 ! Updated: 28 Dec 2012
 ! This list expires after 4 days
@@ -652,6 +652,12 @@ starmed.co.il##.banner_forums_728x90_top
 starmed.co.il##.banner_forums_tree_300x250
 starmed.co.il##.banner_forums_tree_390x120
 starmed.co.il##div[style="width:990px;height:150px;margin:2px auto 4px auto"]
+start.co.il###topbanner
+start.co.il##.advCont
+start.co.il##.banner_105x79
+start.co.il##.banner_container
+start.co.il##section[zone="117"]
+start.co.il##section[zone="119"]
 szf.co.il###block_html_3
 szf.co.il###block_html_6
 szf.co.il###cat1
