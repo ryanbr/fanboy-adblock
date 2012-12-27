@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 20yH1QOJbSSHOKGRk9T65Q
+! Checksum: JNXyJRlhXq8773LQ1y9DhA
 ! Title: Fanboy's IsraelList
 ! Updated: 28 Dec 2012
 ! This list expires after 4 days
@@ -294,6 +294,8 @@
 !
 2all.co.il###advtizer
 2all.co.il##.DivFlowBannerRight
+2net.co.il##.banner_left
+2net.co.il##.banner_right
 alarab.net###FloatBanner
 alarab.net###topbanner
 alarab.net##.ad
