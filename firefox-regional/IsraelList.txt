@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: txRErFCJ3dXGJ1DhNLlZZw
+! Checksum: C8BBH7WqmCFr9HT4Gbi8BQ
 ! Title: Fanboy's IsraelList
 ! Updated: 28 Dec 2012
 ! This list expires after 4 days
@@ -318,9 +318,11 @@ beok.co.il##.BannerMid
 beok.co.il##.bnr_top_s
 beok.co.il##.TopBanners
 bhol.co.il###coupons
+bhol.co.il##.CoponBox
 bhol.co.il##.tagCloud
 bhol.co.il##[style="position: relative; display: inline-block; vertical-align: text-bottom; text-align: justify; height: 20px; width: 111px;"]
 bhol.co.il##table[style="border-top:1px solid #EAEAEA;border-bottom:1px solid #EAEAEA"]
+bhol.co.il##td[style="padding-bottom:4px; padding-top:7px"]
 bhol.co.il,bhol-forums.co.il###divBanner_Plazma
 bhol.co.il,bhol-forums.co.il###sdera.width100pc
 bhol.co.il,bhol-forums.co.il###top_banner_ph
