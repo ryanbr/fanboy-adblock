@@ -1304,6 +1304,8 @@ holytaco.com###stumble
 hometone.com###slidebox
 honda.com##.lnkFacebook
 hotair.com###express-wrap
+hotair.com###mask
+hotair.com###th-pop
 hotair.com##.fb-header
 hoterotic18.com###backgroundPopup
 hoterotic18.com###popupContact
