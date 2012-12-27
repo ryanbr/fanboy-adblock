@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: SWKZtyEhZEZ7dpJ4UhbcTg
+! Checksum: tWk5i9Lxn3fY4X0vzZneEg
 ! Title: Fanboy's IsraelList
 ! Updated: 28 Dec 2012
 ! This list expires after 4 days
@@ -583,14 +583,18 @@ nrg.co.il##.tallBanner
 nrg.co.il##[src^="/cache/banners/"]
 one.co.il###adBomba
 one.co.il###Adv2
+one.co.il###divYnetNews
+one.co.il###tblAdBlock
 one.co.il##.adBg
 one.co.il##.adJumbo
 one.co.il##.divZedoAd
 one.co.il##[href^="http://xads.zedo.com/"]
 one.co.il##div[style="height:43px;padding-bottom:18px"]
 one.co.il##div[style="height:530px;line-height:520px"]
+one.co.il##div[style="text-align:right;border:solid 1px #d5d5d5;"]
 one.co.il##div[style="width: 636px; height: 32px; margin: 5px 0px 5px -340px;"]
 one.co.il##div[style="width:100%;text-align:center;background:#ebebeb;padding:10px auto 10px auto;"]
+one.co.il##div[style="width:410px;border:solid 1px #d2d2d2;padding:5px 0;"]
 one.co.il##table[width="100%"] + table[width="100%"]
 onlife.co.il##.advertisement
 onlife.co.il##.banner
