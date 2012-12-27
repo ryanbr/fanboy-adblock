@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: k0qPst57wuxU4PH4Mh7LMA
+! Checksum: YgIIpIFToE/PlITu8b5a/Q
 ! Title: Fanboy's IsraelList
 ! Updated: 28 Dec 2012
 ! This list expires after 4 days
@@ -391,6 +391,7 @@ globes.co.il##.G_SendToFriendBannerBorders
 globes.co.il##.sekindo
 globes.co.il##[id^="ads."]
 globes.co.il##div[style$="padding:5px 5px 0px 0px;"]
+globes.co.il##div[style="border:0px solid #cacaca; padding:0px 25px; direction:rtl;"]
 globes.co.il##div[style^="width: 95px; height: 70px; padding-top: 5px; padding-right: 5px;"]
 google.co.il###mbEnd
 google.co.il###tads
