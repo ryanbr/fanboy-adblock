@@ -944,6 +944,7 @@ fark.com###gplus
 fark.com###rss
 fark.com###twitter
 farmersalmanac.com##.like-wrap
+fashionmagazine.com###kittycatfish_ad_content
 fashionotes.com##.newsletter
 fastcompany.com###header_region
 fastcompany.com##.curr_issue_wrap
