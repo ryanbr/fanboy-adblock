@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: eQrhAGgFN4U19OEOLX0uFA
+! Checksum: C7Wf9aexwkUlAb8KLUR5PQ
 ! Title: Fanboy's IsraelList
 ! Updated: 28 Dec 2012
 ! This list expires after 4 days
@@ -817,6 +817,7 @@ ynet.co.il##[src*="/DisplayAdvertisingBox/"]
 ynet.co.il##[src*="/ShowAdsLikeIframe/"]
 ynet.co.il##[src^="http://go.ynet.co.il/long/commerce/"]
 ynet.co.il##a[href^="https://truma.pitchonlev.org.il/"]
+ynet.co.il##a[style="padding-top: 10px; height: 46px; display: block;position:relative;"]
 ynet.co.il##div[style="margin:0 10px 20px 10px;height:67px;text-align:right;overflow:hidden;"]
 ynet.co.il##div[style="padding-top:10px;padding-bottom:10px;padding-right:10px"]
 ynet.co.il##iframe[src^="http://go.ynet.co.il/jdate"]
