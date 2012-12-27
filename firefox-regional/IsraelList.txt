@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: 3Z6wDzZLbKbbiOxFaDnDdg
+! Checksum: EkQG32YE8NZMGd/k/T9Bvg
 ! Title: Fanboy's IsraelList
-! Updated: 25 Dec 2012
+! Updated: 28 Dec 2012
 ! This list expires after 4 days
 ! Email: fanboyadblock@googlegroups.com
 ! Homepage: http://www.fanboy.co.nz/
@@ -524,6 +524,7 @@ nana10.co.il##.AdvLine
 nana10.co.il##.ArticleInlineBanHolder
 nana10.co.il##.bbg.ArticleColumnBanner
 nana10.co.il##.hdAdvNavBarCont
+nana10.co.il##.HomePageCommercialsBg
 nana10.co.il##.MainTable > .cbInvisible + .noPrint[style="width:460px; height:230px; text-align:right; float:right;"]
 nana10.co.il##.rightTower.Banner
 nana10.co.il##.SekindoProducts
