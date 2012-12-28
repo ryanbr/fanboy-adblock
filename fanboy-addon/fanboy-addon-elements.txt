@@ -4,6 +4,7 @@
 ###about-edition-social
 ###addThis
 ###addthis-block
+###addthiswrapper
 ###advanced-twitter-widget
 ###advancedsocialwidget
 ###aFbLikeBottom
