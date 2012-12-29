@@ -1833,6 +1833,7 @@
 ###center_ad-0
 ###central-ads
 ###cgp-bigbox-ad
+###ch-ads
 ###channel_ads
 ###chatAdv2
 ###cherry_ads
