@@ -4177,7 +4177,6 @@
 ##.ad728x90box
 ##.ad728x90WithLabel
 ##.ad768x90
-##.ad90
 ##.ad954x60
 ##.ad960
 ##.ad980x50box

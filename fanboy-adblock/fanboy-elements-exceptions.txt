@@ -165,6 +165,7 @@
 ~independenttraveler.com###headerAdContainer
 ~insidefights.com##.container_row_ad
 ~interscope.com##.ad-unit
+~interviewmagazine.com##.ad90
 ~inverterbolsa.com###advert1
 ~inverterbolsa.com###topAdvert
 ~investopedia.com###footer_ads
