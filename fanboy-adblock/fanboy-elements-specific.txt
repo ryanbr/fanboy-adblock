@@ -7479,6 +7479,7 @@ xe.com###ad
 xe.com###leaderB
 xe.com##.wa_leaderboard
 xfm.co.uk###commercial
+xhamster.com###bottom_player_adv
 xml.com##td.secondary[width="153"]
 xojane.com###XOJANE_BTF_CENTER
 xojane.com###XOJANE_BTF_RIGHTRAIL
