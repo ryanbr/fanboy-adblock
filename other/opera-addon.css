@@ -270,7 +270,7 @@ div[id="leaderboard"],
 .-cx-PRIVATE-snowliftAds__root,
 .-cx-PRIVATE-fbEmu__root,
 #home_sponsor_nile,
-#div[class="ego_column"],
+div[class="ego_column"],
 .UIWashFrame_SidebarAds,
 .UIStandardFrame_SidebarAds,
 .ego_spo,
@@ -518,7 +518,7 @@ div[class="w460 clr"],
 /* pcpro.co.uk */
 #skyScrapper,
 /* google.com */
-#div[id^="tpa"].ch,
+div[id^="tpa"].ch,
 /* pcworld.com */
 .adMkt2Colw,
 .storyList.resourceCenter,
