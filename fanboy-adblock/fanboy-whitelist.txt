@@ -268,6 +268,7 @@
 @@||feedroom.speedera.net/static.feedroom.com/affiliate/
 @@||festina.com/txt/advertising.xml$object-subrequest
 @@||ff.connextra.com^$domain=pinnaclesports.com
+@@||files.bannersnack.net^$domain=bannersnack.com
 @@||files.coloribus.com^$~third-party,image
 @@||flyerservices.com/cached_banner_pages/*bannerid=
 @@||flyerservices.com/lcl/*&bannerid=
