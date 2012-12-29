@@ -662,6 +662,7 @@
 @@||monsoonads.com:8080/monsoon1/preparead?$object-subrequest,domain=bollywoodhungama.com
 @@||multiup.org/img/theme/*?$image
 @@||multiup.org^$elemhide
+@@||mybannermaker.com/banner.php
 @@||ngads.com/*.js?$script,domain=newgrounds.com
 @@||ngohq.com/images/ad.jpg
 @@||nwanime.com/ad$script
