@@ -222,6 +222,10 @@ bbc.co.uk##.feedslink
 bbc.co.uk##.pagetools
 bbc.co.uk##.sharing
 bbc.com##.social
+bbcgoodfood.com###ads
+bbcgoodfood.com###cookie-policy-container
+bbcgoodfood.com###subscribeCTA
+bbcgoodfood.com##.content-promo
 beefjack.com###beefjack_share
 beefjack.com###social
 beemp3.com##.share
