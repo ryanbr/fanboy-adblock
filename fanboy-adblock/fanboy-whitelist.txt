@@ -631,6 +631,7 @@
 @@||ads.avazu.net^$subdocument,domain=xuuby.com
 @@||ads.clicksor.com/newserving/showad.php$domain=oneclickmoviez.com
 @@||ads.lzjl.com/newserving/showad.php$domain=everythingon.tv
+@@||ads.smowtion.com/ad.js$domain=exrapidleech.info
 @@||adultadworld.com/intv2/interstitial.js$domain=swfchan.com
 @@||ancensored.com/sites/all/modules/player/images/ad.jpg
 @@||atomicmpc.com.au/ads/chico.js$domain=atomicmpc.com.au
