@@ -144,6 +144,7 @@
 @@||banki.ru/bitrix/*/advertising.block/$stylesheet
 @@||banki.ua/_lib/jquery/plugins/popup/popup2.js
 @@||banner.pumpkinpatchkids.com/www/delivery/$domain=pumpkinpatch.co.nz|pumpkinpatch.com.au|pumpkinpatch.co.uk|pumpkinpatch.com
+@@||banner4five.com/banners/$~third-party
 @@||banners.andomedia.com^*/www/delivery/$script
 @@||bc.coupons.com^$third-party,domain=seattletimes.nwsource.com|tbo.com
 @@||beeline.ru/media/scripts/banners.js
