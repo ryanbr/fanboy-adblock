@@ -2728,6 +2728,7 @@
 ###mid_ad_title
 ###mid_left_ads
 ###mid_mpu
+###midAD
 ###midadd
 ###midbarad
 ###midbnrad
