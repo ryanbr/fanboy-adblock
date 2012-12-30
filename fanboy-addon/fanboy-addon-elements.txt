@@ -1968,6 +1968,7 @@
 ##.vertical-social
 ##.vertical-social-icons
 ##.video-page-social
+##.vidSocialBar
 ##.viralShare
 ##.vltSocialLinks
 ##.w-shareontwitter
