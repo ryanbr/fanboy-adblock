@@ -1074,6 +1074,7 @@
 ##.fb-recommend
 ##.fb-share
 ##.fb-share-button
+##.fb-social-likebox-plugin
 ##.fb-tweet
 ##.fb-twitter
 ##.fb-widget
