@@ -1910,6 +1910,7 @@
 ##.toolssocial
 ##.top-social-links
 ##.topSliceShare
+##.tsso_likeshare_box
 ##.tumblr-icon
 ##.tumblr-share
 ##.tweet-follow
