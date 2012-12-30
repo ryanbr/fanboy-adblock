@@ -20,6 +20,7 @@
 7digital.com###newsletter
 7is7.com##.feed
 7tutorials.com###block-block-7
+964eagle.co.uk###cookieWarningBox
 9gag.com###footer-back-to-top
 9gag.com###jsid-sidebar-footer
 9gag.com###sidebar-box-0
