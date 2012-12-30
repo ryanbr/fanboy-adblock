@@ -4061,6 +4061,7 @@ monkeysee.com##.ad
 monova.org##.usenetd
 monova.org##.usenextd
 monova.org##.utext1
+monova.org##a[href^="http://www1.clickdownloader.com/"]
 monova.org##input[value="Usenet"]
 monova.org##table[style="border: 1px solid #037A0C; width: 300px; height: 250px;"]
 monroenews.com##.ad
