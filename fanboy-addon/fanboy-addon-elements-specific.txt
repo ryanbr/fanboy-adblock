@@ -45,6 +45,7 @@ absoluteradio.co.uk##.likebox
 absoluteradio.co.uk##.recommended
 academicearth.org###bottom_toolbar
 academicearth.org###kampylink
+accuradio.com###newsletterWrapper
 aceshowbiz.com###siteMenuBar
 aceshowbiz.com##.theticker
 aceshowbiz.com##div[style="background: black url('/images/gif/get_asb.jpg') no-repeat;width:310px;height:153px;margin-left:auto;margin-right:auto;margin-top:10px;"]
