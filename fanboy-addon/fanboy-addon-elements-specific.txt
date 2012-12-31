@@ -78,6 +78,7 @@ afterdawn.com##.fb_connect
 afterdawn.com##.go-next
 afterdawn.com##.go-prev
 afterdawn.com##[title="Follow AfterDawn at Facebook"]
+ahlanlive.com##div[style="background-color:#3A5A97; padding:4px"]
 aimonetti.net##.social
 airtet.in###joead2
 ajc.com##.cxArticleList
