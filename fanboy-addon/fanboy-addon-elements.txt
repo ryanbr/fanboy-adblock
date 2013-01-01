@@ -91,6 +91,7 @@
 ###content_share
 ###contentSharerResult
 ###cookie-policy-strap
+###cookie_header
 ###cookieNotification
 ###ctl00_DescriptionBlock_lblTwitter
 ###ctl00_mainContent_lblSharingLink
