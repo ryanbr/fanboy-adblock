@@ -171,6 +171,8 @@ appeggs.com##.c_scrollbar
 appeggs.com##.t_scrollsecondbar
 appstorm.net###subscribe
 arm.com###cookiemodule
+arnnet.com.au###article_suggestion
+arnnet.com.au###rhs_techjobs_wrap
 arstechnica.com###article-links
 arstechnica.com###fb
 arstechnica.com###in-the-know
