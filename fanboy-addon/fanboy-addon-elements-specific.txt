@@ -197,6 +197,7 @@ atomicmpc.com.au##.separator
 atomicmpc.com.au##div[style="border:1px solid #c4bbb6;background-color:#EEFBDE;position:relative;margin-top:10px"]
 ausdroid.net##.rss-button
 ausdroid.net##.share-ausdroid
+auto-types.com###fb-auto
 autoblog.com###full_iphone_promo
 autoblog.com##.iphone-app-ad
 autoblog.com##.share
@@ -232,6 +233,9 @@ bbcgoodfood.com###ads
 bbcgoodfood.com###cookie-policy-container
 bbcgoodfood.com###subscribeCTA
 bbcgoodfood.com##.content-promo
+bbgsite.com###bbgModuleShare
+bbgsite.com###tipGoTop
+bbgsite.com###uebbgalert1
 beefjack.com###beefjack_share
 beefjack.com###social
 beemp3.com##.share
