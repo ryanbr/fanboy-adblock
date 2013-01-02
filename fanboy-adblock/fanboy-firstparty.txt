@@ -670,6 +670,7 @@
 ||promo.fileforum.com^
 ||propakistani.pk/data/warid_top1.html
 ||propakistani.pk/wp-content/*/warid.jpg
+||propakistani.pk/wp-content/themes/propakistani/images/776.jpg
 ||proxy.org/af.html
 ||proxy.org/ah.html
 ||ptf.com/fdm_frame_
