@@ -596,7 +596,6 @@ craveonline.com##.fb_iframe_widget
 creation.com###subscribe_options
 creation.com##.left_col_email
 creation.com##.print-email
-creativebloq.com###fp_cookieMessageContainer
 crikey.com.au###fancybox-overlay
 crikey.com.au###fancybox-wrap
 crikey.com.au###share
@@ -2298,7 +2297,6 @@ pcauthority.com.au###regSignupBoxout
 pcauthority.com.au###slidebox
 pcauthority.com.au##.facebook-twitter
 pcauthority.com.au##div[style="border:1px solid #c4bbb6;background-color:#FFFCE2;position:relative;margin-top:10px"]
-pcgamer.com###fp_cookieMessageContainer
 pcgamer.com###headerWidgetBackup
 pcgamingwiki.com##div[style$="margin-bottom:10px;margin-top:-14px;"]
 pcmag.com###cboxOverlay
@@ -2850,7 +2848,6 @@ superbooyah.com##.follow
 superherohype.com###headerSlideContainer
 surfgarden.de##.rss
 surfnetkids.com##div[style="height:95px;padding-top:10px;"]
-t3.com###fp_cookieMessageContainer
 t3.com###kicker1
 t3.com##.otherActions
 t3.com##.social
@@ -2911,7 +2908,6 @@ techpounce.com###news-bar-plus
 techpounce.com###nrelate_flyout_1
 techpp.com###inspiredmagz-mashable-bar
 techpresident.com###pop1
-techradar.com###fp_cookieMessageContainer
 techradar.com##.facebook
 techradar.com##.leaderboardwidget
 techradar.com##.outbrain

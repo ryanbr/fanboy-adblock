@@ -246,6 +246,7 @@
 ###footer-social-media-buttons
 ###footer_follow_us
 ###footer_social
+###fp_cookieMessageContainer
 ###getSocial
 ###gigya-followbar
 ###gigyaTBToolbar
