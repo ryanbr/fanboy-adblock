@@ -1477,6 +1477,7 @@
 ##.share_tool_container
 ##.share_tools
 ##.share_top
+##.share_widgets
 ##.shareaholic-like-buttonset
 ##.shareaholic-show-on-load
 ##.ShareBar
