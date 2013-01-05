@@ -176,6 +176,7 @@
 @@||turner.com/cnn/*/video/chartbeat.js$domain=cnn.com
 @@||ultimedia.com/js/common/jquery.gatracker.js
 @@||unifi.me/mootools/classes/*-tracking
+@@||ups.com/*/WebTracking/track&dcs
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
 @@||viamichelin.com/jQuery/ntpagetag.js
 @@||videos.nbcolympics.com/beacon?$object-subrequest,domain=nbcolympics.com
