@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: CKWDixnIkhv6/gHE77fFBg
+! Checksum: spaVgF7iA4rGaEFizSkrbg
 ! Title: Fanboy's IsraelList
 ! Updated: 5 Jan 2013
 ! This list expires after 4 days
@@ -441,6 +441,7 @@ inn.co.il##[id^="divTopAd"]
 inn.co.il##[id^="LeftColInf"]
 inn.co.il##[id^="LeftInfo"]
 inn.co.il##div[style="width:262px;padding:0px 5px;border: solid 1px #c4c4c4;border-width: 0px 1px"]
+iphones.co.il###mainBannerSponsers2
 iphones.co.il##div[style="padding-top:10px;width:250px;height:250px"]
 israelnationalnews.com##.tblTopAds
 kama.co.il##[id^="ads."]
