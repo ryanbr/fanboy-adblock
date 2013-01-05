@@ -904,6 +904,7 @@
 ##.aol-share
 ##.aptureTMMBar
 ##.article-share
+##.article-sharing-top
 ##.article-social
 ##.article-social-bar
 ##.article-social-bar-floating
