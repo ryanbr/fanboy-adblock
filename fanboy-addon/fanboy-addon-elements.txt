@@ -772,6 +772,7 @@
 ###socialz
 ###sociobar1
 ###socmediaBar
+###spSocialBookmark
 ###st-social
 ###static-social
 ###stayConnectedBlock
@@ -1867,6 +1868,7 @@
 ##.socmedia-logo
 ##.socShare
 ##.sphinn-button-single
+##.spIconLinkTwitter
 ##.sprites-facebook
 ##.sprites-linkedin
 ##.sprites-rss
