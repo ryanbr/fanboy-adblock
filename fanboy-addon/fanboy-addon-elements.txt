@@ -1436,6 +1436,7 @@
 ##.share-toolbar-container
 ##.share-tools
 ##.share-top
+##.share-widget-box
 ##.share-widgets
 ##.share-wrap
 ##.share-wrapper
