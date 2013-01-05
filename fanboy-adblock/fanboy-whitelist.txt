@@ -653,6 +653,7 @@
 @@||fileice.net/js/advertisement.js
 @@||freesportsbet.com/js/advertisement.js
 @@||gameshark.com/images/ads/
+@@||googleusercontent.com/h/www.minecraftplaza.com/wp-content/plugins/no-adblock/$domain=minecraftplaza.com
 @@||hackers.co.id/adframe/adframe.js
 @@||images.tvdez.com/ads/ads_$subdocument
 @@||js.smartredirect.de/js/adbanner.js$domain=mtb-news.de
