@@ -1003,6 +1003,7 @@
 ||hotkeys.com^$third-party
 ||hover.in^$third-party
 ||hqfootyad4.blogspot.com^$third-party
+||httpsecurity.org^$third-party
 ||hype-ads.com^$third-party
 ||hypeads.org^$third-party
 ||hypertrackeraff.com^$third-party
@@ -1329,6 +1330,7 @@
 ||p-digital-server.com^$third-party
 ||pagead2.googlesyndication.com^$~object-subrequest
 ||pagerage.com^$third-party,subdocument
+||pagesinxt.com^$third-party
 ||paidsearchexperts.com^$third-party
 ||pan.dogster.com^$third-party
 ||panachetech.com^$third-party
