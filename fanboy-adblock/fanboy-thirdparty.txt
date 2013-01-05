@@ -1788,6 +1788,7 @@
 ||xtendmedia.com^$third-party
 ||yabuka.com^$third-party
 ||yadomedia.com^$third-party
+||yb.torchbrowser.com^
 ||yb0t.com^$third-party
 ||yceml.net^$third-party
 ||yes-messenger.com^$third-party
