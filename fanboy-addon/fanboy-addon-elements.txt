@@ -90,6 +90,7 @@
 ###container-like-button
 ###content_share
 ###contentSharerResult
+###cookie-notification
 ###cookie-policy-strap
 ###cookie_header
 ###cookieNotification
