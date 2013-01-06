@@ -1642,6 +1642,7 @@
 ##.social-bk-news
 ##.social-block
 ##.social-block-content
+##.social-bookmark
 ##.social-bookmark-links
 ##.social-bottom
 ##.social-box
