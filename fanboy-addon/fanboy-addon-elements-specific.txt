@@ -580,6 +580,9 @@ counselheal.com###anotherBox
 counselheal.com###follow
 counselheal.com##.nw_cont
 counselheal.com##.tools
+countryweekly.com###block-ami_core-magazine-cover
+countryweekly.com###block-sailthru-newsletters
+countryweekly.com###follow-us-2012
 couponistaqueen.com###text-30
 couponistaqueen.com###text-37
 courant.com###article-promo
