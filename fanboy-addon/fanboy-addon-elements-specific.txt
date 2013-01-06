@@ -538,6 +538,7 @@ comodo.com##[href="http://www.facebook.com/ComodoHome"]
 complex.com##.follow
 computeractive.co.uk##.article_network_icons
 computeractive.co.uk##.facebook_plugin_parent_block
+computerweekly.com###premiumContentPromo
 computerworld.com###cw_tweets_module
 computerworld.com###floating_tools
 computerworld.com###it_newsletters
