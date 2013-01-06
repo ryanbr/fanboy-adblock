@@ -355,6 +355,8 @@ brobible.com##.borderBlock
 brobible.com##.newsSignup
 brosome.com###enews
 brosome.com##.newsletter_single
+buffalonews.com###overlay
+buffalonews.com###overlay-content
 bufferapp.com###buffer-banner
 bullettmedia.com###post-footer-nav
 businessinsider.com###sh_job_widget
