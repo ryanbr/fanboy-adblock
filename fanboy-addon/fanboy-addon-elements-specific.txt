@@ -359,6 +359,8 @@ buffalonews.com###overlay
 buffalonews.com###overlay-content
 bufferapp.com###buffer-banner
 bullettmedia.com###post-footer-nav
+businessdictionary.com###popup-element-A
+businessdictionary.com##.black_overlay
 businessinsider.com###sh_job_widget
 businessinsider.com##.box-post
 businessinsider.com##.partner-thanks
