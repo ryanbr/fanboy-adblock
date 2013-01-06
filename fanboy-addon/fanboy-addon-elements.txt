@@ -97,6 +97,7 @@
 ###ctl00_DescriptionBlock_lblTwitter
 ###ctl00_mainContent_lblSharingLink
 ###ctn-social
+###ctSocialShare
 ###cxShareLinks
 ###dd_ajax_float
 ###digg-widget-container

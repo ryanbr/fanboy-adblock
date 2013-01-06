@@ -461,6 +461,7 @@ chillinpanda.com##.face_popup
 chillinpanda.com##.lightbox_background
 chillinpanda.com##.scroll_top_wrap
 chow.com###connect_w_chow
+christianitytoday.com###followCT
 christianpost.com###extraBox
 christianpost.com##.tool
 chron.com###healthpost-content-stub
