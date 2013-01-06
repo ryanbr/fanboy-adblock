@@ -644,6 +644,7 @@ cultofmac.com##.join-us
 cultofmac.com##.sb-sp
 cultofmac.com##.sb-twit
 cultofmac.com##iframe[src^="http://deals.cultofmac.com/"]
+cumberlandnews.co.uk###cookieLayer
 curbed.com###sharing-palette
 cwtv.com###cw-video-bonus-box
 daddyodeals.com###DOD_border
