@@ -553,6 +553,7 @@ computerworld.com.au###rhs_techjobs
 computerworld.com.au##.cw-inline-signup-blurb
 computerworlduk.com###bottomBar
 computerworlduk.com###footerIcons
+computing.co.uk###headerStrip
 computingunleashed.com##.email
 computingunleashed.com##.facebook
 computingunleashed.com##.feeds
