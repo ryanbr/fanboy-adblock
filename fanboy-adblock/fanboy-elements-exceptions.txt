@@ -55,7 +55,7 @@
 ~billboard.com##.ad-unit-300-wrapper
 ~bipbip.co.il,~clickindia.com##.adlist
 ~blogcritics.org###leaderboard-ad
-~box10.com,~washingtonpost.com###prerollAd
+~box10.com,~washingtonpost.com,~flashgames247.com###prerollAd
 ~boylesports.com##.small_ad
 ~bplaced.net,~explosm.net,~pocket-lint.com###adbar
 ~briefing.com###leftad
