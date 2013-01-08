@@ -209,6 +209,7 @@
 ||cpuid.com^*/cpuidbanner72x90_
 ||craveonline.com/gnads/
 ||creattor.net/flashxmlbanners/
+||crunchyroll.ca/vast?
 ||crunchyroll.com/vast?
 ||cryptload.biz/lala.php
 ||ctv.ca/ctvresources/js/ctvad.js
