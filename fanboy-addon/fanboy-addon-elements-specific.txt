@@ -69,6 +69,7 @@ advocate.com###block-advocate_general-advocate_general_enewsletter
 advocate.com###block-advocate_general-advocate_general_follow_us
 adweek.com###industryTweet
 adweek.com###subscribe_content
+adweek.com##.cambeywest-subscribe
 aflcio.org##.connectWithUs
 afr.com###story_tools
 afterdawn.com###feedbackTab

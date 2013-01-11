@@ -1262,6 +1262,7 @@
 ##.large_share_panel
 ##.latestshowsocial
 ##.lazy-share-widget
+##.left-share-bar-wrapper
 ##.left-side-sharing-block
 ##.leftsocial_icon
 ##.lf_comment_notifier
