@@ -2361,6 +2361,7 @@ pdnonline.com##.socialNetwork
 penguingroup.com###panelad2
 penny-arcade.com##.social
 people-press.org###share
+people.com###adArea
 people.com###flyingrecirc
 people.com###getPeopleEverywhere
 people.com##.cmad
