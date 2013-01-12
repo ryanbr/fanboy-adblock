@@ -699,7 +699,7 @@
 ||openstat.net^$third-party
 ||opentracker.net^$third-party
 ||openvenue.com^$third-party
-||ophan.co.uk^$third-party
+||ophan.co.uk/t.gif?
 ||optify.net^$third-party
 ||optimix.asia^$third-party
 ||optimizely.appspot.com^$third-party
