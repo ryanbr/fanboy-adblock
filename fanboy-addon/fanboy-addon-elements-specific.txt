@@ -788,6 +788,10 @@ dirwell.com##.subscribe_widget
 discovermagazine.com###Table_01[width="300"]
 discovermagazine.com###tool-box
 discovermagazine.com##.articleToolsPhoto
+discovermagazine.com##.basement
+discovermagazine.com##.marketingCallouts
+discovermagazine.com##.payWall
+discovermagazine.com##.rightColumn
 discovermagazine.com##p[style="clear:both;padding-top:5px"]
 discovery.com###new-soc-med-buttons
 discovery.com###utility
