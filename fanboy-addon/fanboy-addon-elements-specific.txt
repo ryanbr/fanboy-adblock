@@ -160,6 +160,7 @@ androidtablets.net##div[style="width:965px; border:0;"]
 androidzoom.com###social
 annarbor.com##.grocery
 annarbor.com##.social
+answers.yahoo.com###yan-share
 answers.yahoo.com##.syndication-links
 aol.co.uk###usrConsent
 aol.com##.follow
