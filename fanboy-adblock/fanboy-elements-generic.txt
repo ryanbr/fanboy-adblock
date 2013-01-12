@@ -3848,6 +3848,7 @@
 ##.ad-BANNER
 ##.ad-banner
 ##.ad-banner-bkgd
+##.ad-banner728-top
 ##.ad-bar
 ##.ad-belowarticle
 ##.ad-bg
