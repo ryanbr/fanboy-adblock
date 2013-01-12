@@ -1375,6 +1375,7 @@
 ##.pw-share-popups
 ##.quick-share
 ##.rate-share
+##.rawhtml_twitter_widget
 ##.really_simple_share
 ##.rfd-sharetools
 ##.right-share-module
