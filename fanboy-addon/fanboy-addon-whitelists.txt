@@ -15,6 +15,7 @@
 @@||britishairways.com/cms/global/scripts/pages/interstitial.js
 @@||cdn.complexmedianetwork.com/cdn/$script,subdocument,domain=kicksonfire.com
 @@||cloudfront.net/js/FB.Share*.js$domain=9gag.com
+@@||complexmedianetwork.com/js/cmnUNT.js$domain=complex.com
 @@||daddydesign.com/*/wp-social-toolbar/
 @@||disqus.com^*/social-icons.png
 @@||ebuddy.com/website/*social-icons.png
