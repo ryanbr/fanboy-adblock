@@ -1680,6 +1680,7 @@ downloadatoz.com##.ma
 downloadcrew.com##.sponsoredDownloads
 downloadcrew.com##div[style="width:160px;height:160px;margin-bottom:10px;"]
 downloadcrew.com##div[style="width:160px;height:600px;margin-bottom:10px;"]
+downloadhelper.net###halloween-pb
 downloadhelper.net##a[href^="/liutilities.php"]
 downloadpipe.com##div[style="width: 600px; overflow: hidden; margin: 0pt auto; line-height: normal; display: block;"]
 downturk.net##.zippo
