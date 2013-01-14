@@ -2478,6 +2478,8 @@ propublica.org###propublica-muckreads-widget
 propublica.org##.updates-module
 psdeluxe.com###hide
 psdeluxe.com###widget_fix
+psmag.com###before-header
+psmag.com##.gform_body
 pspad.com##img[title="rss"]
 pstc.ca###contactme_tabc
 ptf.com###bnr
