@@ -1176,6 +1176,7 @@ gizmodo.com##.welcome_form
 gizmodo.com.au###social
 gizmodo.com.au##.share
 glennbeck.com###flyout
+glennbeck.com###gbtv_embed_banner
 globalgrind.com##.ns-diag
 globalgrind.com##[ggregion="NewsLetterRC"]
 globalpost.com###block-block-17

@@ -2001,6 +2001,7 @@
 ##.widget_facebook_like_box
 ##.widget_facebook_likebox
 ##.widget_FacebookActivity
+##.widget_facebookactivityfeed
 ##.widget_FacebookLikeBox
 ##.widget_feeds
 ##.widget_follow_cb_sidebar_widget
