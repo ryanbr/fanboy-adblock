@@ -3042,6 +3042,7 @@ thedailystar.net##SPAN[style="height: 62px; width: 170px;"]
 thedarewall.com##.bottom-bar
 thedigitalfix.com##.facebook
 thedigitalfix.com##.twitter
+theedge.co.nz###slidebox
 thefablife.com###sendToMobile
 thefablife.com###sendtomobileswf
 thefablife.com##.promos
