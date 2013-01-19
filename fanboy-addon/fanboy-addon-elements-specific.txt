@@ -1970,6 +1970,7 @@ moviefone.com##.sbm-main-new
 moviefone.com##.social
 movieonmovie.com###floatdiv
 movietickets.com###footerbar
+moviezadda.com##div[style=" background: none repeat scroll 0 0 #333333;\a     bottom: 0;\a     left: 0;\a     margin: 0;\a    position: fixed;\a     width: 100%;\a     z-index: 9999;\a     display:inline-block;\a     height:30px;\a     "]
 mozilla.com###connect
 mozilla.com###connect-facebook
 mozilla.com###connect-twitter
