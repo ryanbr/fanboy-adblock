@@ -3063,6 +3063,7 @@ theglobeandmail.com##.articletoolbar
 thehackernews.com###message
 thehdroom.com###Column-3ad300
 thehill.com###emailalerts
+thehindubusinessline.com###slidebox
 theinquirer.net##.below_top_search
 theinquirer.net##.contentNavi_onemore
 theintelhub.com###dialog
