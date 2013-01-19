@@ -1524,6 +1524,8 @@ interfacelift.com##[title="Click to visit the official Google+ page for Interfac
 internetevolution.com##.menudropdown
 internetnews.com###sblinks
 internetnews.com###sg-popup
+inthesetimes.com###fancybox-overlay
+inthesetimes.com###fancybox-wrap
 intomobile.com##.services
 intomobile.com##.share
 intomobile.com##.social
