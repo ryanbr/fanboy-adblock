@@ -3120,6 +3120,7 @@ therichest.org##.subscribe
 theroot.com###theroot-social-panel
 theroot.com###theroot_mc_signup_cont
 theroot.com##.fb-onscroll
+thesaurus.com###dynstrip
 thesaurus.com###overlayleftA
 thesaurus.com###overlayRightA
 thesaurus.com###sftr
