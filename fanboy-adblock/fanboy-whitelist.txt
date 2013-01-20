@@ -487,6 +487,7 @@
 @@||salon.com/content/plugins/salon-ad-controller/ad-utilities.js
 @@||sankakucomplex.com^$script
 @@||sankakustatic.com^$script
+@@||scribdassets.com/aggregated/javascript/ads.js?$domain=scribd.com
 @@||sdelkino.com/images/ad/$image
 @@||search.spotxchange.com/crossdomain.xml$domain=own3d.tv
 @@||sec-ads.bridgetrack.com/ads_img/
