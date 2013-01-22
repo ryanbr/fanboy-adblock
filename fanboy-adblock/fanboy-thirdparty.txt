@@ -992,6 +992,7 @@
 ||hebiichigo.com^$third-party
 ||himediads.com^$third-party
 ||himediadx.com^$third-party
+||hiroservers.appspot.com/GenerateVastServlet/$object-subrequest
 ||hizlireklam.com^$third-party
 ||holidaytravelguide.org^$third-party
 ||hopfeed.com^$third-party
@@ -1600,6 +1601,7 @@
 ||tacoda.net^$third-party
 ||tacticalrepublic.com^$third-party
 ||tafmaster.com^$third-party
+||tag.matomy.hiro.tv/VpaidPlayer/VpaidPlayer.swf?$object-subrequest
 ||tag.regieci.com^$third-party
 ||taggify.net^$third-party
 ||takeover.bauermedia.co.uk^$third-party
