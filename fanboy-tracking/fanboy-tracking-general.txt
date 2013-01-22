@@ -500,7 +500,7 @@
 ||webtracker.apicasystem.com^
 ||webtracker.educationconnection.com^
 ||webtraffic.ttinet.com^
-||webvoo.com^
+||webvoo.com/wt/Track.aspx
 ||weesh.co.uk^
 ||whitepixel.com^
 ||whosclickingwho.com^
