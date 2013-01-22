@@ -27,6 +27,7 @@
 ~facebook.com##.fb_share
 ~facebook.com##.fblike
 ~facebook.com##.post-fb-like
+~facebook.com##.shareLink
 ~facebook.com##.shareText
 ~geekli.st##.facebook-button
 ~geekli.st##.twitter-button
