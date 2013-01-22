@@ -1425,6 +1425,7 @@ i4u.com##.stream_item
 i4u.com##div[style="padding: 10px 0;"]
 ibnlive.in.com###comment[style="background: none repeat scroll 0% 0% rgb(255, 255, 255); position: absolute; left: 0px; top: 0px; margin-left: 0px;"]
 ibnlive.in.com##.fx-ftr
+ibtimes.co.uk###scrollcontainer
 ibtimes.co.uk##.story_tools
 ibtimes.com###bk_jobs
 ibtimes.com###block-ibtimes-general-block-social-links
