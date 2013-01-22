@@ -250,6 +250,7 @@
 ###footer-social-media-buttons
 ###footer_follow_us
 ###footer_social
+###footSocial
 ###fp_cookieMessageContainer
 ###getSocial
 ###gigya-followbar
