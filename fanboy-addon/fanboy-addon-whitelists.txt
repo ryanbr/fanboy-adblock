@@ -48,7 +48,7 @@
 @@||odnoklassniki.ru/share/odkl_share.js$domain=ivi.ru
 @@||passets-cdn.pinterest.com^
 @@||pinterest.com/images/about/buttons/$domain=pinterest.com
-@@||platform.linkedin.com/in.js$domain=globalpost.com
+@@||platform.linkedin.com/in.js$domain=globalpost.com|businessinsider.com
 @@||platform.twitter.com/anywhere.js?$domain=projects.wsj.com|soychile.cl|mtv.com|pennsundayschool.com
 @@||platform.twitter.com/widgets.js$domain=egotastic.com|wikia.com|reviews.cnet.com|globalpost.com|soychile.cl|guardian.co.uk|complex.com|agame.com|wwe.com|mandatory.com|pennsundayschool.com|guildwars2.com
 @@||platform.twitter.com^$domain=twimg.com|klout.com
