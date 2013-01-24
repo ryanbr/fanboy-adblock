@@ -162,7 +162,6 @@
 .com/advt/
 .com/adx/
 .com/adz/
-.com/affiliate/$~object-subrequest
 .com/banners/$image,object,subdocument
 .com/doubleclick/
 .com/gads/
