@@ -1381,6 +1381,7 @@
 ##.rfd-sharetools
 ##.right-share-module
 ##.right_social_block
+##.rightShare
 ##.rmd-Share
 ##.rss-icon
 ##.rss-link

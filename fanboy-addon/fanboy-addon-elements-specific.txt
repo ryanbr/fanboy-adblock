@@ -846,6 +846,7 @@ eater.com###sharing-palette
 eater.com##.partners
 eatingwell.com###simplemodal-container
 eatingwell.com###simplemodal-overlay
+ebaumsworld.com###welcomeMessage
 ebay.com###backTop
 ebay.com###dd-top
 ebay.com###RightPanel
