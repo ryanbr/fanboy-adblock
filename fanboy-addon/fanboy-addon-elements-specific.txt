@@ -857,6 +857,7 @@ ebay.com##.ql-a
 ebay.com##.tb-rs
 ebayinkblog.com##.subscribe
 eclectablog.com##.s2_form_widget
+ecnmag.com###subscription-newsletter-mainContent
 ecofriend.com###slidebox
 economictimes.indiatimes.com##.shareBox
 economictimes.indiatimes.com##div[style="text-align:left;padding-left:4px;width:300px;border:1px solid #D7D7D7;background-color:#F5F5F5;display:inline-block;height:75px"]
