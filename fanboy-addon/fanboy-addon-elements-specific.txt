@@ -3350,6 +3350,7 @@ uberhumor.com###bluenext
 uberhumor.com###blueprevious
 uberhumor.com###fixed_bottom_bar_back
 uberhumor.com###fixed_bottom_bar_text
+ubuntu.com##.cookie-policy
 udemy.com##.slp-container
 udreview.com##.articleTools
 udreview.com##.social
