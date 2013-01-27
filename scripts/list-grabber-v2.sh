@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v2.40 (13/12/2012)
+# Fanboy Adblock list grabber script v2.50 (27/01/2013)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
+# 2.50 Ultimate/Complete list based on merged list
 # 2.40 Include test Easylist sub generator
 # 2.30 Remove p2p list
 # 2.21 Opera CSS generator
@@ -148,8 +149,6 @@ sed -i -e '/^$/d' $TESTDIR/fanboy-easy.txt
 #
 sed -i 's/Fanboy\'s\ Adblock\ List/Fanboy-Easylist\ Merged\ List/g' $TESTDIR/fanboy-easy.txt
 
-
-Fanboy's Adblock List
 # Checksum
 #
 $ADDCHECKSUM $TESTDIR/fanboy-easy.txt
@@ -159,6 +158,10 @@ $ADDCHECKSUM $TESTDIR/fanboy-easy.txt
 cp -f $TESTDIR/fanboy-easy.txt $MAINDIR/fanboy-easy.txt
 rm -rf $MAINDIR/fanboy-easy.txt.gz
 $ZIP $MAINDIR/fanboy-easy.txt.gz $TESTDIR/fanboy-easy.txt > /dev/null
+
+# Fanboy Ultimate + Complete
+#
+$NICE $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
 
 # Firefox2operascript
 #

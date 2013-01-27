@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy-Merge (Ultimate) Adblock list grabber script v1.2 (30/08/2012)
+# Fanboy-Merge (Ultimate) Adblock list grabber script v1.3 (27/01/2013)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -47,15 +47,15 @@ sed -i '/\/js\/tracking.js/d' $TESTDIR/fanboy-stats-temp.txt
 
 # Insert a new line to avoid chars running into each other
 #
-cat $MAINDIR/fanboy-adblock.txt | sed '$a!' > $TESTDIR/fanboy-adblocklist-current.txt
+cat $MAINDIR/fanboy-easy.txt | sed '$a!' > $TESTDIR/fanboy-easy2.txt
 
 # Ultimate List
 #
-cat $TESTDIR/fanboy-adblocklist-current.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt $TESTDIR/fanboy-addon-temp3.txt > $TESTDIR/fanboy-ultimate.txt
+cat $TESTDIR/fanboy-easy2.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt $TESTDIR/fanboy-addon-temp3.txt > $TESTDIR/fanboy-ultimate.txt
 
 # Complete List
 #
-cat $TESTDIR/fanboy-adblocklist-current.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt > $TESTDIR/fanboy-complete.txt
+cat $TESTDIR/fanboy-easy2.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt > $TESTDIR/fanboy-complete.txt
 
 # Ultimate List for IE (minus the main list)
 #
@@ -74,7 +74,7 @@ if [ -s "$TESTDIR/fanboy-ultimate.txt" ];
 
    # Erase old files
    #
-   rm -rf $MAINDIR/r/fanboy-ultimate.txt
+   rm -rf $MAINDIR/r/fanboy-ultimate.txt $TESTDIR/fanboy-easy2.txt
 
    # Copy to the website
    #
@@ -101,7 +101,7 @@ if [ -s "$TESTDIR/fanboy-complete.txt" ];
 
    # Erase old files
    #
-   rm -rf $MAINDIR/r/fanboy-complete.txt
+   rm -rf $MAINDIR/r/fanboy-complete.txt $TESTDIR/fanboy-easy2.txt
 
    # Copy to the website
    #
