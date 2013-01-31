@@ -66,7 +66,8 @@ if [ -s "$TESTDIR/fanboy-ultimate.txt" ];
   then
    # Add titles
    #
-   sed -i 's/Adblock\ List/Ultimate\ List/g' $TESTDIR/fanboy-ultimate.txt
+   sed -i '/Title:/d' $TESTDIR/fanboy-ultimate.txt
+   sed -i '3i! Title: Fanboy+Easylist-Merged Ultimate List' $TESTDIR/fanboy-ultimate.txt
 
    # Addchecksum
    #
@@ -93,7 +94,8 @@ if [ -s "$TESTDIR/fanboy-complete.txt" ];
   then
    # Add titles
    #
-   sed -i 's/Adblock\ List/Complete\ List/g' $TESTDIR/fanboy-complete.txt
+   sed -i '/Title:/d' $TESTDIR/fanboy-complete.txt
+   sed -i '3i! Title: Fanboy+Easylist-Merged Comlete List' $TESTDIR/fanboy-complete.txt
 
    # Addchecksum
    #
