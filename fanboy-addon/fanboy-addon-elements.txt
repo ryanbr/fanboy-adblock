@@ -1842,6 +1842,7 @@
 ##.socialMedias
 ##.socialMediaToolbar
 ##.socialMediaWraper
+##.socialn2_links
 ##.socialn_links
 ##.socialNetworks
 ##.socialPageLinks
