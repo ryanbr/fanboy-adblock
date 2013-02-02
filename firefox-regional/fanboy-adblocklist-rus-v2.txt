@@ -1,11 +1,12 @@
 [Adblock Plus 1.1]
-! Checksum: 4w2DStskieyy4F60HQzotA
+! Checksum: 9VvKG13dgup5X/wR0n0G4A
 ! Title: Fanboy's Russian
-! Updated: 23 Jan 2013
+! Updated: 2 Feb 2013
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
 ! Homepage: http://www.fanboy.co.nz/
+! Redirect: https://ruadlist.googlecode.com/hg/advblock.txt
 ! Forums: http://forums.fanboy.co.nz/
 !
 ! ---------- Generic Blocking Rules ----------
