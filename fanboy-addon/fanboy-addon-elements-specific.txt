@@ -996,6 +996,9 @@ feedmyapp.com###facebook
 feedmyapp.com###twitter
 feld.com##.social
 fhm.com###bauerCookiePolicy
+fiercecable.com###pusher-ad
+fiercecable.com##.content-subscribe
+fiercecable.com##.social
 fiercewireless.com##.pane-library-stack
 fiercewireless.com##.pane-pusher-ad
 fiercewireless.com##.social
