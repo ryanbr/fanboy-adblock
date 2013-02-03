@@ -439,7 +439,6 @@
 ||instyle.co.uk^*/tracking.js
 ||insynchq.com/wf/open?
 ||intensedebate.com/empty.php
-||internal.kongregate.com^
 ||investegate.co.uk/Weblogs/IGLog.aspx?
 ||ipetitions.com/img.php?
 ||irs.gov/js/irs_reporting_cookie.js
