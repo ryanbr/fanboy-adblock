@@ -595,7 +595,6 @@
 /adbox.
 /adbox_
 /adboxtable-
-/adbpsupplement.
 /adbrite-
 /adbrite.
 /adbrite/*
