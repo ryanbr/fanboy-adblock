@@ -1111,6 +1111,7 @@
 ##.fbbox
 ##.fbContainer
 ##.fbilike
+##.fblike_container
 ##.fblikebox
 ##.fbLikeBox
 ##.FBLikeBox
