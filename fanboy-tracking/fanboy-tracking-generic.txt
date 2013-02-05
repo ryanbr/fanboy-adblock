@@ -592,7 +592,6 @@
 /etracker/*
 /etrackercode.
 /eu-survey.js
-/eu/ywa.js
 /eventLogServlet?
 /eventTracker.js
 /evercookie.
@@ -872,7 +871,6 @@
 /js/sophus/*
 /js/tophits_
 /js/tracking_
-/js/ywa.js
 /js_hotlink.php?
 /js_logger.
 /js_tracker.
