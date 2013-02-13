@@ -3644,6 +3644,7 @@ yahoo.com##.yom-follow-fb
 yahoo.com##.yom-free-html-facebook
 yahoo.com##.yom-pbar
 yahoo.com##.yom-twitter
+yahoo.com##.yom-twittertimeline
 yahoo.com##.ysc-promos
 yahoo.com##div[id^="adx_"]
 yellowpages.co.in##.floatingWidget
