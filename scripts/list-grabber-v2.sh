@@ -43,7 +43,7 @@ export CAT="/bin/cat"
 export MAINDIR="/var/www/adblock"
 export SPLITDIR="/var/www/adblock/split/test"
 export HGSERV="/root/fanboy-adblock-list"
-export TESTDIR="/tmp/work"
+export TESTDIR="/root/tmp/work"
 export DATE="`date`"
 export ADDCHECKSUM="nice -n 19 perl $HGSERV/scripts/addChecksum.pl"
 export LOGFILE="/etc/crons/log.txt"
@@ -57,33 +57,33 @@ export EASYLIST="/root/easylist/easylist/easylistfanboy/fanboy-adblock"
 
 # Test for Ram disks
 #
-if [ ! -d "/tmp/work/" ]; then
-  rm -rf /tmp/work/
-  mkdir /tmp/work; chmod 777 /tmp/work
-  mount -t tmpfs -o size=50M tmpfs /tmp/work/
-fi
+#if [ ! -d "/tmp/work/" ]; then
+#  rm -rf /tmp/work/
+#  mkdir /tmp/work; chmod 777 /tmp/work
+#  mount -t tmpfs -o size=50M tmpfs /tmp/work/
+#fi
 
-if [ ! -d "/tmp/work/opera" ]; then
-  mkdir /tmp/work/opera; chmod 777 /tmp/work/opera
-  mkdir /tmp/work/opera/test; chmod 777 /tmp/work/opera/test
-fi
+#if [ ! -d "/tmp/work/opera" ]; then
+#  mkdir /tmp/work/opera; chmod 777 /tmp/work/opera
+#  mkdir /tmp/work/opera/test; chmod 777 /tmp/work/opera/test
+#fi
 
-if [ ! -d "/tmp/work/opera/test" ]; then
-  mkdir /tmp/work/opera/test; chmod 777 /tmp/work/opera/test
-fi
+#if [ ! -d "/tmp/work/opera/test" ]; then
+#  mkdir /tmp/work/opera/test; chmod 777 /tmp/work/opera/test
+#fi
 
-if [ ! -d "/tmp/work/split" ]; then
-  mkdir /tmp/work/split; chmod 777 /tmp/work/split
-  mkdir /tmp/work/split/fanboy-adblock; chmod 777 /tmp/work/split/fanboy-adblock
-  mkdir /tmp/work/split/fanboy-addon; chmod 777 /tmp/work/split/fanboy-addon
-  mkdir /tmp/work/split/fanboy-tracking; chmod 777 /tmp/work/split/fanboy-tracking
-fi
+#if [ ! -d "/tmp/work/split" ]; then
+#  mkdir /tmp/work/split; chmod 777 /tmp/work/split
+#  mkdir /tmp/work/split/fanboy-adblock; chmod 777 /tmp/work/split/fanboy-adblock
+#  mkdir /tmp/work/split/fanboy-addon; chmod 777 /tmp/work/split/fanboy-addon
+#  mkdir /tmp/work/split/fanboy-tracking; chmod 777 /tmp/work/split/fanboy-tracking
+#fi
 
-if [ ! -d "/tmp/Ramdisk/" ]; then
-  rm -rf /tmp/Ramdisk/
-  mkdir /tmp/Ramdisk; chmod 777 /tmp/Ramdisk
-  mount -t tmpfs -o size=110M tmpfs /tmp/Ramdisk/
-fi
+#if [ ! -d "/tmp/Ramdisk/" ]; then
+#  rm -rf /tmp/Ramdisk/
+#  mkdir /tmp/Ramdisk; chmod 777 /tmp/Ramdisk
+#  mount -t tmpfs -o size=110M tmpfs /tmp/Ramdisk/
+#fi
 
 #if [ ! -d "/tmp/ieramdisk/subscriptions" ]; then
 #  rm -rf /tmp/ieramdisk/subscriptions
@@ -92,26 +92,26 @@ fi
 #  mkdir /tmp/ieramdisk/subscriptions; chmod 777 /tmp/ieramdisk/subscriptions
 #fi
 
-if [ ! -d "/tmp/Ramdisk/www/adblock/split" ]; then
-  mkdir /tmp/Ramdisk/www/adblock/split; chmod 777 /tmp/Ramdisk/www/adblock/split
-fi
+#if [ ! -d "/tmp/Ramdisk/www/adblock/split" ]; then
+#  mkdir /tmp/Ramdisk/www/adblock/split; chmod 777 /tmp/Ramdisk/www/adblock/split
+#fi
 
 # Check mirror dir exists and its not a symlink
 #
-if [ -d "/var/hgstuff/fanboy-adblock-list" ] && [ -h "/tmp/hgstuff" ]; then
-    export HGSERV="/var/hgstuff/fanboy-adblock-list"
-    echo "HGSERV=/var/hgstuff/fanboy-adblock-list"
-    cd /tmp/hgstuff/fanboy-adblock-list
-    $NICE $HG pull
-    $NICE $HG update
-  else
-    # If not, its stored here
-    export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
-    echo "HGSERV=/tmp/hgstuff/fanboy-adblock-list"
-    cd /tmp/hgstuff/fanboy-adblock-list
-    $NICE $HG pull
-    $NICE $HG update
-fi
+#if [ -d "/var/hgstuff/fanboy-adblock-list" ] && [ -h "/tmp/hgstuff" ]; then
+#    export HGSERV="/var/hgstuff/fanboy-adblock-list"
+#    echo "HGSERV=/var/hgstuff/fanboy-adblock-list"
+#    cd /tmp/hgstuff/fanboy-adblock-list
+#    $NICE $HG pull
+#    $NICE $HG update
+#  else
+#    # If not, its stored here
+#    export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
+#    echo "HGSERV=/tmp/hgstuff/fanboy-adblock-list"
+#    cd /tmp/hgstuff/fanboy-adblock-list
+#    $NICE $HG pull
+#    $NICE $HG update
+#fi
 
 #if [ -d "/root/easylist/easylist" ]; then
 #    cd /root/easylist/easylist
