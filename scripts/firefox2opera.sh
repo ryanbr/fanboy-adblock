@@ -33,24 +33,24 @@ export EASYLIST="/root/easylist/easylist/easylistfanboy/fanboy-adblock"
 
 # Check mirror dir exists and its not a symlink
 #
-if [ -d "/var/hgstuff/fanboy-adblock-list" ] && [ -h "/tmp/hgstuff" ]; then
-    export HGSERV="/var/hgstuff/fanboy-adblock-list"
-    echo "HGSERV=/var/hgstuff/fanboy-adblock-list"
-    cd /tmp/hgstuff/fanboy-adblock-list
+if [ -d "/root/fanboy-adblock-list" ] && [ -h "/root/hg.fanboy.co.nz" ]; then
+    export HGSERV="/root/fanboy-adblock-list"
+    echo "HGSERV=/root/fanboy-adblock-list"
+    cd /root/fanboy-adblock-list
     $NICE $HG pull
     $NICE $HG update
   else
     # If not, its stored here
-    export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
-    echo "HGSERV=/tmp/hgstuff/fanboy-adblock-list"
-    cd /tmp/hgstuff/fanboy-adblock-list
+    export HGSERV="/home/fanboy/hg.fanboy.co.nz"
+    echo "HGSERV=/home/fanboy/hg.fanboy.co.nz"
+    cd /home/fanboy/hg.fanboy.co.nz
     $NICE $HG pull
     $NICE $HG update
 fi
 
 # Check that the www server is up before proceding
 #
-if [ -d "/tmp/Ramdisk/www/adblock" ]; then
+if [ -d "/var/www/adblock" ]; then
 
   # Fanboy-Adblock
   #
