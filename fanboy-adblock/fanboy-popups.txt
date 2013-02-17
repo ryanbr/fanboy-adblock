@@ -44,7 +44,6 @@
 ||blogscash.info^$popup,image,~image
 ||careerjournalonline.com^$popup,image,~image
 ||casino.betsson.com^$popup,image,~image
-||casino.com^$popup,image,~image
 ||click.scour.com^$popup,image,~image
 ||clickbank.net^$image,~image,popup,third-party
 ||clickosmedia.com^$popup,image,~image
@@ -52,7 +51,6 @@
 ||clicksvenue.com^$popup,image,~image
 ||clickter.net^$popup,image,~image
 ||clkads.com^$image,~image,popup,third-party
-||club777.com^$popup,image,~image
 ||damnlol.com/mgid.html$popup,image,~image
 ||easykits.org^$popup,image,~image
 ||epicgameads.com^$popup,image,~image
