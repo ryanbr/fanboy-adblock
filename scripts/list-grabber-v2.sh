@@ -2876,6 +2876,7 @@ then
    cp -f $HGSERV/firefox-regional/fanboy-adblocklist-jpn.txt $TESTDIR/fanboy-japanese.txt
    # Re-generate checksum
    $ADDCHECKSUM $TESTDIR/fanboy-japanese.txt
+   cp -f $TESTDIR/fanboy-japanese.txt $MAINDIR/fanboy-japanese.txt
    # Wipe old files
    rm -rf $MAINDIR/fanboy-japanese.txt.gz
    $ZIP $MAINDIR/fanboy-japanese.txt.gz $TESTDIR/fanboy-japanese.txt > /dev/null

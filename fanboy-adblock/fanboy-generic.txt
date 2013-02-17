@@ -1,7 +1,6 @@
 !
 ! ---------- Generic Blocking Rules ----------
 !
-!
 &ad_height=
 &ad_id=
 &ad_number=
