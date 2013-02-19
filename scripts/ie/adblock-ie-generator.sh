@@ -16,26 +16,16 @@ export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
 export NICE="nice -n 19"
 export TAC="/usr/bin/tac"
 export CAT="/bin/cat"
-export MAINDIR="/tmp/Ramdisk/www/adblock"
-export SPLITDIR="/tmp/Ramdisk/www/adblock/split/test"
-export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
-export TESTDIR="/tmp/work"
+export MAINDIR="/var/www/adblock"
+export SPLITDIR="/var/www/adblock/split/test"
+export HGSERV="/root/fanboy-adblock-list"
+export TESTDIR="/var/tmp/work"
 export ADDCHECKSUM="nice -n 19 perl $HGSERV/scripts/addChecksum.pl"
 export LOGFILE="/etc/crons/log.txt"
 export HG="/usr/local/bin/hg"
 export SHA256SUM="/usr/bin/sha256sum"
-export IEDIR="/tmp/work/ie"
-export IESUBS="/tmp/work/ie/subscriptions"
-export IRONDIR="/tmp/Ramdisk/www/adblock/iron"
-
-# Check mirror dir exists and its not a symlink
-#
-if [ -d "/var/hgstuff/fanboy-adblock-list" ] && [ -h "/tmp/hgstuff" ]; then
-    export HGSERV="/var/hgstuff/fanboy-adblock-list"
-  else
-    # If not, its stored here
-    export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
-fi
+export IEDIR="/var/work/ie"
+export IESUBS="/var/work/ie/subscriptions"
 
 # Check for temp ie stuff
 #
