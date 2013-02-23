@@ -171,6 +171,7 @@
 @@||buysellads.com/ac/bsa.js$domain=textmechanic.com
 @@||bworldonline.com/adserver/
 @@||caranddriver.com/tools/iframe/?$subdocument
+@@||carzone.ie/es-ie/*advert$image,script,stylesheet
 @@||cbsistatic.com/cnwk.1d/ads/$script,$domain=cnettv.cnet.com
 @@||cbsistatic.com/cnwk.1d/ads/common/manta/adfunctions*.js$domain=cnettv.cnet.com
 @@||cdn.inskinmedia.com/*inskinfiles/flvs/$object-subrequest,domain=tvcatchup.com
