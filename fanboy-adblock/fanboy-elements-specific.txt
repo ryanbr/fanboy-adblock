@@ -5457,6 +5457,8 @@ salary.com###sal_pg_abv
 salon.com###google-single
 salon.com##.bannerWrapper
 samachar.com##td[width="730"][height="90"]
+sammobile.com##.aside-b-placeholder-big
+sammobile.com##.b-placeholder
 sankakucomplex.com###noscript-warning
 sankakucomplex.com##.side120c
 sankakucomplex.com##.side120xmlc
