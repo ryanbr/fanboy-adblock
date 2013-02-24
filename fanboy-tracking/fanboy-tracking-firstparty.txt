@@ -1016,7 +1016,6 @@
 ||widgets.video.msn.com/report.aspx?u=$object-subrequest
 ||wikinvest.com/plugin/api.php?*=metricld&
 ||wikio.com/shopping/tracking/hit.jsp?
-||williams-sonoma.com/wsimgs/*/external/thirdparty.js
 ||wired.co.uk^*/Statistics/
 ||wired.com/tracker.js
 ||wired.com^*/js/tracking.js
