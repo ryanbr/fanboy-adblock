@@ -1031,6 +1031,7 @@ firecold.com##.video-share
 firecold.com##table[style="margin: 30px 0 0 0"]
 firefoxfacts.com##.rss
 firstpost.com###newsltBox
+firstrow1.eu##a[href^="http://download.firstrowsportapptv.com/product_download_tv.php"]
 fivestargamerz.com###floatingbar
 flamefusion.net##[alt="Facebook icon"]
 flavorwire.com###follow
@@ -2350,6 +2351,7 @@ pcmag.com##.control-side
 pcmag.com##.right-frame
 pcmag.com##.share
 pcmag.com##.subscribe-panel
+pcpro.co.uk##.foobar-container
 pcworld.com###connect
 pcworld.com###footer-subscribe
 pcworld.com###homepageconnect
