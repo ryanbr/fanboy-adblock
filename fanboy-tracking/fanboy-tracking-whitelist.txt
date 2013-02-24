@@ -13,10 +13,8 @@
 @@||api.mixpanel.com/track/$xmlhttprequest,domain=thefrisky.com
 @@||audience.visiblemeasures.com/crossdomain.xml$domain=espn.go.com
 @@||b.scorecardresearch.com/r?$image
-@@||banking.ing-diba.de^*/js/logging.js?$domain=banking.ing-diba.de
 @@||barclays.touchclarity.com^$domain=barclaycard.co.uk
 @@||bbc.co.uk/frameworks/nedstat/$~third-party,script
-@@||bbci.co.uk/iplayer/*/logging.js
 @@||bc.geocities.*/not_found/
 @@||beatthetraffic.com/traffic/?partner=$subdocument
 @@||behanceserved.com/stats/stats.js?
@@ -140,7 +138,6 @@
 @@||richrelevance.com/rrserver/js/$domain=walmart.com|currys.co.uk|kmart.com
 @@||richrelevance.com/rrserver/jsmedia/$domain=kmart.com
 @@||richrelevance.com/rrserver/p13n_generated.js?$script,domain=overstock.com|kmart.com
-@@||rolandgarros.com/rgr/js/logging.js
 @@||s.clicktale.net/WRb.js$domain=microsoft.com
 @@||scorecardresearch.com/beacon.js$domain=ouramazingplanet.com|allrecipes.com|mainstreet.com|thinkatheist.com|deviantart.com|linkinpark.com|ning.com|thedailybeast.com|huffingtonpost.com|landandfarm.com|last.fm|agame.com|cbc.ca|laptopmag.com|babycenter.com|fastcompany.com|salon.com
 @@||scripts.demandmedia.com/wm.js$domain=ehow.com
