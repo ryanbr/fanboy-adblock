@@ -372,6 +372,7 @@
 ||amgdgt.com^$third-party
 ||amobee.com^$third-party
 ||ampxchange.com^$third-party
+||analoganalytics.com^$third-party
 ||anchorfree.net^$third-party
 ||andomedia.com^$third-party
 ||angege.com^$third-party
