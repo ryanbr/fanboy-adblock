@@ -43,6 +43,7 @@
 @@||adf.ly/images/ad*.png
 @@||adfarm.mediaplex.com^$domain=afl.com.au
 @@||adflyer.co.uk/adverts/$image
+@@||adguard.com^$~third-party
 @@||adhostingsolutions.com/crossdomain.xml$domain=novafm.com.au|classicrockfm.com.au
 @@||adimages.go.com/crossdomain.xml
 @@||adm.fwmrm.net^*/videoadrenderer.$object-subrequest,domain=cnbc.com|go.com|nbc.com
