@@ -10,6 +10,7 @@
 ~4kidstv.com###myAd
 ~4kidstv.com,~mac-sports.com##.adspace
 ~4sysops.com,~autogidas.lt,~ew.com,~globalsecurity.org###adtop
+~4wheeloffroad.com,~circletrack.com,~fourwheeler.com,~hotrod.com,~jpmagazine.com,~lowridermagazine.com,~motorcyclistonline.com,~popularhotrodding.com,~sportrider.com,~stockcarracing.com,~trucktrend.com##.adleft
 ~7-eleven.com##.right-ad
 ~72tips.com,~bumpshack.com,~isource.com,~millionairelottery.com,~montrealmirror.com,~pdrhealth.com###topad
 ~9stream.com,~ilive.to,~seeon.tv,~sportlemon.tv###ad_overlay
@@ -238,7 +239,6 @@
 ~mobithinking.com##.image-advertisement
 ~mocpages.com##.advertisement-swimlane
 ~morningstar.se,~zootoo.com###top_ad
-~motorcyclistonline.com,~hotrod.com,~circletrack.com,~sportrider.com,~trucktrend.com,~4wheeloffroad.com,~fourwheeler.com,~jpmagazine.com,~stockcarracing.com,~lowridermagazine.com##.adleft
 ~msi.comm,~notepad.lv,~webgl.com###AD
 ~mtanyct.info###divAd
 ~muz.ru###right_ad
