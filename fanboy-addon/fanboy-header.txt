@@ -4,6 +4,7 @@
 ! Updated: 5 Sep 2012
 ! This list expires after 3 days
 ! License: http://creativecommons.org/licenses/by/3.0/
+! Redirect: https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt
 ! Please report any unblocked content or problems by email or in our forums
 ! Email: fanboyadblock@googlegroups.com
 ! Homepage: http://www.fanboy.co.nz/
