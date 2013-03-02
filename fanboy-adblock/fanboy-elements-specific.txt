@@ -2028,6 +2028,7 @@ f1fanatic.co.uk###mpu
 facebook.com###fbPhotoSnowliftAdsSide
 facebook.com###home_sponsor_nile
 facebook.com###home_stream > .uiUnifiedStory[data-ft*="\",\"ei\":\""]
+facebook.com###home_stream > .uiUnifiedStory[data-ft*="\"ei\":\""]
 facebook.com###MessagingNetegoWrapper
 facebook.com###pagelet_ads_when_no_friend_list_suggestion
 facebook.com##.-cx-PRIVATE-fbAdUnit__root
