@@ -405,6 +405,7 @@
 @@||mobithinking.com/sites/all/modules/noncore/ad/serve.php?$domain=mobithinking.com
 @@||mobithinking.com/sites/mobithinking.com/files/*_banner_ad_$domain=mobithinking.com
 @@||mochiads.com/ctr/*.swf?$domain=gamesforwork.com
+@@||msads.net/adbar/products/*/adbar.js$domain=mail.live.com
 @@||msi.com/pic/banner/
 @@||music-tags.com/tagengine/www/delivery/fl.js$domain=blastro.com
 @@||music-tags.com/tagengine/www/delivery/spcjs.php$domain=blastro.com
