@@ -20,7 +20,7 @@ export CAT="/bin/cat"
 export MAINDIR="/var/www/adblock"
 export SPLITDIR="/var/www/adblock/split/test"
 export HGSERV="/root/fanboy-adblock-list"
-export TESTDIR="/tmp/work"
+export TESTDIR="/root/tmp/work"
 export DATE="`date`"
 export ADDCHECKSUM="nice -n 19 perl $HGSERV/scripts/addChecksum.pl"
 export LOGFILE="/etc/crons/log.txt"
@@ -31,16 +31,7 @@ export IEDIR="/var/test/tmp/work/ie"
 export IESUBS="/var/test/ie/subscriptions"
 export IRONDIR="/var/www/adblock/iron"
 export EASYLIST="/root/easylist/easylist/easylistfanboy/fanboy-adblock"
-
-# Check mirror dir exists and its not a symlink
-#
-if [ -d "/var/hgstuff/fanboy-adblock-list" ] && [ -h "/tmp/hgstuff" ]; then
-    export HGSERV="/var/hgstuff/fanboy-adblock-list"
-  else
-    # If not, its stored here
-    export HGSERV="/tmp/hgstuff/fanboy-adblock-list"
-fi
-
+export HGSERV="/root/fanboy-adblock-list"
 
 if diff $HGSERV/opera/urlfilter-cz.ini $MAINDIR/opera/urlfilter-cz.ini > /dev/null ; then
      echo "No Changes detected: czech/urlfilter.ini" > /dev/null
