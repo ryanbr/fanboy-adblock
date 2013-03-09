@@ -52,7 +52,6 @@ export SHA256SUM="/usr/bin/sha256sum"
 export TWIDGE="/usr/bin/twidge update"
 export IEDIR="/var/test/tmp/work/ie"
 export IESUBS="/var/test/ie/subscriptions"
-export IRONDIR="/var/www/adblock/iron"
 export EASYLIST="/root/easylist/easylist/easylistfanboy/fanboy-adblock"
 
 # Test for Ram disks

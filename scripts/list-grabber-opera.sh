@@ -30,7 +30,6 @@ export SHA256SUM="/usr/bin/sha256sum"
 export TWIDGE="/usr/bin/twidge update"
 export IEDIR="/var/test/tmp/work/ie"
 export IESUBS="/var/test/ie/subscriptions"
-export IRONDIR="/var/www/adblock/iron"
 export EASYLIST="/root/easylist/easylist/easylistfanboy/fanboy-adblock"
 export HGSERV="/root/fanboy-adblock-list"
 
@@ -50,14 +49,14 @@ then
     $ZIP $MAINDIR/opera/urlfilter.ini.gz $TESTDIR/opera/urlfilter.ini > /dev/null
     # Generate Iron script
     # Turn off for the time being.
-    $HGSERV/scripts/iron/adblock-iron-generator.sh
+    #$HGSERV/scripts/iron/adblock-iron-generator.sh
 
     cp -f $TESTDIR/opera/urfilter-stats2.ini $MAINDIR/opera/complete/urlfilter.ini
     # Properly wipe old file.
     rm -rf $MAINDIR/opera/complete/urlfilter.ini.gz
     $ZIP $MAINDIR/opera/complete/urlfilter.ini.gz $TESTDIR/opera/urfilter-stats.ini > /dev/null
     # Generate Iron script
-    $HGSERV/scripts/iron/adblock-iron-generator-tracker.sh
+    #$HGSERV/scripts/iron/adblock-iron-generator-tracker.sh
     # Regional Opera
     $HGSERV/scripts/list-grabber-opera-regional.sh
   fi
@@ -88,7 +87,7 @@ then
     rm -rf $MAINDIR/opera/complete/urlfilter.ini.gz
     $ZIP $MAINDIR/opera/complete/urlfilter.ini.gz $TESTDIR/opera/urfilter-stats2.ini > /dev/null
     # Generate Iron script
-    $HGSERV/scripts/iron/adblock-iron-generator-tracker.sh
+    #$HGSERV/scripts/iron/adblock-iron-generator-tracker.sh
     # Regional Opera
     $HGSERV/scripts/list-grabber-opera-regional.sh
   fi

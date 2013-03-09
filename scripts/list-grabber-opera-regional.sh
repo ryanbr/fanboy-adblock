@@ -29,7 +29,6 @@ export SHA256SUM="/usr/bin/sha256sum"
 export TWIDGE="/usr/bin/twidge update"
 export IEDIR="/var/test/tmp/work/ie"
 export IESUBS="/var/test/ie/subscriptions"
-export IRONDIR="/var/www/adblock/iron"
 export EASYLIST="/root/easylist/easylist/easylistfanboy/fanboy-adblock"
 export HGSERV="/root/fanboy-adblock-list"
 
@@ -50,7 +49,7 @@ if diff $HGSERV/opera/urlfilter-cz.ini $MAINDIR/opera/urlfilter-cz.ini > /dev/nu
     $ZIP $MAINDIR/opera/cz/complete/urlfilter.ini.gz $TESTDIR/opera/urlfilter-cz-stats.ini > /dev/null
     $ZIP $MAINDIR/opera/cz/urlfilter.ini.gz $TESTDIR/opera/urlfilter-cz.ini > /dev/null
     # Generate Iron script
-    $HGSERV/scripts/iron/czech-iron-generator.sh
+    #$HGSERV/scripts/iron/czech-iron-generator.sh
 fi
 
 
@@ -90,7 +89,7 @@ if diff $HGSERV/opera/urlfilter-esp.ini $MAINDIR/opera/urlfilter-esp.ini > /dev/
     $ZIP $MAINDIR/opera/esp/complete/urlfilter.ini.gz $TESTDIR/opera/urlfilter-esp-stats.ini > /dev/null
     $ZIP $MAINDIR/opera/esp/urlfilter.ini.gz $TESTDIR/opera/urlfilter-esp.ini > /dev/null
     # Generate Iron script
-    $HGSERV/scripts/iron/espanol-iron-generator.sh
+    #$HGSERV/scripts/iron/espanol-iron-generator.sh
 fi
 
 if diff $HGSERV/opera/urlfilter-rus.ini $MAINDIR/opera/urlfilter-rus.ini > /dev/null ; then
@@ -110,7 +109,7 @@ if diff $HGSERV/opera/urlfilter-rus.ini $MAINDIR/opera/urlfilter-rus.ini > /dev/
     $ZIP $MAINDIR/opera/rus/complete/urlfilter.ini.gz $TESTDIR/opera/urlfilter-rus-stats.ini > /dev/null
     $ZIP $MAINDIR/opera/rus/urlfilter.ini.gz $TESTDIR/opera/urlfilter-rus.ini > /dev/null
     # Generate Iron script
-    $HGSERV/scripts/iron/russian-iron-generator.sh
+    #$HGSERV/scripts/iron/russian-iron-generator.sh
 fi
 
 if diff $HGSERV/opera/urlfilter-swe.ini $MAINDIR/opera/urlfilter-swe.ini > /dev/null ; then
@@ -148,7 +147,7 @@ if diff $HGSERV/opera/urlfilter-jpn.ini $MAINDIR/opera/urlfilter-jpn.ini > /dev/
     $ZIP $MAINDIR/opera/jpn/complete/urlfilter.ini.gz $TESTDIR/opera/urlfilter-jpn-stats.ini > /dev/null
     $ZIP $MAINDIR/opera/jpn/urlfilter.ini.gz $TESTDIR/opera/urlfilter-jpn.ini > /dev/null
     # Generate Iron script
-    $HGSERV/scripts/iron/japanese-iron-generator.sh
+    #$HGSERV/scripts/iron/japanese-iron-generator.sh
 fi
 
 if diff $HGSERV/opera/urlfilter-vtn.ini $MAINDIR/opera/urlfilter-vtn.ini > /dev/null ; then
