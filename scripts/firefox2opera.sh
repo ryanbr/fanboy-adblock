@@ -28,25 +28,7 @@ export SHA256SUM="/usr/bin/sha256sum"
 export TWIDGE="/usr/bin/twidge update"
 export IEDIR="/var/test/tmp/work/ie"
 export IESUBS="/var/test/ie/subscriptions"
-export IRONDIR="/var/www/adblock/iron"
 export EASYLIST="/root/easylist/easylist/easylistfanboy/fanboy-adblock"
-
-# Check mirror dir exists and its not a symlink
-#
-if [ -d "/root/fanboy-adblock-list" ] && [ -h "/root/hg.fanboy.co.nz" ]; then
-    export HGSERV="/root/fanboy-adblock-list"
-    echo "HGSERV=/root/fanboy-adblock-list"
-    cd /root/fanboy-adblock-list
-    $NICE $HG pull
-    $NICE $HG update
-  else
-    # If not, its stored here
-    export HGSERV="/home/fanboy/hg.fanboy.co.nz"
-    echo "HGSERV=/home/fanboy/hg.fanboy.co.nz"
-    cd /home/fanboy/hg.fanboy.co.nz
-    $NICE $HG pull
-    $NICE $HG update
-fi
 
 # Check that the www server is up before proceding
 #
