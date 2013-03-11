@@ -15,6 +15,9 @@
 1337x.org##.directDL
 1337x.org##.usenetDw
 148apps.com##.advnote
+1channel.ch##.movie_version_link > a[onclick="return addHit('0', '1')"]
+1channel.ch##.quality_sponsored
+1channel.ch##a[href^="http://tour.affbuzzads.com/"]
 1tvlive.in###layer2
 24wrestling.com###other-news
 2dopeboyz.com##.cmn728x90
