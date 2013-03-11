@@ -485,6 +485,7 @@
 ||blamcity.com^$third-party
 ||blinkadr.com^$third-party
 ||blinkx.com/f2/overlays/
+||blockmetrics.com^$third-party
 ||blogads.com^$third-party
 ||blogbannerexchange.com^$third-party
 ||blogclans.com^$third-party
