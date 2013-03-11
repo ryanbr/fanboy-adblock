@@ -104,6 +104,7 @@
 ||adcloud.net^$third-party
 ||adcolo.com^$third-party
 ||adcron.com^$third-party
+||addelive.com^$third-party
 ||addiply.com^$third-party
 ||addroid.com^$third-party
 ||addynamics.eu^$third-party
