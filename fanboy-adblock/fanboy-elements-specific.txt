@@ -2952,6 +2952,7 @@ hplusmagazine.com###bottom
 hsj.org###dnn_ctl00_Ad2Pane
 hsj.org##.ML_L1_ArticleAds
 hsmemes.com##.ad
+hubpages.com##.moduleAmazon
 huffingtonpost.com###page-header
 huffingtonpost.com##.linked_sponsored_entry
 huffingtonpost.com##.presented-by
