@@ -1139,6 +1139,7 @@ clicktogive.com##.leaderboard
 climateprogress.org###advertisement
 clip.dj###ad1
 clipmarks.com###Panel
+clipnabber.com###leaderboard
 cloudpro.co.uk###sidebar-first-inner
 cnbc.com###cnbc300x250
 cnbc.com###compAdvertisement
