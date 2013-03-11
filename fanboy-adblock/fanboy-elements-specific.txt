@@ -4117,7 +4117,9 @@ movie25.com##a[href^="http://movie25.com/play/"]
 movie25.com##div[style="margin-top:5px;font-size:16px;font-weight:bold;text-decoration:underline"]
 movie2k.be##a[href^="http://www.graboid.com/affiliates/"]
 movie2k.to###ball
+movie2k.to###ssplug
 movie2k.to##a[href="http://www.movie2k.to/ab/"]
+movie2k.to##div[style="min-height:170px;"] > span[style="font-size:18px;"] + .moviedescription + br + div
 moviecarpet.com###top728
 moviecarpet.com##.post-top
 moviecarpet.com##div[style="clear:both; width:100%; padding:30px; height:250px"]
