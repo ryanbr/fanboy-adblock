@@ -52,6 +52,7 @@
 ||clickter.net^$popup,image,~image
 ||clkads.com^$image,~image,popup,third-party
 ||damnlol.com/mgid.html$popup,image,~image
+||directrev.com^$popup,image,~image
 ||easykits.org^$popup,image,~image
 ||epicgameads.com^$popup,image,~image
 ||ero-advertising.com^$image,~image,popup,third-party
