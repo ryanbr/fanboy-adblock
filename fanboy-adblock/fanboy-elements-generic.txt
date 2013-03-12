@@ -6768,6 +6768,7 @@
 ##.main_wrapper_upper_ad_area
 ##.mainad
 ##.mainadWrapper
+##.manual-ad
 ##.map_google_ad
 ##.marginadsthin
 ##.MarketGid_container
