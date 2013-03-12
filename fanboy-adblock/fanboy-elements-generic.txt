@@ -4041,6 +4041,7 @@
 ##.ad-SuperBanner
 ##.ad-tabs
 ##.ad-tag
+##.ad-text
 ##.ad-text-blockA01
 ##.ad-text-blockB01
 ##.ad-text-links
