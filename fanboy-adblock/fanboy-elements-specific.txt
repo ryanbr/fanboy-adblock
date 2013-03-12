@@ -3051,6 +3051,7 @@ imdb.com##.middle-rhs
 imgbox.com###banner-bottom
 imgburn.com##font[face="Arial"][size="1"]
 imgfave.com##.image_login_message
+imgur.com##.advertisement
 imnotobsessed.com##.banner
 impactwrestling.com##.b300x250
 impactwrestling.com##.rotator
