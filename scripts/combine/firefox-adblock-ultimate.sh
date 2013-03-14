@@ -31,7 +31,7 @@ sed '/^$/d' $TESTDIR/fanboy-stats-temp2.txt > $TESTDIR/fanboy-stats-temp3.txt
 sed '$d' < $TESTDIR/fanboy-stats-temp3.txt > $TESTDIR/fanboy-stats-temp.txt
 
 # Annoyances filter: Trim off header file, remove empty lines, and bottom line
-sed '1,10d' $MAINDIR/fanboy-addon.txt > $TESTDIR/fanboy-addon-temp2.txt
+sed '1,15d' $MAINDIR/fanboy-annoyance.txt > $TESTDIR/fanboy-addon-temp2.txt
 sed '/^$/d' $TESTDIR/fanboy-addon-temp2.txt > $TESTDIR/fanboy-addon-temp3.txt
 
 # Enhanced-tracking filter: Trim off header file, remove empty lines, and bottom line
