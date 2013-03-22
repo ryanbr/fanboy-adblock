@@ -19,7 +19,6 @@
 .org/exit.js
 .org/pop.js
 .org/pops.js
-.php?nats=
 .popup_im.
 .ru/pop.js
 /a1/*?sub=$third-party
