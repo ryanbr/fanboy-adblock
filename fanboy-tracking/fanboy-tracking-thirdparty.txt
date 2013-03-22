@@ -241,6 +241,7 @@
 ||d2gfi8ctn6kki7.cloudfront.net^$third-party
 ||d31qbv1cthcecs.cloudfront.net^$third-party
 ||d34ko97cxuv4p7.cloudfront.net^$third-party
+||d36lvucg9kzous.cloudfront.net^$third-party
 ||d396ihyrqc81w.cloudfront.net^$third-party
 ||d3a2okcloueqyx.cloudfront.net^$third-party
 ||d3hr5gm0wlxm5h.cloudfront.net^$third-party
