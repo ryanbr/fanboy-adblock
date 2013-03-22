@@ -909,6 +909,7 @@
 ||winnfm.com/grfx/banners/
 ||wishlistproducts.com/affiliatetools/
 ||wordpress.com^*/amazon2-center-top.$domain=gigaom.com
+||wordreference.com/*/publ/
 ||worldmag.com/images/media/world_banner_
 ||worthofweb.com/images/wow-ad-
 ||wp.com^*/coedmagazine3/gads/$domain=coedmagazine.com
