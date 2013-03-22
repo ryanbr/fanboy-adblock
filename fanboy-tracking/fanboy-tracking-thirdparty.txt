@@ -430,6 +430,7 @@
 ||havamedia.net^$third-party
 ||haymarket.com^$third-party
 ||heals.msgfocus.com^$third-party
+||heapanalytics.com^$third-party
 ||hellobar.com/ping?
 ||hellosherpa.com^$third-party
 ||hgcdn.net/?$third-party
