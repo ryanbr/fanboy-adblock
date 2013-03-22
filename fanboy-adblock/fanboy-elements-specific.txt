@@ -7392,6 +7392,7 @@ womensradio.com###ad
 wonderhowto.com##.unverVidAd
 wondertime.go.com###superBannerContainer
 wordreference.com###ad1
+wordreference.com##.ad
 wordreference.com##.bannertop
 workawesome.com###banner_wrap
 workhound.co.uk##.spons
