@@ -103,6 +103,7 @@
 ||bkvtrack.com^$third-party
 ||blamcity.com/log/
 ||blinkx.com/thirdparty/iab/$third-party
+||blockmetrics.com^$third-party
 ||blogcounter.com^$third-party
 ||blogranking.net^$third-party
 ||bluecava.com^$third-party
