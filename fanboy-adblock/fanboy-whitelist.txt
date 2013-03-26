@@ -658,9 +658,9 @@
 @@||ffiles.com/images/mmfiles_
 @@||fileice.net/js/advertisement.js
 @@||freesportsbet.com/js/advertisement.js
+@@||gamecopyworld.com/games/bf/$script
 @@||gamecopyworld.com^*/advertisement.js
-@@||gamecopyworld.com^*/bbad*.js
-@@||gamecopyworld.eu^*/bbad*.js
+@@||gamecopyworld.eu/games/bf/$script
 @@||gameshark.com/images/ads/
 @@||googleusercontent.com/h/www.minecraftplaza.com/wp-content/plugins/no-adblock/$domain=minecraftplaza.com
 @@||hackers.co.id/adframe/adframe.js
