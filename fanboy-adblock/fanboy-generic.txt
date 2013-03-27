@@ -262,6 +262,7 @@
 /abm.asp?
 /abm.aspx
 /abmw.asp
+/abnl/?begun^
 /acc_random=
 /ad%20images/*
 /ad-300topleft.
