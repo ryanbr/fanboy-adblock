@@ -1069,6 +1069,7 @@
 ||waplog.net^$third-party
 ||watch.teroti.com^$third-party
 ||waudit.cz^$third-party
+||web-18.com^$third-party
 ||web-stat.net^$third-party
 ||webcare.byside.com^$third-party
 ||webflowmetrics.com^$third-party
