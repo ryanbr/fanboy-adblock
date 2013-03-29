@@ -261,6 +261,7 @@
 ||mint.good.is^
 ||mitel.marketbright.com^
 ||msn.co.in/c.gif?
+||mxmfb.com/rsps/img/
 ||ning.com^*/ga/ga.js?
 ||nprove.com^
 ||ns.rvmkitt.com^
