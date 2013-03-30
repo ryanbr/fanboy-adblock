@@ -2189,6 +2189,7 @@
 /partner_ads/*
 /partnerads/*
 /partners/ad-
+/partners/ads/*
 /parts/ad/*
 /pauseadextension.
 /payperpost.
