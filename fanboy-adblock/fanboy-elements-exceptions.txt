@@ -311,6 +311,7 @@
 ~slashcontrol.com,~superbikeplanet.com##.adDiv
 ~slovaknhl.sk,~doradcy24.pl##.reklama
 ~songlyrics.com##.footer-ad
+~speedtest.net##.ad-stack
 ~speedtest.net##.ad-vertical-container
 ~spinner.com###sideAd
 ~spottingworld.com,~wikia.com,~wikiski.com##.content-ads
