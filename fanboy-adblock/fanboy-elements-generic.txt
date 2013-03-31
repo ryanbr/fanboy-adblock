@@ -4034,7 +4034,6 @@
 ##.ad-square2-container
 ##.ad-square300
 ##.ad-squares
-##.ad-stack
 ##.ad-statement
 ##.ad-story-top
 ##.ad-strip
