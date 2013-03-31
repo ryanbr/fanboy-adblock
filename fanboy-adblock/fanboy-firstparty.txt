@@ -806,6 +806,7 @@
 ||thepiratebay.org/img/bar.gif
 ||thepiratebay.org/img/toolnew.png
 ||thepiratebay.se/img/bar.gif
+||thepiratebay.se/static/pop.js
 ||thesource.com/magicshave/
 ||theweathernetwork.com/common/images/web/$image
 ||theweathernetwork.com^*&size=$image
