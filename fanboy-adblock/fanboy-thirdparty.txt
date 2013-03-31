@@ -1577,7 +1577,6 @@
 ||star-advertising.com^$third-party
 ||stargames.com/bridge.asp?$third-party
 ||static.thebigchair.com.au^$third-party
-||stats.jtvnw.net^
 ||stocker.bonnint.net^$third-party
 ||store.lavasoft.com/upload/$third-party
 ||strikead.com^$third-party

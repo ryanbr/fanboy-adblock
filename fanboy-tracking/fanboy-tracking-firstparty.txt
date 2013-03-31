@@ -811,6 +811,7 @@
 ||stats.ebay.com^
 ||stats.harpercollins.com^
 ||stats.itweb.co.za^
+||stats.jtvnw.net^
 ||stats.justin.tv^
 ||stats.macmillanusa.com^
 ||stats.mirror.co.uk^
