@@ -841,6 +841,7 @@
 ||t.paypal.com^
 ||t.wowanalytics.co.uk^
 ||t3.com/js/trackers.js
+||taboola.com^*/log/
 ||tags.transportdirect.info^
 ||target.com/ci/$script
 ||targetspot.com/track/
