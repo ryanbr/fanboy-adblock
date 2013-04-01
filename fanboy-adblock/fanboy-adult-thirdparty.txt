@@ -162,7 +162,6 @@
 ||cache.worldfriends.tv^$third-party
 ||cam-content.com^$third-party
 ||cam-lolita.net^$third-party
-||cam4.com^$third-party
 ||cam4flat.com^$third-party
 ||camads.net^$third-party
 ||camcrush.com^$third-party
