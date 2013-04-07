@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fanboy-Merge (Ultimate) Adblock list grabber script v1.3 (27/01/2013)
+# Fanboy-Merge (Ultimate) Adblock list grabber script v1.4 (07/04/2013)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
@@ -26,7 +26,7 @@ export SUBS="/root/tmp/ieramdisk/subscriptions"
 rm -rf $TESTDIR/fanboy-addon-temp*.txt $TESTDIR/enhancedstats-addon-temp*.txt $TESTDIR/fanboy-stats-temp*.txt $TESTDIR/fanboy-complete.txt $TESTDIR/fanboy-ultimate.txt
 
 # Tracking filter: Trim off header file, remove empty lines, and bottom line
-sed '1,9d' $MAINDIR/fanboy-adblocklist-stats.txt > $TESTDIR/fanboy-stats-temp2.txt
+sed '1,9d' $MAINDIR/easyprivacy_fanboy.txt > $TESTDIR/fanboy-stats-temp2.txt
 sed '/^$/d' $TESTDIR/fanboy-stats-temp2.txt > $TESTDIR/fanboy-stats-temp3.txt
 sed '$d' < $TESTDIR/fanboy-stats-temp3.txt > $TESTDIR/fanboy-stats-temp.txt
 
@@ -40,9 +40,9 @@ sed '/^$/d' $TESTDIR/enhancedstats-addon-temp2.txt > $TESTDIR/enhancedstats-addo
 sed '$d' < $TESTDIR/enhancedstats-addon-temp3.txt > $TESTDIR/enhancedstats-addon-temp.txt
 
 # Remove dubes
-sed -i '/analytics.js/d' $TESTDIR/fanboy-stats-temp.txt
+# sed -i '/analytics.js/d' $TESTDIR/fanboy-stats-temp.txt
 sed -i '/com\/ga.js/d' $TESTDIR/fanboy-stats-temp.txt
-sed -i '/\/js\/tracking.js/d' $TESTDIR/fanboy-stats-temp.txt
+# sed -i '/\/js\/tracking.js/d' $TESTDIR/fanboy-stats-temp.txt
 
 # Insert a new line to avoid chars running into each other
 #
