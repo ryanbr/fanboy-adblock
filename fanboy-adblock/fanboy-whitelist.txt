@@ -492,6 +492,7 @@
 @@||sankakucomplex.com^$script
 @@||sankakustatic.com^$script
 @@||scribdassets.com/aggregated/javascript/ads.js?$domain=scribd.com
+@@||scrippsnetworks.com/common/adimages/networkads/video_ad_vendor_list/approved_vendors.xml$object-subrequest,domain=foodnetwork.com
 @@||sdelkino.com/images/ad/$image
 @@||search.spotxchange.com/crossdomain.xml$domain=own3d.tv
 @@||sec-ads.bridgetrack.com/ads_img/
