@@ -4622,6 +4622,7 @@ nst.com.my##.cadv
 nst.com.my##.standard
 nu.nl##.adchclearfix
 nuffy.net###banner_bg
+numberempire.com##ins[style="display:inline-table;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:300px"]
 nutritioncuisine.com###leader
 nutritionhorizon.com###right-banner
 nutritionhorizon.com##.banner-250
