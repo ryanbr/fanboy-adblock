@@ -140,7 +140,7 @@
 ~ginatricot.com###adGallery
 ~gmap-pedometer.com,~jobs.wa.gov.au,~lalovings.com,~mtv.com,~pricewatch.com###adContainer
 ~go.com##.ad_container
-~go.com,~sc2mapster.com##.ad-box
+~go.com,~sc2mapster.com,~bukkit.org##.ad-box
 ~goal.com##.adv_300
 ~golf.com###ad_bg
 ~golfmanagerlive.com##.sponsorlink
