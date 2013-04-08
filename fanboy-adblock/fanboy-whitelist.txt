@@ -286,8 +286,8 @@
 @@||fs-freeware.net/images/jdownloads/downloadimages/banner_ads.png
 @@||fsdn.com/sd/topics/advertising_64.png$domain=slashdot.org
 @@||funiaste.net/obrazki/*&adtype=
-@@||g.doubleclick.net/crossdomain.xml$object-subrequest,domain=armorgames.com|egirlgames.net|majorleaguegaming.com
-@@||g.doubleclick.net/gampad/ads?$script,domain=boatshop24.com|instructables.com|motorcycle.com|mysoju.com|nedbank.co.za|nedbankgreen.co.za|powerlineblog.com|thetowntalk.com
+@@||g.doubleclick.net/crossdomain.xml$object-subrequest,domain=armorgames.com|egirlgames.net|majorleaguegaming.com|zui.com
+@@||g.doubleclick.net/gampad/ads?$domain=boatshop24.com|instructables.com|motorcycle.com|mysoju.com|nedbank.co.za|nedbankgreen.co.za|powerlineblog.com|thetowntalk.com|zui.com
 @@||g.doubleclick.net/gampad/ads?*&iu_parts=$script,domain=virginaustralia.com
 @@||g.doubleclick.net/gampad/ads?*&page_slots=escapegames_com_all_728x90_top%2cpreroll-eg&$script,domain=escapegames.com
 @@||g.doubleclick.net/gampad/ads?*&slotname=160x600-siteskin-$script,domain=pcper.com
