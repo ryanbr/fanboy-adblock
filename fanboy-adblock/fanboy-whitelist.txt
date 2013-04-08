@@ -286,6 +286,7 @@
 @@||fs-freeware.net/images/jdownloads/downloadimages/banner_ads.png
 @@||fsdn.com/sd/topics/advertising_64.png$domain=slashdot.org
 @@||funiaste.net/obrazki/*&adtype=
+@@||g.doubleclick.net/crossdomain.xml$object-subrequest,domain=armorgames.com|egirlgames.net|majorleaguegaming.com
 @@||g.doubleclick.net/gampad/ads?$script,domain=boatshop24.com|instructables.com|motorcycle.com|mysoju.com|nedbank.co.za|nedbankgreen.co.za|powerlineblog.com|thetowntalk.com
 @@||g.doubleclick.net/gampad/ads?*&iu_parts=$script,domain=virginaustralia.com
 @@||g.doubleclick.net/gampad/ads?*&page_slots=escapegames_com_all_728x90_top%2cpreroll-eg&$script,domain=escapegames.com
@@ -313,7 +314,6 @@
 @@||google.com/uds/api/ads/*/search.$script,domain=landandfarm.com
 @@||google.com^*/show_afs_ads.js$domain=whitepages.com
 @@||googleads.g.doubleclick.net/aclk?$subdocument,domain=nedbank.co.za
-@@||googleads.g.doubleclick.net/crossdomain.xml$object-subrequest,domain=armorgames.com|egirlgames.net
 @@||googleads.g.doubleclick.net/pagead/ads?*&t_pyv=allow&$object-subrequest,domain=egirlgames.net
 @@||googleads.g.doubleclick.net/pagead/ads?ad_type=image_text^$object-subrequest,domain=armorgames.com
 @@||googlesyndication.com/pagead/imgad?$domain=kingofgames.net
@@ -466,7 +466,6 @@
 @@||plugcomputer.org^*/ad1.jpg
 @@||popcap.com/delivery/afr.php?&zoneid$subdocument,domain=popcap.com
 @@||popularmechanics.com/ams/page-ads.js$domain=popularmechanics.com
-@@||pubads.g.doubleclick.net/crossdomain.xml$object-subrequest,domain=majorleaguegaming.com
 @@||publicidad.eluniversal.com.mx/crossdomain.xml$domain=eluniversal.com.mx
 @@||publicidad.eluniversal.com.mx/realmedia/ads/adstream_nx.ads/$domain=eluniversal.com.mx
 @@||q2servers.com/pop.js
