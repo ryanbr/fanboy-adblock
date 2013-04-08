@@ -287,14 +287,7 @@
 @@||fsdn.com/sd/topics/advertising_64.png$domain=slashdot.org
 @@||funiaste.net/obrazki/*&adtype=
 @@||g.doubleclick.net/crossdomain.xml$object-subrequest,domain=armorgames.com|egirlgames.net|majorleaguegaming.com|zui.com
-@@||g.doubleclick.net/gampad/ads?$domain=boatshop24.com|instructables.com|motorcycle.com|mysoju.com|nedbank.co.za|nedbankgreen.co.za|powerlineblog.com|thetowntalk.com|zui.com
-@@||g.doubleclick.net/gampad/ads?*&iu_parts=$script,domain=virginaustralia.com
-@@||g.doubleclick.net/gampad/ads?*&page_slots=escapegames_com_all_728x90_top%2cpreroll-eg&$script,domain=escapegames.com
-@@||g.doubleclick.net/gampad/ads?*&slotname=160x600-siteskin-$script,domain=pcper.com
-@@||g.doubleclick.net/gampad/ads?*&slotname=autoguide_com_pre-roll$script,domain=autoguide.com
-@@||g.doubleclick.net/gampad/ads?ciu_szs=$object-subrequest,domain=majorleaguegaming.com
-@@||g.doubleclick.net/gampad/ads?correlator=*&impl=s&client=*&slotname=vc_geo_728&page_slots=vc_geo_728&$script,domain=volokh.com
-@@||g.doubleclick.net/gampad/ads?correlator=*&impl=s&pstok=*&slotname=vc_inside_300&$script,domain=volokh.com
+@@||g.doubleclick.net/gampad/ads?$domain=boatshop24.com|instructables.com|motorcycle.com|mysoju.com|nedbank.co.za|nedbankgreen.co.za|powerlineblog.com|thetowntalk.com|zui.com|virginaustralia.com|escapegames.com|pcper.com|autoguide.com|majorleaguegaming.com|volokh.com
 @@||g.doubleclick.net/gampad/google_ads.js$domain=instructables.com|nitrome.com
 @@||g.doubleclick.net/pagead/conversion/?ai=$object-subrequest,domain=egirlgames.net
 @@||gactv.com^*/javascript/ad/coread/$script
