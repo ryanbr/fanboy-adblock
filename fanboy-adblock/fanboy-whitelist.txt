@@ -186,6 +186,7 @@
 @@||chibis.adotube.com^$domain=livestream.com|own3d.tv
 @@||chitika.com/maps/
 @@||cisco.com/html.ng/*products
+@@||classifieds.wsj.com/ad/
 @@||classistatic.com^*/banner-ads/
 @@||cnb.com/ads/
 @@||cnb.com/images/ads
