@@ -656,6 +656,7 @@
 ||plunderguide.com/rectangle2.html
 ||plundermedia.com*rectangle-
 ||pocket-lint.com/images/bytemarkad.
+||pof.com/image/review/matchbanner.gif
 ||pogo.com/v/*/js/ad.js
 ||politicususa.com/psa/
 ||pop-over.powered-by.justplayzone.com^
