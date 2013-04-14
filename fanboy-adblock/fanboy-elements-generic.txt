@@ -3900,7 +3900,9 @@
 ##.ad-container-300x250
 ##.ad-container-728
 ##.ad-container-728x90
+##.ad-container-bot
 ##.ad-container-tool
+##.ad-container-top
 ##.ad-container-topad
 ##.ad-context
 ##.ad-CUSTOM
@@ -3911,6 +3913,7 @@
 ##.ad-entry-wrapper
 ##.ad-external
 ##.ad-feedback
+##.ad-filler
 ##.ad-fix
 ##.ad-flag
 ##.ad-flex
@@ -3922,6 +3925,7 @@
 ##.ad-google
 ##.ad-google-contextual
 ##.ad-graphic-large
+##.ad-gray
 ##.ad-grey
 ##.ad-grid-125
 ##.ad-grp
@@ -3939,12 +3943,17 @@
 ##.ad-iab-txt
 ##.ad-iframe
 ##.ad-imagehold
+##.ad-in-post
 ##.ad-index
 ##.ad-index-main
 ##.ad-indicator-horiz
+##.ad-inline
+##.ad-inner
+##.ad-innr
 ##.ad-internal
 ##.ad-interruptor
 ##.ad-island
+##.ad-item
 ##.ad-label
 ##.AD-label300x250
 ##.ad-lable
@@ -3953,9 +3962,11 @@
 ##.ad-layer
 ##.ad-lb
 ##.ad-leader
+##.ad-leaderboard-companion
 ##.ad-leaderboard-container
 ##.ad-leaderboard-marquee
 ##.ad-left3
+##.ad-leftrail
 ##.ad-line
 ##.ad-link
 ##.ad-LREC
@@ -3966,6 +3977,8 @@
 ##.ad-med-rec
 ##.ad-med-rect
 ##.ad-med-rect-tmp
+##.ad-medium
+##.ad-medium-two
 ##.ad-MediumRectangle
 ##.ad-medrec
 ##.ad-medRec
