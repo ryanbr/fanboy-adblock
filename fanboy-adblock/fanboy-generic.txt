@@ -1623,6 +1623,7 @@
 /custom/doubleclick/*
 /custom_ads/*
 /customads/*
+/d-ad-
 /daily/ads/*
 /dart_ads.
 /dartad/*
