@@ -5538,6 +5538,8 @@ search.comcast.net##.sponsor-6
 search.icq.com##.r2-1
 search.rr.com###afsBot
 search.rr.com###afsTop
+search.snap.do###AfloatingD
+search.snap.do###ATopD
 search.sweetim.com##.topSubHeadLine2
 search.vmn.net##.ttl_sponsors
 search.vmn.net##table[bgcolor="#ecf5fa"]
