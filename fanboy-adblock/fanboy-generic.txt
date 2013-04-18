@@ -2681,7 +2681,7 @@
 _160x550.
 _ad.jsp?
 _ad.php?
-_ad1.
+_ad1.$~stylesheet
 _ad1a.
 _ad1b.
 _ad2.
