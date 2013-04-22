@@ -1736,6 +1736,7 @@
 ||vidpay.com^$third-party
 ||view-ads.de^$third-party
 ||viewablemedia.net^$third-party
+||viglink.com/api/insert?
 ||vipquesting.com^$third-party
 ||visiads.com^$third-party
 ||visualsteel.net^$third-party

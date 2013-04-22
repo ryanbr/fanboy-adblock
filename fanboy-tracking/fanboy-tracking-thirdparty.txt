@@ -1037,6 +1037,7 @@
 ||verticalscope.com^$third-party
 ||verticalsearchworks.com^$third-party
 ||videostat.com^$third-party
+||viglink.com^$third-party
 ||vindicosuite.com/tracking/
 ||vindicosuite.com/xumo/swf/$third-party
 ||vinlens.com^$third-party

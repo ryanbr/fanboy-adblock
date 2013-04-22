@@ -719,7 +719,6 @@
 ||ver-pelis.net^$third-party
 ||video-people.com^$third-party
 ||vidz.com/promo_banner/$third-party
-||viglink.com^$third-party
 ||virtuagirlhd.com^$third-party
 ||visit-x.net/promo/$third-party
 ||vividcash.com^$third-party
