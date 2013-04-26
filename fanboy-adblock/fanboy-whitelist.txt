@@ -254,6 +254,7 @@
 @@||ec.atdmt.com/b/$domain=starwoodhotels.com
 @@||egotastic.us.intellitxt.com/intellitxt/front.asp
 @@||ehow.co.uk/ad.html?$subdocument
+@@||ehowenespanol.com/ad.html?$subdocument
 @@||emediate.se/crossdomain.xml$domain=tv3play.lv|novatv.bg|tv3play.ee
 @@||emediate.se/eas?$domain=tv3play.lv|novatv.bg|tv3play.ee
 @@||engrish.com/wp-content/uploads/*advertisement-
