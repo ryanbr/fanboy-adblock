@@ -481,6 +481,7 @@
 @@||realsimple.timeinc.net/static/shared/js/tii_ads.js$domain=realsimple.com
 @@||reklama5.mk/dataimages/advertisments/$image
 @@||req.tidaltv.com^$domain=wrc.com,object-subrequest
+@@||revealads.appspot.com/revealads2/radioplayer.js$domain=talksport.co.uk
 @@||rewaz.org/ads/adframe2.js
 @@||richrelevance.com^$domain=officedepot.com
 @@||rsvlts.com/wp-content/uploads/*-advertisment-
@@ -538,6 +539,7 @@
 @@||tacdn.com^*_popunder_$script,stylesheet
 @@||tags.bkrtx.com/js/bk-coretag.js$domain=zillow.com
 @@||take40.com/common/javascript/ads.js
+@@||talksport.co.uk/sites/default/files/ben/advertisement.js
 @@||tetrisfriends.com/ads/google_dfp_video_ad.html
 @@||theatlantic.com/widget/$xmlhttprequest
 @@||thedoujin.com/includes/ads/$subdocument,domain=thedoujin.com
