@@ -260,7 +260,7 @@
 @@||engrish.com/wp-content/uploads/*advertisement-
 @@||epicgameads.com/crossdomain.xml$object-subrequest,domain=freewebarcade.com
 @@||epicgameads.com/games/getSwfPath.php?$object-subrequest,domain=freewebarcade.com
-@@||epicgameads.com/games/mec_release_21.swf$domain=freewebarcade.com
+@@||epicgameads.com/games/mec_release_*.swf$domain=freewebarcade.com
 @@||espngp.com/ads/*_sprite$domain=espnf1.com
 @@||esquire.com/ams/page-ads.js?$script
 @@||etsy.com/v2/shops/gabrielartstudio/listings/active.js?$script,domain=gabrielart.com
