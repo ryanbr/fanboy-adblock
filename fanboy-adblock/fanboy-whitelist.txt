@@ -427,7 +427,7 @@
 @@||nickjr.com/global/scripts/overture/sponsored_links_lib.js
 @@||nyctourist.com/www/delivery/spcjs.php?$script,domain=nyctourist.com
 @@||nytimes.perfectmarket.com^$stylesheet
-@@||o.aolcdn.com/ads/adswrapper.js$domain=autos.aol.com
+@@||o.aolcdn.com/ads/adswrapper.js$domain=autos.aol.com|engadget.com
 @@||oas.absoluteradio.co.uk^*/www.absoluteradio.co.uk/player/
 @@||oas.di.se/static/*-ads.css$domain=di.se
 @@||oas.tvazteca.com/realmedia/ads/*/video.aztecanoticias/$domain=aztecanoticias.com.mx
