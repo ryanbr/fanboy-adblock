@@ -6328,8 +6328,8 @@ thephoenix.com##.ad
 thephoenix.com##div[style="background-color:#ffffff;padding:0px;margin:15px 0px;font-size:10px;color:#999;text-align:center;"]
 thepilot.com##.ad
 thepiratebay.se##.nohover
-thepiratebay.se##iframe[width="468"]
-thepiratebay.se##iframe[width="728"]
+thepiratebay.sx##iframe[width="468"]
+thepiratebay.sx##iframe[width="728"]
 thepressnews.co.uk###want-to-advertise
 thepspblog.com###mta_bar
 therainforestsite.com###leaderboardContainer_top
