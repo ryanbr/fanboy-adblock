@@ -7272,6 +7272,7 @@
 ##.rightTopAdWrapper
 ##.RightTowerAd
 ##.riverSponsor
+##.rmx-ad
 ##.rnav_ad
 ##.rngtAd
 ##.rockmeltAdWrapper
