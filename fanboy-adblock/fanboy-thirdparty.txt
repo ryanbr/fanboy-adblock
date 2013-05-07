@@ -1414,6 +1414,7 @@
 ||projectwonderful.com^$third-party
 ||promo.bauermedia.co.uk^
 ||promobenef.com^$third-party
+||propellerads.com^$third-party
 ||psclicks.com^$third-party
 ||pubgears.com^$third-party
 ||public.porn.fr^$third-party
@@ -1483,6 +1484,7 @@
 ||rss-info.com^$third-party
 ||rtb.tubemogul.com^$third-party
 ||rtbidder.net^$third-party
+||rtbpops.com^$third-party
 ||ru.redtram.com/news/$third-party
 ||ru4.com^$third-party
 ||rubiconproject.com^$third-party
