@@ -1203,6 +1203,7 @@
 /adsrot2.
 /adsrotate.
 /adsrotator.
+/adsrv.
 /adsrv/*
 /adsrv2/*
 /adss.asp
