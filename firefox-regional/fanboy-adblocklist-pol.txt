@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: 3mIE3TJrmClVR1Nw5gV5cg
+! Checksum: 4CKAcfL9DYN6u9WON1STaA
 ! Title: Fanboy's Polish
-! Updated: 9 Dec 2012
+! Updated: 12 May 2013
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -105,6 +105,7 @@
 ||ad.gazeta.pl^
 ||ads.battlenet.pl^
 ||adserwer.afilo.pl^
+||adtx.onet.pl^
 ||banery.ifd.pl^
 ||boksy.onet.pl^
 ||csr.onet.pl^
