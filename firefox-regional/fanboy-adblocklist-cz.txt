@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 20cLLERHz22ucOadyVqzPw
+! Checksum: 1YSL9VtRSDt84BHv+OhgmA
 ! Title: Fanboy's Czech
 ! Updated: 12 May 2013
 ! This list expires after 4 days
@@ -62,6 +62,7 @@ _clickthru.swf?
 ||data.idnes.cz/soutez/
 ||digitalnitelevize.cz/obrazky/reklamni_odkazy/
 ||digitalnitelevize.cz/vsuvky/reklama/
+||dobresenajim.cz/idnesbanner?
 ||espoluprace.cz/affiliate/
 ||fdb.cz/ad/
 ||flash.stream.cz/get_sklik/
@@ -95,6 +96,7 @@ _clickthru.swf?
 ||portalymest.cz/obrazky/eshop
 ||presentation.lmc.cz/aliance/
 ||prvnizpravy.cz/repository/banner
+||raketa.cz/idnesbanner?
 ||rocketdock.com/images/screenshots/thumbnails/8-3.png
 ||romea.cz/296x186.swf
 ||romea.cz/images/servis/banner
