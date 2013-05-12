@@ -3353,7 +3353,6 @@ journalnow.com##.dt_mod
 journalofaccountancy.com##.Advertisement
 joystickdivision.com###Top
 joystiq.com###medrect
-jpopasia.com##.c100
 jpopasia.com##div[style="margin-bottom:10px;"]
 jpopasia.com##div[style="margin:auto auto; text-align:center; margin-bottom:10px; width:300px; height:280px;"]
 jpost.com###ads\.gbox\.1
