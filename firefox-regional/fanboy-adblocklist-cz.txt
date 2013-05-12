@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: ibZi9uyB8cC7Rs5Du2Q1bQ
+! Checksum: 20cLLERHz22ucOadyVqzPw
 ! Title: Fanboy's Czech
-! Updated: 9 Dec 2012
+! Updated: 12 May 2013
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -76,6 +76,7 @@ _clickthru.swf?
 ||i.mimibazar.cz/h/bc/b/
 ||i.stream.cz/img-mnt/player_brand/
 ||i0.cz/realitymix/ext-data/
+||idnes.cz/foto.aspx?*&ad=
 ||idnes.cz/js/ad/
 ||idnes.cz/r.asp?
 ||idnes.cz^*/body-$image
@@ -107,6 +108,7 @@ _clickthru.swf?
 ||superhry.cz/design/09/banner120.gif
 ||superhry.cz/fox_$subdocument
 ||superhry.cz/media/
+||topkontakt.cz/banner/
 ||uloz.to/bannery/
 ||uloz.to/img/bannery/
 ||uschovna.cz/dt-dancer-234x60.swf
