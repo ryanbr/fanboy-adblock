@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: RXfpRhBAXzrzZdVz+t3KWg
+! Checksum: HnVpP+oyNKaqOkBzg5idzA
 ! Title: Fanboy's Spanish/Portuguese
-! Updated: 25 Dec 2012
+! Updated: 12 May 2013
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -252,6 +252,7 @@ http://adw.
 ||ummilhao.com.br/1mil
 ||uol.com.br/flash/banner_
 ||uol.com.br/pub_
+||uol.com.br/upload/banner/
 ||uol.com.br^*/banners/
 ||uol.com.br^*/sortear_
 ||vagos.es/banners/$script
