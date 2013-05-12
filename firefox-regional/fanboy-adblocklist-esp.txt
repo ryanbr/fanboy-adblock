@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: HnVpP+oyNKaqOkBzg5idzA
+! Checksum: x3SPDxvgBO/amqGeuUwodg
 ! Title: Fanboy's Spanish/Portuguese
 ! Updated: 12 May 2013
 ! This list expires after 4 days
@@ -190,7 +190,9 @@ http://adw.
 ||kboing.com.br/brancopubli.htm
 ||kebarato.es/banners/
 ||l.yimg.com^*_backgrounnd.$domain=ar.yahoo.com
+||labsk.net/banners/
 ||lajornadanet.com^*/ads/
+||lapcra.org/banners/
 ||laregion.es/imagenes/banners/
 ||lavanguardia.es/flash/
 ||laverdad.com/images/banner/
