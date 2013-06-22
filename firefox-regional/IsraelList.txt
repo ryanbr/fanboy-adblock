@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: fNGp2+B9WUQFm+ca2Muykw
+! Checksum: +cBizG3SBALqi1ESP9lIuw
 ! Title: Fanboy's IsraelList
 ! Updated: 22 Jun 2013
 ! This list expires after 4 days
@@ -803,6 +803,7 @@ wisebuy.co.il##.LboxGrey[style="height:270px;text-align:center;"]
 wisebuy.co.il##.LboxGrey[style="height:337px;text-align:center;"]
 wisebuy.co.il##div[id^="ads."]
 wisebuy.co.il##table[width="100%"][align="center"]
+xnet.co.il###ads\.top\.1
 xnet.co.il###XnetAdSenceThinkAdAD-300
 yad2.co.il###left_banner
 yad2.co.il###left_sekindo
