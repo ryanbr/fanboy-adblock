@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: jGXD3UPSYq6L1WIu/wpXEQ
+! Checksum: RDmZLRtg/3UpXsD7Q298Vg
 ! Title: Fanboy's Turkish
 ! Updated: 22 Jun 2013
 ! This list expires after 4 days
@@ -755,6 +755,7 @@ mynet.com##div[style="width:960px;margin:auto auto"]
 ntvmsnbc.com##.eshopStory
 nytimes.com##.ad
 odatv.com###pageskin
+odatv.com###pageskin
 odatv.com###resimreklam
 odatv.com##.banner468v2
 odatv.com##a[style="color:#e70000; font-weight: bold;font-size:14px;"]
@@ -763,6 +764,8 @@ odatv.com##div[style="background-color: rgb(255, 255, 255);  padding-top: 25px; 
 odatv.com##div[style="background-color: rgb(255, 255, 255); margin-top: 35px; width: 775px; height: 90px; margin-left: 10px;"]
 odatv.com##div[style="background-color: rgb(255, 255, 255); width: 775px; height: 90px; margin-left: 10px;margin-top:35px; margin- bottom:10px;"]
 odatv.com##div[style="background-color: rgb(255,255,255); width: 775px; height: 90px; margin-left: 10px;"]
+odatv.com##div[style="background-color: rgb(255,255,255); width: 775px; height: 90px; margin-left: 10px;padding-bottom:10px;padding-top:5px;"]
+odatv.com##div[style="background-color: rgb(255,255,255); width: 775px; height: 90px; margin: 10px;"]
 odatv.com##div[style="margin-left:25px"]
 odatv.com##div[style="width:300px;height:250px;"]
 oyunuoyna.com##.bg-728
