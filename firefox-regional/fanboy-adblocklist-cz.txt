@@ -1,11 +1,12 @@
 [Adblock Plus 1.1]
-! Checksum: 1YSL9VtRSDt84BHv+OhgmA
+! Checksum: ifnmxJ2WDF5EF9nlJmLdBw
 ! Title: Fanboy's Czech
-! Updated: 12 May 2013
+! Updated: 22 Jun 2013
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
 ! Homepage: http://www.fanboy.co.nz/
+! Redirect: https://adblock-czechoslovaklist.googlecode.com/svn/filters.txt
 ! Forums: http://forums.fanboy.co.nz/
 !
 ! ---------- Generic Blocking Rules ----------
