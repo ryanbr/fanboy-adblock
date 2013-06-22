@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: TVWJ4YkulwEfxbMN1FVBbQ
+! Checksum: fNGp2+B9WUQFm+ca2Muykw
 ! Title: Fanboy's IsraelList
 ! Updated: 22 Jun 2013
 ! This list expires after 4 days
@@ -826,6 +826,7 @@ ynet.co.il##.Ad_425x67_wrap
 ynet.co.il##.bigdeal
 ynet.co.il##.gam_container
 ynet.co.il##.gam_wrapper
+ynet.co.il##.ghciPromoLightbox1
 ynet.co.il##.google_ads_t4590B_wrapper
 ynet.co.il##.MRec_main
 ynet.co.il##.WWXMLHpb_main
