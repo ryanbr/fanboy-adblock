@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: 4CKAcfL9DYN6u9WON1STaA
+! Checksum: lIMvolwW5TDEOlESt5Tgiw
 ! Title: Fanboy's Polish
-! Updated: 12 May 2013
+! Updated: 14 Jul 2013
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -353,6 +353,7 @@ komputronik.pl###pasazTopKontener
 kretyn.com###adv750
 kwejk.pl###dzis_wieczorem
 lechpoznan.net###floating_banner_bottom
+londynek.net###abp
 lotto.pl###toplayer
 makro.pl###flashKartka
 makro.pl###opiniac_blk
