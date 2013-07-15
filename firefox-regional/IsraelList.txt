@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: x5YkiLGyvOCKOZiGxMcm8w
+! Checksum: ijp2EziLL3voFZQX8rTqng
 ! Title: Fanboy's IsraelList
-! Updated: 22 Jun 2013
+! Updated: 15 Jul 2013
 ! This list expires after 4 days
 ! Email: fanboyadblock@googlegroups.com
 ! Homepage: http://www.fanboy.co.nz/
@@ -584,7 +584,6 @@ newsgeek.co.il##.opx_box_square
 newsgeek.co.il##.opx_boxes_square
 newsgeek.co.il##.opx_horiz
 nrg.co.il###adArt
-nrg.co.il###b600x125
 nrg.co.il###ban14
 nrg.co.il###bannerDimpackWrap
 nrg.co.il###bLColumnText
