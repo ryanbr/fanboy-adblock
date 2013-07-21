@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: lIMvolwW5TDEOlESt5Tgiw
+! Checksum: JQxFBiv3DL1N+2fv10/+kw
 ! Title: Fanboy's Polish
-! Updated: 14 Jul 2013
+! Updated: 21 Jul 2013
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -219,6 +219,7 @@ _gemius.
 @@||kropka.onet.pl/_s/kropka/1?RI=$image,~third-party
 @@||longtailvideo.com^*/gapro/gapro-1.js$domain=dobreprogramy.pl
 @@||megawypas.pl/includes/adframe.js$domain=megawypas.pl
+@@||purepc.pl/misc/js/advert_reklama.js
 @@||reklama.onet.pl/_js/ads8.js$domain=onet.pl
 @@||reklama.onet.pl/_js/ads8flat.js
 @@||reklama.onet.pl/_js/onetadsgetajax/$script
