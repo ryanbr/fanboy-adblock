@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: JQxFBiv3DL1N+2fv10/+kw
+! Checksum: yCo4r4mi6rLCI7Bhi+jRSg
 ! Title: Fanboy's Polish
 ! Updated: 21 Jul 2013
 ! This list expires after 4 days
@@ -414,6 +414,7 @@ spryciarze.pl##.film_rgoogle
 tapeciarnia.pl###id_toplayer
 tapeciarnia.pl##table[height="100"][width="170"]
 translate.pl###shikantaza_floater
+tripolo.pl###reklamastopka
 trudne.pl##a[href^="http://clk.tradedoubler.com/"]
 tvgry.pl##.baner966
 tvgry.pl##div[style="padding-bottom:10px;width:300px;height:250px;overflow:hidden"]
