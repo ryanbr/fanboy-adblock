@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: b5DjnbJOIujKEi+qCk0LKA
+! Checksum: qqKTccWVOlyWZpqamGj75g
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 25 Jun 2013
+! Updated: 28 Jul 2013
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -600,6 +600,7 @@ _wtInit.js
 @@||google.com/cse/cse.js$domain=collegehumor.com|techspot.com|movie-list.com|howtogeek.com
 @@||gq.com/appjs/stats/omniture.js
 @@||greenbaypressgazette.com/odygel/lib/vendor/omniture/sitecatalyst.js
+@@||guardianapps.co.uk/jwplayer/omniture-H.25.2d.js
 @@||guim.co.uk/static/*/scripts/omniture-
 @@||hasbro.com/includes/*/s_code.js
 @@||healthgrades.com/Consumer/scripts/omniture.js
