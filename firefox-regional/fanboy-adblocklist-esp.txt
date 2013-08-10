@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: x3SPDxvgBO/amqGeuUwodg
+! Checksum: G82fexpJrBS4SEoq+hHWng
 ! Title: Fanboy's Spanish/Portuguese
-! Updated: 12 May 2013
+! Updated: 10 Aug 2013
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -513,6 +513,8 @@ terra.cl###trr-bar
 @@||f.i.uol.com.br/folha/publicidade/images/$domain=folha.uol.com.br
 @@||forolockerz.com/advertisement.js
 @@||freelibros.com/wp-content/plugins/no-adblock/$script
+@@||izigo.pt/*/adsearch?
+@@||izigo.pt/AdPictures/
 @@||lanacion.com.ar^*/publicidad/
 @@||larazon.es/videos/publicidad_
 @@||prisacom.com/RealMedia/ads/*/eplayer/$domain=as.com
