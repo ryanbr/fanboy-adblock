@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: DhpmHxUxABtTAuiGy5GoTw
+! Checksum: kyeRCNRZ1H9WxRR+6ac97g
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 29 Aug 2013
+! Updated: 3 Sep 2013
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -650,6 +650,7 @@ _wtInit.js
 @@||marieclaire.com/cm/shared/scripts/s_code.js
 @@||marilyn.ca/jsHandler.aspx?*omniture
 @@||marthastewart.com^*/s_code.js
+@@||marthastewartweddings.com/sites/marthastewartweddings.com/modules/features/omniture_settings/s_code.js
 @@||microsoft.com/Areas/Global/Content/Omniture/
 @@||microsoft.com/Combined.js?*/Omniture/
 @@||miniusa.com/js/dcs_tag.js
