@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: hYxsdEC6BUmXEm3By9fWTg
+! Checksum: elkWetXo/y2xgvNA1grjDw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 9 Sep 2013
 ! This list expires after 2 days
@@ -761,9 +761,7 @@ _wtInit.js
 @@||telegraph.co.uk/template/*/webtrends/Webtrends.js
 @@||theglobeandmail.com/media/www/js/plugins/s_code.js
 @@||theweathernetwork.com/js/s_code.js
-@@||timeinc.net/tii/omniture/*_s_code.js
-@@||timeinc.net/tii/omniture/h/common.js
-@@||timeinc.net/tii/omniture/h/config/people.js
+@@||timeinc.net/tii/omniture/$script
 @@||traderonline.com/javascript/master_s_code.js
 @@||tvlistings.optimum.net/foresee/foresee-trigger.js
 @@||unionbank.com/coremetrics/*/eluminate.js
