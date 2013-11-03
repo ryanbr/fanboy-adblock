@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: J4r3zmywKQq/dnwb6rsJvA
+! Checksum: 1K3U3hfeaWp1jLa/0z9bdw
 ! Title: Fanboy's Korean
-! Updated: 15 Jul 2013
+! Updated: 3 Nov 2013
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -729,6 +729,7 @@ _scroll_ad_
 ||ad.edaily.co.kr^
 ||ad.hirich.co.kr^
 ||ad.humoruniv.com^
+||ad.ilbe.com^
 ||ad.joara.com^
 ||ad.khan.co.kr^
 ||ad.koreadaily.com^
