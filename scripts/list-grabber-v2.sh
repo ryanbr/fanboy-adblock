@@ -2795,6 +2795,24 @@ else
    echo "Files are the same: enhancedstats.txt" > /dev/null
 fi
 
+############### Fanboy Anti-facebook #################
+SSLHG=$($SHA256SUM $HGSERV/fanboy-antifacebook.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-antifacebook.txt | cut -d' ' -f1)
+
+if [ "$SSLHG" != "$SSLMAIN" ]
+then
+    # Copy list
+    cp -f $HGSERV/fanboy-antifacebook.txt $TESTDIR/fanboy-antifacebook.txt
+    # Re-generate checksum
+    $ADDCHECKSUM $TESTDIR/fanboy-antifacebook.txt
+    cp -f $TESTDIR/fanboy-antifacebook.txt $MAINDIR/fanboy-antifacebook.txt
+    rm -rf $MAINDIR/fanboy-antifacebook.txt.gz
+    # GZip
+    $ZIP $MAINDIR/fanboy-antifacebook.txt.gz $TESTDIR/fanboy-antifacebook.txt > /dev/null
+else
+   echo "Files are the same: fanboy-antifacebook.txt" > /dev/null
+fi
+
 ############### Fanboy CZECH #################
 SSLHG=$($SHA256SUM $HGSERV/firefox-regional/fanboy-adblocklist-cz.txt | cut -d' ' -f1)
 SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-czech.txt | cut -d' ' -f1)
