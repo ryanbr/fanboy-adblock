@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: hS+QWNE5Kgaq3NZ/ACC85g
+! Checksum: uXoFwbBQFSXs6wsTdr6ugQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 20 Jan 2014
 ! This list expires after 2 days
@@ -435,7 +435,6 @@ _wtInit.js
 ! ---------- 3rd party blocking rules ----------
 !
 ||cloudharmony.net^$third-party
-||coremetrics.com^$third-party
 ||google-analytics.com^$third-party
 ||google.co.il/cse/$third-party,~stylesheet
 ||google.co.uk/cse/$third-party,~stylesheet
@@ -536,7 +535,7 @@ _wtInit.js
 !
 ! ---------- Whitelisting rules ----------
 !
-@@/coremetrics.js$script,domain=potterybarn.com|potterybarnkids.com||westelm.com||williams-sonoma.com|odcdn.com
+@@/coremetrics.js$script,domain=potterybarn.com|potterybarnkids.com|westelm.com|williams-sonoma.com|odcdn.com
 @@/mbox.js$script,domain=aol.com|hrblock.com|live.com|movieweb.com|rd.com|skypeassets.com|superpages.com|wdpromedia.com
 @@/omniture.js$script,domain=ae.com|couponcabin.com|corbisimages.com|delvenetworks.com|shop.puma.com|gq.com|healthgrades.com|pogo.com|nfl.com|slacker.com|teenvogue.com|veer.com
 @@/ots_omniture_code.js
@@ -575,8 +574,6 @@ _wtInit.js
 @@||consumerist.com/mt.js
 @@||content.idine.com^*/cmdatatagutils.js$domain=rewardsnetwork.com
 @@||converse.com/handler/OmnitureHandler.ashx
-@@||coremetrics.com/eluminate.js$domain=mycricket.com|vans.com|menshealth.com|oo.com.au|champssports.com|hsn.com|michaels.com|footlocker.com
-@@||coremetrics.com^$domain=garnethill.com
 @@||cycletrader.com/lwmvcjs/$script
 @@||delvenetworks.com/player/common/scripts/delve-omniture-callback.js
 @@||dicksmith.co.nz^*/site-tracker.js
