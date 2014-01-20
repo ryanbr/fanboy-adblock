@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: QGB8lXlzZw3Pyt9GP7A7/w
+! Checksum: hS+QWNE5Kgaq3NZ/ACC85g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 20 Jan 2014
 ! This list expires after 2 days
@@ -536,7 +536,6 @@ _wtInit.js
 !
 ! ---------- Whitelisting rules ----------
 !
-
 @@/coremetrics.js$script,domain=potterybarn.com|potterybarnkids.com||westelm.com||williams-sonoma.com|odcdn.com
 @@/mbox.js$script,domain=aol.com|hrblock.com|live.com|movieweb.com|rd.com|skypeassets.com|superpages.com|wdpromedia.com
 @@/omniture.js$script,domain=ae.com|couponcabin.com|corbisimages.com|delvenetworks.com|shop.puma.com|gq.com|healthgrades.com|pogo.com|nfl.com|slacker.com|teenvogue.com|veer.com
@@ -688,7 +687,6 @@ _wtInit.js
 @@||sixflags.com/global/func/js/siteCatalyst.js
 @@||sky.com/flash-video-player-*/OmniturePlugin.swf
 @@||skypeassets.com/i/js/wanalytics/$domain=skype.com
-@@||slacker.com^*/slacker/util/adobe/Omniture.js
 @@||slkimg.com^*/slacker/util/adobe/s-code.js$domain=slacker.com
 @@||startribune.com/includes/Omniture.H.24.js
 @@||storage.ie6countdown.com/assets/*/ie6ct_s_code.js
