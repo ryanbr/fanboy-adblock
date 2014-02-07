@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: f3eVi9RSEXyWUgrDQBFPBw
+! Checksum: UjIYawVC+VB1BkvEIGol9A
 ! Title: Anti-Facebook
 ! Expires: 4 days (update frequency)
 ! Homepage: http://www.fanboy.co.nz
@@ -34,7 +34,7 @@
 ||facebook.com/widgets/fan.php?$third-party
 ||facebook.com/widgets/like.php?$third-party
 ||facebook.com/widgets/recommendations.php?$third-party
-||graph.facebook.com^$third-party,domain=~deskhopapp.com
+||graph.facebook.com^$xmlhttprequest,third-party
 ||profile.ak.fbcdn.net^$third-party,domain=~facebook.com
 ||static.ak.fbcdn.net^$third-party,domain=~facebook.com
 !
