@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: 1934JcrSIUm66pd5sw/O4w
+! Checksum: gF4dOhq8NSgPDla4sbttkg
 ! Title: Fanboy's Korean
-! Updated: 13 Feb 2014
+! Updated: 1 Mar 2014
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -915,7 +915,6 @@ http://ad9.$third-party
 ||linkprice.com^$third-party
 ||linkwords.net^$third-party
 ||livead24.com^$third-party
-||livere.co.kr^$third-party
 ||llllllllllllllllllllllllllllllllllllllll.com^$third-party
 ||login.joins.com^*_loginbanner
 ||loveins.co.kr^$third-party
