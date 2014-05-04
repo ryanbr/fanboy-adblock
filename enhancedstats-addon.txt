@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: uMh4OuJkZWfvsyDz93MhpQ
+! Checksum: vnx8nnnXGuq5sO7g+pzY7Q
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 4 May 2014
+! Updated: 5 May 2014
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -732,6 +732,7 @@ drugs.com##div[style="left: 0px; position: fixed; top: auto; bottom: 48px;"]
 @@||traderonline.com/javascript/master_s_code.js
 @@||tvlistings.optimum.net/foresee/foresee-trigger.js
 @@||thecomedynetwork.ca/jsHandler.ashx
+@@||thepiratebay.se^*/jquery.min.js
 @@||unionbank.com/coremetrics/*/eluminate.js
 @@||unionbank.com/coremetrics/cmdatatagutils.js
 @@||usairways.com/en-US/Resources/javascript/omniture*.js
