@@ -94,7 +94,7 @@ if [ -s "$TESTDIR/fanboy-complete.txt" ];
    # Add titles
    #
    sed -i '/Title:/d' $TESTDIR/fanboy-complete.txt
-   sed -i '3i! Title: Fanboy+Easylist-Merged Comlete List' $TESTDIR/fanboy-complete.txt
+   sed -i '3i! Title: Fanboy+Easylist-Merged Complete List' $TESTDIR/fanboy-complete.txt
 
    # Addchecksum
    #
