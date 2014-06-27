@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: T5q6LaJhv4hOixCplPGiGQ
+! Checksum: 2GU6/PNsZ/SwJRqQpBu4ew
 ! Title: Fanboy's Swedish
-! Updated: 10 Aug 2013
+! Updated: 27 Jun 2014
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -203,8 +203,3 @@ tradera.com###bannerTop
 tradera.com##.topBannerContainerSlim
 unt.se###lokusspan
 unt.se##.annonsbox
-!
-!---------- For EasyList Users ----------
-!
-/AdGenerator.
-||herokuapp.com^$third-party
