@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: DAbJWbXTY8+IbAKy/Z8nXQ
+! Checksum: U8+4CWpum6oUBY4wFqGqDQ
 ! Title: Fanboy's Vietnamese
-! Updated: 18 Oct 2012
+! Updated: 2 Aug 2014
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -357,6 +357,7 @@ _quangcao.
 ||upload69.net^*.swf$object,domain=lauxanh.us
 ||vatgia.com^$third-party
 ||vietad.vn^$third-party
+||vietnamnetad.vn^$third-party
 ||vipcodon.net^$third-party
 ||vnnclub.com^$third-party
 ||vnpopads.com^$third-party
