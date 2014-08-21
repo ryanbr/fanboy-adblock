@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: CMQ+8U1UVjz+TYq1Ktz6nQ
+! Checksum: G0My/LKeKYVtIPsZIJE/Ag
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 20 Aug 2014
+! Updated: 21 Aug 2014
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -482,6 +482,7 @@ wolframalpha.com###subpod_zoom
 ||cloudharmony.net^$third-party
 ||consent-st.truste.com^$third-party
 ||disqus.com/count-data.js
+||doubleclick.net^$third-party
 ||geo.query.yahoo.com^$third-party
 ||google-analytics.com^$third-party
 ||google.co.il/cse/$third-party,~stylesheet
