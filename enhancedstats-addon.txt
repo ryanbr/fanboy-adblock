@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: bkVOEinSZp7es9OtCF0+sw
+! Checksum: M8jpj36cmXY0UgKy1c8EQA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 30 Aug 2014
 ! This list expires after 2 days
@@ -603,8 +603,8 @@ wolframalpha.com###subpod_zoom
 @@||akamai.net/*/www-origin.walmart.com/webanalytics/$domain=walmart.com
 @@||amd.com/*/scode_global.js
 @@||amd.com/us/as/scode_$script
-@@||apple.com/pages/omniture/js/omniture_tracking.js
 @@||apple.com/pages/omniture/js/util.js?
+@@||apple.com^*/omniture_tracking.js
 @@||arctichome.com/flex-mod/js/tracking/webtrends-*.js
 @@||arstechnica.net/wp-content/themes/*/omniture/
 @@||arvest.com/common/urchin/urchin.js
