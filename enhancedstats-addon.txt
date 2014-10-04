@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: C0ZLVC8ciagLQ61xYvjvKw
+! Checksum: w+QWpjCp3j4EVlzL4yNnGA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 2 Oct 2014
+! Updated: 5 Oct 2014
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -274,6 +274,7 @@
 /sonyOmnitureTracker.
 /tagging-akqa.
 /tan_code.js
+/tealium/*
 /thcn_code.js
 /thcn_code_
 /touch-clarity.
