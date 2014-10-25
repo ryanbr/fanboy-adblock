@@ -7,6 +7,7 @@
 #
 # Version history
 #
+# 2.51 Add Third-party font subscription
 # 2.50 Ultimate/Complete list based on merged list
 # 2.40 Include test Easylist sub generator
 # 2.30 Remove p2p list
@@ -160,6 +161,24 @@ then
     $ZIP $MAINDIR/fanboy-antifacebook.txt.gz $TESTDIR/fanboy-antifacebook.txt > /dev/null
 else
    echo "Files are the same: fanboy-antifacebook.txt" > /dev/null
+fi
+
+############### Fanboy Anti-Fonts #################
+SSLHG=$($SHA256SUM $HGSERV/fanboy-antifonts.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-antifonts.txt | cut -d' ' -f1)
+
+if [ "$SSLHG" != "$SSLMAIN" ]
+then
+    # Copy list
+    cp -f $HGSERV/fanboy-antifonts.txt $TESTDIR/fanboy-antifonts.txt
+    # Re-generate checksum
+    $ADDCHECKSUM $TESTDIR/fanboy-antifonts.txt
+    cp -f $TESTDIR/fanboy-antifonts.txt $MAINDIR/fanboy-antifonts.txt
+    rm -rf $MAINDIR/fanboy-antifonts.txt.gz
+    # GZip
+    $ZIP $MAINDIR/fanboy-antifonts.txt.gz $TESTDIR/fanboy-antifonts.txt > /dev/null
+else
+   echo "Files are the same: fanboy-antifonts.txt" > /dev/null
 fi
 
 ############### Fanboy CZECH #################
