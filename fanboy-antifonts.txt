@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: QPgHyBwJ+FFk3f6kyYWCtw
+! Checksum: YlRT1O7BM9ZRiZScYoRlqg
 ! Title: Fanboy's Anti-thirdparty Fonts
-! Updated: 13 Nov 2014
+! Updated: 23 Nov 2014
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -18,6 +18,7 @@
 ||fast.fonts.net^$third-party
 ||fontdeck.com^$third-party
 ||fontdeck.com^$third-party
+||fonts.advance.net^$third-party
 ||fonts.condenast.com^$script,third-party
 ||fonts.googleapis.com/css?
 ||fonts.gotraffic.net^$script
