@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: vn267AiseEaywFOCpdzHdQ
+! Checksum: adpSFxk+DhpPNwVzXh50YQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 26 Nov 2014
+! Updated: 30 Nov 2014
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -272,6 +272,7 @@
 /smeadvert-
 /somni.js
 /sonyOmnitureTracker.
+/survey_jspage.
 /tagging-akqa.
 /tan_code.js
 /tealium/*
