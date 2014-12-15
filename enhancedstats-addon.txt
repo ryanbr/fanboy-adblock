@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 5pTfeMWy2xkxrfT6ZTJNkg
+! Checksum: hXdsyUlNM/xkVg3o1jYDXg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 15 Dec 2014
 ! This list expires after 2 days
@@ -636,6 +636,7 @@ wolframalpha.com###subpod_zoom
 @@||adobedtm.com^*/mbox-contents-$script,domain=newyorker.com
 @@||adobedtm.com^*/satelliteLib-$script,domain=newyorker.com
 @@||akamai.net/*/www-origin.walmart.com/webanalytics/$domain=walmart.com
+@@||akamai.net^*/hints.netflame.cc/$domain=annualcreditreport.com
 @@||amd.com/*/scode_global.js
 @@||amd.com/us/as/scode_$script
 @@||apple.com/pages/omniture/js/util.js?
