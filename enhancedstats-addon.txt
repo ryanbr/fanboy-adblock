@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: Bpo9WpX3rH7+EP0hiR8/ZA
+! Checksum: ygMoUtvt4MmHyU9kXB1Sng
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Dec 2014
 ! This list expires after 2 days
@@ -509,6 +509,7 @@ wolframalpha.com###subpod_zoom
 ||google.com/cse/$third-party,~stylesheet
 ||googletagmanager.com/gtm.js$third-party
 ||gstatic.com/pub-config/ca-pub-*.js$third-party,domain=~google.com
+||lockerdome.com^$third-party
 ||mark.reevoo.com^$third-party
 ||mcafeesecure.com/meter/$third-party
 ||medals.bizrate.com^$third-party
