@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: hXdsyUlNM/xkVg3o1jYDXg
+! Checksum: WLzrLFXZ5Ols/DKa63IcTg
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 15 Dec 2014
+! Updated: 16 Dec 2014
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -518,6 +518,7 @@ wolframalpha.com###subpod_zoom
 ||resellerratings.com^$third-party
 ||salecycle.com^$third-party
 ||seal.godaddy.com^$third-party
+||seal.networksolutions.com^$third-party
 ||seal.verisign.com^$third-party
 ||sealserver.trustwave.com^$third-party
 ||services.disqus.com/event.js?$third-party
