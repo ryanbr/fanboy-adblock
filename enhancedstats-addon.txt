@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: j8iBztw2/C2HvEdxTSkolw
+! Checksum: nevK24Vmb12WFpW19gw3dg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 21 Dec 2014
 ! This list expires after 2 days
@@ -500,6 +500,7 @@ wolframalpha.com###subpod_zoom
 ||cloudharmony.net^$third-party
 ||consent-st.truste.com^$third-party
 ||consent.truste.com^$third-party
+||content.webcollage.net^$third-party
 ||doubleclick.net^$third-party
 ||dsr.livefyre.com/livecountping/
 ||fwmrm.net^*/SurveyExtension.swf
