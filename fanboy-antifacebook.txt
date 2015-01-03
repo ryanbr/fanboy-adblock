@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: /wmQNySrqLmDqYAl0MDZ/w
+! Checksum: ST17RrQiEWMpZ1Fx+nwLTw
 ! Title: Anti-ThirdpartySocial
 ! Expires: 4 days (update frequency)
 ! Homepage: http://www.fanboy.co.nz
@@ -44,7 +44,7 @@
 ||spot.im/embed/scripts/launcher.js$third-party
 ||static.ak.fbcdn.net^$third-party,domain=~facebook.com
 !
-! Test Filters (Thirdy Chat)
+! Test Filters (Third-party Chat)
 !
 ||liveperson.net^$third-party
 !
