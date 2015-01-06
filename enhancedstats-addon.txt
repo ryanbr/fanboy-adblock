@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: AKEKbDOVAqd1a3wFhWPQHw
+! Checksum: o7Xq99Q7s2oG5UcZMw0Ssg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 7 Jan 2015
 ! This list expires after 2 days
@@ -37,6 +37,8 @@
 /_omniture/*
 /_tl_track.js
 /abpTest/*
+/adobe-dtm-
+/Adobe-DTM/*
 /akqa.tracking.
 /analytics.sitecatalyst.
 /analytics/*/xtcore.js
