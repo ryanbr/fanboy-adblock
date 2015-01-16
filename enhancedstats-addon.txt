@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: WyT79cUp7LsZn+7IsfrfNw
+! Checksum: 6d9QgNrpDUFYnAxOA6Z4XQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Jan 2015
 ! This list expires after 2 days
@@ -504,6 +504,7 @@ wolframalpha.com###subpod_zoom
 ||5min.com/Handlers/FiveminCookieCache.ashx
 ||adobedtm.com^$third-party
 ||avgthreatlabs.com^$third-party
+||badge.clevergirlscollective.com^$third-party
 ||bbb.org/logo/$third-party
 ||bbb.org/seals/$third-party
 ||browser-update.org^$third-party
@@ -516,6 +517,7 @@ wolframalpha.com###subpod_zoom
 ||doubleclick.net^$third-party
 ||dsr.livefyre.com/livecountping/
 ||etrust.pro^$third-party
+||feastie.com/badges/$third-party
 ||fwmrm.net^*/SurveyExtension.swf
 ||fwmrm.net^*/VastTranslator.swf
 ||geo.query.yahoo.com^$third-party
@@ -537,6 +539,7 @@ wolframalpha.com###subpod_zoom
 ||medals.bizrate.com^$third-party
 ||my.leadpages.net^$third-party
 ||natoms.com^$third-party
+||ooh.li^$third-party
 ||ooyala.com/3rdparty/visible_measures_
 ||preferences.truste.com^$third-party
 ||privacy-policy.truste.com^$third-party
