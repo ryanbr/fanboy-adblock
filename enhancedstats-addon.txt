@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: kWXOc3Cz+W0zGlwvjGp/wA
+! Checksum: cvWZgzqfdnq9GM4zL/z8Yw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Jan 2015
 ! This list expires after 2 days
@@ -63,7 +63,6 @@
 /CoreMetricsSupportLib/*
 /CoreMetricsTracking.
 /customOmnitureData.js
-/dcs.gif?
 /dcs_head.js
 /dcs_tag.js
 /dcs_tag1.js
@@ -72,13 +71,9 @@
 /dcstag_
 /ecomfw.min.js
 /elq_tracking-
-/elqCfg.
 /elqCPers.
 /elqFCS.
-/elqImg.
-/elqNow/*
 /eluminate.
-/eluminate?
 /eluminate_
 /figp.js
 /foresee-
@@ -559,7 +554,6 @@ wolframalpha.com###subpod_zoom
 ||syncaccess.net^$third-party
 ||tags.tiqcdn.com/utag/*/utag.v.js
 ||trustlogo.com^$third-party
-||ubertags.com^$third-party
 ||verify.authorize.net^$third-party
 ||webengage.com^$third-party
 ||websecurity.norton.com^$third-party
@@ -573,22 +567,16 @@ wolframalpha.com###subpod_zoom
 !
 !--------- Unsorted Rules --------
 !
-||bit.ly/stats?
-||checkstat.nl^$third-party
-||counter27.ch^$third-party
 ||freestat.hu^$third-party
 ||midphase.com^*/img.pl?$third-party
 ||mystats.nl^$third-party
-||ohnorobot.com/verify.pl?$third-party
 ||ovnet.fr^$third-party
 ||pakranks.com^$third-party
 ||predicta.com.br^$third-party
 ||site-id.nl^$third-party
-||statsbox.nl^$third-party
 ||statsector.hu^$third-party
 ||stealth.nl^$third-party
 ||tracknet.twyn.com^
-||traffic4u.nl^$third-party
 ||webcount.finn.no^
 !
 !---------- French Trackers ----------
@@ -597,12 +585,8 @@ wolframalpha.com###subpod_zoom
 ||be2.com/tracker;
 ||beead.fr^$third-party
 ||clickintext.net^$third-party
-||countus.fr^$third-party
 ||emailretargeting.com^
-||geocompteur.com^
 ||ip-label.net/Data/coll.aspx?$third-party
-||p.pagesjaunes.fr^
-||performances.bestofmedia.com^
 ||stats.stats.fr^
 ||tracking.bestofmicro.com^
 ||tracking.infos-du-net.com^
@@ -617,7 +601,6 @@ wolframalpha.com###subpod_zoom
 !
 !---------- Taiwan Trackers ------------
 !
-||hotrank.com.tw^$third-party
 !
 !---------- German Trackers ------------
 !
@@ -626,35 +609,20 @@ wolframalpha.com###subpod_zoom
 .de/stat/
 .de/track/
 .tv/tracking?
-||betarget.de^$third-party
-||chart.dk^$third-party
-||checkeffect.at^$third-party
-||countercity.de^$third-party
-||countercity.net^$third-party
-||counterlevel.de^$third-party
 ||easyranking.de^$third-party
-||econda-monitor.de^$third-party
-||etracker.de^$third-party
-||generaltracking.de^$third-party
 ||hitcount.de^$third-party
-||hitmaster.de^$third-party
 ||hitpage.de^$third-party
 ||ipstats.de^$third-party
 ||met.vgwort.de/na/
-||microcounter.de^$third-party
 ||perlentaucher.de/cgi-bin/blanky?
-||ranking-hits.de^$third-party
 ||ranktraffic.de^$third-party
 ||rapidstats.de^$third-party
-||sedotracker.de^$third-party
 ||serverkompetenz.net/cpx.php?$third-party
 ||trafficcenter.de^$third-party
 ||trk.newtention.net^
-||yoochoose.net^$third-party
 !
 !---------- Danish Trackers ------------
 !
-||agillic.eu^$third-party
 ||netminers.dk^$third-party
 !
 !---------- Anti Adblock Tracking ------
@@ -728,7 +696,6 @@ wolframalpha.com###subpod_zoom
 @@||eonline.com/includes/js/sitecatalyst/s_all.jsp
 @@||espncdn.com/combiner/c?$script
 @@||espncdn.com/prod/scripts/mbox.20.r2.js
-@@||expedia.com/static/default/default/scripts/siteAnalytics.js?
 @@||fdlstatic.com^*/main.desktop-no-omniture.js$domain=cnet.com
 @@||filmmagic.com/scripts/tracking/omniture-communicator-basic.js
 @@||filmmagic.com/scripts/tracking/omniture-page-communicator.js
@@ -769,7 +736,6 @@ wolframalpha.com###subpod_zoom
 @@||kavanga.ru/exp?$domain=overclockers.ru
 @@||kentucky.com/mistats/products/pubsys_s_code.js
 @@||libs.coremetrics.com^$domain=boscovs.com
-@@||lloydstsb.com/it/xslt/touchclarity/omtr_tc.js
 @@||marilyn.ca/jsHandler.aspx?*omniture
 @@||microsoft.com/Areas/Global/Content/Omniture/
 @@||microsoft.com/Combined.js?*/Omniture/
@@ -803,7 +769,6 @@ wolframalpha.com###subpod_zoom
 @@||ntc-affinity-api.web.aol.com/affinity/?$script,domain=games.com
 @@||nvidia.com/content/websidestory/omniture/$script
 @@||nytimes.com/bi/js/analytics/nyt4/controller.js
-@@||nytimes.com/js/app/analytics/wtbase.js$domain=nytimes.com
 @@||nzherald.co.nz/themes/*/s_code.min.js
 @@||o.aolcdn.com^*&file=/aol/omniture.min.js
 @@||omniture.com^$document,~third-party
@@ -824,7 +789,6 @@ wolframalpha.com###subpod_zoom
 @@||rentals.com/assets/*webtrends-
 @@||rentals.com/javascripts/primedia-webtrends-
 @@||rentals.com/javascripts/webtrends-bindings.js
-@@||reseguiden.se^*.siteCatalyst.js
 @@||rightnow.com/javascript/omniture_variable_
 @@||s.xe.com/*/js/webtrends.1.js
 @@||screenname.aol.com/auth/getToken?*&referer$domain=reader.aol.com
@@ -848,7 +812,6 @@ wolframalpha.com###subpod_zoom
 @@||symantec.com/script/omniture/om_code.js
 @@||tampabay.com/universal/scripts/omniture/tb_code.js
 @@||targetimg3.com^*/omniture/omniture_minified.js$domain=target.com
-@@||telegraph.co.uk/template/*/webtrends/LIVE/WTID.js
 @@||thecomedynetwork.ca/jsHandler.ashx
 @@||thepiratebay.se^*/jquery.min.js
 @@||thestar.com^*/sitecatalyst/
@@ -866,7 +829,6 @@ wolframalpha.com###subpod_zoom
 @@||videos.mediaite.com/embed/*?referrer=http
 @@||washingtonpost.com/wpost/js/combo?token*/wp_omniture.js
 @@||weather.com/clients/widgets/*?referrer=http
-@@||whirlpool.com/foresee/foresee-trigger.js
 @@||wired.com/js/omniture/omniture_helpers.js
 @@||wireimage.com/scripts/tracking/omniture-communicator-basic.js
 @@||wireimage.com/scripts/tracking/omniture-page-communicator.js
