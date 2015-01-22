@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: t0BzzuYUhvYCpAvUFdhmyg
+! Checksum: XMDLmPmeO1fMzT4fh+kGJg
 ! Title: Fanboy's Swedish
 ! Updated: 22 Jan 2015
 ! This list expires after 4 days
@@ -164,6 +164,8 @@ destination.se###topbanner
 destination.se###tower
 dn.se###board-enirolinks
 dn.se##.box.box-html.box-first
+dreamfilmhd.com##DIV[style="background-color:rgba(0,0,0,0.1);width:750px;height:100px;margin:0 5px 0 5px"]
+dreamfilmhd.com##DIV[style="width:750px;clear:both;margin:0 0 10px 0;padding:0;"]
 expressen.se##a[href^="http://marketnews.se/"]
 flashback.org##.banner_text
 folkbladet.se##[style="border: 1px solid rgb(126, 169, 204); font-family: arial; font-size: 12px; background-color: rgb(255, 255, 255); width: 200px;"]
