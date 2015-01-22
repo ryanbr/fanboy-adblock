@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: bH5MSXytIRNWR0KblY7E0w
+! Checksum: t0BzzuYUhvYCpAvUFdhmyg
 ! Title: Fanboy's Swedish
-! Updated: 21 Jan 2015
+! Updated: 22 Jan 2015
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -41,6 +41,7 @@
 ||oskar.tradera.com/$object
 ||sifomedia.idg.se^
 ||svd.se/traffic/
+||swefilmer.com/templates/fastphp/images/arka.jpg
 ||tradera.com/search/google.aspx
 ||ungdomar.se^*/darren_
 ||ungdomar.se^*/karolinska
@@ -201,6 +202,7 @@ svd.se###in-between-2
 svd.se##.ad
 sweclockers.com##.banner[style="min-height: 122px;"]
 sweclockers.com##div[style="min-height: 250px;"]
+swefilmer.com##.a-el
 tankafetast.com##.rightColBox
 tradera.com###bannerSkyscraper
 tradera.com###bannerTop
