@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: gF4dOhq8NSgPDla4sbttkg
+! Checksum: eWzkOcjT84P1sl7DHgwVJg
 ! Title: Fanboy's Korean
-! Updated: 1 Mar 2014
+! Updated: 24 Jan 2015
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -233,6 +233,7 @@ _scroll_ad_
 ||38tree.com^*/banner/
 ||7xx.org^*/banner/
 ||9street.co.kr^*/adver/
+||ad.daum.net^
 ||adelaidefocus.com^*/banner/
 ||adfront.auction.co.kr/jsdata/
 ||adm.dcinside.com^
@@ -1918,6 +1919,10 @@ pressian.com##.ttalk_ad_list
 radio.sbs.co.kr##.banner
 radio.sbs.co.kr##.gorillaShopWrap
 revu.co.kr##.RevU_Left_Ad
+ruliweb.daum.net##.bnr_info
+ruliweb.daum.net##.box_banner
+ruliweb.daum.net##.lnb_bnr
+ruliweb.daum.net##.side_bnr
 sarangbang.com##TD[style="padding: 3px 5px 3px 3px;"]
 sayclub.com##.shopping
 sbs.co.kr###Nad_right_area
