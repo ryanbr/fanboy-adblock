@@ -12,6 +12,9 @@
 # Compress file
 export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
 #
+# Wget string
+export WGET="nice -n 19 /usr/bin/wget -c -w 20 --timeout=20 --random-wait -U firefox -P $TEMPDIR"
+#
 # Where its downloaded first.
 export TEMPDIR="/root/temp"
 #
@@ -26,20 +29,20 @@ if [[ -d "${TEMPDIR}" && ! -L "${TEMPDIR}" ]] ; then
    # Clear out old files before grabbing new ones.
    rm -rf $TEMPDIR/easylist.txt* $TEMPDIR/easyprivacy.txt* $TEMPDIR/fanboy-social.txt* $TEMPDIR/fanboy-annoyance.txt* $TEMPDIR/malwaredomains_full.txt* $TEMPDIR/easyprivacy+easylist.txt*
 
-   wget -c -w 20 --random-wait -U firefox https://easylist-downloads.adblockplus.org/easylist.txt -P $TEMPDIR
-   wget -c -w 20 --random-wait -U firefox https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt -P $TEMPDIR
-   wget -c -w 20 --random-wait -U firefox https://easylist-downloads.adblockplus.org/easyprivacy+easylist.txt -P $TEMPDIR
-   wget -c -w 20 --random-wait -U firefox https://easylist-downloads.adblockplus.org/fanboy-social.txt -P $TEMPDIR
-   wget -c -w 20 --random-wait -U firefox https://easylist-downloads.adblockplus.org/easyprivacy.txt -P $TEMPDIR
-   wget -c -w 20 --random-wait -U firefox https://easylist-downloads.adblockplus.org/malwaredomains_full.txt -P $TEMPDIR
+   $WGET https://easylist-downloads.adblockplus.org/easylist.txt 
+   $WGET https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt
+   $WGET https://easylist-downloads.adblockplus.org/easyprivacy+easylist.txt
+   $WGET https://easylist-downloads.adblockplus.org/fanboy-social.txt
+   $WGET https://easylist-downloads.adblockplus.org/easyprivacy.txt
+   $WGET https://easylist-downloads.adblockplus.org/malwaredomains_full.txt
 else
    mkdir $TEMPDIR
-   wget -c -w 20 --random-wait -U firefox https://easylist-downloads.adblockplus.org/easylist.txt -P $TEMPDIR
-   wget -c -w 20 --random-wait -U firefox https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt -P $TEMPDIR
-   wget -c -w 20 --random-wait -U firefox https://easylist-downloads.adblockplus.org/easyprivacy+easylist.txt -P $TEMPDIR
-   wget -c -w 20 --random-wait -U firefox https://easylist-downloads.adblockplus.org/fanboy-social.txt -P $TEMPDIR
-   wget -c -w 20 --random-wait -U firefox https://easylist-downloads.adblockplus.org/easyprivacy.txt -P $TEMPDIR
-   wget -c -w 20 --random-wait -U firefox https://easylist-downloads.adblockplus.org/malwaredomains_full.txt -P $TEMPDIR
+   $WGET https://easylist-downloads.adblockplus.org/easylist.txt
+   $WGET https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt
+   $WGET https://easylist-downloads.adblockplus.org/easyprivacy+easylist.txt
+   $WGET https://easylist-downloads.adblockplus.org/fanboy-social.txt
+   $WGET https://easylist-downloads.adblockplus.org/easyprivacy.txt
+   $WGET https://easylist-downloads.adblockplus.org/malwaredomains_full.txt
 fi
 
 ###################   Easylist   ###################
