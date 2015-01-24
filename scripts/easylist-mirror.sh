@@ -46,6 +46,53 @@ else
    $WGET https://88.198.15.197/malwaredomains_full.txt
 fi
 
+###################   WGET CHECKER   ###################
+#
+# Check WGET was successful at grabbing the file, if not, re-grab from easylist-downloads.adblockplus.org
+
+if [[ -e "$TEMPDIR/easylist.txt" && -s "$TEMPDIR/easylist.txt" ]];
+  then
+      echo "Easylist file grabbed" > /dev/null
+  else
+      $WGET https://easylist-downloads.adblockplus.org/easylist.txt
+fi
+## Easyprivacy
+if [[ -e "$TEMPDIR/easyprivacy.txt" && -s "$TEMPDIR/easyprivacy.txt" ]];
+  then
+      echo "Easyprivacy file grabbed" > /dev/null
+  else
+      $WGET https://easylist-downloads.adblockplus.org/easyprivacy.txt
+fi
+## Fanboy-Annoyance
+if [[ -e "$TEMPDIR/fanboy-annoyance.txt" && -s "$TEMPDIR/fanboy-annoyance.txt" ]];
+  then
+      echo "fanboy-annoyance.txt file grabbed" > /dev/null
+  else
+      $WGET https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt
+fi
+## easyprivacy+easylist.txt
+if [[ -e "$TEMPDIR/easyprivacy+easylist.txt" && -s "$TEMPDIR/easyprivacy+easylist.txt" ]];
+  then
+      echo "easyprivacy+easylist.txt file grabbed" > /dev/null
+  else
+      $WGET https://easylist-downloads.adblockplus.org/easyprivacy+easylist.txt
+fi
+## fanboy-social.txt
+if [[ -e "$TEMPDIR/fanboy-social.txt" && -s "$TEMPDIR/fanboy-social.txt" ]];
+  then
+      echo "fanboy-social.txt file grabbed" > /dev/null
+  else
+      $WGET https://easylist-downloads.adblockplus.org/fanboy-social.txt
+fi
+## malwaredomains_full.txt
+if [[ -e "$TEMPDIR/malwaredomains_full.txt" && -s "$TEMPDIR/malwaredomains_full.txt" ]];
+  then
+      echo "malwaredomains_full.txt file grabbed" > /dev/null
+  else
+      $WGET https://easylist-downloads.adblockplus.org/malwaredomains_full.txt
+fi
+
+
 ###################   Easylist   ###################
 #
 # Check MAINDIR exists before comparing files
