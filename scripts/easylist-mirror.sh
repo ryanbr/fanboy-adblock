@@ -12,9 +12,6 @@
 # Compress file
 export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
 #
-# Wget string
-export WGET="nice -n 19 /usr/bin/wget -c -w 20 --tries=10 --waitretry=20 --timeout=45 --random-wait -U firefox -P $TEMPDIR"
-#
 # Where its downloaded first.
 export TEMPDIR="/root/temp"
 #
@@ -23,6 +20,9 @@ export MAINDIR="/var/www"
 #
 # For file comparison
 export SHA256SUM="/usr/bin/sha256sum"
+#
+# Wget string
+export WGET="nice -n 19 /usr/bin/wget -c -w 20 --tries=10 --waitretry=20 --retry-connrefused --timeout=45 --random-wait -U firefox -P $TEMPDIR"
 #
 # Check Tempdir exists before downloading to temp folder
 if [[ -d "${TEMPDIR}" && ! -L "${TEMPDIR}" ]] ; then
