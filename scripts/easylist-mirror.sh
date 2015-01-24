@@ -1,6 +1,13 @@
 #!/bin/bash
 #
-# Easylist Grabber
+# Easylist Mirroring Script
+# Prerequisites: Webserver (nginx), 7zip, sha256sum, cron, wget
+#
+# Note, Please respect adblockplus.org and don't run script often to avoid 
+# escessive server load for easylist-downloads.adblockplus.org. 
+# (Once every 2hrs should be enough)
+#
+# 0 */2 * * *  /home/username/easylist-mirror.sh 
 #
 # Compress file
 export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
