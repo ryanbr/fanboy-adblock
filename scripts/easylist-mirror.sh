@@ -57,18 +57,18 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
     # Make sure the Downloaded file exists before going ahead
     if [[ -e "$TEMPDIR/easylist.txt" && -s "$TEMPDIR/easylist.txt" ]]; then
          # Now check between www and temp copies
-         if [ "$SSLTEMP" == "$SSLMAIN" ]
+         if [ "$SSLTEMP" != "$SSLMAIN" ]
         then
-            rm -rf $TEMPDIR/easylist.txt    
-            echo "Do Nothing (easylist.txt)"
-         else
-         # If file grabbed has changed, update site.
+            # If file grabbed has changed, update site.
             echo "Lets Update the list, easylist.txt"
             cp -f $TEMPDIR/easylist.txt $MAINDIR/easylist.txt          
             $ZIP $TEMPDIR/easylist.txt.gz $MAINDIR/easylist.txt > /dev/null
             mv $TEMPDIR/easylist.txt.gz $MAINDIR/easylist.txt.gz
             # Now clear downloaded list
-            rm -rf $TEMPDIR/easylist.txt
+            rm -rf $TEMPDIR/easylist.txt         
+         else
+            rm -rf $TEMPDIR/easylist.txt    
+            echo "Do Nothing (easylist.txt)"
          fi
     else
        echo "File does not exist"
@@ -90,18 +90,18 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
     # Make sure the Downloaded file exists before going ahead
     if [[ -e "$TEMPDIR/easyprivacy.txt" && -s "$TEMPDIR/easyprivacy.txt" ]]; then
          # Now check between www and temp copies
-         if [ "$SSLTEMP" == "$SSLMAIN" ]
+         if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
-            rm -rf $TEMPDIR/easyprivacy.txt
-            echo "Do Nothing (easyprivacy.txt)" 
-         else
-         # If file grabbed has changed, update site.
+            # If file grabbed has changed, update site.
             echo "Lets Update the list, easyprivacy.txt"
             cp -f $TEMPDIR/easyprivacy.txt $MAINDIR/easyprivacy.txt          
             $ZIP $TEMPDIR/easyprivacy.txt.gz $MAINDIR/easyprivacy.txt > /dev/null
             mv $TEMPDIR/easyprivacy.txt.gz $MAINDIR/easyprivacy.txt.gz
             # Now clear downloaded list
+            rm -rf $TEMPDIR/easyprivacy.txt          
+         else
             rm -rf $TEMPDIR/easyprivacy.txt
+            echo "Do Nothing (easyprivacy.txt)" 
          fi
     else
        echo "File does not exist"
@@ -123,18 +123,18 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
     # Make sure the Downloaded file exists before going ahead
     if [[ -e "$TEMPDIR/easyprivacy+easylist.txt" && -s "$TEMPDIR/easyprivacy+easylist.txt" ]]; then
          # Now check between www and temp copies
-         if [ "$SSLTEMP" == "$SSLMAIN" ]
+         if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
-            rm -rf $TEMPDIR/easyprivacy+easylist.txt
-            echo "Do Nothing (easyprivacy+easylist.txt)"
-         else
-         # If file grabbed has changed, update site.
+            # If file grabbed has changed, update site.
             echo "Lets Update the list, easyprivacy+easylist.txt"
             cp -f $TEMPDIR/easyprivacy+easylist.txt $MAINDIR/easyprivacy+easylist.txt          
             $ZIP $TEMPDIR/easyprivacy+easylist.txt.gz $MAINDIR/easyprivacy+easylist.txt > /dev/null
             mv $TEMPDIR/easyprivacy+easylist.txt.gz $MAINDIR/easyprivacy+easylist.txt.gz
             # Now clear downloaded list
             rm -rf $TEMPDIR/easyprivacy+easylist.txt
+         else            
+            rm -rf $TEMPDIR/easyprivacy+easylist.txt
+            echo "Do Nothing (easyprivacy+easylist.txt)"
          fi
     else
        echo "File does not exist"
@@ -156,18 +156,18 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
     # Make sure the Downloaded file exists before going ahead
     if [[ -e "$TEMPDIR/fanboy-annoyance.txt" && -s "$TEMPDIR/fanboy-annoyance.txt" ]]; then
          # Now check between www and temp copies
-         if [ "$SSLTEMP" == "$SSLMAIN" ]
+         if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
-            rm -rf $TEMPDIR/fanboy-annoyance.txt
-            echo "Do Nothing (fanboy-annoyance.txt)"
-         else
-         # If file grabbed has changed, update site.
+            # If file grabbed has changed, update site.
             echo "Lets Update the list, fanboy-annoyance.txt"
             cp -f $TEMPDIR/fanboy-annoyance.txt $MAINDIR/fanboy-annoyance.txt          
             $ZIP $TEMPDIR/fanboy-annoyance.txt.gz $MAINDIR/fanboy-annoyance.txt > /dev/null
             mv $TEMPDIR/fanboy-annoyance.txt.gz $MAINDIR/fanboy-annoyance.txt.gz
             # Now clear downloaded list
             rm -rf $TEMPDIR/fanboy-annoyance.txt
+         else
+            rm -rf $TEMPDIR/fanboy-annoyance.txt
+            echo "Do Nothing (fanboy-annoyance.txt)"
          fi
     else
        echo "File does not exist"
@@ -189,18 +189,18 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
     # Make sure the Downloaded file exists before going ahead
     if [[ -e "$TEMPDIR/fanboy-social.txt" && -s "$TEMPDIR/fanboy-social.txt" ]]; then
          # Now check between www and temp copies
-         if [ "$SSLTEMP" == "$SSLMAIN" ]
+         if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
-            rm -rf $TEMPDIR/fanboy-social.txt            
-            echo "Do Nothing (fanboy-social.txt)"
-         else
-         # If file grabbed has changed, update site.
+            # If file grabbed has changed, update site.
             echo "Lets Update the list, fanboy-social.txt"
             cp -f $TEMPDIR/fanboy-social.txt $MAINDIR/fanboy-social.txt          
             $ZIP $TEMPDIR/fanboy-social.txt.gz $MAINDIR/fanboy-social.txt > /dev/null
             mv $TEMPDIR/fanboy-social.txt.gz $MAINDIR/fanboy-social.txt.gz
             # Now clear downloaded list
             rm -rf $TEMPDIR/fanboy-social.txt
+         else
+            rm -rf $TEMPDIR/fanboy-social.txt            
+            echo "Do Nothing (fanboy-social.txt)"
          fi
     else
        echo "File does not exist"
@@ -222,18 +222,18 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
     # Make sure the Downloaded file exists before going ahead
     if [[ -e "$TEMPDIR/malwaredomains_full.txt" && -s "$TEMPDIR/malwaredomains_full.txt" ]]; then
          # Now check between www and temp copies
-         if [ "$SSLTEMP" == "$SSLMAIN" ]
+         if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
-            rm -rf $TEMPDIR/malwaredomains_full.txt
-            echo "Do Nothing (malwaredomains_full.txt)"
-         else
-         # If file grabbed has changed, update site.
+            # If file grabbed has changed, update site.
             echo "Lets Update the list, malwaredomains_full.txt"
             cp -f $TEMPDIR/malwaredomains_full.txt $MAINDIR/malwaredomains_full.txt          
             $ZIP $TEMPDIR/malwaredomains_full.txt.gz $MAINDIR/malwaredomains_full.txt > /dev/null
             mv $TEMPDIR/malwaredomains_full.txt.gz $MAINDIR/malwaredomains_full.txt.gz
             # Now clear downloaded list
             rm -rf $TEMPDIR/malwaredomains_full.txt
+         else
+            rm -rf $TEMPDIR/malwaredomains_full.txt
+            echo "Do Nothing (malwaredomains_full.txt)"
          fi
     else
        echo "File does not exist"
