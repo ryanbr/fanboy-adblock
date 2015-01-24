@@ -22,7 +22,7 @@ export MAINDIR="/var/www"
 export SHA256SUM="/usr/bin/sha256sum"
 #
 # Wget string
-export WGET="nice -n 19 /usr/bin/wget -c -w 20 --no-check-certificate --tries=10 --waitretry=20 --retry-connrefused --timeout=45 --random-wait -U firefox -P $TEMPDIR"
+export WGET="nice -n 19 /usr/bin/wget -c -w 20 --no-check-certificate --tries=10 --waitretry=20 --retry-connrefused --timeout=45 --random-wait -U firefox -P $TEMPDIR &> /dev/null"
 #
 # Check Tempdir exists before downloading to temp folder
 if [[ -d "${TEMPDIR}" && ! -L "${TEMPDIR}" ]] ; then
@@ -108,7 +108,7 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
          if [ "$SSLTEMP" != "$SSLMAIN" ]
         then
             # If file grabbed has changed, update site.
-            echo "Lets Update the list, easylist.txt"
+            echo "Lets Update the list, easylist.txt" > /dev/null
             cp -f $TEMPDIR/easylist.txt $MAINDIR/easylist.txt          
             $ZIP $TEMPDIR/easylist.txt.gz $MAINDIR/easylist.txt > /dev/null
             mv $TEMPDIR/easylist.txt.gz $MAINDIR/easylist.txt.gz
@@ -116,7 +116,7 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
             rm -rf $TEMPDIR/easylist.txt         
          else
             rm -rf $TEMPDIR/easylist.txt    
-            echo "Do Nothing (easylist.txt)"
+            echo "Do Nothing (easylist.txt)" > /dev/null
          fi
     else
        echo "File does not exist"
@@ -141,7 +141,7 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
          if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
             # If file grabbed has changed, update site.
-            echo "Lets Update the list, easyprivacy.txt"
+            echo "Lets Update the list, easyprivacy.txt" > /dev/null
             cp -f $TEMPDIR/easyprivacy.txt $MAINDIR/easyprivacy.txt          
             $ZIP $TEMPDIR/easyprivacy.txt.gz $MAINDIR/easyprivacy.txt > /dev/null
             mv $TEMPDIR/easyprivacy.txt.gz $MAINDIR/easyprivacy.txt.gz
@@ -149,7 +149,7 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
             rm -rf $TEMPDIR/easyprivacy.txt          
          else
             rm -rf $TEMPDIR/easyprivacy.txt
-            echo "Do Nothing (easyprivacy.txt)" 
+            echo "Do Nothing (easyprivacy.txt)" > /dev/null
          fi
     else
        echo "File does not exist"
@@ -174,7 +174,7 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
          if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
             # If file grabbed has changed, update site.
-            echo "Lets Update the list, easyprivacy+easylist.txt"
+            echo "Lets Update the list, easyprivacy+easylist.txt" > /dev/null
             cp -f $TEMPDIR/easyprivacy+easylist.txt $MAINDIR/easyprivacy+easylist.txt          
             $ZIP $TEMPDIR/easyprivacy+easylist.txt.gz $MAINDIR/easyprivacy+easylist.txt > /dev/null
             mv $TEMPDIR/easyprivacy+easylist.txt.gz $MAINDIR/easyprivacy+easylist.txt.gz
@@ -182,7 +182,7 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
             rm -rf $TEMPDIR/easyprivacy+easylist.txt
          else            
             rm -rf $TEMPDIR/easyprivacy+easylist.txt
-            echo "Do Nothing (easyprivacy+easylist.txt)"
+            echo "Do Nothing (easyprivacy+easylist.txt)"  > /dev/null
          fi
     else
        echo "File does not exist"
@@ -207,7 +207,7 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
          if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
             # If file grabbed has changed, update site.
-            echo "Lets Update the list, fanboy-annoyance.txt"
+            echo "Lets Update the list, fanboy-annoyance.txt" > /dev/null
             cp -f $TEMPDIR/fanboy-annoyance.txt $MAINDIR/fanboy-annoyance.txt          
             $ZIP $TEMPDIR/fanboy-annoyance.txt.gz $MAINDIR/fanboy-annoyance.txt > /dev/null
             mv $TEMPDIR/fanboy-annoyance.txt.gz $MAINDIR/fanboy-annoyance.txt.gz
@@ -215,7 +215,7 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
             rm -rf $TEMPDIR/fanboy-annoyance.txt
          else
             rm -rf $TEMPDIR/fanboy-annoyance.txt
-            echo "Do Nothing (fanboy-annoyance.txt)"
+            echo "Do Nothing (fanboy-annoyance.txt)"  > /dev/null
          fi
     else
        echo "File does not exist"
@@ -240,7 +240,7 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
          if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
             # If file grabbed has changed, update site.
-            echo "Lets Update the list, fanboy-social.txt"
+            echo "Lets Update the list, fanboy-social.txt" > /dev/null
             cp -f $TEMPDIR/fanboy-social.txt $MAINDIR/fanboy-social.txt          
             $ZIP $TEMPDIR/fanboy-social.txt.gz $MAINDIR/fanboy-social.txt > /dev/null
             mv $TEMPDIR/fanboy-social.txt.gz $MAINDIR/fanboy-social.txt.gz
@@ -248,7 +248,7 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
             rm -rf $TEMPDIR/fanboy-social.txt
          else
             rm -rf $TEMPDIR/fanboy-social.txt            
-            echo "Do Nothing (fanboy-social.txt)"
+            echo "Do Nothing (fanboy-social.txt)"  > /dev/null
          fi
     else
        echo "File does not exist"
@@ -273,7 +273,7 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
          if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
             # If file grabbed has changed, update site.
-            echo "Lets Update the list, malwaredomains_full.txt"
+            echo "Lets Update the list, malwaredomains_full.txt" > /dev/null
             cp -f $TEMPDIR/malwaredomains_full.txt $MAINDIR/malwaredomains_full.txt          
             $ZIP $TEMPDIR/malwaredomains_full.txt.gz $MAINDIR/malwaredomains_full.txt > /dev/null
             mv $TEMPDIR/malwaredomains_full.txt.gz $MAINDIR/malwaredomains_full.txt.gz
@@ -281,7 +281,7 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
             rm -rf $TEMPDIR/malwaredomains_full.txt
          else
             rm -rf $TEMPDIR/malwaredomains_full.txt
-            echo "Do Nothing (malwaredomains_full.txt)"
+            echo "Do Nothing (malwaredomains_full.txt)"  > /dev/null
          fi
     else
        echo "File does not exist"
