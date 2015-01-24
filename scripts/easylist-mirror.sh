@@ -13,7 +13,7 @@
 export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
 #
 # Wget string
-export WGET="nice -n 19 /usr/bin/wget -c -w 20 --timeout=20 --random-wait -U firefox -P $TEMPDIR"
+export WGET="nice -n 19 /usr/bin/wget -c -w 20 --tries=10 --waitretry=20 --timeout=45 --random-wait -U firefox -P $TEMPDIR"
 #
 # Where its downloaded first.
 export TEMPDIR="/root/temp"
