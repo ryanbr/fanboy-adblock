@@ -22,28 +22,28 @@ export MAINDIR="/var/www"
 export SHA256SUM="/usr/bin/sha256sum"
 #
 # Wget string
-export WGET="nice -n 19 /usr/bin/wget -c -w 20 --no-check-certificate --tries=10 --waitretry=20 --retry-connrefused --timeout=45 --random-wait -U firefox -P $TEMPDIR &> /dev/null"
+export WGET="nice -n 19 /usr/bin/wget -c -w 20 --no-check-certificate --tries=10 --waitretry=20 --retry-connrefused --timeout=45 --random-wait -U firefox -P $TEMPDIR"
 #
 # Check Tempdir exists before downloading to temp folder
-if [[ -d "${TEMPDIR}" && ! -L "${TEMPDIR}" ]] ; then
+if [[ -d "$TEMPDIR" && ! -L "$TEMPDIR" ]] ; then
    # Clear out old files before grabbing new ones.
    rm -rf $TEMPDIR/easylist.txt* $TEMPDIR/easyprivacy.txt* $TEMPDIR/fanboy-social.txt* $TEMPDIR/fanboy-annoyance.txt* $TEMPDIR/malwaredomains_full.txt* $TEMPDIR/easyprivacy+easylist.txt*
    # Using specific ip since mirrors will lag between commits
    # Current IPs: 88.198.15.197, 188.40.105.83, 88.198.59.19
-   $WGET https://88.198.15.197/easylist.txt 
-   $WGET https://88.198.15.197/fanboy-annoyance.txt
-   $WGET https://88.198.15.197/easyprivacy+easylist.txt
-   $WGET https://88.198.15.197/fanboy-social.txt
-   $WGET https://88.198.15.197/easyprivacy.txt
-   $WGET https://88.198.15.197/malwaredomains_full.txt
+   $WGET https://88.198.15.197/easylist.txt &> /dev/null 
+   $WGET https://88.198.15.197/fanboy-annoyance.txt &> /dev/null
+   $WGET https://88.198.15.197/easyprivacy+easylist.txt &> /dev/null
+   $WGET https://88.198.15.197/fanboy-social.txt &> /dev/null
+   $WGET https://88.198.15.197/easyprivacy.txt &> /dev/null
+   $WGET https://88.198.15.197/malwaredomains_full.txt &> /dev/null
 else
    mkdir $TEMPDIR
-   $WGET https://88.198.15.197/easylist.txt
-   $WGET https://88.198.15.197/fanboy-annoyance.txt
-   $WGET https://88.198.15.197/easyprivacy+easylist.txt
-   $WGET https://88.198.15.197/fanboy-social.txt
-   $WGET https://88.198.15.197/easyprivacy.txt
-   $WGET https://88.198.15.197/malwaredomains_full.txt
+   $WGET https://88.198.15.197/easylist.txt &> /dev/null
+   $WGET https://88.198.15.197/fanboy-annoyance.txt &> /dev/null
+   $WGET https://88.198.15.197/easyprivacy+easylist.txt &> /dev/null
+   $WGET https://88.198.15.197/fanboy-social.txt &> /dev/null
+   $WGET https://88.198.15.197/easyprivacy.txt &> /dev/null
+   $WGET https://88.198.15.197/malwaredomains_full.txt &> /dev/null
 fi
 
 ###################   WGET CHECKER   ###################
