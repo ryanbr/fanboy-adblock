@@ -9,9 +9,6 @@
 #
 # 0 */2 * * *  /home/username/easylist-mirror.sh 
 #
-# Compress file
-export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
-#
 # Where its downloaded first.
 export TEMPDIR="/root/temp"
 #
