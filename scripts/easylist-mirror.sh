@@ -30,66 +30,66 @@ if [[ -d "$TEMPDIR" && ! -L "$TEMPDIR" ]] ; then
    rm -rf $TEMPDIR/easylist.txt* $TEMPDIR/easyprivacy.txt* $TEMPDIR/fanboy-social.txt* $TEMPDIR/fanboy-annoyance.txt* $TEMPDIR/malwaredomains_full.txt* $TEMPDIR/easyprivacy+easylist.txt*
    # Using specific ip since mirrors will lag between commits
    # Current IPs: 88.198.15.197, 188.40.105.83, 88.198.59.19
-   $WGET https://88.198.15.197/easylist.txt &> /dev/null 
-   $WGET https://88.198.15.197/fanboy-annoyance.txt &> /dev/null
-   $WGET https://88.198.15.197/easyprivacy+easylist.txt &> /dev/null
-   $WGET https://88.198.15.197/fanboy-social.txt &> /dev/null
-   $WGET https://88.198.15.197/easyprivacy.txt &> /dev/null
-   $WGET https://88.198.15.197/malwaredomains_full.txt &> /dev/null
+   $WGET https://88.198.15.197/easylist.txt.gz &> /dev/null
+   $WGET https://88.198.15.197/fanboy-annoyance.txt.gz &> /dev/null
+   $WGET https://88.198.15.197/easyprivacy+easylist.txt.gz &> /dev/null
+   $WGET https://88.198.15.197/fanboy-social.txt.gz &> /dev/null
+   $WGET https://88.198.15.197/easyprivacy.txt.gz &> /dev/null
+   $WGET https://88.198.15.197/malwaredomains_full.txt.gz &> /dev/null
 else
    mkdir $TEMPDIR
-   $WGET https://88.198.15.197/easylist.txt &> /dev/null
-   $WGET https://88.198.15.197/fanboy-annoyance.txt &> /dev/null
-   $WGET https://88.198.15.197/easyprivacy+easylist.txt &> /dev/null
-   $WGET https://88.198.15.197/fanboy-social.txt &> /dev/null
-   $WGET https://88.198.15.197/easyprivacy.txt &> /dev/null
-   $WGET https://88.198.15.197/malwaredomains_full.txt &> /dev/null
+   $WGET https://88.198.15.197/easylist.txt.gz &> /dev/null
+   $WGET https://88.198.15.197/fanboy-annoyance.txt.gz &> /dev/null
+   $WGET https://88.198.15.197/easyprivacy+easylist.txt.gz &> /dev/null
+   $WGET https://88.198.15.197/fanboy-social.txt.gz &> /dev/null
+   $WGET https://88.198.15.197/easyprivacy.txt.gz &> /dev/null
+   $WGET https://88.198.15.197/malwaredomains_full.txt.gz &> /dev/null
 fi
 
 ###################   WGET CHECKER   ###################
 #
 # Check WGET was successful at grabbing the file, if not, re-grab from easylist-downloads.adblockplus.org
 
-if [[ -e "$TEMPDIR/easylist.txt" && -s "$TEMPDIR/easylist.txt" ]];
+if [[ -e "$TEMPDIR/easylist.txt.gz" && -s "$TEMPDIR/easylist.txt.gz" ]];
   then
       echo "Easylist file grabbed" > /dev/null
   else
-      $WGET https://easylist-downloads.adblockplus.org/easylist.txt
+      $WGET https://easylist-downloads.adblockplus.org/easylist.txt.gz
 fi
 ## Easyprivacy
-if [[ -e "$TEMPDIR/easyprivacy.txt" && -s "$TEMPDIR/easyprivacy.txt" ]];
+if [[ -e "$TEMPDIR/easyprivacy.txt.gz" && -s "$TEMPDIR/easyprivacy.txt.gz" ]];
   then
       echo "Easyprivacy file grabbed" > /dev/null
   else
-      $WGET https://easylist-downloads.adblockplus.org/easyprivacy.txt
+      $WGET https://easylist-downloads.adblockplus.org/easyprivacy.txt.gz
 fi
 ## Fanboy-Annoyance
-if [[ -e "$TEMPDIR/fanboy-annoyance.txt" && -s "$TEMPDIR/fanboy-annoyance.txt" ]];
+if [[ -e "$TEMPDIR/fanboy-annoyance.txt.gz" && -s "$TEMPDIR/fanboy-annoyance.txt.gz" ]];
   then
-      echo "fanboy-annoyance.txt file grabbed" > /dev/null
+      echo "fanboy-annoyance.txt.gz file grabbed" > /dev/null
   else
-      $WGET https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt
+      $WGET https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt.gz
 fi
-## easyprivacy+easylist.txt
-if [[ -e "$TEMPDIR/easyprivacy+easylist.txt" && -s "$TEMPDIR/easyprivacy+easylist.txt" ]];
+## easyprivacy+easylist.txt.gz
+if [[ -e "$TEMPDIR/easyprivacy+easylist.txt.gz" && -s "$TEMPDIR/easyprivacy+easylist.txt.gz" ]];
   then
-      echo "easyprivacy+easylist.txt file grabbed" > /dev/null
+      echo "easyprivacy+easylist.txt.gz file grabbed" > /dev/null
   else
-      $WGET https://easylist-downloads.adblockplus.org/easyprivacy+easylist.txt
+      $WGET https://easylist-downloads.adblockplus.org/easyprivacy+easylist.txt.gz
 fi
-## fanboy-social.txt
-if [[ -e "$TEMPDIR/fanboy-social.txt" && -s "$TEMPDIR/fanboy-social.txt" ]];
+## fanboy-social.txt.gz
+if [[ -e "$TEMPDIR/fanboy-social.txt.gz" && -s "$TEMPDIR/fanboy-social.txt.gz" ]];
   then
-      echo "fanboy-social.txt file grabbed" > /dev/null
+      echo "fanboy-social.txt.gz file grabbed" > /dev/null
   else
-      $WGET https://easylist-downloads.adblockplus.org/fanboy-social.txt
+      $WGET https://easylist-downloads.adblockplus.org/fanboy-social.txt.gz
 fi
-## malwaredomains_full.txt
-if [[ -e "$TEMPDIR/malwaredomains_full.txt" && -s "$TEMPDIR/malwaredomains_full.txt" ]];
+## malwaredomains_full.txt.gz
+if [[ -e "$TEMPDIR/malwaredomains_full.txt.gz" && -s "$TEMPDIR/malwaredomains_full.txt.gz" ]];
   then
-      echo "malwaredomains_full.txt file grabbed" > /dev/null
+      echo "malwaredomains_full.txt.gz file grabbed" > /dev/null
   else
-      $WGET https://easylist-downloads.adblockplus.org/malwaredomains_full.txt
+      $WGET https://easylist-downloads.adblockplus.org/malwaredomains_full.txt.gz
 fi
 
 
@@ -99,23 +99,23 @@ fi
 if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
     #
     # Store checksum for file comparison
-    SSLTEMP=$($SHA256SUM $TEMPDIR/easylist.txt | cut -d' ' -f1)
-    SSLMAIN=$($SHA256SUM $MAINDIR/easylist.txt | cut -d' ' -f1)
+    SSLTEMP=$($SHA256SUM $TEMPDIR/easylist.txt.gz | cut -d' ' -f1)
+    SSLMAIN=$($SHA256SUM $MAINDIR/easylist.txt.gz | cut -d' ' -f1)
 
     # Make sure the Downloaded file exists before going ahead
-    if [[ -e "$TEMPDIR/easylist.txt" && -s "$TEMPDIR/easylist.txt" ]]; then
+    if [[ -e "$TEMPDIR/easylist.txt.gz" && -s "$TEMPDIR/easylist.txt.gz" ]]; then
          # Now check between www and temp copies
          if [ "$SSLTEMP" != "$SSLMAIN" ]
         then
             # If file grabbed has changed, update site.
-            echo "Lets Update the list, easylist.txt" > /dev/null
-            cp -f $TEMPDIR/easylist.txt $MAINDIR/easylist.txt          
-            $ZIP $TEMPDIR/easylist.txt.gz $MAINDIR/easylist.txt > /dev/null
-            mv $TEMPDIR/easylist.txt.gz $MAINDIR/easylist.txt.gz
+            echo "Lets Update the list, easylist.txt.gz" > /dev/null
+            cp -f $TEMPDIR/easylist.txt.gz $MAINDIR/easylist.txt.gz
+            rm -rf $MAINDIR/easylist.txt         
+            gunzip -c $TEMPDIR/easylist.txt.gz > $MAINDIR/easylist.txt 
             # Now clear downloaded list
-            rm -rf $TEMPDIR/easylist.txt         
+            rm -rf $TEMPDIR/easylist.txt.gz         
          else
-            rm -rf $TEMPDIR/easylist.txt    
+            rm -rf $TEMPDIR/easylist.txt.gz    
             echo "Do Nothing (easylist.txt)" > /dev/null
          fi
     else
@@ -132,23 +132,23 @@ fi
 if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
     #
     # Store checksum for file comparison
-    SSLTEMP=$($SHA256SUM $TEMPDIR/easyprivacy.txt | cut -d' ' -f1)
-    SSLMAIN=$($SHA256SUM $MAINDIR/easyprivacy.txt | cut -d' ' -f1)
+    SSLTEMP=$($SHA256SUM $TEMPDIR/easyprivacy.txt.gz | cut -d' ' -f1)
+    SSLMAIN=$($SHA256SUM $MAINDIR/easyprivacy.txt.gz | cut -d' ' -f1)
 
     # Make sure the Downloaded file exists before going ahead
-    if [[ -e "$TEMPDIR/easyprivacy.txt" && -s "$TEMPDIR/easyprivacy.txt" ]]; then
+    if [[ -e "$TEMPDIR/easyprivacy.txt.gz" && -s "$TEMPDIR/easyprivacy.txt.gz" ]]; then
          # Now check between www and temp copies
          if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
             # If file grabbed has changed, update site.
-            echo "Lets Update the list, easyprivacy.txt" > /dev/null
-            cp -f $TEMPDIR/easyprivacy.txt $MAINDIR/easyprivacy.txt          
-            $ZIP $TEMPDIR/easyprivacy.txt.gz $MAINDIR/easyprivacy.txt > /dev/null
-            mv $TEMPDIR/easyprivacy.txt.gz $MAINDIR/easyprivacy.txt.gz
+            echo "Lets Update the list, easyprivacy.txt.gz" > /dev/null
+            cp -f $TEMPDIR/easyprivacy.txt.gz $MAINDIR/easyprivacy.txt.gz          
+            rm -rf $MAINDIR/easyprivacy.txt
+            gunzip -c $TEMPDIR/easyprivacy.txt.gz > $MAINDIR/easyprivacy.txt 
             # Now clear downloaded list
-            rm -rf $TEMPDIR/easyprivacy.txt          
+            rm -rf $TEMPDIR/easyprivacy.txt.gz          
          else
-            rm -rf $TEMPDIR/easyprivacy.txt
+            rm -rf $TEMPDIR/easyprivacy.txt.gz
             echo "Do Nothing (easyprivacy.txt)" > /dev/null
          fi
     else
@@ -165,24 +165,24 @@ fi
 if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
     #
     # Store checksum for file comparison
-    SSLTEMP=$($SHA256SUM $TEMPDIR/easyprivacy+easylist.txt | cut -d' ' -f1)
-    SSLMAIN=$($SHA256SUM $MAINDIR/easyprivacy+easylist.txt | cut -d' ' -f1)
+    SSLTEMP=$($SHA256SUM $TEMPDIR/easyprivacy+easylist.txt.gz | cut -d' ' -f1)
+    SSLMAIN=$($SHA256SUM $MAINDIR/easyprivacy+easylist.txt.gz | cut -d' ' -f1)
 
     # Make sure the Downloaded file exists before going ahead
-    if [[ -e "$TEMPDIR/easyprivacy+easylist.txt" && -s "$TEMPDIR/easyprivacy+easylist.txt" ]]; then
+    if [[ -e "$TEMPDIR/easyprivacy+easylist.txt.gz" && -s "$TEMPDIR/easyprivacy+easylist.txt.gz" ]]; then
          # Now check between www and temp copies
          if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
             # If file grabbed has changed, update site.
-            echo "Lets Update the list, easyprivacy+easylist.txt" > /dev/null
-            cp -f $TEMPDIR/easyprivacy+easylist.txt $MAINDIR/easyprivacy+easylist.txt          
-            $ZIP $TEMPDIR/easyprivacy+easylist.txt.gz $MAINDIR/easyprivacy+easylist.txt > /dev/null
-            mv $TEMPDIR/easyprivacy+easylist.txt.gz $MAINDIR/easyprivacy+easylist.txt.gz
+            echo "Lets Update the list, easyprivacy+easylist.txt.gz" > /dev/null
+            cp -f $TEMPDIR/easyprivacy+easylist.txt.gz $MAINDIR/easyprivacy+easylist.txt.gz          
+            rm -rf $MAINDIR/easyprivacy+easylist.txt
+            gunzip -c $TEMPDIR/easyprivacy+easylist.txt.gz > $MAINDIR/easyprivacy+easylist.txt
             # Now clear downloaded list
-            rm -rf $TEMPDIR/easyprivacy+easylist.txt
+            rm -rf $TEMPDIR/easyprivacy+easylist.txt.gz
          else            
-            rm -rf $TEMPDIR/easyprivacy+easylist.txt
-            echo "Do Nothing (easyprivacy+easylist.txt)"  > /dev/null
+            rm -rf $TEMPDIR/easyprivacy+easylist.txt.gz
+            echo "Do Nothing (easyprivacy+easylist.txt.gz)"  > /dev/null
          fi
     else
        echo "File does not exist"
@@ -198,24 +198,24 @@ fi
 if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
     #
     # Store checksum for file comparison
-    SSLTEMP=$($SHA256SUM $TEMPDIR/fanboy-annoyance.txt | cut -d' ' -f1)
-    SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-annoyance.txt | cut -d' ' -f1)
+    SSLTEMP=$($SHA256SUM $TEMPDIR/fanboy-annoyance.txt.gz | cut -d' ' -f1)
+    SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-annoyance.txt.gz | cut -d' ' -f1)
 
     # Make sure the Downloaded file exists before going ahead
-    if [[ -e "$TEMPDIR/fanboy-annoyance.txt" && -s "$TEMPDIR/fanboy-annoyance.txt" ]]; then
+    if [[ -e "$TEMPDIR/fanboy-annoyance.txt.gz" && -s "$TEMPDIR/fanboy-annoyance.txt.gz" ]]; then
          # Now check between www and temp copies
          if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
             # If file grabbed has changed, update site.
-            echo "Lets Update the list, fanboy-annoyance.txt" > /dev/null
-            cp -f $TEMPDIR/fanboy-annoyance.txt $MAINDIR/fanboy-annoyance.txt          
-            $ZIP $TEMPDIR/fanboy-annoyance.txt.gz $MAINDIR/fanboy-annoyance.txt > /dev/null
-            mv $TEMPDIR/fanboy-annoyance.txt.gz $MAINDIR/fanboy-annoyance.txt.gz
+            echo "Lets Update the list, fanboy-annoyance.txt.gz" > /dev/null
+            cp -f $TEMPDIR/fanboy-annoyance.txt.gz $MAINDIR/fanboy-annoyance.txt.gz          
+            rm -rf $MAINDIR/fanboy-annoyance.txt
+            gunzip -c $TEMPDIR/fanboy-annoyance.txt.gz > $MAINDIR/fanboy-annoyance.txt
             # Now clear downloaded list
-            rm -rf $TEMPDIR/fanboy-annoyance.txt
+            rm -rf $TEMPDIR/fanboy-annoyance.txt.gz
          else
-            rm -rf $TEMPDIR/fanboy-annoyance.txt
-            echo "Do Nothing (fanboy-annoyance.txt)"  > /dev/null
+            rm -rf $TEMPDIR/fanboy-annoyance.txt.gz
+            echo "Do Nothing (fanboy-annoyance.txt.gz)"  > /dev/null
          fi
     else
        echo "File does not exist"
@@ -231,24 +231,24 @@ fi
 if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
     #
     # Store checksum for file comparison
-    SSLTEMP=$($SHA256SUM $TEMPDIR/fanboy-social.txt | cut -d' ' -f1)
-    SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-social.txt | cut -d' ' -f1)
+    SSLTEMP=$($SHA256SUM $TEMPDIR/fanboy-social.txt.gz | cut -d' ' -f1)
+    SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-social.txt.gz | cut -d' ' -f1)
 
     # Make sure the Downloaded file exists before going ahead
-    if [[ -e "$TEMPDIR/fanboy-social.txt" && -s "$TEMPDIR/fanboy-social.txt" ]]; then
+    if [[ -e "$TEMPDIR/fanboy-social.txt.gz" && -s "$TEMPDIR/fanboy-social.txt.gz" ]]; then
          # Now check between www and temp copies
          if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
             # If file grabbed has changed, update site.
-            echo "Lets Update the list, fanboy-social.txt" > /dev/null
-            cp -f $TEMPDIR/fanboy-social.txt $MAINDIR/fanboy-social.txt          
-            $ZIP $TEMPDIR/fanboy-social.txt.gz $MAINDIR/fanboy-social.txt > /dev/null
-            mv $TEMPDIR/fanboy-social.txt.gz $MAINDIR/fanboy-social.txt.gz
+            echo "Lets Update the list, fanboy-social.txt.gz" > /dev/null
+            cp -f $TEMPDIR/fanboy-social.txt.gz $MAINDIR/fanboy-social.txt.gz          
+            rm -rf $MAINDIR/fanboy-social.txt
+            gunzip -c $TEMPDIR/fanboy-social.txt.gz > $MAINDIR/fanboy-social.txt
             # Now clear downloaded list
-            rm -rf $TEMPDIR/fanboy-social.txt
+            rm -rf $TEMPDIR/fanboy-social.txt.gz
          else
-            rm -rf $TEMPDIR/fanboy-social.txt            
-            echo "Do Nothing (fanboy-social.txt)"  > /dev/null
+            rm -rf $TEMPDIR/fanboy-social.txt.gz            
+            echo "Do Nothing (fanboy-social.txt.gz)"  > /dev/null
          fi
     else
        echo "File does not exist"
@@ -264,24 +264,24 @@ fi
 if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
     #
     # Store checksum for file comparison
-    SSLTEMP=$($SHA256SUM $TEMPDIR/malwaredomains_full.txt | cut -d' ' -f1)
-    SSLMAIN=$($SHA256SUM $MAINDIR/malwaredomains_full.txt | cut -d' ' -f1)
+    SSLTEMP=$($SHA256SUM $TEMPDIR/malwaredomains_full.txt.gz | cut -d' ' -f1)
+    SSLMAIN=$($SHA256SUM $MAINDIR/malwaredomains_full.txt.gz | cut -d' ' -f1)
 
     # Make sure the Downloaded file exists before going ahead
-    if [[ -e "$TEMPDIR/malwaredomains_full.txt" && -s "$TEMPDIR/malwaredomains_full.txt" ]]; then
+    if [[ -e "$TEMPDIR/malwaredomains_full.txt.gz" && -s "$TEMPDIR/malwaredomains_full.txt.gz" ]]; then
          # Now check between www and temp copies
          if [ "$SSLTEMP" != "$SSLMAIN" ]
          then
             # If file grabbed has changed, update site.
-            echo "Lets Update the list, malwaredomains_full.txt" > /dev/null
-            cp -f $TEMPDIR/malwaredomains_full.txt $MAINDIR/malwaredomains_full.txt          
-            $ZIP $TEMPDIR/malwaredomains_full.txt.gz $MAINDIR/malwaredomains_full.txt > /dev/null
-            mv $TEMPDIR/malwaredomains_full.txt.gz $MAINDIR/malwaredomains_full.txt.gz
+            echo "Lets Update the list, malwaredomains_full.txt.gz" > /dev/null
+            cp -f $TEMPDIR/malwaredomains_full.txt.gz $MAINDIR/malwaredomains_full.txt.gz          
+            rm -rf $MAINDIR/malwaredomains_full.txt
+            gunzip -c $TEMPDIR/malwaredomains_full.txt.gz > $MAINDIR/malwaredomains_full.txt
             # Now clear downloaded list
-            rm -rf $TEMPDIR/malwaredomains_full.txt
+            rm -rf $TEMPDIR/malwaredomains_full.txt.gz
          else
-            rm -rf $TEMPDIR/malwaredomains_full.txt
-            echo "Do Nothing (malwaredomains_full.txt)"  > /dev/null
+            rm -rf $TEMPDIR/malwaredomains_full.txt.gz
+            echo "Do Nothing (malwaredomains_full.txt.gz)"  > /dev/null
          fi
     else
        echo "File does not exist"
