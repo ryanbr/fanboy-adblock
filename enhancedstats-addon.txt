@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: zr2PXc+CEpgaISihAtIEcw
+! Checksum: E/5AGMXQUJVzDETxWtLO+A
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 30 Jan 2015
+! Updated: 31 Jan 2015
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -775,6 +775,7 @@ wolframalpha.com###subpod_zoom
 @@||o.aolcdn.com^*&file=/aol/omniture.min.js
 @@||omniture.com^$document,~third-party
 @@||ooyala.com/3rdparty/comscore_other_$domain=marthastewart.com
+@@||ooyala.com/3rdparty/omniture_module-$domain=bizjournals.com
 @@||ooyala.com/3rdparty/omniture_other_$domain=thesun.co.uk|bloomberg.com|businessweek.com|nintendo.com|marthastewart.com
 @@||optimum.net/js/omniture/external.js
 @@||outbrain.com/nanoWidget/3rd/comScore/comScore.htm$domain=theinsider.com|telegraph.co.uk
