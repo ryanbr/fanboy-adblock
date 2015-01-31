@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: aHkGrSJ8aaEdG+/6ThHWPA
+! Checksum: J0ScWUYUvKC09AzXEP9AvA
 ! Title: Fanboy's Swedish
-! Updated: 28 Jan 2015
+! Updated: 31 Jan 2015
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -154,6 +154,7 @@ blocket.se##.eas_expander
 blocket.se##.fif
 blocket.se##.motesplatsen
 bohuslaningen.se##.cg-teaserWrapper
+cartoonnetwork.se###header
 corren.se###lokusSearchDiv
 corren.se###topjobs
 corren.se##.open-house-container
