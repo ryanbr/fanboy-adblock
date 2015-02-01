@@ -23,13 +23,13 @@ export SUBS="/root/tmp/ieramdisk/subscriptions"
 
 # Clear old files
 #
-rm -rf $TESTDIR/fanboy-addon-temp*.txt $TESTDIR/enhancedstats-addon-temp*.txt $TESTDIR/fanboy-stats-temp*.txt $TESTDIR/fanboy-complete.txt $TESTDIR/fanboy-ultimate.txt
+rm -rf $TESTDIR/fanboy-addon-temp*.txt $TESTDIR/enhancedstats-addon-temp*.txt $TESTDIR/fanboy-stats-temp*.txt $TESTDIR/fanboy-complete.txt $TESTDIR/fanboy-ultimate.txt  $TESTDIR/easylist-temp*.txt $TESTDIR/fanboy-easy*.txt
 
 # Easylist filter: Trim off header file, remove empty lines, and bottom line
 
-sed '1,9d' $MAINDIR/easylist.txt > $TESTDIR/easylist-temp2.txt
-sed '/^$/d' $TESTDIR/easylist-temp2.txt > $TESTDIR/easylist-temp3.txt
-sed '$d' < $TESTDIR/easylist-temp3.txt > $TESTDIR/easylist-temp.txt 
+#sed '1,9d' $MAINDIR/easylist.txt > $TESTDIR/easylist-temp2.txt
+#sed '/^$/d' $TESTDIR/easylist-temp2.txt > $TESTDIR/easylist-temp3.txt
+#sed '$d' < $TESTDIR/easylist-temp3.txt > $TESTDIR/easylist-temp.txt 
 
 # Tracking filter: Trim off header file, remove empty lines, and bottom line
 sed '1,9d' $MAINDIR/easyprivacy.txt > $TESTDIR/fanboy-stats-temp2.txt
@@ -52,15 +52,15 @@ sed -i '/com\/ga.js/d' $TESTDIR/fanboy-stats-temp.txt
 
 # Insert a new line to avoid chars running into each other
 #
-cat $MAINDIR/fanboy-easy.txt | sed '$a!' > $TESTDIR/fanboy-easy2.txt
+cat $MAINDIR/easylist.txt | sed '$a!' > $TESTDIR/fanboy-easy2.txt
 
 # Ultimate List
 #
-cat $TESTDIR/easylist-temp.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt $TESTDIR/fanboy-addon-temp3.txt > $TESTDIR/fanboy-ultimate.txt
+cat $TESTDIR/fanboy-easy2.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt $TESTDIR/fanboy-addon-temp3.txt > $TESTDIR/fanboy-ultimate.txt
 
 # Complete List
 #
-cat $TESTDIR/easylist-temp.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt > $TESTDIR/fanboy-complete.txt
+cat $TESTDIR/fanboy-easy2.txt $TESTDIR/fanboy-stats-temp.txt $TESTDIR/enhancedstats-addon-temp.txt > $TESTDIR/fanboy-complete.txt
 
 # Ultimate List for IE (minus the main list)
 #
@@ -99,7 +99,7 @@ if [ -s "$TESTDIR/fanboy-complete.txt" ];
   then
    # Add titles
    #
-   sed -i '1s/^/[Adblock Plus 2.0]\n/' $TESTDIR/fanboy-complete.txt
+   # sed -i '1s/^/[Adblock Plus 2.0]\n/' $TESTDIR/fanboy-complete.txt
    sed -i '/Title:/d' $TESTDIR/fanboy-complete.txt
    sed -i '3i! Title: Fanboy+Easylist-Merged Complete List' $TESTDIR/fanboy-complete.txt
 
