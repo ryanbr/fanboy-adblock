@@ -73,6 +73,8 @@ if [ -s "$TESTDIR/fanboy-ultimate.txt" ];
    #
    sed -i '/Title:/d' $TESTDIR/fanboy-ultimate.txt
    sed -i '3i! Title: Fanboy+Easylist-Merged Ultimate List' $TESTDIR/fanboy-ultimate.txt
+   sed -i '/Expires:/d' $TESTDIR/fanboy-ultimate.txt
+   sed -i '6i! Expires: 3 days (update frequency)' $TESTDIR/fanboy-ultimate.txt
 
    # Addchecksum
    #
@@ -102,6 +104,8 @@ if [ -s "$TESTDIR/fanboy-complete.txt" ];
    # sed -i '1s/^/[Adblock Plus 2.0]\n/' $TESTDIR/fanboy-complete.txt
    sed -i '/Title:/d' $TESTDIR/fanboy-complete.txt
    sed -i '3i! Title: Fanboy+Easylist-Merged Complete List' $TESTDIR/fanboy-complete.txt
+   sed -i '/Expires:/d' $TESTDIR/fanboy-complete.txt
+   sed -i '6i! Expires: 3 days (update frequency)' $TESTDIR/fanboy-complete.txt
 
    # Addchecksum
    #
