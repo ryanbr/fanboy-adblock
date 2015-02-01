@@ -10,7 +10,7 @@ export ZIP="nice -n 19 /usr/local/bin/7za a -mx=9 -y -tgzip"
 export NICE="nice -n 19"
 export TAC="/usr/bin/tac"
 export CAT="/bin/cat"
-export MAINDIR="/var/www/adblock"
+export MAINDIR="/var/www/"
 export SPLITDIR="/var/www/adblock/split/test"
 export HGSERV="/home/fanboy/fanboy-adblock-list"
 export TESTDIR="/root/tmp/work"
@@ -26,7 +26,7 @@ export SUBS="/root/tmp/ieramdisk/subscriptions"
 rm -rf $TESTDIR/fanboy-addon-temp*.txt $TESTDIR/enhancedstats-addon-temp*.txt $TESTDIR/fanboy-stats-temp*.txt $TESTDIR/fanboy-complete.txt $TESTDIR/fanboy-ultimate.txt
 
 # Tracking filter: Trim off header file, remove empty lines, and bottom line
-sed '1,9d' $MAINDIR/easyprivacy_fanboy.txt > $TESTDIR/fanboy-stats-temp2.txt
+sed '1,9d' $MAINDIR/easyprivacy.txt > $TESTDIR/fanboy-stats-temp2.txt
 sed '/^$/d' $TESTDIR/fanboy-stats-temp2.txt > $TESTDIR/fanboy-stats-temp3.txt
 sed '$d' < $TESTDIR/fanboy-stats-temp3.txt > $TESTDIR/fanboy-stats-temp.txt
 
