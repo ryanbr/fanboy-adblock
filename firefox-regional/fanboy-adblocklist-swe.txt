@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: PBWJ/l5NYKwjMlF0rl/tuQ
+! Checksum: WS+RskmX1pr2OpgZCV5/HQ
 ! Title: Fanboy's Swedish
 ! Updated: 22 Feb 2015
 ! This list expires after 4 days
@@ -63,9 +63,9 @@
 !
 existenz.se###slidebox
 !
-!---------- Swedish Popups (Adblock Plus Pop-up Addon required) ----------
+!---------- Swedish Popups ----------
 !
-||filesonic.se^$popup,image,~image
+||filesonic.se^$popup
 !
 ! ---------- 3rd party blocking rules ----------
 !
