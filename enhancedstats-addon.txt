@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: PzZKsZzWzhvaioiMtmbLiw
+! Checksum: W63mXVp/K1U45P3U402Qhw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 3 Apr 2015
+! Updated: 8 Apr 2015
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -368,7 +368,9 @@ _wtInit.js
 ! ---------- Cookie/Subscription Checking ------
 !
 ###issuem-leaky-paywall-articles-zero-remaining-nag
+###pianoMediaBar
 ##.acn-zero-remaining-overlay
+##.piano-subscribe
 /article-countdown-nag.js
 /paywall.min.js
 @@||torontosun.com/assets/js/paywall.min.js
