@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: Fu3IE6Sr93Hs7iWztp2FWA
+! Checksum: VvyiVgUi8r6AzTZMpQOwjA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 19 Apr 2015
 ! This list expires after 2 days
@@ -387,7 +387,6 @@ nautil.us###adpayload
 ! ---------- Personal Filters ------
 !
 ###topstuff > #wmxmsg
-@@||ps4news.com/ad/adframe.js
 @@||thepiratebay.se^*/details.js
 @@||thepiratebay.se^*/effects.js
 @@||thepiratebay.se^*/prototype.js
@@ -646,6 +645,7 @@ youporn.com###adblock_1
 !
 @@||canada.com^*/advertisement.js
 @@||forums.qrz.com/js/advertisement.js
+@@||ps4news.com/ad/adframe.js
 @@||tnwcdn.com/assets/js/advertising.js$domain=thenextweb.com
 @@||vice.com/assets/js/vmp/adblocker/
 @@||vox-cdn.com/javascripts/lib/advertisement.
