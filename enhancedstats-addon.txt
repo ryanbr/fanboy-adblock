@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: Xkn/EqkEr+nhOv7veGaFIQ
+! Checksum: iHoaiOGR/SvujKEZ/v9lHA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 20 Apr 2015
+! Updated: 25 Apr 2015
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -364,6 +364,11 @@ _webtrends_
 _wtBase.js
 _wtbaseV2.
 _wtInit.js
+!
+! CDN scripts (Ad and Tracking scripts) Test filters.
+!
+/cdn-cgi/pe/bag2?*atrk.js
+/cdn-cgi/pe/bag2?*pagead2.googlesyndication.com
 !
 ! ---------- Cookie/Subscription Checking ------
 !
