@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: JWv+mMsaPpSGvhweFoIusg
+! Checksum: Z/SE/T5M/ofKSerir1kvww
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 5 Jul 2015
 ! This list expires after 2 days
@@ -710,6 +710,7 @@ youporn.com###adblock_1
 !
 ! ---------- Whitelisting rules ----------
 !
+@@/cdn-cgi/pe/bag2?*pagead2.googlesyndication.com$domain=forwardprogressives.com
 @@/coremetrics.js$domain=potterybarn.com|potterybarnkids.com|westelm.com|williams-sonoma.com|odcdn.com
 @@/mbox.js$domain=dominos.com|aol.com|hrblock.com|live.com|movieweb.com|rd.com|skypeassets.com|superpages.com|wdpromedia.com
 @@/omniture.js$domain=apple.com|mlb.com|newyorker.com|ae.com|couponcabin.com|corbisimages.com|delvenetworks.com|shop.puma.com|gq.com|healthgrades.com|pogo.com|nfl.com|slacker.com|teenvogue.com|veer.com|zdnet.com
