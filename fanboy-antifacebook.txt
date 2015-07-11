@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: o3QrGtix9xObknL8RpnI2g
+! Checksum: 9bY49sHfBjGUh/M1ds+fWg
 ! Title: Anti-Facebook List
 ! Expires: 4 days (update frequency)
 ! Homepage: http://www.fanboy.co.nz
@@ -50,7 +50,7 @@
 !
 ! Whitelist Filters
 !
-@@/cdn-cgi/pe/bag2?*connect.facebook.net$domain=forwardprogressives.com
+@@/cdn-cgi/pe/bag2?*connect.facebook.net$domain=forwardprogressives.com|youngcons.com
 @@||akamaihd.net/rsrc.php/$domain=facebook.com
 @@||channel.facebook.com^$domain=facebook.com
 @@||facebook.com/ajax/browse/$domain=facebook.com
