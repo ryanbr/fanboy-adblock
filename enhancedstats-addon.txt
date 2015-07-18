@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: kP1ZjEXJBZm/oVaK1r/v5g
+! Checksum: AloMcA+orJcS12oGO97T5g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 18 Jul 2015
 ! This list expires after 2 days
@@ -445,7 +445,7 @@ youporn.com###adblock_1
 ||cbc.ca/includes/stats/hbx_
 ||ccom-cdn.com/assets/js/ga.js
 ||cdc.gov/JScript/metrics/
-||cf*.rackcdn.com^$script,domain=gamespot.com|comingsoon.net|cnet.com|flixist.com|mamma.com|destructoid.com|techrepublic.com|metacritic.com|tvguide.com|cbsnews.com|metrolyrics.com|tv.com|mp3.com|cbssports.com|chow.com|gamefaqs.com|wikia.com|memory-alpha.org|conferenceusa.com|pch.com
+||cf*.rackcdn.com^$script,domain=businessinsider.com|gamespot.com|comingsoon.net|cnet.com|flixist.com|mamma.com|destructoid.com|techrepublic.com|metacritic.com|tvguide.com|cbsnews.com|metrolyrics.com|tv.com|mp3.com|cbssports.com|chow.com|gamefaqs.com|wikia.com|memory-alpha.org|conferenceusa.com|pch.com
 ||chevron.com/js/chevron_ga.js
 ||cknw.com^*/s_cknwam_code.js
 ||cleartrip.com/javascripts/ga.*.js
