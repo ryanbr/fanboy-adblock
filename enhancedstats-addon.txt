@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: 53dLDO/MzQdgYiHbFHiYCQ
+! Checksum: EJSdBsHVd7ZO+UQX4LStuQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 24 Jul 2015
+! Updated: 25 Jul 2015
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -468,6 +468,7 @@ youporn.com###adblock_1
 ||hola.org/_virt_track_activation
 ||hollywood.com/toolbar_reporting.js
 ||images-amazon.com^*/js/mbox.
+||imgur.com/min/px.js
 ||ioam.de/iam.js
 ||lasikplus.com/scripts/s_code
 ||lendingclub.com^*/home_mbox_
