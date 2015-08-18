@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: LMp7PsOFqFJm5BkTssnNOQ
+! Checksum: 67I4h9ktN1kc7vbtMPtyVw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 18 Aug 2015
 ! This list expires after 2 days
@@ -707,8 +707,8 @@ youporn.com###adblock_1
 @@||actiris.be/urchin.js
 @@||adobe.com/uber/js/*s_code
 @@||adobe.com/www.adobe.com/uber/js/pdc_s_code.js
-@@||adobedtm.com^*/mbox-contents-$script,domain=newyorker.com|lenovo.com|oprah.com
-@@||adobedtm.com^*/satelliteLib-$script,domain=newyorker.com|lenovo.com|oprah.com|laredoute.fr
+@@||adobedtm.com^*/mbox-contents-$script,domain=newyorker.com|lenovo.com|oprah.com|vanityfair.com
+@@||adobedtm.com^*/satelliteLib-$script,domain=newyorker.com|lenovo.com|oprah.com|laredoute.fr|vanityfair.com
 @@||akamai.net/*/www-origin.walmart.com/webanalytics/$domain=walmart.com
 @@||akamai.net^*/hints.netflame.cc/$domain=annualcreditreport.com
 @@||amd.com/*/scode_global.js
