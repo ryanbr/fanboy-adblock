@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: OhDbLan143vigR4TA2CCuw
+! Checksum: erbH3AasGgMyn9iqMk1UEw
 ! Title: Fanboy's Anti-thirdparty Fonts
 ! Updated: 20 Sep 2015
 ! This list expires after 2 days
@@ -48,6 +48,7 @@
 ! Causes too much false positives
 ! ||maxcdn.bootstrapcdn.com^*/fonts/
 !
+@@||amazonaws.com^$font,domain=play.spotify.com
 @@||fonts.googleapis.com/css?$domain=sourceforge.net|dadaviz.com|google.com|wired.com|thechive.com
 @@||fonts.gstatic.com^$domain=google.com|thechive.com|youtube.com
 @@||googleapis.com/ajax/libs/webfont/$script,domain=builtinchicago.org|roadsandkingdoms.com|rockstargames.com|readwrite.com|egotastic.com|egotasticallstars.com
