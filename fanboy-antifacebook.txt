@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 9bY49sHfBjGUh/M1ds+fWg
+! Checksum: W9ZEq0Iuoc6MBpt7jV00ng
 ! Title: Anti-Facebook List
 ! Expires: 4 days (update frequency)
 ! Homepage: http://www.fanboy.co.nz
@@ -75,7 +75,7 @@
 !
 ! Problematic sites
 !
-@@||connect.facebook.net*/all.js$domain=salon.com|damnyouautocorrect.com|southpark.cc.com|sci2.tv|pogo.com|adultswim.com|interviewmagazine.com|contv.com
+@@||connect.facebook.net^$script,domain=salon.com|damnyouautocorrect.com|southpark.cc.com|sci2.tv|pogo.com|adultswim.com|interviewmagazine.com|contv.com|instagram.com
 @@||google.com/js/plusone.js$domain=abcnews.go.com|watch.nba.com
 @@||graph.facebook.com^$xmlhttprequest,domain=theguardian.com
 !
