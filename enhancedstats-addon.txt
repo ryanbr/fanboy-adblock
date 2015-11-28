@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: 28S/ShJHERdrFDwKPC08Fg
+! Checksum: e/ZAe4JWjUCth7ZmWPMJ1g
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 15 Nov 2015
+! Updated: 29 Nov 2015
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -500,6 +500,8 @@ youporn.com###adblock_1
 ||player.foxfdm.com^*/FoxComscorePlugIn.swf$domain=fox.com|fxnetworks.com
 ||randomhouse.com/js/resxclsa35.js
 ||reuters.com/pulse/2/trb.js
+||reutersmedia.net^*/rcom-parsely.js
+||reutersmedia.net^*/rcom-tracking.js
 ||rogersdigitalmedia.com/libs/analytics/RDMOmniture.swf
 ||s.update.entrepreneur.com^
 ||schwab.com^*filename=hbx.js
@@ -682,6 +684,7 @@ youporn.com###adblock_1
 /adBlockerTrack_
 @@/plugins/ad-blocking-detector/*$script,~third-party
 @@||9c9media.com^*/advertisement.js
+@@||buzzfed.com^*/ads.js
 @@||canada.com^*/advertisement.js
 @@||cdnslate.com/wp-srv/ad/*/loader.min.js
 @@||doubleclick.net/instream/ad_status.js
@@ -701,6 +704,7 @@ youporn.com###adblock_1
 @@||vice.com/assets/js/vmp/adblocker/
 @@||vox-cdn.com/javascripts/lib/advertisement.
 ||cloudfront.net/abw.js
+||reutersmedia.net^*/px.js
 ||techweb.com/adblocktrack
 !
 !---------- Anti Adblock Warnings ------
