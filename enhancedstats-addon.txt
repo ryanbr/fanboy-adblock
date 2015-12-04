@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: eGnCzUram9gM6fsRFX/2Wg
+! Checksum: GCXLCQ82HEw7scTRg2AUsA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 4 Dec 2015
 ! This list expires after 2 days
@@ -799,7 +799,7 @@ youporn.com###adblock_1
 @@||google.com/analytics/js/analytics.min.js$~third-party
 @@||google.com/coop/cse/brand?form=searchbox_$script,domain=wellness.com
 @@||google.com/cse/*/sayt.js$domain=ebuyer.com
-@@||google.com/cse/cse.js$domain=collegehumor.com|movieweb.com|techspot.com|kqed.org|movie-list.com|howtogeek.com|toorgle.net|inman.com|eurogamer.de|tvtropes.org|arstechnica.com|antville.org|snopes.com
+@@||google.com/cse/cse.js$domain=collegehumor.com|movieweb.com|moviefanatic.com|techspot.com|kqed.org|movie-list.com|howtogeek.com|toorgle.net|inman.com|eurogamer.de|tvtropes.org|arstechnica.com|antville.org|snopes.com
 @@||googletagmanager.com/gtm.js?$domain=rockstargames.com
 @@||gq.com/js/ecomfw.min.js
 @@||greenbaypressgazette.com/odygel/lib/vendor/omniture/sitecatalyst.js
