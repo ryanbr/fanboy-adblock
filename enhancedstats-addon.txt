@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: ZWqEMGenPEhrlznft4jPNA
+! Checksum: FIm4BJf7E4vZnuRBlD5IQw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 5 Dec 2015
+! Updated: 6 Dec 2015
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -748,6 +748,7 @@ youporn.com###adblock_1
 @@||automotive.com^*/omniture/
 @@||bankaholic.com/omniture/$script
 @@||bankofamerica.com/pa/components/*/TouchClarity.js
+@@||barclays.co.uk/js/sitecatalyst/$domain=bank.barclays.co.uk
 @@||bbci.co.uk/bbcdotcom/*/omniture/siteCatalyst.js$domain=bbc.co.uk|bbc.com
 @@||bigfishsites.com/*/global/javascript/webtrends_capi_$domain=bigfishgames.com
 @@||bing.com/travel/scripts/sCode.js$~third-party
