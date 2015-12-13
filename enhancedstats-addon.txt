@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 2x1fgU5Ic0mxxu4UX17wtg
+! Checksum: gPptWtOW0kF146rv67Wh8Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 13 Dec 2015
 ! This list expires after 2 days
@@ -67,7 +67,6 @@
 /CoreMetricsTracking.
 /customOmnitureData.js
 /dcs_head.js
-/dcs_tag.js
 /dcs_tag1.js
 /dcs_tag2.js
 /dcs_tag_
@@ -80,7 +79,6 @@
 /eluminate_
 /figp.js
 /foresee-
-/foresee/*
 /foreseeforesee-
 /forsee-
 /foxomniture.swf
@@ -90,7 +88,6 @@
 /gaManager.js
 /gamepageomniture.
 /gannettomniture.swf
-/gapro-1.swf
 /gatag_v2.
 /global_analytics.
 /global_tracking.js
@@ -127,7 +124,6 @@
 /js/mbox_
 /js/omn/*
 /js/omni_
-/js/tracking.js
 /kenshoo.js
 /lib/boomerang/*$script
 /llbmetrics.
@@ -284,11 +280,8 @@
 /thcn_code_
 /touch-clarity.
 /TouchClarity.
-/touchclarity/*
 /tracking/hbx-
-/urchin.js
 /urchin_util.
-/v60.js
 /vs_code.js
 /wa_code.
 /wa_process.js
@@ -319,20 +312,16 @@
 /wmgbeaconcode.
 /wmps_tracker.
 /wt-tag.
-/wt_capi.js
 /wt_capi_
 /wt_plugins.
 /wt_tag.js
 /wt_tracking.
-/wtbase.
 /wtbase2.js
 /wtbrand.js
 /wtcollect.
-/wtCore.js
 /WTdcsCollect.js
 /WTFarmersSite.js
 /wtfindingmethod.
-/wtid.js
 /wtrack/?
 /wx-metrics.js
 =s_code.js
@@ -544,7 +533,6 @@ youporn.com###adblock_1
 ||cloudfront.net/capture/$script
 ||cloudharmony.net^$third-party
 ||consent-st.truste.com^$third-party
-||consent.truste.com^$third-party
 ||content.webcollage.net^$third-party
 ||doctortrusted.org^$third-party
 ||doubleclick.net^$third-party
@@ -577,7 +565,6 @@ youporn.com###adblock_1
 ||mcafeesecure.com/meter/$third-party
 ||mcafeesecure.com/verify-float?$third-party
 ||medals.bizrate.com^$third-party
-||my.leadpages.net^$third-party
 ||my.leadpages.net^$third-party
 ||natoms.com^$third-party
 ||nsg.symantec.com^$third-party
@@ -630,17 +617,14 @@ youporn.com###adblock_1
 ||predicta.com.br^$third-party
 ||site-id.nl^$third-party
 ||statsector.hu^$third-party
-||stealth.nl^$third-party
 ||tracknet.twyn.com^
 ||webcount.finn.no^
 !
 !---------- French Trackers ----------
 !
-/hit.xiti?
 ||be2.com/tracker;
 ||beead.fr^$third-party
 ||clickintext.net^$third-party
-||emailretargeting.com^
 ||ip-label.net/Data/coll.aspx?$third-party
 ||stats.stats.fr^
 ||tracking.bestofmicro.com^
@@ -648,7 +632,6 @@ youporn.com###adblock_1
 ||tracking.presence-pc.com^
 ||tracking.tomsguide.fr^
 ||veoxa.com^
-||wysistat.com^
 !
 !---------- Dutch Trackers ------------
 !
@@ -676,10 +659,6 @@ youporn.com###adblock_1
 ||trafficcenter.de^$third-party
 ||trk.newtention.net^
 !
-!---------- Danish Trackers ------------
-!
-||netminers.dk^$third-party
-!
 !---------- Anti Adblock Tracking ------
 !
 /abp_detection/*
@@ -701,13 +680,11 @@ youporn.com###adblock_1
 @@||ora.tv^*/adframe.js
 @@||photobucket.com^*/ads.js
 @@||ps4news.com/ad/adframe.js
-@@||techweekeurope.co.uk^*/advertising.js
 @@||theatlantic.com^*/advertisement.js
 @@||tnwcdn.com/assets/js/advertising.js$domain=thenextweb.com
 @@||vice.com/assets/js/vmp/adblocker/
 @@||vox-cdn.com/javascripts/lib/advertisement.
 ||cloudfront.net/abw.js
-||reutersmedia.net^*/px.js
 ||techweb.com/adblocktrack
 !
 ! test filter for google/gpt
@@ -734,7 +711,6 @@ youporn.com###adblock_1
 @@/webtrends.js$domain=usps.com|canon.com|horizon-bcbsnj.com|logitech.com|reuters.com|telegraph.co.uk|kaiserpermanente.org
 @@||aarp.net/etc/aarp/statics/global/js/omniture*.js
 @@||abcnews.com/assets/flash/kdp/omniturePlugin.swf
-@@||actiris.be/urchin.js
 @@||adobe.com/uber/js/*s_code
 @@||adobe.com/www.adobe.com/uber/js/pdc_s_code.js
 @@||adobedtm.com*/satellite-$script
