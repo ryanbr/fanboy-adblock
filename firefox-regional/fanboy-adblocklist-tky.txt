@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: tqB0IS9BSVM+SdU0cQx85A
+! Checksum: GDGFKqO7TZfjxxBqriEU8w
 ! Title: Fanboy's Turkish
 ! Updated: 11 Jan 2016
 ! This list expires after 4 days
@@ -73,6 +73,7 @@ _reklam_125_
 ||adv.letitbit.net^
 ||ahmetturan.org/splash.
 ||akademikles.org/omur/
+||akamaihd.net/hphotos-ak-xtf1/$image,domain=altyazilifilmizle.org
 ||akilli.tv^*/banner/
 ||aksam.com.tr/images/banner_
 ||alacaknevar.com/banner/
@@ -282,6 +283,7 @@ _reklam_125_
 ||ad.wslinx.com^$third-party
 ||adcater.com^$third-party
 ||admax.com.tr^$third-party
+||admdspc.com^$third-party
 ||admost.com^$third-party
 ||adnet.com.tr^$third-party
 ||adport.com.tr^$third-party
@@ -516,6 +518,9 @@ aktifhaber.com##.logo_banner
 aktifhaber.com##.text_banner
 aktifhaber.com##div[style="width: 300px; height: 250px; z-index: 2000;"]
 alkislarlayasiyorum.com###sagPromo
+altyazilifilmizle.org###psreklama
+altyazilifilmizle.org##.banneritem
+altyazilifilmizle.org##A[href^="http://med4ad.com/"]
 aofdersler.com###orderbar
 aofdersler.com##.myBox
 aofdersler.com##img[width="557"]
