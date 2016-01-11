@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: SBL95X0BFLQn3eyVh0EEFA
+! Checksum: ml5gB8qhZtxnMECl/DcSOA
 ! Title: Fanboy's Turkish
 ! Updated: 11 Jan 2016
 ! This list expires after 4 days
@@ -84,6 +84,7 @@ _reklam_125_
 ||aslanlar.tv/js/popup.js
 ||azginvideoo.com/vpillsss.gif
 ||azgnvideo.com/vidust.gif
+||bicaps.net/bicaps-bg*.jpg
 ||bitturk.net/banner.gif
 ||bitturk.net/pasta_tarifleri.gif
 ||bitturk.net/Vpills.swf
@@ -301,6 +302,7 @@ _reklam_125_
 ||altinpiyasa.com^*-banner.swf$third-party
 ||arabam.com^$third-party
 ||arealistikmanken.net^$third-party
+||artemisaffiliates.com^$third-party
 ||bakire.ws^$third-party
 ||baskentmedya.com^$third-party,object
 ||boldserver.net^$third-party
@@ -328,6 +330,7 @@ _reklam_125_
 ||orjinalmarket.net^$third-party
 ||orjinalshop.net^$third-party
 ||oyunsayar.com^$third-party
+||partnermatrix.com^$third-party
 ||penisbuyutucuhaplari.com^$third-party
 ||penisbuyutucum.org^$third-party
 ||rdrtr.com^$third-party
@@ -537,6 +540,9 @@ beyazgazete.com##[style="float:left;margin-top:15px;width:322px;height:309px;bac
 beyazgazete.com##[style="float:left;width:250px;margin-top:5px;height:250px;border:1px solid #000000"]
 beyazgazete.com##[style="float:right;height:380px;width:120px;"]
 beyazgazete.com##[style="float:right;width:728px;height:90px;border:5px solid #cccccc"]
+bicaps.net###toolbar
+bicaps.net##.bireklam
+bicaps.net##.external
 bitturk.net###sagSwfReklam
 bitturk.net###solSwfReklam
 bitturk.net###topbar
