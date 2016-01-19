@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: qAMvcuBeQNWkFdB93q65Ow
+! Checksum: /KX6A167+ADn0hHx7lvFBw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 19 Jan 2016
 ! This list expires after 2 days
@@ -583,6 +583,7 @@ youporn.com###adblock_1
 ||seal.stellaservice.com^$third-party
 ||seal.thawte.com^$third-party
 ||seal.verisign.com^$third-party
+||seal.websecurity.norton.com^$third-party
 ||sealserver.trustwave.com^$third-party
 ||securitymetrics.com^$third-party
 ||sellpoint.net^$third-party
