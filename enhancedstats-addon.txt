@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: WqExqqxygaH0eUNjQVtVew
+! Checksum: lUVlOx3RN+y27tmeNgEhKg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 23 Jan 2016
 ! This list expires after 2 days
@@ -692,6 +692,7 @@ youporn.com###adblock_1
 @@||vice.com/assets/js/vmp/adblocker/
 @@||vox-cdn.com/javascripts/lib/advertisement.
 ||cloudfront.net/abw.js
+||sqweb.com^$third-party
 ||techweb.com/adblocktrack
 !
 ! test filter for google/gpt
