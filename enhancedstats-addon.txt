@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: ySh388PxZw7+eNiB9DfgZw
+! Checksum: V8JfRQ7qts8d4B1Sse3nOg
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 31 Jan 2016
+! Updated: 8 Feb 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -661,6 +661,7 @@ youporn.com###adblock_1
 ||trk.newtention.net^
 !
 !---------- Anti Adblock Tracking ------
+! These filters are for websites tracking and monitoring adblock users
 !
 /abp_detection/*
 /adBlockerTrack_
