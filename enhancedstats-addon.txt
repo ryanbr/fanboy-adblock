@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: V8JfRQ7qts8d4B1Sse3nOg
+! Checksum: L3MR4XmP7eClWdBchlbzaw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 8 Feb 2016
+! Updated: 20 Feb 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -728,8 +728,8 @@ youporn.com###adblock_1
 @@||adobe.com/uber/js/*s_code
 @@||adobe.com/www.adobe.com/uber/js/pdc_s_code.js
 @@||adobedtm.com*/satellite-$script
-@@||adobedtm.com^*/mbox-contents-$script,domain=newyorker.com|lenovo.com|oprah.com|vanityfair.com
-@@||adobedtm.com^*/satelliteLib-$script,domain=realtor.com|elgiganten.dk|elgiganten.se|elkjop.no|gigantti.fi|markantalo.fi|newyorker.com|lenovo.com|oprah.com|laredoute.fr|vanityfair.com|stuff.co.nz
+@@||adobedtm.com^*/mbox-contents-$script,domain=newyorker.com|lenovo.com|oprah.com|vanityfair.com|wired.com
+@@||adobedtm.com^*/satelliteLib-$script,domain=realtor.com|elgiganten.dk|elgiganten.se|elkjop.no|gigantti.fi|markantalo.fi|newyorker.com|lenovo.com|oprah.com|laredoute.fr|vanityfair.com|stuff.co.nz|wired.com
 @@||akamai.net/*/www-origin.walmart.com/webanalytics/$domain=walmart.com
 @@||akamai.net^*/hints.netflame.cc/$domain=annualcreditreport.com
 @@||amd.com/*/scode_global.js
