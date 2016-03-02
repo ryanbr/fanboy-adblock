@@ -1,4 +1,5 @@
 @echo off
+:: test
 :: Sync
 :: This script needs b - Distributed Bug Tracking.
 :: Note: add /b to the .hg/hgrc under "[extensions]"
