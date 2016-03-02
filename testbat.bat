@@ -1,5 +1,6 @@
 @echo off
 hg pull -u
+:: Test
 :: pre-sort
 perl docs\sorting\sorter.pl fanboy-adblocklist-current-expanded.txt
 perl docs\sorting\sorter.pl fanboy-adblocklist-stats.txt
