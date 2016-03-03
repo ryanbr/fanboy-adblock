@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: VaE16KN+p877meKggpxv7Q
+! Checksum: B3Z6eSAsTmiO8k3j/cEu+Q
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 2 Mar 2016
+! Updated: 3 Mar 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -796,6 +796,7 @@ youporn.com###adblock_1
 @@||ft.com/regb/$xmlhttprequest
 @@||gamasutra.com/checkauth.php?
 @@||go.com/combiner/c?*.js,*/analytics/$script
+@@||google-analytics.com/analytics.js$domain=torrentfreak.com
 @@||google-analytics.com/cx/api.js$domain=boingboing.net
 @@||google-analytics.com/ga.js$domain=hoerzu.de|bangbros.com|theblaze.com|foxsports.com.au|cinemassacre.com|gumtree.com.au|comingsoon.neteverydayhealth.com|newyorker.com|dailyfreegames.com|opendns.com|aebn.net|intellicast.com|fossil.com|techbargains.com|search.diy.com|donanimhaber.com|boostmobile.com|filmweb.pl|break.com|mevio.com|mommyish.com|thegrindstone.com|sundance.org|justjared.com|kleinanzeigen.ebay.de|timberland.com|billboard.com|google.com|priceme.co.nz|banshee.fm|eonline.com|yellow.co.nz|logitech.com|lucasarts.com|tomshardware.com|maxcdn.com|tweetgrid.com|frequency.com|aftonbladet.se|seekingalpha.com|threatfire.com|bolha.com|jetbrains.com|fora.tv|thevine.com.au|americanapparel.net|mashable.com|brobible.com|oyster.com|photobucket.com|nuts.co.uk|meetme.com|alatest.com|apps.facebook.com|billabong.com|weeworld.com|youtube.com|philips.com|tvunetworks.com|g4tv.com|jobsite.co.uk|avast.com|ehow.com|gasbuddy.com|globaltv.com|nme.com|imageshack.us|tube8.com|priestville.org|latimes.com|umbro.com|tempe12.com|account.hirezstudios.com|salon.com|juxtapoz.com|wonka.com|medonet.pl|asus.com|7digital.com|lemonfree.com|babylon.com|theweek.com|bookadumpster.com|comingsoon.net|xda-developers.com|zoo.org.au
 @@||google-analytics.com/plugins/ua/ecommerce.js
