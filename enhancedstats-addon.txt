@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: RRUgImiN8erpDfGyGJidHw
+! Checksum: a2cz0UVCYJUey/11fcKNfg
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 5 Mar 2016
+! Updated: 9 Mar 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -423,7 +423,7 @@ youporn.com###adblock_1
 !
 ! ---------- 1st party blocking rules ----------
 !
-
+|http://$image,third-party,domain=extremetech.com
 ||53.com/resources/js/wt.js
 ||aarp.net/etc/aarp/statics/global/js/mbox.
 ||addthis.com/static/r07/core130.js
@@ -734,6 +734,7 @@ youporn.com###adblock_1
 @@||adobedtm.com*/satellite-$script
 @@||adobedtm.com^*/mbox-contents-$script,domain=newyorker.com|lenovo.com|oprah.com|vanityfair.com|wired.com
 @@||adobedtm.com^*/satelliteLib-$script,domain=realtor.com|elgiganten.dk|elgiganten.se|elkjop.no|gigantti.fi|markantalo.fi|newyorker.com|lenovo.com|oprah.com|laredoute.fr|vanityfair.com|stuff.co.nz|wired.com
+@@||adziff.com/pcmag/images/zd_footer_logo.png$image,domain=extremetech.com
 @@||akamai.net/*/www-origin.walmart.com/webanalytics/$domain=walmart.com
 @@||akamai.net^*/hints.netflame.cc/$domain=annualcreditreport.com
 @@||amd.com/*/scode_global.js
@@ -940,4 +941,5 @@ youporn.com###adblock_1
 @@||yimg.com^*/js/omniture-$script
 @@||yp.ca/js/utag.loader.js?$domain=yellowpages.ca
 @@||ytv.com/scripts.axd?$script
+@@||ziffstatic.com/adchoices/adchoices.png$image,domain=extremetech.com
 @@||zillowstatic.com/static/*/foresee-trigger.js$domain=zillow.com
