@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: HbvFzVcKropzTB7CjJ/+Ow
+! Checksum: hVcElB5QlYTgDJjUqp00Ww
 ! Title: Fanboy's Swedish
-! Updated: 20 Jun 2015
+! Updated: 25 Mar 2016
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -39,6 +39,7 @@
 ||gamereactor.se/ad/
 ||gp.se/polopoly_fs/*.swf
 ||hd.se/static/banners/
+||nyheter24.se/ad.html
 ||oas.dn.se^
 ||oskar.tradera.com/$object
 ||sifomedia.idg.se^
@@ -73,6 +74,7 @@ existenz.se###slidebox
 ||ad-emea.doubleclick.net/ad/$domain=aftonbladet.se
 ||adaptlogic.com^$third-party
 ||adoperator.com^$third-party
+||adten.eu^$third-party
 ||adtomafusion.com^$third-party
 ||adtoox.com^$third-party
 ||adtooxcloud.com^$third-party
@@ -109,6 +111,7 @@ existenz.se###slidebox
 ||tyda.se/js/siteclick.js
 ||videoplaza.com/proxy/tracker?
 ||videoplaza.tv/proxy/tracker?
+||youplay.se/track?
 !
 !---------- Swedish Whitelist ------------
 !
