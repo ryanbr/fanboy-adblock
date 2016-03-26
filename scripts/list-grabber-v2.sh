@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# Fanboy Adblock list grabber script v2.50 (27/01/2013)
+# Fanboy Adblock list grabber script v2.52 (26/03/2016)
 # Dual License CCby3.0/GPLv2
 # http://creativecommons.org/licenses/by/3.0/
 # http://www.gnu.org/licenses/gpl-2.0.html
 #
 # Version history
 #
+# 2.52 Add CookieMonster subscription
 # 2.51 Add Third-party font subscription
 # 2.50 Ultimate/Complete list based on merged list
 # 2.40 Include test Easylist sub generator
@@ -162,6 +163,26 @@ then
 else
    echo "Files are the same: fanboy-antifacebook.txt" > /dev/null
 fi
+
+############### Fanboy CookieMonster #################
+SSLHG=$($SHA256SUM $HGSERV/fanboy-cookiemonster.txt | cut -d' ' -f1)
+SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-cookiemonster.txt | cut -d' ' -f1)
+
+if [ "$SSLHG" != "$SSLMAIN" ]
+then
+    # Copy list
+    cp -f $HGSERV/fanboy-cookiemonster.txt $TESTDIR/fanboy-cookiemonster.txt
+    # Re-generate checksum
+    $ADDCHECKSUM $TESTDIR/fanboy-cookiemonster.txt
+    cp -f $TESTDIR/fanboy-cookiemonster.txt $MAINDIR/fanboy-cookiemonster.txt
+    rm -rf $MAINDIR/fanboy-cookiemonster.txt.gz
+    # GZip
+    $ZIP $MAINDIR/fanboy-cookiemonster.txt.gz $TESTDIR/fanboy-cookiemonster.txt > /dev/null
+else
+   echo "Files are the same: fanboy-cookiemonster.txt" > /dev/null
+fi
+
+
 
 ############### Fanboy Anti-Fonts #################
 SSLHG=$($SHA256SUM $HGSERV/fanboy-antifonts.txt | cut -d' ' -f1)
