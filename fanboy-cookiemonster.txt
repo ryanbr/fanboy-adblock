@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: Bgp/4LMBDnmwWjWHYYbzew
+! Checksum: QuUy4CPwAkTBber+iBjqdA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 26 Mar 2016
 ! This list expires after 2 days
@@ -1461,23 +1461,18 @@ androidpit.com##.cc_container
 anite.com,asda.com,ashridge.org.uk,chemistdirect.co.uk,consumeraffairs.org.uk,dur.ac.uk,ets2mp.com,festicket.com,luxottica.be,prtb.ie,redbull.com,royalparks.org.uk,tescomobile.ie,ukcisa.org.uk,unity3d.com,unknownphone.com,uptodown.com,viralnewschart.com##.cookies
 anpost.ie,barbican.org.uk,beanstalkcharity.org.uk,co-operative.coop,emrf.eu,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,granditalia.nl,homecinemachoice.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,phonearena.com,pokernews.com,premiumcredit.co.uk,private.com,solent.ac.uk,studentski.net,tsb.co.uk,volvocars.com###cookies
 aquacard.co.uk###popup
-area-codes.org.uk###baselink
 autoevolution.com###prajiturele
 autotask.com##.alertbar
 axs.com,virgin.com###privacy-policy
 bankofengland.co.uk##.container-notifications
 bbc.co.uk##.pulse-banner
-belkin.com###pagebanner
 bethesda.net,eveningtelegraph.co.uk,fundingcircle.com,princeofwales.gov.uk,sundaypost.com##.notification
 betsson.com###msgwrapper
 bigdeal.org.uk##div[style^="background-color: "]
 bing.com###b_notificationContainer
 bing.com##.hpn_top_container
-bleacherreport.com##.feedbackModule
 booktrust.org.uk###btg_notification
-boots.com###top_prompt
 bundlestars.com##div[style^="background: #424242; "]
-careerbuilder.co.uk###barIP
 cartdesigns.net##.boxContent
 cartoonnetwork.com###tos-bar
 castrol.com##.nv-notification-header
@@ -1516,24 +1511,18 @@ forumcommunity.net##.jnote
 foryoubyyou.org.uk##.optanon-alert-box-wrapper
 ft.com###consent
 fundedbyme.com##.pageNotification
-geewa.com###popupOverlay
-geewa.com###popupText
 gloucester.gov.uk,ico.org.uk,sematic.com###banner
 gocompare.com###policyBar
 googleapis.com##div[style$=";background-color:#5a5a5a"]
 gov.im##.site-warning
-groupe-logos.com##div[style="padding:8px;"]
 gumtree.com##.notification-box
 hattrick.org##.frontPage .container > .alert
 hlntv.com###terms-of-service-container
 hlntv.com###tos_pp_popup_container
 hmc.org.uk###modal-mask
-iceskating.org.uk###sliding_popup
 indeed.com###legalNotice
 ing.com###bcpm-notification-outer-border
 insights.nzherald.co.nz###top-banner-in-content
-iovox.com###hellobar
-jdpower.com##.region-alert
 jman.tv###ActionBar
 jotti.org##.alert-info
 jukegames.com,n-mobile.net###overbox3
@@ -1542,7 +1531,6 @@ kenweego.com,netweather.tv,twitch.tv##.alert
 landrover.co.uk##.NotificationBar
 last.fm##.site-message
 layar.com##.remarketing-banner
-leeds.gov.uk###siteStatement
 lego.com###GFSticky
 lg.com##.policyChk
 lifetechnologies.com,thermofisher.com##.specialMsg
@@ -1555,21 +1543,15 @@ mappy.com###IndexView-first-visit
 medicalxpress.com,techxplore.com,vcars.co.uk##.notice
 mercedes-benz.com###cLayer
 microsoft.com###PrivacyBanner
-microsoftstore.com##.notification-bar
 msn.com###conditionalbanner
 napster.com##.info_box
 nba.com###nba_tos
 nba.com###policy_wrapper
 nelly.com,nlyman.com###toast-container
-nestle.co.uk###nimgrowler
 novapdf.com###novapdf_accept_cookies
 office.com##.headPopup
 pattheduck.com###FISLCC
-pewresearch.org###audience-survey
-phoenixcontact.com###infoBoxFrame
 picturehouses.com##.interim-banner
-pinkladyapples.co.uk###banner-wrapper
-play.com##.global-banner
 plymouth.ac.uk##.page-notification
 qz.com###chyron
 ramboll-environ.com##.infoboxHolder
@@ -1577,12 +1559,10 @@ ramsayhealth.co.uk##.popupbox
 rapidonline.com##.DisplaySiteSplitMsgDiv
 ratemyprofessors.com##.overlay
 regenda.org.uk##.twelve_prop_wht
-rga.eu.com##div[style="background-color: #000; padding: 10px 15px; color: #eee; font:13px sans-serif; border-bottom: 1px solid #fff; text-align: center;"]
 robertozeno.com##.video-mask
 sandiegouniontribune.com###slide_banner_bottom
 savethechildren.org.uk##.policy-banner
 stargreen.com##div[style^="color: rgb(238, 238, 238);"]
-stringbeans-bistro.co.uk###c_OWrapper
 superiorwallpapers.com##.uk-alert
 tartybikes.co.uk###eureg
 tbs.com,tntdrama.com##.toast
