@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: XXESuy/tmKDVhbPNjaxdSA
+! Checksum: 10YupvZ5KxZwmk2c3Nx+Mw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 26 Mar 2016
 ! This list expires after 2 days
@@ -1763,6 +1763,7 @@ closermag.fr###fancybox-overlay
 closermag.fr###fancybox-wrap
 commentcamarche.net,jeux-gratuits.com,journaldesfemmes.com,journaldunet.com,linternaute.com##.ccmcss_oic
 cushmanwakefield.fr##.m-warning
+e-leclerc.com##.popover
 elpais.com###capaAvisoPoliticaCookies_superior_mensajes
 elsevier-masson.fr###myModal
 gentside.com,jules.com,laposte.fr,maxisciences.com,mybiclighter.com,ohmymag.com,showroomprive.com###cookies
