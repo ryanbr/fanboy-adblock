@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 421UGQ6vvMTWuk1Jf6qBcQ
+! Checksum: w1fuesjdbEtYmcfkfsDTdQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 26 Mar 2016
 ! This list expires after 2 days
@@ -1544,7 +1544,7 @@ layar.com##.remarketing-banner
 leeds.gov.uk###siteStatement
 lego.com###GFSticky
 lg.com##.policyChk
-lifetechnologies.com##.specialMsg
+lifetechnologies.com,thermofisher.com##.specialMsg
 livescore.com,livescores.com##.info-msg
 locatetv.com##.floatableBanner
 lrb.co.uk##div[style="border-bottom:1px solid #adadad;padding:5px;background:#f4f4f4;color:#333;font:1em/1 sans-serif"]
