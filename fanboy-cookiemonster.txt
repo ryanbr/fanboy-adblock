@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: UztvHHXcbIH5v0tl52xjuw
+! Checksum: XXESuy/tmKDVhbPNjaxdSA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 26 Mar 2016
 ! This list expires after 2 days
@@ -1457,7 +1457,6 @@ amazon.com###pldn-deep-link
 androidpit.com##.cc_container
 anite.com,asda.com,ashridge.org.uk,chemistdirect.co.uk,consumeraffairs.org.uk,dur.ac.uk,ets2mp.com,festicket.com,luxottica.be,prtb.ie,redbull.com,royalparks.org.uk,tescomobile.ie,ukcisa.org.uk,unity3d.com,unknownphone.com,uptodown.com,viralnewschart.com##.cookies
 anpost.ie,barbican.org.uk,beanstalkcharity.org.uk,co-operative.coop,emrf.eu,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,granditalia.nl,homecinemachoice.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,phonearena.com,pokernews.com,premiumcredit.co.uk,private.com,solent.ac.uk,studentski.net,tsb.co.uk,volvocars.com###cookies
-aptoide.com###news
 aquacard.co.uk###popup
 area-codes.org.uk###baselink
 autoevolution.com###prajiturele
@@ -1480,7 +1479,6 @@ cartdesigns.net##.boxContent
 cartoonnetwork.com###tos-bar
 castrol.com##.nv-notification-header
 cc.com###balaMainContainer
-cgeyeltd.com##div[style^="position: fixed; z-index: 1000; bottom: 0px; left: 0px; width: 100%;"]
 change.org##.flash-message-announcement
 channelregister.co.uk,theregister.co.uk###RegCCO
 cimaglobal.com###optanon
@@ -1674,12 +1672,10 @@ atman.pl###gbpl_oba
 bitbay.pl,telepolis.pl##.cookies
 bstorun.pl###comm_info
 cda.pl###box_info
-demotywatory.pl##div[style^="position: fixed; width: 750px; margin-left: -375px"]
 dobreprogramy.pl,newsweek.pl,play.pl,tripolo.pl###cookies
 dolce-gusto.pl###nimgrowler
 drony.net,gadzetomania.pl,komorkomania.pl###cop
 filmweb.pl###topBar
-gazetapolska.pl##div[style="border: 2px solid #900; clear: left; margin-left: auto; margin-right: auto; padding: 3px; width: 984px"]
 goldenline.pl###topReminder
 gornikzabrze.pl###sliding-popup
 gov.pl,osnews.pl,xfutbol.pl###cookie
@@ -1689,7 +1685,6 @@ interia.pl##.inplCCA
 kolejeslaskie.com###c_m
 lot.com###cc
 lovekrakow.pl###new-policy
-mamnewsa.pl##div[style="z-index: 100000; font-family:Arial; position: fixed; bottom: 0px; left: 0; background-color: #F4EFB4; color: #000000; text-align: center; font-weight: bold; padding: 20px 0px; width:100%;"]
 mikos.com.pl,negrasport.pl###topInfoContainer0
 mondeoklubpolska.pl###navbar_notice_12
 mpolska24.pl##.infoBox
@@ -1699,14 +1694,12 @@ panasonic.pl###CP_Layer
 pap.pl###divcook
 pl.yahoo.com##.yom-wave3-generic
 policja.pl##.informationBar
-portel.pl##div[style="font-size:10px;text-align:left;background-color: #EAF6B4;padding: 2px 7px;width:906px;margin: 0 auto;"]
 poznan.pl##.content-head-information
 radiomerkury.pl###privacyPolicyBox
 redbullmobile.pl###more1
 regenersis.pl###ctl00_cpanel
 skapiec.pl###uclaInfo
 speedtest.pl###info_container
-sportowybar.pl##div[style="width: 100%; background-color: #eee; color: #222;"]
 tripolo.pl###miastoszkolen
 vectra.pl##.jqmAlertWindow
 votepush.com##.alert
@@ -1770,8 +1763,6 @@ closermag.fr###fancybox-overlay
 closermag.fr###fancybox-wrap
 commentcamarche.net,jeux-gratuits.com,journaldesfemmes.com,journaldunet.com,linternaute.com##.ccmcss_oic
 cushmanwakefield.fr##.m-warning
-e-leclerc.com###bt_demo
-e-leclerc.com##.top_banner
 elpais.com###capaAvisoPoliticaCookies_superior_mensajes
 elsevier-masson.fr###myModal
 gentside.com,jules.com,laposte.fr,maxisciences.com,mybiclighter.com,ohmymag.com,showroomprive.com###cookies
