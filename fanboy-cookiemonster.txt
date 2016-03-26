@@ -1869,7 +1869,6 @@ tweakers.net#@#.cookieBar
 uktv.co.uk#@#.cookie-notice
 your-move.co.uk#@#.cookie_policy
 ! *** easylist:fanboy-addon/fanboy_annoyance_whitelist.txt ***
-
 @@||3dmark.com/proxycon/js/jquery.cookiesdirective.js
 @@||alicdn.com/js/*/ws-cookie.js$script
 @@||aliunicorn.com^*/cookie-info.js
