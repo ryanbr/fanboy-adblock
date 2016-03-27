@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: 0wkzU+kGPfjMdjUYv+15fw
+! Checksum: r2Hyx/F3B0MmEjsRB3oLKg
 ! Title: Fanboy's Cookiemonster List
-! Updated: 26 Mar 2016
+! Updated: 27 Mar 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -196,6 +196,7 @@
 /EU-cookielaw.
 /eu_cookie_$script,stylesheet
 /eu_cookies.
+/eu_privacy.js
 /eu_rp_cookie.
 /euc_cookie.js
 /eucookie.
@@ -764,6 +765,7 @@ _europecookielaw.
 ###disclaimerCookies
 ###disclaimerDialog_modal
 ###div_cookie
+###divcook
 ###divCookie
 ###divCookieAlert
 ###divCookieMsg
@@ -990,6 +992,7 @@ _europecookielaw.
 ###warning_cookie
 ###wdg_cookie_bar
 ###website-cookies
+###welcomebar-wrapper
 ###widget-vrtcookiebalk
 ###wk_cookiebar
 ###WP-cookie-info
@@ -1284,6 +1287,7 @@ _europecookielaw.
 ##.cookieWarningBox
 ##.CookieWrapper
 ##.cookiewrapper
+##.cookskom
 ##.cp-cookie-banner
 ##.ctl_CookieWarning
 ##.cwcookielaw
@@ -1437,6 +1441,7 @@ _europecookielaw.
 ##.wrapper--cookies-disclaimer
 ##.wrapperCookies
 ##.wsa-cookielaw
+#.popup-alert-notice
 ! Common Cookie element
 ###sliding-popup.sliding-popup-bottom
 ###sliding-popup.sliding-popup-top
@@ -1653,14 +1658,17 @@ decathlon.co.hu###cookie
 !---------- Polish Site Specific Hiding Rules ----------
 !
 atakklonow.pl,mistrzowie.org,wszechpolska.pl##div[style="position: fixed; left:0; right:0; bottom:0; height:120px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
+atk.com.pl###TB_window
 atman.pl###gbpl_oba
+bankmillennium.pl,dobreprogramy.pl,generali.pl,newsweek.pl,play.pl,tripolo.pl###cookies
 bitbay.pl,telepolis.pl##.cookies
 bstorun.pl###comm_info
 cda.pl###box_info
-dobreprogramy.pl,newsweek.pl,play.pl,tripolo.pl###cookies
 dolce-gusto.pl###nimgrowler
 drony.net,gadzetomania.pl,komorkomania.pl###cop
+e-zikoapteka.pl,tanie-leczenie.pl###notice_bar
 filmweb.pl###topBar
+flyordie.pl###eucc
 goldenline.pl###topReminder
 gornikzabrze.pl###sliding-popup
 gov.pl,osnews.pl,xfutbol.pl###cookie
@@ -1668,6 +1676,7 @@ gsmonline.pl###jGrowl
 home.pl###box_policies
 interia.pl##.inplCCA
 kolejeslaskie.com###c_m
+krakow.pl,wydawca.com.pl###kuki
 lot.com###cc
 lovekrakow.pl###new-policy
 mikos.com.pl,negrasport.pl###topInfoContainer0
@@ -1675,8 +1684,8 @@ mondeoklubpolska.pl###navbar_notice_12
 mpolska24.pl##.infoBox
 negrasport.pl###topInfoContainer1
 newseria.pl###cokPyt
+onet.pl##.policy-box
 panasonic.pl###CP_Layer
-pap.pl###divcook
 pl.yahoo.com##.yom-wave3-generic
 policja.pl##.informationBar
 poznan.pl##.content-head-information
@@ -1689,8 +1698,6 @@ tripolo.pl###miastoszkolen
 vectra.pl##.jqmAlertWindow
 votepush.com##.alert
 webelite.pl###infobar
-wtk.com.pl###TB_window
-wydawca.com.pl###kuki
 !
 !---------- Polish Site Specific Blocking Rules ----------
 !
@@ -1706,6 +1713,7 @@ wydawca.com.pl###kuki
 ||nowehoryzonty.pl/js/cookies.js
 ||orange.pl/ocp-http/map/js/cookies.js
 ||prideandglory.pl/polityka_cookies.js
+||privacy.totaaltv.nl^
 ||skryptcookies.pl^$third-party
 ||sycow.pl/a/cookie.js
 ||wkd.com.pl/cookies/cookies.js
