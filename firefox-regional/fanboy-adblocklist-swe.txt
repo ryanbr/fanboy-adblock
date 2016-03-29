@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: hVcElB5QlYTgDJjUqp00Ww
+! Checksum: NIFJOJ9h084VzfNt8CtDaA
 ! Title: Fanboy's Swedish
-! Updated: 25 Mar 2016
+! Updated: 29 Mar 2016
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -199,7 +199,9 @@ nd.se##TD[align="right"][width="200"]
 nordichardware.se##table[align="center"][width="490"]
 nordichardware.se##td[bgcolor="#FFFFFF"][width="500"]
 nordichardware.se##td[bgcolor="#FFFFFF"][width="576"]
+nyheter24.se##.advertisement
 nyheter24.se##.module_
+nyheter24.se##.wrapper > .gutter
 nyteknik.se##.ad
 nyteknik.se##.banner
 nyteknik.se##.job-teaser
