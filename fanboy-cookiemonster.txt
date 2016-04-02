@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: je6Fxld6DK79casMsC4C5A
+! Checksum: Wkv9+fgImE8mpb3uUAuvRA
 ! Title: Fanboy's Cookiemonster List
-! Updated: 31 Mar 2016
+! Updated: 2 Apr 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1838,9 +1838,11 @@ virgilio.it###bottom_chat
 !---------------------------------Whitelists----------------------------------!
 bankmillennium.pl#@#.cookies-info
 britishairways.com#@##cookieModal
-bulle-communication.com,edmond-de-rothschild.fr,foiredeparis.fr,galleria.io,icelandair.ca,icelandair.de,kintera.org,lamediathequedumarsan.fr,lesclesdelabanque.com,liciafox.net,normandinamik.cci.fr,pleinchamp.com,universityadmissions.se#@#.cookiebanner
+bulle-communication.com,lautoentrepreneur.fr,edmond-de-rothschild.fr,foiredeparis.fr,galleria.io,icelandair.ca,icelandair.de,kintera.org,lamediathequedumarsan.fr,lesclesdelabanque.com,liciafox.net,normandinamik.cci.fr,pleinchamp.com,universityadmissions.se#@#.cookiebanner
 filmweb.pl#@#.cookieInfo
 hearst.co.uk#@#.cookie-policy
+lautoentrepreneur.fr#@#.CookieBanner
+lautoentrepreneur.fr#@#.cookieBanner
 lg.com#@#.cookie-check
 media.netflix.com#@##cookieAlert
 mediapart.fr#@#.cookie-warn
