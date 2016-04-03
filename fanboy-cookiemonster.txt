@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: AJF8jkYM1ZfwoB4wwro0GA
+! Checksum: /tWmON1qNwksLGLcHcyAMg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 3 Apr 2016
 ! This list expires after 2 days
@@ -1506,6 +1506,7 @@ anglianwater.co.uk,abta.com,calvertjournal.com,cineworld.co.uk,hempel.co.uk,hemp
 anite.com,asda.com,ashridge.org.uk,chemistdirect.co.uk,consumeraffairs.org.uk,dur.ac.uk,ets2mp.com,festicket.com,luxottica.be,prtb.ie,redbull.com,royalparks.org.uk,tescomobile.ie,ukcisa.org.uk,unity3d.com,unknownphone.com,uptodown.com,viralnewschart.com,mclaren.com##.cookies
 anpost.ie,barbican.org.uk,beanstalkcharity.org.uk,co-operative.coop,emrf.eu,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,granditalia.nl,homecinemachoice.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,phonearena.com,pokernews.com,premiumcredit.co.uk,private.com,solent.ac.uk,studentski.net,tsb.co.uk,volvocars.com###cookies
 aquacard.co.uk###popup
+askinology.com##COOKIE-NOTICE
 autoevolution.com###prajiturele
 autotask.com##.alertbar
 axs.com,virgin.com###privacy-policy
