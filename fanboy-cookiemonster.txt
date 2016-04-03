@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: o8OlZ0H3AZ1jH/9nHYbpgA
+! Checksum: X+SpAWdhN2FiI78vIxfzfQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 3 Apr 2016
 ! This list expires after 2 days
@@ -1776,6 +1776,7 @@ aol.fr###ooCont
 aquellefrequence.fr,midilibre.fr,migreat.fr,sudouest.fr##.cookie
 aso.fr##.confidentialite
 auchan.fr##.loi_hamon
+bouyguestelecom.fr##.hfc--nc
 bycontext.com###lcBar
 ca-anjou-maine.fr,ca-briepicardie.fr,ca-cb.fr,ca-nord-est.fr##.recocliv2
 closermag.fr###fancybox-overlay
