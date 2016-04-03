@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: ghoYqpWIFuM8uHqY4OnCJA
+! Checksum: OUbZB2O763VCaOaBqiag4A
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 3 Apr 2016
 ! This list expires after 2 days
@@ -1658,6 +1658,9 @@ techzine.nl###scrollbuddy[style="top: -20px; position: fixed;"]
 tweakers.net##.notification
 ||cookiesv2.publiekeomroep.nl^
 ||tmgonlinemedia.nl/consent/script/consent.js
+!---------- German Site Generic Hiding Rules ----------
+!
+netzwelt.de##.ckch
 !
 !---------- Hungary Site Generic Hiding Rules ----------
 !
