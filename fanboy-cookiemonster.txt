@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: Qa/lRDzlLIFnGpF2pDxh+Q
+! Checksum: 0Wa41/VdnUp7o/1DaZw5IA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 8 Apr 2016
 ! This list expires after 2 days
@@ -1521,7 +1521,7 @@ agcas.org.uk,reliancebankltd.com###informationbar
 airvpn.org##DIV[style^="box-shadow:0em 0em"]
 alcatel-lucent.com,alpha.org,bigsocietycapital.com,boomerangtv.co.uk,box.com,cartoonnetwork.co.uk,eif.co.uk,integralmemory.com,investorsinpeople.co.uk,juce.com,middleeasteye.net,neteller.com,parkinsons.org.uk,rmg.co.uk,thalesgroup.com,topuniversities.com,ucas.com###sliding-popup
 amazon.com###pldn-deep-link
-anglianwater.co.uk,abta.com,calvertjournal.com,cineworld.co.uk,hempel.co.uk,hempelyacht.com,here.com,leonorgreyl.com,liptonicetea.com,natwest.com,postoffice.co.uk,rbs.co.uk,roalddahl.com,team-mediaportal.com,virgin-atlantic.com##.cookie
+anglianwater.co.uk,graspop.be,abta.com,calvertjournal.com,cineworld.co.uk,hempel.co.uk,hempelyacht.com,here.com,leonorgreyl.com,liptonicetea.com,natwest.com,postoffice.co.uk,rbs.co.uk,roalddahl.com,team-mediaportal.com,virgin-atlantic.com##.cookie
 anite.com,asda.com,ashridge.org.uk,chemistdirect.co.uk,consumeraffairs.org.uk,dur.ac.uk,ets2mp.com,festicket.com,luxottica.be,prtb.ie,redbull.com,royalparks.org.uk,tescomobile.ie,ukcisa.org.uk,unity3d.com,unknownphone.com,uptodown.com,viralnewschart.com,mclaren.com##.cookies
 anpost.ie,barbican.org.uk,beanstalkcharity.org.uk,co-operative.coop,emrf.eu,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,granditalia.nl,homecinemachoice.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,phonearena.com,pokernews.com,premiumcredit.co.uk,private.com,solent.ac.uk,studentski.net,tsb.co.uk,volvocars.com###cookies
 aquacard.co.uk###popup
