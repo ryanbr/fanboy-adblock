@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: xt/GDMadtpSk0Wp2OoJM6w
+! Checksum: 3Eqk3Bnz1Yac93emTrp5+A
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 8 Apr 2016
 ! This list expires after 2 days
@@ -1716,6 +1716,7 @@ agynamix.de###cookie
 cebit.de,hannovermesse.de##.user-notes-notification
 cushmanwakefield.de##.m-warning
 duden.de###sliding-popup
+hosteurope.de###cche
 kleiderkreisel.de##.js-notification
 netzwelt.de##.ckch
 !
