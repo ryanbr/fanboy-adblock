@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: kt5YDlGAIaT70Anj8aGIcQ
+! Checksum: ASXUBMt5PqIoR+SlHLaB5A
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 15 Apr 2016
 ! This list expires after 2 days
@@ -1814,8 +1814,8 @@ sverigesradio.se###user-message
 118000.fr,communauto.com,ouestjob.com##.cookies
 20minutes.fr##.alerts_container
 20minutes.fr##.notice
+6play.fr,aquellefrequence.fr,midilibre.fr,migreat.fr,sudouest.fr##.cookie
 aol.fr###ooCont
-aquellefrequence.fr,midilibre.fr,migreat.fr,sudouest.fr##.cookie
 aso.fr##.confidentialite
 auchan.fr##.loi_hamon
 bouyguestelecom.fr##.hfc--nc
