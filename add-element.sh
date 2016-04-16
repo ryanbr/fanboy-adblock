@@ -20,7 +20,9 @@ perl scripts/addChecksum.pl fanboy-antifacebook.txt fanboy-antifonts.txt enhance
 # Internet Explorer
 # perl scripts/addChecksum.pl ie/fanboy-adblock-addon.txt ie/fanboy-tracking-addon.txt ie/fanboy-russian-addon.txt
 # Commit
-git commit -a -m "$1"
+# git commit -a -m "$1"
+# Parse URLS better
+git commit -a -m "$(echo "$1" | sed "s!\.\([^./]*\(/\|$\)\)! \1!")"
 git push origin master
 # Commit (HG)
 # hg commit -m "$1"
