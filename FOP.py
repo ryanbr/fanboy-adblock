@@ -52,7 +52,7 @@ COMMITPATTERN = re.compile(r"^(A|M|P)\:\s(\((.+)\)\s)?(.*)$")
 
 # List the files that should not be sorted, either because they have a special sorting system or because they are not filter files
 IGNORE = ("Submissions for the Annoyances List.txt", "hg-searching.txt", "hg-howto.txt", "filter-additions.txt", "Windows_merge_notes.pdf",
-          "Windows_merge_notes.doc")
+          "Windows_merge_notes.doc", "website", "scripts", "docs")
 
 # List all Adblock Plus options (excepting domain, which is handled separately), as of version 1.3.9
 KNOWNOPTIONS = ("collapse", "document", "elemhide",
