@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: uO8maBrMvVjvXStARr6/Ew
+! Checksum: bjmRqvFwE3uo7UiCwLkmUA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 16 Apr 2016
 ! This list expires after 2 days
@@ -7,7 +7,7 @@
 ! Homepage: http://www.fanboy.co.nz/
 !
 !
-&referer=$script,image,xmlhttprequest,domain=~cdon.fi|~cdon.dk|~cdon.se|~cdon.no|~skype.com|~ratp.fr|~24ur.com
+&referer=$image,script,xmlhttprequest,domain=~24ur.com|~cdon.dk|~cdon.fi|~cdon.no|~cdon.se|~ratp.fr|~skype.com
 -coremetrics-
 -CoreMetrics.
 -elqImg.
@@ -419,14 +419,14 @@ wolframalpha.com###subpod_zoom
 !
 ! Adblock Warnings
 !
-flightradar24.com###responsiveBottomPanel
-flightradar24.com##.noads
-game-debate.com##.loadIn300by250
-hopesandfears.com##.adblock-message
+youporn.com###adblock_1
 playonlinux.com###ads
 unlimited-recipes.com#@##adsense
-vipleague.co,homerun.re,strikeout.co,vipbox.sx##SPAN > DIV
-youporn.com###adblock_1
+flightradar24.com###responsiveBottomPanel
+hopesandfears.com##.adblock-message
+game-debate.com##.loadIn300by250
+flightradar24.com##.noads
+homerun.re,strikeout.co,vipbox.sx,vipleague.co##span > div
 !
 ! ---------- 1st party blocking rules ----------
 !
@@ -449,7 +449,7 @@ youporn.com###adblock_1
 ||cbc.ca/includes/stats/hbx_
 ||ccom-cdn.com/assets/js/ga.js
 ||cdc.gov/JScript/metrics/
-||cf*.rackcdn.com^$script,domain=businessinsider.com|colbertlateshow.com|gamespot.com|comingsoon.net|cnet.com|flixist.com|mamma.com|destructoid.com|techrepublic.com|last.fm|metacritic.com|tvguide.com|cbsnews.com|metrolyrics.com|tv.com|mp3.com|cbssports.com|chow.com|gamefaqs.com|wikia.com|memory-alpha.org|conferenceusa.com|pch.com
+||cf*.rackcdn.com^$script,domain=businessinsider.com|cbsnews.com|cbssports.com|chow.com|cnet.com|colbertlateshow.com|comingsoon.net|conferenceusa.com|destructoid.com|flixist.com|gamefaqs.com|gamespot.com|last.fm|mamma.com|memory-alpha.org|metacritic.com|metrolyrics.com|mp3.com|pch.com|techrepublic.com|tv.com|tvguide.com|wikia.com
 ||chevron.com/js/chevron_ga.js
 ||cknw.com^*/s_cknwam_code.js
 ||cleartrip.com/javascripts/ga.*.js
@@ -559,10 +559,10 @@ youporn.com###adblock_1
 ||geo.query.yahoo.com^$third-party
 ||gleam.io^$third-party
 ||google-analytics.com^$third-party
-||google.co.il/cse/$third-party,~stylesheet
-||google.co.uk/cse/$third-party,~stylesheet
-||google.com/coop/cse/$third-party,~stylesheet
-||google.com/cse/$third-party,~stylesheet
+||google.co.il/cse/$~stylesheet,third-party
+||google.co.uk/cse/$~stylesheet,third-party
+||google.com/coop/cse/$~stylesheet,third-party
+||google.com/cse/$~stylesheet,third-party
 ||googlecommerce.com/trustedstores/$third-party,domain=~google.com
 ||googletagservices.com/tag/js/check*.js
 ||grvcdn.com/moth-min.js
@@ -718,7 +718,7 @@ youporn.com###adblock_1
 ||techweb.com/adblocktrack
 !
 ! test filter for google/gpt
-@@||googletagservices.com/tag/js/gpt.js$domain=my5.tv|ocregister.com|cwtv.com|realtor.com|phoronix.com|independent.co.uk|wwe.com|forbes.com|seahawks.com
+@@||googletagservices.com/tag/js/gpt.js$domain=cwtv.com|forbes.com|independent.co.uk|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
 ||googletagmanager.com/ns.html$third-party
 ||googletagservices.com/tag/js/gpt.js$third-party
 !
@@ -726,7 +726,7 @@ youporn.com###adblock_1
 !
 @@||tags.tiqcdn.com^*/utag.js$domain=cbsnews.com
 ||tags.tiqcdn.com^$third-party
-! 
+!
 !
 !---------- Anti Adblock Warnings ------
 !
@@ -739,22 +739,22 @@ youporn.com###adblock_1
 ! ---------- Whitelisting rules ----------
 !
 @@/cdn-cgi/pe/bag2?*pagead2.googlesyndication.com$domain=forwardprogressives.com
-@@/coremetrics.js$domain=potterybarn.com|potterybarnkids.com|westelm.com|williams-sonoma.com|odcdn.com
-@@/mbox.js$domain=dominos.com|aol.com|hrblock.com|live.com|movieweb.com|rd.com|skypeassets.com|superpages.com|wdpromedia.com
-@@/omniture.js$domain=seek.co.nz|seek.com.au|apple.com|mlb.com|newyorker.com|ae.com|couponcabin.com|corbisimages.com|delvenetworks.com|shop.puma.com|gq.com|healthgrades.com|pogo.com|nfl.com|slacker.com|teenvogue.com|veer.com|zdnet.com
+@@/coremetrics.js$domain=odcdn.com|potterybarn.com|potterybarnkids.com|westelm.com|williams-sonoma.com
+@@/mbox.js$domain=aol.com|dominos.com|hrblock.com|live.com|movieweb.com|rd.com|skypeassets.com|superpages.com|wdpromedia.com
+@@/omniture.js$domain=ae.com|apple.com|corbisimages.com|couponcabin.com|delvenetworks.com|gq.com|healthgrades.com|mlb.com|newyorker.com|nfl.com|pogo.com|seek.co.nz|seek.com.au|shop.puma.com|slacker.com|teenvogue.com|veer.com|zdnet.com
 @@/ots_omniture_code.js$~third-party
 @@/s-code-$domain=elgiganten.dk|elgiganten.se|elkjop.no|gigantti.fi|markantalo.fi
-@@/s_code.$domain=welcome.ingdirect.com.au|itworld.com|siriusxm.com|bodybuilding.com|gatesnotes.com|dice.com|ingdirect.es|greenbot.com|hallmark.com|hbogo.com|channel4.com|csoonline.com|sephora.fr|fedex.com|syfy.com|cio.com|car2go.com|cbc.ca|simyo.de|nbc.com|debenhams.com|abcnews.go.com|abc.go.com|aetv.com|afl.com.au|americanexpress.com|disneyinternational.com|anz.com|blackberry.com|boostmobile.com|canon.com.au|caranddriver.com|nba.com|cfnews13.com|cinemax.com|countryliving.com|dhgate.com|diy.com|eonline.com|esquire.com|fandango.com|filemaker.com|filmmagic.com|goodhousekeeping.com|here.com|hasbro.com|homedepot.com|lg.com|landsend.com|infoworld.com|nwolb.com|laptopmag.com|ksl.com|shop.puma.com|beatsbydre.com|macworld.com|madcatz.com|marieclaire.com|msacademicverify.com|marthastewart.com|marthastewartweddings.com|nintendo.com|nbcdfw.com|nbclosangeles.com|nbcmiami.com|networkworld.com|news12.com|nike.com|olivegarden.com|online.citibank.com|oreillyauto.com|pcworld.com|randomhouse.com|redbookmag.com|rolandgarros.com|samsung.com|stamfordadvocate.com|staples.com|starz.com|move.com|192.com|style.com|symantec.com|techhive.com|nflcdn.com|overstock.com|sho.com|sprint.com|teenvogue.com|telecom.co.nz|theglobeandmail.com|theweathernetwork.com|vendaria.com|verizonwireless.com|wdpromedia.com|wholeliving.com|wireimage.com|workingmother.com|yellow.co.nz|yellowpages.com.au|zdnet.com|experian.com|sonypictures.com|qz.com
-@@/s_code_$domain=lg.com|adobe.com|java.com|apple.com|autodesk.com|deseretnews.com|makemytrip.com|beautyoftheweb.com|talx.com|norton.com|eonline.com|eweek.com|frontdoor.com|kaspersky.co.uk|lego.com|lenovo.com|nflcdn.com|nvidia.com|optimum.net|pepperidgefarm.com|resources.ea.com|restaurant.com|samsung.com|kmart.com|style.com|walgreens.com|wiley.com|abc.go.com|forbes.com|virginmedia.com
+@@/s_code.$domain=192.com|abc.go.com|abcnews.go.com|aetv.com|afl.com.au|americanexpress.com|anz.com|beatsbydre.com|blackberry.com|bodybuilding.com|boostmobile.com|canon.com.au|car2go.com|caranddriver.com|cbc.ca|cfnews13.com|channel4.com|cinemax.com|cio.com|countryliving.com|csoonline.com|debenhams.com|dhgate.com|dice.com|disneyinternational.com|diy.com|eonline.com|esquire.com|experian.com|fandango.com|fedex.com|filemaker.com|filmmagic.com|gatesnotes.com|goodhousekeeping.com|greenbot.com|hallmark.com|hasbro.com|hbogo.com|here.com|homedepot.com|infoworld.com|ingdirect.es|itworld.com|ksl.com|landsend.com|laptopmag.com|lg.com|macworld.com|madcatz.com|marieclaire.com|marthastewart.com|marthastewartweddings.com|move.com|msacademicverify.com|nba.com|nbc.com|nbcdfw.com|nbclosangeles.com|nbcmiami.com|networkworld.com|news12.com|nflcdn.com|nike.com|nintendo.com|nwolb.com|olivegarden.com|online.citibank.com|oreillyauto.com|overstock.com|pcworld.com|qz.com|randomhouse.com|redbookmag.com|rolandgarros.com|samsung.com|sephora.fr|sho.com|shop.puma.com|simyo.de|siriusxm.com|sonypictures.com|sprint.com|stamfordadvocate.com|staples.com|starz.com|style.com|syfy.com|symantec.com|techhive.com|teenvogue.com|telecom.co.nz|theglobeandmail.com|theweathernetwork.com|vendaria.com|verizonwireless.com|wdpromedia.com|welcome.ingdirect.com.au|wholeliving.com|wireimage.com|workingmother.com|yellow.co.nz|yellowpages.com.au|zdnet.com
+@@/s_code_$domain=abc.go.com|adobe.com|apple.com|autodesk.com|beautyoftheweb.com|deseretnews.com|eonline.com|eweek.com|forbes.com|frontdoor.com|java.com|kaspersky.co.uk|kmart.com|lego.com|lenovo.com|lg.com|makemytrip.com|nflcdn.com|norton.com|nvidia.com|optimum.net|pepperidgefarm.com|resources.ea.com|restaurant.com|samsung.com|style.com|talx.com|virginmedia.com|walgreens.com|wiley.com
 @@/thePlatform-omniture-core.js$~third-party
-@@/webtrends.js$domain=usps.com|canon.com|horizon-bcbsnj.com|logitech.com|reuters.com|telegraph.co.uk|kaiserpermanente.org
+@@/webtrends.js$domain=canon.com|horizon-bcbsnj.com|kaiserpermanente.org|logitech.com|reuters.com|telegraph.co.uk|usps.com
 @@||aarp.net/etc/aarp/statics/global/js/omniture*.js
 @@||abcnews.com/assets/flash/kdp/omniturePlugin.swf
 @@||adobe.com/uber/js/*s_code
 @@||adobe.com/www.adobe.com/uber/js/pdc_s_code.js
 @@||adobedtm.com*/satellite-$script
-@@||adobedtm.com^*/mbox-contents-$script,domain=newyorker.com|lenovo.com|oprah.com|vanityfair.com|wired.com
-@@||adobedtm.com^*/satelliteLib-$script,domain=nbcnews.com|realtor.com|elgiganten.dk|elgiganten.se|elkjop.no|gigantti.fi|markantalo.fi|newyorker.com|lenovo.com|oprah.com|laredoute.fr|vanityfair.com|stuff.co.nz|wired.com
+@@||adobedtm.com^*/mbox-contents-$script,domain=lenovo.com|newyorker.com|oprah.com|vanityfair.com|wired.com
+@@||adobedtm.com^*/satelliteLib-$script,domain=elgiganten.dk|elgiganten.se|elkjop.no|gigantti.fi|laredoute.fr|lenovo.com|markantalo.fi|nbcnews.com|newyorker.com|oprah.com|realtor.com|stuff.co.nz|vanityfair.com|wired.com
 @@||adziff.com/pcmag/images/zd_footer_logo.png$image,domain=extremetech.com
 @@||akamai.net/*/www-origin.walmart.com/webanalytics/$domain=walmart.com
 @@||akamai.net^*/hints.netflame.cc/$domain=annualcreditreport.com
@@ -822,13 +822,13 @@ youporn.com###adblock_1
 @@||gamasutra.com/checkauth.php?
 @@||go.com/combiner/c?*.js,*/analytics/$script
 @@||google-analytics.com/cx/api.js$domain=boingboing.net
-@@||google-analytics.com/ga.js$domain=liptonicetea.com|hoerzu.de|bangbros.com|theblaze.com|foxsports.com.au|cinemassacre.com|gumtree.com.au|comingsoon.neteverydayhealth.com|newyorker.com|dailyfreegames.com|opendns.com|aebn.net|intellicast.com|fossil.com|techbargains.com|search.diy.com|donanimhaber.com|boostmobile.com|filmweb.pl|break.com|mevio.com|mommyish.com|thegrindstone.com|sundance.org|justjared.com|kleinanzeigen.ebay.de|timberland.com|billboard.com|google.com|priceme.co.nz|banshee.fm|eonline.com|yellow.co.nz|logitech.com|lucasarts.com|tomshardware.com|maxcdn.com|tweetgrid.com|frequency.com|aftonbladet.se|seekingalpha.com|threatfire.com|bolha.com|jetbrains.com|fora.tv|thevine.com.au|americanapparel.net|mashable.com|brobible.com|oyster.com|photobucket.com|nuts.co.uk|meetme.com|alatest.com|apps.facebook.com|billabong.com|weeworld.com|youtube.com|philips.com|tvunetworks.com|g4tv.com|jobsite.co.uk|avast.com|ehow.com|gasbuddy.com|globaltv.com|nme.com|imageshack.us|tube8.com|priestville.org|latimes.com|umbro.com|tempe12.com|account.hirezstudios.com|salon.com|juxtapoz.com|wonka.com|medonet.pl|asus.com|7digital.com|lemonfree.com|babylon.com|theweek.com|bookadumpster.com|comingsoon.net|xda-developers.com|zoo.org.au
+@@||google-analytics.com/ga.js$domain=7digital.com|account.hirezstudios.com|aebn.net|aftonbladet.se|alatest.com|americanapparel.net|apps.facebook.com|asus.com|avast.com|babylon.com|bangbros.com|banshee.fm|billabong.com|billboard.com|bolha.com|bookadumpster.com|boostmobile.com|break.com|brobible.com|cinemassacre.com|comingsoon.net|comingsoon.neteverydayhealth.com|dailyfreegames.com|donanimhaber.com|ehow.com|eonline.com|filmweb.pl|fora.tv|fossil.com|foxsports.com.au|frequency.com|g4tv.com|gasbuddy.com|globaltv.com|google.com|gumtree.com.au|hoerzu.de|imageshack.us|intellicast.com|jetbrains.com|jobsite.co.uk|justjared.com|juxtapoz.com|kleinanzeigen.ebay.de|latimes.com|lemonfree.com|liptonicetea.com|logitech.com|lucasarts.com|mashable.com|maxcdn.com|medonet.pl|meetme.com|mevio.com|mommyish.com|newyorker.com|nme.com|nuts.co.uk|opendns.com|oyster.com|philips.com|photobucket.com|priceme.co.nz|priestville.org|salon.com|search.diy.com|seekingalpha.com|sundance.org|techbargains.com|tempe12.com|theblaze.com|thegrindstone.com|thevine.com.au|theweek.com|threatfire.com|timberland.com|tomshardware.com|tube8.com|tvunetworks.com|tweetgrid.com|umbro.com|weeworld.com|wonka.com|xda-developers.com|yellow.co.nz|youtube.com|zoo.org.au
 @@||google-analytics.com/plugins/ua/ecommerce.js
-@@||google-analytics.com/urchin.js$domain=expresspcparts.com.au|roblox.com|live.euroleague.net
+@@||google-analytics.com/urchin.js$domain=expresspcparts.com.au|live.euroleague.net|roblox.com
 @@||google.com/analytics/js/analytics.min.js$~third-party
 @@||google.com/coop/cse/brand?form=searchbox_$script,domain=wellness.com
 @@||google.com/cse/*/sayt.js$domain=ebuyer.com
-@@||google.com/cse/cse.js$domain=collegehumor.com|movieweb.com|moviefanatic.com|japantimes.co.jp|techspot.com|clickssl.com|kqed.org|movie-list.com|howtogeek.com|toorgle.net|inman.com|eurogamer.de|tvtropes.org|arstechnica.com|antville.org|snopes.com
+@@||google.com/cse/cse.js$domain=antville.org|arstechnica.com|clickssl.com|collegehumor.com|eurogamer.de|howtogeek.com|inman.com|japantimes.co.jp|kqed.org|movie-list.com|moviefanatic.com|movieweb.com|snopes.com|techspot.com|toorgle.net|tvtropes.org
 @@||gq.com/js/ecomfw.min.js
 @@||greenbaypressgazette.com/odygel/lib/vendor/omniture/sitecatalyst.js
 @@||guardianapps.co.uk/jwplayer/omniture-H.25.2d.js
@@ -893,9 +893,9 @@ youporn.com###adblock_1
 @@||omniture.com^$document,~third-party
 @@||ooyala.com/3rdparty/comscore_other_$domain=marthastewart.com
 @@||ooyala.com/3rdparty/omniture_module-$domain=bizjournals.com|telegraph.co.uk
-@@||ooyala.com/3rdparty/omniture_other_$domain=thesun.co.uk|bloomberg.com|businessweek.com|nintendo.com|marthastewart.com
+@@||ooyala.com/3rdparty/omniture_other_$domain=bloomberg.com|businessweek.com|marthastewart.com|nintendo.com|thesun.co.uk
 @@||optimum.net/js/omniture/external.js
-@@||outbrain.com/nanoWidget/3rd/comScore/comScore.htm$domain=theinsider.com|telegraph.co.uk
+@@||outbrain.com/nanoWidget/3rd/comScore/comScore.htm$domain=telegraph.co.uk|theinsider.com
 @@||payback.de/script/s_code-*.js
 @@||paypalobjects.com^*/site_catalyst/
 @@||pcworld.com/script/omniture/video.js
@@ -916,7 +916,7 @@ youporn.com###adblock_1
 @@||s-msft.com/Combined.js?$script,domain=msdn.microsoft.com
 @@||s.xe.com/*/js/webtrends.1.js
 @@||screenname.aol.com/auth/getToken?*&referer$domain=reader.aol.com
-@@||script.ioam.de/iam.js$domain=snacktv.de|hoerzu.de
+@@||script.ioam.de/iam.js$domain=hoerzu.de|snacktv.de
 @@||sears.com/etc/clientlibs/foundation/sitecatalyst/sitecatalyst.min.js
 @@||seeingwithsound.com/ga.js
 @@||shld.net^*/mbox_09.js$domain=sears.com

@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
 ! Checksum: Ziwm36qslxBaGYNLWSHqrA
-! Fanboy's International-stats-addon Adblock list 
+! Fanboy's International-stats-addon Adblock list
 ! Updated: 28 Feb 2011
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -213,7 +213,7 @@ _stat.php?$image
 .kr^*/siteoverlay2.js|
 .net/wlo.js
 .roi.tracer.
-.ru:8080/$third-party,script
+.ru:8080/$script,third-party
 .weblogger.js|
 /&res_w=
 //countweb.$third-party
@@ -319,7 +319,7 @@ _stat.php?$image
 /weblog.asp?
 /weblog.do?
 /webLog.js|
-/weblog/*$script,subdocument,image
+/weblog/*$image,script,subdocument
 /weblog1.$third-party
 /weblog2.js|
 /weblog_
@@ -495,7 +495,7 @@ http://logping.
 !
 !---------- Russian Trackers ------------
 !
-.cqc.ru/*
+.cqc.ru/
 .ru/cnt/?
 .ru/counter?
 .ru/counters?
@@ -551,7 +551,7 @@ http://logping.
 ||hc.uralweb.ru^
 ||hiddenjs.ru^$third-party
 ||hit.meta.ua^
-||hmn.ru/counterdb.php?$image,background
+||hmn.ru/counterdb.php?$background,image
 ||hotlog.ru^$third-party
 ||img.kleo.ru/cgi-bin/$image
 ||inetlog.ru^$third-party
@@ -578,10 +578,10 @@ http://logping.
 ||opensharing.org/s/avtokorea
 ||partner.join.com.ua^$third-party
 ||partners.meganews.kiev.ua^$third-party
-||pics.rbc.ru^*/234-60. 
+||pics.rbc.ru^*/234-60.
 ||pics.rbc.ru^*/img.gif?_
 ||post.rmbn.ru^$third-party
-||price.ua^$third-party,subdocument
+||price.ua^$subdocument,third-party
 ||proext.com^$third-party
 ||protrafv2.com^$third-party
 ||pxreg.onlineservicesas.com^$third-party
@@ -610,7 +610,7 @@ http://logping.
 ||stat2.mc2.ru^$third-party
 ||stat24.com^$third-party
 ||stat24.meta.ua^$third-party
-||static.terrhq.ru^$third-party,subdocument
+||static.terrhq.ru^$subdocument,third-party
 ||statistics.ro^$third-party
 ||t.pusk.ru^$third-party
 ||tbe.tom.ru^$third-party
@@ -721,9 +721,9 @@ _gemius.
 ||tr.bt.alice.it^$third-party
 ||tracker.bestshopping.com^$third-party
 ||virgilio.it/clientinfo.gif?
-||webbificio.com^*http$third-party,image
+||webbificio.com^*http$image,third-party
 ||whatuseek.com/htmlbox.go?$image
 !
 !---------- Whitelists ----------
 !
-@@/weblog/*$domain=mplus-fonts.sourceforge.jp|f-secure.com
+@@/weblog/*$domain=f-secure.com|mplus-fonts.sourceforge.jp

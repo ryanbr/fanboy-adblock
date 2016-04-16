@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: NIFJOJ9h084VzfNt8CtDaA
+! Checksum: 7zYZtDp4I5FVWtn5uzEmPg
 ! Title: Fanboy's Swedish
-! Updated: 29 Mar 2016
+! Updated: 16 Apr 2016
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -35,7 +35,7 @@
 ||flashback.org/img/b/
 ||flashback.se/img/banners/
 ||fusion.expressen.se^
-||fz.se/media*$image,domain=automotorsport.se
+||fz.se/media$image,domain=automotorsport.se
 ||gamereactor.se/ad/
 ||gp.se/polopoly_fs/*.swf
 ||hd.se/static/banners/
@@ -116,7 +116,7 @@ existenz.se###slidebox
 !---------- Swedish Whitelist ------------
 !
 @@||adtlgc.com/js/sc_svd_w2.js$domain=svd.se
-@@||emediate.se^$domain=tv6play.se|tv3play.se|tv8play.se
+@@||emediate.se^$domain=tv3play.se|tv6play.se|tv8play.se
 @@||fragbite.se/js/adsense.js
 @@||hallandsposten.abcdn.net^*/RealMedia/
 @@||oas.dn.se/*/annonstorget_DN/$script
@@ -132,97 +132,94 @@ existenz.se###slidebox
 !
 aftonbladet.se###abExtraColumnOuter
 aftonbladet.se###abHeaderAdStreamer
-aftonbladet.se##.abTopStreamer
-aftonbladet.se##div[class^="abTeaserImageColumn abBoxTheme"]
-allehanda.se##.mf_banner
-allehanda.se##img[width="468"][height="22"]
-arbetarbladet.se###mittzon
-arbetarbladet.se##.pageBlock.column100
 blocket.se###active_trips
+fragbite.se###adblock_info
 blocket.se###bank_calculators
+tradera.com###bannerSkyscraper
+tradera.com###bannerTop
 blocket.se###banner_list_top
 blocket.se###banner_view_top
 blocket.se###bannercont
+dn.se###board-enirolinks
 blocket.se###carfax_extras
+hd.se###com
 blocket.se###eas_iframe_listning
 blocket.se###family_trips
+gp.se###gptvBannerRight
+cartoonnetwork.se###header
+svd.se###in-between-2
+destination.se###insider
 blocket.se###jobb_gallery
+corren.se###lokusSearchDiv
+unt.se###lokusspan
 blocket.se###minimedia_list_view
+arbetarbladet.se###mittzon
 blocket.se###motesplatsen_list_view
 blocket.se###motesplatsen_top
 blocket.se###panorama
-blocket.se###partners
-blocket.se###sport_trips
-blocket.se##.banner_top
-blocket.se##.eas_container
-blocket.se##.eas_expander
-blocket.se##.fif
-blocket.se##.motesplatsen
-bohuslaningen.se##.cg-teaserWrapper
-cartoonnetwork.se###header
-corren.se###lokusSearchDiv
-corren.se###topjobs
-corren.se##.open-house-container
-dagen.se##.box_platsjournalen
-dalademokraten.se##.LazyLoadingTop
-destination.se###insider
 destination.se###panorama-inner
-destination.se###sticky
-destination.se###topbanner
-destination.se###tower
-dn.se###board-enirolinks
-dn.se##.box.box-html.box-first
-dn.se##.lp_logobox
-dreamfilmhd.com##DIV[style="background-color:rgba(0,0,0,0.1);width:750px;height:100px;margin:0 5px 0 5px"]
-dreamfilmhd.com##DIV[style="width:750px;clear:both;margin:0 0 10px 0;padding:0;"]
-expo.se##.ad
-expressen.se##a[href^="http://marketnews.se/"]
-flashback.org##.banner_text
-flashback.se###top-banner
-folkbladet.se##[style="border: 1px solid rgb(126, 169, 204); font-family: arial; font-size: 12px; background-color: rgb(255, 255, 255); width: 200px;"]
-folkbladet.se##[style="margin-bottom: 15px; width: 200px; background-color: rgb(199, 231, 231);"]
-fragbite.se###adblock_info
-fragbite.se##div[style="margin:62px 9px 0px 0px;height:91px;width:780px;"]
+blocket.se###partners
 google.se###rhsline
+blocket.se###sport_trips
+destination.se###sticky
 google.se###tads
-gp.se###gptvBannerRight
-gp.se##.simpleTeaserContainer
-hd.se###com
-idg.se##.job_list_container_no_scroll
-idg.se##.pocket-format-wrap
-jnytt.se##div[style="padding: 2px 0px 2px 2px;"]
-jnytt.se##td[bgcolor="#e7e7e7"][style="padding-bottom: 3px; padding-top: 3px;"]
-loading.se##[style="width: 1000px; height: 93px; cursor: pointer;"]
-market.se##.container_banner
-marketnews.se##img[width="250"][height="800"]
-nd.se##TD[align="right"][width="200"]
-nordichardware.se##table[align="center"][width="490"]
-nordichardware.se##td[bgcolor="#FFFFFF"][width="500"]
-nordichardware.se##td[bgcolor="#FFFFFF"][width="576"]
+flashback.se###top-banner
+destination.se###topbanner
+corren.se###topjobs
+destination.se###tower
+dalademokraten.se##.LazyLoadingTop
+swefilmer.com##.a-el
+aftonbladet.se##.abTopStreamer
+expo.se,nyteknik.se,svd.se##.ad
 nyheter24.se##.advertisement
-nyheter24.se##.module_
-nyheter24.se##.wrapper > .gutter
-nyteknik.se##.ad
+unt.se##.annonsbox
 nyteknik.se##.banner
-nyteknik.se##.job-teaser
-nyteknik.se##.jobs
+sweclockers.com##.banner[style="min-height: 122px;"]
+flashback.org##.banner_text
+blocket.se##.banner_top
+dn.se##.box.box-html.box-first
+dagen.se##.box_platsjournalen
+bohuslaningen.se##.cg-teaserWrapper
 ostran.se##.clsHtml
 ostran.se##.clsImageCenter
 ostran.se##.clsMainAdsHead
 ostran.se##.clsRightAds
 ostran.se##.clsTopJobs
-rakaka.se##IMG[src="content/annons.jpg"]
-realtid.se##p[style="margin: 0pt 0pt 3px; clear: both;"]
-svd.se###in-between-2
-svd.se##.ad
-svd.se##.ad
-sweclockers.com##.banner[style="min-height: 122px;"]
-sweclockers.com##div[style="min-height: 250px;"]
-swefilmer.com##.a-el
-swefilmer.com##DIV[style="text-align:center;font-size:14px;color:gray"]
+market.se##.container_banner
+blocket.se##.eas_container
+blocket.se##.eas_expander
+blocket.se##.fif
+nyteknik.se##.job-teaser
+idg.se##.job_list_container_no_scroll
+nyteknik.se##.jobs
+dn.se##.lp_logobox
+allehanda.se##.mf_banner
+nyheter24.se##.module_
+blocket.se##.motesplatsen
+corren.se##.open-house-container
+arbetarbladet.se##.pageBlock.column100
+idg.se##.pocket-format-wrap
 tankafetast.com##.rightColBox
-tradera.com###bannerSkyscraper
-tradera.com###bannerTop
+gp.se##.simpleTeaserContainer
 tradera.com##.topBannerContainerSlim
-unt.se###lokusspan
-unt.se##.annonsbox
+nyheter24.se##.wrapper > .gutter
+folkbladet.se##[style="border: 1px solid rgb(126, 169, 204); font-family: arial; font-size: 12px; background-color: rgb(255, 255, 255); width: 200px;"]
+folkbladet.se##[style="margin-bottom: 15px; width: 200px; background-color: rgb(199, 231, 231);"]
+loading.se##[style="width: 1000px; height: 93px; cursor: pointer;"]
+expressen.se##a[href^="http://marketnews.se/"]
+aftonbladet.se##div[class^="abTeaserImageColumn abBoxTheme"]
+dreamfilmhd.com##div[style="background-color:rgba(0,0,0,0.1);width:750px;height:100px;margin:0 5px 0 5px"]
+fragbite.se##div[style="margin:62px 9px 0px 0px;height:91px;width:780px;"]
+sweclockers.com##div[style="min-height: 250px;"]
+jnytt.se##div[style="padding: 2px 0px 2px 2px;"]
+swefilmer.com##div[style="text-align:center;font-size:14px;color:gray"]
+dreamfilmhd.com##div[style="width:750px;clear:both;margin:0 0 10px 0;padding:0;"]
+rakaka.se##img[src="content/annons.jpg"]
+marketnews.se##img[width="250"][height="800"]
+allehanda.se##img[width="468"][height="22"]
+realtid.se##p[style="margin: 0pt 0pt 3px; clear: both;"]
+nordichardware.se##table[align="center"][width="490"]
+nd.se##td[align="right"][width="200"]
+nordichardware.se##td[bgcolor="#FFFFFF"][width="500"]
+nordichardware.se##td[bgcolor="#FFFFFF"][width="576"]
+jnytt.se##td[bgcolor="#e7e7e7"][style="padding-bottom: 3px; padding-top: 3px;"]

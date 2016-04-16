@@ -63,9 +63,8 @@ KNOWNOPTIONS = ("collapse", "document", "elemhide",
 # List the supported revision control system commands
 REPODEF = collections.namedtuple("repodef", "name, directory, locationoption, repodirectoryoption, checkchanges, difference, commit, pull, push")
 GIT = REPODEF(["git"], "./.git/", "--work-tree=", "--git-dir=", ["status", "-s", "--untracked-files=no"], ["diff"], ["commit", "-m"], ["pull"], ["push"])
-HG = REPODEF(["hg"], "./.hg/", "-R", None, ["stat", "-q"], ["diff"], ["commit", "-m"], ["pull"], ["push"])
-REPOTYPES = (GIT, HG)
-#REPOTYPES = (GIT)
+#HG = REPODEF(["hg"], "./.hg/", "-R", None, ["stat", "-q"], ["diff"], ["commit", "-m"], ["pull"], ["push"])
+REPOTYPES = (GIT, GIT)
 
 def start ():
     """ Print a greeting message and run FOP in the directories

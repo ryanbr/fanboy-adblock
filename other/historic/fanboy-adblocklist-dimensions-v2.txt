@@ -224,7 +224,7 @@
 300x250.gif
 300x250.htm
 300x250.jpeg
-300x250.jpg$domain=~mydamnchannel.com|~fanhouse.com
+300x250.jpg$domain=~fanhouse.com|~mydamnchannel.com
 300x250.php|
 300x250.png
 300x250.swf
@@ -300,7 +300,7 @@
 =300x100;
 =300x250&
 =300x250,
-=300X250/*
+=300X250/
 =300x250;
 =300x315;
 =300x61;
@@ -314,7 +314,7 @@
 =468x60%
 =468x60&
 =468x60,
-=468X60/*
+=468X60/
 =468x60;
 =468x60_
 =468x80_
@@ -325,7 +325,7 @@
 =530x430;
 =728x90&
 =728x90,
-=728X90/*
+=728X90/
 =728x90;
 =754x200;
 =760x120&
@@ -500,19 +500,19 @@ sz=47x47;
 !
 !---------------------- Dimension Whitelists ----------------------
 !
-@@-120x90.$domain=jvideo.warphd.com|thestreet.com,image
+@@-120x90.$image,domain=jvideo.warphd.com|thestreet.com
 @@-160x160.jpg$domain=parentsconnect.com
-@@-300x250.jpg$domain=nypost.com|motherjones.com
+@@-300x250.jpg$domain=motherjones.com|nypost.com
 @@/125x125/*$domain=bigsoccer.com
-@@/300x250$domain=empireonline.com,image
+@@/300x250$image,domain=empireonline.com
 @@/728x90/*$domain=weather.weatherbug.com
 @@=300x250&$domain=batman-on-film.com
-@@=728x90&$domain=pkra.com,subdocument
+@@=728x90&$subdocument,domain=pkra.com
 @@_125x125.$domain=fanhouse.com
-@@_728x90.$domain=weather.weatherbug.com|smokescreen.us
-@@|http://www.imdb.com/images/*doubleclick/*
-@@||images.spreadfirefox.com/*x$domain=spreadfirefox.com,image,background
-@@||sfx-images.mozilla.org/*x$domain=spreadfirefox.com,image,background
+@@_728x90.$domain=smokescreen.us|weather.weatherbug.com
+@@|http://www.imdb.com/images/*doubleclick/
+@@||images.spreadfirefox.com/*x$background,image,domain=spreadfirefox.com
+@@||sfx-images.mozilla.org/*x$background,image,domain=spreadfirefox.com
 @@||weather.ca^*/wbtn_150x90.css
 @@||zshare.net/ads.js$script
 !
