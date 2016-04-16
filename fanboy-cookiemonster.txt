@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: D6mVkZehcKRxkDRbhBy3wQ
+! Checksum: y0v/b+GBO2Wh7365jh3Cyg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 16 Apr 2016
 ! This list expires after 2 days
@@ -1632,6 +1632,7 @@ napster.com##.info_box
 nba.com###nba_tos
 nba.com###policy_wrapper
 nelly.com,nlyman.com###toast-container
+novantas.com##.foobar-container
 novapdf.com###novapdf_accept_cookies
 office.com##.headPopup
 pattheduck.com###FISLCC
