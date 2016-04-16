@@ -250,7 +250,7 @@ new-films.biz##div#dle-content > noindex
 newestsoft.com##a[href="http://reviewsoft.ru/"]
 newestsoft.com##div.mk_body_bg > table[bgcolor="#ffffff"][style="border: 1px solid rgb(193, 209, 253);"]
 ngs.ru###advblock,[class*="adv-top"],[class*="banner"],[class*="ban-top"],DIV.adv
-ngs.ru##div > object > a > IMG,TABLE#nbs-block,td.blank-td + TD.nb
+ngs.ru##div > object > a > IMG,TABLE#nbs-block,td.blank-td + td.nb
 ngs.ru##div[align="center"] > noindex
 ngs.ru#div(class$=nb)
 nightmail.ru#TABLE(id=magnaInformer)
