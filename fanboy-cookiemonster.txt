@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: hOIelQFvVm2tQ8P3JHbf3g
+! Checksum: DjvqGdaTrrMCU3iPwHHH7w
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 16 Apr 2016
 ! This list expires after 2 days
@@ -274,6 +274,7 @@ _europecookielaw.
 ###BandeauInfoCookie
 ###cookieLawContainer
 ##.cookie-policy-message
+###trackCookieBar
 ###cookieLawText
 ###BlkCookies
 ###CCompliance
@@ -1654,7 +1655,7 @@ bethesda.net,eveningtelegraph.co.uk,fundingcircle.com,princeofwales.gov.uk,sunda
 gumtree.com##.notification-box
 castrol.com##.nv-notification-header
 foryoubyyou.org.uk##.optanon-alert-box-wrapper
-ratemyprofessors.com##.overlay
+ratemyprofessors.com,maxlead.nl##.overlay
 youronlinechoices.com##.p15
 plymouth.ac.uk##.page-notification
 fundedbyme.com##.pageNotification
