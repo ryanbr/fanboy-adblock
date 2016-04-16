@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: ana7Z11kzE8j5/VjURwahw
+! Checksum: 5wVgBOzXLtFOIOzi8bCbCw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 16 Apr 2016
 ! This list expires after 2 days
@@ -1646,7 +1646,7 @@ cushmanwakefield.be,cushmanwakefield.co.uk##.m-warning
 justcause.com##.main-site-notes
 malaysiaairlines.com##.modal-backdrop
 medicalxpress.com,techxplore.com,vcars.co.uk##.notice
-bethesda.net,eveningtelegraph.co.uk,fundingcircle.com,princeofwales.gov.uk,sundaypost.com##.notification
+bethesda.net,eveningtelegraph.co.uk,fundingcircle.com,princeofwales.gov.uk,sundaypost.com,wiley.com##.notification
 gumtree.com##.notification-box
 castrol.com##.nv-notification-header
 foryoubyyou.org.uk##.optanon-alert-box-wrapper
