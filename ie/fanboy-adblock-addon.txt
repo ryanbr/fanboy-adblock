@@ -9,7 +9,7 @@
 !
 ! ---------- Generic Blocking Rules ----------
 !
-.com/ads/*
+.com/ads/
 /adverts/
 /googleads.
 /intellitxt/*

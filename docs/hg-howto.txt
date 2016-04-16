@@ -1,78 +1,56 @@
-Tools required
 --------------
-Activeperl   (http://www.activestate.com/activeperl/)
-Mercurial    (http://mercurial.selenic.com)
-Text Editor  (http://www.pspad.com or http://notepad-plus-plus.org/)
-
-
-Installation of Tools
 ---------------------
+---------------------------
 1) Install Activeperl
 2) Install Mercurial, all defaults during install active
 3) Install your chosen Text editor
-
-
-Setting up Googlecode Login
----------------------------
 4)   Open the command prompt,
 4a)  cd %USERPROFILE%
 4b)  hg clone https://fanboy-adblock-list.googlecode.com/hg/ fanboy-adblock-list
 4c)  cd fanboy-adblock-list
 4d)  cd .hg
 4e)  edit the file "hgrc" using your chosen text editor, include the following infomation in the hgrc file.
-
-  [paths]
-  default = https://fanboy-adblock-list.googlecode.com/hg/
-  username = your name <gmail-username@gmail.com>
-  default-push = https://username:password@fanboy-adblock-list.googlecode.com/hg/
-  [ui]
-  username = gmail-username@gmail.com
-  verbose = true
-  [extensions]
-  rebase =
-  fetch =
-  b = C:\Users\Username\fanboy-adblock-list\scripts\b.py
-
+Activeperl   (http://www.activestate.com/activeperl/)
+Installation of Tools
+Mercurial    (http://mercurial.selenic.com)
+Setting up Googlecode Login
+Text Editor  (http://www.pspad.com or http://notepad-plus-plus.org/)
+Tools required
+[paths]
+default = https://fanboy-adblock-list.googlecode.com/hg/
+default-push = https://username:password@fanboy-adblock-list.googlecode.com/hg/
+username = your name <gmail-username@gmail.com>
+[ui]
+username = gmail-username@gmail.com
+verbose = true
+[extensions]
 (Note, use the googlecode password not the gmail password)
-Login to google/gmail first, then visit http://code.google.com/p/fanboy-adblock-list/source/list
-
-Get your password through the google profile menu, top right, profile then settings. *Password is case sensitive.*
-Use this password in the "default-push" in 4e example above.
-
-4f) Save changes, and now we're ready to make changes. Be sure you're in the main dir of "fanboy-adblock-list", when you want to start making changes.
-
-
-Making Additions
-----------------
-adding new filters --> add-filter.bat <URL>
-  1) Make the change to the list(s), Save.
-  2) Copy Website, Copy Adblock infomation, and username. Save.
-  3) Done, its committed.
-adding new elements --> 
-  1) Make the change to the list(s), Save files.
-  2) add-element.bat <URL>
-  3) Done, its committed.
-
-False Positives
----------------
-adding new filters --> add-filter.bat fp: <URL>
-  1) Make the change to the list(s), Save.
-  2) Copy Website, Copy Adblock infomation, and username. Save.
-  3) Done, its committed.
-
-Syncing new changes
--------------------
-To sync any newer changes, you can just issue the following command,
-  hgsync.bat
-
-
-Merging
 -------
-Occasionally if 2 people (or more) are working the same file at the same time.. you'll get a merge error/request.
-Follow the docs\Windows_merge_notes.pdf  this will help. You will need grep for Windows (http://gnuwin32.sourceforge.net/packages/grep.htm).
-
-
+---------------
+----------------
+-------------------
+1) Make the change to the list(s), Save files.
+1) Make the change to the list(s), Save.
+2) add-element.bat <URL>
+2) Copy Website, Copy Adblock infomation, and username. Save.
+3) Done, its committed.
+4f) Save changes, and now we're ready to make changes. Be sure you're in the main dir of "fanboy-adblock-list", when you want to start making changes.
+adding new elements -->
+adding new filters --> add-filter.bat <URL>
+adding new filters --> add-filter.bat fp: <URL>
+b = C:\Users\Username\fanboy-adblock-list\scripts\b.py
 examples of additions comments:
+False Positives
+fetch =
+Follow the docs\Windows_merge_notes.pdf  this will help. You will need grep for Windows (http://gnuwin32.sourceforge.net/packages/grep.htm).
+Get your password through the google profile menu, top right, profile then settings. *Password is case sensitive.
+hgsync.bat
 http://code.google.com/p/fanboy-adblock-list/source/list
-
-
+Login to google/gmail first, then visit http://code.google.com/p/fanboy-adblock-list/source/list
+Making Additions
+Merging
+Occasionally if 2 people (or more) are working the same file at the same time.. you'll get a merge error/request.
+rebase =
+Syncing new changes
+To sync any newer changes, you can just issue the following command,
+Use this password in the "default-push" in 4e example above.
