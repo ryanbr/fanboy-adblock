@@ -51,8 +51,8 @@ BLANKPATTERN = re.compile(r"^\s*$")
 COMMITPATTERN = re.compile(r"^(A|M|P)\:\s(\((.+)\)\s)?(.*)$")
 
 # List the files that should not be sorted, either because they have a special sorting system or because they are not filter files
-IGNORE = ("CC-BY-SA.txt", "easytest.txt", "GPL.txt", "MPL.txt",
-          "enhancedstats-addon.txt", "fanboy-tracking", "firefox-regional", "other")
+IGNORE = ("Submissions for the Annoyances List.txt", "hg-searching.txt", "hg-howto.txt", "filter-additions.txt", "Windows_merge_notes.pdf",
+          "Windows_merge_notes.doc")
 
 # List all Adblock Plus options (excepting domain, which is handled separately), as of version 1.3.9
 KNOWNOPTIONS = ("collapse", "document", "elemhide",
@@ -65,6 +65,7 @@ REPODEF = collections.namedtuple("repodef", "name, directory, locationoption, re
 GIT = REPODEF(["git"], "./.git/", "--work-tree=", "--git-dir=", ["status", "-s", "--untracked-files=no"], ["diff"], ["commit", "-m"], ["pull"], ["push"])
 HG = REPODEF(["hg"], "./.hg/", "-R", None, ["stat", "-q"], ["diff"], ["commit", "-m"], ["pull"], ["push"])
 REPOTYPES = (GIT, HG)
+#REPOTYPES = (GIT)
 
 def start ():
     """ Print a greeting message and run FOP in the directories
