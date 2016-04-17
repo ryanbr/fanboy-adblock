@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: pVA/A9eV9HRACppsL0kyqA
+! Checksum: NaPVjIf9Q/teH60EY8n6jA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Apr 2016
 ! This list expires after 2 days
@@ -719,7 +719,7 @@ homerun.re,strikeout.co,vipbox.sx,vipleague.co##span > div
 ||techweb.com/adblocktrack
 !
 ! test filter for google/gpt
-@@||googletagservices.com/tag/js/gpt.js$domain=cwtv.com|forbes.com|independent.co.uk|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
+@@||googletagservices.com/tag/js/gpt.js$domain=computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
 ||googletagmanager.com/ns.html$third-party
 ||googletagservices.com/tag/js/gpt.js$third-party
 !
