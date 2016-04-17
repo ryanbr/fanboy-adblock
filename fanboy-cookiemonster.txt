@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: Oc46H/5RpayEijeVChHB2g
+! Checksum: c+uxs9yzktaXmTFh+kHArw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 17 Apr 2016
 ! This list expires after 2 days
@@ -1699,6 +1699,7 @@ zombiearmy.com##.alert-box
 ||cookie.radioplayer.co.uk^
 ||cookiechoices.org^$third-party
 ||harpercollins.co.uk/js/cookie.js
+||hunstoncanoeclub.co.uk/media/system/js/modal.js
 ||omgubuntu.co.uk/wp-content/plugins/omg-magnific/magnific.min.js
 ||onlive.co.uk/account/cookie_notice
 ||propcom.co.uk/cookie/
