@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: MDp9jAo3ja0958dLqRJauw
+! Checksum: YiYMG/tM+/uuouDcmnq+3A
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 21 Apr 2016
 ! This list expires after 2 days
@@ -1599,6 +1599,7 @@ earthcp.com##.info
 eastlondonradio.org.uk###notification-area
 eurosport.com###container-notifications
 exemproject.eu###myModal
+facebook.com###u_0_m
 fedex.com###privacy-notice
 forumcommunity.net##.jnote
 foryoubyyou.org.uk##.optanon-alert-box-wrapper
