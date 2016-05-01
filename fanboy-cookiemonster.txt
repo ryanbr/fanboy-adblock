@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: X2mzpmIOePbB6qkZxCRvBA
+! Checksum: MoKRBnegaPP0K9CaRm6Q2A
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 1 May 2016
 ! This list expires after 2 days
@@ -1745,6 +1745,7 @@ naruto-grand.ru##div[id^="scbmr_"]
 qr.cz###eu-fck
 sme.sk###js-top-info-bar
 soeren-hentzschel.at###storage-notice
+svethardware.cz###cfooter
 totalmoney.sk##.cookies
 weltwoche.ch###alteAusgabenCovers
 zena.hr###serviceBar
