@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: JjTiL0LxedDoR8FHCPb3yQ
+! Checksum: AszuP/zIl2No2XLwJEBrKQ
 ! Title: Fanboy's Cookiemonster List
-! Updated: 7 May 2016
+! Updated: 8 May 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1655,7 +1655,7 @@ jman.tv###ActionBar
 jotti.org##.alert-info
 jukegames.com,n-mobile.net###overbox3
 justcause.com##.main-site-notes
-kenweego.com,netweather.tv,twitch.tv##.alert
+kenweego.com,netweather.tv,twitch.tv,nature.com##.alert
 landrover.co.uk##.NotificationBar
 last.fm##.site-message
 layar.com##.remarketing-banner
