@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: pFrFTM11UJJ++XGX4xygwg
+! Checksum: QA9v8u9McAyHFqCyxceHRA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 20 May 2016
 ! This list expires after 2 days
@@ -7,7 +7,7 @@
 ! Homepage: http://www.fanboy.co.nz/
 !
 !
-&referer=$image,script,xmlhttprequest,domain=~24ur.com|~cdon.dk|~cdon.fi|~cdon.no|~cdon.se|~ratp.fr|~skype.com
+&referer=$image,script,xmlhttprequest,domain=~24ur.com|~cdon.dk|~cdon.fi|~cdon.no|~cdon.se|~ratp.fr|~skype.com|~youtube.com
 -coremetrics-
 -CoreMetrics.
 -elqImg.
