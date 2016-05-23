@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: CiSEB1xDL861m0NL/HpdlQ
+! Checksum: t6C6zrHqVEllCnyPb98jMw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 22 May 2016
+! Updated: 23 May 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -59,6 +59,7 @@
 /cnil-cookies_
 /cnil.js
 /coCookiesDisclaimer.
+/cookie-accept.js
 /cookie-alert.
 /cookie-bandeau.
 /cookie-banner
@@ -1158,6 +1159,7 @@ _europecookielaw.
 ##.cookie-compliance
 ##.cookie-confirm
 ##.cookie-consent
+##.cookie-consent-block
 ##.cookie-container
 ##.cookie-content
 ##.cookie-disclaimer
@@ -1583,7 +1585,7 @@ _europecookielaw.
 ##div > #cnsh[style="display: block;"]
 ##div[style="min-width: 750px;"] > .gb_wb
 ! Cookie, privacy, legal filters
-abta.com,anglianwater.co.uk,calvertjournal.com,cineworld.co.uk,graspop.be,hempel.co.uk,hempelyacht.com,here.com,leonorgreyl.com,liptonicetea.com,natwest.com,postoffice.co.uk,rbs.co.uk,roalddahl.com,team-mediaportal.com,virgin-atlantic.com##.cookie
+abta.com,ask.fm,anglianwater.co.uk,calvertjournal.com,cineworld.co.uk,graspop.be,hempel.co.uk,hempelyacht.com,here.com,leonorgreyl.com,liptonicetea.com,natwest.com,postoffice.co.uk,rbs.co.uk,roalddahl.com,team-mediaportal.com,virgin-atlantic.com##.cookie
 adultswim.com###legal-notification
 agcas.org.uk,reliancebankltd.com###informationbar
 airvpn.org##div[style^="box-shadow:0em 0em"]
@@ -1643,6 +1645,7 @@ earthcp.com##.info
 eastlondonradio.org.uk###notification-area
 eurosport.com###container-notifications
 exemproject.eu###myModal
+facebook.com##[data-testid="cookie-policy-banner"]
 fedex.com###privacy-notice
 forumcommunity.net##.jnote
 foryoubyyou.org.uk##.optanon-alert-box-wrapper
@@ -1727,9 +1730,11 @@ tmz.com###legalbar
 trustnet.com###wholeCover
 trustnet.com##.idPanelShow
 tvcatchup.com###messageBox
+uber.com##.banner--bottom
 uk.yahoo.com##.type_windowshade_default
 uktv.co.uk###back-to-old-site
 umicore.com,anite.com,asda.com,ashridge.org.uk,chemistdirect.co.uk,consumeraffairs.org.uk,dur.ac.uk,ets2mp.com,festicket.com,luxottica.be,mclaren.com,prtb.ie,redbull.com,royalparks.org.uk,tescomobile.ie,ukcisa.org.uk,unity3d.com,unknownphone.com,uptodown.com,viralnewschart.com##.cookies
+userbenchmark.com##.notificationBar
 vanguardsmoke.com###pop_wholes
 vanguardsmoke.com###pop_wholes_bg
 videojug.com##.cp-alert-message
@@ -1808,7 +1813,11 @@ netzwelt.de##.ckch
 aig.hu##.copyright-text-header
 bestsellers.hu##.cookie
 decathlon.hu###container-screen
+elittars.hu###info-bar
+eloben.hu##.law-accept
+filmkatalogus.hu##table[width="870"][cellspacing="3"]
 roly.hu##.jq-toast-wrap
+tesco.hu##.infoBarClosable
 !
 !---------- Polish Site Generic Hiding Rules ----------
 !
