@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: V7S16lzzH7rD2ya/lxWzFg
+! Checksum: CSjj9dvuCz+ZasN2/6h4Gw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 29 May 2016
 ! This list expires after 2 days
@@ -312,6 +312,7 @@ _europecookielaw.
 ###all4nav-cookie-policy-notification
 ###allowCookiesPopup
 ###aoCookiePolicy
+###app-cookie-policy
 ###arte-cookie-banner
 ###askCookies
 ###asterix_cookie_widget
@@ -407,6 +408,7 @@ _europecookielaw.
 ###cooki_accept
 ###cookie-accept
 ###cookie-acceptation-popup
+###cookie-agree
 ###cookie-alert
 ###cookie-allow
 ###cookie-banner
@@ -458,6 +460,7 @@ _europecookielaw.
 ###cookie-msg
 ###cookie-note
 ###cookie-notice
+###cookie-notif
 ###cookie-notification
 ###cookie-notification-bar
 ###cookie-notification-wrapper
@@ -474,6 +477,7 @@ _europecookielaw.
 ###cookie-policy
 ###cookie-policy-banner
 ###cookie-policy-container
+###cookie-policy-msg
 ###cookie-policy-notice
 ###cookie-policy-strap
 ###cookie-policy-warning
@@ -528,6 +532,7 @@ _europecookielaw.
 ###cookie_policy
 ###cookie_policy_alert
 ###cookie_policy_banner
+###cookie_policy_box
 ###cookie_policy_popup
 ###cookie_popup
 ###cookie_privacy_holder
@@ -566,6 +571,7 @@ _europecookielaw.
 ###cookieBlock
 ###cookieBnr
 ###cookiebnr
+###cookiebox
 ###cookieBox
 ###cookiebox-wrapper
 ###cookieChoiceBanner
@@ -768,6 +774,7 @@ _europecookielaw.
 ###cookiesOptInMessage
 ###cookiesOptInMessageWrapper
 ###CookiesOverlay
+###cookieSpan
 ###cookiesPanel
 ###cookiespolicy
 ###cookiesPolicyPopup
@@ -942,6 +949,7 @@ _europecookielaw.
 ###lsw-cookie-bottom-box
 ###m_cookie_popup
 ###mainDivLegacyCookie
+###mainPrivacyDiv
 ###message-cookie
 ###message_cookie
 ###messageCookie
@@ -967,6 +975,7 @@ _europecookielaw.
 ###notification__cookie
 ###notification_cookiewarning
 ###notificationcookie
+###notyCookie
 ###nova_cookie_disclaimer
 ###npo_cc_notification_wrapper
 ###nq_cnilbanner
@@ -1059,6 +1068,7 @@ _europecookielaw.
 ###tx_cpscookieinfobox_pi1
 ###uecookies
 ###ui-cookie-policy
+###ujszo_cookiealert
 ###uk-cookie-use
 ###us-cookies
 ###useCookiesCont
@@ -1083,6 +1093,7 @@ _europecookielaw.
 ##._iph_cp_standalone
 ##.accept-cookies
 ##.accept_cookies
+##.acceptCookieComponent
 ##.acceptCookies
 ##.acceptcookies
 ##.acceptCookiesBox
@@ -1147,6 +1158,8 @@ _europecookielaw.
 ##.coockie_banner
 ##.cookie-accept-container
 ##.cookie-accept-overlay
+##.cookie-acceptance-container
+##.cookie-acceptor
 ##.cookie-alert
 ##.cookie-alert-box
 ##.cookie-assistant
@@ -1202,6 +1215,7 @@ _europecookielaw.
 ##.cookie-permission
 ##.cookie-policy
 ##.cookie-policy-box
+##.cookie-policy-container
 ##.cookie-policy-message
 ##.cookie-policy-notice
 ##.cookie-policy-statement
@@ -1217,6 +1231,7 @@ _europecookielaw.
 ##.cookie-warning
 ##.cookie-wrapper
 ##.cookie__show
+##.cookie__wrapper
 ##.cookie_accept
 ##.cookie_adv2
 ##.cookie_alert
@@ -1342,6 +1357,7 @@ _europecookielaw.
 ##.cookies-policy
 ##.cookies-popin
 ##.cookies-popup
+##.cookies-reminder
 ##.cookies-row
 ##.cookies-sec
 ##.cookies-warning
@@ -1555,6 +1571,7 @@ _europecookielaw.
 ##.texteAlerteCookie
 ##.toast-type-newCookie
 ##.tre-cookie-disclaimer
+##.ui-cookie-tooltip
 ##.ui-dialog-cookies
 ##.uk-cookie
 ##.uk-cookie-banner
@@ -1563,6 +1580,7 @@ _europecookielaw.
 ##.umuCookieMain
 ##.use-cookie-container
 ##.v2_cookies_container
+##.viacomcookiebar
 ##.viacomcookiebar-extended
 ##.warningCookieWrap
 ##.wrap_cookie_policy
@@ -1811,11 +1829,15 @@ netzwelt.de##.ckch
 !---------- Hungary Site Generic Hiding Rules ----------
 !
 aig.hu##.copyright-text-header
-bestsellers.hu##.cookie
+althir.org,nemzeti.net###suti_figyelmeztetes
+bestsellers.hu,logmein.hu,hirek24.hu,workforce.hu##.cookie
 decathlon.hu###container-screen
 elittars.hu###info-bar
 eloben.hu##.law-accept
 filmkatalogus.hu##table[width="870"][cellspacing="3"]
+gyakorikerdesek.hu##body > div[style^="text-align: left;"]
+hbo.hu###overlay
+hoxa.hu###container > div[style^="text-align: left;"]
 roly.hu##.jq-toast-wrap
 tesco.hu##.infoBarClosable
 !
@@ -2040,6 +2062,7 @@ your-move.co.uk#@#.cookie_policy
 @@||eucookiedirective.com^$~third-party
 @@||ezoworld.hu^*/cookielawinfo.js
 @@||hp.com^*/caas-privacy-cookie-$script
+@@||huppa.hu^*/cookielawinfo.js
 @@||indema.si/wp-content/plugins/cookie-law-info/js/cookielawinfo.js
 @@||inglenookproductions.com/css/website-disclaimer---cookies-policy.css
 @@||kodi-xbmc.com/wp-content/plugins/cookie-law-info/js/cookielawinfo.js
