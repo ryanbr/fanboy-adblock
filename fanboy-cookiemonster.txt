@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: rY2TNr5Z6NbMyaicXKYoKg
+! Checksum: O/EGdaACZkMPQrEAwTCzDQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 29 May 2016
 ! This list expires after 2 days
@@ -314,6 +314,7 @@ _europecookielaw.
 ###alerte_tracking
 ###all4nav-cookie-component
 ###all4nav-cookie-policy-notification
+###allowcookie
 ###allowCookiesPopup
 ###aoCookiePolicy
 ###app-cookie-policy
@@ -1839,12 +1840,14 @@ netzwelt.de##.ckch
 !---------- Hungary Site Generic Hiding Rules ----------
 !
 aig.hu##.copyright-text-header
+allattartas.hu###suti_figyelmeztetes_ablak_fix
 althir.org,nemzeti.net###suti_figyelmeztetes
 bestsellers.hu,logmein.hu,hirek24.hu,workforce.hu##.cookie
 decathlon.hu###container-screen
 elittars.hu###info-bar
 eloben.hu##.law-accept
 filmkatalogus.hu##table[width="870"][cellspacing="3"]
+freemeteo.hu###cookies
 gyakorikerdesek.hu##body > div[style^="text-align: left;"]
 hbo.hu###overlay
 hoxa.hu###container > div[style^="text-align: left;"]
