@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: GWo7d5kEji7ew3/XTKqFHA
+! Checksum: GVpbr2psBuFonXfyEQgYjw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 2 Jun 2016
 ! This list expires after 2 days
@@ -1755,6 +1755,7 @@ tartybikes.co.uk###eureg
 tbs.com,tntdrama.com##.toast
 tesco.com###cp
 theartnewspaper.com##.fixed-panels
+theguardian.com##.site-message
 thehanley.co.uk,twitch.tv##.i-am-new
 themeflood.com##.gatewayContainer
 theson.org.uk,thisengland.co.uk###msg_top_bar
