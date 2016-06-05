@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: oykFrNDUxVeoKK3bLKWVnA
+! Checksum: d9AUyw4SK0LfziNJADoYeA
 ! Title: Fanboy's Swedish
-! Updated: 17 Apr 2016
+! Updated: 5 Jun 2016
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -31,6 +31,7 @@
 ||bubblare.se/getMovieSplinks?
 ||corren.se/img/$object
 ||dagenshandel.se^*/annons_
+||dreamfilmhd.bz/testpop$script
 ||flashback.info/img/b/
 ||flashback.org/img/b/
 ||flashback.se/img/banners/
@@ -173,6 +174,11 @@ destination.se###tower
 dn.se###board-enirolinks
 dn.se##.box.box-html.box-first
 dn.se##.lp_logobox
+dreamfilmhd.bz##.hidden-sm
+dreamfilmhd.bz##A[href="http://byggboss.se"]
+dreamfilmhd.bz##A[href="http://www.hagopro.se"]
+dreamfilmhd.bz##A[href^="http://bit.ly/"]
+dreamfilmhd.bz##A[rel="dofollow"] > IMG[style="width:100%"]
 dreamfilmhd.com##div[style="background-color:rgba(0,0,0,0.1);width:750px;height:100px;margin:0 5px 0 5px"]
 dreamfilmhd.com##div[style="width:750px;clear:both;margin:0 0 10px 0;padding:0;"]
 expo.se,nyteknik.se,svd.se##.ad
