@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: ych6CgraKC1s4oz+nuYwfg
+! Checksum: MSqscpcO6mBgYt+ZFNiUdA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 5 Jun 2016
 ! This list expires after 2 days
@@ -102,6 +102,8 @@
 /cookie_consent.
 /cookie_consent/*
 /cookie_consent_
+/cookie_info.css
+/cookie_info.js
 /cookie_information_$script
 /cookie_law.js
 /cookie_law/*
@@ -163,6 +165,7 @@
 /cookienotice/*$script
 /cookienotif.
 /cookieNotification.
+/CookieNotification/*
 /cookieok.js
 /cookiepolicy.
 /cookiepolicy/*
@@ -197,6 +200,7 @@
 /cookiesdisclaimer.
 /CookieSettingsManager?
 /cookieslegal.
+/cookiesLegales.
 /cookiespolicy.
 /cookiesPopup.
 /cookiewarning.
@@ -250,6 +254,7 @@
 /plugin_cookie/*
 /plugins/CookieInfo/*
 /plugins/EuCookie/*
+/privacy-cookies.js
 /rbicookiepolicy.
 /rtiCookieLaw.
 /SetConsentCookie.
@@ -311,6 +316,7 @@ _europecookielaw.
 ###alerte-cookies
 ###alerte_cnil
 ###alerte_tracking
+###alertpop-privacypolicy
 ###all4nav-cookie-component
 ###all4nav-cookie-policy-notification
 ###allowcookie
@@ -345,6 +351,7 @@ _europecookielaw.
 ###barraCOOKIE
 ###bauerCookiePolicy
 ###bbccookies
+###bcpm-notification-outer-border
 ###bf-cookie-notice
 ###bkCookieBanner
 ###BlkCookies
@@ -640,6 +647,7 @@ _europecookielaw.
 ###cookieLawText
 ###cookielawwarning
 ###cookieLayer
+###CookieLey
 ###cookielightbox
 ###cookieLine
 ###cookieLY
@@ -713,6 +721,7 @@ _europecookielaw.
 ###cookies-agreed-wrapper
 ###cookies-agreement
 ###cookies-agreement-box
+###cookies-alert-wrapper
 ###cookies-auth
 ###cookies-banner
 ###cookies-bar
@@ -949,6 +958,7 @@ _europecookielaw.
 ###js_popup_cookies
 ###js_pushDownCookieMessage
 ###jumper_cookies
+###layer-cookie-notice
 ###layer_cookie
 ###layerAcceptCookie
 ###layerCookies
@@ -969,6 +979,7 @@ _europecookielaw.
 ###mktg_Cookie
 ###mktg_Cookie_Wrap
 ###mmmmm-cookies
+###mntsinfotech-cookie-bar
 ###modalCookieContainer
 ###msg-cookie
 ###msg-cookie-level0
@@ -1082,6 +1093,7 @@ _europecookielaw.
 ###ui-cookie-policy
 ###ujszo_cookiealert
 ###uk-cookie-use
+###unCookieCnt
 ###us-cookies
 ###useCookiesCont
 ###user-cookie-message
@@ -1116,10 +1128,12 @@ _europecookielaw.
 ##.alert-cookie
 ##.alert-cookies
 ##.alert-cookies-banner
+##.alert.alert-warning
 ##.alertcookie
 ##.alerts-manager-container
 ##.allow-cookie-stripe
 ##.alma-cookie-disclaimer
+##.avisoCookies
 ##.b-cookie-hint
 ##.b-cookies
 ##.ban-cookies
@@ -1324,6 +1338,7 @@ _europecookielaw.
 ##.cookieMessageDiv
 ##.cookiemonster
 ##.CookieMonsterBox
+##.cookieMsg
 ##.cookieMsgContainer
 ##.CookieNote
 ##.CookieNotice
@@ -1370,6 +1385,7 @@ _europecookielaw.
 ##.cookies-notify
 ##.cookies-open
 ##.cookies-policy
+##.cookies-politic
 ##.cookies-popin
 ##.cookies-popup
 ##.cookies-reminder
@@ -1413,6 +1429,7 @@ _europecookielaw.
 ##.cookiesWarning-container
 ##.cookietext
 ##.cookieToast
+##.cookietool-message
 ##.cookieTooltip
 ##.cookieTooltipKontener
 ##.cookiewarn
@@ -1576,9 +1593,11 @@ _europecookielaw.
 ##.sets-cookie
 ##.sgsCookies
 ##.sh-cookie-confirmation
+##.show-cookie
 ##.site-cookie-panel
 ##.site-cookies
 ##.site-message--cookies
+##.sites-cookie-notice-fit
 ##.sqs-announcement-bar
 ##.storm-cookie
 ##.sys_cc-cookies
@@ -1599,6 +1618,7 @@ _europecookielaw.
 ##.v2_cookies_container
 ##.viacomcookiebar
 ##.viacomcookiebar-extended
+##.vk_cookie_compliance
 ##.warningCookieWrap
 ##.wrap_cookie_policy
 ##.wrapper--cookies
@@ -1620,14 +1640,14 @@ _europecookielaw.
 ##div > #cnsh[style="display: block;"]
 ##div[style="min-width: 750px;"] > .gb_wb
 ! Cookie, privacy, legal filters
-abta.com,ask.fm,anglianwater.co.uk,calvertjournal.com,modhoster.com,cineworld.co.uk,graspop.be,hempel.co.uk,hempelyacht.com,here.com,leonorgreyl.com,liptonicetea.com,natwest.com,postoffice.co.uk,rbs.co.uk,roalddahl.com,team-mediaportal.com,virgin-atlantic.com,m64.info##.cookie
+abta.com,ask.fm,anglianwater.co.uk,calvertjournal.com,modhoster.com,cineworld.co.uk,graspop.be,hempel.co.uk,hempelyacht.com,here.com,leonorgreyl.com,liptonicetea.com,natwest.com,postoffice.co.uk,rbs.co.uk,roalddahl.com,team-mediaportal.com,mandarinoriental.com,virgin-atlantic.com,m64.info##.cookie
 adultswim.com###legal-notification
 agcas.org.uk,reliancebankltd.com###informationbar
 airvpn.org##div[style^="box-shadow:0em 0em"]
 alcatel-lucent.com,alpha.org,bigsocietycapital.com,boomerangtv.co.uk,box.com,cartoonnetwork.co.uk,eif.co.uk,integralmemory.com,investorsinpeople.co.uk,juce.com,middleeasteye.net,neteller.com,parkinsons.org.uk,rmg.co.uk,thalesgroup.com,topuniversities.com,ucas.com###sliding-popup
 amazon.com###pldn-deep-link
 android.com##.dac-toast-group
-anpost.ie,barbican.org.uk,the-tls.co.uk,beanstalkcharity.org.uk,co-operative.coop,emrf.eu,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,granditalia.nl,homecinemachoice.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,phonearena.com,pokernews.com,premiumcredit.co.uk,private.com,solent.ac.uk,studentski.net,tsb.co.uk,volvocars.com###cookies
+anpost.ie,barbican.org.uk,the-tls.co.uk,beanstalkcharity.org.uk,co-operative.coop,emrf.eu,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,granditalia.nl,homecinemachoice.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,phonearena.com,pokernews.com,premiumcredit.co.uk,private.com,solent.ac.uk,studentski.net,tsb.co.uk,omron.eu,volvocars.com###cookies
 aquacard.co.uk###popup
 askinology.com##COOKIE-NOTICE
 autoevolution.com###prajiturele
@@ -1636,12 +1656,12 @@ axs.com,virgin.com###privacy-policy
 bankofengland.co.uk##.container-notifications
 bbc.co.uk##.pulse-banner
 bbc.com##.domestic-header-wrapper
+bethesda.net###jive-system-message
 betsson.com###msgwrapper
 bigdeal.org.uk##div[style^="background-color: "]
 bing.com###b_notificationContainer
 bing.com##.hpn_top_container
 blueconic.com###bcmp_fullwrap
-blueconic.com###bcpm-notification-outer-border
 booktrust.org.uk###btg_notification
 bundlestars.com##div[style^="background: #424242; "]
 cartdesigns.net##.boxContent
@@ -1686,7 +1706,7 @@ facebook.com##[data-testid="cookie-policy-banner"]
 fedex.com###privacy-notice
 forumcommunity.net##.jnote
 foryoubyyou.org.uk##.optanon-alert-box-wrapper
-ft.com###consent
+ft.com,heathrowexpress.com###consent
 fundedbyme.com##.pageNotification
 gamemania.be###globalmessage
 gametwist.com##.message__container
@@ -1702,11 +1722,11 @@ hlntv.com###terms-of-service-container
 hlntv.com###tos_pp_popup_container
 hmc.org.uk###modal-mask
 indeed.com###legalNotice
-ing.com###bcpm-notification-outer-border
 ing.com###fancybox-overlay
 ing.com##.fancybox-wrap
 insights.nzherald.co.nz###top-banner-in-content
 investing.com###sideNotificationZone
+janssen.co.uk###warning-popup
 jdpower.com##.region-alert
 jman.tv###ActionBar
 jotti.org##.alert-info
@@ -1726,8 +1746,10 @@ malaysiaairlines.com###cookie_policy_modal
 malaysiaairlines.com##.modal-backdrop
 mappy.com###IndexView-first-visit
 marasrl.it,cbfhydraulic.com###ckInfo
-medicalxpress.com,techxplore.com,vcars.co.uk##.notice
+medicalxpress.com,shire.com,techxplore.com,vcars.co.uk##.notice
 mercedes-benz.com###cLayer
+mercedes-benz.com###simplemodal-container
+mercedes-benz.com###simplemodal-overlay
 microsoft.com###PrivacyBanner
 moneysavingexpert.com###alertBar
 msn.com###conditionalbanner
@@ -1735,13 +1757,16 @@ napster.com##.info_box
 nba.com###nba_tos
 nba.com###policy_wrapper
 nelly.com,nlyman.com###toast-container
+nestle-cereals.com,purina.co.uk###nimgrowler
 norwegian.com,linkedin.com,kenweego.com,netweather.tv,twitch.tv,nature.com##.alert
 novantas.com##.foobar-container
 novapdf.com###novapdf_accept_cookies
+nymity.com###CookieAcceptSubLayout1_cookiesmessageshown
 office.com##.headPopup
 pattheduck.com###FISLCC
 picturehouses.com##.interim-banner
 plymouth.ac.uk##.page-notification
+postojnska-jama.eu###\5f iCD
 priorygroup.com,aflite.co.uk,aon.com,atom42.co.uk,bakersmall.co.uk,bbvonline.net,boscolohotels.com,boxnation.com,butrans.co.uk,community-options.org.uk,fasthosts.co.uk,fremantlemedia.com,iadvize.com,mdx.ac.uk,onenessscotland.org,opportunitypeterborough.co.uk,out-law.com,pace.com,paradoxplaza.com,rodacciai.fr,secunia.com,stitchcraftcreate.co.uk,tutsandtips.com,vegsoc.org,wheatley-group.com###cookie
 qz.com###chyron
 ramboll-environ.com##.infoboxHolder
@@ -1753,6 +1778,7 @@ robertozeno.com##.video-mask
 sandiegouniontribune.com###slide_banner_bottom
 santander.co.uk##.bloqueMensaje
 savethechildren.org.uk##.policy-banner
+scl.org###zeus_box
 stargreen.com##div[style^="color: rgb(238, 238, 238);"]
 superiorwallpapers.com##.uk-alert
 tartybikes.co.uk###eureg
@@ -1771,7 +1797,7 @@ tvcatchup.com###messageBox
 uber.com##.banner--bottom
 uk.yahoo.com##.type_windowshade_default
 uktv.co.uk###back-to-old-site
-umicore.com,anite.com,asda.com,ashridge.org.uk,chemistdirect.co.uk,consumeraffairs.org.uk,dur.ac.uk,ets2mp.com,festicket.com,luxottica.be,mclaren.com,prtb.ie,redbull.com,royalparks.org.uk,tescomobile.ie,ukcisa.org.uk,unity3d.com,unknownphone.com,uptodown.com,viralnewschart.com##.cookies
+umicore.com,anite.com,asda.com,ashridge.org.uk,chemistdirect.co.uk,consumeraffairs.org.uk,dur.ac.uk,ets2mp.com,festicket.com,mindshareworld.com,luxottica.be,mclaren.com,prtb.ie,redbull.com,royalparks.org.uk,tescomobile.ie,ukcisa.org.uk,unity3d.com,unknownphone.com,uptodown.com,viralnewschart.com##.cookies
 userbenchmark.com##.notificationBar
 vanguardsmoke.com###pop_wholes
 vanguardsmoke.com###pop_wholes_bg
@@ -1787,6 +1813,7 @@ yahoo.com###Overlay-1-Nagbar
 yahoo.com##.legal-footer
 youronlinechoices.com##.p15
 zombiearmy.com##.alert-box
+zyncro.com###noticebar
 ! Cookie,privacy,legal Messages
 ||consent.truste.com^$third-party
 ||cookie.oup.com^
@@ -2063,6 +2090,7 @@ bankmillennium.pl#@#.cookies-info
 britishairways.com#@##cookieModal
 bulle-communication.com,edmond-de-rothschild.fr,foiredeparis.fr,galleria.io,icelandair.ca,icelandair.de,kintera.org,lamediathequedumarsan.fr,lautoentrepreneur.fr,lesclesdelabanque.com,liciafox.net,normandinamik.cci.fr,pleinchamp.com,universityadmissions.se,nrj.fr#@#.cookiebanner
 filmweb.pl#@#.cookieInfo
+greenflag.com#@#.cookie-message
 hearst.co.uk#@#.cookie-policy
 lautoentrepreneur.fr#@#.CookieBanner
 lautoentrepreneur.fr#@#.cookieBanner
