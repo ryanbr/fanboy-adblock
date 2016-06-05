@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: MSqscpcO6mBgYt+ZFNiUdA
+! Checksum: ptge2WL1PL9vU2sceQ+o4g
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 5 Jun 2016
 ! This list expires after 2 days
@@ -1732,6 +1732,8 @@ jman.tv###ActionBar
 jotti.org##.alert-info
 jukegames.com,n-mobile.net###overbox3
 justcause.com##.main-site-notes
+kickstarter.com##.launch-banner__close
+kickstarter.com##.launch-banner__link
 landrover.co.uk##.NotificationBar
 last.fm##.site-message
 layar.com##.remarketing-banner
