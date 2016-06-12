@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: ejsITzhUlH76AxUMLGbqPg
+! Checksum: PNqnD2E5xKTUWufaWTx51w
 ! Title: Fanboy's Cookiemonster List
-! Updated: 9 Jun 2016
+! Updated: 12 Jun 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -486,6 +486,7 @@ _europecookielaw.
 ###cookie-overlay-footer
 ###cookie-overlay-wrapper
 ###cookie-panel
+###cookie-policies
 ###Cookie-Policy
 ###cookie-policy
 ###cookie-policy-banner
@@ -1337,6 +1338,7 @@ _europecookielaw.
 ##.cookieLegalComp
 ##.cookieleiste
 ##.cookieMaster
+##.CookieMessage
 ##.cookieMessage
 ##.cookieMessageDiv
 ##.cookiemonster
@@ -1652,6 +1654,7 @@ alcatel-lucent.com,alpha.org,bigsocietycapital.com,boomerangtv.co.uk,box.com,car
 amazon.com###pldn-deep-link
 android.com##.dac-toast-group
 anpost.ie,barbican.org.uk,the-tls.co.uk,beanstalkcharity.org.uk,co-operative.coop,emrf.eu,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,granditalia.nl,homecinemachoice.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,phonearena.com,pokernews.com,premiumcredit.co.uk,private.com,solent.ac.uk,studentski.net,tsb.co.uk,omron.eu,volvocars.com###cookies
+aptoide.com###news
 aquacard.co.uk###popup
 askinology.com##COOKIE-NOTICE
 autoevolution.com###prajiturele
@@ -1785,6 +1788,7 @@ sandiegouniontribune.com###slide_banner_bottom
 santander.co.uk##.bloqueMensaje
 savethechildren.org.uk##.policy-banner
 scl.org###zeus_box
+softpedia.com##.jobnotice_cnt
 stargreen.com##div[style^="color: rgb(238, 238, 238);"]
 superiorwallpapers.com##.uk-alert
 tartybikes.co.uk###eureg
@@ -1897,6 +1901,7 @@ hoxa.hu###container > div[style^="text-align: left;"]
 koloknet.hu###cookie
 roly.hu##.jq-toast-wrap
 smoon.hu,tipparuhaz.hu###bottom_dialog
+termalfurdo.hu###layout_advertising_bottom
 tesco.hu##.infoBarClosable
 !
 !---------- Polish Site Generic Hiding Rules ----------
