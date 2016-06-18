@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: hJKmRu6WyE8mgtfxYsfsvw
+! Checksum: 8J5i8shOjmBZXp0AWgVXEA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 12 Jun 2016
+! Updated: 18 Jun 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -406,6 +406,7 @@ nautil.us###adpayload
 @@||thepiratebay.org^*/tpb.js|
 arstechnica.com##a[href="/subscriptions/"]
 blu-ray.com###getstarted
+deviantart.com##.block-notice
 drugs.com##div[style="left: 0px; position: fixed; top: auto; bottom: 48px;"]
 facebook.com###stream_pagelet > #pagelet_megaphone
 fark.com##.top_right_container
