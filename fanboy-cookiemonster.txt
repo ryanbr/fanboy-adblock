@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: F5tL/WoW7UCifIs6oKwhFA
+! Checksum: 0Fzp/Bu/MyJ4b9MIF+0wEA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 18 Jun 2016
 ! This list expires after 2 days
@@ -81,6 +81,7 @@
 /cookie-message.
 /cookie-notice.
 /cookie-notice/*$~stylesheet
+/cookie-notif.
 /cookie-notification.
 /cookie-notifications.
 /cookie-policy-
@@ -500,6 +501,7 @@ _europecookielaw.
 ###cookie-popin
 ###cookie-popup
 ###cookie-prompt-fixed
+###cookie-question
 ###cookie-regle
 ###cookie-ribbon
 ###cookie-slide
@@ -1027,6 +1029,7 @@ _europecookielaw.
 ###pl_cookies
 ###plugin_cookie_int
 ###pm-cookie-consent
+###pnlCookieNotice
 ###polityka-cookies
 ###politykacooki
 ###popinCookie
@@ -1495,6 +1498,7 @@ _europecookielaw.
 ##.footer-cnil
 ##.footer-cookie
 ##.footer-cookies-policy
+##.footer__cookie-info
 ##.footer__cookies
 ##.footer_cnil
 ##.fucking-eu-cookies
@@ -1614,6 +1618,7 @@ _europecookielaw.
 ##.site-message--cookies
 ##.sites-cookie-notice-fit
 ##.sqs-announcement-bar
+##.stampenCookieContainer
 ##.storm-cookie
 ##.sys_cc-cookies
 ##.tcCookiesDialogWrapper
@@ -1998,6 +2003,7 @@ webelite.pl###infobar
 !---------- Swedish Site Specific Hiding Rules ----------
 !
 automotorsport.se,bamse.se,folkuniversitetet.se,kalleanka.se,netonnet.se,tidningenjulia.se##.alert
+coop.se##.Alert
 gp.se##.gpsecGRCookieContainer
 polisen.se##.cookie
 sfv.se###cookies
