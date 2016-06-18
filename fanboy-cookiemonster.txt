@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: GY16dp2yR0nYW+JhVoX04w
+! Checksum: QNZ+MoWtecSnApYI983uMA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 18 Jun 2016
 ! This list expires after 2 days
@@ -116,6 +116,7 @@
 /cookie_policy.
 /cookie_policy_
 /cookie_solution/*
+/cookie_sticky_
 /cookie_ws.
 /cookie_ws/*
 /cookieacceptance.
@@ -454,6 +455,7 @@ _europecookielaw.
 ###cookie-div
 ###cookie-header
 ###cookie-hint
+###cookie-holder
 ###cookie-info
 ###cookie-info-bar
 ###cookie-info-box
@@ -615,6 +617,7 @@ _europecookielaw.
 ###cookiecontrol
 ###cookiecontrol_notice
 ###cookieCookieBar
+###cookieDialog
 ###cookiedialog
 ###cookieDisc
 ###cookieDisclaimer
@@ -1218,6 +1221,7 @@ _europecookielaw.
 ##.cookie-container
 ##.cookie-container-most
 ##.cookie-content
+##.cookie-dialog-container
 ##.cookie-disclaimer
 ##.cookie-disclosure
 ##.cookie-footer
@@ -2104,6 +2108,7 @@ radioitalia.it##.cookies
 wd40.it###cookie
 ||js.adv.dadapro.net/collector.js/prcy.js?
 ||mycookies.it^$third-party
+||tim.it/js/gestione_cookie.js
 !
 !---------- Italian Site Specific Hiding Rules ----------
 !
