@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: tEWoc1+LjJzahrqAtacFdQ
+! Checksum: YJR8FfiFsi3ibFss0Wda/w
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 19 Jun 2016
 ! This list expires after 2 days
@@ -2075,6 +2075,7 @@ ruralidays.fr,serveto.com###barraaceptacion
 savi-france.fr###notifybar
 smile.fr###popup
 stihl.fr##.privacyTop
+supersoluce.com##div[style^="position: fixed; width: 100%;"]
 tetley.fr##.topFix
 tf1.fr##div[id^="msgctrw"]
 tupperware.fr##.floating
