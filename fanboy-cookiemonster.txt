@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: bq+W2K5lwNUgjQcy7VYCQA
+! Checksum: SxZsYgJJimDC1Ega9gPJwQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 21 Jun 2016
 ! This list expires after 2 days
@@ -303,6 +303,7 @@ _europecookielaw.
 ###aboutCookieUsageBox
 ###ac_cookiesvalidation
 ###accept-cookie
+###accept-cookies
 ###accept-cookies-div
 ###accept_cookie
 ###accept_cookies
@@ -472,6 +473,7 @@ _europecookielaw.
 ###cookie-law-info-again
 ###cookie-law-info-bar
 ###cookie-layer
+###cookie-legal-notice
 ###cookie-lightbox
 ###cookie-message
 ###cookie-message-container
@@ -496,12 +498,14 @@ _europecookielaw.
 ###cookie-policies
 ###Cookie-Policy
 ###cookie-policy
+###cookie-policy-accept-bar
 ###cookie-policy-banner
 ###cookie-policy-container
 ###cookie-policy-msg
 ###cookie-policy-notice
 ###cookie-policy-strap
 ###cookie-policy-warning
+###cookie-policy-wrapper
 ###cookie-popin
 ###cookie-popup
 ###cookie-prompt-fixed
@@ -648,6 +652,7 @@ _europecookielaw.
 ###cookieInfoLayer
 ###cookieInfoMsgWrapper
 ###CookieInformation
+###cookieInformationBoxWrapper
 ###cookieInformerBooklet
 ###cookieInfoWrapper
 ###cookieLaw
@@ -687,6 +692,7 @@ _europecookielaw.
 ###cookiemsgbox
 ###cookieMsgWrapper
 ###cookienote
+###cookieNote
 ###cookieNotes
 ###cookieNotice
 ###cookienotice
@@ -736,6 +742,7 @@ _europecookielaw.
 ###cookies-agreed-wrapper
 ###cookies-agreement
 ###cookies-agreement-box
+###cookies-alert
 ###cookies-alert-wrapper
 ###cookies-auth
 ###cookies-banner
@@ -893,6 +900,7 @@ _europecookielaw.
 ###ePrivacyDisclaimer
 ###eu-cookie
 ###eu-cookie-bar
+###eu-cookie-bar-notification
 ###eu-cookie-compliance
 ###eu-cookie-content
 ###eu-cookie-law
@@ -946,6 +954,7 @@ _europecookielaw.
 ###have-a-cookie
 ###headband-cookie
 ###headband_cookies
+###headCookieAccept
 ###header-info-cookie
 ###headerCookieLaw
 ###headerCookies
@@ -989,6 +998,7 @@ _europecookielaw.
 ###logon-snippet-icookie
 ###lscookiesMax
 ###lsw-cookie-bottom-box
+###m-consent
 ###m_cookie_popup
 ###mainDivLegacyCookie
 ###mainPrivacyDiv
@@ -1027,6 +1037,7 @@ _europecookielaw.
 ###o-cookie
 ###okcookies
 ###okookie-box
+###p_ciInner
 ###panel-cookies
 ###PaveCookies
 ###pc-cookie-notice
@@ -1072,6 +1083,7 @@ _europecookielaw.
 ###rwd-cookie-message
 ###s-cookie
 ###s112_accept_cookies
+###s_s_cookieInfoContainer
 ###scnb-cookie-bar
 ###sdbCookieLegalContainer
 ###semocookie-handler
@@ -1130,6 +1142,7 @@ _europecookielaw.
 ###we-use-cookies
 ###website-cookies
 ###welcomebar-wrapper
+###WeUseCookiesDesktop
 ###widget-vrtcookiebalk
 ###wk_cookiebar
 ###WP-cookie-info
@@ -1138,6 +1151,7 @@ _europecookielaw.
 ###zaz-nb-plugin-cookie-message
 ##._iph_cp_standalone
 ##.accept-cookies
+##.accept-cookies-wrapper
 ##.accept_cookies
 ##.acceptCookieComponent
 ##.acceptCookies
@@ -1265,22 +1279,27 @@ _europecookielaw.
 ##.cookie-panel-overlay
 ##.cookie-permission
 ##.cookie-policy
+##.cookie-policy-accept
 ##.cookie-policy-alert
 ##.cookie-policy-box
 ##.cookie-policy-container
+##.cookie-policy-form
 ##.cookie-policy-message
 ##.cookie-policy-notice
 ##.cookie-policy-statement
 ##.cookie-pop
 ##.cookie-pop-up-container
 ##.cookie-popup
+##.cookie-processed
 ##.cookie-prompt
 ##.cookie-prompter
 ##.cookie-rules-wrapper
+##.cookie-section
 ##.cookie-siteusage-notice
 ##.cookie-warn
 ##.cookie-warn-msg
 ##.cookie-warning
+##.cookie-wrap
 ##.cookie-wrapper
 ##.cookie__show
 ##.cookie__wrapper
@@ -1292,6 +1311,7 @@ _europecookielaw.
 ##.cookie_box_shadow
 ##.cookie_consent
 ##.cookie_content
+##.cookie_header
 ##.cookie_info
 ##.cookie_info_content
 ##.cookie_law
@@ -1350,6 +1370,7 @@ _europecookielaw.
 ##.cookieInfo
 ##.cookieinfo
 ##.cookieinfobannerWrapper
+##.cookieinfoholder
 ##.cookieInformation
 ##.cookieInside
 ##.cookieLaw
@@ -1359,6 +1380,7 @@ _europecookielaw.
 ##.cookieLegalComp
 ##.cookieleiste
 ##.cookieMaster
+##.cookiemessage
 ##.CookieMessage
 ##.cookieMessage
 ##.cookieMessageDiv
@@ -1486,6 +1508,7 @@ _europecookielaw.
 ##.element-cookie-banner
 ##.ePrivacyOuterWrapper
 ##.epson_cookienotice
+##.eu-cookie-bar-notification
 ##.eu-cookie-message
 ##.eu-cookie-nag
 ##.eu-cookie-notice
@@ -1539,6 +1562,7 @@ _europecookielaw.
 ##.js-cookie-policy-header
 ##.js-cookie-widget
 ##.js-CookieBanner
+##.js-cookiebar
 ##.js-cookieComply
 ##.js-cookieMessage
 ##.js-cookies
@@ -1694,6 +1718,7 @@ askinology.com##COOKIE-NOTICE
 autoevolution.com###prajiturele
 autotask.com##.alertbar
 axs.com,virgin.com###privacy-policy
+bankid.com,norwegian.com,linkedin.com,kenweego.com,netweather.tv,twitch.tv,nature.com##.alert
 bankofengland.co.uk##.container-notifications
 bbc.co.uk##.pulse-banner
 bbc.com##.domestic-header-wrapper
@@ -1802,7 +1827,6 @@ nba.com###nba_tos
 nba.com###policy_wrapper
 nelly.com,nlyman.com###toast-container
 nestle-cereals.com,purina.co.uk###nimgrowler
-norwegian.com,linkedin.com,kenweego.com,netweather.tv,twitch.tv,nature.com##.alert
 novantas.com##.foobar-container
 novapdf.com###novapdf_accept_cookies
 nymity.com###CookieAcceptSubLayout1_cookiesmessageshown
@@ -2015,12 +2039,17 @@ webelite.pl###infobar
 !
 !---------- Swedish Site Specific Hiding Rules ----------
 !
-automotorsport.se,bamse.se,folkuniversitetet.se,kalleanka.se,netonnet.se,tidningenjulia.se##.alert
+asedo.se##.infobanner
+atg.se,armemuseum.se,automotorsport.se,bamse.se,folkuniversitetet.se,kalleanka.se,netonnet.se,tidningenjulia.se##.alert
+bahnhof.se##.top-line-block
 coop.se##.Alert
+filminstitutet.se##.js-info-banner
 gamerloot.se##.header-notice
 gp.se##.gpsecGRCookieContainer
 polisen.se##.cookie
 sfv.se###cookies
+skatteverket.se##.alertWrp
+svensktnaringsliv.se###warning
 sverigesradio.se###user-message
 !
 !---------- French Site Specific Hiding Rules ----------
