@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: /IAMM2bJBK1FhyPArTapvg
+! Checksum: G4R+iOaDEdFIcdKJXdVL6g
 ! Title: Fanboy's Cookiemonster List
-! Updated: 22 Jun 2016
+! Updated: 25 Jun 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -309,6 +309,7 @@ _europecookielaw.
 ###accept_cookies
 ###acceptCookie
 ###acceptcookie
+###AcceptCookieContainer
 ###acceptCookieMeg
 ###acceptCookies
 ###acceptCookiesDiv
@@ -897,6 +898,7 @@ _europecookielaw.
 ###eCookieMsg
 ###ee-cookies-message
 ###eimm_box_cookie_alerte_message
+###enablecookies
 ###eprivacy
 ###ePrivacyBanner
 ###ePrivacyDisclaimer
@@ -997,6 +999,7 @@ _europecookielaw.
 ###lca-cookie-notification
 ###legal_policy_cookies
 ###legalLayer
+###lerumCookieContainer
 ###logon-snippet-icookie
 ###lscookiesMax
 ###lsw-cookie-bottom-box
@@ -1093,6 +1096,7 @@ _europecookielaw.
 ###site-cookie-policy
 ###site-we-use-cookies
 ###site-wide-cookie-message
+###site_msg_cookie
 ###SiteMasterPage_updCookieDisclaimer
 ###skycom-cookie-wrapper
 ###slidingCookieDiv
@@ -1172,6 +1176,7 @@ _europecookielaw.
 ##.alerts-manager-container
 ##.allow-cookie-stripe
 ##.alma-cookie-disclaimer
+##.approveCookiesBar
 ##.avisoCookies
 ##.b-cookie-hint
 ##.b-cookies
@@ -1240,10 +1245,12 @@ _europecookielaw.
 ##.cookie-confirm
 ##.cookie-consent
 ##.cookie-consent-block
+##.cookie-consent-wrapper
 ##.cookie-container
 ##.cookie-container-most
 ##.cookie-content
 ##.cookie-dialog-container
+##.cookie-dialogue
 ##.cookie-disclaimer
 ##.cookie-disclosure
 ##.cookie-footer
@@ -1251,8 +1258,12 @@ _europecookielaw.
 ##.cookie-header
 ##.cookie-info
 ##.cookie-info-bar
+##.cookie-info-container
 ##.cookie-info-header
 ##.cookie-info-layer
+##.cookie-info-text
+##.cookie-info-wrapper
+##.cookie-information
 ##.cookie-information-container
 ##.cookie-information-wrapper
 ##.cookie-law
@@ -1303,6 +1314,7 @@ _europecookielaw.
 ##.cookie-warn
 ##.cookie-warn-msg
 ##.cookie-warning
+##.cookie-warning-container
 ##.cookie-wrap
 ##.cookie-wrapper
 ##.cookie__show
@@ -1354,6 +1366,7 @@ _europecookielaw.
 ##.cookieBox
 ##.cookiebox
 ##.CookieChoiceContainer
+##.CookieCompliance
 ##.cookieCompliance
 ##.CookieConsent
 ##.cookieConsent
@@ -1445,6 +1458,7 @@ _europecookielaw.
 ##.cookies-sec
 ##.cookies-warning
 ##.cookies-wrapper
+##.cookies__info
 ##.cookies_bar
 ##.cookies_box
 ##.cookies_law_compliance_footer
@@ -1490,6 +1504,7 @@ _europecookielaw.
 ##.cookieWarning
 ##.cookiewarning
 ##.cookieWarningBox
+##.cookieWrapper
 ##.CookieWrapper
 ##.cookiewrapper
 ##.cookskom
@@ -1568,6 +1583,7 @@ _europecookielaw.
 ##.js-cookie-widget
 ##.js-CookieBanner
 ##.js-cookiebar
+##.js-CookieCompliance
 ##.js-cookieComply
 ##.js-cookieMessage
 ##.js-cookies
@@ -1642,6 +1658,7 @@ _europecookielaw.
 ##.roh-cookies
 ##.row-cookies
 ##.rs-alert-cookie
+##.s-cookies
 ##.sanoma-optin-bar
 ##.sb-ncookies-alert
 ##.sc-cookies
@@ -1653,11 +1670,14 @@ _europecookielaw.
 ##.sgsCookies
 ##.sh-cookie-confirmation
 ##.show-cookie
+##.show-cookie-consent
 ##.site-cookie-panel
 ##.site-cookies
 ##.site-message--cookies
+##.site-msg-cookie
 ##.site-needs-cookies
 ##.sites-cookie-notice-fit
+##.sol-cookie-container
 ##.sqs-announcement-bar
 ##.stampenCookieContainer
 ##.storm-cookie
@@ -2046,17 +2066,25 @@ webelite.pl###infobar
 !---------- Swedish Site Specific Hiding Rules ----------
 !
 asedo.se##.infobanner
-atg.se,armemuseum.se,automotorsport.se,bamse.se,folkuniversitetet.se,kalleanka.se,netonnet.se,tidningenjulia.se##.alert
+atg.se,armemuseum.se,osthammar.se,konkurrensverket.se,automotorsport.se,bamse.se,folkuniversitetet.se,kalleanka.se,netonnet.se,tidningenjulia.se##.alert
 bahnhof.se##.top-line-block
+bolagsverket.se##div[style^="margin: 0px 0px"]
 coop.se##.Alert
+elkedjan.se##.avalanche-message
 filminstitutet.se##.js-info-banner
 gamerloot.se##.header-notice
 gp.se##.gpsecGRCookieContainer
+havkom.se,lfv.se##.cookies
+nacka.se##.c-message
+pensionsmyndigheten.se###cb_alert
 polisen.se##.cookie
 sfv.se###cookies
 skatteverket.se##.alertWrp
+smhi.se##.polopolyNotification
 svensktnaringsliv.se###warning
 sverigesradio.se###user-message
+telia.se##.tsAttention--Info
+tre.se##.alert-bar
 !
 !---------- French Site Specific Hiding Rules ----------
 !
@@ -2188,7 +2216,7 @@ media.netflix.com#@##cookieAlert
 mediapart.fr#@#.cookie-warn
 moniteurautomobile.be#@#.cookieBox
 nzherald.co.nz#@#.Cookies
-nzherald.co.nz,pokemon.com,shopstyle.com#@#.no-cookies
+nzherald.co.nz,pokemon.com,shopstyle.com,aklagare.se#@#.no-cookies
 prosiebengames.de,stories.com#@#.cookie-notification
 roussillhotel.com#@##cookie-banner
 tweakers.net#@##cookieContainer
