@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: iX3IUpxfqzxn/Sjk/ejFdA
+! Checksum: l2U+4lfxm0+vbLqbY0TqKg
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 22 Jun 2016
+! Updated: 26 Jun 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -765,7 +765,7 @@ youporn.com###adblock_1
 @@/cdn-cgi/pe/bag2?*pagead2.googlesyndication.com$domain=forwardprogressives.com
 @@/coremetrics.js$domain=odcdn.com|potterybarn.com|potterybarnkids.com|westelm.com|williams-sonoma.com
 @@/mbox.js$domain=aol.com|dominos.com|hrblock.com|live.com|movieweb.com|rd.com|skypeassets.com|superpages.com|wdpromedia.com
-@@/omniture.js$domain=ae.com|apple.com|corbisimages.com|couponcabin.com|delvenetworks.com|gq.com|healthgrades.com|mlb.com|newyorker.com|nfl.com|pogo.com|seek.co.nz|seek.com.au|shop.puma.com|slacker.com|teenvogue.com|veer.com|zdnet.com
+@@/omniture.js$domain=directv.com|ae.com|apple.com|corbisimages.com|couponcabin.com|delvenetworks.com|gq.com|healthgrades.com|mlb.com|newyorker.com|nfl.com|pogo.com|seek.co.nz|seek.com.au|shop.puma.com|slacker.com|teenvogue.com|veer.com|zdnet.com
 @@/ots_omniture_code.js$~third-party
 @@/s-code-$domain=usanetwork.com|elgiganten.dk|elgiganten.se|elkjop.no|gigantti.fi|markantalo.fi
 @@/s_code.$domain=vodafone.hu|tmz.com|192.com|abc.go.com|abcnews.go.com|aetv.com|afl.com.au|americanexpress.com|anz.com|beatsbydre.com|blackberry.com|bodybuilding.com|boostmobile.com|canon.com.au|car2go.com|caranddriver.com|cbc.ca|cfnews13.com|channel4.com|cinemax.com|cio.com|countryliving.com|csoonline.com|debenhams.com|dhgate.com|dice.com|disneyinternational.com|diy.com|eonline.com|esquire.com|experian.com|fandango.com|fedex.com|filemaker.com|filmmagic.com|gatesnotes.com|goodhousekeeping.com|greenbot.com|hallmark.com|hasbro.com|hbogo.com|here.com|homedepot.com|infoworld.com|ingdirect.es|itworld.com|ksl.com|landsend.com|laptopmag.com|lg.com|macworld.com|madcatz.com|marieclaire.com|marthastewart.com|marthastewartweddings.com|move.com|msacademicverify.com|nba.com|nbc.com|nbcdfw.com|nbclosangeles.com|nbcmiami.com|networkworld.com|news12.com|nflcdn.com|nike.com|nintendo.com|nwolb.com|olivegarden.com|online.citibank.com|oreillyauto.com|overstock.com|pcworld.com|qz.com|randomhouse.com|redbookmag.com|rolandgarros.com|samsung.com|sephora.fr|sho.com|shop.puma.com|simyo.de|siriusxm.com|sonypictures.com|sprint.com|stamfordadvocate.com|staples.com|starz.com|style.com|syfy.com|symantec.com|techhive.com|teenvogue.com|telecom.co.nz|theglobeandmail.com|theweathernetwork.com|vendaria.com|verizonwireless.com|wdpromedia.com|welcome.ingdirect.com.au|wholeliving.com|wireimage.com|workingmother.com|yellow.co.nz|yellowpages.com.au|zdnet.com
@@ -823,6 +823,7 @@ youporn.com###adblock_1
 @@||dice.com/assets/scripts/omniture/$script
 @@||dicksmith.co.nz^*/site-tracker.js
 @@||directline.com/etc/clientlibs/$script
+@@||directv.com^*/omniture-dtv.js
 @@||disney.go.com/globalelements/footer/comscore.txt
 @@||ea.com/omniture/
 @@||ebaystatic.com^*_Omniture_$script
