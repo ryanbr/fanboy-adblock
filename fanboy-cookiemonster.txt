@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: swpBNNP9QrJtnWTOXOOnyg
+! Checksum: FqspYZzoFYcDt//q9EmWOw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 25 Jun 2016
+! Updated: 26 Jun 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2075,7 +2075,8 @@ elkedjan.se##.avalanche-message
 filminstitutet.se##.js-info-banner
 gamerloot.se##.header-notice
 gp.se##.gpsecGRCookieContainer
-havkom.se,lfv.se##.cookies
+havkom.se,lfv.se,oru.se##.cookies
+hkr.se###c-info-box
 nacka.se##.c-message
 pensionsmyndigheten.se###cb_alert
 polisen.se##.cookie
