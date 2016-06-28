@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: HfTvjgW7pKtML1vELuK7Fw
+! Checksum: gP4qXjhINzDORjyLZsOqyg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 28 Jun 2016
 ! This list expires after 2 days
@@ -615,6 +615,7 @@ _europecookielaw.
 ###cookiecnil
 ###cookieCompliance
 ###cookieComplianceMessage
+###cookieCompliancyModal
 ###cookieConsent
 ###cookieconsent
 ###cookieconsentbar
@@ -1168,6 +1169,7 @@ _europecookielaw.
 ##.acceptCookiesBox
 ##.agegate-cookie
 ##.agree-cookie-wrap
+##.alert--cookie
 ##.alert--cookies
 ##.alert-cnil
 ##.alert-cookie
@@ -1365,8 +1367,10 @@ _europecookielaw.
 ##.cookiebarcontainer
 ##.cookieBarContainer
 ##.cookiebarinner
+##.cookieBarReviewDesktop
 ##.cookieBox
 ##.cookiebox
+##.cookieCheckMainPanel
 ##.CookieChoiceContainer
 ##.CookieCompliance
 ##.cookieCompliance
@@ -1514,6 +1518,7 @@ _europecookielaw.
 ##.ctl_CookieWarning
 ##.cwcookielaw
 ##.dCookiesAlert
+##.defaultCookie
 ##.disclaimerCookies
 ##.dismissable-cookie-policy
 ##.divCookiePopUp
@@ -1521,6 +1526,7 @@ _europecookielaw.
 ##.dom-content--eu-banner
 ##.dr-cookie-info-box
 ##.drawer-cookies
+##.ds2-cookie-disclaimer
 ##.e-cookie-message
 ##.ec-cookie-policy
 ##.ecdcCookiePolicy
@@ -1597,6 +1603,7 @@ _europecookielaw.
 ##.layer_cookie
 ##.layerCookie
 ##.lgcookieslaw_banner
+##.m-cookie-banner
 ##.m-cookie-notice
 ##.m159-cookies
 ##.m_cookie
@@ -1614,6 +1621,7 @@ _europecookielaw.
 ##.mod-privacypolicy
 ##.ModThomasCookiesC
 ##.module-cookie-info
+##.modUt_cookie_privacy_1
 ##.ms-cookie-ok
 ##.mxm-cookie-alert
 ##.nav__cookies
@@ -1698,6 +1706,7 @@ _europecookielaw.
 ##.ultimize_cookie_notification_container
 ##.umuCookieMain
 ##.use-cookie-container
+##.ut_cookie_privacy_c1
 ##.v2_cookies_container
 ##.viacomcookiebar
 ##.viacomcookiebar-extended
@@ -2068,7 +2077,6 @@ webelite.pl###infobar
 !---------- Swedish Site Specific Hiding Rules ----------
 !
 asedo.se##.infobanner
-atg.se,armemuseum.se,osthammar.se,konkurrensverket.se,automotorsport.se,bamse.se,folkuniversitetet.se,kalleanka.se,netonnet.se,tidningenjulia.se##.alert
 bahnhof.se##.top-line-block
 bolagsverket.se##div[style^="margin: 0px 0px"]
 coop.se##.Alert
@@ -2078,6 +2086,8 @@ gamerloot.se##.header-notice
 gp.se##.gpsecGRCookieContainer
 havkom.se,lfv.se,oru.se##.cookies
 hkr.se###c-info-box
+klaramaten.se,atg.se,armemuseum.se,osthammar.se,konkurrensverket.se,automotorsport.se,bamse.se,folkuniversitetet.se,kalleanka.se,netonnet.se,tidningenjulia.se##.alert
+lexus.se##.disclaimer
 nacka.se##.c-message
 pensionsmyndigheten.se###cb_alert
 polisen.se##.cookie
