@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: CW3BR/kzFUgpUAJeKrlosw
+! Checksum: EUr8F8vHnePjR9/mKQ80Iw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 9 Jul 2016
 ! This list expires after 2 days
@@ -292,6 +292,7 @@ _cookielaw_mip.
 _cookieMsgBox/
 _cookieNotice.
 _cookies_disclosure/
+_cookieschecker.
 _cookiewarn.
 _eu_cookie_
 _eucookie_compliance_
@@ -372,6 +373,7 @@ _europecookielaw.
 ###bloc_setcookie
 ###block-cookie_policy-0
 ###block-inf-eu-cookie-cookie-disclaimer
+###block-notifications-cookie
 ###blogger_cookie_notice
 ###bonaCookies
 ###bootcooker-banner
@@ -838,6 +840,7 @@ _europecookielaw.
 ###cookieSpan
 ###cookiesPanel
 ###cookiespolicy
+###cookiespolicymessage
 ###cookiesPolicyPopup
 ###cookiesPop
 ###cookiesPopup
@@ -944,6 +947,7 @@ _europecookielaw.
 ###EuCookieLawForm
 ###EUCookieMsg
 ###eucookienotice
+###eucookies-note
 ###EUDirectiveCookiePanel
 ###euNotice
 ###expat_cookies
@@ -982,6 +986,7 @@ _europecookielaw.
 ###headerCookiesAdvice
 ###hi-cookie-box
 ###htmlPopinCookies
+###i-cookies-bar
 ###IBTCookiePolicy
 ###icoCookiesBanner
 ###id_cookieconsent
@@ -1049,6 +1054,7 @@ _europecookielaw.
 ###nibirumail_cookie_advice
 ###no-cookie
 ###notice--cookie
+###notice-cookie-policy
 ###notificacio-cookies
 ###notification__cookie
 ###notification_cookiewarning
@@ -1225,6 +1231,7 @@ _europecookielaw.
 ##.c-cookie-banner
 ##.c-cookie-bar
 ##.c-cookie-policy
+##.c-cookiebar
 ##.c-cookieContainer
 ##.c2g_daimler_cookie_dialog_overlay
 ##.c_cookie-policy
@@ -1371,6 +1378,7 @@ _europecookielaw.
 ##.cookie_privacy_info_bar
 ##.cookie_warning
 ##.cookie_wrapper
+##.cookieAccept
 ##.CookieAccept
 ##.cookieAccepterSlider
 ##.CookieAcceptPanel
@@ -1426,6 +1434,7 @@ _europecookielaw.
 ##.cookieLegal_comp
 ##.cookieLegalComp
 ##.cookieleiste
+##.cookieMain
 ##.cookieMaster
 ##.cookiemessage
 ##.CookieMessage
@@ -1547,6 +1556,7 @@ _europecookielaw.
 ##.defaultCookie
 ##.disclaimerCookies
 ##.dismissable-cookie-policy
+##.divascookies
 ##.divCookiePopUp
 ##.divCookiePopUpContainer
 ##.dom-content--eu-banner
@@ -1653,6 +1663,7 @@ _europecookielaw.
 ##.modUt_cookie_privacy_1
 ##.moneseCookies
 ##.ms-cookie-ok
+##.msg-cookie
 ##.mxm-cookie-alert
 ##.nav__cookies
 ##.no-cookies
@@ -1665,6 +1676,7 @@ _europecookielaw.
 ##.okookie
 ##.om-cookie-agreement
 ##.optanon-alert-box-wrapper
+##.ou-cookies-bar
 ##.overlay-cookie
 ##.p-cookiebar
 ##.p_cookie
@@ -1845,6 +1857,7 @@ facebook.com##[data-testid="cookie-policy-banner"]
 fedex.com###privacy-notice
 forumcommunity.net##.jnote
 foryoubyyou.org.uk##.optanon-alert-box-wrapper
+freecycle.org###blocker_message
 ft.com,heathrowexpress.com###consent
 fundedbyme.com##.pageNotification
 gamemania.be###globalmessage
@@ -1856,6 +1869,7 @@ good.is##.sitewide-alert
 googleapis.com##div[style$=";background-color:#5a5a5a"]
 gov.im##.site-warning
 gumtree.com##.notification-box
+hankzipzer.co.uk###cppd
 hattrick.org##.frontPage .container > .alert
 hlntv.com###terms-of-service-container
 hlntv.com###tos_pp_popup_container
@@ -1942,13 +1956,15 @@ themeflood.com##.gatewayContainer
 theson.org.uk,thisengland.co.uk###msg_top_bar
 ticketsource.co.uk###permission-bar
 tmz.com###legalbar
+travelsupermarket.com##.site-notice-wrapper
 trustnet.com###wholeCover
 trustnet.com##.idPanelShow
 tvcatchup.com###messageBox
 uber.com##.banner--bottom
+uk.yahoo.com###Main > .windowshade:first-child
 uk.yahoo.com##.type_windowshade_default
 uktv.co.uk###back-to-old-site
-umicore.com,anite.com,asda.com,ashridge.org.uk,chemistdirect.co.uk,consumeraffairs.org.uk,dur.ac.uk,ets2mp.com,festicket.com,mindshareworld.com,luxottica.be,mclaren.com,prtb.ie,redbull.com,royalparks.org.uk,tescomobile.ie,ukcisa.org.uk,unity3d.com,unknownphone.com,uptodown.com,viralnewschart.com##.cookies
+umicore.com,anite.com,asda.com,ashridge.org.uk,chemistdirect.co.uk,consumeraffairs.org.uk,dur.ac.uk,ets2mp.com,festicket.com,mindshareworld.com,luxottica.be,mclaren.com,prtb.ie,redbull.com,royalparks.org.uk,thenottingham.com,tescomobile.ie,ukcisa.org.uk,unity3d.com,unknownphone.com,uptodown.com,viralnewschart.com##.cookies
 userbenchmark.com##.notificationBar
 vanguardsmoke.com###pop_wholes
 vanguardsmoke.com###pop_wholes_bg
@@ -2025,6 +2041,7 @@ cebit.de,hannovermesse.de##.user-notes-notification
 cushmanwakefield.de##.m-warning
 die-linke.de###msppiwikoptout_container
 duden.de###sliding-popup
+esprit.de###policy_header
 hl-live.de##table[width="1000"]
 hosteurope.de###cche
 kleiderkreisel.de,mamikreisel.de##.js-notification
@@ -2089,6 +2106,7 @@ filmweb.pl###topBar
 flyordie.pl###eucc
 goldenline.pl###topReminder
 gornikzabrze.pl###sliding-popup
+gosc.pl##div[style^="border: 10px solid"]
 gov.pl,osnews.pl,xfutbol.pl###cookie
 gsmonline.pl###jGrowl
 herbaciani.pl##div[style^="float:right; padding-top:20px;"]
@@ -2131,6 +2149,7 @@ tripolo.pl###miastoszkolen
 vectra.pl##.jqmAlertWindow
 votepush.com##.alert
 webelite.pl###infobar
+wrzucacz.pl##.info[style="font-size: 7pt; position: absolute;top:22px;right: 0px;padding:2px 10px 2px 36px"]
 !
 !---------- Polish Site Specific Blocking Rules ----------
 !
@@ -2210,7 +2229,7 @@ ddb.fr,pmu.fr,regionguadeloupe.fr##.cnil
 e-leclerc.com##.popover
 elpais.com###capaAvisoPoliticaCookies_superior_mensajes
 elsevier-masson.fr###myModal
-gentside.com,jules.com,laposte.fr,maxisciences.com,mybiclighter.com,ohmymag.com,showroomprive.com###cookies
+gentside.com,colissimo.fr,jules.com,laposte.fr,maxisciences.com,mybiclighter.com,ohmymag.com,showroomprive.com###cookies
 gmf.fr,grillofrance.fr,havas-voyages.fr,materiel.net,paris.fr,societe.com,sportetstyle.fr###cookie
 hd1.tv,nt1.tv###upper
 hotelalisee.fr###CPolicy
