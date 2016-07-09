@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: Wvof+TGxwrxctF5KRFRRdg
+! Checksum: CW3BR/kzFUgpUAJeKrlosw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 8 Jul 2016
+! Updated: 9 Jul 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -10,6 +10,7 @@
 -agree-cookies/
 -cookie-banner-
 -cookie-cnil.
+-cookie-consent.
 -cookie-consent/
 -cookie-filter/$script
 -cookie-law-popup.
@@ -408,6 +409,7 @@ _europecookielaw.
 ###cnil-cookie
 ###cnil-cookie-panel
 ###cnil-layer
+###cnil-msg
 ###CNIL-notice
 ###cnil_alert
 ###cnil_bandeau
@@ -445,6 +447,7 @@ _europecookielaw.
 ###cookie-compliance-bottom
 ###cookie-compliance-bottom-overlay
 ###cookie-compliance-container
+###cookie-confirm-box
 ###cookie-consent
 ###cookie-consent-banner
 ###cookie-consent-bar
@@ -1380,7 +1383,7 @@ _europecookielaw.
 ##.cookieBan
 ##.CookieBanner
 ##.cookieBanner
-##.cookiebanner
+##.cookiebanner:not(body)
 ##.cookieBannerContainer
 ##.cookieBar
 ##.cookiebar
@@ -1785,7 +1788,6 @@ askinology.com##COOKIE-NOTICE
 autoevolution.com###prajiturele
 autotask.com##.alertbar
 axs.com,virgin.com###privacy-policy
-bankid.com,norwegian.com,linkedin.com,kenweego.com,netweather.tv,twitch.tv,nature.com##.alert
 bankofengland.co.uk##.container-notifications
 bbc.co.uk##.pulse-banner
 bbc.com##.domestic-header-wrapper
@@ -1813,15 +1815,18 @@ co-operativeinsurance.co.uk,smile.co.uk###noticePanel
 cofunds.co.uk##.smContainerInner
 complex.com###eucn
 comscore.com##.info_banner
+costaclub.com,bankid.com,norwegian.com,linkedin.com,kenweego.com,netweather.tv,twitch.tv,nature.com##.alert
 couchsurfing.com##.banner
 crash.net,nationwideinternational.com,thederbyshire.co.uk###cn
 csl-computer.com###notification
 cushmanwakefield.be,cushmanwakefield.co.uk##.m-warning
+daft.ie##.strapline-container
+dailyedge.ie,did.ie,the42.ie###notify-container
 dailymotion.com##.sd_metaheader
+daxon.co.uk###notification_area
 debenhams.com###debCNwrap
 decathlon.co.uk###container-screen
 diabetes.org.uk###policyPopup
-did.ie,the42.ie###notify-container
 digitaltrends.com##.m-dt_set_homepage_pint
 dlink.com,bethesda.net,eveningtelegraph.co.uk,fundingcircle.com,princeofwales.gov.uk,sundaypost.com,wiley.com##.notification
 dlwflooring.com##.privacy-info
@@ -2018,6 +2023,7 @@ tweakers.net###notifications > .announcement
 agynamix.de###cookie
 cebit.de,hannovermesse.de##.user-notes-notification
 cushmanwakefield.de##.m-warning
+die-linke.de###msppiwikoptout_container
 duden.de###sliding-popup
 hl-live.de##table[width="1000"]
 hosteurope.de###cche
@@ -2070,7 +2076,13 @@ atman.pl###gbpl_oba
 bankmillennium.pl,dobreprogramy.pl,generali.pl,newsweek.pl,play.pl,tripolo.pl###cookies
 bitbay.pl,telepolis.pl##.cookies
 bstorun.pl###comm_info
+cabletech.pl##div[style="top:0;position:absolute;width:100%;background:#000;color:#f2f2f2;font-size:10px;text-align:center"]
+cartests.net##.messi
 cda.pl###box_info
+centrumpiwowarstwa.pl##div[style="color: gray; background-color: white; border-bottom: 1px dotted gray; padding:2px; font-size: 0.75em;"]
+cinema-city.pl##div[style="margin:0;padding:10px 50px;font-size:11px;color:#999;background:#26292e"]
+czescidobmw.pl##div[style="position:fixed;left:0;top:0;width:100%;height:100%;background:#000;background:rgba(0,0,0,0.5);z-index:99999;cursor:pointer"]
+darksiders.pl###callout
 dolce-gusto.pl###nimgrowler
 e-zikoapteka.pl,tanie-leczenie.pl###notice_bar
 filmweb.pl###topBar
@@ -2186,10 +2198,15 @@ biomet.fr,closermag.fr###fancybox-overlay
 biomet.fr,closermag.fr###fancybox-wrap
 bouyguestelecom.fr##.hfc--nc
 brain-magazine.fr###cookies
+bwin.fr##.info-message
 bycontext.com###lcBar
 ca-anjou-maine.fr,ca-briepicardie.fr,ca-cb.fr,ca-nord-est.fr##.recocliv2
+carrelages4000.fr##.ays-front-message
+cerdas.com##.topBar
+creavea.com##.creavea-banner-cookie-consent
 cuisineaz.com##.cazLightbox
 cushmanwakefield.fr##.m-warning
+ddb.fr,pmu.fr,regionguadeloupe.fr##.cnil
 e-leclerc.com##.popover
 elpais.com###capaAvisoPoliticaCookies_superior_mensajes
 elsevier-masson.fr###myModal
@@ -2231,7 +2248,6 @@ nwglobalvending.fr###toast
 orange.be##.b2c-global-footer-container
 paconsulting.com###cookPop
 pagesjaunes.fr###cgu
-pmu.fr,regionguadeloupe.fr##.cnil
 priceminister.com###legalNotificationEltId
 publicsenat.fr##.top-message
 radins.com##.abo-home
@@ -2257,9 +2273,12 @@ zdnet.fr###catfish
 !
 ###MensajeCompruebaCookieSite > div:first-child
 aristeguinoticias.com###comparte
+bwin.es##.info-message
+castroelectronica.pt##div[style="height: 35px; background:#2a2a2a; position:absolute; width:100%; top:0; z-index: 999999;"]
 cincodias.com,meristation.com###capaAvisoPoliticaCookies_superior_mensajes
 clementoni.pt###disclaimer
 cliper.pt###cook
+clubhyundai.es##div[id][class] > div[class]
 colorobbia.pt###barraaceptacion
 iubenda.com###iubenda-cs-banner
 iubenda.com##a[style="padding-top: 10px; display: block;"]
@@ -2312,7 +2331,6 @@ lg.com#@#.cookie-check
 media.netflix.com#@##cookieAlert
 mediapart.fr#@#.cookie-warn
 moniteurautomobile.be#@#.cookieBox
-nidirect.gov.uk,bulle-communication.com,edmond-de-rothschild.fr,foiredeparis.fr,galleria.io,icelandair.ca,icelandair.de,kintera.org,lamediathequedumarsan.fr,lautoentrepreneur.fr,lesclesdelabanque.com,liciafox.net,normandinamik.cci.fr,pleinchamp.com,universityadmissions.se,nrj.fr#@#.cookiebanner
 nzherald.co.nz#@#.Cookies
 nzherald.co.nz,pokemon.com,shopstyle.com,aklagare.se#@#.no-cookies
 prosiebengames.de,stories.com#@#.cookie-notification
