@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: Tw9+4QGfkPWB/qXB9e9whA
+! Checksum: bHuWXkLwr+v3M365e+icPQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 10 Jul 2016
 ! This list expires after 2 days
@@ -1851,6 +1851,7 @@ debenhams.com###debCNwrap
 decathlon.co.uk###container-screen
 diabetes.org.uk###policyPopup
 digitaltrends.com##.m-dt_set_homepage_pint
+discordapp.com,dotmailer.com,phys.org,medicalxpress.com,shire.com,techxplore.com,vcars.co.uk##.notice
 dlink.com,bethesda.net,eveningtelegraph.co.uk,fundingcircle.com,princeofwales.gov.uk,sundaypost.com,wiley.com##.notification
 dlwflooring.com##.privacy-info
 dolce-gusto.co.uk###nimgrowler-prompt
@@ -1914,7 +1915,6 @@ malaysiaairlines.com###cookie_policy_modal
 malaysiaairlines.com##.modal-backdrop
 mappy.com###IndexView-first-visit
 marasrl.it,cbfhydraulic.com###ckInfo
-medicalxpress.com,shire.com,techxplore.com,vcars.co.uk##.notice
 mercedes-benz.com###cLayer
 mercedes-benz.com###simplemodal-container
 mercedes-benz.com,mercedesamgf1.com###simplemodal-overlay
