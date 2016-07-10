@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: zienC4rh8sUpJdFIFasyBg
+! Checksum: 8F1WG4YRRw/rHeGZdEAYTw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 3 Jul 2016
+! Updated: 10 Jul 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -757,10 +757,16 @@ youporn.com###adblock_1
 !
 !---------- Anti Adblock Warnings ------
 !
-@@||g.doubleclick.net/gampad/ads?gdfp_req=1&$script,domain=forbes.com
 @@||pagead2.googlesyndication.com/pagead/*/show_ads_impl.js$domain=playonlinux.com|wired.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=playonlinux.com|wired.com
 @@||wired.com^$generichide
+!
+! Forbes
+!
+@@||forbes.com^$generichide
+forbes.com##.social-expand-control
+forbes.com##.top-fbs-ad-sticky[style]
+forbes.com##DIV[id^="google_ads_"][style]
 !
 ! ---------- Whitelisting rules ----------
 !
