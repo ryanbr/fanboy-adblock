@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: rwUvq6EgYDh6BzBM65DJCQ
+! Checksum: pTefojyRVYDsnr03QxHwHA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 17 Jul 2016
 ! This list expires after 2 days
@@ -1995,15 +1995,27 @@ youronlinechoices.com##.p15
 zombiearmy.com##.alert-box
 zyncro.com###noticebar
 ! Cookie,privacy,legal Messages
+||civiccomputing.com^*=cookie$script,third-party
 ||consent.truste.com^$third-party
+||cookie-script.com^$third-party
 ||cookie.oup.com^
 ||cookie.radioplayer.co.uk^
+||cookieassistant.com^$third-party
+||cookiebot.com^$third-party
 ||cookiechoices.org^$third-party
+||cookieconsent.silktide.com^$third-party
+||cookieinformation.com^$third-party
+||cookielaw.org^$third-party
+||cookiemanager1.contentforces.com^$third-party
+||cookieq.com^$third-party
+||cookiereports.com^$third-party
+||cookies.innershed.co.uk^
 ||harpercollins.co.uk/js/cookie.js
 ||hunstoncanoeclub.co.uk/media/system/js/modal.js
 ||omgubuntu.co.uk/wp-content/plugins/omg-magnific/magnific.min.js
 ||onlive.co.uk/account/cookie_notice
 ||propcom.co.uk/cookie/
+||smartcookies.it^$third-party
 !
 !---------- Non-enlish Site Specific Hiding Rules ----------
 !
