@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: pTefojyRVYDsnr03QxHwHA
+! Checksum: wmj5JafkxnkjGIe/izR+jw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 17 Jul 2016
 ! This list expires after 2 days
@@ -271,7 +271,6 @@
 /ttgcookieconsent-
 /TWCCookies/*
 /ubmcookieconsent-
-/uk-cookie-consent/*
 /usecookies.js
 /usocookies.
 /warnCookies.
@@ -1869,7 +1868,6 @@ exemproject.eu###myModal
 facebook.com##[data-testid="cookie-policy-banner"]
 fedex.com###privacy-notice
 forumcommunity.net##.jnote
-foryoubyyou.org.uk##.optanon-alert-box-wrapper
 freecycle.org###blocker_message
 ft.com,heathrowexpress.com###consent
 fundedbyme.com##.pageNotification
@@ -1919,7 +1917,6 @@ marasrl.it,cbfhydraulic.com###ckInfo
 mercedes-benz.com###cLayer
 mercedes-benz.com###simplemodal-container
 mercedes-benz.com,mercedesamgf1.com###simplemodal-overlay
-microsoft.com###PrivacyBanner
 moleskine.com###disclaimer
 moneysavingexpert.com###alertBar
 msc.com##.reveal-modal-bg
@@ -2217,7 +2214,6 @@ bahnhof.se##.top-line-block
 bolagsverket.se##div[style^="margin: 0px 0px"]
 coop.se##.Alert
 di.se##.footer__cookie-info
-elkedjan.se##.avalanche-message
 fass.se##.starttopdialog
 filminstitutet.se##.js-info-banner
 gamerloot.se##.header-notice
@@ -2271,7 +2267,6 @@ hd1.tv,nt1.tv###upper
 hotelalisee.fr###CPolicy
 ilninth.wordpress.com###MsgContainer
 kioskabo.fr##.messages
-ladepeche.fr###alerte_tracking
 landrover.ch##.notificationBars
 larousse.fr##.ui-dialog
 larousse.fr##.ui-widget-overlay
