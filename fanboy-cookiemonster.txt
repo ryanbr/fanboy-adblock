@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: K0JSqTDtKU1vA07Nx3+8UA
+! Checksum: 8Ye1sypZUAGQPJsmCfxahg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 24 Jul 2016
 ! This list expires after 2 days
@@ -2140,7 +2140,7 @@ flyordie.pl###eucc
 goldenline.pl###topReminder
 gornikzabrze.pl###sliding-popup
 gosc.pl##div[style^="border: 10px solid"]
-gov.pl,osnews.pl,xfutbol.pl###cookie
+gov.pl,osnews.pl,pracuj.pl,xfutbol.pl###cookie
 gsmonline.pl###jGrowl
 herbaciani.pl##div[style^="float:right; padding-top:20px;"]
 home.pl###box_policies
