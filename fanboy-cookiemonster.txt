@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: zmLLUhHwA6zK3un2v3OYkg
+! Checksum: 6To2J8ydy3uFi5t27vxVCw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 28 Jul 2016
 ! This list expires after 2 days
@@ -1852,6 +1852,7 @@ daft.ie##.strapline-container
 dailyedge.ie,did.ie,the42.ie###notify-container
 dailymotion.com##.sd_metaheader
 daxon.co.uk###notification_area
+deadline.com,hollywoodlife.com,footwearnews.com,wwd.com,bgr.com,tvline.com###pp_banner
 debenhams.com###debCNwrap
 decathlon.co.uk###container-screen
 diabetes.org.uk###policyPopup
@@ -1974,7 +1975,6 @@ travelsupermarket.com##.site-notice-wrapper
 trustnet.com###wholeCover
 trustnet.com##.idPanelShow
 tvcatchup.com###messageBox
-tvline.com###pp_banner
 uber.com##.banner--bottom
 uk.yahoo.com###Main > .windowshade:first-child
 uk.yahoo.com##.type_windowshade_default
