@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: uk5cTEGZHI6pA0JZ0/nBvA
+! Checksum: rRWOVMoqu0/88dequskixg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 30 Jul 2016
 ! This list expires after 2 days
@@ -1008,6 +1008,7 @@ _europecookielaw.
 ###info-cookie
 ###info_cookie
 ###infoCookie
+###informationAboutCookies
 ###informations-cookies
 ###infos_cookie
 ###itv-cookie-notification
@@ -2134,7 +2135,6 @@ atakklonow.pl,mistrzowie.org,wszechpolska.pl##div[style="position: fixed; left:0
 atk.com.pl###TB_window
 atman.pl###gbpl_oba
 bankmillennium.pl,dobreprogramy.pl,generali.pl,newsweek.pl,play.pl,tripolo.pl###cookies
-bitbay.pl,telepolis.pl##.cookies
 bstorun.pl###comm_info
 cabletech.pl##div[style="top:0;position:absolute;width:100%;background:#000;color:#f2f2f2;font-size:10px;text-align:center"]
 cartests.net##.messi
@@ -2145,6 +2145,7 @@ czescidobmw.pl##div[style="position:fixed;left:0;top:0;width:100%;height:100%;ba
 darksiders.pl###callout
 dolce-gusto.pl###nimgrowler
 e-zikoapteka.pl,tanie-leczenie.pl###notice_bar
+easycomp.pl,bitbay.pl,telepolis.pl##.cookies
 filmweb.pl###topBar
 flyordie.pl###eucc
 goldenline.pl###topReminder
