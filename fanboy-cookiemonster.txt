@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: neGbg1aA0bWgChD6IscqIw
+! Checksum: uk5cTEGZHI6pA0JZ0/nBvA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 30 Jul 2016
 ! This list expires after 2 days
@@ -2195,6 +2195,7 @@ vectra.pl##.jqmAlertWindow
 votepush.com##.alert
 webelite.pl###infobar
 wrzucacz.pl##.info[style="font-size: 7pt; position: absolute;top:22px;right: 0px;padding:2px 10px 2px 36px"]
+wykop.pl##.cookie
 !
 !---------- Polish Site Specific Blocking Rules ----------
 !
