@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: d9AUyw4SK0LfziNJADoYeA
+! Checksum: Is1v4bQHo+w88ckydS8Vxw
 ! Title: Fanboy's Swedish
-! Updated: 5 Jun 2016
+! Updated: 30 Jul 2016
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: fanboyadblock@googlegroups.com
@@ -183,6 +183,10 @@ dreamfilmhd.com##div[style="background-color:rgba(0,0,0,0.1);width:750px;height:
 dreamfilmhd.com##div[style="width:750px;clear:both;margin:0 0 10px 0;padding:0;"]
 expo.se,nyteknik.se,svd.se##.ad
 expressen.se##a[href^="http://marketnews.se/"]
+falkenbergtorget.se##.banner
+falkenbergtorget.se##.banner-top
+falkenbergtorget.se##.jobbtipsaren
+falkenbergtorget.se##.sponsored
 flashback.org##.banner_text
 flashback.se###top-banner
 folkbladet.se##[style="border: 1px solid rgb(126, 169, 204); font-family: arial; font-size: 12px; background-color: rgb(255, 255, 255); width: 200px;"]
