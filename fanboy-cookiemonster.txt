@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: c3fnJcH40js6STLWoSWYRQ
+! Checksum: P/BaIpLvsBqPUDfCmw4v4A
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 7 Aug 2016
 ! This list expires after 2 days
@@ -1979,6 +1979,7 @@ stargreen.com##div[style^="color: rgb(238, 238, 238);"]
 superiorwallpapers.com##.uk-alert
 tartybikes.co.uk###eureg
 tbs.com,tntdrama.com##.toast
+teamcoco.com###ft
 tesco.com###cp
 theartnewspaper.com##.fixed-panels
 theguardian.com##.site-message
