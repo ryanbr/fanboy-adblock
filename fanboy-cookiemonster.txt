@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: XPNBEuDCREZ5OSBbkH4ztw
+! Checksum: OFSi8qOGAh9Z9LahgKBWVA
 ! Title: Fanboy's Cookiemonster List
-! Updated: 9 Aug 2016
+! Updated: 10 Aug 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -240,6 +240,7 @@
 /fp_cookie.
 /g4cookies.
 /GestionCookiesCNILPlugin/*
+/header.cookies.
 /icit-cookie-law/*
 /ico_cookies.
 /icocookies.
@@ -443,6 +444,7 @@ _europecookielaw.
 ###cookie-banner
 ###cookie-banner-container
 ###cookie-bar
+###cookie-bar-bottom
 ###cookie-bar-main
 ###cookie-bar-module
 ###cookie-block
@@ -511,6 +513,7 @@ _europecookielaw.
 ###cookie-policy
 ###cookie-policy-accept-bar
 ###cookie-policy-banner
+###cookie-policy-bar
 ###cookie-policy-container
 ###cookie-policy-msg
 ###cookie-policy-notice
@@ -899,6 +902,7 @@ _europecookielaw.
 ###ctrlHeader_divCookieText
 ###cw-cookieInfo
 ###dcc_cookieMessageContainer
+###DCINFO_COOKIE_AGB
 ###dennis-cookie-notice
 ###desktop-cookie-disclosure
 ###disclaimerC
@@ -1028,6 +1032,7 @@ _europecookielaw.
 ###js_popup_cookies
 ###js_pushDownCookieMessage
 ###jumper_cookies
+###KPN_cookie
 ###layer-cookie-notice
 ###layer_cookie
 ###layerAcceptCookie
@@ -1353,11 +1358,13 @@ _europecookielaw.
 ##.cookie-policy
 ##.cookie-policy-accept
 ##.cookie-policy-alert
+##.cookie-policy-bar-bottom
 ##.cookie-policy-box
 ##.cookie-policy-container
 ##.cookie-policy-form
 ##.cookie-policy-message
 ##.cookie-policy-notice
+##.cookie-policy-popin
 ##.cookie-policy-statement
 ##.cookie-pop
 ##.cookie-pop-up-container
@@ -1437,6 +1444,7 @@ _europecookielaw.
 ##.cookieContainer
 ##.cookieControl
 ##.cookied
+##.cookieDialog
 ##.CookieDirectiveDisplay
 ##.CookieDirectiveHeight
 ##.cookieDisclaimer
@@ -1485,6 +1493,7 @@ _europecookielaw.
 ##.cookiePolicy-banner
 ##.cookiePolicyBannerOuter
 ##.cookiePolicyBnr
+##.cookiepopup
 ##.cookiePopUp
 ##.cookiePopup
 ##.cookiePopupContainer
@@ -1699,6 +1708,7 @@ _europecookielaw.
 ##.no-cookies
 ##.notice-cookie
 ##.notice_notice_cookies
+##.notif_cookie_panel
 ##.notification__content-cookie
 ##.notificationpopup
 ##.npo_cc_regular
@@ -1861,7 +1871,7 @@ co-operativeinsurance.co.uk,smile.co.uk###noticePanel
 cofunds.co.uk##.smContainerInner
 complex.com###eucn
 comscore.com##.info_banner
-costaclub.com,bankid.com,norwegian.com,linkedin.com,kenweego.com,netweather.tv,twitch.tv,nature.com##.alert
+costaclub.com,bankid.com,norwegian.com,linkedin.com,uvenco.co.uk,kenweego.com,netweather.tv,twitch.tv,nature.com##.alert
 couchsurfing.com##.banner
 crash.net,nationwideinternational.com,thederbyshire.co.uk###cn
 csl-computer.com###notification
@@ -1879,6 +1889,7 @@ discordapp.com,dotmailer.com,phys.org,medicalxpress.com,shire.com,techxplore.com
 dlink.com,bethesda.net,eveningtelegraph.co.uk,fundingcircle.com,princeofwales.gov.uk,sundaypost.com,wiley.com##.notification
 dlwflooring.com##.privacy-info
 dolce-gusto.co.uk###nimgrowler-prompt
+downloadcrew.com##.ginger_banner
 drakecircus.com##.ccc-widget
 dropbox.com###top-notification-bar-container
 dubli.com##.popover
@@ -1893,6 +1904,7 @@ facebook.com##[data-testid="cookie-policy-banner"]
 fedex.com###privacy-notice
 forumcommunity.net##.jnote
 freecycle.org###blocker_message
+freewebsitetemplates.com##.Notices
 ft.com,heathrowexpress.com###consent
 fundedbyme.com##.pageNotification
 gamemania.be###globalmessage
@@ -1906,6 +1918,7 @@ gov.im##.site-warning
 gumtree.com##.notification-box
 hankzipzer.co.uk###cppd
 hattrick.org##.frontPage .container > .alert
+hertz247.co.uk##.lbContainer
 hlntv.com###terms-of-service-container
 hlntv.com###tos_pp_popup_container
 hmc.org.uk###modal-mask
@@ -1975,6 +1988,7 @@ sandiegouniontribune.com###slide_banner_bottom
 santander.co.uk##.bloqueMensaje
 savethechildren.org.uk##.policy-banner
 scl.org###zeus_box
+shazam.com##.policy-label
 sky.com##.sky-component-cookie-notice
 softpedia.com##.jobnotice_cnt
 soundcloud.com##.announcements
@@ -1994,6 +2008,7 @@ tmz.com###legalbar
 travelsupermarket.com##.site-notice-wrapper
 trustnet.com###wholeCover
 trustnet.com##.idPanelShow
+tunngle.net###delirioBiscottoso
 tvcatchup.com###messageBox
 uber.com##.banner--bottom
 uk.yahoo.com###Main > .windowshade:first-child
@@ -2011,11 +2026,13 @@ volvo.com##.headerNotification
 wattsindustries.com##.box_background
 wattsindustries.com##.box_contents
 wimbledon.com###wimPrivacyBanner
+wsj.com##.BannerMessage
 xhamster.com##.bottom_message
 yahoo.com###Overlay-1-Nagbar
 yahoo.com##.legal-footer
 youronlinechoices.com##.p15
 zombiearmy.com##.alert-box
+zoover.co.uk###info-bar
 zyncro.com###noticebar
 ! Cookie,privacy,legal Messages
 ||civiccomputing.com^*=cookie$script,third-party
@@ -2047,7 +2064,10 @@ abril.com.br###barra-mini-home
 akcneletaky.sk###infoCoo
 apartmanija.hr###site_nt
 blogdeputaria.net###sub
+delfi.lv##.notification-widget
+hileliapkoyunindir.com##.site-desc
 hrportfolio.hr###kolac
+i.ua##.Disclaimer
 krovni-nosaci.hr##.topbarBox
 mojkvart.hr###dcw1
 movieview.dk###cookie
@@ -2077,14 +2097,19 @@ sonera.fi##.bottom-notifications
 !---------- Dutch Site Specific Hiding Rules ----------
 !
 3dtvmagazine.nl,gadgetsmagazine.nl,homecinemamagazine.nl,tabletsmagazine.nl##.opt-in
+4launch.nl##.alert
 @@||cookiesv2.publiekeomroep.nl^$domain=cinema.nl|nos.nl|npo.nl
 @@||studentenwoningweb.nl/KRN/Scripts/jquery.cookiecuttr.js
 boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl#@#.Cookies
 mobil-1.nl###fancybox-overlay
 mobil-1.nl###fancybox-wrap
+salusi.nl##.cookies
 t-mobile.nl###exposeMask
 techzine.nl###scrollbuddy[style="top: -20px; position: fixed;"]
 tweakers.net###notifications > .announcement
+vergelijk.nl##.cg-82
+xs4all.nl###xs4all-cookieWall
+xs4all.nl###xs4all-cookieWall-overlay
 ||cookiesv2.publiekeomroep.nl^
 ||tmgonlinemedia.nl/consent/script/consent.js
 ||tol.postnl.nl/content/toljs/$script
@@ -2092,9 +2117,10 @@ tweakers.net###notifications > .announcement
 !---------- German Site Generic Hiding Rules ----------
 !
 agynamix.de###cookie
+auto-motor-und-sport.de##.p40
 cebit.de,hannovermesse.de##.user-notes-notification
 cushmanwakefield.de##.m-warning
-denic.de,moviepilot.de##.notification
+decuro.de,denic.de,moviepilot.de##.notification
 die-linke.de###msppiwikoptout_container
 duden.de###sliding-popup
 esprit.de###policy_header
@@ -2384,6 +2410,10 @@ wd40.it###cookie
 ||js.adv.dadapro.net/collector.js/prcy.js?
 ||mycookies.it^$third-party
 ||tim.it/js/gestione_cookie.js
+! 
+!---------- Russian Site Specific Hiding Rules ----------
+!
+linux-info.ru###trumpet_message
 !
 !---------- Italian Site Specific Hiding Rules ----------
 !
