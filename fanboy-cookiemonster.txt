@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: Uk6Dwb5v5HD+p0iwv9ml3Q
+! Checksum: TS067edHgFQdAGhG7dhOlw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 14 Aug 2016
 ! This list expires after 2 days
@@ -1891,6 +1891,7 @@ discordapp.com,dotmailer.com,phys.org,medicalxpress.com,shire.com,techxplore.com
 dlink.com,bethesda.net,eveningtelegraph.co.uk,fundingcircle.com,princeofwales.gov.uk,sundaypost.com,wiley.com##.notification
 dlwflooring.com##.privacy-info
 dolce-gusto.co.uk###nimgrowler-prompt
+doubleviking.com##.footer
 downloadcrew.com##.ginger_banner
 drakecircus.com##.ccc-widget
 dropbox.com###top-notification-bar-container
