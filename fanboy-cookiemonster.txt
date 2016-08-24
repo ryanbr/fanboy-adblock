@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: tcBq9jgc8pKonyFA/mouUA
+! Checksum: yNq6V2/g74Yp6k4QdXBL5w
 ! Title: Fanboy's Cookiemonster List
-! Updated: 21 Aug 2016
+! Updated: 24 Aug 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1865,6 +1865,7 @@ cc.com###balaMainContainer
 change.org##.flash-message-announcement
 channelregister.co.uk,theregister.co.uk###RegCCO
 cimaglobal.com###optanon
+citiesskylines.com,priorygroup.com,aflite.co.uk,aon.com,atom42.co.uk,bakersmall.co.uk,bbvonline.net,boscolohotels.com,boxnation.com,butrans.co.uk,community-options.org.uk,fasthosts.co.uk,fremantlemedia.com,iadvize.com,mdx.ac.uk,onenessscotland.org,opportunitypeterborough.co.uk,out-law.com,pace.com,paradoxplaza.com,rodacciai.fr,secunia.com,stitchcraftcreate.co.uk,tutsandtips.com,vegsoc.org,wheatley-group.com,keyboardco.com###cookie
 cityoflondon.gov.uk##.container-floating-notifications
 claireperry.org.uk###blanket
 claireperry.org.uk,wts.com###message
@@ -1981,7 +1982,6 @@ plymouth.ac.uk##.page-notification
 postojnska-jama.eu###\5f iCD
 princesrisborough.com##.jpiwikGrowler
 princesrisborough.com##.jpiwikOverlay
-priorygroup.com,aflite.co.uk,aon.com,atom42.co.uk,bakersmall.co.uk,bbvonline.net,boscolohotels.com,boxnation.com,butrans.co.uk,community-options.org.uk,fasthosts.co.uk,fremantlemedia.com,iadvize.com,mdx.ac.uk,onenessscotland.org,opportunitypeterborough.co.uk,out-law.com,pace.com,paradoxplaza.com,rodacciai.fr,secunia.com,stitchcraftcreate.co.uk,tutsandtips.com,vegsoc.org,wheatley-group.com,keyboardco.com###cookie
 professionalbatterychargers.com###nscmsboxboxsimple
 qz.com###chyron
 ramboll-environ.com##.infoboxHolder
