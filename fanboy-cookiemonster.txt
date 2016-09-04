@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: nYil91IUxf+WRN3kVxw5Lw
+! Checksum: r3rxXb+smbN4b35JP+mfVw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 3 Sep 2016
+! Updated: 4 Sep 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2027,7 +2027,7 @@ uber.com##.banner--bottom
 uk.yahoo.com###Main > .windowshade:first-child
 uk.yahoo.com##.type_windowshade_default
 uktv.co.uk###back-to-old-site
-umicore.com,anite.com,asda.com,ashridge.org.uk,chemistdirect.co.uk,consumeraffairs.org.uk,dur.ac.uk,ets2mp.com,festicket.com,mindshareworld.com,luxottica.be,mclaren.com,prtb.ie,redbull.com,royalparks.org.uk,thenottingham.com,tescomobile.ie,ukcisa.org.uk,unity3d.com,unknownphone.com,uptodown.com,viralnewschart.com##.cookies
+umicore.com,anite.com,asda.com,ashridge.org.uk,chemistdirect.co.uk,consumeraffairs.org.uk,dur.ac.uk,ets2mp.com,festicket.com,mindshareworld.com,luxottica.be,mclaren.com,prtb.ie,redbull.com,royalparks.org.uk,thenottingham.com,tescomobile.ie,ukcisa.org.uk,unity3d.com,unknownphone.com,uptodown.com,viralnewschart.com,coinbase.com##.cookies
 userbenchmark.com##.notificationBar
 vanguardsmoke.com###pop_wholes
 vanguardsmoke.com###pop_wholes_bg
