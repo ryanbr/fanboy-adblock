@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: pGVd28jH3lFxWl5Zim8Gyg
+! Checksum: jE7JPMYGKF/G7tlJBL2YGw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 4 Sep 2016
 ! This list expires after 2 days
@@ -2166,7 +2166,6 @@ eloben.hu##.law-accept
 erkel.hu###suti_info
 ezermester.hu##.alert
 filmkatalogus.hu##table[width="870"][cellspacing="3"]
-freemeteo.hu###cookies
 gomarket.hu,poloverzum.hu,smoon.hu,tipparuhaz.hu###bottom_dialog
 gyakorikerdesek.hu##body > div[style^="text-align: left;"]
 gyertyalang.hu###kki_div
@@ -2174,6 +2173,7 @@ hbo.hu###overlay
 hoxa.hu###container > div[style^="text-align: left;"]
 ingyen-van.hu###figyu
 koloknet.hu###cookie
+lxo.hu,freemeteo.hu###cookies
 mercedes-benz.hu##.mainpage_popup
 okopolc.hu###firstLogNanobar
 oszkar.com###footerbar
