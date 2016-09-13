@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: nb53Pp+0apjc2GSFnaqxgQ
+! Checksum: gH33av4QJfhYcnNeWlzEEg
 ! Title: Fanboy's Cookiemonster List
-! Updated: 12 Sep 2016
+! Updated: 13 Sep 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1122,6 +1122,7 @@ _europecookielaw.
 ###privacy-policy-notice
 ###privacy-policy-panel
 ###privacy_box_container
+###privacy_cookiepolicy
 ###privacy_law
 ###PrivacyBanner
 ###privacyBar
