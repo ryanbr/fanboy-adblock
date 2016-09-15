@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: gH33av4QJfhYcnNeWlzEEg
+! Checksum: hNM64jejrI/v0zDK41S2XA
 ! Title: Fanboy's Cookiemonster List
-! Updated: 13 Sep 2016
+! Updated: 15 Sep 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -543,6 +543,7 @@ _europecookielaw.
 ###cookie_alert
 ###cookie_alert_bar
 ###cookie_alert_container
+###cookie_assistant
 ###cookie_assistant_container
 ###COOKIE_BANNER
 ###cookie_banner
@@ -1119,6 +1120,7 @@ _europecookielaw.
 ###pricacy_popup
 ###privacy-bar
 ###privacy-message-bar
+###privacy-policy
 ###privacy-policy-notice
 ###privacy-policy-panel
 ###privacy_box_container
@@ -1488,6 +1490,7 @@ _europecookielaw.
 ##.cookieMessageDiv
 ##.cookiemonster
 ##.CookieMonsterBox
+##.cookieMSG
 ##.cookieMsg
 ##.cookieMsgContainer
 ##.CookieNote
@@ -1762,6 +1765,7 @@ _europecookielaw.
 ##.privacy-policy-container
 ##.privacybanner
 ##.privacycookie
+##.PrivacyPolicyNotice
 ##.qb-cookielaw-bar
 ##.react-cookie-banner
 ##.regional-cookie-warning
@@ -1855,6 +1859,7 @@ adultswim.com###legal-notification
 agcas.org.uk,reliancebankltd.com###informationbar
 airvpn.org##div[style^="box-shadow:0em 0em"]
 alcatel-lucent.com,alpha.org,bigsocietycapital.com,boomerangtv.co.uk,box.com,cartoonnetwork.co.uk,eif.co.uk,integralmemory.com,investorsinpeople.co.uk,juce.com,middleeasteye.net,neteller.com,parkinsons.org.uk,rmg.co.uk,thalesgroup.com,topuniversities.com,ucas.com,bell-labs.com###sliding-popup
+alternativeto.net###bottomNotifier
 amazon.com###pldn-deep-link
 android.com##.dac-toast-group
 anpost.ie,barbican.org.uk,the-tls.co.uk,beanstalkcharity.org.uk,co-operative.coop,emrf.eu,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,granditalia.nl,homecinemachoice.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,phonearena.com,pokernews.com,premiumcredit.co.uk,private.com,solent.ac.uk,studentski.net,tsb.co.uk,omron.eu,volvocars.com###cookies
@@ -1872,6 +1877,7 @@ betsson.com###msgwrapper
 bigdeal.org.uk##div[style^="background-color: "]
 bing.com###b_notificationContainer
 bing.com##.hpn_top_container
+black-desert.com##.userNotice
 blueconic.com###bcmp_fullwrap
 booktrust.org.uk###btg_notification
 bundlestars.com##div[style^="background: #424242; "]
@@ -2051,6 +2057,7 @@ vocativ.com,zumba.com##.privacy-policy
 volvo.com##.headerNotification
 wattsindustries.com##.box_background
 wattsindustries.com##.box_contents
+whatfontis.com###sticky-popup
 wimbledon.com###wimPrivacyBanner
 wsj.com##.BannerMessage
 xhamster.com##.bottom_message
