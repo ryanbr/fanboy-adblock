@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: v4CXP77bdeSNhI5RAEhpXQ
+! Checksum: v5J8d5qjzi4M7/MIEs5Q/A
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Sep 2016
 ! This list expires after 2 days
@@ -827,6 +827,7 @@ forbes.com##DIV[id^="google_ads_"][style]
 @@||bankofamerica.com/pa/components/*/TouchClarity.js
 @@||barclays.co.uk/js/sitecatalyst/$domain=bank.barclays.co.uk
 @@||bbci.co.uk/bbcdotcom/*/omniture/siteCatalyst.js$domain=bbc.co.uk|bbc.com
+@@||bhaskar.com/pagespeed_static/
 @@||bigfishsites.com/*/global/javascript/webtrends_capi_$domain=bigfishgames.com
 @@||bing.com/travel/scripts/sCode.js$~third-party
 @@||bing.com^*/s_code.$script
