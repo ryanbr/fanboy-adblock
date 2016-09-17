@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: /JZu5A6qY1JPGFiqqssjeg
+! Checksum: lSC9a5xPPeJdjjrl5gN8Ow
 ! Title: Fanboy's Cookiemonster List
-! Updated: 15 Sep 2016
+! Updated: 17 Sep 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -29,6 +29,7 @@
 -eucookie.
 -privacy-cookie-
 .cookie-law.$script
+.cookie-policy.
 .cookie_law.
 .cookiebar.js
 .cookieconsent.
@@ -245,6 +246,8 @@
 /icit-cookie-law/*
 /ico_cookies.
 /icocookies.
+/implied-consent.
+/implied-consent/*
 /impresacookiepolicy/*
 /InfoCookies.
 /iubenda_cs.
@@ -253,6 +256,7 @@
 /jquery.cookie.js$domain=password-decryptor.com
 /jqueryCookieGuard.
 /js-cookie-master/*$script
+/legal/cookies/?
 /legalcookie.
 /lma-cookie.
 /mod_cookiesaccept/*
@@ -640,6 +644,7 @@ _europecookielaw.
 ###cookieConatiner
 ###cookieConsent
 ###cookieconsent
+###CookieConsent
 ###cookieconsentbar
 ###cookieConsentBar
 ###CookieConsentDiv
@@ -829,6 +834,7 @@ _europecookielaw.
 ###cookiesAlert
 ###cookiesAllowingRequest
 ###cookiesArticle
+###CookieSaveMsg
 ###CookiesBanner
 ###cookiesBanner
 ###cookiesBar
@@ -908,6 +914,7 @@ _europecookielaw.
 ###ctl20_pnlCookie
 ###ctl30_pnlCookie
 ###ctrlHeader_divCookieText
+###cu-cookie-alert
 ###cw-cookieInfo
 ###dcc_cookieMessageContainer
 ###DCINFO_COOKIE_AGB
@@ -1322,6 +1329,7 @@ _europecookielaw.
 ##.cookie-consent-block
 ##.cookie-consent-content
 ##.cookie-consent-notice
+##.cookie-consent-wrap
 ##.cookie-consent-wrapper
 ##.cookie-container
 ##.cookie-container-most
@@ -1375,6 +1383,7 @@ _europecookielaw.
 ##.cookie-policy
 ##.cookie-policy-accept
 ##.cookie-policy-alert
+##.cookie-policy-banner
 ##.cookie-policy-bar-bottom
 ##.cookie-policy-box
 ##.cookie-policy-container
@@ -1490,6 +1499,7 @@ _europecookielaw.
 ##.cookieMessageDiv
 ##.cookiemonster
 ##.CookieMonsterBox
+##.CookieMsg
 ##.cookieMSG
 ##.cookieMsg
 ##.cookieMsgContainer
@@ -1863,7 +1873,6 @@ alcatel-lucent.com,alpha.org,bigsocietycapital.com,boomerangtv.co.uk,box.com,car
 alternativeto.net###bottomNotifier
 amazon.com###pldn-deep-link
 android.com##.dac-toast-group
-anpost.ie,barbican.org.uk,the-tls.co.uk,beanstalkcharity.org.uk,co-operative.coop,emrf.eu,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,granditalia.nl,homecinemachoice.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,phonearena.com,pokernews.com,premiumcredit.co.uk,private.com,solent.ac.uk,studentski.net,tsb.co.uk,omron.eu,volvocars.com###cookies
 aptoide.com###news
 aquacard.co.uk###popup
 askinology.com##COOKIE-NOTICE
@@ -1952,9 +1961,11 @@ hertz247.co.uk##.lbContainer
 hlntv.com###terms-of-service-container
 hlntv.com###tos_pp_popup_container
 hmc.org.uk###modal-mask
+huawei.com##.ReadPolicy
 indeed.com###legalNotice
 ing.com###fancybox-overlay
 ing.com##.fancybox-wrap
+inmobi.com,anpost.ie,barbican.org.uk,the-tls.co.uk,beanstalkcharity.org.uk,co-operative.coop,emrf.eu,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,granditalia.nl,homecinemachoice.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,phonearena.com,pokernews.com,premiumcredit.co.uk,private.com,solent.ac.uk,studentski.net,tsb.co.uk,omron.eu,volvocars.com###cookies
 insights.nzherald.co.nz###top-banner-in-content
 investing.com###sideNotificationZone
 janssen.co.uk###warning-popup
@@ -2065,7 +2076,8 @@ xhamster.com##.bottom_message
 yahoo.com###Overlay-1-Nagbar
 yahoo.com##.legal-footer
 youronlinechoices.com##.p15
-youtube.com##div[class^="ytd-consent-bump"]
+youtube.com##.yt-consent
+youtube.com##div[class^="ytd-consent"]
 zombiearmy.com##.alert-box
 zoover.co.uk###info-bar
 zyncro.com###noticebar
@@ -2177,7 +2189,7 @@ aig.hu##.copyright-text-header
 allattartas.hu###suti_figyelmeztetes_ablak_fix
 almaimotthona.hu##.aszfLayerContent
 althir.org,nemzeti.net###suti_figyelmeztetes
-bestmarkt.hu,bestsellers.hu,logmein.hu,hirek24.hu,workforce.hu##.cookie
+bevachip.hu,bestmarkt.hu,bestsellers.hu,logmein.hu,hirek24.hu,workforce.hu##.cookie
 boraszportal.hu,termalfurdo.hu###layout_advertising_bottom
 conrad.hu##.page-warning
 decathlon.hu###container-screen
