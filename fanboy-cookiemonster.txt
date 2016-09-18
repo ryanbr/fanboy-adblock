@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: eIMXad2gCY0Y3W209xL1bQ
+! Checksum: gF5rQBSx4z7t9wu84V27hw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 18 Sep 2016
 ! This list expires after 2 days
@@ -182,6 +182,7 @@
 /cookiepolicybanner.
 /cookiepolicydisclaimer.
 /cookiePolicyEN.
+/cookiePolicyEUPopin_
 /cookiepopup?
 /CookiePrompter-
 /CookieReportsDisclaimer.
@@ -1012,6 +1013,7 @@ _europecookielaw.
 ###GlobalCookieBanner
 ###GMI_Privacy_Policy
 ###golem-cookie-accept
+###grey-bar-cookies-contents
 ###have-a-cookie
 ###headband-cookie
 ###headband_cookies
@@ -1277,6 +1279,7 @@ _europecookielaw.
 ##.bloc_cookies
 ##.blocCookie
 ##.bloccookie
+##.block-cnil
 ##.block-cookies
 ##.bmj-cookie-noticebar-content
 ##.box-cookies
@@ -1549,6 +1552,8 @@ _europecookielaw.
 ##.cookies-info
 ##.cookies-info-static
 ##.cookies-message
+##.cookies-mod
+##.cookies-mod-bar
 ##.cookies-msg
 ##.cookies-note
 ##.cookies-notice
@@ -1625,6 +1630,7 @@ _europecookielaw.
 ##.cwcookielaw
 ##.dCookiesAlert
 ##.defaultCookie
+##.disclaimerContainer
 ##.disclaimerCookies
 ##.dismissable-cookie-policy
 ##.divascookies
@@ -1685,6 +1691,7 @@ _europecookielaw.
 ##.id-CookieConsent
 ##.identity-noticebar
 ##.imPolicycookiemessage
+##.info-content-cookies
 ##.info-cookie
 ##.infoCookies
 ##.infocookies
@@ -1872,9 +1879,11 @@ _europecookielaw.
 ##div[id^="__ic-notice"]
 ! Cookie, privacy, legal filters
 abcnews.go.com##.push-me
+aberdeenplumberservices.co.uk,pattheduck.com###FISLCC
 abta.com,ask.fm,anglianwater.co.uk,calvertjournal.com,modhoster.com,cineworld.co.uk,graspop.be,hempel.co.uk,hempelyacht.com,here.com,leonorgreyl.com,liptonicetea.com,natwest.com,postoffice.co.uk,rbs.co.uk,roalddahl.com,team-mediaportal.com,mandarinoriental.com,virgin-atlantic.com,m64.info##.cookie
 adultswim.com###legal-notification
 agcas.org.uk,reliancebankltd.com###informationbar
+airproducts.co.uk##.eu-dp
 airvpn.org##div[style^="box-shadow:0em 0em"]
 alcatel-lucent.com,alpha.org,bigsocietycapital.com,boomerangtv.co.uk,box.com,cartoonnetwork.co.uk,eif.co.uk,integralmemory.com,investorsinpeople.co.uk,juce.com,middleeasteye.net,neteller.com,parkinsons.org.uk,rmg.co.uk,thalesgroup.com,topuniversities.com,ucas.com,bell-labs.com###sliding-popup
 alternativeto.net###bottomNotifier
@@ -1889,14 +1898,17 @@ axs.com,virgin.com###privacy-policy
 bankofengland.co.uk##.container-notifications
 bbc.co.uk##.pulse-banner
 bbc.com##.domestic-header-wrapper
+bes.co.uk###xyz
 bethesda.net###jive-system-message
 betsson.com###msgwrapper
 bigdeal.org.uk##div[style^="background-color: "]
 bing.com###b_notificationContainer
 bing.com##.hpn_top_container
 black-desert.com##.userNotice
+bluearan.co.uk###slider
 blueconic.com###bcmp_fullwrap
 booktrust.org.uk###btg_notification
+buduj.co.uk###SiteAnouncement
 bundlestars.com##div[style^="background: #424242; "]
 cartdesigns.net##.boxContent
 cartoonnetwork.com###tos-bar
@@ -1911,7 +1923,7 @@ claireperry.org.uk###blanket
 claireperry.org.uk,wts.com###message
 cmcmarkets.co.uk###cmc-tracking-consent-form-step1
 cnn.com##.user-msg
-co-operativeinsurance.co.uk,smile.co.uk###noticePanel
+co-opinsurance.co.uk,co-operativeinsurance.co.uk,smile.co.uk###noticePanel
 cofunds.co.uk##.smContainerInner
 complex.com###eucn
 comscore.com##.info_banner
@@ -1927,6 +1939,8 @@ daxon.co.uk###notification_area
 deadline.com,hollywoodlife.com,footwearnews.com,wwd.com,bgr.com,tvline.com###pp_banner
 debenhams.com###debCNwrap
 decathlon.co.uk###container-screen
+desktopwallpapers4.me###clayer
+dexigner.com###cwarn
 diabetes.org.uk###policyPopup
 digitaltrends.com##.m-dt_set_homepage_pint
 discordapp.com,dotmailer.com,phys.org,medicalxpress.com,shire.com,techxplore.com,vcars.co.uk##.notice
@@ -1962,6 +1976,7 @@ good.is##.sitewide-alert
 googleapis.com##div[style$=";background-color:#5a5a5a"]
 gov.im##.site-warning
 gumtree.com##.notification-box
+hankooktire.com##.top_ep_wrap
 hankzipzer.co.uk###cppd
 hattrick.org##.frontPage .container > .alert
 hertz247.co.uk##.lbContainer
@@ -2018,7 +2033,6 @@ novantas.com##.foobar-container
 novapdf.com###novapdf_accept_cookies
 nymity.com###CookieAcceptSubLayout1_cookiesmessageshown
 office.com##.headPopup
-pattheduck.com###FISLCC
 picturehouses.com##.interim-banner
 plymouth.ac.uk##.page-notification
 postojnska-jama.eu###\5f iCD
@@ -2123,6 +2137,7 @@ apartmanija.hr###site_nt
 blogdeputaria.net###sub
 delfi.lv##.notification-widget
 delo.si,slovenskenovice.si,deloindom.si,polet.si,pogledi.si##.notice
+digimanie.cz,svethardware.cz###cfooter
 hileliapkoyunindir.com##.site-desc
 hrportfolio.hr###kolac
 i.ua##.Disclaimer
@@ -2138,7 +2153,6 @@ qr.cz###eu-fck
 rast.hr###blokDiv
 sme.sk###js-top-info-bar
 soeren-hentzschel.at###storage-notice
-svethardware.cz###cfooter
 totalmoney.sk##.cookies
 weltwoche.ch###alteAusgabenCovers
 zena.hr###serviceBar
@@ -2161,6 +2175,7 @@ vertaa.fi##.cg-74
 4launch.nl##.alert
 @@||cookiesv2.publiekeomroep.nl^$domain=cinema.nl|nos.nl|npo.nl
 @@||studentenwoningweb.nl/KRN/Scripts/jquery.cookiecuttr.js
+bestsellers.eu###site-optin-header
 boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl#@#.Cookies
 mobil-1.nl###fancybox-overlay
 mobil-1.nl###fancybox-wrap
@@ -2182,6 +2197,7 @@ auto-motor-und-sport.de##.p40
 cebit.de,hannovermesse.de##.user-notes-notification
 cushmanwakefield.de##.m-warning
 decuro.de,denic.de,moviepilot.de##.notification
+deutzforum.de##.userNotice
 die-linke.de###msppiwikoptout_container
 duden.de###sliding-popup
 esprit.de###policy_header
@@ -2257,6 +2273,7 @@ gov.pl,osnews.pl,pracuj.pl,xfutbol.pl###cookie
 gsmonline.pl###jGrowl
 herbaciani.pl##div[style^="float:right; padding-top:20px;"]
 home.pl###box_policies
+ingservicespolska.pl###privacy
 interia.pl##.inplCCA
 kolejeslaskie.com###c_m
 komornik.pl##.divModalDialog
@@ -2339,19 +2356,24 @@ gp.se##.gpsecGRCookieContainer
 havkom.se,lfv.se,oru.se##.cookies
 hkr.se###c-info-box
 klaramaten.se,lernia.se,fora.se,atg.se,armemuseum.se,osthammar.se,konkurrensverket.se,automotorsport.se,bamse.se,folkuniversitetet.se,kalleanka.se,netonnet.se,tidningenjulia.se##.alert
-kronofogden.se##.alertWrap
+kronofogden.se,minameddelanden.se,minmyndighetspost.se##.alertWrap
 kvalster.se###y
 lexus.se##.disclaimer
 nacka.se##.c-message
 pensionsmyndigheten.se###cb_alert
 polisen.se##.cookie
+proff.se##.notification
+radioplay.se##div[style="background-color:#FFF3CC;"]
 sfv.se###cookies
-skatteverket.se##.alertWrp
+skatteverket.se,tullverket.se##.alertWrp
 smhi.se##.polopolyNotification
 svensktnaringsliv.se###warning
 sverigesradio.se###user-message
+synsam.se##.message-large
 telia.se##.tsAttention--Info
+traningspartner.se##.sd-object-if > .sd-object-code
 tre.se##.alert-bar
+v6.se###layer
 !
 !---------- French Site Specific Hiding Rules ----------
 !
@@ -2371,6 +2393,7 @@ bwin.fr##.info-message
 bycontext.com###lcBar
 ca-anjou-maine.fr,ca-briepicardie.fr,ca-cb.fr,ca-nord-est.fr##.recocliv2
 carrelages4000.fr##.ays-front-message
+cartezero.fr,gmf.fr,grillofrance.fr,havas-voyages.fr,materiel.net,paris.fr,societe.com,sportetstyle.fr###cookie
 cerdas.com##.topBar
 creavea.com##.creavea-banner-cookie-consent
 cuisineaz.com##.cazLightbox
@@ -2380,7 +2403,6 @@ e-leclerc.com##.popover
 elpais.com###capaAvisoPoliticaCookies_superior_mensajes
 elsevier-masson.fr###myModal
 gentside.com,colissimo.fr,jules.com,laposte.fr,maxisciences.com,mybiclighter.com,ohmymag.com,showroomprive.com###cookies
-gmf.fr,grillofrance.fr,havas-voyages.fr,materiel.net,paris.fr,societe.com,sportetstyle.fr###cookie
 hd1.tv,nt1.tv###upper
 hotelalisee.fr###CPolicy
 ilninth.wordpress.com###MsgContainer
@@ -2426,6 +2448,7 @@ ruralidays.fr,serveto.com###barraaceptacion
 savi-france.fr###notifybar
 smile.fr###popup
 stihl.fr##.privacyTop
+supermarchesmatch.fr###fevad
 supersoluce.com##div[style^="position: fixed; width: 100%;"]
 tetley.fr##.topFix
 tf1.fr##div[id^="msgctrw"]
@@ -2448,6 +2471,7 @@ cincodias.com,meristation.com###capaAvisoPoliticaCookies_superior_mensajes
 clementoni.pt###disclaimer
 cliper.pt###cook
 clubhyundai.es##div[id][class] > div[class]
+coches.net###yc
 colorobbia.pt###barraaceptacion
 iubenda.com###iubenda-cs-banner
 iubenda.com##a[style="padding-top: 10px; display: block;"]
@@ -2462,6 +2486,7 @@ winphonemetro.com##.c_i_container
 !
 !---------- Italian Site Specific Blocking Rules ----------
 !
+comicsbox.it###bottom-banner
 educazioneemotiva.it###Cookie
 elettrocasa.it##.bottomBarMessage
 email.it##script + div[style^="background: #000000;"]
