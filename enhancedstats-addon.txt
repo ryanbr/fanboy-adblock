@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: l37rdD18hIioISIDXSpZHg
+! Checksum: dL3kD9xm4NBCRo/duHUbKQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 18 Sep 2016
 ! This list expires after 2 days
@@ -428,6 +428,9 @@ imagebam.com###viroll
 imagebam.com###viroll-header
 kpopstarz.com##.ad
 libertyunyielding.com##.vertical-share-buttons
+medicalnewstoday.com###mnt_article_ad_1_container
+medicalnewstoday.com###mnt_header_ad
+medicalnewstoday.com##.header_hr
 pastebin.com###abrpm
 pastebin.com###abrpm2
 pastebin.com###notice
