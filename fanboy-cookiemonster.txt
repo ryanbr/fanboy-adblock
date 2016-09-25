@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: KBrzpItcD7L92b30F8uISg
+! Checksum: Vs/p/D8N89TJsXHlkI+9Bg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 25 Sep 2016
 ! This list expires after 2 days
@@ -2168,6 +2168,7 @@ rast.hr###blokDiv
 sme.sk###js-top-info-bar
 soeren-hentzschel.at###storage-notice
 totalmoney.sk##.cookies
+uitinvlaanderen.be##.noty_bar
 weltwoche.ch###alteAusgabenCovers
 zena.hr###serviceBar
 !
