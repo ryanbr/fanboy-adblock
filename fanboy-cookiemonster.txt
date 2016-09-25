@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: DyNol/bTMmv7NLJCTvBqgg
+! Checksum: kg3FhBNw8FO0i5WZ+y3vjw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 18 Sep 2016
+! Updated: 25 Sep 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -774,6 +774,7 @@ _europecookielaw.
 ###cookiePopup
 ###cookiepopup
 ###cookiePopupContainer
+###cookieprivacy-bar
 ###cookiePrompt
 ###cookiePromptWrapper
 ###CookieQBanner
@@ -1024,6 +1025,7 @@ _europecookielaw.
 ###headerCookies
 ###headerCookiesAdvice
 ###hi-cookie-box
+###hoodCookieInfoBox
 ###htmlPopinCookies
 ###i-cookies-bar
 ###IBTCookiePolicy
@@ -1428,6 +1430,7 @@ _europecookielaw.
 ##.cookie_box_shadow
 ##.cookie_consent
 ##.cookie_content
+##.cookie_div
 ##.cookie_header
 ##.cookie_info
 ##.cookie_info_content
@@ -1564,6 +1567,7 @@ _europecookielaw.
 ##.cookies-notify
 ##.cookies-open
 ##.cookies-policy
+##.cookies-policy-popover-container
 ##.cookies-politic
 ##.cookies-popin
 ##.cookies-popup
@@ -1816,6 +1820,7 @@ _europecookielaw.
 ##.sh-cookie-confirmation
 ##.show-cookie
 ##.show-cookie-consent
+##.show_cookie
 ##.site-cookie-panel
 ##.site-cookies
 ##.site-message--cookies
@@ -2177,7 +2182,6 @@ vertaa.fi##.cg-74
 !
 3dtvmagazine.nl,gadgetsmagazine.nl,homecinemamagazine.nl,tabletsmagazine.nl##.opt-in
 4launch.nl##.alert
-@@||cookiesv2.publiekeomroep.nl^$domain=cinema.nl|nos.nl|npo.nl
 @@||studentenwoningweb.nl/KRN/Scripts/jquery.cookiecuttr.js
 bestsellers.eu###site-optin-header
 boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl#@#.Cookies
@@ -2190,7 +2194,7 @@ tweakers.net###notifications > .announcement
 vergelijk.nl##.cg-82
 xs4all.nl###xs4all-cookieWall
 xs4all.nl###xs4all-cookieWall-overlay
-||cookiesv2.publiekeomroep.nl^
+||cookiesv2.publiekeomroep.nl/light/
 ||tmgonlinemedia.nl/consent/script/consent.js
 ||tol.postnl.nl/content/toljs/$script
 !
