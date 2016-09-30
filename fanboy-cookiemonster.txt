@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: pJveZzVu68SimuFCFrtxkw
+! Checksum: 2pYqSzaKu/IPrQ/HnTr0gQ
 ! Title: Fanboy's Cookiemonster List
-! Updated: 27 Sep 2016
+! Updated: 30 Sep 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2419,6 +2419,7 @@ e-leclerc.com##.popover
 elpais.com###capaAvisoPoliticaCookies_superior_mensajes
 elsevier-masson.fr###myModal
 ethias.be###tab_ck
+fnacspectacles.com##.modal-backdrop
 gentside.com,colissimo.fr,jules.com,laposte.fr,maxisciences.com,mybiclighter.com,ohmymag.com,showroomprive.com###cookies
 hd1.tv,nt1.tv###upper
 hotelalisee.fr###CPolicy
