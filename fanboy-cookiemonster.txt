@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: A5tiViHpCYxe7Fmo9WGRaQ
+! Checksum: S7SeE73akoJxzR7ShJFaQw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 2 Oct 2016
+! Updated: 8 Oct 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -154,6 +154,7 @@
 /cookiedirective*.js
 /cookiedisclaimer.
 /cookiedisclosure.
+/cookieGatekeeper.
 /cookiehint.
 /CookieInfo.
 /cookieinfo/*$script
@@ -1670,6 +1671,7 @@ _europecookielaw.
 ##.eu-cookie-notice
 ##.eu-cookie-notification
 ##.eu-cookies
+##.eu-law-container
 ##.eu_cookie
 ##.EUCookie
 ##.euCookie
@@ -2238,6 +2240,7 @@ althir.org,nemzeti.net###suti_figyelmeztetes
 bevachip.hu,bestmarkt.hu,bestsellers.hu,logmein.hu,hirek24.hu,workforce.hu##.cookie
 boraszportal.hu,termalfurdo.hu###layout_advertising_bottom
 conrad.hu##.page-warning
+csillagpor.hu###a
 decathlon.hu###container-screen
 elittars.hu###info-bar
 eloben.hu##.law-accept
@@ -2548,6 +2551,7 @@ vilaglato.info##.pea_cook_wrapper
 !
 !---------------------------------Whitelists----------------------------------!
 bankmillennium.pl#@#.cookies-info
+bezeq.co.il#@#.cookieAlert
 britishairways.com#@##cookieModal
 filmweb.pl#@#.cookieInfo
 greenflag.com#@#.cookie-message
