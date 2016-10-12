@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 9ueTLlLSpOwEg2lnjkMNYg
+! Checksum: 58UkfmMcqDLpo883XP4uAg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 12 Oct 2016
 ! This list expires after 2 days
@@ -576,6 +576,7 @@ gs##SCRIPT + DIV[style^="height:"]
 ! ---------- Social tracking rules --------
 ! https://robinlinus.github.io/socialmedia-leak/
 !
+@@||img.youtube.com^$image,third-party
 ||academia.edu^$image,third-party
 ||accounts.google.com^$image,third-party
 ||amazon.com^$image,third-party
