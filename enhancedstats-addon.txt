@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: Ok3p0U0QKu6I6cmyOMl5FA
+! Checksum: FIrkdGvCNlX4WsB1DxaIjw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 12 Oct 2016
 ! This list expires after 2 days
@@ -604,7 +604,7 @@ gs##SCRIPT + DIV[style^="height:"]
 ||spiegel.de^$image,third-party
 ||spotify.com^$image,third-party
 ||squareup.com^$image,third-party
-||ssl.gstatic.com^$image,third-party
+||ssl.gstatic.com^$image,third-party,domain=~google.com|~google.de|~google.com.au|~google.co.uk|~google.fr
 ||stackoverflow.com^$image,third-party
 ||steampowered.com^$image,third-party
 ||tumblr.com^$image,third-party
