@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: oZx8csGM/PRF2KYmBmrx8Q
+! Checksum: rdmGMuDUXG0/1Rm4QzkNNQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 12 Oct 2016
+! Updated: 14 Oct 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -576,7 +576,12 @@ gs##SCRIPT + DIV[style^="height:"]
 ! ---------- Social tracking rules --------
 ! https://robinlinus.github.io/socialmedia-leak/
 !
+@@||cdn-images*.medium.com^$image,third-party
 @@||img.youtube.com^$image,third-party
+@@||medium.com/fit/$image,third-party
+@@||medium.com/focal/$image,third-party
+@@||medium.com/freeze/$image,third-party
+@@||medium.com/max/$image,third-party
 @@||medium.com^*/img/$image,third-party
 ||academia.edu^$image,third-party
 ||accounts.google.com^$image,third-party
@@ -592,7 +597,7 @@ gs##SCRIPT + DIV[style^="height:"]
 ||github.com^$image,third-party
 ||khanacademy.org^$image,third-party
 ||mail.google.com^$image,third-party
-||medium.com^$image,third-party,domain=~melmagazine.com|~theringer.com
+||medium.com^$image,third-party,domain=~melmagazine.com|~theringer.com|~thinkprogress.org
 ||netflix.com^$image,third-party
 ||paypal.com^$image,third-party
 ||paypalobjects.com^$image,third-party,domain=~paypal.com
