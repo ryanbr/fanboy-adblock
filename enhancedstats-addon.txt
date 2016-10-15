@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: jsVPIe1pfkBDucyMHdDJbA
+! Checksum: Qa7MCyPtM0KJx/eMf7Ew1A
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 15 Oct 2016
+! Updated: 16 Oct 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -399,6 +399,7 @@ washingtonpost.com##.newsletter-inline-unit
 washingtonpost.com##.pb-f-ad-leaderboard
 washingtonpost.com##.social-tools-wrapper-bottom
 washingtonpost.com##a[href^="https://twitter.com/intent/follow?"]
+||washingtonpost.com/*/identity-management/
 ||washingtonpost.com^*/drawbridge.json
 ! Causes false postives on comments left
 ! ||washingtonpost.com^*/identity-management/$script
