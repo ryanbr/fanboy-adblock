@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: C2jdHsytUkdESc6hs9e9cw
+! Checksum: HemU/TllYw/NZog+xXleVg
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 21 Oct 2016
+! Updated: 22 Oct 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -586,6 +586,7 @@ gs##SCRIPT + DIV[style^="height:"]
 @@||medium.com/freeze/$image,third-party
 @@||medium.com/max/$image,third-party
 @@||medium.com^*/img/$image,third-party
+@@||s-media-*.pinimg.com^$image,third-party
 @@||ssl.gstatic.com/*images/$image,third-party
 ||500px.com^$image,third-party
 ||academia.edu^$image,third-party
