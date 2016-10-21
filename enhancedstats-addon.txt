@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: HemU/TllYw/NZog+xXleVg
+! Checksum: A8bHAmtkK8b0S9mgOKfrIQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 22 Oct 2016
 ! This list expires after 2 days
@@ -394,6 +394,7 @@ nautil.us###adpayload
 ||tinypass.com^$third-party
 ! washingtonpost.com
 @@||washingtonpost.com^$generichide
+theatlantic.com##.article-blocker-msg-wrapper
 washingtonpost.com###signup-box-rr
 washingtonpost.com##.newsletter-inline-unit
 washingtonpost.com##.pb-f-ad-leaderboard
