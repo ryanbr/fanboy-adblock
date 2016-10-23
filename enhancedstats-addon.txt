@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: af3gm1jN7Lup1EIl1SE7bg
+! Checksum: qQGo+0ZwlYcjMorfJ6147w
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 23 Oct 2016
 ! This list expires after 2 days
@@ -202,7 +202,6 @@
 /page-addviews?
 /pageLevelOmniture.
 /pagespeed.js
-/pagespeed_static/*$image
 /ParseOmniture.
 /PluginEndPlayOmniture_
 /prebid.min.js
