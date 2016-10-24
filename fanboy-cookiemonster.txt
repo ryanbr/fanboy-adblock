@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: Ei555hVQf9oAR4BXzRgyAw
+! Checksum: RsDyjeky6uvHBi1FhpxNPQ
 ! Title: Fanboy's Cookiemonster List
-! Updated: 15 Oct 2016
+! Updated: 24 Oct 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -91,6 +91,7 @@
 /cookie-notifications.
 /cookie-policy-
 /cookie-policy.js
+/cookie-policy.min.
 /cookie-policy/*
 /Cookie-popup-
 /cookie-popup.
@@ -571,6 +572,7 @@ _europecookielaw.
 ###cookie_clicker
 ###cookie_cnil
 ###cookie_consent
+###cookie_consent_container
 ###cookie_consent_notification
 ###cookie_content
 ###cookie_disclaimer
@@ -901,6 +903,7 @@ _europecookielaw.
 ###cookieWarningBox
 ###cookieWarningDiv
 ###cookieWarningMessage
+###cookieWind
 ###cookieWindowContainer
 ###cookieWrap
 ###cookiewrap
@@ -930,6 +933,7 @@ _europecookielaw.
 ###DCINFO_COOKIE_AGB
 ###dennis-cookie-notice
 ###desktop-cookie-disclosure
+###dialog-cookies
 ###disclaimerC
 ###disclaimerCookies
 ###disclaimerDialog_modal
@@ -1030,6 +1034,7 @@ _europecookielaw.
 ###headerCookiesAdvice
 ###hi-cookie-box
 ###hoodCookieInfoBox
+###hp_cconsent
 ###htmlPopinCookies
 ###i-cookies-bar
 ###IBTCookiePolicy
@@ -1905,7 +1910,6 @@ _europecookielaw.
 ! Cookie, privacy, legal filters
 abcnews.go.com##.push-me
 aberdeenplumberservices.co.uk,pattheduck.com###FISLCC
-abta.com,ask.fm,anglianwater.co.uk,calvertjournal.com,modhoster.com,crazydomains.co.uk,cineworld.co.uk,graspop.be,hempel.co.uk,hempelyacht.com,here.com,leonorgreyl.com,liptonicetea.com,natwest.com,postoffice.co.uk,rbs.co.uk,roalddahl.com,team-mediaportal.com,mandarinoriental.com,virgin-atlantic.com,m64.info##.cookie
 adultswim.com###legal-notification
 agcas.org.uk,reliancebankltd.com###informationbar
 airproducts.co.uk##.eu-dp
@@ -2061,6 +2065,7 @@ novantas.com##.foobar-container
 novapdf.com###novapdf_accept_cookies
 nymity.com###CookieAcceptSubLayout1_cookiesmessageshown
 office.com##.headPopup
+openmailbox.org,abta.com,ask.fm,anglianwater.co.uk,calvertjournal.com,modhoster.com,crazydomains.co.uk,cineworld.co.uk,graspop.be,hempel.co.uk,hempelyacht.com,here.com,leonorgreyl.com,liptonicetea.com,natwest.com,postoffice.co.uk,rbs.co.uk,roalddahl.com,team-mediaportal.com,mandarinoriental.com,virgin-atlantic.com,m64.info##.cookie
 palmbeachpost.com##.footer-wrapper
 picturehouses.com##.interim-banner
 plymouth.ac.uk##.page-notification
@@ -2577,6 +2582,7 @@ nzherald.co.nz#@#.Cookies
 nzherald.co.nz,pokemon.com,shopstyle.com,aklagare.se,thenextweb.com#@#.no-cookies
 prosiebengames.de,stories.com,hm.com#@#.cookie-notification
 roussillhotel.com#@##cookie-banner
+security.nl#@#.cookie_consent
 tweakers.net#@##cookieContainer
 tweakers.net#@##cookieOverlay
 uktv.co.uk#@#.cookie-notice
