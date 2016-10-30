@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: MhdPQhXPDDBwASluoSZFzg
+! Checksum: X28t+kZM80y0lac9+SOypg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 30 Oct 2016
 ! This list expires after 2 days
@@ -507,6 +507,7 @@ _europecookielaw.
 ###cookie-message-container
 ###cookie-modal
 ###cookie-modal-bg
+###cookie-monster
 ###cookie-msg
 ###cookie-note
 ###cookie-notice
@@ -835,6 +836,7 @@ _europecookielaw.
 ###cookies_message
 ###cookies_message_bar
 ###cookies_msg
+###cookies_notice_widget_root
 ###cookies_notification
 ###cookies_notifier
 ###cookies_notify_cont_all
@@ -2056,6 +2058,7 @@ microsoft.com##.feedback-visible
 mobile.twitter.com##[data-reactroot] > [class] + [class]:last-child
 moleskine.com###disclaimer
 moneysavingexpert.com###alertBar
+motorsport.com###footer
 msc.com##.reveal-modal-bg
 msn.com###conditionalbanner
 mybollox.co.uk###openglobal_privacy_widget
@@ -2102,6 +2105,7 @@ tbs.com,tntdrama.com##.toast
 teamcoco.com###ft
 tesco.com###cp
 theartnewspaper.com##.fixed-panels
+thebodyshop.com##.first-time-visitor
 theguardian.com##.site-message
 thehanley.co.uk,twitch.tv##.i-am-new
 themeflood.com##.gatewayContainer
