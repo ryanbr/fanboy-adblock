@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: R35k86bG1RaBCpkAnW7ocQ
+! Checksum: YZ+7hLSJDm0DwsuCIz1a9A
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 30 Oct 2016
 ! This list expires after 2 days
@@ -807,6 +807,7 @@ gs##SCRIPT + DIV[style^="height:"]
 @@||complex.com/ads.js
 @@||cursecdn.com^*/adsense.js
 @@||dailydot.com/static/js/ads.$script
+@@||dailyherald.com/js/ads/detect/showads.js
 @@||dailymail.co.uk/adstest2/$script
 @@||dictionary.com^*/advertisement.js
 @@||doubleclick.net/instream/ad_status.js
