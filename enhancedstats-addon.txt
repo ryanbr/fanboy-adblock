@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: aH8EI0m4SQjsZwNuqYVbqw
+! Checksum: IdrbdeBghJc4MVNo5rKY+g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 5 Nov 2016
 ! This list expires after 2 days
@@ -1067,6 +1067,7 @@ forbes.com##DIV[id^="google_ads_"][style]
 @@||pricegrabber.com/js/combine.js.php?*_js_code.
 @@||quill.com/js/Omniture/quill_s_code.js?
 @@||rackcdn.com/js/adobe_s_code.js$domain=heifer.org
+@@||recs.richrelevance.com/rrserver/*_generated.js$script,domain=verkkokauppa.com
 @@||rentals.com/assets/*webtrends-
 @@||rentals.com/javascripts/primedia-webtrends-
 @@||rentals.com/javascripts/webtrends-bindings.js
