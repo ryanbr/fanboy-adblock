@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: GDLZYCLJjWwhGGnnxbyoKw
+! Checksum: kJSLRsDuAcS/VHxwDADWMA
 ! Title: Fanboy's Cookiemonster List
-! Updated: 2 Nov 2016
+! Updated: 5 Nov 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1140,6 +1140,7 @@ _europecookielaw.
 ###pl_cookies
 ###plugin_cookie_int
 ###pm-cookie-consent
+###pm15_cookie_info
 ###pnlCookieNotice
 ###policy_message
 ###polityka-cookies
@@ -1433,6 +1434,7 @@ _europecookielaw.
 ##.cookie-rules-wrapper
 ##.cookie-section
 ##.cookie-siteusage-notice
+##.cookie-uzenet
 ##.cookie-warn
 ##.cookie-warn-msg
 ##.cookie-warning
@@ -1770,6 +1772,7 @@ _europecookielaw.
 ##.message-cookies
 ##.message-demande-cookies
 ##.message-modal-cookie
+##.mk-cookieBox
 ##.mk_cookie_policy
 ##.mod-cookiepolicy
 ##.mod-privacypolicy
@@ -1916,6 +1919,7 @@ _europecookielaw.
 ##div[id="_iph_cp_popup"]
 ##div[id^="__ic-notice"]
 ! Cookie, privacy, legal filters
+
 abcnews.go.com##.push-me
 aberdeenplumberservices.co.uk,pattheduck.com###FISLCC
 adultswim.com###legal-notification
@@ -1928,6 +1932,7 @@ amazon.com###pldn-deep-link
 android.com##.dac-toast-group
 aptoide.com###news
 aquacard.co.uk###popup
+artuk.org###top-notice
 askinology.com##COOKIE-NOTICE
 autoevolution.com###prajiturele
 autotask.com##.alertbar
@@ -2103,6 +2108,7 @@ soundcloud.com##.announcements
 stargreen.com##div[style^="color: rgb(238, 238, 238);"]
 superiorwallpapers.com##.uk-alert
 tartybikes.co.uk###eureg
+tastekid.com##.tk-Footer-cc
 tbs.com,tntdrama.com##.toast
 teamcoco.com###ft
 tesco.com###cp
@@ -2542,8 +2548,11 @@ educazioneemotiva.it###Cookie
 elettrocasa.it##.bottomBarMessage
 email.it##script + div[style^="background: #000000;"]
 enel.it###contenitoredisclaimer
+euronics.it###note
+forumfree.it##.jnote
 inquantamila.it###privacy
 radioitalia.it##.cookies
+ubuntu-it.org###\5f ubuntu-it_cookie_policy
 wd40.it###cookie
 ||js.adv.dadapro.net/collector.js/prcy.js?
 ||mycookies.it^$third-party
@@ -2577,6 +2586,7 @@ vilaglato.info##.pea_cook_wrapper
 !---------------------------------Whitelists----------------------------------!
 bankmillennium.pl#@#.cookies-info
 bezeq.co.il#@#.cookieAlert
+boursorama.com#@##cookieBanner
 britishairways.com#@##cookieModal
 filmweb.pl#@#.cookieInfo
 greenflag.com#@#.cookie-message
