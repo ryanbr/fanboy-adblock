@@ -1919,7 +1919,6 @@ _europecookielaw.
 ##div[id="_iph_cp_popup"]
 ##div[id^="__ic-notice"]
 ! Cookie, privacy, legal filters
-
 abcnews.go.com##.push-me
 aberdeenplumberservices.co.uk,pattheduck.com###FISLCC
 adultswim.com###legal-notification
