@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: ISrIyl46hruRfyWEIlMRHw
+! Checksum: LrJj5okZ0x/JJ7gVxPL2rw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 13 Nov 2016
+! Updated: 20 Nov 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -903,6 +903,7 @@ forbes.com##DIV[id^="google_ads_"][style]
 @@/webtrends.js$domain=canon.com|horizon-bcbsnj.com|kaiserpermanente.org|logitech.com|reuters.com|telegraph.co.uk|usps.com
 @@||aarp.net/etc/aarp/statics/global/js/omniture*.js
 @@||abcnews.com/assets/flash/kdp/omniturePlugin.swf
+@@||ad.doubleclick.net/crossdomain.xml$domain=itv.com
 @@||adobe.com/uber/js/*s_code
 @@||adobe.com/www.adobe.com/uber/js/pdc_s_code.js
 @@||adobedtm.com*/satellite-$script

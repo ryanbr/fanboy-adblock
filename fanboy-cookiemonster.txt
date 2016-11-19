@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: bN6ljkGJutFJEItLgoMBYw
+! Checksum: 0ziiiQe889Inssoh3slqzg
 ! Title: Fanboy's Cookiemonster List
-! Updated: 6 Nov 2016
+! Updated: 20 Nov 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -827,6 +827,7 @@ _europecookielaw.
 ###cookies_apla
 ###cookies_ask
 ###cookies_avertissement
+###cookies_banner
 ###cookies_block
 ###cookies_block_footer
 ###cookies_border
@@ -2599,7 +2600,7 @@ media.netflix.com#@##cookieAlert
 mediapart.fr#@#.cookie-warn
 moniteurautomobile.be#@#.cookieBox
 morizon.pl,tweakers.net#@#.cookieBar
-mozilla.org#@##privacy-policy
+mozilla.org,usps.com#@##privacy-policy
 nzherald.co.nz#@#.Cookies
 nzherald.co.nz,pokemon.com,shopstyle.com,aklagare.se,thenextweb.com#@#.no-cookies
 postnl.be#@##cookiebar-container
