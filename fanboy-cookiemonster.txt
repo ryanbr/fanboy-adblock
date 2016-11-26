@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: j8Q/IF1WdQxqS6ryf+NUfw
+! Checksum: IK2xuivtaPGKDSZ/Eye+iw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 22 Nov 2016
+! Updated: 26 Nov 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -883,6 +883,7 @@ _europecookielaw.
 ###cookiesPolicyPopup
 ###cookiesPop
 ###cookiesPopup
+###cookiesRequest
 ###cookiesribbon
 ###cookiestatement
 ###cookiestrip
@@ -1607,6 +1608,7 @@ _europecookielaw.
 ##.cookies__info
 ##.cookies_bar
 ##.cookies_box
+##.cookies_info
 ##.cookies_law_compliance_footer
 ##.cookies_message
 ##.cookies_notice
@@ -2585,6 +2587,7 @@ thesimsresource.com###eucookie
 v3.co.uk,theinquirer.net##.cookie-consent-content
 vilaglato.info##.pea_cook_more_info_popover
 vilaglato.info##.pea_cook_wrapper
+wccftech.com##.cc-window
 !
 !---------------------------------Whitelists----------------------------------!
 bankmillennium.pl#@#.cookies-info
