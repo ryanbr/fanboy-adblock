@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: 1Jzaopi1NTTZZkL/KDjl7g
+! Checksum: a6KCZ8dn6v7lEyxQ/ylVnA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 1 Dec 2016
+! Updated: 10 Dec 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -872,7 +872,7 @@ gs##SCRIPT + DIV[style^="height:"]
 ||washingtonpost.com/pb/resources/drawbridge/
 !
 ! test filter for google/gpt
-@@||googletagservices.com/tag/js/gpt.js$domain=qz.com|3now.co.nz|v3.co.uk|allmusic.com|goalsarena.org|theatlantic.com|nydailynews.com|upi.com|posta.com.tr|junkee.com|star.com.tr|slacker.com|marvel.com|canoe.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
+@@||googletagservices.com/tag/js/gpt.js$domain=caranddriver.com|qz.com|3now.co.nz|v3.co.uk|allmusic.com|goalsarena.org|theatlantic.com|nydailynews.com|upi.com|posta.com.tr|junkee.com|star.com.tr|slacker.com|marvel.com|canoe.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
 ||googletagmanager.com/ns.html$third-party
 ||googletagservices.com/tag/js/gpt.js$third-party
 !
