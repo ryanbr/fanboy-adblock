@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: V7KxEqjkni+MsT41/rAiCQ
+! Checksum: +1MjDDY4W6Yew7regozaqg
 ! Title: Fanboy's Cookiemonster List
-! Updated: 23 Dec 2016
+! Updated: 28 Dec 2016
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -14,7 +14,7 @@
 -cookie-consent/
 -cookie-filter/$script
 -cookie-law-popup.
--cookie-law.js
+-cookie-law.$script
 -cookie-law/$script
 -cookie-message.js
 -cookie-msg-bar.
@@ -420,6 +420,7 @@ _europecookielaw.
 ###ck-cookie-statement
 ###cl-banner
 ###close_cnil
+###cm-cookie-popin
 ###cmp-cookie-notification
 ###cmsCookieWarning
 ###CNIL
@@ -463,6 +464,7 @@ _europecookielaw.
 ###cookie-bar-main
 ###cookie-bar-module
 ###cookie-block
+###cookie-clear-bar
 ###cookie-cnil-box
 ###cookie-compliance
 ###cookie-compliance-bottom
@@ -1334,6 +1336,7 @@ _europecookielaw.
 ##.ccmcss_oic
 ##.cdp-cookies-alerta
 ##.center_cookies
+##.cm-cookie-pop
 ##.CNIL
 ##.cnil-banner
 ##.cnil-block
@@ -1994,6 +1997,7 @@ deadline.com,hollywoodlife.com,footwearnews.com,wwd.com,bgr.com,tvline.com###pp_
 debenhams.com###debCNwrap
 decathlon.co.uk###container-screen
 desktopwallpapers4.me,ouchpress.com###clayer
+deutscheam.com##.flash-message__wrapper
 dexigner.com###cwarn
 diabetes.org.uk###policyPopup
 digitaltrends.com##.m-dt_set_homepage_pint
@@ -2091,7 +2095,7 @@ novantas.com##.foobar-container
 novapdf.com###novapdf_accept_cookies
 nymity.com###CookieAcceptSubLayout1_cookiesmessageshown
 office.com##.headPopup
-openmailbox.org,abta.com,ask.fm,anglianwater.co.uk,calvertjournal.com,modhoster.com,crazydomains.co.uk,cineworld.co.uk,graspop.be,hempel.co.uk,hempelyacht.com,here.com,leonorgreyl.com,liptonicetea.com,natwest.com,postoffice.co.uk,rbs.co.uk,roalddahl.com,team-mediaportal.com,mandarinoriental.com,virgin-atlantic.com,m64.info##.cookie
+openmailbox.org,abta.com,ask.fm,anglianwater.co.uk,calvertjournal.com,modhoster.com,crazydomains.co.uk,cineworld.co.uk,graspop.be,hempel.co.uk,hempelyacht.com,here.com,leonorgreyl.com,liptonicetea.com,natwest.com,postoffice.co.uk,rbs.co.uk,rowenta.com,roalddahl.com,team-mediaportal.com,mandarinoriental.com,virgin-atlantic.com,m64.info##.cookie
 origin.com##.origin-sitestripe
 palmbeachpost.com##.footer-wrapper
 picturehouses.com##.interim-banner
@@ -2196,6 +2200,7 @@ zyncro.com###noticebar
 !
 034portal.hr##.vijesti
 abril.com.br###barra-mini-home
+airbnb.be##.flash-container
 akcneletaky.sk###infoCoo
 apartmanija.hr###site_nt
 blogdeputaria.net###sub
@@ -2215,6 +2220,7 @@ novasol.at###disclosure-container
 poba.hr##.meerkat
 qr.cz###eu-fck
 rast.hr###blokDiv
+selexion.be###splash_footer
 sme.sk###js-top-info-bar
 soeren-hentzschel.at###storage-notice
 totalmoney.sk##.cookies
@@ -2280,6 +2286,7 @@ aig.hu##.copyright-text-header
 allattartas.hu###suti_figyelmeztetes_ablak_fix
 almaimotthona.hu##.aszfLayerContent
 althir.org,nemzeti.net###suti_figyelmeztetes
+bestdoor.hu##.rstbox
 bevachip.hu,work-force.hu,bestmarkt.hu,bestsellers.hu,logmein.hu,hirek24.hu,workforce.hu##.cookie
 boraszportal.hu,termalfurdo.hu###layout_advertising_bottom
 conrad.hu##.page-warning
@@ -2528,6 +2535,7 @@ virginmobile.fr##.TC
 voici.fr##.pmd-alert
 zara.com###popup-announcements
 zdnet.fr###catfish
+zepass.com##.notification
 ||cnil.links-lab.fr^
 ||cookies.leadplace.fr^
 !
@@ -2605,6 +2613,7 @@ boursorama.com#@##cookieBanner
 britishairways.com#@##cookieModal
 filmweb.pl#@#.cookieInfo
 greenflag.com#@#.cookie-message
+hbogo.hu#@##cookiebox
 hearst.co.uk#@#.cookie-policy
 jaguar.com#@#.eucookie
 lautoentrepreneur.fr#@#.CookieBanner
