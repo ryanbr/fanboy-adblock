@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: RWfCNC2nSYAlSkINbe7Blg
+! Checksum: ADyrk/r4tBd1OyHyxYxztQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 2 Jan 2017
 ! This list expires after 2 days
@@ -861,7 +861,7 @@ gs##SCRIPT + DIV[style^="height:"]
 @@||technobuffalo.com^*/js/ads/
 @@||theatlantic.com^*/advertisement.js
 @@||thedailybeast.com/scripts/advert.
-@@||theladbible.com/js/advert.js
+@@||theladbible.com^*/ad*.js
 @@||thenextweb.com^*/advertisement.js
 @@||tnwcdn.com/assets/js/advertising.js$domain=thenextweb.com
 @@||traffic.adxprts.com/ads/ads.js
