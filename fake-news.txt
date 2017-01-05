@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: VXRwNxQgZkfdDiTAVEOVZQ
+! Checksum: fA353zZZ86s8OVs6OXjqbA
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -12,6 +12,12 @@
 ! Sources: http://fakenewswatch.com/ 
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 !
+! theuspatriot.com
+##A[href^="http://theuspatriot.com"]
+##A[href^="http://www.theuspatriot.com"]
+theuspatriot.com#@#A[href^="http://theuspatriot.com"]
+theuspatriot.com#@#A[href^="http://www.theuspatriot.com"]
+||theuspatriot.com^$third-party,popup
 ! witscience.org
 ##A[href^="http://witscience.org"]
 ##A[href^="http://www.witscience.org"]
