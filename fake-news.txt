@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: F3d5qhBRQTp0gD+a/jOi3g
+! Checksum: AIEkVG5wwHEQHwzR+9QpoA
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -12,6 +12,12 @@
 ! Sources: http://fakenewswatch.com/ 
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 !
+! 21stcenturywire.com
+##A[href^="http://21stcenturywire.com"]
+##A[href^="http://www.21stcenturywire.com"]
+21stcenturywire.com#@#A[href^="http://21stcenturywire.com"]
+21stcenturywire.com#@#A[href^="http://www.21stcenturywire.com"]
+||21stcenturywire.com^$third-party,popup
 ! 100percentfedup.com
 ##A[href^="http://100percentfedup.com"]
 ##A[href^="http://www.100percentfedup.com"]
