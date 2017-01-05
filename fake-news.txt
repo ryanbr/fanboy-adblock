@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: SbL/I3B3nIm5GaX7rN407A
+! Checksum: OfCYeuM8qUuTd7ANNWxR/Q
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -12,6 +12,12 @@
 ! Sources: http://fakenewswatch.com/ 
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 !
+! 70news.wordpress.com
+##A[href^="http://70news.wordpress.com"]
+##A[href^="https://70news.wordpress.com"]
+70news.wordpress.com#@#A[href^="http://70news.wordpress.com"]
+70news.wordpress.com#@#A[href^="https://70news.wordpress.com"]
+||70news.wordpress.com^$third-party,popup
 ! govtslaves.info
 ##A[href^="http://govtslaves.info"]
 ##A[href^="http://www.govtslaves.info"] 
