@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Zz+1POEsrUdDuigC20wsbQ
+! Checksum: cmI25t/JzaoocJZ6hsRiZw
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -92,3 +92,9 @@ infowarsstore.com#@#A[href^="http://infowarsstore.com"]
 infowarsstore.com#@#A[href^="http://www.infowarsstore.com"]
 infowarsstore.com#@#A[href^="https://www.infowarsstore.com"]
 ||infowarsstore.com^$third-party,popup
+! jesus-is-savior.com
+##A[href^="http://jesus-is-savior.com"]
+##A[href^="http://www.jesus-is-savior.com"]
+infowarsstore.com#@#A[href^="http://jesus-is-savior.com"]
+infowarsstore.com#@#A[href^="http://www.jesus-is-savior.com"]
+||jesus-is-savior.com^$third-party,popup
