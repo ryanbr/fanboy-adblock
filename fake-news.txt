@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: tTOAZ9pzfKmcWz4BuFAmdA
+! Checksum: SRb+BTyRqdkn3m16owN58A
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -12,6 +12,12 @@
 ! Sources: http://fakenewswatch.com/ 
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 !
+! bipartisanreport.com
+##A[href^="http://bipartisanreport.com"]
+##A[href^="http://www.bipartisanreport.com"]
+bipartisanreport.com#@#A[href^="http://bipartisanreport.com"]
+bipartisanreport.com#@#A[href^="http://www.bipartisanreport.com"]
+||bipartisanreport.com^$third-party,popup
 ! bigamericannews.com
 ##A[href^="http://bigamericannews.com"]
 ##A[href^="http://www.bigamericannews.com"]
