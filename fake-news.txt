@@ -1,0 +1,86 @@
+[Adblock Plus 2.0]
+! Checksum: w8xqopawWtnJWbxmFFoKbQ
+! Title: Fake-News List
+! Last modified: 05 Jan 2017 07:40 UTC
+! Expires: 2 days (update frequency)
+! Homepage: https://secure.fanboy.co.nz/
+! License: http://creativecommons.org/licenses/by/3.0/
+!
+!
+! beforeitsnews.com
+||beforeitsnews.com^$third-party,popup
+beforeitsnews.com#@#A[href^="http://beforeitsnews.com"]
+##A[href^="http://beforeitsnews.com"]
+##A[href^="http://www.beforeitsnews.com"]
+! dailybuzzlive.com
+||dailybuzzlive.com^$third-party,popup
+dailybuzzlive.com#@#A[href^="http://dailybuzzlive.com"]
+##A[href^="http://dailybuzzlive.com"]
+##A[href^="http://www.dailybuzzlive.com"]
+! disclose.tv
+||disclose.tv^$third-party,popup
+disclose.tv#@#A[href^="http://www.disclose.tv"]
+##A[href^="http://www.disclose.tv"]
+##A[href^="http://disclose.tv"]
+! infowars.com
+||infowars.com^$third-party,popup
+infowars.com#@#A[href^="http://www.infowars.com"]
+##A[href^="http://www.infowars.com"]
+##A[href^="http://infowars.com"]
+! naturalnews.com
+||naturalnews.com^$third-party,popup
+naturalnews.com#@#A[href^="http://www.naturalnews.com"]
+##A[href^="http://www.naturalnews.com"]
+##A[href^="http://naturalnews.com"]
+! redflagnews.com
+||redflagnews.com^$third-party,popup
+redflagnews.com#@#A[href^="https://www.redflagnews.com"]
+redflagnews.com#@#A[href^="http://www.redflagnews.com"]
+##A[href^="https://www.redflagnews.com"]
+##A[href^="https://redflagnews.com"]
+##A[href^="http://www.redflagnews.com"]
+##A[href^="http://redflagnews.com"]
+! worldtruth.tv
+||worldtruth.tv^$third-party,popup
+worldtruth.tv#@#A[href^="http://worldtruth.tv"]
+##A[href^="http://www.worldtruth.tv"]
+##A[href^="http://worldtruth.tv"]
+! activistpost.com
+||activistpost.com^$third-party,popup
+activistpost.com#@#A[href^="http://www.activistpost.com"]
+##A[href^="http://www.activistpost.com"]
+##A[href^="http://activistpost.com"]
+! oann.com
+||oann.com^$third-party,popup
+thedcgazette.com#@#A[href^="http://www.thedcgazette.com"]
+##A[href^="http://www.oann.com"]
+##A[href^="http://oann.com"]
+! thedcgazette.com
+||thedcgazette.com^$third-party,popup
+thedcgazette.com#@#A[href^="http://www.thedcgazette.com"]
+##A[href^="http://www.thedcgazette.com"]
+##A[href^="http://thedcgazette.com"]
+! americannews.com
+||americannews.com^$third-party,popup
+americannews.com#@#A[href^="http://americannews.com"]
+americannews.com#@#A[href^="http://www.americannews.com"]
+##A[href^="http://www.americannews.com"]
+##A[href^="http://americannews.com"]
+! americannewsx.com
+||americannewsx.com^$third-party,popup
+americannewsx.com#@#A[href^="http://americannewsx.com"]
+americannewsx.com#@#A[href^="http://www.americannewsx.com"]
+##A[href^="http://www.americannewsx.com"]
+##A[href^="http://americannewsx.com"]
+! prisonplanet.com
+||prisonplanet.com^$third-party,popup
+prisonplanet.com#@#A[href^="http://prisonplanet.com"]
+prisonplanet.com#@#A[href^="http://www.prisonplanet.com"]
+##A[href^="http://www.prisonplanet.com"]
+##A[href^="http://prisonplanet.com"]
+! thesurvivalistblog.net
+||thesurvivalistblog.net^$third-party,popup
+thesurvivalistblog.net#@#A[href^="http://thesurvivalistblog.net"]
+thesurvivalistblog.net#@#A[href^="http://www.thesurvivalistblog.net"]
+##A[href^="http://www.thesurvivalistblog.net"]
+##A[href^="http://thesurvivalistblog.net"]
