@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: NjOTrftSRLMempSEsTPyPA
+! Checksum: EQ0IyfFXUg++/UFydTgFng
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -13,6 +13,12 @@
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 ! https://docs.google.com/document/d/10eA5-mCZLSS4MQY5QGb5ewC3VAL6pLkT53V_81ZyitM/preview
 !
+! cnsnews.com
+##A[href^="http://cnsnews.com"]
+##A[href^="http://www.cnsnews.com"]
+cnsnews.com#@#A[href^="http://cnsnews.com"]
+cnsnews.com#@#A[href^="http://www.cnsnews.com"]
+||cnsnews.com^$third-party,popup
 ! christianpost.com
 ##A[href^="http://christianpost.com"]
 ##A[href^="http://www.christianpost.com"]
