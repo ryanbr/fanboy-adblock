@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: +tSzHmwTdQjvKKMmH/hTgw
+! Checksum: YL1zMJ+2c8KhLexzh8FrWg
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -13,6 +13,14 @@
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 ! https://docs.google.com/document/d/10eA5-mCZLSS4MQY5QGb5ewC3VAL6pLkT53V_81ZyitM/preview
 !
+! newsbreakshere.com
+##A[href^="http://newsbreakshere.com"]
+##A[href^="http://www.newsbreakshere.com"]
+##A[href^="https://newsbreakshere.com"]
+newsbreakshere.com#@#A[href^="http://newsbreakshere.com"]
+newsbreakshere.com#@#A[href^="http://www.newsbreakshere.com"]
+newsbreakshere.com#@#A[href^="https://newsbreakshere.com"]
+||newsbreakshere.com^$third-party,popup
 ! fourwinds10.net
 ##A[href^="http://fourwinds10.net"]
 ##A[href^="http://www.fourwinds10.net"]
