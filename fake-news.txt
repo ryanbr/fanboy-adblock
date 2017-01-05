@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: ymKqkSN4kwPmvCHbJ3yscw
+! Checksum: Kj/SxNi8+w2fmtALmGF2ig
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -12,6 +12,12 @@
 ! Sources: http://fakenewswatch.com/ 
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 !
+! consciouslifenews.com
+##A[href^="http://consciouslifenews.com"]
+##A[href^="http://www.consciouslifenews.com"]
+consciouslifenews.com#@#A[href^="http://consciouslifenews.com"]
+consciouslifenews.com#@#A[href^="http://www.consciouslifenews.com"]
+||consciouslifenews.com^$third-party,popup
 ! coasttocoastam.com
 ##A[href^="http://coasttocoastam.com"]
 ##A[href^="http://www.coasttocoastam.com"]
