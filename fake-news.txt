@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: hMqEZdxBi8IY8gV+QUltrw
+! Checksum: 8vP+976XOdI5T7GrRa0uIQ
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -13,6 +13,12 @@
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 ! https://docs.google.com/document/d/10eA5-mCZLSS4MQY5QGb5ewC3VAL6pLkT53V_81ZyitM/preview
 !
+! checkoutthehealthyworld.com
+##A[href^="http://checkoutthehealthyworld.com"]
+##A[href^="http://www.checkoutthehealthyworld.com"]
+checkoutthehealthyworld.com#@#A[href^="http://checkoutthehealthyworld.com"]
+checkoutthehealthyworld.com#@#A[href^="http://www.checkoutthehealthyworld.com"]
+||checkoutthehealthyworld.com^$third-party,popup
 ! bvanews.com
 ##A[href^="http://bvanews.com"]
 ##A[href^="http://www.bvanews.com"]
