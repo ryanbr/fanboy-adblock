@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: /w0Q3bfL7MkXh5KBJxVxMg
+! Checksum: 941ErOvInm7qzUnHhaieeg
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -12,6 +12,10 @@
 ! Sources: http://fakenewswatch.com/ 
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 !
+! 82.221.129.208
+##A[href^="http://82.221.129.208"]
+82.221.129.208#@#A[href^="http://82.221.129.208"]
+||82.221.129.208^$third-party,popup
 ! 4threvolutionarywar.wordpress.com
 ##A[href^="http://4threvolutionarywar.wordpress.com"]
 ##A[href^="https://4threvolutionarywar.wordpress.com"]
