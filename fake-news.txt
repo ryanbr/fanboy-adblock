@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: +zGobWIdTbDtIncT4GYOtA
+! Checksum: PMR8n7L4XA9Fa+ixr7MkHw
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -12,6 +12,12 @@
 ! Sources: http://fakenewswatch.com/ 
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 !
+! enduringvision.com
+##A[href^="http://enduringvision.com"]
+##A[href^="http://www.enduringvision.com"]
+enduringvision.com#@#A[href^="http://enduringvision.com"]
+enduringvision.com#@#A[href^="http://www.enduringvision.com"]
+||enduringvision.com^$third-party,popup
 ! therundownlive.com
 ##A[href^="http://therundownlive.com"]
 ##A[href^="http://www.therundownlive.com"]
