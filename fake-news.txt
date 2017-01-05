@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Dbn6d5mgkiHob+iWqTMVcQ
+! Checksum: 6IkO08l8cuWCCHb62RBPHQ
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -13,6 +13,12 @@
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 ! https://docs.google.com/document/d/10eA5-mCZLSS4MQY5QGb5ewC3VAL6pLkT53V_81ZyitM/preview
 !
+! educateinspirechange.org
+##A[href^="http://educateinspirechange.org"]
+##A[href^="http://www.educateinspirechange.org"]
+educateinspirechange.org#@#A[href^="http://educateinspirechange.org"]
+educateinspirechange.org#@#A[href^="http://www.educateinspirechange.org"]
+||educateinspirechange.org^$third-party,popup
 ! educate-yourself.org
 ##A[href^="http://educate-yourself.org"]
 ##A[href^="http://www.educate-yourself.org"]
