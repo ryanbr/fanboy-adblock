@@ -1,13 +1,23 @@
 [Adblock Plus 2.0]
-! Checksum: xlPzUqmOsZpIW63FWs8y9A
+! Checksum: FLpcjqjXwY40Za9Ewpvykw
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
 ! Homepage: https://secure.fanboy.co.nz/
 ! License: http://creativecommons.org/licenses/by/3.0/
 !
-! Targeting sites with Hoax, and propanganda (fake sites)
+! Targeting sites with Hoax, propanganda and clickbait (fake sites)
+! Note: List doesn't include harmless spoof/satire sites like theonion.com
 !
+! Sources: http://fakenewswatch.com/ 
+! https://en.wikipedia.org/wiki/List_of_fake_news_websites
+!
+! chronicle.su
+##A[href^="http://chronicle.su"]
+##A[href^="http://www.chronicle.su"]
+chronicle.su#@#A[href^="http://chronicle.su"]
+chronicle.su#@#A[href^="http://www.chronicle.su"]
+||chronicle.su^$third-party,popup
 ! 21stcenturywire.com
 ##A[href^="http://21stcenturywire.com"]
 ##A[href^="http://www.21stcenturywire.com"]
