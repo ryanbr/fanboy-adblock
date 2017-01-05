@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: HT8Mcp1OIXIYCkAlLpgUzw
+! Checksum: hMqEZdxBi8IY8gV+QUltrw
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -11,6 +11,7 @@
 !
 ! Sources: http://fakenewswatch.com/ 
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
+! https://docs.google.com/document/d/10eA5-mCZLSS4MQY5QGb5ewC3VAL6pLkT53V_81ZyitM/preview
 !
 ! bvanews.com
 ##A[href^="http://bvanews.com"]
