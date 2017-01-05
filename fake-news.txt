@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: xljNlnzBTnbKLd3/CJLOaQ
+! Checksum: +tSzHmwTdQjvKKMmH/hTgw
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -341,12 +341,6 @@ abcnews.com.co#@#A[href^="http://www.abcnews.com.co"]
 365usanews.com#@#A[href^="http://365usanews.com"]
 365usanews.com#@#A[href^="http://www.365usanews.com"]
 ||365usanews.com^$third-party,popup
-! 21stcenturywire.com
-##A[href^="http://21stcenturywire.com"]
-##A[href^="http://www.21stcenturywire.com"]
-21stcenturywire.com#@#A[href^="http://21stcenturywire.com"]
-21stcenturywire.com#@#A[href^="http://www.21stcenturywire.com"]
-||21stcenturywire.com^$third-party,popup
 ! 100percentfedup.com
 ##A[href^="http://100percentfedup.com"]
 ##A[href^="http://www.100percentfedup.com"]
@@ -527,7 +521,8 @@ activistpost.com#@#A[href^="http://www.activistpost.com"]
 ! oann.com
 ##A[href^="http://oann.com"]
 ##A[href^="http://www.oann.com"]
-thedcgazette.com#@#A[href^="http://www.thedcgazette.com"]
+oann.com#@#A[href^="http://oann.com"]
+oann.com#@#A[href^="http://www.oann.com"]
 ||oann.com^$third-party,popup
 ! thedcgazette.com
 ##A[href^="http://thedcgazette.com"]
