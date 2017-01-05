@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: KKUx3gSCA6hG2dPEeQsfAA
+! Checksum: FpXBrs3M//3zs/3ujQAZXg
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -12,6 +12,12 @@
 ! Sources: http://fakenewswatch.com/ 
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 !
+! thenewsnerd.com
+##A[href^="http://thenewsnerd.com"]
+##A[href^="http://www.thenewsnerd.com"]
+thenewsnerd.com#@#A[href^="http://thenewsnerd.com"]
+thenewsnerd.com#@#A[href^="http://www.thenewsnerd.com"]
+||thenewsnerd.com^$third-party,popup
 ! counterpsyops.com
 ##A[href^="http://counterpsyops.com"]
 ##A[href^="http://www.counterpsyops.com"]
