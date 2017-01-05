@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: OfCYeuM8qUuTd7ANNWxR/Q
+! Checksum: QwgmV2AtUrnzReB5GdpikQ
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -12,6 +12,12 @@
 ! Sources: http://fakenewswatch.com/ 
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 !
+! libertywritersnews.com
+##A[href^="http://libertywritersnews.com"]
+##A[href^="http://www.libertywritersnews.com"]
+libertywritersnews.com#@#A[href^="http://libertywritersnews.com"]
+libertywritersnews.com#@#A[href^="http://www.libertywritersnews.com"]
+||libertywritersnews.com^$third-party,popup
 ! 70news.wordpress.com
 ##A[href^="http://70news.wordpress.com"]
 ##A[href^="https://70news.wordpress.com"]
