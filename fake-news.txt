@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: qKhESXMQtaqDb5E/xlYHLg
+! Checksum: u5C6szgxSuZOJHJ0l6AoYw
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -13,6 +13,12 @@
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 ! https://docs.google.com/document/d/10eA5-mCZLSS4MQY5QGb5ewC3VAL6pLkT53V_81ZyitM/preview
 !
+! christianfightback.com
+##A[href^="http://christianfightback.com"]
+##A[href^="http://www.christianfightback.com"]
+christianfightback.com#@#A[href^="http://christianfightback.com"]
+christianfightback.com#@#A[href^="http://www.christianfightback.com"]
+||christianfightback.com^$third-party,popup
 ! chicksontheright.com
 ##A[href^="http://chicksontheright.com"]
 ##A[href^="http://www.chicksontheright.com"]
