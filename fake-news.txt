@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Z3t69q6gk99C0ZBe6pvDgw
+! Checksum: lks4anUFpHLyDTnxA7FGqw
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -12,6 +12,12 @@
 ! Sources: http://fakenewswatch.com/ 
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 !
+! angrypatriotmovement.com
+##A[href^="http://angrypatriotmovement.com"]
+##A[href^="http://www.angrypatriotmovement.com"]
+angrypatriotmovement.com#@#A[href^="http://angrypatriotmovement.com"]
+angrypatriotmovement.com#@#A[href^="http://www.angrypatriotmovement.com"]
+||angrypatriotmovement.com^$third-party,popup
 ! ancient-code.com
 ##A[href^="http://ancient-code.com"]
 ##A[href^="http://www.ancient-code.com"]
