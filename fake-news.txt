@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: yotyYDUqp5Uoro8shjwMSg
+! Checksum: 4b6Bu0np9ryZ5fcLfPyCVg
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -13,6 +13,12 @@
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 ! https://docs.google.com/document/d/10eA5-mCZLSS4MQY5QGb5ewC3VAL6pLkT53V_81ZyitM/preview
 !
+! eyeopening.info
+##A[href^="http://eyeopening.info"]
+##A[href^="http://www.eyeopening.info"]
+eyeopening.info#@#A[href^="http://eyeopening.info"]
+eyeopening.info#@#A[href^="http://www.eyeopening.info"]
+||eyeopening.info^$third-party,popup
 ! extraclubmagazine.com
 ##A[href^="http://extraclubmagazine.com"]
 ##A[href^="http://www.extraclubmagazine.com"]
