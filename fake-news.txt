@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: JDlGIL1T9dEJFx8+pIsBfA
+! Checksum: j3W6+d1i1aA5XzId9rLsSg
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -12,6 +12,12 @@
 ! Sources: http://fakenewswatch.com/ 
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 !
+! amusmentic.com
+##A[href^="http://amusmentic.com"]
+##A[href^="http://www.amusmentic.com"]
+amusmentic.com#@#A[href^="http://amusmentic.com"]
+amusmentic.com#@#A[href^="http://www.amusmentic.com"]
+||amusmentic.com^$third-party,popup
 ! amren.com
 ##A[href^="http://amren.com"]
 ##A[href^="http://www.amren.com"]
