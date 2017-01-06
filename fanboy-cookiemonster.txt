@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 07K/lebgHgzW1S8TubKNGw
+! Checksum: 20POf0uezyskQbuPB3EEEA
 ! Title: Fanboy's Cookiemonster List
-! Updated: 2 Jan 2017
+! Updated: 6 Jan 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1162,6 +1162,7 @@ _europecookielaw.
 ###pravda-cookie-usage
 ###pricacy_popup
 ###privacy-bar
+###privacy-cookieMessage
 ###privacy-message-bar
 ###privacy-policy
 ###privacy-policy-notice
@@ -1212,6 +1213,7 @@ _europecookielaw.
 ###stg-privacy-bar
 ###sto-cookieMessage
 ###sun-cookieMessage
+###sun-cookieMessageInner
 ###survey_bar
 ###svtCookieInformationContainer
 ###tarteaucitronAlertBig
@@ -1991,7 +1993,7 @@ co-opinsurance.co.uk,co-operativeinsurance.co.uk,smile.co.uk###noticePanel
 cofunds.co.uk##.smContainerInner
 complex.com###eucn
 comscore.com##.info_banner
-costaclub.com,bankid.com,norwegian.com,linkedin.com,uvenco.co.uk,viewsoniceurope.com,kenweego.com,netweather.tv,twitch.tv,nature.com##.alert
+costaclub.com,bankid.com,norwegian.com,linkedin.com,uvenco.co.uk,viewsoniceurope.com,lonelyplanet.com,kenweego.com,netweather.tv,twitch.tv,nature.com##.alert
 couchsurfing.com##.banner
 crash.net,nationwideinternational.com,thederbyshire.co.uk###cn
 csl-computer.com###notification
@@ -2140,6 +2142,7 @@ tbs.com,tntdrama.com##.toast
 teamcoco.com###ft
 tesco.com###cp
 theartnewspaper.com##.fixed-panels
+theatlantic.com##.cookie-disclaimer
 thebodyshop.com##.first-time-visitor
 theguardian.com##.site-message
 thehanley.co.uk,twitch.tv##.i-am-new
@@ -2157,7 +2160,7 @@ uk.yahoo.com###Main > .windowshade:first-child
 uk.yahoo.com##.type_windowshade_default
 uk.yahoo.com##DIV[id^="tgtm-Overlay"]
 uktv.co.uk###back-to-old-site
-umicore.com,anite.com,asda.com,ashridge.org.uk,chemistdirect.co.uk,consumeraffairs.org.uk,dur.ac.uk,ets2mp.com,festicket.com,mindshareworld.com,luxottica.be,mclaren.com,prtb.ie,redbull.com,royalparks.org.uk,thenottingham.com,tescomobile.ie,ukcisa.org.uk,unity3d.com,unknownphone.com,uptodown.com,viralnewschart.com,coinbase.com,leetchi.com##.cookies
+umicore.com,amnesty.org,anite.com,asda.com,ashridge.org.uk,chemistdirect.co.uk,consumeraffairs.org.uk,dur.ac.uk,ets2mp.com,festicket.com,mindshareworld.com,luxottica.be,mclaren.com,prtb.ie,redbull.com,royalparks.org.uk,thenottingham.com,tescomobile.ie,ukcisa.org.uk,unity3d.com,unknownphone.com,uptodown.com,viralnewschart.com,coinbase.com,leetchi.com##.cookies
 userbenchmark.com##.notificationBar
 vanguardsmoke.com###pop_wholes
 vanguardsmoke.com###pop_wholes_bg
