@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Xco0O8cpjIpyeFC0jWGGAg
+! Checksum: wZIo0uN5W4vUcMllQ4cEeg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 6 Jan 2017
 ! This list expires after 2 days
@@ -2360,6 +2360,7 @@ gosc.pl###l-overlay
 gosc.pl##DIV[style^="background-color: rgb(255, 255, 255);"]
 gosc.pl##div[style^="border: 10px solid"]
 gsmonline.pl###jGrowl
+hebe.pl##.legal-info
 hemp.pl,gov.pl,osnews.pl,pracuj.pl,xfutbol.pl###cookie
 herba-farm.pl###topInfoContainer1
 herbaciani.pl##div[style^="float:right; padding-top:20px;"]
