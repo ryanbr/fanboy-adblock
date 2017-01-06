@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: ekStY1Z0cIidAKSE75K8fw
+! Checksum: fIUIg0jAqQIIucsTSNbkmg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 6 Jan 2017
 ! This list expires after 2 days
@@ -134,6 +134,7 @@
 /cookiebanner.
 /cookiebar-
 /cookiebar.
+/CookieBar/*
 /cookieBox.js
 /cookiec.json
 /cookiechoice.js
@@ -1769,6 +1770,7 @@ _europecookielaw.
 ##.js-cookieMessage
 ##.js-cookies
 ##.js-cookies-box
+##.js-disclaimer
 ##.js-message-cookies
 ##.js-toast-cookies
 ##.js_cookie_law
@@ -2048,6 +2050,7 @@ gov.im##.site-warning
 gumtree.com##.notification-box
 hankooktire.com##.top_ep_wrap
 hankzipzer.co.uk###cppd
+harvester.co.uk##.notification--notification
 hattrick.org##.frontPage .container > .alert
 hertz247.co.uk##.lbContainer
 hlntv.com###terms-of-service-container
@@ -2261,6 +2264,8 @@ vertaa.fi##div[data-bind*="!$data.isOpen()"]
 @@||studentenwoningweb.nl/KRN/Scripts/jquery.cookiecuttr.js
 bestsellers.eu###site-optin-header
 boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl#@#.Cookies
+hardloopkalender.nl###interVeil
+hardloopkalender.nl##.modal-cooki
 mobil-1.nl###fancybox-overlay
 mobil-1.nl###fancybox-wrap
 salusi.nl##.cookies
@@ -2285,6 +2290,7 @@ deutzforum.de##.userNotice
 die-linke.de###msppiwikoptout_container
 duden.de###sliding-popup
 esprit.de###policy_header
+happy-spots.de###cono
 hl-live.de##table[width="1000"]
 hosteurope.de###cche
 kleiderkreisel.de,mamikreisel.de##.js-notification
@@ -2340,7 +2346,7 @@ tesco.hu##.infoBarClosable
 atakklonow.pl,mistrzowie.org,wszechpolska.pl##div[style="position: fixed; left:0; right:0; bottom:0; height:120px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
 atk.com.pl###TB_window
 atman.pl###gbpl_oba
-bankmillennium.pl,dobreprogramy.pl,generali.pl,newsweek.pl,play.pl,tripolo.pl###cookies
+bankmillennium.pl,dobreprogramy.pl,generali.pl,hi-tec.com.pl,newsweek.pl,play.pl,tripolo.pl###cookies
 bstorun.pl###comm_info
 cabletech.pl##div[style="top:0;position:absolute;width:100%;background:#000;color:#f2f2f2;font-size:10px;text-align:center"]
 cartests.net##.messi
@@ -2496,6 +2502,7 @@ elsevier-masson.fr###myModal
 ethias.be###tab_ck
 fnacspectacles.com##.modal-backdrop
 gentside.com,colissimo.fr,jules.com,laposte.fr,maxisciences.com,mybiclighter.com,ohmymag.com,showroomprive.com###cookies
+hautetfort.com##div[data-cookie]
 hd1.tv,nt1.tv###upper
 hotelalisee.fr###CPolicy
 ilninth.wordpress.com###MsgContainer
