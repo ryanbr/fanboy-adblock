@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 7vW4/AmpPK2tuJWkgWAtbA
+! Checksum: TB/zWRlw3kRcX0GOfRSixQ
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -13,6 +13,36 @@
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 ! https://docs.google.com/document/d/10eA5-mCZLSS4MQY5QGb5ewC3VAL6pLkT53V_81ZyitM/preview
 !
+! http://aucklandnews.tk
+##A[href^="http://aucklandnews.tk"]
+##A[href^="http://www.aucklandnews.tk"]
+aucklandnews.tk#@#A[href^="http://aucklandnews.tk"]
+aucklandnews.tk#@#A[href^="http://www.aucklandnews.tk"]
+||aucklandnews.tk^$third-party,popup
+! http://christchurchnews.tk/
+##A[href^="http://christchurchnews.tk"]
+##A[href^="http://www.christchurchnews.tk"]
+christchurchnews.tk#@#A[href^="http://christchurchnews.tk"]
+christchurchnews.tk#@#A[href^="http://www.christchurchnews.tk"]
+||christchurchnews.tk^$third-party,popup
+! tauranganews.tk
+##A[href^="http://tauranganews.tk"]
+##A[href^="http://www.tauranganews.tk"]
+tauranganews.tk#@#A[href^="http://tauranganews.tk"]
+tauranganews.tk#@#A[href^="http://www.tauranganews.tk"]
+||tauranganews.tk^$third-party,popup
+! wellingtonnews.tk
+##A[href^="http://wellingtonnews.tk"]
+##A[href^="http://www.wellingtonnews.tk"]
+wellingtonnews.tk#@#A[href^="http://wellingtonnews.tk"]
+wellingtonnews.tk#@#A[href^="http://www.wellingtonnews.tk"]
+||wellingtonnews.tk^$third-party,popup
+! dunedinnews.tk
+##A[href^="http://dunedinnews.tk"]
+##A[href^="http://www.dunedinnews.tk"]
+dunedinnews.tk#@#A[href^="http://dunedinnews.tk"]
+dunedinnews.tk#@#A[href^="http://www.dunedinnews.tk"]
+||dunedinnews.tk^$third-party,popup
 ! theamericantribune.org
 ##A[href^="http://theamericantribune.org"]
 ##A[href^="https://theamericantribune.org"]
