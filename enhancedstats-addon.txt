@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: N4MscddhoTVh9QOIN+8u1w
+! Checksum: xvTXv9k8ehcE6d3x39YFtw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 20 Jan 2017
+! Updated: 21 Jan 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -434,6 +434,7 @@ libertyunyielding.com##.vertical-share-buttons
 medicalnewstoday.com###mnt_article_ad_1_container
 medicalnewstoday.com###mnt_header_ad
 medicalnewstoday.com##.header_hr
+motherjones.com###bottom_adhesion
 myanimelist.net##._unit
 newsweek.com##.article--promo
 newsweek.com##.trial-link
