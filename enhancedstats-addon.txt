@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: Bh1BOn17E2RU8kPIk9fRgw
+! Checksum: eJuldofkmJNVQrzaeQDNnw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 21 Jan 2017
+! Updated: 22 Jan 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -846,6 +846,7 @@ gs##SCRIPT + DIV[style^="height:"]
 @@||gamespot.com/js/ads.js
 @@||gumtree.com^*/advertising.js
 @@||hentai-foundry.com^*/adv.js
+@@||idg.com.au/adsmin/show_ads.js
 @@||imgur.com/min/advertising.js
 @@||inc.com^*/ads.js
 @@||independent.co.uk^$generichide
