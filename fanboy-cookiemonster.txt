@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: VVBKaAuvHpynVVVzvVy7Zw
+! Checksum: xmabYooLgfPjFYJTz5nQdw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 21 Jan 2017
+! Updated: 22 Jan 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -450,6 +450,7 @@ _europecookielaw.
 ###container_info_cnil
 ###conteneurCookies
 ###content-cookies
+###coocie
 ###coockie-mex
 ###coockieAPContainer
 ###coockiechoice
@@ -809,6 +810,7 @@ _europecookielaw.
 ###cookies-information
 ###cookies-information-bar
 ###cookies-iraiser
+###cookies-law-info-box
 ###cookies-message
 ###cookies-message-container
 ###cookies-message-main
@@ -1959,6 +1961,7 @@ alcatel-lucent.com,alpha.org,bigsocietycapital.com,boomerangtv.co.uk,box.com,car
 alternativeto.net###bottomNotifier
 amazon.com###pldn-deep-link
 android.com##.dac-toast-group
+anisearch.com##.urgent-msg
 aptoide.com###news
 aquacard.co.uk###popup
 artuk.org###top-notice
@@ -1987,6 +1990,7 @@ cartoonnetwork.com###tos-bar
 castrol.com##.nv-notification-header
 cc.com###balaMainContainer
 change.org##.flash-message-announcement
+channel4.com###all4gn-cookie-policy-notification
 channelregister.co.uk,theregister.co.uk###RegCCO
 cimaglobal.com###optanon
 citiesskylines.com,priorygroup.com,add0n.com,aflite.co.uk,aon.com,atom42.co.uk,bakersmall.co.uk,bbvonline.net,boscolohotels.com,boxnation.com,butrans.co.uk,community-options.org.uk,fasthosts.co.uk,fremantlemedia.com,iadvize.com,mdx.ac.uk,onenessscotland.org,opportunitypeterborough.co.uk,out-law.com,pace.com,paradoxplaza.com,rodacciai.fr,secunia.com,stitchcraftcreate.co.uk,tutsandtips.com,vegsoc.org,wheatley-group.com,keyboardco.com###cookie
@@ -2626,12 +2630,12 @@ cwtv.com###user_optin_banner
 dba.dk##div[style^="position: fixed; bottom: 0px;"]
 euroman.dk###cookieInformerBooklet
 euroman.dk##.egmont-cookies
+majorleaguegaming.com###cookie-disclaimer
 publicleech.xyz##.cc_banner
 thesimsresource.com###eucookie
 v3.co.uk,theinquirer.net##.cookie-consent-content
 vilaglato.info##.pea_cook_more_info_popover
 vilaglato.info##.pea_cook_wrapper
-wccftech.com##.cc-window
 !
 !---------------------------------Whitelists----------------------------------!
 alko.fi#@#.cookies-open
