@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: MruWhpwyopm8BMT3mGdxKA
+! Checksum: K9QEhu0kODot7D89h7oNAg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 23 Jan 2017
 ! This list expires after 2 days
@@ -846,6 +846,7 @@ gs##SCRIPT + DIV[style^="height:"]
 @@||gamespot.com/js/ads.js
 @@||gumtree.com^*/advertising.js
 @@||hentai-foundry.com^*/adv.js
+@@||howtogeek.com/public/js/ads.js
 @@||idg.com.au/adsmin/show_ads.js
 @@||imgur.com/min/advertising.js
 @@||inc.com^*/ads.js
