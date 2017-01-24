@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: jk2h6uWFx7Ut2C00G6Dapw
+! Checksum: Mj+VKbd6dLYTQ1IQ9UeUvw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 23 Jan 2017
+! Updated: 24 Jan 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -262,6 +262,7 @@
 /jquery.cookie.js$domain=password-decryptor.com
 /jqueryCookieGuard.
 /js-cookie-master/*$script
+/layer-cookienotice.
 /legal/cookies/?
 /legalcookie.
 /lma-cookie.
@@ -352,11 +353,13 @@ _europecookielaw.
 ###app-cookie-policy
 ###arte-cookie-banner
 ###askCookies
+###askToAcceptCookies
 ###asterix_cookie_widget
 ###au_cookiesalert
 ###avcn_notification
 ###avertissement_cookies
 ###avis-cookies
+###aviso-cookies
 ###avisoCookies
 ###AvisoCookieslaw
 ###avisoCookiesLayer
@@ -410,6 +413,7 @@ _europecookielaw.
 ###cc-cookie-notice
 ###cc-cookies
 ###cc-notification
+###cc-tag
 ###cc_cookies
 ###cca-cookies-holder
 ###ccc-state
@@ -890,6 +894,7 @@ _europecookielaw.
 ###cookiespolicymessage
 ###cookiesPolicyPopup
 ###cookiesPop
+###CookiesPopup
 ###cookiesPopup
 ###cookiesRequest
 ###cookiesribbon
@@ -1304,6 +1309,7 @@ _europecookielaw.
 ##.avalanche-message
 ##.avertissementCookie
 ##.avertissementCookieContenu
+##.aviso-cookies
 ##.avisoCookies
 ##.b-cookie-hint
 ##.b-cookies
@@ -1400,6 +1406,7 @@ _europecookielaw.
 ##.cookie-hint
 ##.cookie-info
 ##.cookie-info-bar
+##.cookie-info-box-agree
 ##.cookie-info-container
 ##.cookie-info-header
 ##.cookie-info-layer
@@ -1744,6 +1751,7 @@ _europecookielaw.
 ##.gp-plugin-cookie-consent
 ##.head-cookie-container
 ##.header-cookie-content
+##.header-notice-cookies
 ##.headerCookies
 ##.ib-m-cookie-banner
 ##.id-CookieConsent
@@ -2072,6 +2080,7 @@ ing.com##.fancybox-wrap
 inmobi.com,anpost.ie,barbican.org.uk,the-tls.co.uk,beanstalkcharity.org.uk,co-operative.coop,emrf.eu,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,granditalia.nl,homecinemachoice.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,phonearena.com,pokernews.com,premiumcredit.co.uk,private.com,solent.ac.uk,studentski.net,tsb.co.uk,omron.eu,volvocars.com###cookies
 insights.nzherald.co.nz###top-banner-in-content
 investing.com###sideNotificationZone
+janrain.com###wptbheadline1
 janssen.co.uk###warning-popup
 jdpower.com##.region-alert
 jman.tv###ActionBar
