@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: pr0AR9phJ0/NlT9BznjkPg
+! Checksum: SiMloKGyHOr7mPqnedqUtw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 27 Jan 2017
+! Updated: 28 Jan 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -461,6 +461,8 @@ vulture.com###bottom
 wolframalpha.com###headerad-pro
 wolframalpha.com###sidebar
 wolframalpha.com###subpod_zoom
+wowhead.com##.blocks
+wowhead.com##div[data-was-parent="true"]
 ||thepiratebay.org^$script
 !
 ! Adblock Warnings
