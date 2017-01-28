@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: D1n0d0Y4ywnHklizVfSARg
+! Checksum: 9jajG6HxrZrIxX/aJEpx7g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 28 Jan 2017
 ! This list expires after 2 days
@@ -817,6 +817,7 @@ gs##SCRIPT + DIV[style^="height:"]
 /adBlockerTrack_
 /adverst.js
 @@/plugins/ad-blocking-detector/*$script,~third-party
+@@||480app.com/ads.js
 @@||9c9media.com^*/advertisement.js
 @@||alternativeto.net/assets/js/ads.js
 @@||autoblog.com/js/advert.js
