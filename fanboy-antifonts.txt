@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: sgxGqOO3+oz/tr0ow14p4Q
+! Checksum: uq1TksMcBh3tqFIk6i0prQ
 ! Title: Fanboy's Anti-thirdparty Fonts
-! Updated: 16 Apr 2016
+! Updated: 26 Jan 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -12,12 +12,12 @@
 ||amazonaws.com^$font,third-party
 ||cloud.typography.com^$third-party
 ||cloud.webtype.com^$font,third-party
-||cloudfront.net/media/fonts/$font
-||cloudfront.net/wp-content/themes/$font
+||cloudfront.net^$font,third-party
 ||disquscdn.com/next/assets/font/$third-party
 ||edgefonts.net^$third-party
 ||fast.fonts.com^$third-party
 ||fast.fonts.net^$third-party
+||fontawesome.com^$third-party
 ||fontdeck.com^$third-party
 ||fonts.advance.net^$third-party
 ||fonts.bauernet.me^
@@ -32,12 +32,16 @@
 ||googleapis.com/ajax/libs/webfont/$third-party
 ||googleusercontent.com/static/fonts/$third-party
 ||gotraffic.net^$font
+||maxcdn.bootstrapcdn.com/font-awesome/$third-party
+||myfontastic.com^$third-party
 ||myfonts.net^$third-party
 ||netdna-cdn.com^*/webfonts/
 ||netdna.bootstrapcdn.com^*/fonts/$third-party
+||qmerce.com/assets/$font
 ||typefront.com^$third-party
 ||typekit.com^$third-party
 ||typekit.net^$third-party
+||use.fonticons.com^$third-party
 ||webfonts.creativecloud.com^$third-party
 ||wp.com^*/fonts/$third-party
 !
@@ -49,7 +53,9 @@
 ! ||maxcdn.bootstrapcdn.com^*/fonts/
 !
 @@||amazonaws.com^$font,domain=play.spotify.com
-@@||fonts.googleapis.com/css?$domain=dadaviz.com|google.com|rawstory.com|sourceforge.net|thechive.com|wired.com
-@@||fonts.gstatic.com^$domain=google.com|thechive.com|youtube.com
-@@||googleapis.com/ajax/libs/webfont/$script,domain=builtinchicago.org|egotastic.com|egotasticallstars.com|factmag.com|nofilmschool.com|readwrite.com|roadsandkingdoms.com|rockstargames.com
-@@||use.typekit.net^$domain=carbonads.net|egotastic.com|egotasticallstars.com|readwrite.com
+@@||fonts.googleapis.com/css?$domain=dadaviz.com|google.com|rawstory.com|elitedaily.com|sourceforge.net|thechive.com|wired.com
+@@||fonts.gstatic.com^$domain=esportsheaven.com|google.com|thechive.com|youtube.com|elitedaily.com
+@@||fonts.typekit.net^$domain=mpora.com
+@@||googleapis.com/ajax/libs/webfont/$script,domain=magnetphonecable.com|builtinchicago.org|egotastic.com|egotasticallstars.com|factmag.com|nofilmschool.com|readwrite.com|roadsandkingdoms.com|rockstargames.com
+@@||maxcdn.bootstrapcdn.com/font-awesome/*/css/$domain=climatemirror.org
+@@||use.typekit.net^$domain=mpora.com|carbonads.net|egotastic.com|egotasticallstars.com|readwrite.com|recite.com

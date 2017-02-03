@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: GRy5N85ef+2d7nNk5ZkVyg
+! Checksum: 54917wMqPbm2mdZOtHcM6g
 ! Title: Anti-Facebook List
 ! Expires: 4 days (update frequency)
 ! Homepage: http://www.fanboy.co.nz
@@ -36,6 +36,7 @@
 ||facebook.com/widgets/like.php?$third-party
 ||facebook.com/widgets/recommendations.php?$third-party
 ||fbcdn-profile-a.akamaihd.net^$third-party,domain=~facebook.com
+||google.com/js/client:plusone.js$third-party
 ||google.com/js/plusone.js$third-party
 ||graph.facebook.com/?id=$third-party
 ||graph.facebook.com^$third-party,xmlhttprequest
@@ -75,9 +76,10 @@
 !
 ! Problematic sites
 !
-@@||connect.facebook.net^$script,domain=abc.go.com|adultswim.com|contv.com|damnyouautocorrect.com|fitbit.com|instagram.com|interviewmagazine.com|pogo.com|salon.com|sci2.tv|southpark.cc.com
+@@||connect.facebook.net^$script,domain=noovo.ca|upi.com|instagram.com|reddit.com|abc.go.com|southpark.de|adultswim.com|contv.com|damnyouautocorrect.com|fitbit.com|instagram.com|interviewmagazine.com|pogo.com|salon.com|sci2.tv|southpark.cc.com
 @@||google.com/js/plusone.js$domain=abcnews.go.com|watch.nba.com
 @@||graph.facebook.com^$xmlhttprequest,domain=theguardian.com
+@@||staticxx.facebook.com/connect/$domain=embedly.com
 !
 ! Cloudflare CDN
 !
