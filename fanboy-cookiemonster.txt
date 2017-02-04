@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 1OsbPSVmyyTGTOiVwFOyrg
+! Checksum: k7om24cO59aRdvbOlmniiQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 4 Feb 2017
 ! This list expires after 2 days
@@ -359,6 +359,7 @@ _europecookielaw.
 ###avcn_notification
 ###avertissement_cookies
 ###avis-cookies
+###avis_cookies
 ###aviso-cookies
 ###avisoCookies
 ###AvisoCookieslaw
@@ -601,6 +602,7 @@ _europecookielaw.
 ###cookie_law
 ###cookie_law_banner
 ###cookie_law_box
+###cookie_law_informations
 ###cookie_layer
 ###cookie_message
 ###cookie_message_container
@@ -766,6 +768,7 @@ _europecookielaw.
 ###cookienotify
 ###cookienotify-wrapper
 ###CookieOK
+###cookieok_bar
 ###cookieOverlay
 ###cookieoverlay
 ###CookiePanel
@@ -867,6 +870,7 @@ _europecookielaw.
 ###CookieSaveMsg
 ###CookiesBanner
 ###cookiesBanner
+###cookiesbar
 ###cookiesBar
 ###cookiesBox
 ###cookiesconcentbar
@@ -959,6 +963,7 @@ _europecookielaw.
 ###disclaimerCookies
 ###disclaimerDialog_modal
 ###div_cookie
+###divAcceptCookie
 ###divcook
 ###divCookie
 ###divCookieAcceptance
@@ -1016,6 +1021,7 @@ _europecookielaw.
 ###EUCookieMsg
 ###eucookienotice
 ###eucookies-note
+###euCookiesZone
 ###EUDirectiveCookiePanel
 ###euNotice
 ###expat_cookies
@@ -1030,6 +1036,7 @@ _europecookielaw.
 ###footer_cookies
 ###footer_tc_privacy
 ###footerCookieArticle
+###footerCookies
 ###fp_cookieMessageContainer
 ###frameCookiesBox
 ###front-no-cookies-warn
@@ -1172,6 +1179,7 @@ _europecookielaw.
 ###popup-cookies
 ###popup-webpage-cookie
 ###popup_cookie
+###popup_info_cookie
 ###popupCookies
 ###popUpInfosLegal
 ###pravda-cookie-usage
@@ -1422,6 +1430,7 @@ _europecookielaw.
 ##.cookie-information
 ##.cookie-information-container
 ##.cookie-information-wrapper
+##.cookie-inner
 ##.cookie-law
 ##.cookie-law-container
 ##.cookie-law-overlay
@@ -1455,6 +1464,7 @@ _europecookielaw.
 ##.cookie-policy-alert
 ##.cookie-policy-banner
 ##.cookie-policy-bar-bottom
+##.cookie-policy-block
 ##.cookie-policy-box
 ##.cookie-policy-container
 ##.cookie-policy-form
@@ -1489,6 +1499,7 @@ _europecookielaw.
 ##.cookie_box_shadow
 ##.cookie_consent
 ##.cookie_content
+##.cookie_display
 ##.cookie_div
 ##.cookie_header
 ##.cookie_info
@@ -1505,6 +1516,7 @@ _europecookielaw.
 ##.cookie_policy_message
 ##.cookie_popup
 ##.cookie_privacy_info_bar
+##.cookie_track
 ##.cookie_warning
 ##.cookie_wrap
 ##.cookie_wrapper
@@ -1605,6 +1617,7 @@ _europecookielaw.
 ##.cookiepopupcontainer
 ##.cookiePrompt
 ##.Cookies
+##.cookies-accept
 ##.cookies-advert
 ##.cookies-alert
 ##.cookies-alert-wider-wrap
@@ -1651,6 +1664,7 @@ _europecookielaw.
 ##.cookies_noties
 ##.cookies_notifier
 ##.cookies_policy_container
+##.cookies_v16
 ##.cookies_yum
 ##.cookiesAlert
 ##.CookiesBar
@@ -2397,7 +2411,7 @@ gosc.pl##DIV[style^="background-color: rgb(255, 255, 255);"]
 gosc.pl##div[style^="border: 10px solid"]
 gsmonline.pl###jGrowl
 hebe.pl##.legal-info
-hemp.pl,gov.pl,osnews.pl,pracuj.pl,xfutbol.pl###cookie
+hemp.pl,gov.pl,osnews.pl,pracuj.pl,weller.com.pl,xfutbol.pl###cookie
 herbaciani.pl##div[style^="float:right; padding-top:20px;"]
 home.pl###box_policies
 ingservicespolska.pl###privacy
@@ -2610,6 +2624,7 @@ lavozdegalicia.es##.alert
 leroymerlin.es###divFlotante
 linux-party.com###avisolegal
 metalomarao.pt##.cookies
+moviles.com###cookies
 terra.es###trr-root
 uc.pt##.warning-bar
 winphonemetro.com##.c_i_container
