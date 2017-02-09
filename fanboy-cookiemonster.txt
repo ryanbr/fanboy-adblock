@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: NmABVl180E7wpoIPKdrKCA
+! Checksum: WN9c9kX4Z6N0Mrs0iHsFUg
 ! Title: Fanboy's Cookiemonster List
-! Updated: 4 Feb 2017
+! Updated: 9 Feb 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2052,6 +2052,7 @@ decathlon.co.uk###container-screen
 desktopwallpapers4.me,ouchpress.com###clayer
 deutscheam.com##.flash-message__wrapper
 dexigner.com###cwarn
+dhl.com##.dhl-cgk
 diabetes.org.uk###policyPopup
 digitaltrends.com##.m-dt_set_homepage_pint
 discordapp.com,dotmailer.com,phys.org,medicalxpress.com,shire.com,techxplore.com,vcars.co.uk##.notice
