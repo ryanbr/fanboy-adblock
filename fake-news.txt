@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: TB/zWRlw3kRcX0GOfRSixQ
+! Checksum: DKDrTv6XXdbl6iVHt3SIJQ
 ! Title: Fake-News List
 ! Last modified: 05 Jan 2017 07:40 UTC
 ! Expires: 2 days (update frequency)
@@ -13,6 +13,68 @@
 ! https://en.wikipedia.org/wiki/List_of_fake_news_websites
 ! https://docs.google.com/document/d/10eA5-mCZLSS4MQY5QGb5ewC3VAL6pLkT53V_81ZyitM/preview
 !
+! http://www.4thmedia.org/
+##A[href^="http://4thmedia.org"]
+##A[href^="http://www.4thmedia.org"]
+4thmedia.org#@#A[href^="http://4thmedia.org"]
+4thmedia.org#@#A[href^="http://www.4thmedia.org"]
+||4thmedia.org^$third-party,popup
+! http://www.abeldanger.net/
+##A[href^="http://abeldanger.net"]
+##A[href^="http://www.abeldanger.net"]
+abeldanger.net#@#A[href^="http://abeldanger.net"]
+abeldanger.net#@#A[href^="http://www.abeldanger.net"]
+||abeldanger.net^$third-party,popup
+! http://www.abovetopsecret.com/
+##A[href^="http://abovetopsecret.com"]
+##A[href^="http://www.abovetopsecret.com"]
+abovetopsecret.com#@#A[href^="http://abovetopsecret.com"]
+abovetopsecret.com#@#A[href^="http://www.abovetopsecret.com"]
+||abovetopsecret.com^$third-party,popup
+! http://www.actualidadpanamericana.com/
+##A[href^="http://actualidadpanamericana.com"]
+##A[href^="http://www.actualidadpanamericana.com"]
+actualidadpanamericana.com#@#A[href^="http://actualidadpanamericana.com"]
+actualidadpanamericana.com#@#A[href^="http://www.actualidadpanamericana.com"]
+||actualidadpanamericana.com^$third-party,popup
+! http://www.ae911truth.org/
+##A[href^="http://ae911truth.org"]
+##A[href^="http://www.ae911truth.org"]
+ae911truth.org#@#A[href^="http://ae911truth.org"]
+ae911truth.org#@#A[href^="http://www.ae911truth.org"]
+||ae911truth.org^$third-party,popup
+! http://www.americanpatriotdaily.com/
+##A[href^="http://americanpatriotdaily.com"]
+##A[href^="http://www.americanpatriotdaily.com"]
+americanpatriotdaily.com#@#A[href^="http://americanpatriotdaily.com"]
+americanpatriotdaily.com#@#A[href^="http://www.americanpatriotdaily.com"]
+||americanpatriotdaily.com^$third-party,popup
+! http://www.americanpoliticnews.com/
+##A[href^="http://americanpoliticnews.com"]
+##A[href^="http://www.americanpoliticnews.com"]
+americanpoliticnews.com#@#A[href^="http://americanpoliticnews.com"]
+americanpoliticnews.com#@#A[href^="http://www.americanpoliticnews.com"]
+||americanpoliticnews.com^$third-party,popup
+! http://www.americasfreedomfighters.com/
+##A[href^="http://americasfreedomfighters.com"]
+##A[href^="http://www.americasfreedomfighters.com"]
+americasfreedomfighters.com#@#A[href^="http://americasfreedomfighters.com"]
+americasfreedomfighters.com#@#A[href^="http://www.americasfreedomfighters.com"]
+||americasfreedomfighters.com^$third-party,popup
+! http://www.americatalks.com/
+##A[href^="http://americatalks.com"]
+##A[href^="http://www.americatalks.com"]
+americatalks.com#@#A[href^="http://americatalks.com"]
+americatalks.com@#A[href^="http://www.americatalks.com"]
+||americatalks.com^$third-party,popup
+! https://www.amren.com/
+##A[href^="http://amren.com"]
+##A[href^="http://www.amren.com"]
+##A[href^="https://www.amren.com"]
+amren.com#@#A[href^="http://amren.com"]
+amren.com@#A[href^="http://www.amren.com"]
+amren.com@#A[href^="https://www.amren.com"]
+||amren.com^$third-party,popup
 ! http://aucklandnews.tk
 ##A[href^="http://aucklandnews.tk"]
 ##A[href^="http://www.aucklandnews.tk"]
