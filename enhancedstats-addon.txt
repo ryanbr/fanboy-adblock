@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: wyj1ya5AyRV7zvpqPYjv4Q
+! Checksum: XzYuTfdDJg0Wdk1cgYn1aw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Feb 2017
 ! This list expires after 2 days
@@ -759,10 +759,11 @@ pocketnow.com##SCRIPT + STYLE + DIV[class]
 @@||ad.doubleclick.net/ddm/$image
 @@||ad.doubleclick.net/favicon.ico$image
 @@||d3ujids68p6xmq.cloudfront.net^$script
+! dailydot.com
+@@||dailydot.com^*/ads.$script
 ! indiatimes.com
 @@||indiatimes.in^*/ads.js
 @@||timesofindia.indiatimes.com/ad-$image
-!
 ! hackintosh.zone / hackintosh.computer
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@||adclixx.net^$script,domain=hackintosh.zone|hackintosh.computer

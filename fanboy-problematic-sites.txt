@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: P07/NLk7t8bUn/pcJ3iWkg
+! Checksum: fgrus9Znyezw/XJJZ/OFZw
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -74,9 +74,11 @@
 @@||ad.doubleclick.net/ddm/$image
 @@||ad.doubleclick.net/favicon.ico$image
 @@||d3ujids68p6xmq.cloudfront.net^$script
+!
+! dailydot.com
+@@||dailydot.com^*/ads.$script
 ! businessinsider.com
 ||tinypass.com^$domain=businessinsider.com
-!
 ! indiatimes.com
 @@||indiatimes.in^*/ads.js
 @@||timesofindia.indiatimes.com/ad-$image
