@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 5ZXwVjrSfD30jpuC3AanHg
+! Checksum: sNlMC06TI99qGrq/0MJWQg
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -77,6 +77,14 @@
 @@||ad.doubleclick.net/favicon.ico$image
 @@||d3ujids68p6xmq.cloudfront.net^$script
 !
+! standard.co.uk
+@@||standard.co.uk^$generichide
+standard.co.uk###cookie-warning
+standard.co.uk##.email-signpost
+standard.co.uk##.fb-like
+standard.co.uk##.taboola
+standard.co.uk##a[title="Facebook"]
+standard.co.uk##a[title="Twitter"]
 ! businessinsider.com
 ||tinypass.com^$domain=businessinsider.com
 ! indiatimes.com
