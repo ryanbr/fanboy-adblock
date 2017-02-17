@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Fowv9X+aa1DZHHHpXI2DgQ
+! Checksum: 72k7iYJI+gY3SxO5TmPYPw
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -69,6 +69,7 @@
 @@||vox-cdn.com/javascripts/lib/advertisement.
 @@||washingtonexaminer.com^*/ad-block.png
 @@||wp.com/wp-content/*/ads.js$script
+@@||wtop.com/advertisement.js
 ||cloudfront.net/abw.js
 ||sqweb.com^$third-party
 ||techweb.com/adblocktrack
