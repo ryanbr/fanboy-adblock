@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: pL0bZGYK9g8U8jYYoInbLA
+! Checksum: D5Aoah16GFJJWisdXQyXFg
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -57,6 +57,7 @@
 @@||ps4news.com/ad/adframe.js
 @@||quoka.de/assets/js/adframe.js
 @@||seattletimes.com^*/ad-test.js
+@@||sinclairstoryline.com^*/ads.js
 @@||smartadcheck.de/js/*/ad/$script
 @@||theatlantic.com^*/advertisement.js
 @@||thedailybeast.com/scripts/advert.
