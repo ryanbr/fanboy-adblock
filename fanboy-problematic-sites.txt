@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: oYYxzcx0w8j3sjbA/T+r3Q
+! Checksum: IDf+McROhP/9ixneWJgb0A
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -27,6 +27,7 @@
 @@||espncdn.com^*/ads.js
 @@||exactly0r.com/advertising.js
 @@||explosm.net/js/adsense.js
+@@||fncstatic.com^*/ads.js
 @@||forums.qrz.com/js/advertisement.js
 @@||fsdn.com/con/js/adframe.js
 @@||ft-static.com^*/ads.js$domain=ft.com
