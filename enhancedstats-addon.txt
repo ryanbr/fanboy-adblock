@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: r7/xZkqTn10j3J8OzmlMGg
+! Checksum: 3v0NmdYiDtqOJ40NvgPTQA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 14 Feb 2017
+! Updated: 17 Feb 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -748,15 +748,7 @@ youporn.com###adblock_1
 ||techweb.com/adblocktrack
 !
 pocketnow.com##SCRIPT + STYLE + DIV[class]
-! independent.co.uk
-@@||independent.co.uk^$generichide
-independent.co.uk###cookie-warning
-independent.co.uk##.ad-leaderboard
-independent.co.uk##.ad-mpu
-independent.co.uk##.fb-like
-independent.co.uk##.gig-comment-shareLink
-independent.co.uk##a[title="Facebook"]
-independent.co.uk##a[title="Twitter"]
+!
 !
 ! test filter for google/gpt
 @@||googletagservices.com/tag/js/gpt.js$domain=ebaumsworld.com|pocketnow.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
@@ -766,11 +758,147 @@ independent.co.uk##a[title="Twitter"]
 !
 !---------- Anti Adblock Warnings ------
 !
+! Generic whitelists used for checks
+@@||ad.doubleclick.net/ddm/$image
+@@||ad.doubleclick.net/favicon.ico$image
+@@||d3ujids68p6xmq.cloudfront.net^$script
+!
+! moviefone.com
+@@||moviefone.com^$generichide
+moviefone.com###atwAdFrame1
+moviefone.com###leaderboard
+moviefone.com##.aol-share-block
+moviefone.com##div[style="display: block;"]
+! autobytel.com
+@@||autobytel.com^$generichide
+autobytel.com##.header-bar__social
+autobytel.com##.i-social
+! alphr.com
+@@||alphr.com^$generichide
+alphr.com###dennis-newsletter-newsletter-form
+alphr.com##.block-dfp
+alphr.com##.sharerich-buttons
+! theweek.co.uk
+@@||theweek.co.uk^$generichide
+theweek.co.uk##.sharerich-buttons
+! nj.com
+@@||nj.com^$generichide
+nj.com##.gig-share-bar-container
+! oregonlive.com
+@@||oregonlive.com^$generichide
+oregonlive.com##.gig-share-bar-container
+! playboy.de
+@@||playboy.de^$generichide
+playboy.de###block-socialshareblock
+playboy.de##.social-menu
+playboy.de##.social-sharing
+! independent.co.uk
+@@||independent.co.uk^$generichide
+independent.co.uk###cookie-warning
+independent.co.uk##.ad-leaderboard
+independent.co.uk##.ad-mpu
+independent.co.uk##.fb-like
+independent.co.uk##.gig-comment-shareLink
+independent.co.uk##a[title="Facebook"]
+independent.co.uk##a[title="Twitter"]
+! car.com
+@@||car.com^$generichide
+! codeproject.com
+@@||cloudfront.net^$script,domain=codeproject.com
+@@||codeproject.com^$generichide
+codeproject.com##.share-list
+! aufeminin.com
+@@||aufeminin.com^$generichide
+aufeminin.com###af-cookie-policy
+aufeminin.com##.af-btn
+aufeminin.com##.af-social-share
+aufeminin.com##.social-icon
+! enfemenino.com
+@@||enfemenino.com^$generichide
+enfemenino.com###af-cookie-policy
+enfemenino.com##.af-btn
+enfemenino.com##.af-social-share
+enfemenino.com##.social-icon
+! familyhandyman.com
+@@||cloudfront.net^$script,domain=familyhandyman.com
+@@||familyhandyman.com^$generichide
+familyhandyman.com##.followusblock
+familyhandyman.com##.footersocialicons
+familyhandyman.com##.rd_basic_block
+familyhandyman.com##.socialshare
+! goldderby.com
+@@||goldderby.com^$generichide
+! html.net
+@@||html.net^$generichide
+! itpro.co.uk
+@@||itpro.co.uk^$generichide
+itpro.co.uk###dennis-newsletter-newsletter-form
+itpro.co.uk##.sharerich-wrapper
+! mymotherlode.com
+@@||budgetedbauer.com^$script,domain=mymotherlode.com
+@@||mymotherlode.com^$generichide
+! realgm.com
+@@||realgm.com^$generichide
+! wewomen.com
+@@||wewomen.com^$generichide
+wewomen.com###af-cookie-policy
+wewomen.com##.af-btn
+wewomen.com##.af-social-share
+wewomen.com##.social-icon
+! wwd.com
+@@||wwd.com^$generichide
+! geektime.co.il
+@@||ads.cxadserving.com^$subdocument,domain=geektime.co.il
+@@||googletagservices.com/tag/js/gpt.js$domain=geektime.co.il
+@@||securepubads.g.doubleclick.net/gampad/ads$domain=geektime.co.il
+@@||securepubads.g.doubleclick.net^$script,subdocument,domain=geektime.co.il
+@@||tpc.googlesyndication.com/simgad/$domain=geektime.co.il
+geektime.co.il##.bottom-sponsors
+geektime.co.il##.sidebar > .widget:first-child
+geektime.co.il##[id][title]
+! worldfree4u.lol
+@@||d3ncat0syb6rim.cloudfront.net^$script,domain=worldfree4u.lol
+! usatoday.com
+||global.ssl.fastly.net^$domain=usatoday.com
+! business.dk
+@@||business.dk/js/advertisement-$script
+@@||business.dk^*/advertisement.js
+! bibme.org
+@@||cloudfront.net/doubleclick/openx.js$domain=bibme.org
+@@||studybreakmedia.com^*/ads.js$domain=bibme.org
+! allmusic.com
+@@||allmedia-d.openx.net^$domain=allmusic.com
+@@||asset.pagefair.com/measure.min.js$domain=allmusic.com
+@@||asset.pagefair.net/ads.min.js$domain=allmusic.com
+@@||google-analytics.com/ga.js$domain=allmusic.com
+@@||googletagservices.com/tag/js/gpt.js$domain=allmusic.com
+@@||roguest.com^*/advert$domain=allmusic.com
+@@||stats.pagefair.com/stats/page_view_event/$domain=allmusic.com
+allmusic.com##.header-leaderboard
+||complex.com/campaigns/$image,domain=allmusic.com
+! kissanime.ru
+@@||adsterra.com^$script,domain=kissanime.ru
+! kisscartoon.se
+@@||cpmstar.com^$script,domain=kisscartoon.se
+! extratorrent
+extratorrent.one,extratorrent.cc,extratorrentonline.com,etmirror.com,etproxy.com,extra.to,extratorrent.works,extratorrentlive.com###.hide > TABLE[style*="font-size:"][border="0"]
+extratorrent.one,extratorrent.cc,extratorrentonline.com,etmirror.com,etproxy.com,extra.to,extratorrent.works,extratorrentlive.com##[style*="margin-bottom:"] > TABLE[style*="padding-bottom:"]
+! wired.com
+@@||g.doubleclick.net/gampad/ads?$script,domain=wired.com
+@@||wired.com/assets/load?$script
+! forbes.com
+@@||forbes.com^$generichide
 @@||g.doubleclick.net/gampad/ads?gdfp_req=1&$script,domain=forbes.com
-@@||pagead2.googlesyndication.com/pagead/*/show_ads_impl.js$domain=playonlinux.com|wired.com
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=playonlinux.com|wired.com
-@@||wired.com/ams/page-ads.js
-@@||wired.com^$generichide
+forbes.com##.advoice
+forbes.com##.level-up-mail
+forbes.com##.social-expand-control
+! cbs.com
+@@||g.doubleclick.net/gampad/ads?$domain=cbs.com
+@@||ifmnwi.club/ads.bmp$domain=cbs.com
+! playonlinux.com
+@@||pagead2.googlesyndication.com/pagead/*/show_ads_impl.js$domain=playonlinux.com
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=playonlinux.com
+!
 !
 ! ---------- Whitelisting rules ----------
 !
