@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: D5Aoah16GFJJWisdXQyXFg
+! Checksum: tcq50fCjrUSkHO0lVnX/+A
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -106,6 +106,8 @@ standard.co.uk##a[title="Twitter"]
 ! indiatimes.com
 @@||indiatimes.in^*/ads.js
 @@||timesofindia.indiatimes.com/ad-$image
+@@||timesofindia.indiatimes.com/ads_$subdocument
+timesofindia.indiatimes.com##.atfAdsLoading
 ! hackintosh.zone / hackintosh.computer
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@||adclixx.net^$script,domain=hackintosh.zone|hackintosh.computer
