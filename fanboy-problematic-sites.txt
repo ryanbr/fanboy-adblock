@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: MOXiGTPTMYrlCCIfwyVFpw
+! Checksum: IUM8DjPQ5HlEarW+RESYMQ
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -202,6 +202,23 @@ forbes.com##.social-expand-control
 @@||g.doubleclick.net/gampad/ads?$domain=cbs.com
 @@||ifmnwi.club/ads.bmp$domain=cbs.com
 ! playonlinux.com
-
 @@||pagead2.googlesyndication.com/pagead/*/show_ads_impl.js$domain=playonlinux.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=playonlinux.com
+playonlinux.com###ads
+! pastebin
+astebin.com###abrpm
+pastebin.com###abrpm2
+pastebin.com###notice
+! last.fm
+last.fm##div[style*="visibility:"]
+! techpowerup.com
+techpowerup.com##A[href][rel$="external"][target="_blank"]
+! flightradar24.com
+flightradar24.com###responsiveBottomPanel
+flightradar24.com##.noads
+! thefreedictionary.com / freethesaurus.com
+@@||thefreedictionary.com/_/search/suggest.ashx?$script$domain=thefreedictionary.com
+@@||thefreedictionary.com/recentSearches.ashx$domain=thefreedictionary.com
+thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
+||freethesaurus.com^$image,script,~third-party
+||thefreedictionary.com^$image,script,~third-party
