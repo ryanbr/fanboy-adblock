@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: sNlMC06TI99qGrq/0MJWQg
+! Checksum: 4mnrprGBYn3OnuM4PFac9g
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -76,7 +76,16 @@
 @@||ad.doubleclick.net/ddm/$image
 @@||ad.doubleclick.net/favicon.ico$image
 @@||d3ujids68p6xmq.cloudfront.net^$script
-!
+! mirror.co.uk
+@@||mirror.co.uk^$generichide
+mirror.co.uk###social-follow
+mirror.co.uk##.facebook.icon
+mirror.co.uk##.gig-comment-shareLink
+mirror.co.uk##.mod-cookiepolicy
+mirror.co.uk##.sharebar
+mirror.co.uk##.skinny-signup
+mirror.co.uk##.social-links
+mirror.co.uk##.twitter.icon
 ! standard.co.uk
 @@||standard.co.uk^$generichide
 standard.co.uk###cookie-warning
