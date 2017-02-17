@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: YPTQT+UaPgf53R0yTmD7fw
+! Checksum: cgTZk5u5MHrgrV7+2uPv6w
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -75,16 +75,18 @@
 @@||ad.doubleclick.net/favicon.ico$image
 @@||d3ujids68p6xmq.cloudfront.net^$script
 !
-! hackintosh.zone
-@@|https://$image,third-party,domain=hackintosh.zone
-@@||adclixx.net^$script,domain=hackintosh.zone
-@@||adnetasia.com^$script,domain=hackintosh.zone
-@@||adtrackers.net^$script,domain=hackintosh.zone
-@@||amazon-adsystem.com^$script,domain=hackintosh.zone
-@@||bannertrack.net^$script,domain=hackintosh.zone
+! hackintosh.zone / hackintosh.computer
+@@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
+@@||adclixx.net^$script,domain=hackintosh.zone|hackintosh.computer
+@@||adnetasia.com^$script,domain=hackintosh.zone|hackintosh.computer
+@@||adtrackers.net^$script,domain=hackintosh.zone|hackintosh.computer
+@@||amazon-adsystem.com^$script,domain=hackintosh.zone|hackintosh.computer
+@@||bannertrack.net^$script,domain=hackintosh.zone|hackintosh.computer
+@@||hackintosh.computer/wp-content/plugins/myownfunctions/adframe.js$domain=hackintosh.computer
 @@||hackintosh.zone^*/ads.js
-hackintosh.zone##iframe[width="300"]
-hackintosh.zone##iframe[width="728"]
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hackintosh.computer
+hackintosh.zone,hackintosh.computer##iframe[width="300"]
+hackintosh.zone,hackintosh.computer##iframe[width="728"]
 ! moviefone.com
 @@||moviefone.com^$generichide
 moviefone.com###atwAdFrame1
