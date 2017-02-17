@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 6BzzhbsomjLWNdzAH+zz6g
+! Checksum: ndzMdQjrgeeD8jfeSG2BYw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Feb 2017
 ! This list expires after 2 days
@@ -745,7 +745,7 @@ pocketnow.com##SCRIPT + STYLE + DIV[class]
 !
 !
 ! test filter for google/gpt
-@@||googletagservices.com/tag/js/gpt.js$domain=ebaumsworld.com|pocketnow.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
+@@||googletagservices.com/tag/js/gpt.js$domain=wired.com|ebaumsworld.com|pocketnow.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
 ||googletagmanager.com/ns.html$third-party
 ||googletagservices.com/tag/js/gpt.js$third-party
 !
@@ -879,7 +879,9 @@ extratorrent.one,extratorrent.cc,extratorrentonline.com,etmirror.com,etproxy.com
 extratorrent.one,extratorrent.cc,extratorrentonline.com,etmirror.com,etproxy.com,extra.to,extratorrent.works,extratorrentlive.com##[style*="margin-bottom:"] > TABLE[style*="padding-bottom:"]
 ! wired.com
 @@||g.doubleclick.net/gampad/ads?$script,domain=wired.com
+@@||sulidshyly.com^$domain=wired.com
 @@||wired.com/assets/load?$script
+wired.com##div[id^="crown"] + .rad
 ! forbes.com
 @@||forbes.com^$generichide
 @@||g.doubleclick.net/gampad/ads?gdfp_req=1&$script,domain=forbes.com

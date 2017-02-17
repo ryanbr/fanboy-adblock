@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 3Q2L4ZPsPzgI6ZBBY2jJSw
+! Checksum: oYYxzcx0w8j3sjbA/T+r3Q
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -195,7 +195,9 @@ extratorrent.one,extratorrent.cc,extratorrentonline.com,etmirror.com,etproxy.com
 extratorrent.one,extratorrent.cc,extratorrentonline.com,etmirror.com,etproxy.com,extra.to,extratorrent.works,extratorrentlive.com##[style*="margin-bottom:"] > TABLE[style*="padding-bottom:"]
 ! wired.com
 @@||g.doubleclick.net/gampad/ads?$script,domain=wired.com
+@@||sulidshyly.com^$domain=wired.com
 @@||wired.com/assets/load?$script
+wired.com##div[id^="crown"] + .rad
 ! forbes.com
 @@||forbes.com^$generichide
 @@||g.doubleclick.net/gampad/ads?gdfp_req=1&$script,domain=forbes.com
