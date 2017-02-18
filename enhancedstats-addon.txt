@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: hX/w0QWwfX6QgpvtRWykBQ
+! Checksum: U/YjrucbjWpha6LwLIHGWQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 18 Feb 2017
 ! This list expires after 2 days
@@ -807,6 +807,8 @@ timesofindia.indiatimes.com##.atfAdsLoading
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hackintosh.computer
 hackintosh.zone,hackintosh.computer##iframe[width="300"]
 hackintosh.zone,hackintosh.computer##iframe[width="728"]
+! marmiton.org
+@@||marmiton.org^$generichide
 ! moviefone.com
 @@||moviefone.com^$generichide
 moviefone.com###atwAdFrame1
