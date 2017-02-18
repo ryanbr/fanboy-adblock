@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: /+oW9h7Pw8UCjUwb3ct2kA
+! Checksum: AvNDjkALT1NPVWsHAzoN7A
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -19,6 +19,7 @@
 @@||buzzfeed.com^*/ads.js
 @@||canada.com^*/advertisement.js
 @@||cdnslate.com/wp-srv/ad/*/loader.min.js
+@@||citylab.com/static/b/js/advertisement.$script
 @@||classistatic.com^*/advertising.js
 @@||comeadvertisewithus.com^*/ads.js
 @@||complex.com/ads.js
@@ -302,4 +303,5 @@ thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 @@||g.doubleclick.net/gpt/pubads_impl*.js$domain=v3.co.uk
 !
 ! Warnings
+citylab.com###blocker-msg-start
 hdzog.com##.msg-adblock
