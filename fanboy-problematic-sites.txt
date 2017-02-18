@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: AvNDjkALT1NPVWsHAzoN7A
+! Checksum: Dt08r7dIG/DZ6AYEeA/FiQ
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -305,3 +305,4 @@ thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 ! Warnings
 citylab.com###blocker-msg-start
 hdzog.com##.msg-adblock
+vaughnlive.tv##.abvsDynamic
