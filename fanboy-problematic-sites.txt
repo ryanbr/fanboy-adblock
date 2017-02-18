@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: mpaG2FqvQx9cPNJ3G5HRnw
+! Checksum: zklOMxXnOIIS8RT1cCT/9A
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -68,6 +68,7 @@
 @@||theoutline.com/ads.js
 @@||tnwcdn.com/assets/js/advertising.js$domain=thenextweb.com
 @@||traffichaus.com^*/advertisement.js$script
+@@||txxx.com/js/advertising.js
 @@||upworthy.com/assets/ads/$script
 @@||vice.com/assets/js/vmp/adblocker/
 @@||videoadex.com/jw/advertisement.js
@@ -297,3 +298,6 @@ flightradar24.com##.noads
 thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 ||freethesaurus.com^$image,script,~third-party
 ||thefreedictionary.com^$image,script,~third-party
+!
+! Warnings
+hdzog.com##.msg-adblock
