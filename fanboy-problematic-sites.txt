@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: cLalPvztN9rfdwLMqac48g
+! Checksum: zlD3ns4sgCxXdF39TWAZBA
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -255,12 +255,10 @@ geektime.co.il##[id][title]
 @@||studybreakmedia.com^*/ads.js$domain=bibme.org
 ! allmusic.com
 @@||allmedia-d.openx.net^$domain=allmusic.com
-@@||asset.pagefair.com/measure.min.js$domain=allmusic.com
-@@||asset.pagefair.net/ads.min.js$domain=allmusic.com
 @@||google-analytics.com/ga.js$domain=allmusic.com
 @@||googletagservices.com/tag/js/gpt.js$domain=allmusic.com
 @@||roguest.com^*/advert$domain=allmusic.com
-@@||stats.pagefair.com/stats/page_view_event/$domain=allmusic.com
+@@||yldbt.com/js/yieldbot.intent.js$domain=allmusic.com
 allmusic.com##.header-leaderboard
 ||complex.com/campaigns/$image,domain=allmusic.com
 ! kissanime.ru

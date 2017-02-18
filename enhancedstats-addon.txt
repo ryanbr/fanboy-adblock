@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: alWYeM7zgiJacXngsi1xNA
+! Checksum: fIQY5ZFVcnlPeNT5UZ1aqA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 18 Feb 2017
 ! This list expires after 2 days
@@ -940,12 +940,10 @@ geektime.co.il##[id][title]
 @@||studybreakmedia.com^*/ads.js$domain=bibme.org
 ! allmusic.com
 @@||allmedia-d.openx.net^$domain=allmusic.com
-@@||asset.pagefair.com/measure.min.js$domain=allmusic.com
-@@||asset.pagefair.net/ads.min.js$domain=allmusic.com
 @@||google-analytics.com/ga.js$domain=allmusic.com
 @@||googletagservices.com/tag/js/gpt.js$domain=allmusic.com
 @@||roguest.com^*/advert$domain=allmusic.com
-@@||stats.pagefair.com/stats/page_view_event/$domain=allmusic.com
+@@||yldbt.com/js/yieldbot.intent.js$domain=allmusic.com
 allmusic.com##.header-leaderboard
 ||complex.com/campaigns/$image,domain=allmusic.com
 ! kissanime.ru
