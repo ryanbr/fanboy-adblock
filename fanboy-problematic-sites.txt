@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: tcq50fCjrUSkHO0lVnX/+A
+! Checksum: 0qoD86xda32V+05oIAQ7zQ
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -126,6 +126,14 @@ moviefone.com###atwAdFrame1
 moviefone.com###leaderboard
 moviefone.com##.aol-share-block
 moviefone.com##div[style="display: block;"]
+! dallasnews.com
+@@||dallasnews.com^$generichide
+@@||nbcdfw.com/includes/ads.js
+dallasnews.com##.art-share
+dallasnews.com##.fb-like
+dallasnews.com##.feedback-button
+dallasnews.com##.ftr-social
+dallasnews.com##.OUTBRAIN
 ! autobytel.com
 @@||autobytel.com^$generichide
 autobytel.com##.header-bar__social
