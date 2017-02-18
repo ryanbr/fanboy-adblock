@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 8hfX2YTJvqI2mviaz0/sfg
+! Checksum: mpaG2FqvQx9cPNJ3G5HRnw
 ! Version: 201702161141
 ! Title: Fanboy's problematic-sites
 ! Last modified: 16 Feb 2017 11:41 UTC
@@ -122,6 +122,14 @@ timesofindia.indiatimes.com##.atfAdsLoading
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hackintosh.computer
 hackintosh.zone,hackintosh.computer##iframe[width="300"]
 hackintosh.zone,hackintosh.computer##iframe[width="728"]
+! sofeminine.co.uk
+@@||sofeminine.co.uk^$generichide
+sofeminine.co.uk##.af-btn-fb
+sofeminine.co.uk##.af-btn-googleplus
+sofeminine.co.uk##.af-btn-pinterest
+sofeminine.co.uk##.af-btn-twitter
+sofeminine.co.uk##.af-pin-it-wrapper
+sofeminine.co.uk##.social-icon
 ! marmiton.org
 @@||marmiton.org^$generichide
 ! moviefone.com
