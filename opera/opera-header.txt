@@ -3,8 +3,8 @@
 ! Fanboy Optimised Element Blocking
 ! Version: V4 Updated: 20 Aug 2012
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! Email: fanboyadblock@googlegroups.com - Project homepage: http://fanboy.co.nz/
-!
+! 
+! !!!!!!!!!!!!!!!! Officially unsupported !!!!!!!!!!!!!!
 ! For Opera, save this file into
 ! (XP) C:\Documents and Settings\<username>\Application Data\Opera\Opera\styes\user.css
 ! (Vista/7) C:\Users\<username>\AppData\Roaming\Opera\Opera\styles\user.css

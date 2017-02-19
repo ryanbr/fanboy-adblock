@@ -1,12 +1,11 @@
 [Adblock Plus 1.1]
-! Checksum: 06Ntug7Psk65jhkyc8eOXA
+! Checksum: byq1i1yOLxyDT/4zJxYCNw
 ! Title: Fanboy's Korean
-! Updated: 5 Jun 2016
-! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
-! Email: fanboyadblock@googlegroups.com
 ! Homepage: http://www.fanboy.co.nz/
-! Forums: http://forums.fanboy.co.nz/
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!! Officially unsupported !!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
 ! ---------- Generic Blocking Rules ----------
 !

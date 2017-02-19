@@ -3,9 +3,9 @@
 !
 ! Updated: 23 Aug 2012
 ! Gannett-Whitelist
-! This list expires after 7 days
+! 
 ! License: http://creativecommons.org/licenses/by/3.0/
-! Email: fanboyadblock@googlegroups.com - Project homepage: http://fanboy.co.nz/
+! 
 !
 ! NEWTEST-NEW
 !

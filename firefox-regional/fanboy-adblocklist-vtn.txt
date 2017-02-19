@@ -1,12 +1,12 @@
 [Adblock Plus 1.1]
-! Checksum: XwvnzfMuvDoMNxdd0CuH3A
+! Checksum: lI6nGv3J1zTvf8FRKnCz0Q
 ! Title: Fanboy's Vietnamese
-! Updated: 17 Apr 2016
-! This list expires after 4 days
+! Updated: 19 Feb 2017
 ! License: http://creativecommons.org/licenses/by/3.0/
-! Email: fanboyadblock@googlegroups.com
 ! Homepage: http://www.fanboy.co.nz/
-! Forums: http://forums.fanboy.co.nz/
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!! Officially unsupported !!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
 ! ---------- Generic Blocking Rules ----------
 !

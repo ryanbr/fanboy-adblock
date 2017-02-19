@@ -5,7 +5,7 @@
 ! This list expires after 3 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Redirect: https://easylist-downloads.adblockplus.org/easyprivacy.txt
-! Email: fanboyadblock@googlegroups.com
+! !!!!!!!!!!!!!!!! Officially unsupported !!!!!!!!!!!!!! 
 ! Homepage: http://www.fanboy.co.nz/
-! Forums: http://forums.fanboy.co.nz/
+! 
 !

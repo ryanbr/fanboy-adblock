@@ -6,6 +6,6 @@
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked ads or problems by email or in our forums
 ! Redirect: https://easylist-downloads.adblockplus.org/easylist.txt
-! Email: fanboyadblock@googlegroups.com
+!
 ! Homepage: http://www.fanboy.co.nz/
-! Forums: http://forums.fanboy.co.nz/
+! 

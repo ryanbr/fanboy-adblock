@@ -2,9 +2,9 @@
 ! Checksum: 9Jhj0RHphOAVE+UkCvsNMg
 ! Fanboy Adult/Dating Blocking (Easylist-addon)
 ! Updated: 3 Aug 2010
-! This list expires after 6 days
+! 
 ! License: http://creativecommons.org/licenses/by/3.0/
-! Email: fanboyadblock @ googlegroups . com Project homepage: http://fanboy.co.nz/
+! 
 !
 !
 !---------- For EasyList Users ----------

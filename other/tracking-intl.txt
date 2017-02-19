@@ -1,11 +1,11 @@
 [Adblock Plus 1.1]
-! Checksum: E5psvCuJnL7XBxnHC/ltyw
+! Checksum: lZiyiXlb6unVAyl/l29O/A
 ! Fanboy's International-stats-addon Adblock list
-! Updated: 16 Apr 2016
-! This list expires after 5 days
-! Redirect: https://secure.fanboy.co.nz/enhancedstats.txt
+! Updated: 19 Feb 2017
+! 
+! 
 ! License: http://creativecommons.org/licenses/by/3.0/
-! Email: fanboyadblock @ googlegroups . com Project homepage: http://fanboy.co.nz/
+!
 !
 !--------- Unsorted Rules --------
 !
