@@ -1,10 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: DKDrTv6XXdbl6iVHt3SIJQ
+! Checksum: eWHsETBaczFv4UZCkB82Ng
 ! Title: Fake-News List
-! Last modified: 05 Jan 2017 07:40 UTC
-! Expires: 2 days (update frequency)
-! Homepage: https://secure.fanboy.co.nz/
+! Updated: 19 Feb 2017
+! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
+! Homepage: http://www.fanboy.co.nz/
+!
 !
 ! Targeting sites with Hoax, propanganda and clickbait (fake sites)
 ! Note: List doesn't include harmless spoof/satire sites like theonion.com
