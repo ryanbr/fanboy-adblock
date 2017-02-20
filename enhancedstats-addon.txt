@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: nz56N6wpot9eNVQknecGXQ
+! Checksum: F5kaCFy+Mo29zncxPeKhJQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 20 Feb 2017
 ! This list expires after 2 days
@@ -430,6 +430,7 @@ wolframalpha.com###subpod_zoom
 game-debate.com##.loadIn300by250
 homerun.re,strikeout.co,vipbox.sx,vipleague.co##span > div
 pornhub.com###abAlert
+redtube.com###slidePanelContainerAB
 unlimited-recipes.com#@##adsense
 youporn.com###adblock_1
 !
