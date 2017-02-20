@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: XlTJ/J62RQy+BBGvyoXXSQ
+! Checksum: N1lWbBBC3w74hPNvkuwZAA
 ! Title: Fanboy's problematic-sites
-! Updated: 19 Feb 2017
+! Updated: 20 Feb 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -60,6 +60,7 @@
 @@||pressdemocrat.com/js/ads.js
 @@||ps4news.com/ad/adframe.js
 @@||quoka.de/assets/js/adframe.js
+@@||realclearscience.com/scripts/ads.js
 @@||seattletimes.com^*/ad-test.js
 @@||sinclairstoryline.com^*/ads.js
 @@||smartadcheck.de/js/*/ad/$script
