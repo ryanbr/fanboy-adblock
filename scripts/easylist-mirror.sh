@@ -21,6 +21,9 @@ export SHA256SUM="/usr/bin/sha256sum"
 # Wget string
 export WGET="nice -n 19 /usr/bin/wget -c -w 20 --no-check-certificate --tries=10 --waitretry=20 --retry-connrefused --timeout=45 --random-wait -U firefox -P $TEMPDIR"
 #
+# Brotli
+export BRO="nice -n 19 /usr/bin/brotli --force --quality 11"
+#
 # Check Tempdir exists before downloading to temp folder
 if [[ -d "$TEMPDIR" && ! -L "$TEMPDIR" ]] ; then
    # Clear out old files before grabbing new ones.
@@ -107,8 +110,11 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
             # If file grabbed has changed, update site.
             echo "Lets Update the list, easylist.txt.gz" > /dev/null
             cp -f $TEMPDIR/easylist.txt.gz $MAINDIR/easylist.txt.gz
-            rm -rf $MAINDIR/easylist.txt         
+            # Remove old .br file
+            rm -rf $MAINDIR/easylist.txt.br
+            rm -rf $MAINDIR/easylist.txt 
             gunzip -c $TEMPDIR/easylist.txt.gz > $MAINDIR/easylist.txt 
+            $BRO --output $MAINDIR/easylist.txt.br --input $MAINDIR/easylist.txt
             # Now clear downloaded list
             rm -rf $TEMPDIR/easylist.txt.gz         
          else
@@ -139,9 +145,12 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
          then
             # If file grabbed has changed, update site.
             echo "Lets Update the list, easyprivacy.txt.gz" > /dev/null
-            cp -f $TEMPDIR/easyprivacy.txt.gz $MAINDIR/easyprivacy.txt.gz          
+            cp -f $TEMPDIR/easyprivacy.txt.gz $MAINDIR/easyprivacy.txt.gz
+            # Remove old .br file
+            rm -rf $MAINDIR/easylist.txt.br          
             rm -rf $MAINDIR/easyprivacy.txt
-            gunzip -c $TEMPDIR/easyprivacy.txt.gz > $MAINDIR/easyprivacy.txt 
+            gunzip -c $TEMPDIR/easyprivacy.txt.gz > $MAINDIR/easyprivacy.txt
+            $BRO --output $MAINDIR/easyprivacy.txt.br --input $MAINDIR/easyprivacy.txt 
             # Now clear downloaded list
             rm -rf $TEMPDIR/easyprivacy.txt.gz          
          else
@@ -172,9 +181,12 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
          then
             # If file grabbed has changed, update site.
             echo "Lets Update the list, easyprivacy+easylist.txt.gz" > /dev/null
-            cp -f $TEMPDIR/easyprivacy+easylist.txt.gz $MAINDIR/easyprivacy+easylist.txt.gz          
+            cp -f $TEMPDIR/easyprivacy+easylist.txt.gz $MAINDIR/easyprivacy+easylist.txt.gz
+            # Remove old .br file
+            rm -rf $MAINDIR/easyprivacy+easylist.txt.br         
             rm -rf $MAINDIR/easyprivacy+easylist.txt
             gunzip -c $TEMPDIR/easyprivacy+easylist.txt.gz > $MAINDIR/easyprivacy+easylist.txt
+            $BRO --output $MAINDIR/easyprivacy+easylist.txt.br --input $MAINDIR/easyprivacy+easylist.txt
             # Now clear downloaded list
             rm -rf $TEMPDIR/easyprivacy+easylist.txt.gz
          else            
@@ -205,9 +217,12 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
          then
             # If file grabbed has changed, update site.
             echo "Lets Update the list, fanboy-annoyance.txt.gz" > /dev/null
-            cp -f $TEMPDIR/fanboy-annoyance.txt.gz $MAINDIR/fanboy-annoyance.txt.gz          
+            cp -f $TEMPDIR/fanboy-annoyance.txt.gz $MAINDIR/fanboy-annoyance.txt.gz
+            # Remove old .br file
+            rm -rf $MAINDIR/fanboy-annoyance.txt.br          
             rm -rf $MAINDIR/fanboy-annoyance.txt
             gunzip -c $TEMPDIR/fanboy-annoyance.txt.gz > $MAINDIR/fanboy-annoyance.txt
+            $BRO --output $MAINDIR/fanboy-annoyance.txt.br --input $MAINDIR/fanboy-annoyance.txt
             # Now clear downloaded list
             rm -rf $TEMPDIR/fanboy-annoyance.txt.gz
          else
@@ -238,9 +253,12 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
          then
             # If file grabbed has changed, update site.
             echo "Lets Update the list, fanboy-social.txt.gz" > /dev/null
-            cp -f $TEMPDIR/fanboy-social.txt.gz $MAINDIR/fanboy-social.txt.gz          
+            cp -f $TEMPDIR/fanboy-social.txt.gz $MAINDIR/fanboy-social.txt.gz  
+            # Remove old .br file
+            rm -rf $MAINDIR/fanboy-social.txt.br        
             rm -rf $MAINDIR/fanboy-social.txt
             gunzip -c $TEMPDIR/fanboy-social.txt.gz > $MAINDIR/fanboy-social.txt
+            $BRO --output $MAINDIR/fanboy-social.txt.br --input $MAINDIR/fanboy-social.txt
             # Now clear downloaded list
             rm -rf $TEMPDIR/fanboy-social.txt.gz
          else
@@ -271,9 +289,12 @@ if [[ -d "${MAINDIR}" && ! -L "${MAINDIR}" ]] ; then
          then
             # If file grabbed has changed, update site.
             echo "Lets Update the list, malwaredomains_full.txt.gz" > /dev/null
-            cp -f $TEMPDIR/malwaredomains_full.txt.gz $MAINDIR/malwaredomains_full.txt.gz          
+            cp -f $TEMPDIR/malwaredomains_full.txt.gz $MAINDIR/malwaredomains_full.txt.gz
+            # Remove old .br file
+            rm -rf $MAINDIR/malwaredomains_full.txt.br   
             rm -rf $MAINDIR/malwaredomains_full.txt
             gunzip -c $TEMPDIR/malwaredomains_full.txt.gz > $MAINDIR/malwaredomains_full.txt
+            $BRO --output $MAINDIR/malwaredomains_full.txt.br --input $MAINDIR/malwaredomains_full.txt
             # Now clear downloaded list
             rm -rf $TEMPDIR/malwaredomains_full.txt.gz
          else

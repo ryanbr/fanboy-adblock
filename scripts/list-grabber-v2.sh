@@ -7,6 +7,7 @@
 #
 # Version history
 #
+# 2.69 Add Brotli Support
 # 2.52 Add CookieMonster subscription
 # 2.51 Add Third-party font subscription
 # 2.50 Ultimate/Complete list based on merged list
@@ -45,6 +46,7 @@ export CAT="/bin/cat"
 export MAINDIR="/var/www/adblock"
 export SPLITDIR="/var/www/adblock/split/test"
 export HGSERV="/root/fanboy-adblock-list"
+export BRO="nice -n 19 /usr/bin/brotli --force --quality 11"
 export TESTDIR="/root/tmp/work"
 export DATE="`date`"
 export ADDCHECKSUM="nice -n 19 perl $HGSERV/scripts/addChecksum.pl"
@@ -131,8 +133,9 @@ then
     # Re-generate checksum
     $ADDCHECKSUM $TESTDIR/enhancedstats.txt
     cp -f $TESTDIR/enhancedstats.txt $MAINDIR/enhancedstats.txt
-    rm -rf $MAINDIR/enhancedstats.txt.gz
-    # GZip
+    rm -rf $MAINDIR/enhancedstats.txt.gz $MAINDIR/enhancedstats.txt.br
+    # GZip / Brotli
+    $BRO --output $MAINDIR/enhancedstats.txt.br --input $TESTDIR/enhancedstats-addon.txt > /dev/null
     $ZIP $MAINDIR/enhancedstats.txt.gz $TESTDIR/enhancedstats-addon.txt > /dev/null
     # Combine Regional trackers
     # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -157,8 +160,9 @@ then
     # Re-generate checksum
     $ADDCHECKSUM $TESTDIR/fanboy-antifacebook.txt
     cp -f $TESTDIR/fanboy-antifacebook.txt $MAINDIR/fanboy-antifacebook.txt
-    rm -rf $MAINDIR/fanboy-antifacebook.txt.gz
+    rm -rf $MAINDIR/fanboy-antifacebook.txt.gz $MAINDIR/fanboy-antifacebook.txt.br
     # GZip
+    $BRO --output $MAINDIR/fanboy-antifacebook.txt.br --input $TESTDIR/fanboy-antifacebook.txt > /dev/null
     $ZIP $MAINDIR/fanboy-antifacebook.txt.gz $TESTDIR/fanboy-antifacebook.txt > /dev/null
 else
    echo "Files are the same: fanboy-antifacebook.txt" > /dev/null
@@ -175,8 +179,9 @@ then
     # Re-generate checksum
     $ADDCHECKSUM $TESTDIR/fanboy-cookiemonster.txt
     cp -f $TESTDIR/fanboy-cookiemonster.txt $MAINDIR/fanboy-cookiemonster.txt
-    rm -rf $MAINDIR/fanboy-cookiemonster.txt.gz
+    rm -rf $MAINDIR/fanboy-cookiemonster.txt.gz $MAINDIR/fanboy-cookiemonster.txt.br
     # GZip
+    $BRO --output $MAINDIR/fanboy-cookiemonster.txt.br --input $TESTDIR/fanboy-cookiemonster.txt > /dev/null
     $ZIP $MAINDIR/fanboy-cookiemonster.txt.gz $TESTDIR/fanboy-cookiemonster.txt > /dev/null
 else
    echo "Files are the same: fanboy-cookiemonster.txt" > /dev/null
@@ -195,8 +200,9 @@ then
     # Re-generate checksum
     $ADDCHECKSUM $TESTDIR/fanboy-antifonts.txt
     cp -f $TESTDIR/fanboy-antifonts.txt $MAINDIR/fanboy-antifonts.txt
-    rm -rf $MAINDIR/fanboy-antifonts.txt.gz
+    rm -rf $MAINDIR/fanboy-antifonts.txt.gz $MAINDIR/fanboy-antifonts.txt.br
     # GZip
+    $BRO --output $MAINDIR/fanboy-antifonts.txt.br --input $TESTDIR/fanboy-antifonts.txt > /dev/null
     $ZIP $MAINDIR/fanboy-antifonts.txt.gz $TESTDIR/fanboy-antifonts.txt > /dev/null
 else
    echo "Files are the same: fanboy-antifonts.txt" > /dev/null
@@ -213,7 +219,8 @@ then
    $ADDCHECKSUM $TESTDIR/fanboy-czech.txt
    cp -f $TESTDIR/fanboy-czech.txt $MAINDIR/fanboy-czech.txt
    # Remove old copy, then gzip it
-   rm -rf $MAINDIR/fanboy-czech.txt.gz
+   rm -rf $MAINDIR/fanboy-czech.txt.gz $MAINDIR/fanboy-czech.txt.br
+   $BRO --output $MAINDIR/fanboy-czech.txt.br --input $TESTDIR/fanboy-czech.txt > /dev/null
    $ZIP $MAINDIR/fanboy-czech.txt.gz $TESTDIR/fanboy-czech.txt > /dev/null
    # Combine Regional trackers
    # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -236,7 +243,8 @@ then
    $ADDCHECKSUM $TESTDIR/fanboy-turkish.txt
    cp -f $TESTDIR/fanboy-turkish.txt $MAINDIR/fanboy-turkish.txt
    # Wipe old files
-   rm -rf $MAINDIR/fanboy-turkish.txt.gz
+   rm -rf $MAINDIR/fanboy-turkish.txt.gz $MAINDIR/fanboy-turkish.txt.br
+   $BRO --output $MAINDIR/fanboy-turkish.txt.br --input $TESTDIR/fanboy-turkish.txt > /dev/null
    $ZIP $MAINDIR/fanboy-turkish.txt.gz $TESTDIR/fanboy-turkish.txt > /dev/null
    # Combine Regional trackers
    # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -259,7 +267,8 @@ then
    $ADDCHECKSUM $TESTDIR/fanboy-japanese.txt
    cp -f $TESTDIR/fanboy-japanese.txt $MAINDIR/fanboy-japanese.txt
    # Wipe old files
-   rm -rf $MAINDIR/fanboy-japanese.txt.gz
+   rm -rf $MAINDIR/fanboy-japanese.txt.gz $MAINDIR/fanboy-japanese.txt.br
+   $BRO --output $MAINDIR/fanboy-japanese.txt.br --input $TESTDIR/fanboy-japanese.txt > /dev/null
    $ZIP $MAINDIR/fanboy-japanese.txt.gz $TESTDIR/fanboy-japanese.txt > /dev/null
    # Combine Regional trackers
    # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -282,7 +291,8 @@ then
     $ADDCHECKSUM $TESTDIR/fanboy-korean.txt
     cp -f $TESTDIR/fanboy-korean.txt $MAINDIR/fanboy-korean.txt
     # Wipe old files
-    rm -rf $MAINDIR/fanboy-korean.txt.gz
+    rm -rf $MAINDIR/fanboy-korean.txt.gz $MAINDIR/fanboy-korean.txt.br
+    $BRO --output $MAINDIR/fanboy-korean.txt.br --input $TESTDIR/fanboy-korean.txt > /dev/null
     $ZIP $MAINDIR/fanboy-korean.txt.gz $TESTDIR/fanboy-korean.txt > /dev/null
     # Combine Regional trackers
     # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -303,7 +313,8 @@ then
     $ADDCHECKSUM $TESTDIR/fanboy-polish.txt
     cp -f $TESTDIR/fanboy-polish.txt $MAINDIR/fanboy-polish.txt
     # Wipe old files
-    rm -rf $MAINDIR/fanboy-polish.txt.gz 
+    rm -rf $MAINDIR/fanboy-polish.txt.gz $MAINDIR/fanboy-polish.txt.br
+    $BRO --output $MAINDIR/fanboy-polish.txt.br --input $TESTDIR/fanboy-polish.txt > /dev/null
     $ZIP $MAINDIR/fanboy-polish.txt.gz $TESTDIR/fanboy-polish.txt > /dev/null
     # Combine Regional trackers
     # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -324,7 +335,8 @@ then
     $ADDCHECKSUM $TESTDIR/fanboy-indian.txt 
     cp -f $TESTDIR/fanboy-indian.txt $MAINDIR/fanboy-indian.txt
     # Wipe old files
-    rm -rf $MAINDIR/fanboy-indian.txt.gz
+    rm -rf $MAINDIR/fanboy-indian.txt.gz $MAINDIR/fanboy-indian.txt.br
+    $BRO --output $MAINDIR/fanboy-indian.txt.br --input $TESTDIR/fanboy-indian.txt > /dev/null
     $ZIP $MAINDIR/fanboy-indian.txt.gz $TESTDIR/fanboy-indian.txt > /dev/null
     # Combine Regional trackers
     # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -345,7 +357,8 @@ then
     $ADDCHECKSUM $TESTDIR/fanboy-vietnam.txt
     cp -f $TESTDIR/fanboy-vietnam.txt $MAINDIR/fanboy-vietnam.txt
     # Wipe old files
-    rm -rf $MAINDIR/fanboy-vietnam.txt.gz
+    rm -rf $MAINDIR/fanboy-vietnam.txt.gz $MAINDIR/fanboy-vietnam.txt.br
+    $BRO --output $MAINDIR/fanboy-vietnam.txt.br --input $TESTDIR/fanboy-vietnam.txt > /dev/null
     $ZIP $MAINDIR/fanboy-vietnam.txt.gz $TESTDIR/fanboy-vietnam.txt > /dev/null
     # Combine Regional trackers
     # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -366,7 +379,8 @@ then
     $ADDCHECKSUM $TESTDIR/fanboy-espanol.txt
     cp -f $TESTDIR/fanboy-espanol.txt $MAINDIR/fanboy-espanol.txt
     # Wipe old files
-    rm -rf $MAINDIR/fanboy-espanol.txt.gz
+    rm -rf $MAINDIR/fanboy-espanol.txt.gz $MAINDIR/fanboy-espanol.txt.br
+    $BRO --output $MAINDIR/fanboy-espanol.txt.br --input $TESTDIR/fanboy-espanol.txt > /dev/null
     $ZIP $MAINDIR/fanboy-espanol.txt.gz $TESTDIR/fanboy-espanol.txt > /dev/null
     # Combine Regional trackers
     # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
@@ -389,7 +403,8 @@ then
     $ADDCHECKSUM $TESTDIR/fanboy-swedish.txt
     cp -f $TESTDIR/fanboy-swedish.txt $MAINDIR/fanboy-swedish.txt
     # Wipe old files
-    rm -rf $MAINDIR/fanboy-swedish.txt.gz
+    rm -rf $MAINDIR/fanboy-swedish.txt.gz $MAINDIR/fanboy-swedish.txt.br
+    $BRO --output $MAINDIR/fanboy-swedish.txt.br --input $TESTDIR/fanboy-swedish.txt > /dev/null
     $ZIP $MAINDIR/fanboy-swedish.txt.gz $TESTDIR/fanboy-swedish.txt > /dev/null
     # Combine Regional trackers
     # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
