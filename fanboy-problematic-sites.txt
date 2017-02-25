@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: SBV7rMliX328zbBOuSkn1g
+! Checksum: F4r2FwEf8vya6qIjLxR9NA
 ! Title: Fanboy's problematic-sites
 ! Updated: 25 Feb 2017
 ! This list expires after 2 days
@@ -88,6 +88,7 @@
 @@||veedi.com^*/advert.js
 @@||vice.com/assets/js/vmp/adblocker/
 @@||videoadex.com/jw/advertisement.js
+@@||vidyomani.com^*/showads.js
 @@||vk.com/ads?adslogger$script
 @@||vox-cdn.com/javascripts/lib/advertisement.
 @@||washingtonexaminer.com^*/ad-block.png
