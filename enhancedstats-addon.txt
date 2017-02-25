@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: kUeDJ8BCGlxJ+AH3KtnXLg
+! Checksum: nHhGgzmptMxHH+J3KtVz0g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 Feb 2017
 ! This list expires after 2 days
@@ -781,7 +781,7 @@ pocketnow.com##SCRIPT + STYLE + DIV[class]
 !
 !
 ! test filter for google/gpt
-@@||googletagservices.com/tag/js/gpt.js$domain=v3.co.uk|wired.com|ebaumsworld.com|pocketnow.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
+@@||googletagservices.com/tag/js/gpt.js$domain=playrust.io|v3.co.uk|wired.com|ebaumsworld.com|pocketnow.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
 ||googletagmanager.com/ns.html$third-party
 ||googletagservices.com/tag/js/gpt.js$third-party
 !
@@ -795,6 +795,8 @@ pocketnow.com##SCRIPT + STYLE + DIV[class]
 !
 ! thebatavian.com
 @@||broadstreetads.com/init.js
+! playrust.io
+@@||g.doubleclick.net/gpt/pubads_impl*.js$domain=playrust.io
 ! marca.com
 @@||marca.com^$generichide
 ! deadline.com
