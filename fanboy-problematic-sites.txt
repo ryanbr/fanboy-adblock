@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: AHeh+QgU3RTmq6efgFzm3A
+! Checksum: zljUYwTW5RB8oqPdCXKSUA
 ! Title: Fanboy's problematic-sites
 ! Updated: 25 Feb 2017
 ! This list expires after 2 days
@@ -65,6 +65,7 @@
 @@||pressdemocrat.com/js/ads.js
 @@||ps4news.com/ad/adframe.js
 @@||quoka.de/assets/js/adframe.js
+@@||rackcdn.com/js/ads.js
 @@||realclearscience.com/scripts/ads.js
 @@||seattletimes.com^*/ad-test.js
 @@||sinclairstoryline.com^*/ads.js
