@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: /3k2SJXxv/3HDQTCclHyUQ
+! Checksum: Lzop6VFoSHCS9f5BgCxKzA
 ! Title: Fanboy's problematic-sites
 ! Updated: 25 Feb 2017
 ! This list expires after 2 days
@@ -30,6 +30,7 @@
 @@||dailymail.co.uk/adstest2/$script
 @@||doubleclick.net/instream/ad_status.js
 @@||dslr.net/css/ads.js$domain=dslreports.com
+@@||el-mundo.net/js/advertisement.js
 @@||espncdn.com^*/ads.js
 @@||exactly0r.com/advertising.js
 @@||explosm.net/js/adsense.js
@@ -99,6 +100,8 @@
 @@||ad.doubleclick.net/ddm/$image
 @@||ad.doubleclick.net/favicon.ico$image
 @@||d3ujids68p6xmq.cloudfront.net^$script
+! marca.com
+@@||marca.com^$generichide
 ! deadline.com
 @@||deadline.com^$generichide
 deadline.com##.fb-share-button
