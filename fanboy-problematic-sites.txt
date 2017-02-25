@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: zb6ZNeiSofHugDmOV2K3FA
+! Checksum: 17RyBCCPLU4bxAIMuH8viA
 ! Title: Fanboy's problematic-sites
 ! Updated: 26 Feb 2017
 ! This list expires after 2 days
@@ -319,6 +319,7 @@ wired.com##div[id^="crown"] + .rad
 forbes.com##.advoice
 forbes.com##.level-up-mail
 forbes.com##.social-expand-control
+forbes.com##[id][data-google-query-id]
 ! cbs.com
 @@||g.doubleclick.net/gampad/ads?$domain=cbs.com
 @@||ifmnwi.club/ads.bmp$domain=cbs.com
