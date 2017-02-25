@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: xSdmRai8RLiQjeOXS4Ay4g
+! Checksum: ELL5gHFrNJT05eFKQ8hTzQ
 ! Title: Fanboy's problematic-sites
-! Updated: 23 Feb 2017
+! Updated: 25 Feb 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -248,6 +248,8 @@ wewomen.com##.af-social-share
 wewomen.com##.social-icon
 ! wwd.com
 @@||wwd.com^$generichide
+! venturebeat.com
+venturebeat.com#@#.adsbox
 ! geektime.co.il
 @@||ads.cxadserving.com^$subdocument,domain=geektime.co.il
 @@||googletagservices.com/tag/js/gpt.js$domain=geektime.co.il
