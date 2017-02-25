@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: /4UgjzEZmWNL5ZWTDLFE9A
+! Checksum: SBV7rMliX328zbBOuSkn1g
 ! Title: Fanboy's problematic-sites
 ! Updated: 25 Feb 2017
 ! This list expires after 2 days
@@ -50,6 +50,7 @@
 @@||imgur.com/min/advertising.js
 @@||integritystat.com^*/ads.js
 @@||lamcdn.net^*/advert-$script
+@@||mfbcdn.net/scripts/ads.js
 @@||mirror.ninja/static/js/advertising.js
 @@||motherjones.net/adtracking.js
 @@||motherless.com/scripts/site_ads.js
