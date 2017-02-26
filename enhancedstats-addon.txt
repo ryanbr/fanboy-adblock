@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: z4ysO3xDJuQzsknMGOtAJQ
+! Checksum: oshkVQzjf9CfMZR/hRPeqA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 26 Feb 2017
 ! This list expires after 2 days
@@ -726,6 +726,8 @@ youporn.com###adblock_1
 @@||gamespot.com/js/ads.js
 @@||gannett-cdn.com^*/show_ads.js
 @@||gatehousemedia.com^*/ads.js
+@@||geo.de^$generichide
+@@||geo.de^*/advertisement.js
 @@||ibtimes.co.uk/js/ads.js
 @@||idg.com.au/adsmin/show_ads.js
 @@||imgur.com/min/advertising.js
@@ -805,6 +807,10 @@ pocketnow.com##SCRIPT + STYLE + DIV[class]
 @@||ad.doubleclick.net/favicon.ico$image
 @@||d3ujids68p6xmq.cloudfront.net^$script
 !
+! geo.de
+@@||geo.de^$generichide
+@@||geo.de^*/advertisement.js
+geo.de##.social-bar
 ! 1001tracklists.com
 1001tracklists.com###cookieMessage
 1001tracklists.com##.cookiePolicy
