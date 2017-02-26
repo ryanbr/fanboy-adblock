@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: MSv+amEXTS2lWId/K2bhpw
+! Checksum: 17KZopQwN8KO92Ap2PHHHg
 ! Title: Fanboy's Cookiemonster List
-! Updated: 25 Feb 2017
+! Updated: 26 Feb 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -298,6 +298,7 @@ _cookie_cnil.
 _cookie_compliance.
 _cookie_consent/
 _cookie_law.js
+_cookie_notice-
 _cookie_notice.
 _cookie_policy.
 _cookie_policy_
@@ -313,6 +314,7 @@ _cookiewarn.
 _eu_cookie_
 _eucookie_compliance_
 _europecookielaw.
+_site_cookie_
 ! Cookie,privacy,legal Messages
 ###\5f _accept_cookie
 ###\5f _ic-notice
@@ -1912,6 +1914,7 @@ _europecookielaw.
 ##.sb-ncookies-alert
 ##.sc-cookies
 ##.sd_cookiespolicy
+##.sdc-site-cookie-notice
 ##.Section-Cookie
 ##.selectorCookieLawMessage
 ##.self-contain-cookie
@@ -2276,6 +2279,7 @@ digimanie.cz,svethardware.cz###cfooter
 hileliapkoyunindir.com##.site-desc
 hrportfolio.hr###kolac
 i.ua##.Disclaimer
+iprima.cz###cookies-info
 krovni-nosaci.hr##.topbarBox
 micna.si,gentside.com.br###cookies
 mojkvart.hr###dcw1
@@ -2380,6 +2384,7 @@ mercedes-benz.hu##.mainpage_popup
 okopolc.hu###firstLogNanobar
 oszkar.com###footerbar
 roly.hu##.jq-toast-wrap
+tarhely.eu###sutik
 tarhely.eu###sutik
 tesco.hu##.infoBarClosable
 !
