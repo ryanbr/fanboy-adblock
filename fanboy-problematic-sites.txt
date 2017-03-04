@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: iHLB7TPnyGJupOqvv96GYA
+! Checksum: 8cKCEvWR9ucAJCUv4bNaRQ
 ! Title: Fanboy's problematic-sites
 ! Updated: 4 Mar 2017
 ! This list expires after 2 days
@@ -50,6 +50,7 @@
 @@||gannett-cdn.com^*/show_ads.js
 @@||gatehousemedia.com^*/ads.js
 @@||gentside.com/jsad/advertisement.js
+@@||hardwareheaven.com^*/advertisement.js
 @@||hardwarezone.com.sg/js/ads.js
 @@||ibtimes.co.uk/js/ads.js
 @@||idg.com.au/adsmin/show_ads.js
