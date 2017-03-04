@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: N7lPTR68VE1gFvmU9HxVtg
+! Checksum: 45YLUHMqSzejcu6Fx8BX5w
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 3 Mar 2017
+! Updated: 4 Mar 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1073,11 +1073,8 @@ flightradar24.com###responsiveBottomPanel
 flightradar24.com##.noads
 ! thefreedictionary.com / freethesaurus.com
 /\.tfd\.com/.*[a-zA-Z0-9]{22}/$image
-@@||thefreedictionary.com/_/search/suggest.ashx?$script$domain=thefreedictionary.com
-@@||thefreedictionary.com/recentSearches.ashx$domain=thefreedictionary.com
+/\.thefreedictionary\.com/.*[a-zA-Z0-9]{22}/$image,script
 thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
-||freethesaurus.com^$image,script,~third-party
-||thefreedictionary.com^$image,script,~third-party
 ! v3.co.uk
 @@||g.doubleclick.net/gpt/pubads_impl*.js$domain=v3.co.uk
 ! wired.it
