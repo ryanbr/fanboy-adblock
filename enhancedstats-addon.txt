@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: H3QtDZ17Om1qATaI4tz5Og
+! Checksum: YoUUtq4+Pjm/7AnXG6+InQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 10 Mar 2017
+! Updated: 11 Mar 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -818,13 +818,6 @@ youporn.com###adblock_1
 !
 pocketnow.com##SCRIPT + STYLE + DIV[class]
 !
-!
-! test filter for google/gpt
-@@||googletagservices.com/tag/js/gpt.js$domain=playrust.io|v3.co.uk|wired.com|ebaumsworld.com|pocketnow.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
-||googletagmanager.com/ns.html$third-party
-||googletagservices.com/tag/js/gpt.js$third-party
-!
-!
 !---------- Anti Adblock Warnings ------
 !
 ! Generic whitelists used for checks
@@ -1099,6 +1092,12 @@ hdzog.com##.msg-adblock
 vaughnlive.tv##.abvsDynamic
 !
 ! ---------- Whitelisting rules ----------
+!
+! test filter for google/gpt
+@@||googletagservices.com/tag/js/gpt.js$domain=playrust.io|v3.co.uk|wired.com|ebaumsworld.com|pocketnow.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
+||googletagmanager.com/ns.html$third-party
+||googletagservices.com/tag/js/gpt.js$third-party
+!
 !
 @@/cdn-cgi/pe/bag2?*pagead2.googlesyndication.com$domain=forwardprogressives.com
 @@/coremetrics.js$domain=odcdn.com|potterybarn.com|potterybarnkids.com|westelm.com|williams-sonoma.com
