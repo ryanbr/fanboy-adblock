@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: feefjtgPaczn+VHO1bEP2Q
+! Checksum: 7dxxYyT/93CgejL8HmMjqQ
 ! Title: Fanboy's problematic-sites
 ! Updated: 10 Mar 2017
 ! This list expires after 2 days
@@ -37,6 +37,7 @@
 @@||doubleclick.net/instream/ad_status.js
 @@||dslr.net/css/ads.js$domain=dslreports.com
 @@||el-mundo.net/js/advertisement.js
+@@||encyclopedia.com^*/ads.js
 @@||espncdn.com^*/ads.js
 @@||exactly0r.com/advertising.js
 @@||explosm.net/js/adsense.js
