@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: LRAsMi/VdnZEHIspqOfLTQ
+! Checksum: 4vgSgR3BzOZuWCgbRxqpFw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Mar 2017
 ! This list expires after 2 days
@@ -891,6 +891,11 @@ standard.co.uk##.fb-like
 standard.co.uk##.taboola
 standard.co.uk##a[title="Facebook"]
 standard.co.uk##a[title="Twitter"]
+! abczdrowie.pl
+@@||abczdrowie.pl^$generichide
+@@||g.doubleclick.net/gpt/pubads_impl_*.js$domain=abczdrowie.pl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=abczdrowie.pl
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=abczdrowie.pl
 ! indiatimes.com
 @@||indiatimes.in^*/ads.js
 @@||timesofindia.indiatimes.com/ad-$image
@@ -1109,7 +1114,7 @@ vaughnlive.tv##.abvsDynamic
 ! ---------- Whitelisting rules ----------
 !
 ! test filter for google/gpt
-@@||googletagservices.com/tag/js/gpt.js$domain=playrust.io|v3.co.uk|wired.com|ebaumsworld.com|pocketnow.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
+@@||googletagservices.com/tag/js/gpt.js$domain=abczdrowie.pl|playrust.io|v3.co.uk|wired.com|ebaumsworld.com|pocketnow.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
 ||googletagmanager.com/ns.html$third-party
 ||googletagservices.com/tag/js/gpt.js$third-party
 !
