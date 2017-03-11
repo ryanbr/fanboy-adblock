@@ -18,8 +18,7 @@ export ADDCHECKSUM="nice -n 19 perl $HGSERV/scripts/addChecksum.pl"
 export LOGFILE="/etc/crons/log.txt"
 export HG="/usr/local/bin/hg"
 export SHA256SUM="/usr/bin/sha256sum"
-export IEDIR="/root/tmp/ieramdisk"
-export SUBS="/root/tmp/ieramdisk/subscriptions"
+export REPO="/home/fanboy/git/fanboy-adblock"
 
 # Remove old file
 rm -rf $TESTDIR/enhancedstats-bak.txt
@@ -28,7 +27,7 @@ rm -rf $TESTDIR/enhancedstats-bak.txt
 sed  -n '/Anti Adblock Tracking/,/Whitelisting rules/{/Whitelisting rules/!p}' $MAINDIR/enhancedstats.txt > $TESTDIR/problematic-bak.txt
 
 # Include Adblock Header
-cat $MAINDIR/headers/header-problematic-sites.txt $TESTDIR/problematic-bak.txt  > $TESTDIR/problematic-bak2.txt
+cat $REPO/headers/header-problematic-sites.txt $TESTDIR/problematic-bak.txt  > $TESTDIR/problematic-bak2.txt
 
 # Remove Empty Lines
 #
