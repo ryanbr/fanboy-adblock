@@ -27,11 +27,11 @@ rm -rf $TESTDIR/enhancedstats-bak.txt
 sed  -n '/Anti Adblock Tracking/,/Whitelisting rules/{/Whitelisting rules/!p}' $MAINDIR/enhancedstats.txt > $TESTDIR/problematic-bak.txt
 
 # Include Adblock Header
-cat $REPO/headers/header-problematic-sites.txt $TESTDIR/problematic-bak.txt  > $TESTDIR/problematic-bak2.txt
+cat $REPO/headers/header-problematic-sites.txt $TESTDIR/problematic-bak.txt  > $TESTDIR/problematic-bak.txt
 
 # Remove Empty Lines
 #
-sed '/^$/d' $TESTDIR/problematic-bak2.txt > $TESTDIR/fanboy-problematic.txt
+sed '/^$/d' $TESTDIR/problematic-bak.txt > $TESTDIR/fanboy-problematic.txt
 
 # Create a backup incase addchecksum "zeros" the file
 #
@@ -47,14 +47,14 @@ if [ -s $TESTDIR/fanboy-problematic.txt ];
 then
   # Copy Merged file to main dir
   #
-  cp -f $TESTDIR/fanboy-problematic.txt $MAINDIR/fanboy-problematic-sites2.txt
+  cp -f $TESTDIR/fanboy-problematic.txt $MAINDIR/fanboy-problematic-sites.txt
 
   # Compress file
   #
   ### echo "Updated fanboy-problematic-sites.txt"
-  rm -f $MAINDIR/fanboy-problematic-sites2.txt.gz
+  rm -f $MAINDIR/fanboy-problematic-sites.txt.gz
   # Compress file
-  $ZIP $MAINDIR/fanboy-problematic-sites2.txt.gz $MAINDIR/fanboy-problematic-sites2.txt > /dev/null
+  $ZIP $MAINDIR/fanboy-problematic-sites.txt.gz $MAINDIR/fanboy-problematic-sites.txt > /dev/null
   # Clear old Variables
   #
   rm -rf $TESTDIR/fanboy-problematic*
@@ -66,14 +66,14 @@ else
   
   # Copy Merged file to main dir
   #
-  cp -f $TESTDIR/fanboy-problematic-bak.txt $MAINDIR/fanboy-problematic-sites2.txt
+  cp -f $TESTDIR/fanboy-problematic-bak.txt $MAINDIR/fanboy-problematic-sites.txt
   
   # Compress file
   #
   ### echo "Updated fanboy+tracking+addon.txt (file was zero)"
-  rm -f $MAINDIR/fanboy-problematic-sites2.txt.gz
+  rm -f $MAINDIR/fanboy-problematic-sites.txt.gz
   # Compress file
-  $ZIP $MAINDIR/fanboy-problematic-sites2.txt.gz $MAINDIR/fanboy-problematic-sites2.txt > /dev/null
+  $ZIP $MAINDIR/fanboy-problematic-sites.txt.gz $MAINDIR/fanboy-problematic-sites.txt > /dev/null
   # Log
   # Clear old Variables
   #
