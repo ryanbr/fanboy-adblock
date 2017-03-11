@@ -20,8 +20,8 @@ export HG="/usr/local/bin/hg"
 export SHA256SUM="/usr/bin/sha256sum"
 export REPO="/home/fanboy/git/fanboy-adblock"
 
-# Remove old file
-rm -rf $TESTDIR/enhancedstats-bak.txt
+# Remove old files
+rm -rf $TESTDIR/problematic* $TESTDIR/fanboy-problem*
 
 # Copy the selected text  (from the enhanced list)
 sed  -n '/Anti Adblock Tracking/,/Whitelisting rules/{/Whitelisting rules/!p}' $MAINDIR/enhancedstats.txt > $TESTDIR/problematic-bak.txt
