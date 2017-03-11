@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 6X5g1Roz4i0C2BhcGSiqhA
+! Checksum: uYpKoiL+wNf17s/53THsbg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Mar 2017
 ! This list expires after 2 days
@@ -729,6 +729,7 @@ youporn.com###adblock_1
 @@||ft-static.com^*/ads.js$domain=ft.com
 @@||fusion.net/experiments/ad.js
 @@||gamerant.com/advertisement.js
+@@||gamersclub.com.br/js/ads.js
 @@||gamespot.com/js/ads.js
 @@||gannett-cdn.com^*/show_ads.js
 @@||gatehousemedia.com^*/ads.js
