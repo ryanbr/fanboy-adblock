@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: nyNhZeA30r4tck/m3L4y1Q
+! Checksum: 9H1ZuARg25RKmJ75DUq3HA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Mar 2017
 ! This list expires after 2 days
@@ -701,6 +701,7 @@ youporn.com###adblock_1
 @@||autoworldnews.com/common/js/common/ads.js
 @@||benczmark.pl^*/b.ads.js
 @@||blbrd.co/advertisement.js
+@@||burning-feed.com/resources/js/advertising.js
 @@||buzzfed.com^*/ads.js
 @@||buzzfeed.com^*/ads.js
 @@||canada.com^*/advertisement.js
