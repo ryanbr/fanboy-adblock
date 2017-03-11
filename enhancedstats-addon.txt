@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 9H1ZuARg25RKmJ75DUq3HA
+! Checksum: nq17/o8qHDlDRSHha70vvg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Mar 2017
 ! This list expires after 2 days
@@ -1097,6 +1097,7 @@ thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 @@||wired.it/static/js/cn-adv.js
 ! 
 ! Warnings
+8muses.com##.top-warning
 citylab.com###blocker-msg-start
 hdzog.com##.msg-adblock
 pornhub.com###abAlert
