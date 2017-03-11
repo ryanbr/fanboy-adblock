@@ -27,11 +27,11 @@ rm -rf $TESTDIR/problematic* $TESTDIR/fanboy-problem*
 sed  -n '/Anti Adblock Tracking/,/Whitelisting rules/{/Whitelisting rules/!p}' $MAINDIR/enhancedstats.txt > $TESTDIR/problematic-bak.txt
 
 # Include Adblock Header
-cat $REPO/headers/header-problematic-sites.txt $TESTDIR/problematic-bak.txt  > $TESTDIR/problematic-bak.txt
+cat $REPO/headers/header-problematic-sites.txt $TESTDIR/problematic-bak.txt  > $TESTDIR/problematic-bak2.txt
 
 # Remove Empty Lines
 #
-sed '/^$/d' $TESTDIR/problematic-bak.txt > $TESTDIR/fanboy-problematic.txt
+sed '/^$/d' $TESTDIR/problematic-bak2.txt > $TESTDIR/fanboy-problematic.txt
 
 # Create a backup incase addchecksum "zeros" the file
 #
