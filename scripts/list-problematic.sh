@@ -25,7 +25,7 @@ export SUBS="/root/tmp/ieramdisk/subscriptions"
 rm -rf $TESTDIR/enhancedstats-bak.txt
 
 # Copy the selected text  (from the enhanced list)
-sed  -n '/Anti Adblock Tracking/,/Whitelisting rules/{/Whitelisting rules/!p}' $MAINDIR/enhancedstats-addon.txt > $TESTDIR/problematic-bak.txt
+sed  -n '/Anti Adblock Tracking/,/Whitelisting rules/{/Whitelisting rules/!p}' $MAINDIR/enhancedstats.txt > $TESTDIR/problematic-bak.txt
 
 # Include Adblock Header
 cat $MAINDIR/headers/header-problematic-sites.txt $TESTDIR/problematic-bak.txt  > $TESTDIR/problematic-bak2.txt
