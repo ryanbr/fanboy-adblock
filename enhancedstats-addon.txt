@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: nq17/o8qHDlDRSHha70vvg
+! Checksum: LRAsMi/VdnZEHIspqOfLTQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Mar 2017
 ! This list expires after 2 days
@@ -1091,6 +1091,8 @@ flightradar24.com##.noads
 /\.thefreedictionary\.com/.*[a-zA-Z0-9]{22}/$image,script
 thefreedictionary.com,freethesaurus.com###sidebar > a#trans_link + [id]
 thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
+! http://urlex.org/
+@@||urlex.org^$generichide
 ! v3.co.uk
 @@||g.doubleclick.net/gpt/pubads_impl*.js$domain=v3.co.uk
 ! wired.it
