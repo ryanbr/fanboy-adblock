@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: xMkuzyblL2LAwW40N1fUzw
+! Checksum: MUr43Y15I8PYljaVhIRTZw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 14 Mar 2017
 ! This list expires after 2 days
@@ -835,7 +835,8 @@ pocketnow.com##SCRIPT + STYLE + DIV[class]
 @@||ad.doubleclick.net/ddm/$image
 @@||ad.doubleclick.net/favicon.ico$image
 @@||d3ujids68p6xmq.cloudfront.net^$script
-!
+! runningmagazine.ca
+@@||runningmagazine.ca^$generichide
 ! nordichardware.se
 @@||nordichardware.se^$generichide
 nordichardware.se##.footer-social-wrap
