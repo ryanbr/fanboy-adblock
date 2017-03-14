@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: kn9ZYjNmDIyv7/3R7ONHwg
+! Checksum: ulwTp064yNn1yIoMISdtgw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 12 Mar 2017
+! Updated: 14 Mar 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -543,7 +543,6 @@ youporn.com###adblock_1
 !
 ||5min.com/flashcookie/
 ||5min.com/Handlers/FiveminCookieCache.ashx
-||adobedtm.com^$third-party
 ||algorithmia.com^$third-party
 ||avgthreatlabs.com^$third-party
 ||badge.clevergirlscollective.com^$third-party
@@ -1151,9 +1150,6 @@ vaughnlive.tv##.abvsDynamic
 @@||abcnews.com/assets/flash/kdp/omniturePlugin.swf
 @@||adobe.com/uber/js/*s_code
 @@||adobe.com/www.adobe.com/uber/js/pdc_s_code.js
-@@||adobedtm.com*/satellite-$script
-@@||adobedtm.com^*/mbox-contents-$script,domain=lenovo.com|newyorker.com|oprah.com|vanityfair.com|wired.com
-@@||adobedtm.com^*/satelliteLib-$script,domain=icimusique.ca|elgiganten.dk|elgiganten.se|elkjop.no|gigantti.fi|laredoute.fr|lenovo.com|markantalo.fi|nbcnews.com|newyorker.com|oprah.com|realtor.com|stuff.co.nz|vanityfair.com|wired.com
 @@||adziff.com/pcmag/images/zd_footer_logo.png$image,domain=extremetech.com
 @@||akamai.net/*/www-origin.walmart.com/webanalytics/$domain=walmart.com
 @@||akamai.net^*/hints.netflame.cc/$domain=annualcreditreport.com
@@ -1164,7 +1160,6 @@ vaughnlive.tv##.abvsDynamic
 @@||arctichome.com/flex-mod/js/tracking/webtrends-*.js
 @@||arstechnica.net/wp-content/themes/*/omniture/
 @@||arvest.com/common/urchin/urchin.js
-@@||assets.adobedtm.com^$script,domain=timewarnercable.com
 @@||assets.pinterest.com/js/pinit.js$domain=mandatory.com
 @@||automotive.com^*/omniture/
 @@||bankaholic.com/omniture/$script
