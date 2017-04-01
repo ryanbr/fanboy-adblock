@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: GHJ9FrGS48HXpMzkYJWesw
+! Checksum: PytImOZ6zwqLJZm7YgtB5g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 2 Apr 2017
 ! This list expires after 2 days
@@ -858,8 +858,8 @@ nordichardware.se##.td-post-sharing
 nordichardware.se##.td-scroll-up
 nordichardware.se##.td-social-icon-wrap
 nordichardware.se##img[alt="Facebook"]
-! eurogamer.net
-@@||amazon-adsystem.com^*/getads.js$domain=eurogamer.net
+! eurogamer.net,rockpapershotgun.com,vg247.com
+@@||amazon-adsystem.com^*/getads.js$domain=eurogamer.net|rockpapershotgun.com|vg247.com
 ! proclockers.com
 @@||proclockers.com^$generichide
 proclockers.com##.pane-follow-site
