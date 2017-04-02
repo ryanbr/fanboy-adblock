@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: ThFxLq44g0GzabeLwssibA
+! Checksum: PT0R+gI5Q7Cx6rA14CScAQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 2 Apr 2017
 ! This list expires after 2 days
@@ -1034,6 +1034,7 @@ aufeminin.com##.social-icon
 @@||enfemenino.com^$generichide
 enfemenino.com###af-cookie-policy
 enfemenino.com##.af-btn
+enfemenino.com##.af-social-btns
 enfemenino.com##.af-social-share
 enfemenino.com##.social-icon
 ! familyhandyman.com
