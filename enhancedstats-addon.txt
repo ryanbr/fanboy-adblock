@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: PytImOZ6zwqLJZm7YgtB5g
+! Checksum: o/iFUSNvGRzyGQUdaoZWNw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 2 Apr 2017
 ! This list expires after 2 days
@@ -952,6 +952,7 @@ hackintosh.zone,hackintosh.computer##iframe[width="300"]
 hackintosh.zone,hackintosh.computer##iframe[width="728"]
 ! sofeminine.co.uk
 @@||sofeminine.co.uk^$generichide
+sofeminine.co.uk###af-cookie-policy
 sofeminine.co.uk##.af-btn-fb
 sofeminine.co.uk##.af-btn-googleplus
 sofeminine.co.uk##.af-btn-pinterest
