@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: yKtDDtKyEhq6HsDFtsCLvw
+! Checksum: ST1lTO05DMt73D8lA9wBPg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 17 Apr 2017
 ! This list expires after 2 days
@@ -2197,6 +2197,7 @@ qz.com###chyron
 ramboll-environ.com##.infoboxHolder
 ramsayhealth.co.uk##.popupbox
 rapidonline.com##.DisplaySiteSplitMsgDiv
+ratemyprofessors.com###balaMainContainer
 ratemyprofessors.com,maxlead.nl##.overlay
 regenda.org.uk##.twelve_prop_wht
 robertozeno.com##.video-mask
@@ -2698,7 +2699,6 @@ ilgiornale.it,virgilio.it###bottombar
 virgilio.it###bottom_chat
 !
 ! Used with generichide
-adf.ly###cookie_notice
 boxbit.co.in###cookies_agreement
 cityam.com###cookie-wrapper
 cwtv.com###user_optin_banner
@@ -2708,6 +2708,7 @@ euroman.dk###cookieInformerBooklet
 euroman.dk##.egmont-cookies
 majorleaguegaming.com###cookie-disclaimer
 publicleech.xyz##.cc_banner
+ratemyprofessors.com,adf.ly###cookie_notice
 thesimsresource.com###eucookie
 v3.co.uk,theinquirer.net##.cookie-consent-content
 vilaglato.info##.pea_cook_more_info_popover
