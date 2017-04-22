@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Cmq2scqkWGbDGjFa+wD4NQ
+! Checksum: Aek/EXHdN8GXuT0AsyWLXw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 22 Apr 2017
 ! This list expires after 2 days
@@ -971,6 +971,13 @@ standard.co.uk##a[title="Twitter"]
 @@||timesofindia.indiatimes.com/ad-$image
 @@||timesofindia.indiatimes.com/ads_$subdocument
 timesofindia.indiatimes.com##.atfAdsLoading
+! mlive.com
+@@||mlive.com^$generichide
+mlive.com###adv_network
+mlive.com###social_mobile
+mlive.com###social_top
+mlive.com###taboola-below-article-thumbnails
+mlive.com##.social_sidebar
 ! hackintosh.zone / hackintosh.computer
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@||adclixx.net^$script,domain=hackintosh.zone|hackintosh.computer
