@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 4LX/pbHD0DdRWA3gp96o+A
+! Checksum: 6HWerVa9QnjABOtk/5+JTQ
 ! Title: Fanboy's Cookiemonster List
-! Updated: 25 Apr 2017
+! Updated: 30 Apr 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -495,6 +495,7 @@ _site_cookie_
 ###cookie-consent-banner
 ###cookie-consent-bar
 ###cookie-consent-container
+###cookie-consent-message
 ###cookie-consent-popup
 ###cookie-consent-wrapper
 ###Cookie-Container
