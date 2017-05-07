@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 2QQLKmKpGMZV99a7G2+f3Q
+! Checksum: p9yiH28y2ZCCwoGTAVjh9Q
 ! Title: Fanboy's Cookiemonster List
-! Updated: 5 May 2017
+! Updated: 7 May 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -337,6 +337,7 @@ _site_cookie_
 ###accept-cookies-div
 ###accept_cookie
 ###accept_cookies
+###accept_cookies_cont_outer
 ###acceptCookie
 ###acceptcookie
 ###AcceptCookieContainer
@@ -2393,6 +2394,7 @@ telekom.de##.message-bar
 !
 !---------- Hungary Site Generic Hiding Rules ----------
 !
+ tarifaexpert.hu##.lablec_suti_szabaly
 ###bottom_dialog > #bottom_dialog_inner
 ###kki_div
 aig.hu##.copyright-text-header
@@ -2401,6 +2403,7 @@ almaimotthona.hu##.aszfLayerContent
 althir.org,nemzeti.net###suti_figyelmeztetes
 bestdoor.hu##.rstbox
 bevachip.hu,work-force.hu,bestmarkt.hu,bestsellers.hu,logmein.hu,hirek24.hu,workforce.hu##.cookie
+bizsuk.com###sutibox
 boraszportal.hu,termalfurdo.hu###layout_advertising_bottom
 conrad.hu##.page-warning
 csillagpor.hu###a
@@ -2720,7 +2723,8 @@ eteknix.com###cookie-law-info-bar
 euroman.dk###cookieInformerBooklet
 euroman.dk##.egmont-cookies
 majorleaguegaming.com###cookie-disclaimer
-publicleech.xyz##.cc_banner
+mma-core.com###cookieChoiceInfo
+publicleech.xyz,thebarchive.com,wccftech.com##.cc_banner
 ratemyprofessors.com,adf.ly###cookie_notice
 thesimsresource.com###eucookie
 v3.co.uk,theinquirer.net##.cookie-consent-content
