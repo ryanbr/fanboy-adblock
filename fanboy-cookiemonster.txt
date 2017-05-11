@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: d6aMtNNz8rnitlUX4AABUw
+! Checksum: XnT454PT91LZ1SrsE6KxvQ
 ! Title: Fanboy's Cookiemonster List
-! Updated: 7 May 2017
+! Updated: 11 May 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2180,7 +2180,7 @@ mercedes-benz.com###cLayer
 mercedes-benz.com###simplemodal-container
 mercedes-benz.com,mercedesamgf1.com###simplemodal-overlay
 microsoft.com##.feedback-visible
-microsoft.com,xbox.com###epb
+microsoft.com,visualstudio.com,xbox.com###epb
 mobile.twitter.com##[data-reactroot] > [class] + [class]:last-child
 moleskine.com###disclaimer
 moneysavingexpert.com###alertBar
