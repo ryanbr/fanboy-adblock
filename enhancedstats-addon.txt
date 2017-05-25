@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: niK/RgnulMEMW3R5wxqb9A
+! Checksum: 4fN+cFnIIXH5P0/eS1CkqA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 May 2017
 ! This list expires after 2 days
@@ -848,6 +848,8 @@ youporn.com###adblock_1
 @@||ad.doubleclick.net/ddm/$image
 @@||ad.doubleclick.net/favicon.ico$image
 @@||d3ujids68p6xmq.cloudfront.net^$script
+! shqiperiatv.com
+@@||tvshqiphd.com/adblock.js
 ! mobilenations
 @@||incrediblesugar.com^$xmlhttprequest,domain=crackberry.com
 @@||loudloss.com^$xmlhttprequest,domain=windowscentral.com
