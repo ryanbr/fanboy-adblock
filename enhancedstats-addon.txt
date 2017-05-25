@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 9Mdlbn7Isg+OXdhbdaoe5g
+! Checksum: mesxIOeOQvsPZHC579JFPw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 May 2017
 ! This list expires after 2 days
@@ -895,6 +895,10 @@ gamezone.com##div[id^="zergnet-widget-"]
 @@||keshavcommoditycalls.com^$generichide
 keshavcommoditycalls.com###social
 keshavcommoditycalls.com##.sd-sharing
+! onperiscope.com
+@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=onperiscope.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=onperiscope.com
+onperiscope.com##.banner
 ! croydonguardian.co.uk
 croydonguardian.co.uk##SCRIPT + [id][style*="display:block"]
 ! nordichardware.se
