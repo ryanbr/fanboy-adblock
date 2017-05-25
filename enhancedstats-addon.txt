@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: oIa9R0ees4eYyq3kkojtpQ
+! Checksum: niK/RgnulMEMW3R5wxqb9A
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 May 2017
 ! This list expires after 2 days
@@ -882,6 +882,12 @@ nordichardware.se##.td-post-sharing
 nordichardware.se##.td-scroll-up
 nordichardware.se##.td-social-icon-wrap
 nordichardware.se##img[alt="Facebook"]
+! wordsense
+@@||pagead2.googlesyndication.com/pagead/js*/show_ads_impl.js$domain=wordsense.eu
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=wordsense.eu
+@@||wordsense.eu^$generichide
+wordsense.eu##.cc_banner
+wordsense.eu##[data-ad-client] 
 ! eurogamer.net,rockpapershotgun.com,vg247.com
 @@||amazon-adsystem.com^*/getads.js$domain=eurogamer.net|rockpapershotgun.com|vg247.com
 ! pocketnow
