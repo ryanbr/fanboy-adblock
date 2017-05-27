@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Sko+UKc2PKdPTldl4V6VKA
+! Checksum: q4fr7f1rxN0v/WV5PggnTA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 27 May 2017
 ! This list expires after 2 days
@@ -1219,6 +1219,9 @@ forbes.com##[id][data-google-query-id]
 @@||pagead2.googlesyndication.com/pagead/*/show_ads_impl.js$domain=playonlinux.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=playonlinux.com
 playonlinux.com###ads
+! theinquirer.net/v3.co.uk
+@@||g.doubleclick.net/gpt/pubads_impl*.js$domain=v3.co.uk
+v3.co.uk,theinquirer.net##div[id^="google_ads_iframe_"][style]
 ! pastebin
 pastebin.com###abrpm
 pastebin.com###abrpm2
@@ -1243,8 +1246,6 @@ thefreedictionary.com,freethesaurus.com###sidebar > a#trans_link + [id]
 thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 ! http://urlex.org/
 @@||urlex.org^$generichide
-! v3.co.uk
-@@||g.doubleclick.net/gpt/pubads_impl*.js$domain=v3.co.uk
 ! wired.it
 @@||wired.it/static/js/cn-adv.js
 ! 
