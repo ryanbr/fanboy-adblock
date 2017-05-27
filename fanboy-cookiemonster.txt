@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: a5H3L0SWlOJSBuwsQ5WYkg
+! Checksum: RoynatatUm6KegOYveYzjw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 21 May 2017
+! Updated: 27 May 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1155,6 +1155,7 @@ _site_cookie_
 ###mycookie
 ###nav_cookie
 ###navbar-cookies
+###navCookies
 ###nbcCookieChoice
 ###new-cookie
 ###nibirumail_cookie_advice
@@ -1444,6 +1445,7 @@ _site_cookie_
 ##.cookie-footer-dialog
 ##.cookie-header
 ##.cookie-hint
+##.cookie-holder
 ##.cookie-info
 ##.cookie-info-bar
 ##.cookie-info-box-agree
@@ -1679,6 +1681,7 @@ _site_cookie_
 ##.cookies-type
 ##.cookies-warning
 ##.cookies-wrapper
+##.cookies.container
 ##.cookies__banner
 ##.cookies__info
 ##.cookies_bar
@@ -1829,6 +1832,7 @@ _site_cookie_
 ##.js-cookie-disclaimer
 ##.js-cookie-message
 ##.js-cookie-notice
+##.js-cookie-notification
 ##.js-cookie-policy
 ##.js-cookie-policy-header
 ##.js-cookie-popup
@@ -1846,6 +1850,7 @@ _site_cookie_
 ##.js-toast-cookies
 ##.js_cookie_law
 ##.js_cookie_message_container
+##.js_cookies_container
 ##.jsCookiesMessage
 ##.k4-cookie
 ##.LAW_cookie_alert
@@ -2340,7 +2345,7 @@ rast.hr###blokDiv
 selexion.be###splash_footer
 sme.sk###js-top-info-bar
 soeren-hentzschel.at###storage-notice
-totalmoney.sk##.cookies
+totalmoney.sk,bpost.b##.cookies
 uitinvlaanderen.be##.noty_bar
 weltwoche.ch###alteAusgabenCovers
 zena.hr###serviceBar
@@ -2721,6 +2726,7 @@ ilgiornale.it,virgilio.it###bottombar
 virgilio.it###bottom_chat
 !
 ! Used with generichide
+allmusic.com##.cookie-policy-box
 bnonews.com###cookiescript_injected
 boxbit.co.in###cookies_agreement
 cityam.com###cookie-wrapper
@@ -2735,6 +2741,7 @@ publicleech.xyz,thebarchive.com,wccftech.com##.cc_banner
 ratemyprofessors.com,adf.ly###cookie_notice
 thesimsresource.com###eucookie
 v3.co.uk,theinquirer.net##.cookie-consent-content
+viber.com##.policy
 vilaglato.info##.pea_cook_more_info_popover
 vilaglato.info##.pea_cook_wrapper
 !
