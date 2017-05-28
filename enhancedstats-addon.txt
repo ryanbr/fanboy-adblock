@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: thKkTgulbyRhHSTkdSLw2g
+! Checksum: TCXztSNjB1Zzzctqn2KRtw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 28 May 2017
 ! This list expires after 2 days
@@ -883,6 +883,8 @@ hackinformer.com##.share-post
 hackinformer.com##[data-ad-client]
 ! vulture.com
 vulture.com###bottom
+! hubturkey.net
+@@||e-mete.com/js/ads*.js
 ! blockadblock.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@||blockadblock.com^$generichide
