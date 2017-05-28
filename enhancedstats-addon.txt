@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: DCsQb+WxkmoVHim1ss5epA
+! Checksum: QuyFGFLI4bxiAk7Sly9Xaw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 28 May 2017
 ! This list expires after 2 days
@@ -914,6 +914,8 @@ keshavcommoditycalls.com##.sd-sharing
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=onperiscope.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=onperiscope.com
 onperiscope.com##.banner
+! forum.pac-rom.com
+forum.pac-rom.com#@#.banner_ads
 ! croydonguardian.co.uk
 croydonguardian.co.uk##SCRIPT + [id][style*="display:block"]
 ! nordichardware.se
