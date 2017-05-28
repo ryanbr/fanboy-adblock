@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 7KiUKqtIS8miH5O/K2NmGQ
+! Checksum: 39Pux7OszRZCa53FcIEhiQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 28 May 2017
 ! This list expires after 2 days
@@ -1015,6 +1015,8 @@ mirror.co.uk##.twitter.icon
 @@||onecccam.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=onecccam.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=onecccam.com
+! unfair.co
+@@||unfair.co/advertisement.js
 ! nachrichten.at
 @@||nachrichten.at^$generichide
 ! newz.dk
