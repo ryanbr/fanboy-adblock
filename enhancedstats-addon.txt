@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: v7SZafm1UCO2SLrSB7MFvg
+! Checksum: 7KiUKqtIS8miH5O/K2NmGQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 28 May 2017
 ! This list expires after 2 days
@@ -975,6 +975,8 @@ geo.de##.social-bar
 1001tracklists.com###cookieMessage
 1001tracklists.com##.cookiePolicy
 @@||1001tracklists.com^$generichide
+! sms-receive.net
+@@||sms-receive.net/advertisment.js
 ! handelsblatt.com
 @@||handelsblatt.com^*/iqadcontroller.js
 ! bild.de
