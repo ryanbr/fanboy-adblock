@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: mIfrN7YOBTPhE+K4QxvhiA
+! Checksum: /6oOXxqvy0Lhp84q5G1f4A
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 30 May 2017
 ! This list expires after 2 days
@@ -725,6 +725,7 @@ youporn.com###adblock_1
 @@||comeadvertisewithus.com^*/ads.js
 @@||complex.com/ads.js
 @@||computerbase.de/js/ads.$script
+@@||core.windows.net^*/advert.js$script
 @@||cpubenchmark.net/js/ads.js
 @@||crackedcdn.com/media/ad-block-detect/
 @@||crunchyroll.com^*/ads_$script
@@ -888,6 +889,8 @@ squidboards.com##.top_block
 @@||wwwshooter.com/includes/js/adblockdetect/
 wwwshooter.com###skyScraper
 wwwshooter.com##[data-ad-client]
+! how2play.pl
+@@||spolecznosci.net^*/advertisement.js
 ! new-skys.net
 @@||new-skys.net^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=new-skys.net
