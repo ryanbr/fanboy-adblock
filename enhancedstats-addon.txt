@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: YQaMy1K8pDLZ5si3p+pZRw
+! Checksum: BSJGgwGij1IVybBu4Ww8Jw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 30 May 2017
 ! This list expires after 2 days
@@ -905,6 +905,8 @@ tg007.net##.fb-page
 @@||hackinformer.com^*/ads.js
 hackinformer.com##.share-post
 hackinformer.com##[data-ad-client]
+! techsini.com
+techsini.com##.san_sticky_notice
 ! gamecopyworld.eu
 @@||filetarget.net/*ads.js?$script
 @@||gamecopyworld.com/*ads.js$script
