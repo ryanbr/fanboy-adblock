@@ -517,6 +517,7 @@ terra.cl###trr-bar
 @@||izigo.pt/AdPictures/
 @@||lanacion.com.ar^*/publicidad/
 @@||larazon.es/videos/publicidad_
+@@||navdmp.com^$domain=netcombo.com.br
 @@||prisacom.com/RealMedia/ads/*/eplayer/$domain=as.com
 @@||punch-fansub.com.br/banners/
 @@||t26.net/ads/yahooads.css
