@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: +BRCGqqfdEFPqf+8AWBD0Q
+! Checksum: bojHaaaFocRtXA2cWb2Icg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 31 May 2017
 ! This list expires after 2 days
@@ -860,13 +860,16 @@ youporn.com###adblock_1
 ||sqweb.com^$third-party
 ||techweb.com/adblocktrack
 ! blockadblock domains
-@@||adclixx.net^$script,domain=rule34hentai.net
-@@||adnetasia.com^$script,domain=rule34hentai.net
-@@||ads.twitter.com^$domain=rule34hentai.net
-@@||adtrackers.net^$script,domain=rule34hentai.net
-@@||advertising.yahoo.com^$domain=rule34hentai.net
-@@||bannertrack.net^$script,domain=rule34hentai.net
+@@||adclixx.net^$script,domain=rule34hentai.net|finalservers.net|animmex.com
+@@||adnetasia.com^$script,domain=rule34hentai.net|finalservers.net
+@@||adtrackers.net^$script,domain=rule34hentai.net|finalservers.net
+@@||bannertrack.net^$script,domain=rule34hentai.net|finalservers.net
 @@||doubleclickbygoogle.com^$image,domain=rule34hentai.net
+@@||foxnetworks.com^$image,domain=finalservers.net
+@@||google.com/adsense/$image,domain=finalservers.net
+@@||gstatic.com/adx/doubleclick.ico$image,third-party
+@@||twitter.com^$domain=rule34hentai.net|finalservers.net
+@@||yahoo.com^$image,domain=finalservers.net|rule34hentai.net
 !
 !---------- Anti Adblock Warnings ------
 !
