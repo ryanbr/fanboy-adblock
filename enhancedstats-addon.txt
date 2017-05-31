@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: mmFMXHs6QCY6SOEbofR9IA
+! Checksum: +BRCGqqfdEFPqf+8AWBD0Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 31 May 2017
 ! This list expires after 2 days
@@ -899,6 +899,8 @@ wwwshooter.com##[data-ad-client]
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=new-skys.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=new-skys.net
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=new-skys.net
+! hqporner.com
+@@/ads.js$script,domain=mydaddy.cc
 ! shqiperiatv.com
 @@||tvshqiphd.com/adblock.js
 ! mobilenations
