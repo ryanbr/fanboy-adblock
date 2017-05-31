@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: uQYPmOdRB+sXyDyQOYsDyw
+! Checksum: coEI4ZR9UYJV1nNqzdCk+w
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 31 May 2017
 ! This list expires after 2 days
@@ -895,6 +895,12 @@ squidboards.com##.top_block
 @@||wwwshooter.com/includes/js/adblockdetect/
 wwwshooter.com###skyScraper
 wwwshooter.com##[data-ad-client]
+! gamereactor.dk
+@@||gamereactor.dk^$generichide
+gamereactor.dk###ads_top2
+gamereactor.dk###cookielawwarning
+gamereactor.dk###facebooknotification
+gamereactor.dk###likebuttons
 ! how2play.pl
 @@||spolecznosci.net^*/advertisement.js
 ! gry.pl
