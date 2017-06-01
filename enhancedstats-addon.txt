@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: GdT1I4TeXgafCuBoAJGEAA
+! Checksum: w/fYKopwDDDNIxNCDEtTdA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Jun 2017
 ! This list expires after 2 days
@@ -931,6 +931,9 @@ gamereactor.dk###likebuttons
 @@||tg007.net^$generichide
 g007.net###socialbuttons
 tg007.net##.fb-page
+! eurogamer.net
+@@/ads$script,domain=eurogamer.net,third-party
+eurogamer.net##.fc-root
 ! hackinformer.com
 @@||hackinformer.com^$generichide
 @@||hackinformer.com^*/ads.js
