@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: KXOkhKf9PprNKDu+2U5PZA
+! Checksum: D/msHcOgB7dzr4/qYMODdA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 3 Jun 2017
 ! This list expires after 2 days
@@ -929,6 +929,9 @@ gamereactor.dk###ads_top2
 gamereactor.dk###cookielawwarning
 gamereactor.dk###facebooknotification
 gamereactor.dk###likebuttons
+! pipocas.tv
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pipocas.tv
+@@||pipocas.tv^$generichide
 ! how2play.pl
 @@||spolecznosci.net^*/advertisement.js
 ! gry.pl
