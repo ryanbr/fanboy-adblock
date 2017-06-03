@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: yfDFuL1CXp93P347qlA7Ag
+! Checksum: hx/1+A77/OpMxRPQ2TmsnQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 3 Jun 2017
 ! This list expires after 2 days
@@ -700,6 +700,10 @@ youporn.com###adblock_1
 /adverst.js
 @@/ad_bomb/*$image
 @@/plugins/ad-blocking-detector/*$script,~third-party
+@@/wp-content/*/ads.js$script
+@@/wp-content/*/advert.js$script
+@@/wp-content/*/advertisement*.js$script
+@@/wp-content/*/show-ads.js$script
 @@||9c9media.com^*/advertisement.js
 @@||abcnews.com/assets/js/adblocker.js
 @@||ads.mic.com/host.js
@@ -793,7 +797,6 @@ youporn.com###adblock_1
 @@||myex.com/ads/$script
 @@||mygaming.co.za^*/ads.js
 @@||nasdaq.com/includes/advertisement.js
-@@||netdna-cdn.com/wp-content/*/advertisement*.js$script
 @@||netdna-ssl.com^*/ads.min.js
 @@||newser.com^*/adblock.js
 @@||newsmax.com/js/ads.adblock.js
@@ -840,7 +843,6 @@ youporn.com###adblock_1
 @@||theatlantic.com^*/advertisement.js
 @@||thedailybeast.com^*/advert.$script
 @@||themarker.com/dclk/dfp/$script
-@@||thenextweb.com/wp-content/advertisement.js
 @@||theoutline.com/ads.js
 @@||therse.info/popunder.gif$image
 @@||tnwcdn.com/assets/js/advertising.js$domain=thenextweb.com
@@ -868,8 +870,6 @@ youporn.com###adblock_1
 @@||websking.com/static/js/advertisement.js
 @@||wired.co.uk/static/js/ads.js
 @@||womenshealthmag.com^*/securepubads.
-@@||wp.com/wp-content/*/ads.js$script
-@@||wp.com/wp-content/*/show-ads.js$script
 @@||wtop.com/advertisement.js
 @@||xmovies8.tv/themes/_js/adsbygoogle.js
 @@||zdnet.de^*/advertising.js
