@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: d2ZED/mWiXoHsx+SjAmnbQ
+! Checksum: svuPUNBE1t3wl7K9glALlg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 4 Jun 2017
 ! This list expires after 2 days
@@ -1008,6 +1008,8 @@ im-infected.com###cookie-notice
 im-infected.com##.fb-like
 im-infected.com##[title="Follow us on Twitter"]
 im-infected.com##[title="Like us on Facebook"]
+! phonearena.com
+phonearena.com##.adblock_awareness
 ! vulture.com
 vulture.com###bottom
 ! hubturkey.net
