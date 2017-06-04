@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Uh4wGNQIPJ1JsoELotfdCw
+! Checksum: 84MmoCBwNaY9hiG9qlqy+Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 4 Jun 2017
 ! This list expires after 2 days
@@ -798,7 +798,7 @@ youporn.com###adblock_1
 @@||mac4ever.com/adserver.adtech.de/$script
 @@||mdotlabs.com/ads.js
 @@||media-amazon.com^*/showads.
-@@||menshealth.com^*/securepubads.
+@@||menshealth.com^*ad$script
 @@||mfbcdn.net/scripts/ads.js
 @@||mirror.ninja/static/js/advertising.js
 @@||mmo-champion.com^*/adsense.js
@@ -884,7 +884,7 @@ youporn.com###adblock_1
 @@||weather.com^*/pubads.js
 @@||websking.com/static/js/advertisement.js
 @@||wired.co.uk/static/js/ads.js
-@@||womenshealthmag.com^*/securepubads.
+@@||womenshealthmag.com^*ad$script
 @@||wtop.com/advertisement.js
 @@||xmovies8.tv/themes/_js/adsbygoogle.js
 @@||zdnet.de^*/advertising.js
