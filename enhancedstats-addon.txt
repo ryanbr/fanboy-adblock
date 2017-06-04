@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: HnBga89ip7uIxHsst0Nc8A
+! Checksum: t7pM3lB4uiDk9GTk8Yrgsw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 4 Jun 2017
 ! This list expires after 2 days
@@ -1396,6 +1396,7 @@ thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 @@||comunio.de/scripts/advertising/adInit.
 @@||politiken.dk/ad-server.js
 @@||tvinfo.net^*/adblocker.js
+@@||webnews.bg/assets/js/ads.js
 @@||wetteronline.de^*/showAds.js
 ! 
 ! Warnings
