@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: svuPUNBE1t3wl7K9glALlg
+! Checksum: 0/DQxPBz9ZxnRi6yLv6XvA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 4 Jun 2017
 ! This list expires after 2 days
@@ -1390,6 +1390,7 @@ myanimelist.net##div[style][data-height]
 pastebin.com###abrpm
 pastebin.com###abrpm2
 pastebin.com###notice
+pastebin.com###paypal-overlay
 ! last.fm
 last.fm##div[style*="visibility:"]
 ! techdracula.com
