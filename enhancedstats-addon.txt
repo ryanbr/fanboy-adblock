@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 7jVcNQz6i+q/7WVefrDMnw
+! Checksum: 7fEehZj2H4Yg4kMZ6ttEzw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 4 Jun 2017
 ! This list expires after 2 days
@@ -1034,6 +1034,13 @@ gamezone.com##.share-buttons
 gamezone.com##div[id^="zergnet-widget-"]
 ! runningmagazine.ca
 @@||runningmagazine.ca^$generichide
+! pri.org
+@@||pri.org^$generichide
+pri.org###sharing-links---header-container
+pri.org##.donate
+pri.org##.gig-comment-shareLink
+pri.org##.promo-box--promo
+pri.org##.sharing-links--body
 ! keshavcommoditycalls.com
 @@||keshavcommoditycalls.com^$generichide
 keshavcommoditycalls.com###social
