@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: gOl7pR8GpYgCu7NsAoNJcg
+! Checksum: 2VR1rIT49L+z3CSGm0G17Q
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 7 Jun 2017
+! Updated: 8 Jun 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -944,6 +944,9 @@ adage.com###shareme
 adage.com##.article-ad
 adage.com##.nav-social
 adage.com##.vjs-icon-share
+! vortez.net 
+@@||vortez.net/ads.js
+@@||vortez.net^$generichide
 ! picload.org
 @@||picload.org/image/$image
 ! coderexample.com
