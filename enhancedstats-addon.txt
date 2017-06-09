@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: N++IjEXtAz+TMVEJzHrvug
+! Checksum: mmCLyVXIEaU6E3ert3fysw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 9 Jun 2017
 ! This list expires after 2 days
@@ -990,6 +990,13 @@ clubic.com##.OUTBRAIN
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=new-skys.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=new-skys.net
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=new-skys.net
+! hax
+@@||haxcolors.com/js/advertisement.js
+@@||haxcolors.com^$generichide
+@@||haxmaps.com/js/advertisement.js
+@@||haxmaps.com^$generichide
+@@||haxrec.com/js/advertisement.js
+@@||haxrec.com^$generichide
 ! hqporner.com
 @@/ads.js$script,domain=mydaddy.cc
 ! shqiperiatv.com
