@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: SG69Uc4TBvPHbzsj0Rc6vw
+! Checksum: DX+k08PPjjQePyRWlUw+WQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 10 Jun 2017
 ! This list expires after 2 days
@@ -906,16 +906,16 @@ youporn.com###adblock_1
 ||sqweb.com^$third-party
 ||techweb.com/adblocktrack
 ! blockadblock domains
-@@||adclixx.net^$script,domain=rule34hentai.net|finalservers.net|yalujailbreak.net|animmex.com|animmex.org|animmex.trade|animmex.club|animmex.co|animmex.info
-@@||adnetasia.com^$script,domain=rule34hentai.net|finalservers.net|yalujailbreak.net
-@@||adtrackers.net^$script,domain=rule34hentai.net|finalservers.net|yalujailbreak.net
-@@||bannertrack.net^$script,domain=rule34hentai.net|finalservers.net|yalujailbreak.net|animmex.org|animmex.com|animmex.trade|animmex.club|animmex.co|animmex.info
-@@||doubleclickbygoogle.com^$image,domain=rule34hentai.net|yalujailbreak.net
-@@||foxnetworks.com^$image,domain=finalservers.net|yalujailbreak.net
-@@||google.com/adsense/$image,domain=finalservers.net|yalujailbreak.net
+@@||adclixx.net^$script,domain=linkneverdie.com|rule34hentai.net|finalservers.net|yalujailbreak.net|animmex.com|animmex.org|animmex.trade|animmex.club|animmex.co|animmex.info
+@@||adnetasia.com^$script,domain=rule34hentai.net|linkneverdie.com|finalservers.net|yalujailbreak.net
+@@||adtrackers.net^$script,domain=rule34hentai.net|finalservers.net|yalujailbreak.net|linkneverdie.com
+@@||bannertrack.net^$script,domain=rule34hentai.net|finalservers.net|yalujailbreak.net|animmex.org|linkneverdie.com|animmex.com|animmex.trade|animmex.club|animmex.co|animmex.info
+@@||doubleclickbygoogle.com^$image,domain=rule34hentai.net|yalujailbreak.net|linkneverdie.com
+@@||foxnetworks.com^$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com
+@@||google.com/adsense/$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com
 @@||gstatic.com/adx/doubleclick.ico$image,third-party
-@@||twitter.com^$domain=rule34hentai.net|finalservers.net|yalujailbreak.net
-@@||yahoo.com^$image,domain=finalservers.net|rule34hentai.net|yalujailbreak.net
+@@||twitter.com^$domain=rule34hentai.net|finalservers.net|yalujailbreak.net|linkneverdie.com
+@@||yahoo.com^$image,domain=finalservers.net|rule34hentai.net|yalujailbreak.net|linkneverdie.com
 !
 !---------- Anti Adblock Warnings ------
 !
@@ -1153,6 +1153,7 @@ proclockers.com##a[href="http://twitter.com/share"]
 ! linkneverdie.com
 @@||linkneverdie.com/Assets/Js/ads.js
 @@||linkneverdie.com^$generichide
+@@||popclck.net/js/adv_out.js$domain=linkneverdie.com
 ! mundokodi.com
 @@||mundokodi.com^$generichide
 ! geo.de
