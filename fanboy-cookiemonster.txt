@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 5c+M0EuiqZWqFZBXMXpbNw
+! Checksum: jBD4OQ2E7SCIZ5t+Do9bnA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 10 Jun 2017
 ! This list expires after 2 days
@@ -708,6 +708,7 @@ _site_cookie_
 ###cookieCookieBar
 ###cookieDialog
 ###cookiedialog
+###cookiedingsbums
 ###cookieDisc
 ###cookieDisclaimer
 ###CookieDiv
@@ -940,6 +941,7 @@ _site_cookie_
 ###cookieTime
 ###cookietop
 ###cookieu_header
+###cookieUsageHint
 ###cookieuseage
 ###cookieUseWarning
 ###cookieusing
@@ -1153,6 +1155,7 @@ _site_cookie_
 ###mmmmm-cookies
 ###mntsinfotech-cookie-bar
 ###modalCookieContainer
+###mps-cookie-hint
 ###msg-cookie
 ###msg-cookie-level0
 ###msgCookie
@@ -1553,6 +1556,7 @@ _site_cookie_
 ##.cookie_policy_message
 ##.cookie_popup
 ##.cookie_privacy_info_bar
+##.cookie_statement
 ##.cookie_track
 ##.cookie_warning
 ##.cookie_wrap
@@ -2415,6 +2419,7 @@ hosteurope.de###cche
 kleiderkreisel.de,mamikreisel.de##.js-notification
 netzwelt.de##.ckch
 ortsdienst.de##div[style="background:#888;padding:10px;color:#FFF;font-weight:bold"]
+spielfilm.de###alert
 telekom.de##.message-bar
 !
 !---------- Hungary Site Generic Hiding Rules ----------
