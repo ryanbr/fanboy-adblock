@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: UllHlwQEUt6Um2flQRic6Q
+! Checksum: PfsFv3XJQdoP73vYdoqHFQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 10 Jun 2017
 ! This list expires after 2 days
@@ -404,7 +404,7 @@ nautil.us###adpayload
 ! ---------- Personal Filters ------
 !
 ###topstuff > #wmxmsg
-##IFRAME[src^="https://isupportjournalism.com/"][style]
+##iframe[src^="https://isupportjournalism.com/"][style]
 @@||thepiratebay.org^*/details.js|
 @@||thepiratebay.org^*/effects.js|
 @@||thepiratebay.org^*/jquery.min.js|
@@ -1118,14 +1118,14 @@ wordsense.eu##[data-ad-client]
 ! eurogamer.net,rockpapershotgun.com,vg247.com
 @@||amazon-adsystem.com^*/getads.js$domain=eurogamer.net|rockpapershotgun.com|vg247.com
 ! pocketnow
-pocketnow.com##A DIV > IMG[src*="/wp-content/uploads/"]
-pocketnow.com##DIV + A > IMG[src*="/wp-content/uploads/"]
-pocketnow.com##IFRAME + STYLE + DIV[class]
-pocketnow.com##IFRAME[class]
-pocketnow.com##SCRIPT + A[href*="/wp-content/"]
-pocketnow.com##SCRIPT + DIV + STYLE + DIV[class]
-pocketnow.com##SCRIPT + STYLE + DIV[class]
-pocketnow.com##STYLE + STYLE + DIV[class]
+pocketnow.com##a div > img[src*="/wp-content/uploads/"]
+pocketnow.com##div + a > img[src*="/wp-content/uploads/"]
+pocketnow.com##iframe + style + div[class]
+pocketnow.com##iframe[class]
+pocketnow.com##script + a[href*="/wp-content/"]
+pocketnow.com##script + div + style + div[class]
+pocketnow.com##script + style + div[class]
+pocketnow.com##style + style + div[class]
 ! ps4news.com
 @@||ps4news.com^$script,~third-party
 ! purepc.pl
@@ -1439,7 +1439,7 @@ last.fm##div[style*="visibility:"]
 /\.techpowerup\.com/.*[a-zA-Z0-9]{13}/$image
 @@||techpowerup.com/forums/$image
 techpowerup.com##A[href][rel$="external"][target="_blank"]
-techpowerup.com##ASIDE > ARTICLE + SECTION
+techpowerup.com##aside > article + section
 ! flightradar24.com
 flightradar24.com###responsiveBottomPanel
 flightradar24.com##.noads
