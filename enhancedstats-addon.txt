@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 6NTpkK3PCXHDJgE2RxYB5A
+! Checksum: qZbt4pODsY7MpIGIhqyw8A
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 10 Jun 2017
+! Updated: 11 Jun 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1077,7 +1077,9 @@ distrowatch.com##A[href] > IMG[src][alt]
 @@||themeslide.com^$generichide
 themeslide.com##[id^="bsac-"]
 ! demonoid.pw
+demonoid.pw##[id*="ScriptRoot"]
 demonoid.pw##img[src]:first-child + table[width="100%"][cellspacing="0"]
+demonoid.pw##TD[class] > #bbb:last-child
 ! wintips.org
 @@||wintips.org/wp-content/plugins/ad-$script,xmlhttprequest
 ! spoiler.net
