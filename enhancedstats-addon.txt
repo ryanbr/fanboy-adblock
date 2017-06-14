@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 2rbB/xpqNl/x4Z35puCb5g
+! Checksum: pS3a3JuQEvpFWHfQU4KXzA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 14 Jun 2017
 ! This list expires after 2 days
@@ -984,6 +984,8 @@ adage.com##.vjs-icon-share
 @@||spaste.com^$generichide
 ! picload.org
 @@||picload.org/image/$image
+! runnersworld.co runnersworld.comm
+@@||runnersworld.com^*ads.
 ! coderexample.com
 @@||coderexample.com^$generichide
 coderexample.com##[data-ad-client]
