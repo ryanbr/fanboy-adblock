@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: XyvXhj5aUO4z/JI+mBBmBA
+! Checksum: +gJ6gRg9zIcAEhRm2GArTQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 13 Jun 2017
+! Updated: 14 Jun 2017
 ! This list expires after 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -956,6 +956,8 @@ smitedatamining.com##.author-social
 smitedatamining.com##.et_social_sidebar_networks
 smitedatamining.com##.share-post
 smitedatamining.com##.social-icons
+! dailymaverick.co.za
+@@||b-cdn.net/ads/ads.js
 ! kingofdown.com
 @@.jpg#$image,domain=kingofshrink.com
 @@.png#$image,domain=kingofdown.com
