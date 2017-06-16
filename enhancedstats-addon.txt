@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: A85zoPsjQ1J1rK/5l4xsdw
+! Checksum: LRAmlIqpMNu13fFDke7BNw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 16 Jun 2017
 ! This list expires after 2 days
@@ -1499,6 +1499,7 @@ pastebin.com###paypal-overlay
 last.fm##div[style*="visibility:"]
 ! techdracula.com
 @@||techdracula.com^$generichide
+techdracula.com##.apss-social-share
 ! techpowerup.com
 /\.techpowerup\.com/.*[a-zA-Z0-9]{13}/$image
 @@||techpowerup.com/forums/$image
