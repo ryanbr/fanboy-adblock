@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: y9eajfHigp6gfRvw11DTuQ
+! Checksum: 9sUfHazlvJJMa6L+7nTUJA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Jun 2017
 ! This list expires after 2 days
@@ -1013,6 +1013,18 @@ adage.com##.vjs-icon-share
 ! coderexample.com
 @@||coderexample.com^$generichide
 coderexample.com##[data-ad-client]
+! nydailynews.com
+@@||nydailynews.com^$generichide
+nydailynews.com###ra-share-bottom
+nydailynews.com###rf-email
+nydailynews.com###rf-follow
+nydailynews.com###taboola-below-article-thumbnails
+nydailynews.com###taboola-right-rail-thumbnails
+nydailynews.com###taboola-right-rail-thumbnails-2nd
+nydailynews.com##.ra-share
+nydailynews.com##.ri-facebook
+nydailynews.com##.ri-instagram
+nydailynews.com##.ri-twitter
 ! shrink-service.it
 @@||shrink-service.it^$generichide
 ||shrink-service.it/js/jsRHadBlock.js
