@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: d97MN6RilVFK6nVy+6cvyQ
+! Checksum: ARizryt7ty65wTqddcXUaQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Jun 2017
 ! This list expires after 2 days
@@ -1041,6 +1041,11 @@ clubic.com###cookieu_header
 clubic.com##.button-social
 clubic.com##.footer-social
 clubic.com##.OUTBRAIN
+! buickforums.com
+@@||buickforums.com/forums/abp/$script
+buickforums.com##td[align="center"][height="150"]
+||madisonross.com/adblock.html
+||madisonross.com/images/top.jpg
 ! filechoco.net
 @@||78cc571ae97.net/googlead.js$domain=filechoco.net
 @@||filechoco.net^$generichide
