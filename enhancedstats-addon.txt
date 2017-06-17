@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Ljtf2f7M1aKl2mHyM9zSyg
+! Checksum: /fw2TzL2kUcOTtyjgtSznA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Jun 2017
 ! This list expires after 2 days
@@ -1407,6 +1407,7 @@ independent.co.uk##a[title="Twitter"]
 @@||cloudfront.net^$script,domain=codeproject.com
 @@||codeproject.com^$generichide
 codeproject.com##.share-list
+codeproject.com##a[href^="http://googleads.g.doubleclick.net/"]
 codeproject.com##a[href^="https://googleads.g.doubleclick.net/"]
 ! aufeminin.com
 @@||aufeminin.com^$generichide
