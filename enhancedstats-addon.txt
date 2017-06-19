@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: AjESEPdc10zHwRQTBEKm6Q
+! Checksum: Yaw/F/2+QXwp6AP5LOPEdQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 19 Jun 2017
 ! This list expires after 2 days
@@ -1530,6 +1530,8 @@ allmusic.com##.header-leaderboard
 @@||g.doubleclick.net/gampad/ads?$script,domain=wired.com
 @@||sulidshyly.com^$domain=wired.com
 @@||wired.com/assets/load?$script
+wired.com##.advertisement__leaderboard
+wired.com##.js-post-listing-rad
 wired.com##div[id^="crown"] + .rad
 ! forbes.com
 @@||forbes.com^$generichide
