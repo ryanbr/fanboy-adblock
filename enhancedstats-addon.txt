@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: tLDe0vt1sP1k52m53T0upQ
+! Checksum: 6kzmFJ5Dr2/sq4feR+hI6Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 19 Jun 2017
 ! This list expires after 2 days
@@ -988,6 +988,16 @@ smitedatamining.com##[data-ad-slot]
 @@||kingofdown.com^$generichide
 @@||kingofshrink.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=kingofdown.com|kingofshrink.com
+! dispatch.com
+@@||dispatch.com^$generichide
+dispatch.com###baseLeaderBillboardDesktop
+dispatch.com###baseLeaderboard
+dispatch.com###baseMedRecDesktop
+dispatch.com###dialog-message
+dispatch.com##.ad-container
+dispatch.com##.article-meta-social
+dispatch.com##.social
+dispatch.com##[data-gh-lazy-ad-loaded]
 ! dogefaucet.com
 @@||ads.korri.fr^$script,domain=dogefaucet.com
 @@||dogefaucet.com^$generichide
