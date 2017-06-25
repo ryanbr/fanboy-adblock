@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: zAW/PsS9vSRsMFmOhBEtuQ
+! Checksum: Q8fC1fXVjDO90I9j0gh+nw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 Jun 2017
 ! This list expires after 2 days
@@ -959,6 +959,10 @@ youporn.com###adblock_1
 @@||google.*/ads/$image,domain=4chan.org
 cyberterminators.co##.td-post-sharing
 cyberterminators.co##.wpInsertInPostAd
+! animeheaven.eu
+@@||animeheaven.eu/b/$script
+@@||animeheaven.eu/fuckadblock.js
+@@||animeheaven.eu^$generichide
 ! theargus.co.uk
 theargus.co.uk##div[style="display:block!important"]
 ! lukkr.com
