@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: NcHaAKuM7DTK6HzNqGvTJw
+! Checksum: ffjwvaLgVDw+YT513mSLEw
 ! Title: Popads revolving adservers
 ! Updated: 25 Jun 2017
 ! This list expires after 1 days
@@ -41,7 +41,7 @@
 @@||youtube.com/player_api$third-party
 !
 ! Site Specific fixes
-@@/wp-content/$script,third-party,domain=onlinemoviesgold.one|moviesgoldonline.net
+@@/wp-content/*$script,third-party,domain=onlinemoviesgold.one|moviesgoldonline.net
 @@||embed.tawk.to^$script,domain=streamlord.com|debrideco.com|andrija-i-andjelka.com
 @@||flowplayer.org^$script,domain=bilasport.pw
 @@||jsdelivr.net^$script,domain=streamlord.com|bilasport.pw|soccerembed.blogspot.com
