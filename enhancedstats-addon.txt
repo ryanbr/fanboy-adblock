@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Ls4OXZZRQwMf8x7wULCBrA
+! Checksum: K4YLtavFbtg3Yazi6gwKgw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 Jun 2017
 ! This list expires after 2 days
@@ -721,6 +721,7 @@ youporn.com###adblock_1
 @@/wp-content/*/adsbygoogle.js$script
 @@/wp-content/*/advert.js$script
 @@/wp-content/*/advertisement*.js$script
+@@/wp-content/*/advertising*.js
 @@/wp-content/*/show-ads.js$script
 @@||9c9media.com^*/advertisement.js
 @@||abcnews.com/assets/js/adblocker.js
@@ -732,6 +733,7 @@ youporn.com###adblock_1
 @@||anandabazar.com^*/gads.js
 @@||animeid.io/static/ads.js
 @@||aol.com/advertisers/advertisers.txt?$script,xmlhttprequest
+@@||archived.moe^$generichide
 @@||as-cdn.tk/js/ads.js
 @@||autoworldnews.com/common/js/common/ads.js
 @@||babycenter.com^*/ads.js
@@ -742,6 +744,7 @@ youporn.com###adblock_1
 @@||blbrd.co/advertisement.js
 @@||blockertools.net/v1/adframe.js
 @@||bolor-toli.com^$generichide
+@@||btcsworld.com/libs/advertisement.js
 @@||burning-feeds.com/resources/js/advertising.js
 @@||buzzfed.com^*/ads.js
 @@||buzzfeed.com^*/ads.js
@@ -750,6 +753,7 @@ youporn.com###adblock_1
 @@||cdn77.org^*/ads.js
 @@||cdnslate.com/wp-srv/ad/*/loader.min.js
 @@||cdscdn.com/Js/advertise.js
+@@||cinemamkv.xyz^$generichide
 @@||citylab.com^*/advert$script
 @@||classistatic.com^*/advertising.js
 @@||cloudfront.net/adsmin/$script
@@ -806,6 +810,7 @@ youporn.com###adblock_1
 @@||geo.de^$generichide
 @@||geo.de^*/advertisement.js
 @@||gogoanime.ch/static/ads.js
+@@||grcrt.net/popads/ads.js
 @@||gtsstatic.com^*/prebid_$script
 @@||hardwareheaven.com^*/advertisement.js
 @@||hardwarezone.com.sg/js/ads.js
@@ -818,6 +823,7 @@ youporn.com###adblock_1
 @@||infojobs.com.br^*/adframe.js
 @@||integritystat.com^*/ads.js
 @@||intoday.in^*/advert$script
+@@||jilhub.xyz^$generichide
 @@||kiplinger.com/js/adblock.js
 @@||koditalk.org/uploads/*adframe.js
 @@||ladbible.com^*/ads.js
@@ -825,8 +831,10 @@ youporn.com###adblock_1
 @@||latin.it/banner.php
 @@||leech.ae^$generichide
 @@||listamais.com.br/Resources/js/ads.js
+@@||litecoin-faucet.com/libs/advertisement.js
 @@||maango.info^$generichide
 @@||mac4ever.com/adserver.adtech.de/$script
+@@||mangaeden.com^*/advertisement.js
 @@||maxisciences.com^*/advertisement.js
 @@||mdotlabs.com/ads.js
 @@||media-amazon.com^*/showads.
@@ -855,6 +863,7 @@ youporn.com###adblock_1
 @@||ora.tv^*/adframe.js
 @@||over-blog-kiwi.com^*/ads.js
 @@||pcgameshardware.de/common/deliverad/$script
+@@||perveden.com^*/advertisement.js
 @@||photobucket.com^*/ads.js
 @@||player.h-cdn.com/ads.js
 @@||pordede.com^*/ads.js
@@ -867,11 +876,13 @@ youporn.com###adblock_1
 @@||rawgit.com/brastagi/javascript/gh-pages/adframe.js
 @@||realclearscience.com/scripts/ads.js
 @@||receive-a-sms.com/showads.js
+@@||rnbxclusive.site^$generichide
 @@||rodalesorganiclife.com^*/ads.
 @@||sdlcdn.com^*/ads.js
 @@||seattletimes.com^*/ad-test.js
 @@||seeker.com/ads.js
 @@||semana.com/Scripts/ads.js
+@@||sharespark.net^*/ads.js
 @@||shink.in/js/ads.js
 @@||shink.in/js/showads.js
 @@||shush.se/_ads.js
@@ -929,6 +940,7 @@ youporn.com###adblock_1
 @@||wmp.media/ads/$script
 @@||womenshealthmag.com^*ad$script
 @@||wtop.com/advertisement.js
+@@||xkorean.net^$generichide
 @@||xmovies8.ru^*/adsbygoogle.js
 @@||xmovies8.tv/themes/_js/adsbygoogle.js
 @@||zdnet.de^*/advertising.js
@@ -960,6 +972,109 @@ youporn.com###adblock_1
 @@||google.*/ads/$image,domain=4chan.org
 cyberterminators.co##.td-post-sharing
 cyberterminators.co##.wpInsertInPostAd
+! publicleech.xyz
+@@||popmyads.com/pma.js$script,domain=publicleech.xyz
+! xxvideosporno.net
+@@||xxvideosporno.net^$generichide
+! litecoin-faucet.com
+@@||litecoin-faucet.com^$generichide
+! verdirectotv.com
+@@||verdirectotv.com^$generichide
+verdirectotv.com##img[src^="http://verdirectotv.com/wp-content/themes/wtb-video-black/"]
+! filmesonline1080p.com
+@@||filmesonline1080p.com^$generichide
+! narutoimagem.com
+@@.png#$image,domain=narutoimagem.com
+@@||narutoimagem.com^$generichide
+! pornotorrentz.com
+@@||pornotorrentz.com^$generichide
+! meganetv.id
+@@||meganetv.id^$generichide
+! hiphopisdream.info
+@@||hiphopisdream.info^$generichide
+! doridro.net
+@@.png#$image,domain=doridro.net
+@@||doridro.net^$generichide
+! indianhotcomics.com
+@@||indianhotcomics.com^$generichide
+!  pinayporndaddy.com
+@@||pinayporndaddy.com^$generichide
+! iklangratiz.com
+@@||iklangratiz.com^$generichide
+! hdmovie7.today
+@@||hdmovie7.today^$generichide
+! telecinetorrent.com
+@@.png#$image,domain=telecinetorrent.com
+@@||telecinetorrent.com^$generichide
+! comandofilmestorrents.com
+@@.png#$image,domain=comandofilmestorrents.com
+@@||comandofilmestorrents.com^$generichide
+! yourfreetube.net
+@@.png#$image,domain=yourfreetube.net
+@@||yourfreetube.net^$generichide
+! streamingdramakorea.com
+@@||streamingdramakorea.com^$generichide
+! kshowes.net
+@@||cicklow.com/adblock/$image
+! gamesfullextreme.com
+@@||gamesfullextreme.com^$generichide
+! animesonline2hd.org
+@@||animesonline2hd.org^$generichide
+! filmpornoita.net
+@@||filmpornoita.net/advertisement.js
+! teenboytwink.com
+@@||teenboytwink.com^$generichide
+! indoporn.co
+@@||indoporn.co^$generichide
+! beelink.in
+@@||beelink.in^$generichide
+! bytesloader.com
+@@||bytesloader.com^$generichide
+@@||popads.net/pop.js$xmlhttprequest,domain=bytesloader.com
+! codexpcgames.com
+@@||codexpcgames.com^$generichide
+! gaypornmasters.com
+@@||gaypornmasters.com^$generichide
+! turbogvideos.com
+@@||turbogvideos.com^$generichide
+! kizzboy.com
+@@||kizzboy.com^$generichide
+! verliga.net
+@@||verliga.net^$generichide
+@@||verliga.net^*/adblock.js
+! querofilmehd.com
+@@||querofilmehd.com^$generichide
+! javdrama.com
+@@||javdrama.com^$generichide
+javdrama.com##a[href^="http://www.adxpansion.com"]
+! torjackan.info
+@@||torjackan.info^$generichide
+! bangbross.org
+@@.png#$image,domain=bangbross.org
+@@||openload.co^$genericblock,generichide
+! camwhores.co
+@@||camwhores.co^$generichide
+! indohooker.com
+@@||indohooker.com^$generichide
+! torrentsgamez.com
+@@||torrentsgamez.com^$generichide
+! xcomicsx.com
+@@||xcomicsx.com^$generichide
+! beintube.com
+@@||beintube.com^$generichide
+beintube.com###taboola-right-rail-thumbnails
+beintube.com##.btn-facebook
+beintube.com##.btn-google-plus
+beintube.com##.btn-linkedin
+beintube.com##.btn-pinterest
+beintube.com##.btn-twitter
+! pornhdx.tv
+@@||pornhdx.tv^$generichide
+pornhdx.tv##.onplayerADS
+! pipocao.com
+@@||pipocao.com^$generichide
+! animeai2.net
+@@||animeai2.net^$generichide
 ! animeheaven.eu
 @@||animeheaven.eu/b/$script
 @@||animeheaven.eu/fuckadblock.js
@@ -993,6 +1108,9 @@ smitedatamining.com##.et_social_sidebar_networks
 smitedatamining.com##.share-post
 smitedatamining.com##.social-icons
 smitedatamining.com##[data-ad-slot]
+! mangakita.net
+@@.png#$image,domain=mangakita.net
+@@||mangakita.net^$generichide
 ! dailymaverick.co.za
 @@||b-cdn.net/ads/ads.js
 ! kingofdown.com
@@ -1065,6 +1183,10 @@ nydailynews.com##.ra-share
 nydailynews.com##.ri-facebook
 nydailynews.com##.ri-instagram
 nydailynews.com##.ri-twitter
+! fullepisodes.biz
+@@.jpg#$image,domain=fullepisodes.biz
+@@||fullepisodes.biz^$generichide
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=fullepisodes.biz
 ! shrink-service.it
 @@||shrink-service.it^$generichide
 ||shrink-service.it/js/jsRHadBlock.js
@@ -1677,6 +1799,7 @@ tvregionalna24.pl##.diablo-placeholder
 ##.fc-pinned-message-container
 ##.fc-root
 8muses.com##.top-warning
+archived.moe##.cc_banner
 citylab.com###blocker-msg-start
 hdzog.com##.msg-adblock
 maango.info##.fb-page
@@ -1687,6 +1810,9 @@ newatlas.com###NewatlasMessaging
 pornhub.com###abAlert
 redtube.com###slidePanelContainerAB
 vaughnlive.tv##.abvsDynamic
+xkorean.net###inplayer
+xkorean.net##.thr-rcol
+xkorean.net##a[href*="&aff_id"]
 !
 ! ---------- Whitelisting rules ----------
 !
