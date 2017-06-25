@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Q8fC1fXVjDO90I9j0gh+nw
+! Checksum: Ls4OXZZRQwMf8x7wULCBrA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 Jun 2017
 ! This list expires after 2 days
@@ -825,6 +825,7 @@ youporn.com###adblock_1
 @@||latin.it/banner.php
 @@||leech.ae^$generichide
 @@||listamais.com.br/Resources/js/ads.js
+@@||maango.info^$generichide
 @@||mac4ever.com/adserver.adtech.de/$script
 @@||maxisciences.com^*/advertisement.js
 @@||mdotlabs.com/ads.js
@@ -1678,6 +1679,8 @@ tvregionalna24.pl##.diablo-placeholder
 8muses.com##.top-warning
 citylab.com###blocker-msg-start
 hdzog.com##.msg-adblock
+maango.info##.fb-page
+maango.info##.social-btn
 medicalnewstoday.com###mnt_article_ad_1
 medicalnewstoday.com###mnt_header_ad
 newatlas.com###NewatlasMessaging
