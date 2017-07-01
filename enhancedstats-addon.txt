@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 1ysaaK0qWO5cj/qwSFGDhQ
+! Checksum: lAPsw2R9k/ShdZaYU0VcLA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Jul 2017
 ! This list expires after 2 days
@@ -1073,6 +1073,9 @@ javdrama.com##a[href^="http://www.adxpansion.com"]
 @@||torrentsgamez.com^$generichide
 ! xcomicsx.com
 @@||xcomicsx.com^$generichide
+! goolsport.net
+@@.gif#$image,domain=playerhd2.pw
+@@||goolsport.net^$generichide
 ! beintube.com
 @@||beintube.com^$generichide
 beintube.com###taboola-right-rail-thumbnails
