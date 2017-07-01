@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: lAPsw2R9k/ShdZaYU0VcLA
+! Checksum: 2KYPysfHOCACR8ptC1xa7w
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Jul 2017
 ! This list expires after 2 days
@@ -979,6 +979,8 @@ cyberterminators.co##.wpInsertInPostAd
 @@||popmyads.com/pma.js$script,domain=publicleech.xyz
 ! xxvideosporno.net
 @@||xxvideosporno.net^$generichide
+! pg3dhacks.com
+@@||pg3dhacks.com^$generichide
 ! litecoin-faucet.com
 @@||litecoin-faucet.com^$generichide
 ! verdirectotv.com
@@ -1837,6 +1839,8 @@ maango.info##.social-btn
 medicalnewstoday.com###mnt_article_ad_1
 medicalnewstoday.com###mnt_header_ad
 newatlas.com###NewatlasMessaging
+pg3dhacks.com##.ztb-sb-widget-iframe
+pg3dhacks.com##[data-ad-slot]
 pornhub.com###abAlert
 redtube.com###slidePanelContainerAB
 vaughnlive.tv##.abvsDynamic
