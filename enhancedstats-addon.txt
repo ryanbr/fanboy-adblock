@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 000pfugMjz4oCRMqdDp58g
+! Checksum: 8r3+qK8bgeAT4/N/eoM9ZA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 4 Jul 2017
 ! This list expires after 2 days
@@ -1709,8 +1709,7 @@ allmusic.com##.header-leaderboard
 @@||genbird.com^$generichide
 ! kissanime.ru
 @@||adsterra.com^$script,domain=kissanime.ru
-! kisscartoon.se
-@@||cpmstar.com^$script,domain=kisscartoon.se|kissasian.com
+@@||cpmstar.com^$script,domain=kissasian.com
 ! wired.com
 @@||g.doubleclick.net/gampad/ads?$script,domain=wired.com
 @@||sulidshyly.com^$domain=wired.com
