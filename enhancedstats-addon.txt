@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 2AfZKd8AgOD98iwchw0uig
+! Checksum: buMOcsdmvFYAV7AJtJbp0w
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 8 Jul 2017
 ! This list expires after 2 days
@@ -1050,6 +1050,9 @@ verdirectotv.com##img[src^="http://verdirectotv.com/wp-content/themes/wtb-video-
 @@||animesonline2hd.org^$generichide
 ! filmpornoita.net
 @@||filmpornoita.net/advertisement.js
+! dailydeportes.pw
+@@.gif#$image,domain=trplay.us
+@@||dailydeportes.pw^$generichide
 ! teenboytwink.com
 @@||teenboytwink.com^$generichide
 ! indoporn.co
