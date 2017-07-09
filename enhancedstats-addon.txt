@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: IakIGkP1WYBi9FAcCSYFrA
+! Checksum: CU3HL8v8IIqwnDQfvrjJ/Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 9 Jul 2017
 ! This list expires after 2 days
@@ -972,10 +972,10 @@ youporn.com###adblock_1
 ||sqweb.com^$third-party
 ||techweb.com/adblocktrack
 ! blockadblock domains
-@@||adclixx.net^$script,domain=linkdrop.net|sznpaste.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|rule34hentai.net|finalservers.net|yalujailbreak.net|animmex.com|animmex.org|animmex.trade|animmex.club|animmex.co|animmex.info
+@@||adclixx.net^$script,domain=linkdrop.net|sznpaste.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|rule34hentai.net|finalservers.net|yalujailbreak.net
 @@||adnetasia.com^$script,domain=linkdrop.net|sznpaste.net|rule34hentai.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|finalservers.net|yalujailbreak.net
 @@||adtrackers.net^$script,domain=rule34hentai.net|linkdrop.net|sznpaste.net|finalservers.net|cloudwebcopy.com|freeomovie.com|yalujailbreak.net|linkneverdie.com
-@@||bannertrack.net^$script,domain=rule34hentai.net|finalservers.net|linkdrop.net|sznpaste.net|yalujailbreak.net|cloudwebcopy.com|freeomovie.com|animmex.org|linkneverdie.com|animmex.com|animmex.trade|animmex.club|animmex.co|animmex.info
+@@||bannertrack.net^$script,domain=rule34hentai.net|finalservers.net|linkdrop.net|sznpaste.net|yalujailbreak.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com
 @@||doubleclickbygoogle.com^$image,domain=rule34hentai.net|yalujailbreak.net|sznpaste.net|linkdrop.net|linkneverdie.com|cloudwebcopy.com|freeomovie.com
 @@||foxnetworks.com^$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|cloudwebcopy.com
 @@||google.com/adsense/$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|cloudwebcopy.com
