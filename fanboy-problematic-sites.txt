@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xktr9ndBlhC7MhxpE3vgyw
+! Checksum: bATKM66q3OdHvi/gmkiCKQ
 ! Title: Fanboy's problematic-sites
-! Updated: 10 Mar 2017
-! This list expires after 2 days
+! Updated: 9 Jul 2017
+! This list expires after 3 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
 ! Reporting Issues: https://github.com/ryanbr/fanboy-adblock/issues
