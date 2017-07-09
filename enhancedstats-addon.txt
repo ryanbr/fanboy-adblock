@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: zY905tD8aAAIZ08DqgdrlQ
+! Checksum: jUo15pnwx2SDaAW3Pyp8gw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 9 Jul 2017
 ! This list expires after 2 days
@@ -1866,6 +1866,7 @@ thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 @@||tout-bon.com^$generichide
 ! German
 @@||lustich.de^$generichide
+@@||sport1.de/bundles/*ad$script
 @@||wetteronline.de^*/showAds.js
 @@||wiwo.de^*/iqadcontroller.js
 ! Israeli
