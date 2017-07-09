@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: CU3HL8v8IIqwnDQfvrjJ/Q
+! Checksum: b2w6DCAnlvS1w/WSNdgwQg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 9 Jul 2017
 ! This list expires after 2 days
@@ -984,17 +984,17 @@ youporn.com###adblock_1
 @@||yahoo.com^$image,domain=finalservers.net|rule34hentai.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|cloudwebcopy.com
 !
 ! Test filters to block popups
-/\.amazonaws\.com/.*[a-zA-Z0-9]{30}/$script,xmlhttprequest,third-party
-! /\.cloudfront\.net/.*[a-zA-Z0-9]{45}/$script,third-party
+/\.amazonaws\.com\/.*[a-zA-Z0-9\/]{30,}/$script,xmlhttprequest,third-party
 /\.cloudfront\.net/\?.*[a-zA-Z0-9]{5,16}/$subdocument,script,third-party
-! @@||cloudfront.net/assets/$script,third-party
-! @@||cloudfront.net/gp/$script,third-party
+/\.cloudfront\.net\/[a-zA-Z0-9]{90,}/$script,third-party
+@@||cloudfront.net/assets/$script,third-party
+@@||cloudfront.net/gp/$script,third-party
 ! Admiral
 /\.com/.*[a-f0-9]{110}/$script,third-party
 ! popads
 /\:\/\/www\.([a-z]{12})\.com\/[a-z]{1,6}\.js/$script,third-party
 ! "DANESCO TRADING"
-/\.com/.*[a-zA-Z0-9]{350}/$subdocument,third-party
+/\.com\/[a-zA-Z0-9\+\/]{300,}/$subdocument,third-party
 !
 !---------- Anti Adblock Warnings ------
 !
