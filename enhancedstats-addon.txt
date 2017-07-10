@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: H/JjN6tm4WQMkOigLRCZHw
+! Checksum: O5fKP0LIzDw5xB9RS4e10Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 10 Jul 2017
 ! This list expires after 4 days
@@ -2016,6 +2016,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||espncdn.com/prod/scripts/mbox.20.r2.js
 @@||ew.com^*/ew_com_omniture.js
 @@||ew.com^*/ew_com_omniture_core.js
+@@||fastcompany.com/assets/js/vendor/omniture/omniture-scode-prod.js
 @@||fdlstatic.com^*/main.desktop-no-omniture.js$domain=cnet.com
 @@||filmmagic.com/scripts/tracking/omniture-communicator-basic.js
 @@||filmmagic.com/scripts/tracking/omniture-page-communicator.js
