@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: R4Cd60aHje2KKOQwTW2Dxg
+! Checksum: H/JjN6tm4WQMkOigLRCZHw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 9 Jul 2017
+! Updated: 10 Jul 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1868,6 +1868,7 @@ thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 @@||tf1.fr^*/adframe.js
 @@||tout-bon.com^$generichide
 ! German
+@@||gutefrage.net^$generichide
 @@||lustich.de^$generichide
 @@||sport1.de/bundles/*ad$script
 @@||wetteronline.de^*/showAds.js
