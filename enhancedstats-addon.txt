@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: a6jdQMABt5CADdih9gMqTg
+! Checksum: lkqXqCvyU85R5s8nZCK9CQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Jul 2017
 ! This list expires after 4 days
@@ -1071,6 +1071,8 @@ verdirectotv.com##img[src^="http://verdirectotv.com/wp-content/themes/wtb-video-
 ! yourfreetube.net
 @@.png#$image,domain=yourfreetube.net
 @@||yourfreetube.net^$generichide
+! mylifetime.com (TODO: history.com,)
+@@||doubleclick.net/gpt/pubads_impl_$domain=mylifetime.com
 ! streamingdramakorea.com
 @@||streamingdramakorea.com^$generichide
 ! gaana.com
