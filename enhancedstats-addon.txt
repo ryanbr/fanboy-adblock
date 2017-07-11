@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: UnhopAaNA7+SPKCl/iiCtQ
+! Checksum: FX9s6YICazOPunU5kBlPAQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Jul 2017
 ! This list expires after 4 days
@@ -1877,6 +1877,7 @@ thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 @@||gutefrage.net^$generichide
 @@||lustich.de^$generichide
 @@||sport1.de/bundles/*ad$script
+@@||t3n.de^$generichide
 @@||wetteronline.de^*/showAds.js
 @@||wiwo.de^*/iqadcontroller.js
 ! Korean
@@ -1917,6 +1918,9 @@ ispazio.net##.icon-instagram
 ispazio.net##.icon-rss
 ispazio.net##.soc-twi
 ispazio.net##.twitter-follow-button
+t3n.de##.-facebook
+t3n.de##.-twitter
+t3n.de##.fb-page
 themarker.com###art__tools_share
 themarker.com###top_banners
 themarker.com##.art__info
