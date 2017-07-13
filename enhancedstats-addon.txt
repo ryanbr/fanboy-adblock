@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 7UoK8Z8L4yKlvcop4TUzww
+! Checksum: N0/sjkamIIb2cw0xGjMmXw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 12 Jul 2017
+! Updated: 13 Jul 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1076,6 +1076,11 @@ verdirectotv.com##img[src^="http://verdirectotv.com/wp-content/themes/wtb-video-
 @@||doubleclick.net/gpt/pubads_impl_$domain=mylifetime.com
 ! streamingdramakorea.com
 @@||streamingdramakorea.com^$generichide
+! trekbbs.com
+@@||trekbbs.com^$generichide
+trekbbs.com##div[style="width:160px;margin:auto;height:600px;"]
+trekbbs.com##div[style="width:300px;height:1050px;"]
+trekbbs.com##div[style="width:970px;height:250px;"]
 ! gaana.com
 gaana.com##.add_block
 ! kshowes.net
