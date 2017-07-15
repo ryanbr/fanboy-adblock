@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: iPyMM8qhwlPFyiLJAe5kyQ
+! Checksum: iwI+jbnFFSn3rHTSyoeNhQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 13 Jul 2017
+! Updated: 15 Jul 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1777,6 +1777,7 @@ whosampled.com##.leadAd
 whosampled.com##.shareButtons
 whosampled.com##.socialMedia
 ! allmusic.com
+$websocket,domain=allmusic.com
 @@||allmedia-d.openx.net^$domain=allmusic.com
 @@||google-analytics.com/ga.js$domain=allmusic.com
 @@||googlesyndication.com/pagead/js/rum.js$domain=allmusic.com
@@ -1786,6 +1787,8 @@ whosampled.com##.socialMedia
 @@||roguest.com^*/advert.js$domain=allmusic.com
 @@||yldbt.com/js/yieldbot.intent.js$domain=allmusic.com
 allmusic.com##.header-leaderboard
+allmusic.com##.medium-rectangle
+allmusic.com##.medium-rectangle-btf
 ||complex.com/campaigns/$image,domain=allmusic.com
 ! genbird.com
 @@.png#$image,domain=genbird.com
