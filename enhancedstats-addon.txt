@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: sxHvtAM28yZHmQwCOOwzwg
+! Checksum: BOsVPPDzNyLJf07ZEhREqg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 16 Jul 2017
 ! This list expires after 4 days
@@ -1036,6 +1036,9 @@ youporn.com###adblock_1
 !
 ! Elements hiding by a generichide 
 !
+! fastly
+||ssl.fastly.net/messaging.js
+||ssl.fastly.net/mms-client.js
 ! 4chan
 @@||google.*/ads/$image,domain=4chan.org
 cyberterminators.co##.td-post-sharing
