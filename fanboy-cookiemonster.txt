@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: nTs8BJAsyaMpOx/pKogxBw
+! Checksum: bT7IMYAIXxr7z2vM25FHzg
 ! Title: Fanboy's Cookiemonster List
-! Updated: 9 Jul 2017
+! Updated: 16 Jul 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -210,6 +210,7 @@
 /cookies-overlay.
 /cookies-policy-
 /cookies-policy/*
+/cookies/popup.
 /cookies_acceptance.
 /cookies_bar.js
 /cookies_directive.
@@ -284,6 +285,7 @@
 /plugins/CookieInfo/*
 /plugins/EuCookie/*
 /privacy-cookies.js
+/privacycookie/*
 /rbicookiepolicy.
 /rtiCookieLaw.
 /script_cookies.js
@@ -348,6 +350,7 @@ _site_cookie_
 ###acceptCookiesDiv
 ###acookie
 ###af-cookie-policy
+###agree-with-cookies
 ###agreecookies
 ###alert-cookie
 ###alert-cookie-policy
@@ -821,6 +824,7 @@ _site_cookie_
 ###cookiePopup
 ###cookiepopup
 ###cookiePopupContainer
+###cookiepopupdiv
 ###cookieprivacy-bar
 ###cookiePrompt
 ###cookiePromptWrapper
@@ -1178,6 +1182,7 @@ _site_cookie_
 ###notice-cookie
 ###notice-cookie-content
 ###notice-cookie-policy
+###notice_visitor
 ###notificacio-cookies
 ###notification-allowCookies
 ###notification__cookie
@@ -1236,6 +1241,7 @@ _site_cookie_
 ###privacyBar
 ###privacyOuterContainer
 ###privacypolicy
+###privacyPolicyBox
 ###privacyPolicyLayer
 ###privacyWarningBanner
 ###private-policy
@@ -1424,6 +1430,7 @@ _site_cookie_
 ##.co-cookies-disc-bar
 ##.com-cookie
 ##.Common-Privacy-HeaderCookiesMessage
+##.component--message__cookies
 ##.consentBarWrapper
 ##.container-cookie-notice
 ##.container_cookies
@@ -1527,6 +1534,7 @@ _site_cookie_
 ##.cookie-processed
 ##.cookie-prompt
 ##.cookie-prompter
+##.cookie-question
 ##.cookie-rules-wrapper
 ##.cookie-section
 ##.cookie-siteusage-notice
@@ -1542,6 +1550,7 @@ _site_cookie_
 ##.cookie_accept
 ##.cookie_adv2
 ##.cookie_alert
+##.cookie_banner-handled
 ##.Cookie_bar
 ##.cookie_bar
 ##.cookie_box
@@ -1591,6 +1600,7 @@ _site_cookie_
 ##.cookieBarContainer
 ##.cookiebarinner
 ##.cookieBarReviewDesktop
+##.cookieboks
 ##.cookieBox
 ##.cookiebox
 ##.cookieCheckMainPanel
@@ -1916,6 +1926,8 @@ _site_cookie_
 ##.naf-cookies-popup
 ##.nav__cookies
 ##.Navbar-cookieCompliance
+##.next-cookie-banner
+##.nm-cookiepolicy
 ##.no-cookies
 ##.notice-cookie
 ##.notice_notice_cookies
@@ -1949,6 +1961,7 @@ _site_cookie_
 ##.policy-cookie
 ##.politicaCookies
 ##.polityka-cookie
+##.polityka_ciastek
 ##.pop-cookie
 ##.popup--cookie
 ##.popup-alert-notice
@@ -1976,6 +1989,7 @@ _site_cookie_
 ##.row-cookies
 ##.rs-alert-cookie
 ##.s-cookies
+##.s1-cookie-banner
 ##.sanoma-optin-bar
 ##.sb-ncookies-alert
 ##.sc-cookies
@@ -2010,6 +2024,7 @@ _site_cookie_
 ##.texteAlerteCookie
 ##.texto_cookies
 ##.toast-type-newCookie
+##.tplis-cl-cookies
 ##.tre-cookie-disclaimer
 ##.ui-cookie-tooltip
 ##.ui-dialog-cookies
@@ -2464,7 +2479,7 @@ hoxa.hu###container > div[style^="text-align: left;"]
 hrportal.hu##.fixedbox
 ingyen-van.hu###figyu
 koloknet.hu,notebookspecialista.hu###cookie
-lxo.hu,freemeteo.hu###cookies
+lxo.hu,gov.hu,freemeteo.hu###cookies
 mercedes-benz.hu##.mainpage_popup
 okopolc.hu###firstLogNanobar
 oszkar.com###footerbar
@@ -2488,7 +2503,7 @@ tesco.hu##.infoBarClosable
 atakklonow.pl,mistrzowie.org,wszechpolska.pl##div[style="position: fixed; left:0; right:0; bottom:0; height:120px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
 atk.com.pl###TB_window
 atman.pl###gbpl_oba
-bankmillennium.pl,dobreprogramy.pl,generali.pl,hi-tec.com.pl,newsweek.pl,play.pl,tripolo.pl###cookies
+auchan.pl,bankmillennium.pl,dobreprogramy.pl,generali.pl,hi-tec.com.pl,newsweek.pl,play.pl,tripolo.pl###cookies
 bstorun.pl###comm_info
 cabletech.pl##div[style="top:0;position:absolute;width:100%;background:#000;color:#f2f2f2;font-size:10px;text-align:center"]
 cartests.net##.messi
@@ -2541,10 +2556,10 @@ opteam.pl###info_c_box
 otabletach.pl,drony.net,gadzetomania.pl,komorkomania.pl###cop
 panasonic.pl###CP_Layer
 pepper.pl##.messages
+piltza37.pl###fb
 pl.yahoo.com##.yom-wave3-generic
 policja.pl##.informationBar
 poznan.pl##.content-head-information
-radiomerkury.pl###privacyPolicyBox
 redbullmobile.pl###more1
 regenersis.pl###ctl00_cpanel
 salon404.pl###jqmAlert
@@ -2557,6 +2572,7 @@ votepush.com##.alert
 webelite.pl###infobar
 wrzucacz.pl##.info[style="font-size: 7pt; position: absolute;top:22px;right: 0px;padding:2px 10px 2px 36px"]
 wykop.pl##.cookie
+yoy.tv###notice
 !
 !---------- Polish Site Specific Blocking Rules ----------
 !
@@ -2763,6 +2779,7 @@ virgilio.it###bottom_chat
 allmusic.com##.cookie-policy-box
 bnonews.com###cookiescript_injected
 boxbit.co.in###cookies_agreement
+calciomercato.com###ca_banner
 cityam.com###cookie-wrapper
 cwtv.com###user_optin_banner
 dba.dk##div[style^="position: fixed; bottom: 0px;"]
