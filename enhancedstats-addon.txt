@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: og+19HSxeiibnqGrhmTVMg
+! Checksum: OrLLYxhar6MYpOSvuQwdtw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 16 Jul 2017
 ! This list expires after 4 days
@@ -847,6 +847,7 @@ youporn.com###adblock_1
 @@||integritystat.com^*/ads.js
 @@||intoday.in^*/advert$script
 @@||jilhub.xyz^$generichide
+@@||kinja.com^$generichide
 @@||kiplinger.com/js/adblock.js
 @@||koditalk.org/uploads/*adframe.js
 @@||l2s.io^$generichide
@@ -1068,6 +1069,13 @@ verdirectotv.com##img[src^="http://verdirectotv.com/wp-content/themes/wtb-video-
 @@||meganetv.id^$generichide
 ! hiphopisdream.info
 @@||hiphopisdream.info^$generichide
+! kinja.com
+kinja.com###sharingfooter
+kinja.com###taboola-below-article-thumbnails
+kinja.com###taboola-top-banner-abp
+kinja.com##.js_ad-top-banner
+kinja.com##.js_contained-ad-container
+kinja.com##.newsletter-subscribe
 ! doridro.net
 @@.png#$image,domain=doridro.net
 @@||doridro.net^$generichide
