@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: aL7Jqw8AXFaiLzl/0+8/CA
+! Checksum: 7CYIp77KUhzdx10vCvySyQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 16 Jul 2017
 ! This list expires after 4 days
@@ -832,6 +832,7 @@ youporn.com###adblock_1
 @@||hardwareheaven.com^*/advertisement.js
 @@||hardwarezone.com.sg/js/ads.js
 @@||healthline.com^*/advertising.js
+@@||hentaitake.net^$generichide
 @@||ibtimes.co.uk^*/ads.js
 @@||idg.com.au/adsmin/show_ads.js
 @@||imagepearl.com/view/advertisement.js
@@ -1220,6 +1221,9 @@ smitedatamining.com##.et_social_sidebar_networks
 smitedatamining.com##.share-post
 smitedatamining.com##.social-icons
 smitedatamining.com##[data-ad-slot]
+! hentaitake.net
+hentaitake.net##.addthis-smartlayers
+hentaitake.net##.scroll-back-to-top-wrapper
 ! mangakita.net
 @@.png#$image,domain=mangakita.net
 @@||mangakita.net^$generichide
