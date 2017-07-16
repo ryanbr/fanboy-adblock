@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: F7fmd5OHQsUIyA/ZwQe3lg
+! Checksum: khhy+7yaQwi/+Z8QXD7HHQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 16 Jul 2017
 ! This list expires after 4 days
@@ -1932,6 +1932,8 @@ thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 @@||zeusnews.it^$generichide
 ! Japanese
 @@||i-mobile.co.jp/script/ad$script
+! Polish Warning
+###like-us-adblock-modal
 !
 ! Intl Specific elements hiding
 albanian.tv##.social-profile-icons
