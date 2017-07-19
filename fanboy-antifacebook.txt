@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: MQ7jm+Ark48LKWOabd9aeQ
+! Checksum: jjX9HNjVRsya3UFhfLRP0g
 ! Title: Anti-Facebook List
-! Updated: 9 Jul 2017
+! Updated: 19 Jul 2017
 ! This list expires after 6 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -63,6 +63,7 @@
 @@/cdn-cgi/pe/bag2?*connect.facebook.net$domain=opensubtitles.org|forwardprogressives.com|onhax.net|viralthread.com|youngcons.com
 @@||akamaihd.net/rsrc.php/$domain=facebook.com
 @@||channel.facebook.com^$domain=facebook.com
+@@||connect.facebook.com^*/AudienceNetworkPrebid.js$domain=vice.com
 @@||facebook.com/ajax/browse/$domain=facebook.com
 @@||facebook.com/ajax/bz$domain=facebook.com
 @@||facebook.com/ajax/chat/buddy_list.php$domain=facebook.com
