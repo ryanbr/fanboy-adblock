@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Fe0zrWI4nqJYTE7/O4NGgA
+! Checksum: AGJ06U1UHe+rDtUKGC+dQQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 20 Jul 2017
 ! This list expires after 4 days
@@ -1203,6 +1203,9 @@ beintube.com##.btn-google-plus
 beintube.com##.btn-linkedin
 beintube.com##.btn-pinterest
 beintube.com##.btn-twitter
+! slickdeals.net
+slickdeals.net###crt-adblock-a
+slickdeals.net###crt-adblock-b
 ! pornhdx.tv
 @@||pornhdx.tv^$generichide
 pornhdx.tv##.onplayerADS
