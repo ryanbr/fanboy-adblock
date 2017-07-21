@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 5nP2N7rTuxUhsgSzrKfgUw
+! Checksum: lVr2HOpXuXxSJifXQAix0w
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 21 Jul 2017
 ! This list expires after 4 days
@@ -875,6 +875,7 @@ youporn.com###adblock_1
 @@||minatosuki.com^$generichide
 @@||mirror.ninja/static/js/advertising.js
 @@||mmo-champion.com^*/adsense.js
+@@||mokeedev.com^$generichide
 @@||motherjones.net/adtracking.js
 @@||motherless.com/scripts/site_ads.js
 @@||mshcdn.com/assets/advertisement-*.js
@@ -2013,6 +2014,7 @@ maango.info##.fb-page
 maango.info##.social-btn
 medicalnewstoday.com###mnt_article_ad_1
 medicalnewstoday.com###mnt_header_ad
+mokeedev.com##div[id^="card-googleads-success"]
 newatlas.com###NewatlasMessaging
 pg3dhacks.com##.ztb-sb-widget-iframe
 pg3dhacks.com##[data-ad-slot]
