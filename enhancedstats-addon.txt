@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Z6d33isF0k7+2M8Po+jI2A
+! Checksum: zC8i9VALyzJOc0DsoA5VHQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 21 Jul 2017
+! Updated: 22 Jul 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1944,6 +1944,12 @@ thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 @@||wiwo.de^*/iqadcontroller.js
 ! Korean
 ||hayan.tv/gibberish-aes.js
+! Turkish
+@@||haber1903.com^$generichide
+haber1903.com##.adsNews
+haber1903.com##.logoAds
+haber1903.com##.newsINAds
+haber1903.com##div[id^="div-gpt-ad"]
 ! Israeli
 @@||themarker.com/dclk/dfp/$xmlhttprequest,script
 @@||themarker.com^$generichide
