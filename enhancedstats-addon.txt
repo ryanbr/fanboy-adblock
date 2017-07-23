@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: +MxfgYkdaEwbttLo4qaUnA
+! Checksum: AEVcMfmfKYsoD5WSW3ZUeQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 23 Jul 2017
 ! This list expires after 4 days
@@ -1981,6 +1981,8 @@ jbzdy.pl##.fb-like
 jbzdy.pl##.fb-share
 jbzdy.pl##.nextoad
 jbzdy.pl##.topv
+! Russian
+@@||rl0.ru^*/ads.js
 !
 ! Intl Specific elements hiding
 abczdrowie.pl###WP-cookie-info
