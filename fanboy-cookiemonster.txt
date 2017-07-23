@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: S/CZQsDakL2pEVQKSwFlXQ
+! Checksum: /+jsfK/6SAxWfjihwCbCcg
 ! Title: Fanboy's Cookiemonster List
-! Updated: 21 Jul 2017
+! Updated: 23 Jul 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -779,6 +779,7 @@ _site_cookie_
 ###cookieMsg
 ###cookiemsg
 ###cookieMsgBlock
+###CookieMsgBox
 ###cookiemsgbox
 ###cookieMsgWrapper
 ###cookienote
@@ -1706,6 +1707,7 @@ _site_cookie_
 ##.cookies-notification
 ##.cookies-notify
 ##.cookies-open
+##.cookies-panel
 ##.cookies-policy
 ##.cookies-policy-popover-container
 ##.cookies-politic
@@ -2481,7 +2483,7 @@ hoxa.hu###container > div[style^="text-align: left;"]
 hrportal.hu##.fixedbox
 ingyen-van.hu###figyu
 koloknet.hu,notebookspecialista.hu###cookie
-lxo.hu,gov.hu,freemeteo.hu###cookies
+lxo.hu,gov.hu,gov.hu,freemeteo.hu###cookies
 mercedes-benz.hu##.mainpage_popup
 okopolc.hu###firstLogNanobar
 oszkar.com###footerbar
@@ -2640,6 +2642,7 @@ v6.se###layer
 118000.fr,clique.tv,communauto.com,ouestjob.com##.cookies
 20minutes.fr##.alerts_container
 20minutes.fr##.notice
+4clik.com,ville-ideale.fr,ville-ideale.com,brain-magazine.fr,gentside.com,colissimo.fr,jules.com,laposte.fr,maxisciences.com,mybiclighter.com,ohmymag.com,showroomprive.com,viously.com###cookies
 6play.fr,aquellefrequence.fr,midilibre.fr,migreat.fr,sudouest.fr##.cookie
 aol.fr###ooCont
 aso.fr,letour.fr##.confidentialite
@@ -2714,7 +2717,6 @@ supersoluce.com##div[style^="position: fixed; width: 100%;"]
 tetley.fr##.topFix
 tf1.fr##div[id^="msgctrw"]
 tupperware.fr##.floating
-ville-ideale.com,brain-magazine.fr,gentside.com,colissimo.fr,jules.com,laposte.fr,maxisciences.com,mybiclighter.com,ohmymag.com,showroomprive.com,viously.com###cookies
 vinted.fr##.js-notification
 virginmobile.fr##.TC
 voici.fr##.pmd-alert
