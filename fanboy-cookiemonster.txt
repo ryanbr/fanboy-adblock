@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: unqqyTET6eh137MCpiDB0w
+! Checksum: C+724paHjx+gmiMgIIBTfw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 24 Jul 2017
+! Updated: 25 Jul 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2209,6 +2209,7 @@ indeed.com###legalNotice
 ing.com###fancybox-overlay
 ing.com##.fancybox-wrap
 inmobi.com,anpost.ie,barbican.org.uk,the-tls.co.uk,beanstalkcharity.org.uk,co-operative.coop,emrf.eu,feyenoord.com,emunewz.net,forbiddenplanet.co.uk,fulltilt.com,granditalia.nl,homecinemachoice.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,phonearena.com,pokernews.com,premiumcredit.co.uk,private.com,solent.ac.uk,studentski.net,tsb.co.uk,omron.eu,volvocars.com###cookies
+inoreader.com##.landing_promo_banner_top
 insights.nzherald.co.nz###top-banner-in-content
 investing.com###sideNotificationZone
 janrain.com###wptbheadline1
