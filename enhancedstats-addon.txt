@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: wf63Op9N9/zGxf3Dv1Qh5g
+! Checksum: WEldjIgRLZTh/cXsBYL9vg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 Jul 2017
 ! This list expires after 4 days
@@ -794,6 +794,7 @@ youporn.com###adblock_1
 @@||dailymail.co.uk/adstest2/$script
 @@||datalog.co.uk/js/ads.js
 @@||dato.porn/js/pop.js$script
+@@||deadspin.com^$generichide
 @@||debridnet.com/adforge.js
 @@||detectadblock.com/ads.js
 @@||dictionary.com/js/advertisement.js
@@ -836,6 +837,7 @@ youporn.com###adblock_1
 @@||generatorlinkpremium.com/ads/$script,~third-party
 @@||geo.de^$generichide
 @@||geo.de^*/advertisement.js
+@@||gizmodo.com^$generichide
 @@||gktoday.in^$generichide
 @@||gogoanime.ch/static/ads.js
 @@||grcrt.net/popads/ads.js
@@ -864,6 +866,7 @@ youporn.com###adblock_1
 @@||lamcdn.net^*/advert-$script
 @@||latin.it/banner.php
 @@||leech.ae^$generichide
+@@||lifehacker.com^$generichide
 @@||listamais.com.br/Resources/js/ads.js
 @@||litecoin-faucet.com/libs/advertisement.js
 @@||maango.info^$generichide
@@ -960,6 +963,7 @@ youporn.com###adblock_1
 @@||thedailybeast.com^*/advert.$script
 @@||theoutline.com/ads.js
 @@||thepiratebay.run^$generichide
+@@||theroot.com^$generichide
 @@||therse.info/popunder.gif$image
 @@||thestranger.com^*/ads.js
 @@||thewrap.com/ad_frame.php
@@ -1096,12 +1100,12 @@ verdirectotv.com##img[src^="http://verdirectotv.com/wp-content/themes/wtb-video-
 ! wbur.org
 wbur.org#@#.adsbox
 ! kinja.com
-kinja.com###sharingfooter
-kinja.com###taboola-below-article-thumbnails
-kinja.com###taboola-top-banner-abp
-kinja.com##.js_ad-top-banner
-kinja.com##.js_contained-ad-container
-kinja.com##.newsletter-subscribe
+lifehacker.com,gizmodo.com,deadspin.com,theroot.com,kinja.com###sharingfooter
+lifehacker.com,gizmodo.com,deadspin.com,theroot.com,kinja.com###taboola-below-article-thumbnails
+lifehacker.com,gizmodo.com,deadspin.com,theroot.com,kinja.com###taboola-top-banner-abp
+lifehacker.com,gizmodo.com,deadspin.com,theroot.com,kinja.com##.js_ad-top-banner
+lifehacker.com,gizmodo.com,deadspin.com,theroot.com,kinja.com##.js_contained-ad-container
+lifehacker.com,gizmodo.com,deadspin.com,theroot.com,kinja.com##.newsletter-subscribe
 ! doridro.net
 @@.png#$image,domain=doridro.net
 @@||doridro.net^$generichide
