@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: WEldjIgRLZTh/cXsBYL9vg
+! Checksum: flFkyCsQGNNPjQF7rV1wjA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 25 Jul 2017
+! Updated: 26 Jul 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1898,7 +1898,7 @@ last.fm##div[style*="visibility:"]
 @@||techdracula.com^$generichide
 techdracula.com##.apss-social-share
 ! techpowerup.com
-/\.techpowerup\.com/.*[a-zA-Z0-9]{13}/$image
+/\www\.techpowerup\.com/.*[a-f0-9]{5,9}/$image
 @@||techpowerup.com/forums/$image
 techpowerup.com##A[href][rel$="external"][target="_blank"]
 techpowerup.com##aside > article + section
