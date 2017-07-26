@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: flFkyCsQGNNPjQF7rV1wjA
+! Checksum: 4Xt2irDd9YFGSSOOScBqIg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 26 Jul 2017
 ! This list expires after 4 days
@@ -814,6 +814,7 @@ youporn.com###adblock_1
 @@||eviesays.com^*/ads.js$script
 @@||exactly0r.com/advertising.js
 @@||explosm.net/js/adsense.js
+@@||findthecompany.com/ad?$xmlhttprequest,~third-party
 @@||findthedata.com/ga.$script
 @@||flashgames.ru^*/advertisement.js
 @@||flashx1.tv/js/showad$script
@@ -844,6 +845,7 @@ youporn.com###adblock_1
 @@||gtsstatic.com^*/prebid_$script
 @@||hardwareheaven.com^*/advertisement.js
 @@||hardwarezone.com.sg/js/ads.js
+@@||healthgrove.com/ad?$xmlhttprequest,~third-party
 @@||healthline.com^*/advertising.js
 @@||hentaitake.net^$generichide
 @@||ibtimes.co.uk^*/ads.js
@@ -884,6 +886,7 @@ youporn.com###adblock_1
 @@||mirror.ninja/static/js/advertising.js
 @@||mmo-champion.com^*/adsense.js
 @@||mokeedev.com^$generichide
+@@||mooseroots.com/ad?$xmlhttprequest,~third-party
 @@||motherjones.net/adtracking.js
 @@||motherless.com/scripts/site_ads.js
 @@||mshcdn.com/assets/advertisement-*.js
@@ -910,6 +913,7 @@ youporn.com###adblock_1
 @@||pasteca.sh^$generichide
 @@||pcgameshardware.de/common/deliverad/$script
 @@||perveden.com^*/advertisement.js
+@@||petbreeds.com/ad?$xmlhttprequest,~third-party
 @@||photobucket.com^*/ads.js
 @@||player.h-cdn.com/ads.js
 @@||pordede.com^*/ads.js
@@ -949,8 +953,9 @@ youporn.com###adblock_1
 @@||smashingmagazine.com^*/ads.$script
 @@||smutty.com/openx/ad.js
 @@||softgames.de/assets/showads.js
+@@||softwareinsider.com/ad?$xmlhttprequest,~third-party
 @@||ssl-images-amazon.com^*/ads/$script
-@@||startclass.com/ad?
+@@||startclass.com/ad?$xmlhttprequest,~third-party
 @@||stocks.cafe/js/showads.js
 @@||studybreakmedia.com/doubleclick/$script
 @@||sueddeutsche.de^*/ads.js
