@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 4KzG6btKIBAihxBbx9TIig
+! Checksum: 7fUn+215syaYsW78AUL+ig
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 28 Jul 2017
 ! This list expires after 4 days
@@ -1737,6 +1737,13 @@ nj.com##.gig-share-bar-container
 ! oregonlive.com
 @@||oregonlive.com^$generichide
 oregonlive.com##.gig-share-bar-container
+! bournemouthecho.co.uk
+@@||bournemouthecho.co.uk^$generichide
+bournemouthecho.co.uk###cookieWarningR
+bournemouthecho.co.uk##.custom-sharing
+bournemouthecho.co.uk##.custom-sharing
+bournemouthecho.co.uk##.redesign-cta
+bournemouthecho.co.uk##.social-icon-container
 ! playboy.de
 @@||playboy.de^$generichide
 playboy.de###block-socialshareblock
