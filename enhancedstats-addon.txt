@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Pa4J3m8jm3wVzTzheET8zw
+! Checksum: mABUaKxwRoP33XYXSOJKIw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 27 Jul 2017
+! Updated: 28 Jul 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -726,6 +726,7 @@ youporn.com###adblock_1
 @@/js/advertisement.js$script,~third-party
 @@/js/adverts.$script,~third-party
 @@/jsad/advertisement.js$xmlhttprequest,~third-party
+@@/nonAdBlock/*$script
 @@/plugins/ad-blocking-detector/*$script,~third-party
 @@/scripts/ads.js$script
 @@/wp-content/*/adframe.js$script,~third-party
@@ -741,6 +742,7 @@ youporn.com###adblock_1
 @@||ads.mic.com/host.js
 @@||ads1-adnow.com/js/ads.js
 @@||adxprts.com^*/ads.js$script
+@@||akamaihd.net^*/ad*.js$script
 @@||akamaihd.net^*/ads.js
 @@||akamaized.net^*/ads.js
 @@||albanian.tv^$generichide
@@ -1046,6 +1048,8 @@ youporn.com###adblock_1
 /\.com\/[\w\/\-.+]{320,}/$subdocument,third-party
 ! Propellar Ads test
 /\:\/\/[a-z0-9]{5,26}\.com\/[0-9]{2,9}\.(css|js)$/$third-party,script,stylesheet
+!
+||adblockers-ns.servicebus.windows.net^$third-party
 !
 !---------- Anti Adblock Warnings ------
 !
@@ -1976,6 +1980,8 @@ haber1903.com##.adsNews
 haber1903.com##.logoAds
 haber1903.com##.newsINAds
 haber1903.com##div[id^="div-gpt-ad"]
+! Espanol
+@@||telecinco.es^$generichide
 ! Israeli
 @@||themarker.com/dclk/dfp/$xmlhttprequest,script
 @@||themarker.com^$generichide
@@ -2029,6 +2035,8 @@ ispazio.net##.twitter-follow-button
 t3n.de##.-facebook
 t3n.de##.-twitter
 t3n.de##.fb-page
+telecinco.es###cookiesAlert
+telecinco.es##DIV[class^="article__shared_bar"]
 themarker.com###art__tools_share
 themarker.com###top_banners
 themarker.com##.art__info
