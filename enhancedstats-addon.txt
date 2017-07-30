@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Cy8G+tbhSs9e/i4EG9fuPA
+! Checksum: TyWTaWurCmoWfAtYyYq13g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 30 Jul 2017
 ! This list expires after 4 days
@@ -1023,16 +1023,16 @@ youporn.com###adblock_1
 ||sqweb.com^$third-party
 ||techweb.com/adblocktrack
 ! blockadblock domains
-@@||adclixx.net^$script,domain=android-zone.ws|linkdrop.net|sznpaste.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|rule34hentai.net|finalservers.net|yalujailbreak.net
-@@||adnetasia.com^$script,domain=android-zone.ws|linkdrop.net|sznpaste.net|rule34hentai.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|finalservers.net|yalujailbreak.net
-@@||adtrackers.net^$script,domain=rule34hentai.net|android-zone.ws|linkdrop.net|sznpaste.net|finalservers.net|cloudwebcopy.com|freeomovie.com|yalujailbreak.net|linkneverdie.com
-@@||bannertrack.net^$script,domain=rule34hentai.net|finalservers.net|android-zone.ws|linkdrop.net|sznpaste.net|yalujailbreak.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com
-@@||doubleclickbygoogle.com^$image,domain=rule34hentai.net|yalujailbreak.net|sznpaste.net|android-zone.ws|linkdrop.net|linkneverdie.com|cloudwebcopy.com|freeomovie.com
-@@||foxnetworks.com^$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|android-zone.ws|freeomovie.com|cloudwebcopy.com
-@@||google.com/adsense/$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|cloudwebcopy.com
+@@||adclixx.net^$script,domain=animes-mangas-ddl.net|android-zone.ws|linkdrop.net|sznpaste.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|rule34hentai.net|finalservers.net|yalujailbreak.net
+@@||adnetasia.com^$script,domain=animes-mangas-ddl.net|android-zone.ws|linkdrop.net|sznpaste.net|rule34hentai.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|finalservers.net|yalujailbreak.net
+@@||adtrackers.net^$script,domain=rule34hentai.net|animes-mangas-ddl.net|android-zone.ws|linkdrop.net|sznpaste.net|finalservers.net|cloudwebcopy.com|freeomovie.com|yalujailbreak.net|linkneverdie.com
+@@||bannertrack.net^$script,domain=rule34hentai.net|finalservers.net|animes-mangas-ddl.net|android-zone.ws|linkdrop.net|sznpaste.net|yalujailbreak.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com
+@@||doubleclickbygoogle.com^$image,domain=rule34hentai.net|yalujailbreak.net|sznpaste.net|animes-mangas-ddl.net|android-zone.ws|linkdrop.net|linkneverdie.com|cloudwebcopy.com|freeomovie.com
+@@||foxnetworks.com^$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|animes-mangas-ddl.net|android-zone.ws|freeomovie.com|cloudwebcopy.com
+@@||google.com/adsense/$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|animes-mangas-ddl.net|android-zone.ws|cloudwebcopy.com
 @@||gstatic.com/adx/doubleclick.ico$image,third-party
-@@||twitter.com^$domain=rule34hentai.net|finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|cloudwebcopy.com
-@@||yahoo.com^$image,domain=finalservers.net|rule34hentai.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|cloudwebcopy.com
+@@||twitter.com^$domain=rule34hentai.net|finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|animes-mangas-ddl.net|cloudwebcopy.com
+@@||yahoo.com^$image,domain=finalservers.net|rule34hentai.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|cloudwebcopy.com|animes-mangas-ddl.net
 !
 ! Test filters to block popups
 /\.cloudfront\.net/\?.*[a-zA-Z0-9]{5,16}/$subdocument,script,third-party,domain=~amazon.com
@@ -1975,6 +1975,7 @@ thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 @@||zive.cz^*/advertisment.js
 ! French
 @@||advertising.leboncoin.fr/|$script,~third-party
+@@||animes-mangas-ddl.net^$generichide
 @@||expansion.com^$generichide
 @@||kolplay.com/js/ads_$script
 @@||nicematin.com^*/ads.js
