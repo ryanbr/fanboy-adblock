@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 6cdnYNtWsbfUYuThKoQi8A
+! Checksum: 8H7XRDSvDcM1Kq14gCb02g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 30 Jul 2017
 ! This list expires after 4 days
@@ -1407,7 +1407,10 @@ gamereactor.dk,gamereactor.eu##.twitter-follow-button
 ! how2play.pl
 @@||spolecznosci.net^*/advertisement.js
 ! gry.pl
+@@||g.doubleclick.net/gpt/pubads_impl*.js$domain=gry.pl
+@@||googleapis.com/js/sdkloader/ima3.js$domain=famobi.com
 @@||gry.pl^*/advertisement.js
+gry.pl##.mpu
 ! clubic.com
 @@||clubic.com^$generichide
 clubic.com###cookieu_header
@@ -2104,7 +2107,7 @@ xkorean.net##a[href*="&aff_id"]
 ! ---------- Whitelisting rules ----------
 !
 ! test filter for google/gpt
-@@||googletagservices.com/tag/js/gpt.js$domain=whosampled.com|zdnet.com|thewrap.com|expansion.com|hardware.info|techrepublic.com|abczdrowie.pl|playrust.io|v3.co.uk|wired.com|ebaumsworld.com|pocketnow.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
+@@||googletagservices.com/tag/js/gpt.js$domain=gry.pl|whosampled.com|zdnet.com|thewrap.com|expansion.com|hardware.info|techrepublic.com|abczdrowie.pl|playrust.io|v3.co.uk|wired.com|ebaumsworld.com|pocketnow.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
 ||googletagmanager.com/ns.html$third-party
 ||googletagservices.com/tag/js/gpt.js$third-party
 !
