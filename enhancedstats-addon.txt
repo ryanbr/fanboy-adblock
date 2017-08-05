@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: tUBsshgmwwYm5gcFsWktBQ
+! Checksum: iCD8FtRcXk0MO/29p1Q+8A
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 6 Aug 2017
 ! This list expires after 4 days
@@ -2060,6 +2060,7 @@ parenting.pl##.exitintent
 ! Intl Specific elements hiding
 abczdrowie.pl###WP-cookie-info
 albanian.tv##.social-profile-icons
+animes-mangas-ddl.net##.av-share-box
 business.dk##.article-social
 business.dk##.cookiewarning
 diariodenavarra.es###abMsgWrap
