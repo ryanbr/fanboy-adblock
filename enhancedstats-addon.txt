@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: iCD8FtRcXk0MO/29p1Q+8A
+! Checksum: /BDeAo6wk5yFRiFmXY2YFw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 6 Aug 2017
 ! This list expires after 4 days
@@ -1699,7 +1699,10 @@ mlive.com##.social_sidebar
 @@||adtrackers.net^$script,domain=hackintosh.zone|hackintosh.computer
 @@||amazon-adsystem.com^$script,domain=hackintosh.zone|hackintosh.computer
 @@||bannertrack.net^$script,domain=hackintosh.zone|hackintosh.computer
+@@||hackintosh.computer/adblock/
+@@||hackintosh.computer/doubleclick/$script
 @@||hackintosh.computer/wp-content/plugins/myownfunctions/adframe.js$domain=hackintosh.computer
+@@||hackintosh.computer^$generichide
 @@||hackintosh.zone^*/ads.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hackintosh.computer
 hackintosh.zone,hackintosh.computer##iframe[width="300"]
