@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: sL7V7rMCCFDWLuiNoeJeeQ
+! Checksum: puGbPSAq6uvh6ik/sHoz7A
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 5 Aug 2017
+! Updated: 6 Aug 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2033,6 +2033,7 @@ haber1903.com##div[id^="div-gpt-ad"]
 @@||dasolo.co/advertisement.js
 @@||dasolo.co^$generichide
 @@||fkadb.bid/*ad$script,domain=calciomercato.com
+@@||italiashare.info^$generichide
 @@||italyshare.club/ad*$script,domain=dasolo.co
 @@||ivg.it/sponsorbanners/spcjs.js
 @@||ivg.it^$generichide
