@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: u4gVKPo/5/zD/jTKyaGEGQ
+! Checksum: Si0pF0olKcPuyj5VpEutKw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 5 Aug 2017
+! Updated: 6 Aug 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2241,6 +2241,7 @@ logicconcept.eu###mc_top_bar
 lrb.co.uk##div[style="border-bottom:1px solid #adadad;padding:5px;background:#f4f4f4;color:#333;font:1em/1 sans-serif"]
 m.reddit.com##.infobar
 mabknives.co.uk##.topbarBox
+macleans.ca##.rdm-daac-notice-template
 mailjet.com,umicore.com,pjon.org,amnesty.org,anite.com,asda.com,ashridge.org.uk,chemistdirect.co.uk,consumeraffairs.org.uk,dur.ac.uk,ets2mp.com,festicket.com,mindshareworld.com,luxottica.be,mclaren.com,prtb.ie,redbull.com,royalparks.org.uk,thenottingham.com,tescomobile.ie,ukcisa.org.uk,unity3d.com,unknownphone.com,uptodown.com,viralnewschart.com,coinbase.com,leetchi.com##.cookies
 malaysiaairlines.com###cookie_policy_modal
 malaysiaairlines.com##.modal-backdrop
