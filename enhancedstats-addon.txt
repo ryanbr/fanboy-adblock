@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: E3cCrN0s88EGmYuLrZSM6A
+! Checksum: QAjSohqBvwcMv5k5R5/7aw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 6 Aug 2017
 ! This list expires after 4 days
@@ -1996,6 +1996,8 @@ thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 @@||webnews.bg/assets/js/ads.js
 @@||zarabiajnaokazjach.pl^$generichide
 @@||zive.cz^*/advertisment.js
+! Brazil
+@@/favicon.ico$image,third-party,domain=clubedohardware.com.br
 ! French
 @@||advertising.leboncoin.fr/|$script,~third-party
 @@||animes-mangas-ddl.net^$generichide
@@ -2047,7 +2049,7 @@ haber1903.com##div[id^="div-gpt-ad"]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zeusnews.it|faqmozilla.org
 @@||zeusnews.it^$generichide
 ! Norwegian
-@@||$image,domain=itavisen.no,third-party
+@@/favicon.ico$image,domain=itavisen.no,third-party
 @@||itavisen.no^$generichide
 itavisen.no##.ad
 itavisen.no##.social
