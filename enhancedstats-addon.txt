@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: uylt7Zw50Sr5EsEZMP/UsA
+! Checksum: E3cCrN0s88EGmYuLrZSM6A
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 6 Aug 2017
 ! This list expires after 4 days
@@ -2046,6 +2046,11 @@ haber1903.com##div[id^="div-gpt-ad"]
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=zeusnews.it|faqmozilla.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zeusnews.it|faqmozilla.org
 @@||zeusnews.it^$generichide
+! Norwegian
+@@||$image,domain=itavisen.no,third-party
+@@||itavisen.no^$generichide
+itavisen.no##.ad
+itavisen.no##.social
 ! Japanese
 @@||i-mobile.co.jp/script/ad$script
 ! Polish
