@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Nhfqzuolnpu/pzQEMH+HLg
+! Checksum: HJNNfXcdwpF31gvcQLkjIw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 6 Aug 2017
+! Updated: 7 Aug 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1034,16 +1034,16 @@ youporn.com###adblock_1
 ||sqweb.com^$third-party
 ||techweb.com/adblocktrack
 ! blockadblock domains
-@@||adclixx.net^$script,domain=animes-mangas-ddl.net|android-zone.ws|linkdrop.net|sznpaste.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|rule34hentai.net|finalservers.net|yalujailbreak.net
-@@||adnetasia.com^$script,domain=animes-mangas-ddl.net|android-zone.ws|linkdrop.net|sznpaste.net|rule34hentai.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|finalservers.net|yalujailbreak.net
-@@||adtrackers.net^$script,domain=rule34hentai.net|animes-mangas-ddl.net|android-zone.ws|linkdrop.net|sznpaste.net|finalservers.net|cloudwebcopy.com|freeomovie.com|yalujailbreak.net|linkneverdie.com
-@@||bannertrack.net^$script,domain=rule34hentai.net|finalservers.net|animes-mangas-ddl.net|android-zone.ws|linkdrop.net|sznpaste.net|yalujailbreak.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com
-@@||doubleclickbygoogle.com^$image,domain=rule34hentai.net|yalujailbreak.net|sznpaste.net|animes-mangas-ddl.net|android-zone.ws|linkdrop.net|linkneverdie.com|cloudwebcopy.com|freeomovie.com
-@@||foxnetworks.com^$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|animes-mangas-ddl.net|android-zone.ws|freeomovie.com|cloudwebcopy.com
-@@||google.com/adsense/$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|animes-mangas-ddl.net|android-zone.ws|cloudwebcopy.com
+@@||adclixx.net^$script,domain=wowebook.org|animes-mangas-ddl.net|android-zone.ws|linkdrop.net|sznpaste.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|rule34hentai.net|finalservers.net|yalujailbreak.net
+@@||adnetasia.com^$script,domain=animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|sznpaste.net|rule34hentai.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|finalservers.net|yalujailbreak.net
+@@||adtrackers.net^$script,domain=rule34hentai.net|animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|sznpaste.net|finalservers.net|cloudwebcopy.com|freeomovie.com|yalujailbreak.net|linkneverdie.com
+@@||bannertrack.net^$script,domain=rule34hentai.net|finalservers.net|animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|sznpaste.net|yalujailbreak.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com
+@@||doubleclickbygoogle.com^$image,domain=rule34hentai.net|yalujailbreak.net|sznpaste.net|animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|linkneverdie.com|cloudwebcopy.com|freeomovie.com
+@@||foxnetworks.com^$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|animes-mangas-ddl.net|wowebook.org|android-zone.ws|freeomovie.com|cloudwebcopy.com
+@@||google.com/adsense/$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|animes-mangas-ddl.net|wowebook.org|android-zone.ws|cloudwebcopy.com
 @@||gstatic.com/adx/doubleclick.ico$image,third-party
-@@||twitter.com^$domain=rule34hentai.net|finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|animes-mangas-ddl.net|cloudwebcopy.com
-@@||yahoo.com^$image,domain=finalservers.net|rule34hentai.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|cloudwebcopy.com|animes-mangas-ddl.net
+@@||twitter.com^$domain=rule34hentai.net|finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|animes-mangas-ddl.net|wowebook.org|cloudwebcopy.com
+@@||yahoo.com^$image,domain=finalservers.net|rule34hentai.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|cloudwebcopy.com|wowebook.org|animes-mangas-ddl.net
 !
 ! Test filters to block popups
 /\.cloudfront\.net/\?.*[a-zA-Z0-9]{5,16}/$subdocument,script,third-party,domain=~amazon.com
