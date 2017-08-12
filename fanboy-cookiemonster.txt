@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: aMQeWDir0szV628SKEIqJQ
+! Checksum: RUQhIUDUl3ebBF5yJeM2ig
 ! Title: Fanboy's Cookiemonster List
-! Updated: 10 Aug 2017
+! Updated: 12 Aug 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2749,12 +2749,12 @@ cliper.pt###cook
 clubhyundai.es##div[id][class] > div[class]
 coches.net###yc
 colorobbia.pt###barraaceptacion
+flooxer.com,metalomarao.pt##.cookies
 iubenda.com###iubenda-cs-banner
 iubenda.com##a[style="padding-top: 10px; display: block;"]
 lavozdegalicia.es##.alert
 leroymerlin.es###divFlotante
 linux-party.com###avisolegal
-metalomarao.pt##.cookies
 moviles.com###cookies
 terra.es###trr-root
 uc.pt##.warning-bar
