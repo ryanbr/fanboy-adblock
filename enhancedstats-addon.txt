@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: n3doxFT1aIkDNKzXDH7aHg
+! Checksum: CcmRZZd+V4gOuBkSCD57Pg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 18 Aug 2017
 ! This list expires after 4 days
@@ -2046,10 +2046,13 @@ haber1903.com##.logoAds
 haber1903.com##.newsINAds
 haber1903.com##div[id^="div-gpt-ad"]
 ! Espanol
+@@||eltiempohoy.es^$generichide
+@@||eltiempohoy.es^*/adjs.js
 @@||mitele.es/vendor/adjs.js
 @@||mitele.es/vendor/fuckadblock.js
 @@||mitele.es^$generichide
 @@||telecinco.es^$generichide
+@@||telecinco.es^*/adjs.js
 ! Israeli
 @@||themarker.com/dclk/dfp/$xmlhttprequest,script
 @@||themarker.com^$generichide
@@ -2120,8 +2123,8 @@ ladige.it##.sticky-social
 t3n.de##.-facebook
 t3n.de##.-twitter
 t3n.de##.fb-page
-telecinco.es###cookiesAlert
-telecinco.es##DIV[class^="article__shared_bar"]
+telecinco.es,eltiempohoy.es###cookiesAlert
+telecinco.es,eltiempohoy.es##div[class^="article__shared_bar"]
 themarker.com###art__tools_share
 themarker.com###top_banners
 themarker.com##.art__info
