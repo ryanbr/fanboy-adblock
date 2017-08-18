@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: uuU9GngJ+UYMBVyeBO5hHw
+! Checksum: n3doxFT1aIkDNKzXDH7aHg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 18 Aug 2017
 ! This list expires after 4 days
@@ -2011,6 +2011,7 @@ thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 @@||titulky.com^$generichide
 @@||totaldebrid.org^$generichide
 @@||trackad.cz/adtrack.php
+@@||tsa-algerie.com^$generichide
 @@||tvinfo.net^*/adblocker.js
 @@||vooxe.com/adframe.js
 @@||webnews.bg/assets/js/ads.js
@@ -2129,6 +2130,7 @@ tout-bon.com##.fb-page
 tout-bon.com##.social-links
 tout-bon.com##.widget_taboola
 tout-bon.com##.widget_wysija
+tsa-algerie.com##.template-footer__cookies
 tvregionalna24.pl##.diablo-placeholder
 ! 
 ! Warnings
