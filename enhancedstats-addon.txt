@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 6hdaNTck+nt3P04PmdhAYg
+! Checksum: uuU9GngJ+UYMBVyeBO5hHw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 18 Aug 2017
 ! This list expires after 4 days
@@ -1104,6 +1104,8 @@ gamebanana.com##.BannerModule
 @@||popmyads.com/pma.js$script,domain=publicleech.xyz
 ! xxvideosporno.net
 @@||xxvideosporno.net^$generichide
+! fyi.tv,aetv.com
+@@||adm.fwmrm.net^*/AdManager.js$domain=fyi.tv|aetv.com
 ! pg3dhacks.com
 @@||pg3dhacks.com^$generichide
 ! mylivecricket.tv
