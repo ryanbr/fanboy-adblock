@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 4gVzizOc+S/cIlewtMO6OQ
+! Checksum: iNIBfrmmiTQBq35zUYUkyg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 19 Aug 2017
 ! This list expires after 4 days
@@ -2056,6 +2056,9 @@ haber1903.com##div[id^="div-gpt-ad"]
 @@||mitele.es^$generichide
 @@||telecinco.es^$generichide
 @@||telecinco.es^*/adjs.js
+! Hungary
+net.hr#@#.reklama
+net.hr#@#.reklama1
 ! Israeli
 @@||themarker.com/dclk/dfp/$xmlhttprequest,script
 @@||themarker.com^$generichide
