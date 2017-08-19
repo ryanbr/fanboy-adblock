@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: J5+4qOXrHnREgP52Ge09ZQ
+! Checksum: AoBJ4DkeYNFc3c1FPCOnPQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 19 Aug 2017
 ! This list expires after 4 days
@@ -1360,6 +1360,8 @@ hardware.info#@#.advertorial
 ! geekzone.co.nz
 @@||geekzone.co.nz^$generichide
 geekzone.co.nz##.share__button
+geekzone.co.nz##div[style*="width:160px;height:600px;"]
+geekzone.co.nz##div[style*="width:336px; height:280px;"]
 ! flashback.org
 @@||flashback.org/ads/
 ! adage.com
