@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Xt+A8M6px5TEhujQ9UD28Q
+! Checksum: 6BdxVTaBsDdSIAbiX01YwQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 19 Aug 2017
 ! This list expires after 4 days
@@ -413,6 +413,7 @@ nautil.us###adpayload
 @@||thepiratebay.org^*/tpb.js|
 arstechnica.com##a[href="/subscriptions/"]
 blu-ray.com###getstarted
+commondreams.org##.cta-processed
 drugs.com##div[style="left: 0px; position: fixed; top: auto; bottom: 48px;"]
 facebook.com###stream_pagelet > #pagelet_megaphone
 fark.com##.top_right_container
