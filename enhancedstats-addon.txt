@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: aS4GOepBEtKWEgKSTX2VuA
+! Checksum: J5+4qOXrHnREgP52Ge09ZQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 19 Aug 2017
 ! This list expires after 4 days
@@ -1390,6 +1390,15 @@ kitguru.net##div[style^="z-index:"]
 ! coderexample.com
 @@||coderexample.com^$generichide
 coderexample.com##[data-ad-client]
+! collegehumor.com
+@@||adserver.xpanama.net/client-*.js$domain=collegehumor.com
+@@||amazon-adsystem.com/aax2/apstag.js$domain=collegehumor.com
+@@||doubleclick.net/gampad/ads?$domain=collegehumor.com
+@@||doubleclick.net/gpt/pubads_impl$domain=collegehumor.com
+@@||googlesyndication.com/pagead/js/*/m_window_focus_non_hydra.js$domain=collegehumor.com
+@@||googlesyndication.com/pagead/js/*/osd_listener.js$domain=collegehumor.com
+@@||googlesyndication.com/simgad/$domain=collegehumor.com
+collegehumor.com##[style="border: 0pt none;"] > iframe
 ! nydailynews.com
 @@||amazon-adsystem.com/aax2/apstag.js$domain=nydailynews.com
 @@||go.sonobi.com^$script,domain=nydailynews.com
