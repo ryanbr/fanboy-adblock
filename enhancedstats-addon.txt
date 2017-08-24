@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: gMUBSCMkbGo1A54w40/nVQ
+! Checksum: pcp6Q4fPKn+iOoN0Dexrgg
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 20 Aug 2017
+! Updated: 24 Aug 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -723,7 +723,7 @@ youporn.com###adblock_1
 @@/javascript/advertisement.js$script,~third-party
 @@/javascripts/advert.js$script,~third-party
 @@/js/adframe.js$script,~third-party
-@@/js/ads.js$script,~third-party
+@@/js/ads.js$~third-party
 @@/js/advert.js$script,~third-party
 @@/js/advertisement.$script
 @@/js/adverts.$script,~third-party
@@ -1027,6 +1027,7 @@ youporn.com###adblock_1
 @@||vidzi.tv/static/ads.js
 @@||vk.com/ads?adslogger$script
 @@||vox-cdn.com/javascripts/lib/advertisement.
+@@||wallpapermania.eu^$generichide
 @@||washingtonexaminer.com^*/ad-block.png
 @@||weather.com^*/pubads.js
 @@||websking.com/static/js/advertisement.js
