@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: SBT0X3VopjisBX++5vObDA
+! Checksum: 50knhxAig1A666cjitE1sQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 3 Sep 2017
 ! This list expires after 4 days
@@ -1924,6 +1924,8 @@ venturebeat.com#@#.adsbox
 geektime.co.il##.bottom-sponsors
 geektime.co.il##.sidebar > .widget:first-child
 geektime.co.il##[id][title]
+! lolalytics.com
+lolalytics.com###newtooltip + [style="display: block;"]
 ! worldfree4u.lol
 @@||d3ncat0syb6rim.cloudfront.net^$script,domain=worldfree4u.lol
 ! usatoday.com
