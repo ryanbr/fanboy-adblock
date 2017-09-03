@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 24GMTXwb8nwSAnJQatZjzQ
+! Checksum: qz6WwbZbmcYFgjaw/3YSVQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 31 Aug 2017
+! Updated: 3 Sep 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -745,6 +745,7 @@ youporn.com###adblock_1
 @@||adbilty.me^$generichide
 @@||ads.mic.com/host.js
 @@||ads1-adnow.com/js/ads.js
+@@||adserver.dca13.com/js/ads*.js$script
 @@||adxprts.com^*/ads.js$script
 @@||akamaihd.net^*/ad*.js$script
 @@||akamaihd.net^*/ads.js
@@ -797,6 +798,7 @@ youporn.com###adblock_1
 @@||cursecdn.com^*/adsense.js
 @@||cxmedia.co^*/ads.js
 @@||cyberterminators.co^$generichide
+@@||d3pkae9owd2lcf.cloudfront.net^$script,domain=hockeybuzz.com|hotslogs.com|wowhead.com
 @@||da-ads.com/ads.js$script
 @@||dailydot.com^*/ads.$script
 @@||dailymail.co.uk/adstest2/$script
@@ -824,6 +826,7 @@ youporn.com###adblock_1
 @@||eviesays.com^*/ads.js$script
 @@||exactly0r.com/advertising.js
 @@||explosm.net/js/adsense.js
+@@||fas.li^$generichide
 @@||findthecompany.com/ad?$xmlhttprequest,~third-party
 @@||findthedata.com/ga.$script
 @@||flashgames.ru^*/advertisement.js
@@ -934,6 +937,7 @@ youporn.com###adblock_1
 @@||petbreeds.com/ad?$xmlhttprequest,~third-party
 @@||phandroid.com/ads.js
 @@||photobucket.com^*/ads.js
+@@||picfont.com^$generichide
 @@||player.h-cdn.com/ads.js
 @@||pordede.com^*/ads.js
 @@||pornrabbit.com/static/advertisement.js
@@ -944,6 +948,7 @@ youporn.com###adblock_1
 @@||quoka.de/assets/js/adframe.js
 @@||rackcdn.com/js/ads.js
 @@||radiomagonline.com/js/ads.js
+@@||randomarchive.com^$generichide
 @@||rapidvideo.com/js/ads.php
 @@||raptu.com/js/ads.php
 @@||rawgit.com/brastagi/javascript/gh-pages/adframe.js
@@ -991,6 +996,7 @@ youporn.com###adblock_1
 @@||telegraph.co.uk^*/googleAds.js
 @@||the-star.co.ke/classifieds/Scripts/ads.js
 @@||theatlantic.com^*/advertisement.js
+@@||thebarchive.com^$generichide
 @@||thedailybeast.com^*/advert.$script
 @@||theoutline.com/ads.js
 @@||thepiratebay.run^$generichide
