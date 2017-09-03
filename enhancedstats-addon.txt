@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 0YfQH6AI/x9GB938a6PKVQ
+! Checksum: q0rsnIWLP9cq6Sf3E5XRzA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 3 Sep 2017
 ! This list expires after 4 days
@@ -1166,6 +1166,8 @@ lifehacker.com,gizmodo.com,deadspin.com,theroot.com,kinja.com##.newsletter-subsc
 @@||indianhotcomics.com^$generichide
 !  pinayporndaddy.com
 @@||pinayporndaddy.com^$generichide
+! ilpuntotecnicoeadsl.com,kmspico.esy.es,irc-source.com,orgasmnaut.com
+##div[class$="-hide"][zoompage-fontsize][style="display: block;"]
 ! iklangratiz.com
 @@||iklangratiz.com^$generichide
 ! leakedearly.gdn
