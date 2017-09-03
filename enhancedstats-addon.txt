@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: iKLLD9zmTziRR8ZFoyzr9g
+! Checksum: RJFp4oQhDztx7DSSFQ415Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 3 Sep 2017
 ! This list expires after 4 days
@@ -995,7 +995,6 @@ youporn.com###adblock_1
 @@||techygeekshome.info^$generichide
 @@||telegraph.co.uk^*/googleAds.js
 @@||the-star.co.ke/classifieds/Scripts/ads.js
-@@||theatlantic.com^*/advertisement.js
 @@||thebarchive.com^$generichide
 @@||thedailybeast.com^*/advert.$script
 @@||theoutline.com/ads.js
@@ -1322,6 +1321,12 @@ squidboards.com##.top_block
 @@||blogspot.com^$image,domain=bludv.com
 @@||bludv.com^$generichide
 ! theatlantic.com
+@@||g.doubleclick.net/gampad/ads?gdfp_req=1&$script,domain=theatlantic.com
+@@||g.doubleclick.net/gpt/pubads_impl_$script,domain=theatlantic.com
+@@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=theatlantic.com
+@@||serving-sys.com^$xmlhttprequest,domain=theatlantic.com
+@@||theatlantic.com^$generichide
+@@||theatlantic.com^*/adv$script
 ||theatlantic.com/assets/static/b/theatlantic/js/vendors.min.*.js
 ! smitedatamining.com
 @@||smitedatamining.com^$generichide
