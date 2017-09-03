@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: PqKJcUeUQVgpN+FtFKdlzg
+! Checksum: xenJGCdRbSaUw5I7nRBH9g
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 3 Sep 2017
 ! This list expires after 4 days
@@ -38,7 +38,6 @@
 .cookie-law.$script
 .cookie-policy.
 .cookie_law.
-.cookiebar.js
 .cookieconsent.
 .cookiecuttr.
 .cookielaw.js
@@ -2878,13 +2877,10 @@ your-move.co.uk#@#.cookie_policy
 @@||barclays.co.uk/js/cookiepolicy.js
 @@||bolha.com/js/obj.cookiesPolicy.js
 @@||cookielawinfo.com^$~third-party
-@@||eblogx.com/js/jquery.cookiebar.js
 @@||eucookiedirective.com^$~third-party
 @@||hp.com^*/caas-privacy-cookie-$script
 @@||inglenookproductions.com/css/website-disclaimer---cookies-policy.css
 @@||lightningmaps.org^*/cookieconsent.js
-@@||mtgdecks.net/js/bootstrap.min.js*.cookiebar.js
-@@||netdna-ssl.com/js/jquery.cookiebar.js$domain=netcetera.co.uk
 @@||pages03.net^*/iMAWebCookie.js$script,domain=paulstuart.com
 @@||presse-citron.net/wordpress_prod/wp-content/plugins/uk-cookie-consent/$script
 @@||romagnanoi.it/js/cookiecuttr/jquery.cookiecuttr.js
