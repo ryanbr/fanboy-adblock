@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: qz6WwbZbmcYFgjaw/3YSVQ
+! Checksum: iKLLD9zmTziRR8ZFoyzr9g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 3 Sep 2017
 ! This list expires after 4 days
@@ -1053,6 +1053,8 @@ youporn.com###adblock_1
 ||cloudfront.net/abw.js
 ||sqweb.com^$third-party
 ||techweb.com/adblocktrack
+! https://hg.adblockplus.org/easylist/rev/46138acfc93b
+||contributor.google.com^*/loader.js$third-party
 ! blockadblock domains
 @@||adclixx.net^$script,domain=wowebook.org|animes-mangas-ddl.net|android-zone.ws|linkdrop.net|sznpaste.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|rule34hentai.net|finalservers.net|yalujailbreak.net
 @@||adnetasia.com^$script,domain=animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|sznpaste.net|rule34hentai.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|finalservers.net|yalujailbreak.net
