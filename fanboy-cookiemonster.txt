@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 7a1nO53cN+jPbFiHa6sFVA
+! Checksum: PqKJcUeUQVgpN+FtFKdlzg
 ! Title: Fanboy's Cookiemonster List
-! Updated: 12 Aug 2017
+! Updated: 3 Sep 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -377,6 +377,7 @@ _site_cookie_
 ###avis-cookies
 ###avis_cookies
 ###aviso-cookies
+###aviso_cookies
 ###avisoCookies
 ###AvisoCookieslaw
 ###avisoCookiesLayer
@@ -493,6 +494,7 @@ _site_cookie_
 ###cookie-bar-main
 ###cookie-bar-module
 ###cookie-block
+###cookie-box
 ###cookie-clear-bar
 ###cookie-cnil-box
 ###cookie-compliance
@@ -526,6 +528,7 @@ _site_cookie_
 ###cookie-info-div
 ###cookie-info-layer
 ###cookie-info-text
+###cookie-inform-message
 ###cookie-information
 ###cookie-information-banner
 ###cookie-inner-wrapper
@@ -723,6 +726,7 @@ _site_cookie_
 ###cookieDivContent
 ###cookieDough
 ###cookieDropDown
+###cookiefascia
 ###cookieFixed
 ###cookieFooter
 ###cookieFrame
@@ -838,6 +842,7 @@ _site_cookie_
 ###cookies-acc
 ###cookies-agreed-wrapper
 ###cookies-agreement
+###cookies-agreement-bar
 ###cookies-agreement-box
 ###cookies-alert
 ###cookies-alert-wrapper
@@ -1089,6 +1094,7 @@ _site_cookie_
 ###GMI_Privacy_Policy
 ###golem-cookie-accept
 ###grey-bar-cookies-contents
+###gtm_privacy
 ###have-a-cookie
 ###headband-cookie
 ###headband_cookies
@@ -1100,6 +1106,7 @@ _site_cookie_
 ###hi-cookie-box
 ###hoodCookieInfoBox
 ###hp_cconsent
+###hPolicyCookieAlert
 ###htmlPopinCookies
 ###i-cookies-bar
 ###IBTCookiePolicy
@@ -1237,6 +1244,7 @@ _site_cookie_
 ###privacy-policy
 ###privacy-policy-notice
 ###privacy-policy-panel
+###privacy_accept
 ###privacy_box_container
 ###privacy_cookiepolicy
 ###privacy_law
@@ -1315,6 +1323,7 @@ _site_cookie_
 ###tx_cookies
 ###tx_cpscookieinfobox_pi1
 ###uecookies
+###uhfCookieAlert
 ###ui-cookie-policy
 ###ujszo_cookiealert
 ###uk-cookie-use
@@ -1353,6 +1362,7 @@ _site_cookie_
 ##.acceptCookies
 ##.acceptcookies
 ##.acceptCookiesBox
+##.afe-cookie-banner
 ##.ag-cookie-policy-wrapper
 ##.agegate-cookie
 ##.agree-cookie-wrap
@@ -1445,6 +1455,7 @@ _site_cookie_
 ##.cookie-acceptor
 ##.cookie-alert
 ##.cookie-alert-box
+##.cookie-announce
 ##.cookie-assistant
 ##.cookie-banner
 ##.cookie-banner-bottom
@@ -1533,6 +1544,7 @@ _site_cookie_
 ##.cookie-policy-notice
 ##.cookie-policy-popin
 ##.cookie-policy-statement
+##.cookie-policy-window
 ##.cookie-pop
 ##.cookie-pop-up-container
 ##.cookie-popup
@@ -1630,6 +1642,7 @@ _site_cookie_
 ##.cookieDisclaimerContainer
 ##.cookieDisclaimerContainerWrapper
 ##.cookiediv
+##.cookiefascia
 ##.cookieHeader
 ##.cookieInfo
 ##.cookieinfo
@@ -1790,6 +1803,7 @@ _site_cookie_
 ##.defaultCookie
 ##.disclaimerContainer
 ##.disclaimerCookies
+##.disclame_block
 ##.dismissable-cookie-policy
 ##.divascookies
 ##.divCookiePopUp
@@ -2028,7 +2042,9 @@ _site_cookie_
 ##.sys_cc-cookies
 ##.tcCookiesDialogWrapper
 ##.tCook
+##.template-footer__cookies
 ##.tenc-header__cookies
+##.tendina-cookie
 ##.tesco-cookie
 ##.texteAlerteCookie
 ##.texto_cookies
@@ -2068,6 +2084,7 @@ _site_cookie_
 ! Common Cookie element
 ###sliding-popup.sliding-popup-bottom
 ###sliding-popup.sliding-popup-top
+##.biscotto > .biscotto-inner
 ! Common Cookie element
 ###sliding-popup.sliding-popup-bottom
 ###sliding-popup.sliding-popup-top
@@ -2109,6 +2126,7 @@ askinology.com##COOKIE-NOTICE
 autoevolution.com###prajiturele
 autotask.com##.alertbar
 axs.com,virgin.com###privacy-policy
+babcockinternational.com###js-babcock-cookie-bar
 bankofengland.co.uk##.container-notifications
 bbc.co.uk##.pulse-banner
 bbc.com##.domestic-header-wrapper
@@ -2649,6 +2667,7 @@ v6.se###layer
 !
 !---------- French Site Specific Hiding Rules ----------
 !
+###capaAvisoPoliticaCookies_superior_mensajes
 ###sf-minisite-toolbar
 ##.recocliv2
 118000.fr,clique.tv,communauto.com,ouestjob.com##.cookies
@@ -2673,7 +2692,6 @@ cuisineaz.com##.cazLightbox
 cushmanwakefield.fr##.m-warning
 ddb.fr,pmu.fr,regionguadeloupe.fr##.cnil
 e-leclerc.com##.popover
-elpais.com###capaAvisoPoliticaCookies_superior_mensajes
 elsevier-masson.fr###myModal
 ethias.be###tab_ck
 fnacspectacles.com##.modal-backdrop
@@ -2764,6 +2782,7 @@ winphonemetro.com##.c_i_container
 !
 !---------- Italian Site Specific Blocking Rules ----------
 !
+aeroportoditorino.it##.cookie
 comicsbox.it###bottom-banner
 educazioneemotiva.it###Cookie
 elettrocasa.it##.bottomBarMessage
@@ -2803,6 +2822,8 @@ eteknix.com###cookie-law-info-bar
 euroman.dk###cookieInformerBooklet
 euroman.dk##.egmont-cookies
 filmweb.pl##.cookieInfo
+independent.ie###cookie_bar
+independent.ie###cookie_bar_top
 majorleaguegaming.com###cookie-disclaimer
 mma-core.com###cookieChoiceInfo
 pcmag.com##.privacy-content
