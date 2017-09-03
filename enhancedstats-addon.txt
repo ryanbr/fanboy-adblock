@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: RJFp4oQhDztx7DSSFQ415Q
+! Checksum: rnJ6c5RYd5FUH2ax114jIA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 3 Sep 2017
 ! This list expires after 4 days
@@ -1052,6 +1052,10 @@ youporn.com###adblock_1
 ||cloudfront.net/abw.js
 ||sqweb.com^$third-party
 ||techweb.com/adblocktrack
+! hotslogs.com
+@@||sv.monkeybroker.net^$script,domain=hotslogs.com
+hotslogs.com##[style^="margin:"] > SCRIPT + [zoompage-fontsize="14"]
+hotslogs.com##h2 + [zoompage-fontsize="14"] + [zoompage-fontsize="14"]
 ! https://hg.adblockplus.org/easylist/rev/46138acfc93b
 ||contributor.google.com^*/loader.js$third-party
 ! blockadblock domains
