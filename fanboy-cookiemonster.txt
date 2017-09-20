@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: xenJGCdRbSaUw5I7nRBH9g
+! Checksum: cWqYWyTyChzUL8BFO/1wRA
 ! Title: Fanboy's Cookiemonster List
-! Updated: 3 Sep 2017
+! Updated: 20 Sep 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2365,6 +2365,7 @@ xhamster.com##.bottom_message
 yahoo.com###Overlay-1-Nagbar
 yahoo.com##.legal-footer
 youronlinechoices.com##.p15
+youtube.com###notification-footer
 youtube.com##.yt-consent
 youtube.com##div[class^="ytd-consent"]
 zombiearmy.com##.alert-box
