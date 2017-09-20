@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: gHSWsVI8pWKrVlosZAw3Gw
+! Checksum: 7Eb9h9mTjV9lapWzyj6Zug
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 9 Sep 2017
+! Updated: 20 Sep 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2284,6 +2284,8 @@ xkorean.net##a[href*="&aff_id"]
 @@||dicksmith.co.nz^*/site-tracker.js
 @@||directline.com/etc/clientlibs/$script
 @@||disney.go.com/globalelements/footer/comscore.txt
+@@||dynamicyield.com^*/api_dynamic.js$domain=gp.se
+@@||dynamicyield.com^*/api_static.js$domain=gp.se
 @@||ea.com/omniture/
 @@||ebaystatic.com^*_Omniture_$script
 @@||eircomphonebook.ie/js/wt_capi.js
