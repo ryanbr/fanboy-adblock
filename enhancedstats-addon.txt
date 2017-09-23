@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: mhzgpNwICsyPz5lFdvqwEw
+! Checksum: Biyxhdb4WrCXjkllIGawcw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 23 Sep 2017
 ! This list expires after 4 days
@@ -1850,6 +1850,7 @@ independent.co.uk##a[title="Facebook"]
 independent.co.uk##a[title="Twitter"]
 ! telegraph.co.uk
 @@||telegraph.co.uk^*/ads.js
+telegraph.co.uk##.adblocker-message
 ! car.com
 @@||car.com^$generichide
 ! codeproject.com
