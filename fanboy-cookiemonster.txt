@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: H68hiuN3JvUrGe8j6Qw1XQ
+! Checksum: 7dLK1BKrSk3BDWj3aZ5Xgg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 23 Sep 2017
 ! This list expires after 4 days
@@ -1665,6 +1665,7 @@ _site_cookie_
 ##.cookieMessage
 ##.cookieMessageDiv
 ##.cookiemonster
+##.cookieMonster-info
 ##.CookieMonsterBox
 ##.CookieMsg
 ##.cookieMSG
@@ -2540,6 +2541,7 @@ tesco.hu##.infoBarClosable
 !
 !---------- Polish Site Specific Hiding Rules ----------
 !
+alergia-allegra.pl,bitbay.pl,easycomp.pl,meczyki.pl,rozklad-pkp.pl,telepolis.pl##.cookies
 atakklonow.pl,mistrzowie.org,wszechpolska.pl##div[style="position: fixed; left:0; right:0; bottom:0; height:120px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
 atk.com.pl###TB_window
 atman.pl###gbpl_oba
@@ -2554,7 +2556,6 @@ czescidobmw.pl##div[style="position:fixed;left:0;top:0;width:100%;height:100%;ba
 darksiders.pl###callout
 dolce-gusto.pl###nimgrowler
 e-zikoapteka.pl,tanie-leczenie.pl###notice_bar
-easycomp.pl,bitbay.pl,rozklad-pkp.pl,telepolis.pl##.cookies
 filmweb.pl###topBar
 flyordie.pl###eucc
 goldenline.pl###topReminder
@@ -2608,7 +2609,7 @@ skapiec.pl###uclaInfo
 speedtest.pl###info_container
 tripolo.pl###miastoszkolen
 vectra.pl##.jqmAlertWindow
-votepush.com##.alert
+votepush.com,zmiksowani.pl##.alert
 webelite.pl###infobar
 wrzucacz.pl##.info[style="font-size: 7pt; position: absolute;top:22px;right: 0px;padding:2px 10px 2px 36px"]
 wykop.pl##.cookie
