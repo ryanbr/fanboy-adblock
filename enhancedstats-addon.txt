@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: +MeG3bodt/qwx1qg/xRYAQ
+! Checksum: zqJz0TkL6qD12qSPsf6okw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 23 Sep 2017
+! Updated: 24 Sep 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1709,15 +1709,6 @@ deadline.com##.fb-share-button
 deadline.com##.social-links
 deadline.com##.social-strip
 ! mirror.co.uk
-@@||mirror.co.uk^$generichide
-mirror.co.uk###social-follow
-mirror.co.uk##.facebook.icon
-mirror.co.uk##.gig-comment-shareLink
-mirror.co.uk##.mod-cookiepolicy
-mirror.co.uk##.sharebar
-mirror.co.uk##.skinny-signup
-mirror.co.uk##.social-links
-mirror.co.uk##.twitter.icon
 ||tinypass.com^$domain=mirror.co.uk
 ! onecccam.com
 @@.jpg#$image,domain=onecccam.com
