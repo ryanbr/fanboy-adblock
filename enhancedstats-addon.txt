@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: ROyePkgkP6WMVhNNqu5RIQ
+! Checksum: szqWWPUKlCNcUN8qZ4HBAw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 29 Sep 2017
 ! This list expires after 4 days
@@ -1567,6 +1567,8 @@ vulture.com###bottom
 ! blockadblock.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@||blockadblock.com^$generichide
+! cs-fundamentals.com
+cs-fundamentals.com###adBlockerAlert
 ! macos-app.com
 @@||macos-app.com^$generichide
 macos-app.com##.widget_FacebookLikeBox
