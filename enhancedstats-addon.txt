@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: zqJz0TkL6qD12qSPsf6okw
+! Checksum: ROyePkgkP6WMVhNNqu5RIQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 24 Sep 2017
+! Updated: 29 Sep 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -416,6 +416,7 @@ blu-ray.com###getstarted
 commondreams.org##.cta-processed
 drugs.com##div[style="left: 0px; position: fixed; top: auto; bottom: 48px;"]
 facebook.com###stream_pagelet > #pagelet_megaphone
+facebook.com##[data-referrer][zoompage-fontsize="13"] > .ego_column[zoompage-fontsize]:first-child
 fark.com##.top_right_container
 flightradar24.com###bottomRightPanel
 forum.hwbot.org##CENTER > A[href^="https://teespring.com/"]
