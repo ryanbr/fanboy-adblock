@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: +hOF+C93Ltb6dCxfVXbihQ
+! Checksum: CHd29cw1/VgwWMkIbnf8zg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 30 Sep 2017
 ! This list expires after 4 days
@@ -647,6 +647,7 @@ _site_cookie_
 ###cookie_modal
 ###cookie_msg
 ###cookie_notice
+###cookie_notif
 ###cookie_notification_bar
 ###cookie_panel
 ###cookie_policies
@@ -1008,6 +1009,7 @@ _site_cookie_
 ###ctl00_Footer_rnCookies_popup
 ###ctl00_pnlCookieMessage
 ###ctl00_privacyCookies_LIPCNB_PrivacyandCookiesNoticePanel
+###ctl00_upCookie
 ###ctl01_ctl00_CookiePreferencesControl
 ###ctl20_pnlCookie
 ###ctl30_pnlCookie
@@ -1214,6 +1216,7 @@ _site_cookie_
 ###notice-cookie
 ###notice-cookie-content
 ###notice-cookie-policy
+###notice_cnil
 ###notice_visitor
 ###notificacio-cookies
 ###notification-allowCookies
@@ -1422,6 +1425,7 @@ _site_cookie_
 ##.bandeau-cnil
 ##.bandeau-cookies
 ##.bandeau_consent
+##.banner--cookie
 ##.banner--cookies-policy
 ##.banner_cookies
 ##.bannerInformativaEU
@@ -2406,19 +2410,17 @@ abril.com.br###barra-mini-home
 airbnb.be##.flash-container
 akcneletaky.sk###infoCoo
 apartmanija.hr###site_nt
-blogdeputaria.net###sub
 delfi.lv##.notification-widget
 delo.si,slovenskenovice.si,deloindom.si,polet.si,pogledi.si##.notice
 digimanie.cz,svethardware.cz###cfooter
+dostavanadom.com,gentside.com.br###cookies
 hileliapkoyunindir.com##.site-desc
 hrportfolio.hr###kolac
 i.ua##.Disclaimer
 iprima.cz###cookies-info
 krovni-nosaci.hr##.topbarBox
-micna.si,dostavanadom.com,gentside.com.br###cookies
 mojkvart.hr###dcw1
 movieview.dk###cookie
-naruto-grand.ru##div[id^="scbmr_"]
 nasiljudi.hr###footer
 novasol.at###disclosure-container
 poba.hr##.meerkat
@@ -2431,11 +2433,10 @@ soeren-hentzschel.at###storage-notice
 totalmoney.sk,ingbank.cz,bpost.be##.cookies
 uitinvlaanderen.be##.noty_bar
 weltwoche.ch###alteAusgabenCovers
-zena.hr###serviceBar
 !
 !---------- Finnish Site Specific Hiding Rules ----------
 !
-americanairlines.fi,pizza-online.fi##.alert
+americanairlines.fi##.alert
 blogit.fi,ilmainensanakirja.fi,telsu.fi##.cookies
 hs.fi##.cb-container
 k-citymarket.fi,k-market.fi##.Pbox-sm
@@ -2463,29 +2464,27 @@ t-mobile.nl###exposeMask
 techzine.nl###scrollbuddy[style="top: -20px; position: fixed;"]
 tweakers.net###notifications > .announcement
 vergelijk.nl##.cg-82
+vergelijk.nl##.cg-97
 xs4all.nl###xs4all-cookieWall
 xs4all.nl###xs4all-cookieWall-overlay
 ||cookiesv2.publiekeomroep.nl/light/
-||tmgonlinemedia.nl/consent/script/consent.js
 ||tol.postnl.nl/content/toljs/$script
 !
 !---------- German Site Generic Hiding Rules ----------
 !
-agynamix.de###cookie
 auto-motor-und-sport.de##.j34
 auto-motor-und-sport.de##.p40
 cebit.de,hannovermesse.de##.user-notes-notification
 cushmanwakefield.de##.m-warning
-decuro.de,denic.de,moviepilot.de##.notification
+denic.de,moviepilot.de##.notification
 deutzforum.de##.userNotice
-die-linke.de###msppiwikoptout_container
+die-linke.de##.disclaimer
 duden.de###sliding-popup
 esprit.de###policy_header
 happy-spots.de###cono
 hl-live.de##table[width="1000"]
 hosteurope.de###cche
 kleiderkreisel.de,mamikreisel.de##.js-notification
-netzwelt.de##.ckch
 ortsdienst.de##div[style="background:#888;padding:10px;color:#FFF;font-weight:bold"]
 spielfilm.de###alert
 telekom.de##.message-bar
@@ -2499,7 +2498,7 @@ allattartas.hu###suti_figyelmeztetes_ablak_fix
 almaimotthona.hu##.aszfLayerContent
 althir.org,nemzeti.net###suti_figyelmeztetes
 bestdoor.hu##.rstbox
-bevachip.hu,work-force.hu,bestmarkt.hu,bestsellers.hu,logmein.hu,hirek24.hu,workforce.hu##.cookie
+bevachip.hu,work-force.hu,bestmarkt.hu,bestsellers.hu,logmein.hu,workforce.hu##.cookie
 bizsuk.com###sutibox
 boraszportal.hu,termalfurdo.hu###layout_advertising_bottom
 conrad.hu##.page-warning
@@ -2640,6 +2639,7 @@ netonnet.no##.alert
 !
 !---------- Swedish Site Specific Hiding Rules ----------
 !
+armemuseum.se,atg.se,folkuniversitetet.se,fora.se,klaramaten.se,konkurrensverket.se,lernia.se,netonnet.se,osthammar.se,tullverket.se##.alert
 asedo.se##.infobanner
 bahnhof.se##.top-line-block
 bolagsverket.se##div[style^="margin: 0px 0px"]
@@ -2647,26 +2647,20 @@ coop.se##.Alert
 di.se##.footer__cookie-info
 fass.se##.starttopdialog
 filminstitutet.se##.js-info-banner
-gamerloot.se##.header-notice
 gp.se##.gpsecGRCookieContainer
 havkom.se,lfv.se,oru.se##.cookies
-hkr.se###c-info-box
-klaramaten.se,lernia.se,fora.se,atg.se,armemuseum.se,osthammar.se,konkurrensverket.se,automotorsport.se,bamse.se,folkuniversitetet.se,kalleanka.se,netonnet.se,tidningenjulia.se##.alert
+hkr.se###cookies
 kronofogden.se,minameddelanden.se,minmyndighetspost.se##.alertWrap
 kvalster.se###y
 lexus.se##.disclaimer
 nacka.se##.c-message
-pensionsmyndigheten.se###cb_alert
 polisen.se##.cookie
 proff.se##.notification
 radioplay.se##div[style="background-color:#FFF3CC;"]
-sfv.se###cookies
 skatteverket.se,tullverket.se##.alertWrp
 smhi.se##.polopolyNotification
 svensktnaringsliv.se###warning
 sverigesradio.se###user-message
-synsam.se##.message-large
-telia.se##.tsAttention--Info
 traningspartner.se##.sd-object-if > .sd-object-code
 tre.se##.alert-bar
 v6.se###layer
@@ -2676,11 +2670,8 @@ v6.se###layer
 ###capaAvisoPoliticaCookies_superior_mensajes
 ###sf-minisite-toolbar
 ##.recocliv2
-118000.fr,clique.tv,communauto.com,ouestjob.com##.cookies
-20minutes.fr##.alerts_container
-20minutes.fr##.notice
+118000.fr,clique.tv,communauto.com,cuisineaz.com,ouestjob.com##.cookies
 4clik.com,ville-ideale.fr,ville-ideale.com,brain-magazine.fr,gentside.com,colissimo.fr,jules.com,laposte.fr,maxisciences.com,mybiclighter.com,ohmymag.com,showroomprive.com,viously.com###cookies
-6play.fr,aquellefrequence.fr,midilibre.fr,migreat.fr,sudouest.fr##.cookie
 aol.fr###ooCont
 aso.fr,letour.fr##.confidentialite
 auchan.fr##.loi_hamon
@@ -2690,35 +2681,32 @@ bouyguestelecom.fr##.hfc--nc
 bwin.fr##.info-message
 bycontext.com###lcBar
 carrelages4000.fr##.ays-front-message
-cartezero.fr,gmf.fr,grillofrance.fr,havas-voyages.fr,materiel.net,paris.fr,societe.com,sportetstyle.fr###cookie
+cartezero.fr,grillofrance.fr,havas-voyages.fr,materiel.net,societe.com###cookie
 cdiscount.com###\5f evh-ric
 cerdas.com##.topBar
 creavea.com##.creavea-banner-cookie-consent
 cuisineaz.com##.cazLightbox
 cushmanwakefield.fr##.m-warning
-ddb.fr,pmu.fr,regionguadeloupe.fr##.cnil
+ddb.fr,pmu.fr##.cnil
 e-leclerc.com##.popover
 elsevier-masson.fr###myModal
 ethias.be###tab_ck
 fnacspectacles.com##.modal-backdrop
 hautetfort.com##div[data-cookie]
-hd1.tv,nt1.tv###upper
 hotelalisee.fr###CPolicy
 ilninth.wordpress.com###MsgContainer
 ing-diba.at###top-message__wrapper
-kioskabo.fr##.messages
 landrover.ch##.notificationBars
 larousse.fr##.ui-dialog
 larousse.fr##.ui-widget-overlay
 ldlc-pro.com###privacy
 le-dictionnaire.com##.topdisclaimer
 leclercdrive.fr##.pWCTD609_BandeauCookies
+leclercdrive.fr##div[class$="BandeauCookies"]
 lemonde.fr###bandeau_bas
 lequipe.fr###rebonds
 lequipe.fr###toasterQuoti
 lequipe.fr###toolbar
-leroymerlin.fr##.nav-infos-wrapper
-lesnumeriques.com##.alert
 letelegramme.fr###barre_top_secondaire
 letelegramme.fr###top_header
 lexus.fr##.disclaimer
@@ -2726,28 +2714,23 @@ lotus-planete.com###lotus-cookies-wrap
 luminaire.fr##.dnt-dialog
 marmottons.net###ck
 materiel-velo.com###downbar
-mercialys.fr##.info-top
-mnt.fr##.banner
+midilibre.fr,sudouest.fr##.cookie
 monavislerendgratuit.com##.policy
 monster.fr###interMsgsW
-motauto.com##.boxy-modal-blackout
-motauto.com##.boxy-wrapper
 mspy.fr###infoToolbar
 normaeditorial.com###styleDown
-nutrilifeshop.com###nlp_popup
 nwglobalvending.fr###toast
 ogaming.tv##.navbar-fixed-bottom
 orange.be##.b2c-global-footer-container
 paconsulting.com###cookPop
-pagesjaunes.fr###cgu
 priceminister.com###legalNotificationEltId
 publicsenat.fr##.top-message
-radins.com##.abo-home
 rtl.fr##.article-mail-form
 rueducommerce.fr##.confidentialite_header
 ruralidays.fr,serveto.com###barraaceptacion
 savi-france.fr###notifybar
 smile.fr###popup
+sportetstyle.fr##div[id^="cookie"]
 stihl.fr##.privacyTop
 supermarchesmatch.fr###fevad
 supersoluce.com##div[style^="position: fixed; width: 100%;"]
@@ -2755,8 +2738,6 @@ tetley.fr##.topFix
 tf1.fr##div[id^="msgctrw"]
 tupperware.fr##.floating
 vinted.fr##.js-notification
-virginmobile.fr##.TC
-voici.fr##.pmd-alert
 zara.com###popup-announcements
 zdnet.fr###catfish
 zepass.com##.notification
@@ -2770,9 +2751,8 @@ aristeguinoticias.com###comparte
 bwin.es##.info-message
 castroelectronica.pt##div[style="height: 35px; background:#2a2a2a; position:absolute; width:100%; top:0; z-index: 999999;"]
 cincodias.com,meristation.com###capaAvisoPoliticaCookies_superior_mensajes
-clementoni.pt###disclaimer
+clementoni.com###disclaimer
 cliper.pt###cook
-clubhyundai.es##div[id][class] > div[class]
 coches.net###yc
 colorobbia.pt###barraaceptacion
 flooxer.com,metalomarao.pt##.cookies
@@ -2781,7 +2761,6 @@ iubenda.com###iubenda-cs-banner
 iubenda.com##a[style="padding-top: 10px; display: block;"]
 lavozdegalicia.es##.alert
 leroymerlin.es###divFlotante
-linux-party.com###avisolegal
 moviles.com###cookies
 terra.es###trr-root
 uc.pt##.warning-bar
@@ -2847,19 +2826,14 @@ vilaglato.info##.pea_cook_more_info_popover
 vilaglato.info##.pea_cook_wrapper
 !
 !---------------------------------Whitelists----------------------------------!
-alko.fi#@#.cookies-open
-bankmillennium.pl#@#.cookies-info
 bezeq.co.il#@#.cookieAlert
-boursorama.com#@##cookieBanner
+boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl#@#.no-cookies
+boursorama.com#@#.cookie-banner
 britishairways.com#@##cookieModal
 bulle-communication.com,edmond-de-rothschild.fr,foiredeparis.fr,galleria.io,icelandair.ca,icelandair.de,kintera.org,lamediathequedumarsan.fr,lautoentrepreneur.fr,lesclesdelabanque.com,liciafox.net,normandinamik.cci.fr,pleinchamp.com,universityadmissions.se,nrj.fr#@#.cookiebanner
-filmweb.pl#@#.cookieInfo
 greenflag.com#@#.cookie-message
 hbogo.hu#@##cookiebox
 hearst.co.uk#@#.cookie-policy
-jaguar.com#@#.eucookie
-lautoentrepreneur.fr#@#.CookieBanner
-lautoentrepreneur.fr#@#.cookieBanner
 lg.com#@#.cookie-check
 media.netflix.com#@##cookieAlert
 mediapart.fr#@#.cookie-warn
@@ -2878,7 +2852,6 @@ tweakers.net#@##cookieOverlay
 uktv.co.uk#@#.cookie-notice
 vkmag.com#@##cookiesdirective
 vorwahlen-online.de#@#.cookiebar
-your-move.co.uk#@#.cookie_policy
 ! *** easylist:fanboy-addon/fanboy_annoyance_whitelist.txt ***
 @@/cookie_law/plugin.js$script,~third-party
 @@||3dmark.com/proxycon/js/jquery.cookiesdirective.js
