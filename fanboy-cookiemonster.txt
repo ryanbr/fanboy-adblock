@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: CHd29cw1/VgwWMkIbnf8zg
+! Checksum: P84UcBlcYI5c1k0bi8kS7A
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 30 Sep 2017
 ! This list expires after 4 days
@@ -205,6 +205,7 @@
 /cookies-enabler.
 /cookies-footer-
 /cookies-info.
+/cookies-legal-
 /cookies-notice.
 /cookies-notice/*
 /cookies-notification.
@@ -1986,6 +1987,7 @@ _site_cookie_
 ##.mk_cookie_policy
 ##.mod-cookiepolicy
 ##.mod-privacypolicy
+##.modal-cookie
 ##.ModThomasCookiesC
 ##.module-cookie
 ##.module-cookie-info
@@ -2026,6 +2028,8 @@ _site_cookie_
 ##.paveCookies
 ##.pcookie
 ##.pea_cook_more_info_popover
+##.pea_cook_more_info_popover
+##.pea_cook_wrapper
 ##.pea_cook_wrapper
 ##.pf-cookie-directive
 ##.plugin_cookie
@@ -2826,8 +2830,11 @@ vilaglato.info##.pea_cook_more_info_popover
 vilaglato.info##.pea_cook_wrapper
 !
 !---------------------------------Whitelists----------------------------------!
+aklagare.se,boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl,nzherald.co.nz,pokemon.com,shopstyle.com,thenextweb.com#@#.no-cookies
+alko.fi#@#.cookies-open
+bankmillennium.pl#@#.cookies-info
 bezeq.co.il#@#.cookieAlert
-boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl#@#.no-cookies
+boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl,nzherald.co.nz#@#.Cookies
 boursorama.com#@#.cookie-banner
 britishairways.com#@##cookieModal
 bulle-communication.com,edmond-de-rothschild.fr,foiredeparis.fr,galleria.io,icelandair.ca,icelandair.de,kintera.org,lamediathequedumarsan.fr,lautoentrepreneur.fr,lesclesdelabanque.com,liciafox.net,normandinamik.cci.fr,pleinchamp.com,universityadmissions.se,nrj.fr#@#.cookiebanner
@@ -2840,8 +2847,6 @@ mediapart.fr#@#.cookie-warn
 moniteurautomobile.be#@#.cookieBox
 morizon.pl,tweakers.net#@#.cookieBar
 mozilla.org,usps.com#@##privacy-policy
-nzherald.co.nz#@#.Cookies
-nzherald.co.nz,pokemon.com,shopstyle.com,aklagare.se,thenextweb.com#@#.no-cookies
 postnl.be#@##cookiebar-container
 postnl.be#@#.cookie_wrapper
 prosiebengames.de,stories.com,hm.com#@#.cookie-notification
