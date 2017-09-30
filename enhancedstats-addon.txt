@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: r8DotZ3oEykUr9hR10Dp7w
+! Checksum: KByiOPsPjg8VFD97LaR6QA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 30 Sep 2017
+! Updated: 1 Oct 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1424,7 +1424,7 @@ kitguru.net##div[style^="z-index:"]
 ! picload.org
 @@||picload.org/image/$image
 ! runnersworld.co runnersworld.comm
-@@||runnersworld.com^*ads.
+@@||runnersworld.com^*ad$script
 ! coderexample.com
 @@||coderexample.com^$generichide
 coderexample.com##[data-ad-client]
