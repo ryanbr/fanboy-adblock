@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: T/mYGH34F7JEDFjetlaOgA
+! Checksum: BEWpEo+Em+nE95jWcgV7gw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 30 Sep 2017
 ! This list expires after 4 days
@@ -2284,12 +2284,14 @@ microsoft.com###PrivacyBanner
 microsoft.com##.feedback-visible
 microsoft.com,visualstudio.com,xbox.com###epb
 mirror.co.uk##.mod-cookiepolicy
+mobile.twitter.com##[data-reactroot] > [class] + [class]:last-child
 moleskine.com###disclaimer
 moneysavingexpert.com###alertBar
 motorsport.com###footer
 mozilla.org##.global-notice
 msn.com###conditionalbanner
 napster.com##.info_box
+nba.com###nba_tos
 nba.com###policy_wrapper
 nelly.com,nlyman.com###toast-container
 netjetseurope.com##.nj-header-prompt
@@ -2369,6 +2371,7 @@ youtube.com###notification-footer
 youtube.com##.yt-consent
 youtube.com##div[class^="ytd-consent"]
 zombiearmy.com##.alert-box
+zoover.co.uk###info-bar
 ! zoover regional sites.
 ###ctl00_ZooverBody > #info-bar
 ! Cookie,privacy,legal Messages
@@ -2424,7 +2427,7 @@ rast.hr###blokDiv
 selexion.be###splash_footer
 sme.sk###js-top-info-bar
 soeren-hentzschel.at###storage-notice
-totalmoney.sk,bpost.be##.cookies
+totalmoney.sk,ingbank.cz,bpost.be##.cookies
 uitinvlaanderen.be##.noty_bar
 weltwoche.ch###alteAusgabenCovers
 zena.hr###serviceBar
@@ -2451,6 +2454,7 @@ bestsellers.eu###site-optin-header
 boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl#@#.Cookies
 hardloopkalender.nl###interVeil
 hardloopkalender.nl##.modal-cooki
+ing.nl##.overlay
 mobil-1.nl###fancybox-overlay
 mobil-1.nl###fancybox-wrap
 salusi.nl##.cookies
@@ -2700,6 +2704,7 @@ hautetfort.com##div[data-cookie]
 hd1.tv,nt1.tv###upper
 hotelalisee.fr###CPolicy
 ilninth.wordpress.com###MsgContainer
+ing-diba.at###top-message__wrapper
 kioskabo.fr##.messages
 landrover.ch##.notificationBars
 larousse.fr##.ui-dialog
@@ -2770,6 +2775,7 @@ clubhyundai.es##div[id][class] > div[class]
 coches.net###yc
 colorobbia.pt###barraaceptacion
 flooxer.com,metalomarao.pt##.cookies
+ing.es,ingdirect.es###ico_banner
 iubenda.com###iubenda-cs-banner
 iubenda.com##a[style="padding-top: 10px; display: block;"]
 lavozdegalicia.es##.alert
@@ -2792,6 +2798,7 @@ enel.it###contenitoredisclaimer
 euronics.it###note
 farmacieaperte.it###warning-popup
 forumfree.it##.jnote
+ingdirect.it##.topalertbanner
 inquantamila.it###privacy
 radioitalia.it##.cookies
 ubuntu-it.org###\5f ubuntu-it_cookie_policy
