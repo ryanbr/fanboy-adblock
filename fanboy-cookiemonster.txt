@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: eE0o+aDaxb3PUAK4UEzmWg
+! Checksum: X7hEOommllZIHgaUde7/aQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 1 Oct 2017
 ! This list expires after 4 days
@@ -2242,6 +2242,7 @@ earthcp.com##.disclaimer
 earthcp.com##.info
 eastlondonradio.org.uk###notification-area
 easy2boot.com###barritaloca
+elanco.com###ribbon
 eurosport.com###container-notifications
 exemproject.eu###myModal
 facebook.com##[data-testid="cookie-policy-banner"]
