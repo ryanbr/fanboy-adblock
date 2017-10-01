@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 68OHIrOLoJmQ/Leayp7oew
+! Checksum: 8ooLuswNTUYunf6xXZJZIA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 1 Oct 2017
 ! This list expires after 4 days
@@ -2545,6 +2545,7 @@ tesco.hu##.infoBarClosable
 alergia-allegra.pl,bitbay.pl,easycomp.pl,meczyki.pl,rozklad-pkp.pl,telepolis.pl##.cookies
 atakklonow.pl,mistrzowie.org,wszechpolska.pl##div[style="position: fixed; left:0; right:0; bottom:0; height:120px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
 atk.com.pl###TB_window
+atman.pl###ck_dsclr
 atman.pl###gbpl_oba
 auchan.pl,bankmillennium.pl,dobreprogramy.pl,generali.pl,hi-tec.com.pl,newsweek.pl,play.pl,tripolo.pl###cookies
 bstorun.pl###comm_info
