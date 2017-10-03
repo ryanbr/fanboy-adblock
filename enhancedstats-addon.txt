@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: OGMbxWPOpy3c3IU4BLbYRg
+! Checksum: JG2qubNzs5oSf9rzemTUCA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 1 Oct 2017
+! Updated: 3 Oct 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -806,7 +806,6 @@ youporn.com###adblock_1
 @@||dailymail.co.uk/adstest2/$script
 @@||datalog.co.uk/js/ads.js
 @@||dato.porn/js/pop.js$script
-@@||deadspin.com^$generichide
 @@||debridnet.com/adforge.js
 @@||detectadblock.com/ads.js
 @@||dictionary.com/js/advertisement.js
@@ -855,7 +854,6 @@ youporn.com###adblock_1
 @@||generatorlinkpremium.com/ads/$script,~third-party
 @@||geo.de^$generichide
 @@||geo.de^*/advertisement.js
-@@||gizmodo.com^$generichide
 @@||gktoday.in^$generichide
 @@||gogoanime.ch/static/ads.js
 @@||google.*/ads/$image,third-party
@@ -889,7 +887,6 @@ youporn.com###adblock_1
 @@||latin.it/banner.php
 @@||leech.ae^$generichide
 @@||lensdump.com/ads.js
-@@||lifehacker.com^$generichide
 @@||listamais.com.br/Resources/js/ads.js
 @@||litecoin-faucet.com/libs/advertisement.js
 @@||lolalytics.com^*/adsense/
@@ -1005,7 +1002,6 @@ youporn.com###adblock_1
 @@||thedailybeast.com^*/advert.$script
 @@||theoutline.com/ads.js
 @@||thepiratebay.run^$generichide
-@@||theroot.com^$generichide
 @@||therse.info/popunder.gif$image
 @@||thestranger.com^*/ads.js
 @@||thewrap.com/ad_frame.php
@@ -1160,12 +1156,21 @@ verdirectotv.com##img[src^="http://verdirectotv.com/wp-content/themes/wtb-video-
 ! wbur.org
 wbur.org#@#.adsbox
 ! kinja.com
-lifehacker.com,gizmodo.com,deadspin.com,theroot.com,kinja.com###sharingfooter
-lifehacker.com,gizmodo.com,deadspin.com,theroot.com,kinja.com###taboola-below-article-thumbnails
-lifehacker.com,gizmodo.com,deadspin.com,theroot.com,kinja.com###taboola-top-banner-abp
-lifehacker.com,gizmodo.com,deadspin.com,theroot.com,kinja.com##.js_ad-top-banner
-lifehacker.com,gizmodo.com,deadspin.com,theroot.com,kinja.com##.js_contained-ad-container
-lifehacker.com,gizmodo.com,deadspin.com,theroot.com,kinja.com##.newsletter-subscribe
+@@||avclub.com^$generichide
+@@||deadspin.com^$generichide
+@@||earther.com^$generichide
+@@||gizmodo.com^$generichide
+@@||jalopnik.com^$generichide
+@@||jezebel.com^$generichide
+@@||lifehacker.com^$generichide
+@@||splinternews.com^$generichide
+@@||theroot.com^$generichide
+lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com###sharingfooter
+lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com###taboola-below-article-thumbnails
+lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.js_ad-top-banner
+lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.js_contained-ad-container
+lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.mezzanine
+lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.newsletter-subscribe
 ! doridro.net
 @@.png#$image,domain=doridro.net
 @@||doridro.net^$generichide
