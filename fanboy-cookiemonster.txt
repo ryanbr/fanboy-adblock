@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 2hBoEAKugBZg6hBp4ihIyg
+! Checksum: QAVFdDntrTf0Etp4uVWUtA
 ! Title: Fanboy's Cookiemonster List
-! Updated: 7 Oct 2017
+! Updated: 8 Oct 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2201,7 +2201,7 @@ artuk.org###top-notice
 autoevolution.com###prajiturele
 autotask.com##.alertbar
 babcockinternational.com###js-babcock-cookie-bar
-bankid.com,costaclub.com,hattrick.org,kenweego.com,linkedin.com,lonelyplanet.com,nature.com,netweather.tv,norwegian.com,twitch.tv,viewsoniceurope.com##.alert
+bankid.com,costaclub.com,hattrick.org,kenweego.com,linkedin.com,lonelyplanet.com,nature.com,netweather.tv,norwegian.com,viewsoniceurope.com##.alert
 bankofengland.co.uk##.container-notifications
 bbc.co.uk##.pulse-banner
 bbc.com##.domestic-header-wrapper
@@ -2370,6 +2370,7 @@ travelsupermarket.com##.site-notice-wrapper
 trustnet.com##USER-TYPE-POPUP
 tunngle.net###delirioBiscottoso
 tweakers.net###notifications > .announcement
+twitch.tv###noty_bottomCenter_layout_container
 twitch.tv##.toast-manager__container
 uber.com##.banner--bottom
 uk.yahoo.com###Main > .windowshade:first-child
