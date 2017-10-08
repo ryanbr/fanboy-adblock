@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: viOgH77wN22vyEDnf2JNpg
+! Checksum: aqaweJoBjF1kjQ9MOJA85g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 8 Oct 2017
 ! This list expires after 4 days
@@ -1073,6 +1073,8 @@ hotslogs.com##h2 + [zoompage-fontsize="14"] + [zoompage-fontsize="14"]
 ! https://hg.adblockplus.org/easylist/rev/46138acfc93b
 ||contributor.google.com^*/loader.js$third-party
 ! blockadblock domains
+@@.jpg#*/ad$image
+@@.png#*/ad$image
 @@||adclixx.net^$script,domain=wowebook.org|animes-mangas-ddl.net|android-zone.ws|linkdrop.net|sznpaste.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|rule34hentai.net|finalservers.net|yalujailbreak.net
 @@||adnetasia.com^$script,domain=animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|sznpaste.net|rule34hentai.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|finalservers.net|yalujailbreak.net
 @@||adtrackers.net^$script,domain=rule34hentai.net|animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|sznpaste.net|finalservers.net|cloudwebcopy.com|freeomovie.com|yalujailbreak.net|linkneverdie.com
@@ -1155,10 +1157,8 @@ verdirectotv.com##img[src^="http://verdirectotv.com/wp-content/themes/wtb-video-
 ! filmesonline1080p.com
 @@||filmesonline1080p.com^$generichide
 ! narutoimagem.com
-@@.png#$image,domain=narutoimagem.com
 @@||narutoimagem.com^$generichide
 ! wolverdon-filmes.org
-@@.png#$image,domain=wolverdon-filmes.org
 @@||wolverdon-filmes.org^$generichide
 ! pornotorrentz.com
 @@||pornotorrentz.com^$generichide
@@ -1185,7 +1185,6 @@ lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,spl
 lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.mezzanine
 lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.newsletter-subscribe
 ! doridro.net
-@@.png#$image,domain=doridro.net
 @@||doridro.net^$generichide
 ! indianhotcomics.com
 @@||indianhotcomics.com^$generichide
@@ -1200,13 +1199,10 @@ lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,spl
 ! hdmovie7.today
 @@||hdmovie7.today^$generichide
 ! telecinetorrent.com
-@@.png#$image,domain=telecinetorrent.com
 @@||telecinetorrent.com^$generichide
 ! comandofilmestorrents.com
-@@.png#$image,domain=comandofilmestorrents.com
 @@||comandofilmestorrents.com^$generichide
 ! yourfreetube.net
-@@.png#$image,domain=yourfreetube.net
 @@||yourfreetube.net^$generichide
 ! 1337x
 /\/1337x\.to\/.*[a-f]{7,}/$script
@@ -1261,7 +1257,6 @@ imgspice.com,imagetwist.com##script + [style*="z-index:"]
 @@||bytesloader.com^$generichide
 @@||popads.net/pop.js$xmlhttprequest,domain=bytesloader.com
 ! jpidols.tv
-@@.png#$image,domain=jpidols.tv
 @@||jpidols.tv^$generichide
 ! codexpcgames.com
 @@||codexpcgames.com^$generichide
@@ -1279,7 +1274,6 @@ imgspice.com,imagetwist.com##script + [style*="z-index:"]
 ! 4downfiles.org
 4downfiles.org##div[style*="width:300px;"]
 4downfiles.org##div[style*="width:728px;"]
-@@.png#$image,domain=4downfiles.org
 @@||4downfiles.org^$generichide
 ! pcgamer.com
 @@||pcgamer.com^$generichide
@@ -1301,7 +1295,6 @@ ncaa.com###mss-legal-banner
 ncaa.com###ncaa-top-ad
 ncaa.com##.banner-container
 ! bangbross.org
-@@.png#$image,domain=bangbross.org
 @@||openload.co^$genericblock,generichide
 ! camwhores.co
 @@||camwhores.co^$generichide
@@ -1385,13 +1378,10 @@ smitedatamining.com##[data-ad-slot]
 hentaitake.net##.addthis-smartlayers
 hentaitake.net##.scroll-back-to-top-wrapper
 ! mangakita.net
-@@.png#$image,domain=mangakita.net
 @@||mangakita.net^$generichide
 ! dailymaverick.co.za
 @@||b-cdn.net/ads/ads.js
 ! kingofdown.com
-@@.jpg#$image,domain=kingofshrink.com
-@@.png#$image,domain=kingofdown.com
 @@||kingofdown.com^$generichide
 @@||kingofshrink.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=kingofdown.com|kingofshrink.com
@@ -1991,7 +1981,6 @@ allmusic.com##.medium-rectangle
 allmusic.com##.medium-rectangle-btf
 ||complex.com/campaigns/$image,domain=allmusic.com
 ! genbird.com
-@@.png#$image,domain=genbird.com
 @@||genbird.com^$generichide
 ! kissanime.ru
 @@||adsterra.com^$script,domain=kissanime.ru
