@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Okpw0RCyv+CC8VrXqjuuAw
+! Checksum: mGkQWoPreg/ey+FGhlG1Kw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 8 Oct 2017
 ! This list expires after 4 days
@@ -2222,6 +2222,7 @@ tvregionalna24.pl##.diablo-placeholder
 ! Warnings
 ##.fc-pinned-message-container
 ##.fc-root
+##.o-AdhesionNotifier
 8muses.com##.top-warning
 archived.moe##.cc_banner
 citylab.com###blocker-msg-start
