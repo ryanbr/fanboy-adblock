@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 31GJAz037GC70KP5qqGEtQ
+! Checksum: 2sattKOVYKCm4elF5wp21Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 8 Oct 2017
 ! This list expires after 4 days
@@ -1271,6 +1271,11 @@ imgspice.com,imagetwist.com##script + [style*="z-index:"]
 @@||verliga.net^*/adblock.js
 ! querofilmehd.com
 @@||querofilmehd.com^$generichide
+! 4downfiles.org
+4downfiles.org##div[style*="width:300px;"]
+4downfiles.org##div[style*="width:728px;"]
+@@.png#$image,domain=4downfiles.org
+@@||4downfiles.org^$generichide
 ! pcgamer.com
 @@||pcgamer.com^$generichide
 pcgamer.com##.buttons-social
