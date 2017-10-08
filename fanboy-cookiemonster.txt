@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: QAVFdDntrTf0Etp4uVWUtA
+! Checksum: O+okyGzrHqxzR7dqull3CQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 8 Oct 2017
 ! This list expires after 4 days
@@ -34,11 +34,13 @@
 -eu-cookies/$script
 -eucookie.
 -privacy-cookie-
+.consent-cookie.
 .cookie-law.$script
 .cookie-policy.
 .cookie_law.
 .cookieconsent.
 .cookiecuttr.
+.cookieinfo2.
 .cookielaw.js
 .cookienotice.
 .cookiepolicy.
@@ -262,6 +264,7 @@
 /eucookiesk.
 /eucookieslaw/*$script
 /EUCookieUtility.
+/eurocookie.
 /fp_cookie.
 /g4cookies.
 /GestionCookiesCNILPlugin/*
@@ -290,6 +293,7 @@
 /newprivacypolicy.
 /ocgcookie?
 /plugin_cookie/*
+/plugins/cookie-muncher/*
 /plugins/CookieInfo/*
 /plugins/EuCookie/*
 /privacy-cookies.js
@@ -535,6 +539,7 @@ _site_cookie_
 ###cookie-fixed-layer
 ###cookie-gm-new
 ###cookie-header
+###cookie-header-container
 ###cookie-hint
 ###cookie-holder
 ###cookie-info
@@ -728,6 +733,7 @@ _site_cookie_
 ###cookieConsentForm
 ###cookieConsentNotice
 ###cookieConsentPrompt
+###cookieConsentWrap
 ###cookiecontainer
 ###CookieContainer
 ###cookieContainer
@@ -753,6 +759,7 @@ _site_cookie_
 ###cookieFooter
 ###cookieFrame
 ###cookieGuardMsg
+###CookieHead
 ###cookieheader
 ###cookieHeader
 ###cookieHint
@@ -822,6 +829,7 @@ _site_cookie_
 ###cookieNotification
 ###CookieNotificationBar
 ###cookienotifier
+###cookieNotifierWrapper
 ###cookienotify
 ###cookienotify-wrapper
 ###CookieOK
@@ -897,6 +905,7 @@ _site_cookie_
 ###cookies-policy-prompt
 ###cookies-policy-wrapper
 ###cookies-politics
+###cookies-popup
 ###cookies-privacy
 ###cookies-use-alert
 ###cookies-verify
@@ -913,6 +922,7 @@ _site_cookie_
 ###cookies_border
 ###cookies_box
 ###cookies_container
+###cookies_content
 ###cookies_div_main
 ###cookies_info
 ###cookies_message
@@ -937,6 +947,7 @@ _site_cookie_
 ###cookiesbar
 ###cookiesBar
 ###cookiesBox
+###cookiesck
 ###cookiesconcentbar
 ###cookiesContainer
 ###cookiescontainer
@@ -973,6 +984,7 @@ _site_cookie_
 ###cookiestrip
 ###CookiesWarning
 ###cookiesWarning
+###cookieswarning
 ###cookiesWarningActive
 ###cookiesWarningBanner
 ###cookiesWrapper
@@ -1011,6 +1023,7 @@ _site_cookie_
 ###CRTL_CookieAlert
 ###ctl00_cookie_panel
 ###ctl00_cookieconsent_ajaxPanel
+###ctl00_cookieConsent_pnlCookie
 ###ctl00_CookieMessage1_divCookie
 ###ctl00_CookieMessage1_upCookie
 ###ctl00_ctl00_divCookiePolicyContainer
@@ -1131,6 +1144,7 @@ _site_cookie_
 ###headband-cookie
 ###headband_cookies
 ###headCookieAccept
+###header-cookie
 ###header-info-cookie
 ###headerCookieLaw
 ###headerCookies
@@ -1221,6 +1235,7 @@ _site_cookie_
 ###nbcCookieChoice
 ###new-cookie
 ###nibirumail_cookie_advice
+###NJI-EmeaCookie
 ###no-cookie
 ###notice--cookie
 ###notice-cookie
@@ -1247,6 +1262,7 @@ _site_cookie_
 ###optinCookie
 ###p_ciInner
 ###page-advice-cookie
+###page-cookies-bar
 ###panel-cookie
 ###panel-cookie-usage
 ###panel-cookies
@@ -1281,6 +1297,7 @@ _site_cookie_
 ###privacy-bar
 ###privacy-cookieMessage
 ###privacy-message-bar
+###privacy-notice
 ###privacy-policy
 ###privacy-policy-notice
 ###privacy-policy-panel
@@ -1290,6 +1307,7 @@ _site_cookie_
 ###privacy_law
 ###PrivacyBanner
 ###privacyBar
+###privacyHint
 ###privacyOuterContainer
 ###privacypolicy
 ###privacyPolicyBox
@@ -1298,6 +1316,7 @@ _site_cookie_
 ###privacyWarningBanner
 ###private-policy
 ###pronamic_cookie_holder
+###ptCookieConsent
 ###qb_cookie_consent_main
 ###rb-cookie-container
 ###rbiCookiePolicy_pushDownBoxWrapper
@@ -1472,6 +1491,7 @@ _site_cookie_
 ##.capaAvisoCookies
 ##.caption-cookie
 ##.cc-banner
+##.cc-container
 ##.cc-cookies
 ##.cc-fixed-bottom
 ##.cc-floating
@@ -1495,6 +1515,8 @@ _site_cookie_
 ##.consentBarWrapper
 ##.container-cookie-notice
 ##.container_cookies
+##.content_cookies
+##.contentCookieBox
 ##.coockie
 ##.coockie_banner
 ##.Cookie
@@ -1552,6 +1574,7 @@ _site_cookie_
 ##.cookie-information
 ##.cookie-information-container
 ##.cookie-information-wrapper
+##.cookie-informer
 ##.cookie-inner
 ##.cookie-law
 ##.cookie-law-container
@@ -1619,6 +1642,7 @@ _site_cookie_
 ##.cookie-wrap
 ##.cookie-wrapper
 ##.cookie__inner
+##.cookie__message-container
 ##.cookie__policy
 ##.cookie__show
 ##.cookie__wrapper
@@ -1706,6 +1730,7 @@ _site_cookie_
 ##.cookiefascia
 ##.cookieHandler
 ##.cookieHeader
+##.cookieheight
 ##.cookieInfo
 ##.cookieinfo
 ##.cookieinfobannerWrapper
@@ -1714,6 +1739,7 @@ _site_cookie_
 ##.cookieInside
 ##.cookieLaw
 ##.cookielaw-container
+##.cookielawpopup-container
 ##.cookieLegal
 ##.cookieLegal_comp
 ##.cookieLegalComp
@@ -1772,6 +1798,7 @@ _site_cookie_
 ##.cookies-content
 ##.cookies-dialog
 ##.cookies-eu
+##.cookies-footer
 ##.cookies-info
 ##.cookies-info-static
 ##.cookies-legislation
@@ -1937,6 +1964,7 @@ _site_cookie_
 ##.header-notice-cookies
 ##.headerCookies
 ##.hirma-cookies
+##.hLibCookieExpanded
 ##.ib-m-cookie-banner
 ##.id-CookieConsent
 ##.identity-noticebar
@@ -2066,6 +2094,7 @@ _site_cookie_
 ##.ppr_priv_document_cookie_banner
 ##.preventAcceptance
 ##.privacy-alert
+##.privacy-banner
 ##.privacy-cookie
 ##.privacy-notice
 ##.privacy-overlay
@@ -2076,6 +2105,7 @@ _site_cookie_
 ##.privacycookie
 ##.PrivacyPolicyNotice
 ##.qb-cookielaw-bar
+##.rdm-daac-notice-template
 ##.react-cookie-banner
 ##.regional-cookie-warning
 ##.resultCookie
@@ -2183,17 +2213,18 @@ _site_cookie_
 ! Cookie, privacy, legal filters
 abcnews.go.com##.push-me
 aberdeenplumberservices.co.uk,firstcallmotorbreakdown.co.uk,pattheduck.com###FISLCC
-add0n.com,aflite.co.uk,aon.com,atom42.co.uk,bakersmall.co.uk,bbvonline.net,boscolohotels.com,boxnation.com,flexerasoftware.com,fremantlemedia.com,iadvize.com,keyboardco.com,nspcc.org.uk,onenessscotland.org,priorygroup.com,rodacciai.fr,technutty.co.uk,tutsandtips.com,wheatley-group.com###cookie
+add0n.com,aflite.co.uk,aon.com,atom42.co.uk,bakersmall.co.uk,bbvonline.net,boscolohotels.com,boxnation.com,flexerasoftware.com,fremantlemedia.com,iadvize.com,keyboardco.com,nspcc.org.uk,onenessscotland.org,priorygroup.com,rodacciai.fr,technutty.co.uk,toomeymotorgroup.co.uk,tutsandtips.com,wheatley-group.com###cookie
 adobe.com##.message
 adultswim.com###legal-notification
 agcas.org.uk,reliancebankltd.com###informationbar
 airproducts.co.uk##.eu-dp
 alternativeto.net###bottomNotifier
 amazon.com###pldn-deep-link
-amnesty.org,asda.com,ashridge.org.uk,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,dur.ac.uk,graspop.be,mailjet.com,mindshareworld.com,pjon.org,royalparks.org.uk,tescomobile.ie,thenottingham.com,ukcisa.org.uk,umicore.com,unknownphone.com,uptodown.com,volvocars.com##.cookies
-anglianwater.co.uk,ask.fm,calvertjournal.com,crazydomains.co.uk,hempel.co.uk,hempelyacht.com,leonorgreyl.com,liptonicetea.com,m64.info,mandarinoriental.com,modhoster.com,natwest.com,openmailbox.org,postoffice.co.uk,rbs.co.uk,roalddahl.com,rowenta.com,statusbrew.com,syntevo.com,team-mediaportal.com,virgin-atlantic.com##.cookie
+amnesty.org,asda.com,ashridge.org.uk,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,dur.ac.uk,graspop.be,luxottica.com,mailjet.com,mindshareworld.com,pjon.org,royalparks.org.uk,tescomobile.ie,thenottingham.com,ukcisa.org.uk,umicore.com,unknownphone.com,uptodown.com,volvocars.com##.cookies
+anglianwater.co.uk,ask.fm,calvertjournal.com,crazydomains.co.uk,hempel.co.uk,hempelyacht.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,modhoster.com,natwest.com,openmailbox.org,postoffice.co.uk,rbs.co.uk,roalddahl.com,rowenta.com,statusbrew.com,syntevo.com,team-mediaportal.com,virgin-atlantic.com##.cookie
 anisearch.com##.urgent-msg
-anpost.ie,emrf.eu,emunewz.net,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,homecinemachoice.com,inmobi.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,phonearena.com,picload.org,pokernews.com,premiumcredit.co.uk,private.com,scl.org,studentski.net,tellows-au.com,tellows-fi.com,tellows-ng.com,tellows-tr.com,tellows.asia,tellows.at,tellows.be,tellows.co,tellows.co.nz,tellows.co.uk,tellows.co.za,tellows.com,tellows.com.br,tellows.cz,tellows.de,tellows.dk,tellows.es,tellows.fr,tellows.gr,tellows.hu,tellows.in,tellows.it,tellows.jp,tellows.mx,tellows.net,tellows.nl,tellows.org,tellows.pl,tellows.pt,tellows.ru,tellows.se,tellows.tw,the-tls.co.uk,tsb.co.uk###cookies
+anpost.ie,ayraviation.com,emrf.eu,emunewz.net,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,homecinemachoice.com,inmobi.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,panfurware.com,phonearena.com,picload.org,pokernews.com,premiumcredit.co.uk,private.com,scl.org,studentski.net,tellows-au.com,tellows-fi.com,tellows-ng.com,tellows-tr.com,tellows.asia,tellows.at,tellows.be,tellows.co,tellows.co.nz,tellows.co.uk,tellows.co.za,tellows.com,tellows.com.br,tellows.cz,tellows.de,tellows.dk,tellows.es,tellows.fr,tellows.gr,tellows.hu,tellows.in,tellows.it,tellows.jp,tellows.mx,tellows.net,tellows.nl,tellows.org,tellows.pl,tellows.pt,tellows.ru,tellows.se,tellows.tw,the-tls.co.uk,tsb.co.uk###cookies
+ao.com###aoMessageHolder
 aptoide.com###news
 aquacard.co.uk###popup
 area-codes.org.uk###baselink
@@ -2261,10 +2292,10 @@ elanco.com###ribbon
 eurosport.com###container-notifications
 exemproject.eu###myModal
 facebook.com##[data-testid="cookie-policy-banner"]
-fedex.com###privacy-notice
 fifa.com##.mdl-overlay
 firstsave.co.uk##.msgBox
 fitzpatrickreferrals.co.uk###hellobar
+fonehouse.co.uk,metrofone.co.uk###popupDiv
 fool.co.uk###dogfish
 forumcommunity.net##.jnote
 freecycle.org###blocker_message
@@ -2281,6 +2312,8 @@ gumtree.com##.notification-box
 hankooktire.com##.top_ep_wrap
 harvester.co.uk##.notification--notification
 hertz247.co.uk##.lbContainer
+historicengland.org.uk##.alert-banner
+hivehome.com##.header-stacked-message
 hmc.org.uk###modal-mask
 huawei.com##.ReadPolicy
 ingwb.com##.dialog
@@ -2293,6 +2326,7 @@ jman.tv###ActionBar
 jotti.org##.alert-info
 jukegames.com,n-mobile.net###overbox3
 justcause.com##.main-site-notes
+keil.com###privacymodule
 landrover.co.uk##.NotificationBar
 last.fm##.site-message
 layar.com##.remarketing-banner
@@ -2302,7 +2336,6 @@ livescore.com,livescore.eu,livescores.com##.info-msg
 logicconcept.eu###mc_top_bar
 lrb.co.uk##div[style="border-bottom:1px solid #adadad;padding:5px;background:#f4f4f4;color:#333;font:1em/1 sans-serif"]
 mabknives.co.uk##.topbarBox
-macleans.ca##.rdm-daac-notice-template
 malaysiaairlines.com###cookie_policy_modal
 mappy.com###IndexView-first-visit
 megabus.com###GB_overlay
@@ -2346,6 +2379,7 @@ robertozeno.com##.video-mask
 robertsspaceindustries.com##.bottom-notif-bar
 savethechildren.org.uk##.policy-banner
 seeker.com###legal-notice
+shatter-box.com###elGuestTerms
 shazam.com##.policy-label
 sky.com###mast-notifications
 slideshare.net##.j-tos-update-banner
