@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: O+okyGzrHqxzR7dqull3CQ
+! Checksum: IY6EK0HQCUPpmDuGi0e2tQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 8 Oct 2017
 ! This list expires after 4 days
@@ -2883,19 +2883,21 @@ vilaglato.info##.pea_cook_wrapper
 !
 !---------------------------------Whitelists----------------------------------!
 aklagare.se,boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl,nzherald.co.nz,pokemon.com,shopstyle.com,thenextweb.com#@#.no-cookies
+alergia-allegra.pl#@#.cookiePopup
 alko.fi#@#.cookies-open
 bankmillennium.pl#@#.cookies-info
 bezeq.co.il#@#.cookieAlert
 boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl,nzherald.co.nz#@#.Cookies
 boursorama.com#@#.cookie-banner
 britishairways.com#@##cookieModal
-bulle-communication.com,edmond-de-rothschild.fr,foiredeparis.fr,galleria.io,icelandair.ca,icelandair.de,kintera.org,lamediathequedumarsan.fr,lautoentrepreneur.fr,lesclesdelabanque.com,liciafox.net,normandinamik.cci.fr,pleinchamp.com,universityadmissions.se,nrj.fr#@#.cookiebanner
 greenflag.com#@#.cookie-message
 hbogo.hu#@##cookiebox
 hearst.co.uk#@#.cookie-policy
 lg.com#@#.cookie-check
+maisonapart.com#@#.accept-cookie
 media.netflix.com#@##cookieAlert
 mediapart.fr#@#.cookie-warn
+metia.com#@#.cookieNotice
 moniteurautomobile.be#@#.cookieBox
 morizon.pl,tweakers.net#@#.cookieBar
 mozilla.org,usps.com#@##privacy-policy
