@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: IZ/f8uYdwm5t6Qovmc2Ruw
+! Checksum: Okpw0RCyv+CC8VrXqjuuAw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 8 Oct 2017
 ! This list expires after 4 days
@@ -764,6 +764,7 @@ youporn.com###adblock_1
 @@||arconaitv.me/assets/javascripts/ads.js
 @@||as-cdn.tk/js/ads.js
 @@||autoworldnews.com/common/js/common/ads.js
+@@||ay.gy/static/js/advert.js
 @@||babycenter.com^*/ads.js
 @@||benczmark.pl^*/b.ads.js
 @@||bicycling.com/*ad$script
@@ -949,6 +950,7 @@ youporn.com###adblock_1
 @@||ptztv.com/dns_ad/$script
 @@||pubmatic.com/AdServer/*showad.js$script
 @@||qoshe.com^$generichide
+@@||quamiller.com^*/ad_
 @@||quoka.de/assets/js/adframe.js
 @@||rackcdn.com/js/ads.js
 @@||radiomagonline.com/js/ads.js
@@ -1097,6 +1099,8 @@ hotslogs.com##h2 + [zoompage-fontsize="14"] + [zoompage-fontsize="14"]
 ! Propellar Ads test
 /\:\/\/[a-z0-9]{5,26}\.com\/[0-9]{2,9}\.(css|js)$/$third-party,script,stylesheet
 !
+! "nordweste"
+/\.info/[\w\/\-.+]{120,}/$subdocument,image,third-party
 ||adblockers-ns.servicebus.windows.net^$third-party
 ||contributor.google.com^*/loader.js$third-party
 !
