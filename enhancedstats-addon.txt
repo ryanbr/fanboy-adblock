@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: wGhTiFwLhnBLoxdX6EkoWg
+! Checksum: viOgH77wN22vyEDnf2JNpg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 8 Oct 2017
 ! This list expires after 4 days
@@ -1096,6 +1096,7 @@ hotslogs.com##h2 + [zoompage-fontsize="14"] + [zoompage-fontsize="14"]
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##div[class][zoompage-fontsize] > img[src]
 ! Admiral
 /\.com/.*[a-f0-9]{110}/$script,image,third-party
+@@||vmp.boldchat.com/aid/$script
 ! popads
 /\:\/\/www\.([a-z]{12})\.com\/[a-z]{1,6}\.js/$script,third-party
 ! "DANESCO TRADING"
