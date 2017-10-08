@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: rChiIOU/WKI3Bf7i19FRaw
+! Checksum: 2fl2dIHwLBoUMeHpOyY/QA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 7 Oct 2017
+! Updated: 8 Oct 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2022,7 +2022,8 @@ pastebin.com###abrpm2
 pastebin.com###notice
 pastebin.com###paypal-overlay
 ! last.fm
-last.fm##div[style*="visibility:"]
+! last.fm##div[style*="visibility:"]
+! https://github.com/ryanbr/fanboy-adblock/issues/143
 ! techdracula.com
 @@||techdracula.com^$generichide
 techdracula.com##.apss-social-share
