@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 7vUxEr4PR7+Jmww54paf5Q
+! Checksum: 3gPxKuseT/Wha+NVyWzHEQ
 ! Title: Fanboy's Cookiemonster List
-! Updated: 8 Oct 2017
+! Updated: 9 Oct 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2332,6 +2332,7 @@ last.fm##.site-message
 layar.com##.remarketing-banner
 lego.com###GFSticky
 lg.com##.policyChk
+live.com,microsoft.com,office.com,skype.com,visualstudio.com,windows.com,xbox.com###epb
 livescore.com,livescore.eu,livescores.com##.info-msg
 logicconcept.eu###mc_top_bar
 lrb.co.uk##div[style="border-bottom:1px solid #adadad;padding:5px;background:#f4f4f4;color:#333;font:1em/1 sans-serif"]
@@ -2341,7 +2342,6 @@ mappy.com###IndexView-first-visit
 megabus.com###GB_overlay
 mercedes-benz.com###cLayer
 microsoft.com##.feedback-visible
-microsoft.com,visualstudio.com,xbox.com###epb
 mirror.co.uk##.mod-cookiepolicy
 mobile.twitter.com##[data-reactroot] > [class] + [class]:last-child
 moleskine.com###disclaimer
