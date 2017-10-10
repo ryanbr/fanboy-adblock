@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: aqaweJoBjF1kjQ9MOJA85g
+! Checksum: W1upsAJ4jkyweODDuY00ow
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 8 Oct 2017
+! Updated: 10 Oct 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1129,6 +1129,12 @@ cyberterminators.co##.wpInsertInPostAd
 ! gamebanana.com
 gamebanana.com###SiteSkinWrapper + div[style^="position:fixed;"]
 gamebanana.com##.BannerModule
+! nbc
+@@||doubleclick.net/gampad/ad?$domain=nbc.com
+@@||doubleclick.net/gpt/pubads_impl_$domain=nbc.com
+@@||fwmrm.net/ad/l$domain=nbc.com
+@@||googlesyndication.com/pagead/imgad?$domain=nbc.com
+@@||moatads.com^*/moatplugin.js$domain=nbc.com
 ! al.ly
 @@||ad2up.com^$subdocument,third-party,domain=al.ly|ally.sh
 @@||al.ly/www.liveadexchanger.com/a/display.php
