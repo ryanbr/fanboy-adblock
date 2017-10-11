@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: W1upsAJ4jkyweODDuY00ow
+! Checksum: n7JIf4QXycN97oXL9ve6ow
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 10 Oct 2017
+! Updated: 11 Oct 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1096,6 +1096,8 @@ hotslogs.com##h2 + [zoompage-fontsize="14"] + [zoompage-fontsize="14"]
 ! Ad inject 
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##div.post-body > [class][zoompage-fontsize]
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##div[class][zoompage-fontsize] > img[src]
+! symbolab.com
+symbolab.com##.tooltipster-show
 ! Admiral
 /\.com/.*[a-f0-9]{110}/$script,image,third-party
 @@||vmp.boldchat.com/aid/$script
