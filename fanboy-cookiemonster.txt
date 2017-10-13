@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: dne7+KS9aWmTwNDcqrDgcQ
+! Checksum: qMM6jYjyYrlZU96vN+mgQA
 ! Title: Fanboy's Cookiemonster List
-! Updated: 11 Oct 2017
+! Updated: 14 Oct 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -149,7 +149,7 @@
 /cookiebar-
 /cookiebar.
 /CookieBar/*
-/cookieBox.js
+/cookiebox.
 /cookiec.json
 /cookiechoice.js
 /cookiechoices-
@@ -384,6 +384,8 @@ _site_cookie_
 ###askCookies
 ###askToAcceptCookies
 ###asterix_cookie_widget
+###attention_cookies
+###attentionCookies
 ###au_cookiesalert
 ###avcn_notification
 ###avertissement_cookies
@@ -428,6 +430,7 @@ _site_cookie_
 ###block-cookie_policy-0
 ###block-inf-eu-cookie-cookie-disclaimer
 ###block-notifications-cookie
+###blockCookieContainer
 ###blogger_cookie_notice
 ###bonaCookies
 ###bootcooker-banner
@@ -466,6 +469,7 @@ _site_cookie_
 ###cmsCookieWarning
 ###CNIL
 ###cnil
+###cnil-banner
 ###cnil-cookie
 ###cnil-cookie-panel
 ###cnil-layer
@@ -603,6 +607,7 @@ _site_cookie_
 ###cookie-prompt-fixed
 ###cookie-question
 ###cookie-regle
+###cookie-restriction
 ###cookie-ribbon
 ###cookie-slide
 ###cookie-statement
@@ -661,6 +666,7 @@ _site_cookie_
 ###cookie_notice
 ###cookie_notif
 ###cookie_notification_bar
+###cookie_overlay
 ###cookie_panel
 ###cookie_policies
 ###cookie_policy
@@ -716,8 +722,10 @@ _site_cookie_
 ###cookieBox
 ###cookiebox-wrapper
 ###cookieBoxWrapper
+###cookiechoice
 ###cookieChoiceBanner
 ###cookieChoiceInfo
+###cookieChooser
 ###cookiecnil
 ###cookieCompliance
 ###cookieComplianceMessage
@@ -788,6 +796,7 @@ _site_cookie_
 ###cookieLawHeader
 ###cookieLawText
 ###cookielawwarning
+###cookielayer
 ###cookieLayer
 ###cookieLevelIntercept
 ###CookieLey
@@ -895,6 +904,7 @@ _site_cookie_
 ###cookies-messages
 ###cookies-modal
 ###cookies-msg
+###cookies-navbar
 ###cookies-notice
 ###cookies-overlay
 ###cookies-panel
@@ -1103,6 +1113,7 @@ _site_cookie_
 ###EUCookie
 ###eucookie
 ###EuCookieBar-8
+###eucookieconsent
 ###euCookieDirective
 ###eucookielaw
 ###EuCookieLawForm
@@ -1124,6 +1135,7 @@ _site_cookie_
 ###footer_cookies
 ###footer_tc_privacy
 ###footerCookieArticle
+###footerCookieDirective
 ###footerCookies
 ###fp_cookieMessageContainer
 ###frameCookiesBox
@@ -1131,6 +1143,7 @@ _site_cookie_
 ###fs-cookiewarning
 ###FT_Cookies
 ###future-cookie-bar
+###g_cookieNotification
 ###gabarit_cnilcookie
 ###gb_sm_notification
 ###gel-cookie-banner
@@ -1173,6 +1186,7 @@ _site_cookie_
 ###info-cookie
 ###info_cookie
 ###infoCookie
+###infoCookies
 ###informationAboutCookies
 ###informations-cookies
 ###infos_cookie
@@ -1184,6 +1198,7 @@ _site_cookie_
 ###jQAlertAcceptCookie
 ###jquery-cookie-law-script
 ###js-cookie-box
+###js-cookie-consent-container
 ###js-cookie-notice
 ###js-cookie-policy-default
 ###js-cookieInfo
@@ -1216,6 +1231,7 @@ _site_cookie_
 ###message-cookie
 ###message_cookie
 ###messageCookie
+###messcookie
 ###mk-cookie
 ###mktg_Cookie
 ###mktg_Cookie_Wrap
@@ -1277,6 +1293,7 @@ _site_cookie_
 ###phrase_notification_cookies
 ###pl_cookies
 ###plugin_cookie_int
+###pm-cookie-banner
 ###pm-cookie-consent
 ###pm15_cookie_info
 ###pnlCookieNotice
@@ -1416,6 +1433,7 @@ _site_cookie_
 ###wk_cookiebar
 ###WP-cookie-info
 ###wpx_cookie
+###wrap_alert_message_cookie2
 ###wrapper--cookie
 ###wsjconsent
 ###wt-cookie-box
@@ -1462,6 +1480,7 @@ _site_cookie_
 ##.bandeau_consent
 ##.banner--cookie
 ##.banner--cookies-policy
+##.banner-cookies
 ##.banner_cookies
 ##.bannerInformativaEU
 ##.barCookie
@@ -1474,6 +1493,7 @@ _site_cookie_
 ##.blocCookie
 ##.bloccookie
 ##.block-cnil
+##.block-cookie
 ##.block-cookies
 ##.blockCookieNotification
 ##.bmj-cookie-noticebar-content
@@ -1484,9 +1504,11 @@ _site_cookie_
 ##.c-cookie-banner
 ##.c-cookie-bar
 ##.c-cookie-consent
+##.c-cookie-notification
 ##.c-cookie-policy
 ##.c-cookiebar
 ##.c-cookieContainer
+##.c-cookies__wrapper
 ##.c2g_daimler_cookie_dialog_overlay
 ##.c_cookie
 ##.c_cookie-policy
@@ -1501,7 +1523,9 @@ _site_cookie_
 ##.cc-floating
 ##.cc_banner
 ##.cc_banner-wrapper
+##.cc_banner_FB
 ##.cc_container
+##.cc_container_FB
 ##.ccmcss_oic
 ##.cdp-cookies-alerta
 ##.center_cookies
@@ -1529,6 +1553,8 @@ _site_cookie_
 ##.cookie-accept-overlay
 ##.cookie-acceptance-container
 ##.cookie-acceptor
+##.cookie-advice
+##.cookie-agreement
 ##.cookie-alert
 ##.cookie-alert-box
 ##.cookie-announce
@@ -1537,6 +1563,7 @@ _site_cookie_
 ##.cookie-banner-bottom
 ##.cookie-bar
 ##.cookie-barre
+##.cookie-bg
 ##.cookie-block
 ##.cookie-box
 ##.cookie-check:not(body)
@@ -1556,6 +1583,7 @@ _site_cookie_
 ##.cookie-container-most
 ##.cookie-content
 ##.cookie-demo
+##.cookie-details:not(body)
 ##.cookie-dialog-container
 ##.cookie-dialogue
 ##.cookie-disclaimer
@@ -1580,6 +1608,7 @@ _site_cookie_
 ##.cookie-information-wrapper
 ##.cookie-informer
 ##.cookie-inner
+##.cookie-inner-container
 ##.cookie-law
 ##.cookie-law-container
 ##.cookie-law-overlay
@@ -1587,7 +1616,9 @@ _site_cookie_
 ##.cookie-layer-container
 ##.cookie-layer-visible
 ##.cookie-legislation
+##.cookie-listener
 ##.cookie-message
+##.cookie-message-box
 ##.cookie-message-container
 ##.cookie-modal
 ##.cookie-monster
@@ -1653,6 +1684,8 @@ _site_cookie_
 ##.cookie_accept
 ##.cookie_accept_container
 ##.cookie_adv2
+##.cookie_advice
+##.cookie_agreement
 ##.cookie_alert
 ##.cookie_banner-handled
 ##.Cookie_bar
@@ -1702,6 +1735,7 @@ _site_cookie_
 ##.cookiebanner:not(body)
 ##.cookieBannerContainer
 ##.cookiebar
+##.cookiebar-container
 ##.cookieBar:not(body)
 ##.cookiebarcontainer
 ##.cookieBarContainer
@@ -1712,6 +1746,7 @@ _site_cookie_
 ##.cookiebox
 ##.cookieCheckMainPanel
 ##.CookieChoiceContainer
+##.cookieCnilCustom
 ##.CookieCompliance
 ##.cookieCompliance
 ##.CookieConsent
@@ -1735,6 +1770,7 @@ _site_cookie_
 ##.cookieHandler
 ##.cookieHeader
 ##.cookieheight
+##.CookieHint
 ##.cookieInfo
 ##.cookieinfo
 ##.cookieinfobannerWrapper
@@ -1744,6 +1780,7 @@ _site_cookie_
 ##.cookieLaw
 ##.cookielaw-container
 ##.cookielawpopup-container
+##.cookielayer__layer
 ##.cookieLegal
 ##.cookieLegal_comp
 ##.cookieLegalComp
@@ -1832,6 +1869,7 @@ _site_cookie_
 ##.Cookies:not(body)
 ##.cookies__banner
 ##.cookies__info
+##.cookies__inner
 ##.cookies_acceptance
 ##.cookies_bar
 ##.cookies_box
@@ -1850,6 +1888,7 @@ _site_cookie_
 ##.cookiesbar
 ##.cookiesBgCls
 ##.cookiesBlock
+##.cookiesBox
 ##.cookiesContent
 ##.cookieShowClass
 ##.cookiesInfo
@@ -2020,6 +2059,7 @@ _site_cookie_
 ##.layerCookie
 ##.lgcookieslaw_banner
 ##.liCookiePol
+##.luana-module-cookie-policy
 ##.m-cookie-banner
 ##.m-cookie-notice
 ##.m-cookie_banner
@@ -2030,12 +2070,16 @@ _site_cookie_
 ##.mainCookieAlerta
 ##.maserati-cookie
 ##.mb_informativa_cookies
+##.md-cookie
 ##.md-cookies-advice
 ##.mdl-snackbar
+##.message--cookie
 ##.message-cookie
 ##.message-cookies
 ##.message-demande-cookies
 ##.message-modal-cookie
+##.mj-box-cookie-alert
+##.mj-js-container-cookie-alert
 ##.mk-cookieBox
 ##.mk_cookie_policy
 ##.mod-cookiepolicy
@@ -2065,6 +2109,7 @@ _site_cookie_
 ##.notificationpopup
 ##.npo_cc_regular
 ##.o-cookie-message
+##.O-CookieLaw
 ##.ob-cookies
 ##.ob-cookies-content
 ##.obs_cnil
@@ -2121,6 +2166,7 @@ _site_cookie_
 ##.roh-cookies
 ##.row-cookies
 ##.rs-alert-cookie
+##.s-cookie-notification-bar
 ##.s-cookies
 ##.s1-cookie-banner
 ##.sanoma-optin-bar
@@ -2145,6 +2191,7 @@ _site_cookie_
 ##.sites-cookie-notice-fit
 ##.SLNotificationBar
 ##.sol-cookie-container
+##.sp-cookie-warning
 ##.sqs-announcement-bar
 ##.stampenCookieContainer
 ##.statisticsOptBox
@@ -2179,7 +2226,10 @@ _site_cookie_
 ##.vk_cookie_compliance
 ##.vmapi-infocookies-wrapper
 ##.warningCookieWrap
+##.wbUKCookies
+##.we-use-cookie
 ##.wgt-cookies
+##.widget-cookie
 ##.wrap_cookie_policy
 ##.wrap_cookies
 ##.wrapper--cookies
@@ -2264,6 +2314,7 @@ channel4.com###all4gn-cookie-policy-notification
 channelregister.co.uk,theregister.co.uk###RegCCO
 cimaglobal.com###optanon
 cityoflondon.gov.uk##.container-floating-notifications
+cnn.com##.TermsOfService__component
 cnn.com##.user-msg
 co-operative.coop,couchsurfing.com##.banner
 co-opinsurance.co.uk###noticePanel
@@ -2843,6 +2894,7 @@ enel.it###contenitoredisclaimer
 euronics.it###note
 farmacieaperte.it###warning-popup
 forumfree.it##.jnote
+hilti.it##.m-smartbar-container
 ingdirect.it##.topalertbanner
 inquantamila.it###privacy
 radioitalia.it,tivusat.tv##.cookies
