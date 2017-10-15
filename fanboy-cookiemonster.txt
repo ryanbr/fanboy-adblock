@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: zlP7OlMS8ahlPIWBKG1uLw
+! Checksum: q2IHk+hI9qVrNHxS22zDDQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 15 Oct 2017
 ! This list expires after 4 days
@@ -2405,7 +2405,6 @@ logicconcept.eu###mc_top_bar
 louisvuitton.com##.cs_banner
 lrb.co.uk##div[style="border-bottom:1px solid #adadad;padding:5px;background:#f4f4f4;color:#333;font:1em/1 sans-serif"]
 mabknives.co.uk##.topbarBox
-malaysiaairlines.com###cookie_policy_modal
 mappy.com###IndexView-first-visit
 megabus.com###GB_overlay
 mercedes-benz.com###cLayer
