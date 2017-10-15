@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: AZi6abXrcAy1/qxtpZdSkw
+! Checksum: zlP7OlMS8ahlPIWBKG1uLw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 15 Oct 2017
 ! This list expires after 4 days
@@ -2597,6 +2597,7 @@ xs4all.nl###xs4all-cookieWall-overlay
 !
 !---------- German Site Generic Hiding Rules ----------
 !
+###nutzungs_einverstaendnis
 auto-motor-und-sport.de##.j34
 auto-motor-und-sport.de##.p40
 cebit.de,hannovermesse.de##.user-notes-notification
