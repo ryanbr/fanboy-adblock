@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: +iTrwNUyq6Kc7QqI6fGlVQ
+! Checksum: hyZLtfN1+f0dPda7N5q1FQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 15 Oct 2017
+! Updated: 16 Oct 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1144,6 +1144,9 @@ gamebanana.com##.BannerModule
 @@||al.ly^$generichide
 @@||ally.sh^$generichide
 @@||voluumtrk.com^$image,domain=ally.sh|al.ly
+! proboards.com
+@@||ads.proboards.com/ad/
+proboards.com###support-message
 ! publicleech.xyz
 @@||popmyads.com/pma.js$script,domain=publicleech.xyz
 ! xxvideosporno.net
