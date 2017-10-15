@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: qMM6jYjyYrlZU96vN+mgQA
+! Checksum: AZi6abXrcAy1/qxtpZdSkw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 14 Oct 2017
+! Updated: 15 Oct 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -146,6 +146,7 @@
 /cookiebadge.
 /cookiebadge_
 /cookiebanner.
+/cookieBanner/*
 /cookiebar-
 /cookiebar.
 /CookieBar/*
@@ -504,6 +505,7 @@ _site_cookie_
 ###cooki_accept
 ###cookie-accept
 ###cookie-acceptation-popup
+###cookie-advice
 ###cookie-agree
 ###cookie-agreement-box
 ###cookie-alert
@@ -1155,6 +1157,7 @@ _site_cookie_
 ###golem-cookie-accept
 ###grey-bar-cookies-contents
 ###gtm_privacy
+###hamon-banner
 ###have-a-cookie
 ###headband-cookie
 ###headband_cookies
@@ -1253,6 +1256,7 @@ _site_cookie_
 ###navCookies
 ###nbcCookieChoice
 ###new-cookie
+###newcookie_x
 ###nibirumail_cookie_advice
 ###NJI-EmeaCookie
 ###no-cookie
@@ -1321,6 +1325,7 @@ _site_cookie_
 ###privacy-policy
 ###privacy-policy-notice
 ###privacy-policy-panel
+###privacy-statement
 ###privacy_accept
 ###privacy_box_container
 ###privacy_cookiepolicy
@@ -1592,6 +1597,7 @@ _site_cookie_
 ##.cookie-div
 ##.cookie-footer
 ##.cookie-footer-dialog
+##.cookie-giodo
 ##.cookie-header
 ##.cookie-hint
 ##.cookie-holder
@@ -1950,6 +1956,7 @@ _site_cookie_
 ##.drc-cookie-policy
 ##.ds2-cookie-disclaimer
 ##.e-cookie-message
+##.eav-cookielayer
 ##.ec-cookie-policy
 ##.ecdcCookiePolicy
 ##.ecomcookielaw-holder
@@ -2101,6 +2108,7 @@ _site_cookie_
 ##.next-cookie-banner
 ##.nm-cookiepolicy
 ##.no-cookies
+##.notice-bar
 ##.notice-cookie
 ##.notice_notice_cookies
 ##.notif_cookie_panel
@@ -2277,7 +2285,6 @@ agcas.org.uk,reliancebankltd.com###informationbar
 airproducts.co.uk##.eu-dp
 alternativeto.net###bottomNotifier
 amazon.com###pldn-deep-link
-amnesty.org,asda.com,ashridge.org.uk,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,dorotheum.com,dur.ac.uk,graspop.be,luxottica.com,mailjet.com,mindshareworld.com,pjon.org,royalparks.org.uk,tescomobile.ie,thenottingham.com,ukcisa.org.uk,umicore.com,unknownphone.com,uptodown.com,volvocars.com##.cookies
 anglianwater.co.uk,ask.fm,calvertjournal.com,crazydomains.co.uk,hempel.co.uk,hempelyacht.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,modhoster.com,natwest.com,openmailbox.org,postoffice.co.uk,rbs.co.uk,roalddahl.com,rowenta.com,statusbrew.com,syntevo.com,team-mediaportal.com,virgin-atlantic.com##.cookie
 anisearch.com##.urgent-msg
 anpost.ie,ayraviation.com,emrf.eu,emunewz.net,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,homecinemachoice.com,inmobi.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,panfurware.com,phonearena.com,picload.org,pokernews.com,premiumcredit.co.uk,private.com,scl.org,studentski.net,tellows-au.com,tellows-fi.com,tellows-ng.com,tellows-tr.com,tellows.asia,tellows.at,tellows.be,tellows.co,tellows.co.nz,tellows.co.uk,tellows.co.za,tellows.com,tellows.com.br,tellows.cz,tellows.de,tellows.dk,tellows.es,tellows.fr,tellows.gr,tellows.hu,tellows.in,tellows.it,tellows.jp,tellows.mx,tellows.net,tellows.nl,tellows.org,tellows.pl,tellows.pt,tellows.ru,tellows.se,tellows.tw,the-tls.co.uk,tsb.co.uk###cookies
@@ -2351,6 +2358,7 @@ europa.eu###block-esm-base-cookie-message-footer
 eurosport.com###container-notifications
 exemproject.eu###myModal
 facebook.com##[data-testid="cookie-policy-banner"]
+feelunique.com,amnesty.org,asda.com,ashridge.org.uk,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,dorotheum.com,dur.ac.uk,graspop.be,luxottica.com,mailjet.com,mindshareworld.com,pjon.org,royalparks.org.uk,tescomobile.ie,thenottingham.com,ukcisa.org.uk,umicore.com,unknownphone.com,uptodown.com,volvocars.com##.cookies
 fifa.com##.mdl-overlay
 firstsave.co.uk##.msgBox
 fitzpatrickreferrals.co.uk###hellobar
@@ -2394,6 +2402,7 @@ lg.com##.policyChk
 live.com,microsoft.com,office.com,skype.com,visualstudio.com,windows.com,xbox.com###epb
 livescore.com,livescore.eu,livescores.com##.info-msg
 logicconcept.eu###mc_top_bar
+louisvuitton.com##.cs_banner
 lrb.co.uk##div[style="border-bottom:1px solid #adadad;padding:5px;background:#f4f4f4;color:#333;font:1em/1 sans-serif"]
 mabknives.co.uk##.topbarBox
 malaysiaairlines.com###cookie_policy_modal
@@ -2526,6 +2535,7 @@ abril.com.br###barra-mini-home
 airbnb.be##.flash-container
 akcneletaky.sk###infoCoo
 apartmanija.hr###site_nt
+dalmatinskiportal.hr,repertuarim.com##.cookie
 delfi.lv##.notification-widget
 delo.si,slovenskenovice.si,deloindom.si,polet.si,pogledi.si##.notice
 digimanie.cz,svethardware.cz###cfooter
