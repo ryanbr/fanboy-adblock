@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: hyZLtfN1+f0dPda7N5q1FQ
+! Checksum: k/oRuzn5A/dqjBTuV1IB1g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 16 Oct 2017
 ! This list expires after 4 days
@@ -407,7 +407,6 @@ nautil.us###adpayload
 ##iframe[src^="https://isupportjournalism.com/"][style]
 @@||thepiratebay.org^*/details.js|
 @@||thepiratebay.org^*/effects.js|
-@@||thepiratebay.org^*/jquery.min.js|
 @@||thepiratebay.org^*/prototype.js|
 @@||thepiratebay.org^*/scriptaculous.js|
 @@||thepiratebay.org^*/tpb.js|
