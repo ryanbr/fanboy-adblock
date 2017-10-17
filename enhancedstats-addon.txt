@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: aKl96B4q85WdO2PU5nalaA
+! Checksum: /HOBErTdsiqu6EQrf2l8OQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Oct 2017
 ! This list expires after 4 days
@@ -1106,6 +1106,7 @@ symbolab.com##.tooltipster-show
 /\:\/\/www\.([a-z]{12})\.com\/[a-z]{1,6}\.js/$script,third-party
 ! "DANESCO TRADING"
 /\.com\/[\w\/\-.+]{320,}/$subdocument,third-party
+@@||boxcloud.com^$subdocument
 ! Propellar Ads test
 /\:\/\/[a-z0-9]{5,26}\.com\/[0-9]{2,9}\.(css|js)$/$third-party,script,stylesheet
 !
