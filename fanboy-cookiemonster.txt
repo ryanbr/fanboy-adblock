@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: j+ly9CGT8gIrM5+R2Sme4w
+! Checksum: QcmZhdoRc1ZW+4Nlm/VvgQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 22 Oct 2017
 ! This list expires after 4 days
@@ -2079,7 +2079,6 @@ _site_cookie_
 ##.mb_informativa_cookies
 ##.md-cookie
 ##.md-cookies-advice
-##.mdl-snackbar
 ##.message--cookie
 ##.message-cookie
 ##.message-cookies
@@ -2430,6 +2429,7 @@ novapdf.com###novapdf_accept_cookies
 nymity.com###CookieAcceptSubLayout1_cookiesmessageshown
 office.com##.headPopup
 office.com##.m-alert
+opengapps.org##.mdl-snackbar
 origin.com##.origin-sitestripe
 palmbeachpost.com##.footer-wrapper
 pcmag.com##.privacy-content
