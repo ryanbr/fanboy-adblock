@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 7J++3SvrQ1Z38DIegVd+aQ
+! Checksum: iY0cWg491edRS3ipXlZoew
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 21 Oct 2017
+! Updated: 22 Oct 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2274,7 +2274,7 @@ xkorean.net##a[href*="&aff_id"]
 ! ---------- Whitelisting rules ----------
 !
 ! test filter for google/gpt
-@@||googletagservices.com/tag/js/gpt.js$domain=gamespot.com|gry.pl|whosampled.com|zdnet.com|thewrap.com|expansion.com|hardware.info|techrepublic.com|abczdrowie.pl|playrust.io|v3.co.uk|wired.com|ebaumsworld.com|pocketnow.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
+@@||googletagservices.com/tag/js/gpt.js$domain=goibibo.com|gamespot.com|gry.pl|whosampled.com|zdnet.com|thewrap.com|expansion.com|hardware.info|techrepublic.com|abczdrowie.pl|playrust.io|v3.co.uk|wired.com|ebaumsworld.com|pocketnow.com|cityam.com|computerworlduk.com|cwtv.com|forbes.com|independent.co.uk|techworld.com|my5.tv|ocregister.com|phoronix.com|realtor.com|seahawks.com|wwe.com
 ||googletagmanager.com/ns.html$third-party
 ||googletagservices.com/tag/js/gpt.js$third-party
 !
