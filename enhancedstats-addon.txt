@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: oMDmBYujRVN9pW8hWerOxA
+! Checksum: nYZe/Vty7dvdeIrT9kyanA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 Oct 2017
 ! This list expires after 4 days
@@ -882,7 +882,6 @@ youporn.com###adblock_1
 @@||integritystat.com^*/ads.js
 @@||intoday.in^*/advert$script
 @@||jilhub.xyz^$generichide
-@@||kinja.com^$generichide
 @@||kiplinger.com/js/adblock.js
 @@||koditalk.org/uploads/*adframe.js
 @@||kxcdn.com/js/ads.js
@@ -1203,15 +1202,16 @@ wbur.org#@#.adsbox
 @@||gizmodo.com^$generichide
 @@||jalopnik.com^$generichide
 @@||jezebel.com^$generichide
+@@||kinja.com^$generichide
 @@||lifehacker.com^$generichide
 @@||splinternews.com^$generichide
 @@||theroot.com^$generichide
-lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com###sharingfooter
-lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com###taboola-below-article-thumbnails
-lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.js_ad-top-banner
-lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.js_contained-ad-container
-lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.mezzanine
-lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.newsletter-subscribe
+kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com###sharingfooter
+kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com###taboola-below-article-thumbnails
+kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.js_ad-top-banner
+kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.js_contained-ad-container
+kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.mezzanine
+kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.newsletter-subscribe
 ! doridro.net
 @@||doridro.net^$generichide
 ! indianhotcomics.com
