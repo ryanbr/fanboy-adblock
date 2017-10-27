@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: we16DVaoltF2W+0XJUs/HA
+! Checksum: feNZXGfmrf5pp+l53zSqMA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 28 Oct 2017
 ! This list expires after 4 days
@@ -2097,6 +2097,7 @@ _site_cookie_
 ##.m-cookie-notice
 ##.m-cookie_banner
 ##.m-cookieInfo
+##.m-warning
 ##.m159-cookies
 ##.m_cookie
 ##.main-cookie-warning
@@ -2165,6 +2166,7 @@ _site_cookie_
 ##.pea_cook_wrapper
 ##.pf-cookie-directive
 ##.plugin_cookie
+##.policy-banner
 ##.policy-cookie
 ##.politicaCookies
 ##.polityka-cookie
@@ -2223,6 +2225,7 @@ _site_cookie_
 ##.site-message--cookies
 ##.site-msg-cookie
 ##.site-needs-cookies
+##.site-notice-wrapper
 ##.sites-cookie-notice-fit
 ##.SLNotificationBar
 ##.sol-cookie-container
@@ -2360,7 +2363,6 @@ comscore.com##.info_banner
 cplusplus.com##div[style="background:#eed;padding:10px;margin:0;text-align:center;border-bottom:1px solid #446"]
 crash.net,nationwideinternational.com,thederbyshire.co.uk###cn
 csl-computer.com###notification
-cushmanwakefield.be,cushmanwakefield.co.uk##.m-warning
 daft.ie##.strapline-container
 dailyedge.ie,did.ie,the42.ie###notify-container
 dailymotion.com##div[class^="CookiePopup_"]
@@ -2475,7 +2477,6 @@ ramsayhealth.co.uk##.popupbox
 ratemyprofessors.com##.overlay
 robertozeno.com##.video-mask
 robertsspaceindustries.com##.bottom-notif-bar
-savethechildren.org.uk##.policy-banner
 seeker.com###legal-notice
 shatter-box.com###elGuestTerms
 shazam.com##.policy-label
@@ -2499,7 +2500,6 @@ thermofisher.com##.specialMsg
 theweathernetwork.com##.woahbar
 ticketsource.co.uk###permission-bar
 tmz.com###legalbar
-travelsupermarket.com##.site-notice-wrapper
 trustnet.com##USER-TYPE-POPUP
 tunngle.net###delirioBiscottoso
 tweakers.net###notifications > .announcement
@@ -2632,7 +2632,6 @@ xs4all.nl###xs4all-cookieWall-overlay
 auto-motor-und-sport.de##.j34
 auto-motor-und-sport.de##.p40
 cebit.de,hannovermesse.de##.user-notes-notification
-cushmanwakefield.de##.m-warning
 denic.de,moviepilot.de##.notification
 deutzforum.de##.userNotice
 die-linke.de##.disclaimer
@@ -2844,7 +2843,6 @@ cdiscount.com###\5f evh-ric
 cerdas.com##.topBar
 creavea.com##.creavea-banner-cookie-consent
 cuisineaz.com##.cazLightbox
-cushmanwakefield.fr##.m-warning
 ddb.fr,pmu.fr##.cnil
 e-leclerc.com##.popover
 elsevier-masson.fr###myModal
