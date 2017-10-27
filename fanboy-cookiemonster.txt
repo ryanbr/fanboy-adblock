@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 0z/vN1rJf7IQxgfINWcjeQ
+! Checksum: PR9b/sRV45baLgWit+CxXQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 28 Oct 2017
 ! This list expires after 4 days
@@ -2509,7 +2509,6 @@ twitch.tv###noty_bottomCenter_layout_container
 twitch.tv##.toast-manager__container
 uber.com##.banner--bottom
 uk.yahoo.com###Main > .windowshade:first-child
-uk.yahoo.com##div.js-applet-view-container-main > div[style^="background:"]
 uktv.co.uk###back-to-old-site
 userbenchmark.com##.nb-parent
 vanguardsmoke.com###pop_wholes
@@ -2529,6 +2528,7 @@ wts.com###message
 xhamster.com##.bottom_message
 yahoo.com###Overlay-1-Nagbar
 yahoo.com##.legal-footer
+yahoo.com##div.js-applet-view-container-main > div.fixed-win[style^="background:"]
 youronlinechoices.com##.p15
 youtube.com###notification-footer
 youtube.com##.yt-consent
