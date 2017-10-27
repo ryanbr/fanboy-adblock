@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: o5XmRKxvp50qsebDqpuVrQ
+! Checksum: t7Q1KWalGLDmszG4sYtsZw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 28 Oct 2017
 ! This list expires after 4 days
@@ -372,6 +372,7 @@ _site_cookie_
 ###accept_cookies_cont_outer
 ###acceptCookie
 ###acceptcookie
+###AcceptCookieContainer
 ###acceptCookieMeg
 ###acceptCookies
 ###acceptCookiesDiv
@@ -2276,70 +2277,263 @@ _site_cookie_
 ##COOKIE-WARNING
 ##div[data-module="cookie_banner"]
 ##div[element-structure-cookiemonster]
+! Cookie tag element
+##XK-COOKIE-POLICY-WARNING
+! Common Cookie element
+###sliding-popup.sliding-popup-bottom
+###sliding-popup.sliding-popup-top
+##.biscotto > .biscotto-inner
+! columbiasportswear.co.uk / columbiasportswear.fi etc
+##.overflow-wrapper > #notify-bar
+! Ebay European Coookies
+###gh > .gh-banner
+##.gh-cookieb-active > .gh-cookieb-active
+! Google-cookie
+###epbar
+###gb[style="min-width: 980px;"] > .gb_wb
+###pushdown > .gb_ib
+###pushdown > .gb_wb
+##div > #cnsh[style="display: block;"]
+##div[style="min-width: 750px;"] > .gb_wb
+! Temp filter for ublock
+##div[id="__accept_cookie"]
+##div[id="__ndcc_cookieImpliedConsent"]
+##div[id="_cookieConsentWrapper"]
+##div[id="_CookieText"]
+##div[id="_iph_cp_popup"]
+##div[id^="__ic-notice"]
+! Cookie, privacy, legal filters
+abcnews.go.com##.push-me
 abcnews.go.com##.push-mecceptCookieContainer
+aberdeenplumberservices.co.uk,firstcallmotorbreakdown.co.uk,pattheduck.com###FISLCC
+add0n.com,aflite.co.uk,aon.com,atom42.co.uk,bakersmall.co.uk,bbvonline.net,boscolohotels.com,boxnation.com,flexerasoftware.com,fremantlemedia.com,iadvize.com,keyboardco.com,nspcc.org.uk,onenessscotland.org,priorygroup.com,rodacciai.fr,technutty.co.uk,toomeymotorgroup.co.uk,tutsandtips.com,wheatley-group.com###cookie
 adobe.com##.message
+adultswim.com###legal-notification
+agcas.org.uk,reliancebankltd.com###informationbar
+airproducts.co.uk##.eu-dp
+alternativeto.net###bottomNotifier
+amazon.com###pldn-deep-link
+amnesty.org,asda.com,ashridge.org.uk,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,dorotheum.com,dur.ac.uk,feelunique.com,graspop.be,luxottica.com,mailjet.com,mindshareworld.com,pjon.org,royalparks.org.uk,tescomobile.ie,thenottingham.com,ukcisa.org.uk,umicore.com,unknownphone.com,uptodown.com,volvocars.com##.cookies
+anglianwater.co.uk,ask.fm,calvertjournal.com,crazydomains.co.uk,hempel.co.uk,hempelyacht.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,modhoster.com,natwest.com,openmailbox.org,postoffice.co.uk,rbs.co.uk,roalddahl.com,rowenta.com,statusbrew.com,syntevo.com,team-mediaportal.com,virgin-atlantic.com##.cookie
 anisearch.com##.urgent-msg
+anpost.ie,ayraviation.com,emrf.eu,emunewz.net,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,homecinemachoice.com,inmobi.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,panfurware.com,phonearena.com,picload.org,pokernews.com,premiumcredit.co.uk,private.com,scl.org,studentski.net,tellows-au.com,tellows-fi.com,tellows-ng.com,tellows-tr.com,tellows.asia,tellows.at,tellows.be,tellows.co,tellows.co.nz,tellows.co.uk,tellows.co.za,tellows.com,tellows.com.br,tellows.cz,tellows.de,tellows.dk,tellows.es,tellows.fr,tellows.gr,tellows.hu,tellows.in,tellows.it,tellows.jp,tellows.mx,tellows.net,tellows.nl,tellows.org,tellows.pl,tellows.pt,tellows.ru,tellows.se,tellows.tw,the-tls.co.uk,tsb.co.uk###cookies
+ao.com###aoMessageHolder
+aptoide.com###news
+aquacard.co.uk###popup
+area-codes.org.uk###baselink
+artuk.org###top-notice
+autoevolution.com###prajiturele
+autotask.com##.alertbar
+babcockinternational.com###js-babcock-cookie-bar
+bankid.com,costaclub.com,hattrick.org,kenweego.com,linkedin.com,lonelyplanet.com,nature.com,netweather.tv,norwegian.com,viewsoniceurope.com##.alert
+bankofengland.co.uk##.container-notifications
 bbc.co.uk##.pulse-banner
+bbc.com##.domestic-header-wrapper
+belkin.com###pagebanner
+bell-labs.com,bigsocietycapital.com,cartoonnetwork.co.uk,eif.co.uk,integralmemory.com,juce.com,middleeasteye.net,parkinsons.org.uk,rmg.co.uk,thalesgroup.com,topuniversities.com,ucas.com###sliding-popup
 bethesda.net,dlink.com,eveningtelegraph.co.uk,princeofwales.gov.uk##.notification
+betsson.com###msgwrapper
+bing.com###b_notificationContainer
+bing.com##.hpn_top_container
+bleacherreport.com##.fixedRegion
 blogfree.net##.note
+bluearan.co.uk###slider
 bundlestars.com##div[style^="background: #424242; "]
 businessoffashion.com##.navbar-notification
+cartdesigns.net##.boxContent
+cartoonnetwork.com###tos-bar
 castrol.com##.nv-notification-header
+cbfhydraulic.com,marasrl.it###ckInfo
+cc.com###balaMainContainer
+change.org##.flash-message-announcement
+channel4.com###all4gn-cookie-policy-notification
+channelregister.co.uk,theregister.co.uk###RegCCO
+cimaglobal.com###optanon
+cityoflondon.gov.uk##.container-floating-notifications
+cnn.com###notice_banner
+cnn.com##.TermsOfService__component
 cnn.com##.user-msg
+co-operative.coop,couchsurfing.com##.banner
+co-opinsurance.co.uk###noticePanel
 cofunds.co.uk##.smContainerInner
+complex.com###eucn
+comscore.com##.info_banner
 cplusplus.com##div[style="background:#eed;padding:10px;margin:0;text-align:center;border-bottom:1px solid #446"]
+crash.net,nationwideinternational.com,thederbyshire.co.uk###cn
+csl-computer.com###notification
+cushmanwakefield.be,cushmanwakefield.co.uk##.m-warning
 daft.ie##.strapline-container
+dailyedge.ie,did.ie,the42.ie###notify-container
 dailymotion.com##div[class^="CookiePopup_"]
+debenhams.com###debCNwrap
+decathlon.co.uk###container-screen
 decider.com,nypost.com,pagesix.com##.nyp-sitewide-notice
+desktopwallpapers4.me,ouchpress.com###clayer
+deutscheam.com##.flash-message__wrapper
+dexigner.com###cwarn
+dhl.com##.dhl-cgk
 discordapp.com,dotmailer.com,medicalxpress.com,phys.org,shire.com,techxplore.com##.notice
 dlwflooring.com##.privacy-info
+doubleviking.com##.footer
+downloadcrew.com##.ginger_banner
+drakecircus.com##.ccc-widget
+dropbox.com###top-notification-bar-container
+earthcp.com###site-overlay
+earthcp.com##.disclaimer
+earthcp.com##.info
+eastlondonradio.org.uk###notification-area
+easy2boot.com###barritaloca
+elanco.com###ribbon
+europa.eu###block-esm-base-cookie-message-footer
+eurosport.com###container-notifications
+exemproject.eu###myModal
 facebook.com##[data-testid="cookie-policy-banner"]
 fifa.com##.mdl-overlay
 firstsave.co.uk##.msgBox
+fitzpatrickreferrals.co.uk###hellobar
+fonehouse.co.uk,metrofone.co.uk###popupDiv
+fool.co.uk###dogfish
+forumcommunity.net##.jnote
+freecycle.org###blocker_message
+freewebsitetemplates.com##.Notices
+ft.com,heathrowexpress.com###consent
 fundedbyme.com##.pageNotification
+gamepedia.com,mmo-champion.com###tos-banner
 gametwist.com##.message__container
+goccl.co.uk###divMessage
 googleapis.com##div[style$=";background-color:#5a5a5a"]
 gov.im##.site-warning
+gpuopen.com###colophon
 gumtree.com##.notification-box
 hankooktire.com##.top_ep_wrap
 harvester.co.uk##.notification--notification
+hertz247.co.uk##.lbContainer
+historicengland.org.uk##.alert-banner
+hivehome.com##.header-stacked-message
+hmc.org.uk###modal-mask
+huawei.com##.ReadPolicy
+ingwb.com##.dialog
+ingwb.com##.glass
+inoreader.com##.landing_promo_banner_top
+insights.nzherald.co.nz###top-banner-in-content
+investing.com###sideNotificationZone
+janrain.com###wptbheadline1
+jman.tv###ActionBar
+jotti.org##.alert-info
+jukegames.com,n-mobile.net###overbox3
 justcause.com##.main-site-notes
+keil.com###privacymodule
+landrover.co.uk##.NotificationBar
 last.fm##.site-message
 layar.com##.remarketing-banner
+lego.com###GFSticky
 lg.com##.policyChk
+live.com,microsoft.com,office.com,skype.com,visualstudio.com,windows.com,xbox.com###epb
+livescore.com,livescore.eu,livescores.com##.info-msg
+logicconcept.eu###mc_top_bar
+louisvuitton.com##.cs_banner
 lrb.co.uk##div[style="border-bottom:1px solid #adadad;padding:5px;background:#f4f4f4;color:#333;font:1em/1 sans-serif"]
 mabknives.co.uk##.topbarBox
+malaysiaairlines.com###cookie_policy_modal
+mappy.com###IndexView-first-visit
+megabus.com###GB_overlay
+mercedes-benz.com###cLayer
+microsoft.com###divNRMain
+microsoft.com##.feedback-visible
 mirror.co.uk##.mod-cookiepolicy
 mobile.twitter.com##[data-reactroot] > [class] + [class]:last-child
+moleskine.com###disclaimer
+moneysavingexpert.com###alertBar
+motorsport.com###footer
+mozilla.org##.global-notice
+msn.com###conditionalbanner
+napster.com##.info_box
+nba.com###nba_tos
+nba.com###policy_wrapper
+nelly.com,nlyman.com###toast-container
 netjetseurope.com##.nj-header-prompt
+newsnow.co.uk###cconsent
+newsnow.co.uk##.alertsscroll_container
 newstatesman.com##.site-footer
+novantas.com##.foobar-container
+novapdf.com###novapdf_accept_cookies
+nymity.com###CookieAcceptSubLayout1_cookiesmessageshown
+office.com##.headPopup
+office.com##.m-alert
 opengapps.org##.mdl-snackbar
 origin.com##.origin-sitestripe
+palmbeachpost.com##.footer-wrapper
 pcmag.com##.privacy-content
+picturehouses.com##.interim-banner
 plymouth.ac.uk##.page-notification
+postojnska-jama.eu###\5f iCD
+princesrisborough.com##.jpiwikGrowler
+princesrisborough.com##.jpiwikOverlay
+professionalbatterychargers.com###nscmsboxboxsimple
+qz.com###chyron
+ramboll-environ.com##.infoboxHolder
 ramsayhealth.co.uk##.popupbox
 ratemyprofessors.com##.overlay
 robertozeno.com##.video-mask
+robertsspaceindustries.com##.bottom-notif-bar
 savethechildren.org.uk##.policy-banner
+seeker.com###legal-notice
+shatter-box.com###elGuestTerms
 shazam.com##.policy-label
+sky.com###mast-notifications
+slideshare.net##.j-tos-update-banner
+soft32.com##.jquery-notify-bar
+soundcloud.com##.announcements
 spiceworks.com##.sui-site-message-container
 stargreen.com##div[style^="color: rgb(238, 238, 238);"]
 superiorwallpapers.com##.uk-alert
+tartybikes.co.uk###eureg
 tastedive.com##.tk-Footer
 tbs.com,tntdrama.com##.toast
+teamcoco.com###ft
 teamliquid.net##div[style*="position: fixed;"]
+tellows-au.com,tellows-fi.com,tellows-ng.com,tellows-tr.com,tellows.asia,tellows.at,tellows.be,tellows.co,tellows.co.nz,tellows.co.uk,tellows.co.za,tellows.com,tellows.com.br,tellows.cz,tellows.de,tellows.dk,tellows.es,tellows.fr,tellows.gr,tellows.hu,tellows.in,tellows.it,tellows.jp,tellows.mx,tellows.net,tellows.nl,tellows.org,tellows.pl,tellows.pt,tellows.ru,tellows.se,tellows.tw###floating-header
+theatlantic.com##.cookie-disclaimer
+thebodyshop.com##.first-time-visitor
+themeflood.com##.gatewayContainer
 thermofisher.com##.specialMsg
 theweathernetwork.com##.woahbar
+ticketsource.co.uk###permission-bar
+tmz.com###legalbar
 travelsupermarket.com##.site-notice-wrapper
 trustnet.com##USER-TYPE-POPUP
+tunngle.net###delirioBiscottoso
+tweakers.net###notifications > .announcement
+twitch.tv###noty_bottomCenter_layout_container
 twitch.tv##.toast-manager__container
+uber.com##.banner--bottom
+uk.yahoo.com###Main > .windowshade:first-child
 uk.yahoo.com##div.js-applet-view-container-main > div[style^="background:"]
+uktv.co.uk###back-to-old-site
 userbenchmark.com##.nb-parent
+vanguardsmoke.com###pop_wholes
+vanguardsmoke.com###pop_wholes_bg
 viber.com##.policy
+videojug.com##.cp-alert-message
+visit.brussels##.confirm
 vocativ.com,zumba.com##.privacy-policy
+wattsindustries.com##.box_background
+wattsindustries.com##.box_contents
+webnovel.com##.m-streamer
+whatfontis.com###sticky-popup
+wimbledon.com###wimPrivacyBanner
+wittur.com###loggedbar
+wowhead.com##.announcement
+wts.com###message
+xhamster.com##.bottom_message
+yahoo.com###Overlay-1-Nagbar
+yahoo.com##.legal-footer
 youronlinechoices.com##.p15
+youtube.com###notification-footer
 youtube.com##.yt-consent
 youtube.com##div[class^="ytd-consent"]
+zombiearmy.com##.alert-box
+zoover.co.uk###info-bar
 ! zoover regional sites.
 ###ctl00_ZooverBody > #info-bar
 ! Cookie,privacy,legal Messages
