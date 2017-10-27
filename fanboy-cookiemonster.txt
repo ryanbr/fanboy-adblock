@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: t7Q1KWalGLDmszG4sYtsZw
+! Checksum: we16DVaoltF2W+0XJUs/HA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 28 Oct 2017
 ! This list expires after 4 days
@@ -2304,7 +2304,6 @@ _site_cookie_
 ##div[id^="__ic-notice"]
 ! Cookie, privacy, legal filters
 abcnews.go.com##.push-me
-abcnews.go.com##.push-mecceptCookieContainer
 aberdeenplumberservices.co.uk,firstcallmotorbreakdown.co.uk,pattheduck.com###FISLCC
 add0n.com,aflite.co.uk,aon.com,atom42.co.uk,bakersmall.co.uk,bbvonline.net,boscolohotels.com,boxnation.com,flexerasoftware.com,fremantlemedia.com,iadvize.com,keyboardco.com,nspcc.org.uk,onenessscotland.org,priorygroup.com,rodacciai.fr,technutty.co.uk,toomeymotorgroup.co.uk,tutsandtips.com,wheatley-group.com###cookie
 adobe.com##.message
