@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: zlAl5FNqwfnTGLCpKXO1tA
+! Checksum: jf9SSAkZ/lhCxWEwiVAZbQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 3 Nov 2017
 ! This list expires after 4 days
@@ -2602,7 +2602,6 @@ americanairlines.fi##.alert
 blogit.fi,ilmainensanakirja.fi,telsu.fi##.cookies
 hs.fi##.cb-container
 k-citymarket.fi,k-market.fi##.Pbox-sm
-lacajachina.fi##.cp-curtain-container
 sonera.fi##.attention-notice
 sonera.fi##.bottom-notifications
 spot-a-shop.fi###popup-notifications
@@ -2918,7 +2917,6 @@ coches.net###yc
 colorobbia.pt,rockfm.fm###barraaceptacion
 flooxer.com,metalomarao.pt##.cookies
 ing.es,ingdirect.es###ico_banner
-iubenda.com###iubenda-cs-banner
 iubenda.com##a[style="padding-top: 10px; display: block;"]
 lavozdegalicia.es##.alert
 leroymerlin.es###divFlotante
@@ -2978,10 +2976,9 @@ independent.ie###cookie_bar_top
 majorleaguegaming.com###cookie-disclaimer
 mirror.co.uk##.mod-cookiepolicy
 mma-core.com###cookieChoiceInfo
-publicleech.xyz,thebarchive.com,wccftech.com##.cc_banner
+publicleech.xyz,thebarchive.com##.cc_banner
 ratemyprofessors.com,adf.ly###cookie_notice
 softonic.com###message-cookie
-thesimsresource.com###eucookie
 v3.co.uk,theinquirer.net##.cookie-consent-content
 vilaglato.info##.pea_cook_more_info_popover
 vilaglato.info##.pea_cook_wrapper
