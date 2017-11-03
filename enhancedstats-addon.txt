@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: n8ILhMDbaL04CvcGSnWaNA
+! Checksum: EdEFJU/J7T16coeRPZ9gew
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 3 Nov 2017
 ! This list expires after 4 days
@@ -2498,6 +2498,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||timeinc.net/tii/omniture/$script
 @@||topmarques.co.uk^*/tracking/module.omniture.js
 @@||traderonline.com/javascript/master_s_code.js
+@@||travel-assets.com^*/siteanalytics/omniture-$script
 @@||tvlistings.optimum.net/foresee/foresee-trigger.js
 @@||unionbank.com/coremetrics/*/eluminate.js
 @@||unionbank.com/coremetrics/cmdatatagutils.js
