@@ -2437,6 +2437,7 @@ livescore.com,livescore.eu,livescores.com##.info-msg
 logicconcept.eu###mc_top_bar
 louisvuitton.com##.cs_banner
 lrb.co.uk##div[style="border-bottom:1px solid #adadad;padding:5px;background:#f4f4f4;color:#333;font:1em/1 sans-serif"]
+lyricstraining.com###cookies-use
 mabknives.co.uk##.topbarBox
 malaysiaairlines.com###cookie_policy_modal
 mappy.com###IndexView-first-visit
