@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 8IeG9kvushLej+HeXriGZg
+! Checksum: exqe5Yasj5f/8kga42VfsA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 4 Nov 2017
+! Updated: 5 Nov 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1080,6 +1080,7 @@ hotslogs.com##h2 + [zoompage-fontsize="14"] + [zoompage-fontsize="14"]
 @@.png#*/ad$image
 @@||adclixx.net^$script,domain=wowebook.org|animes-mangas-ddl.net|android-zone.ws|linkdrop.net|sznpaste.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|rule34hentai.net|finalservers.net|yalujailbreak.net
 @@||adnetasia.com^$script,domain=animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|sznpaste.net|rule34hentai.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|finalservers.net|yalujailbreak.net
+@@||adservice.google.$script,domain=steamid.eu
 @@||adtrackers.net^$script,domain=rule34hentai.net|animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|sznpaste.net|finalservers.net|cloudwebcopy.com|freeomovie.com|yalujailbreak.net|linkneverdie.com
 @@||bannertrack.net^$script,domain=rule34hentai.net|finalservers.net|animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|sznpaste.net|yalujailbreak.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com
 @@||doubleclickbygoogle.com^$image,domain=rule34hentai.net|yalujailbreak.net|sznpaste.net|animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|linkneverdie.com|cloudwebcopy.com|freeomovie.com
@@ -1111,6 +1112,10 @@ symbolab.com##.tooltipster-show
 ! "DANESCO TRADING"
 /\.com\/[\w\/\-.+]{320,}/$subdocument,third-party
 @@||boxcloud.com^$subdocument
+! steamid.eu
+@@||adservice.google.$domain=steamid.eu
+@@||googlesyndication.com/pagead/js/adsbygoogle.js$domain=steamid.eu
+@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=steamid.eu
 ! Propellar Ads test
 /\:\/\/[a-z0-9]{5,26}\.com\/[0-9]{2,9}\.(css|js)$/$third-party,script,stylesheet
 !
