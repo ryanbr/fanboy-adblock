@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: q68gvv7H2rQ6O35kYejX4g
+! Checksum: pOLlftC1ydYbP/btTkmxtw
 ! Title: Fanboy's Anti-thirdparty Fonts
-! Updated: 1 Oct 2017
+! Updated: 11 Nov 2017
 ! This list expires after 6 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -64,5 +64,5 @@
 @@||fonts.gstatic.com^$domain=phandroid.com|mokeedev.com|esportsheaven.com|google.com|thechive.com|youtube.com|elitedaily.com
 @@||fonts.typekit.net^$domain=mpora.com
 @@||googleapis.com/ajax/libs/webfont/$script,domain=wareable.com|dailygalaxy.com|google.com|magnetphonecable.com|builtinchicago.org|egotastic.com|egotasticallstars.com|factmag.com|nofilmschool.com|readwrite.com|roadsandkingdoms.com|rockstargames.com
-@@||maxcdn.bootstrapcdn.com/font-awesome/*/css/$domain=climatemirror.org
+@@||maxcdn.bootstrapcdn.com/font-awesome/*/css/$domain=climatemirror.org|lumesselearning.com
 @@||use.typekit.net^$domain=wellandgood.com|celyad.com|mpora.com|carbonads.net|egotastic.com|egotasticallstars.com|readwrite.com|recite.com
