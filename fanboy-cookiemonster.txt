@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: RhcfQqHxMzCpFe7GH0Vy+Q
+! Checksum: yamPq3AVAVak3xVgh0zgsw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 4 Nov 2017
+! Updated: 11 Nov 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -383,6 +383,7 @@ _site_cookie_
 ###agreecookies
 ###alert-cookie
 ###alert-cookie-policy
+###alert_cookies
 ###alertCookie
 ###alertCookies
 ###alerte-cookies
@@ -391,6 +392,7 @@ _site_cookie_
 ###alertpop-privacypolicy
 ###all4nav-cookie-component
 ###all4nav-cookie-policy-notification
+###allow_cookies_container
 ###allowcookie
 ###allowCookiesPopup
 ###alma-cookie-consent
@@ -510,6 +512,7 @@ _site_cookie_
 ###container_info_cnil
 ###contenedorCookies
 ###conteneurCookies
+###content-alert-cookie
 ###content-cookies
 ###coocie
 ###coockie-mex
@@ -542,6 +545,7 @@ _site_cookie_
 ###cookie-compliance-bottom-overlay
 ###cookie-compliance-container
 ###cookie-confirm-box
+###cookie-confirmation
 ###cookie-consent
 ###cookie-consent-banner
 ###cookie-consent-bar
@@ -629,6 +633,7 @@ _site_cookie_
 ###cookie-regle
 ###cookie-restriction
 ###cookie-ribbon
+###cookie-richtlinie-notification
 ###cookie-slide
 ###cookie-statement
 ###cookie-terms
@@ -825,6 +830,8 @@ _site_cookie_
 ###cookieLine
 ###cookieLY
 ###cookieManagement
+###CookieManagerDialog
+###CookieManagerDialogWrapper 
 ###cookiemelding
 ###cookiemenu
 ###cookieMessage
@@ -1114,6 +1121,7 @@ _site_cookie_
 ###eprivacy
 ###ePrivacyBanner
 ###ePrivacyDisclaimer
+###esi_cookie_banner
 ###et_cookie_law
 ###eu-cookie
 ###eu-cookie-bar
@@ -1233,6 +1241,7 @@ _site_cookie_
 ###js-ext-cookie
 ###js-infos-cookies
 ###js-message-bar-cookie-notice
+###js-policy-eucookie
 ###js-TosPrivacy
 ###js_popup_cookies
 ###js_pushDownCookieMessage
@@ -1315,6 +1324,7 @@ _site_cookie_
 ###panel-cookie
 ###panel-cookie-usage
 ###panel-cookies
+###panel_cookie
 ###PaveCookies
 ###pc-cookie-notice
 ###pCookieWarning
@@ -1445,6 +1455,7 @@ _site_cookie_
 ###useCookiesCont
 ###user-cookie-message
 ###user_optin_banner
+###usermsgCookie 
 ###usrcookies
 ###v-cookielaw
 ###vh-cookie-terms
@@ -1576,6 +1587,7 @@ _site_cookie_
 ##.consentBarWrapper
 ##.container-cookie-notice
 ##.container_cookies
+##.content-alert-browser
 ##.content_cookies
 ##.contentCookieBox
 ##.coockie
@@ -1629,6 +1641,7 @@ _site_cookie_
 ##.cookie-giodo
 ##.cookie-header
 ##.cookie-hint
+##.cookie-hint-container
 ##.cookie-holder
 ##.cookie-info
 ##.cookie-info-bar
@@ -1705,6 +1718,7 @@ _site_cookie_
 ##.cookie-section
 ##.cookie-siteusage-notice
 ##.cookie-statement
+##.cookie-usgae
 ##.cookie-uzenet
 ##.cookie-wall
 ##.cookie-warn
@@ -1752,6 +1766,7 @@ _site_cookie_
 ##.cookie_privacy_info_bar
 ##.cookie_statement
 ##.cookie_track
+##.cookie_warn
 ##.cookie_warning
 ##.cookie_wrap
 ##.cookie_wrapper
@@ -1877,6 +1892,7 @@ _site_cookie_
 ##.cookies-dialog
 ##.cookies-eu
 ##.cookies-footer
+##.cookies-header
 ##.cookies-info
 ##.cookies-info-static
 ##.cookies-legislation
@@ -2052,6 +2068,7 @@ _site_cookie_
 ##.id-CookieConsent
 ##.identity-noticebar
 ##.imPolicycookiemessage
+##.index__cookie__body
 ##.info-content-cookies
 ##.info-cookie
 ##.info_cookies
@@ -2120,6 +2137,7 @@ _site_cookie_
 ##.mj-js-container-cookie-alert
 ##.mk-cookieBox
 ##.mk_cookie_policy
+##.mod-cookie-layer
 ##.mod-cookiepolicy
 ##.mod-cookies
 ##.mod-privacypolicy
@@ -2132,6 +2150,7 @@ _site_cookie_
 ##.ms-cookie-ok
 ##.msg-cookie
 ##.msgcookie
+##.mw_cookie_info_bar
 ##.mxm-cookie-alert
 ##.naf-cookies-popup
 ##.nav__cookies
@@ -2149,6 +2168,7 @@ _site_cookie_
 ##.noty_cookie
 ##.npo_cc_regular
 ##.o-cookie-message
+##.o-cookielaw
 ##.O-CookieLaw
 ##.ob-cookies
 ##.ob-cookies-content
@@ -2224,8 +2244,8 @@ _site_cookie_
 ##.sets-cookie
 ##.sgsCookies
 ##.sh-cookie-confirmation
-##.show-cookie
 ##.show-cookie-consent
+##.show-cookie:not(body)
 ##.show_cookie
 ##.site-cookie-panel
 ##.site-cookies
@@ -2255,6 +2275,7 @@ _site_cookie_
 ##.tplis-cl-cookies
 ##.tre-cookie-disclaimer
 ##.tt-cookie-bar-module
+##.ug3-cookie-info-container
 ##.ui-cookie-tooltip
 ##.ui-dialog-cookies
 ##.uk-cookie
@@ -2264,6 +2285,7 @@ _site_cookie_
 ##.ultimize_cookie_notification_container
 ##.umuCookieMain
 ##.use-cookie-container
+##.usermsgCookie 
 ##.ut_cookie_privacy_c1
 ##.v2_cookies_container
 ##.vc-cookieconsent
@@ -2286,6 +2308,7 @@ _site_cookie_
 ##.x-cookies
 ##COOKIE-ALERT
 ##COOKIE-NOTICE
+##cookie-permission
 ##COOKIE-WARNING
 ##div[data-module="cookie_banner"]
 ##div[element-structure-cookiemonster]
@@ -2325,7 +2348,7 @@ airproducts.co.uk##.eu-dp
 alternativeto.net###bottomNotifier
 amazon.com###pldn-deep-link
 amnesty.org,asda.com,ashridge.org.uk,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,dorotheum.com,dur.ac.uk,feelunique.com,graspop.be,luxottica.com,mailjet.com,mindshareworld.com,pjon.org,royalparks.org.uk,tescomobile.ie,thenottingham.com,ukcisa.org.uk,umicore.com,unknownphone.com,uptodown.com,volvocars.com##.cookies
-anglianwater.co.uk,ask.fm,calvertjournal.com,crazydomains.co.uk,hempel.co.uk,hempelyacht.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,modhoster.com,natwest.com,openmailbox.org,postoffice.co.uk,rbs.co.uk,roalddahl.com,rowenta.com,statusbrew.com,syntevo.com,team-mediaportal.com,virgin-atlantic.com##.cookie
+anglianwater.co.uk,ask.fm,calvertjournal.com,crazydomains.co.uk,hempel.co.uk,hempelyacht.com,here.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,modhoster.com,natwest.com,openmailbox.org,postoffice.co.uk,rbs.co.uk,roalddahl.com,rowenta.com,statusbrew.com,syntevo.com,team-mediaportal.com,virgin-atlantic.com##.cookie
 anisearch.com##.urgent-msg
 anpost.ie,ayraviation.com,emrf.eu,emunewz.net,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,homecinemachoice.com,inmobi.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,panfurware.com,phonearena.com,picload.org,pokernews.com,premiumcredit.co.uk,private.com,scl.org,studentski.net,tellows-au.com,tellows-fi.com,tellows-ng.com,tellows-tr.com,tellows.asia,tellows.at,tellows.be,tellows.co,tellows.co.nz,tellows.co.uk,tellows.co.za,tellows.com,tellows.com.br,tellows.cz,tellows.de,tellows.dk,tellows.es,tellows.fr,tellows.gr,tellows.hu,tellows.in,tellows.it,tellows.jp,tellows.mx,tellows.net,tellows.nl,tellows.org,tellows.pl,tellows.pt,tellows.ru,tellows.se,tellows.tw,the-tls.co.uk,tsb.co.uk###cookies
 ao.com###aoMessageHolder
@@ -2457,6 +2480,7 @@ moneysavingexpert.com###alertBar
 motorsport.com###footer
 mozilla.org##.global-notice
 msn.com###conditionalbanner
+msn.com##.fpCdm
 napster.com##.info_box
 nba.com###nba_tos
 nba.com###policy_wrapper
@@ -2640,6 +2664,7 @@ xs4all.nl###xs4all-cookieWall-overlay
 auto-motor-und-sport.de##.j34
 auto-motor-und-sport.de##.p40
 cebit.de,hannovermesse.de##.user-notes-notification
+daparto.de##.cookie
 denic.de,moviepilot.de##.notification
 deutzforum.de##.userNotice
 die-linke.de##.disclaimer
@@ -2649,9 +2674,13 @@ happy-spots.de###cono
 hl-live.de##table[width="1000"]
 hosteurope.de###cche
 kleiderkreisel.de,mamikreisel.de##.js-notification
+mathe24.net###wrapperdiv
+mydealz.de###softMessages-list
 ortsdienst.de##div[style="background:#888;padding:10px;color:#FFF;font-weight:bold"]
+shop-apotheke.com###cookie
 spielfilm.de###alert
 telekom.de##.message-bar
+vonovia.de##.content-module
 !
 !---------- Hungary Site Generic Hiding Rules ----------
 !
@@ -2982,6 +3011,7 @@ mirror.co.uk##.mod-cookiepolicy
 mma-core.com###cookieChoiceInfo
 publicleech.xyz,thebarchive.com##.cc_banner
 ratemyprofessors.com,adf.ly###cookie_notice
+softonic.com###cookie-policies
 softonic.com###message-cookie
 v3.co.uk,theinquirer.net##.cookie-consent-content
 vilaglato.info##.pea_cook_more_info_popover
