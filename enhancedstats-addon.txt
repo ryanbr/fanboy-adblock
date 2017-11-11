@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: F94xGfe29cWcYeCGNiVv1A
+! Checksum: 4NFvA6oDznwN3tiG7eevvw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Nov 2017
 ! This list expires after 4 days
@@ -1137,6 +1137,8 @@ symbolab.com##.tooltipster-show
 ! fastly
 ||ssl.fastly.net/messaging.js
 ||ssl.fastly.net/mms-client.js
+! okdiario.com
+||okdiario.com^*/check-blocker.js
 ! oxfordmail.co.uk
 @@||oxfordmail.co.uk^$generichide
 oxfordmail.co.uk###cookieWarningR
