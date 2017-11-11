@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: bJbA23ylFZipFeGtMOjapg
+! Checksum: 2rcWr6/38JrdbmmuBYyKuA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Nov 2017
 ! This list expires after 4 days
@@ -1118,7 +1118,7 @@ symbolab.com##.tooltipster-show
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$domain=steamid.eu
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=steamid.eu
 ! Propellar Ads test
-/\:\/\/[a-z0-9]{5,26}\.com\/[0-9]{2,9}\.(css|js)$/$third-party,script,stylesheet
+/\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9A-Za-z]{2,9}\.(html?|css|js|aspx?|asp?).*[0-9]{10}/$third-party,script,stylesheet
 !
 ! "nordweste"
 /\.info/[\w\/\-.+]{120,}/$subdocument,image,third-party
