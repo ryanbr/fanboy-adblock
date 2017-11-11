@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: LM4LJanUt/JAzNziPXPfoQ
+! Checksum: 9gBbm8rcJz17RZe/2hsGyQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 11 Nov 2017
 ! This list expires after 4 days
@@ -1139,6 +1139,7 @@ _site_cookie_
 ###eu-cookies
 ###eu-cp-banner
 ###eu-privacy
+###EU_cookie
 ###eu_cookie
 ###eu_cookies
 ###eu_notice_content
@@ -1880,6 +1881,7 @@ _site_cookie_
 ##.cookiePopupContainer
 ##.cookiepopupcontainer
 ##.cookiePrompt
+##.cookies--show
 ##.cookies-accept
 ##.cookies-advert
 ##.cookies-alert
@@ -1924,6 +1926,7 @@ _site_cookie_
 ##.cookies__banner
 ##.cookies__info
 ##.cookies__inner
+##.cookies__show
 ##.cookies_acceptance
 ##.cookies_bar
 ##.cookies_box
@@ -2103,6 +2106,7 @@ _site_cookie_
 ##.js-cookies
 ##.js-cookies-box
 ##.js-disclaimer
+##.js-id--cookieconsent
 ##.js-message-cookies
 ##.js-toast-cookies
 ##.js_cookie_law
@@ -2676,6 +2680,7 @@ happy-spots.de###cono
 hl-live.de##table[width="1000"]
 hosteurope.de###cche
 kleiderkreisel.de,mamikreisel.de##.js-notification
+kunstakademie-duesseldorf.de###zwcc
 mathe24.net###wrapperdiv
 mydealz.de###softMessages-list
 ortsdienst.de##div[style="background:#888;padding:10px;color:#FFF;font-weight:bold"]
@@ -2975,6 +2980,7 @@ forumfree.it##.jnote
 hilti.it##.m-smartbar-container
 ingdirect.it##.topalertbanner
 inquantamila.it###privacy
+puglialive.net###visitor_info
 radioitalia.it,tivusat.tv##.cookies
 ubuntu-it.org###\5f ubuntu-it_cookie_policy
 vg247.it##.notif-bar
