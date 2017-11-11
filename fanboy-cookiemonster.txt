@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 9gBbm8rcJz17RZe/2hsGyQ
+! Checksum: fyXPg4EZ7BiDYHmNr0gAtQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 11 Nov 2017
 ! This list expires after 4 days
@@ -1092,6 +1092,7 @@ _site_cookie_
 ###div_cookie
 ###div_cookis
 ###divAcceptCookie
+###divconsent
 ###divcook
 ###divCookie
 ###divCookieAcceptance
@@ -2912,6 +2913,7 @@ letelegramme.fr###top_header
 lexus.fr##.disclaimer
 lotus-planete.com###lotus-cookies-wrap
 luminaire.fr##.dnt-dialog
+maisonapart.com###accept-top
 marmottons.net###ck
 materiel-velo.com###downbar
 meteomedia.com##.woahbar
