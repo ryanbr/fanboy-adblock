@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: IB1mpwbwB+391C5PHPYaxw
+! Checksum: OMFquP69QJd/hxFyCkjCXg
 ! Title: Fanboy's Cookiemonster List
-! Updated: 12 Nov 2017
+! Updated: 13 Nov 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -3056,6 +3056,7 @@ security.nl#@#.cookie_consent
 tweakers.net#@##cookieContainer
 tweakers.net#@##cookieOverlay
 uktv.co.uk#@#.cookie-notice
+unileverfoodsolutions.com.br#@#.cookie-wall
 vkmag.com#@##cookiesdirective
 vorwahlen-online.de#@#.cookiebar
 ! *** easylist:fanboy-addon/fanboy_annoyance_whitelist.txt ***
