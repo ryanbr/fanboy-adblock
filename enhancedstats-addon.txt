@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: x3JDjfKZKlZso4HFadNXWQ
+! Checksum: cut0DV4iLSnWzpoEE16ZJw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 12 Nov 2017
+! Updated: 14 Nov 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1401,6 +1401,7 @@ squidboards.com##.top_block
 @@||serving-sys.com^$xmlhttprequest,domain=theatlantic.com
 @@||theatlantic.com^$generichide
 @@||theatlantic.com^*/adv$script
+theatlantic.com##.ad-boxamp-wrapper
 ||theatlantic.com/assets/static/b/theatlantic/js/vendors.min.*.js
 ! smitedatamining.com
 @@||smitedatamining.com^$generichide
