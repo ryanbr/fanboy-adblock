@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 1Y2Uarm26iCuor+MjPe2jA
+! Checksum: uL9keIwmbOU9nU8L9ES1eA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 18 Nov 2017
+! Updated: 24 Nov 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1097,7 +1097,7 @@ hotslogs.com##h2 + [zoompage-fontsize="14"] + [zoompage-fontsize="14"]
 ! Test filters to block popups
 /\.cloudfront\.net/\?.*[a-zA-Z0-9]{5,16}/$subdocument,script,third-party,domain=~amazon.com
 ! /\.cloudfront\.net\/[\w\/\-.+]{90,}/$script,third-party,domain=~amazon.com
-/\:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{30,}/$script,xmlhttprequest,third-party,domain=~amazon.com
+/\:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$script,xmlhttprequest,third-party,domain=~amazon.com
 @@||cloudfront.net/assets/$script,third-party
 @@||cloudfront.net/gp/$script,third-party
 @@||s3.amazonaws.com^$xmlhttprequest,domain=travis-ci.org
