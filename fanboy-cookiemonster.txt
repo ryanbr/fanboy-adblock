@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 79nPOap7418Xz+A5vUDIOg
+! Checksum: uKLOlTp79jW2806vtF0Ohw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 24 Nov 2017
 ! This list expires after 4 days
@@ -1616,30 +1616,66 @@ _site_cookie_
 ##.cookie-accept
 ##.cookie-accept-container
 ##.cookie-accept-overlay
+##.cookie-acceptance
+##.cookie-acceptance-banner
 ##.cookie-acceptance-container
 ##.cookie-acceptor
+##.cookie-adv
+##.cookie-advertisement
+##.cookie-advertisment
 ##.cookie-advice
+##.cookie-advise
+##.cookie-agree
+##.cookie-agree-with-use
+##.cookie-agreed
 ##.cookie-agreement
 ##.cookie-alert
 ##.cookie-alert-box
+##.cookie-alert-holder
+##.cookie-alert-msk
+##.cookie-alert-panel
+##.cookie-alert-wrap
+##.cookie-alert-wrapper
 ##.cookie-announce
+##.cookie-announcement
+##.cookie-approvement
+##.cookie-area
 ##.cookie-assistant
+##.cookie-ban
 ##.cookie-banner
 ##.cookie-banner-bottom
+##.cookie-banner-container
+##.cookie-banner-info
+##.cookie-banner-section
 ##.cookie-bar
+##.cookie-bar-popover
+##.cookie-bar-wrap
 ##.cookie-barre
 ##.cookie-bg
 ##.cookie-block
 ##.cookie-box
 ##.cookie-check:not(body)
 ##.cookie-choice
+##.cookie-choices--info
+##.cookie-cnil
+##.cookie-cnt
+##.cookie-compilance
 ##.cookie-compliance
+##.cookie-compliance-container
+##.cookie-compliance-desk
+##.cookie-compliance-message
 ##.cookie-confirm
+##.cookie-confirmation
 ##.cookie-consent
+##.cookie-consent-alert
+##.cookie-consent-area
+##.cookie-consent-banner
 ##.cookie-consent-block
+##.cookie-consent-box
 ##.cookie-consent-comp
 ##.cookie-consent-container
 ##.cookie-consent-content
+##.cookie-consent-ctr
 ##.cookie-consent-dialogue
 ##.cookie-consent-notice
 ##.cookie-consent-wrap
