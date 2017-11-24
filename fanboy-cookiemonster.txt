@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: OMFquP69QJd/hxFyCkjCXg
+! Checksum: 79nPOap7418Xz+A5vUDIOg
 ! Title: Fanboy's Cookiemonster List
-! Updated: 13 Nov 2017
+! Updated: 24 Nov 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -304,6 +304,7 @@
 /mweb.cookie/*$script
 /newprivacypolicy.
 /ocgcookie?
+/oupcookiepolicy_
 /plugin_cookie/*
 /plugins/cookie-muncher/*
 /plugins/CookieInfo/*
@@ -362,6 +363,7 @@ _site_cookie_
 ###\5f cookieConsentWrapper
 ###\5f CookieText
 ###\5f iph_cp_popup
+###abb-cookie-banner
 ###about-cookies
 ###aboutCookieUsageBox
 ###ac_cookiesvalidation
@@ -450,12 +452,15 @@ _site_cookie_
 ###block-inf-eu-cookie-cookie-disclaimer
 ###block-notifications-cookie
 ###blockCookieContainer
+###blockdisclaimer                                  
 ###blogger_cookie_notice
 ###bonaCookies
 ###bootcooker-banner
 ###box_cookie_info
 ###box_cookies_error
+###boxTextCookie               
 ###boxZgodaNaCookie
+###bt_cookie                      
 ###bvin-cookie-box
 ###bw_cookiechoice
 ###c-warning-container
@@ -520,6 +525,7 @@ _site_cookie_
 ###coockiechoice
 ###coockies
 ###coockies_warning
+###cookcont
 ###cooki
 ###cooki_accept
 ###cookie-accept
@@ -966,6 +972,7 @@ _site_cookie_
 ###cookies_content
 ###cookies_div_main
 ###cookies_info
+###cookies_layer    
 ###cookies_message
 ###cookies_message_bar
 ###cookies_msg
@@ -1081,6 +1088,7 @@ _site_cookie_
 ###ctrlHeader_divCookieText
 ###cu-cookie-alert
 ###cw-cookieInfo
+###datenschutz_info
 ###dcc_cookieMessageContainer
 ###DCINFO_COOKIE_AGB
 ###dennis-cookie-notice
@@ -1095,6 +1103,7 @@ _site_cookie_
 ###divconsent
 ###divcook
 ###divCookie
+###Divcookie                                     
 ###divCookieAcceptance
 ###divCookieAlert
 ###divCookieConfirm
@@ -1117,6 +1126,7 @@ _site_cookie_
 ###eCookieMsg
 ###ee-cookies-message
 ###eed-cookie-banner
+###egs-cookie-popup
 ###eimm_box_cookie_alerte_message
 ###enablecookies
 ###eprivacy
@@ -1259,6 +1269,7 @@ _site_cookie_
 ###legal_policy_cookies
 ###legalLayer
 ###lerumCookieContainer
+###les_cookies
 ###lnkCerrarInformacionCookies
 ###logon-snippet-icookie
 ###lscookiesMax
@@ -1320,6 +1331,7 @@ _site_cookie_
 ###okcookies
 ###okookie-box
 ###optinCookie
+###oupcookiepolicy_message
 ###p_ciInner
 ###page-advice-cookie
 ###page-cookies-bar
@@ -1340,8 +1352,10 @@ _site_cookie_
 ###pm15_cookie_info
 ###pnlCookieNotice
 ###policy-div
+###policy-window  
 ###policy_message
 ###policyBar
+###policyMessage
 ###policyPopup
 ###polityka-cookies
 ###politykacooki
@@ -1400,6 +1414,7 @@ _site_cookie_
 ###scnb-cookie-bar
 ###sdbCookieLegalContainer
 ###semocookie-handler
+###sgs_cookie 
 ###shop-cookie
 ###shopillaxcookielaw-wrapper
 ###showCookieInfo
@@ -1533,6 +1548,7 @@ _site_cookie_
 ##.barre_cookies
 ##.barreInfoCookies2
 ##.basel-cookies-popup
+##.bg_cookie
 ##.bloc_cnil
 ##.bloc_cookies
 ##.blocCookie
@@ -1591,6 +1607,7 @@ _site_cookie_
 ##.container-cookie-notice
 ##.container_cookies
 ##.content-alert-browser
+##.content-cookie
 ##.content_cookies
 ##.contentCookieBox
 ##.coockie
@@ -1692,6 +1709,7 @@ _site_cookie_
 ##.cookie-panel-content
 ##.cookie-panel-overlay
 ##.cookie-permission
+##.cookie-plugin   
 ##.cookie-policy
 ##.cookie-policy-accept
 ##.cookie-policy-alert
@@ -1874,6 +1892,7 @@ _site_cookie_
 ##.cookiepolicy
 ##.cookiePolicy-banner
 ##.cookiepolicy-wrapper
+##.cookiePolicyA    
 ##.cookiePolicyBannerOuter
 ##.cookiePolicyBnr
 ##.cookiePopUp
@@ -1882,6 +1901,7 @@ _site_cookie_
 ##.cookiePopupContainer
 ##.cookiepopupcontainer
 ##.cookiePrompt
+##.cookies--agree
 ##.cookies--show
 ##.cookies-accept
 ##.cookies-advert
@@ -2006,6 +2026,7 @@ _site_cookie_
 ##.dr-cookie-info-box
 ##.drawer-cookies
 ##.drc-cookie-policy
+##.dri-ncookies-alert                
 ##.ds2-cookie-disclaimer
 ##.e-cookie-message
 ##.eav-cookielayer
@@ -2046,6 +2067,7 @@ _site_cookie_
 ##.fhCookieLaw
 ##.filCookiesCnil
 ##.footer-cnil
+##.footer-cnil-wr               
 ##.footer-cookie
 ##.footer-cookies-policy
 ##.footer__cookie-info
@@ -2061,6 +2083,7 @@ _site_cookie_
 ##.gn-cookie-alert
 ##.gp-plugin-cookie-consent
 ##.head-cookie-container
+##.header-cnil
 ##.header-cookie
 ##.header-cookie-content
 ##.header-cookies
@@ -2228,6 +2251,7 @@ _site_cookie_
 ##.radioplayer-anno
 ##.rdm-daac-notice-template
 ##.react-cookie-banner
+##.readcookie
 ##.regional-cookie-warning
 ##.resultCookie
 ##.rltcp_information_cookie
@@ -2365,7 +2389,7 @@ artuk.org###top-notice
 autoevolution.com###prajiturele
 autotask.com##.alertbar
 babcockinternational.com###js-babcock-cookie-bar
-bankid.com,costaclub.com,hattrick.org,kenweego.com,linkedin.com,lonelyplanet.com,nature.com,netweather.tv,norwegian.com,viewsoniceurope.com##.alert
+bankid.com,theonlinesurgery.co.uk,costaclub.com,hattrick.org,kenweego.com,linkedin.com,lonelyplanet.com,nature.com,netweather.tv,norwegian.com,viewsoniceurope.com##.alert
 bankofengland.co.uk##.container-notifications
 bbc.co.uk##.pulse-banner
 bbc.com##.domestic-header-wrapper
@@ -2538,6 +2562,7 @@ themeflood.com##.gatewayContainer
 thermofisher.com##.specialMsg
 theweathernetwork.com##.woahbar
 ticketsource.co.uk###permission-bar
+tmt-magazine.com##.sitealert
 tmz.com###legalbar
 trustnet.com##USER-TYPE-POPUP
 tunngle.net###delirioBiscottoso
@@ -2554,6 +2579,7 @@ viber.com##.policy
 videojug.com##.cp-alert-message
 visit.brussels##.confirm
 vocativ.com,zumba.com##.privacy-policy
+wandermap.net##.messages
 wattsindustries.com##.box_background
 wattsindustries.com##.box_contents
 webnovel.com##.m-streamer
@@ -2670,6 +2696,7 @@ xs4all.nl###xs4all-cookieWall-overlay
 ###nutzungs_einverstaendnis
 auto-motor-und-sport.de##.j34
 auto-motor-und-sport.de##.p40
+bmjv.de###privacy
 cebit.de,hannovermesse.de##.user-notes-notification
 daparto.de##.cookie
 denic.de,moviepilot.de##.notification
@@ -2688,6 +2715,7 @@ mydealz.de###softMessages-list
 ortsdienst.de##div[style="background:#888;padding:10px;color:#FFF;font-weight:bold"]
 shop-apotheke.com###cookie
 spielfilm.de###alert
+stw.berlin###disclaimer
 telekom.de##.message-bar
 vonovia.de##.content-module
 !
