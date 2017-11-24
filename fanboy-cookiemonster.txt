@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: VXLsC1ifeKiMdWKtBtrDTQ
+! Checksum: OReJTQ0omSHH3VPvdDyhyg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 24 Nov 2017
 ! This list expires after 4 days
@@ -493,15 +493,15 @@ _site_cookie_
 ###block-inf-eu-cookie-cookie-disclaimer
 ###block-notifications-cookie
 ###blockCookieContainer
-###blockdisclaimer                                  
+###blockdisclaimer
 ###blogger_cookie_notice
 ###bonaCookies
 ###bootcooker-banner
 ###box_cookie_info
 ###box_cookies_error
-###boxTextCookie               
+###boxTextCookie
 ###boxZgodaNaCookie
-###bt_cookie                      
+###bt_cookie
 ###bvin-cookie-box
 ###bw_cookiechoice
 ###c-warning-container
@@ -1013,7 +1013,7 @@ _site_cookie_
 ###cookies_content
 ###cookies_div_main
 ###cookies_info
-###cookies_layer    
+###cookies_layer
 ###cookies_message
 ###cookies_message_bar
 ###cookies_msg
@@ -1144,7 +1144,7 @@ _site_cookie_
 ###divconsent
 ###divcook
 ###divCookie
-###Divcookie                                     
+###Divcookie
 ###divCookieAcceptance
 ###divCookieAlert
 ###divCookieConfirm
@@ -1413,7 +1413,7 @@ _site_cookie_
 ###pm15_cookie_info
 ###pnlCookieNotice
 ###policy-div
-###policy-window  
+###policy-window
 ###policy_message
 ###policyBar
 ###policyMessage
@@ -1475,7 +1475,7 @@ _site_cookie_
 ###scnb-cookie-bar
 ###sdbCookieLegalContainer
 ###semocookie-handler
-###sgs_cookie 
+###sgs_cookie
 ###shop-cookie
 ###shopillaxcookielaw-wrapper
 ###showCookieInfo
@@ -1822,7 +1822,7 @@ _site_cookie_
 ##.cookie-panel-content
 ##.cookie-panel-overlay
 ##.cookie-permission
-##.cookie-plugin   
+##.cookie-plugin
 ##.cookie-policy
 ##.cookie-policy-accept
 ##.cookie-policy-alert
@@ -2005,7 +2005,7 @@ _site_cookie_
 ##.cookiepolicy
 ##.cookiePolicy-banner
 ##.cookiepolicy-wrapper
-##.cookiePolicyA    
+##.cookiePolicyA
 ##.cookiePolicyBannerOuter
 ##.cookiePolicyBnr
 ##.cookiePopUp
@@ -2139,7 +2139,7 @@ _site_cookie_
 ##.dr-cookie-info-box
 ##.drawer-cookies
 ##.drc-cookie-policy
-##.dri-ncookies-alert                
+##.dri-ncookies-alert
 ##.ds2-cookie-disclaimer
 ##.e-cookie-message
 ##.eav-cookielayer
@@ -2180,7 +2180,7 @@ _site_cookie_
 ##.fhCookieLaw
 ##.filCookiesCnil
 ##.footer-cnil
-##.footer-cnil-wr               
+##.footer-cnil-wr
 ##.footer-cookie
 ##.footer-cookies-policy
 ##.footer__cookie-info
