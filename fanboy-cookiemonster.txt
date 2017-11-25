@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: iOtXlUosmek4IzNQNqO8IQ
+! Checksum: aUKWgst3rUeR+Oj/LQpFHw
 ! Title: Fanboy's Cookiemonster List
-! Updated: 24 Nov 2017
+! Updated: 25 Nov 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1060,25 +1060,66 @@ _site_cookie_
 ###cookiesOptInMessage
 ###cookiesOptInMessageWrapper
 ###CookiesOverlay
+###cookiesoverview
+###cookieSpace
+###cookiespace
 ###cookieSpan
 ###cookiesPanel
+###cookiesPanelWrapper
+###cookiesPermission
+###cookiesplease
+###cookiesPolicy
 ###cookiesPolicy
 ###cookiespolicy
+###cookiesPolicyBanner
+###cookiesPolicyC
+###cookiesPolicyHolder
+###cookiesPolicyInfo
 ###cookiespolicymessage
 ###cookiesPolicyPopup
 ###cookiesPop
+###cookiesPopin
 ###CookiesPopup
 ###cookiesPopup
+###cookiesPP
+###CookiesPrinc
+###cookiesPrivacy
+###CookiesPrivacy
+###cookiesPrivacyPolicyContainerWrapper
+###cookiesPrompt
+###cookiesPromptWrapper
+###cookiesReglement
 ###cookiesRequest
 ###cookiesribbon
+###cookiesShowFloaterFlat
+###cookiesSouhlasimBlok
+###cookiesss
+###cookiesSuhlas
+###cookiesTab
+###cookieStandar
 ###cookieStartMessage
 ###cookiestatement
+###cookiestext
+###cookiesText
+###cookiesToast
+###cookiesToolbar
+###cookiesTopBloc
+###cookiesTopBlock
 ###cookiestrip
+###cookieSupport
+###CookiesUsageCont
+###cookiesWarn
 ###CookiesWarning
 ###cookiesWarning
 ###cookieswarning
 ###cookiesWarningActive
 ###cookiesWarningBanner
+###cookiesWarningLoginPopUp
+###cookiesWarnMsg
+###cookiesWidget
+###cookiesWindow
+###CookiesWindow
+###cookieswrap
 ###cookiesWrapper
 ###CookieT2Bar
 ###cookietext
@@ -1136,6 +1177,13 @@ _site_cookie_
 ###dennis-cookie-notice
 ###desktop-cookie-disclosure
 ###dialog-cookies
+###disclaim_bar
+###DisclaimCookie
+###disclaimer-cookie
+###disclaimer-cookies
+###disclaimer_cookie
+###disclaimer_cookies
+###disclaimerBox
 ###disclaimerC
 ###disclaimerCookies
 ###disclaimerDialog_modal
@@ -1183,6 +1231,9 @@ _site_cookie_
 ###eu-cookie-container
 ###eu-cookie-content
 ###eu-cookie-law
+###eu-cookie-law-popup
+###eu-cookie-message
+###eu-cookie-mobile
 ###eu-cookie-msg
 ###eu-cookie-notifier
 ###eu-cookie-notify-wrap
@@ -1190,10 +1241,27 @@ _site_cookie_
 ###eu-cookie-policy-banner-wrapper
 ###eu-cookie-wrap
 ###eu-cookies
+###eu-cookies-banner
+###eu-cookies-consent
+###eu-cookies-directive
+###eu-cookies-law
+###eu-cookies-notification
 ###eu-cp-banner
 ###eu-privacy
 ###EU_cookie
 ###eu_cookie
+###eu_cookie_alert
+###eu_cookie_banner
+###eu_cookie_bar
+###eu_cookie_consent
+###eu_cookie_container
+###eu_cookie_dialogue
+###eu_cookie_law
+###EU_Cookie_Message
+###eu_cookie_notice
+###eu_cookie_notify
+###eu_cookie_policy
+###eu_cookie_warning
 ###eu_cookie_warning_banner
 ###eu_cookies
 ###eu_notice_content
