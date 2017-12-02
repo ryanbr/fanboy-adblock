@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: YRS69FVNVlUDe6nESw5gBg
+! Checksum: xbgPbyik0PCkEjTnGFSAlw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 2 Dec 2017
 ! This list expires after 4 days
@@ -326,7 +326,6 @@
 /twitter_cookies.
 /type-cookies.
 /ubmcookieconsent-
-/uk-cookie-consent/*
 /usecookies.js
 /usocookies.
 /warnCookies.
@@ -487,7 +486,6 @@ _site_cookie_
 ###AvisoCookie
 ###avisocookies
 ###avisoCookies
-###avisoCookies
 ###AvisoCookieslaw
 ###avisoCookiesLayer
 ###avviso_cookie
@@ -515,7 +513,6 @@ _site_cookie_
 ###bandeauAcceptationCookies
 ###bandeauAccepterCookie
 ###BandeauCNIL
-###bandeauCookie
 ###bandeauCookie
 ###bandeaucookie-wrapper
 ###bandeauCookieIdweb
@@ -1237,7 +1234,6 @@ _site_cookie_
 ###cookiesPanelWrapper
 ###cookiesPermission
 ###cookiesplease
-###cookiesPolicy
 ###cookiesPolicy
 ###cookiespolicy
 ###cookiesPolicyBanner
@@ -2433,7 +2429,6 @@ _site_cookie_
 ##.cookiesBloc
 ##.cookiesBlock
 ##.cookiesBox
-##.cookiesBox
 ##.cookiesbythebook
 ##.cookiesConfirm
 ##.cookiesContainer
@@ -2612,11 +2607,9 @@ _site_cookie_
 ##.euCookieLayer
 ##.eucookiemanager
 ##.EUCookieNotice
-##.EUCookieNotice
 ##.euCookiePanel
 ##.euCookiePolicy
 ##.EUCookiePolicyContainer
-##.eucookies
 ##.eucookies
 ##.EuCookieSheet
 ##.EuCookiesNotificationView
@@ -2644,7 +2637,6 @@ _site_cookie_
 ##.footer__cookie-info
 ##.footer__cookies
 ##.footer_cnil
-##.footer_cookie
 ##.footer_cookie
 ##.footer_cookie_bar
 ##.footer_cookie_policy
@@ -2829,7 +2821,6 @@ _site_cookie_
 ##.policy-cookie
 ##.politica-cookies-bar
 ##.politica-de-cookies
-##.politicaCookies
 ##.politicaCookies
 ##.polityka-cookie
 ##.polityka_ciastek
@@ -3471,7 +3462,6 @@ yoy.tv###notice
 ||cookies.fakt.pl^
 ||cookies.forbes.pl^
 ||gry-online.pl/js/cookie2.js
-||korwin-mikke.pl/js/cookies-legal-*.min.js
 ||lubuskie.pl/themes/src/cookie.js
 ||muzeumwp.pl/cookies/cookies.js
 ||niewygodne.info.pl/pierwsza.htm
