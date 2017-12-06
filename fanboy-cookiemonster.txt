@@ -3011,6 +3011,7 @@ autotask.com##.alertbar
 babcockinternational.com###js-babcock-cookie-bar
 bankid.com,theonlinesurgery.co.uk,costaclub.com,hattrick.org,kenweego.com,linkedin.com,lonelyplanet.com,nature.com,netweather.tv,norwegian.com,viewsoniceurope.com##.alert
 bankofengland.co.uk##.container-notifications
+barmer.de##.cookiehint
 bbc.co.uk##.pulse-banner
 bbc.com##.domestic-header-wrapper
 belkin.com###pagebanner
