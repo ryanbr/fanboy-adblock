@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: xbgPbyik0PCkEjTnGFSAlw
+! Checksum: qvEO9KqDGR3r/4lsXvo+kg
 ! Title: Fanboy's Cookiemonster List
-! Updated: 2 Dec 2017
+! Updated: 6 Dec 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -836,6 +836,8 @@ _site_cookie_
 ###cookie-popin
 ###cookie-popup
 ###cookie-popup-bar
+###cookie-popup-inner
+###cookie-popup-outer
 ###cookie-privacy
 ###cookie-prompt-fixed
 ###cookie-question
@@ -1221,6 +1223,7 @@ _site_cookie_
 ###cookiesLequipe
 ###cookiesMessage
 ###cookiesNoticeDiv
+###cookiesNoticeId
 ###cookiesNotification
 ###cookiesNotifier
 ###cookiesOptInMessage
@@ -1491,6 +1494,7 @@ _site_cookie_
 ###gabarit_cnilcookie
 ###gb_sm_notification
 ###gel-cookie-banner
+###GFSticky
 ###gh-cookieb
 ###global-cookie-message
 ###global-cookies-banner
@@ -1586,6 +1590,7 @@ _site_cookie_
 ###mmmmm-cookies
 ###mntsinfotech-cookie-bar
 ###mobile-sticky-bottom
+###modal-cookie
 ###modalCookieContainer
 ###mps-cookie-hint
 ###msg-cookie
@@ -1699,6 +1704,7 @@ _site_cookie_
 ###remoteCookie
 ###resultCheckCookieMSG
 ###rk-accept-cookies
+###rnw_cookies_banner
 ###Row1_Column1_Cell1_CookieSettings_CookieSettings
 ###rtl_cookie_small
 ###rtveCookiePolicy
@@ -1710,6 +1716,7 @@ _site_cookie_
 ###s_s_cookieInfoContainer
 ###scnb-cookie-bar
 ###sdbCookieLegalContainer
+###seedDivCookieLawId
 ###semocookie-handler
 ###sgs_cookie
 ###shop-cookie
@@ -1864,6 +1871,7 @@ _site_cookie_
 ##.barreInfoCookies2
 ##.basel-cookies-popup
 ##.bg_cookie
+##.bloc-cookies
 ##.bloc_cnil
 ##.bloc_cookies
 ##.blocCookie
@@ -2202,6 +2210,7 @@ _site_cookie_
 ##.cookieHandler
 ##.cookieHeader
 ##.cookieheight
+##.cookiehint
 ##.CookieHint
 ##.cookieInfo
 ##.cookieinfo:not(body)
@@ -2472,6 +2481,7 @@ _site_cookie_
 ##.cookiesPro
 ##.cookiesq
 ##.cookiess
+##.cookiesShow
 ##.cookiestatement
 ##.cookiestrip
 ##.cookiesTxt
@@ -2839,6 +2849,7 @@ _site_cookie_
 ##.popup-cookie-show
 ##.popup_cookie
 ##.PortletGestionDesCookiesCNIL
+##.pp-accept-cookies-block
 ##.ppr_priv_document_cookie_banner
 ##.preventAcceptance
 ##.privacy-alert
@@ -3024,6 +3035,7 @@ channelregister.co.uk,theregister.co.uk###RegCCO
 cimaglobal.com###optanon
 cityoflondon.gov.uk##.container-floating-notifications
 cnn.com###notice_banner
+cnn.com###notification-legal
 cnn.com##.TermsOfService__component
 cnn.com##.user-msg
 co-operative.coop,couchsurfing.com##.banner
@@ -3072,6 +3084,7 @@ ft.com,heathrowexpress.com###consent
 fundedbyme.com##.pageNotification
 gamepedia.com,mmo-champion.com###tos-banner
 gametwist.com##.message__container
+globaltuners.com##div[style="position: fixed; bottom: 0; padding-bottom: 10px; padding-top: 10px; text-align: center; width: 100%; background-color: dimgrey; color: lightblue;"]
 goccl.co.uk###divMessage
 googleapis.com##div[style$=";background-color:#5a5a5a"]
 gov.im##.site-warning
