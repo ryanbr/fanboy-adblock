@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: XPyGsjPejiwfjc/j7LfXvw
+! Checksum: 6Q9iiki/1cVx/CJzfW1NZw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 9 Dec 2017
 ! This list expires after 4 days
@@ -46,7 +46,6 @@
 .cookielaw.js
 .cookienotice.
 .cookiepolicy.
-.cookiesdirective.
 .cookiesdirective_
 .cookiesmessage.
 .cookiesPolicy.
@@ -4075,7 +4074,6 @@ vkmag.com#@##cookiesdirective
 vorwahlen-online.de#@#.cookiebar
 ! *** easylist:fanboy-addon/fanboy_annoyance_whitelist.txt ***
 @@/cookie_law/plugin.js$script,~third-party
-@@||3dmark.com/proxycon/js/jquery.cookiesdirective.js
 @@||4ka.sk/js/cookiebar.min.js
 @@||alicdn.com/js/*/ws-cookie.js$script
 @@||aliunicorn.com^*/cookie-info.js
@@ -4094,5 +4092,4 @@ vorwahlen-online.de#@#.cookiebar
 @@||secretflying.com/wp-content/plugins/uk-cookie-consent/js/uk-cookie-consent-js
 @@||sky.com/scripts/sky_component_cookie_notice.js$script
 @@||tygodniksiedlecki.com/assets/mobile/cookiebar/jquery.cookiebar.js
-@@||ugc.fr/statique/js/lib/jquery.cookiesdirective.js
 @@||universumglobal.com/wp-content/plugins/cookie-law-info/
