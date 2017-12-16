@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 6Q9iiki/1cVx/CJzfW1NZw
+! Checksum: TqOWMDjUvedEWks+d34nEA
 ! Title: Fanboy's Cookiemonster List
-! Updated: 9 Dec 2017
+! Updated: 16 Dec 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -388,6 +388,9 @@ _site_cookie_
 ###acceptCookiePolicyPopup
 ###acceptcookies
 ###acceptCookies
+###AcceptCookiesBannerTemplate
+###acceptCookiesBox
+###acceptCookiesContainer
 ###acceptCookiesDiv
 ###acceptCookiesForm
 ###acceptCookiesHolder
@@ -455,7 +458,6 @@ _site_cookie_
 ###AlertaCookies
 ###alertCookie
 ###alertCookies
-###alertCookies
 ###alerte-cookies
 ###alerte_cnil
 ###alerte_cookie
@@ -505,6 +507,12 @@ _site_cookie_
 ###attentionCookies
 ###au_cookiesalert
 ###avcn_notification
+###avcns-wrapper
+###avency-neos-cookieenabler
+###avert_cookies
+###avertcookbis
+###avertissement-cookies
+###avertissement_cookie
 ###avertissement_cookies
 ###avertissementCookies
 ###averto-cookies
@@ -628,7 +636,10 @@ _site_cookie_
 ###bcc-cookie-bar
 ###bcCookies
 ###bcmsCookieInfoWrapper
+###bcookiewidget
+###bcpm-footer
 ###bcpm-notification-outer-border
+###bd-cookie
 ###belkaCookies
 ###better-cookie-bar
 ###bf-cookie-notice
@@ -645,6 +656,7 @@ _site_cookie_
 ###bk_cookies_alert
 ###bkCookieBanner
 ###BlkCookies
+###bloc_cookie_annonce
 ###bloc_cookies
 ###bloc_setcookie
 ###block-asn-privacy-cookie-privacy
@@ -654,7 +666,15 @@ _site_cookie_
 ###block-cookie-disclaimer-cookie-disclaimer-block
 ###block-cookie-info
 ###block-cookie_policy-0
+###block-custom_cookies-custom_cookies_eu
+###block-db-cookie-compliance-cookie-compliance-block
+###block-direct-control-cookies-accept
+###block-hp-cookie-consent
 ###block-inf-eu-cookie-cookie-disclaimer
+###block-lhg-cookie-usage
+###block-menucmt-push_loi_cookies
+###block-mnc-cnil-mnc-cnil-info-cookies
+###block-nett-cookies-message
 ###block-notifications-cookie
 ###block-zodiac-site-cookie
 ###blockCookieContainer
@@ -662,6 +682,13 @@ _site_cookie_
 ###blockcookies
 ###blockdisclaimer
 ###blogger_cookie_notice
+###blok_cookie
+###bloque_ventanaCookies
+###bloquecookies
+###blusys_normativa_cookie
+###blz-cookieinfo
+###BodyContent_usrAcceptCookies_pnlAcceptCookies
+###boite_dialog_cookie
 ###bonaCookies
 ###bootcooker-banner
 ###BortosCookie
@@ -687,6 +714,7 @@ _site_cookie_
 ###boxCookies
 ###boxTextCookie
 ###boxZgodaNaCookie
+###bra_cookieChoiceInfo
 ###brandfour-cookie-block
 ###browser-cookie-warning
 ###BsCookie
@@ -753,6 +781,9 @@ _site_cookie_
 ###ccgtm-banner
 ###ccm-cookiesDisclosure
 ###CCompliance
+###cconsent
+###CCookie
+###ccookie_base_stile2
 ###cCookieAlert
 ###cCookieHeader
 ###cCore_cookieNotice
@@ -847,17 +878,41 @@ _site_cookie_
 ###contenedorCookie
 ###contenedorCookies
 ###conteneurCookies
+###contenidoavisocookies
+###contenitoreCookie
+###contenitoredisclaimer
 ###content-alert-cookie
 ###content-cookies
+###content-pol-cookies
+###content-ucoc-cookies
+###content_cookie
+###contentcookies
+###contentInfoCookie
 ###coocie
+###coocies_warning
+###coockie-message
 ###coockie-mex
+###coockie_agree
+###coockie_pas
+###coockie_txt
+###coockieagree
+###coockiealert
+###coockieAlertBox
 ###coockieAPContainer
 ###coockiechoice
+###coockieInfo
+###coockiepopup
 ###coockies
+###coockies3wmDiv
 ###coockies_warning
+###cookAlert
 ###cookcont
+###cookdiv
+###cookemessagehandler
 ###cooki
 ###cooki_accept
+###cookidiv
+###cookie--disclaimer
 ###cookie-accept
 ###cookie-accept-banner
 ###cookie-accept-box
@@ -869,7 +924,11 @@ _site_cookie_
 ###cookie-acceptance
 ###cookie-acceptance-banner
 ###cookie-acceptation-popup
+###cookie-accepted
+###cookie-adv
+###cookie-advarsel
 ###cookie-advice
+###cookie-advisory
 ###cookie-agree
 ###cookie-agreement-box
 ###cookie-agreement-info
@@ -896,6 +955,7 @@ _site_cookie_
 ###cookie-bar-bottom
 ###cookie-bar-main
 ###cookie-bar-module
+###cookie-bar__wrapper
 ###cookie-block
 ###cookie-box
 ###cookie-btn
@@ -923,7 +983,9 @@ _site_cookie_
 ###cookie-confirm
 ###cookie-confirm-box
 ###cookie-confirmation
+###cookie-confirmation-dialog
 ###cookie-consent
+###cookie-consent-actions
 ###cookie-consent-banner
 ###cookie-consent-bar
 ###cookie-consent-bar-outer
@@ -931,17 +993,28 @@ _site_cookie_
 ###cookie-consent-box
 ###cookie-consent-check
 ###cookie-consent-container
+###COOKIE-CONSENT-EU
+###cookie-consent-layer
 ###cookie-consent-message
+###cookie-consent-overlay
 ###cookie-consent-popup
+###cookie-consent-warning
 ###cookie-consent-wrapper
 ###Cookie-Container
 ###cookie-container
 ###cookie-container2
 ###cookie-content
 ###cookie-control
+###cookie-cookie-div
 ###cookie-cosent
+###cookie-deal-bottom
+###cookie-deal-bottom-cookie
 ###cookie-dialog
+###cookie-dialogue
+###cookie-dialogue-div
 ###cookie-directive
+###cookie-directive-bar
+###cookie-directive-note
 ###cookie-disclaimer
 ###cookie-disclaimer-footer
 ###cookie-disclaimer-overlay
@@ -949,14 +1022,32 @@ _site_cookie_
 ###cookie-disclaimer-region
 ###cookie-disclosure
 ###cookie-div
+###cookie-drawer
+###cookie-drop
+###cookie-eu-compliance-container
 ###cookie-fixed-layer
+###cookie-foo
+###cookie-foot
+###cookie-footer
+###cookie-form
+###cookie-full
+###cookie-full-width
 ###cookie-gm-new
+###cookie-handler
+###cookie-headband
 ###cookie-header
 ###cookie-header-container
 ###cookie-hint
+###cookie-hint-box
+###cookie-hint-layer
+###cookie-hint-wrapper
+###cookie-hinweis
 ###cookie-holder
+###cookie-idna
 ###cookie-info
+###cookie-info-1
 ###cookie-info-bar
+###cookie-info-block
 ###cookie-info-box
 ###cookie-info-container
 ###cookie-info-div
@@ -974,6 +1065,9 @@ _site_cookie_
 ###cookie-informations
 ###cookie-informer
 ###cookie-inner-wrapper
+###cookie-jar
+###cookie-jar-policy-banner
+###cookie-kontrol
 ###cookie-law
 ###cookie-law-banner
 ###cookie-law-bar
@@ -1521,6 +1615,7 @@ _site_cookie_
 ###cookiestrip
 ###cookieSupport
 ###CookiesUsageCont
+###cookiesUse
 ###cookiesWarn
 ###CookiesWarning
 ###cookiesWarning
@@ -1968,6 +2063,7 @@ _site_cookie_
 ###panel-cookies
 ###panel_cookie
 ###PaveCookies
+###pb-cookies-policy-banner
 ###pc-cookie-notice
 ###pCookieWarning
 ###pecr-compliance-banner
@@ -3022,6 +3118,7 @@ _site_cookie_
 ##.g-cookiebar
 ##.gb_g.gb_rc.gb_sc
 ##.gigyaNotify
+##.global-cookie
 ##.globalcookiepolicycontainer
 ##.gn-cookie-alert
 ##.gp-plugin-cookie-consent
@@ -3072,6 +3169,7 @@ _site_cookie_
 ##.js-cookiehint
 ##.js-cookieMessage
 ##.js-cookieNote
+##.js-Cookies
 ##.js-cookies
 ##.js-cookies-box
 ##.js-cookies-notice
@@ -3145,6 +3243,7 @@ _site_cookie_
 ##.ModThomasCookiesC
 ##.module-cookie
 ##.module-cookie-info
+##.module-cookie-note
 ##.modUt_cookie_privacy_1
 ##.moneseCookies
 ##.ms-cookie-ok
@@ -3152,10 +3251,13 @@ _site_cookie_
 ##.msgcookie
 ##.mw_cookie_info_bar
 ##.mxm-cookie-alert
+##.n--help_cookie-banner
 ##.naf-cookies-popup
 ##.nav__cookies
 ##.Navbar-cookieCompliance
+##.nbsCookieNotice
 ##.next-cookie-banner
+##.nk-cookie-alert
 ##.nm-cookiepolicy
 ##.no-cookies:not(body):not(html)
 ##.notice-bar
@@ -3163,13 +3265,18 @@ _site_cookie_
 ##.notice_notice_cookies
 ##.notif_cookie_panel
 ##.notificacion-cookies
+##.notification--cookie-alert
+##.notification-cookie-policy
 ##.notification__content-cookie
+##.NotificationCookies
 ##.notificationpopup
 ##.noty_cookie
 ##.npo_cc_regular
+##.nrg-cookie-popup
 ##.o-cookie-message
 ##.o-cookielaw
 ##.O-CookieLaw
+##.o-core-cookie-notification
 ##.ob-cookies
 ##.ob-cookies-content
 ##.obs_cnil
@@ -3185,6 +3292,7 @@ _site_cookie_
 ##.pageinfo-cookie
 ##.panel-cookies
 ##.panel_cookie
+##.PartialCookieCompliance-hp
 ##.paveCookies
 ##.pcookie
 ##.pea_cook_more_info_popover
@@ -3228,6 +3336,8 @@ _site_cookie_
 ##.privacybanner
 ##.privacycookie
 ##.PrivacyPolicyNotice
+##.privasypolicy-info
+##.ps-Cookies
 ##.q-legal-notification
 ##.q-silent-consent
 ##.qb-cookielaw-bar
@@ -3243,6 +3353,7 @@ _site_cookie_
 ##.row-cookies
 ##.rs-alert-cookie
 ##.rt-cookiepolicy-notice
+##.rvl-Banner-cookieBanner
 ##.s-cookie-notification-bar
 ##.s-cookies
 ##.s1-cookie-banner
@@ -3257,10 +3368,12 @@ _site_cookie_
 ##.sets-cookie
 ##.sgsCookies
 ##.sh-cookie-confirmation
+##.shared-alert__cookie
 ##.show-cookie-consent
 ##.show-cookie:not(body)
 ##.show_cookie
 ##.site-cookie-panel
+##.site-cookie-warning
 ##.site-cookies
 ##.site-message--cookies
 ##.site-msg-cookie
@@ -3268,12 +3381,15 @@ _site_cookie_
 ##.site-notice-wrapper
 ##.sites-cookie-notice-fit
 ##.SLNotificationBar
+##.smcc_bottom_cookieaccept_container
 ##.sol-cookie-container
 ##.sp-cookie-warning
 ##.sqs-announcement-bar
 ##.stampenCookieContainer
 ##.statisticsOptBox
 ##.sticky-cookie-container
+##.sticky-cookie-footer
+##.sticky-cookie-information
 ##.storm-cookie
 ##.sys_cc-cookies
 ##.tcCookiesDialogWrapper
@@ -3285,6 +3401,7 @@ _site_cookie_
 ##.texteAlerteCookie
 ##.texto_cookies
 ##.toast-type-newCookie
+##.top-alert--cookie-message
 ##.tplis-cl-cookies
 ##.tre-cookie-disclaimer
 ##.tt-cookie-bar-module
@@ -3427,8 +3544,8 @@ downloadcrew.com##.ginger_banner
 drakecircus.com##.ccc-widget
 dropbox.com###top-notification-bar-container
 earthcp.com###site-overlay
-earthcp.com##.disclaimer
 earthcp.com##.info
+earthcp.com,lexus.com.cy,lexus.ie##.disclaimer
 eastlondonradio.org.uk###notification-area
 elanco.com###ribbon
 europa.eu###block-esm-base-cookie-message-footer
@@ -3475,6 +3592,7 @@ landrover.co.uk##.NotificationBar
 last.fm##.site-message
 layar.com##.remarketing-banner
 lego.com###GFSticky
+lexus.co.uk,lexus.eu##.l-disclaimer
 lg.com##.policyChk
 live.com,microsoft.com,office.com,skype.com,visualstudio.com,windows.com,xbox.com###epb
 livescore.com,livescore.eu,livescores.com##.info-msg
@@ -3565,6 +3683,7 @@ viber.com##.policy
 videojug.com##.cp-alert-message
 visit.brussels##.confirm
 vocativ.com,zumba.com##.privacy-policy
+vox.com###chorus_notifiations
 wandermap.net##.messages
 wattsindustries.com##.box_background
 wattsindustries.com##.box_contents
@@ -3611,7 +3730,11 @@ zoover.co.uk###info-bar
 ||propcom.co.uk/cookie/
 ||smartcookies.it^$third-party
 !
-!---------- Non-enlish Site Specific Hiding Rules ----------
+!---------- Latvian Site Specific Hiding Rules ----------
+!
+lexus.lv##.l-disclaimer
+!
+!---------- Non-english Site Specific Hiding Rules ----------
 !
 034portal.hr##.vijesti
 abril.com.br###barra-mini-home
@@ -3628,6 +3751,8 @@ hrportfolio.hr###kolac
 i.ua##.Disclaimer
 iprima.cz###cookies-info
 krovni-nosaci.hr##.topbarBox
+lexus-bulgaria.bg,lexus.cz,lexus.gr,lexus.ro,lexus.si,lexus.sk##.disclaimer
+lexus.com.tr,lexus.is##.l-disclaimer
 mojkvart.hr###dcw1
 movieview.dk###cookie
 nasiljudi.hr###footer
@@ -3649,6 +3774,7 @@ americanairlines.fi##.alert
 blogit.fi,ilmainensanakirja.fi,telsu.fi##.cookies
 hs.fi##.cb-container
 k-citymarket.fi,k-market.fi##.Pbox-sm
+lexus.fi##.l-disclaimer
 sonera.fi##.attention-notice
 sonera.fi##.bottom-notifications
 spot-a-shop.fi###popup-notifications
@@ -3665,6 +3791,7 @@ boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl#@#.Cookies
 hardloopkalender.nl###interVeil
 hardloopkalender.nl##.modal-cooki
 ing.nl##.overlay
+lexus.nl##.l-disclaimer
 mobil-1.nl###fancybox-overlay
 mobil-1.nl###fancybox-wrap
 salusi.nl##.cookies
@@ -3688,7 +3815,7 @@ daparto.de##.cookie
 denic.de,moviepilot.de##.notification
 deutsche-handwerks-zeitung.de###cc-box
 deutzforum.de##.userNotice
-die-linke.de##.disclaimer
+die-linke.de,lexus.at,lexus.de##.disclaimer
 duden.de###sliding-popup
 esprit.de###policy_header
 happy-spots.de###cono
@@ -3732,6 +3859,7 @@ hoxa.hu###container > div[style^="text-align: left;"]
 hrportal.hu##.fixedbox
 ingyen-van.hu###figyu
 koloknet.hu,notebookspecialista.hu###cookie
+lexus.hu##.disclaimer
 lxo.hu,gov.hu,freemeteo.hu###cookies
 mercedes-benz.hu##.mainpage_popup
 okopolc.hu###firstLogNanobar
@@ -3789,6 +3917,7 @@ joemonster.org##DIV[style^="position: fixed; bottom:"]
 kolejeslaskie.com###c_m
 komornik.pl##.divModalDialog
 krakow.pl,wydawca.com.pl###kuki
+lexus-polska.pl##.disclaimer
 lodz.pl###stpdueckmsg
 lot.com###cc
 lovekrakow.pl###new-policy
@@ -3822,6 +3951,7 @@ salon404.pl###jqmAlert
 salon404.pl##.jqmOverlay
 skapiec.pl###uclaInfo
 speedtest.pl###info_container
+swiatnauki.pl##div[style="display: yes; text-align: center; padding: 15px; border-bottom: 2px solid #cc3300; font-size: 9pt;"]
 tripolo.pl###miastoszkolen
 vectra.pl##.jqmAlertWindow
 votepush.com,zmiksowani.pl##.alert
@@ -3851,6 +3981,7 @@ yoy.tv###notice
 !
 !---------- Norway Site Specific Hiding Rules ----------
 !
+lexus.no##.disclaimer
 netonnet.no##.alert
 !
 !---------- Swedish Site Specific Hiding Rules ----------
@@ -3869,6 +4000,7 @@ hkr.se###cookies
 kronofogden.se,minameddelanden.se,minmyndighetspost.se##.alertWrap
 kvalster.se###y
 lexus.se##.disclaimer
+lexus.se##.l-disclaimer
 nacka.se##.c-message
 polisen.se##.cookie
 proff.se##.notification
@@ -3923,6 +4055,7 @@ lequipe.fr###rebonds
 lequipe.fr###toasterQuoti
 lequipe.fr###toolbar
 letelegramme.fr###top_header
+lexus.be,lexus.fr,lexus.lu##.l-disclaimer
 lexus.fr##.disclaimer
 lotus-planete.com###lotus-cookies-wrap
 luminaire.fr##.dnt-dialog
@@ -3973,6 +4106,7 @@ ing.es,ingdirect.es###ico_banner
 iubenda.com##a[style="padding-top: 10px; display: block;"]
 lavozdegalicia.es##.alert
 leroymerlin.es###divFlotante
+lexus.pt,lexusauto.es##.l-disclaimer
 moviles.com###cookies
 terra.es###trr-root
 uc.pt##.warning-bar
@@ -3982,7 +4116,7 @@ winphonemetro.com##.c_i_container
 !---------- Italian Site Specific Blocking Rules ----------
 !
 aeroportoditorino.it##.cookie
-automobilismo.it,evomagazine.it###cookies
+angolotesti.it,automobilismo.it,evomagazine.it###cookies
 comicsbox.it###bottom-banner
 corriere.it,gazzetta.it###\5f evh-ric
 educazioneemotiva.it###Cookie
@@ -3995,6 +4129,7 @@ forumfree.it##.jnote
 hilti.it##.m-smartbar-container
 ingdirect.it##.topalertbanner
 inquantamila.it###privacy
+lexus.it##.l-disclaimer
 puglialive.net###visitor_info
 radioitalia.it,tivusat.tv##.cookies
 ubuntu-it.org###\5f ubuntu-it_cookie_policy
