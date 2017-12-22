@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: j1FmlUOU75MmHt0sEA5n2w
+! Checksum: 2/iQeX3pWP/w90vAv46Iww
 ! Title: Fanboy's Cookiemonster List
-! Updated: 17 Dec 2017
+! Updated: 22 Dec 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -355,6 +355,7 @@ _eucookie_compliance_
 _europecookielaw.
 _site_cookie_
 ! Cookie,privacy,legal Messages
+
 ###\5f _accept_cookie
 ###\5f _ic-notice
 ###\5f _ndcc_cookieImpliedConsent
@@ -565,6 +566,7 @@ _site_cookie_
 ###bandeauAcceptationCookies
 ###bandeauAccepterCookie
 ###BandeauCNIL
+###BandeauCookie
 ###bandeauCookie
 ###bandeaucookie-wrapper
 ###bandeauCookieIdweb
@@ -872,6 +874,7 @@ _site_cookie_
 ###containerCookieNotif
 ###containerCookies
 ###containerCookieWet
+###contcookie
 ###contenedor-politica-cookies
 ###contenedor_cookies_general
 ###contenedorAceptacionCookies
@@ -1304,8 +1307,25 @@ _site_cookie_
 ###cookie_policy_alert
 ###cookie_policy_banner
 ###cookie_policy_box
+###cookie_policy_container
+###cookie_policy_div
+###cookie_policy_holder
+###cookie_policy_layer
+###cookie_policy_message
+###cookie_policy_message_container
+###cookie_policy_modal
+###cookie_policy_notice
+###cookie_policy_overlay
 ###cookie_policy_popup
 ###cookie_popup
+###cookie_popup_alert
+###cookie_popup_bg
+###cookie_popup_container
+###cookie_popup_overlay
+###cookie_popup_wrapper
+###cookie_priv_div
+###cookie_privacy
+###cookie_privacy_bar
 ###cookie_privacy_holder
 ###cookie_privacy_popup
 ###cookie_prompt
@@ -1320,13 +1340,32 @@ _site_cookie_
 ###cookie_widget
 ###cookieAccept
 ###cookieaccept
+###CookieAcceptance
+###cookieAcceptance
+###cookieacceptance
 ###cookieAcceptanceContainer
+###cookieAcceptation
+###cookieAcceptBar
+###cookieAcceptBox
+###CookieAcceptContainer
 ###cookieAcceptContainer
 ###CookieAcceptLayer
 ###cookieAcceptMessage
 ###cookieAcceptPos
 ###cookieAcknowledgement
 ###cookieAdv
+###cookieAdvertising
+###CookieAdvice
+###cookieAdvice
+###cookieadvice
+###cookieAdvise
+###cookieAdvisor
+###cookieAgeCheck
+###cookieAgree
+###cookieagree
+###cookieAgreement
+###cookieAgreementBar
+###cookieAgreementBox
 ###cookieAgreementContent
 ###CookieAlert
 ###cookieAlert
@@ -1335,8 +1374,25 @@ _site_cookie_
 ###cookieAlertBox
 ###cookieAlertBoxID
 ###cookieAlertMessage
+###CookieAlerts
+###cookieAlertWrap
 ###cookieAlertWrapper
+###cookieallowbar
+###cookieAllowWrap
+###cookieAnnoyer
+###cookieAnzeige
+###cookieArea
+###cookiearea
+###cookieAssistant
+###cookieAuth
+###cookieaviso
+###cookieavisoini
+###cookieBalk
+###cookiebalk
 ###cookiebalk-wrap
+###cookieBan
+###cookieBandeau
+###cookiebandeau
 ###CookieBanner
 ###cookieBanner
 ###cookiebanner
@@ -1358,20 +1414,41 @@ _site_cookie_
 ###cookieChoiceBanner
 ###cookieChoiceInfo
 ###cookieChooser
+###cookieclaim_info_bar
+###cookieclaim_info_box
+###cookieclaim_overlay
+###cookieClicker
+###cookieCnil
 ###cookiecnil
+###cookiecompliance
 ###cookieCompliance
+###cookieComplianceBanner
+###cookieComplianceBox
 ###cookieComplianceMessage
+###cookieComplianceNotice
+###cookieCompliancy
 ###cookieCompliancyModal
 ###cookieConatiner
 ###CookieConsent
 ###cookieConsent
 ###cookieconsent
+###cookieconsent-banner
+###cookieconsent-container
+###cookieconsent-explicit-overlay
+###cookieconsent-explicit-popup
+###cookieconsent-implicit-popup
 ###cookieconsent_container
 ###cookieconsent_text
 ###cookieConsentAlert
+###cookieConsentBanner
 ###cookieConsentBar
 ###cookieconsentbar
+###cookieConsentBox
+###cookieConsentContainer
+###cookieConsentDialog
+###cookieConsentDiv
 ###CookieConsentDiv
+###CookieConsentement
 ###cookieConsentForm
 ###cookieConsentNotice
 ###cookieConsentPrompt
@@ -1379,10 +1456,14 @@ _site_cookie_
 ###CookieContainer
 ###cookieContainer
 ###cookiecontainer
+###cookieContener
+###cookiecontent
 ###cookieContent
 ###cookieControl
 ###cookiecontrol
 ###cookiecontrol_notice
+###cookieController
+###CookieControlWrapper
 ###cookieControlWrapper
 ###cookieCookieBar
 ###cookieDialog
@@ -1390,15 +1471,22 @@ _site_cookie_
 ###cookiedingsbums
 ###cookieDisc
 ###cookieDisclaimer
+###cookieDisclaimerNotif
+###cookieDisclamer
 ###cookieDismissContent
+###cookieDisplayForm
 ###CookieDiv
 ###cookieDiv
 ###cookiediv
+###cookieDiv-Alert
+###cookieDivBackground
 ###cookieDivContent
 ###cookieDough
 ###cookieDropDown
 ###cookiefascia
 ###cookieFixed
+###cookiefoot
+###cookiefooter
 ###cookieFooter
 ###cookieFrame
 ###cookieGuardMsg
@@ -1406,6 +1494,14 @@ _site_cookie_
 ###cookieHeader
 ###cookieheader
 ###cookieHint
+###cookiehinw
+###cookieHinweis
+###cookiehinweis
+###cookiehinweisdiv
+###cookieHolder
+###cookieHolster
+###cookieHTML
+###cookieIdiotLaw
 ###cookieInfCont
 ###CookieInfo
 ###cookieInfo
@@ -1413,9 +1509,23 @@ _site_cookie_
 ###cookieinfo-container
 ###cookieInfoBar
 ###cookieinfobar
+###cookieInfoBottom
 ###cookieInfoBox
+###cookieinfobox-box
+###CookieInfoContainer
+###cookieInfoContainer
+###cookieInfoContent
+###cookieInfoDiv
+###cookieInfoFooter
+###cookieInfoHolder
 ###cookieInfoLayer
 ###cookieInfoMsgWrapper
+###cookieInfoNew
+###cookieInfoOrange
+###cookieInfoOverlay
+###cookieInfoOverlayBg
+###cookieInfoPanel
+###cookieInformacja
 ###CookieInformation
 ###cookieInformation
 ###cookieInformationBoxWrapper
@@ -1508,6 +1618,7 @@ _site_cookie_
 ###cookiePolicyBanner
 ###cookiePolicyBar
 ###cookiepolicybg
+###CookiePolicyContainer
 ###cookiepolicydiv
 ###cookiePolicyModal
 ###cookiePolicyNotice
@@ -1923,6 +2034,7 @@ _site_cookie_
 ###eurociastko
 ###eurocookie
 ###eurocookielaw
+###eut_cookie_notice
 ###expat_cookies
 ###external-cookie-bar
 ###fixed-cookie
@@ -2250,6 +2362,7 @@ _site_cookie_
 ###rnw_cookies_banner
 ###Row1_Column1_Cell1_CookieSettings_CookieSettings
 ###rtl_cookie_small
+###rtsCookies
 ###rtveCookiePolicy
 ###ruban-cnil
 ###rvacookies
@@ -2395,6 +2508,7 @@ _site_cookie_
 ##.avertissementCookieContenu
 ##.aviso-cookies
 ##.avisoCookies
+##.avisocookies
 ##.b-cookie-hint
 ##.b-cookies
 ##.b-notification-push__wrapper
@@ -2427,6 +2541,7 @@ _site_cookie_
 ##.bottomAlert
 ##.box-cookies
 ##.box_cookie
+##.box_cookies
 ##.c-cookie
 ##.c-cookie-banner
 ##.c-cookie-bar
@@ -3937,7 +4052,7 @@ fool.co.uk###dogfish
 forumcommunity.net##.jnote
 freecycle.org###blocker_message
 freewebsitetemplates.com##.Notices
-ft.com,heathrowexpress.com###consent
+ft.com,heathrowexpress.com,heathrowexpress.com###consent
 fundedbyme.com##.pageNotification
 gamepedia.com,mmo-champion.com###tos-banner
 gametwist.com##.message__container
@@ -4203,7 +4318,7 @@ kunstakademie-duesseldorf.de###zwcc
 mathe24.net###wrapperdiv
 mydealz.de###softMessages-list
 ortsdienst.de##div[style="background:#888;padding:10px;color:#FFF;font-weight:bold"]
-shop-apotheke.com###cookie
+ruhrbarone.de,shop-apotheke.com###cookie
 spielfilm.de###alert
 stw.berlin###disclaimer
 telekom.de##.message-bar
