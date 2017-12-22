@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: MOlDpKtOiPjTgSuX+SB8AA
+! Checksum: dxxT4CacUswJ2Cq8YJJsKQ
 ! Title: Fanboy's Cookiemonster List
-! Updated: 22 Dec 2017
+! Updated: 23 Dec 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1306,7 +1306,6 @@ _site_cookie_
 ###cookieFixed
 ###cookiefloat
 ###cookiefoot
-###cookieFooter
 ###CookieFooter
 ###cookieFooter
 ###cookieFrame
@@ -3208,7 +3207,6 @@ castrol.com##.nv-notification-header
 cbfhydraulic.com,marasrl.it###ckInfo
 cc.com###balaMainContainer
 change.org##.flash-message-announcement
-channel4.com###all4gn-cookie-policy-notification
 channelregister.co.uk,theregister.co.uk###RegCCO
 cimaglobal.com###optanon
 cityoflondon.gov.uk##.container-floating-notifications
@@ -3288,7 +3286,6 @@ keil.com###privacymodule
 landrover.co.uk##.NotificationBar
 last.fm##.site-message
 layar.com##.remarketing-banner
-lego.com###GFSticky
 lexus.co.uk,lexus.eu##.l-disclaimer
 lg.com##.policyChk
 live.com,microsoft.com,office.com,skype.com,visualstudio.com,windows.com,xbox.com###epb
@@ -3484,7 +3481,6 @@ vertaa.fi##div[data-bind*="!$data.isOpen()"]
 4launch.nl##.alert
 @@||studentenwoningweb.nl/KRN/Scripts/jquery.cookiecuttr.js
 bestsellers.eu###site-optin-header
-boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl#@#.Cookies
 hardloopkalender.nl###interVeil
 hardloopkalender.nl##.modal-cooki
 ing.nl##.overlay
@@ -3514,7 +3510,6 @@ deutsche-handwerks-zeitung.de###cc-box
 deutzforum.de##.userNotice
 die-linke.de,lexus.at,lexus.de##.disclaimer
 duden.de###sliding-popup
-esprit.de###policy_header
 happy-spots.de###cono
 hl-live.de##table[width="1000"]
 hosteurope.de###cche
@@ -3712,7 +3707,6 @@ v6.se###layer
 !
 !---------- French Site Specific Hiding Rules ----------
 !
-###capaAvisoPoliticaCookies_superior_mensajes
 ###sf-minisite-toolbar
 ##.recocliv2
 118000.fr,clique.tv,communauto.com,cuisineaz.com,ouestjob.com##.cookies
@@ -3819,7 +3813,6 @@ corriere.it,gazzetta.it###\5f evh-ric
 educazioneemotiva.it###Cookie
 elettrocasa.it##.bottomBarMessage
 email.it##script + div[style^="background: #000000;"]
-enel.it###contenitoredisclaimer
 euronics.it###note
 farmacieaperte.it###warning-popup
 forumfree.it##.jnote
