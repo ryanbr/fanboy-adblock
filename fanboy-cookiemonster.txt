@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 2/iQeX3pWP/w90vAv46Iww
+! Checksum: sDrYhYU2FhEcXPqweBzU1w
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 22 Dec 2017
 ! This list expires after 4 days
@@ -186,6 +186,7 @@
 /cookielex/*
 /cookiemanagement.js
 /cookieMention.
+/cookiemessage.
 /cookiemessage_
 /cookieMetie.
 /cookiemonster.mg
@@ -327,14 +328,17 @@
 /ubmcookieconsent-
 /usecookies.js
 /usocookies.
+/w034CookieDirective.js
 /warnCookies.
 /widgets/cookies-
 /wkp_cookies.js
 /wp-cookie-allow/*$script,stylesheet
+_alert_cookie/
 _cookie_bar/
 _cookie_cnil.
 _cookie_compliance.
 _cookie_consent/
+_Cookie_Directive-
 _cookie_law.js
 _cookie_notice-
 _cookie_notice.
@@ -457,6 +461,7 @@ _site_cookie_
 ###alerta_cookies
 ###AlertaCookies
 ###alertCookie
+###AlertCookies
 ###alertCookies
 ###alerte-cookies
 ###alerte_cnil
@@ -593,6 +598,7 @@ _site_cookie_
 ###bannercookie
 ###bannerCookieContainer
 ###bannerCookies
+###bannerprivacy
 ###bannerprivacy
 ###banniere-cookie
 ###banniere_information_utilisation_cookies
@@ -756,6 +762,7 @@ _site_cookie_
 ###capaAceptaCookies
 ###capaAvisoCookie
 ###capaAvisoCookies
+###capaAvisoPoliticaCookies_superior_mensajes
 ###capaefectos-cookie
 ###cartelcookielegal
 ###caspian_cookiebar
@@ -1313,6 +1320,7 @@ _site_cookie_
 ###cookie_policy_message
 ###cookie_policy_message_container
 ###cookie_policy_modal
+###cookie_policy_msg
 ###cookie_policy_notice
 ###cookie_policy_overlay
 ###cookie_policy_popup
@@ -2412,6 +2420,7 @@ _site_cookie_
 ###townside-cookiebar-outer
 ###trackCookieBar
 ###trackingCookie
+###trigCookie
 ###truste-banner
 ###ts_cookie_info
 ###tscookiebar
@@ -4051,7 +4060,7 @@ fool.co.uk###dogfish
 forumcommunity.net##.jnote
 freecycle.org###blocker_message
 freewebsitetemplates.com##.Notices
-ft.com,heathrowexpress.com,heathrowexpress.com###consent
+ft.com,heathrowexpress.com,holition.com###consent
 fundedbyme.com##.pageNotification
 gamepedia.com,mmo-champion.com###tos-banner
 gametwist.com##.message__container
