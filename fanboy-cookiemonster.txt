@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 512Ceifxnnb/RZ5sXAueYA
+! Checksum: JTo9lwKL6D73zznMo4NTGQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 23 Dec 2017
 ! This list expires after 4 days
@@ -3877,6 +3877,7 @@ bezeq.co.il#@#.cookieAlert
 boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl,nzherald.co.nz#@#.Cookies
 boursorama.com#@#.cookie-banner
 britishairways.com#@##cookieModal
+franziskaner-weissbier.de#@#.accept-cookies
 greenflag.com#@#.cookie-message
 hbogo.hu#@##cookiebox
 hearst.co.uk#@#.cookie-policy
