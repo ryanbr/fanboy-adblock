@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: WPBvNGitZaDNXUBfbMoJgw
+! Checksum: TjhaMCpT33d1WeJUQPsnag
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 23 Dec 2017
 ! This list expires after 4 days
@@ -1353,6 +1353,7 @@ _site_cookie_
 ###cookie_widget
 ###cookieaccept
 ###cookieAccept
+###cookieacceptance
 ###CookieAcceptance
 ###cookieAcceptance
 ###cookieAcceptanceContainer
@@ -1688,7 +1689,6 @@ _site_cookie_
 ###cookiePK
 ###cookiePlaceholder
 ###cookiePoliciesMessage
-###cookiePolicy
 ###CookiePolicy
 ###cookiePolicy
 ###cookiepolicy-blok
@@ -1723,6 +1723,7 @@ _site_cookie_
 ###cookiePopin
 ###cookiePopUp
 ###cookiePopup
+###cookiepopup
 ###cookiePopupContainer
 ###cookiepopupdiv
 ###cookieprivacy
@@ -1814,6 +1815,7 @@ _site_cookie_
 ###cookies-policy
 ###cookies-policy-banner
 ###cookies-policy-bar
+###cookies-policy-container
 ###cookies-policy-info
 ###cookies-policy-mssg
 ###cookies-policy-placeholder
@@ -2053,6 +2055,7 @@ _site_cookie_
 ###cookieWindowContainer
 ###cookiewrap
 ###cookieWrap
+###cookieWrapper
 ###cookiewrapper
 ###CookieWrapper
 ###cookis-bg
@@ -2346,6 +2349,7 @@ _site_cookie_
 ###Footer_cookieLawBox
 ###footer_cookies
 ###footer_tc_privacy
+###footercookie
 ###footerCookie
 ###FooterCookie
 ###footercookie-container
@@ -3608,6 +3612,7 @@ _site_cookie_
 ##.cookieMSG
 ##.cookieMsg
 ##.cookieMsgContainer
+##.CookieNote
 ##.cookienote
 ##.CookieNotice
 ##.cookieNotice
@@ -4845,7 +4850,6 @@ nba.com###nba_tos
 nba.com###policy_wrapper
 nelly.com,nlyman.com###toast-container
 netjetseurope.com##.nj-header-prompt
-newsnow.co.uk###cconsent
 newsnow.co.uk##.alertsscroll_container
 newstatesman.com##.site-footer
 novantas.com##.foobar-container
