@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: /19UBUrC3JJlvzNaE74IZg
+! Checksum: VSzqfPCWdppslzv5tCpcZg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 23 Dec 2017
 ! This list expires after 4 days
@@ -1516,6 +1516,7 @@ _site_cookie_
 ###cookies-agreement
 ###cookies-alert-dialog
 ###cookies-alert-wrapper
+###cookies-consent
 ###cookies-disclaimer
 ###cookies-disclaimer-bar
 ###cookies-disclaimer-block
