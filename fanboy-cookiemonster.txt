@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: dxxT4CacUswJ2Cq8YJJsKQ
+! Checksum: nTmiSZHyej/K4hH2rKL9Ww
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 23 Dec 2017
 ! This list expires after 4 days
@@ -1748,6 +1748,7 @@ _site_cookie_
 ###eulaw
 ###euLaw-alert
 ###eulaw-bar
+###eut_cookie_notice
 ###evance-cookie-consent
 ###Evaste_bottom
 ###evideCookiesNotify
@@ -2758,6 +2759,7 @@ _site_cookie_
 ##.cookieWrapp
 ##.cookieWrapper
 ##.cookieWrp
+##.dhl-cgk
 ##.m-cookie-info
 ##.m-cookie-notice
 ##.m-cookie-notification
@@ -3231,7 +3233,6 @@ decider.com,nypost.com,pagesix.com##.nyp-sitewide-notice
 desktopwallpapers4.me,ouchpress.com###clayer
 deutscheam.com##.flash-message__wrapper
 dexigner.com###cwarn
-dhl.com##.dhl-cgk
 discordapp.com,dotmailer.com,medicalxpress.com,phys.org,shire.com,techxplore.com##.notice
 dlwflooring.com##.privacy-info
 doubleviking.com##.footer
