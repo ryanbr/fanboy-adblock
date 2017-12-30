@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: m+uPmbQPHPuZoLsnuOC8eA
+! Checksum: B8NlwvbLHeFDnV+eVn74Wg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 30 Dec 2017
 ! This list expires after 4 days
@@ -1001,7 +1001,7 @@ _site_cookie_
 ###cookie-btn
 ###cookie-button-banner
 ###cookie-cc
-###cookie-check
+###cookie-check:not(body)
 ###cookie-checker
 ###cookie-choice
 ###cookie-choice-info
@@ -3565,6 +3565,7 @@ _site_cookie_
 ###sun-cookieMessageInner
 ###survey_bar
 ###svtCookieInformationContainer
+###sysCookieMessage
 ###tarteaucitronAlertBig
 ###tc_privacy
 ###tesco_cookie_widget
@@ -3682,6 +3683,7 @@ _site_cookie_
 ##.aviso-cookies
 ##.avisoCookies
 ##.avisocookies
+##.b-cookie
 ##.b-cookie-hint
 ##.b-cookies
 ##.b-notification-push__wrapper
@@ -5532,7 +5534,7 @@ _site_cookie_
 ! Cookie, privacy, legal filters
 abcnews.go.com##.push-me
 aberdeenplumberservices.co.uk,firstcallmotorbreakdown.co.uk,pattheduck.com###FISLCC
-add0n.com,aflite.co.uk,aon.com,atom42.co.uk,bakersmall.co.uk,bbvonline.net,boscolohotels.com,boxnation.com,flexerasoftware.com,fremantlemedia.com,iadvize.com,keyboardco.com,nspcc.org.uk,onenessscotland.org,priorygroup.com,rodacciai.fr,technutty.co.uk,toomeymotorgroup.co.uk,tutsandtips.com,wheatley-group.com###cookie
+add0n.com,aflite.co.uk,aon.com,atom42.co.uk,bakersmall.co.uk,bbvonline.net,boscolohotels.com,boxnation.com,flexerasoftware.com,fremantlemedia.com,iadvize.com,keyboardco.com,nspcc.org.uk,onenessscotland.org,priorygroup.com,rodacciai.fr,technutty.co.uk,toomeymotorgroup.co.uk,tutsandtips.com,wheatley-group.com,oilplusltd.com###cookie
 adobe.com##.message
 adultswim.com###legal-notification
 agcas.org.uk,reliancebankltd.com###informationbar
@@ -5686,6 +5688,7 @@ office.com##.m-alert
 opengapps.org##.mdl-snackbar
 origin.com##.origin-sitestripe
 palmbeachpost.com##.footer-wrapper
+pamgolding.co.za###popi-notification
 pcmag.com##.privacy-content
 picturehouses.com##.interim-banner
 plymouth.ac.uk##.page-notification
@@ -6165,7 +6168,7 @@ winphonemetro.com##.c_i_container
 !
 !---------- Italian Site Specific Blocking Rules ----------
 !
-aeroportoditorino.it##.cookie
+aeroportoditorino.it,botfactory.info,peugeot.it##.cookie
 angolotesti.it,automobilismo.it,evomagazine.it###cookies
 comicsbox.it###bottom-banner
 corriere.it,gazzetta.it###\5f evh-ric
@@ -6201,6 +6204,7 @@ virgilio.it###bottom_chat
 !
 ! Used with generichide
 allmusic.com##.cookie-policy-box
+belfasttelegraph.co.uk,independent.ie###cookie_bar_top
 bnonews.com###cookiescript_injected
 boxbit.co.in###cookies_agreement
 calciomercato.com###ca_banner
@@ -6212,7 +6216,6 @@ euroman.dk###cookieInformerBooklet
 euroman.dk##.egmont-cookies
 filmweb.pl##.cookieInfo
 independent.ie###cookie_bar
-independent.ie###cookie_bar_top
 majorleaguegaming.com###cookie-disclaimer
 mirror.co.uk##.mod-cookiepolicy
 mma-core.com###cookieChoiceInfo
