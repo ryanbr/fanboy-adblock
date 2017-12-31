@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: sRI9TdMLC0S1LT9dmlHj4A
+! Checksum: GkFjU7VWphzyrY71BMKjNQ
 ! Title: Fanboy's Cookiemonster List
-! Updated: 30 Dec 2017
+! Updated: 31 Dec 2017
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -5783,6 +5783,7 @@ zoover.co.uk###info-bar
 ||cookiereports.com^$third-party
 ||cookies.innershed.co.uk^
 ||cookiescript.info^$third-party
+||evidon.com^$third-party
 ||harpercollins.co.uk/js/cookie.js
 ||hunstoncanoeclub.co.uk/media/system/js/modal.js
 ||omgubuntu.co.uk/wp-content/plugins/omg-magnific/magnific.min.js
