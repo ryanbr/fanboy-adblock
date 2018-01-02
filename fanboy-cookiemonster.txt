@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 4oFsum23FZwpAGHB+9ejEg
+! Checksum: n1Ekb3muCG3bkO7iblKESQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 2 Jan 2018
 ! This list expires after 4 days
@@ -5564,7 +5564,7 @@ bbc.co.uk##.pulse-banner
 bbc.com##.domestic-header-wrapper
 belkin.com###pagebanner
 bell-labs.com,bigsocietycapital.com,cartoonnetwork.co.uk,eif.co.uk,integralmemory.com,juce.com,middleeasteye.net,parkinsons.org.uk,rmg.co.uk,thalesgroup.com,topuniversities.com,ucas.com###sliding-popup
-bethesda.net,dlink.com,eveningtelegraph.co.uk,princeofwales.gov.uk##.notification
+bethesda.net,cambridge.org,dlink.com,eveningtelegraph.co.uk,princeofwales.gov.uk##.notification
 betsson.com###msgwrapper
 bing.com###b_notificationContainer
 bing.com##.hpn_top_container
