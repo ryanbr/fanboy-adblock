@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: jgWfXT+l/hqa65toGK8SZw
+! Checksum: pzbPswEiYIfRzb8Yr87fWg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 5 Jan 2018
 ! This list expires after 4 days
@@ -846,6 +846,7 @@ _site_cookie_
 ###ciasteczka
 ###ciasteczka-box
 ###ciasteczka_alert
+###ciasteczkaInfoContainer
 ###ciasteczko
 ###ciasteczkowe_okno
 ###ciasteczkowy_potwor
@@ -6704,20 +6705,12 @@ tesco.hu##.infoBarClosable
 !
 !---------- Polish Site Generic Hiding Rules ----------
 !
-###ciasteczka
-###ciasteczka_alert
-###ciasteczkaInfoContainer
-###ciastka
-###div-cookie-komunikat
-###pasek_ciasteczka
-###poityka-ciastek
 !
 !---------- Polish Site Specific Hiding Rules ----------
 !
 alergia-allegra.pl,bitbay.pl,easycomp.pl,meczyki.pl,rozklad-pkp.pl,telepolis.pl##.cookies
 atakklonow.pl,mistrzowie.org,wszechpolska.pl##div[style="position: fixed; left:0; right:0; bottom:0; height:120px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
 atk.com.pl###TB_window
-atman.pl###ck_dsclr
 atman.pl###gbpl_oba
 auchan.pl,bankmillennium.pl,dobreprogramy.pl,generali.pl,hi-tec.com.pl,newsweek.pl,play.pl,tripolo.pl###cookies
 bstorun.pl###comm_info
@@ -6766,7 +6759,6 @@ mpolska24.pl##.infoBox
 naturo.pl###simple-modal
 naturo.pl###simple-modal-overlay
 nettg.pl##div[style^="background-color: #eee; text-align: center;"]
-newseria.pl,haldon.pl###cokPyt
 opteam.pl###info_c_box
 otabletach.pl,drony.net,gadzetomania.pl,komorkomania.pl###cop
 panasonic.pl###CP_Layer
@@ -6867,7 +6859,6 @@ elsevier-masson.fr###myModal
 ethias.be###tab_ck
 fnacspectacles.com##.modal-backdrop
 hautetfort.com##div[data-cookie]
-hotelalisee.fr###CPolicy
 ilninth.wordpress.com###MsgContainer
 ing-diba.at###top-message__wrapper
 landrover.ch##.notificationBars
@@ -6899,7 +6890,6 @@ nwglobalvending.fr###toast
 ogaming.tv##.navbar-fixed-bottom
 orange.be##.b2c-global-footer-container
 paconsulting.com###cookPop
-priceminister.com###legalNotificationEltId
 publicsenat.fr##.top-message
 rtl.fr##.article-mail-form
 rueducommerce.fr##.confidentialite_header
@@ -6913,7 +6903,6 @@ tetley.fr##.topFix
 tf1.fr##div[id^="msgctrw"]
 tupperware.fr##.floating
 vinted.fr##.js-notification
-zara.com###popup-announcements
 zdnet.fr###catfish
 zepass.com##.notification
 ||cnil.links-lab.fr^
@@ -6921,7 +6910,6 @@ zepass.com##.notification
 !
 !---------- Spanish/Portuguese Site Specific Hiding Rules ----------
 !
-###MensajeCompruebaCookieSite > div:first-child
 aristeguinoticias.com###comparte
 bwin.es##.info-message
 castroelectronica.pt##div[style="height: 35px; background:#2a2a2a; position:absolute; width:100%; top:0; z-index: 999999;"]
