@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: +eUtKbxsHoMfqkYipv/3Nw
+! Checksum: cKjWi/4ztvUpzooceLovLg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 10 Jan 2018
 ! This list expires after 4 days
@@ -7519,6 +7519,7 @@ postnl.be#@##cookiebar-container
 postnl.be#@#.cookie_wrapper
 prosiebengames.de,stories.com,hm.com#@#.cookie-notification
 roussillhotel.com#@##cookie-banner
+sandisk.com#@##consent_blackbar
 security.nl#@#.cookie_consent
 tweakers.net#@##cookieContainer
 tweakers.net#@##cookieOverlay
