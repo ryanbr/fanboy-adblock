@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 9VfBRoCTucKz+k0Ce7yY4Q
+! Checksum: n8L++YgGNSkFXibDJkCCPQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 3 Jan 2018
+! Updated: 10 Jan 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2436,6 +2436,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||mfcreative.com^*/mbox.js
 @@||microsoft.com/Areas/Global/Content/Omniture/
 @@||microsoft.com/Combined.js?*/Omniture/
+@@||microsoft.com^*/webtrends_$script
 @@||microsofttranslator.com^*/SiteCatalyst.js
 @@||miniusa.com/js/dcs_tag.js
 @@||mlb.mlb.com/shared/flash/tracking/bamnet_omniture_as3.swf
