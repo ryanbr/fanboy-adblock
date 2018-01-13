@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: vj73j89y+5Ip/ipcDRMp4A
+! Checksum: CQJ+7BjJ1P8/bB0SbvBTCw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 13 Jan 2018
 ! This list expires after 4 days
@@ -2172,6 +2172,7 @@ thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 @@||wiwo.de^*/iqadcontroller.js
 brigitte.de##.prettysocial
 faz.net##.js-sharebuttons
+wetter.de##img[src*="//ais.wetter.de/masters/"]
 ! Korean
 ||hayan.tv/gibberish-aes.js
 ! Turkish
