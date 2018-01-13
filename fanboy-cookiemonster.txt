@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: cKjWi/4ztvUpzooceLovLg
+! Checksum: zgCJinW7Pf+9txg5Rgmu7g
 ! Title: Fanboy's Cookiemonster List
-! Updated: 10 Jan 2018
+! Updated: 13 Jan 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -3030,6 +3030,7 @@ _site_cookie_
 ###eKPC_Container
 ###eksCookiePrompt
 ###el-cookie-consent
+###elGuestTerms
 ###elqOptInBannerDiv
 ###elux-cookie-consent
 ###emea-cookie
@@ -4870,6 +4871,7 @@ _site_cookie_
 ##.cookie-consent-notice
 ##.cookie-consent-wrap
 ##.cookie-consent-wrapper
+##.cookie-contain
 ##.cookie-container
 ##.cookie-container-most
 ##.cookie-content
@@ -6771,6 +6773,7 @@ _site_cookie_
 ##.yt-consent-banner
 ##.z-banner-cookie
 ##.z-cookieBar
+##.z-navicat-header-cookieBar
 ##.z16_cookies_banner-wrapper
 ##.zenario_cookie_consent
 ##.zgoda_na_cookie
@@ -7147,7 +7150,7 @@ auto-motor-und-sport.de##.j34
 auto-motor-und-sport.de##.p40
 bmjv.de###privacy
 cebit.de,hannovermesse.de##.user-notes-notification
-daparto.de##.cookie
+daparto.de,donaukurier.de##.cookie
 denic.de,moviepilot.de##.notification
 deutsche-handwerks-zeitung.de###cc-box
 deutzforum.de##.userNotice
