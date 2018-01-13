@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: CQJ+7BjJ1P8/bB0SbvBTCw
+! Checksum: 0zpGgmAsQ0z9gV3GdTAcBA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 13 Jan 2018
 ! This list expires after 4 days
@@ -1184,6 +1184,7 @@ gamebanana.com##.BannerModule
 @@||ads.proboards.com/ad/
 proboards.com###support-message
 ! publicleech.xyz
+@@||leecher.*/advertisement.js$script
 @@||popmyads.com/pma.js$script,domain=publicleech.xyz
 ! xxvideosporno.net
 @@||xxvideosporno.net^$generichide
