@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 0zpGgmAsQ0z9gV3GdTAcBA
+! Checksum: KvCA4hjNhP8BLgfQp9koYg
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 13 Jan 2018
+! Updated: 14 Jan 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -963,6 +963,7 @@ youporn.com###adblock_1
 @@||pordede.com^*/ads.js
 @@||pornrabbit.com/static/advertisement.js
 @@||powerthesaurus.org^$generichide
+@@||powvideo.net/js/ads-banner.js
 @@||pressdemocrat.com/js/ads.js
 @@||ps4news.com/ad/adframe.js
 @@||ptztv.com/dns_ad/$script
