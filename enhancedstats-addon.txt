@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: lcAG6Lsc2nkqy1QfgnEKtw
+! Checksum: jdb5FdMs4VA8H6+rPKyZdA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 17 Jan 2018
+! Updated: 18 Jan 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1066,6 +1066,7 @@ youporn.com###adblock_1
 @@||vox-cdn.com/javascripts/lib/advertisement.
 @@||wallpapermania.eu^$generichide
 @@||washingtonexaminer.com^*/ad-block.png
+@@||weather.com^$generichide
 @@||weather.com^*/pubads.js
 @@||websking.com/static/js/advertisement.js
 @@||westeros.org^$generichide
@@ -2311,6 +2312,13 @@ pg3dhacks.com##[data-ad-slot]
 qoshe.com###hPolicyCookieAlert
 softonic.com##div[data-column-balancer]
 vaughnlive.tv##.abvsDynamic
+weather.com###wx-top-wrap
+weather.com##.admodule
+weather.com##.footer-social-icons
+weather.com##.newsletter-driver
+weather.com##.share-buttons-article
+weather.com##.taboola-module
+weather.com##.wx-social-share-ls-wrapper
 xkorean.net###inplayer
 xkorean.net##.thr-rcol
 xkorean.net##a[href*="&aff_id"]
