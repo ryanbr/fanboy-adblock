@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 1oG+TMC8+l4zHkwEXjfFpg
+! Checksum: yFeKvuoWdkaRNn7tXojLQg
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 18 Jan 2018
+! Updated: 19 Jan 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1323,6 +1323,13 @@ imgspice.com,imagetwist.com##script + [style*="z-index:"]
 @@||turbogvideos.com^$generichide
 ! kizzboy.com
 @@||kizzboy.com^$generichide
+! time.com
+@@||time.com^$generichide
+time.com##.left-rail-ad__wrapper
+time.com##.newsletter-callout
+time.com##.share
+time.com##.social-stroke-icon
+time.com##.subscribe-callout
 ! verliga.net
 @@||verliga.net^$generichide
 @@||verliga.net^*/adblock.js
