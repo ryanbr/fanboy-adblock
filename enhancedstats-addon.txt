@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: mxTVdfTWnD1IPdV8DRlgOQ
+! Checksum: efENscMnqhidCH1WclNd4Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 21 Jan 2018
 ! This list expires after 4 days
@@ -159,12 +159,12 @@
 /omniSearch_
 /omnitrack.js
 /omnitracking.
-/omniture-
-/omniture.
-/omniture/*
-/omniture2.
-/omniture?
-/omniture_
+/omniture-$script
+/omniture.$script
+/omniture/*$script
+/omniture2.$script
+/omniture?$script
+/omniture_$script
 /omnitureactionsource.
 /omnitureAnalyticsImpl.
 /OmnitureAppMeasurementExtension.
@@ -181,8 +181,8 @@
 /OmnitureHandler.
 /OmnitureHelper.
 /OmnitureJavascriptHandler.
-/OmnitureJS.
-/omniturejs/*
+/OmnitureJS.$script
+/omniturejs/*$script
 /OmnitureLibrary.
 /omnituremedia.swf
 /OmniturePageCode.
@@ -196,7 +196,7 @@
 /omnituretracking/*
 /omnituretrackingjs/*
 /omnitureZoneTracker.
-/omniunih_
+/omniunih_$script
 /OmniUserObjAndHelper.
 /omtr_code.
 /omtr_code_
