@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: kN4u0ZL0B5C3vkSiF2efpA
+! Checksum: h0oVT3KVvDG7IFodbQDwpg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 21 Jan 2018
 ! This list expires after 4 days
@@ -6101,7 +6101,7 @@ _site_cookie_
 ##.cp-box-alert-popup
 ##.cp-cookie-banner
 ##.cp-cookie-wrap
-##.cp-cookies.alert-dismissible
+##.cp-cookies
 ##.cp-CookiesDisclaimer
 ##.cp-curtain-container
 ##.cp-wrapper
@@ -7437,7 +7437,6 @@ themeflood.com##.gatewayContainer
 thermofisher.com##.specialMsg
 theverge.com###notice
 theweathernetwork.com##.woahbar
-ticketsource.co.uk###permission-bar
 tmt-magazine.com##.sitealert
 tmz.com###legalbar
 trustnet.com##USER-TYPE-POPUP
@@ -7461,7 +7460,6 @@ wattsindustries.com##.box_background
 wattsindustries.com##.box_contents
 webnovel.com##.m-streamer
 wiley.com##.l-notification
-wimbledon.com###wimPrivacyBanner
 wittur.com###loggedbar
 wowhead.com##.announcement
 wts.com###message
@@ -7841,7 +7839,6 @@ orange.be##.b2c-global-footer-container
 paconsulting.com###cookPop
 publicsenat.fr##.top-message
 rtl.fr##.article-mail-form
-rueducommerce.fr##.confidentialite_header
 savi-france.fr###notifybar
 smile.fr###popup
 sportetstyle.fr##div[id^="cookie"]
