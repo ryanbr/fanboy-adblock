@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: mdCWGMGHsnSpe+yaQCkP9g
+! Checksum: iPaML898fyb5MV/7+DB/Eg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 22 Jan 2018
 ! This list expires after 4 days
@@ -1174,6 +1174,8 @@ oxfordmail.co.uk##.dfp-top-ad-container
 oxfordmail.co.uk##.redesign-cta
 oxfordmail.co.uk##.social-icon-container
 oxfordmail.co.uk##.top-socialbar
+! twitch
+||twitchcdn.net/v1.js
 ! 4chan
 cyberterminators.co##.td-post-sharing
 cyberterminators.co##.wpInsertInPostAd
