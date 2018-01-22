@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: h0oVT3KVvDG7IFodbQDwpg
+! Checksum: h0p6bA5V4i0//Fd/pNQqkQ
 ! Title: Fanboy's Cookiemonster List
-! Updated: 21 Jan 2018
+! Updated: 22 Jan 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -296,6 +296,7 @@
 /jquery.cookie.js$domain=password-decryptor.com
 /jqueryCookieGuard.
 /js-cookie-master/*$script
+/js/cookiePolicy?
 /layer-cookienotice.
 /legal/cookies/?
 /legalcookie.
@@ -1018,6 +1019,7 @@ _site_cookie_
 ###coockies3wmDiv
 ###coockies_warning
 ###coockiewrap
+###cook_aff
 ###cook_info
 ###cookAlert
 ###cookcont
@@ -3279,6 +3281,7 @@ _site_cookie_
 ###footercookies
 ###footerCookies
 ###footmesscookie
+###ForbotCookies
 ###form_CookieOK
 ###fp_cookieMessageContainer
 ###fr_cookie_container
@@ -3462,6 +3465,7 @@ _site_cookie_
 ###info_cookies_l
 ###infobar-cookie
 ###infoboxcookie
+###infociasteczka
 ###infoCookie
 ###infocookie
 ###InfoCookie
@@ -4974,6 +4978,7 @@ _site_cookie_
 ##.confidentialite_header
 ##.ConfirmCookieMessageBox
 ##.consent-cookies
+##.consent_box
 ##.consentBarWrapper
 ##.consentement_cookie
 ##.consentement_cookies
@@ -5071,6 +5076,7 @@ _site_cookie_
 ##.cookie-block
 ##.cookie-block-visible
 ##.cookie-box
+##.cookie-btn
 ##.cookie-check:not(body)
 ##.cookie-choice
 ##.cookie-choices--info
@@ -7209,6 +7215,7 @@ _site_cookie_
 ##.zk-cookies-container
 ##.zone-cookies
 ##.zpWinThemeCookie
+##cbn-cookies
 ##COOKIE-ALERT
 ##COOKIE-NOTICE
 ##cookie-permission
@@ -7216,6 +7223,7 @@ _site_cookie_
 ##div[data-module="cookie_banner"]
 ##div[data-widget="cookie-bar"]
 ##div[element-structure-cookiemonster]
+##div[id^="n-cookies"]
 ! Cookie tag element
 ##XK-COOKIE-POLICY-WARNING
 ! Common Cookie element
@@ -7252,7 +7260,7 @@ airproducts.co.uk##.eu-dp
 alternativeto.net###bottomNotifier
 amazon.com###pldn-deep-link
 amnesty.org,asda.com,ashridge.org.uk,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,dorotheum.com,dur.ac.uk,feelunique.com,graspop.be,luxottica.com,mailjet.com,mindshareworld.com,pjon.org,royalparks.org.uk,tescomobile.ie,thenottingham.com,ukcisa.org.uk,umicore.com,unknownphone.com,uptodown.com,volvocars.com##.cookies
-anglianwater.co.uk,ask.fm,calvertjournal.com,crazydomains.co.uk,firefox-usb.com,hempel.co.uk,hempelyacht.com,here.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,modhoster.com,natwest.com,openmailbox.org,postoffice.co.uk,rbs.co.uk,roalddahl.com,rowenta.com,statusbrew.com,syntevo.com,team-mediaportal.com,virgin-atlantic.com##.cookie
+anglianwater.co.uk,ask.fm,calvertjournal.com,crazydomains.co.uk,firefox-usb.com,forgeworld.co.uk,hempel.co.uk,hempelyacht.com,here.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,modhoster.com,natwest.com,openmailbox.org,postoffice.co.uk,rbs.co.uk,roalddahl.com,rowenta.com,squirt.org,statusbrew.com,syntevo.com,team-mediaportal.com,virgin-atlantic.com##.cookie
 anisearch.com##.urgent-msg
 anpost.ie,ayraviation.com,emrf.eu,emunewz.net,feyenoord.com,forbiddenplanet.co.uk,fulltilt.com,homecinemachoice.com,inmobi.com,izikart.co.uk,jomast.co.uk,metbiocat.eu,panfurware.com,phonearena.com,picload.org,pokernews.com,premiumcredit.co.uk,private.com,scl.org,studentski.net,tellows-au.com,tellows-fi.com,tellows-ng.com,tellows-tr.com,tellows.asia,tellows.at,tellows.be,tellows.co,tellows.co.nz,tellows.co.uk,tellows.co.za,tellows.com,tellows.com.br,tellows.cz,tellows.de,tellows.dk,tellows.es,tellows.fr,tellows.gr,tellows.hu,tellows.in,tellows.it,tellows.jp,tellows.mx,tellows.net,tellows.nl,tellows.org,tellows.pl,tellows.pt,tellows.ru,tellows.se,tellows.tw,the-tls.co.uk,tsb.co.uk###cookies
 ao.com###aoMessageHolder
@@ -7657,10 +7665,10 @@ tesco.hu##.infoBarClosable
 !---------- Polish Site Specific Hiding Rules ----------
 !
 alergia-allegra.pl,bitbay.pl,easycomp.pl,meczyki.pl,rozklad-pkp.pl,telepolis.pl##.cookies
+alltube.tv,auchan.pl,bankmillennium.pl,dobreprogramy.pl,ekino-tv.pl,generali.pl,hi-tec.com.pl,newsweek.pl,play.pl,tripolo.pl###cookies
 atakklonow.pl,mistrzowie.org,wszechpolska.pl##div[style="position: fixed; left:0; right:0; bottom:0; height:120px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
 atk.com.pl###TB_window
 atman.pl###gbpl_oba
-auchan.pl,bankmillennium.pl,dobreprogramy.pl,generali.pl,hi-tec.com.pl,newsweek.pl,play.pl,tripolo.pl###cookies
 bstorun.pl###comm_info
 cabletech.pl##div[style="top:0;position:absolute;width:100%;background:#000;color:#f2f2f2;font-size:10px;text-align:center"]
 cartests.net##.messi
