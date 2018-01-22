@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: efENscMnqhidCH1WclNd4Q
+! Checksum: fUq/4QiIQZWjdEAlwsoYdA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 21 Jan 2018
+! Updated: 22 Jan 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -445,6 +445,7 @@ palemoon.org##div[id][style="display: block;"]:first-child
 pornhub.com###abAlert
 realclearpolitics.com###warning_empty_div
 redtube.com###slidePanelContainerAB
+slate.com##.kicker-promo
 thenewcivilrightsmovement.com##.block-alert
 unlimited-recipes.com#@##adsense
 wowhead.com##[data-was-parent="true"]
