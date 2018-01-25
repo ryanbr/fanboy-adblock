@@ -4664,7 +4664,6 @@ _site_cookie_
 ##.alert-cookies-banner
 ##.alert-cookies-bar
 ##.alert-cookiewarning
-##.alert-dismissible
 ##.alert-site-cookie
 ##.alert-wrapper-cookie
 ##.alert__cookie
