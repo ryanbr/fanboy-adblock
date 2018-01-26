@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 2bvsXnbdmlefLzQmR7hA8g
+! Checksum: dWOjerSMGKho3B7Jqsus2Q
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 26 Jan 2018
 ! This list expires after 4 days
@@ -6338,6 +6338,7 @@ _site_cookie_
 ##.gaCookieConsent
 ##.GAcookies
 ##.gb-cookie-consent
+##.gb-gnb__notice-bar
 ##.gb_g.gb_rc.gb_sc
 ##.gdl-cookie-dialog
 ##.general-cookie-notification
@@ -7968,8 +7969,11 @@ morningstar.ca#@#.cc_container
 mozilla.org,usps.com#@##privacy-policy
 postnl.be#@##cookiebar-container
 postnl.be#@#.cookie_wrapper
+pressassociation.com#@#.cookie_bar
 prosiebengames.de,stories.com,hm.com#@#.cookie-notification
 roussillhotel.com#@##cookie-banner
+samsung.com#@#.cookie-warning
+samsung.com#@#.cookiewarning
 sandisk.com#@##consent_blackbar
 security.nl#@#.cookie_consent
 stihl.de#@#.cookieInfo
