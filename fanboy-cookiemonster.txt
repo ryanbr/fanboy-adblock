@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: h0p6bA5V4i0//Fd/pNQqkQ
+! Checksum: 2bvsXnbdmlefLzQmR7hA8g
 ! Title: Fanboy's Cookiemonster List
-! Updated: 22 Jan 2018
+! Updated: 26 Jan 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -4664,7 +4664,6 @@ _site_cookie_
 ##.alert-cookies-banner
 ##.alert-cookies-bar
 ##.alert-cookiewarning
-##.alert-dismissible
 ##.alert-site-cookie
 ##.alert-wrapper-cookie
 ##.alert__cookie
@@ -7351,6 +7350,7 @@ gpuopen.com###colophon
 gumtree.com##.notification-box
 hankooktire.com##.top_ep_wrap
 harvester.co.uk##.notification--notification
+hashflare.io##.alert-dismissible
 hertz247.co.uk##.lbContainer
 historicengland.org.uk##.alert-banner
 hivehome.com##.header-stacked-message
