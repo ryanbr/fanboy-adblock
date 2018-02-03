@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: I3xB5JT1dZDSkl+39yvwUA
+! Checksum: j8Gm3C4dzFTvTHS4L9JAmw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 3 Feb 2018
 ! This list expires after 4 days
@@ -4313,7 +4313,12 @@ _site_cookie_
 ###sun-cookieMessageInner
 ###survey_bar
 ###suti_figyelmeztetes
+###suti_figyelmeztetes_ablak_fix
+###suti_info
 ###suti_kezeles
+###sutibox
+###sutik
+###sutike
 ###SVDv3_cookie
 ###svtCookieInformationContainer
 ###SWCC3_CookieLawBanner
@@ -7734,19 +7739,15 @@ wuerzburg.de###chint
 ###bottom_dialog > #bottom_dialog_inner
 ###kki_div
 aig.hu##.copyright-text-header
-allattartas.hu,favorashop.hu###suti_figyelmeztetes_ablak_fix
 almaimotthona.hu##.aszfLayerContent
-althir.org,nemzeti.net###suti_figyelmeztetes
 bestdoor.hu##.rstbox
 bestmarkt.hu,bestsellers.hu,bevachip.hu,logmein.hu,rbx.hu,work-force.hu,workforce.hu##.cookie
-bizsuk.com###sutibox
 boraszportal.hu,termalfurdo.hu###layout_advertising_bottom
 conrad.hu##.page-warning
 csillagpor.hu###a
 decathlon.hu###container-screen
 elittars.hu###info-bar
 eloben.hu##.law-accept
-erkel.hu###suti_info
 ezermester.hu##.alert
 filmkatalogus.hu##table[width="870"][cellspacing="3"]
 gomarket.hu,poloverzum.hu,smoon.hu,tipparuhaz.hu###bottom_dialog
@@ -7761,10 +7762,8 @@ lxo.hu,gov.hu,freemeteo.hu###cookies
 mercedes-benz.hu##.mainpage_popup
 origo.hu###ac
 oszkar.com###footerbar
-robertkorhaz.hu###sutike
 roly.hu##.jq-toast-wrap
 sokkaljobb.hu###SPS_noaccept
-tarhely.eu###sutik
 tarifaexpert.hu##.lablec_suti_szabaly
 tesco.hu##.infoBarClosable
 !
