@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: zrfabkPYDB/F1lmu8IUykw
+! Checksum: VsffMpe4ODn1r1NIYC5K/A
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 4 Feb 2018
 ! This list expires after 4 days
@@ -1185,6 +1185,8 @@ oxfordmail.co.uk##.top-socialbar
 ! 4chan
 cyberterminators.co##.td-post-sharing
 cyberterminators.co##.wpInsertInPostAd
+! lewd.ninja
+@@||lewd.ninja/ad/banner
 ! gamebanana.com
 gamebanana.com###SiteSkinWrapper + div[style^="position:fixed;"]
 gamebanana.com##.BannerModule
