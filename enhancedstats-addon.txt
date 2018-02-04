@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: JfyZSBAfWecqSuVmxn9Biw
+! Checksum: zrfabkPYDB/F1lmu8IUykw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 4 Feb 2018
 ! This list expires after 4 days
@@ -1188,6 +1188,9 @@ cyberterminators.co##.wpInsertInPostAd
 ! gamebanana.com
 gamebanana.com###SiteSkinWrapper + div[style^="position:fixed;"]
 gamebanana.com##.BannerModule
+! akvideo.stream
+@@||akvideo.stream/js/pop.js
+@@||akvideo.stream^$generichide
 ! nbc
 @@||doubleclick.net/gampad/ad?$domain=nbc.com
 @@||doubleclick.net/gpt/pubads_impl_$domain=nbc.com
