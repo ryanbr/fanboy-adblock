@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: yJ4cMewdXC2okk4CrWb2WA
+! Checksum: PB8S+HhKGhAEZsOxiu9uMg
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 13 Feb 2018
 ! This list expires after 4 days
@@ -7542,6 +7542,7 @@ qz.com###chyron
 ramboll-environ.com##.infoboxHolder
 ramsayhealth.co.uk##.popupbox
 ratemyprofessors.com##.overlay
+recode.net,vox.com###chorus_notifiations
 robertozeno.com##.video-mask
 robertsspaceindustries.com##.bottom-notif-bar
 seeker.com###legal-notice
@@ -7582,7 +7583,6 @@ viber.com##.policy
 videojug.com##.cp-alert-message
 visit.brussels##.confirm
 vocativ.com,zumba.com##.privacy-policy
-vox.com###chorus_notifiations
 wandermap.net##.messages
 wattsindustries.com##.box_background
 wattsindustries.com##.box_contents
