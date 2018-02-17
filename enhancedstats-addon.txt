@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: IREImBAp0Wkup9lXo81ysA
+! Checksum: vZTNvh9evfjmHJTlK6P/QA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Feb 2018
 ! This list expires after 4 days
@@ -1139,6 +1139,32 @@ hotslogs.com##h2 + [zoompage-fontsize="14"] + [zoompage-fontsize="14"]
 ! Ad inject 
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##div.post-body > [class][zoompage-fontsize]
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##div[class][zoompage-fontsize] > img[src]
+!
+@@||iwatchgot.$generichide
+@@||iwatchseries.$generichide
+@@||watchamericandad.$generichide
+@@||watcharcheronline.$generichide
+@@||watcharresteddevelopment.$generichide
+@@||watchcheersonline.$generichide
+@@||watchcommunity.$generichide
+@@||watchdoctorwhoonline.$generichide
+@@||watcheverybodylovesraymond.$generichide
+@@||watchfamilyguy.$generichide
+@@||watchfearthewalkingdead.$generichide
+@@||watchfriendsonline.$generichide
+@@||watchhowimetyourmother.$generichide
+@@||watchitsalwayssunnyinphiladelphia.$generichide
+@@||watchkingofthehill.$generichide
+@@||watchparksandrecreation.$generichide
+@@||watchprisonbreakonline.$generichide
+@@||watchpsychonline.$generichide
+@@||watchscrubsonline.$generichide
+@@||watchseinfeld.$generichide
+@@||watchsmallvilleonline.$generichide
+@@||watchsouthpark.$generichide
+@@||watchsupernaturalonline.$generichide
+@@||watchthesopranos.$generichide
+@@||watchthexfiles.$generichide
 ! symbolab.com
 symbolab.com##.tooltipster-show
 ! Admiral
