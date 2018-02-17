@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: vZTNvh9evfjmHJTlK6P/QA
+! Checksum: tPFmhdIxtU3cvUxgkGlC0Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Feb 2018
 ! This list expires after 4 days
@@ -1306,6 +1306,10 @@ kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earth
 @@||pinayporndaddy.com^$generichide
 ! ilpuntotecnicoeadsl.com,kmspico.esy.es,irc-source.com,orgasmnaut.com
 ##div[class$="-hide"][zoompage-fontsize][style="display: block;"]
+! cwtv.com
+@@||2mdn.net/instream/video/client.js$script,domain=cwtv.com
+@@||doubleclick.net/gampad/ads?$xmlhttprequest,domain=thecwvideo.com
+@@||moatads.com^$script,domain=cwtv.com
 ! iklangratiz.com
 @@||iklangratiz.com^$generichide
 ! leakedearly.gdn
