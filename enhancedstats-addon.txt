@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: OhUTCpH+UUe+7mojHlqJ/Q
+! Checksum: DAL+xV2wl90N9vt1EoUUEA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Feb 2018
 ! This list expires after 4 days
@@ -2564,6 +2564,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||nfl.com/yui/min2/index.php?*nfl-omniture.js
 @@||nflcdn.com/static/site/*-omniture.js
 @@||nflcdn.com/yui/min2/index.php?*-omniture.js
+@@||nintendo.com/js/library/modernizr.js$script
 @@||nintendo.com/js/omniture-prod.js
 @@||ntc-affinity-api.web.aol.com/affinity/?$script,domain=games.com
 @@||nvidia.com/content/websidestory/omniture/$script
