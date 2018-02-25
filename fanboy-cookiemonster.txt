@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: GPjKoPX30urZ+SL9W2ALfQ
+! Checksum: U/1spmA24N6nEcjDnnh/TA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 25 Feb 2018
 ! This list expires after 4 days
@@ -260,6 +260,7 @@
 /eu-cookie.
 /eu-cookie/*
 /EU-cookielaw.
+/eu-notice.js
 /eu_cookie_$script,stylesheet
 /eu_cookies.
 /eu_privacy.js
@@ -296,6 +297,7 @@
 /jquery.cookie.js$domain=password-decryptor.com
 /jqueryCookieGuard.
 /js-cookie-master/*$script
+/js/cookiePolicy?
 /js/cookiePolicy?
 /layer-cookienotice.
 /legal/cookies/?
@@ -6633,6 +6635,7 @@ _site_cookie_
 ##.layerCookie
 ##.legal-cookie
 ##.legal-cookie-wrapper
+##.legal-info__alert-cookie
 ##.legal-message-wrapper
 ##.legal_cookie_block
 ##.legaladvice
@@ -7340,6 +7343,7 @@ _site_cookie_
 ##cookies-hint
 ##cookies-popup
 ##cookiless-div
+##div[class^="cookie-banner"]
 ##div[data-module="cookie_banner"]
 ##div[data-widget="cookie-bar"]
 ##div[element-structure-cookiemonster]
@@ -8034,6 +8038,7 @@ email.it##script + div[style^="background: #000000;"]
 euronics.it###note
 farmacieaperte.it###warning-popup
 forumfree.it##.jnote
+giornaledicalabria.it,ildolomiti.it,tecnocasa.it,wd40.it###cookie
 hertz247.it##.lbContainer
 hilti.it##.m-smartbar-container
 ingdirect.it##.topalertbanner
@@ -8043,7 +8048,6 @@ puglialive.net###visitor_info
 radioitalia.it,tivusat.tv##.cookies
 ubuntu-it.org###\5f ubuntu-it_cookie_policy
 vg247.it##.notif-bar
-wd40.it###cookie
 ||js.adv.dadapro.net/collector.js/prcy.js?
 ||mycookies.it^$third-party
 ||tim.it/js/gestione_cookie.js
