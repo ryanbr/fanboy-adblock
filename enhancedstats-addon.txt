@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: qJsQ0sWvfCWoVSCnjjA3Dg
+! Checksum: pPLZxE2E9xsByrWOP77sJw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 28 Feb 2018
 ! This list expires after 4 days
@@ -1742,7 +1742,7 @@ macos-app.com##[data-ad-client]
 ! prevention.com
 @@||prevention.com^*ad$script
 ! distrowatch.com
-distrowatch.com##A[href] > IMG[src][alt]
+! 
 ! themeslide.com
 @@||themeslide.com^$generichide
 themeslide.com##[id^="bsac-"]
