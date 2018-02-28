@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: uwrrrevcHKOS+OhwaTlSjw
+! Checksum: /eORi7P+eRTO4H1L0N0cmQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 25 Feb 2018
+! Updated: 28 Feb 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1488,7 +1488,10 @@ squidboards.com##.funboxWrapper
 squidboards.com##.premiumBlock
 squidboards.com##.top_block 
 ! aftonbladet.se
+@@||adnxs.com^$xmlhttprequest,domain=aftonbladet.se
 @@||aftonbladet.se/dist/js/advert.js
+@@||aftonbladet.se^$generichide
+aftonbladet.se##div[id^="abAdArea-"]
 ! yalujailbreak.net
 @@||yalujailbreak.net^$generichide
 ! bludv.com
