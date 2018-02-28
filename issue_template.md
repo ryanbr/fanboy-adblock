@@ -20,8 +20,15 @@ Or steps on reproducing the issue -->
 
 ### List Subscriptions you're using:
 
-<!-- Which lists are you're using -->
+<!-- Which lists are you're using? -->
 
+### Your settings
+<!-- List your browser settings -->
+<!-- If you're running multiple Adblock-type extensions, please test with only one enabled before reporting -->
+
+- OS/version: 
+- Browser/version: 
+- Adblock Extension/version: 
 
 ### Other details:
 
