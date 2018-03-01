@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 0yaqEAiR65ftf0oD6vGJvg
+! Checksum: okDRhEmN3SVuNwDewniGhA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 1 Mar 2018
+! Updated: 2 Mar 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -711,6 +711,7 @@ youporn.com###adblock_1
 ! These filters are for websites tracking and monitoring adblock users
 !
 .com/ads.js$script
+.de^*/ad_pics/$image,~third-party
 /abp_detection/*
 /adbd/*$xmlhttprequest,~third-party
 /adBlockerTrack_
@@ -718,6 +719,7 @@ youporn.com###adblock_1
 /cdn-cgi/apps/head/*$script,~third-party
 /jquery.adi.js
 @@/ad-blocker-detection$script
+@@/ad_$image,~third-party,domain=gamesaktuell.de|buffed.de|gamezone.de|gamesworld.de|4players.de|pcgames.de|videogameszone.de|pcgameshardware.de|pcwelt.de|brigitte.de|kochbar.de|wetter.de|mopo.de
 @@/ad_bomb/*$image
 @@/adblocker/adcheck.js$script,~third-party
 @@/ads/adframe.js$script,~third-party
