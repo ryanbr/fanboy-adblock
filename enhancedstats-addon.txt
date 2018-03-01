@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: RJk7Q4swxNppZnc8ToUzew
+! Checksum: cchjvaZERhf2MgUAqhKckA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Mar 2018
 ! This list expires after 4 days
@@ -1187,7 +1187,7 @@ symbolab.com##.tooltipster-show
 @@||githubusercontent.com^$image
 @@||vmp.boldchat.com/aid/$script
 ! popads
-/:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,5})\.js$/$script,third-party
+/:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$script,third-party
 ! "DANESCO TRADING"
 /\.com\/[\w\/\-.+]{320,}/$subdocument,third-party
 @@||boxcloud.com^$subdocument
