@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: dXcsGrSAZrzfkK9ITaP62g
+! Checksum: 9wGTC07nD6uh7qOHuMft7g
 ! Title: Fanboy's Cookiemonster List
-! Updated: 1 Mar 2018
+! Updated: 2 Mar 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -674,6 +674,7 @@ _site_cookie_
 ###barracookie
 ###barraCookies
 ###barracookies
+###barre-cookie
 ###barre_cookie
 ###barre_cookie_contenu_centre
 ###barre_cookies
@@ -4730,6 +4731,7 @@ _site_cookie_
 ##.alertCookiesCnil
 ##.alerte-cookie
 ##.alerte_cookie
+##.alerte_cookie_content
 ##.alertPolicyCookies
 ##.alerts-manager-container
 ##.alertViePrivee
@@ -4830,6 +4832,7 @@ _site_cookie_
 ##.bar-eu-cookies
 ##.barCookie
 ##.barra-cookies
+##.barre-cookie
 ##.barre-info-cookies
 ##.barre_cookie
 ##.barre_cookies
@@ -6303,6 +6306,7 @@ _site_cookie_
 ##.element-cookie-banner
 ##.emm-cookie-info
 ##.emp-cookies-policy
+##.emp-cookies-policy
 ##.encart_cookie
 ##.eprivacy-banner--displayed
 ##.eprivacy-banner__container
@@ -7677,6 +7681,7 @@ uber.com##.banner--bottom
 uk.yahoo.com###Main > .windowshade:first-child
 uktv.co.uk###back-to-old-site
 userbenchmark.com##.nb-parent
+usp-forum.de###ckch
 vanguardsmoke.com###pop_wholes
 vanguardsmoke.com###pop_wholes_bg
 veeam.com##.header-component__messages-overlay
