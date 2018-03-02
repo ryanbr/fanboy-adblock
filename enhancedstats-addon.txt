@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: L9xSW7ZItFUxpOtCZCPTPQ
+! Checksum: ns3MQHBuadVALwstYe/c8A
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 2 Mar 2018
 ! This list expires after 4 days
@@ -377,6 +377,8 @@ _wtInit.js
 !
 ###issuem-leaky-paywall-articles-zero-remaining-nag
 ###pianoMediaBar
+###sovrn_beacon
+###sovrn_container
 ##.acn-zero-remaining-overlay
 ##.adblock-notification-wrapper
 ##.piano-subscribe
@@ -397,6 +399,7 @@ nautil.us###adpayload
 ||newsmemory.com^$third-party
 ||piano-media.com^$third-party
 ||ppjol.net^$third-party
+||sovrnlabs.net^$third-party
 ||subscriptiongenius.com^$third-party
 ||syncronex.com^$third-party
 ||tinypass.com^$third-party
