@@ -7,7 +7,9 @@ You're free to counterargue (to a certain point) if you disagree with the decisi
 To avoid being banned, don't constantly re-open or create new (related) issue reports.
 -->
 
-<!-- Just include the website URL in the Title line of this issue report -->
+<!-- If you fail to fill in this form, THIS ISSUE REPORT WILL BE CLOSED. -->
+
+<!-- Include the website URL in the Title line of this issue report -->
 
 ### List the website(s) you're having issues:
 
