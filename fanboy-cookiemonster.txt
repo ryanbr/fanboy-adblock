@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 9wGTC07nD6uh7qOHuMft7g
+! Checksum: UJ+pwXHMK/modjTHKDFL2A
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 2 Mar 2018
 ! This list expires after 4 days
@@ -4743,7 +4743,7 @@ _site_cookie_
 ##.allow-cookie-wrapper
 ##.allow-cookies-dialog
 ##.allow_cookies_container
-##.allowed-cookies       
+##.allowed-cookies
 ##.alma-cookie-disclaimer
 ##.alternetCookieMessage
 ##.am-cookie-notice
@@ -5566,7 +5566,6 @@ _site_cookie_
 ##.CookieAccept
 ##.cookieAccept
 ##.cookieAcceptance
-##.cookieAcceptance
 ##.cookieacceptance
 ##.cookieAcceptanceBox
 ##.CookieAcceptanceWrapper
@@ -5599,7 +5598,6 @@ _site_cookie_
 ##.cookiebadge
 ##.cookiebalk
 ##.cookieBan
-##.CookieBanner
 ##.CookieBanner
 ##.cookieBanner
 ##.cookiebanner-warning
@@ -5742,7 +5740,6 @@ _site_cookie_
 ##.cookieLawPopup
 ##.cookielawpopup-container
 ##.cookieLawPopupContainer
-##.CookieLayer
 ##.CookieLayer
 ##.cookieLayer
 ##.cookielayer
@@ -6306,7 +6303,6 @@ _site_cookie_
 ##.element-cookie-banner
 ##.emm-cookie-info
 ##.emp-cookies-policy
-##.emp-cookies-policy
 ##.encart_cookie
 ##.eprivacy-banner--displayed
 ##.eprivacy-banner__container
@@ -6711,7 +6707,6 @@ _site_cookie_
 ##.mb-ol-privacy-box-footer
 ##.mb_informativa_cookies
 ##.mcd-cookie-manager-layer
-##.md-cookie
 ##.md-cookie
 ##.md-cookie-warning
 ##.md-cookies-advice
@@ -7396,13 +7391,11 @@ _site_cookie_
 ##cookie-drawer-policy
 ##cookie-law-banner
 ##cookie-notice
-##COOKIE-NOTICE
 ##cookie-permission
 ##cookie-policy
 ##cookie-policy-popin
 ##cookie-popup
 ##cookie-warning
-##COOKIE-WARNING
 ##cookiebox
 ##cookies-hint
 ##cookies-popup
@@ -7440,8 +7433,6 @@ _site_cookie_
 ##thor-cookies
 ##xk-cookie-policy-warning
 ##ytd-consent-bump-renderer
-! Cookie tag element
-##XK-COOKIE-POLICY-WARNING
 ! Common Cookie element
 ###sliding-popup.sliding-popup-bottom
 ###sliding-popup.sliding-popup-top
