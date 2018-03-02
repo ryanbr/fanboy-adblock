@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Dxt0+yzWt+pDcUrG9hPaFw
+! Checksum: pJyHZ2DCHdf7rGT9XmpCog
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 2 Mar 2018
 ! This list expires after 4 days
@@ -863,7 +863,7 @@ youporn.com###adblock_1
 @@||filespace.com^$generichide
 @@||findthecompany.com/ad?$xmlhttprequest,~third-party
 @@||findthedata.com/ga.$script
-@@||flacmusicfinder.com/*_ads.js$script,first-party
+@@||flacmusicfinder.com/*_ads.js$script
 @@||flashgames.ru^*/advertisement.js
 @@||flashx1.tv/js/showad$script
 @@||fncstatic.com^*/ads.js
@@ -1243,6 +1243,7 @@ cyberterminators.co##.wpInsertInPostAd
 gamebanana.com###SiteSkinWrapper + div[style^="position:fixed;"]
 gamebanana.com##.BannerModule
 ! akvideo.stream
+@@||akvideo.stream/banners/*_468x60.jpg$image
 @@||akvideo.stream/js/pop.js
 @@||akvideo.stream^$generichide
 ! nbc
