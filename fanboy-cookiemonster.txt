@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: aAhQHD5K5P3RhJJHm6VAkg
+! Checksum: FwWMlzXT/+2xtFsHlHAmXw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 3 Mar 2018
 ! This list expires after 4 days
@@ -664,6 +664,7 @@ _site_cookie_
 ###barAgreeWithCookies
 ###barra-cookies
 ###barra_cookies
+###barra_dei_cookie
 ###barra_legal_cookie
 ###barraaceptacio
 ###barraaceptacion
@@ -7626,6 +7627,7 @@ pamgolding.co.za###popi-notification
 pcmag.com##.privacy-content
 picturehouses.com##.interim-banner
 plymouth.ac.uk##.page-notification
+polygon.com,recode.net,vox.com###chorus_notifiations
 postojnska-jama.eu###\5f iCD
 princesrisborough.com##.jpiwikGrowler
 princesrisborough.com##.jpiwikOverlay
@@ -7634,7 +7636,6 @@ qz.com###chyron
 ramboll-environ.com##.infoboxHolder
 ramsayhealth.co.uk##.popupbox
 ratemyprofessors.com##.overlay
-recode.net,vox.com###chorus_notifiations
 redbubble.com###RB_React_Component_CookieBanner_4
 robertozeno.com##.video-mask
 robertsspaceindustries.com##.bottom-notif-bar
