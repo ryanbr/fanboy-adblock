@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: w8ihAAQRuDqSUxC+arGicg
+! Checksum: ss/Rye0jAYowl8TIywitnw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 5 Mar 2018
 ! This list expires after 4 days
@@ -1133,7 +1133,7 @@ youporn.com###adblock_1
 ||sqweb.com^$third-party
 ||techweb.com/adblocktrack
 !
-@@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=australianfrequentflyer.com.au
+@@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=australianfrequentflyer.com.au|tivocommunity.com
 ! hotslogs.com
 @@||sv.monkeybroker.net^$script,domain=hotslogs.com
 hotslogs.com##[style^="margin:"] > SCRIPT + [zoompage-fontsize="14"]
