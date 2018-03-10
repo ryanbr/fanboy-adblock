@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: JWoO9rgzZIVUKHGqHwkQIg
+! Checksum: ov4Le1bLwtS8MACef/KqPg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Mar 2018
 ! This list expires after 4 days
@@ -733,22 +733,23 @@ youporn.com###adblock_1
 @@/advertise.js$script
 @@/advertisement.js$script,xmlhttprequest
 @@/advertising.js$script
+@@/assets/advertisement-$script
 @@/common/ads.js$script
 @@/javascript/ads.js$script
 @@/javascripts/ads.js
 @@/js/ads.js$script
 @@/js/adsense.js$script
+@@/js/advertisement-$script
 @@/js/advertisement.$script
 @@/js/adverts.$script
 @@/nonAdBlock/*$script
 @@/plugins/ad-blocking-detector/*$script
 @@/scripts/ads.js$script
 @@/Shared/ads.js$script
-@@/wp-content/*/ads.js$script
-@@/wp-content/*/adsbygoogle.js$script
-@@/wp-content/*/advertisement*.js$script
-@@/wp-content/*/advertising*.js
-@@/wp-content/*/show-ads.js$script
+@@/wp-content/*/ad-$script,xmlhttprequest
+@@/wp-content/*/ads*.js$script,xmlhttprequest
+@@/wp-content/*/adv*.js$script,xmlhttprequest
+@@/wp-content/*/show-ads.js$script,xmlhttprequest
 @@||2giga.link^*/ads.js
 @@||300mbfilms.org^$generichide
 @@||a-o.ninja/wp-content/*ad.$script,~third-party
@@ -908,7 +909,6 @@ youporn.com###adblock_1
 @@||mooseroots.com/ad?$xmlhttprequest,~third-party
 @@||motherjones.net/adtracking.js
 @@||motherless.com/scripts/site_ads.js
-@@||mshcdn.com/assets/advertisement-*.js
 @@||msn.com/advertisement.ad.js
 @@||multiup.org/pop.js
 @@||muyinteresante.es/js/ads.js
@@ -1697,8 +1697,6 @@ themeslide.com##[id^="bsac-"]
 demonoid.pw##[id*="ScriptRoot"]
 demonoid.pw##img[src]:first-child + table[width="100%"][cellspacing="0"]
 demonoid.pw##TD[class] > #bbb:last-child
-! wintips.org
-@@||wintips.org/wp-content/plugins/ad-$script,xmlhttprequest
 ! spoiler.net
 spoiler.net##.home-side
 spoiler.net##.spoiler-side
@@ -2054,8 +2052,6 @@ lolalytics.com###newtooltip + [style="display: block;"]
 @@||d3ncat0syb6rim.cloudfront.net^$script,domain=worldfree4u.lol
 ! usatoday.com
 ||global.ssl.fastly.net^$domain=usatoday.com
-! business.dk
-@@||business.dk/js/advertisement-$script
 ! thevideo.me
 @@||thevideo.me/*.js?ab$script
 @@||thevideo.me/*ads_$script
