@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: vuaJa96iYUfvNUpNdDqjSQ
+! Checksum: b1Hiyho0TrwTGVNBy+hfXg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 10 Mar 2018
 ! This list expires after 4 days
@@ -722,7 +722,6 @@ youporn.com###adblock_1
 /cdn-cgi/apps/head/*$script,~third-party
 /jquery.adi.js
 /player/ads.js$script
-@@.com/advertisement.js$script
 @@/ad-blocker-detection$script
 @@/ad_$image,~third-party,domain=gamesaktuell.de|buffed.de|gamezone.de|gamesworld.de|4players.de|pcgames.de|videogameszone.de|pcgameshardware.de|pcwelt.de|brigitte.de|kochbar.de|wetter.de|mopo.de
 @@/ad_bomb/*$image
@@ -730,34 +729,30 @@ youporn.com###adblock_1
 @@/adframe.js$script
 @@/ads/ads.js$script
 @@/ads/dfp.js$script
+@@/advert.js$script
+@@/advertisement.js$script,xmlhttprequest
+@@/advertising.js$script
 @@/common/ads.js$script
 @@/javascript/ads.js$script
-@@/javascript/advertisement.js$script
-@@/javascripts/advert.js$script
-@@/js/ads.js$~third-party
-@@/js/adsense.js
+@@/js/ads.js$script
+@@/js/adsense.js$script
 @@/js/advert.js$script
 @@/js/advertisement.$script
 @@/js/adverts.$script
-@@/jsad/advertisement.js$xmlhttprequest
 @@/nonAdBlock/*$script
 @@/plugins/ad-blocking-detector/*$script
 @@/scripts/ads.js$script
 @@/Shared/ads.js$script
-@@/static/advertisement.js$script
 @@/wp-content/*/ads.js$script
 @@/wp-content/*/adsbygoogle.js$script
 @@/wp-content/*/advert.js$script
 @@/wp-content/*/advertisement*.js$script
 @@/wp-content/*/advertising*.js
 @@/wp-content/*/show-ads.js$script
-@@||123link.top^*/advertisement.js
 @@||2giga.link^*/ads.js
 @@||300mbfilms.org^$generichide
-@@||9c9media.com^*/advertisement.js
 @@||a-o.ninja/wp-content/*ad.$script,~third-party
 @@||abcnews.com/assets/js/adblocker.js
-@@||abime.net/gfx/advertisement.js
 @@||adbilty.me^$generichide
 @@||adcash.com/showads.js
 @@||ads.bumq.com/ad_show*.js$script
@@ -793,14 +788,10 @@ youporn.com###adblock_1
 @@||bicycling.com^*/ads.
 @@||bitsngo.net/widget-scripts/extra_content/ads.js$domain=ynet.co.il
 @@||bittorrent.am^$generichide
-@@||blbrd.co/advertisement.js
 @@||bolor-toli.com^$generichide
 @@||bookdl.org^$generichide
-@@||btcsworld.com/libs/advertisement.js
-@@||burning-feeds.com/resources/js/advertising.js
 @@||buzzfed.com^*/ads.js
 @@||buzzfeed.com^*/ads.js
-@@||canada.com^*/advertisement.js
 @@||cbsistatic.com^*/advertisement*.js
 @@||cdn77.org^*/ads.js
 @@||cdnslate.com/wp-srv/ad/*/loader.min.js
@@ -809,10 +800,8 @@ youporn.com###adblock_1
 @@||cinemamkv.xyz^$generichide
 @@||citylab.com^*/advert$script
 @@||classicreload.com^$generichide
-@@||classistatic.com^*/advertising.js
 @@||clipwatching.com/js/pop.js$script,~third-party
 @@||cloudfront.net/adsmin/$script
-@@||cloudinary.com^*/advertisement.js
 @@||cloudwebcopy.com^$generichide
 @@||coffeeforums.co.uk/abp/adblock_detector.js
 @@||comeadvertisewithus.com^*/ads.js
@@ -822,7 +811,6 @@ youporn.com###adblock_1
 @@||core.windows.net^*/advert.js$script
 @@||cpubenchmark.net/js/ads.js
 @@||crackedcdn.com/media/ad-block-detect/
-@@||crackhex.ch/advertisement.js
 @@||crunchyroll.com^*/ads_$script
 @@||cursecdn.com^*/adsense.js
 @@||cxmedia.co^*/ads.js
@@ -835,7 +823,6 @@ youporn.com###adblock_1
 @@||dato.porn/js/pop.js$script
 @@||debridnet.com/adforge.js
 @@||detectadblock.com/ads.js
-@@||dictionary.com/js/advertisement.js
 @@||dingit.tv^$generichide
 @@||dl-wordpress.com^$generichide
 @@||dotesports.com/showads.js
@@ -846,14 +833,12 @@ youporn.com###adblock_1
 @@||dwrean.net^$generichide
 @@||dxzone.com/js/ads.js
 @@||dyncdn.*/showads.js$script
-@@||el-mundo.net/js/advertisement.js
 @@||encyclopedia.com^*/ads.js
 @@||engineeringtoolbox.com^*/ads.js
 @@||epiotrkow.pl/js/reklama.js
 @@||escdn.co/ads/ads.js
 @@||espncdn.com^*/ads.js
 @@||eviesays.com^*/ads.js$script
-@@||exactly0r.com/advertising.js
 @@||explosm.net/js/adsense.js
 @@||fas.li^$generichide
 @@||fastcontentdelivery.com/js/*ad$script
@@ -863,13 +848,10 @@ youporn.com###adblock_1
 @@||findthecompany.com/ad?$xmlhttprequest,~third-party
 @@||findthedata.com/ga.$script
 @@||flacmusicfinder.com/*_ads.js$script
-@@||flashgames.ru^*/advertisement.js
 @@||flashx1.tv/js/popad.js$script
 @@||flashx1.tv/js/showad$script
 @@||fncstatic.com^*/ads.js
 @@||forumcoin.win^$generichide
-@@||forums.qrz.com/js/advertisement.js
-@@||freepd.com^*/advertisement.js
 @@||freetutorials.us^$generichide
 @@||freetvall.com^$generichide
 @@||fsdn.com^*/ad.js
@@ -893,17 +875,12 @@ youporn.com###adblock_1
 @@||grcrt.net/popads/ads.js
 @@||gtsstatic.com^*/prebid_$script
 @@||hanime.tv/*.ads.js
-@@||hardwareheaven.com^*/advertisement.js
 @@||hardwarezone.com.sg/js/ads.js
 @@||healthgrove.com/ad?$xmlhttprequest,~third-party
-@@||healthline.com^*/advertising.js
 @@||hentaitake.net^$generichide
 @@||ibtimes.co.uk^*/ads.js
 @@||idg.com.au/adsmin/show_ads.js
 @@||ig2fap.com^$generichide
-@@||imagepearl.com/view/advertisement.js
-@@||imgur.com/min/advertising.js
-@@||imgwallet.com^/advertisement.js
 @@||inc.com/js/ads.js
 @@||integritystat.com^*/ads.js
 @@||intoday.in^*/advert$script
@@ -912,7 +889,6 @@ youporn.com###adblock_1
 @@||koditalk.org/uploads/*adframe.js
 @@||krassotaa.com^$generichide
 @@||kxcdn.com/js/ads.js
-@@||kxcdn.com^*/advertisement.js
 @@||l2network.eu^$generichide
 @@||l2s.io^$generichide
 @@||ladbible.com^*/ads.js
@@ -922,24 +898,19 @@ youporn.com###adblock_1
 @@||lensdump.com/ads.js
 @@||libgen.io^$generichide
 @@||listamais.com.br/Resources/js/ads.js
-@@||litecoin-faucet.com/libs/advertisement.js
 @@||lolalytics.com^$generichide
 @@||lolalytics.com^*/adsense/
 @@||maango.info^$generichide
 @@||mac4ever.com/adserver.adtech.de/$script
 @@||makeuseof.com^$generichide
-@@||mangaeden.com^*/advertisement.js
 @@||mathwarehouse.com^*/advertising/$script
-@@||maxisciences.com^*/advertisement.js
 @@||mdotlabs.com/ads.js
 @@||media-amazon.com^*/showads.
-@@||medianetworkinternational.com/js/advertisement.js
 @@||medicalnewstoday.com/ads.html
 @@||menshealth.com^*ad$script
 @@||meta-chart.com^*/advertising.min.js
 @@||mfbcdn.net/scripts/ads.js
 @@||minatosuki.com^$generichide
-@@||mirror.ninja/static/js/advertising.js
 @@||mmo-champion.com^*/adsense.js
 @@||mokeedev.com^$generichide
 @@||mooseroots.com/ad?$xmlhttprequest,~third-party
@@ -952,7 +923,6 @@ youporn.com###adblock_1
 @@||mwpaste.com^$generichide
 @@||myex.com/ads/$script
 @@||mygaming.co.za^*/ads.js
-@@||nasdaq.com/includes/advertisement.js
 @@||nbc.com/generetic/scripts/ads.js
 @@||netdna-ssl.com^*/ads.min.js
 @@||newser.com^*/adblock.js
@@ -963,7 +933,6 @@ youporn.com###adblock_1
 @@||nzherald.co.nz^*/ad/$script
 @@||ocaholic.ch/adjs.js
 @@||ocaholic.co.uk/adjs.js
-@@||oddee.com/js/advertising.js
 @@||office365.com^*/adbar.js
 @@||olpair.com/assets/js/doubleclick.js
 @@||onionstatic.com^*/ad-block-check.jpg
@@ -976,20 +945,17 @@ youporn.com###adblock_1
 @@||pasteca.sh^$generichide
 @@||pcgameshardware.de/common/deliverad/$script
 @@||peliculasgoogledrive.info^$generichide
-@@||perveden.com^*/advertisement.js
 @@||petbreeds.com/ad?$xmlhttprequest,~third-party
 @@||phandroid.com/ads.js
 @@||photobucket.com^*/ads.js
 @@||picfont.com^$generichide
 @@||player.h-cdn.com/ads.js
 @@||pordede.com^*/ads.js
-@@||pornrabbit.com/static/advertisement.js
 @@||powerthesaurus.org^$generichide
 @@||powvideo.net/js/ads-banner.js
 @@||pressdemocrat.com/js/ads.js
 @@||ptztv.com/dns_ad/$script
 @@||pubmatic.com/AdServer/*showad.js$script
-@@||purch.com^*/advertisement.js
 @@||qoshe.com^$generichide
 @@||quamiller.com^*/ad_
 @@||rackcdn.com/js/ads.js
@@ -1014,14 +980,12 @@ youporn.com###adblock_1
 @@||seattletimes.com^*/ad-test.js
 @@||seeker.com/ads.js
 @@||semana.com/Scripts/ads.js
-@@||servebom.com/js/advertisement.js
 @@||sh.st^$generichide
 @@||sharespark.net^*/ads.js
 @@||shink.in/js/ads.js
 @@||shink.in/js/showads.js
 @@||short.am/js/show_ads.js
 @@||shush.se/_ads.js
-@@||silicon.co.uk^*/advertising.js
 @@||sinclairstoryline.com^*/ads.js
 @@||skidrowcrack.com/adsense.js
 @@||smartadcheck.de/js/*/ad/$script
@@ -1043,7 +1007,6 @@ youporn.com###adblock_1
 @@||sweclockers.com/js/ad.js
 @@||swfchan.net/ads/$script
 @@||syriancivilwarmap.com^$generichide
-@@||t.st^*/advertising.js
 @@||talkradio.co.uk^*/show_ads.js
 @@||tampermonkey.net/adsbygoogle.js
 @@||techsite.io/static/js/adsbygoogle.js
@@ -1060,12 +1023,9 @@ youporn.com###adblock_1
 @@||thestranger.com^*/ads.js
 @@||thewrap.com/ad_frame.php
 @@||thoaimedia.com^$generichide
-@@||thrashermagazine.com/codePlayground/advertisement.js
 @@||tinypaste.cc^$generichide
-@@||tnwcdn.com/assets/js/advertising.js$domain=thenextweb.com
 @@||townnews.com^*advertisements.js$script
 @@||tradera.com/fusion/check?$xmlhttprequest
-@@||traffichaus.com^*/advertisement.js$script
 @@||traffichaus.com^*/banner-ad.js
 @@||translatica.pl/ads.js
 @@||transparentcalifornia.com/static/js/ads.js
@@ -1074,7 +1034,6 @@ youporn.com###adblock_1
 @@||tubeninja.net/ads.js
 @@||tvn.pl/tools/_ads/$script
 @@||tvtechnology.com/js/ads.js
-@@||txxx.com/js/advertising.js
 @@||undeniable.info^*/showads.js
 @@||uploadboy.com/ads.js
 @@||uploadfiles.io/adsbygoogle.js
@@ -1084,7 +1043,6 @@ youporn.com###adblock_1
 @@||vendiscuss.net/uploads/set_resources_*ad$script
 @@||vice.com/assets/js/vmp/adblocker/
 @@||vice.com^*/ads.js
-@@||videoadex.com/jw/advertisement.js
 @@||videohelp.com/ads.js
 @@||vidoza.net/js/pop.js
 @@||vidup.me/adsense.js
@@ -1098,7 +1056,6 @@ youporn.com###adblock_1
 @@||watchcartoononline.*/fuckadblock.js$script,~third-party
 @@||weather.com^$generichide
 @@||weather.com^*/pubads.js
-@@||websking.com/static/js/advertisement.js
 @@||westeros.org^$generichide
 @@||whatcar.com/ad/$xmlhttprequest
 @@||whatcar.media^*/ads.js
@@ -1113,7 +1070,6 @@ youporn.com###adblock_1
 @@||xmovies8.tv/themes/_js/adsbygoogle.js
 @@||yiv.com^$generichide
 @@||yourlifeupdated.net^$generichide
-@@||zdnet.de^*/advertising.js
 @@||zippyshare.com/ads.js
 ||1movies.to^*/vast.js
 ||cloudfront.net/abw.js
@@ -1264,7 +1220,6 @@ gamebanana.com##.BannerModule
 @@||ads.proboards.com/ad/
 proboards.com###support-message
 ! publicleech.xyz
-@@||leecher.*/advertisement.js$script
 @@||popmyads.com/pma.js$script,domain=publicleech.xyz
 ! xxvideosporno.net
 @@||xxvideosporno.net^$generichide
@@ -1372,8 +1327,6 @@ gaana.com##.add_block
 @@||gamesfullextreme.com^$generichide
 ! animesonline2hd.org
 @@||animesonline2hd.org^$generichide
-! filmpornoita.net
-@@||filmpornoita.net/advertisement.js
 ! ftlauderdalewebcam.com
 @@||ptztv.com/easyads/streaming.js
 ! gelbooru.com
@@ -1666,12 +1619,9 @@ gamereactor.dk,gamereactor.eu##.twitter-follow-button
 ! pipocas.tv
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pipocas.tv
 @@||pipocas.tv^$generichide
-! how2play.pl
-@@||spolecznosci.net^*/advertisement.js
 ! gry.pl
 @@||g.doubleclick.net/gpt/pubads_impl*.js$domain=gry.pl
 @@||googleapis.com/js/sdkloader/ima3.js$domain=famobi.com
-@@||gry.pl^*/advertisement.js
 gry.pl##.mpu
 ! clubic.com
 @@||clubic.com^$generichide
@@ -1695,11 +1645,8 @@ buickforums.com##td[align="center"][height="150"]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=new-skys.net
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=new-skys.net
 ! hax
-@@||haxcolors.com/js/advertisement.js
 @@||haxcolors.com^$generichide
-@@||haxmaps.com/js/advertisement.js
 @@||haxmaps.com^$generichide
-@@||haxrec.com/js/advertisement.js
 @@||haxrec.com^$generichide
 ! hqporner.com
 @@/ads.js$script,domain=mydaddy.cc
@@ -1872,7 +1819,6 @@ thememypc.net##.stButton
 @@||mundokodi.com^$generichide
 ! geo.de
 @@||geo.de^$generichide
-@@||geo.de^*/advertisement.js
 geo.de##.social-bar
 ! 1001tracklists.com
 1001tracklists.com###cookieMessage
@@ -1911,10 +1857,6 @@ deadline.com##.social-strip
 @@||onecccam.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=onecccam.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=onecccam.com
-! gaijin.at
-@@||gaijin.at/ads/advertising.js
-! unfair.co
-@@||unfair.co/advertisement.js
 ! nachrichten.at
 @@||nachrichten.at^$generichide
 ! newz.dk
@@ -2131,7 +2073,6 @@ lolalytics.com###newtooltip + [style="display: block;"]
 ||global.ssl.fastly.net^$domain=usatoday.com
 ! business.dk
 @@||business.dk/js/advertisement-$script
-@@||business.dk^*/advertisement.js
 ! thevideo.me
 @@||thevideo.me/*.js?ab$script
 @@||thevideo.me/*ads_$script
@@ -2281,7 +2222,6 @@ thefreedictionary.com,freethesaurus.com###w1 > .w2 > div:first-child
 @@||imgur.com/*#*/ad$image
 @@||kolplay.com/js/ads_$script
 @@||nicematin.com^*/ads.js
-@@||prismamediadigital.com/js/advertisement.js
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=expansion.com
 @@||skyyart.fr^$generichide
 @@||tout-bon.com^$generichide
@@ -2328,7 +2268,6 @@ net.hr#@#.reklama1
 @@||androidiani.com^$generichide
 @@||archivio.corriere.it^$generichide
 @@||calciomercato.com^$generichide
-@@||dasolo.co/advertisement.js
 @@||dasolo.co^$generichide
 @@||fkadb.bid/*ad$script,domain=calciomercato.com
 @@||italiashare.info^$generichide
