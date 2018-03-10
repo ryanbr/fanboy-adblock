@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: TMjLVJHrXC4cGJI+jGz6KA
+! Checksum: acp1mQ3emr+XL2ychVvfqg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Mar 2018
 ! This list expires after 4 days
@@ -1627,6 +1627,8 @@ buickforums.com##td[align="center"][height="150"]
 @@||haxcolors.com^$generichide
 @@||haxmaps.com^$generichide
 @@||haxrec.com^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=haxcolors.com|haxmaps.com|haxrec.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=haxcolors.com|haxmaps.com|haxrec.com
 ! hqporner.com
 @@/ads.js$script,domain=mydaddy.cc
 ! shqiperiatv.com
