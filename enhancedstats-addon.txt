@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: acp1mQ3emr+XL2ychVvfqg
+! Checksum: JWoO9rgzZIVUKHGqHwkQIg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Mar 2018
 ! This list expires after 4 days
@@ -2250,7 +2250,6 @@ net.hr#@#.reklama1
 @@||androidiani.com^$generichide
 @@||archivio.corriere.it^$generichide
 @@||calciomercato.com^$generichide
-@@||dasolo.co^$generichide
 @@||fkadb.bid/*ad$script,domain=calciomercato.com
 @@||italiashare.info^$generichide
 @@||italiashare.life/*advertisement.js
