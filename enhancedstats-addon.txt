@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: a24jZIz547jTB2feztesYA
+! Checksum: rmA+xtErNHm2xxZsG0oOkA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Mar 2018
 ! This list expires after 4 days
@@ -1298,7 +1298,7 @@ spaceflight101.com##.social-links
 ! yourfreetube.net
 @@||yourfreetube.net^$generichide
 ! 1337x
-/\/1337x\.to\/.*[a-f]{7,}/$script
+/\/1337x\..*\/.*[a-f]{7,}/$script
 ! mylifetime.com (TODO: history.com,)
 @@||doubleclick.net/gpt/pubads_impl_$domain=mylifetime.com
 ! streamingdramakorea.com
