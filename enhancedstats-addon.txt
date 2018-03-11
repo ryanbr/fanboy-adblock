@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: rmA+xtErNHm2xxZsG0oOkA
+! Checksum: JTNr7g3oyaJKOfDVIMDhHg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Mar 2018
 ! This list expires after 4 days
@@ -1140,6 +1140,11 @@ symbolab.com##.tooltipster-show
 ! "DANESCO TRADING"
 /\.com\/[\w\/\-.+]{320,}/$subdocument,third-party
 @@||boxcloud.com^$subdocument
+! emedicinehealth.com
+@@?&$image,domain=emedicinehealth.com
+@@||emedicinehealth.com^$generichide
+emedicinehealth.com###AD_Top_rdr
+emedicinehealth.com##.social-section
 ! steamid.eu
 @@||adservice.google.$domain=steamid.eu
 ! Propellar Ads test
