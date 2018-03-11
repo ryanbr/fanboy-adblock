@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: U9NxIFaJKHZX01r6YGWPoA
+! Checksum: bQUXiXdw3jd+UHF6ABVTdg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Mar 2018
 ! This list expires after 4 days
@@ -1440,7 +1440,7 @@ theargus.co.uk##div[style="display:block!important"]
 ! squidboards.com
 squidboards.com##.funboxWrapper
 squidboards.com##.premiumBlock
-squidboards.com##.top_block 
+squidboards.com##.top_block
 ! aftonbladet.se
 @@||adnxs.com^$xmlhttprequest,domain=aftonbladet.se
 @@||aftonbladet.se^$generichide
@@ -1751,7 +1751,7 @@ nordichardware.se##img[alt="Facebook"]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=wordsense.eu
 @@||wordsense.eu^$generichide
 wordsense.eu##.cc_banner
-wordsense.eu##[data-ad-client] 
+wordsense.eu##[data-ad-client]
 ! eurogamer.net,rockpapershotgun.com,vg247.com
 @@||amazon-adsystem.com^*/getads.js$domain=eurogamer.net|rockpapershotgun.com|vg247.com
 ! pocketnow
@@ -1832,7 +1832,7 @@ libelletv.nl##.widget_sm-newsletter-widget
 @@||marca.com^$generichide
 ! deadline.com
 @@||deadline.com^$generichide
-deadline.com##.fb-share-button 
+deadline.com##.fb-share-button
 deadline.com##.social-links
 deadline.com##.social-strip
 ! mirror.co.uk
@@ -2251,10 +2251,8 @@ net.hr#@#.reklama1
 @@||archivio.corriere.it^$generichide
 @@||calciomercato.com^$generichide
 @@||fkadb.bid/*ad$script,domain=calciomercato.com
-@@||italiashare.info^$generichide
-@@||italiashare.life/*advertisement.js
-@@||italiashare.life^$generichide
-@@||italyshare.club/ad*$script,domain=dasolo.co
+@@||italiashare.$generichide
+@@||italiashare.*advertisement.js
 @@||ivg.it/sponsorbanners/spcjs.js
 @@||ivg.it^$generichide
 @@||ladige.it^$generichide
