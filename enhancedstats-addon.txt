@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: o1H9/tFdNGdg0ADWmy2n+w
+! Checksum: ugOAgMf8nxShG60Tc/VZBQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 12 Mar 2018
+! Updated: 16 Mar 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -722,6 +722,7 @@ youporn.com###adblock_1
 /jquery.adi.js
 /player/ads.js$script
 @@.com/ads.js$script,~third-party
+@@/_ad*/_ad$first-party,xmlhttprequest
 @@/ad-blocker-detection$script
 @@/ad_$image,~third-party,domain=gamesaktuell.de|buffed.de|gamezone.de|gamesworld.de|4players.de|pcgames.de|videogameszone.de|pcgameshardware.de|pcwelt.de|brigitte.de|kochbar.de|wetter.de|mopo.de
 @@/ad_bomb/*$image
@@ -933,6 +934,7 @@ youporn.com###adblock_1
 @@||orgyxxxhub.com^*/showads.js
 @@||over-blog-kiwi.com^*/ads.js
 @@||p.d.*.com/v1/*/ad$script
+@@||paladinsdecks.com^$generichide
 @@||palemoon.org/ads.js
 @@||pandora.com^*/ads.js
 @@||pasteca.sh^$generichide
