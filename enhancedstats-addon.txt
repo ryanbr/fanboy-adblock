@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Rkm+xwTSN0N+p445GVrFhA
+! Checksum: LYctpcpGMvE7nQ4W8FrCXQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 17 Mar 2018
+! Updated: 18 Mar 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -713,7 +713,6 @@ youporn.com###adblock_1
 !---------- Anti Adblock & Anti Adblock Tracking ------
 ! These filters are for websites tracking and monitoring adblock users
 !
-.de^*/ad_pics/$image,~third-party
 /abp_detection/*
 /adbd/*$xmlhttprequest,~third-party
 /adBlockerTrack_
@@ -722,9 +721,10 @@ youporn.com###adblock_1
 /jquery.adi.js
 /player/ads.js$script
 @@.com/ads.js$script,~third-party
+@@.de^*/ad_pics/$image,~third-party
 @@/_ad*/_ad$first-party,xmlhttprequest
 @@/ad-blocker-detection$script
-@@/ad_$image,~third-party,domain=gamesaktuell.de|buffed.de|gamezone.de|gamesworld.de|4players.de|pcgames.de|videogameszone.de|pcgameshardware.de|pcwelt.de|brigitte.de|kochbar.de|wetter.de|mopo.de
+@@/ad_$image,~third-party,domain=gamestar.de|gamesaktuell.de|buffed.de|gamezone.de|gamesworld.de|4players.de|pcgames.de|videogameszone.de|pcgameshardware.de|pcwelt.de|brigitte.de|kochbar.de|wetter.de|mopo.de
 @@/ad_bomb/*$image
 @@/adcheck.js$script
 @@/adframe.js$script
