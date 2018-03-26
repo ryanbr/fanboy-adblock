@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: kjzn8RxxBLzLcHHB7czThw
+! Checksum: 1h2Nx81enZvgncfJBaT9mg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 26 Mar 2018
 ! This list expires after 4 days
@@ -1255,7 +1255,7 @@ verdirectotv.com##img[src^="http://verdirectotv.com/wp-content/themes/wtb-video-
 @@||reddit.com/timings/$xmlhttprequest,domain=reddit.com
 @@||reddit.com^$generichide
 reddit.com##.dfp-ad-container
-||reddit.com^$xmlhttprequest,domain=reddit.com
+||reddit.com/?$xmlhttprequest,domain=reddit.com
 ! saikoanimes.net
 @@||saikoanimes.net^$generichide
 ! filmesonline1080p.com
