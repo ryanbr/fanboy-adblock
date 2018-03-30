@@ -574,7 +574,6 @@ youporn.com###adblock_1
 ||browser-update.org^$third-party
 ||bunsen.wapolabs.com^
 ||buzzbytes.net^$third-party
-||capture.trackjs.com^
 ||chameleonx.net^$third-party
 ||cloudfront.net/capture/$script
 ||cloudharmony.net^$third-party
@@ -643,7 +642,6 @@ youporn.com###adblock_1
 ||tags.tiqcdn.com/utag/*/utag.v.js
 ||targeting.wpdigital.net^
 ||tracedseals.starfieldtech.com^$third-party
-||trackjs.com^*/tracker.js$third-party
 ||trustlogo.com^$third-party
 ||truthfulhead.com^
 ||verify.authorize.net^$third-party
@@ -2429,10 +2427,12 @@ xkorean.net##a[href*="&aff_id"]
 @@||canadiantire.ca/content/canadian-tire/*.sitecatalyst.
 @@||canadiantire.ca/etc/clientlibs/foundation/sitecatalyst/
 @@||canadiantire.ca/etc/cloudservices/*/mbox.js
+@@||capture.trackjs.com^*
 @@||cartoonnetwork.com.au/include/omniture/s_code.php
 @@||cartoonnetworkasia.com/include/omniture/s_code.php
 @@||cbsistatic.com/fly/bundles/flyjs/js/libs/omniture.s-code*.js$domain=cbsnews.com
 @@||cbsistatic.com/fly/bundles/flyjs/js/managers/omniture-tracking*.js$domain=cbsnews.com
+@@||cdn.trackjs.com^*
 @@||cdn.turner.com/nba/nba/.element/*/global/omniTrack.js$domain=nba.com
 @@||cdnbrm.com/images/*/TouchClarity/images/
 @@||chron.com^*/omniture/$script
@@ -2598,12 +2598,14 @@ xkorean.net##a[href*="&aff_id"]
 @@||ticketmaster.com^*/omniture_tracker.js
 @@||timeinc.net/tii/omniture/$script
 @@||topmarques.co.uk^*/tracking/module.omniture.js
+@@||trackjs.com^*
 @@||traderonline.com/javascript/master_s_code.js
 @@||travel-assets.com^*/siteanalytics/omniture-$script
 @@||tvlistings.optimum.net/foresee/foresee-trigger.js
 @@||unionbank.com/coremetrics/*/eluminate.js
 @@||unionbank.com/coremetrics/cmdatatagutils.js
 @@||ups.com/javascript/webtrends*.js
+@@||usage.trackjs.com^*
 @@||usairways.com/en-US/Resources/javascript/omniture*.js
 @@||verizon.com/content/contactus/includes/javascript/hbx.js
 @@||victoriassecret.com/app/coremetrics/eluminate.js
