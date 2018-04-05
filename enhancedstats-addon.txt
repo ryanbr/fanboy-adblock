@@ -53,6 +53,7 @@
 /analytics/*/xtcore.js
 /analytics/mbox_
 /at.js.php|
+/atatus.js
 /atm_code.js
 /audiencemeasurement.
 /bidiqCookieDropper.
@@ -212,6 +213,7 @@
 /pubsys.js
 /reporting.do?
 /resonance.js
+/ruxitagentjs*.js
 /s-code-
 /s-code.js
 /s2_code.
