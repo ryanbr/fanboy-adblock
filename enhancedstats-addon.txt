@@ -562,9 +562,12 @@ youporn.com###adblock_1
 !
 ! ---------- 3rd party blocking rules ----------
 !
+||*.go-mpulse.net^
 ||5min.com/flashcookie/
 ||5min.com/Handlers/FiveminCookieCache.ashx
 ||algorithmia.com^$third-party
+||api.raygun.io^
+||api.rollbar.com^
 ||areyouahuman.com^$third-party
 ||avgthreatlabs.com^$third-party
 ||badge.clevergirlscollective.com^$third-party
@@ -575,9 +578,13 @@ youporn.com###adblock_1
 ||bunsen.wapolabs.com^
 ||buzzbytes.net^$third-party
 ||capture.trackjs.com^
+||cdn.appdynamics.com^$third-party
+||cdn.ravenjs.com^$third-party
+||cdn.raygun.io^$third-party
 ||chameleonx.net^$third-party
 ||cloudfront.net/capture/$script
 ||cloudharmony.net^$third-party
+||collector.datadoghq.com^
 ||consent-st.truste.com^$third-party
 ||doctortrusted.org^$third-party
 ||doubleclick.net^$third-party
@@ -600,6 +607,7 @@ youporn.com###adblock_1
 ||images.scanalert.com^$third-party
 ||instantssl.com^$image,third-party
 ||joinbot.com^$third-party
+||js-agent.newrelic.com/^
 ||jsrdn.com/s/cs.js
 ||kalooga.com^$third-party
 ||leadpages.net/leadbox-*.js$third-party
@@ -611,6 +619,7 @@ youporn.com###adblock_1
 ||my.leadpages.net^$third-party
 ||natoms.com^$third-party
 ||nile.works/test-statistics?
+||notify.bugsnag.com^
 ||nsg.symantec.com^$third-party
 ||ooh.li^$third-party
 ||ooyala.com/3rdparty/visible_measures_
@@ -633,6 +642,7 @@ youporn.com###adblock_1
 ||sealserver.trustwave.com^$third-party
 ||securitymetrics.com^$third-party
 ||sellpoint.net^$third-party
+||sentry.io/api^
 ||services.disqus.com/event.js?$third-party
 ||shield.sitelock.com^$third-party
 ||shoprunner.com^$third-party
