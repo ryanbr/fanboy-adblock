@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 1h2Nx81enZvgncfJBaT9mg
+! Checksum: V9xz5Zk9yyO3PlKdnwVy5w
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 26 Mar 2018
+! Updated: 5 Apr 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -745,6 +745,7 @@ youporn.com###adblock_1
 @@/js/adverts.$script
 @@/nonAdBlock/*$script
 @@/plugins/ad-blocking-detector/*$script
+@@/script/ad.js$script
 @@/scripts/ads.js$script
 @@/Shared/ads.js$script
 @@/static/ads.js$script
@@ -946,8 +947,10 @@ youporn.com###adblock_1
 @@||picfont.com^$generichide
 @@||player.h-cdn.com/ads.js
 @@||pordede.com^*/ads.js
+@@||povwideo.net/js/ads-banner.js$script
 @@||powerthesaurus.org^$generichide
 @@||powvideo.net/js/ads-banner.js
+@@||powvideo.net/js/ads-banner.js$script
 @@||pressdemocrat.com/js/ads.js
 @@||ptztv.com/dns_ad/$script
 @@||pubmatic.com/AdServer/*showad.js$script
@@ -968,6 +971,7 @@ youporn.com###adblock_1
 @@||safebitcoin.info^$generichide
 @@||salon.com/js/ad-server.js
 @@||samsclubresources.com^*/ads.js
+@@||samwoolfe.com^$generichide
 @@||sankakucomplex.com^$generichide
 @@||sdlcdn.com^*/ads.js
 @@||seattletimes.com^*/ad-test.js
@@ -1000,6 +1004,7 @@ youporn.com###adblock_1
 @@||sweclockers.com/js/ad.js
 @@||swfchan.net/ads/$script
 @@||syriancivilwarmap.com^$generichide
+@@||talkingpointsmemo.com^$generichide
 @@||talkradio.co.uk^*/show_ads.js
 @@||tampermonkey.net/adsbygoogle.js
 @@||techsite.io/static/js/adsbygoogle.js
@@ -1075,6 +1080,8 @@ youporn.com###adblock_1
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=fileflares.com|steamid.eu|xarold.com|new-skys.net|haxcolors.com|haxmaps.com|haxrec.com|onperiscope.com|australianfrequentflyer.com.au|tivocommunity.com|intercelestial.com|wordsense.eu|onecccam.com|newz.dk|playonlinux.com
 @@||googlesyndication.com/pagead/show_ads.js$domain=new-skys.net
 !
+! vidlox.tv
+@@||c1.popads.net/pop.js$script,domain=vidlox.tv
 ! nrl.com
 @@||nrl.com^$generichide
 @@||player.ooyala.com^*/ad-plugin/google_ima.min.js$domain=nrl.com
@@ -1209,6 +1216,10 @@ gamebanana.com##.BannerModule
 @@||akvideo.stream^$generichide
 @@||akvideo.stream^*_468x60.$image
 @@||wstream.video^*_468x60_$image
+! samwoolfe.com
+samwoolfe.com##.addthis_toolbox
+samwoolfe.com##.pipdig_widget_subscribe
+samwoolfe.com##.socialz
 ! nbc
 @@||doubleclick.net/gampad/ad?$domain=nbc.com
 @@||doubleclick.net/gpt/pubads_impl_$domain=nbc.com
@@ -1247,15 +1258,9 @@ verdirectotv.com##img[src^="http://verdirectotv.com/wp-content/themes/wtb-video-
 @@||xarold.com/*ads.php
 @@||xarold.com^$generichide
 ! reddit.com (TEST)
-@@||reddit.com/*.json$xmlhttprequest,domain=reddit.com
-@@||reddit.com/*app=res$xmlhttprequest,domain=reddit.com
-@@||reddit.com/api/$xmlhttprequest,domain=reddit.com
-@@||reddit.com/desktopapi$xmlhttprequest,domain=reddit.com
-@@||reddit.com/errors$xmlhttprequest,domain=reddit.com
-@@||reddit.com/timings/$xmlhttprequest,domain=reddit.com
 @@||reddit.com^$generichide
 reddit.com##.dfp-ad-container
-||reddit.com/?$xmlhttprequest,domain=reddit.com
+||reddit.com/static/pixel.png$image
 ! saikoanimes.net
 @@||saikoanimes.net^$generichide
 ! filmesonline1080p.com
@@ -1290,6 +1295,13 @@ kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earth
 kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.js_contained-ad-container
 kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.mezzanine
 kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.newsletter-subscribe
+! cnet.com
+@@||cnet.com^$generichide
+cnet.com###googleplus
+cnet.com##.ad-nav-ad
+cnet.com##.ad-replay-wide-top
+cnet.com##.taboola
+cnet.com##div[class^="ad-incontent-"]
 ! doridro.net
 @@||doridro.net^$generichide
 ! indianhotcomics.com
@@ -1335,6 +1347,12 @@ trekbbs.com##div[style="width:300px;height:1050px;"]
 trekbbs.com##div[style="width:970px;height:250px;"]
 ! gaana.com
 gaana.com##.add_block
+! talkingpointsmemo.com
+talkingpointsmemo.com##.Footer__Social
+talkingpointsmemo.com##.js_preheader-ad-container
+talkingpointsmemo.com##.Sharebar
+talkingpointsmemo.com##.sharebar-footer
+talkingpointsmemo.com##.SiteHeader__Social
 ! kshowes.net
 @@||cicklow.com/adblock/$image
 ! gamesfullextreme.com
@@ -1370,6 +1388,15 @@ imgspice.com,imagetwist.com##script + [style*="z-index:"]
 ! bytesloader.com
 @@||bytesloader.com^$generichide
 @@||popads.net/pop.js$xmlhttprequest,domain=bytesloader.com
+! onhax.me
+$script,stylesheet,subdocument,image,other,third-party,websocket,xmlhttprequest,domain=onhax.me
+@@||facebook.com^$domain=onhax.me
+@@||facebook.net^$domain=onhax.me
+@@||google.com^$domain=onhax.me
+@@||googleapis.com^$domain=onhax.me
+@@||gstatic.com^$domain=onhax.me
+@@||wordpress.com^$domain=onhax.me
+@@||wp.com^$image,script,stylesheet,domain=onhax.me
 ! jpidols.tv
 @@||jpidols.tv^$generichide
 ! codexpcgames.com
