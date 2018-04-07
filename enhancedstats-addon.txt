@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: FzOgvAQzDGTuKxwZ8g+O7g
+! Checksum: cyrbQsiuMtu+7oUx18fpAA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 7 Apr 2018
 ! This list expires after 4 days
@@ -764,6 +764,7 @@ youporn.com###adblock_1
 @@||ads1-adnow.com/js/ads.js
 @@||adserver.dca13.com/js/ads*.js$script
 @@||adxprts.com^*/ads.js$script
+@@||agarserv.com^$generichide
 @@||akamaihd.net^*/ad*.js$script
 @@||akamaihd.net^*/ads.js
 @@||akamaized.net^*/ads.js
@@ -1216,6 +1217,8 @@ cyberterminators.co##.td-post-sharing
 cyberterminators.co##.wpInsertInPostAd
 ! lewd.ninja
 @@||lewd.ninja/ad/banner
+! agarserv.com
+agarserv.com###cookie-law-info-bar
 ! gamebanana.com
 gamebanana.com###SiteSkinWrapper + div[style^="position:fixed;"]
 gamebanana.com##.BannerModule
