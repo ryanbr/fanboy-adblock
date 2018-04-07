@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: V9xz5Zk9yyO3PlKdnwVy5w
+! Checksum: jx3hZAUaTW79Nrz03qDLiA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 5 Apr 2018
+! Updated: 7 Apr 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2376,6 +2376,7 @@ tvregionalna24.pl##.diablo-placeholder
 ##.o-AdhesionNotifier
 1337x.info###popDiv
 8muses.com##.top-warning
+9anime.is##div[class*="message"]
 archived.moe##.cc_banner
 citylab.com###blocker-msg-start
 hdzog.com##.msg-adblock
