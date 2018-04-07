@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: jx3hZAUaTW79Nrz03qDLiA
+! Checksum: WbVdKJRAzEW4Vx5hFpxZRg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 7 Apr 2018
 ! This list expires after 4 days
@@ -1082,6 +1082,11 @@ youporn.com###adblock_1
 !
 ! vidlox.tv
 @@||c1.popads.net/pop.js$script,domain=vidlox.tv
+! anime-extremo.com
+@@||anime-extremo.com^$generichide
+anime-extremo.com##.cookie-notice-container
+anime-extremo.com##.footer-social-wrap
+anime-extremo.com##.td-post-sharing
 ! nrl.com
 @@||nrl.com^$generichide
 @@||player.ooyala.com^*/ad-plugin/google_ima.min.js$domain=nrl.com
