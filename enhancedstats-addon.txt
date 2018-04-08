@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: QltN1vILYx1b96BDtPyEJg
+! Checksum: I4okx5fOf9+7+VBinacLrA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 8 Apr 2018
 ! This list expires after 4 days
@@ -1087,8 +1087,6 @@ symbolab.com##.tooltipster-show
 @@||vmp.boldchat.com/aid/$script
 ! popads
 /:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$script,third-party
-! "DANESCO TRADING"
-/\.com\/[\w\/\-.+]{320,}/$subdocument,third-party
 @@||boxcloud.com^$subdocument
 ! emedicinehealth.com
 @@?&$image,domain=emedicinehealth.com
@@ -1103,12 +1101,9 @@ emedicinehealth.com##.social-section
 /\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9]{2,9}\.css$/$third-party,stylesheet
 /\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9A-Za-z]{2,9}\.(html?|css|js|aspx?|asp?).*[0-9]{10}/$third-party,script,stylesheet
 !
-! 13.32.222.
-! seen on http://gorillavid.in/
-/\:\/\/[a-z0-9]{4,12}\.info\/[0-9a-zA-Z+\/]{120,}/$third-party,other,script,image
-/\:\/\/[a-z]{4,12}\.com\/[0-9a-zA-Z+\/]{140,}/$third-party,script,subdocument
-! "nordweste"
-/\.info/[\w\/\-.+]{120,}/$subdocument,image,third-party
+! 13.32.222. seen on http://gorillavid.in/
+/\:\/\/[a-z0-9]{4,12}\.info\/[\w\/\-.+]{120,}/$subdocument,image,script,other,third-party
+/\:\/\/[a-z]{4,12}\.com\/[\w\/\-.+]{160,}/$subdocument,third-party,script
 ||adblockers-ns.servicebus.windows.net^$third-party
 !
 !---------- Anti Adblock Warnings ------
