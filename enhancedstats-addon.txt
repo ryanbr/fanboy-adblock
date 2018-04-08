@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: ut2XkmqHHUpRDp1aqFAGWg
+! Checksum: JStIU8Uuok6ZiGF1tvMtRA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 8 Apr 2018
 ! This list expires after 4 days
@@ -1102,6 +1102,10 @@ emedicinehealth.com##.social-section
 /\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9]{2,9}\.css$/$third-party,stylesheet
 /\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9A-Za-z]{2,9}\.(html?|css|js|aspx?|asp?).*[0-9]{10}/$third-party,script,stylesheet
 !
+! 13.32.222.
+! seen on http://gorillavid.in/
+/\:\/\/[a-z0-9]{4,12}\.info\/[0-9a-zA-Z+\/]{120,}/$third-party,other,script,image
+/\:\/\/[a-z]{4,12}\.com\/[0-9a-zA-Z+\/]{140,}/$third-party,script,subdocument
 ! "nordweste"
 /\.info/[\w\/\-.+]{120,}/$subdocument,image,third-party
 ||adblockers-ns.servicebus.windows.net^$third-party
