@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: rF4g1X0bDjWrFxV91tDhWg
+! Checksum: tOoHxAKxRytddUB5Wjhxbg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 9 Apr 2018
 ! This list expires after 4 days
@@ -1109,9 +1109,9 @@ emedicinehealth.com##.social-section
 !---------- Anti Adblock Warnings ------
 !
 ! Generic whitelists used for checks
-@@||ad.doubleclick.net/ddm/$image
-@@||ad.doubleclick.net/favicon.ico$image
 @@||d3ujids68p6xmq.cloudfront.net^$script
+@@||doubleclick.net/ddm/$image
+@@||doubleclick.net/favicon.ico$image
 !
 ! Elements hiding by a generichide 
 !
