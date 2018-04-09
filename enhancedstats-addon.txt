@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: gNFCDI0J2BKVCgNil5F1mw
+! Checksum: rF4g1X0bDjWrFxV91tDhWg
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 8 Apr 2018
+! Updated: 9 Apr 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1102,7 +1102,7 @@ emedicinehealth.com##.social-section
 /\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9A-Za-z]{2,9}\.(html?|css|js|aspx?|asp?).*[0-9]{10}/$third-party,script,stylesheet
 !
 ! 13.32.222. seen on http://gorillavid.in/
-/\:\/\/[a-z0-9]{4,12}\(.info|.club|.online)\/[\w\/\-.+]{120,}/$subdocument,image,script,other,third-party
+/\:\/\/[a-z0-9]{4,12}\(.accountant|.bid|.cf|.club|.cricket|.date|.download|.faith|.fun|.ga|.gdn|.gq|.host|.info|.loan|.men|.ml|.online|.ovh|.party|.pro|.pw|.racing|.review|.rocks|.science|.site|.space|.stream|.tk|.top|.trade|.webcam|.website|.win|.xyz|.zone)\/[\w\/\-.+]{120,}/$subdocument,image,script,other,third-party
 /\:\/\/[a-z]{4,12}\.com\/[\w\/\-.+]{160,}/$subdocument,third-party,script
 ||adblockers-ns.servicebus.windows.net^$third-party
 !
