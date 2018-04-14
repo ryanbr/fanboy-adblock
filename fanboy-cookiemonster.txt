@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: vs3jQv1jjNFPdjjXdC8N9Q
+! Checksum: EmyBef7VAZf8B/GJmagF7g
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 15 Apr 2018
 ! This list expires after 4 days
@@ -1859,6 +1859,7 @@ _site_cookie_
 ###CookieConsentement
 ###cookieConsentForm
 ###cookieconsentformbox
+###CookieConsentMessage
 ###cookieConsentModal
 ###cookieConsentMsg
 ###cookieConsentNote
@@ -5032,6 +5033,7 @@ _site_cookie_
 ##.cnilNotification
 ##.cnl-cookies
 ##.co-cookies-disc-bar
+##.co_consent_message_container
 ##.cockie-popup
 ##.cokieAlert
 ##.com-cookie
@@ -7661,6 +7663,7 @@ ramboll-environ.com##.infoboxHolder
 ramsayhealth.co.uk##.popupbox
 ratemyprofessors.com##.overlay
 redbubble.com###RB_React_Component_CookieBanner_4
+ricola.com##.ricola-cookie-info
 robertozeno.com##.video-mask
 robertsspaceindustries.com##.bottom-notif-bar
 seeker.com###legal-notice
@@ -7803,6 +7806,7 @@ sonera.fi##.bottom-notifications
 spot-a-shop.fi###popup-notifications
 suomi24.fi##.s24_cc_banner-wrapper
 vertaa.fi##div[data-bind*="!$data.isOpen()"]
+vr.fi##.infoMessages
 !
 !---------- Dutch Site Specific Hiding Rules ----------
 !
@@ -8230,8 +8234,8 @@ postnl.be#@#.cookie_wrapper
 pressassociation.com#@#.cookie_bar
 prosiebengames.de,stories.com,hm.com#@#.cookie-notification
 roussillhotel.com#@##cookie-banner
-samsung.com#@#.cookie-warning
 samsung.com#@#.cookiewarning
+samsung.com,verisign.com#@#.cookie-warning
 sandisk.com#@##consent_blackbar
 security.nl#@#.cookie_consent
 stihl.de#@#.cookieInfo
