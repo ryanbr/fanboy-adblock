@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Mo1Iua4qEjenyOzBRRASng
+! Checksum: 7+r1davIe/oCAHIKreQ2vw
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 15 Apr 2018
 ! This list expires after 4 days
@@ -3076,6 +3076,7 @@ _site_cookie_
 ###EBCookies
 ###ebsninjabar-cookie-bar
 ###ec-cookie-messages-container
+###EC-CookieLaw-Notification
 ###ecd_opt_in_banner
 ###ecl-notice
 ###ecl_notification
@@ -4243,6 +4244,7 @@ _site_cookie_
 ###s_s_cookieInfoContainer
 ###sanoma-consent-bar
 ###sanoma-consent-bar-mobile
+###sbEuCookieConsentBox
 ###sbEuCookieConsentBox
 ###SBS-cookie-widget
 ###sc-cookie-notification
@@ -7627,9 +7629,8 @@ mercedes-benz.com###cLayer
 microsoft.com###divNRMain
 microsoft.com##.feedback-visible
 mirror.co.uk##.mod-cookiepolicy
-mobilbahis33.com,nelly.com,nlyman.com###toast-container
+mobilbahis49.com##.toast-wrapper
 mobile.twitter.com##[data-reactroot] > [class] + [class]:last-child
-moleskine.com###disclaimer
 moneysavingexpert.com###alertBar
 motorsport.com###footer
 mozilla.org##.global-notice
@@ -7639,6 +7640,7 @@ mtn.co.za##.Toast
 napster.com##.info_box
 nba.com###nba_tos
 nba.com###policy_wrapper
+nelly.com,nlyman.com###toast-container
 netjetseurope.com##.nj-header-prompt
 news.com.au##.disclaimer-text
 newsnow.co.uk##.alertsscroll_container
@@ -7651,6 +7653,7 @@ office.com##.m-alert
 onlinetvrecorder.com##div[id^="d1"]
 opengapps.org##.mdl-snackbar
 openpli.org##div[style^="height:20px;background-color:#FAFFDC;"]
+ordnancesurvey.co.uk###messages
 origin.com##.origin-sitestripe
 palmbeachpost.com##.footer-wrapper
 pamgolding.co.za###popi-notification
