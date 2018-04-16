@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: xs0016HM+j5OV1BDDHNM3w
+! Checksum: IK91ZomyU54iYLtRiNHWlg
 ! Title: Fanboy's Cookiemonster List
-! Updated: 15 Apr 2018
+! Updated: 16 Apr 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -6301,6 +6301,7 @@ _site_cookie_
 ##.dni-notifications_cookie-notification
 ##.dnt-using-cookies
 ##.dom-content--eu-banner
+##.dot-cc-wrapper
 ##.doyoulikecookies
 ##.dr-cookie-info-box
 ##.drawer-cookies
@@ -7681,6 +7682,7 @@ shellsmart.com###modal_container
 sky.com###mast-notifications
 slideshare.net##.j-tos-update-banner
 soft32.com##.jquery-notify-bar
+solveigmm.com###agreement
 soundcloud.com##.announcements
 spiceworks.com##.sui-site-message-container
 stargreen.com##div[style^="color: rgb(238, 238, 238);"]
