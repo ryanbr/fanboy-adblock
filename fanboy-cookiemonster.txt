@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Checksum: AxE1mrhZEldQglSbU9HduQ
 ! Title: Fanboy's Cookiemonster List
-! Updated: 16 Apr 2018
+! Updated: 17 Apr 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -7560,6 +7560,7 @@ deutscheam.com##.flash-message__wrapper
 dexigner.com###cwarn
 dictzone.com###ac
 discordapp.com,dotmailer.com,medicalxpress.com,phys.org,shire.com,techxplore.com##.notice
+doodle.com###d-cookiesWarning
 doubleviking.com##.footer
 downloadcrew.com##.ginger_banner
 drakecircus.com##.ccc-widget
@@ -7580,7 +7581,7 @@ fitzpatrickreferrals.co.uk###hellobar
 fonehouse.co.uk,metrofone.co.uk###popupDiv
 fool.co.uk###dogfish
 forumcommunity.net##.jnote
-forums.freebsd.org##.js-notices
+forums.freebsd.org##.notice-content
 freecycle.org###blocker_message
 freewebsitetemplates.com##.Notices
 ft.com,heathrowexpress.com,holition.com###consent
@@ -7602,6 +7603,7 @@ hivehome.com##.header-stacked-message
 hmc.org.uk###modal-mask
 houseoffraser.co.uk##.global-messages
 huawei.com##.ReadPolicy
+ibis.com##.is-shown.cnil-banner
 ingwb.com##.dialog
 ingwb.com##.glass
 inoreader.com##.landing_promo_banner_top
@@ -7661,6 +7663,7 @@ opengapps.org##.mdl-snackbar
 openpli.org##div[style^="height:20px;background-color:#FAFFDC;"]
 ordnancesurvey.co.uk###messages
 origin.com##.origin-sitestripe
+originalpenguin.co.uk##.cookie_message_box
 palmbeachpost.com##.footer-wrapper
 pamgolding.co.za###popi-notification
 pcmag.com##.privacy-content
@@ -7676,9 +7679,11 @@ ramboll-environ.com##.infoboxHolder
 ramsayhealth.co.uk##.popupbox
 ratemyprofessors.com##.overlay
 redbubble.com###RB_React_Component_CookieBanner_4
+reddit.com##.cookie-infobar
 ricola.com##.ricola-cookie-info
 robertozeno.com##.video-mask
 robertsspaceindustries.com##.bottom-notif-bar
+rockpapershotgun.com###ecd_opt_in_form
 seeker.com###legal-notice
 shatter-box.com###elGuestTerms
 shazam.com##.policy-label
@@ -7686,6 +7691,7 @@ shellsmart.com###modal_container
 sky.com###mast-notifications
 slideshare.net##.j-tos-update-banner
 soft32.com##.jquery-notify-bar
+softpedia.com##.jobnotice
 solveigmm.com###agreement
 soundcloud.com##.announcements
 spiceworks.com##.sui-site-message-container
@@ -7776,6 +7782,7 @@ lexus.lv##.l-disclaimer
 !
 034portal.hr##.vijesti
 abril.com.br###barra-mini-home
+agenda.brussels##.confirm
 airbnb.be##._puzpiop
 airbnb.be##.flash-container
 akcneletaky.sk###infoCoo
@@ -7793,6 +7800,7 @@ hileliapkoyunindir.com##.site-desc
 hrportfolio.hr###kolac
 i.ua##.Disclaimer
 iprima.cz###cookies-info
+ketnet.be###cookie-bar-wrapper
 krovni-nosaci.hr##.topbarBox
 large.be##.notification-box-bottom
 lexus-bulgaria.bg,lexus.cz,lexus.gr,lexus.ro,lexus.si,lexus.sk##.disclaimer
