@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: G3pio/pG0Eq2Nr2gI/KUWA
+! Checksum: kw4x82V8z1+i52lALpc2TQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 19 Apr 2018
 ! This list expires after 4 days
@@ -1048,7 +1048,7 @@ hotslogs.com##h2 + [zoompage-fontsize="14"] + [zoompage-fontsize="14"]
 @@||adnetasia.com^$script,domain=animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|sznpaste.net|rule34hentai.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|finalservers.net|yalujailbreak.net
 @@||advertising.yahoo.com^$image,domain=finalservers.net|rule34hentai.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|cloudwebcopy.com|wowebook.org|animes-mangas-ddl.net
 @@||bannertrack.net^$script,domain=rule34hentai.net|finalservers.net|animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|sznpaste.net|yalujailbreak.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com
-@@||doubleclickbygoogle.com^$image,domain=rule34hentai.net|yalujailbreak.net|sznpaste.net|animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|linkneverdie.com|cloudwebcopy.com|freeomovie.com
+@@||doubleclickbygoogle.com/favicon.ico$image,domain=rule34hentai.net|yalujailbreak.net|sznpaste.net|animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|linkneverdie.com|cloudwebcopy.com|freeomovie.com
 @@||foxnetworks.com^$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|animes-mangas-ddl.net|wowebook.org|android-zone.ws|freeomovie.com|cloudwebcopy.com
 @@||google.com/adsense/$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|animes-mangas-ddl.net|wowebook.org|android-zone.ws|cloudwebcopy.com
 @@||gstatic.com/adx/doubleclick.ico$image,third-party
