@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: JCUya8ucq1WZreS3SEsqwA
+! Checksum: T+IE1jOAxDujG2b0GOCRlw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 19 Apr 2018
 ! This list expires after 4 days
@@ -1044,6 +1044,7 @@ hotslogs.com##h2 + [zoompage-fontsize="14"] + [zoompage-fontsize="14"]
 ! blockadblock domains
 @@.jpg#*/ad$image
 @@.png#*/ad$image
+@@||ad.a-ads.com^*?size=$subdocument,domain=linkneverdie.com
 @@||adclixx.net^$script,domain=wowebook.org|animes-mangas-ddl.net|android-zone.ws|linkdrop.net|sznpaste.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|rule34hentai.net|finalservers.net|yalujailbreak.net
 @@||adnetasia.com^$script,domain=animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|sznpaste.net|rule34hentai.net|cloudwebcopy.com|freeomovie.com|linkneverdie.com|finalservers.net|yalujailbreak.net
 @@||ads.twitter.com^$image,domain=rule34hentai.net|finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|animes-mangas-ddl.net|wowebook.org|cloudwebcopy.com
