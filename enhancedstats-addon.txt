@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: RNPZhTo0o/9Oi2c1zjW0fQ
+! Checksum: hj0+r5xKDeWXwnlcfWX5Rg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 21 Apr 2018
 ! This list expires after 4 days
@@ -2605,5 +2605,6 @@ xkorean.net##a[href*="&aff_id"]
 @@||yimg.com^*/js/omniture-$script
 @@||yp.ca/js/utag.loader.js?$domain=yellowpages.ca
 @@||ytv.com/scripts.axd?$script
+@@||zalando.nanorep.co^*&referer$script
 @@||ziffstatic.com/adchoices/adchoices.png$image,domain=extremetech.com
 @@||zillowstatic.com/static/*/foresee-trigger.js$domain=zillow.com
