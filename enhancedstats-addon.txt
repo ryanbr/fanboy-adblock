@@ -212,6 +212,7 @@
 /pubsys.js
 /reporting.do?
 /resonance.js
+/rollbar
 /s-code-
 /s-code.js
 /s2_code.
