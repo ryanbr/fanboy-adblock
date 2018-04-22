@@ -565,6 +565,7 @@ youporn.com###adblock_1
 ||5min.com/flashcookie/
 ||5min.com/Handlers/FiveminCookieCache.ashx
 ||algorithmia.com^$third-party
+||api.rollbar.com^$third-party
 ||areyouahuman.com^$third-party
 ||avgthreatlabs.com^$third-party
 ||badge.clevergirlscollective.com^$third-party
