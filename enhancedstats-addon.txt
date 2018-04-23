@@ -212,7 +212,8 @@
 /pubsys.js
 /reporting.do?
 /resonance.js
-/rollbar
+/rollbar.js
+/rollbar.min.js
 /s-code-
 /s-code.js
 /s2_code.
@@ -566,7 +567,6 @@ youporn.com###adblock_1
 ||5min.com/flashcookie/
 ||5min.com/Handlers/FiveminCookieCache.ashx
 ||algorithmia.com^$third-party
-||api.rollbar.com^$third-party
 ||areyouahuman.com^$third-party
 ||avgthreatlabs.com^$third-party
 ||badge.clevergirlscollective.com^$third-party
@@ -623,6 +623,7 @@ youporn.com###adblock_1
 ||pubnub.com/time/*uuid=$third-party
 ||resellerratings.com^$third-party
 ||richrelevance.com^$third-party
+||rollbar.com^$third-party
 ||salecycle.com^$third-party
 ||seal.alphassl.com^$third-party
 ||seal.digicert.com^$third-party
