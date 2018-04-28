@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: YvH//xOghNFbehD/CwBzPw
+! Checksum: qlzUfBJMaWdeopNc/IW6mQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 28 Apr 2018
 ! This list expires after 4 days
@@ -3406,6 +3406,7 @@ _site_cookie_
 ###hardloop-cookie-notice
 ###have-a-cookie
 ###hays-cookie-notice
+###hb-cc-wrap
 ###hc_hugs_cookie
 ###HCECookieManagerContainer
 ###head-bar-cookie-info
@@ -8335,6 +8336,7 @@ alergia-allegra.pl#@#.cookiePopup
 alko.fi#@#.cookies-open
 bankmillennium.pl#@#.cookies-info
 bezeq.co.il#@#.cookieAlert
+blackboat.com#@#.sqs-announcement-bar
 blogs.bing.com#@#.cc-container
 boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl,nzherald.co.nz#@#.Cookies
 boursorama.com#@#.cookie-banner
