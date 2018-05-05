@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 3VdrcU/FD25HVKCMgpNwSw
+! Checksum: jH8HsinKaVuq6wBrQ/My+w
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 5 May 2018
 ! This list expires after 4 days
@@ -1251,6 +1251,7 @@ kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earth
 kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.mezzanine
 kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.newsletter-subscribe
 ! cnet.com
+@@||2mdn.net^*&$image,domain=cnet.com
 @@||cnet.com^$generichide
 cnet.com###googleplus
 cnet.com##.ad-nav-ad
