@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Checksum: JnrjKvfenTSXWDLcsIMKXg
 ! Title: Fanboy's Cookiemonster List
-! Updated: 30 Apr 2018
+! Updated: 1 May 2018
 ! This list expires after 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -7639,6 +7639,7 @@ hertz247.co.uk,hertz247.com##.lbContainer
 historicengland.org.uk##.alert-banner
 hivehome.com##.header-stacked-message
 hmc.org.uk###modal-mask
+holidayautos.com###js-cookie-disclaimer
 houseoffraser.co.uk##.global-messages
 huawei.com##.ReadPolicy
 ingwb.com##.dialog
