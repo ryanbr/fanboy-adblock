@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: u6c4NIiW33ZE//DMnGE3LQ
+! Checksum: mJKT5nLvjqMod/gokg/h1Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 5 May 2018
 ! This list expires after 4 days
@@ -1103,7 +1103,7 @@ hotslogs.com##h2 + [zoompage-fontsize="14"] + [zoompage-fontsize="14"]
 ! symbolab.com
 symbolab.com##.tooltipster-show
 ! Admiral
-/\.com/.*[a-f0-9]{110}/$script,image,third-party,domain=~bilibili.com
+/\.com/.*[a-f0-9]{110}/$script,image,third-party,domain=~bilibili.com|~namu.wiki
 ! /\.com\/.*[0-9]{6,9}\/\?/$popup
 @@||githubusercontent.com^$image
 @@||vmp.boldchat.com/aid/$script
