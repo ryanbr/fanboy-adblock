@@ -6508,7 +6508,6 @@ _site_cookie_
 ##.gaicoMessage
 ##.gb-cookie-consent
 ##.gb-gnb__notice-bar
-##.gb_g.gb_rc.gb_sc
 ##.gdl-cookie-dialog
 ##.gdpr-privacy-banner
 ##.general-cookie-notification
