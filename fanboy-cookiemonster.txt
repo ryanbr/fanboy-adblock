@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: OYllG6vGzw0porhSmmG0iQ
+! Checksum: EzkhY5NGXIO/HiX4v5SqTA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 19 May 2018
 ! Expires: 4 days
@@ -7755,6 +7755,8 @@ themeflood.com##.gatewayContainer
 thermofisher.com##.specialMsg
 theverge.com###notice
 theweathernetwork.com##.woahbar
+ticketmaster.ca##.agree-terms
+ticketmaster.ca##.page__legal-link
 tmt-magazine.com##.sitealert
 tmz.com###legalbar
 trustnet.com##USER-TYPE-POPUP

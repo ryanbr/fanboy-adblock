@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: nkiQ3xYLCN/e6iLWZYiiJg
+! Checksum: BZew7ptZl7msR6EVwkcjiw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 19 May 2018
 ! Expires: 4 days
@@ -2580,6 +2580,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||targetimg3.com^*/omniture/omniture_minified.js$domain=target.com
 @@||thecomedynetwork.ca/jsHandler.ashx
 @@||thestar.com^*/sitecatalyst/
+@@||ticketm.net^*/omniture_tracker.js$script
 @@||ticketmaster.com^*/omniture_tracker.js
 @@||timeinc.net/tii/omniture/$script
 @@||topmarques.co.uk^*/tracking/module.omniture.js
