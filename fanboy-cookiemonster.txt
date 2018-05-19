@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: CNr0M7UBAVmO8m/TiyzzWA
+! Checksum: OYllG6vGzw0porhSmmG0iQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 19 May 2018
 ! Expires: 4 days
@@ -7706,6 +7706,7 @@ newstatesman.com##.site-footer
 novantas.com##.foobar-container
 novapdf.com###novapdf_accept_cookies
 nymity.com###CookieAcceptSubLayout1_cookiesmessageshown
+nytimes.com##.expanded
 office.com##.headPopup
 office.com##.m-alert
 onlinetvrecorder.com##div[id^="d1"]
