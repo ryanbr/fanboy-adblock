@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: BZew7ptZl7msR6EVwkcjiw
+! Checksum: hejDzWUkmbCY1ARnRY4BGA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 19 May 2018
 ! Expires: 4 days
@@ -367,6 +367,9 @@ _wtbaseV2.
 _wtInit.js
 ! popads tracking
 /favicon.ico$image,third-party,domain=~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com
+! push notifications test filter
+##.open.pushModal
+/sw.js|$script
 !
 ! CDN scripts (Ad and Tracking scripts) Test filters.
 !
