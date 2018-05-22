@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Checksum: jUTSbre0Zy0H/frto/9/wA
 ! Title: Fanboy's Cookiemonster List
-! Updated: 20 May 2018
+! Updated: 22 May 2018
 ! Expires: 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -3622,6 +3622,7 @@ _site_cookie_
 ###js-cookies-stripe
 ###js-cookieWarning
 ###js-ext-cookie
+###js-gdpr-consent-banner
 ###js-infos-cookies
 ###js-law--alert
 ###js-mbCookieNoticeContainer
@@ -7585,6 +7586,7 @@ cartoonnetwork.com###tos-bar
 castrol.com##.nv-notification-header
 cbfhydraulic.com,marasrl.it###ckInfo
 cc.com###balaMainContainer
+cebit.de##.no-layout-background-image.midnight.layout.notification.o
 change.org##.flash-message-announcement
 channelregister.co.uk,theregister.co.uk###RegCCO
 cityoflondon.gov.uk##.container-floating-notifications
@@ -7722,6 +7724,7 @@ palmbeachpost.com##.footer-wrapper
 pamgolding.co.za###popi-notification
 pcmag.com##.privacy-content
 picturehouses.com##.interim-banner
+player.epidemicsound.com##.___Warnings__bar___ixRfs
 plymouth.ac.uk##.page-notification
 polygon.com,recode.net,vox.com###chorus_notifiations
 postojnska-jama.eu###\5f iCD
