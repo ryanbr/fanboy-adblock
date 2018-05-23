@@ -3622,6 +3622,7 @@ _site_cookie_
 ###js-cookies-stripe
 ###js-cookieWarning
 ###js-ext-cookie
+###js-gdpr-consent-banner
 ###js-infos-cookies
 ###js-law--alert
 ###js-mbCookieNoticeContainer
