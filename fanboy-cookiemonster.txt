@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: q/ECkqkRGnU72u1dnE5cUQ
+! Checksum: zu7Pfb8wiE8NrHBCDfAihQ
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 24 May 2018
 ! Expires: 4 days
@@ -8221,6 +8221,7 @@ lavozdegalicia.es##.alert
 leroymerlin.es###divFlotante
 lexus.pt,lexusauto.es##.l-disclaimer
 moviles.com###cookies
+rtp.pt###rtpgeralcookiecontent
 terra.es###trr-root
 uc.pt##.warning-bar
 winphonemetro.com##.c_i_container
