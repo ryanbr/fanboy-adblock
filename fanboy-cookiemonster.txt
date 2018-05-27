@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: SYg1G9OlNqLiB/mfouUjQA
+! Checksum: cBcvOtDjnzURorBTh4lWRA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 27 May 2018
 ! Expires: 4 days
@@ -147,6 +147,7 @@
 /cookie_notification-
 /cookie_notifier/*
 /cookie_policy.
+/cookie_policy/*
 /cookie_policy_
 /cookie_solution/*
 /cookie_sticky_
@@ -282,6 +283,7 @@
 /eu_rp_cookie.
 /euc_cookie.js
 /eucookie.
+/EUcookie/*
 /eucookiecompliance.
 /eucookiecompliance/*
 /EUCookieDirective.
@@ -295,6 +297,8 @@
 /eurocookie.
 /fp_cookie.
 /g4cookies.
+/gdpr.js
+/gdpr.min.js
 /gdpr_optout.
 /GestionCookiesCNILPlugin/*
 /header.cookies.
@@ -331,6 +335,7 @@
 /plugins/cookie-muncher/*
 /plugins/CookieInfo/*
 /plugins/EuCookie/*
+/policy_cookie.
 /privacy-cookies.js
 /privacycookie/*
 /rbicookiepolicy.
@@ -7892,6 +7897,8 @@ zoover.co.uk###info-bar
 ||evidon.com^$third-party
 ||harpercollins.co.uk/js/cookie.js
 ||hunstoncanoeclub.co.uk/media/system/js/modal.js
+||jimmychoo.com^*/first-time-visitor-
+||kayak.*/privacy/
 ||omgubuntu.co.uk/wp-content/plugins/omg-magnific/magnific.min.js
 ||onlive.co.uk/account/cookie_notice
 ||propcom.co.uk/cookie/
