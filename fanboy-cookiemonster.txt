@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 6wErlfUiSpYaCGDDIW7hkA
+! Checksum: SYg1G9OlNqLiB/mfouUjQA
 ! Title: Fanboy's Cookiemonster List
 ! Updated: 27 May 2018
 ! Expires: 4 days
@@ -295,6 +295,7 @@
 /eurocookie.
 /fp_cookie.
 /g4cookies.
+/gdpr_optout.
 /GestionCookiesCNILPlugin/*
 /header.cookies.
 /headerCookies.
@@ -800,6 +801,7 @@ _site_cookie_
 ###boxZgodaNaCookie
 ###bra_cookieChoiceInfo
 ###brandfour-cookie-block
+###brCookieBanner
 ###browser-cookie-warnin
 ###browser-cookie-warning
 ###BsCookie
@@ -1373,6 +1375,7 @@ _site_cookie_
 ###cookie-popup-inner
 ###cookie-popup-outer
 ###cookie-popup-wrapper
+###cookie-popup2
 ###cookie-powiadomienie
 ###cookie-preferences
 ###cookie-prefs
@@ -1403,6 +1406,7 @@ _site_cookie_
 ###cookie-sliding-popup
 ###cookie-spacer
 ###cookie-statement
+###cookie-stick2
 ###cookie-strapline
 ###cookie-strip
 ###cookie-table
@@ -3381,6 +3385,7 @@ _site_cookie_
 ###gbcookie
 ###gc_web_user_allow_cookie_box
 ###GCUCookiePolicyWarning
+###gdpr-script
 ###gdpr_banner
 ###gdprc_bar
 ###gdprNotice
@@ -5268,12 +5273,12 @@ _site_cookie_
 ##.cookie-directive
 ##.cookie-directive-alert
 ##.cookie-directive-container
-##.cookie-disclaimer
 ##.cookie-disclaimer-banner
 ##.cookie-disclaimer-box
 ##.cookie-disclaimer-component
 ##.cookie-disclaimer-container
 ##.cookie-disclaimer-mask
+##.cookie-disclaimer:not(body)
 ##.cookie-disclamer
 ##.cookie-disclosure
 ##.cookie-div
@@ -6326,6 +6331,7 @@ _site_cookie_
 ##.cy-popin-cookie
 ##.cz-cookiebar
 ##.d-cookie-bar
+##.dataPrivacyOverlay
 ##.dbk-cookiebar
 ##.dcm-cookies
 ##.dCookiesAlert
@@ -6698,6 +6704,7 @@ _site_cookie_
 ##.js-cookie-overlay
 ##.js-cookie-panel
 ##.js-cookie-policy
+##.js-cookie-policy-banner
 ##.js-cookie-policy-header
 ##.js-cookie-popup
 ##.js-cookie-wall
@@ -6948,6 +6955,7 @@ _site_cookie_
 ##.no-cookies:not(body):not(html)
 ##.noe_cookie_cnil
 ##.normativa-cookies
+##.notice--cookie
 ##.notice--cookies-policy
 ##.notice--int-cookies
 ##.notice-bar
@@ -7259,6 +7267,7 @@ _site_cookie_
 ##.sml_cookiepolicy
 ##.smoothie-consent
 ##.smt-cookie-note
+##.sncmp-app_gdpr
 ##.soe-cookie-policy
 ##.sol-cookie-container
 ##.souhlas-cookies
@@ -7687,7 +7696,7 @@ fool.co.uk###dogfish
 forumcommunity.net##.jnote
 forums.freebsd.org##.js-notices
 freecycle.org###blocker_message
-freewebsitetemplates.com##.Notices
+freewebsitetemplates.com,wilderssecurity.com##.Notices
 ft.com##.n-messaging-slot
 ft.com,heathrowexpress.com,holition.com###consent
 fundedbyme.com##.pageNotification
@@ -7800,6 +7809,7 @@ soft32.com##.jquery-notify-bar
 solveigmm.com###agreement
 soundcloud.com##.announcements
 spiceworks.com##.sui-site-message-container
+spox.com##.spxcib
 squarespace.com###announcement
 stargreen.com##div[style^="color: rgb(238, 238, 238);"]
 tartybikes.co.uk###eureg
@@ -7860,6 +7870,7 @@ zoover.co.uk###info-bar
 ###ctl00_ZooverBody > #info-bar
 ! Cookie,privacy,legal Messages
 ||civiccomputing.com^*=cookie$script,third-party
+||consensu.org^$third-party
 ||consent.cmp.oath.com^
 ||consent.truste.com^$third-party
 ||cookie-accept.com^$third-party
@@ -8019,7 +8030,7 @@ wuerzburg.de###chint
 aig.hu##.copyright-text-header
 almaimotthona.hu##.aszfLayerContent
 bestdoor.hu##.rstbox
-bestmarkt.hu,bestsellers.hu,bevachip.hu,logmein.hu,rbx.hu,work-force.hu,workforce.hu##.cookie
+bestmarkt.hu,bestsellers.hu,bevachip.hu,joautok.hu,logmein.hu,rbx.hu,work-force.hu,workforce.hu##.cookie
 boraszportal.hu,termalfurdo.hu###layout_advertising_bottom
 conrad.hu##.page-warning
 csillagpor.hu###a
@@ -8255,6 +8266,10 @@ zepass.com##.notification
 ||cnil.links-lab.fr^
 ||cookies.leadplace.fr^
 !
+!---------- Japanese Site Specific Rules ----------
+!
+sponichi.co.jp##.toast-info
+!
 !---------- Spanish/Portuguese Site Specific Hiding Rules ----------
 !
 aristeguinoticias.com###comparte
@@ -8441,10 +8456,10 @@ hearst.co.uk#@#.cookie-policy
 hublot.com#@#.cookies_consent-show
 janrain.com,moemax.de,xxxlshop.de#@#.cookie-bar
 lg.com#@#.cookie-check
+losteria.de,metia.com#@#.cookieNotice
 maisonapart.com#@#.accept-cookie
 media.netflix.com#@##cookieAlert
 mediapart.fr#@#.cookie-warn
-metia.com#@#.cookieNotice
 moniteurautomobile.be#@#.cookieBox
 morizon.pl,tweakers.net#@#.cookieBar
 morningstar.ca#@#.cc_container
