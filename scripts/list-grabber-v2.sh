@@ -168,27 +168,6 @@ else
    echo "Files are the same: fanboy-antifacebook.txt" > /dev/null
 fi
 
-############### Fanboy CookieMonster #################
-SSLHG=$($SHA256SUM $HGSERV/fanboy-cookiemonster.txt | cut -d' ' -f1)
-SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-cookiemonster.txt | cut -d' ' -f1)
-
-if [ "$SSLHG" != "$SSLMAIN" ]
-then
-    # Copy list
-    cp -f $HGSERV/fanboy-cookiemonster.txt $TESTDIR/fanboy-cookiemonster.txt
-    # Re-generate checksum
-    $ADDCHECKSUM $TESTDIR/fanboy-cookiemonster.txt
-    cp -f $TESTDIR/fanboy-cookiemonster.txt $MAINDIR/fanboy-cookiemonster.txt
-    rm -rf $MAINDIR/fanboy-cookiemonster.txt.gz $MAINDIR/fanboy-cookiemonster.txt.br
-    # GZip
-    $BRO --output $MAINDIR/fanboy-cookiemonster.txt.br --input $MAINDIR/fanboy-cookiemonster.txt > /dev/null
-    $ZIP $MAINDIR/fanboy-cookiemonster.txt.gz $TESTDIR/fanboy-cookiemonster.txt > /dev/null
-else
-   echo "Files are the same: fanboy-cookiemonster.txt" > /dev/null
-fi
-
-
-
 ############### Fanboy Anti-Fonts #################
 SSLHG=$($SHA256SUM $HGSERV/fanboy-antifonts.txt | cut -d' ' -f1)
 SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-antifonts.txt | cut -d' ' -f1)
