@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: x/sc4eGLJusETjWL9UzWiA
+! Checksum: ej83es5rRNc4vjkaqlID/A
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 6 Jun 2018
+! Updated: 8 Jun 2018
 ! Expires: 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1130,7 +1130,7 @@ hotslogs.com##h2 + [zoompage-fontsize="14"] + [zoompage-fontsize="14"]
 ! symbolab.com
 symbolab.com##.tooltipster-show
 ! Admiral
-/\.com/.*[a-f0-9]{110}/$script,image,third-party,domain=~bilibili.com|~namu.wiki
+/\.com/.*[a-f0-9]{110}/$script,image,third-party,domain=~bilibili.com|~namu.wiki|~fastmail.com
 ! /\.com\/.*[0-9]{6,9}\/\?/$popup
 @@||githubusercontent.com^$image
 @@||vmp.boldchat.com/aid/$script
