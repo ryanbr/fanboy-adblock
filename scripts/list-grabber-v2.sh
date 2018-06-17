@@ -123,31 +123,31 @@ export EASYLIST="/root/easylist/easylist/easylistfanboy/fanboy-adblock"
 #fi
 
 ############### Fanboy Enhanced Trackers #################
-SSLHG=$($SHA256SUM $HGSERV/enhancedstats-addon.txt | cut -d' ' -f1)
-SSLMAIN=$($SHA256SUM $MAINDIR/enhancedstats.txt | cut -d' ' -f1)
+#SSLHG=$($SHA256SUM $HGSERV/enhancedstats-addon.txt | cut -d' ' -f1)
+#SSLMAIN=$($SHA256SUM $MAINDIR/enhancedstats.txt | cut -d' ' -f1)
 
-if [ "$SSLHG" != "$SSLMAIN" ]
-then
+#if [ "$SSLHG" != "$SSLMAIN" ]
+#then
     # Copy list
-    cp -f $HGSERV/enhancedstats-addon.txt $TESTDIR/enhancedstats.txt
+#    cp -f $HGSERV/enhancedstats-addon.txt $TESTDIR/enhancedstats.txt
     # Re-generate checksum
-    $ADDCHECKSUM $TESTDIR/enhancedstats.txt
-    cp -f $TESTDIR/enhancedstats.txt $MAINDIR/enhancedstats.txt
-    rm -rf $MAINDIR/enhancedstats.txt.gz $MAINDIR/enhancedstats.txt.br
+#    $ADDCHECKSUM $TESTDIR/enhancedstats.txt
+#    cp -f $TESTDIR/enhancedstats.txt $MAINDIR/enhancedstats.txt
+#    rm -rf $MAINDIR/enhancedstats.txt.gz $MAINDIR/enhancedstats.txt.br
     # GZip / Brotli
-    $BRO --output $MAINDIR/enhancedstats.txt.br --input $MAINDIR/enhancedstats.txt > /dev/null
-    $ZIP $MAINDIR/enhancedstats.txt.gz $TESTDIR/enhancedstats-addon.txt > /dev/null
+#    $BRO --output $MAINDIR/enhancedstats.txt.br --input $MAINDIR/enhancedstats.txt > /dev/null
+#    $ZIP $MAINDIR/enhancedstats.txt.gz $TESTDIR/enhancedstats-addon.txt > /dev/null
     # Combine Regional trackers
     # $HGSERV/scripts/combine/firefox-adblock-intl-tracking.sh
     # Combine
     # $HGSERV/scripts/combine/firefox-adblock-merged.sh
     # Combine (Main+Tracking+Enhanced) and Ultimate (Main+Tracking+Enhanced+Annoyances)
-    $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
+#    $HGSERV/scripts/combine/firefox-adblock-ultimate.sh
     # Firefox2Opera
     # # $NICE $HGSERV/scripts/firefox2opera.sh
-else
-   echo "Files are the same: enhancedstats.txt" > /dev/null
-fi
+#else
+#   echo "Files are the same: enhancedstats.txt" > /dev/null
+#fi
 
 ############### Fanboy Anti-facebook #################
 SSLHG=$($SHA256SUM $HGSERV/fanboy-antifacebook.txt | cut -d' ' -f1)
