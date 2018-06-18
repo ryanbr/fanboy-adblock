@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: KuOwLzIUp45Ib4tgeZUayg
+! Checksum: VSanl6A981VWviAk3VU/vg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 18 Jun 2018
 ! Expires: 4 days
@@ -2343,6 +2343,7 @@ tvtropes.org##.social-item
 ###adblock_screen
 ###detection-block
 ###detection-block-overlay
+###the_champ_sharing_more_providers
 ##.fc-pinned-message-container
 ##.fc-root
 ##.o-AdhesionNotifier
