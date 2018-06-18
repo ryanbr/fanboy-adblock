@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: VSanl6A981VWviAk3VU/vg
+! Checksum: 03YlKGGXesl3ttFKZeevNQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 18 Jun 2018
 ! Expires: 4 days
@@ -1770,6 +1770,11 @@ pocketnow.com##script + a[href*="/wp-content/"]
 pocketnow.com##script + div + style + div[class]
 pocketnow.com##script + style + div[class]
 pocketnow.com##style + style + div[class]
+!
+@@||techradar.com^$generichide
+techradar.com##.buttons-social
+techradar.com##.newsletter-signup
+techradar.com##.socialite-widget
 ! ps4news.com
 @@||ps4news.com^$script,~third-party
 ! purepc.pl
