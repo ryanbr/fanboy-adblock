@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 7QSHLLdF66fgf7gSQEzDeA
+! Checksum: rfd/4M0WpxNt+61TG2leAg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 14 Jul 2018
 ! Expires: 4 days
@@ -1482,8 +1482,11 @@ aftonbladet.se##div[id^="abAdArea-"]
 @@||theatlantic.com^$generichide
 @@||theatlantic.com^*/adv$script
 theatlantic.com###email-signup
+! 7/14/2018, 5:42:51 PM https://www.theatlantic.com/science/archive/2018/07/herpes-viruses-alzheimers/564887/?single_page=true
 theatlantic.com###series-newsletter-signup
 theatlantic.com##.ad-boxamp-wrapper
+theatlantic.com##.ad-boxrr-wrapper
+theatlantic.com##.ha-js-newsletter-promo
 theatlantic.com##.share-wrapper
 ||theatlantic.com/assets/static/b/theatlantic/js/vendors.min.*.js
 ! smitedatamining.com
