@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: WXlt6yemAGYbTf0Th9V4Eg
+! Checksum: HhVjwcpd44u5f8TTPTYxxw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 14 Jul 2018
+! Updated: 15 Jul 2018
 ! Expires: 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2392,6 +2392,9 @@ tvtropes.org##.social-item
 8muses.com##.top-warning
 9anime.is##div[class*="message"]
 archived.moe##.cc_banner
+babycenter.com###leaderAdOuter
+babycenter.com###leftRailPin
+babycenter.com###rightRailPin
 citylab.com###blocker-msg-start
 hdzog.com##.msg-adblock
 limerickleader.ie###abr_purchase_div
