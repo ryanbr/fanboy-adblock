@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: mm5zOfb29xne3nUczkxhFw
+! Checksum: 6gDX2/kgXLZ6X+KEkXL/wA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 15 Jul 2018
 ! Expires: 4 days
@@ -1057,6 +1057,8 @@ seehd.pl##[id*="ScriptRoot"]
 @@||player.ooyala.com^*/ad-plugin/google_ima.min.js$domain=nrl.com
 nrl.com##.footer-social
 nrl.com##.share-block__list
+! bikeradar.com
+bikeradar.com##.social-wrapper
 ! yesmangasbr.com
 @@||googlesyndication.com/pagead/*/show_ads_impl.js$domain=yesmangasbr.com
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$domain=yesmangasbr.com
