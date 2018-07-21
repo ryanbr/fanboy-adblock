@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: vjSvi1llwwyMisrr7vCQiw
+! Checksum: /nxoQ22majqRVDopm4qXTw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 21 Jul 2018
 ! Expires: 4 days
@@ -1254,6 +1254,13 @@ reddit.com##.dfp-ad-container
 @@||meganetv.id^$generichide
 ! wbur.org
 wbur.org#@#.adsbox
+! stltoday.com
+@@||adservice.$script,domain=stltoday.com
+@@||d.emn0.com/v1/$script,domain=stltoday.com
+@@||doubleclick.net/gampad/ads$xmlhttprequest,domain=stltoday.com
+@@||doubleclick.net/gpt/$script,domain=stltoday.com
+@@||googlesyndication.com/pagead/$script,domain=stltoday.com
+@@||vip.townnews.com^$script,domain=stltoday.com
 ! kinja.com
 @@||avclub.com^$generichide
 @@||deadspin.com^$generichide
