@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: oMWWhXbYugRSdpEQBAcs0Q
+! Checksum: vp3FXtZW2LyVSzf5Vj6syQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 22 Jul 2018
 ! Expires: 4 days
@@ -1045,9 +1045,9 @@ anime-extremo.com##[src^="https://i.imgur.com/"]
 @@||stream.cr^$subdocument,domain=stream.cr
 stream.cr###iFrameResizer0
 ! mercurynews.com | eastbaytimes.com
-@@||asset.pagefair.com^$image,domain=mercurynews.com|eastbaytimes.com|dailybulletin.com
-@@||d1wa9546y9kg0n.cloudfront.net^$script,domain=mercurynews.com|eastbaytimes.com|dailybulletin.com
-@@||player.aniview.com^$script,domain=mercurynews.com|eastbaytimes.com|dailybulletin.com
+! @@||asset.pagefair.com^$image,domain=mercurynews.com|eastbaytimes.com|dailybulletin.com
+! @@||d1wa9546y9kg0n.cloudfront.net^$script,domain=mercurynews.com|eastbaytimes.com|dailybulletin.com
+! @@||player.aniview.com^$script,domain=mercurynews.com|eastbaytimes.com|dailybulletin.com
 dailybulletin.com,eastbaytimes.com,mercurynews.com#@#.adsbox
 dailybulletin.com,eastbaytimes.com,mercurynews.com#@#.dfp-ad
 mercurynews.com##.footer-header-wrapper
@@ -1055,7 +1055,7 @@ mercurynews.com##.share-facebook
 mercurynews.com##.share-twitter
 mercurynews.com##.share-with-prompt
 mercurynews.com##.sign-up-follow
-||core.windows.net/connext/prod/data/$xmlhttprequest,domain=mercurynews.com|eastbaytimes.com|dailybulletin.com
+||core.windows.net/connext/prod/data/$xmlhttprequest
 ! wcvb.com
 wcvb.com##.ad-leaderboard
 wcvb.com##.ad-rectangle
