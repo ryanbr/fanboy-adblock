@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: HaybM2dUP3NjVpw8s3q80g
+! Checksum: vukJMi080zAS9VvjKyQYgA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 30 Jul 2018
+! Updated: 31 Jul 2018
 ! Expires: 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1315,9 +1315,11 @@ cnet.com##div[class^="ad-incontent-"]
 ! hdmovie7.today
 @@||hdmovie7.today^$generichide
 ! washingtonpost.com
+washingtonpost.com###signup-box-instream
 washingtonpost.com###signup-box-rr
 washingtonpost.com##.nl-top-hairline
 washingtonpost.com##.pb-f-ad-leaderboard
+washingtonpost.com##.pb-subscribe-promo
 ! spaceflight101.com
 @@||spaceflight101.com^$generichide
 spaceflight101.com##.adslot_1
