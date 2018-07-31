@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: vukJMi080zAS9VvjKyQYgA
+! Checksum: IMLrX1v8lqQx/eP99pOx7Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 31 Jul 2018
 ! Expires: 4 days
@@ -929,7 +929,7 @@ youporn.com###adblock_1
 @@||receive-a-sms.com/showads.js
 @@||rockpapershotgun.com/doubleclick/$script
 @@||rodalesorganiclife.com^*/ads.
-@@||salon.com/js/ad-server.js
+@@||salon.com^*/ad-server.js
 @@||samsclubresources.com^*/ads.js
 @@||sdlcdn.com^*/ads.js
 @@||seattletimes.com^*/ad-test.js
