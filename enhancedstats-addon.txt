@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: zDDz2Rp/VOATEezvGziprQ
+! Checksum: x6CIyLRFmsfCaE7hMDgFow
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 31 Jul 2018
 ! Expires: 4 days
@@ -1773,7 +1773,9 @@ spoiler.net##.spoiler-top
 @@||adtechus.com^$image,domain=gamezone.com
 @@||gamezone.com/assets/advert$script
 @@||gamezone.com^$generichide
+gamezone.com##.footer-social-wrap
 gamezone.com##.share-buttons
+gamezone.com##.td-post-sharing
 gamezone.com##div[id^="zergnet-widget-"]
 ! runningmagazine.ca
 @@||runningmagazine.ca^$generichide
