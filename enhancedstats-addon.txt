@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 2liKPZtrgpSK29GASGMJ5A
+! Checksum: 9c7aADUfpMM2t2ofSWD2KA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 Aug 2018
 ! Expires: 4 days
@@ -1010,7 +1010,7 @@ youporn.com###adblock_1
 @@/fuckadblock.$script
 ! wildcard generichide
 /\.(watchcartoononline|9anime).*\/[a-zA-Z0-9]{15,40}.*http/$image,script
-@@||animetake*.pro^$generichide
+@@||animetake*.$generichide
 @@||gomovies.$generichide
 @@||watchcartoononline.$generichide
 !
