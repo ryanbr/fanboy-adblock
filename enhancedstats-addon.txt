@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Y8VrdiXtjgYeaFhJtFGe6Q
+! Checksum: wUgkqh6kzFwQvT1hOnS+lg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 22 Sep 2018
 ! Expires: 4 days
@@ -1537,6 +1537,7 @@ squidboards.com##.top_block
 aftonbladet.se##div[id^="abAdArea-"]
 ! yalujailbreak.net
 @@||yalujailbreak.net^$generichide
+yalujailbreak.net##.cookie-notice-container
 ! bludv.com
 @@||blogspot.com^$image,domain=bludv.com
 @@||bludv.com^$generichide
