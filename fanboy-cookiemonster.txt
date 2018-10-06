@@ -8540,6 +8540,7 @@ vorwahlen-online.de#@#.cookiebar
 @@||aliunicorn.com^*/cookie-info.js
 @@||barclays.co.uk/js/cookiepolicy.js
 @@||bolha.com/js/obj.cookiesPolicy.js
+@@||cdnjs.cloudflare.com/ajax/libs/*/cookieconsent.min.js$script,domain=pixieset.com
 @@||comparic.pl^*/eu-cookie-law.js
 @@||cookielawinfo.com^$~third-party
 @@||eucookiedirective.com^$~third-party
