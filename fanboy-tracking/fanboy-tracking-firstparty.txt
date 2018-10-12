@@ -1077,3 +1077,4 @@
 ||zvents.com/za?
 ||zvents.com/zat?
 ||zwire.com/gen/qc/qualitycontrol.cfm
+||savecart.pl/d
