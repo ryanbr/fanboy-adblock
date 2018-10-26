@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: DPv84BY1HJzt1mi5SFsK6g
+! Checksum: Oi5+i7vhU/QVb6r1TLJqUA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 27 Oct 2018
 ! Expires: 4 days
@@ -1349,10 +1349,12 @@ kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earth
 ! cnet.com
 @@?&$image,domain=cnet.com
 @@||cnet.com^$generichide
+cnet.com###gdpr_area
 cnet.com###googleplus
 cnet.com##.ad-nav-ad
 cnet.com##.ad-nav-ad-plus
 cnet.com##.ad-replay-wide-top
+cnet.com##.social-inner
 cnet.com##.socialSharing
 cnet.com##.taboola
 cnet.com##div[class^="ad-incontent-"]
