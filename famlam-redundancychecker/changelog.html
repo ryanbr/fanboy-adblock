@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self';" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redundancy check - changelog</title>
+    <link rel="stylesheet" href="redundantRuleChecker.css" />
+  </head>
+  <body id="changelog">
+    <h3>Changelog</h3>
+    <p id="topmsg">This page lists the changes to the redundancy checker, if said changes had an effect on the behaviour of the check</p>
+
+    <h4>May 23, 2015</h4>
+    <ul>
+      <li><b>Fix</b>whitelist filters that start with a protocol no longer imply <samp>$document</samp> in the next version of ABP (example: <samp>@@|http://x.y/</samp>) </li>
+      <!--li><b>Fix</b>domain check extension: pages that take over 2 minutes to load are not considered unresponsive anymore</li-->
+    </ul>
+
+    <h4>May 17, 2015</h4>
+    <ul>
+      <li><b>Modified</b>the future options <samp>$generichide</samp> and <samp>$genericblock</samp> are still ignored, but no longer trigger error messages</li>
+      <li><b>UI</b>minor changes for mobile browsers</li>
+    </ul>
+
+    <h4>March 9, 2015</h4>
+    <ul>
+      <li><b>New</b>domain check tool: add option to export the current results, which can also be used to resume the check at a later moment</li>
+      <li><b>Fix</b>domain check tool: spaces were removed from filters</li>
+    </ul>
+
+    <h4>March 8, 2015</h4>
+    <ul>
+      <li><b>New</b>tool to detect dead, redirected or parked first party domains (requires Chrome)</li>
+      <li><b>Fix</b>sometimes multiple warnings were shown per rule, instead of only the most important warning (<samp>$domain=a.|b|a.</samp>)</li>
+      <li><b>Modified</b>tightened the triggering conditions for the warning about a blocking rule being a broken hiding exclusion rule</li>
+    </ul>
+
+    <h4>January 5, 2015</h4>
+    <ul>
+      <li><b>New</b>warning if the value of a blocking option contains a <samp>$</samp> which should probably be a <samp>,</samp> (<samp>$domain=abc$image</samp>)</li>
+      <li><b>Improved</b>warning messages when invalid domain separators are found (<samp>$domain=a||b</samp>)</li>
+      <li><b>Improved</b>warning messages related to incorrectly used blocking options (<samp>$image=foo</samp> or <samp>$~domain=foo</samp>)</li>
+      <li><b>Improved</b>warning messages related to overruled blocking options (<samp>$image,~image,script</samp>)</li>
+      <li><b>Fix</b><samp>$document</samp> rules did not take into account the trailing dot domain variant for blocking rules with <samp>$domain=...</samp> (<samp>@@||abc.def^$document</samp> and <samp>$domain=abc.def</samp>)</li>
+      <li><b>Fix</b>multiple warnings with shared rules should only be filtered out if all rules are identical (<samp>@@||a^$elemhide</samp> should warn against both <samp>c,a##.adv</samp> and <samp>a,b##.ads</samp> at the same time)</li>
+      <li><b>Fix</b>warnings for a mutually redundant, equal length rule were dependent on the position of the other rule in the filters (<samp>##.A.\30 .B</samp> and <samp>##.A.B.\30 </samp>)</li>
+      <li><b>Fix</b><samp>:not(...)</samp> selectors were not checked for conflicts when '<samp>not</samp>' contained capital letters (<samp>##div:NOT(div)</samp>)</li>
+      <li><b>Fix</b>whitelisted rules containing the <samp>$collapse</samp> option did not make blocking rules without <samp>$collapse</samp> redundant</li>
+      <li><b>Fix</b><samp>$match-case,~match-case</samp> was treated as <samp>$match-case</samp></li>
+      <li><b>Fix</b>whitelist rules that imply <samp>$document</samp> were made redundant by rules that do not imply <samp>$document</samp> if no options were present (<samp>@@|http://</samp> was made redundant by <samp>@@http</samp>)</li>
+      <li><b>Modified</b>ipv6 addresses are now also accepted after a ||, although I don't know how ABP parses them (<samp>||[1234:123:1:12::123]^</samp>)</li>
+      <li><b>Modified</b>known options are now shown uniformly in warning messages (lowercased, without spaces and using underscores)</li>
+    </ul>
+
+    <h4>July 7, 2014:</h4>
+    <ul>
+      <li><b>New</b>warn about rules with contradicting <samp>:nth-*</samp> selectors as they cannot match anything (<samp>##:nth-child(3):nth-child(4)</samp>)</li>
+      <li><b>New</b>warn about selectors with different values for attribute selectors with the operators <samp>^=</samp> and <samp>|=</samp>, as they cannot match anything (<samp>##[attr^=&quot;cow&quot;][attr|=&quot;dog&quot;]</samp>)</li>
+      <li><b>New</b>warn about rules containing <samp>:not(...)</samp> pseudo-classes that cannot coexist with other selector types in the same rule (<samp>##:not([class=&quot;ads&quot;]).adv</samp>)</li>
+      <li><b>New</b>detect redundancies between rules containing <samp>:not(...)</samp> pseudo-classes and rules containing other selector types (<samp>##:not([class=&quot;ads&quot;])</samp> versus <samp>##.adv</samp>)</li>
+      <li><b>New</b>rules containing <samp>:nth-*</samp> pseudo-classes are compared numerically, instead of literally (<samp>##:nth-child(3)</samp> and <samp>##:nth-child(2n+1)</samp>)</li>
+      <li><b>New</b>rules containing <samp>:not(...)</samp> pseudo-classes are no longer only literally compared against other <samp>:not(...)</samp> selectors (<samp>##:not([href*=&quot;a&quot;])</samp> and <samp>##:not([href=&quot;ads&quot;])</samp>)</li>
+      <li><b>Improved</b>the warning messages that tell you about conflicts within a rule are more specific (<samp>##[id=&quot;a&quot;][id^=&quot;b&quot;]</samp>)</li>
+      <li><b>Improved</b>the warning messages that tell you about redundancies within a rule are more specific (<samp>###ads,div#ads</samp>)</li>
+      <li><b>Fix</b>attribute selectors with <samp>|=</samp> made attribute selectors with <samp>^=</samp> redundant if the attribute values were identical (<samp>##a[abc^=&quot;abc&quot;]</samp> and <samp>##[abc|=&quot;abc&quot;]</samp>)</li>
+      <li><b>Fix</b>combined hiding rules with internal redundancies could not be made redundant by non-combined rules (<samp>###ads,#ads</samp> and <samp>###ads</samp>)</li>
+      <li><b>Fix</b><samp>:not(*)</samp> shouldn't make rules with different namespaces redundant (<samp>##ns|*:not(*)</samp>)</li>
+      <li><b>Fix</b><samp>:nth-*(An+B)</samp> selectors with <samp>A</samp> or <samp>B</samp> very large numbers still suffered from rounding errors</li>
+      <li><b>Fix</b>internally ignored <samp>:not(...)</samp> selectors acted as the universal selector <samp>*</samp> (<samp>##:not(:nth-child(9999999999999999))</samp> made <samp>##div</samp> redundant)</li>
+      <li><b>Modified</b>attribute selector combinations that can't coexist do not match other impossible combinations anymore (<samp>###a#b</samp> and <samp>##[id=&quot;a&quot;][id^=&quot;b&quot;]</samp>)</li>
+      <li><b>Modified</b>rewrite the way hiding rules are parsed</li>
+    </ul>
+
+    <h4>January 19, 2014:</h4>
+    <ul>
+      <li><b>New</b>warn about redundant excluded domains in case the least restrictive rule is site-specific (<samp>~site.com</samp> in <samp>site.com##x</samp> and <samp>~site.com##x.y</samp>)</li>
+      <li><b>Improved</b>up to 30% increase of speed</li>
+      <li><b>Removed</b>the tab with ignored rules is removed as it was incomplete and didn't distinguish between fully and partially ignored rules</li>
+      <li><b>Fix</b><samp>:nth-child(An+B)</samp>/<samp>:nth-last-child(An+B)</samp>/<samp>:nth-of-type(An+B)</samp>/<samp>:nth-last-of-type(An+B)</samp> selectors with <samp>A</samp> or <samp>B</samp> very large numbers suffered from rounding errors</li>
+      <li><b>UI</b>add documentation about the limitations of the redundancy checker</li>
+      <li><b>UI</b>fix some typos</li>
+    </ul>
+
+    <h4>January 13, 2014:</h4>
+    <ul>
+      <li><b>New</b>warn if <samp>,$</samp> is used to separate rules (example: <samp>$script,$domain=com</samp>)</li>
+      <li><b>New</b>detect redundancies in hiding rules if a <samp>#@#</samp> rule excluded part of the rule (example: <samp>nl#@##ads</samp> and <samp>###ads</samp> together with <samp>com##div#ads</samp>)</li>
+      <li><b>Improved</b>all warnings for redundant domains now clearly state which domains can be removed</li>
+      <li><b>Removed</b>warnings about domain redundancies with non-redundant subdomains (example: <samp>~b.a</samp> in <samp>b.a,~c.b.a#@#ads</samp> and <samp>a,~b.a##ads</samp>)</li>
+      <li><b>Fix</b><samp>/\|\|x/$document</samp> and similar regex rules with <samp>$document</samp> or <samp>$elemhide</samp> no longer make <samp>$domain=x</samp> or <samp>x##y</samp> redundant</li>
+      <li><b>UI</b>in case a rule could be made redundant by two rules, and those rules are no redundancies of each other, the shortest rule is now displayed</li>
+      <li><b>UI</b>tell the user to first check for redundancies again before using the tools, if they modify the contents of the text box</li>
+      <li><b>UI</b>some changes in the warning messages of simplified syntax hiding rules</li>
+    </ul>
+
+    <h4>November 16, 2013:</h4>
+    <ul>
+      <li><b>New</b>warning about <samp>$image,~image,popup</samp>, where <samp>$image,~image</samp> does nothing. ABP now drops unknown options, so those constructions are unneeded</li>
+      <li><b>New</b>warning about <samp>$~match-case</samp>, since it's the default to be case insensitive (<samp>/ads.$~match-case</samp>)</li>
+      <li><b>New</b>warn when pseudo-element selectors are present, since they cannot be used for hiding content (<samp>##::before</samp>)</li>
+      <li><b>New</b>CSS selector identifiers containing escaped Unicode at the end of the identifier may have a trailing space (<samp>##\32 &gt;x</samp> is equal to <samp>##\32&gt;x</samp>)</li>
+      <li><b>Improved</b>warning about redundant type options if the first type option is an excluded type (<samp>$~script,image,~image</samp>)</li>
+      <li><b>Improved</b>specify the location of an unnecessary universal CSS selector in warning messages (only the first <samp>*</samp> in <samp>##*.class &gt; *</samp>)</li>
+      <li><b>Improved</b>more (all?) redundant sequences of complex tree selectors can now be detected (<samp>##a &gt; div div &gt; x</samp> and <samp>##a &gt; div div div &gt; x</samp>)</li>
+      <li><b>Fix</b>if A is made redundant by B and B is made redundant by a <samp>$document</samp> or <samp>$elemhide</samp> rule C, A must be redundant of C instead of B</li>
+      <li><b>Fix</b>more warning messages in which the options were shown as lowercased and with all <samp>-</samp> replaced by <samp>_</samp></li>
+      <li><b>Fix</b>incorrect warnings for <samp>$~elemhide</samp> and <samp>$~document</samp> (<samp>@@/ads.$~elemhide,document</samp>)</li>
+      <li><b>Fix</b>crash of the redundancy checker if a hiding rule matched nothing and also contained an internal duplicate (<samp>##:not(*):not(*)</samp>)</li>
+      <li><b>Fix</b>rules with duplicates of <samp>:not(...)</samp> selectors and another comma-separated selector, acted as if <samp>:not(...)</samp> was <samp>*</samp> (<samp>##:not(a):not(a ),x</samp>)</li>
+      <li><b>Fix</b>CSS selectors with <samp>:lang(x-y)</samp> would skip the selector behind the <samp>:lang(...)</samp> selector (<samp>##:lang(en-gb)&gt;ads</samp>)</li>
+      <li><b>Modified</b>rewrite the way the options of blocking rules are parsed</li>
+      <li><b>Modified</b>rewrite the way how rules containing tree selectors ('<samp> </samp>', <samp>&gt;</samp>, <samp>+</samp>, <samp>~</samp>) are matched</li>
+      <li><b>UI</b>fix typo in warning message for <samp>:not(...)</samp> selectors that match every element (<samp>##:not(:nth-child(-4))</samp>)</li>
+    </ul>
+
+    <h4>September 20, 2013:</h4>
+    <ul>
+      <li><b>Improved</b>'same rule, different domains' tool is faster and finds more combinable rules</li>
+      <li><b>Improved</b>better warning message for rules of the form <samp>@@domain##rule</samp></li>
+      <li><b>Improved</b>better error message for incorrectly excluded domains (<samp>abc$~domain=site.com</samp>)</li>
+      <li><b>Fix</b>in the error message <em>unknown option 'X'</em>, any <samp>-</samp> in the option was replaced by <samp>_</samp>, and it was in lowercase (example: <samp>abc$First-Party</samp>)</li>
+    </ul>
+
+    <h4>July 18, 2013:</h4>
+    <ul>
+      <li><b>Fix</b>'same rule, different domains' tool suggested combining <samp>a##bar,baz</samp> and <samp>b##bar+baz</samp></li>
+      <li><b>Fix</b>rare case where the <em>Check for redundant rules</em> button didn't get enabled</li>
+    </ul>
+
+    <h4>June 12, 2013:</h4>
+    <ul>
+      <li><b>Fix</b>Punycode-converted domains are considered valid now (<samp>xn----etbbchqbn2afauadx.xn--p1ai##.ads</samp>)</li>
+    </ul>
+
+    <h4>May 31, 2013:</h4>
+    <ul>
+      <li><b>Fix</b>tool to find whitelists shouldn't report other whitelists that it matches (<samp>@@x/xml</samp> and <samp>@@/xml$image</samp>)</li>
+      <li><b>Fix</b>tool to convert hiding into blocking reports wrong results for <samp>\=</samp> in the attribute name (<samp>##[src\=='hello']</samp>)</li>
+      <li><b>Fix</b>tool to use a less strict matching method matched two characters that would both be matched by <samp>^</samp> (<samp>&amp;adType=</samp> and <samp>?adType=</samp>)</li>
+      <li><b>Improved</b>code improvements</li>
+    </ul>
+
+    <h4>May 20, 2013:</h4>
+    <ul>
+      <li><b>New</b>tool to find hiding rules that could potentially become blocking rules</li>
+      <li><b>Fix</b>incorrect warning message for rules that start with <samp>*@@</samp>: they should keep their preceding wildcard</li>
+      <li><b>Improved</b>matching of the <samp>:lang(...)</samp> selector</li>
+    </ul>
+
+    <h4>May 6, 2013:</h4>
+    <ul>
+      <li><b>Improved</b>matching of <samp>first/last/nth/only-child</samp> and <samp>first/last/nth/only-of-type</samp> selectors</li>
+    </ul>
+
+    <h4>April 28, 2013:</h4>
+    <ul>
+      <li><b>Fix</b>incorrect warning message: selectors that do not match anything, actually match everything when in a <samp>:not()</samp> selector (example: <samp>##:not(:nth-child(-4))</samp>)</li>
+      <li><b>Fix</b>pseudo-element CSS selectors are not allowed in <samp>:not()</samp> selectors in CSS3 (<samp>##:not(::before)</samp>)</li>
+      <li><b>Fix</b>combinations of CSS selectors are not allowed in <samp>:not()</samp> selectors in CSS3 (<samp>##:not(##div#ads)</samp>)</li>
+      <li><b>Fix</b>namespaces in CSS3 are only allowed in front of nodename selectors (<samp>##abc|#def</samp>)</li>
+      <li><b>Fix</b>in an internal rule redundancy, the most restrictive part is the active part (<samp>##[a^=&quot;b&quot;][a^=&quot;bcd&quot;]</samp> and <samp>##[a^=&quot;bc&quot;]</samp>)</li>
+      <li><b>Fix</b>incorrect warning message for comma-separated hiding rules for which one part can't match anything (<samp>##div,:not(*)</samp>)</li>
+      <li><b>Fix</b>do not automatically assume case insensitivity for browser-specific pseudo selectors (<samp>##:moz-whatever(x)</samp> versus <samp>##:moz-whatever(X)</samp>)</li>
+      <li><b>Modified</b>rules that match nothing (example: <samp>$image,~image</samp>) won't be made redundant by every other rule anymore; a warning is sufficient</li>
+      <li><b>Modified</b>prefer the message that <samp>donottrack</samp> is deprecated over one that the rule doesn't match anything</li>
+      <li><b>Modified</b>rewrite the way hiding rules are parsed. This method should be more fail-proof.</li>
+      <li><b>UI</b>fix typo in warning message</li>
+    </ul>
+
+    <h4>April 14, 2013:</h4>
+    <ul>
+      <li><b>Modified</b>reworked the warnings 'management' system so that it always returns the most important warning instead of the last found warning per rule</li>
+      <li><b>Improved</b>warnings about redundancies within a rule (example: <samp>##[a=&quot;bcd&quot;][a^=&quot;bc&quot;]</samp>)</li>
+      <li><b>Improved</b>up to 5% increase of speed</li>
+      <li><b>Fix</b>incorrect warnings about redundancies within a rule if namespaces in attribute selectors were present (<samp>##[ns1|abc=&quot;def&quot;][ns2|abc=&quot;def&quot;]</samp>)</li>
+      <li><b>Fix</b>disable warnings about selectors that cannot co-exist when a namespace selector is present (<samp>##a|#b[*|id^='b']</samp>), because I'm unsure about the validity of that warning</li>
+      <li><b>Fix</b>incorrect <em>broken selector</em> warning if a rule contains Unicode characters <samp>00A0</samp> to <samp>0177</samp></li>
+      <li><b>UI</b>fix bad rule highlighting when a filter with a warning contained '<samp> and </samp>' (example: <samp>##*[ and $=&quot; and &quot;]</samp>)</li>
+      <li><b>UI</b>warn when a browser lacks some functionality</li>
+    </ul>
+
+    <h4>March 28, 2013:</h4>
+    <ul>
+      <li><b>Improved</b>up to 20% increase of speed</li>
+    </ul>
+
+    <h4>March 26, 2013:</h4>
+    <ul>
+      <li><b>Fix</b>treat every line containing <samp>*[adblock*]*</samp> as comment</li>
+      <li><b>Fix</b>hiding rules containing <samp>##tag-or-class-or-id\::known-pseudoselector</samp> are valid CSS (example: <samp>###mysite\::first-child</samp>)</li>
+      <li><b>Fix</b>duplicate warning if an excluded domain in a hiding rule was also an included domain in a hiding whitelist rule (example: <samp>a,b,~b.a##x</samp> and <samp>a#@#x</samp>)</li>
+      <li><b>Fix</b>hiding rules excluded by a <samp>#@#</samp> rule do not make other rules redundant anymore (<samp>###ads</samp> and <samp>foo.com#@##ads</samp> and <samp>foo.com###ads.banner</samp>)</li>
+      <li><b>Fix</b>rules with included domains, excluded subdomains and included sub-subdomains weren't shown as redundant for the last subdomain (<samp>a,~b.a,c.b.a##x</samp> versus <samp>c.b.a##x.y</samp>)</li>
+      <li><b>Fix</b>simplified hiding rules suggest the <samp>#id</samp> and <samp>.class</samp> syntax, instead of <samp>[id=&quot;the_id&quot;]</samp> and <samp>[class~=&quot;the_class&quot;]</samp></li>
+      <li><b>Fix</b>warnings involving the same rule twice were removed (<samp>##[id=&quot;x&quot;]</samp> and <samp>##[id=&quot;x&quot;]</samp>)</li>
+      <li><b>New</b>warn if you have an rule with only excluded domains and a rule with partially redundant included domains (<samp>~b.a##x</samp> vs <samp>z,c.b.a##x</samp>)</li>
+      <li><b>New</b>if a hiding rule matches a parent element of another hiding rule, the latter is redundant (<samp>###foo</samp> versus <samp>###foo &gt; #bar</samp>)</li>
+      <li><b>New</b>hiding rules may skip a tree depth if their selector allows so (<samp>###foo &gt; bar &gt; baz</samp> versus <samp>###foo baz</samp>)</li>
+      <li><b>New</b>warn if you have selectors that can't co-exist (<samp>###id1#id2</samp>, <samp>##[a=&quot;b&quot;][a=&quot;c&quot;]</samp>, ...)</li>
+      <li><b>New</b>warn if comma-separated hiding rules make each other redundant (<samp>###ads,.xyz#ads</samp>)</li>
+      <li><b>Improved</b>warn if you have multiple included domains and some of them match (example: <samp>foo,a.bar##a</samp> versus <samp>bar,baz##a</samp>)</li>
+      <li><b>Improved</b>support for comma-separated hiding rules (<samp>domain.com###ads,#adv</samp>)</li>
+      <li><b>UI</b>for errors reported (for broken rules, like <samp>##rule]</samp>), an <samp>!</samp> was shown in front of the message</li>
+      <li><b>UI</b>replace contact link with information link</li>
+      <li><b>UI</b>disable spellchecking of the filter list input area</li>
+    </ul>
+
+    <h4>January 31, 2013:</h4>
+    <ul>
+      <li><b>New</b>add several tools:
+        <ul>
+          <li>A similar rules finder tool</li>
+          <li>Tools to ignore domains and blocking options (replaces the checkbox)</li>
+          <li>A tool to use a less strict matching algorithm</li>
+          <li>A tool to find rules which have the same rule, but a different domain</li>
+          <li>A tool to find the rules that make whitelisting rules necessary, which also displays if no rules could be found for a whitelisting rule</li>
+        </ul>
+      </li>
+      <li><b>New</b><samp>||x</samp> will now also be matched if both <samp>/x</samp> and <samp>.x</samp> are present</li>
+      <li><b>Modified</b>deprecate <samp>$donottrack</samp>, since it's removed from ABP too</li>
+      <li><b>Fix</b><samp>//</samp> isn't a regex</li>
+      <li><b>Fix</b>'<samp> !x</samp>' (with a whitespace in front of it) is a comment, not a blocking rule</li>
+      <li><b>Fix</b><samp>*!x</samp> and similar will no longer trigger <em>unnecessary preceding wildcard found</em> warnings, since it would become a comment without <samp>*</samp></li>
+      <li><b>Fix</b><samp>/\|\|x/</samp> and similar regex rules no longer make <samp>||x</samp> redundant</li>
+    </ul>
+
+    <h4>No changelog available before 2013.</h4>
+  </body>
+</html>

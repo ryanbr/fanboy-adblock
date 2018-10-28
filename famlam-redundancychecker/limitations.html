@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self';" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redundancy check - limitations</title>
+    <link rel="stylesheet" href="redundantRuleChecker.css" />
+  </head>
+  <body id="limitations">
+    <h3>Limitations</h3>
+    <p id="topmsg">This page lists the limitations of this redundancy checker, as far as known by the author</p>
+    <h4>Known false positives</h4>
+    <div>
+      <em>A false positive is a false alarm: a rule is reported as being redundant, while it actually isn't redundant.</em>
+      <ul>
+        <li>There are currently no false positives known.</li>
+      </ul>
+    </div>
+    
+    <h4>Known false negatives</h4>
+    <div>
+      <em>A false negative is a rule that is redundant (and can be detected as such with the given input), but isn't reported</em>
+      <ul>
+        <li>
+          <b>The options <samp>$third-party</samp> and <samp>$domain=...</samp> are not linked</b><br/>
+          As a result, the redundancy checker won't find matches between rules of which one contains <samp>$third-party</samp> (or <samp>$~third-party</samp>) and the other one contains a domain that does match the third- or first-party requirement. Examples:
+          <ul>
+            <li><samp>||site.com/ads.$~third-party</samp> should have been made redundant by <samp>/ads.$domain=site.com</samp> as both only apply to domain <em>site.com</em></li>
+            <li><samp>||site.com/ads.$domain=anothersite.com</samp> should have been made redundant by <samp>/ads.$third-party</samp> as both apply on domain <em>anothersite.com</em></li>
+            <li><samp>||site.com^$domain=~site.com</samp> should have been made redundant by <samp>||site.com^$third-party</samp> as both apply everywhere except for domain <em>site.com</em></li>
+          </ul>
+          The cause is that it is not trivial to extract the top level domain. For example: in the case of <em>subdomain.domain.com</em> this would be <em>com</em>, but in case of <em>subdomain.domain.co.uk</em> this would be <em>co.uk</em>.
+        </li>
+        <li>
+          <b><abbr title="Regular expressions that contain at least one character with a non-literal meaning, such as |, ?, \ or )">Complex regular expression</abbr> rules are only checked one-way</b><br/>
+          As a result, you will not be notified when a regular expression has been made redundant by another rule. Examples:
+          <ul>
+            <li><samp>/advert(isement)?/</samp> should have been made redundant by <samp>/ad(v|s)/</samp></li>
+            <li><samp>/-advert-images?-/</samp> should have been made redundant by <samp>-advert-</samp></li>
+          </ul>
+          The cause is that it is almost impossible to rewrite complex expressions in such a form that it can be checked against all possibilities. For example, the simple regex <samp>/\w{3}/</samp> matches every possible filter of at least three successive alphanumeric characters. The regex <samp>/ad(s+|v)?/</samp> matches <samp>ad</samp>, <samp>adv</samp>, <samp>ads</samp>, <samp>adss</samp>, <samp>adsss</samp>, and so on. It is close to impossible to check this against a normal filter or another regex within the duration of a day computing time and without the need for very complex code.
+        </li>
+      </ul>
+    </div>
+    
+    <h4>Ignored rules</h4>
+    <div>
+      <em>Ignored rules are rules that the redundancy checker skips before even trying to find matches. Say, false negatives without the need for a second filter.</em>
+      <ul>
+        <li>
+          <b>Rules with syntax errors</b><br/>
+          Rules for which it cannot be determined how to interpret them, are ignored. When such a rule is found, an error will be shown. Examples:
+          <ul>
+            <li><samp>###.ads</samp></li>
+            <li><samp>/advert(ising/</samp></li>
+          </ul>
+        </li>
+        <li>
+          <b>Simplified hiding rules</b></br>
+          The old, deprecated format of hiding rules is not supported by the tool. When such a rule is found, a warning will be shown telling you how to convert this type of rule to the CSS3 format, if possible. Examples:
+          <ul>
+            <li><samp>#div</samp></li>
+            <li><samp>#div(ads)</samp></li>
+            <li><samp>#div(class=ads)</samp></li>
+          </ul>
+        </li>
+        <li>
+          <b>CSS4 hiding rules</b></br>
+          CSS4 is still work-in-progress and is therefore subject to changes. Furthermore, at this moment most browsers don't fully support all functionality. For that reason, CSS4 selectors are not supported yet. Examples:
+          <ul>
+            <li><samp>##[name*=&quot;ads&quot; i]</samp></li>
+            <li><samp>##div! &gt; #ads</samp></li>
+          </ul>
+        </li>
+        <li>
+          <b>Rules with unknown options</b></br>
+          Rules with unknown options are usually the result of typos. However, it could also be an option that has been removed from or has recently been added to Adblock Plus. As it is unknown what the default status of those rules is (<samp>$third-party</samp> defaults to third- and first-party, while <samp>$popup</samp> defaults to disabled), those rules are skipped to prevent incorrect matches. A warning will be shown. Examples:
+          <ul>
+            <li><samp>$first-party</samp></li>
+            <li><samp>$donottrack</samp></li>
+            <li><samp>$~domain=site.com</samp></li>
+            <li><samp>$domain=site.com,anothersite.com</samp></li>
+          </ul>
+        </li>
+        <li>
+          <b>Rules containing the <samp>$sitekey=...</samp> option</b></br>
+          Rules containing the <samp>$sitekey=</samp> option are silently ignored. The behaviour of those rules is poorly documented, making it hard to determine the behaviour when this rule is combined with other options. Furthermore, there is only one filter list that uses them. Example:
+          <ul>
+            <li><samp>@@$sitekey=abcdefghijklmnopqrstuvwxyz</samp></li>
+          </ul>
+        </li>
+        <li>
+          <b>Rules containing the <samp>$generichide</samp> or <samp>$genericblock</samp> options</b></br>
+          Rules containing the <samp>$generichide</samp> or <samp>$genericblock</samp> options are silently ignored. These rules are not yet officially released and their behaviour may still change. Example:
+          <ul>
+            <li><samp>@@$generichide</samp></li>
+          </ul>
+        </li>
+        <li>
+          <b>Rules with problematic domains</b></br>
+          A rule will also be ignored if the domains of a rule are invalid or if a domain is included and excluded at the same time. Warnings are shown in those cases. Examples:
+          <ul>
+            <li><samp>$domain=site.com|~site.com</samp></li>
+            <li><samp>$domain=site..com</samp></li>
+            <li><samp>$domain=site.com,domain=anothersite.com</samp></li>
+            <li><samp>site.com,,anothersite.com###ads</samp></li>
+            <li><samp>site.com/###ads</samp></li>
+            <li><samp>*.com###ads</samp></li>
+          </ul>
+        </li>
+        <li>
+          <b>Rules containing JavaScript object properties</b></br>
+          Rules that contain JavaScript object properties may interfere with the code, thereby changing its behaviour. For that reason, those rules are silently ignored. Examples:
+          <ul>
+            <li><samp>constructor##abc</samp></li>
+            <li><samp>$domain=~con.constructor</samp></li>
+            <li><samp>__proto__</samp></li>
+          </ul>
+        </li>
+        <li>
+          <b>Rules containing <samp>:nth-child(An+B)</samp>, <samp>:nth-last-child(An+B)</samp>, <samp>:nth-of-type(An+B)</samp> or <samp>:nth-last-of-type(An+B)</samp> with <samp>A</samp> or <samp>B</samp> very large</b></br>
+          Due to rounding errors in JavaScript with large numbers, the values of <samp>A</samp> and <samp>B</samp> may differ from the values in the filter. You'll probably never use them anyway, so they are silently ignored. Examples:
+          <ul>
+            <li><samp>##:nth-child(590295810358705700001)</samp></li>
+            <li><samp>##:nth-of-type(10000000000000000000000000n+4)</samp></li>
+          </ul>
+        </li>
+        <li>
+          <b>Rules containing <samp>[Adblock]</samp> or <samp>[Adblock *]</samp></b></br>
+          Filter lists have to start with a line containing <samp>[Adblock]</samp> or similar in order to be a valid filter list. As this redundancy checker should also be able to operate with multiple filter lists as input, it is not possible to only filter out the first line, as the second occurrence of this line can indicate the next filter list. Therefore, all rules of this type are silently ignored. Example:
+          <ul>
+            <li><samp>[Adblock Plus 2.0]</samp></li>
+          </ul>
+        </li>
+        <!--li>
+          <b>Rules containing the carriage return sign at the 'wrong place'</b></br>
+          The redundancy checker contains a lot of regular expressions. In those regexes, the <samp>.</samp> is usually used to match any character. Unfortunately, it doesn't match the carriage return character (<samp>\r</samp>). If this causes an issue, that rule will be skipped silently. Example:
+          <ul>
+            <li><samp>:not(#ads&#13;)</samp> (the <samp>\r</samp> is between the <samp>s</samp> and the <samp>)</samp>)</li>
+          </ul>
+        </li-->
+        <li>
+          <b>Rules that cannot match anything</b></br>
+          If it can be determined on beforehand that a rule cannot match anything, then that rule will be ignored. Technically, those rules can be made redundant by every filter, but that would only be confusing, so a warning is thrown instead. Examples:
+          <ul>
+            <li><samp>##:nth-child(0n-6)</samp></li>
+            <li><samp>##[class~=&quot;foo bar&quot;]</samp></li>
+            <li><samp>##[ID]:not([id])</samp></li>
+            <li><samp>##:not(*)</samp></li>
+            <li><samp>##::before</samp></li>
+            <li><samp>$image,~script,~image</samp></li>
+            <li><samp>$document</samp></li>
+            <li><samp>||.foo.com^</samp></li>
+            <li><samp>|://foo.com^</samp></li>
+          </ul>
+        </li>
+      </ul>
+    </div>    
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self';" />
+    <meta name="viewport" content="width=640, initial-scale=1" />
+    <title>Redundancy check</title>
+    <link rel="stylesheet" href="redundantRuleChecker.css" />
+    <script type="text/javascript" src="redundantRuleChecker.js" defer="defer"></script>
+  </head>
+  <body>
+    <noscript class="workerUnsupported">JavaScript must be enabled on this page.</noscript>
+    <div id='helplink'>[<a href="#" title="Information">information</a>]</div>
+    <h3>Redundancy check for Adblock Plus rules</h3>
+    <p id="topmsg">This script checks if there are any redundant rules in your Adblock Plus filter list. A rule is redundant if the content it blocks, hides or excludes is also blocked, hidden or excluded by another rule.<br/>For example, <em>||somesite.com/ads/</em> has been made redundant by <em>/ads/*</em>. All calculations are performed on your computer, no data is send to the server.</p>
+    <textarea cols="120" rows="20" id="filters" placeholder="Paste the rules here" spellcheck="false"></textarea>
+    <input id="btnstart" type="button" disabled="disabled" value="Check for redundant rules"/>
+    <progress value="0" id="percent" max="100" class="hidden"></progress>
+    <span id="progressindicator" class="hidden"></span>
+    <div id="tabs" class="hidden">
+      <div id="tab_titles"></div>
+      <div id="tab_contents"></div>
+    </div>
+    <div id="information" class="hidden">
+      <strong>Redundancy check information</strong><br/>
+      <ul>
+        <li>Author: Famlam</li>
+        <li>Contact: <a href="https://forums.lanik.us/viewtopic.php?f=23&amp;t=9041" title="forums.lanik.us" target="_blank">EasyList forum</a> or <em>fam.lam [at] live.nl</em></li>
+        <li>Changelog: can be found <a href="changelog.html" title="Changelog" target="_blank">here</a></li>
+        <li>Copyright (C) 2013-2015 Famlam<br/>
+            This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.<br/>
+            This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.<br/>
+            You should have received a copy of the GNU General Public License along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/" title="GNU GPL" target="_blank">http://www.gnu.org/licenses/</a>&gt;.</li>
+        <li>This tool aims to help keep the quality of the filter list high, by removing unnecessary filters and warning about potential issues. When using this tool, one should keep in mind that the results of this tool may not be the best results for the purpose of the filter list, and one should thus always proceed with caution and carefully evaluate the suggestions made.</li>
+        <li>No data you enter on this webpage will be send to any server; all calculations are performed on your local computer</li>
+        <li>If you find an issue or want to suggest an improvement, please report it via one of the contact addresses. Don't forget to include which browser you use, what filters you were trying to validate, any error messages that occured and any steps necessary to reproduce the issue. A list of known limitations is available <a href="limitations.html" title="List of known limitations" target="_blank">here</a>.</li>
+      </ul>
+      <input id="closeinformation" type="button" value="Close"/>
+    </div>
+  </body>
+</html>

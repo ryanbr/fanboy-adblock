@@ -1,0 +1,128 @@
+January 13, 2014:
+-New: warn if ',$' is used to separate rules (example: $script,$domain=com)
+-New: detect redundancies in hiding rules if a #@# rule excluded part of the rule (example: nl#@##ads and ###ads together with com##div#ads)
+-Improved: all warnings for redundant domains now clearly state which domains can be removed
+-Removed: warnings about domain redundancies with non-redundant subdomains (example: ~b.a in b.a,~c.b.a#@#ads and a,~b.a##ads)
+-Fix: '/\|\|x/$document' and similar regex rules with $document or $elemhide no longer make '$domain=x' or 'x##y' redundant
+-UI: in case a rule could be made redundant by two rules, and those rules are no redundancies of each other, the shortest rule is now displayed
+-UI: tell the user to first check for redundancies again before using the tools, if they modify the contents of the text box
+-UI: some changes in the warning messages of simplified syntax hiding rules
+
+
+November 16, 2013:
+-New: warning about $image,~image,popup, where $image,~image does nothing. ABP now drops unknown options, so those constructions are unneeded
+-New: warning about $~match-case, since it's the default to be case insensitive (/ads.$~match-case)
+-New: warn when pseudo-element selectors are present, since they cannot be used for hiding content (##::before)
+-New: CSS selector identifiers containing escaped unicode at the end of the identifier may have a trailing space (##\32 >x is equal to ##\32>x)
+-Improved: warning about redundant type options if the first type option is an excluded type ($~script,image,~image)
+-Improved: specify the location of an unnecessary universal CSS selector in warning messages (only the first * in ##*.class > * )
+-Improved: more (all?) redundant sequences of complex tree selectors can now be detected (##a > div div > x and ##a > div div div > x)
+-Fix: if A is made redundant by B and B is made redundant by a $document or $elemhide rule C, A must be redundant of C instead of B
+-Fix: more warning messages in which the options were shown as lowercased and with all - replaced by _
+-Fix: incorrect warnings for $~elemhide and $~document (@@/ads.$~elemhide,document)
+-Fix: crash of the redundancy checker if a hiding rule matched nothing and also contained an internal duplicate (##:not(*):not(*) )
+-Fix: rules with duplicates of :not(...) selectors and another comma-separated selector, acted as if ':not(...)' was '*' (##:not(a):not(a ),x )
+-Fix: CSS selectors with :lang(x-y) would skip the selector behind the :lang(...) selector (##:lang(en-gb)>ads)
+-Modified: rewrite the way the the options of blocking rules are parsed
+-Modified: rewrite the way how rules containing tree selectors (' ', >, +, ~) are matched
+-UI: fix typo in warning message for :not(...) selectors that match every element (##:not(:nth-child(-4)) )
+
+
+September 20, 2013:
+-Improved: 'same rule, different domains' tool is faster and finds more combinable rules
+-Improved: better warning message for rules of the form '@@domain##rule'
+-Improved: better error message for incorrectly excluded domains (abc$~domain=site.com)
+-Fix: in the error message "unknown option 'X'", any '-' in the option was replaced by '_', and it was in lowercase (example: abc$First-Party)
+
+
+July 18, 2013:
+-Fix: 'same rule, different domains' tool suggested combining a##bar,baz and b##bar+baz
+-Fix: rare case where the 'Check for redundant rules' button didn't get enabled
+
+
+June 12, 2013:
+-Fix: punycode-converted domains are considered valid now (xn----etbbchqbn2afauadx.xn--p1ai##.ads)
+
+
+May 31, 2013:
+-Fix: tool to find whitelists shouldn't report other whitelists that it matches (@@x/xml and @@/xml$image)
+-Fix: tool to convert hiding into blocking reports wrong results for \= in the attribute name ( ##[src\=='hello'] )
+-Fix: tool to use a less strict matching method matched two characters that would both be matched by ^ ( &adType= and ?adType= )
+-Improved: code improvements
+
+
+May 20, 2013:
+-New: tool to find hiding rules that could potentially become blocking rules
+-Fix: incorrect warning message for rules that start with '*@@': they should keep their preceeding wildcard
+-Improved: matching of the :lang(...) selector
+
+
+May 6, 2013:
+-Improved: matching of first/last/nth/only-child and first/last/nth/only-of-type selectors
+
+
+April 28, 2013:
+-Fix: incorrect warning message: selectors that do not match anything, actually match everything when in a :not() selector (example: ##:not(:nth-child(-4)) )
+-Fix: pseudo-element CSS selectors are not allowed in :not() selectors in CSS3 (##:not(::before) )
+-Fix: combinations of CSS selectors are not allowed in :not() selectors in CSS3 (##:not(##div#ads) )
+-Fix: namespaces in CSS3 are only allowed in front of nodename selectors (##abc|#def)
+-Fix: in an internal rule redundancy, the most restrictive part is the active part (##[a^="b"][a^="bcd"] and ##[a^="bc"] )
+-Fix: incorrect warning message for comma-separated hiding rules for which one part can't match anything (##div,:not(*) )
+-Fix: do not automatically assume case insensitivity for browser-specific pseudo selectors (##:moz-whatever(x) versus ##:moz-whatever(X) )
+-Modified: rules that match nothing (example: $image,~image) won't be made redundant by every other rule anymore; a warning is sufficient
+-Modified: prefer the message that donottrack is depricated over one that the rule doesn't match anything
+-Modified: rewrite the way hiding rules are parsed. This method should be more fail-proof.
+-UI: fix typo in warning message
+
+
+April 14, 2013:
+- Modified: reworked the warnings 'management' system so that it always returns the most important warning instead of the last found warning per rule
+- Improved: warnings about redundancies within a rule (example: ##[a="bcd"][a^="bc"])
+- Improved: up to 5% increase of speed
+- Fix: incorrect warnings about redundancies within a rule if namespaces in attribute selectors were present (##[ns1|abc="def"][ns2|abc="def"])
+- Fix: disable warnings about selectors that cannot co-exist when a namespace selector is present (##a|#b[*|id^='b']), because I'm unsure about the validity of that warning
+- Fix: incorrect 'broken selector' warning if a rule contains unicode characters 00A0 to 0177
+- UI: fix bad rule highlighting when a filter with a warning contained " and " (##*[ and $=" and "])
+- UI: warn when a browser lacks some functionality
+
+
+March 28, 2013:
+- Improved: up to 20% increase of speed
+
+
+March 26, 2013:
+- Fix: treat every line containing *[adblock*]* as comment
+- Fix: hiding rules containing ##tag-or-class-or-id\::known-pseudoselector are valid CSS (example: ###mysite\::first-child)
+- Fix: duplicate warning if an excluded domain in a hiding rule was also an included domain in a hiding whitelist rule (example: a,b,~b.a##x and a#@#x)
+- Fix: hiding rules excluded by a #@# rule do not make other rules redundant anymore (###ads and foo.com#@##ads and foo.com###ads.banner)
+- Fix: rules with included domains, excluded subdomains and included sub-subdomains weren't shown as redundant for the last subdomain (a,~b.a,c.b.a##x versus c.b.a##x.y)
+- Fix: simplified hiding rules suggest the #id and .class syntax, instead of [id="the_id"] and [class~="the_class"]
+- Fix: warnings involving the same rule twice were removed (##[id="x"] and ##[id="x"])
+- New: warn if you have an rule with only excluded domains and a rule with partially redundant included domains (~b.a##x vs z,c.b.a##x)
+- New: if a hiding rule matches a parent element of another hiding rule, the latter is redundant (###foo versus ###foo > #bar)
+- New: hiding rules may skip a tree depth if their selector allows so (###foo > bar > baz versus ###foo baz)
+- New: warn if you have selectors that can't co-exist (###id1#id2, ##[a="b"][a="c"], ...)
+- New: warn if comma-separated hiding rules make each other redundant (###ads,.xyz#ads)
+- Improved: warn if you have multiple included domains and some of them match (example: foo,a.bar##a versus bar,baz##a)
+- Improved: support for comma-separated hiding rules (domain.com###ads,#adv)
+- UI: for errors reported (for broken rules, like "##rule]" ), an "!" was shown in front of the message
+- UI: replace contact link with information link
+- UI: disable spellchecking of the filter list input area
+
+
+January 31, 2013:
+- New: add several tools:
+   * A similar rules finder tool
+   * Tools to ignore domains and blocking options (replaces the checkbox)
+   * A tool to use a less strict matching algorithm
+   * A tool to find rules which have the same rule, but a different domain
+   * A tool to find the rules that make whitelisting rules necessary, which also displays if no rules could be found for a whitelisting rule
+- New: ||x will now also be matched if both /x and .x are present
+- Modified: depricate $donottrack, since it's removed from ABP too
+- Fix: '//' isn't a regex
+- Fix: ' !x' (with a whitespace in front of it) is a comment, not a blocking rule
+- Fix: '*!x' and similar will no longer trigger 'unnecessary preceeding wildcard found' warnings, since it would become a comment without *
+- Fix: '/\|\|x/' and similar regex rules no longer make ||x redundant
+
+
+No changelog available before 2013.

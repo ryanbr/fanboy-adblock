@@ -1,0 +1,275 @@
+body {
+  font-family: arial;
+}
+textarea, pre, pre * {
+  font-family: monospace;
+}
+input {
+  font-size: 13px;
+  vertical-align: middle;
+}
+input:enabled {
+  cursor: pointer;
+}
+table th, table td {
+  text-align: left;
+  vertical-align: top;
+  min-width: 120px;
+  padding: 1px 4px 1px 4px;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid gray;
+}
+fieldset {
+  border-radius: 4px;
+  margin-top: 20px;
+  width: 640px;
+  padding: 5px 10px;
+}
+legend {
+  padding: 0px 5px;
+  font-weight: bold;
+}
+h3 {
+  margin-bottom: 0px;
+}
+#tab_titles {
+  margin: 20px 0px 0px 20px;
+  font-size: 0px;
+}
+#tab_titles > span {
+  border: 1px solid #777;
+  display: inline-block;
+  padding: 3px 10px;
+  margin: 0px -1px -1px 0px;
+  font-size: medium;
+}
+#tab_titles .activeTab {
+  background-color: #ccc;
+  cursor: default;
+}
+#tab_titles > span:not(.activeTab):hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+#tab_contents {
+  border: 1px solid #777;
+  padding: 20px;
+  font-size: 13px;
+  min-height: 80px;
+  white-space: nowrap;
+}
+#tab_contents > div {
+  display: none;
+}
+#tab_contents > .activeTab {
+  display: block;
+}
+#tab_contents p {
+  font-weight: bold;
+  font-style: italic;
+}
+#tab_contents pre {
+  margin-left: 20px;
+}
+#helplink {
+  font-size: small;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+#filters {
+  width: 100%;
+  min-width: 640px;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 4px;
+}
+#percent {
+  margin-left: 30px;
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+#progressindicator {
+  display: inline-block;
+  width: 200px;
+  font-size: 10px;
+  text-align: center;
+  margin-left: -200px;
+  cursor: default;
+}
+#toolsdescription {
+  font-style: normal !important;
+  font-weight: normal !important;
+  margin: 1px;
+  min-height: 48px;
+  max-width: 100%;
+}
+#tab_Tools * {
+  white-space: normal !important;
+}
+#tab_Tools > input {
+  min-width: 432px;
+  text-align: left;
+  vertical-align: middle;
+  height: 26px;
+  background-color: #FFF;
+  border: 1px solid #777;
+  padding: 3px 10px;
+  margin: 0 0 -1px 0;
+}
+#tab_Tools > input:first-of-type {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#tab_Tools > input:last-of-type {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#tab_Tools > input:hover {
+  background-color: #CCC;
+  border-width: 2px;
+  padding: 1px 9px;
+}
+#domainCheckProgress {
+  margin: 0px 2px 0px 10px;
+  width: 150px;
+}
+.minorwarning, .toolsTab, .passedDomainCheck, .pendingDomainCheck, .cancelledDomainCheck {
+  color: gray;
+}
+.majorwarning {
+  color: red;
+}
+.failedDomainCheck {
+  color: red;
+  font-weight: bold;
+}
+.priority6 {
+  color: #A0A0A0;
+}
+.priority7 {
+  color: #787878;
+}
+.priority8 {
+  color: #505050;
+}
+.priority9 {
+  color: #282828;
+}
+.priority10 {
+  color: #000000;
+}
+.toolsResults strong {
+  cursor: pointer;
+  display: block;
+  width: 75%;
+  font-family: monospace;
+}
+.toolsResults em {
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 12px;
+}
+.toolsResults .filterCell {
+  font-family: monospace;
+  white-space: pre;
+}
+.toolsResults td[data-indent] {
+  padding-left: 51px;
+}
+.toolsResults td[data-indent]::before {
+  content: "▸";
+}
+.toolsResults td[data-indent="1"] {
+  padding-left: 5px;
+}
+.toolsResults td[data-indent="2"] {
+  padding-left: 15px;
+}
+.toolsResults td[data-indent="3"] {
+  padding-left: 25px;
+}
+.toolsResults td[data-indent="4"] {
+  padding-left: 35px;
+}
+.toolsResults tr:not([data-parent]) {
+  border-top: 1px solid gray;
+}
+.toolsResults tbody > .emptynotifier:not(:only-child) {
+  display: none;
+}
+.toolsResults pre {
+  margin-top: 2px;
+}
+.workerUnsupported {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: yellow;
+  border-bottom: 1px solid black;
+  font-size: 15px;
+  font-weight: bold;
+  color: #DD0000;
+  text-align: center;
+  z-index: 100000;
+  white-space: normal;
+}
+#information {
+  padding: 12px;
+  min-width: 500px;
+  min-height: 250px;
+  overflow-y: auto;
+  border: 1px solid black;
+  border-radius: 8px;
+  opacity: 0.9;
+  background: white;
+  z-index: 1000;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  right: 20%;
+  bottom: 20%;
+  box-shadow: 1px 1px black;
+}
+#information ul > li {
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+#topmsg {
+  margin-top: 0px;
+  font-size: 14px;
+}
+.hidden {
+  display: none !important;
+}
+
+/* changelog & limitations */
+h4 {
+  color: #777;
+  margin: 24px 0px 0px 0px;
+}
+#changelog ul, #limitations ul {
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+/* changelog */
+#changelog li > b {
+  margin-right: 4px;
+}
+
+/* limitations */
+#limitations div > ul > li {
+  margin-top: 6px;
+}
+#limitations div {
+  font-size: 14px;
+}
+abbr {
+  cursor: help;
+  border-bottom: 1px dotted #777;
+}
