@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 2RrPPjVe7Hi1Jq8cu8H5/Q
+! Checksum: d4hWAxFkgoIIPAKLeEbfJA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 2 Nov 2018
 ! Expires: 4 days
@@ -1207,6 +1207,32 @@ symbolab.com##.tooltipster-show
 ! popads
 /:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$script,third-party
 @@||boxcloud.com^$subdocument
+! PMC sites tracking elements being blocked.
+@@||bgr.com^$generichide
+@@||footwearnews.com^$generichide
+@@||hollywoodlife.com^$generichide
+@@||spy.com^$generichide
+@@||tvline.com^$generichide
+@@||variety.com^$generichide
+@@||wwd.com^$generichide
+bgr.com##.button-facebook
+bgr.com##.button-twitter
+bgr.com##.share-buttons
+spy.com##.newsletter-signup
+spy.com##.social
+spy.com##.spy__single-share-container
+variety.com,footwearnews.com##.c-icon--pin
+variety.com,footwearnews.com##.c-top-bar__social
+variety.com,footwearnews.com##.c-widget--newsletter
+variety.com,footwearnews.com##.l-newsletter
+wwd.com###in-focus-am-ad-unit-dfp
+wwd.com##.hp-panel__newsletter-signup
+wwd.com##.pmc-adm-site-served
+wwd.com##.share-buttons
+wwd.com##.subscriber-ad
+wwd.com##.wwd-in-article-ad
+wwd.com,hollywoodlife.com,variety.com,footwearnews.com,spy.com,deadline.com,tvline.com##.admz
+wwd.com,tvline.com,variety.com,spy.com,hollywoodlife.com,footwearnews.com,bgr.com##.share-container
 ! Common .de sites 
 @@.com^*/ad_oas/$image
 @@.de*/ad_oas/$image
@@ -2196,13 +2222,6 @@ wewomen.com##.af-social-btns
 wewomen.com##.af-social-share
 wewomen.com##.af-social-share-v2
 wewomen.com##.social-icon
-! wwd.com
-@@||wwd.com^$generichide
-wwd.com###in-focus-am-ad-unit-dfp
-wwd.com##.hp-panel__newsletter-signup
-wwd.com##.share-buttons
-wwd.com##.subscriber-ad
-wwd.com##.wwd-in-article-ad
 ! venturebeat.com
 venturebeat.com#@#.adsbox
 ! geektime.co.il
