@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: SSuOaIbVBmoNWk6Lte6f6w
+! Checksum: KYX25jBJnHBNzI5Ixn9h4g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 2 Nov 2018
 ! Expires: 4 days
@@ -1226,12 +1226,14 @@ variety.com,footwearnews.com##.c-top-bar__social
 variety.com,footwearnews.com##.c-widget--newsletter
 variety.com,footwearnews.com##.l-newsletter
 wwd.com###in-focus-am-ad-unit-dfp
+wwd.com##.hp-panel-wide-newsletter-signup
 wwd.com##.hp-panel__newsletter-signup
 wwd.com##.pmc-adm-site-served
 wwd.com##.share-buttons
 wwd.com##.subscriber-ad
 wwd.com##.wwd-in-article-ad
 wwd.com,tvline.com,variety.com,spy.com,hollywoodlife.com,footwearnews.com,bgr.com,deadline.com##.admz
+wwd.com,tvline.com,variety.com,spy.com,hollywoodlife.com,footwearnews.com,bgr.com,deadline.com##.gallery__share-buttons
 wwd.com,tvline.com,variety.com,spy.com,hollywoodlife.com,footwearnews.com,bgr.com,deadline.com##.share-container
 ! Common .de sites 
 @@.com^*/ad_oas/$image
