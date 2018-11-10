@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 6qxxSK0hbQXtccBZnmc3JA
+! Checksum: t+tiTeeEgeQT9q2DackpLw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 10 Nov 2018
 ! Expires: 4 days
@@ -1024,6 +1024,10 @@ youporn.com###adblock_1
 ||cloudfront.net/abw.js
 ||sqweb.com^$third-party
 ||techweb.com/adblocktrack
+! alphahistory.com
+alphahistory.com###heateor_ss_browser_popup_bg
+alphahistory.com###the_champ_sharing_more_providers
+alphahistory.com##.the_champ_sharing_container
 ! oload.site
 @@||easylist.club/ados.js$script
 @@||easylist.club/popunder*.js$script
