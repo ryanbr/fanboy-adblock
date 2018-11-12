@@ -7858,6 +7858,7 @@ spiceworks.com##.sui-site-message-container
 spox.com##.spxcib
 squarespace.com###announcement
 stargreen.com##div[style^="color: rgb(238, 238, 238);"]
+strawpoll.me##[class^="app_gdpr--"]
 tartybikes.co.uk###eureg
 tastedive.com##.tk-Footer
 tbs.com,tntdrama.com##.toast
