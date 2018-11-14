@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: aMxPLdQOj4denPI1hOcvlQ
+! Checksum: OzeeA5qfmMEYrAWamhzNGw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 14 Nov 2018
 ! Expires: 4 days
@@ -1066,7 +1066,10 @@ hdmotori.it,hdmagazine.it,hdblog.it,hdtroll.it##.social_buttons
 !
 ! gamepedia.com 
 @@?&$image,domain=gamepedia.com
+gamepedia.com###fptwitter
 gamepedia.com##.ad-main-med-rect-footer
+gamepedia.com##.floatnone
+gamepedia.com##.social
 gamepedia.com##.socialSidebar
 ! anime-extremo.com
 anime-extremo.com##.cookie-notice-container
