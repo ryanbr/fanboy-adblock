@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 5P6v8XP5ykl5RAQa9CKqtA
+! Checksum: OdXxSxqhHP3gRGgwTHPyiw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Dec 2018
 ! Expires: 4 days
@@ -1332,7 +1332,6 @@ oxfordmail.co.uk##.top-socialbar
 @@||ad.doubleclick.net/ddm/$xmlhttprequest,domain=twitch.tv
 @@||client-event-reporter.twitch.tv^$xmlhttprequest,domain=twitch.tv
 @@||trowel.twitch.tv^$xmlhttprequest,domain=twitch.tv
-twitch.tv##.extension-frame-wrapper
 twitch.tv##.tw-z-above.blue-bar
 twitch.tv#@#.companion-ad
 ||twitchcdn.net/v1.js
