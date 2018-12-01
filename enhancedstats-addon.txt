@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: DJYgO1pB4nnbMvJp7DnUKw
+! Checksum: bq1+f3yEJ+v0AAwboMjvBw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Dec 2018
 ! Expires: 4 days
@@ -452,6 +452,7 @@ palemoon.org##div[id][style="display: block;"]:first-child
 pornhub.com###abAlert
 realclearpolitics.com###warning_empty_div
 redtube.com###slidePanelContainerAB
+resdz.com##.special-message-wrapper
 slate.com##.kicker-promo
 sportsnet.ca##.sticky.bigbox_container
 thenewcivilrightsmovement.com##.block-alert
