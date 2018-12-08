@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: T5EbSeSywGJy6TTHFE+O3w
+! Checksum: 9FUHHaqF3XhKKLajDMwikg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 8 Dec 2018
 ! Expires: 4 days
@@ -1658,10 +1658,12 @@ yalujailbreak.net##.cookie-notice-container
 @@||bludv.com^$generichide
 ! vox.com
 vox.com###privacy-consent
+vox.com##.adblock-whitelist-messaging__wrapper
 vox.com##.c-global-header__social
 vox.com##.c-newsletter_signup_box__main
 vox.com##.c-social-buttons
 vox.com##.main-social
+vox.com##.tab-bar-fixed.c-tab-bar
 ! theatlantic.com
 @@||g.doubleclick.net/gampad/ads?gdfp_req=1&$script,domain=theatlantic.com
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=theatlantic.com
