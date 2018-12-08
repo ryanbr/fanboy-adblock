@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 9FUHHaqF3XhKKLajDMwikg
+! Checksum: kNVH4kTELGDdUbBx1pk7VA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 8 Dec 2018
 ! Expires: 4 days
@@ -1632,14 +1632,8 @@ pornhdx.tv##.onplayerADS
 ! animeheaven.eu
 @@||animeheaven.eu/b/$script
 @@||animeheaven.eu^$generichide
-! cinestrenostv.tv
-@@.gif#$image,domain=cinestrenostv.tv
-@@||latelete.tv^$generichide
-cinestrenostv.tv##div[style*="position:relative"]
 ! theargus.co.uk
 theargus.co.uk##div[style="display:block!important"]
-! lukkr.com
-@@||lukkr.com^$generichide
 ! appdrop.net
 @@||appdrop.net^$generichide
 ! squidboards.com
@@ -1672,12 +1666,11 @@ vox.com##.tab-bar-fixed.c-tab-bar
 @@||theatlantic.com^$generichide
 @@||theatlantic.com^*/adv$script
 theatlantic.com###email-signup
-theatlantic.com###site-footer-follow
-theatlantic.com##.c-leaflet
-! 7/14/2018, 5:42:51 PM https://www.theatlantic.com/science/archive/2018/07/herpes-viruses-alzheimers/564887/?single_page=true
 theatlantic.com###series-newsletter-signup
+theatlantic.com###site-footer-follow
 theatlantic.com##.ad-boxamp-wrapper
 theatlantic.com##.ad-boxrr-wrapper
+theatlantic.com##.c-leaflet
 theatlantic.com##.ha-js-newsletter-promo
 theatlantic.com##.share-wrapper
 ||theatlantic.com/assets/static/b/theatlantic/js/vendors.min.*.js
@@ -1720,19 +1713,13 @@ dispatch.com##[data-gh-lazy-ad-loaded]
 @@||macgames-download.com^$generichide
 ! hardware.info
 hardware.info#@#.advertorial
-! raptu.com
-@@||bambergerkennanchitinous.com^$script,domain=raptu.com
-@@||raptu.com/js/googleads.js
-@@||raptu.com^$generichide
 ! geekzone.co.nz
 ! @@||disqus.com^$domain=geekzone.co.nz
 ! @@||disquscdn.com^$domain=geekzone.co.nz
 @@||geekzone.co.nz^$generichide
 geekzone.co.nz##.share__button
 geekzone.co.nz##div[style*="width:160px;height:600px;"]
-!  @@||tinymce.com/4/tinymce.min.js$domain=geekzone.co.nz
 geekzone.co.nz##div[style*="width:336px; height:280px;"]
-! |http*://$script,stylesheet,subdocument,third-party,xmlhttprequest,domain=geekzone.co.nz
 ! flashback.org
 @@||flashback.org/ads/
 ! adage.com
@@ -1813,7 +1800,9 @@ wwwshooter.com##[data-ad-client]
 @@||gamereactor.eu^$generichide
 gamereactor.dk,gamereactor.eu###ads_top2
 gamereactor.dk,gamereactor.eu###cookielawwarning
+gamereactor.dk,gamereactor.eu###darkoverlay
 gamereactor.dk,gamereactor.eu###facebooknotification
+gamereactor.dk,gamereactor.eu###helloDollywarning
 gamereactor.dk,gamereactor.eu###likebuttons
 gamereactor.dk,gamereactor.eu##.fb-like
 gamereactor.dk,gamereactor.eu##.fb-like-box
@@ -1840,13 +1829,8 @@ clubic.com##.OUTBRAIN
 buickforums.com##td[align="center"][height="150"]
 ||madisonross.com/adblock.html
 ||madisonross.com/images/top.jpg
-! filechoco.net
-@@||78cc571ae97.net/googlead.js$domain=filechoco.net
-@@||filechoco.net^$generichide
 ! jav911.com
 @@||jav911.com^$generichide
-! new-skys.net
-@@||new-skys.net^$generichide
 ! hax
 @@||haxcolors.com^$generichide
 @@||haxmaps.com^$generichide
@@ -1867,10 +1851,7 @@ windowscentral.com,crackberry.com,imore.com,androidcentral.com##.article-leaderb
 windowscentral.com,crackberry.com,imore.com,androidcentral.com##.bf-newsletter
 windowscentral.com,crackberry.com,imore.com,androidcentral.com##.header-top-alert-bar
 windowscentral.com,crackberry.com,imore.com,androidcentral.com##.region-page-header.region
-! sopsport.org
-@@||sopsport.org^$generichide
-sopsport.org##.ya-share2__container
-! tg007.nett
+! tg007.net
 @@||tg007.net^$generichide
 g007.net###socialbuttons
 tg007.net##.fb-page
@@ -1917,10 +1898,6 @@ vulture.com###bottom
 @@||blockadblock.com^$generichide
 ! cs-fundamentals.com
 cs-fundamentals.com###adBlockerAlert
-! macos-app.com
-@@||macos-app.com^$generichide
-macos-app.com##.widget_FacebookLikeBox
-macos-app.com##[data-ad-client]
 ! prevention.com
 @@||prevention.com^*ad$script
 ! distrowatch.com
@@ -1967,12 +1944,6 @@ pri.org##.sharing-links--body
 @@||keshavcommoditycalls.com^$generichide
 keshavcommoditycalls.com###social
 keshavcommoditycalls.com##.sd-sharing
-! onperiscope.com
-onperiscope.com##.banner
-! forum.pac-rom.com
-forum.pac-rom.com#@#.banner_ads
-! croydonguardian.co.uk
-croydonguardian.co.uk##SCRIPT + [id][style*="display:block"]
 ! nordichardware.se
 @@||nordichardware.se^$generichide
 nordichardware.se##.footer-social-wrap
@@ -2052,6 +2023,7 @@ geo.de##.social-bar
 @@||1001tracklists.com^$generichide
 ! sms-receive.net
 @@||sms-receive.net/advertisment.js
+sms-receive.net##.uk-alert-danger
 ! handelsblatt.com
 @@||handelsblatt.com^*/iqadcontroller.js
 ! bild.de
