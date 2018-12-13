@@ -7956,6 +7956,8 @@ abril.com.br###barra-mini-home
 airbnb.be##._puzpiop
 airbnb.be##.flash-container
 akcneletaky.sk###infoCoo
+www.modrykonik.sk##DIV[class="nc_a pl_nz pl_a pl_j pl_q"]
+www.modrykonik.sk##[id="mk-branding-0"]
 apartmanija.hr###site_nt
 bpost.be,comparateur-energie.be,ingbank.cz,totalmoney.sk##.cookies
 dalmatinskiportal.hr,repertuarim.com##.cookie
