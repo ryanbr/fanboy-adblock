@@ -2567,7 +2567,6 @@ telecinco.es,eltiempohoy.es###cookiesAlert
 telecinco.es,eltiempohoy.es##div[class^="article__shared_bar"]
 themarker.com###art__tools_share
 themarker.com###top_banners
-themarker.com##.art__info
 themarker.com##.promo
 tout-bon.com##.fb-page
 tout-bon.com##.social-links
