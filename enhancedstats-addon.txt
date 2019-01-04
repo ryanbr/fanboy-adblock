@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: AHp5AZ1DRaPeNsbr7jIDPQ
+! Checksum: j1qWyxg7A6JHkRbWsZh1Zw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 4 Jan 2019
 ! Expires: 4 days
@@ -1410,6 +1410,8 @@ reddit.com##.dfp-ad-container
 ||reddit.com/static/pixel.png$image
 ! meganetv.id
 @@||meganetv.id^$generichide
+! soundonsound.com
+soundonsound.com#@#.adsbox
 ! wbur.org
 wbur.org#@#.adsbox
 ! stltoday.com
