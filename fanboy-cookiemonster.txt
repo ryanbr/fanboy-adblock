@@ -1,11 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: SPvAtFjDZMV026qKiUDZfg
+! Checksum: oEZoI+fbf3QfZZXs4Rzf9A
 ! Title: Fanboy's Cookiemonster List
-! Updated: 3 Jun 2018
+! Updated: 3 Jan 2019
 ! Expires: 4 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
 ! Reporting Issues: https://github.com/ryanbr/fanboy-adblock/issues
+! Redirect: https://easylist-downloads.adblockplus.org/fanboy-cookie.txt
 !
 ! Legal stuff. (T&C's)
 ! In no event shall Fanboy List, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
