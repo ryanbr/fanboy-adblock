@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: q6NkXXMhn0lJgxKF8g5jtA
+! Checksum: FlY9gfQ46XCgTxk/GkFrCg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 20 Jan 2019
 ! Expires: 4 days
@@ -1410,6 +1410,10 @@ mylivecricket.cc###vad
 @@||mgid.com/i.js$script,domain=multiup.eu
 ! verdirectotv.com
 verdirectotv.com##img[src^="http://verdirectotv.com/wp-content/themes/wtb-video-black/"]
+! spiegel.de
+@@||imagesrv.adition.com^$image,domain=spiegel.de
+@@||research.de.com^$script,domain=spiegel.de
+@@||www.googletagservices.com/tag/js/gpt.js$script,domain=spiegel.de
 ! xarold.com
 @@||xarold.com/*ads.php
 ! reddit.com (TEST)
