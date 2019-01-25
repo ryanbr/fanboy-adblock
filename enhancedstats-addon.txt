@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: qUSQssC3CoTa7zhISVEuxQ
+! Checksum: D+xREsMh2L17hv4MV9zj7g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 Jan 2019
 ! Expires: 4 days
@@ -1429,6 +1429,11 @@ golem.de###golem-cookie-accept
 golem.de##.gnlform.subscribe-newsletter
 golem.de##.social-tools--inverted
 ||d.bacontent.de^$script
+! focus.de
+@@||focus.de^$generichide
+focus.de###nlgate
+focus.de##.article-social-border
+focus.de##.teaserBlock
 ! xarold.com
 @@||xarold.com/*ads.php
 ! reddit.com (TEST)
