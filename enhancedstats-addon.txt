@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 5I5TGwRkwDGFrtFXcPbdmw
+! Checksum: qUSQssC3CoTa7zhISVEuxQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 Jan 2019
 ! Expires: 4 days
@@ -1422,6 +1422,13 @@ verdirectotv.com##img[src^="http://verdirectotv.com/wp-content/themes/wtb-video-
 stern.de##.guj-cb
 stern.de##.navigation-btn-social
 stern.de##.trac-teaserblock
+! golem.de
+@@&*=$script,domain=www.golem.de
+@@||golem.de$generichide
+golem.de###golem-cookie-accept
+golem.de##.gnlform.subscribe-newsletter
+golem.de##.social-tools--inverted
+||d.bacontent.de^$script
 ! xarold.com
 @@||xarold.com/*ads.php
 ! reddit.com (TEST)
