@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: aMIrCxu98vJ/mV1uRuplqg
+! Checksum: 5BfyDFFwXUjYwPBsJz+esg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 3 Feb 2019
 ! Expires: 4 days
@@ -2738,6 +2738,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||akamai.net/*/www-origin.walmart.com/webanalytics/$domain=walmart.com
 @@||akamai.net^*/hints.netflame.cc/$domain=annualcreditreport.com
 @@||amd.com/*/scode_global.js
+@@||amd.com/js/analytics/analyticscore.js
 @@||amd.com/us/as/scode_$script
 @@||apple.com/pages/omniture/js/util.js?
 @@||apple.com^*/omniture_tracking.js
