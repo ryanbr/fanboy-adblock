@@ -4,6 +4,7 @@
 ! Updated: 15 Jul 2012
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
+! Expires: 90 days
 ! Redirect: https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!! Officially unsupported !!!!!!!!!!!!!!

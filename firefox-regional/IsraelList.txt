@@ -3,6 +3,7 @@
 ! Title: Fanboy's IsraelList
 ! Updated: 19 Aug 2013
 ! Homepage: http://www.fanboy.co.nz/
+! Expires: 90 days
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!! Officially unsupported !!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

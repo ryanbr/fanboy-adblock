@@ -1,10 +1,11 @@
 [Adblock Plus 1.1]
-! Checksum: 1X95zSm8DlgbtDb+wpe5/A
+! Checksum: u7a3hrmnOLP5hc8NdsL+og
 ! Title: Fanboy's Italian
-! Updated: 19 Feb 2017
+! Updated: 8 Feb 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
 ! Redirect: https://easylist-downloads.adblockplus.org/easylistitaly.txt
+! Expires: 90 days
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!! Officially unsupported !!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
