@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: I/+ZeEAxCYwfj7UkcKmk5Q
+! Checksum: /WFa3xJRmk7oVVkOEq1KmQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 16 Feb 2019
+! Updated: 23 Feb 2019
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -366,6 +366,7 @@ _wtBase.js
 _wtbaseV2.
 _wtInit.js
 ! referal tracking of vpns
+##[href^="https://go.nordvpn.net/aff"]
 ||cybertool.co^*?aff_id=$document
 ||get-express-vpn.com/*?a_fid=$document
 ||online-protection-now.com/*&aff_id=$document
