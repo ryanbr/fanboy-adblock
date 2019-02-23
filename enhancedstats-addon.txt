@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: RS5o9nlhVi5dd9PlddDqNA
+! Checksum: efnx8ZoMUz43rjPrXBBS7g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 23 Feb 2019
 ! Expires: 5 days
@@ -372,7 +372,7 @@ _wtInit.js
 ||privacysecurityprotection.com^*?source=$document
 ||privateinternetaccess.com/pages/buy-vpn/$document
 ||windscribe.com/?affid=$document
-~cybertool.co|~cyberghostvpn.com##[href*.cybertool.co"]
+~cybertool.co,~cyberghostvpn.com##[href*.cybertool.co"]
 ~expressvpn.com##[href*=".expressvpn.com"]
 ~get-express-vpn.com##[href*.get-express-vpn.com"]
 ~hidemyass.com##[href*=".hidemyass.com"]
