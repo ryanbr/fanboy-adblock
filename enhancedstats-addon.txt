@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: /WFa3xJRmk7oVVkOEq1KmQ
+! Checksum: RS5o9nlhVi5dd9PlddDqNA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 23 Feb 2019
 ! Expires: 5 days
@@ -366,13 +366,30 @@ _wtBase.js
 _wtbaseV2.
 _wtInit.js
 ! referal tracking of vpns
-##[href^="https://go.nordvpn.net/aff"]
 ||cybertool.co^*?aff_id=$document
 ||get-express-vpn.com/*?a_fid=$document
 ||online-protection-now.com/*&aff_id=$document
 ||privacysecurityprotection.com^*?source=$document
 ||privateinternetaccess.com/pages/buy-vpn/$document
 ||windscribe.com/?affid=$document
+~cybertool.co|~cyberghostvpn.com##[href*.cybertool.co"]
+~expressvpn.com##[href*=".expressvpn.com"]
+~get-express-vpn.com##[href*.get-express-vpn.com"]
+~hidemyass.com##[href*=".hidemyass.com"]
+~ibvpn.com##[href*=".ibvpn.com"]
+~nordvpn.com##[href*=".nordvpn.net"]
+~online-protection-now.com##[href*.online-protection-now.com"]
+~ovpn.com##[href*=".ovpn.com"]
+~privacysecurityprotection.com##[href*.privacysecurityprotection.com"]
+~privateinternetaccess.com##[href*.privateinternetaccess.com"]
+~purevpn.com##[href*=".purevpn.com"]
+~safervpn.com##[href*=".safervpn.com"]
+~surfeasy.com##[href*=".surfeasy.com"]
+~torguard.net##[href*=".torguard.net"]
+~torguard.net##[href*=".torguard.net"]
+~totalvpn.com##[href*=".totalvpn.com"]
+~virtualshield.com##[href*=".virtualshield.com"]
+~windscribe.com##[href*.windscribe.com"]
 ! popads tracking
 /favicon.ico$image,third-party,domain=~ebay.com|~go.com|~github.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com
 ! push notifications test filter
