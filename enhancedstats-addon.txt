@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: NjAeXBAUKJIAp4d4HkY+CQ
+! Checksum: HH4D2XM+Oi2N8dxcdazT1w
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 24 Feb 2019
 ! Expires: 5 days
@@ -1084,6 +1084,8 @@ alphahistory.com##.the_champ_sharing_container
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=e-glossa.it|teknomatch.com|mufasi.ga|syriancivilwarmap.com|makeuseof.com|yalujailbreak.net|sportspf.com|rockfile.co|fileflares.com|techsolutiontips.com|avoiderrors.net|steamid.eu|xarold.com|new-skys.net|haxcolors.com|haxmaps.com|haxrec.com|onperiscope.com|australianfrequentflyer.com.au|tivocommunity.com|intercelestial.com|wordsense.eu|onecccam.com|newz.dk|playonlinux.com
 @@||googlesyndication.com/pagead/show_ads.js$domain=new-skys.net
 !
+! wccftech.com
+||wccftech.com/*.js?ts=$script
 ! mundodoandroidapk.com,mundodroidgames.com
 ! https://github.com/ryanbr/fanboy-adblock/issues/603
 mundodoandroidapk.com,mundodroidgames.com##.td-more-articles-box
