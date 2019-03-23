@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 9EZUEphqsVXcqclHgJ9oDQ
+! Checksum: 7+I4uOiBiRDINM5G4dBv1w
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 23 Mar 2019
 ! Expires: 5 days
@@ -1099,10 +1099,12 @@ mundodoandroidapk.com,mundodroidgames.com##.td-post-sharing-bottom
 ! reuters.com
 @@||admantx.com^$domain=reuters.com
 @@||atonato.de^$xmlhttprequest
+@@||contextual.media.net^$script,domain=reuters.com
 @@||dianomi.com^$script,xmlhttprequest,domain=reuters.com
 @@||google.*/ads/$image,domain=reuters.com
 @@||reutersmedia.net^*/ad$image,domain=reuters.com
 @@||www.reuters.com/ads.js$script,domain=reuters.com
+reuters.com###spacerElement
 ! purposegames.com
 purposegames.com##.adbar
 purposegames.com##.adslot_1
