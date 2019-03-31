@@ -1345,7 +1345,7 @@ gosugamers.net###footerWrapper
 ! symbolab.com
 symbolab.com##.tooltipster-show
 ! Admiral
-/\.com/.*[a-f0-9]{110}/$script,image,third-party,domain=~parship.com|~feedbin.com|~aliexpress.com|~alipay.com|~bilibili.com|~namu.wiki|~fastmail.com
+/\.com/.*[a-f0-9]{110}/$script,image,third-party,domain=~parship.com|~feedbin.com|~aliexpress.com|~alipay.com|~bilibili.com|~namu.wiki|~fastmail.com|~wayfair.com
 ! /\.com\/.*[0-9]{6,9}\/\?/$popup
 @@||githubusercontent.com^$image
 @@||vmp.boldchat.com/aid/$script
