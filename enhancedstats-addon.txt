@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: jDgZE2nL6MEGlmhV6Kljvw
+! Checksum: xUEj70WolhdyQu/nhIK8yQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Apr 2019
 ! Expires: 5 days
@@ -1596,17 +1596,29 @@ kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earth
 kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.mezzanine
 kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.newsletter-subscribe
 ! cnet.com
+@@.js?$script,domain=cnet.com
 @@?&$image,domain=cnet.com
+@@?*=$domain=cnet.com
 @@||cnet.com^$generichide
+@@||js-sec.indexww.com^$script,domain=cnet.com
+@@||mtrx.go.sonobi.com^$script,domain=cnet.com
+@@||native.sharethrough.com/assets/$script,domain=cnet.com
+@@||s0.2mdn.net^$media,domain=cnet.com
+@@||securepubads.g.doubleclick.net/gpt/$script,domain=cnet.com
+@@||tpc.googlesyndication.com^$other,domain=cnet.com
+@@||us-ads.openx.net^$media,domain=cnet.com
+@@||widget.perfectmarket.com/cbsinteractive-cnet/$script,domain=cnet.com
 cnet.com###gdpr_area
 cnet.com###googleplus
-cnet.com##.ad-nav-ad
-cnet.com##.ad-nav-ad-plus
-cnet.com##.ad-replay-wide-top
+cnet.com##.ad-incontent-ad-plus-billboard-top
+cnet.com##.ad-mpu-plus-top
 cnet.com##.social-inner
 cnet.com##.socialSharing
-cnet.com##.taboola
-cnet.com##div[class^="ad-incontent-"]
+cnet.com##.type-native
+cnet.com##div[id^="leader-top-"]
+cnet.com##div[id^="nav-ad-"]
+cnet.com#@#.trc_elastic
+cnet.com#@#div[id^="trc_wrapper_"]
 ! doridro.net
 @@||doridro.net^$generichide
 ! indianhotcomics.com
