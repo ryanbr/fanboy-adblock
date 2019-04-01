@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: S5mzQE8x5FRR27IS4lWTuQ
+! Checksum: K0SGTu00vtParnnMESH7Iw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Apr 2019
 ! Expires: 5 days
@@ -1412,15 +1412,10 @@ trueachievements.com##.followuson
 @@?*=$domain=vg.no
 @@||vg.no^$generichide
 vg.no###ad-front-topboard
-vg.no###ad-netboard_1
-vg.no###ad-netboard_2
 vg.no###ad-topboard
-vg.no###adPlacement_2
-vg.no###adPlacement_5
-vg.no###adPlacement_6
-vg.no###adPlacement_7
-vg.no###adPlacement_8
-vg.no###adPlacement_9
+vg.no##div[id^="ad-front"]
+vg.no##div[id^="ad-netboard"]
+vg.no##div[id^="adPlacement_"]
 ! emedicinehealth.com
 @@?&$image,domain=emedicinehealth.com
 emedicinehealth.com###AD_Top_rdr
