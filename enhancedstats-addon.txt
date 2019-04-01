@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: y/f24/0B4YiI22CrxCJHDg
+! Checksum: rHj0XzJpswZ5bieV5I8pgA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Apr 2019
 ! Expires: 5 days
@@ -1603,6 +1603,8 @@ cnet.com##div[class^="ad-incontent-"]
 ||leakedearly.gdn/wp-content/uploads/$script
 ! hdmovie7.today
 @@||hdmovie7.today^$generichide
+!  facebook.com (test filter)
+facebook.com##.t_aagrxu098 > [href*="http"]
 ! washingtonpost.com
 washingtonpost.com###signup-box-instream
 washingtonpost.com###signup-box-rr
