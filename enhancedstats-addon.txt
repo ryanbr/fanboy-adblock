@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: xUEj70WolhdyQu/nhIK8yQ
+! Checksum: 3coKf+zWaSwXjbKtNM8AWA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Apr 2019
 ! Expires: 5 days
@@ -1397,7 +1397,12 @@ brightonandhovenews.org,gamerotic.com##.special-message-wrapper
 pcgameshardware.de###cookie-bar
 pcgameshardware.de##.dataPrivacyOverlay
 pcgameshardware.de##.reloadableGPT
+pcgameshardware.de##.schnaeppchenScrollAd
 pcgameshardware.de##.socialLinks
+pcgameshardware.de##[src^="/screenshots/147x110/2018/"]
+pcgameshardware.de##[src^="/screenshots/74x96/"]
+! 4/1/2019 pcgameshardware.de
+@@||pcgameshardware.de/hic_qos?ads&adserv=$script
 ! trueachievements.com 
 @@?*=$script,third-party,domain=trueachievements.com
 trueachievements.com###topad-wrap
