@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Pz5yEXv65IVuKc8Nt51QAg
+! Checksum: 48UKQQaAHWB6H0Fu5xs4pg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 6 Apr 2019
 ! Expires: 5 days
@@ -1563,6 +1563,8 @@ reddit.com##.dfp-ad-container
 reddit.com##.premium-banner
 reddit.com##.s1tljykw-0
 reddit.com##.ynts11-1
+www.reddit.com|$xmlhttprequest
+||reddit.com/api/me.json?*=$xmlhttprequest
 ||reddit.com/static/pixel.png$image
 ! meganetv.id
 @@||meganetv.id^$generichide
