@@ -1,0 +1,25 @@
+[Adblock Plus 2.0]
+! Checksum: GzwPwmkPV4mEmq3ly0BUPw
+! Title: Anti-Messenging List
+! Updated: 7 Apr 2019
+! Expires: 10 days
+! License: http://creativecommons.org/licenses/by/3.0/
+! Homepage: http://www.fanboy.co.nz/
+! Reporting Issues: https://github.com/ryanbr/fanboy-adblock/issues
+!
+! Legal stuff (T&C's) .
+! In no event shall Fanboy List, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+!
+!
+! Warning, will break on facebook-based comment sites and may also break on some facebook apps or games.
+!
+! Thirdparty Filters
+!
+||api.purechat.com^$third-party
+||assets.zendesk.com^$script,third-party
+||boldchat.com^$third-party
+||livechatinc.com^$third-party
+||salesforceliveagent.com^$third-party
+||snapengage.com/chatjs/$third-party
+||zopim.com^$third-party
