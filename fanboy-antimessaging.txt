@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: FbxRLI1Bbg78fsyovQpT7Q
+! Checksum: PNifVmEZpbkiWHCbwd81WQ
 ! Title: Anti-Messenging List
 ! Updated: 7 Apr 2019
 ! Expires: 10 days
@@ -28,3 +28,6 @@
 ||zendesk.com^*/host.js
 ||zendesk.tv^$third-party
 ||zopim.com^$third-party
+!
+! Generic Element
+##div[id^="LiveChat_"]
