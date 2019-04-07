@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: qy6fc40nDya8s41fx8+38g
+! Checksum: b7bQVWSq4j4g+mF2S0QX0A
 ! Title: Anti-Messenging List
 ! Updated: 7 Apr 2019
 ! Expires: 10 days
@@ -22,6 +22,7 @@
 ||api.purechat.com^$third-party
 ||assets.zendesk.com^$script,third-party
 ||boldchat.com^$third-party
+||embed.tawk.to^*/default$third-party
 ||engage.wixapps.net^$third-party
 ||livechatinc.com^$third-party
 ||liveperson.net/tag/tag.js$third-party
