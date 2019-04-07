@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: PNifVmEZpbkiWHCbwd81WQ
+! Checksum: pqzZMBoygrtEs5i4nrN5/w
 ! Title: Anti-Messenging List
 ! Updated: 7 Apr 2019
 ! Expires: 10 days
@@ -24,6 +24,7 @@
 ||salesforceliveagent.com^$third-party
 ||sitejabber.com^$third-party
 ||snapengage.com/chatjs/$third-party
+||xsellco.com/js/widgets.js
 ||zdassets.com^$third-party,~stylesheet
 ||zendesk.com^*/host.js
 ||zendesk.tv^$third-party
