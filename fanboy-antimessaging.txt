@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: pqzZMBoygrtEs5i4nrN5/w
+! Checksum: qy6fc40nDya8s41fx8+38g
 ! Title: Anti-Messenging List
 ! Updated: 7 Apr 2019
 ! Expires: 10 days
@@ -14,6 +14,9 @@
 !
 ! Warning, will break on facebook-based comment sites and may also break on some facebook apps or games.
 !
+! Generic Filters
+/LivePerson.js$script
+!
 ! Thirdparty Filters
 !
 ||api.purechat.com^$third-party
@@ -21,6 +24,7 @@
 ||boldchat.com^$third-party
 ||engage.wixapps.net^$third-party
 ||livechatinc.com^$third-party
+||liveperson.net/tag/tag.js$third-party
 ||salesforceliveagent.com^$third-party
 ||sitejabber.com^$third-party
 ||snapengage.com/chatjs/$third-party
