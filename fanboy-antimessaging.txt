@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 4Od3CXYobTOFBIkQVQc51Q
+! Checksum: uKDL7DrHY1L/7njwxu+gRg
 ! Title: Anti-Messenging List
-! Updated: 24 Apr 2019
+! Updated: 25 Apr 2019
 ! Expires: 10 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -30,6 +30,7 @@
 ||salesforceliveagent.com^$third-party
 ||sitejabber.com^$third-party
 ||snapengage.com/chatjs/$third-party
+||tag.contactatonce.com^$third-party
 ||wchat.freshchat.com^$third-party
 ||xsellco.com/js/widgets.js
 ||zdassets.com^$third-party,~stylesheet
