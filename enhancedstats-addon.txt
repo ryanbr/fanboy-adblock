@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: dh9H0spJf7wj5nVskugo2A
+! Checksum: XwUILpJ4sioeKU/74zRh8A
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 26 Apr 2019
 ! Expires: 5 days
@@ -1700,6 +1700,7 @@ trekbbs.com##div[style="width:970px;height:250px;"]
 ! gaana.com
 gaana.com##.add_block
 ! talkingpointsmemo.com
+talkingpointsmemo.com##.--postheader.BannerAd
 talkingpointsmemo.com##.Footer__Social
 talkingpointsmemo.com##.js_preheader-ad-container
 talkingpointsmemo.com##.Sharebar
