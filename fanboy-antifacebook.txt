@@ -12,7 +12,7 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 !
 !
-! Warning, will break on facebook-based comment sites and may also break on some facebook apps or games.
+! Warning, will break on Facebook-based comment sites and may also break on some Facebook apps or games.
 !
 ! Thirdparty Filters
 !
