@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: kEg4az3x+puxuyjEuCKkfg
+! Checksum: 6IEOUcAWZkvANiovVfs5Mw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 10 May 2019
 ! Expires: 5 days
@@ -2189,6 +2189,7 @@ techradar.com##.inbody__newsletter
 techradar.com##.newsletter-signup
 techradar.com##.socialite-widget
 ! phoronix.com
+phoronix.com###content-bg > #content > #main-wrap > #main > .full > [id]
 phoronix.com##div[id^="google_ads_iframe_"]
 phoronix.com##iframe[id^="google_ads_iframe"]
 phoronix.com#@#.adsbygoogle
