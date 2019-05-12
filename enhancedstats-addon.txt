@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 90Jd7V9YwfhiY/XwY1ldLw
+! Checksum: a2J7Us/ZhISRC7eVneieVg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 12 May 2019
 ! Expires: 5 days
@@ -371,24 +371,24 @@ _wtInit.js
 ||privacysecurityprotection.com^*?source=$document
 ||privateinternetaccess.com/pages/buy-vpn/$document
 ||windscribe.com/?affid=$document
-~cybertool.co,~cyberghostvpn.com##[href*.cybertool.co"]
-~expressvpn.com##[href*=".expressvpn.com"]
-~get-express-vpn.com##[href*.get-express-vpn.com"]
-~hidemyass.com##[href*=".hidemyass.com"]
-~ibvpn.com##[href*=".ibvpn.com"]
-~nordvpn.com##[href*=".nordvpn.net"]
-~online-protection-now.com##[href*.online-protection-now.com"]
-~ovpn.com##[href*=".ovpn.com"]
-~privacysecurityprotection.com##[href*.privacysecurityprotection.com"]
-~privateinternetaccess.com##[href*.privateinternetaccess.com"]
-~purevpn.com##[href*=".purevpn.com"]
-~safervpn.com##[href*=".safervpn.com"]
-~surfeasy.com##[href*=".surfeasy.com"]
-~torguard.net##[href*=".torguard.net"]
-~torguard.net##[href*=".torguard.net"]
-~totalvpn.com##[href*=".totalvpn.com"]
-~virtualshield.com##[href*=".virtualshield.com"]
-~windscribe.com##[href*.windscribe.com"]
+~privacytools.io,~cybertool.co,~cyberghostvpn.com##[href*.cybertool.co"]
+~privacytools.io,~expressvpn.com##[href*=".expressvpn.com"]
+~privacytools.io,~get-express-vpn.com##[href*.get-express-vpn.com"]
+~privacytools.io,~hidemyass.com##[href*=".hidemyass.com"]
+~privacytools.io,~ibvpn.com##[href*=".ibvpn.com"]
+~privacytools.io,~nordvpn.com##[href*=".nordvpn.net"]
+~privacytools.io,~online-protection-now.com##[href*.online-protection-now.com"]
+~privacytools.io,~ovpn.com##[href*=".ovpn.com"]
+~privacytools.io,~privacysecurityprotection.com##[href*.privacysecurityprotection.com"]
+~privacytools.io,~privateinternetaccess.com##[href*.privateinternetaccess.com"]
+~privacytools.io,~purevpn.com##[href*=".purevpn.com"]
+~privacytools.io,~safervpn.com##[href*=".safervpn.com"]
+~privacytools.io,~surfeasy.com##[href*=".surfeasy.com"]
+~privacytools.io,~torguard.net##[href*=".torguard.net"]
+~privacytools.io,~torguard.net##[href*=".torguard.net"]
+~privacytools.io,~totalvpn.com##[href*=".totalvpn.com"]
+~privacytools.io,~virtualshield.com##[href*=".virtualshield.com"]
+~privacytools.io,~windscribe.com##[href*.windscribe.com"]
 ! popads tracking
 /favicon.ico$image,third-party,domain=~bt.com|~ebay.com.au|~ebay.com|~go.com|~github.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com
 ! push notifications test filter
