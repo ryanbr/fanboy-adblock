@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: a2J7Us/ZhISRC7eVneieVg
+! Checksum: jMCeApSyJ5ONzht1T+m3jQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 12 May 2019
 ! Expires: 5 days
@@ -2936,8 +2936,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||directline.com/etc/clientlibs/$script
 @@||disney.go.com/globalelements/footer/comscore.txt
 @@||dominos.com/olo/*.tealium.js
-@@||dynamicyield.com^*/api_dynamic.js$domain=gp.se
-@@||dynamicyield.com^*/api_static.js$domain=gp.se
+@@||dynamicyield.com^*/api_$domain=gp.se|elgiganten.se|elgiganten.dk|elkjop.no|gigantti.fi
 @@||ebaystatic.com^*_Omniture_$script
 @@||eircomphonebook.ie/js/wt_capi.js
 @@||eloqua.com^*/svrGP.aspx?$subdocument,domain=itworld.com
