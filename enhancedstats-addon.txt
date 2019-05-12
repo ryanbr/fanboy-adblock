@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: p1afBrYZXnJuiB4CX4D1ug
+! Checksum: OhepxjfrDn7KirHvQrFZGw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 12 May 2019
 ! Expires: 5 days
@@ -1245,6 +1245,8 @@ dailybreeze.com,sbsun.com,santacruzsentinel.com,siliconvalley.com,chicoer.com,ti
 eskago.pl###mpc_cookie_intro
 !todaysparent.com
 todaysparent.com##.daac-desktop-notice
+! animefever.tv
+@@||animefever.tv/themes/app/static/js/adsbygoogle.js
 ! wcvb.com
 wcvb.com##.ad-leaderboard
 wcvb.com##.ad-rectangle
