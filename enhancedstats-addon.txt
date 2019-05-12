@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: rZvylzPP0aq+rJl0NebWTw
+! Checksum: 90Jd7V9YwfhiY/XwY1ldLw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 10 May 2019
+! Updated: 12 May 2019
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2896,6 +2896,7 @@ xkorean.net##a[href*="&aff_id"]
 @@/webtrends.js$domain=radio-canada.ca|canon.com|horizon-bcbsnj.com|kaiserpermanente.org|logitech.com|reuters.com|telegraph.co.uk|usps.com
 @@||aarp.net/etc/aarp/statics/global/js/omniture*.js
 @@||abcnews.com/assets/flash/kdp/omniturePlugin.swf
+@@||abcotvs.net^*/analytics/VideoHeartbeat.min.js
 @@||adobe.com/uber/js/*s_code
 @@||adobe.com/www.adobe.com/uber/js/pdc_s_code.js
 @@||adziff.com/pcmag/images/zd_footer_logo.png$image,domain=extremetech.com
