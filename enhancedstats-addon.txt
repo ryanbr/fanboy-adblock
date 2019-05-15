@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: ihFkje/ZV6A2TDxDufKw8A
+! Checksum: gxZZbIIRsXb+4TUPRDsGHA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 15 May 2019
 ! Expires: 5 days
@@ -769,6 +769,7 @@ youporn.com###adblock_1
 @@/ad_pics/*$image,~third-party
 @@/adblock.js$script
 @@/adcheck.js$script
+@@/adetectads.js$script
 @@/adframe.js$script
 @@/ads/ads.js$script
 @@/ads/dfp.js$script
@@ -1127,6 +1128,9 @@ purposegames.com##.share-this
 ! magiskmanager.com
 magiskmanager.com###facebook-likebox-2
 magiskmanager.com##.code-block
+! jav777.cc
+@@||ads.adxpansion.com/public/js/showads.php$script,domain=jav777.cc
+@@||cs.adxpansion.com^$subdocument,domain=jav777.cc
 ! muzlan.top
 @@||muzlan.top*/ad$xmlhttprequest
 muzlan.top##.btn-social-icon
