@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 3aheUUOx0sM2sUQa5zXulw
+! Checksum: Rm0CA70RunSmz0/NQi8C0Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 15 May 2019
 ! Expires: 5 days
@@ -1777,6 +1777,8 @@ time.com##.subscribe-callout
 ! querofilmehd.com
 @@||querofilmehd.com^$generichide
 ! 4downfiles.org
+4downfiles.org###sharebuttons
+4downfiles.org##.adsbygoogle
 4downfiles.org##div[style*="width:300px;"]
 4downfiles.org##div[style*="width:728px;"]
 @@||4downfiles.org^$generichide
