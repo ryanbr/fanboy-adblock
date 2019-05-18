@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: BflPyViG4IozWJ9ZWOvVPA
+! Checksum: j+f+25IbukMkbUEn9kKSEA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 18 May 2019
 ! Expires: 5 days
@@ -376,7 +376,7 @@ _wtInit.js
 ~privacytools.io,~get-express-vpn.com##[href*.get-express-vpn.com"]
 ~privacytools.io,~hidemyass.com##[href*=".hidemyass.com"]
 ~privacytools.io,~ibvpn.com##[href*=".ibvpn.com"]
-~privacytools.io,~nordvpn.com##[href*=".nordvpn.net"]
+~privacytools.io,~nordvpn.com##[href*="go.nordvpn.net"]
 ~privacytools.io,~online-protection-now.com##[href*.online-protection-now.com"]
 ~privacytools.io,~ovpn.com##[href*=".ovpn.com"]
 ~privacytools.io,~privacysecurityprotection.com##[href*.privacysecurityprotection.com"]
@@ -1097,6 +1097,9 @@ alphahistory.com##.the_champ_sharing_container
 getfreshcloud.xyz##.banner-336x280
 getfreshcloud.xyz##.banner-468x60
 getfreshcloud.xyz##.banner-captcha
+! https://forums.lanik.us/viewtopic.php?f=62&t=38676
+@@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
 ! wccftech.com
 ||wccftech.com/*.js?ts=$script
 ! mundodoandroidapk.com,mundodroidgames.com
