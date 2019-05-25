@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: A/I7Lyqfj0xwMNv7Brg/yg
+! Checksum: XGytuAAsHVHwNfl/lFQ57g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 May 2019
 ! Expires: 5 days
@@ -1295,9 +1295,9 @@ deutsche-vogelstimmen.de##.googlediv
 ! spanishdict.com
 @@||freetls.fastly.net/js/prebid-1-min.js$script,domain=spanishdict.com
 ! makeuseof.com
-! 11/15/2018, 8:31:41 PM makeuseof.com
 @@/integrator.js$script,domain=makeuseof.com
 makeuseof.com###axdsense1
+makeuseof.com##.header-tools-social-links
 makeuseof.com##.single-post-newsletter
 makeuseof.com##.single-post-sharing-button-list
 ! pressgazette.co.uk
