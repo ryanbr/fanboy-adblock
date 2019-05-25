@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: dC0bzZKqOnDsj6uEJ4KodA
+! Checksum: SO/J2+lCPz2/JHkJJVp/+A
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 May 2019
 ! Expires: 5 days
@@ -1214,8 +1214,10 @@ gamepedia.com##.socialSidebar
 ! vg247.com
 vg247.com##.low-leader-container
 vg247.com##.mpu
+vg247.com##.newsletter-signup-wrapper
 vg247.com##.share-this
 vg247.com##.wide-leaderboard.advert
+||vg247-uk.vg247.com^$script
 ! anime-extremo.com
 anime-extremo.com##.cookie-notice-container
 anime-extremo.com##.footer-social-wrap
