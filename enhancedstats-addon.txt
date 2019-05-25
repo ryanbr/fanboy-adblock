@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 313cO62fZmFLP66eg6VkVw
+! Checksum: v3lxhhwXR3fP+/gXZAPTaA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 May 2019
 ! Expires: 5 days
@@ -768,6 +768,8 @@ youporn.com###adblock_1
 @@/ad_bomb/*$image
 @@/ad_pics/*$image,~third-party
 @@/adblock.js$script
+@@/adblockDetector.js
+@@/adblockDetector.min.js
 @@/adcheck.js$script
 @@/adetectads.js$script
 @@/adframe.js$script
@@ -781,6 +783,7 @@ youporn.com###adblock_1
 @@/assets/advertisement-$script
 @@/common/ads.js$script
 @@/javascript/ads.js$script
+@@/javascript/adsense-$script
 @@/javascripts/ads.js
 @@/js/adblock.js$script
 @@/js/ads.js$script
@@ -799,6 +802,7 @@ youporn.com###adblock_1
 @@/wp-content/*/ads*.js$script,xmlhttprequest
 @@/wp-content/*/adve*.js$script,xmlhttprequest
 @@/wp-content/*/show-ads.js$script,xmlhttprequest
+@@||100mbps.download/js/showads.js
 @@||2giga.link^*/ads.js
 @@||a-o.ninja/*ad-$script,~third-party
 @@||a-o.ninja/wp-content/*ad.$script,~third-party
@@ -828,6 +832,7 @@ youporn.com###adblock_1
 @@||bicycling.com^*/ads.
 @@||bitsngo.net/widget-scripts/extra_content/ads.js$domain=ynet.co.il
 @@||bitsngo.net^*/ads.js
+@@||bt.dk/build/advertisement.$script
 @@||buzzfed.com^*/ads.js
 @@||buzzfeed.com^*/ads.js
 @@||cbsistatic.com^*/advertisement*.js
@@ -852,6 +857,7 @@ youporn.com###adblock_1
 @@||datalog.co.uk/js/ads.js
 @@||dato.porn/js/pop.js$script
 @@||debridnet.com/adforge.js
+@@||dejure.org^*advertisement.js
 @@||detectadblock.com/ads.js
 @@||doubleclick.net/instream/ad_status.js
 @@||ds1-adnow.com/js/ads.js
@@ -859,6 +865,7 @@ youporn.com###adblock_1
 @@||dyncdn.*/showads.js$script
 @@||engineeringtoolbox.com^*/ads.js
 @@||epiotrkow.pl/js/reklama.js
+@@||ero-advertising.com/adspace/$script,domain=pornsocket.com
 @@||escdn.co/ads/ads.js
 @@||espncdn.com^*/ads.js
 @@||eviesays.com^*/ads.js$script
@@ -872,8 +879,11 @@ youporn.com###adblock_1
 @@||flashx1.tv/js/popad.js$script
 @@||flashx1.tv/js/showad$script
 @@||fncstatic.com^*/ads.js
+@@||fruitadblock.net/googlead.js
+@@||fruithosts.net/googlead.js
 @@||fsdn.com^*/ad.js
 @@||ft-static.com^*/ads.js$domain=ft.com
+@@||fundingchoicesmessages.google.com^*ad$script
 @@||fusion.net/experiments/ad.js
 @@||gameallianz.com^*/ads.js
 @@||gamersclub.com.br/js/ads.js
@@ -883,34 +893,9 @@ youporn.com###adblock_1
 @@||gcstatic.com^*/ads.js
 @@||generatorlinkpremium.com/ads/$script,~third-party
 @@||globalnews.ca/ads.js
+@@||go4up.com/ad.js
 @@||go4up.com/gads.js$script
 @@||gogoanime.ch/static/ads.js
-@@||imagebam.com/js/site_ads.js
-@@||imagetwist.com/site_ads.js
-@@||inhabitat.com/advertising/$script
-@@||lensdump.com/showads.js$script
-@@||nyt.com/ads/$script
-@@||openload.co/advert2.js$script
-@@||palemoon.org^*/ads.js
-@@||pch.com^*/adframe.js
-@@||photopea.com/ads.js
-@@||playview.io^*/showads.js
-@@||realclearpolitics.com/asset/section/doubleclick.js
-@@||tvmaze.com/css/ads.css
-@@||ustreamix.com/ads/$script
-@@||vox-cdn.com/packs/concert_ads$script
-! @@||google.*/ads/$image,third-party
-@@/adblockDetector.js
-@@/adblockDetector.min.js
-@@/javascript/adsense-$script
-@@||100mbps.download/js/showads.js
-@@||bt.dk/build/advertisement.$script
-@@||dejure.org^*advertisement.js
-@@||ero-advertising.com/adspace/$script,domain=pornsocket.com
-@@||fruitadblock.net/googlead.js
-@@||fruithosts.net/googlead.js
-@@||fundingchoicesmessages.google.com^*ad$script
-@@||go4up.com/ad.js
 @@||graphiq.com/ad$xmlhttprequest
 @@||grcrt.net/popads/ads.js
 @@||gtsstatic.com^*/prebid_$script
@@ -919,8 +904,11 @@ youporn.com###adblock_1
 @@||healthgrove.com/ad?$xmlhttprequest,~third-party
 @@||ibtimes.co.uk^*/ads.js
 @@||idg.com.au/adsmin/show_ads.js
+@@||imagebam.com/js/site_ads.js
+@@||imagetwist.com/site_ads.js
 @@||imgbox.com/site_ads.js
 @@||inc.com/js/ads.js
+@@||inhabitat.com/advertising/$script
 @@||integritystat.com^*/ads.js
 @@||intoday.in^*/advert$script
 @@||js.iplsc.com^*/ads.js
@@ -931,6 +919,7 @@ youporn.com###adblock_1
 @@||lamcdn.net^*/advert-$script
 @@||latin.it/banner.php
 @@||lensdump.com/ads.js
+@@||lensdump.com/showads.js$script
 @@||listamais.com.br/Resources/js/ads.js
 @@||lolalytics.com^*/adsense/
 @@||mac4ever.com/adserver.adtech.de/$script
@@ -954,6 +943,7 @@ youporn.com###adblock_1
 @@||newsmax.com/js/ads.adblock.js
 @@||ngenix.net^*/ads.js
 @@||nyt.com/ads/$script
+@@||nyt.com/ads/$script
 @@||nzherald.co.nz^*/ad/$script
 @@||ocaholic.ch/adjs.js
 @@||ocaholic.co.uk/adjs.js
@@ -962,15 +952,20 @@ youporn.com###adblock_1
 @@||onionstatic.com^*/ad-block-check.jpg
 @@||ookla.com/www/test.js
 @@||openload.co/advert$script
+@@||openload.co/advert2.js$script
 @@||orgyxxxhub.com^*/showads.js
 @@||over-blog-kiwi.com^*/ads.js
 @@||p.d.*.com/v1/*/ad$script
 @@||palemoon.org/ads.js
+@@||palemoon.org^*/ads.js
 @@||pandora.com^*/ads.js
 @@||pcgameshardware.de/common/deliverad/$script
+@@||pch.com^*/adframe.js
 @@||petbreeds.com/ad?$xmlhttprequest,~third-party
 @@||philips.co.uk^*/showads.js
 @@||photobucket.com^*/ads.js
+@@||photopea.com/ads.js
+@@||playview.io^*/showads.js
 @@||pordede.com^*/ads.js
 @@||pornsocket.com/media/ads/$script
 @@||povwideo.net/js/ads-banner.js$script
@@ -984,6 +979,7 @@ youporn.com###adblock_1
 @@||rapidvideo.com/js/ads.php
 @@||raptu.com/js/ads.php
 @@||realcam.me/js/cnads.js
+@@||realclearpolitics.com/asset/section/doubleclick.js
 @@||receive-a-sms.com/showads.js
 @@||rockpapershotgun.com/doubleclick/$script
 @@||rodalesorganiclife.com^*/ads.
@@ -1037,12 +1033,14 @@ youporn.com###adblock_1
 @@||tribunasalamanca.com/ads.html
 @@||ttef.in/gads.js
 @@||tubeninja.net/ads.js
+@@||tvmaze.com/css/ads.css
 @@||tvn.pl/tools/_ads/$script
 @@||tvtechnology.com/js/ads.js
 @@||undeniable.info^*/showads.js
 @@||uploadboy.com/ads.js
 @@||uploadfiles.io/adsbygoogle.js
 @@||upworthy.com/assets/ads/$script
+@@||ustreamix.com/ads/$script
 @@||vendiscuss.net/uploads/set_resources_*ad$script
 @@||vice.com/assets/js/vmp/adblocker/
 @@||vice.com^*/ads.js
@@ -1054,6 +1052,7 @@ youporn.com###adblock_1
 @@||vk.com/ads?adslogger$script
 @@||vodlock.co/js/pop.js
 @@||vox-cdn.com/javascripts/lib/advertisement.
+@@||vox-cdn.com/packs/concert_ads$script
 @@||washingtonexaminer.com^*/ad-block.png
 @@||weather.com^*/pubads.js
 @@||whatcar.com/ad/$xmlhttprequest
@@ -1111,6 +1110,8 @@ mundodoandroidapk.com,mundodroidgames.com##.td-post-sharing-bottom
 esportstales.com##.BlogItem-pagination
 esportstales.com##.newsletter-form-wrapper
 esportstales.com##.sqs-svg-icon--social
+! smallseotools.com
+@@||smallseotools.com/imgs/ads/$image
 ! reuters.com
 @@||admantx.com^$domain=reuters.com
 @@||atonato.de^$xmlhttprequest
