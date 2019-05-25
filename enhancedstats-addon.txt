@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: XGytuAAsHVHwNfl/lFQ57g
+! Checksum: cPfsaKd6agSw63hr0KRKng
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 May 2019
 ! Expires: 5 days
@@ -1314,6 +1314,7 @@ parkers.co.uk###mpu-1
 parkers.co.uk###mpu-2
 parkers.co.uk##.site-header-ad-notification
 parkers.co.uk##.social-nav
+parkers.co.uk##.top-ad__sticky-wrapper
 ! yudu.co.nz
 yudu.co.nz##.footer-media
 yudu.co.nz##.jxt-news-item-share
