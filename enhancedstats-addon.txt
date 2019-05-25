@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 7QxG9Sl2IRBTW24+n37+eg
+! Checksum: A/I7Lyqfj0xwMNv7Brg/yg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 25 May 2019
 ! Expires: 5 days
@@ -1224,6 +1224,8 @@ gayecho.com###menu-social-menu
 gayecho.com##.twitter-follow-button
 ! medicalnewstoday.com
 medicalnewstoday.com###dlb1_container
+medicalnewstoday.com###dlb2_container
+medicalnewstoday.com###dlb3_container
 medicalnewstoday.com###dmr1_container
 medicalnewstoday.com###dmr2_container
 medicalnewstoday.com##.css_h1ksn
