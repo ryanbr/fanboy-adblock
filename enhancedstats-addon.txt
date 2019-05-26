@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: HusiOUCNV8uT3WLIWaKYxQ
+! Checksum: EIB9Nm72nDzDk84v/nmQpQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 26 May 2019
 ! Expires: 5 days
@@ -410,6 +410,7 @@ _wtInit.js
 ##.adblock-whitelist-messaging__article-wrapper
 ##.piano-subscribe
 .widget.metered.js
+/_paywall.sjs
 /article-countdown-nag.js
 /check-ad-free/?
 /ep-paywall-portlet/*
