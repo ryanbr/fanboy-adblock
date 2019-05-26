@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: t9m/iwzTG6iWoKIYP1AAFg
+! Checksum: m7ZBqjMhBtkeiB4QBVFyIg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 26 May 2019
 ! Expires: 5 days
@@ -322,6 +322,7 @@
 /wmgbeaconcode.
 /wmps_tracker.
 /wt-tag.
+/wt.js?__
 /wt_capi_
 /wt_plugins.
 /wt_tag.js
@@ -360,6 +361,7 @@ _sdcTrackingCode.
 _SiteCatalyst.
 _sitecatalyst_
 _urchin.js
+_webtrekk_
 _WebTrends.js
 _webtrends/
 _webtrends_
