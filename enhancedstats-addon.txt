@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: WTblNtO1mD27A7noYRUMbg
+! Checksum: 21f/mac84yZ0dGBYLbTONw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 26 May 2019
 ! Expires: 5 days
@@ -414,6 +414,7 @@ _wtInit.js
 /ep-paywall-portlet/*
 /paymeterconfig/*
 /paywall.min.js
+/PaywallMeter.js
 /tn-paywall/*
 @@||torontosun.com/assets/js/paywall.min.js
 jsonline.com##.blockOverlay
