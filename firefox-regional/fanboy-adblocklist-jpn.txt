@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: kokjl+CAuh+LrVytz2BFYQ
+! Checksum: kTSkEbi569eviPcmHlJVPA
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -17,6 +17,7 @@
 .jp/html.ng/
 .jp/image/ad/
 .jp/js.ng/cat=
+/ad/alliance_
 /ads/techcrunchjapan_
 /banana/600x
 /banimg/*
@@ -29,6 +30,7 @@
 /img/admanga
 /js/yaad.
 /js/ysad5.
+/loadPopIn.
 /popIn.js
 /popjs.asp
 /random_bnr/*
