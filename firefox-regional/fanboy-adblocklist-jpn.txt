@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: AMAWIZMfknsULoqN8uvc5A
+! Checksum: rtWta1MuFbzXAO5IP87VlA
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -688,6 +688,7 @@ sponichi.co.jp##.heading-pr-relation
 sukusuku.com###floating-banner
 sukusuku.com##.ad
 sukusuku.com##.program_banner
+tbs.co.jp###bnRectangle
 tbs.co.jp##.ls-banner
 tbs.co.jp##.md-banner300x250
 tbs.co.jp##.md-textboxBanner
