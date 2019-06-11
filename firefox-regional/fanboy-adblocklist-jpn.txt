@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: bfOZAXf5WtIhJVoJOjUsrw
+! Checksum: qZnhxhphT3WoEdeo9HkTFA
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -95,6 +95,7 @@ _ds_adtag_
 ||kazenoashiato.jp/file/index/FILECD/
 ||land.to/ad/
 ||livedoor.com^*/banner/
+||logly.co.jp/lift_widget.js
 ||lrgads.net/www/images/$image
 ||muzie.ne.jp/image/muzie/banner/
 ||netmile.co.jp/images/bnr/sugutama_640_120.png
@@ -269,6 +270,7 @@ _ds_adtag_
 ||trustclick.ne.jp^$third-party
 ||weblio.jp^$third-party
 ||widget.zenback.jp^$third-party
+||yads.c.yimg.jp^$third-party
 ||yeas.yahoo.co.jp^$third-party
 !
 !---------- Japanese Popups (Adblock Plus 2.0 or better) ----------
