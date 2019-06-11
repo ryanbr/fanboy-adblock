@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 62lVnyLRhqqrlMo7PqAFEw
+! Checksum: uuxHETkBPs6XDusX0IO5AQ
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -694,6 +694,8 @@ tenki.jp##div[class^="tenki-ad-"]
 tokyo-np.co.jp##.banner-area
 tokyo-np.co.jp##.banner01
 tv-asahi.co.jp###headCenter
+tv-asahi.co.jp###rectangle-desktop
+tv-asahi.co.jp###superbanner-desktop
 uniangel.info###globalheader
 vippers.jp###rakuten_widget
 vippers.jp###top_space
