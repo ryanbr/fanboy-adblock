@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: rcanFTejQPEjbO4FeNlwOQ
+! Checksum: TPHVYrBbyNBRnJeOFuniBw
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -96,6 +96,8 @@ _ds_adtag_
 ||livedoor.com^*/banner/
 ||lrgads.net/www/images/$image
 ||muzie.ne.jp/image/muzie/banner/
+||netmile.co.jp/images/bnr/sugutama_640_120.png
+||netmile.co.jp/user/images/regist-sub-bnr.png
 ||nikkei.co.jp/ad/
 ||nikkei.com^*/js/ad/
 ||oricon.co.jp/img/bn/
@@ -226,6 +228,7 @@ _ds_adtag_
 ||cpro.baidu.com^$third-party
 ||deqwas.net^$third-party
 ||download.jword.jp^$third-party
+||estlier.net^$third-party
 ||find-a.jp^$third-party
 ||fresheye.com^$third-party
 ||i2i.jp^$third-party
@@ -361,6 +364,10 @@ _ds_adtag_
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=79
 @@||hankyu.co.jp/banner/
 @@||lrgads.net/www/delivery/ajs.php?$domain=japantimes.co.jp
+@@||netmile.co.jp/ad/images/banner/$image
+@@||netmile.co.jp/features/catchpig/images/bnr_120_60.png
+@@||netmile.co.jp/features/furufuru/images/$image
+@@||netmile.co.jp/features/jan/images/bnr_120_60.png
 @@||ov.yahoo.co.jp^$script,domain=jp.msn.com
 @@||rcm-jp.amazon.co.jp^$domain=toscana.sakura.ne.jp
 @@||res.nimg.jp/js/ads.js?$domain=nicovideo.jp
