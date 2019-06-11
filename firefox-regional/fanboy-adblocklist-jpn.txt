@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: CNI5A5WtxDicOMCmcviisQ
+! Checksum: 1iuVq44YrvrX1YaNWyYUuQ
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -345,6 +345,7 @@ _ds_adtag_
 ||pranking*.ziyu.net/rranking.gif
 ||response.jp/pv.php?
 ||rranking5.ziyu.net^$third-party
+||rtoaster.jp^$third-party
 ||seoparts.net^$third-party
 ||sitebro.tw/track.js
 ||sy.ameblo.jp^
