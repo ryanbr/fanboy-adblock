@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 2dssdX0AKRgdgwFZLWzywA
+! Checksum: Rwj+vviUJeEMF+T+x9NGbg
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -220,6 +220,7 @@ _ds_adtag_
 ||ads.meropar.jp^$third-party
 ||ads2.iid.jp^$third-party
 ||advg.jp/$third-party
+||af-110.com^$third-party
 ||affili.dmm.com^$third-party
 ||affiliate.rakuten.co.jp^$third-party
 ||aolp.jp^$third-party
@@ -238,6 +239,7 @@ _ds_adtag_
 ||clicktrack2.ziyu.net^$third-party
 ||colossal.jp^$third-party
 ||cpro.baidu.com^$third-party
+||cross-a.net^$third-party
 ||deqwas.net^$third-party
 ||download.jword.jp^$third-party
 ||estlier.net^$third-party
@@ -285,6 +287,8 @@ _ds_adtag_
 ||widget.zenback.jp^$third-party
 ||yads.c.yimg.jp^$third-party
 ||yeas.yahoo.co.jp^$third-party
+||zimg.jp^$third-party
+||zucks.net^$third-party
 !
 !---------- Japanese Popups (Adblock Plus 2.0 or better) ----------
 !
@@ -533,6 +537,8 @@ designnewsjapan.com###AD_BB
 designnewsjapan.com##.TSPS
 dmm.co.jp,dmm.com##.bnr-rotate
 dmm.co.jp,dmm.com##.sb.rect-banner
+ecnavi.jp###feature_list
+ecnavi.jp##.c_adnw
 eiga.com##.dvd
 eiga.com##.yads_infeed
 fc2web.com###fc2analyzerold
