@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: tZKaSExGY7hj1/QMr6L+/A
+! Checksum: rcanFTejQPEjbO4FeNlwOQ
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -238,12 +238,14 @@ _ds_adtag_
 ||match.seesaa.jp^$third-party
 ||meiwasuisan.com/images/numbers
 ||microad.jp^$third-party
+||orca-pass.net^$third-party
 ||ov.yahoo.co.jp^$third-party
 ||popin.cc^$third-party
 ||pvranking.com^$third-party
 ||qiyou.com^$third-party
 ||rcm-jp.amazon.co.jp/e/cm?$third-party
 ||recommender.jp^$third-party
+||reemo-ad.jp^$third-party
 ||rentracks.jp^$third-party
 ||rssad.jp^$third-party
 ||sankei2ad.durasite.net^$third-party
@@ -335,6 +337,7 @@ _ds_adtag_
 ||sitebro.tw/track.js
 ||sy.ameblo.jp^
 ||tag.nifty.com^
+||taxel.jp/l.gif?
 ||tracer.jp^$third-party
 ||tracker.kantan-access.com^
 ||trck.dlpo.jp^$third-party
@@ -626,6 +629,8 @@ shinobi.jp##.posi3
 sponichi.co.jp###relation-block
 sponichi.co.jp###yaad4
 sponichi.co.jp##.heading-pr-relation
+tenki.jp##div[class^="_taxel_ad_"]
+tenki.jp##div[class^="tenki-ad-"]
 tokyo-np.co.jp##.banner-area
 tokyo-np.co.jp##.banner01
 tv-asahi.co.jp###headCenter
