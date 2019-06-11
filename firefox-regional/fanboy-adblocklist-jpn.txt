@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: fERgG13gO0m92c+d48mJ8w
+! Checksum: jkquY6d/ua8gTB02RkLlyw
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -632,6 +632,7 @@ mainichi.jp##.leftPR
 mainichi.jp##.leftSPR
 mocovideo.jp###toprightad_m_r
 mtvjapan.com##.rightBannerBlock
+musicman-net.com###gpt_front_right_top
 muzie.ne.jp###sideb
 newsonjapan.com###squarebanner_text300x250
 nicovideo.jp###banner-side
