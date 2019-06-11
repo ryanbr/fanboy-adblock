@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: U4wdFu8FTn/POZPg6yI03g
+! Checksum: fERgG13gO0m92c+d48mJ8w
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -181,7 +181,7 @@ _ds_adtag_
 ||livedoor.jp^*/amazon_ranking_side.js
 ||logoole.yahoo.co.jp^
 ||nifty.com/floating/
-||rd.rakuten.co.jp^
+||rd.rakuten.co.jp^$script
 ||uad-api.nicovideo.jp^
 ||web-jp.ad-v.jp^
 ||webtracker.jp^
