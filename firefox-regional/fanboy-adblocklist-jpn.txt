@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: qZnhxhphT3WoEdeo9HkTFA
+! Checksum: lp2SzJ/c37TTSAt7HrgGdQ
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -511,6 +511,8 @@ designnewsjapan.com###AD_BB
 designnewsjapan.com##.TSPS
 dmm.co.jp,dmm.com##.bnr-rotate
 dmm.co.jp,dmm.com##.sb.rect-banner
+eiga.com##.dvd
+eiga.com##.yads_infeed
 fc2web.com###fc2analyzerold
 finance.yahoo.co.jp##.pos-tn.ymuiContainer
 gekiura.com##.banner_list
