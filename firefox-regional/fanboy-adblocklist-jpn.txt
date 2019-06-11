@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: sexrPnMH0kjeXU4q/CStxQ
+! Checksum: U4wdFu8FTn/POZPg6yI03g
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -43,8 +43,6 @@ _ds_adtag_
 !
 ! ---------- 1st party blocking rules ----------
 !
-||12freeweb.com/img/cmimg.jpg
-||12freeweb.com/pr_data/
 ||18ban.jp/ad/
 ||210.136.172.75^
 ||2chan.net/dec/ad/
@@ -503,9 +501,6 @@ nns2ch.net###iTicker
 !
 ##a[href^="http://ad2.trafficgate.net/"]
 ##a[href^="http://www.rssad.jp/"]
-12freeweb.com###pr_table
-12freeweb.com##a[href^="http://www.adultshoping.com/"]
-12freeweb.com##a[href^="http://www.benri21.com/"]
 2chblog.jp##.azlink-widget
 47news.jp###header
 4gamer.net##.affiliate
