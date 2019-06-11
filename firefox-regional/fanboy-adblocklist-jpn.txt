@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 1FMk+tPzH8izCgljCb5pHQ
+! Checksum: /6DAsOPmpk52h3grpMSfCQ
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -576,6 +576,7 @@ infoseek.co.jp##.sponsordisplay
 infoseek.co.jp##.ssnavi
 infoseek.co.jp##[width="300"][height="260"]
 infoseek.co.jp##a[href^="http://c.p-advg.com/"]
+ismedia.jp##.m-sponsord
 j-cast.com###LCOverture1
 j-cast.com###MCAdEntryBottomArea2
 j-cast.com###MCAdEntryCenterrectangle
