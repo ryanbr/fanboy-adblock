@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 3Q66LCz4Q1CaYmvFL5Wjdg
+! Checksum: bfOZAXf5WtIhJVoJOjUsrw
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -80,6 +80,7 @@ _ds_adtag_
 ||gekiura.com/img/banner/
 ||giants.jp/pts/ad/
 ||gyutto.jp/data/banner_img/
+||hbb.afl.rakuten.co.jp^$image
 ||iij4u.or.jp/~pee/
 ||infoseek.co.jp/isweb/
 ||infoseek.rakuten.co.jp*/rectangle/
@@ -231,6 +232,7 @@ _ds_adtag_
 ||estlier.net^$third-party
 ||find-a.jp^$third-party
 ||fresheye.com^$third-party
+||gmossp-sp.jp^$third-party
 ||i2i.jp^$third-party
 ||i2idata.com^$third-party
 ||image-rentracks.com^$third-party
@@ -244,6 +246,7 @@ _ds_adtag_
 ||orca-pass.net^$third-party
 ||ov.yahoo.co.jp^$third-party
 ||popin.cc^$third-party
+||proparm.jp^$third-party
 ||pvranking.com^$third-party
 ||qiyou.com^$third-party
 ||rcm-jp.amazon.co.jp/e/cm?$third-party
@@ -448,6 +451,7 @@ nns2ch.net###iTicker
 ##.adsize728
 ##.adtitle
 ##.AffAD
+##.pr_ads_list
 ##.yahoo_ad
 /ad?cid=
 /ad_bomb/*
@@ -635,6 +639,7 @@ shinobi.jp##.posi1
 shinobi.jp##.posi11
 shinobi.jp##.posi3
 sponichi.co.jp###relation-block
+sponichi.co.jp###space_shopping_2018
 sponichi.co.jp###yaad4
 sponichi.co.jp##.heading-pr-relation
 tenki.jp##div[class^="_taxel_ad_"]
