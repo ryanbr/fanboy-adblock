@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 1iuVq44YrvrX1YaNWyYUuQ
+! Checksum: tSIgkz0Fy/69YR7zWw1+uA
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -343,6 +343,7 @@ _ds_adtag_
 ||ot.ca-mpr.jp^
 ||pranking*.ziyu.net/img.php?
 ||pranking*.ziyu.net/rranking.gif
+||pt.appirits.com^$third-party
 ||response.jp/pv.php?
 ||rranking5.ziyu.net^$third-party
 ||rtoaster.jp^$third-party
@@ -564,8 +565,10 @@ j-cast.com###MCAdTopBottomArea
 j-cast.com###MCAdTopMiddleArea
 j-cast.com###RCBannerToolBar
 j-cast.com###RCOverture2
+japan.cnet.com###AAMB3
 japan.cnet.com###ai_info
 japan.cnet.com###top_recommend
+japan.cnet.com##.inner-pr.inner-bg
 jiji.com###dir_2nd
 jiji.com###shopping_2nd
 jiji.com###sumai_banner
