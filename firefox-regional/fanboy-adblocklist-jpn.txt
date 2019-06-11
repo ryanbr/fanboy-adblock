@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Rwj+vviUJeEMF+T+x9NGbg
+! Checksum: sgdxOuKLitFZPzmkI/UIpQ
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -548,6 +548,7 @@ gekiura.com##.banner_list2
 gekiura.com##.footer_banner
 giants.jp###etc_banner
 giants.jp###event_banner
+gizmodo.jp##.gz-item-banner
 goo.ne.jp##.oshiete-ad
 google.co.jp###mbEnd
 google.co.jp###tads
