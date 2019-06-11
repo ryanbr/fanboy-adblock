@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: u4t5EK4uODJSghUUuD7Cag
+! Checksum: KGexFYuvHQi0XK9WiXpvkw
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -206,6 +206,7 @@ _ds_adtag_
 ||ad.impressbm.co.jp^$third-party
 ||ad.maist.jp^$third-party
 ||ad.oret.jp^$third-party
+||adapf.com^$third-party
 ||adcommerce.jp^$third-party
 ||addclips.org^$third-party
 ||addeluxe.jp^$third-party
@@ -231,6 +232,7 @@ _ds_adtag_
 ||banner.maido3.com^$third-party
 ||bar*.shinobi.jp^$third-party
 ||blomoad.jp^$third-party
+||caprofitx.com^$third-party
 ||cheqzone.com^$third-party
 ||clicktrack2.ziyu.net^$third-party
 ||colossal.jp^$third-party
@@ -253,6 +255,7 @@ _ds_adtag_
 ||microad.jp^$third-party
 ||orca-pass.net^$third-party
 ||ov.yahoo.co.jp^$third-party
+||pitadtag.jp^$third-party
 ||popin.cc^$third-party
 ||probo.biz^$third-party
 ||proparm.jp^$third-party
@@ -272,6 +275,7 @@ _ds_adtag_
 ||siteanalytics.jp^$third-party
 ||spad.i-mobile.co.jp^$third-party
 ||sync.fout.jp^$third-party
+||taxel.jp^$third-party
 ||thatsping.jp^$third-party
 ||trackword.biz^$third-party
 ||trafficgate.net^$third-party
