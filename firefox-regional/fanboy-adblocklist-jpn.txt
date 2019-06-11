@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: x8dmzQrXbTid06S/+3hx8w
+! Checksum: tZKaSExGY7hj1/QMr6L+/A
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -361,6 +361,7 @@ _ds_adtag_
 @@||ov.yahoo.co.jp^$script,domain=jp.msn.com
 @@||rcm-jp.amazon.co.jp^$domain=toscana.sakura.ne.jp
 @@||res.nimg.jp/js/ads.js?$domain=nicovideo.jp
+@@||samplefan.com/img/ad/$image
 @@||yimg.jp/bdv/yahoo/javascript/gyao/clover.js$domain=gyao.yahoo.co.jp
 !
 !---------- Japanese Annoyances ------------
