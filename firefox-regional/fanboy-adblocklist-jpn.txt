@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: rtWta1MuFbzXAO5IP87VlA
+! Checksum: POx8SN1k7srLoUQK5ijH3Q
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -703,7 +703,6 @@ uniangel.info###globalheader
 vippers.jp###rakuten_widget
 vippers.jp###top_space
 vippers.jp##.top_space2
-warnermycal.com###skyBnr
 websearch.rakuten.co.jp##table[width="950"]
 yahoo.co.jp###adRp
 yahoo.co.jp###adSqm
