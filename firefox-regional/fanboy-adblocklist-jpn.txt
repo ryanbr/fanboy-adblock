@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: YSaBKy0SWvlMrQC90UyQ/g
+! Checksum: vLGKEfXz0l2TIPpJuO252Q
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -500,6 +500,7 @@ nns2ch.net###iTicker
 47news.jp###header
 4gamer.net##.affiliate
 4gamer.net##.hot_game_now
+4gamer.net##.large_banner
 4gamer.net##.sidetop_extra_H320
 amaebi.net###bling_ad_wrapper
 ameblo.jp###resPointAreaWrapper
