@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: jkquY6d/ua8gTB02RkLlyw
+! Checksum: 1FMk+tPzH8izCgljCb5pHQ
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -248,6 +248,7 @@ _ds_adtag_
 ||i2idata.com^$third-party
 ||image-rentracks.com^$third-party
 ||impact-ad.jp^$third-party
+||its-mo.com^$third-party
 ||jpg-server.com^$third-party
 ||livedoor.net/blogroll/banner/
 ||m.shanbara.jp^$third-party
@@ -597,6 +598,8 @@ joins.com###overture_2
 joins.com###PR
 joins.com##.articleSpbox
 joins.com##.rightBanner
+jorudan.co.jp##.com-bnr
+jorudan.co.jp##.com_bottom_banner
 jp.luxist.com##.shopping
 jp.msn.com###ajax_banner
 jp.msn.com###pt
