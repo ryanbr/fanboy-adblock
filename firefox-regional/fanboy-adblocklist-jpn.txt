@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: PLpijQ9lcv1oHX5hJ/t1GQ
+! Checksum: sYW5uAaM+RXHZAHfEErM5w
 ! Title: Fanboy's Japanese
 ! Updated: 11 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -215,6 +215,7 @@ _ds_adtag_
 ||advg.jp/$third-party
 ||affili.dmm.com^$third-party
 ||affiliate.rakuten.co.jp^$third-party
+||aolp.jp^$third-party
 ||api.unthem.com^$third-party
 ||assoc-amazon.jp^$third-party
 ||b-click.net^$third-party
@@ -650,6 +651,9 @@ sponichi.co.jp###relation-block
 sponichi.co.jp###space_shopping_2018
 sponichi.co.jp###yaad4
 sponichi.co.jp##.heading-pr-relation
+tbs.co.jp##.ls-banner
+tbs.co.jp##.md-banner300x250
+tbs.co.jp##.md-textboxBanner
 tenki.jp##div[class^="_taxel_ad_"]
 tenki.jp##div[class^="tenki-ad-"]
 tokyo-np.co.jp##.banner-area
