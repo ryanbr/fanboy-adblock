@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: W3/TY5OpP9B/qCjcR7+CDg
+! Checksum: ihyaQp2pYPPuwXZqLDw8qw
 ! Title: Fanboy's Japanese
 ! Updated: 12 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -550,6 +550,7 @@ gekiura.com##.footer_banner
 giants.jp###etc_banner
 giants.jp###event_banner
 gizmodo.jp##.gz-item-banner
+gizmodo.jp,kotaku.jp,lifehacker.jp#@#.ad_head_rectangle
 goo.ne.jp##.oshiete-ad
 google.co.jp###mbEnd
 google.co.jp###tads
@@ -589,6 +590,7 @@ japan.cnet.com###AAMB3
 japan.cnet.com###ai_info
 japan.cnet.com###top_recommend
 japan.cnet.com##.inner-pr.inner-bg
+japantimes.co.jp#@#RightAdBlock
 jiji.com###dir_2nd
 jiji.com###shopping_2nd
 jiji.com###sumai_banner
@@ -730,5 +732,3 @@ yomiuri.co.jp##.t-shopping
 yomiuri.co.jp##[style="margin: 8px 0pt;"]
 yomiuri.co.jp##[style="margin:8px 0 8px;"]
 zdnet.com##div[class^="style_kwad_"]
-~gizmodo.jp,~kotaku.jp,~lifehacker.jp##.ad_head_rectangle
-~japantimes.co.jp###RightAdBlock
