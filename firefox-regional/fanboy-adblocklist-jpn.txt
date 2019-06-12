@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: e0WVqSTNYgK0H1dEBc2vzQ
+! Checksum: qRRfUV5s/Q6XSDJCnu8tgQ
 ! Title: Fanboy's Japanese
 ! Updated: 12 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -64,6 +64,7 @@ _ds_adtag_
 ||blogpeople.net/images/0.gif?
 ||blogpeople.net/overture/
 ||blogpeta.jp/peta_ta.php?
+||chosunonline.com/common/ifr01/$subdocument
 ||contents.oricon.co.jp/pc/img/_parts/news/fig-news03.jpg
 ||coreserver.jp/Amazon-Side/
 ||digiket.net^*/banner/
