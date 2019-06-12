@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: NxgenTs+d4/qPmUj5GePXQ
+! Checksum: SQDmseduwgw/cIcKe7EQEw
 ! Title: Fanboy's Japanese
 ! Updated: 12 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -644,6 +644,7 @@ livedoor.jp##a[href^="http://on.jpn.org/s/"]
 livedoor.jp##a[href^="http://sell4.info/"]
 livedoor.jp##a[href^="http://track.xmax.jp/"]
 livedoor.jp##span[style="line-height:100%;font-size:10px;"]
+mag2.com###pr_bnr
 mainichi.jp###SuperBanner
 mainichi.jp##.AdAA
 mainichi.jp##.ArticleAd
