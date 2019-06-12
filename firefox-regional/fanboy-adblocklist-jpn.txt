@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: /6DAsOPmpk52h3grpMSfCQ
+! Checksum: W3/TY5OpP9B/qCjcR7+CDg
 ! Title: Fanboy's Japanese
-! Updated: 11 Jun 2019
+! Updated: 12 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
 ! Expires: 6 days
@@ -681,6 +681,7 @@ rakuten.co.jp###srEsperHead
 rakuten.co.jp###srNaviSponcer
 rakuten.co.jp##div[style="width:100%;text-align:center;background: #1aaeca url(http://a.ichiba.jp.rakuten-static.com/com/img/thumb/festival/bgimg.gif) repeat-x left top;"]
 rakuten.co.jp##table[width="163"]
+sankei.com###sponsored
 search.rakuten.co.jp##div[style="background-color:#1aaeca;text-align:center;"]
 shinobi.jp##.posi1
 shinobi.jp##.posi11
