@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: U4yClcRIbFdje8Oy8Gx9RA
+! Checksum: m6hHWwPLe724WBZhcQxMrA
 ! Title: Fanboy's Japanese
 ! Updated: 12 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -86,6 +86,7 @@ _ds_adtag_
 ||infoseek.rakuten.co.jp*/rectangle/
 ||infoseek.rakuten.co.jp*/weekly_recommend/
 ||inside-games.jp/ad/
+||ismedia.jp/common/money-gendai/images/header/sponsored.png
 ||itaishinja.com/add/
 ||itmedia.co.jp/spv/images/career_en_300x250.jpg
 ||itmedia.co.jp/spv/images/career_en_320x50.jpg
