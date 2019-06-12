@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: JKV7840aV36+GGODp/a8fw
+! Checksum: iMUkY/1XQqgOVKYorj83vw
 ! Title: Fanboy's Japanese
 ! Updated: 12 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -623,6 +623,7 @@ jp.msn.com##.parent.chromeCustom4G
 jp.reuters.com###spacerElement
 jp.techcrunch.com##.boxy
 jp.techcrunch.com##.overture_vertical
+kakakumag.com##.side-bnr
 labaq.com##div[style="width: 300px; height: 250px; position: absolute; top: 0px; left: 690px; background-color: #FFFFFF;"]
 lifehacker.jp###info
 lifehacker.jp##.EntryMoreBanner
