@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 6ygJcNPNuTnP8x835CNqYA
+! Checksum: NxgenTs+d4/qPmUj5GePXQ
 ! Title: Fanboy's Japanese
 ! Updated: 12 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -100,6 +100,7 @@ _ds_adtag_
 ||livedoor.com^*/banner/
 ||logly.co.jp/lift_widget.js
 ||lrgads.net/www/images/$image
+||macsoft.jp/img/Banner
 ||muzie.ne.jp/image/muzie/banner/
 ||netmile.co.jp/images/bnr/sugutama_640_120.png
 ||netmile.co.jp/user/images/regist-sub-bnr.png
