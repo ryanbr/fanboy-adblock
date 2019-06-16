@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: XF/BJuh1qtHoXLez+9Lcew
+! Checksum: O4xejbUxZVbAzNDZChAvsQ
 ! Title: Fanboy's Japanese
 ! Updated: 16 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -114,6 +114,7 @@ _ds_adtag_
 ||potora.jp/images/banner/
 ||potora.jp/myd_top/
 ||ppd.rikitake.com/images/
+||r10s.jp/com/rat/js/rat-main.js
 ||rakuten.co.jp/b/
 ||response.jp/ad/
 ||ric.hi-ho.ne.jp/webmaster-p/shanbara/
@@ -269,7 +270,6 @@ _ds_adtag_
 ||proparm.jp^$third-party
 ||pvranking.com^$third-party
 ||qiyou.com^$third-party
-||r10s.jp^$third-party
 ||rcm-jp.amazon.co.jp/e/cm?$third-party
 ||recommender.jp^$third-party
 ||reemo-ad.jp^$third-party
