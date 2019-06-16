@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: O4xejbUxZVbAzNDZChAvsQ
+! Checksum: SwH8uxOaLTjb3LIYa1ymCQ
 ! Title: Fanboy's Japanese
 ! Updated: 16 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -173,7 +173,6 @@ _ds_adtag_
 ||clink.nifty.com^
 ||dynamic.rakuten.co.jp^
 ||getchu.com/mbanner/
-||himarin.net/js/amazon.js
 ||ias.rakuten.co.jp^
 ||im.rakuten.ov.yahoo.co.jp^
 ||infotop.co.jp^
@@ -571,9 +570,6 @@ google.co.jp###tadsb
 google.co.jp##[id^="tpa"].tas
 google.co.jp##table[style="border: 1px solid #369"]
 hamusoku.com##.amazon_ranking_side
-himarin.net##.am_best
-himarin.net##.amazlet-box
-himarin.net##a[name="amazletlink"]
 himasoku.com##a[href^="http://www.mgstage.jp/"]
 hobby-channel.net###header_r
 honeyee.com,jsgoal.jp###banner
