@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: n70CW6gzrz5ySB3JXr5FPw
+! Checksum: XF/BJuh1qtHoXLez+9Lcew
 ! Title: Fanboy's Japanese
-! Updated: 12 Jun 2019
+! Updated: 16 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
 ! Expires: 6 days
@@ -135,6 +135,7 @@ _ds_adtag_
 ||yimg.jp/bdv/$image,object,subdocument
 ||yimg.jp/images/*img/banner
 ||yomiuri.co.jp/ad/
+||yomiuri.co.jp/media/2019/06/190530_1000x240_B-002.jpg
 !
 ! ---------- General blocking rules ----------
 !
@@ -744,6 +745,7 @@ yahoo.co.jp##.prTitle
 yahoo.co.jp##.seeAllResult
 yahoo.co.jp##div[class^="fsst adTyumoku"]
 yahoo.co.jp##ul[class^="sponsor"]
+yomiuri.co.jp##.home-main-movie-ad
 yomiuri.co.jp##.m-tab
 yomiuri.co.jp##.m-txtad-weekly
 yomiuri.co.jp##.m-txtad2
