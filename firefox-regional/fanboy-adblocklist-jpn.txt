@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: zpLK4kXTikEsOT1AmiwbVw
+! Checksum: eudvvHcD3UtWItCJHLUDXw
 ! Title: Fanboy's Japanese
 ! Updated: 16 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -611,6 +611,7 @@ jiji.com###dir_2nd
 jiji.com###shopping_2nd
 jiji.com###sumai_banner
 jiji.com###tfx_banner
+jiji.com##.Foresight-Links
 joins.com###HEADLOGO
 joins.com###overture
 joins.com###overture_2
