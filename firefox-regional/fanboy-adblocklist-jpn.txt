@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: bjSFWhXe6U5/nUdzWl5W8A
+! Checksum: U5mnYt+WE6ebMX1wl8xmug
 ! Title: Fanboy's Japanese
 ! Updated: 16 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -544,6 +544,9 @@ chunichi.co.jp,tokyo-np.co.jp##.PR
 cnet.com###affiliate_info
 cnn.co.jp##.spBnr08
 cnn.co.jp##.txtPR
+cyzo.com###ad_rB
+cyzo.com###ad_rC
+cyzo.com###ad_rD
 cyzo.com##.banner486
 cyzo.com##.r-pr
 designnewsjapan.com###AD_BB
