@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 2LBN2pl07HjvwQUS05IdBA
+! Checksum: 5S0E11Bwfk2WhreocRdK8g
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 15 Jun 2019
+! Updated: 19 Jun 2019
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -394,7 +394,7 @@ _wtInit.js
 ~privacytools.io,~virtualshield.com##[href*=".virtualshield.com"]
 ~privacytools.io,~windscribe.com##[href*.windscribe.com"]
 ! popads tracking
-/favicon.ico$image,third-party,domain=~bt.com|~ebay.com.au|~ebay.com|~go.com|~github.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com
+/favicon.ico$image,third-party,domain=~bt.com|~ebay.com.au|~ebay.com|~ebay.co.uk|~go.com|~github.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com
 ! push notifications test filter
 ##.open.pushModal
 !
