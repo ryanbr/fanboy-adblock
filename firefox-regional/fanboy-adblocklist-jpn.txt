@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: eudvvHcD3UtWItCJHLUDXw
+! Checksum: abMz+jvj+ZXTcCiVhFLjkQ
 ! Title: Fanboy's Japanese
-! Updated: 16 Jun 2019
+! Updated: 21 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
 ! Expires: 6 days
@@ -487,6 +487,7 @@ nns2ch.net###iTicker
 ##.adsize728
 ##.adtitle
 ##.AffAD
+##.col--adrec
 ##.k-ad
 ##.k-ad__text
 ##.nui-ad__container
