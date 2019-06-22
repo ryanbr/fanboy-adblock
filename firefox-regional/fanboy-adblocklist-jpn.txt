@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: BdX6kH8u46ZdB5Ap3Ovzyg
+! Checksum: bxQhVulG9TC+bb6ZF57zpg
 ! Title: Fanboy's Japanese
 ! Updated: 22 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -111,6 +111,7 @@ _ds_adtag_
 ||nikkei.co.jp/ad/
 ||nikkei.com/.resources/static/nad/
 ||nikkei.com^*/js/ad/
+||nikkeibp.co.jp/images/n/hr/2018/banner/bnr_
 ||oricon.co.jp/img/bn/
 ||p.dmm.com^*/bnr/
 ||p.dmm.jp^*/bnr/
@@ -694,6 +695,7 @@ nikkeibp.co.jp###jsMagazineContents
 nikkeibp.co.jp###midrotation-magazine
 nikkeibp.co.jp##.aside-banner
 nikkeibp.co.jp##.header-banner
+nikkeibp.co.jp##.nhrWidgetUnderBanner
 nikkeibp.co.jp##.recommend
 nikkeibp.co.jp##.rectangle
 nikkeibp.co.jp##.sub-banner
