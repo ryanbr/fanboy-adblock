@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: hGLu61+yplRsCma2FeISDw
+! Checksum: os5aYm6mVvvYdPNddjMcIg
 ! Title: Fanboy's Japanese
 ! Updated: 22 Jun 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -114,6 +114,8 @@ _ds_adtag_
 ||oricon.co.jp/img/bn/
 ||p.dmm.com^*/bnr/
 ||p.dmm.jp^*/bnr/
+||pia.jp/uploads5/files/5415/4478/4511/ticket_bnr03_1.jpg
+||pia.jp/uploads5/files/9215/6082/1152/ticket_top_B3002501906.jpg
 ||pinknotora.net/banner/
 ||potora.jp/images/banner/
 ||potora.jp/myd_top/
@@ -698,6 +700,7 @@ omg99.net##.hbanner
 oricon.co.jp##.block-header-banner
 oricon.co.jp##div[class^="pfxAd_"]
 page2.jp##[style="text-align:left; background-color:#FFFBFF; width:450px; height:50px; font-size:12px; color:#9aa9ac; margin:3px 0 auto 20px; float: right; padding-top:2px;"]
+pia.jp###tg_pia-adFloating
 pia.jp###tg_pia-extracontents
 pia.jp##.tg_pia-ut__adboxlink
 pointtown.com##.pt-side-ad
