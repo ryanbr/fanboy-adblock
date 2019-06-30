@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: Q4VjvkVxkDtlqprsfQPQiA
+! Checksum: 5F2JbgSDMvONX7GK7fn+8g
 ! Title: Fanboy's Anti-thirdparty Fonts
 ! Updated: 30 Jun 2019
 ! Expires: 9 days
@@ -53,6 +53,7 @@
 ||myfonts.net^$third-party
 ||netdna-cdn.com^*/webfonts/
 ||qmerce.com/assets/$font
+||rackcdn.com/fonts/$font,third-party
 ||typefront.com^$third-party
 ||typekit.com^$third-party
 ||typekit.net^$third-party
