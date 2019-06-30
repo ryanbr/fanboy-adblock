@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: +kCiMFI6lBLHiEKob4lakQ
+! Checksum: gmSKOyl/A33I8w1sku7miA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 30 Jun 2019
 ! Expires: 5 days
@@ -2576,6 +2576,11 @@ allmusic.com##.medium-rectangle-btf
 ! kissanime.ru
 @@||adsterra.com^$script,domain=kissanime.ru
 @@||cpmstar.com^$script,domain=kissasian.com
+! wired.co.uk
+wired.co.uk##.ad__block
+wired.co.uk##.c-infobar-wrapper
+wired.co.uk##.c-infobar__content
+wired.co.uk##.da__container
 ! wired.com
 @@||g.doubleclick.net/gampad/ads?$script,domain=wired.com
 @@||sulidshyly.com^$domain=wired.com
