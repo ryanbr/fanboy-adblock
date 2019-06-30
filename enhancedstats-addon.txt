@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: DLCM9GgYY8A/ygFSGdPYXg
+! Checksum: +kCiMFI6lBLHiEKob4lakQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 30 Jun 2019
 ! Expires: 5 days
@@ -1054,6 +1054,9 @@ youporn.com###adblock_1
 @@||animetake*.$generichide
 @@||gomovies.$generichide
 @@||watchcartoononline.$generichide
+! https://www.philips.com/a-cs/global-country-selector
+! Various philips regions 
+@@/js/philips/utilities/showads.js$script,~third-party
 !
 ||1movies.to^*/vast.js
 ||cloudfront.net/abw.js
