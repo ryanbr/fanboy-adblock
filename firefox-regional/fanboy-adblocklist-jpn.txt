@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: bxQhVulG9TC+bb6ZF57zpg
+! Checksum: MWfDN3VqLTjdjyzZ0kWVAw
 ! Title: Fanboy's Japanese
-! Updated: 22 Jun 2019
+! Updated: 7 Jul 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
 ! Expires: 6 days
@@ -546,6 +546,7 @@ biglobe.ne.jp##.bl-top-square
 bikebros.co.jp##.w240
 bikebros.co.jp##div[style="float:left; margin-bottom:5px"]
 bikebros.co.jp,livedoor.com,wadaino.jp###ad
+blog.livedoor.jp###main > .column-inner > .column-inner-2 > table
 blogs.yahoo.co.jp##.interestMatchWrap
 bloomberg.co.jp###header_leaderboard_container
 chunichi.co.jp,tokyo-np.co.jp###Banner-area
