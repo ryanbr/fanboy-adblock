@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: FRepEEJ8aPebO98Qc3nkUQ
+! Checksum: 7Ye+lpOp9w48LvBImlWDTg
 ! Title: Fanboy's Japanese
 ! Updated: 7 Jul 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -28,6 +28,7 @@
 /images/gban/*
 /images/tamakuri
 /img/admanga
+/itsads/*
 /js/yaad.
 /js/ysad5.
 /loadPopIn.
@@ -252,6 +253,7 @@ _ds_adtag_
 ||colossal.jp^$third-party
 ||cpro.baidu.com^$third-party
 ||cross-a.net^$third-party
+||cvote.a-ch.net^$third-party
 ||deqwas.net^$third-party
 ||download.jword.jp^$third-party
 ||estlier.net^$third-party
