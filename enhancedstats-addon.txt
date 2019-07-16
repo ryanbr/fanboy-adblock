@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: SwwKXUhipbq16kPne1q2NQ
+! Checksum: 8yI+wpPGIXQQNDQyV6KlsA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 15 Jul 2019
+! Updated: 16 Jul 2019
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1697,6 +1697,10 @@ washingtonpost.com##.nl-top-hairline
 washingtonpost.com##.pb-f-ad-leaderboard
 washingtonpost.com##.pb-subscribe-promo
 ||washingtonpost.com/wp-stat/pwapi/prod/$script
+! theroot.com
+theroot.com##.contained-ad-container
+theroot.com##.contained-ad-shaft
+theroot.com##.js_ad-dynamic
 ! spaceflight101.com
 @@||spaceflight101.com^$generichide
 spaceflight101.com##.adslot_1
