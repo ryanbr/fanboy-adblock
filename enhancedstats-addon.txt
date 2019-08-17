@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 7bReMVYiZZ/ItYQPCKRKPQ
+! Checksum: CGE71h++9o3hR5G0OD5z4A
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Aug 2019
 ! Expires: 5 days
@@ -422,6 +422,9 @@ nautil.us###adpayload
 ||syncronex.com^$third-party
 ||tinypass.com^$third-party
 !
+! goal.com
+||c-5uwzmx78pmca09x24amkczmx78cjilax2eox2elwcjtmktqksx2evmb.g00.goal.com^$script,domain=goal.com
+||c-5uwzmx78pmca09x24mlomx2eycivbamzdmx2ekwu.g00.goal.com$script,domain=goal.com
 !
 ! ---------- Personal Filters ------
 !
