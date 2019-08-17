@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: CGE71h++9o3hR5G0OD5z4A
+! Checksum: 3451erFmXejn+PGk+Amr8g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 17 Aug 2019
 ! Expires: 5 days
@@ -425,6 +425,15 @@ nautil.us###adpayload
 ! goal.com
 ||c-5uwzmx78pmca09x24amkczmx78cjilax2eox2elwcjtmktqksx2evmb.g00.goal.com^$script,domain=goal.com
 ||c-5uwzmx78pmca09x24mlomx2eycivbamzdmx2ekwu.g00.goal.com$script,domain=goal.com
+! floridatravellife.com
+||c-6rtwjumjzx7877x24bbbx2elttlqjyflx78jwanhjx78x2ehtr.g00.floridatravellife.com^$script,domain=floridatravellife.com
+||c-6rtwjumjzx7877x24ywhx2eyfgttqfx2ehtr.g00.floridatravellife.com^$script,domain=floridatravellife.com
+! atvrider.com
+||c-6rtwjumjzx7877x24hisx2eyfgttqfx2ehtr.g00.atvrider.com^$script,domain=atvrider.com
+||c-6rtwjumjzx7877x24x78jhzwjuzgfix78x2elx2eitzgqjhqnhpx2esjy.g00.atvrider.com^$script,domain=atvrider.com
+! baggersmag.com
+||c-6rtwjumjzx7877x24bbbx2elttlqjyflx78jwanhjx78x2ehtr.g00.baggersmag.com^$script,domain=baggersmag.com
+||c-6rtwjumjzx7877x24ywhx2eyfgttqfx2ehtr.g00.baggersmag.com^$script,domain=baggersmag.com
 !
 ! ---------- Personal Filters ------
 !
