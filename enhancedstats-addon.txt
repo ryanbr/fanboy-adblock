@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: bUbZKoiKX70AzU7dWNQHRA
+! Checksum: ZOvBKmdflroCT9qtEBRFEA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 30 Aug 2019
 ! Expires: 5 days
@@ -409,7 +409,7 @@ jsonline.com##.blockOverlay
 jsonline.com##.blockPage
 nautil.us###adpayload
 ||accu.fm/audio/sweeper/
-||api.ffx.io/graphql$xmlhttprequest,domain=smh.com.au|theage.com.au|brisbanetimes.com.au|watoday.com.au|afr.com
+||api.ffx.io/graphql*Paywall$xmlhttprequest,domain=smh.com.au|theage.com.au|brisbanetimes.com.au|watoday.com.au|afr.com
 ||cointent.com^$third-party
 ||concert.io^$third-party
 ||contentpass.net^$third-party
