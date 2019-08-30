@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: y+DRynH/2pKQVlvqibBJfw
+! Checksum: 9qDPOU7wgiqGQCmWG7iEwQ
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 23 Aug 2019
+! Updated: 30 Aug 2019
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -409,6 +409,7 @@ jsonline.com##.blockOverlay
 jsonline.com##.blockPage
 nautil.us###adpayload
 ||accu.fm/audio/sweeper/
+||api.ffx.io/graphql$xmlhttprequest,domain=smh.com.au
 ||cointent.com^$third-party
 ||concert.io^$third-party
 ||contentpass.net^$third-party
