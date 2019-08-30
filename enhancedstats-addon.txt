@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: D4PJHYWmWguJMtyTHRoAAQ
+! Checksum: bUbZKoiKX70AzU7dWNQHRA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 30 Aug 2019
 ! Expires: 5 days
@@ -415,6 +415,7 @@ nautil.us###adpayload
 ||contentpass.net^$third-party
 ||mediapass.com^$third-party
 ||newsmemory.com^$third-party
+||nytimes.com/meter.js
 ||piano-media.com^$third-party
 ||platform.californiatimes.com/meter/latspot.min.js
 ||ppjol.net^$third-party
