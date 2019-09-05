@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: O8slVloMG64r2rGftOqyBg
+! Checksum: vb5KLs0IcF/4DeeGr1IEMQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 5 Sep 2019
 ! Expires: 5 days
@@ -1672,6 +1672,7 @@ cnet.com###gdpr_area
 cnet.com###googleplus
 cnet.com##.ad-incontent-ad-plus-billboard-top
 cnet.com##.ad-mpu-plus-top
+cnet.com##.skybox-collapseBtn.skybox-closeBtn
 cnet.com##.social-inner
 cnet.com##.socialSharing
 cnet.com##.type-native
