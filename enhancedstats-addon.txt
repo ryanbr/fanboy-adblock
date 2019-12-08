@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: KaRB/keEwmQCJ45EPt1uSQ
+! Checksum: izixFle75XGpjYCGvlvkCw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 8 Dec 2019
 ! Expires: 5 days
@@ -2775,7 +2775,8 @@ parenting.pl##.exitintent
 @@||rl0.ru^*/ads.js
 !
 ! Test filter
-||quantcast.mgr.consensu.org/cmp.js
+!
+||quantcast.mgr.consensu.org^$subdocument
 !
 ! Intl Specific elements hiding
 abczdrowie.pl###WP-cookie-info
