@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: s87GiMicY0uBcjr5TNuHMg
+! Checksum: 80ISzJXSG5hOjsL+pyNdMg
 ! Title: Fanboy's Turkish
 ! Updated: 17 Dec 2019
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -614,7 +614,6 @@ enguzelpornolarii.biz##div[style="width:201px; height:116px; position:fixed; bot
 eniyifilmizle.com##div[id^="reklam"]
 etutodasi.biz##span[style="margin: 10px; float: left; width: 301px; height: 251px;"]
 fanatik.com.tr##.linksHead
-forum.donanimhaber.com.tr###Table5
 forumgaleri.com,sinesalon.com,zehirli.net###tamindir_topbar
 fotospor.com###logoaltinew_banner
 fotospor.com##.module-hilite2a
