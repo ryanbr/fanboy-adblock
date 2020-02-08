@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: mJzPXBmv3/1RJ1BqtpFrYA
+! Checksum: z7sQHNgtYCqUBciYZhBlxA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 8 Feb 2020
 ! Expires: 5 days
@@ -403,7 +403,7 @@ nautil.us###adpayload
 ||tinypass.com^$third-party
 ||unlock-protocol.com^$third-party
 ||wallkit.net^$third-party
-||washingtonpost.com/wp-stat/pwapi/prod/pwapi-proxy.min.js
+||washingtonpost.com^*/pwapi-proxy.min.js
 ! UBo-specific blocks
 theatlantic.com##+js(cookie-remover.js, articleViews)
 !
