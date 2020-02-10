@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: zZouNtslXh/iGRztyYFfqg
+! Checksum: BgjRte232RuukVk2lUaovQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 10 Feb 2020
 ! Expires: 5 days
@@ -335,6 +335,7 @@ _wtBase.js
 _wtbaseV2.
 _wtInit.js
 ! utag
+/prod/utag.js
 @@||tags.tiqcdn.com/utag/*/utag.js$script,domain=cbsnews.com|bleacherreport.com|cnet.com|mediaset.it
 ||tags.tiqcdn.com/utag/$script
 ! Youtube test scripts
