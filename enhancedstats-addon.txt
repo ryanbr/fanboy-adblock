@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: FoJKSSO7r9uB2wJKOrVvdw
+! Checksum: VAfOzO2hlspCRjKNkNRZQA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 29 Feb 2020
 ! Expires: 5 days
@@ -335,6 +335,8 @@ _wtBase.js
 _wtbaseV2.
 _wtInit.js
 ! Snippet Tracking (Filtering)
+mixer.com##+js(acis, gtag)
+mixer.com#$#abort-current-inline-script gtag
 msn.com##+js(acis, chartBeatUID)
 msn.com##+js(acis, dap)
 msn.com#$#abort-current-inline-script chartBeatUID
