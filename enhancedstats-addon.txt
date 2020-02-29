@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: BYChxQ8qRFXm80StIB+4qQ
+! Checksum: Gnl0jtYZmQSONH9N7b+5wg
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 25 Feb 2020
+! Updated: 29 Feb 2020
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -334,6 +334,9 @@ _webtrends_
 _wtBase.js
 _wtbaseV2.
 _wtInit.js
+! Snippet (Filtering)
+tagesspiegel.de##+js(acis, Criteo)
+tagesspiegel.de#$#abort-current-inline-script Criteo
 ! utag
 @@||tags.tiqcdn.com/utag/*/utag.js$script,domain=mediaset.it|cbsnews.com|bleacherreport.com|cnet.com|mediaset.it
 ||tags.tiqcdn.com/utag/$script
