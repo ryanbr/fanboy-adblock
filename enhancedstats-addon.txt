@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 9aMIseApMTU8pbRjpvC05g
+! Checksum: Fkv0AIV/yDIrXwOhQ7wnEA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Mar 2020
 ! Expires: 5 days
@@ -372,6 +372,13 @@ stuff.co.nz#$#abort-current-inline-script googletag
 ! tagesspiegel.de
 tagesspiegel.de##+js(acis, Criteo)
 tagesspiegel.de#$#abort-current-inline-script Criteo
+! videocardz.com
+videocardz.com##+js(acis, __gaTrackerOptout)
+videocardz.com##+js(acis, em_track_user)
+videocardz.com##+js(acis, gaOptout)
+videocardz.com#$#abort-current-inline-script __gaTrackerOptout
+videocardz.com#$#abort-current-inline-script em_track_user
+videocardz.com#$#abort-current-inline-script gaOptout
 ! wccftech.com
 wccftech.com##+js(acis, f.fbq)
 wccftech.com##+js(acis, GoogleAnalyticsObject)
