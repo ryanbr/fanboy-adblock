@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: VAfOzO2hlspCRjKNkNRZQA
+! Checksum: kYBHIJOxoyST8sDPF1dIjw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 29 Feb 2020
+! Updated: 1 Mar 2020
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -335,15 +335,17 @@ _wtBase.js
 _wtbaseV2.
 _wtInit.js
 ! Snippet Tracking (Filtering)
+bbc.co.uk##+js(acis, loadChartbeat)
+bbc.co.uk#$#abort-current-inline-script loadChartbeat
+bbc.co.uk,stuff.co.nz##+js(acis, _comscore)
+bbc.co.uk,stuff.co.nz#$#abort-current-inline-script _comscore
 mixer.com##+js(acis, gtag)
 mixer.com#$#abort-current-inline-script gtag
 msn.com##+js(acis, chartBeatUID)
 msn.com##+js(acis, dap)
 msn.com#$#abort-current-inline-script chartBeatUID
 msn.com#$#abort-current-inline-script dap
-stuff.co.nz##+js(acis, _comscore)
 stuff.co.nz##+js(acis, googletag)
-stuff.co.nz#$#abort-current-inline-script _comscore
 stuff.co.nz#$#abort-current-inline-script googletag
 tagesspiegel.de##+js(acis, Criteo)
 tagesspiegel.de#$#abort-current-inline-script Criteo
