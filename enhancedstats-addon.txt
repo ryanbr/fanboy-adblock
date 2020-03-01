@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: OnXsr003WesijVmVeX2mjQ
+! Checksum: 9aMIseApMTU8pbRjpvC05g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Mar 2020
 ! Expires: 5 days
@@ -357,7 +357,7 @@ msn.com##+js(acis, chartBeatUID)
 msn.com##+js(acis, dap)
 msn.com#$#abort-current-inline-script chartBeatUID
 msn.com#$#abort-current-inline-script dap
-!
+! neowin.net
 neowin.net##+js(acis, adsbygoogle)
 neowin.net##+js(acis, googletag.cmd.push)
 neowin.net##+js(acis, window.googletag)
@@ -372,6 +372,19 @@ stuff.co.nz#$#abort-current-inline-script googletag
 ! tagesspiegel.de
 tagesspiegel.de##+js(acis, Criteo)
 tagesspiegel.de#$#abort-current-inline-script Criteo
+! wccftech.com
+wccftech.com##+js(acis, f.fbq)
+wccftech.com##+js(acis, GoogleAnalyticsObject)
+wccftech.com##+js(acis, googletag)
+wccftech.com##+js(acis, googletag.cmd.push)
+wccftech.com##+js(acis, pl_beacon)
+wccftech.com##+js(acis, window.NewzmateConfig)
+wccftech.com#$#abort-current-inline-script f.fbq
+wccftech.com#$#abort-current-inline-script GoogleAnalyticsObject
+wccftech.com#$#abort-current-inline-script googletag
+wccftech.com#$#abort-current-inline-script googletag.cmd.push
+wccftech.com#$#abort-current-inline-script pl_beacon
+wccftech.com#$#abort-current-inline-script window.NewzmateConfig
 ! utag
 @@||tags.tiqcdn.com/utag/*/utag.js$script,domain=mediaset.it|cbsnews.com|bleacherreport.com|cnet.com|mediaset.it
 ||tags.tiqcdn.com/utag/$script
