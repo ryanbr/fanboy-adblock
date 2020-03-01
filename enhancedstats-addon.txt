@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: rTrzCorrp+rVESVKMinrJw
+! Checksum: 5zRPKLMtoruguLN00xhNJQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Mar 2020
 ! Expires: 5 days
@@ -349,6 +349,17 @@ bbc.co.uk##+js(acis, loadChartbeat)
 bbc.co.uk#$#abort-current-inline-script loadChartbeat
 bbc.co.uk,stuff.co.nz##+js(acis, _comscore)
 bbc.co.uk,stuff.co.nz#$#abort-current-inline-script _comscore
+! dexerto.com 
+dexerto.com##+js(acis, apstag.init)
+dexerto.com##+js(acis, dataLayer)
+dexerto.com##+js(acis, gtm.start)
+dexerto.com##+js(acis, topAdSlot)
+dexerto.com##+js(acis, window.enableDfpManager)
+dexerto.com#$#abort-current-inline-script apstag.init
+dexerto.com#$#abort-current-inline-script dataLayer
+dexerto.com#$#abort-current-inline-script gtm.start
+dexerto.com#$#abort-current-inline-script topAdSlot
+dexerto.com#$#abort-current-inline-script window.enableDfpManager
 ! ghacks.net
 ghacks.net##+js(acis, gtm.start)
 ghacks.net##+js(acis, OptanonWrapper)
