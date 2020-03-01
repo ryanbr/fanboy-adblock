@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: MV1CiBhowPrUdCfzGc5Ssg
+! Checksum: xEqTbS3aPYM0F5Oa+oTWhQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Mar 2020
 ! Expires: 5 days
@@ -423,6 +423,15 @@ neowin.net#$#abort-current-inline-script adsbygoogle
 neowin.net#$#abort-current-inline-script googletag.cmd.push
 neowin.net#$#abort-current-inline-script window.googletag
 neowin.net#$#abort-current-inline-script window.ZDStickyOpts
+! Stackoverflow
+serverfault.com,superuser.com,stackoverflow.com,askubuntu.com,stackexchange.com##+js(acis, _comscore)
+serverfault.com,superuser.com,stackoverflow.com,askubuntu.com,stackexchange.com##+js(acis, _qevents)
+serverfault.com,superuser.com,stackoverflow.com,askubuntu.com,stackexchange.com##+js(acis, GoogleAnalyticsObject)
+serverfault.com,superuser.com,stackoverflow.com,askubuntu.com,stackexchange.com##+js(acis, StackExchange.ga.init)
+serverfault.com,superuser.com,stackoverflow.com,askubuntu.com,stackexchange.com#$#abort-current-inline-script _comscore
+serverfault.com,superuser.com,stackoverflow.com,askubuntu.com,stackexchange.com#$#abort-current-inline-script _qevents
+serverfault.com,superuser.com,stackoverflow.com,askubuntu.com,stackexchange.com#$#abort-current-inline-script GoogleAnalyticsObject
+serverfault.com,superuser.com,stackoverflow.com,askubuntu.com,stackexchange.com#$#abort-current-inline-script StackExchange.ga.init
 ! stuff.co.nz
 stuff.co.nz##+js(acis, googletag)
 stuff.co.nz#$#abort-current-inline-script googletag
