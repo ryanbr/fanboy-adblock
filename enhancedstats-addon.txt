@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: QF8eFSn6Fft/z873qig1gw
+! Checksum: MV1CiBhowPrUdCfzGc5Ssg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Mar 2020
 ! Expires: 5 days
@@ -335,6 +335,17 @@ _wtBase.js
 _wtbaseV2.
 _wtInit.js
 ! Snippet Tracking (Filtering)
+! arstechnica.com
+anandtech.com##+js(acis, _comscore)
+anandtech.com##+js(acis, _gaq)
+anandtech.com##+js(acis, _qevents)
+anandtech.com##+js(acis, g_o)
+anandtech.com##+js(acis, tmntag)
+anandtech.com#$#abort-current-inline-script _comscore
+anandtech.com#$#abort-current-inline-script _gaq
+anandtech.com#$#abort-current-inline-script _qevents
+anandtech.com#$#abort-current-inline-script g_o
+anandtech.com#$#abort-current-inline-script tmntag
 ! arstechnica.com
 arstechnica.com##+js(acis, DQ)
 arstechnica.com##+js(acis, gtm.start)
