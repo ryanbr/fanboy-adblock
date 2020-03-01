@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 5FrgL51jrSFZgXJQqGJB9Q
+! Checksum: OnXsr003WesijVmVeX2mjQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Mar 2020
 ! Expires: 5 days
@@ -357,6 +357,15 @@ msn.com##+js(acis, chartBeatUID)
 msn.com##+js(acis, dap)
 msn.com#$#abort-current-inline-script chartBeatUID
 msn.com#$#abort-current-inline-script dap
+!
+neowin.net##+js(acis, adsbygoogle)
+neowin.net##+js(acis, googletag.cmd.push)
+neowin.net##+js(acis, window.googletag)
+neowin.net##+js(acis, window.ZDStickyOpts)
+neowin.net#$#abort-current-inline-script adsbygoogle
+neowin.net#$#abort-current-inline-script googletag.cmd.push
+neowin.net#$#abort-current-inline-script window.googletag
+neowin.net#$#abort-current-inline-script window.ZDStickyOpts
 ! stuff.co.nz
 stuff.co.nz##+js(acis, googletag)
 stuff.co.nz#$#abort-current-inline-script googletag
