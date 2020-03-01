@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: kYBHIJOxoyST8sDPF1dIjw
+! Checksum: 5FrgL51jrSFZgXJQqGJB9Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Mar 2020
 ! Expires: 5 days
@@ -335,18 +335,32 @@ _wtBase.js
 _wtbaseV2.
 _wtInit.js
 ! Snippet Tracking (Filtering)
+! bbc.co.uk
 bbc.co.uk##+js(acis, loadChartbeat)
 bbc.co.uk#$#abort-current-inline-script loadChartbeat
 bbc.co.uk,stuff.co.nz##+js(acis, _comscore)
 bbc.co.uk,stuff.co.nz#$#abort-current-inline-script _comscore
+! slashdot.org
+slashdot.org##+js(acis, _gaq)
+slashdot.org##+js(acis, _paq)
+slashdot.org##+js(acis, googletag.cmd.push)
+slashdot.org##+js(acis, initPiwikAndNels)
+slashdot.org#$#abort-current-inline-script _gaq
+slashdot.org#$#abort-current-inline-script _paq
+slashdot.org#$#abort-current-inline-script googletag.cmd.push
+slashdot.org#$#abort-current-inline-script initPiwikAndNels
+! mixer.com
 mixer.com##+js(acis, gtag)
 mixer.com#$#abort-current-inline-script gtag
+! msn.com
 msn.com##+js(acis, chartBeatUID)
 msn.com##+js(acis, dap)
 msn.com#$#abort-current-inline-script chartBeatUID
 msn.com#$#abort-current-inline-script dap
+! stuff.co.nz
 stuff.co.nz##+js(acis, googletag)
 stuff.co.nz#$#abort-current-inline-script googletag
+! tagesspiegel.de
 tagesspiegel.de##+js(acis, Criteo)
 tagesspiegel.de#$#abort-current-inline-script Criteo
 ! utag
