@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 5zRPKLMtoruguLN00xhNJQ
+! Checksum: QF8eFSn6Fft/z873qig1gw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 1 Mar 2020
 ! Expires: 5 days
@@ -360,6 +360,17 @@ dexerto.com#$#abort-current-inline-script dataLayer
 dexerto.com#$#abort-current-inline-script gtm.start
 dexerto.com#$#abort-current-inline-script topAdSlot
 dexerto.com#$#abort-current-inline-script window.enableDfpManager
+! geekzone.co.nz
+geekzone.co.nz##+js(acis, _linkedin_data_partner_id)
+geekzone.co.nz##+js(acis, Fingerprint2)
+geekzone.co.nz##+js(acis, ga)
+geekzone.co.nz##+js(acis, GoogleAnalyticsObject)
+geekzone.co.nz##+js(acis, googletag)
+geekzone.co.nz#$#abort-current-inline-script _linkedin_data_partner_id
+geekzone.co.nz#$#abort-current-inline-script Fingerprint2
+geekzone.co.nz#$#abort-current-inline-script ga
+geekzone.co.nz#$#abort-current-inline-script GoogleAnalyticsObject
+geekzone.co.nz#$#abort-current-inline-script googletag
 ! ghacks.net
 ghacks.net##+js(acis, gtm.start)
 ghacks.net##+js(acis, OptanonWrapper)
