@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: xEqTbS3aPYM0F5Oa+oTWhQ
+! Checksum: 1ealK1EMVBjOsbNC1FgiIg
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 1 Mar 2020
+! Updated: 2 Mar 2020
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -397,6 +397,9 @@ ghacks.net#$#abort-current-inline-script refreshSlots
 ghacks.net#$#abort-current-inline-script slots
 ghacks.net#$#abort-current-inline-script utmParams
 ghacks.net#$#abort-current-inline-script window.googletag
+! gleam.io
+gleam.io##+js(acis, window.customGa)
+gleam.io#$#abort-current-inline-script window.customGa
 ! slashdot.org
 slashdot.org##+js(acis, _gaq)
 slashdot.org##+js(acis, _paq)
