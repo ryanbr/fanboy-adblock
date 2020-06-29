@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: guPJ5JzhnCjedZqvx7nUFw
+! Checksum: g9ziAXrrU9r0Z7Ph2+iCIw
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 28 Jun 2020
+! Updated: 29 Jun 2020
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -1743,6 +1743,9 @@ reddit.com###ad_4
 reddit.com###ad_5
 reddit.com###ad_6
 reddit.com##+js(acis, addScript)
+reddit.com##+js(acis, adSlots)
+reddit.com##+js(acis, googletag.pubads)
+reddit.com##+js(acis, window.__adslots)
 reddit.com##._3RPJ8hHnfFohktLZca18J6
 reddit.com##.dfp-ad-container
 reddit.com##.email-collection-banner
