@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: nYbpcy9FX2ht609K++1f0g
+! Checksum: Hz+ubDFLrcUoRsHvAO/suQ
 ! Title: Fanboy's Anti-Comment List
 ! Updated: 6 Aug 2020
 ! Expires: 5 days
@@ -15,6 +15,8 @@
 !
 ###disqus_thread
 ##.disqus.post-widget
+##.vf-comments
+##.vf-widget
 ##.widget_disquswidget
 ##.xenforo-comment-widget
 ! First-party elements
@@ -24,3 +26,4 @@ techpowerup.com##.comments
 ! Third-party servers
 ||disqus.com^$third-party 
 ||spot.im^$third-party
+||viafoura.net^$third-party
