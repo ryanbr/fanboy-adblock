@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: U/x7d1mOwHHZ8UO2wa9ZMA
+! Checksum: jZ3lEb+SntiMRaW7t4yggA
 ! Title: Fanboy's Anti-Comment List
 ! Updated: 6 Aug 2020
 ! Expires: 5 days
@@ -11,7 +11,9 @@
 ! In no event shall Fanboy List, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 !
+! First-party elements
+techpowerup.com##.comments
 ! 
-! Third-party
+! Third-party servers
 ||disqus.com^$third-party 
 ||spot.im^$third-party
