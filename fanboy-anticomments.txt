@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: vWIQBN5iDhYwS7g2zR2i5A
+! Checksum: f8omklAy7cCa4VK5C8lScg
 ! Title: Fanboy's Anti-Comment List
 ! Updated: 6 Aug 2020
 ! Expires: 5 days
@@ -32,5 +32,6 @@ youtube.com###comments
 ! 
 ! Third-party servers
 ||disqus.com^$third-party 
+||jetpack.wordpress.com/jetpack-comment/
 ||spot.im^$third-party
 ||viafoura.net^$third-party
