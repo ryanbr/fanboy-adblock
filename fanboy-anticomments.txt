@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 55dJb5BNp7cihU3UOzgGog
+! Checksum: nYbpcy9FX2ht609K++1f0g
 ! Title: Fanboy's Anti-Comment List
 ! Updated: 6 Aug 2020
 ! Expires: 5 days
@@ -13,6 +13,7 @@
 !
 ! Generic element
 !
+###disqus_thread
 ##.disqus.post-widget
 ##.widget_disquswidget
 ##.xenforo-comment-widget
