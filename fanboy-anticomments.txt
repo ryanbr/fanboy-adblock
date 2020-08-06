@@ -1,0 +1,15 @@
+[Adblock Plus 2.0]
+! Checksum: IAq2u/2fMgWGo6hWcvTNEA
+! Title: Fanboy's Anti-Comment List
+! Updated: 2 Aug 2020
+! Expires: 5 days
+! License: http://creativecommons.org/licenses/by/3.0/
+! Homepage: http://www.fanboy.co.nz/
+! Reporting Issues: https://github.com/ryanbr/fanboy-adblock/issues
+! !
+! Legal stuff (T&C's).
+! In no event shall Fanboy List, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+!
+! 
+ 
