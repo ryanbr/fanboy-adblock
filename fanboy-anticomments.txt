@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Checksum: D89bhWVTw8r1pEaw3S7OJA
 ! Title: Fanboy's Anti-Comment List
-! Updated: 6 Aug 2020
+! Updated: 11 Aug 2020
 ! Expires: 5 days
-! License: http://creativecommons.org/licenses/by/3.0/
-! Homepage: http://www.fanboy.co.nz/
+! License: https://creativecommons.org/licenses/by/3.0/
+! Homepage: https://www.fanboy.co.nz/
 ! Reporting Issues: https://github.com/ryanbr/fanboy-adblock/issues
 ! !
 ! Legal stuff (T&C's).
@@ -17,30 +17,46 @@
 !
 ! Generic element
 !
+###commentlistrecent
 ###comments-wrapper-coral
 ###disqus_thread
 ##.asset-comments
 ##.c-comments
 ##.cf.comments-content
 ##.comments-container
+##.commentsList
 ##.disqus.post-widget
 ##.fb_iframe_widget.fb-comments
 ##.js_comments-iframe
+##.o-comments-link
+##.ui-comments
 ##.vf-comments
 ##.vf-widget
 ##.widget_disquswidget
 ##.xenforo-comment-widget
+##article-facebook-comments
 ! First-party elements
 !
 dailymail.co.uk##.article-reader-comments
-techpowerup.com##.comments
-youtube.com###comments
+techpowerup.com,youtube.com,vg.no,invidio.us,ghacks.net,nintendolife.com,thejournal.ie,e621.net###comments
+presstv.com##.item-comments
+nintendolife.com###reply
+m.youtube.com##ytm-comment-section-renderer
+||comments.ign.com^
+||ws-comments.ign.com^
+||youtube.com/live_chat_fragments_ajax?$xmlhttprequest
+||youtube.com/comment_service_ajax?
+||fandom.com/wikia.php?controller=ArticleComments
+||soundcloud.com/tracks/*/comments^
 ! 
 ! Third-party servers
 ||disqus.com^$third-party 
 ||jetpack.wordpress.com/jetpack-comment/
 ||spot.im^$third-party
 ||viafoura.net^$third-party
+||cmmnts.i.bt.no^$subdocument
+||cdn.viafoura.net/chunks/commenting^
+||s0.wp.com/*/plugins/ajax-comment-loading^
 !
 ! Excemptions
 facebook.com#@#.fb_iframe_widget.fb-comments
