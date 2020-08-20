@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Checksum: D89bhWVTw8r1pEaw3S7OJA
 ! Title: Fanboy's Anti-Comment List
-! Updated: 11 Aug 2020
+! Updated: 20 Aug 2020
 ! Expires: 5 days
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://www.fanboy.co.nz/
@@ -46,6 +46,7 @@ m.youtube.com##ytm-comment-section-renderer
 color-hex.com##a[href="#comments"]
 rule34.xxx##div[id^=c][style="display:inline;"]
 theregister.co.uk##.story_img_wrap > .comments > .count
+theepochtimes.com###remark-side-panel
 ||comments.ign.com^
 ||ws-comments.ign.com^
 ||youtube.com/live_chat_fragments_ajax?$xmlhttprequest
@@ -61,6 +62,7 @@ theregister.co.uk##.story_img_wrap > .comments > .count
 ||cmmnts.i.bt.no^$subdocument
 ||cdn.viafoura.net/chunks/commenting^
 ||s0.wp.com/*/plugins/ajax-comment-loading^
+||comment.youmaker.com^
 !
 ! Excemptions
 facebook.com#@#.fb_iframe_widget.fb-comments
