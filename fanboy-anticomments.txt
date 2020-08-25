@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Checksum: D89bhWVTw8r1pEaw3S7OJA
 ! Title: Fanboy's Anti-Comment List
-! Updated: 20 Aug 2020
+! Updated: 25 Aug 2020
 ! Expires: 5 days
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://www.fanboy.co.nz/
@@ -53,6 +53,7 @@ theepochtimes.com###remark-side-panel
 ||youtube.com/comment_service_ajax?
 ||fandom.com/wikia.php?controller=ArticleComments
 ||soundcloud.com/tracks/*/comments^
+||comments.vg.no^
 ! 
 ! Third-party servers
 ||disqus.com^$third-party 
