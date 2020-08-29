@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: e/atawb1wBqEczRCmp+zYA
+! Checksum: x5ViKeX0gP2IR2Jen+pGWQ
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 29 Aug 2020
 ! Expires: 5 days
@@ -3283,6 +3283,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||victoriassecret.com/app/coremetrics/eluminate.js
 @@||video.nbcuni.com/core/*/omniture_
 @@||videos.mediaite.com/embed/*?referrer=http
+@@||vodafone.co.uk/cs/groups/system/documents/webasset/common_omniture.js$script
 @@||washingtonpost.com/wpost/js/combo?token*/wp_omniture.js
 @@||weather.com/clients/widgets/*?referrer=http
 @@||wireimage.com/scripts/tracking/omniture-communicator-basic.js
