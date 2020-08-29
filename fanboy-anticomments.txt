@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: D89bhWVTw8r1pEaw3S7OJA
+! Checksum: UrJurvIovQxxJlPZRV5DJA
 ! Title: Fanboy's Anti-Comment List
-! Updated: 25 Aug 2020
+! Updated: 29 Aug 2020
 ! Expires: 5 days
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://www.fanboy.co.nz/
@@ -38,32 +38,32 @@
 ##article-facebook-comments
 ! First-party elements
 !
-dailymail.co.uk##.article-reader-comments
-techpowerup.com,youtube.com,vg.no,invidio.us,ghacks.net,nintendolife.com,thejournal.ie,e621.net###comments
-presstv.com##.item-comments
-nintendolife.com###reply
-m.youtube.com##ytm-comment-section-renderer
 color-hex.com##a[href="#comments"]
+dailymail.co.uk##.article-reader-comments
+m.youtube.com##ytm-comment-section-renderer
+nintendolife.com###reply
+presstv.com##.item-comments
 rule34.xxx##div[id^=c][style="display:inline;"]
-theregister.co.uk##.story_img_wrap > .comments > .count
+techpowerup.com,youtube.com,vg.no,invidio.us,ghacks.net,nintendolife.com,thejournal.ie,e621.net###comments
 theepochtimes.com###remark-side-panel
+theregister.co.uk##.story_img_wrap > .comments > .count
 ||comments.ign.com^
-||ws-comments.ign.com^
-||youtube.com/live_chat_fragments_ajax?$xmlhttprequest
-||youtube.com/comment_service_ajax?
+||comments.vg.no^
 ||fandom.com/wikia.php?controller=ArticleComments
 ||soundcloud.com/tracks/*/comments^
-||comments.vg.no^
+||ws-comments.ign.com^
+||youtube.com/comment_service_ajax?
+||youtube.com/live_chat_fragments_ajax?$xmlhttprequest
 ! 
 ! Third-party servers
+||cdn.viafoura.net/chunks/commenting^
+||cmmnts.i.bt.no^$subdocument
+||comment.youmaker.com^
 ||disqus.com^$third-party 
 ||jetpack.wordpress.com/jetpack-comment/
+||s0.wp.com/*/plugins/ajax-comment-loading^
 ||spot.im^$third-party
 ||viafoura.net^$third-party
-||cmmnts.i.bt.no^$subdocument
-||cdn.viafoura.net/chunks/commenting^
-||s0.wp.com/*/plugins/ajax-comment-loading^
-||comment.youmaker.com^
 !
 ! Excemptions
 facebook.com#@#.fb_iframe_widget.fb-comments
