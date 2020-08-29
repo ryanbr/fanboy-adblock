@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: wa8w76ej/XzN34ogg1lAaA
+! Checksum: e/atawb1wBqEczRCmp+zYA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 29 Aug 2020
 ! Expires: 5 days
@@ -815,7 +815,6 @@ youporn.com###adblock_1
 ||websecurity.norton.com^$third-party
 ||websitealive.com^$third-party
 ||websitealive5.com^$third-party
-||webutation.net^$third-party
 ||widget.prnewswire.com^$third-party
 ||widgets.trustedshops.com^$third-party
 ||wurfl.io^$third-party
