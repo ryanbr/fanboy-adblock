@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: O60stjjVpddZHu0hGClPUQ
+! Checksum: kE9QeHHKq/kqvtf7Q5QI3g
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 8 Sep 2020
+! Updated: 10 Sep 2020
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -441,9 +441,6 @@ stuff.co.nz#$#abort-current-inline-script googletag
 ! tagesspiegel.de
 tagesspiegel.de##+js(acis, Criteo)
 tagesspiegel.de#$#abort-current-inline-script Criteo
-! techpowerup.com
-techpowerup.com#$#abort-current-inline-script window.ga
-techpowerup.com#+js(acis, window.ga)
 ! videocardz.com
 videocardz.com##+js(acis, __gaTrackerOptout)
 videocardz.com##+js(acis, em_track_user)
