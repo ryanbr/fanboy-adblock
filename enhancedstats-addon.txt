@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: F7PWWa/vAboS0DXmb845oA
+! Checksum: UDo3ERgvr498sgrJA9W+hA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Sep 2020
 ! Expires: 5 days
@@ -2810,7 +2810,7 @@ pastebin.com###paypal-overlay
 @@||techdracula.com^$generichide
 techdracula.com##.apss-social-share
 ! techpowerup.com
-/\www\.techpowerup\.com/.*[a-f0-9]{5,9}/$image
+/\www\.techpowerup\.com\/[a-z]{8,}\/[a-f0-9]{6,}\./$image
 @@||techpowerup.com/forums/$image
 techpowerup.com##.sidebar > figure:nth-of-type(1)
 techpowerup.com##.sidebar > figure:nth-of-type(2)
