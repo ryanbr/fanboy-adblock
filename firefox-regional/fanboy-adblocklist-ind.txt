@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: rIEFEqLk8UaZntJFYGcsZg
+! Checksum: 1CUo00o/3aQYTv0FZNFlbQ
 ! Title: Fanboy's Indian
-! Updated: 22 Sep 2020
+! Updated: 12 Oct 2020
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
 ! Expires: 90 days
@@ -47,6 +47,7 @@
 ||behindwoods.com/images/tn-skin.
 ||bpoavenues.com/bpo/ads/
 ||business-standard.com/hin/ads/
+||contributor.google.com^*/loader.js
 ||dinakaran.com/images/ananthajyothi.
 ||dinakaran.com/images/Bharatmatrimony_
 ||dinakaran.com/images/christian_matrimony.
