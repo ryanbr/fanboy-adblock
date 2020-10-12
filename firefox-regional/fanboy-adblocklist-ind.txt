@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 1CUo00o/3aQYTv0FZNFlbQ
+! Checksum: 7YqtoFGVmR6ZGY9P7SWnSA
 ! Title: Fanboy's Indian
 ! Updated: 12 Oct 2020
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -59,6 +59,7 @@
 ||economictimes.indiatimes.com/google_$subdocument
 ||expressnews.lk/ad$subdocument
 ||freshersworld.com/campus/ads/
+||fundingchoicesmessages.google.com^$xmlhttprequest
 ||galatta.com/control/togglingimageadmin/bannerimages/
 ||hotbollywoodactress.net/angelina.
 ||hotbollywoodactress.net/banners.min.js
