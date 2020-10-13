@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: 7YqtoFGVmR6ZGY9P7SWnSA
+! Checksum: MH9hSHeg0+mZ1/YdazSgQg
 ! Title: Fanboy's Indian
-! Updated: 12 Oct 2020
+! Updated: 13 Oct 2020
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
 ! Expires: 90 days
@@ -59,7 +59,7 @@
 ||economictimes.indiatimes.com/google_$subdocument
 ||expressnews.lk/ad$subdocument
 ||freshersworld.com/campus/ads/
-||fundingchoicesmessages.google.com^$xmlhttprequest
+||fundingchoicesmessages.google.com^
 ||galatta.com/control/togglingimageadmin/bannerimages/
 ||hotbollywoodactress.net/angelina.
 ||hotbollywoodactress.net/banners.min.js
