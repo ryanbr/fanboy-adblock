@@ -1,13 +1,15 @@
 [Adblock Plus 1.1]
-! Checksum: MH9hSHeg0+mZ1/YdazSgQg
+! Checksum: ScxTYMP+68SfvGD7UTsqEA
 ! Title: Fanboy's Indian
-! Updated: 13 Oct 2020
+! Updated: 18 Oct 2020
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
 ! Expires: 90 days
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!! Officially unsupported !!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Test
+@@||static.foxnews.com^$domain=foxbusiness.com|foxnews.com
 !
 !---------- Generic Blocking Rules ----------
 !
