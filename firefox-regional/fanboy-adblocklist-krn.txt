@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: ZdvEM+uHeU6h9iKlgzaLAg
+! Checksum: wJUKJMu5hOGcgAXAVSlZsA
 ! Title: Fanboy's Korean
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -974,6 +974,8 @@ http://ad9.$third-party
 ||wzd.egloos.com^*/letsreview$object,third-party
 ||zetsense.com^$third-party
 ||zone.enclean.com^$third-party
+! uBO https://community.brave.com/t/i-cannot-paste-copied-sentences/176239/13
+daum.net##+js(acis, document.oncontextmenu)
 !
 !---------------------- Korean Trackers ----------------------
 !
