@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: 7yuYEbVAZ22Pvf5iscqZ2Q
+! Checksum: aESvb4f919zrlzqNJbG+7w
 ! Title: Fanboy's Anti-thirdparty Fonts
 ! Updated: 16 Nov 2020
 ! Expires: 9 days
@@ -72,7 +72,7 @@
 !
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=help.typepad.com|regexpal.com
 @@||fast.fonts.net/jsapi/$script
-@@||fonts.googleapis.com/css?$domain=google.com|translate.google.com.hk|translate.google.co.kr|translate.google.cn|translate.google.co.jp
+@@||fonts.googleapis.com/css?$domain=google.com|translate.google.com.hk|translate.google.co.kr|translate.google.cn|translate.google.co.jp|translate.google.it
 @@||fonts.gstatic.com^$domain=floatplane.com|google.com|youtube.com|bloble.io|regexpal.com
 @@||fonts.typekit.net^$domain=mpora.com
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
