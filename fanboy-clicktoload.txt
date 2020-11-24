@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: TGyrh6fjmo8XAKJqsONREw
+! Checksum: DCn9m1/+20tgJWkG5rBDAQ
 ! Title: Click-to-load List
 ! Updated: 24 Nov 2020
 ! Expires: 4 days
@@ -14,6 +14,6 @@
 ! Requires uBO
 ! https://github.com/gorhill/uBlock/commit/59169209850c54c31d94990f0c956281fe43eb03
 !
-||player.vimeo.com/video/$3p,frame,redirect=clicktoload
-||scribd.com/embeds/$3p,frame,redirect=clicktoload
-||youtube.com/embed/$3p,frame,redirect=clicktoload
+||player.vimeo.com/video/$3p,frame,redirect=click2load.html
+||scribd.com/embeds/$3p,frame,redirect=click2load.html
+||youtube.com/embed/$3p,frame,redirect=click2load.html
