@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: DCn9m1/+20tgJWkG5rBDAQ
+! Checksum: cY1UUsdEDE8ubnFlqapc0g
 ! Title: Click-to-load List
 ! Updated: 24 Nov 2020
 ! Expires: 4 days
@@ -16,4 +16,5 @@
 !
 ||player.vimeo.com/video/$3p,frame,redirect=click2load.html
 ||scribd.com/embeds/$3p,frame,redirect=click2load.html
+||volume.vox-cdn.com/embed/$3p,frame,redirect=click2load.html
 ||youtube.com/embed/$3p,frame,redirect=click2load.html
