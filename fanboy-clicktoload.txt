@@ -1,0 +1,19 @@
+[Adblock Plus 2.0]
+! Checksum: v9PJsk68TG07CsQ4hge7mQ
+! Title: Click-to-load List
+! Updated: 24 Nov 2020
+! Expires: 4 days
+! License: http://creativecommons.org/licenses/by/3.0/
+! Homepage: http://www.fanboy.co.nz/
+! Reporting Issues: https://github.com/ryanbr/fanboy-adblock/issues
+!
+! Legal stuff (T&C's) .
+! In no event shall Fanboy List, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+!
+! Requires uBO
+! https://github.com/gorhill/uBlock/commit/59169209850c54c31d94990f0c956281fe43eb03
+!
+||youtube.com/embed/$3p,frame,redirect=clicktoload
+||scribd.com/embeds/$3p,frame,redirect=clicktoload
+||player.vimeo.com/video/$3p,frame,redirect=clicktoload
