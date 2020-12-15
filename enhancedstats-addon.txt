@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: eSCqRBUVUeoB1Qew2t+Q2A
+! Checksum: wVD873mAtpURD7ALtgv60Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 15 Dec 2020
 ! Expires: 5 days
@@ -2519,6 +2519,8 @@ independent.co.uk###footerPrompt
 telegraph.co.uk##.adblocker-message
 ! newsweek.com
 @@||newsweek.com^$generichide
+newsweek.com##.block-fusion-ads
+newsweek.com##.dfp-tag-wrapper
 newsweek.com##.newsletter-signup
 newsweek.com##.social-share
 ! car.com
