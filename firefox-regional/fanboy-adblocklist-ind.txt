@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: ScxTYMP+68SfvGD7UTsqEA
+! Checksum: vKrcdPQrEVrN5pp5cEFFFA
 ! Title: Fanboy's Indian
-! Updated: 18 Oct 2020
+! Updated: 8 Jan 2021
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
 ! Expires: 90 days
@@ -179,6 +179,7 @@
 !
 @@||123musiq.com/DS/123Musiq.gif
 @@||foxnewsplayer-a.akamaihd.net/player/$domain=foxnews.com
+@@||hgbasics.com^$xmlhttprequest,domain=thodkyaat.com
 @@||thinakkural.com/images/stories/ADDZ/add-54.jpg
 @@||vdopia.com^*/resolver.php?$third-party,domain=bollywoodhungama.com
 @@||vdopia.com^*/vastxml/$third-party,domain=bollywoodhungama.com
