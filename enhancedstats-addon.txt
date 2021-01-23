@@ -1,7 +1,13 @@
 [Adblock Plus 2.0]
+<<<<<<< HEAD
 ! Checksum: bi60AzuZB0z1u3PtUWmHbw
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 23 Jan 2021
+=======
+! Checksum: uob52a7s2AEaykNAIpDOew
+! Title: Fanboy's Enhanced Tracking List
+! Updated: 11 Jan 2021
+>>>>>>> 7de650f6f80050fffefd439dd516fcce6830df56
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -462,7 +468,7 @@ wccftech.com#$#abort-current-inline-script googletag.cmd.push
 wccftech.com#$#abort-current-inline-script pl_beacon
 wccftech.com#$#abort-current-inline-script window.NewzmateConfig
 ! utag
-@@||tags.tiqcdn.com/utag/*/utag.js$script,domain=mediaset.it|cbsnews.com|bleacherreport.com|cnet.com|mediaset.it
+@@||tags.tiqcdn.com/utag/*/utag.js$script,domain=mediaset.it|cbsnews.com|bleacherreport.com|cnet.com|mediaset.it|politico.com
 ||tags.tiqcdn.com/utag/$script
 ! Youtube test scripts
 ||youtube-nocookie.com/api/stats/ads?
@@ -1470,7 +1476,7 @@ bgr.com##.button-twitter
 bgr.com##.share-buttons
 spy.com##.newsletter-signup
 spy.com##.social
-spy.com##.spy__single-share-container
+spy.com##.spy__single-share-container__content
 variety.com,footwearnews.com##.c-icon--pin
 variety.com,footwearnews.com##.c-top-bar__social
 variety.com,footwearnews.com##.c-widget--newsletter
