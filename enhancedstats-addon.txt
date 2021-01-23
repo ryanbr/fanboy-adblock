@@ -1,13 +1,7 @@
 [Adblock Plus 2.0]
-<<<<<<< HEAD
-! Checksum: bi60AzuZB0z1u3PtUWmHbw
+! Checksum: sf9mPGKwt06i6oJzziKAGA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 23 Jan 2021
-=======
-! Checksum: uob52a7s2AEaykNAIpDOew
-! Title: Fanboy's Enhanced Tracking List
-! Updated: 11 Jan 2021
->>>>>>> 7de650f6f80050fffefd439dd516fcce6830df56
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
