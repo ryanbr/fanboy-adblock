@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: VeTn+octsIg/yQAhgc+KyQ
+! Checksum: +20ILRva148i6hKavHJjNw
 ! Title: Fanboy's Indian
 ! Updated: 29 Jan 2021
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -214,6 +214,7 @@ athirvu.com##.clsR1C20
 behindwoods.com##table[width="120"][align="center"]
 behindwoods.com##td[height="95"]
 bhaskar.com##.tar.fs70
+bhaskar.com##div.d32a826e.bcb15fe6
 bhaskar.com,divyabhaskar.co.in##[style="font-size: 70%; text-align: right; padding-right: 135px; color: rgb(204, 204, 204);"]
 bollyclips.com##[width="755"][height="220"]
 business-standard.com##table[width="240"][style="border-top:#cecece solid 1px;border-bottom: #cecece solid 1px;border-right: #cecece solid 1px;border-left: #cecece solid 1px;"]
