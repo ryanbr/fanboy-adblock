@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: +20ILRva148i6hKavHJjNw
+! Checksum: QMcrtzBEbCFynta2wA5ddA
 ! Title: Fanboy's Indian
 ! Updated: 29 Jan 2021
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -201,6 +201,7 @@
 !---------- Indian Specific Element Hiding Rules ----------
 !
 123musiq.com##table[width="300"][height="250"]
+aajtak.in##.add-center-div
 andhra4you.com##.style14[align="center"]
 andhra4you.com##.style24
 andhra4you.com##.style47
