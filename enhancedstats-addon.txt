@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: YjTbeYaazkZeQV8DngGETQ
+! Checksum: oSbSwO1ce6oQyHuAh8X5ww
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 31 Jan 2021
+! Updated: 7 Feb 2021
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2523,7 +2523,10 @@ independent.co.uk###footerPrompt
 telegraph.co.uk##.adblocker-message
 ! newsweek.com
 @@||newsweek.com^$generichide
+newsweek.com###right1ad
+newsweek.com###topad
 newsweek.com##.block-fusion-ads
+newsweek.com##.block-ibtmedia-dfp
 newsweek.com##.dfp-tag-wrapper
 newsweek.com##.newsletter-signup
 newsweek.com##.social-share
