@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 4GimkHuitIx42Qg1VkJ95w
+! Checksum: 7CEij1PfZZgXFGBLoi7JcA
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 10 Feb 2021
 ! Expires: 5 days
@@ -3122,6 +3122,8 @@ xkorean.net##a[href*="&aff_id"]
 @@||nintendo.com/js/library/modernizr.js$script
 @@||nintendo.com/js/omniture-prod.js
 @@||ntc-affinity-api.web.aol.com/affinity/?$script,domain=games.com
+@@||nybooks.com/wp-admin/admin-ajax.php?action=leaky_paywall_process_cookie
+@@||nybooks.com/wp-content/plugins/leaky-paywall/js/
 @@||nytimes.com/ads/google/adsbygoogle.js$script
 @@||nytimes.com/bi/js/analytics/nyt4/controller.js
 @@||nzherald.co.nz/themes/*/s_code.min.js
