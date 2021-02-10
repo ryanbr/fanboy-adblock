@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 7CEij1PfZZgXFGBLoi7JcA
+! Checksum: VhQE+27ENVMqhNTrxS4Yvg
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 10 Feb 2021
 ! Expires: 5 days
@@ -2811,8 +2811,9 @@ unikampus.net##.jgcabd-container
 @@||clasicotas.org^$generichide
 @@||eltiempohoy.es^$generichide
 @@||eltiempohoy.es^*/adjs.js
-@@||mitele.es/vendor/adjs.js
+@@||mediaset.es^*/fuckadblock.js
 @@||mitele.es^$generichide
+@@||mitele.es^*/adjs.js
 @@||telecinco.es^$generichide
 @@||telecinco.es^*/adjs.js
 ! Hungary
@@ -3174,6 +3175,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||thestar.com^*/sitecatalyst/
 @@||ticketm.net^*/omniture_tracker.js$script
 @@||ticketmaster.com^*/omniture_tracker.js
+@@||time.akamai.com^$domain=mitele.es
 @@||topmarques.co.uk^*/tracking/module.omniture.js
 @@||traderonline.com/javascript/master_s_code.js
 @@||travel-assets.com^*/siteanalytics/omniture-$script
