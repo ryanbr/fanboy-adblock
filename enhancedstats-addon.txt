@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: VhQE+27ENVMqhNTrxS4Yvg
+! Checksum: vYYfesorIgX1y9Q/HC7S+Q
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 10 Feb 2021
 ! Expires: 5 days
@@ -551,6 +551,7 @@ nautil.us###adpayload
 ||washingtonpost.com^*/pwapi-proxy.min.js
 ! UBo-specific blocks
 theatlantic.com##+js(cookie-remover.js, articleViews)
+time.com##+js(cookie-remover.js, time_meter_v2)
 !
 .gsqx2fkx78q.$script,domain=goal.com
 .itzgqjhqnhp.$script,domain=atvrider.com|baggersmag.com|cruisingworld.com|destinationweddingmag.com|diversitybestpractices.com|floridatravellife.com|hotbikeweb.com|marlinmag.com|scubadiving.com|scubadivingintro.com|sportdiver.com|sportfishingmag.com|streetchopperweb.com|superstreetbike.com|utvdriver.com|wakeboardingmag.com|waterskimag.com|workingmother.com|yachtingmagazine.com
