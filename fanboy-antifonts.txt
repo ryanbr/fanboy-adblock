@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: YoyU6G623BKD3P5ZDmcodw
+! Checksum: Op8UITgnHU6G73S48CA0Yg
 ! Title: Fanboy's Anti-thirdparty Fonts
 ! Updated: 10 Feb 2021
 ! Expires: 9 days
@@ -62,6 +62,7 @@
 ||use.fonticons.com^$third-party
 ||vidible.tv/prod/fonts/$font
 ||webfonts.creativecloud.com^$third-party
+||webfonts.sakura.ne.jp^$font
 ||wp.com^*/fonts/$third-party
 !
 ! Cloudflare CDN
