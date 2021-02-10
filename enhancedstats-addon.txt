@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: oSbSwO1ce6oQyHuAh8X5ww
+! Checksum: 4GimkHuitIx42Qg1VkJ95w
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 7 Feb 2021
+! Updated: 10 Feb 2021
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -3039,6 +3039,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||dominos.com/olo/*.tealium.js
 @@||dynamicyield.com^*/api_$domain=gp.se|elgiganten.se|elgiganten.dk|elkjop.no|gigantti.fi
 @@||ebaystatic.com^*_Omniture_$script
+@@||edge.fscdn.org/assets/js/angular/MBox/MBox-$script,domain=familysearch.org
 @@||eircomphonebook.ie/js/wt_capi.js
 @@||eloqua.com^*/svrGP.aspx?$subdocument,domain=itworld.com
 @@||encyclopedia.com/encyclopedia.axd/omniturejs/$script
