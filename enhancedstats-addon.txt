@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: vYYfesorIgX1y9Q/HC7S+Q
+! Checksum: UWc2+4Q8lx7bjf66RyllBg
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 10 Feb 2021
+! Updated: 11 Feb 2021
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -703,7 +703,6 @@ youporn.com###adblock_1
 ||shoplocal.com/*/scripts/tracking.js
 ||slimg.com/js/AWD/Tracking.nano.js
 ||spotify.com/xhr/json/log.php
-! ||stuff.co.nz/static/funding-choice/$domain=stuff.co.nz
 ||thomasnet.com/javascript/dcs_
 ||timeinc.net/shared/static/swf/ComScoreEWCom.swf
 ||toptenreviews.com/scripts/omn_id.php
@@ -970,7 +969,6 @@ youporn.com###adblock_1
 @@||fsdn.com/con/js/adframe.js$script,domain=sourceforge.net
 @@||fsdn.com/sd/js/scripts/ad.js$script,domain=slashdot.org
 @@||fsdn.com^*/ad.js
-! @@||fundingchoicesmessages.google.com^*ad$script
 @@||fusion.net/experiments/ad.js
 @@||gannett-cdn.com^*/show_ads.js
 @@||generatorlinkpremium.com/ads/$script,~third-party
@@ -1098,6 +1096,8 @@ youporn.com###adblock_1
 @@||www.brainyquote.com^*/displayad.js
 @@||xmovies8.ru^*/adsbygoogle.js
 @@||xmovies8.tv^*/adsbygoogle.js
+! googlefunding 
+thehill.com##+js(acis, JSON.stringify, instanceof)
 ! generichide !
 @@*$generichide,domain=softonic.com|avoiderrors.com|animefever.tv|bsmotoring.com|healthfary.com|infosehatku.club|2o-my.com|quizlet.com|imggram.org|gsm1x.xyz|keezmovies.com|brainly.com|dailythanthi.com|javqd.com|v6download.com|queenfaucet.website|dragon-url.com|imggram.org|bitcoinminingforex.blogspot.com|dunyanews.xyz|abtakar.com|windowcleaningforums.co.uk|muzlan.top|ps-insar.com|sivitechno.com|altervista.org|megaxz.com|esportstales.com|crunchyroll.com|health24.com|boredpanda.com|avsim.net|freetuts.download|getfreshcloud.xyz|dotesports.com|mazainside.com|magiskmanager.com|usgamer.net|eurogamer.net|rockpapershotgun.com|vg247.com|reuters.com|icy-veins.com|zerohedge.com|digitaltrends.com|intoupload.net|purposegames.com|tubitv.com|webmd.com|rawstory.com|memegenerator.net|lewat.in|wokesloth.com|trueachievements.com|gayecho.com|loginissue.help|terradrift.com|mragus.com|gamepedia.com|mragus.com|tutorialxiaomi.com|wotinfo.net|pilerats.com|wowthugger.com|alphahistory.com|hdmotori.it|hdtroll.it|hdmagazine.it|hdblog.it|mundodroidgames.com|mundodoandroidapk.com|parkers.co.uk|eskago.pl|globalindo.co|replica-watch.info|textmechanic.com|freeiptv.life|iptvcanales.com|ourl.io|pixelspot.net|medienwoche.ch|thurrott.com|knowtechie.com|gamesradar.com|wcvb.com|bikeradar.com|oxo-nulled.info|j-talk.com|onlinemschool.com|gamesradar.com|1fichier.com|o2tvseries.com|comptoir-hardware.com|watchtheoffice.online|yesmangasbr.com|tvtropes.org|playview.io|seehd.pl|nrl.com|emedicinehealth.com|oxfordmail.co.uk|akvideo.stream|xxvideosporno.net|pg3dhacks.com|litecoin-faucet.com|verdirectotv.com|xarold.com|reddit.com|saikoanimes.net|filmesonline1080p.com|narutoimagem.com|wolverdon-filmes.org|pornotorrentz.com|hiphopisdream.info|nba.com|loadvid.online|solarmoviez.ru|rockfile.co|onitube.com|wabetainfo.com|sportspf.com|solarmovie.watch|solarmoviesc.com|techsolutiontips.com|kissmanga.com|rnbxclusive.review|filespace.com|pressgazette.co.uk|macup.org|deutsche-vogelstimmen.de|yudu.co.nz|300mbfilms.org|adbilty.me|agarserv.com|albanian.tv|android-zone.ws|anibatch.id|animedao5.xyz|archived.moe|attitude.co.uk|bemetal.net|bittorrent.am|bolor-toli.com|bookdl.org|cinemamkv.xyz|classicreload.com|cloudwebcopy.com|computerera.co.in|cyberterminators.co|dingit.tv|dl-wordpress.com|dupedornot.com|dwrean.net|fas.li|fileflares.com|filespace.com|forumcoin.win|freetutorials.us|freetvall.com|fuckingsession.com|futbolchile.net|gktoday.in|gratismas.org|hentaitake.net|hyperdebrid.download|ig2fap.com|intercelestial.com|jilhub.xyz|krassotaa.com|l2network.eu|l2s.io|leech.ae|libgen.io|lolalytics.com|maango.info|makeuseof.com|minatosuki.com|mokeedev.com|mwpaste.com|netflixcookie.com|nulledcode.cc|paladinsdecks.com|pasteca.sh|picfont.com|powerthesaurus.org|qoshe.com|randomarchive.com|revealedtricks4u.com|rnbxclusive.site|sadeempc.com|safebitcoin.info|samwoolfe.com|sankakucomplex.com|sh.st|syriancivilwarmap.com|seriesgato.tv|talkingpointsmemo.com|techygeekshome.info|tecknity.com|thebarchive.com|thememypc.net|thepiratebay.run|thestar.co.uk|thoaimedia.com|tinypaste.cc|uploads.to|wallpapermania.eu|weather.com|westeros.org|widestream.io|wikijob.co.uk|xkorean.net|yiv.com|yourlifeupdated.net
 @@/fuckadblock.$script,~third-party
