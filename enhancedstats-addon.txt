@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: kLmSnHNFxQrSq8tDLh+YPA
+! Checksum: qAZZzYtlKZBbzYVjSLfY2g
 ! Title: Fanboy's Enhanced Tracking List
 ! Updated: 11 Feb 2021
 ! Expires: 5 days
@@ -2513,6 +2513,8 @@ independent.co.uk##a[title="Twitter"]
 @@||experience.tinypass.com^$xmlhttprequest,script,domain=independent.co.uk
 @@||tinypass.com/api/tinypass.min.js$script,domain=independent.co.uk
 independent.co.uk###footerPrompt
+! tinypass anti-adblock
+||cdn.tinypass.com/api/tinypass.min.js$script,domain=politico.com|crainsnewyork.com|therealdeal.com
 ! newsweek.pl
 @@||experience.tinypass.com/xbuilder/experience/execute$xmlhttprequest,domain=newsweek.pl
 @@||experience.tinypass.com/xbuilder/experience/load$script,domain=newsweek.pl
