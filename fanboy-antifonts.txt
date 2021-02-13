@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: TVx3Sdj7z79kwxkDd7RrGw
+! Checksum: znz3GNV7YQwi0rM4p/KGzg
 ! Title: Fanboy's Anti-thirdparty Fonts
 ! Updated: 13 Feb 2021
 ! Expires: 9 days
@@ -75,7 +75,7 @@
 !
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=help.typepad.com|regexpal.com
 @@||fast.fonts.net/jsapi/$script
-@@||fonts.googleapis.com/css?$domain=google.com|translate.google.fr|translate.google.com.hk|translate.google.co.kr|translate.google.cn|translate.google.co.jp|translate.google.it|translate.google.de|translate.google.es|translate.google.pl|translate.google.co.id
+@@||fonts.googleapis.com/css?$domain=onlyfans.com|google.com|translate.google.fr|translate.google.com.hk|translate.google.co.kr|translate.google.cn|translate.google.co.jp|translate.google.it|translate.google.de|translate.google.es|translate.google.pl|translate.google.co.id
 @@||fonts.gstatic.com^$domain=floatplane.com|google.com|youtube.com|bloble.io|regexpal.com|translate.google.com.hk|translate.google.co.kr|translate.google.cn|translate.google.co.jp|translate.google.it|translate.google.de|translate.google.es|translate.google.pl|translate.google.co.id
 @@||fonts.typekit.net^$domain=mpora.com
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
