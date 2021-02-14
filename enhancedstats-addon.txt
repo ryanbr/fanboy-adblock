@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: jj6xiIblVy1/0XR7Uq5UQw
+! Checksum: Mx5Pw2GNiEp8gMzvx4fbbA
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 12 Feb 2021
+! Updated: 14 Feb 2021
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -3138,6 +3138,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||ooyala.com/3rdparty/omniture_module-$domain=bizjournals.com|telegraph.co.uk
 @@||ooyala.com/3rdparty/omniture_other_$domain=bloomberg.com|businessweek.com|marthastewart.com|nintendo.com|thesun.co.uk
 @@||outbrain.com/nanoWidget/3rd/comScore/comScore.htm$domain=telegraph.co.uk|theinsider.com
+@@||pandora.com/*/pagespeed.js$script,~third-party
 @@||payback.de/script/s_code-*.js
 @@||paypalobjects.com^*/site_catalyst/
 @@||pepsico.com/scripts/urchin.js
