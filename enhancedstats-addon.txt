@@ -723,6 +723,7 @@ youporn.com###adblock_1
 !
 ! ---------- 3rd party blocking rules ----------
 !
+||painel.otzads.net^$third-party
 ||5min.com/flashcookie/
 ||5min.com/Handlers/FiveminCookieCache.ashx
 ||accounts.google.com/gsi/client$script,third-party
