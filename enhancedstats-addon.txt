@@ -550,6 +550,9 @@ nautil.us###adpayload
 ||wallkit.net^$third-party
 ||washingtonpost.com^*/pwapi-proxy.min.js
 ! UBo-specific blocks
+newyorker.com##+js(cookie-remover.js, CN_ad_block)
+newyorker.com##+js(cookie-remover.js, pay_ent_smp)
+newyorker.com##+js(cookie-remover.js, pay_ent_sub)
 theatlantic.com###paywall
 theatlantic.com##+js(cookie-remover.js, articleViews)
 time.com##+js(cookie-remover.js, time_meter_v2)
