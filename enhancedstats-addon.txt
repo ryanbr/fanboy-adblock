@@ -334,6 +334,27 @@ _webtrends_
 _wtBase.js
 _wtbaseV2.
 _wtInit.js
+! Fingerprinting
+||academy.com/webcontent/
+||att.com/public/
+||backcountry.com/clientlibs/
+||bestbuy.com/resource/
+||bmoharris.com/staticweb/
+||buybuybaby.com/content/
+||discover.com/staticweb/
+||discovercard.com/clientlibs/
+||eddiebauer.com/resource/
+||finishline.com/fufhpqdn/
+||fredmeyer.com/kkhepdqgay/
+||groupon.com/resource/
+||kohls.com/libraries/
+||macys.com/clientlibs/
+||marshalls.com/staticweb/
+||mouser.com/staticweb/
+||pnc.com/contents/
+||publix.com/webcontent/
+||sierra.com/resource/
+||staples.com/yuolsoiifpm/
 ! Snippet Tracking (Filtering)
 ! sythe.org
 sythe.org##+js(acis, $, adblocker)
