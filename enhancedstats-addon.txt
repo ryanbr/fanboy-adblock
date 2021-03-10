@@ -344,6 +344,7 @@ _wtInit.js
 ||discover.com/staticweb/
 ||discovercard.com/clientlibs/
 ||eddiebauer.com/resource/
+||fandango.com/resource/
 ||finishline.com/fufhpqdn/
 ||fredmeyer.com/kkhepdqgay/
 ||groupon.com/resource/
