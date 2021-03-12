@@ -578,6 +578,8 @@ newyorker.com##+js(cookie-remover.js, pay_ent_smp)
 newyorker.com##+js(cookie-remover.js, pay_ent_sub)
 theatlantic.com###paywall
 theatlantic.com##+js(cookie-remover.js, articleViews)
+theguardian.com##+js(cookie-remover.js, GU_geo_continent)
+theguardian.com##+js(cookie-remover.js, GU_mvt_id)
 time.com##+js(cookie-remover.js, time_meter_v2)
 !
 .gsqx2fkx78q.$script,domain=goal.com
