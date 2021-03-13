@@ -573,6 +573,7 @@ nautil.us###adpayload
 ||washingtonpost.com^*/pwapi-proxy.min.js
 ! UBo-specific blocks
 fastcompany.com##+js(cookie-remover.js, xbc)
+hbr.org##+js(cookie-remover.js, HBR_SESSION_ID)
 medianama.com##+js(acis, openPopUp)
 newyorker.com##+js(cookie-remover.js, CN_ad_block)
 newyorker.com##+js(cookie-remover.js, pay_ent_smp)
