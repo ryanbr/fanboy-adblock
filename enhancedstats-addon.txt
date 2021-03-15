@@ -572,6 +572,7 @@ nautil.us###adpayload
 ||wallkit.net^$third-party
 ||washingtonpost.com^*/pwapi-proxy.min.js
 ! UBo-specific blocks
+bloomberg.com##+js(acis, sessionStorage)
 brisbanetimes.com.au,watoday.com.au,theage.com.au,smh.com.au##+js(aopr, localStorage)
 fastcompany.com##+js(cookie-remover.js, xbc)
 hbr.org##+js(cookie-remover.js, HBR_SESSION_ID)
