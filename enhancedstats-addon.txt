@@ -576,6 +576,7 @@ bloomberg.com##+js(acis, sessionStorage)
 brisbanetimes.com.au,watoday.com.au,theage.com.au,smh.com.au##+js(aopr, localStorage)
 fastcompany.com##+js(cookie-remover.js, xbc)
 hbr.org##+js(cookie-remover.js, HBR_SESSION_ID)
+inquirer.com##+js(cookie-remover, /^/)
 medianama.com##+js(acis, openPopUp)
 newrepublic.com###pwPopups
 newrepublic.com##+js(cookie-remover, /^/)
