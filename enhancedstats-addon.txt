@@ -576,6 +576,8 @@ brisbanetimes.com.au,watoday.com.au,theage.com.au,smh.com.au##+js(aopr, localSto
 fastcompany.com##+js(cookie-remover.js, xbc)
 hbr.org##+js(cookie-remover.js, HBR_SESSION_ID)
 medianama.com##+js(acis, openPopUp)
+newrepublic.com###pwPopups
+newrepublic.com##+js(cookie-remover, /^/)
 newyorker.com##+js(cookie-remover.js, CN_ad_block)
 newyorker.com##+js(cookie-remover.js, pay_ent_smp)
 newyorker.com##+js(cookie-remover.js, pay_ent_sub)
