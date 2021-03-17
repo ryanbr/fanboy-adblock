@@ -505,7 +505,7 @@ wccftech.com#$#abort-current-inline-script window.NewzmateConfig
 ! https://middycdn-a.akamaihd.net/bootstrap/bootstrap.js (From tennis365.com)
 ||akamaihd.net/bootstrap/bootstrap.js
 ! favicon tracking
-/favicon.ico$image,third-party,domain=~apple.com|~douban.com|~bahn.de|~winfuture.de|~bt.com|~ebay.com.au|~ebay.com|~ebay.co.uk|~go.com|~github.com|~microsoft.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com|~yahoo.com
+/favicon.ico$image,third-party,domain=~streameast.live|~apple.com|~douban.com|~bahn.de|~winfuture.de|~bt.com|~ebay.com.au|~ebay.com|~ebay.co.uk|~go.com|~github.com|~microsoft.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com|~yahoo.com
 ! push notifications test filter
 ##.open.pushModal
 !
