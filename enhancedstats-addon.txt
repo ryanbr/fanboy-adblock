@@ -11,7 +11,7 @@
 ! In no event shall Fanboy List, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 !
-&referer=$image,script,domain=~digitaltrends.com|~sportdiver.com|~gismeteo.ru|~vuokraovi.com|~24ur.com|~cdon.dk|~cdon.fi|~cdon.no|~cdon.se|~ratp.fr|~skype.com
+&referer=$image,script,domain=~ice.hockey|~digitaltrends.com|~sportdiver.com|~gismeteo.ru|~vuokraovi.com|~24ur.com|~cdon.dk|~cdon.fi|~cdon.no|~cdon.se|~ratp.fr|~skype.com
 -coremetrics-
 -CoreMetrics.
 -elqImg.
