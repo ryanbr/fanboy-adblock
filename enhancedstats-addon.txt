@@ -587,6 +587,8 @@ spectator.co.uk##+js(aopr, sessionstorage)
 spectator.co.uk##+js(apow, sessionstorage)
 spectator.co.uk##+js(cookie-remover.js, /^/)
 spectator.co.uk##.MeterBanner-module__banner
+stripes.com###pelcro-app
+stripes.com##+js(cookie-remover, /^/)
 stripes.com##+js(cookie-remover, /^/)
 stripes.com##.pelcro-prefix-view
 theatlantic.com###paywall
