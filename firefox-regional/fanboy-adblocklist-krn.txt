@@ -602,6 +602,7 @@ _scroll_ad_
 ||newstoday21.co.kr^*_banner/
 ||newswave.kr^*/ad.
 ||newsway.kr/ad/
+||newtoki95.com/data/banner/
 ||nonsultest.com/images/banner_
 ||nonsultest.com^*_banner.
 ||notegear.com/banner/
