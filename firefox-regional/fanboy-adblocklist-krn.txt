@@ -4,9 +4,6 @@
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
 ! Expires: 90 days
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!! Officially unsupported !!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
 ! ---------- Generic Blocking Rules ----------
 !
@@ -539,6 +536,7 @@ _scroll_ad_
 ||lightad.co.kr^$third-party
 ||liits.co.kr^*/banner/
 ||logger.zdnet.co.kr^
+||manatoki95.net/data/banner/
 ||mbn.mk.co.kr^*_Ad_
 ||media.paran.com^*/banner/
 ||mediajeju.com/banner/
@@ -1748,6 +1746,11 @@ kukinews.com##tr[height="84"]
 kukinews.com,sportsseoul.com##iframe[width="250"]
 kwnews.co.kr##td[width="539"][height="10"]
 lulugame.com##[style="padding: 0pt 0pt 5px;"]
+manatoki95.net,newtoki95.com###hd_pop
+manatoki95.net,newtoki95.com###main-banner-view
+manatoki95.net,newtoki95.com##.basic-banner
+manatoki95.net,newtoki95.com##.board-tail-banner
+manatoki95.net,newtoki95.com##[href^="https://newtoki95.com/bbs/bannerhit.php"]
 maxmovie.com###hiki
 maxmovie.com###MMBanner
 maxmovie.com##.rbawlxbnpyrbahejxdry
