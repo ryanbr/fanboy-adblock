@@ -334,6 +334,11 @@ _webtrends_
 _wtBase.js
 _wtbaseV2.
 _wtInit.js
+! Remove Floc checks by websites when using Chrome
+!#if env_chromium
+*##+js(aopr, document.interestCohort)
+!#endif
+!
 ! Fingerprinting
 ||academy.com/webcontent/
 ||att.com/public/
