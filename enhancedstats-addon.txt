@@ -1737,42 +1737,6 @@ wbur.org#@#.adsbox
 @@||vip.townnews.com^$script,domain=stltoday.com
 stltoday.com##.social-share-link
 stltoday.com##.tnt-ads-container
-! kinja.com
-@@||avclub.com^$generichide
-@@||deadspin.com^$generichide
-@@||earther.com^$generichide
-@@||gizmodo.com^$generichide
-@@||jalopnik.com^$generichide
-@@||jezebel.com^$generichide
-@@||kinja.com^$generichide
-@@||lifehacker.com^$generichide
-@@||splinternews.com^$generichide
-@@||theroot.com^$generichide
-! theroot.com
-kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com###sharingfooter
-kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com###taboola-below-article-thumbnails
-kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.contained-ad-container
-kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.contained-ad-shaft
-kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.footer-social
-kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.js_ad-dynamic
-kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.js_ad-top-banner
-kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.js_contained-ad-container
-kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.mezzanine
-kinja.com,lifehacker.com,gizmodo.com,deadspin.com,theroot.com,jalopnik.com,earther.com,splinternews.com,jezebel.com,avclub.com##.newsletter-subscribe
-! cnet.com
-! @@||cnet.com^$generichide
-cnet.com###gdpr_area
-cnet.com###googleplus
-cnet.com##.ad-incontent-ad-plus-billboard-top
-cnet.com##.ad-mpu-plus-top
-cnet.com##.skybox-collapseBtn.skybox-closeBtn
-cnet.com##.social-inner
-cnet.com##.socialSharing
-cnet.com##.type-native
-cnet.com##div[id^="leader-top-"]
-cnet.com##div[id^="nav-ad-"]
-cnet.com#@#.trc_elastic
-cnet.com#@#div[id^="trc_wrapper_"]
 ! doridro.net
 @@||doridro.net^$generichide
 ! indianhotcomics.com
