@@ -337,6 +337,7 @@ _wtInit.js
 ! Remove Floc checks by websites when using Chrome
 !#if env_chromium
 *##+js(aopr, document.interestCohort)
+*##+js(aopw, document.interestCohort)
 !#endif
 !
 ! Fingerprinting
