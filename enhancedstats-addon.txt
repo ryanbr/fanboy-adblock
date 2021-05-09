@@ -3225,3 +3225,4 @@ xkorean.net##a[href*="&aff_id"]
 @@||zalando.nanorep.co^*&referer$script
 @@||ziffstatic.com/adchoices/adchoices.png$image,domain=extremetech.com
 @@||zillowstatic.com/static/*/foresee-trigger.js$domain=zillow.com
+@@||pwt.soundcloud.com/static/sc/*/pagespeed.js$script,domain=secure.soundcloud.com
