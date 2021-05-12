@@ -585,7 +585,6 @@ hbr.org##+js(cookie-remover.js, HBR_SESSION_ID)
 inquirer.com##+js(cookie-remover, /^/)
 medianama.com##+js(acis, openPopUp)
 newrepublic.com###pwPopups
-newrepublic.com##+js(cookie-remover, /^/)
 newyorker.com##+js(cookie-remover.js, CN_ad_block)
 newyorker.com##+js(cookie-remover.js, pay_ent_smp)
 newyorker.com##+js(cookie-remover.js, pay_ent_sub)
