@@ -775,7 +775,6 @@ youporn.com###adblock_1
 !
 ! ---------- 3rd party blocking rules ----------
 !
-||painel.otzads.net^$third-party
 ||5min.com/flashcookie/
 ||5min.com/Handlers/FiveminCookieCache.ashx
 ||accounts.google.com/gsi/client$script,third-party
@@ -832,6 +831,7 @@ youporn.com###adblock_1
 ||ooyala.com/3rdparty/visible_measures_
 ||p.d.*.com/v1/$third-party
 ||p.w.*.com/s/$xmlhttprequest,stylesheet
+||painel.otzads.net^$third-party
 ||preferences.truste.com^$third-party
 ||privacy-policy.truste.com^$third-party
 ||pubnub.com/time/*uuid=$third-party
@@ -3110,6 +3110,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||interflora.co.uk/kernel/coremetrics/eluminate.js
 @@||iocdn.coremetrics.com^$domain=boscovs.com
 @@||itworld.com/elqNow/$script
+@@||jorito.net^*/1pixel.gif$~third-party
 @@||js.nyt.com/js/app/analytics/wtbase.js$domain=nytimes.com
 @@||jsonline.com/templates/Proxy.api?
 @@||juniper.net/elqNow/$script
@@ -3168,6 +3169,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||poste.it/cerca-app/js/app/webtrends_service.js$script,~third-party
 @@||pricegrabber.com/js/combine.js.php?*=s_code_h.
 @@||pricegrabber.com/js/combine.js.php?*_js_code.
+@@||pwt.soundcloud.com/static/sc/*/pagespeed.js$script,domain=secure.soundcloud.com
 @@||quill.com/js/Omniture/quill_s_code.js?
 @@||rentals.com/assets/*webtrends-
 @@||rentals.com/javascripts/primedia-webtrends-
@@ -3225,4 +3227,3 @@ xkorean.net##a[href*="&aff_id"]
 @@||zalando.nanorep.co^*&referer$script
 @@||ziffstatic.com/adchoices/adchoices.png$image,domain=extremetech.com
 @@||zillowstatic.com/static/*/foresee-trigger.js$domain=zillow.com
-@@||pwt.soundcloud.com/static/sc/*/pagespeed.js$script,domain=secure.soundcloud.com
