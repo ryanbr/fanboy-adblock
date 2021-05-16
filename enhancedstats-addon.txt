@@ -334,11 +334,8 @@ _webtrends_
 _wtBase.js
 _wtbaseV2.
 _wtInit.js
-! Remove Floc checks by websites when using Chrome
-!#if env_chromium
-*##+js(set, document.interestCohort, undefined)
-*##+js(set, Document.prototype.interestCohort, undefined)
-!#endif
+! Test to fix youtube ads
+||youtube.com^$csp=worker-src 'none'
 !
 ! Fingerprinting
 ||academy.com/webcontent/
