@@ -335,7 +335,7 @@ _wtBase.js
 _wtbaseV2.
 _wtInit.js
 ! Test to fix youtube ads
-||youtube.com^$csp=worker-src 'none'
+||www.youtube.com^$csp=worker-src 'none'
 !
 ! Fingerprinting
 ||academy.com/webcontent/
