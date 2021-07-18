@@ -358,4 +358,17 @@ raaga.com##[style="width: 300px; height: 250px; margin-top: 5px; margin-bottom: 
 !
 !---------- Temporary Filters ----------
 !
+deccanchronicle.com##.horiAd
+financialexpress.com##.dfpAds
+financialexpress.com##div[id^="gpt_ad_"]
+hindustantimes.com###ampPush
+hindustantimes.com##.new_ads_unit
+indianexpress.com##.hide_utm_paytm_phonepe
+indianexpress.com##.top-ads-mobile
+jansatta.com##.pageadd
+m.economictimes.com###appinstall_bnr
+m.timesofindia.com##.adplaceholder
+moneycontrol.com###download_app_banner_btn
+timesnownews.com##div[id^="amp-btf-"]
+timesofindia.com##.dfp_ATF_wrapper
 ||murasu.tv/diwali-gifts.
