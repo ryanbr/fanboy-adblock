@@ -2531,7 +2531,7 @@ independent.co.uk##a[title="Twitter"]
 @@||tinypass.com/api/tinypass.min.js$script,domain=independent.co.uk
 independent.co.uk###footerPrompt
 ! tinypass anti-adblock
-||cdn.tinypass.com/api/tinypass.min.js$script,domain=politico.com|crainsnewyork.com|therealdeal.com
+||cdn.tinypass.com/api/tinypass.min.js$script,domain=caymancompass.com|thedailybeast.com|newsletter.co.uk|crainsnewyork.com|postbulletin.com|digiday.com|inquirer.com|thechive.com|torontosun.com|thehindubusinessline.com|fortune.com|politico.com|crainsnewyork.com|therealdeal.com
 ! newsweek.pl
 @@||experience.tinypass.com/xbuilder/experience/execute$xmlhttprequest,domain=newsweek.pl
 @@||experience.tinypass.com/xbuilder/experience/load$script,domain=newsweek.pl
