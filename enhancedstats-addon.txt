@@ -1942,25 +1942,6 @@ vox.com##.c-newsletter_signup_box__main
 vox.com##.c-social-buttons
 vox.com##.main-social
 vox.com##.tab-bar-fixed.c-tab-bar
-! theatlantic.com
-@@||g.doubleclick.net/gampad/ads?gdfp_req=1&$script,domain=theatlantic.com
-@@||g.doubleclick.net/gpt/pubads_impl_$script,domain=theatlantic.com
-@@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=theatlantic.com
-@@||serving-sys.com^$xmlhttprequest,domain=theatlantic.com
-@@||theatlantic.com^$generichide
-@@||theatlantic.com^*/adv$script
-theatlantic.com###email-signup
-theatlantic.com###series-newsletter-signup
-theatlantic.com###site-footer-follow
-theatlantic.com##.ad-boxamp-wrapper
-theatlantic.com##.ad-boxrr-wrapper
-theatlantic.com##.c-ad
-theatlantic.com##.c-author__social
-theatlantic.com##.c-leaflet
-theatlantic.com##.c-newsletter-promo
-theatlantic.com##.ha-js-newsletter-promo
-theatlantic.com##.share-wrapper
-||theatlantic.com/assets/static/b/theatlantic/js/vendors.min.*.js
 ! smitedatamining.com
 @@||smitedatamining.com^$generichide
 smitedatamining.com###cookie-law-info-again
