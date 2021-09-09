@@ -1152,7 +1152,7 @@ youporn.com###adblock_1
 ##.fc-ab-root > .fc-dialog-container
 foxnews.com,foxbusiness.com,thehill.com##+js(acis, JSON.stringify, instanceof)
 ! generichide !
-@@*$generichide,domain=softonic.com|avoiderrors.com|animefever.tv|bsmotoring.com|healthfary.com|infosehatku.club|2o-my.com|quizlet.com|imggram.org|gsm1x.xyz|keezmovies.com|brainly.com|dailythanthi.com|javqd.com|v6download.com|queenfaucet.website|dragon-url.com|imggram.org|bitcoinminingforex.blogspot.com|dunyanews.xyz|abtakar.com|windowcleaningforums.co.uk|muzlan.top|ps-insar.com|sivitechno.com|altervista.org|megaxz.com|esportstales.com|crunchyroll.com|health24.com|boredpanda.com|avsim.net|freetuts.download|getfreshcloud.xyz|dotesports.com|mazainside.com|magiskmanager.com|usgamer.net|eurogamer.net|rockpapershotgun.com|vg247.com|reuters.com|icy-veins.com|zerohedge.com|digitaltrends.com|intoupload.net|purposegames.com|tubitv.com|webmd.com|rawstory.com|memegenerator.net|lewat.in|wokesloth.com|trueachievements.com|gayecho.com|loginissue.help|terradrift.com|mragus.com|gamepedia.com|mragus.com|tutorialxiaomi.com|wotinfo.net|pilerats.com|wowthugger.com|alphahistory.com|hdmotori.it|hdtroll.it|hdmagazine.it|hdblog.it|mundodroidgames.com|mundodoandroidapk.com|parkers.co.uk|eskago.pl|globalindo.co|replica-watch.info|textmechanic.com|freeiptv.life|iptvcanales.com|ourl.io|pixelspot.net|medienwoche.ch|thurrott.com|knowtechie.com|gamesradar.com|wcvb.com|bikeradar.com|oxo-nulled.info|j-talk.com|onlinemschool.com|gamesradar.com|1fichier.com|o2tvseries.com|comptoir-hardware.com|watchtheoffice.online|yesmangasbr.com|tvtropes.org|playview.io|seehd.pl|nrl.com|emedicinehealth.com|oxfordmail.co.uk|akvideo.stream|xxvideosporno.net|pg3dhacks.com|litecoin-faucet.com|verdirectotv.com|xarold.com|saikoanimes.net|filmesonline1080p.com|narutoimagem.com|wolverdon-filmes.org|pornotorrentz.com|hiphopisdream.info|nba.com|loadvid.online|solarmoviez.ru|rockfile.co|onitube.com|wabetainfo.com|sportspf.com|solarmovie.watch|solarmoviesc.com|techsolutiontips.com|kissmanga.com|rnbxclusive.review|filespace.com|pressgazette.co.uk|macup.org|deutsche-vogelstimmen.de|yudu.co.nz|300mbfilms.org|adbilty.me|agarserv.com|albanian.tv|android-zone.ws|anibatch.id|animedao5.xyz|archived.moe|attitude.co.uk|bemetal.net|bittorrent.am|bolor-toli.com|bookdl.org|cinemamkv.xyz|classicreload.com|cloudwebcopy.com|computerera.co.in|cyberterminators.co|dingit.tv|dl-wordpress.com|dupedornot.com|dwrean.net|fas.li|fileflares.com|filespace.com|forumcoin.win|freetutorials.us|freetvall.com|fuckingsession.com|futbolchile.net|gktoday.in|gratismas.org|hentaitake.net|hyperdebrid.download|ig2fap.com|intercelestial.com|jilhub.xyz|krassotaa.com|l2network.eu|l2s.io|leech.ae|libgen.io|lolalytics.com|maango.info|makeuseof.com|minatosuki.com|mokeedev.com|mwpaste.com|netflixcookie.com|nulledcode.cc|paladinsdecks.com|pasteca.sh|picfont.com|powerthesaurus.org|qoshe.com|randomarchive.com|revealedtricks4u.com|rnbxclusive.site|sadeempc.com|safebitcoin.info|samwoolfe.com|sankakucomplex.com|sh.st|syriancivilwarmap.com|seriesgato.tv|talkingpointsmemo.com|techygeekshome.info|tecknity.com|thebarchive.com|thememypc.net|thepiratebay.run|thestar.co.uk|thoaimedia.com|tinypaste.cc|uploads.to|wallpapermania.eu|weather.com|westeros.org|widestream.io|wikijob.co.uk|xkorean.net|yiv.com|yourlifeupdated.net
+@@*$generichide,domain=softonic.com|avoiderrors.com|animefever.tv|bsmotoring.com|healthfary.com|infosehatku.club|2o-my.com|quizlet.com|imggram.org|gsm1x.xyz|keezmovies.com|brainly.com|dailythanthi.com|javqd.com|v6download.com|queenfaucet.website|dragon-url.com|imggram.org|bitcoinminingforex.blogspot.com|dunyanews.xyz|abtakar.com|windowcleaningforums.co.uk|muzlan.top|ps-insar.com|sivitechno.com|altervista.org|megaxz.com|esportstales.com|crunchyroll.com|avsim.net|freetuts.download|getfreshcloud.xyz|dotesports.com|magiskmanager.com|usgamer.net|eurogamer.net|rockpapershotgun.com|vg247.com|reuters.com|icy-veins.com|zerohedge.com|digitaltrends.com|intoupload.net|purposegames.com|tubitv.com|webmd.com|rawstory.com|memegenerator.net|lewat.in|wokesloth.com|trueachievements.com|gayecho.com|loginissue.help|terradrift.com|mragus.com|gamepedia.com|mragus.com|tutorialxiaomi.com|wotinfo.net|pilerats.com|wowthugger.com|alphahistory.com|hdmotori.it|hdtroll.it|hdmagazine.it|hdblog.it|mundodroidgames.com|mundodoandroidapk.com|parkers.co.uk|eskago.pl|globalindo.co|replica-watch.info|textmechanic.com|freeiptv.life|iptvcanales.com|ourl.io|pixelspot.net|medienwoche.ch|thurrott.com|knowtechie.com|wcvb.com|bikeradar.com|oxo-nulled.info|j-talk.com|onlinemschool.com|1fichier.com|o2tvseries.com|comptoir-hardware.com|watchtheoffice.online|yesmangasbr.com|tvtropes.org|playview.io|seehd.pl|nrl.com|emedicinehealth.com|oxfordmail.co.uk|akvideo.stream|xxvideosporno.net|pg3dhacks.com|litecoin-faucet.com|verdirectotv.com|xarold.com|saikoanimes.net|filmesonline1080p.com|narutoimagem.com|wolverdon-filmes.org|pornotorrentz.com|hiphopisdream.info|nba.com|loadvid.online|solarmoviez.ru|rockfile.co|onitube.com|wabetainfo.com|sportspf.com|solarmovie.watch|solarmoviesc.com|techsolutiontips.com|kissmanga.com|rnbxclusive.review|filespace.com|pressgazette.co.uk|macup.org|deutsche-vogelstimmen.de|yudu.co.nz|300mbfilms.org|adbilty.me|agarserv.com|albanian.tv|android-zone.ws|anibatch.id|animedao5.xyz|archived.moe|attitude.co.uk|bemetal.net|bittorrent.am|bolor-toli.com|bookdl.org|cinemamkv.xyz|classicreload.com|cloudwebcopy.com|computerera.co.in|cyberterminators.co|dingit.tv|dl-wordpress.com|dupedornot.com|dwrean.net|fas.li|fileflares.com|filespace.com|forumcoin.win|freetutorials.us|freetvall.com|fuckingsession.com|futbolchile.net|gktoday.in|gratismas.org|hentaitake.net|hyperdebrid.download|ig2fap.com|intercelestial.com|jilhub.xyz|krassotaa.com|l2network.eu|l2s.io|leech.ae|libgen.io|lolalytics.com|maango.info|makeuseof.com|minatosuki.com|mokeedev.com|mwpaste.com|netflixcookie.com|nulledcode.cc|paladinsdecks.com|pasteca.sh|picfont.com|powerthesaurus.org|qoshe.com|randomarchive.com|revealedtricks4u.com|rnbxclusive.site|sadeempc.com|safebitcoin.info|samwoolfe.com|sankakucomplex.com|sh.st|syriancivilwarmap.com|seriesgato.tv|talkingpointsmemo.com|techygeekshome.info|tecknity.com|thebarchive.com|thememypc.net|thepiratebay.run|thestar.co.uk|thoaimedia.com|tinypaste.cc|uploads.to|wallpapermania.eu|weather.com|westeros.org|widestream.io|wikijob.co.uk|xkorean.net|yiv.com|yourlifeupdated.net
 @@/fuckadblock.$script,~third-party
 ! wildcard generichide
 /\.(watchcartoononline|9anime).*\/[a-zA-Z0-9]{15,40}.*http/$image,script
@@ -1244,36 +1244,11 @@ muzlan.top##.btn-social-icon
 ! digitaltrends.com
 digitaltrends.com##.m-river--ad
 digitaltrends.com##.m-stardust-share
-! mazainside.com
-mazainside.com###admania_top
-mazainside.com##.admania_entryfooter
-mazainside.com##.admania_lay4headerleft
-mazainside.com##.admania_widgetsocial
-mazainside.com##.widget_media_image.widget
-! boredpanda.com
-boredpanda.com###sharebar
-boredpanda.com##.fb-custom-share-mobile
-boredpanda.com##.footer-share-button
-boredpanda.com##.newsletter-variation
-boredpanda.com##.post-entry-shareblock
-boredpanda.com##.sidebar-small-ad
-boredpanda.com##.single-top-ad
-boredpanda.com##.social-box
-boredpanda.com##.social-widget
 ! crunchyroll.com
 crunchyroll.com##.news-share-bar
 crunchyroll.com##.news-twitter
 crunchyroll.com##.share-buttons
 crunchyroll.com##.twitter-share-button
-! health24.com
-health24.com##.ad_wrap
-health24.com##.multi-size-ad.row
-health24.com##.noad_container278x35pos1
-health24.com##.noad_container300x250pos1
-health24.com##.noad_container300x250pos2
-health24.com##.noad_container300x600pos1
-health24.com##.noad_container468x120pos1
-health24.com##.social_links
 ! dotesports.com
 dotesports.com##.ytm-survey
 ||attractivecap.com^$xmlhttprequest,domain=dotesports.com
@@ -1895,39 +1870,13 @@ metacritic.com###mpu_plus_top
 tweaktown.com###content-right > div > center
 tweaktown.com##.center-tag
 tweaktown.com##div[zoompage-fontsize="16"] > center[zoompage-fontsize="16"]
-! beintube.com
-@@||beintube.com^$generichide
-beintube.com###taboola-right-rail-thumbnails
-beintube.com##.btn-facebook
-beintube.com##.btn-google-plus
-beintube.com##.btn-linkedin
-beintube.com##.btn-pinterest
-beintube.com##.btn-twitter
 ! slickdeals.net
 slickdeals.net###crt-adblock-a
 slickdeals.net###crt-adblock-b
-! pornhdx.tv
-@@||pornhdx.tv^$generichide
-pornhdx.tv##.onplayerADS
-! pipocao.com
-@@||pipocao.com^$generichide
-! animeai2.net
-@@||animeai2.net^$generichide
-! animeheaven.eu
-@@||animeheaven.eu/b/$script
-@@||animeheaven.eu^$generichide
-! theargus.co.uk
-theargus.co.uk##div[style="display:block!important"]
-! appdrop.net
-@@||appdrop.net^$generichide
 ! squidboards.com
 squidboards.com##.funboxWrapper
 squidboards.com##.premiumBlock
 squidboards.com##.top_block
-! aftonbladet.se
-@@||adnxs.com^$xmlhttprequest,domain=aftonbladet.se
-@@||aftonbladet.se^$generichide
-aftonbladet.se##div[id^="abAdArea-"]
 ! yalujailbreak.net
 @@||yalujailbreak.net^$generichide
 yalujailbreak.net##.cookie-notice-container
@@ -1952,9 +1901,6 @@ smitedatamining.com##.et_social_sidebar_networks
 smitedatamining.com##.share-post
 smitedatamining.com##.social-icons
 smitedatamining.com##[data-ad-slot]
-! hentaitake.net
-hentaitake.net##.addthis-smartlayers
-hentaitake.net##.scroll-back-to-top-wrapper
 ! mangakita.net
 @@||mangakita.net^$generichide
 ! dailymail.co.uk
@@ -1965,27 +1911,11 @@ dailymail.co.uk#@#.puff-ad
 @@||kingofdown.com^$generichide
 @@||kingofshrink.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=kingofdown.com|kingofshrink.com
-! dispatch.com
-@@||dispatch.com^$generichide
-dispatch.com###baseLeaderBillboardDesktop
-dispatch.com###baseLeaderboard
-dispatch.com###baseMedRecDesktop
-dispatch.com###dialog-message
-dispatch.com##.ad-container
-dispatch.com##.article-meta-social
-dispatch.com##.social
-dispatch.com##[data-gh-lazy-ad-loaded]
 ! dogefaucet.com
 @@||ads.korri.fr^$script,domain=dogefaucet.com
 @@||dogefaucet.com^$generichide
 ! hardware.info
 hardware.info#@#.advertorial
-! geekzone.co.nz
-@@||geekzone.co.nz^$generichide
-geekzone.co.nz##.pp-banner-cont
-geekzone.co.nz##.share__button
-geekzone.co.nz##div[style*="width:160px;height:600px;"]
-geekzone.co.nz##div[style*="width:336px; height:280px;"]
 ! flashback.org
 flashback.org###right-banner-container
 flashback.org###top-banner-container
@@ -2009,33 +1939,14 @@ kitguru.net##div[style^="z-index:"]
 @@||spaste.com/ads/ads.html
 @@||spaste.com/ads/ads.jpg
 @@||spaste.com^$generichide
-! denverpost.com
-@@||denverpost.com^$generichide
-denverpost.com###div-gpt-ad-Cube_Article
-denverpost.com###web-push-prompt
-denverpost.com##.article-share
-denverpost.com##.info-box
-denverpost.com##.newsletter-simple
 ! picload.org
 @@||picload.org/image/$image
-! runnersworld.com
-@@||runnersworld.com^*ad$script
-runnersworld.com##.lazyloaded.homepage-marquee
 ! coderexample.com
 @@||coderexample.com^$generichide
 coderexample.com###crestashareiconincontent
 coderexample.com##.cookieBubble
 coderexample.com##.sparkling-social
 coderexample.com##[data-ad-client]
-! collegehumor.com
-@@||adserver.xpanama.net/client-*.js$domain=collegehumor.com
-@@||amazon-adsystem.com/aax2/apstag.js$domain=collegehumor.com
-@@||doubleclick.net/gampad/ads?$domain=collegehumor.com
-@@||doubleclick.net/gpt/pubads_impl$domain=collegehumor.com
-@@||googlesyndication.com/pagead/js/*/m_window_focus_non_hydra.js$domain=collegehumor.com
-@@||googlesyndication.com/pagead/js/*/osd_listener.js$domain=collegehumor.com
-@@||googlesyndication.com/simgad/$domain=collegehumor.com
-collegehumor.com##[style="border: 0pt none;"] > iframe
 ! nydailynews.com
 @@||amazon-adsystem.com/aax2/apstag.js$domain=nydailynews.com
 @@||go.sonobi.com^$script,domain=nydailynews.com
@@ -2049,6 +1960,8 @@ nydailynews.com###rf-follow
 nydailynews.com###taboola-below-article-thumbnails
 nydailynews.com###taboola-right-rail-thumbnails
 nydailynews.com###taboola-right-rail-thumbnails-2nd
+nydailynews.com##.ad-300x250
+nydailynews.com##.ad-320x50
 nydailynews.com##.ra-share
 nydailynews.com##.rh-ad
 nydailynews.com##.ri-facebook
@@ -2066,34 +1979,7 @@ nydailynews.com##iframe[id][name]
 @@||wwwshooter.com/includes/js/adblockdetect/
 wwwshooter.com###skyScraper
 wwwshooter.com##[data-ad-client]
-! gamereactor
-@@||gamereactor.de^$generichide
-@@||gamereactor.dk^$generichide
-@@||gamereactor.es^$generichide
-@@||gamereactor.eu^$generichide
-@@||gamereactor.fi^$generichide
-@@||gamereactor.fr^$generichide
-@@||gamereactor.it^$generichide
-@@||gamereactor.nl^$generichide
-@@||gamereactor.no^$generichide
-@@||gamereactor.pt^$generichide
-@@||gamereactor.se^$generichide
-gamereactor.es,gamereactor.se,gamereactor.fi,gamereactor.it,gamereactor.nl,gamereactor.pt,gamereactor.fr,gamereactor.no,gamereactor.de,gamereactor.dk,gamereactor.eu###ad_sky2
-gamereactor.es,gamereactor.se,gamereactor.fi,gamereactor.it,gamereactor.nl,gamereactor.pt,gamereactor.fr,gamereactor.no,gamereactor.de,gamereactor.dk,gamereactor.eu###ad_w300h450
-gamereactor.es,gamereactor.se,gamereactor.fi,gamereactor.it,gamereactor.nl,gamereactor.pt,gamereactor.fr,gamereactor.no,gamereactor.de,gamereactor.dk,gamereactor.eu###ads_top2
-gamereactor.es,gamereactor.se,gamereactor.fi,gamereactor.it,gamereactor.nl,gamereactor.pt,gamereactor.fr,gamereactor.no,gamereactor.de,gamereactor.dk,gamereactor.eu###cookielawwarning
-gamereactor.es,gamereactor.se,gamereactor.fi,gamereactor.it,gamereactor.nl,gamereactor.pt,gamereactor.fr,gamereactor.no,gamereactor.de,gamereactor.dk,gamereactor.eu###darkoverlay
-gamereactor.es,gamereactor.se,gamereactor.fi,gamereactor.it,gamereactor.nl,gamereactor.pt,gamereactor.fr,gamereactor.no,gamereactor.de,gamereactor.dk,gamereactor.eu###facebooknotification
-gamereactor.es,gamereactor.se,gamereactor.fi,gamereactor.it,gamereactor.nl,gamereactor.pt,gamereactor.fr,gamereactor.no,gamereactor.de,gamereactor.dk,gamereactor.eu###helloDollywarning
-gamereactor.es,gamereactor.se,gamereactor.fi,gamereactor.it,gamereactor.nl,gamereactor.pt,gamereactor.fr,gamereactor.no,gamereactor.de,gamereactor.dk,gamereactor.eu###likebuttons
-gamereactor.es,gamereactor.se,gamereactor.fi,gamereactor.it,gamereactor.nl,gamereactor.pt,gamereactor.fr,gamereactor.no,gamereactor.de,gamereactor.dk,gamereactor.eu##.ad300b
-gamereactor.es,gamereactor.se,gamereactor.fi,gamereactor.it,gamereactor.nl,gamereactor.pt,gamereactor.fr,gamereactor.no,gamereactor.de,gamereactor.dk,gamereactor.eu##.ad300m
-gamereactor.es,gamereactor.se,gamereactor.fi,gamereactor.it,gamereactor.nl,gamereactor.pt,gamereactor.fr,gamereactor.no,gamereactor.de,gamereactor.dk,gamereactor.eu##.fb-like
-gamereactor.es,gamereactor.se,gamereactor.fi,gamereactor.it,gamereactor.nl,gamereactor.pt,gamereactor.fr,gamereactor.no,gamereactor.de,gamereactor.dk,gamereactor.eu##.fb-like-box
-gamereactor.es,gamereactor.se,gamereactor.fi,gamereactor.it,gamereactor.nl,gamereactor.pt,gamereactor.fr,gamereactor.no,gamereactor.de,gamereactor.dk,gamereactor.eu##.fbLikeBox
-gamereactor.es,gamereactor.se,gamereactor.fi,gamereactor.it,gamereactor.nl,gamereactor.pt,gamereactor.fr,gamereactor.no,gamereactor.de,gamereactor.dk,gamereactor.eu##.twitter-follow-button
 ! uvnc.com
-@@.gif#$image,domain=uvnc.com
 @@||uvnc.com^$generichide
 ! pipocas.tv
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pipocas.tv
@@ -2105,55 +1991,19 @@ gry.pl##.mpu
 ! clubic.com
 @@||clubic.com^$generichide
 clubic.com###cookieu_header
+clubic.com##.ad-desktop-right
 clubic.com##.as-oil-content-overlay
 clubic.com##.button-social
 clubic.com##.footer-social
 clubic.com##.OUTBRAIN
-! buickforums.com
-@@||buickforums.com^*/ads.min.js$script
-buickforums.com##td[align="center"][height="150"]
-||madisonross.com/adblock.html
-||madisonross.com/images/top.jpg
-! jav911.com
-@@||jav911.com^$generichide
 ! hax
 @@||haxcolors.com^$generichide
 @@||haxmaps.com^$generichide
 @@||haxrec.com^$generichide
-! hqporner.com
 ! loginissue.help
 loginissue.help##.cookie-notice-container
-! shqiperiatv.com
-@@||tvshqiphd.com/adblock.js
-! mobilenations
-@@||incrediblesugar.com^$xmlhttprequest,domain=crackberry.com
-@@||loudloss.com^$xmlhttprequest,domain=windowscentral.com
-@@||similarsabine.com^$xmlhttprequest,domain=imore.com
-@@||sneakystamp.com^$xmlhttprequest,domain=androidcentral.com
-windowscentral.com,crackberry.com,imore.com,androidcentral.com###Leaderboard_Header_ATF-wrap
-windowscentral.com,crackberry.com,imore.com,androidcentral.com##.article-leaderboard
-windowscentral.com,crackberry.com,imore.com,androidcentral.com##.bf-newsletter
-windowscentral.com,crackberry.com,imore.com,androidcentral.com##.header-top-alert-bar
-windowscentral.com,crackberry.com,imore.com,androidcentral.com##.region-page-header.region
-! tg007.net
-@@||tg007.net^$generichide
-g007.net###socialbuttons
-tg007.net##.fb-page
 ! how2play.pl
 how2play.pl#@##adsense
-! eurogamer.net
-@@/ads$script,domain=eurogamer.net,third-party
-@@||vg247.*/doubleclick/$script,third-party
-eurogamer.net###leaderboard
-eurogamer.net##.collapsible.mpu
-eurogamer.net##.desktop-mpu
-eurogamer.net##.fc-root
-! hackinformer.com
-@@||hackinformer.com^$generichide
-hackinformer.com##.share-post
-hackinformer.com##[data-ad-client]
-! techsini.com
-techsini.com##.san_sticky_notice
 ! u2s.io
 @@||u2s.io^$generichide
 u2s.io##.banner-inner
@@ -2206,19 +2056,6 @@ gamezone.com##.td_block_social_counter
 gamezone.com##div[id^="zergnet-widget-"]
 ! runningmagazine.ca
 @@||runningmagazine.ca^$generichide
-! gamesradar.com
-gamesradar.com##.buttons-social
-gamesradar.com##.newsletter-signup
-gamesradar.com##.socialite-widget-ul
-! surfline.com
-@@||surfline.com^$generichide
-surfline.com###dialog-cookies
-surfline.com##.footer-icon-facebook
-surfline.com##.footer-icon-googleplus
-surfline.com##.footer-icon-twitter
-surfline.com##.footer-icon-youtube
-surfline.com##.forecast
-surfline.com##.sl-home-cam
 ! pri.org
 @@||pri.org^$generichide
 pri.org###sharing-links---header-container
@@ -2246,15 +2083,6 @@ wordsense.eu##.cc_banner
 wordsense.eu##[data-ad-client]
 ! eurogamer.net,rockpapershotgun.com,vg247.com
 @@||amazon-adsystem.com^*/getads.js$domain=eurogamer.net|rockpapershotgun.com|vg247.com
-! pocketnow
-pocketnow.com##a div > img[src*="/wp-content/uploads/"]
-pocketnow.com##div + a > img[src*="/wp-content/uploads/"]
-pocketnow.com##iframe + style + div[class]
-pocketnow.com##iframe[class]
-pocketnow.com##script + a[href*="/wp-content/"]
-pocketnow.com##script + div + style + div[class]
-pocketnow.com##script + style + div[class]
-pocketnow.com##style + style + div[class]
 !
 @@||techradar.com^$generichide
 techradar.com##.buttons-social
@@ -2280,17 +2108,9 @@ purepc.pl##.s_youtube
 @@||proclockers.com^$generichide
 proclockers.com##.pane-follow-site
 proclockers.com##a[href="http://twitter.com/share"]
-! mallorcazeitung.es / diariodemallorca.es
-@@||diariodemallorca.es/servicios/ads/dfp.js
-@@||mallorcazeitung.es/servicios/ads/dfp.js
 ! businessinsider.com (Will create dube in Enhanced trackers)
-@@||adservice.google.$script,domain=businessinsider.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=businessinsider.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=businessinsider.com
-@@||js.indexww.com^$script,domain=businessinsider.com
-@@||p.d.em0n.com^*/ad$script,domain=businessinsider.com
-@@||p.d.em0n.com^*_ad$script,domain=businessinsider.com
-@@||pagead2.googlesyndication.com/pagead/show_companion_ad.js$domain=businessinsider.com
 ||tinypass.com^$domain=businessinsider.com
 ! thememypc.net
 thememypc.net###sthoverbuttons
