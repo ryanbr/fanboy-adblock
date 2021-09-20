@@ -1512,6 +1512,14 @@ oxfordmail.co.uk##.top-socialbar
 @@||ad.doubleclick.net/ddm/$xmlhttprequest,domain=twitch.tv
 @@||client-event-reporter.twitch.tv^$xmlhttprequest,domain=twitch.tv
 @@||trowel.twitch.tv^$xmlhttprequest,domain=twitch.tv
+twitch.tv##+js(json-prune, /^(?X-TV-TWITCH-AD)$/)
+twitch.tv##+js(json-prune, /^(?X-TV-TWITCH-AD.*)$/)
+twitch.tv##+js(json-prune, /^(X-TV-TWITCH-AD)$/)
+twitch.tv##+js(json-prune, /^X-TV-TWITCH-AD.*/)
+twitch.tv##+js(json-prune, /^X-TV-TWITCH-AD/)
+twitch.tv##+js(json-prune, /^X-TV-TWITCH-AD/)
+twitch.tv##+js(json-prune, X-TV-TWITCH-AD-AD-FORMAT)
+twitch.tv##+js(json-prune, X-TV-TWITCH-AD-ROLL-TYPE)
 twitch.tv##.tw-z-above.blue-bar
 twitch.tv#@#.companion-ad
 ||twitchcdn.net/v1.js
