@@ -1,0 +1,19 @@
+[Adblock Plus 2.0]
+! Checksum: 1JeRnRcun8N01nsYcbZp3Q
+! Title: Fanboy's Localhost blocks List
+! Updated: 18 Feb 2021
+! Expires: 5 days
+! License: http://creativecommons.org/licenses/by/3.0/
+! Homepage: http://www.fanboy.co.nz/
+! Reporting Issues: https://github.com/ryanbr/fanboy-adblock/issues
+!
+! Legal stuff (T&C's).
+! In no event shall Fanboy List, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+!
+||localhost^$third-party,domain=~127.0.0.1|~[::1]
+||127.0.0.1^$third-party,domain=~localhost|~[::1]
+||[::1]^$third-party,domain=~localhost|~127.0.0.1
+!
+! Fixes (Ace streaming) (As seen on arenavision.site)
+@@||127.0.0.1*/ace/manifest.m3u8$xmlhttprequest
