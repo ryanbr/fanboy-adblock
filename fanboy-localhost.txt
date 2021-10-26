@@ -19,3 +19,6 @@
 @@||127.0.0.1*/ace/manifest.m3u8$xmlhttprequest
 ! Let Chrome extensions use localhost
 @@||127.0.0.1^$domain=chrome-extension-scheme
+! Get fiddler needs localhost during the signin
+! https://github.com/brave/brave-browser/issues/18962
+@@||localhost^$domain=getfiddler.com
