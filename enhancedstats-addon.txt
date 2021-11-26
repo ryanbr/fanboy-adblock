@@ -460,7 +460,7 @@ wccftech.com##+js(acis, window.NewzmateConfig)
 /ep-paywall-portlet/*
 /jto_paywall/*
 /leaky-paywall-
-/leaky-paywall/*
+/leaky-paywall/*$script
 /paymeterconfig/*
 /paywall.min.js
 /PaywallMeter.js
