@@ -2847,6 +2847,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||kavanga.ru/exp?$domain=overclockers.ru
 @@||kentucky.com/mistats/products/pubsys_s_code.js
 @@||libs.coremetrics.com^$domain=boscovs.com
+@@||login.cengagebrain.com/cb/student/js/omniture_cb.js
 @@||marilyn.ca/jsHandler.aspx?*omniture
 @@||media.richrelevance.com^$script,domain=samsung.com
 @@||mfcreative.com^*/mbox.js
