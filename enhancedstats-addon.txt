@@ -2779,6 +2779,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||cdc.gov/JScript/metrics/topic_levels.js$script,domain=cdc.gov
 @@||cdn.turner.com/nba/nba/.element/*/global/omniTrack.js$domain=nba.com
 @@||cdnbrm.com/images/*/TouchClarity/images/
+@@||cengagebrain.com^*/omniture_
 @@||cigna.com^*/webtrends/
 @@||cineworld.co.uk/cw/assets/javascript/webtrends*.js
 @@||consumerist.com/mt.js
