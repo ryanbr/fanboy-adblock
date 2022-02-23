@@ -775,8 +775,9 @@ posta.com.tr##.bannerContent
 referansgazetesi.com###Referans_bolum_728x90
 rokettube.me##a[href^="http://www.peniskaldiricihaplar.com/?ref="]
 ruyatabirleri1.com##div[style="position:absolute;top:5px;left:735px;width:160px;height:610px;background-color:#fff;"]
-sabah.com.tr##.vimjo
-sabah.com.tr##[width="430"][height="50"]
+sabah.com.tr##.advert
+sabah.com.tr##.bandReklam
+sabah.com.tr##.billBoardFrame
 sacitaslan.com##.gy_banner
 sacitaslan.com##.reklam300
 sacitaslan.com##.tepebanner
