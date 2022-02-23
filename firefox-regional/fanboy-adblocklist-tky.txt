@@ -173,7 +173,6 @@ _reklam_125_
 ||nationalturk.com/media/banner/
 ||nethaber.com/TextBanner.
 ||ntvmsnbc.com/adv/
-||odatv.com/staticimages/
 ||ogile.com/banner
 ||orosbum.info/popup.swf
 ||orosbum.info/popupum.js
@@ -384,8 +383,6 @@ _reklam_125_
 @@||advert.gittigidiyor.com^$domain=gittigidiyor.com
 @@||cdntr.com/ntvspor/reklam_playlist.asp
 @@||delivery.reklamz.com/please/showit/$domain=xdiziizle.com
-@@||mynet.com.tr/ads/*/clientAds-devel.js$domain=video.mynet.com
-@@||mynet.com/reklam/*.swf$domain=mynet.com
 @@||sondakika.com/video-haber/adsense_
 @@||zapkolik.com/reklam.xml
 @@||zapkolik.com/zaplayer.swf?
@@ -728,42 +725,10 @@ milliyet.com.tr##a[href^="http://ad.e-kolay.net/redir.a2"]
 morbiber.com###myModal
 morbiber.com##.modal-overlay
 motordelisi.com##div[style="padding: 6px 0px 0px 0px"]
-mynet.com###atpsl
-mynet.com##.aidxcrBanner
-mynet.com##.detay250x250
-mynet.com##.myBanner250
-mynet.com##.onAdvert300x250
-mynet.com##.videoSkinLink
-mynet.com##a[href^="http://servad.mynet.com/"]
-mynet.com##div[style=" clear:both;width: 635px; color: rgb(102, 102, 102); background: none repeat scroll 0% 0% rgb(212, 212, 212); font-weight: bold; padding-left: 5px; margin-bottom: 3px; font-family:Arial, Helvetica, sans-serif;font-size:12px;"]
-mynet.com##div[style="float:left; margin-right: 10px; width: 343px; margin-bottom: 10px;"]
-mynet.com##div[style="height:25px;"]
-mynet.com##div[style="width: 300px; height: 250px; margin:0 0 10px"]
-mynet.com##div[style="width: 640px; overflow: hidden; height: 190px;"]
-mynet.com##div[style="width:296px;height:250px;border:solid 1px #C0C0C0;padding:3px"]
-mynet.com##div[style="width:298px;height:250px;border:solid 1px #C0C0C0;padding:3px"]
-mynet.com##div[style="width:298px;height:250px;border:solid 1px #C0C0C0;padding:5px"]
-mynet.com##div[style="width:300px; height: 250px; border:solid 1px #C0C0C0;padding:3px;"]
-mynet.com##div[style="width:640px; height:180px; overflow:hidden;margin-top:15px;"]
-mynet.com##div[style="width:640px; height:95px; overflow:hidden"]
-mynet.com##div[style="width:728px; height:22px; float:left; margin:15px 0 0 0; @margin:15px 15px 0 0;"]
-mynet.com##div[style="width:960px;margin:auto auto"]
+mynet.com###sidebar_300x250_2
+mynet.com##.adv-item-box
+mynet.com##.col-adv
 ntvmsnbc.com##.eshopStory
-nytimes.com##.ad
-odatv.com###pageskin
-odatv.com###resimreklam
-odatv.com##.banner468v2
-odatv.com##a[style="color:#e70000; font-weight: bold;font-size:14px;"]
-odatv.com##div[style="background-color: #ffffff; margin-top: 5px; width: 775px; margin-bottom: 5px; height: 90px; margin-left: 15px"]
-odatv.com##div[style="background-color: rgb(255, 255, 255);  padding-top: 25px; width: 775px; height: 90px; margin-left: 10px;"]
-odatv.com##div[style="background-color: rgb(255, 255, 255); margin-top: 35px; width: 775px; height: 90px; margin-left: 10px;"]
-odatv.com##div[style="background-color: rgb(255, 255, 255); width: 775px; height: 90px; margin-left: 10px;margin-top:35px; margin- bottom:10px;"]
-odatv.com##div[style="background-color: rgb(255,255,255); width: 775px; height: 90px; margin-left: 10px;"]
-odatv.com##div[style="background-color: rgb(255,255,255); width: 775px; height: 90px; margin-left: 10px;padding-bottom:10px;padding-top:5px;"]
-odatv.com##div[style="background-color: rgb(255,255,255); width: 775px; height: 90px; margin: 10px;"]
-odatv.com##div[style="margin-left:25px"]
-odatv.com##div[style="width:300px;height:250px;"]
-oyunuoyna.com##.bg-728
 pckoloji.com##.icerik-tablo-forum-icerik-sag-reklam
 pckoloji.com##.kreklam2
 pckoloji.com##.sm2
