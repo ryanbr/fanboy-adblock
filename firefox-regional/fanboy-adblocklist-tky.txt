@@ -312,6 +312,7 @@ _reklam_125_
 ||fotocunuz.com^$third-party
 ||grimex.net^$third-party
 ||hizlicevap.com^$subdocument,third-party
+||iddaa.sporx.com/web/$subdocument
 ||ingilizce.tk^*.swf
 ||inilti.com^$third-party
 ||kadinca.us^$third-party
@@ -409,6 +410,7 @@ samanyoluhaber.com##[style="position: absolute; text-align: center; left: 55px; 
 !
 !---------- Turkish Generic Element Hiding Rules ----------
 !
+###dfp_300x250_sag
 ###kayan_reklam
 ###kayan_reklam_sol
 ###kayan_reklamsag
