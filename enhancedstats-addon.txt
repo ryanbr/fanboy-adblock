@@ -2744,6 +2744,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||aarp.net/etc/aarp/statics/global/js/omniture*.js
 @@||abcnews.com/assets/flash/kdp/omniturePlugin.swf
 @@||abcotvs.net^*/analytics/VideoHeartbeat.min.js
+@@||accounts.google.com/gsi/client$domain=twitter.com
 @@||accounts.google.com/gsi/client$script,domain=jiji.co.ke|usnews.com
 @@||adobe.com/uber/js/*s_code
 @@||adobe.com/www.adobe.com/uber/js/pdc_s_code.js
