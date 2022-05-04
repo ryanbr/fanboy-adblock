@@ -2016,6 +2016,7 @@ wordsense.eu##[data-ad-client]
 !
 @@||techradar.com^$generichide
 techradar.com##.buttons-social
+techradar.com##.dfp-leaderboard-container
 techradar.com##.inbody__newsletter
 techradar.com##.newsletter-signup
 techradar.com##.socialite-widget
