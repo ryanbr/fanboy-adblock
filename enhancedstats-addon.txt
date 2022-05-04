@@ -1618,7 +1618,6 @@ reddit.com##+js(acis, addScript)
 reddit.com##+js(acis, adSlots)
 reddit.com##+js(acis, googletag.pubads)
 reddit.com##+js(acis, window.__adslots)
-reddit.com##._3RPJ8hHnfFohktLZca18J6
 reddit.com##.dfp-ad-container
 reddit.com##.email-collection-banner
 reddit.com##.premium-banner
