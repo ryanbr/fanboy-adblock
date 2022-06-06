@@ -504,6 +504,8 @@ brisbanetimes.com.au,watoday.com.au,theage.com.au,smh.com.au##+js(aopr, localSto
 fastcompany.com##+js(cookie-remover.js, xbc)
 hbr.org##+js(cookie-remover.js, HBR_SESSION_ID)
 inquirer.com##+js(cookie-remover, /^/)
+irishtimes.com###it-toast
+irishtimes.com##+js(cookie-remover.js, blaize_session)
 medianama.com##+js(acis, openPopUp)
 newrepublic.com###pwPopups
 newyorker.com##+js(cookie-remover.js, CN_ad_block)
