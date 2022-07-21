@@ -2746,7 +2746,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||abcnews.com/assets/flash/kdp/omniturePlugin.swf
 @@||abcotvs.net^*/analytics/VideoHeartbeat.min.js
 @@||accounts.google.com/gsi/client$domain=twitter.com
-@@||accounts.google.com/gsi/client$script,domain=jiji.co.ke|usnews.com
+@@||accounts.google.com/gsi/client$script,domain=jiji.co.ke|usnews.com|reddit.com
 @@||adobe.com/uber/js/*s_code
 @@||adobe.com/www.adobe.com/uber/js/pdc_s_code.js
 @@||adziff.com/pcmag/images/zd_footer_logo.png$image,domain=extremetech.com
