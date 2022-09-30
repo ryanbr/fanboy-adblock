@@ -2927,7 +2927,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||thestar.com^*/sitecatalyst/
 @@||ticketm.net^*/omniture_tracker.js$script
 @@||ticketmaster.com^*/omniture_tracker.js
-@@||time.akamai.com^$domain=mitele.es
+@@||time.akamai.com^$domain=mitele.es|vg.no
 @@||topmarques.co.uk^*/tracking/module.omniture.js
 @@||traderonline.com/javascript/master_s_code.js
 @@||travel-assets.com^*/siteanalytics/omniture-$script
