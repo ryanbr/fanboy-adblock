@@ -2805,6 +2805,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||focus.ti.com^*/hbx.js
 @@||focus.ti.com^*/hbx_page_code.js
 @@||foodnetwork.ca/UserControls/*/omnitureMedia.swf
+@@||fotbollskane.se/wp-content/plugins/leaky-paywall/
 @@||foxnews.com/js/omtr_code.js$domain=foxbusiness.com|foxnews.com
 @@||foxtel.com.au/shop/packages-and-deals/static/js/os-omniture.js
 @@||ft.com/regb/$xmlhttprequest
