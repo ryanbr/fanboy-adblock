@@ -778,7 +778,6 @@ youporn.com###adblock_1
 ||syncaccess.net^$third-party
 ||tags.tiqcdn.com/utag/*/utag.v.js
 ||targeting.wpdigital.net^
-||time.akamai.com^$third-party
 ||tracedseals.starfieldtech.com^$third-party
 ||trackjs.com^*/tracker.js$third-party
 ||trustlogo.com^$third-party
@@ -2928,7 +2927,6 @@ xkorean.net##a[href*="&aff_id"]
 @@||thestar.com^*/sitecatalyst/
 @@||ticketm.net^*/omniture_tracker.js$script
 @@||ticketmaster.com^*/omniture_tracker.js
-@@||time.akamai.com^$domain=mitele.es|vg.no
 @@||topmarques.co.uk^*/tracking/module.omniture.js
 @@||traderonline.com/javascript/master_s_code.js
 @@||travel-assets.com^*/siteanalytics/omniture-$script
