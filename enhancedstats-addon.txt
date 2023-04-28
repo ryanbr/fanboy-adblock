@@ -414,7 +414,7 @@ wccftech.com##+js(acis, googletag.cmd.push)
 wccftech.com##+js(acis, pl_beacon)
 wccftech.com##+js(acis, window.NewzmateConfig)
 ! utag
-@@||tags.tiqcdn.com/utag/*/utag.js$script,domain=mattressfirm.com|welt.de|mediaset.it|cbsnews.com|bleacherreport.com|cnet.com|mediaset.it|politico.com
+@@||tags.tiqcdn.com/utag/*/utag.js$script,domain=medicare.gov|mattressfirm.com|welt.de|mediaset.it|cbsnews.com|bleacherreport.com|cnet.com|mediaset.it|politico.com
 ||tags.tiqcdn.com/utag/$script
 ! referal tracking of vpns
 ||cybertool.co^*?aff_id=$document
