@@ -12,6 +12,14 @@ export MAINDIR="/var/www"
 
 # Cookie DIR
 export AGEGATEDIR="/root/temp/notifi"
+# Ensure Dir exists.
+if [ ! -d "$AGEGATEDIR" ]; then
+    mkdir -p "$AGEGATEDIR"
+    echo "Folder created: $folder_path"
+else
+    # echo "Folder already exists: $folder_path"
+    :
+fi
 
 # For file comparison
 export SHA256SUM="/usr/bin/sha256sum"
@@ -29,6 +37,15 @@ export CURRENTDATE=$(date +"%Y%m%d_%H%M%S")
 
 # Diff logs
 export DIFFLOGS="/var/www/difflogs/agegate"
+# Ensure Logs exist.
+if [ ! -d "$DIFFLOGS" ]; then
+    mkdir -p "$DIFFLOGS"
+    echo "Folder created: $folder_path"
+else
+    # echo "Folder already exists: $folder_path"
+    :
+fi
+
 
 # AGEGATEDIR
 rm -Rf $AGEGATEDIR
