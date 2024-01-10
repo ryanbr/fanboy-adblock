@@ -47,97 +47,55 @@ $VALIDCHECKSUM $COOKDIR/fanboy-agegate.txt.gz.zcat > $COOKDIR/fanboy-agegate.txt
 $VALIDCHECKSUM $COOKDIR/fanboy-mobile-notifications.txt.gz.zcat > $COOKDIR/fanboy-mobile-notifications.txt.gz.zcat.chk
 $VALIDCHECKSUM $COOKDIR/fanboy-notifications.txt.gz.zcat > $COOKDIR/fanboy-notifications.txt.gz.zcat.chk
 
-# Easylist Cookie (GZIP)
-files=("easylist-cookie_ubo.txt.gz.zcat.chk" "easylist-cookie.txt.gz.zcat.chk" "fanboy-annoyance_ubo.txt.gz.zcat.chk" "fanboy-cookiemonster.txt.gz.zcat.chk")
-
-for file in "${files[@]}"; do
-    if grep -q "\[Wrong checksum\]" "$file"; then
-        echo "GZIP'd File '$file' contains '[Wrong checksum]'"
-        . /etc/crons/easylist-cookie-mirror.sh
-        
-    else
-        echo "GZIP'd File '$file' does not contain '[Wrong checksum]'"
-    fi
-done
-
-# AGE GATE List (GZIP)
-files=("fanboy-agegate.txt.gz.zcat.chk")
-
-for file in "${files[@]}"; do
-    if grep -q "\[Wrong checksum\]" "$file"; then
-        echo "GZIP'd File '$file' contains '[Wrong checksum]'"
-        . /etc/crons/age-gate.sh
-        
-    else
-        echo "GZIP'd File '$file' does not contain '[Wrong checksum]'"
-    fi
-done
-
-# Notifications List (GZIP)
-files=("$COOKDIR/fanboy-mobile-notifications.txt.gz.zcat.chk" "$COOKDIR/fanboy-notifications.txt.gz.zcat.chk"")
-
-for file in "${files[@]}"; do
-    if grep -q "\[Wrong checksum\]" "$file"; then
-        echo "GZIP'd File '$file' contains '[Wrong checksum]'"
-        . /etc/crons/make-notifications.sh
-        
-    else
-        echo "GZIP'd File '$file' does not contain '[Wrong checksum]'"
-    fi
-done
 
 #### Non gzip'd (Easylist Cookie)
 
 $VALIDCHECKSUM $MAINDIR/easylist-cookie.txt > $COOKDIR/easylist-cookie.txt.chk
 $VALIDCHECKSUM $MAINDIR/easylist-cookie_ubo.txt > $COOKDIR/easylist-cookie_ubo.txt.chk
 $VALIDCHECKSUM $MAINDIR/fanboy-annoyance.txt > $COOKDIR/fanboy-annoyance.txt.chk
-
-files=("easylist-cookie.txt.chk" "easylist-cookie_ubo.txt.chk" "fanboy-annoyance.txt.chk")
+# Easylist Cookie (GZIP)
+files=("easylist-cookie_ubo.txt.gz.zcat.chk" "easylist-cookie.txt.gz.zcat.chk" "fanboy-annoyance_ubo.txt.gz.zcat.chk" "fanboy-cookiemonster.txt.gz.zcat.chk" "easylist-cookie.txt.chk" "easylist-cookie_ubo.txt.chk" "fanboy-annoyance.txt.chk")
 
 for file in "${files[@]}"; do
     if grep -q "\[Wrong checksum\]" "$file"; then
-        echo "Non-GZIP'd File '$file' contains '[Wrong checksum]'"
-        echo "Re-grabbinng "
+        echo "GZIP'd File '$file' contains '[Wrong checksum]'"
         . /etc/crons/easylist-cookie-mirror.sh
         
     else
-        echo "Non-GZIP'd File '$file' does not contain '[Wrong checksum]'"
+        echo "GZIP'd File '$file' does not contain '[Wrong checksum]'"
     fi
 done
 
 #### Non gzip'd (AGE GATE List)
 $VALIDCHECKSUM $MAINDIR/fanboy-agegate.txt > $COOKDIR/fanboy-agegate.txt.chk
-
-files=("fanboy-agegate.txt.chk")
+# AGE GATE List (GZIP)
+files=("fanboy-agegate.txt.gz.zcat.chk" "fanboy-agegate.txt.chk")
 
 for file in "${files[@]}"; do
     if grep -q "\[Wrong checksum\]" "$file"; then
-        echo "Non-GZIP'd File '$file' contains '[Wrong checksum]'"
-        echo "Re-grabbinng "
+        echo "GZIP'd File '$file' contains '[Wrong checksum]'"
         . /etc/crons/age-gate.sh
         
     else
-        echo "Non-GZIP'd File '$file' does not contain '[Wrong checksum]'"
+        echo "GZIP'd File '$file' does not contain '[Wrong checksum]'"
     fi
 done
 
-#### Non gzip'd (Notificationss List)
 $VALIDCHECKSUM $MAINDIR/fanboy-mobile-notifications.txt > $COOKDIR/fanboy-mobile-notifications.txt.chk
 $VALIDCHECKSUM $MAINDIR/fanboy-notifications.txt > $COOKDIR/fanboy-notifications.txt.chk
 
-files=("fanboy-mobile-notifications.txt.chk" "fanboy-notifications.txt.chk")
+# Notifications List (GZIP)
+files=("fanboy-mobile-notifications.txt.gz.zcat.chk" "fanboy-notifications.txt.gz.zcat.chk" "fanboy-mobile-notifications.txt.chk" "fanboy-notifications.txt.chk")
 
 for file in "${files[@]}"; do
     if grep -q "\[Wrong checksum\]" "$file"; then
-        echo "Non-GZIP'd File '$file' contains '[Wrong checksum]'"
-        echo "Re-grabbinng "
+        echo "GZIP'd File '$file' contains '[Wrong checksum]'"
         . /etc/crons/make-notifications.sh
         
     else
-        echo "Non-GZIP'd File '$file' does not contain '[Wrong checksum]'"
+        echo "GZIP'd File '$file' does not contain '[Wrong checksum]'"
     fi
 done
-
 
 
 # remove old files
