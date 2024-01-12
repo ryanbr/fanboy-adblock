@@ -79,15 +79,10 @@ done
 ########################################  FB NOTIFICATION HEADER  ######################################
 ########################################################################################################
 
-cat $MAINDIR/fanboy-notification-template.txt $NOTIDIR/fanboy_notifications_general_block.txt $NOTIDIR/fanboy_notifications_specific_block.txt > $NOTIDIR/news.xxx
-echo "!------------------------General/Specific element hiding rules-------------------------!" >> $NOTIDIR/news.xxx
-cat $NOTIDIR/news.xxx $NOTIDIR/fanboy_notifications_general_hide.txt $NOTIDIR/fanboy_notifications_specific_hide.txt >> $NOTIDIR/news.xxy
-echo "!-------------------------Third-party blocking rules--------------------------!" >> $NOTIDIR/news.xxy
-cat $NOTIDIR/news.xxy $NOTIDIR/fanboy_notifications_thirdparty.txt >> $NOTIDIR/news.xyx
-echo "!------------------------Specific uBO rules ------------------------!" >> $NOTIDIR/news.xyx
-cat $NOTIDIR/news.xyx $NOTIDIR/fanboy_notifications_specific_uBO.txt >> $NOTIDIR/news.yxx
-echo "!---------------------------------Allowlists----------------------------------!" >> $NOTIDIR/news.yxx
-cat $NOTIDIR/news.yxx $NOTIDIR/fanboy_notifications_allowlist.txt $NOTIDIR/fanboy_notifications_allowlist_general_hide.txt >> $NOTIDIR/news.yxy
+cat $MAINDIR/fanboy-notification-template.txt $NOTIDIR/fanboy_notifications_general_block.txt $NOTIDIR/fanboy_notifications_specific_block.txt $NOTIDIR/fanboy_notifications_general_hide.txt \
+    $NOTIDIR/fanboy_notifications_specific_hide.txt $NOTIDIR/fanboy_notifications_thirdparty.txt $NOTIDIR/fanboy_notifications_specific_uBO.txt $NOTIDIR/fanboy_notifications_allowlist.txt \
+    $NOTIDIR/fanboy_notifications_allowlist_general_hide.txt > $NOTIDIR/news.yxy
+    
 # Remove blank lines
 sed -i '/\S/,$!d' $NOTIDIR/news.yxy
 # Test
@@ -112,28 +107,19 @@ echo "0.1"
 # Clear old files, now merge mobile files
 rm -rf $NOTIDIR/news.*
 
-cat $MAINDIR/fanboy-m-notification-template.txt $NOTIDIR/fanboy_notifications_mobile_general_block.txt $NOTIDIR/fanboy_notifications_mobile_specific_block.txt > $NOTIDIR/news.xxx
-echo "!------------------------General/Specific element hiding rules-------------------------!" >> $NOTIDIR/news.xxx
-cat $NOTIDIR/news.xxx $NOTIDIR/fanboy_notifications_mobile_general_hide.txt $NOTIDIR/fanboy_notifications_mobile_specific_hide.txt >> $NOTIDIR/news.xxy
-echo "!-------------------------Third-party blocking rules--------------------------!" >> $NOTIDIR/news.xxy
-cat $NOTIDIR/news.xxy $NOTIDIR/fanboy_notifications_mobile_thirdparty.txt >> $NOTIDIR/news.xyx
-echo "!------------------------Specific uBO rules ------------------------!" >> $NOTIDIR/news.xyx
-cat $NOTIDIR/news.xyx $NOTIDIR/fanboy_notifications_specific_uBO.txt >> $NOTIDIR/news.yxx
-echo "!---------------------------------Allowlists----------------------------------!" >> $NOTIDIR/news.yxx
-cat $NOTIDIR/news.yxx $NOTIDIR/fanboy_notifications_mobile_allowlist.txt $NOTIDIR/fanboy_notifications_mobile_allowlist_general_hide.txt >> $NOTIDIR/news.yxy
+cat $MAINDIR/fanboy-m-notification-template.txt $NOTIDIR/fanboy_notifications_mobile_general_block.txt $NOTIDIR/fanboy_notifications_mobile_specific_block.txt $NOTIDIR/fanboy_notifications_mobile_general_hide.txt \
+    $NOTIDIR/fanboy_notifications_mobile_specific_hide.txt $NOTIDIR/fanboy_notifications_mobile_thirdparty.txt $NOTIDIR/fanboy_notifications_specific_uBO.txt $NOTIDIR/fanboy_notifications_mobile_allowlist.txt \
+    $NOTIDIR/fanboy_notifications_mobile_allowlist_general_hide.txt > $NOTIDIR/news.yxy
+    
 # Remove blank lines
 sed -i '/\S/,$!d' $NOTIDIR/news.yxy
 # Test
 cp -f $NOTIDIR/news.yxy $NOTIDIR/fanboy-mobile-notifications.txt
 
+cat $MAINDIR/fanboy-notification-template.txt $NOTIDIR/fanboy_notifications_general_block.txt $NOTIDIR/fanboy_notifications_general_hide.txt $NOTIDIR/fanboy_notifications_specific_block.txt \
+    $NOTIDIR/fanboy_notifications_specific_hide.txt $NOTIDIR/fanboy_notifications_specific_block.txt $NOTIDIR/news2.xxy $NOTIDIR/fanboy_notifications_thirdparty.txt $NOTIDIR/fanboy_notifications_allowlist.txt \
+    $NOTIDIR/fanboy_notifications_allowlist_general_hide.txt > $NOTIDIR/news2.yxy
 
-cat $MAINDIR/fanboy-notification-template.txt $NOTIDIR/fanboy_notifications_general_block.txt $NOTIDIR/fanboy_notifications_general_hide.txt $NOTIDIR/fanboy_notifications_specific_block.txt > $NOTIDIR/news2.xxx
-echo "!------------------------General/Specific element hiding rules-------------------------!" >> $NOTIDIR/news2.xxx
-cat $NOTIDIR/news2.xxx $NOTIDIR/fanboy_notifications_specific_hide.txt $NOTIDIR/fanboy_notifications_specific_block.txt >> $NOTIDIR/news2.xxy
-echo "!-------------------------Third-party blocking rules--------------------------!" >> $NOTIDIR/news2.xxy
-cat $NOTIDIR/news2.xxy $NOTIDIR/fanboy_notifications_thirdparty.txt >> $NOTIDIR/news2.xyx
-echo "!---------------------------------Allowlists----------------------------------!" >> $NOTIDIR/news2.xyx
-cat $NOTIDIR/news2.xyx $NOTIDIR/fanboy_notifications_allowlist.txt $NOTIDIR/fanboy_notifications_allowlist_general_hide.txt >> $NOTIDIR/news2.yxy
 # Remove blank lines
 sed -i '/\S/,$!d' $NOTIDIR/news2.yxy
 cp -f $NOTIDIR/news2.yxy $NOTIDIR/fanboy-notifications.txt
