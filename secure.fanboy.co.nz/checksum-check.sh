@@ -3,14 +3,17 @@
 # Checksum v2
 # Prerequisites: Webserver (nginx)
 #
-# 30 * * * * /etc/crons/checksum-check.sh
-#
+
 
 # Main WWW Site
 export MAINDIR="/var/www"
 
+# Cron job
+export CRONDIR="/etc/crons/secure.fanboy.co.nz/"
+
 # Cookie DIR
 export COOKDIR="/root/temp/cookies-checksum"
+
 # Ensure Dir exists.
 if [ ! -d "$COOKDIR" ]; then
     mkdir -p "$COOKDIR"
@@ -59,7 +62,7 @@ files=("easylist-cookie_ubo.txt.gz.zcat.chk" "easylist-cookie.txt.gz.zcat.chk" "
 for file in "${files[@]}"; do
     if grep -q "\[Wrong checksum\]" "$file"; then
         echo "GZIP'd File '$file' contains '[Wrong checksum]'"
-        . /etc/crons/easylist-cookie-mirror.sh
+        . $CRONDIR/easylist-cookie-mirror.sh
         
     else
         echo "GZIP'd File '$file' does not contain '[Wrong checksum]'"
@@ -74,7 +77,7 @@ files=("fanboy-agegate.txt.gz.zcat.chk" "fanboy-agegate.txt.chk")
 for file in "${files[@]}"; do
     if grep -q "\[Wrong checksum\]" "$file"; then
         echo "GZIP'd File '$file' contains '[Wrong checksum]'"
-        . /etc/crons/age-gate.sh
+        . $CRONDIR/age-gate.sh
         
     else
         echo "GZIP'd File '$file' does not contain '[Wrong checksum]'"
@@ -90,7 +93,7 @@ files=("fanboy-mobile-notifications.txt.gz.zcat.chk" "fanboy-notifications.txt.g
 for file in "${files[@]}"; do
     if grep -q "\[Wrong checksum\]" "$file"; then
         echo "GZIP'd File '$file' contains '[Wrong checksum]'"
-        . /etc/crons/make-notifications.sh
+        . $CRONDIR/make-notifications.sh
         
     else
         echo "GZIP'd File '$file' does not contain '[Wrong checksum]'"
