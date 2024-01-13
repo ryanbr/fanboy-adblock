@@ -20,7 +20,9 @@ export SHA256SUM="/usr/bin/sha256sum"
 export WGET="nice -n 19 /usr/bin/wget -w 20 --no-cache --no-cookies --tries=10 --waitretry=20 --retry-connrefused --timeout=45 --random-wait -U firefox -P $NOTIDIR"
 
 export ADDCHECKSUM="nice -n 19 perl /root/fanboy-adblock/scripts/addChecksum.pl"
-export ZIP="/usr/bin/7za a -mx=9 -y -tgzip"
+# export ZIP="/usr/bin/7za a -mx=9 -y -tgzip"
+export ZIP="gzip -c -9"
+
 
 # NOTIDIR
 rm -Rf $NOTIDIR
@@ -129,7 +131,6 @@ cp -f $NOTIDIR/news2.yxy $NOTIDIR/fanboy-notifications.txt
 if [[ -e "$NOTIDIR/fanboy-notifications.txt" && -s "$NOTIDIR/fanboy-notifications.txt" ]];
   then
      echo "Successfully created fanboy-notifications.txt"
-     echo "0"
      # Remove blank lines
      sed -i '/\S/,$!d' $NOTIDIR/fanboy-notifications.txt
      # Checksum
@@ -152,12 +153,12 @@ if [[ -e "$NOTIDIR/fanboy-notifications.txt" && -s "$NOTIDIR/fanboy-notification
              echo "fanboy-notifications.txt has been updated"
              # Copy to server and create gzip copy
              cp -f $NOTIDIR/fanboy-notifications.txt $MAINDIR/fanboy-notifications.txt
-	     # remove old .gz
+	         # remove old .gz
              rm -rf $MAINDIR/fanboy-notifications.txt.gz 
-	     # Create gz
-             $ZIP $NOTIDIR/fanboy-notifications.txt.gz $NOTIDIR/fanboy-notifications.txt > /dev/null
-	     cp -f $NOTIDIR/fanboy-notifications.txt.gz $MAINDIR/fanboy-notifications.txt.gz
-	     # Clear temp files
+	         # Create gz
+             $ZIP $NOTIDIR/fanboy-notifications.txt > $NOTIDIR/fanboy-notifications.txt.gz
+   	         cp -f $NOTIDIR/fanboy-notifications.txt.gz $MAINDIR/fanboy-notifications.txt.gz
+	         # Clear temp files
              #rm -rf $NOTIDIR/fanboy-notifications.txt $NOTIDIR/fanboy_notifications_*.txt news.*
 
          else
@@ -176,7 +177,6 @@ fi
 if [[ -e "$NOTIDIR/fanboy-mobile-notifications.txt" && -s "$NOTIDIR/fanboy-mobile-notifications.txt" ]];
   then
      echo "Successfully created fanboy-mobile-notifications.txt"
-     #echo "0"
      # Remove blank lines
      sed -i '/\S/,$!d' $NOTIDIR/fanboy-mobile-notifications.txt
      # Checksum
@@ -199,12 +199,12 @@ if [[ -e "$NOTIDIR/fanboy-mobile-notifications.txt" && -s "$NOTIDIR/fanboy-mobil
              echo "fanboy-mobile-notifications has been updated"
              # Copy to server and create gzip copy
              cp -f $NOTIDIR/fanboy-mobile-notifications.txt $MAINDIR/fanboy-mobile-notifications.txt
-	     # remove old .gz
-             rm -rf $MAINDIR/fanboy-notifications.txt.gz 
-	     # Create gz
-             $ZIP $NOTIDIR/fanboy-mobile-notifications.txt.gz $NOTIDIR/fanboy-mobile-notifications.txt > /dev/null
-	     cp -f $NOTIDIR/fanboy-mobile-notifications.txt.gz $MAINDIR/fanboy-mobile-notifications.txt.gz
-	     # Clear temp files
+	         # remove old .gz
+             rm -rf $MAINDIR/fanboy-mobile-notifications.txt.gz
+	         # Create gz
+             $ZIP $NOTIDIR/fanboy-mobile-notifications.txt > $NOTIDIR/fanboy-mobile-notifications.txt.gz
+	         cp -f $NOTIDIR/fanboy-mobile-notifications.txt.gz $MAINDIR/fanboy-mobile-notifications.txt.gz
+	         # Clear temp files
              #rm -rf $NOTIDIR/fanboy-notifications.txt $NOTIDIR/fanboy_notifications_*.txt news.*
 
          else
