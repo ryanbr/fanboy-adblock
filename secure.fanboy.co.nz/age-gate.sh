@@ -128,12 +128,16 @@ sed -i '/\S/,$!d' $AGEGATEDIR/news.yxx43
 cp -f $AGEGATEDIR/news.yxx42 $AGEGATEDIR/fanboy-agegate_abp.txt
 cp -f $AGEGATEDIR/news.yxx43 $AGEGATEDIR/fanboy-agegate.txt
 
+# Checksum before comparing between /var/www and agegatedir
+$ADDCHECKSUM $AGEGATEDIR/fanboy-agegate_abp.txt
+$ADDCHECKSUM $AGEGATEDIR/fanboy-agegate.txt
+
 
 ########################################################################################################
 ########################################       PUBLISH            ######################################
 ########################################################################################################
 
-if diff $AGEGATEDIR/fanboy-agegate.txt $MAINDIR/fanboy-agegate.txt > $DIFFLOGS/agegate-$CURRENTDATE-differences.log ; then
+if diff -q $AGEGATEDIR/fanboy-agegate.txt $MAINDIR/fanboy-agegate.txt > $DIFFLOGS/agegate-$CURRENTDATE-differences.log ; then
     echo "No need to change"
   else
      echo "Successfully created fanboy-agegate.txt"
