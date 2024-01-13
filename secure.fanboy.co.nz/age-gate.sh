@@ -125,8 +125,8 @@ sed -i '/\S/,$!d' $AGEGATEDIR/news.yxx42
 sed -i '/\S/,$!d' $AGEGATEDIR/news.yxx43
 
 # rename
-cp -f $AGEGATEDIR/news.yxx42 $AGEGATEDIR/fanboy-agegate_abp.txt
-cp -f $AGEGATEDIR/news.yxx43 $AGEGATEDIR/fanboy-agegate.txt
+cp -f $AGEGATEDIR/news.yxx43 $AGEGATEDIR/fanboy-agegate_abp.txt
+cp -f $AGEGATEDIR/news.yxx42 $AGEGATEDIR/fanboy-agegate.txt
 
 # Checksum before comparing between /var/www and agegatedir
 $ADDCHECKSUM $AGEGATEDIR/fanboy-agegate_abp.txt
