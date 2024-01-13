@@ -133,7 +133,7 @@ cp -f $AGEGATEDIR/news.yxx43 $AGEGATEDIR/fanboy-agegate.txt
 ########################################       PUBLISH            ######################################
 ########################################################################################################
 
-if diff $AGEGATEDIR/fanboy-agegate.txt $MAINDIR/fanboy-annoyance.txt > $DIFFLOGS/agegate-$CURRENTDATE-differences.log ; then
+if diff $AGEGATEDIR/fanboy-agegate.txt $MAINDIR/fanboy-agegate.txt > $DIFFLOGS/agegate-$CURRENTDATE-differences.log ; then
     echo "No need to change"
   else
      echo "Successfully created fanboy-agegate.txt"
