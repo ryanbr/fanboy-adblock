@@ -117,7 +117,7 @@ if [ ! -e "$AGEGATEDIR/news.yxx42" ] || [ ! -s "$AGEGATEDIR/news.yxx42" ]; then
 fi
 # echo "File is non-empty. Continue with the rest of the script.
 
-# BACKUP
+# LOG-1
 cp -f $AGEGATEDIR/news.yxx42 $DIFFLOGS/fanboy-agegate-premod-$CURRENTDATE.txt
 
 # Remove blank lines
@@ -132,12 +132,14 @@ cp -f $AGEGATEDIR/news.yxx43 $AGEGATEDIR/fanboy-agegate.txt
 $ADDCHECKSUM $AGEGATEDIR/fanboy-agegate_abp.txt
 $ADDCHECKSUM $AGEGATEDIR/fanboy-agegate.txt
 
+# LOG-2
+cp -f $AGEGATEDIR/fanboy-agegate.txt $DIFFLOGS/fanboy-agegate-post-checksum-$CURRENTDATE.txt
 
 ########################################################################################################
 ########################################       PUBLISH            ######################################
 ########################################################################################################
 
-if diff -q $AGEGATEDIR/fanboy-agegate.txt $MAINDIR/fanboy-agegate.txt > $DIFFLOGS/agegate-$CURRENTDATE-differences.log ; then
+if diff -q $AGEGATEDIR/fanboy-agegate.txt $MAINDIR/fanboy-agegate.txt > $DIFFLOGS/fanboy-agegate-diff-$CURRENTDATE-differences.log ; then
     echo "No need to change"
   else
      echo "Successfully created fanboy-agegate.txt"
@@ -151,7 +153,7 @@ if diff -q $AGEGATEDIR/fanboy-agegate.txt $MAINDIR/fanboy-agegate.txt > $DIFFLOG
 
        echo "File size seems correct"
        echo "fanboy-agegate.txt has been updated"
-       # BACKUP
+       # LOG-3
        cp -f $AGEGATEDIR/fanboy-agegate.txt $DIFFLOGS/fanboy-agegate-$CURRENTDATE.txt
              
        # Copy to server and create gzip copy
@@ -164,7 +166,7 @@ if diff -q $AGEGATEDIR/fanboy-agegate.txt $MAINDIR/fanboy-agegate.txt > $DIFFLOG
 	   # Create gz
        $ZIP $MAINDIR/fanboy-agegate.txt > $MAINDIR/fanboy-agegate.txt.gz
        $ZIP $MAINDIR/fanboy-agegate_abp.txt > $MAINDIR/fanboy-agegate_abp.txt.gz
-       # BACKUP
+       # LOG-4
        cp -f $MAINDIR/fanboy-agegate.txt.gz $DIFFLOGS/fanboy-agegate-$CURRENTDATE.txt.gz
        
      else
