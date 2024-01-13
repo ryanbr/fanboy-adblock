@@ -23,6 +23,19 @@ export ADDCHECKSUM="nice -n 19 perl /root/fanboy-adblock/scripts/addChecksum.pl"
 # export ZIP="/usr/bin/7za a -mx=9 -y -tgzip"
 export ZIP="gzip -c -9"
 
+# Diff logs
+export DIFFLOGS="/var/www/difflogs/notifications"
+# Ensure Logs exist.
+if [ ! -d "$DIFFLOGS" ]; then
+    mkdir -p "$DIFFLOGS"
+    echo "Folder created: $folder_path"
+else
+    # echo "Folder already exists: $folder_path"
+    :
+fi
+
+# date
+export CURRENTDATE=$(date +"%Y%m%d_%H%M%S")
 
 # NOTIDIR
 rm -Rf $NOTIDIR
@@ -85,6 +98,9 @@ cat $MAINDIR/fanboy-notification-template.txt $NOTIDIR/fanboy_notifications_gene
     $NOTIDIR/fanboy_notifications_specific_hide.txt $NOTIDIR/fanboy_notifications_thirdparty.txt $NOTIDIR/fanboy_notifications_specific_uBO.txt $NOTIDIR/fanboy_notifications_allowlist.txt \
     $NOTIDIR/fanboy_notifications_allowlist_general_hide.txt > $NOTIDIR/news.yxy
     
+# BACKUP LOGS
+cp -f $NOTIDIR/news.yxy $DIFFLOGS/fb-notification-premod-1-$CURRENTDATE.txt
+    
 # Remove blank lines
 sed -i '/\S/,$!d' $NOTIDIR/news.yxy
 # Test
@@ -113,6 +129,9 @@ cat $MAINDIR/fanboy-m-notification-template.txt $NOTIDIR/fanboy_notifications_mo
     $NOTIDIR/fanboy_notifications_mobile_specific_hide.txt $NOTIDIR/fanboy_notifications_mobile_thirdparty.txt $NOTIDIR/fanboy_notifications_specific_uBO.txt $NOTIDIR/fanboy_notifications_mobile_allowlist.txt \
     $NOTIDIR/fanboy_notifications_mobile_allowlist_general_hide.txt > $NOTIDIR/news.yxy
     
+# BACKUP LOGS
+cp -f $NOTIDIR/news.yxy $DIFFLOGS/fb-mobile-notification-premod-1-$CURRENTDATE.txt
+  
 # Remove blank lines
 sed -i '/\S/,$!d' $NOTIDIR/news.yxy
 # Test
@@ -147,8 +166,8 @@ if [[ -e "$NOTIDIR/fanboy-notifications.txt" && -s "$NOTIDIR/fanboy-notification
          actualsize=$(wc -c <"/root/temp/notifi/fanboy-notifications.txt")
          if [ $actualsize -ge $minimumsize ]; then
              # File is large enough (Over size)
-             echo "File size seems correct"
-             echo "fanboy-notifications.txt has been updated"
+             #echo "File size seems correct"
+             #echo "fanboy-notifications.txt has been updated"
              # Copy to server and create gzip copy
              cp -f $NOTIDIR/fanboy-notifications.txt $MAINDIR/fanboy-notifications.txt
 	         # remove old .gz
@@ -192,8 +211,8 @@ if [[ -e "$NOTIDIR/fanboy-mobile-notifications.txt" && -s "$NOTIDIR/fanboy-mobil
          if [ $actualsize -ge $minimumsize ]; then
              # File is large enough (Over size)
              # echo "3"
-             echo "File size seems correct"
-             echo "fanboy-mobile-notifications has been updated"
+             #echo "File size seems correct"
+             #echo "fanboy-mobile-notifications has been updated"
              # Copy to server and create gzip copy
              cp -f $NOTIDIR/fanboy-mobile-notifications.txt $MAINDIR/fanboy-mobile-notifications.txt
 	         # remove old .gz

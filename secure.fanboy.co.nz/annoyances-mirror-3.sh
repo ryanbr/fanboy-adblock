@@ -175,6 +175,9 @@ cat $MAINDIR/fanboy-newsletter-template.txt $ANNOYDIR/fanboy_newsletter_general_
     $ANNOYDIR/fanboy_newsletter_shopping_specific_hide.txt $ANNOYDIR/fanboy_newsletter_shopping_allowlist_general_hide.txt $ANNOYDIR/fanboy_newsletter_shopping_specific_ABP.txt $ANNOYDIR/fanboy_newsletter_allowlist.txt $ANNOYDIR/fanboy_newsletter_shopping_allowlist.txt \
     $ANNOYDIR/fanboy_newsletter_shopping_allowlist_general_hide.txt $ANNOYDIR/fanboy_newsletter_allowlist_general_hide.txt > $ANNOYDIR/news-abp.xx1
 
+##
+cp -f $ANNOYDIR/news-ubo.xx1 $DIFFLOGS/newsletter_orginal_$CURRENTDATE.txt
+
 # Check $ANNOYDIR/news-ubo.xx1 exists and not zero
 if [ ! -e "$ANNOYDIR/news-ubo.xx1" ] || [ ! -s "$ANNOYDIR/news-ubo.xx1" ]; then
     echo "File is either empty or does not exist. Exiting..."
@@ -198,6 +201,9 @@ cat $MAINDIR/fanboy-social-template.txt $ANNOYDIR/fanboy_social_general_block.tx
 ### ABP Social combine
 cat $MAINDIR/fanboy-social-template.txt $ANNOYDIR/fanboy_social_general_block.txt $ANNOYDIR/fanboy_social_general_hide.txt $ANNOYDIR/fanboy_social_thirdparty.txt $ANNOYDIR/fanboy_social_specific_block.txt \
     $ANNOYDIR/fanboy_social_specific_hide.txt fanboy_social_specific_ABP.txt $ANNOYDIR/fanboy_social_international.txt $ANNOYDIR/fanboy_social_allowlist_general_hide.txt $ANNOYDIR/fanboy_social_allowlist.txt > $ANNOYDIR/easylist-social.txt
+
+##
+cp -f $ANNOYDIR/easylist-social_ubo.txt $DIFFLOGS/social_orginal_$CURRENTDATE.txt
 
 # Check $ANNOYDIR/easylist-social_ubo.txt exists and not zero
 if [ ! -e "$ANNOYDIR/easylist-social_ubo.txt" ] || [ ! -s "$ANNOYDIR/easylist-social_ubo.txt" ]; then
@@ -263,6 +269,9 @@ if [ ! -e "$ANNOYDIR/test.yxy41" ] || [ ! -s "$ANNOYDIR/test.yxy41" ]; then
 fi
 # echo "File is non-empty. Continue with the rest of the script.
 
+##
+cp -f $ANNOYDIR/test.yxy41 $DIFFLOGS/annoy_orginal_$CURRENTDATE.txt
+
 # Remove blank lines
 sed -i '/\S/,$!d' $ANNOYDIR/test.yxy41
 sed -i '/\S/,$!d' $ANNOYDIR/test.yxy42
@@ -287,6 +296,9 @@ else
     cp -f $ANNOYDIR/fanboy-annoyances.txt $MAINDIR/fanboy-annoyance.txt
     cp -f $ANNOYDIR/fanboy-annoyances.txt $MAINDIR/fanboy-annoyance_ubo.txt
     cp -f $ANNOYDIR/fanboy-annoyances_abp.txt $MAINDIR/fanboy-annoyances_abp.txt
+    
+    ##
+    cp -f $MAINDIR/fanboy-annoyance_ubo.txt  $DIFFLOGS/fanboy-annoyance_ubo.$CURRENTDATE.txt
    
     # cp -f $ANNOYDIR/easylist_cookie_specific_uBO.txt $MAINDIR/easylist_cookie/easylist_cookie_specific_uBO.txt
     # cp -f $ANNOYDIR/fanboy_notifications_specific_uBO.txt $MAINDIR/fanboy_notifications_specific_uBO.txt
