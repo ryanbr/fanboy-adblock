@@ -33,6 +33,9 @@ else
     :
 fi
 
+# Cron job (where script is stored)
+export CRONDIR="/etc/crons/secure.fanboy.co.nz/"
+
 # Wget string
 export WGET="nice -n 19 /usr/bin/wget -w 20 --no-check-certificate --tries=10 --waitretry=20 --retry-connrefused --timeout=45 --random-wait -U firefox -P $TEMPDIR"
 
@@ -59,12 +62,28 @@ $WGET https://easylist.to/easylist/easyprivacy.txt  &> /dev/null
 # List of specific file names to check (used to check if the they 0sized or if they exist)
 files_to_check=("easylist.txt" "easyprivacy.txt")
 
+# Check through each file, to ensure they exist and not empty
+#
+for file in "${files_to_check[@]}"; do
+    # Check if the file exists and has a size greater than 0 bytes
+    if [ -s "$file" ] && [ -e "$file" ]; then
+       # echo "File '$file' exists and is not 0 bytes."
+       # placeholder
+       :
+    else
+        echo "Error: File '$file' either does not exist or is 0 bytes. Exiting script."
+        exit 1
+    fi
+done
+
+
 # Compare /var/www with the downloaded Easylist
 if diff $MAINDIR/easylist.txt $TEMPDIR/easylist.txt &> /dev/null; then
     # Easylist hasn't changed
-    echo "Files are identical."
+    echo "Files are identical. No update needed"
 else
     # re-zip Easylist
+    echo "Syncing Easylist / Easylist+Easyprivacy"
     $ZIP $TEMPDIR/easylist.txt > $TEMPDIR/easylist.txt.gz
     # copy txt and txt.gz to /var/www
     cp -f $TEMPDIR/easylist.txt $MAINDIR/easylist.txt
@@ -89,9 +108,10 @@ fi
 # Compare /var/www with the downloaded Easyprivacy
 if diff $MAINDIR/easyprivacy.txt $TEMPDIR/easyprivacy.txt &> /dev/null; then
     # Easylist hasn't changed
-    echo "Files are identical."
+    echo "Files are identical. No update needed"
 else
     # re-zip Easylist
+    echo "Syncing Easyprivacy / Easylist+Easyprivacy"
     $ZIP $TEMPDIR/easyprivacy.txt >  $TEMPDIR/easyprivacy.txt.gz
     # copy txt and txt.gz to /var/www
     cp -f $TEMPDIR/easyprivacy.txt $MAINDIR/easyprivacy.txt
