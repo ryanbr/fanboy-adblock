@@ -38,7 +38,7 @@ else
 fi
 
 # VALIDCHECKSUM CHECKS
-export VALIDCHECKSUM="nice -n 19 perl /root/fanboy-adblock-list/scripts/validateChecksum.pl"
+export VALIDCHECKSUM="nice -n 19 perl /root/fanboy-adblock/scripts/validateChecksum.pl"
 
 cd $COOKDIR
 
