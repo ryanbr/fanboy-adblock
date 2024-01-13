@@ -105,7 +105,7 @@ sed '/Mobile/,$!d' $NOTIDIR/fanboy_notifications_allowlist_general_hide.txt >  $
 ########################################################################################################
 ########################################  FB MOBILE NOTIFICATION HEADER  ###############################
 ########################################################################################################
-echo "0.1"
+
 # Clear old files, now merge mobile files
 rm -rf $NOTIDIR/news.*
 
@@ -130,17 +130,16 @@ cp -f $NOTIDIR/news2.yxy $NOTIDIR/fanboy-notifications.txt
 # Ensure file isn't empty before continuing
 if [[ -e "$NOTIDIR/fanboy-notifications.txt" && -s "$NOTIDIR/fanboy-notifications.txt" ]];
   then
-     echo "Successfully created fanboy-notifications.txt"
+     # echo "Successfully created fanboy-notifications.txt"
      # Remove blank lines
      sed -i '/\S/,$!d' $NOTIDIR/fanboy-notifications.txt
      # Checksum
      $ADDCHECKSUM $NOTIDIR/fanboy-notifications.txt
-     echo "1"
+
      # Compare if the file has changed on secure.fanboy.co.nz before updating
      # Generate a hash to compare.
      SSLHG=$($SHA256SUM $NOTIDIR/fanboy-notifications.txt | cut -d' ' -f1)
      SSLMAIN=$($SHA256SUM $MAINDIR/fanboy-notifications.txt | cut -d' ' -f1)
-     echo "2"
      if [ "$SSLHG" != "$SSLMAIN" ]
        then
          # Ensure filesize is large enough before updating (6k)
@@ -148,7 +147,6 @@ if [[ -e "$NOTIDIR/fanboy-notifications.txt" && -s "$NOTIDIR/fanboy-notification
          actualsize=$(wc -c <"/root/temp/notifi/fanboy-notifications.txt")
          if [ $actualsize -ge $minimumsize ]; then
              # File is large enough (Over size)
-             echo "3"
              echo "File size seems correct"
              echo "fanboy-notifications.txt has been updated"
              # Copy to server and create gzip copy
@@ -176,12 +174,11 @@ fi
 # Ensure file isn't empty before continuing
 if [[ -e "$NOTIDIR/fanboy-mobile-notifications.txt" && -s "$NOTIDIR/fanboy-mobile-notifications.txt" ]];
   then
-     echo "Successfully created fanboy-mobile-notifications.txt"
+     # echo "Successfully created fanboy-mobile-notifications.txt"
      # Remove blank lines
      sed -i '/\S/,$!d' $NOTIDIR/fanboy-mobile-notifications.txt
      # Checksum
      $ADDCHECKSUM $NOTIDIR/fanboy-mobile-notifications.txt
-     echo "1"
      # Compare if the file has changed on secure.fanboy.co.nz before updating
      # Generate a hash to compare.
      SSLHG=$($SHA256SUM $NOTIDIR/fanboy-mobile-notifications.txt | cut -d' ' -f1)
