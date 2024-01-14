@@ -57,10 +57,12 @@ rm -rf $TEMPDIR/*
 # Store downloaded files in $TEMPDIR
 $WGET https://easylist.to/easylist/easylist.txt  &> /dev/null
 $WGET https://easylist.to/easylist/easyprivacy.txt  &> /dev/null
-
+# Others to mirror:
+$WGET https://raw.githubusercontent.com/ryanbr/fanboy-adblock/master/fanboy-antifacebook.txt &> /dev/null
+$WGET https://raw.githubusercontent.com/ryanbr/fanboy-adblock/master/fanboy-antifonts.txt &> /dev/null
 
 # List of specific file names to check (used to check if the they 0sized or if they exist)
-files_to_check=("easylist.txt" "easyprivacy.txt")
+files_to_check=("easylist.txt" "easyprivacy.txt" "fanboy-antifacebook.txt" "fanboy-antifonts.txt")
 
 # Check through each file, to ensure they exist and not empty
 #
@@ -75,6 +77,11 @@ for file in "${files_to_check[@]}"; do
         exit 1
     fi
 done
+
+
+########################################################################################################
+########################################       Easylist   ##############################################
+########################################################################################################
 
 
 # Compare /var/www with the downloaded Easylist
@@ -104,6 +111,11 @@ else
     
 fi
 
+########################################################################################################
+#####################################       Easyprivacy   ##############################################
+########################################################################################################
+
+
 #
 # Compare /var/www with the downloaded Easyprivacy
 if diff $MAINDIR/easyprivacy.txt $TEMPDIR/easyprivacy.txt &> /dev/null; then
@@ -131,5 +143,112 @@ else
     cp -f $TEMPDIR/easyprivacy+easylist.txt.gz $MAINDIR/easyprivacy+easylist.txt.gz
     
 fi
+
+########################################################################################################
+################################       fanboy-antifacebook.txt    ######################################
+########################################################################################################
+
+# CHECKSUM before comparing
+$ADDCHECKSUM $TEMPDIR/fanboy-antifacebook.txt
+
+
+# Compare /var/www with the downloaded Easyprivacy
+if diff $MAINDIR/fanboy-antifacebook.txt $TEMPDIR/fanboy-antifacebook.txt &> /dev/null; then
+    # Easylist hasn't changed
+    echo "Files are identical. No update needed"
+else
+    # re-zip Easylist
+    echo "Syncing fanboy-antifacebook.txt"
+    # another checksum
+    $ADDCHECKSUM $TEMPDIR/fanboy-antifacebook.txt
+    
+    # ZIP and store in TEMPDIR
+    $ZIP $TEMPDIR/fanboy-antifacebook.txt >  $TEMPDIR/fanboy-antifacebook.txt.gz
+    # copy txt and txt.gz to /var/www
+    cp -f $TEMPDIR/fanboy-antifacebook.txt $MAINDIR/fanboy-antifacebook.txt
+    cp -f $TEMPDIR/fanboy-antifacebook.txt.gz $MAINDIR/fanboy-antifacebook.txt.gz
+fi
+
+
+########################################################################################################
+###################################       fanboy-antifonts.txt    ######################################
+########################################################################################################
+
+# CHECKSUM before comparing
+$ADDCHECKSUM $TEMPDIR/fanboy-antifonts.txt
+
+
+# Compare /var/www with the downloaded Easyprivacy
+if diff $MAINDIR/fanboy-antifonts.txt $TEMPDIR/fanboy-antifonts.txt &> /dev/null; then
+    # Easylist hasn't changed
+    echo "Files are identical. No update needed"
+else
+    # re-zip Easylist
+    echo "Syncing fanboy-antifonts.txt"
+    # another checksum
+    $ADDCHECKSUM $TEMPDIR/fanboy-antifonts.txt
+    
+    # ZIP and store in TEMPDIR
+    $ZIP $TEMPDIR/fanboy-antifonts.txt >  $TEMPDIR/fanboy-antifonts.txt.gz
+    # copy txt and txt.gz to /var/www
+    cp -f $TEMPDIR/fanboy-antifonts.txt $MAINDIR/fanboy-antifonts.txt
+    cp -f $TEMPDIR/fanboy-antifonts.txt.gz $MAINDIR/fanboy-antifonts.txt.gz
+fi
+
+
+########################################################################################################
+###################################       fanboy-ultimate.txt    #######################################
+########################################################################################################
+
+
+if [ -s "$MAINDIR/r/fanboy-ultimate.txt" ] && [ -s "$MAINDIR/r/fanboy-ultimate.txt" ]; then
+    # Remove the template file, top 13 lines.
+    
+    # trim EP
+    sed '1,18d' $MAINDIR/easyprivacy.txt > $TEMPDIR/easyprivacy-min.txt
+    # trim FB Annoyances
+    sed '1,12d' $MAINDIR/fanboy-annoyance_ubo.txt > $TEMPDIR/fanboy-annoyances-min.txt
+    # trim FB Agegate
+    sed '1,12d' $MAINDIR/fanboy-agegate.txt > $TEMPDIR/fanboy-agegate-min.txt
+    # Combine
+    cat $MAINDIR/easylist.txt $TEMPDIR/easyprivacy-min.txt $TEMPDIR/fanboy-annoyances-min.txt $TEMPDIR/fanboy-agegate-min.txt >  $TEMPDIR/fanboy-ult.txt
+    # Remove blank lines
+    sed -i '/\S/,$!d' $TEMPDIR/fanboy-ult.txt
+    # Addchecksum
+    $ADDCHECKSUM $TEMPDIR/fanboy-ult.txt
+    
+    $ZIP $TEMPDIR/fanboy-ult.txt > $TEMPDIR/fanboy-ultimate.txt.gz
+    cp -f $TEMPDIR/fanboy-ult.txt $MAINDIR/r/fanboy-ultimate.txt
+    cp -f $TEMPDIR/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-ultimate.txt.gz
+
+else
+    echo "Either one or both files do not exist or are empty."
+fi
+
+########################################################################################################
+###################################       fanboy-complete.txt    #######################################
+########################################################################################################
+
+
+if [ -s "$MAINDIR/r/fanboy-complete.txt" ] && [ -s "$MAINDIR/r/fanboy-complete.txt" ]; then
+    # Remove the template file, top 13 lines.
+    
+    # trim FB Social
+    sed '1,12d' $MAINDIR/fanboy-social.txt > $TEMPDIR/fanboy-social-min.txt
+    # Combine
+    cat $MAINDIR/easylist.txt $TEMPDIR/easyprivacy-min.txt $TEMPDIR/fanboy-social-min.txt $TEMPDIR/fanboy-agegate-min.txt >  $TEMPDIR/fanboy-comp.txt
+    # Remove blank lines
+    sed -i '/\S/,$!d' $TEMPDIR/fanboy-comp.txt
+    # Addchecksum
+    $ADDCHECKSUM $TEMPDIR/fanboy-comp.txt
+    
+    $ZIP $TEMPDIR/fanboy-comp.txt > $TEMPDIR/fanboy-complete.txt.gz
+    cp -f $TEMPDIR/fanboy-comp.txt $MAINDIR/r/fanboy-complete.txt
+    cp -f $TEMPDIR/fanboy-complete.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
+
+else
+    echo "Either one or both files do not exist or are empty."
+fi
+
 
 
