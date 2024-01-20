@@ -171,17 +171,19 @@ if diff $MAINDIR/fanboy-antifacebook.txt $TEMPDIR/fanboy-antifacebook.txt &> /de
 else
     # re-zip Easylist
     echo "Generate fanboy Antifacebook List"
+    # remove checksum to avoid exit
+    sed '/^! Checksum/d' $TEMPDIR/fanboy-antifacebook.txt > $TEMPDIR/fanboy-antifacebook.txt2
     # another checksum
-    $ADDCHECKSUM $TEMPDIR/fanboy-antifacebook.txt
+    $ADDCHECKSUM $TEMPDIR/fanboy-antifacebook.txt2
     
     # ZIP and store in TEMPDIR
-    $ZIP $TEMPDIR/fanboy-antifacebook.txt >  $TEMPDIR/fanboy-antifacebook.txt.gz\
+    $ZIP $TEMPDIR/fanboy-antifacebook.txt2 >  $TEMPDIR/fanboy-antifacebook.txt.gz
     
     # rm old copies
     rm -rf $MAINDIR/fanboy-antifacebook.txt $MAINDIR/fanboy-antifacebook.txt.gz
     
     # copy txt and txt.gz to /var/www
-    cp -f $TEMPDIR/fanboy-antifacebook.txt $MAINDIR/fanboy-antifacebook.txt
+    cp -f $TEMPDIR/fanboy-antifacebook.txt2 $MAINDIR/fanboy-antifacebook.txt
     cp -f $TEMPDIR/fanboy-antifacebook.txt.gz $MAINDIR/fanboy-antifacebook.txt.gz
 fi
 
@@ -197,17 +199,19 @@ if diff $MAINDIR/fanboy-antifonts.txt $TEMPDIR/fanboy-antifonts.txt &> /dev/null
 else
     # re-zip Easylist
     echo "Generate fanboy Antifonts List"
+    # remove checksum to avoid exit
+    sed '/^! Checksum/d' $TEMPDIR/fanboy-antifonts.txt > $TEMPDIR/fanboy-antifonts.txt2
     # another checksum
-    $ADDCHECKSUM $TEMPDIR/fanboy-antifonts.txt
+    $ADDCHECKSUM $TEMPDIR/fanboy-antifonts.txt2
     
     # ZIP and store in TEMPDIR
-    $ZIP $TEMPDIR/fanboy-antifonts.txt >  $TEMPDIR/fanboy-antifonts.txt.gz
+    $ZIP $TEMPDIR/fanboy-antifonts.txt2 >  $TEMPDIR/fanboy-antifonts.txt.gz
     
     # rm old copies 
     rm -rf $MAINDIR/fanboy-antifonts.txt $MAINDIR/fanboy-antifonts.txt.gz
     
     # copy txt and txt.gz to /var/www
-    cp -f $TEMPDIR/fanboy-antifonts.txt $MAINDIR/fanboy-antifonts.txt
+    cp -f $TEMPDIR/fanboy-antifonts.txt2 $MAINDIR/fanboy-antifonts.txt
     cp -f $TEMPDIR/fanboy-antifonts.txt.gz $MAINDIR/fanboy-antifonts.txt.gz
 fi
 
