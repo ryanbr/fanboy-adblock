@@ -164,10 +164,6 @@ fi
 ################################       fanboy-antifacebook.txt    ######################################
 ########################################################################################################
 
-# CHECKSUM before comparing
-$ADDCHECKSUM $TEMPDIR/fanboy-antifacebook.txt
-
-
 # Compare /var/www with the downloaded Easyprivacy
 if diff $MAINDIR/fanboy-antifacebook.txt $TEMPDIR/fanboy-antifacebook.txt &> /dev/null; then
     # Easylist hasn't changed
@@ -193,10 +189,6 @@ fi
 ########################################################################################################
 ###################################       fanboy-antifonts.txt    ######################################
 ########################################################################################################
-
-# CHECKSUM before comparing
-$ADDCHECKSUM $TEMPDIR/fanboy-antifonts.txt
-
 
 # Compare /var/www with the downloaded Easyprivacy
 if diff $MAINDIR/fanboy-antifonts.txt $TEMPDIR/fanboy-antifonts.txt &> /dev/null; then
