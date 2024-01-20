@@ -80,15 +80,13 @@ $VALIDCHECKSUM $MAINDIR/fanboy-cookiemonster.txt > $COOKDIR/fanboy-cookiemonster
 $VALIDCHECKSUM $MAINDIR/fanboy-cookiemonster_ubo.txt > $COOKDIR/fanboy-cookiemonster_ubo.txt.chk
 $VALIDCHECKSUM $MAINDIR/fanboy-annoyance.txt > $COOKDIR/fanboy-annoyance.txt.chk
 
+## Combine together, so we aren't creating too many loops below
+cat $COOKDIR/fanboy-annoyance.txt.chk $COOKDIR/fanboy-cookiemonster_ubo.txt.chk $COOKDIR/fanboy-cookiemonster.txt.chk \
+    $COOKDIR/fanboy-annoyance_ubo.txt.gz.zcat.chk $COOKDIR/fanboy-cookiemonster.txt.gz.zcat.chk $COOKDIR/fanboy-cookiemonster_ubo.txt.gz.zcat.chk > $COOKDIR/fanboy-cookie-checksum.txt
+
 
 # Easylist Cookie + Fanboy Annoyances (GZIP)
-files=("fanboy-annoyance.txt.chk"
-       "fanboy-annoyance_ubo.txt.gz.zcat.chk" 
-       "fanboy-cookiemonster.txt.chk"       
-       "fanboy-cookiemonster_ubo.txt.chk"
-       "fanboy-cookiemonster.txt.gz.zcat.chk"
-       "fanboy-cookiemonster_ubo.txt.gz.zcat.chk"
-)
+files=("fanboy-cookie-checksum.txt")
 
 for file in "${files[@]}"; do
     if grep -q "\[Wrong checksum\]" "$file"; then
@@ -108,14 +106,18 @@ for file in "${files[@]}"; do
         echo "Updated Easylist Cookie"
     else
         # echo "GZIP'd File '$file' does not contain '[Wrong checksum]'"
-        :
+        echo "Easylist Cookie has a valid checksum, no updates needed"
     fi
 done
 
 #### Non gzip'd (AGE GATE List)
 $VALIDCHECKSUM $MAINDIR/fanboy-agegate.txt > $COOKDIR/fanboy-agegate.txt.chk
+
+## Combine together, so we aren't creating too many loops below
+cat $COOKDIR/fanboy-agegate.txt.chk $COOKDIR/fanboy-agegate.txt.gz.zcat.chk > $COOKDIR/fanboy-ageage-checksum.txt
+
 # AGE GATE List (GZIP)
-files=("fanboy-agegate.txt.gz.zcat.chk" "fanboy-agegate.txt.chk")
+files=("fanboy-ageage-checksum.txt")
 
 for file in "${files[@]}"; do
     if grep -q "\[Wrong checksum\]" "$file"; then
@@ -128,13 +130,16 @@ for file in "${files[@]}"; do
         cp -f $MAINDIR/fanboy-agegate.txt $MAINDIR/fanboy-agegate.$CURRENTDATE.txt
     else
         # echo "GZIP'd File '$file' does not contain '[Wrong checksum]'"
-        :
+        echo "Fanboy Agegate list has a valid checksum, no updates needed"
     fi
 done
 
+## Combine together, so we aren't creating too many loops below
+cat $COOKDIR/fanboy-mobile-notifications.txt.gz.zcat.chk $COOKDIR/fanboy-notifications.txt.gz.zcat.chk \
+    $COOKDIR/fanboy-mobile-notifications.txt.chk $COOKDIR/fanboy-notifications.txt.chk > $COOKDIR/fanboy-notification-checksum.txt
 
 # Notifications List (GZIP)
-files=("fanboy-mobile-notifications.txt.gz.zcat.chk" "fanboy-notifications.txt.gz.zcat.chk" "fanboy-mobile-notifications.txt.chk" "fanboy-notifications.txt.chk")
+files=("fanboy-notification-checksum.txt")
 
 for file in "${files[@]}"; do
     if grep -q "\[Wrong checksum\]" "$file"; then
@@ -152,10 +157,10 @@ for file in "${files[@]}"; do
         cp -f $MAINDIR/fanboy-notifications.txt $DIFFLOGS/fanboy-notifications.$CURRENTDATE.txt
     else
         # echo "GZIP'd File '$file' does not contain '[Wrong checksum]'"
-        :
+        echo "Fanboy Notifcations list has a valid checksum, no updates needed"
     fi
 done
 
 
 # remove old files
-rm -rf $COOKDIR/*.txt.gz $COOKDIR/*.chk $COOKDIR/*.zcat
+rm -rf $COOKDIR/*.txt.gz $COOKDIR/*.chk $COOKDIR/*.zcat $COOKDIR/*.txt
