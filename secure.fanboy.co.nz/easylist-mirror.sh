@@ -90,13 +90,17 @@ if diff $MAINDIR/easylist.txt $TEMPDIR/easylist.txt &> /dev/null; then
     echo "Files are identical. No update needed"
 else
     # re-zip Easylist
-    echo "Syncing Easylist / Easylist+Easyprivacy"
+    echo "Generate Easylist List"
     $ZIP $TEMPDIR/easylist.txt > $TEMPDIR/easylist.txt.gz
+    # rm old copies
+    rm -rf $MAINDIR/easylist.txt $MAINDIR/easylist.txt.gz
     # copy txt and txt.gz to /var/www
     cp -f $TEMPDIR/easylist.txt $MAINDIR/easylist.txt
     cp -f $TEMPDIR/easylist.txt.gz $MAINDIR/easylist.txt.gz
-    # combo
+    #
+    # combo list easyprivacy+easylist.txt
     # remove top 18 lines
+    echo "Generate Easylist+Easyprivacy List"
     sed '1,18d' $TEMPDIR/easyprivacy.txt > $TEMPDIR/easyprivacy-min.txt
     cat $MAINDIR/easylist.txt $TEMPDIR/easyprivacy-min.txt > $TEMPDIR/easylist-combined.txt
     # Remove blank lines
@@ -105,6 +109,10 @@ else
     $ADDCHECKSUM $TEMPDIR/easylist-combined.txt
     # GZIP
     $ZIP $TEMPDIR/easylist-combined.txt > $TEMPDIR/easyprivacy+easylist.txt.gz
+    
+    # rm old copies
+    rm -rf $MAINDIR/easyprivacy+easylist.txt $MAINDIR/easyprivacy+easylist.txt.gz
+    
     # copy combom txt and txt.gz to /var/www
     cp -f $TEMPDIR/easylist-combined.txt $MAINDIR/easyprivacy+easylist.txt
     cp -f $TEMPDIR/easyprivacy+easylist.txt.gz $MAINDIR/easyprivacy+easylist.txt.gz
@@ -123,13 +131,17 @@ if diff $MAINDIR/easyprivacy.txt $TEMPDIR/easyprivacy.txt &> /dev/null; then
     echo "Files are identical. No update needed"
 else
     # re-zip Easylist
-    echo "Syncing Easyprivacy / Easylist+Easyprivacy"
+    echo "Generate Easyprivacy List"
     $ZIP $TEMPDIR/easyprivacy.txt >  $TEMPDIR/easyprivacy.txt.gz
+    # rm old copies
+    rm -rf $MAINDIR/easyprivacy.txt $MAINDIR/easyprivacy.txt.gz
     # copy txt and txt.gz to /var/www
     cp -f $TEMPDIR/easyprivacy.txt $MAINDIR/easyprivacy.txt
     cp -f $TEMPDIR/easyprivacy.txt.gz $MAINDIR/easyprivacy.txt.gz
-    # combo
+    #
+    # combo list easyprivacy+easylist.txt
     # remove top 18 lines
+    echo "Generate Easylist+Easyprivacy List"
     sed '1,18d' $TEMPDIR/easyprivacy.txt > $TEMPDIR/easyprivacy-min.txt
     cat $MAINDIR/easylist.txt $TEMPDIR/easyprivacy-min.txt > $TEMPDIR/easylist-combined.txt
     # Remove blank lines
@@ -138,6 +150,10 @@ else
     $ADDCHECKSUM $TEMPDIR/easylist-combined.txt
     # GZIP
     $ZIP $TEMPDIR/easylist-combined.txt > $TEMPDIR/easyprivacy+easylist.txt.gz
+    
+    # rm old copies
+    rm -rf $MAINDIR/easyprivacy+easylist.txt $MAINDIR/easyprivacy+easylist.txt.gz
+    
     # copy combom txt and txt.gz to /var/www
     cp -f $TEMPDIR/easylist-combined.txt $MAINDIR/easyprivacy+easylist.txt
     cp -f $TEMPDIR/easyprivacy+easylist.txt.gz $MAINDIR/easyprivacy+easylist.txt.gz
@@ -158,12 +174,16 @@ if diff $MAINDIR/fanboy-antifacebook.txt $TEMPDIR/fanboy-antifacebook.txt &> /de
     echo "Files are identical. No update needed"
 else
     # re-zip Easylist
-    echo "Syncing fanboy-antifacebook.txt"
+    echo "Generate fanboy Antifacebook List"
     # another checksum
     $ADDCHECKSUM $TEMPDIR/fanboy-antifacebook.txt
     
     # ZIP and store in TEMPDIR
-    $ZIP $TEMPDIR/fanboy-antifacebook.txt >  $TEMPDIR/fanboy-antifacebook.txt.gz
+    $ZIP $TEMPDIR/fanboy-antifacebook.txt >  $TEMPDIR/fanboy-antifacebook.txt.gz\
+    
+    # rm old copies
+    rm -rf $MAINDIR/fanboy-antifacebook.txt $MAINDIR/fanboy-antifacebook.txt.gz
+    
     # copy txt and txt.gz to /var/www
     cp -f $TEMPDIR/fanboy-antifacebook.txt $MAINDIR/fanboy-antifacebook.txt
     cp -f $TEMPDIR/fanboy-antifacebook.txt.gz $MAINDIR/fanboy-antifacebook.txt.gz
@@ -184,12 +204,16 @@ if diff $MAINDIR/fanboy-antifonts.txt $TEMPDIR/fanboy-antifonts.txt &> /dev/null
     echo "Files are identical. No update needed"
 else
     # re-zip Easylist
-    echo "Syncing fanboy-antifonts.txt"
+    echo "Generate fanboy Antifonts List"
     # another checksum
     $ADDCHECKSUM $TEMPDIR/fanboy-antifonts.txt
     
     # ZIP and store in TEMPDIR
     $ZIP $TEMPDIR/fanboy-antifonts.txt >  $TEMPDIR/fanboy-antifonts.txt.gz
+    
+    # rm old copies 
+    rm -rf $MAINDIR/fanboy-antifonts.txt $MAINDIR/fanboy-antifonts.txt.gz
+    
     # copy txt and txt.gz to /var/www
     cp -f $TEMPDIR/fanboy-antifonts.txt $MAINDIR/fanboy-antifonts.txt
     cp -f $TEMPDIR/fanboy-antifonts.txt.gz $MAINDIR/fanboy-antifonts.txt.gz
@@ -203,7 +227,7 @@ fi
 
 if [ -s "$MAINDIR/r/fanboy-ultimate.txt" ] && [ -s "$MAINDIR/r/fanboy-ultimate.txt" ]; then
     # Remove the template file, top 13 lines.
-    
+    echo "Generate fanboy Ultimate List"
     # trim EP
     sed '1,18d' $MAINDIR/easyprivacy.txt > $TEMPDIR/easyprivacy-min.txt
     # trim FB Annoyances
@@ -216,8 +240,14 @@ if [ -s "$MAINDIR/r/fanboy-ultimate.txt" ] && [ -s "$MAINDIR/r/fanboy-ultimate.t
     sed -i '/\S/,$!d' $TEMPDIR/fanboy-ult.txt
     # Addchecksum
     $ADDCHECKSUM $TEMPDIR/fanboy-ult.txt
-    
+
+    # ZIP and store in TEMPDIR
     $ZIP $TEMPDIR/fanboy-ult.txt > $TEMPDIR/fanboy-ultimate.txt.gz
+    
+    # rm old copies
+    rm -rf $MAINDIR/r/fanboy-ultimate.txt $MAINDIR/r/fanboy-ultimate.txt.gz
+    
+    # copy txt and txt.gz to /var/www/r
     cp -f $TEMPDIR/fanboy-ult.txt $MAINDIR/r/fanboy-ultimate.txt
     cp -f $TEMPDIR/fanboy-ultimate.txt.gz $MAINDIR/r/fanboy-ultimate.txt.gz
 
@@ -232,7 +262,7 @@ fi
 
 if [ -s "$MAINDIR/r/fanboy-complete.txt" ] && [ -s "$MAINDIR/r/fanboy-complete.txt" ]; then
     # Remove the template file, top 13 lines.
-    
+    echo "Generate fanboy Complete List"
     # trim FB Social
     sed '1,12d' $MAINDIR/fanboy-social.txt > $TEMPDIR/fanboy-social-min.txt
     # Combine
@@ -241,8 +271,14 @@ if [ -s "$MAINDIR/r/fanboy-complete.txt" ] && [ -s "$MAINDIR/r/fanboy-complete.t
     sed -i '/\S/,$!d' $TEMPDIR/fanboy-comp.txt
     # Addchecksum
     $ADDCHECKSUM $TEMPDIR/fanboy-comp.txt
-    
+
+    # ZIP and store in TEMPDIR  
     $ZIP $TEMPDIR/fanboy-comp.txt > $TEMPDIR/fanboy-complete.txt.gz
+    
+    # rm old copies
+    rm -rf $MAINDIR/r/fanboy-complete.txt $MAINDIR/r/fanboy-complete.txt.gz
+    
+    # copy txt and txt.gz to /var/www/r 
     cp -f $TEMPDIR/fanboy-comp.txt $MAINDIR/r/fanboy-complete.txt
     cp -f $TEMPDIR/fanboy-complete.txt.gz $MAINDIR/r/fanboy-complete.txt.gz
 
