@@ -169,17 +169,19 @@ if diff $COOKDIR/easylist-cookie.txt $MAINDIR/easylist-cookie_ubo.txt > $DIFFLOG
        # ABP relaed
        cp -f $COOKDIR/easylist-cookie-abp.txt $MAINDIR/easylist-cookie_abp.txt
        cp -f $COOKDIR/easylist-cookie-abp.txt $MAINDIR/fanboy-cookie_abp.txt
+       cp -f $COOKDIR/easylist-cookie-abp.txt $MAINDIR/adblock/fanboy-cookie.txt
 
        # remove old .gz
-       rm -rf $MAINDIR/fanboy-cookie.txt.gz $MAINDIR/fanboy-cookie.txt.gz $MAINDIR/fanboy-cookie.txt.gz
-
+       rm -rf $MAINDIR/fanboy-cookie.txt.gz $MAINDIR/fanboy-cookie.txt.gz $MAINDIR/fanboy-cookie.txt.gz $MAINDIR/adblock/fanboy-cookie.txt.gz
        # Create gzip'd
        $ZIP $COOKDIR/easylist-cookie.txt >  $MAINDIR/fanboy-cookie.txt.gz
        cp -f $MAINDIR/fanboy-cookie.txt.gz  $MAINDIR/fanboy-cookie_ubo.txt.gz
        cp -f $MAINDIR/fanboy-cookie.txt.gz  $MAINDIR/easylist-cookie_ubo.txt.gz
+       # ABP
        $ZIP $COOKDIR/easylist-cookie-abp.txt > $MAINDIR/easylist-cookie_abp.txt.gz
        cp -f $MAINDIR/easylist-cookie_abp.txt.gz $MAINDIR/fanboy-cookie_abp.txt.gz
-       
+       cp -f $MAINDIR/easylist-cookie_abp.txt.gz $MAINDIR/adblock/fanboy-cookie.txt.gz       
+
        ### BACKUP LOGS (easylist-cookie-gzipd-3-)
        cp -f $MAINDIR/fanboy-cookie.txt.gz $DIFFLOGS/easylist-cookie-gzipd-3-$CURRENTDATE.txt.gz
        
