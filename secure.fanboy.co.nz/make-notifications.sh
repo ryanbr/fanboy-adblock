@@ -137,7 +137,7 @@ sed -i '/\S/,$!d' $NOTIDIR/news.yxy
 # Test
 cp -f $NOTIDIR/news.yxy $NOTIDIR/fanboy-mobile-notifications.txt
 
-cat $MAINDIR/fanboy-notification-template.txt $NOTIDIR/fanboy_notifications_general_block.txt $NOTIDIR/fanboy_notifications_general_hide.txt $NOTIDIR/fanboy_notifications_specific_block.txt \
+cat $MAINDIR/fanboy-notification-template.txt $NOTIDIR/fanboy_notifications_general_block.txt $NOTIDIR/fanboy_notifications_general_hide.txt \
     $NOTIDIR/fanboy_notifications_specific_hide.txt $NOTIDIR/fanboy_notifications_specific_block.txt $NOTIDIR/fanboy_notifications_thirdparty.txt $NOTIDIR/fanboy_notifications_allowlist.txt \
     $NOTIDIR/fanboy_notifications_allowlist_general_hide.txt > $NOTIDIR/news2.yxy
 
