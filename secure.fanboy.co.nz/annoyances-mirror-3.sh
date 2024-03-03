@@ -217,16 +217,28 @@ sed -i '/\S/,$!d' $ANNOYDIR/easylist-social_ubo.txt
 sed -i '/\S/,$!d' $ANNOYDIR/easylist-social.txt
   
 # Remove the template file, top 10 lines (for merging other files)
+# These files are used in the merged annoyances list
 sed '1,13d' $ANNOYDIR/easylist-social_ubo.txt > $ANNOYDIR/social-clean_ubo.txt
 sed '1,13d' $ANNOYDIR/easylist-social.txt > $ANNOYDIR/social_clean_abp.txt
-
 
 ####################  EASYLIST COOKIE (we can generate it from exisiting)
 
 if [ -s "$MAINDIR/easylist-cookie_ubo.txt" ] && [ -s "$MAINDIR/easylist-cookie_abp.txt" ]; then
     # Remove the template file, top 10 lines.
+    # These files are used in the merged annoyances list
     sed '1,10d' $MAINDIR/easylist-cookie_ubo.txt > $ANNOYDIR/elc-clean_ubo.txt
     sed '1,10d' $MAINDIR/easylist-cookie_abp.txt > $ANNOYDIR/elc-clean_abp.txt
+else
+    echo "Either one or both files do not exist or are empty."
+fi
+
+####################  Fanboy Newsletter (we can generate it from exisiting)
+
+if [ -s "$ANNOYDIR/fanboy-newsletter.txt" ] && [ -s "$ANNOYDIR/fanboy-newsletter_abp.txt" ]; then
+    # Remove the template file, top 14 lines.
+    # These files are used in the merged annoyances list
+    sed '1,14d' $ANNOYDIR/fanboy-newsletter.txt > $ANNOYDIR/fanboy-news-clean.txt
+    sed '1,14d' $ANNOYDIR/fanboy-newsletter_abp.txt > $ANNOYDIR/fanboy-news-abp-clean.txt
 else
     echo "Either one or both files do not exist or are empty."
 fi
@@ -235,6 +247,7 @@ fi
 
 if [ -s "$MAINDIR/fanboy-notifications.txt" ] && [ -s "$MAINDIR/fanboy-mobile-notifications.txt" ]; then
     # Remove the template file, top 14 lines.
+    # These files are used in the merged annoyances list
     sed '1,14d' $MAINDIR/fanboy-notifications.txt > $ANNOYDIR/fanboy-noti-clean.txt
 else
     echo "Either one or both files do not exist or are empty."
@@ -244,6 +257,7 @@ fi
 
 if [ -s "$MAINDIR/fanboy-agegate.txt" ] && [ -s "$MAINDIR/fanboy-agegate_abp.txt" ]; then
     # Remove the template file, top 13 lines.
+    # These files are used in the merged annoyances list
     sed '1,13d' $MAINDIR/fanboy-agegate.txt > $ANNOYDIR/fanboy-age_clean_ubo.txt
     sed '1,13d' $MAINDIR/fanboy-agegate_abp.txt > $ANNOYDIR/fanboy-age_clean_abp.txt
 else
@@ -255,12 +269,12 @@ fi
 ### uBO Annoyances combine
 cat $MAINDIR/fanboy-annoyance-template.txt $ANNOYDIR/fanboy_annoyance_general_block.txt $ANNOYDIR/fanboy_annoyance_general_hide.txt $ANNOYDIR/fanboy_annoyance_specific_block.txt $ANNOYDIR/fanboy_annoyance_thirdparty.txt \
     $ANNOYDIR/fanboy_annoyance_specific_hide.txt $ANNOYDIR/fanboy_annoyance_international.txt $ANNOYDIR/fanboy_annoyance_allowlist.txt $ANNOYDIR/fanboy_annoyance_allowlist_general_hide.txt $ANNOYDIR/fanboy_annoyance_allowlist.txt \
-    $ANNOYDIR/fanboy_annoyance_specific_uBO.txt $ANNOYDIR/social-clean_ubo.txt $ANNOYDIR/elc-clean_ubo.txt $ANNOYDIR/fanboy-noti-clean.txt $ANNOYDIR/fanboy-age_clean_ubo.txt > $ANNOYDIR/test.yxy41
+    $ANNOYDIR/fanboy_annoyance_specific_uBO.txt $ANNOYDIR/social-clean_ubo.txt $ANNOYDIR/elc-clean_ubo.txt $ANNOYDIR/fanboy-news-clean.txt $ANNOYDIR/fanboy-noti-clean.txt $ANNOYDIR/fanboy-age_clean_ubo.txt > $ANNOYDIR/test.yxy41
 
 ### ABP Annoyances combine
 cat $MAINDIR/fanboy-annoyance-template.txt $ANNOYDIR/fanboy_annoyance_general_block.txt $ANNOYDIR/fanboy_annoyance_general_hide.txt $ANNOYDIR/fanboy_annoyance_specific_block.txt $ANNOYDIR/fanboy_annoyance_thirdparty.txt \
     $ANNOYDIR/fanboy_annoyance_specific_hide.txt $ANNOYDIR/fanboy_annoyance_international.txt $ANNOYDIR/fanboy_annoyance_allowlist.txt $ANNOYDIR/fanboy_annoyance_allowlist_general_hide.txt $ANNOYDIR/fanboy_annoyance_allowlist.txt \
-    $ANNOYDIR/fanboy_annoyance_specific_ABP.txt $ANNOYDIR/social_clean_abp.txt $ANNOYDIR/elc-clean_abp.txt $ANNOYDIR/fanboy-noti-clean.txt $ANNOYDIR/fanboy-age_clean_abp.txt > $ANNOYDIR/test.yxy42
+    $ANNOYDIR/fanboy_annoyance_specific_ABP.txt $ANNOYDIR/social_clean_abp.txt $ANNOYDIR/elc-clean_abp.txt $ANNOYDIR/fanboy-news-abp-clean.txt $ANNOYDIR/fanboy-noti-clean.txt $ANNOYDIR/fanboy-age_clean_abp.txt > $ANNOYDIR/test.yxy42
     
 # Check $ANNOYDIR/test.yxy41 exists and not zero
 if [ ! -e "$ANNOYDIR/test.yxy41" ] || [ ! -s "$ANNOYDIR/test.yxy41" ]; then
