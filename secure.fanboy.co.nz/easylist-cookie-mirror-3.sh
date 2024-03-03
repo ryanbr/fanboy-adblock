@@ -109,12 +109,12 @@ echo "All specified files exist and have a size greater than 0 bytes."
 
 ## uBO
 cat $MAINDIR/easylist-cookie-template.txt $COOKDIR/easylist_cookie_general_block.txt $COOKDIR/easylist_cookie_general_hide.txt $COOKDIR/easylist_cookie_thirdparty.txt $COOKDIR/easylist_cookie_specific_block.txt $COOKDIR/easylist_cookie_specific_hide.txt \
-    $COOKDIR/easylist_cookie_international_specific_hide.txt $COOKDIR/easylist_cookie_international_specific_block.txt $COOKDIR/easylist_cookie_specific_uBO.txt $COOKDIR/easylist_cookie_international_specific_hide.txt \
+    $COOKDIR/easylist_cookie_international_specific_block.txt $COOKDIR/easylist_cookie_specific_uBO.txt $COOKDIR/easylist_cookie_international_specific_hide.txt \
     $COOKDIR/easylist_cookie_international_specific_block.txt $COOKDIR/easylist_cookie_allowlist_general_hide.txt $COOKDIR/easylist_cookie_allowlist.txt > $COOKDIR/easylist-cookie.txt
     
 ## ABP    
 cat $MAINDIR/easylist-cookie-template.txt $COOKDIR/easylist_cookie_general_block.txt $COOKDIR/easylist_cookie_general_hide.txt $COOKDIR/easylist_cookie_thirdparty.txt $COOKDIR/easylist_cookie_specific_block.txt $COOKDIR/easylist_cookie_specific_hide.txt \
-    $COOKDIR/easylist_cookie_specific_ABP.txt $COOKDIR/easylist_cookie_international_specific_hide.txt $COOKDIR/easylist_cookie_international_specific_block.txt $COOKDIR/easylist_cookie_international_specific_hide.txt \
+    $COOKDIR/easylist_cookie_specific_ABP.txt $COOKDIR/easylist_cookie_international_specific_hide.txt $COOKDIR/easylist_cookie_international_specific_block.txt \
     $COOKDIR/easylist_cookie_international_specific_block.txt $COOKDIR/easylist_cookie_allowlist_general_hide.txt $COOKDIR/easylist_cookie_allowlist.txt > $COOKDIR/easylist-cookie-abp.txt
 
 # Check $COOKDIR/easylist-cookie.txt exists and not zero
