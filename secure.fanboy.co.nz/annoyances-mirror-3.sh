@@ -268,12 +268,12 @@ fi
 
 ### uBO Annoyances combine
 cat $MAINDIR/fanboy-annoyance-template.txt $ANNOYDIR/fanboy_annoyance_general_block.txt $ANNOYDIR/fanboy_annoyance_general_hide.txt $ANNOYDIR/fanboy_annoyance_specific_block.txt $ANNOYDIR/fanboy_annoyance_thirdparty.txt \
-    $ANNOYDIR/fanboy_annoyance_specific_hide.txt $ANNOYDIR/fanboy_annoyance_international.txt $ANNOYDIR/fanboy_annoyance_allowlist.txt $ANNOYDIR/fanboy_annoyance_allowlist_general_hide.txt $ANNOYDIR/fanboy_annoyance_allowlist.txt \
+    $ANNOYDIR/fanboy_annoyance_specific_hide.txt $ANNOYDIR/fanboy_annoyance_international.txt $ANNOYDIR/fanboy_annoyance_allowlist.txt $ANNOYDIR/fanboy_annoyance_allowlist_general_hide.txt \
     $ANNOYDIR/fanboy_annoyance_specific_uBO.txt $ANNOYDIR/social-clean_ubo.txt $ANNOYDIR/elc-clean_ubo.txt $ANNOYDIR/fanboy-news-clean.txt $ANNOYDIR/fanboy-noti-clean.txt $ANNOYDIR/fanboy-age_clean_ubo.txt > $ANNOYDIR/test.yxy41
 
 ### ABP Annoyances combine
 cat $MAINDIR/fanboy-annoyance-template.txt $ANNOYDIR/fanboy_annoyance_general_block.txt $ANNOYDIR/fanboy_annoyance_general_hide.txt $ANNOYDIR/fanboy_annoyance_specific_block.txt $ANNOYDIR/fanboy_annoyance_thirdparty.txt \
-    $ANNOYDIR/fanboy_annoyance_specific_hide.txt $ANNOYDIR/fanboy_annoyance_international.txt $ANNOYDIR/fanboy_annoyance_allowlist.txt $ANNOYDIR/fanboy_annoyance_allowlist_general_hide.txt $ANNOYDIR/fanboy_annoyance_allowlist.txt \
+    $ANNOYDIR/fanboy_annoyance_specific_hide.txt $ANNOYDIR/fanboy_annoyance_international.txt $ANNOYDIR/fanboy_annoyance_allowlist.txt $ANNOYDIR/fanboy_annoyance_allowlist_general_hide.txt \
     $ANNOYDIR/fanboy_annoyance_specific_ABP.txt $ANNOYDIR/social_clean_abp.txt $ANNOYDIR/elc-clean_abp.txt $ANNOYDIR/fanboy-news-abp-clean.txt $ANNOYDIR/fanboy-noti-clean.txt $ANNOYDIR/fanboy-age_clean_abp.txt > $ANNOYDIR/test.yxy42
     
 # Check $ANNOYDIR/test.yxy41 exists and not zero
