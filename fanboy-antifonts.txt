@@ -73,6 +73,7 @@
 ! Causes too much false positives
 ! ||maxcdn.bootstrapcdn.com^*/fonts/
 !
+@@||use.fontawesome.com/releases/$stylesheet,domain=librewiki.net
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=help.typepad.com|regexpal.com|codedosa.com
 @@||fast.fonts.net/jsapi/$script
 @@||fonts.googleapis.com/css?$domain=android.com|tensorflow.org|fastcup.net|onlyfans.com|brave.com|google.com|translate.google.com.bd|translate.google.fr|translate.google.com.hk|translate.google.co.kr|translate.google.cn|translate.google.co.jp|translate.google.it|translate.google.de|translate.google.es|translate.google.pl|translate.google.co.id
