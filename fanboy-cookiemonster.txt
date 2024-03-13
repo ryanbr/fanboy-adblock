@@ -7666,7 +7666,6 @@ autotask.com##.alertbar
 babcockinternational.com###js-babcock-cookie-bar
 bankid.com,theonlinesurgery.co.uk,costaclub.com,hattrick.org,kenweego.com,linkedin.com,lonelyplanet.com,nature.com,netweather.tv,norwegian.com,viewsonic.com,viewsoniceurope.com##.alert
 bankofengland.co.uk##.container-notifications
-bbc.co.uk##.pulse-banner
 bbc.com##.domestic-header-wrapper
 belkin.com###pagebanner
 bell-labs.com,bigsocietycapital.com,cartoonnetwork.co.uk,eif.co.uk,integralmemory.com,juce.com,middleeasteye.net,parkinsons.org.uk,rmg.co.uk,thalesgroup.com,topuniversities.com,ucas.com###sliding-popup
